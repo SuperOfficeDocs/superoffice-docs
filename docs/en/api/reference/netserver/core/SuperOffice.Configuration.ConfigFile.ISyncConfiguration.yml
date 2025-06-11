@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISyncConfiguration
+  id: ConfigFile.ISyncConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsAbsoluteExpiration
+  - SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsSlidingExpiration
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.ISyncConfiguration
+  nameWithType: ConfigFile.ISyncConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISyncConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values related to SuperOffice Sync (i.e. qSoSync).\nCreated in Database scope\n"
+  syntax:
+    content: public interface ISyncConfiguration
+    content.vb: Public Interface ISyncConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.ISyncConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsSlidingExpiration
+  commentId: P:SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsSlidingExpiration
+  id: SettingsSlidingExpiration
+  parent: SuperOffice.Configuration.ConfigFile.ISyncConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SettingsSlidingExpiration
+  nameWithType: ConfigFile.ISyncConfiguration.SettingsSlidingExpiration
+  fullName: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsSlidingExpiration
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSettings related to synchronization are configured using the SoSyncAdmin client, stored in the SuperOffice database and internally in SoSync held in a cache.  This cache has two time-out values.  One of the values are related to the absolute expiry time after the value is inserted in the cache and the second relates to the expiry time since the value was last used.  This configuration value address the latter and refers to time since last used.  300 seconds is default value.\n"
+  syntax:
+    content: int SettingsSlidingExpiration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property SettingsSlidingExpiration As Integer
+  overload: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsSlidingExpiration*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsAbsoluteExpiration
+  commentId: P:SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsAbsoluteExpiration
+  id: SettingsAbsoluteExpiration
+  parent: SuperOffice.Configuration.ConfigFile.ISyncConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SettingsAbsoluteExpiration
+  nameWithType: ConfigFile.ISyncConfiguration.SettingsAbsoluteExpiration
+  fullName: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsAbsoluteExpiration
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSettings related to synchronization are configured using the SoSyncAdmin client, stored in the SuperOffice database and internally in SoSync held in a cache.  This cache has two time-out values.  One of the values are related to the absolute expiry time after the value is inserted in the cache and the second relates to the expiry time since the value was last used.  This configuration value address the first related to time since read from the database.  900 seconds is default value.\n"
+  syntax:
+    content: int SettingsAbsoluteExpiration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property SettingsAbsoluteExpiration As Integer
+  overload: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsAbsoluteExpiration*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.ISyncConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.ISyncConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.ISyncConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.ISyncConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.ISyncConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.ISyncConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.ISyncConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.ISyncConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.ISyncConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.ISyncConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.ISyncConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.ISyncConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.ISyncConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.ISyncConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.ISyncConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.ISyncConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.ISyncConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.ISyncConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.ISyncConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.ISyncConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.ISyncConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.ISyncConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.ISyncConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.ISyncConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsSlidingExpiration*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsSlidingExpiration
+  isExternal: true
+  name: SettingsSlidingExpiration
+  nameWithType: ConfigFile.ISyncConfiguration.SettingsSlidingExpiration
+  fullName: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsSlidingExpiration
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsAbsoluteExpiration*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsAbsoluteExpiration
+  isExternal: true
+  name: SettingsAbsoluteExpiration
+  nameWithType: ConfigFile.ISyncConfiguration.SettingsAbsoluteExpiration
+  fullName: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.SettingsAbsoluteExpiration

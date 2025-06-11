@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.UDDocLargeTableInfo})
   - SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo})
-  - SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDDocLargeRecordData)
-  - SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData})
+  - SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDDocLargeRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.UDDocLargeRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo})
+- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<UDDocLargeTableInfo>)
-  nameWithType: UDDocLargeRecordDataExtensions.FromSelect(TargetedSelect<UDDocLargeTableInfo>)
-  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.UDDocLargeTableInfo>)
+  name: FromSelectAsync(TargetedSelect<UDDocLargeTableInfo>, CancellationToken)
+  nameWithType: UDDocLargeRecordDataExtensions.FromSelectAsync(TargetedSelect<UDDocLargeTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.UDDocLargeTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<UDDocLargeRecordData> FromSelect(this TargetedSelect<UDDocLargeTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<UDDocLargeRecordData> FromSelectAsync(this TargetedSelect<UDDocLargeTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of UDDocLargeTableInfo)) As IEnumerable(Of UDDocLargeRecordData)
-  overload: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect*
-  nameWithType.vb: UDDocLargeRecordDataExtensions.FromSelect(TargetedSelect(Of UDDocLargeTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of UDDocLargeTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of UDDocLargeRecordData)
+  overload: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: UDDocLargeRecordDataExtensions.FromSelectAsync(TargetedSelect(Of UDDocLargeTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.UDDocLargeTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of UDDocLargeTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.UDDocLargeTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of UDDocLargeTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.UDDocLargeTableInfo})
   commentId: M:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.UDDocLargeTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.UDDocLargeTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.UDDocLargeTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of UDDocLargeTableInfo))
-- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDDocLargeRecordData)
-  commentId: M:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDDocLargeRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.UDDocLargeRecordData)
+- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDDocLargeRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDDocLargeRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.UDDocLargeRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(UDDocLargeRecordData)
-  nameWithType: UDDocLargeRecordDataExtensions.ToInsert(UDDocLargeRecordData)
-  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDDocLargeRecordData)
+  name: ToInsertAsync(UDDocLargeRecordData, CancellationToken)
+  nameWithType: UDDocLargeRecordDataExtensions.ToInsertAsync(UDDocLargeRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDDocLargeRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this UDDocLargeRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this UDDocLargeRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.UDDocLargeRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As UDDocLargeRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As UDDocLargeRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData})
-  commentId: M:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData})
+- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<UDDocLargeRecordData>)
-  nameWithType: UDDocLargeRecordDataExtensions.ToInserts(IEnumerable<UDDocLargeRecordData>)
-  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.UDDocLargeRecordData>)
+  name: ToInsertsAsync(IEnumerable<UDDocLargeRecordData>, CancellationToken)
+  nameWithType: UDDocLargeRecordDataExtensions.ToInsertsAsync(IEnumerable<UDDocLargeRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.UDDocLargeRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<UDDocLargeRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<UDDocLargeRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of UDDocLargeRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInserts*
-  nameWithType.vb: UDDocLargeRecordDataExtensions.ToInserts(IEnumerable(Of UDDocLargeRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of UDDocLargeRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: UDDocLargeRecordDataExtensions.ToInsertsAsync(IEnumerable(Of UDDocLargeRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.UDDocLargeRecordData))
-  name.vb: ToInserts(IEnumerable(Of UDDocLargeRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.UDDocLargeRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of UDDocLargeRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.UDDocLargeRow)
   commentId: M:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.UDDocLargeRow)
   id: ToRecordData(SuperOffice.CRM.Rows.UDDocLargeRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<UDDocLargeTableInfo>)
+  nameWithType: UDDocLargeRecordDataExtensions.FromSelect(TargetedSelect<UDDocLargeTableInfo>)
+  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.UDDocLargeTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;UDDocLargeTableInfo>, execute it and return an IEnumerable&lt;UDDocLargeRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<UDDocLargeRecordData> FromSelect(this TargetedSelect<UDDocLargeTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of UDDocLargeTableInfo)) As IEnumerable(Of UDDocLargeRecordData)
+  overload: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect*
+  nameWithType.vb: UDDocLargeRecordDataExtensions.FromSelect(TargetedSelect(Of UDDocLargeTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.UDDocLargeTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of UDDocLargeTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: UDDocLargeRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: UDDocLargeRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.UDDocLargeTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<UDDocLargeRecordData>
-  nameWithType: IEnumerable<UDDocLargeRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.UDDocLargeRecordData>
-  nameWithType.vb: IEnumerable(Of UDDocLargeRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.UDDocLargeRecordData)
-  name.vb: IEnumerable(Of UDDocLargeRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<UDDocLargeRecordData>
+  nameWithType: IAsyncEnumerable<UDDocLargeRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.UDDocLargeRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of UDDocLargeRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.UDDocLargeRecordData)
+  name.vb: IAsyncEnumerable(Of UDDocLargeRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: UDDocLargeRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: UDDocLargeRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: UDDocLargeRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: UDDocLargeRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.UDDocLargeRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<UDDocLargeRecordData>
+  nameWithType: IEnumerable<UDDocLargeRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.UDDocLargeRecordData>
+  nameWithType.vb: IEnumerable(Of UDDocLargeRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.UDDocLargeRecordData)
+  name.vb: IEnumerable(Of UDDocLargeRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.UDDocLargeRecordData
+    name: UDDocLargeRecordData
+    nameWithType: UDDocLargeRecordData
+    fullName: SuperOffice.CRM.Rows.UDDocLargeRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.UDDocLargeRecordData
+    name: UDDocLargeRecordData
+    nameWithType: UDDocLargeRecordData
+    fullName: SuperOffice.CRM.Rows.UDDocLargeRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: UDDocLargeRow
   nameWithType: UDDocLargeRow
   fullName: SuperOffice.CRM.Rows.UDDocLargeRow
+- uid: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: UDDocLargeRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.UDDocLargeRecordDataExtensions.FromSelect

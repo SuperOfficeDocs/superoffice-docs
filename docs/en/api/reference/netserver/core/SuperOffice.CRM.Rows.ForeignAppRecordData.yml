@@ -39,7 +39,7 @@ items:
   - SuperOffice.CRM.Rows.ForeignAppRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ForeignAppRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ForeignAppRecordData)
   - SuperOffice.CRM.Rows.ForeignAppRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ForeignAppRecordData.SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ForeignAppRecordData.SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ForeignAppRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -387,34 +387,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ForeignAppRecordData.SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignAppRecordData)
+- uid: SuperOffice.CRM.Rows.ForeignAppRecordData.SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignAppRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignAppRecordData)
-  name: ToInsert()
-  nameWithType: ForeignAppRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignAppRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ForeignAppRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ForeignAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ForeignAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ForeignAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ForeignAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -600,17 +610,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignAppRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignAppRecordData)
+- uid: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignAppRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignAppRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ForeignAppRecordData)
-  nameWithType: ForeignAppRecordDataExtensions.ToInsert(ForeignAppRecordData)
-  fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignAppRecordData)
+  name: ToInsertAsync(ForeignAppRecordData, CancellationToken)
+  nameWithType: ForeignAppRecordDataExtensions.ToInsertAsync(ForeignAppRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignAppRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignAppRecordData)
-    name: ToInsert
-    nameWithType: ForeignAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignAppRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ForeignAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -619,15 +629,23 @@ references:
     name: ForeignAppRecordData
     nameWithType: ForeignAppRecordData
     fullName: SuperOffice.CRM.Rows.ForeignAppRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignAppRecordData)
-    name: ToInsert
-    nameWithType: ForeignAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignAppRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ForeignAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ForeignAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -636,6 +654,14 @@ references:
     name: ForeignAppRecordData
     nameWithType: ForeignAppRecordData
     fullName: SuperOffice.CRM.Rows.ForeignAppRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

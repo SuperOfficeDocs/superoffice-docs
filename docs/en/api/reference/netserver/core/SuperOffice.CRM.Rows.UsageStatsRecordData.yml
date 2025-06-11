@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.UsageStatsRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.UsageStatsRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UsageStatsRecordData)
   - SuperOffice.CRM.Rows.UsageStatsRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.UsageStatsRecordData.SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.UsageStatsRecordData.SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.UsageStatsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.UsageStatsRecordData.SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UsageStatsRecordData)
+- uid: SuperOffice.CRM.Rows.UsageStatsRecordData.SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UsageStatsRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UsageStatsRecordData)
-  name: ToInsert()
-  nameWithType: UsageStatsRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UsageStatsRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: UsageStatsRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: UsageStatsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: UsageStatsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: UsageStatsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: UsageStatsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UsageStatsRecordData)
-  commentId: M:SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UsageStatsRecordData)
+- uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UsageStatsRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UsageStatsRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(UsageStatsRecordData)
-  nameWithType: UsageStatsRecordDataExtensions.ToInsert(UsageStatsRecordData)
-  fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UsageStatsRecordData)
+  name: ToInsertAsync(UsageStatsRecordData, CancellationToken)
+  nameWithType: UsageStatsRecordDataExtensions.ToInsertAsync(UsageStatsRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UsageStatsRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UsageStatsRecordData)
-    name: ToInsert
-    nameWithType: UsageStatsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UsageStatsRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: UsageStatsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: UsageStatsRecordData
     nameWithType: UsageStatsRecordData
     fullName: SuperOffice.CRM.Rows.UsageStatsRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UsageStatsRecordData)
-    name: ToInsert
-    nameWithType: UsageStatsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UsageStatsRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: UsageStatsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: UsageStatsRecordData
     nameWithType: UsageStatsRecordData
     fullName: SuperOffice.CRM.Rows.UsageStatsRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

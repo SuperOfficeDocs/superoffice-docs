@@ -45,7 +45,7 @@ items:
   - SuperOffice.CRM.Rows.AmountClassRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.AmountClassRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AmountClassRecordData)
   - SuperOffice.CRM.Rows.AmountClassRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.AmountClassRecordData.SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.AmountClassRecordData.SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.AmountClassRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -555,34 +555,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AmountClassRecordData.SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
+- uid: SuperOffice.CRM.Rows.AmountClassRecordData.SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
-  name: ToInsert()
-  nameWithType: AmountClassRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: AmountClassRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AmountClassRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AmountClassRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AmountClassRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AmountClassRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -768,17 +778,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
-  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
+- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(AmountClassRecordData)
-  nameWithType: AmountClassRecordDataExtensions.ToInsert(AmountClassRecordData)
-  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
+  name: ToInsertAsync(AmountClassRecordData, CancellationToken)
+  nameWithType: AmountClassRecordDataExtensions.ToInsertAsync(AmountClassRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
-    name: ToInsert
-    nameWithType: AmountClassRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AmountClassRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -787,15 +797,23 @@ references:
     name: AmountClassRecordData
     nameWithType: AmountClassRecordData
     fullName: SuperOffice.CRM.Rows.AmountClassRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
-    name: ToInsert
-    nameWithType: AmountClassRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AmountClassRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -804,6 +822,14 @@ references:
     name: AmountClassRecordData
     nameWithType: AmountClassRecordData
     fullName: SuperOffice.CRM.Rows.AmountClassRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

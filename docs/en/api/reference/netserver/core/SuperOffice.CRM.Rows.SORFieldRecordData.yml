@@ -60,7 +60,7 @@ items:
   - SuperOffice.CRM.Rows.SORFieldRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SORFieldRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SORFieldRecordData)
   - SuperOffice.CRM.Rows.SORFieldRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SORFieldRecordData.SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SORFieldRecordData.SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SORFieldRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -975,34 +975,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SORFieldRecordData.SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORFieldRecordData)
+- uid: SuperOffice.CRM.Rows.SORFieldRecordData.SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORFieldRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORFieldRecordData)
-  name: ToInsert()
-  nameWithType: SORFieldRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORFieldRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SORFieldRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SORFieldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORFieldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SORFieldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORFieldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1188,17 +1198,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORFieldRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORFieldRecordData)
+- uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORFieldRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORFieldRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SORFieldRecordData)
-  nameWithType: SORFieldRecordDataExtensions.ToInsert(SORFieldRecordData)
-  fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORFieldRecordData)
+  name: ToInsertAsync(SORFieldRecordData, CancellationToken)
+  nameWithType: SORFieldRecordDataExtensions.ToInsertAsync(SORFieldRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORFieldRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORFieldRecordData)
-    name: ToInsert
-    nameWithType: SORFieldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORFieldRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORFieldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1207,15 +1217,23 @@ references:
     name: SORFieldRecordData
     nameWithType: SORFieldRecordData
     fullName: SuperOffice.CRM.Rows.SORFieldRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORFieldRecordData)
-    name: ToInsert
-    nameWithType: SORFieldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORFieldRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORFieldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1224,6 +1242,14 @@ references:
     name: SORFieldRecordData
     nameWithType: SORFieldRecordData
     fullName: SuperOffice.CRM.Rows.SORFieldRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

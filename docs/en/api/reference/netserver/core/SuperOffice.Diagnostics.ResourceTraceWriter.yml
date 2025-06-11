@@ -21,28 +21,20 @@ items:
   - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
-    content: >-
-      [SoInject("Operation")]
-
-      public class ResourceTraceWriter : Object
+    content: 'public class ResourceTraceWriter : Object, IResourceTraceWriter'
     content.vb: >-
-      <SoInject("Operation")>
-
       Public Class ResourceTraceWriter
           Inherits Object
+          Implements IResourceTraceWriter
   inheritance:
   - System.Object
+  implements:
+  - SuperOffice.Diagnostics.IResourceTraceWriter
   extensionMethods:
   - SuperOffice.Diagnostics.ResourceTraceWriter.EnumUtil.MapEnums``2
   - SuperOffice.Diagnostics.ResourceTraceWriter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.ResourceTraceWriter)
   - SuperOffice.Diagnostics.ResourceTraceWriter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Diagnostics.ResourceTraceWriter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: SuperOffice.Factory.SoInjectAttribute
-    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Operation
   modifiers.csharp:
   - public
   - class
@@ -83,6 +75,8 @@ items:
       type: System.Int32
     content.vb: Public Sub RecordUsage(type As SoTimerType, category As String, getDescription As Func(Of String), clockTime As TimeSpan, cpuTime As TimeSpan, items As Integer)
   overload: SuperOffice.Diagnostics.ResourceTraceWriter.RecordUsage*
+  implements:
+  - SuperOffice.Diagnostics.IResourceTraceWriter.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
   nameWithType.vb: ResourceTraceWriter.RecordUsage(SoTimerType, String, Func(Of String), TimeSpan, TimeSpan, Int32)
   modifiers.csharp:
   - public
@@ -129,6 +123,13 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: SuperOffice.Diagnostics.IResourceTraceWriter
+  commentId: T:SuperOffice.Diagnostics.IResourceTraceWriter
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: IResourceTraceWriter
+  nameWithType: IResourceTraceWriter
+  fullName: SuperOffice.Diagnostics.IResourceTraceWriter
 - uid: SuperOffice.Diagnostics.ResourceTraceWriter.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -487,6 +488,152 @@ references:
   name: RecordUsage
   nameWithType: ResourceTraceWriter.RecordUsage
   fullName: SuperOffice.Diagnostics.ResourceTraceWriter.RecordUsage
+- uid: SuperOffice.Diagnostics.IResourceTraceWriter.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+  commentId: M:SuperOffice.Diagnostics.IResourceTraceWriter.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+  parent: SuperOffice.Diagnostics.IResourceTraceWriter
+  isExternal: true
+  name: RecordUsage(SoTimerType, String, Func<String>, TimeSpan, TimeSpan, Int32)
+  nameWithType: IResourceTraceWriter.RecordUsage(SoTimerType, String, Func<String>, TimeSpan, TimeSpan, Int32)
+  fullName: SuperOffice.Diagnostics.IResourceTraceWriter.RecordUsage(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>, System.TimeSpan, System.TimeSpan, System.Int32)
+  nameWithType.vb: IResourceTraceWriter.RecordUsage(SoTimerType, String, Func(Of String), TimeSpan, TimeSpan, Int32)
+  fullName.vb: SuperOffice.Diagnostics.IResourceTraceWriter.RecordUsage(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func(Of System.String), System.TimeSpan, System.TimeSpan, System.Int32)
+  name.vb: RecordUsage(SoTimerType, String, Func(Of String), TimeSpan, TimeSpan, Int32)
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.IResourceTraceWriter.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+    name: RecordUsage
+    nameWithType: IResourceTraceWriter.RecordUsage
+    fullName: SuperOffice.Diagnostics.IResourceTraceWriter.RecordUsage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.SoTimerType
+    name: SoTimerType
+    nameWithType: SoTimerType
+    fullName: SuperOffice.Diagnostics.SoTimerType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.IResourceTraceWriter.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+    name: RecordUsage
+    nameWithType: IResourceTraceWriter.RecordUsage
+    fullName: SuperOffice.Diagnostics.IResourceTraceWriter.RecordUsage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.SoTimerType
+    name: SoTimerType
+    nameWithType: SoTimerType
+    fullName: SuperOffice.Diagnostics.SoTimerType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Diagnostics.SoTimerType
   commentId: T:SuperOffice.Diagnostics.SoTimerType
   parent: SuperOffice.Diagnostics

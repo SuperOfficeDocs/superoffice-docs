@@ -32,8 +32,6 @@ items:
       Public Class ResourceOverride
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ResourceAgent
-    commentId: T:SuperOffice.CRM.Services.ResourceAgent
   - linkId: SuperOffice.CRM.Services.IResourceAgent
     commentId: T:SuperOffice.CRM.Services.IResourceAgent
   inheritance:
@@ -273,15 +271,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ResourceAgent
-  commentId: T:SuperOffice.CRM.Services.ResourceAgent
-  isExternal: true
-  name: ResourceAgent
-  nameWithType: ResourceAgent
-  fullName: SuperOffice.CRM.Services.ResourceAgent
 - uid: SuperOffice.CRM.Services.IResourceAgent
   commentId: T:SuperOffice.CRM.Services.IResourceAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IResourceAgent
   nameWithType: IResourceAgent

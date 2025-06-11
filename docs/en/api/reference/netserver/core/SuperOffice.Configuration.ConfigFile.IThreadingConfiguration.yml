@@ -1,0 +1,330 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
+  id: ConfigFile.IThreadingConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.DisableMultithreading
+  - SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.ForceMultithreading
+  - SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.MaxParellalThreads
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IThreadingConfiguration
+  nameWithType: ConfigFile.IThreadingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values related to threading.\nCreated in Process scope\n"
+  syntax:
+    content: public interface IThreadingConfiguration
+    content.vb: Public Interface IThreadingConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.MaxParellalThreads
+  commentId: P:SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.MaxParellalThreads
+  id: MaxParellalThreads
+  parent: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MaxParellalThreads
+  nameWithType: ConfigFile.IThreadingConfiguration.MaxParellalThreads
+  fullName: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.MaxParellalThreads
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nMax parallel operations that is permitted to be run in parallel.  -1 is infinite and 30 is default.\n"
+  syntax:
+    content: int MaxParellalThreads { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property MaxParellalThreads As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.MaxParellalThreads*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.DisableMultithreading
+  commentId: P:SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.DisableMultithreading
+  id: DisableMultithreading
+  parent: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DisableMultithreading
+  nameWithType: ConfigFile.IThreadingConfiguration.DisableMultithreading
+  fullName: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.DisableMultithreading
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\n\n"
+  syntax:
+    content: bool DisableMultithreading { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property DisableMultithreading As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.DisableMultithreading*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.ForceMultithreading
+  commentId: P:SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.ForceMultithreading
+  id: ForceMultithreading
+  parent: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ForceMultithreading
+  nameWithType: ConfigFile.IThreadingConfiguration.ForceMultithreading
+  fullName: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.ForceMultithreading
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\n\n"
+  syntax:
+    content: bool ForceMultithreading { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ForceMultithreading As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.ForceMultithreading*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IThreadingConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IThreadingConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IThreadingConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IThreadingConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IThreadingConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IThreadingConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IThreadingConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IThreadingConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IThreadingConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IThreadingConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IThreadingConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IThreadingConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IThreadingConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IThreadingConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IThreadingConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IThreadingConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IThreadingConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IThreadingConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IThreadingConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IThreadingConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IThreadingConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IThreadingConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IThreadingConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IThreadingConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.MaxParellalThreads*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.MaxParellalThreads
+  isExternal: true
+  name: MaxParellalThreads
+  nameWithType: ConfigFile.IThreadingConfiguration.MaxParellalThreads
+  fullName: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.MaxParellalThreads
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.DisableMultithreading*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.DisableMultithreading
+  isExternal: true
+  name: DisableMultithreading
+  nameWithType: ConfigFile.IThreadingConfiguration.DisableMultithreading
+  fullName: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.DisableMultithreading
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.ForceMultithreading*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.ForceMultithreading
+  isExternal: true
+  name: ForceMultithreading
+  nameWithType: ConfigFile.IThreadingConfiguration.ForceMultithreading
+  fullName: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.ForceMultithreading

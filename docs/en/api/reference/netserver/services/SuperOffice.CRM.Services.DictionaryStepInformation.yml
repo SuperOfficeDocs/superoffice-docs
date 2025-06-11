@@ -30,8 +30,6 @@ items:
       Public Class DictionaryStepInformation
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.DatabaseAgent
-    commentId: T:SuperOffice.CRM.Services.DatabaseAgent
   - linkId: SuperOffice.CRM.Services.IDatabaseAgent
     commentId: T:SuperOffice.CRM.Services.IDatabaseAgent
   inheritance:
@@ -205,15 +203,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.DatabaseAgent
-  commentId: T:SuperOffice.CRM.Services.DatabaseAgent
-  isExternal: true
-  name: DatabaseAgent
-  nameWithType: DatabaseAgent
-  fullName: SuperOffice.CRM.Services.DatabaseAgent
 - uid: SuperOffice.CRM.Services.IDatabaseAgent
   commentId: T:SuperOffice.CRM.Services.IDatabaseAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IDatabaseAgent
   nameWithType: IDatabaseAgent

@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.S.And(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction})
-  - SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.S.DeleteFromSelectAsync``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave,System.Threading.CancellationToken)
   - SuperOffice.Data.S.LookupSingleField``2(System.Func{``0,SuperOffice.Data.SQL.FieldInfo},System.Int32)
   - SuperOffice.Data.S.NewDelete
   - SuperOffice.Data.S.NewDelete(SuperOffice.Data.SQL.FieldInfo,System.Int32)
@@ -1258,16 +1258,16 @@ items:
   - Shared
   fullName.vb: SuperOffice.Data.S.NewDelete(Of TI)(System.Int32)
   name.vb: NewDelete(Of TI)(Int32)
-- uid: SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave)
-  id: DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.S.DeleteFromSelectAsync``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.S.DeleteFromSelectAsync``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave,System.Threading.CancellationToken)
+  id: DeleteFromSelectAsync``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave,System.Threading.CancellationToken)
   parent: SuperOffice.Data.S
   langs:
   - csharp
   - vb
-  name: DeleteFromSelect<TI>(TargetedSelect<TI>, BatchSave)
-  nameWithType: S.DeleteFromSelect<TI>(TargetedSelect<TI>, BatchSave)
-  fullName: SuperOffice.Data.S.DeleteFromSelect<TI>(SuperOffice.Data.SQL.TargetedSelect<TI>, SuperOffice.Data.SQL.BatchSave)
+  name: DeleteFromSelectAsync<TI>(TargetedSelect<TI>, BatchSave, CancellationToken)
+  nameWithType: S.DeleteFromSelectAsync<TI>(TargetedSelect<TI>, BatchSave, CancellationToken)
+  fullName: SuperOffice.Data.S.DeleteFromSelectAsync<TI>(SuperOffice.Data.SQL.TargetedSelect<TI>, SuperOffice.Data.SQL.BatchSave, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -1278,7 +1278,7 @@ items:
   summary: "\nEvaluate a <xref href=\"SuperOffice.Data.SQL.TargetedSelect%601\" data-throw-if-not-resolved=\"false\"></xref>, fetch primary keys, and generate a <xref href=\"SuperOffice.Data.SQL.BatchSave\" data-throw-if-not-resolved=\"false\"></xref> that contains delete&apos;s for each row\n"
   syntax:
     content: >-
-      public static BatchSave DeleteFromSelect<TI>(TargetedSelect<TI> select, BatchSave batch = null)
+      public static Task<BatchSave> DeleteFromSelectAsync<TI>(TargetedSelect<TI> select, BatchSave batch = null, CancellationToken cancellationToken = null)
           where TI : TableInfo
     parameters:
     - id: select
@@ -1286,21 +1286,23 @@ items:
     - id: batch
       type: SuperOffice.Data.SQL.BatchSave
       description: BatchSave to add deletes to
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     typeParameters:
     - id: TI
     return:
-      type: SuperOffice.Data.SQL.BatchSave
-    content.vb: Public Shared Function DeleteFromSelect(Of TI As TableInfo)(select As TargetedSelect(Of TI), batch As BatchSave = Nothing) As BatchSave
-  overload: SuperOffice.Data.S.DeleteFromSelect*
-  nameWithType.vb: S.DeleteFromSelect(Of TI)(TargetedSelect(Of TI), BatchSave)
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.BatchSave}
+    content.vb: Public Shared Function DeleteFromSelectAsync(Of TI As TableInfo)(select As TargetedSelect(Of TI), batch As BatchSave = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of BatchSave)
+  overload: SuperOffice.Data.S.DeleteFromSelectAsync*
+  nameWithType.vb: S.DeleteFromSelectAsync(Of TI)(TargetedSelect(Of TI), BatchSave, CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.Data.S.DeleteFromSelect(Of TI)(SuperOffice.Data.SQL.TargetedSelect(Of TI), SuperOffice.Data.SQL.BatchSave)
-  name.vb: DeleteFromSelect(Of TI)(TargetedSelect(Of TI), BatchSave)
+  fullName.vb: SuperOffice.Data.S.DeleteFromSelectAsync(Of TI)(SuperOffice.Data.SQL.TargetedSelect(Of TI), SuperOffice.Data.SQL.BatchSave, System.Threading.CancellationToken)
+  name.vb: DeleteFromSelectAsync(Of TI)(TargetedSelect(Of TI), BatchSave, CancellationToken)
 - uid: SuperOffice.Data.S.NewInsertFromSelect
   commentId: M:SuperOffice.Data.S.NewInsertFromSelect
   id: NewInsertFromSelect
@@ -2087,12 +2089,12 @@ references:
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
-- uid: SuperOffice.Data.S.DeleteFromSelect*
-  commentId: Overload:SuperOffice.Data.S.DeleteFromSelect
+- uid: SuperOffice.Data.S.DeleteFromSelectAsync*
+  commentId: Overload:SuperOffice.Data.S.DeleteFromSelectAsync
   isExternal: true
-  name: DeleteFromSelect
-  nameWithType: S.DeleteFromSelect
-  fullName: SuperOffice.Data.S.DeleteFromSelect
+  name: DeleteFromSelectAsync
+  nameWithType: S.DeleteFromSelectAsync
+  fullName: SuperOffice.Data.S.DeleteFromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{{TI}}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{``0}
   parent: SuperOffice.Data.SQL
@@ -2140,6 +2142,92 @@ references:
   name: BatchSave
   nameWithType: BatchSave
   fullName: SuperOffice.Data.SQL.BatchSave
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.BatchSave}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.BatchSave}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<BatchSave>
+  nameWithType: Task<BatchSave>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.BatchSave>
+  nameWithType.vb: Task(Of BatchSave)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.BatchSave)
+  name.vb: Task(Of BatchSave)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.S.NewInsertFromSelect*
   commentId: Overload:SuperOffice.Data.S.NewInsertFromSelect
   isExternal: true

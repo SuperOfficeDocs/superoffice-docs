@@ -50,8 +50,6 @@ items:
       Public Class BatchTaskInfo
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.BatchAgent
-    commentId: T:SuperOffice.CRM.Services.BatchAgent
   - linkId: SuperOffice.CRM.Services.IBatchAgent
     commentId: T:SuperOffice.CRM.Services.IBatchAgent
   inheritance:
@@ -885,15 +883,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.BatchAgent
-  commentId: T:SuperOffice.CRM.Services.BatchAgent
-  isExternal: true
-  name: BatchAgent
-  nameWithType: BatchAgent
-  fullName: SuperOffice.CRM.Services.BatchAgent
 - uid: SuperOffice.CRM.Services.IBatchAgent
   commentId: T:SuperOffice.CRM.Services.IBatchAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IBatchAgent
   nameWithType: IBatchAgent

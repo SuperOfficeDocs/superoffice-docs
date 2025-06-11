@@ -1,0 +1,673 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.IUdefPublishHelper
+  commentId: T:SuperOffice.Data.IUdefPublishHelper
+  id: IUdefPublishHelper
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.IUdefPublishHelper.ClearCachesAfterPublish
+  - SuperOffice.Data.IUdefPublishHelper.DetectChangesInPageOneFields(System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo},System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo},System.Int32)
+  - SuperOffice.Data.IUdefPublishHelper.DetectColumnIdChangesAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefPublishHelper.DetectUnpublishedChangesAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefPublishHelper.PublishAsync(SuperOffice.Data.UDefType,SuperOffice.Data.IProgressHandler)
+  - SuperOffice.Data.IUdefPublishHelper.PublishSmallChangesAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefPublishHelper.RemoveDuplicateFieldsAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefPublishHelper.RevertAsync(SuperOffice.Data.UDefType)
+  langs:
+  - csharp
+  - vb
+  name: IUdefPublishHelper
+  nameWithType: IUdefPublishHelper
+  fullName: SuperOffice.Data.IUdefPublishHelper
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public interface IUdefPublishHelper
+    content.vb: Public Interface IUdefPublishHelper
+  extensionMethods:
+  - SuperOffice.Data.IUdefPublishHelper.EnumUtil.MapEnums``2
+  - SuperOffice.Data.IUdefPublishHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.IUdefPublishHelper.ClearCachesAfterPublish
+  commentId: M:SuperOffice.Data.IUdefPublishHelper.ClearCachesAfterPublish
+  id: ClearCachesAfterPublish
+  parent: SuperOffice.Data.IUdefPublishHelper
+  langs:
+  - csharp
+  - vb
+  name: ClearCachesAfterPublish()
+  nameWithType: IUdefPublishHelper.ClearCachesAfterPublish()
+  fullName: SuperOffice.Data.IUdefPublishHelper.ClearCachesAfterPublish()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: void ClearCachesAfterPublish()
+    content.vb: Sub ClearCachesAfterPublish
+  overload: SuperOffice.Data.IUdefPublishHelper.ClearCachesAfterPublish*
+- uid: SuperOffice.Data.IUdefPublishHelper.DetectChangesInPageOneFields(System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo},System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo},System.Int32)
+  commentId: M:SuperOffice.Data.IUdefPublishHelper.DetectChangesInPageOneFields(System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo},System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo},System.Int32)
+  id: DetectChangesInPageOneFields(System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo},System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo},System.Int32)
+  parent: SuperOffice.Data.IUdefPublishHelper
+  langs:
+  - csharp
+  - vb
+  name: DetectChangesInPageOneFields(List<PageOneFieldInfo>, List<PageOneFieldInfo>, Int32)
+  nameWithType: IUdefPublishHelper.DetectChangesInPageOneFields(List<PageOneFieldInfo>, List<PageOneFieldInfo>, Int32)
+  fullName: SuperOffice.Data.IUdefPublishHelper.DetectChangesInPageOneFields(System.Collections.Generic.List<SuperOffice.Data.PageOneFieldInfo>, System.Collections.Generic.List<SuperOffice.Data.PageOneFieldInfo>, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: bool DetectChangesInPageOneFields(List<PageOneFieldInfo> adminPageOneFields, List<PageOneFieldInfo> currentPageOneFields, int lineNumber)
+    parameters:
+    - id: adminPageOneFields
+      type: System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo}
+    - id: currentPageOneFields
+      type: System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo}
+    - id: lineNumber
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function DetectChangesInPageOneFields(adminPageOneFields As List(Of PageOneFieldInfo), currentPageOneFields As List(Of PageOneFieldInfo), lineNumber As Integer) As Boolean
+  overload: SuperOffice.Data.IUdefPublishHelper.DetectChangesInPageOneFields*
+  nameWithType.vb: IUdefPublishHelper.DetectChangesInPageOneFields(List(Of PageOneFieldInfo), List(Of PageOneFieldInfo), Int32)
+  fullName.vb: SuperOffice.Data.IUdefPublishHelper.DetectChangesInPageOneFields(System.Collections.Generic.List(Of SuperOffice.Data.PageOneFieldInfo), System.Collections.Generic.List(Of SuperOffice.Data.PageOneFieldInfo), System.Int32)
+  name.vb: DetectChangesInPageOneFields(List(Of PageOneFieldInfo), List(Of PageOneFieldInfo), Int32)
+- uid: SuperOffice.Data.IUdefPublishHelper.DetectColumnIdChangesAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefPublishHelper.DetectColumnIdChangesAsync(SuperOffice.Data.UDefType)
+  id: DetectColumnIdChangesAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefPublishHelper
+  langs:
+  - csharp
+  - vb
+  name: DetectColumnIdChangesAsync(UDefType)
+  nameWithType: IUdefPublishHelper.DetectColumnIdChangesAsync(UDefType)
+  fullName: SuperOffice.Data.IUdefPublishHelper.DetectColumnIdChangesAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<bool> DetectColumnIdChangesAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function DetectColumnIdChangesAsync(type As UDefType) As Task(Of Boolean)
+  overload: SuperOffice.Data.IUdefPublishHelper.DetectColumnIdChangesAsync*
+- uid: SuperOffice.Data.IUdefPublishHelper.DetectUnpublishedChangesAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefPublishHelper.DetectUnpublishedChangesAsync(SuperOffice.Data.UDefType)
+  id: DetectUnpublishedChangesAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefPublishHelper
+  langs:
+  - csharp
+  - vb
+  name: DetectUnpublishedChangesAsync(UDefType)
+  nameWithType: IUdefPublishHelper.DetectUnpublishedChangesAsync(UDefType)
+  fullName: SuperOffice.Data.IUdefPublishHelper.DetectUnpublishedChangesAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<bool> DetectUnpublishedChangesAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function DetectUnpublishedChangesAsync(type As UDefType) As Task(Of Boolean)
+  overload: SuperOffice.Data.IUdefPublishHelper.DetectUnpublishedChangesAsync*
+- uid: SuperOffice.Data.IUdefPublishHelper.PublishAsync(SuperOffice.Data.UDefType,SuperOffice.Data.IProgressHandler)
+  commentId: M:SuperOffice.Data.IUdefPublishHelper.PublishAsync(SuperOffice.Data.UDefType,SuperOffice.Data.IProgressHandler)
+  id: PublishAsync(SuperOffice.Data.UDefType,SuperOffice.Data.IProgressHandler)
+  parent: SuperOffice.Data.IUdefPublishHelper
+  langs:
+  - csharp
+  - vb
+  name: PublishAsync(UDefType, IProgressHandler)
+  nameWithType: IUdefPublishHelper.PublishAsync(UDefType, IProgressHandler)
+  fullName: SuperOffice.Data.IUdefPublishHelper.PublishAsync(SuperOffice.Data.UDefType, SuperOffice.Data.IProgressHandler)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task PublishAsync(UDefType type, IProgressHandler progressHandler)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    - id: progressHandler
+      type: SuperOffice.Data.IProgressHandler
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function PublishAsync(type As UDefType, progressHandler As IProgressHandler) As Task
+  overload: SuperOffice.Data.IUdefPublishHelper.PublishAsync*
+- uid: SuperOffice.Data.IUdefPublishHelper.PublishSmallChangesAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefPublishHelper.PublishSmallChangesAsync(SuperOffice.Data.UDefType)
+  id: PublishSmallChangesAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefPublishHelper
+  langs:
+  - csharp
+  - vb
+  name: PublishSmallChangesAsync(UDefType)
+  nameWithType: IUdefPublishHelper.PublishSmallChangesAsync(UDefType)
+  fullName: SuperOffice.Data.IUdefPublishHelper.PublishSmallChangesAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task PublishSmallChangesAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function PublishSmallChangesAsync(type As UDefType) As Task
+  overload: SuperOffice.Data.IUdefPublishHelper.PublishSmallChangesAsync*
+- uid: SuperOffice.Data.IUdefPublishHelper.RevertAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefPublishHelper.RevertAsync(SuperOffice.Data.UDefType)
+  id: RevertAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefPublishHelper
+  langs:
+  - csharp
+  - vb
+  name: RevertAsync(UDefType)
+  nameWithType: IUdefPublishHelper.RevertAsync(UDefType)
+  fullName: SuperOffice.Data.IUdefPublishHelper.RevertAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task RevertAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RevertAsync(type As UDefType) As Task
+  overload: SuperOffice.Data.IUdefPublishHelper.RevertAsync*
+- uid: SuperOffice.Data.IUdefPublishHelper.RemoveDuplicateFieldsAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefPublishHelper.RemoveDuplicateFieldsAsync(SuperOffice.Data.UDefType)
+  id: RemoveDuplicateFieldsAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefPublishHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveDuplicateFieldsAsync(UDefType)
+  nameWithType: IUdefPublishHelper.RemoveDuplicateFieldsAsync(UDefType)
+  fullName: SuperOffice.Data.IUdefPublishHelper.RemoveDuplicateFieldsAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task RemoveDuplicateFieldsAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveDuplicateFieldsAsync(type As UDefType) As Task
+  overload: SuperOffice.Data.IUdefPublishHelper.RemoveDuplicateFieldsAsync*
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.IUdefPublishHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IUdefPublishHelper, To>()
+  nameWithType: EnumUtil.MapEnums<IUdefPublishHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.IUdefPublishHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IUdefPublishHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.IUdefPublishHelper, To)()
+  name.vb: MapEnums(Of IUdefPublishHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IUdefPublishHelper, To>
+    nameWithType: EnumUtil.MapEnums<IUdefPublishHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.IUdefPublishHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IUdefPublishHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of IUdefPublishHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.IUdefPublishHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IUdefPublishHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IUdefPublishHelper, To>()
+  nameWithType: Converters.MapEnums<IUdefPublishHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IUdefPublishHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of IUdefPublishHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IUdefPublishHelper, To)()
+  name.vb: MapEnums(Of IUdefPublishHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IUdefPublishHelper, To>
+    nameWithType: Converters.MapEnums<IUdefPublishHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IUdefPublishHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IUdefPublishHelper, To)
+    nameWithType: Converters.MapEnums(Of IUdefPublishHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IUdefPublishHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.IUdefPublishHelper.ClearCachesAfterPublish*
+  commentId: Overload:SuperOffice.Data.IUdefPublishHelper.ClearCachesAfterPublish
+  isExternal: true
+  name: ClearCachesAfterPublish
+  nameWithType: IUdefPublishHelper.ClearCachesAfterPublish
+  fullName: SuperOffice.Data.IUdefPublishHelper.ClearCachesAfterPublish
+- uid: SuperOffice.Data.IUdefPublishHelper.DetectChangesInPageOneFields*
+  commentId: Overload:SuperOffice.Data.IUdefPublishHelper.DetectChangesInPageOneFields
+  isExternal: true
+  name: DetectChangesInPageOneFields
+  nameWithType: IUdefPublishHelper.DetectChangesInPageOneFields
+  fullName: SuperOffice.Data.IUdefPublishHelper.DetectChangesInPageOneFields
+- uid: System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo}
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo}'
+  definition: System.Collections.Generic.List`1
+  name: List<PageOneFieldInfo>
+  nameWithType: List<PageOneFieldInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.Data.PageOneFieldInfo>
+  nameWithType.vb: List(Of PageOneFieldInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Data.PageOneFieldInfo)
+  name.vb: List(Of PageOneFieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.PageOneFieldInfo
+    name: PageOneFieldInfo
+    nameWithType: PageOneFieldInfo
+    fullName: SuperOffice.Data.PageOneFieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.PageOneFieldInfo
+    name: PageOneFieldInfo
+    nameWithType: PageOneFieldInfo
+    fullName: SuperOffice.Data.PageOneFieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.IUdefPublishHelper.DetectColumnIdChangesAsync*
+  commentId: Overload:SuperOffice.Data.IUdefPublishHelper.DetectColumnIdChangesAsync
+  isExternal: true
+  name: DetectColumnIdChangesAsync
+  nameWithType: IUdefPublishHelper.DetectColumnIdChangesAsync
+  fullName: SuperOffice.Data.IUdefPublishHelper.DetectColumnIdChangesAsync
+- uid: SuperOffice.Data.UDefType
+  commentId: T:SuperOffice.Data.UDefType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.Data.UDefType
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IUdefPublishHelper.DetectUnpublishedChangesAsync*
+  commentId: Overload:SuperOffice.Data.IUdefPublishHelper.DetectUnpublishedChangesAsync
+  isExternal: true
+  name: DetectUnpublishedChangesAsync
+  nameWithType: IUdefPublishHelper.DetectUnpublishedChangesAsync
+  fullName: SuperOffice.Data.IUdefPublishHelper.DetectUnpublishedChangesAsync
+- uid: SuperOffice.Data.IUdefPublishHelper.PublishAsync*
+  commentId: Overload:SuperOffice.Data.IUdefPublishHelper.PublishAsync
+  isExternal: true
+  name: PublishAsync
+  nameWithType: IUdefPublishHelper.PublishAsync
+  fullName: SuperOffice.Data.IUdefPublishHelper.PublishAsync
+- uid: SuperOffice.Data.IProgressHandler
+  commentId: T:SuperOffice.Data.IProgressHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IProgressHandler
+  nameWithType: IProgressHandler
+  fullName: SuperOffice.Data.IProgressHandler
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Data.IUdefPublishHelper.PublishSmallChangesAsync*
+  commentId: Overload:SuperOffice.Data.IUdefPublishHelper.PublishSmallChangesAsync
+  isExternal: true
+  name: PublishSmallChangesAsync
+  nameWithType: IUdefPublishHelper.PublishSmallChangesAsync
+  fullName: SuperOffice.Data.IUdefPublishHelper.PublishSmallChangesAsync
+- uid: SuperOffice.Data.IUdefPublishHelper.RevertAsync*
+  commentId: Overload:SuperOffice.Data.IUdefPublishHelper.RevertAsync
+  isExternal: true
+  name: RevertAsync
+  nameWithType: IUdefPublishHelper.RevertAsync
+  fullName: SuperOffice.Data.IUdefPublishHelper.RevertAsync
+- uid: SuperOffice.Data.IUdefPublishHelper.RemoveDuplicateFieldsAsync*
+  commentId: Overload:SuperOffice.Data.IUdefPublishHelper.RemoveDuplicateFieldsAsync
+  isExternal: true
+  name: RemoveDuplicateFieldsAsync
+  nameWithType: IUdefPublishHelper.RemoveDuplicateFieldsAsync
+  fullName: SuperOffice.Data.IUdefPublishHelper.RemoveDuplicateFieldsAsync

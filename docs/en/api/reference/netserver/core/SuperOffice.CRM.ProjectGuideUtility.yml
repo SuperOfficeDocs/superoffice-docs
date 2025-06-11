@@ -5,11 +5,11 @@ items:
   id: ProjectGuideUtility
   parent: SuperOffice.CRM
   children:
-  - SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  - SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
-  - SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
-  - SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32,System.Boolean)
-  - SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  - SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatusAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompletedAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -37,16 +37,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
-  commentId: M:SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
-  id: CalculateNextMilestoneDate(System.Int32)
+- uid: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  id: CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ProjectGuideUtility
   langs:
   - csharp
   - vb
-  name: CalculateNextMilestoneDate(Int32)
-  nameWithType: ProjectGuideUtility.CalculateNextMilestoneDate(Int32)
-  fullName: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
+  name: CalculateNextMilestoneDateAsync(Int32, CancellationToken)
+  nameWithType: ProjectGuideUtility.CalculateNextMilestoneDateAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDateAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -55,30 +55,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static NextDateInfo CalculateNextMilestoneDate(int projectId)
+    content: public static Task<NextDateInfo> CalculateNextMilestoneDateAsync(int projectId, CancellationToken cancellationToken = null)
     parameters:
     - id: projectId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.NextDateInfo
-    content.vb: Public Shared Function CalculateNextMilestoneDate(projectId As Integer) As NextDateInfo
-  overload: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+    content.vb: Public Shared Function CalculateNextMilestoneDateAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NextDateInfo)
+  overload: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDateAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
-  commentId: M:SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
-  id: GetNextMilestoneDate(System.Int32)
+- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ProjectGuideUtility
   langs:
   - csharp
   - vb
-  name: GetNextMilestoneDate(Int32)
-  nameWithType: ProjectGuideUtility.GetNextMilestoneDate(Int32)
-  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
+  name: GetNextMilestoneDateAsync(Int32, CancellationToken)
+  nameWithType: ProjectGuideUtility.GetNextMilestoneDateAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDateAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -87,30 +89,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static NextDateInfo GetNextMilestoneDate(int projectId)
+    content: public static Task<NextDateInfo> GetNextMilestoneDateAsync(int projectId, CancellationToken cancellationToken = null)
     parameters:
     - id: projectId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.NextDateInfo
-    content.vb: Public Shared Function GetNextMilestoneDate(projectId As Integer) As NextDateInfo
-  overload: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+    content.vb: Public Shared Function GetNextMilestoneDateAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NextDateInfo)
+  overload: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDateAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  id: BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+- uid: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  id: BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ProjectGuideUtility
   langs:
   - csharp
   - vb
-  name: BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: ProjectGuideUtility.BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  name: BatchUpdateNextMilestoneAsync(ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  nameWithType: ProjectGuideUtility.BatchUpdateNextMilestoneAsync(ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -119,30 +123,34 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void BatchUpdateNextMilestone(ProgressEstimateCallback estimateCB, ProgressStepCallback stepCB)
+    content: public static Task BatchUpdateNextMilestoneAsync(ProgressEstimateCallback estimateCB, ProgressStepCallback stepCB, CancellationToken cancellationToken = null)
     parameters:
     - id: estimateCB
       type: SuperOffice.CRM.ProgressEstimateCallback
     - id: stepCB
       type: SuperOffice.CRM.ProgressStepCallback
-    content.vb: Public Shared Sub BatchUpdateNextMilestone(estimateCB As ProgressEstimateCallback, stepCB As ProgressStepCallback)
-  overload: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function BatchUpdateNextMilestoneAsync(estimateCB As ProgressEstimateCallback, stepCB As ProgressStepCallback, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestoneAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
-  commentId: M:SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
-  id: OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+- uid: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompletedAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompletedAsync(System.Int32,System.Threading.CancellationToken)
+  id: OfferAutoNextStageOnApppointmentCompletedAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ProjectGuideUtility
   langs:
   - csharp
   - vb
-  name: OfferAutoNextStageOnApppointmentCompleted(Int32)
-  nameWithType: ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(Int32)
-  fullName: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  name: OfferAutoNextStageOnApppointmentCompletedAsync(Int32, CancellationToken)
+  nameWithType: ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompletedAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompletedAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -151,30 +159,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static bool OfferAutoNextStageOnApppointmentCompleted(int appointmentId)
+    content: public static Task<bool> OfferAutoNextStageOnApppointmentCompletedAsync(int appointmentId, CancellationToken cancellationToken = null)
     parameters:
     - id: appointmentId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function OfferAutoNextStageOnApppointmentCompleted(appointmentId As Integer) As Boolean
-  overload: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Shared Function OfferAutoNextStageOnApppointmentCompletedAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompletedAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32,System.Boolean)
-  id: GetNextProjectStatus(System.Int32,System.Boolean)
+- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatusAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatusAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: GetNextProjectStatusAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ProjectGuideUtility
   langs:
   - csharp
   - vb
-  name: GetNextProjectStatus(Int32, Boolean)
-  nameWithType: ProjectGuideUtility.GetNextProjectStatus(Int32, Boolean)
-  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32, System.Boolean)
+  name: GetNextProjectStatusAsync(Int32, Boolean, CancellationToken)
+  nameWithType: ProjectGuideUtility.GetNextProjectStatusAsync(Int32, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatusAsync(System.Int32, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,16 +193,18 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static int GetNextProjectStatus(int projectId, bool includeCurrentStatus)
+    content: public static Task<int> GetNextProjectStatusAsync(int projectId, bool includeCurrentStatus, CancellationToken cancellationToken = null)
     parameters:
     - id: projectId
       type: System.Int32
     - id: includeCurrentStatus
       type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function GetNextProjectStatus(projectId As Integer, includeCurrentStatus As Boolean) As Integer
-  overload: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function GetNextProjectStatusAsync(projectId As Integer, includeCurrentStatus As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatusAsync*
   modifiers.csharp:
   - public
   - static
@@ -219,12 +231,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate*
-  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate
+- uid: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDateAsync*
+  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDateAsync
   isExternal: true
-  name: CalculateNextMilestoneDate
-  nameWithType: ProjectGuideUtility.CalculateNextMilestoneDate
-  fullName: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate
+  name: CalculateNextMilestoneDateAsync
+  nameWithType: ProjectGuideUtility.CalculateNextMilestoneDateAsync
+  fullName: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDateAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -232,25 +244,104 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.NextDateInfo
-  commentId: T:SuperOffice.CRM.NextDateInfo
-  parent: SuperOffice.CRM
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: NextDateInfo
-  nameWithType: NextDateInfo
-  fullName: SuperOffice.CRM.NextDateInfo
-- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate*
-  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<NextDateInfo>
+  nameWithType: Task<NextDateInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.NextDateInfo>
+  nameWithType.vb: Task(Of NextDateInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.NextDateInfo)
+  name.vb: Task(Of NextDateInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.NextDateInfo
+    name: NextDateInfo
+    nameWithType: NextDateInfo
+    fullName: SuperOffice.CRM.NextDateInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.NextDateInfo
+    name: NextDateInfo
+    nameWithType: NextDateInfo
+    fullName: SuperOffice.CRM.NextDateInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: GetNextMilestoneDate
-  nameWithType: ProjectGuideUtility.GetNextMilestoneDate
-  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate
-- uid: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone*
-  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDateAsync*
+  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDateAsync
   isExternal: true
-  name: BatchUpdateNextMilestone
-  nameWithType: ProjectGuideUtility.BatchUpdateNextMilestone
-  fullName: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone
+  name: GetNextMilestoneDateAsync
+  nameWithType: ProjectGuideUtility.GetNextMilestoneDateAsync
+  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDateAsync
+- uid: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestoneAsync*
+  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestoneAsync
+  isExternal: true
+  name: BatchUpdateNextMilestoneAsync
+  nameWithType: ProjectGuideUtility.BatchUpdateNextMilestoneAsync
+  fullName: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestoneAsync
 - uid: SuperOffice.CRM.ProgressEstimateCallback
   commentId: T:SuperOffice.CRM.ProgressEstimateCallback
   parent: SuperOffice.CRM
@@ -265,12 +356,66 @@ references:
   name: ProgressStepCallback
   nameWithType: ProgressStepCallback
   fullName: SuperOffice.CRM.ProgressStepCallback
-- uid: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted*
-  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: OfferAutoNextStageOnApppointmentCompleted
-  nameWithType: ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted
-  fullName: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompletedAsync*
+  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompletedAsync
+  isExternal: true
+  name: OfferAutoNextStageOnApppointmentCompletedAsync
+  nameWithType: ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompletedAsync
+  fullName: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompletedAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatusAsync*
+  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatusAsync
+  isExternal: true
+  name: GetNextProjectStatusAsync
+  nameWithType: ProjectGuideUtility.GetNextProjectStatusAsync
+  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatusAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -278,9 +423,46 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus*
-  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus
-  isExternal: true
-  name: GetNextProjectStatus
-  nameWithType: ProjectGuideUtility.GetNextProjectStatus
-  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

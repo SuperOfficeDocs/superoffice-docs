@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.SmsHysteriaRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SmsHysteriaRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SmsHysteriaRecordData)
   - SuperOffice.CRM.Rows.SmsHysteriaRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SmsHysteriaRecordData.SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SmsHysteriaRecordData.SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SmsHysteriaRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SmsHysteriaRecordData.SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SmsHysteriaRecordData)
+- uid: SuperOffice.CRM.Rows.SmsHysteriaRecordData.SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SmsHysteriaRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SmsHysteriaRecordData)
-  name: ToInsert()
-  nameWithType: SmsHysteriaRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SmsHysteriaRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SmsHysteriaRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SmsHysteriaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SmsHysteriaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SmsHysteriaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SmsHysteriaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SmsHysteriaRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SmsHysteriaRecordData)
+- uid: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SmsHysteriaRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SmsHysteriaRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SmsHysteriaRecordData)
-  nameWithType: SmsHysteriaRecordDataExtensions.ToInsert(SmsHysteriaRecordData)
-  fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SmsHysteriaRecordData)
+  name: ToInsertAsync(SmsHysteriaRecordData, CancellationToken)
+  nameWithType: SmsHysteriaRecordDataExtensions.ToInsertAsync(SmsHysteriaRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SmsHysteriaRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SmsHysteriaRecordData)
-    name: ToInsert
-    nameWithType: SmsHysteriaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SmsHysteriaRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SmsHysteriaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: SmsHysteriaRecordData
     nameWithType: SmsHysteriaRecordData
     fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SmsHysteriaRecordData)
-    name: ToInsert
-    nameWithType: SmsHysteriaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SmsHysteriaRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SmsHysteriaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: SmsHysteriaRecordData
     nameWithType: SmsHysteriaRecordData
     fullName: SuperOffice.CRM.Rows.SmsHysteriaRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

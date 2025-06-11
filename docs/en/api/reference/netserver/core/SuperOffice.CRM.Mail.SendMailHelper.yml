@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Mail.SendMailHelper.#ctor
   - SuperOffice.CRM.Mail.SendMailHelper.GenerateRfc822(System.String,System.String,System.String,System.String,System.String,System.String)
-  - SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutbox(System.String,System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutboxAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -40,16 +40,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutbox(System.String,System.String,System.String,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutbox(System.String,System.String,System.String,System.String,System.String,System.String)
-  id: PlaceInOutbox(System.String,System.String,System.String,System.String,System.String,System.String)
+- uid: SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutboxAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutboxAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: PlaceInOutboxAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.SendMailHelper
   langs:
   - csharp
   - vb
-  name: PlaceInOutbox(String, String, String, String, String, String)
-  nameWithType: SendMailHelper.PlaceInOutbox(String, String, String, String, String, String)
-  fullName: SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutbox(System.String, System.String, System.String, System.String, System.String, System.String)
+  name: PlaceInOutboxAsync(String, String, String, String, String, String, CancellationToken)
+  nameWithType: SendMailHelper.PlaceInOutboxAsync(String, String, String, String, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutboxAsync(System.String, System.String, System.String, System.String, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -59,7 +59,7 @@ items:
   namespace: SuperOffice.CRM.Mail
   summary: "\nCreates an outbox row representing a simple e-mail with one recipient\n"
   syntax:
-    content: public static string PlaceInOutbox(string fromAddress, string toAddress, string subject, string plainBody, string htmlBody, string tag)
+    content: public static Task<string> PlaceInOutboxAsync(string fromAddress, string toAddress, string subject, string plainBody, string htmlBody, string tag, CancellationToken cancellationToken = null)
     parameters:
     - id: fromAddress
       type: System.String
@@ -79,11 +79,13 @@ items:
     - id: tag
       type: System.String
       description: Category tag for classifying outgoing mail
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: RFC822 content
-    content.vb: Public Shared Function PlaceInOutbox(fromAddress As String, toAddress As String, subject As String, plainBody As String, htmlBody As String, tag As String) As String
-  overload: SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutbox*
+    content.vb: Public Shared Function PlaceInOutboxAsync(fromAddress As String, toAddress As String, subject As String, plainBody As String, htmlBody As String, tag As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutboxAsync*
   modifiers.csharp:
   - public
   - static
@@ -531,12 +533,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutbox*
-  commentId: Overload:SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutbox
+- uid: SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutboxAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutboxAsync
   isExternal: true
-  name: PlaceInOutbox
-  nameWithType: SendMailHelper.PlaceInOutbox
-  fullName: SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutbox
+  name: PlaceInOutboxAsync
+  nameWithType: SendMailHelper.PlaceInOutboxAsync
+  fullName: SuperOffice.CRM.Mail.SendMailHelper.PlaceInOutboxAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -544,6 +546,92 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.SendMailHelper.GenerateRfc822*
   commentId: Overload:SuperOffice.CRM.Mail.SendMailHelper.GenerateRfc822
   isExternal: true

@@ -31,8 +31,6 @@ items:
       Public Class DataRights
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.UserAgent
-    commentId: T:SuperOffice.CRM.Services.UserAgent
   - linkId: SuperOffice.CRM.Services.IUserAgent
     commentId: T:SuperOffice.CRM.Services.IUserAgent
   inheritance:
@@ -239,15 +237,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.UserAgent
-  commentId: T:SuperOffice.CRM.Services.UserAgent
-  isExternal: true
-  name: UserAgent
-  nameWithType: UserAgent
-  fullName: SuperOffice.CRM.Services.UserAgent
 - uid: SuperOffice.CRM.Services.IUserAgent
   commentId: T:SuperOffice.CRM.Services.IUserAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IUserAgent
   nameWithType: IUserAgent

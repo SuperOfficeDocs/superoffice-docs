@@ -5,34 +5,34 @@ items:
   id: ICRMScriptAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
-  - SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
-  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent(System.Int32,SuperOffice.CRM.Services.EventData)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(System.String,SuperOffice.CRM.Services.EventData)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId(System.String,SuperOffice.CRM.Services.StringDictionary)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString(System.String)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId(System.String)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
-  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventAsync(System.Int32,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync(System.String,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsync(System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeIdAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByStringAsync(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueIdAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync(System.String,SuperOffice.CRM.Services.Script,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueIdAsync(System.String,SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeIdAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByStringAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -73,16 +73,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
-  id: CreateDefaultCRMScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultCRMScriptEntity()
-  nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntity()
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity()
+  name: CreateDefaultCRMScriptEntityAsync(CancellationToken)
+  nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -92,22 +92,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLoading default values into a new CRMScriptEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptEntity CreateDefaultCRMScriptEntity()
+    content: Task<CRMScriptEntity> CreateDefaultCRMScriptEntityAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
       description: New CRMScriptEntity with default values
-    content.vb: Function CreateDefaultCRMScriptEntity As CRMScriptEntity
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
-  id: SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+    content.vb: Function CreateDefaultCRMScriptEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptEntity)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  id: SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: SaveCRMScriptEntity(CRMScriptEntity)
-  nameWithType: ICRMScriptAgent.SaveCRMScriptEntity(CRMScriptEntity)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  name: SaveCRMScriptEntityAsync(CRMScriptEntity, CancellationToken)
+  nameWithType: ICRMScriptAgent.SaveCRMScriptEntityAsync(CRMScriptEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -117,26 +120,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nUpdates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptEntity SaveCRMScriptEntity(CRMScriptEntity cRMScriptEntity)
+    content: Task<CRMScriptEntity> SaveCRMScriptEntityAsync(CRMScriptEntity cRMScriptEntity, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptEntity
       type: SuperOffice.CRM.Services.CRMScriptEntity
       description: The CRMScriptEntity that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
       description: New or updated CRMScriptEntity
-    content.vb: Function SaveCRMScriptEntity(cRMScriptEntity As CRMScriptEntity) As CRMScriptEntity
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
-  id: DeleteCRMScriptEntity(System.Int32)
+    content.vb: Function SaveCRMScriptEntityAsync(cRMScriptEntity As CRMScriptEntity, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptEntity)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: DeleteCRMScriptEntity(Int32)
-  nameWithType: ICRMScriptAgent.DeleteCRMScriptEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+  name: DeleteCRMScriptEntityAsync(Int32, CancellationToken)
+  nameWithType: ICRMScriptAgent.DeleteCRMScriptEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -146,23 +151,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDeletes the CRMScriptEntity\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: void DeleteCRMScriptEntity(int cRMScriptEntityId)
+    content: Task DeleteCRMScriptEntityAsync(int cRMScriptEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptEntityId
       type: System.Int32
       description: The identity of the CRMScriptEntity
-    content.vb: Sub DeleteCRMScriptEntity(cRMScriptEntityId As Integer)
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
-  id: CreateDefaultTriggerScriptEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteCRMScriptEntityAsync(cRMScriptEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTriggerScriptEntity()
-  nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntity()
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity()
+  name: CreateDefaultTriggerScriptEntityAsync(CancellationToken)
+  nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -172,22 +181,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLoading default values into a new TriggerScriptEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: TriggerScriptEntity CreateDefaultTriggerScriptEntity()
+    content: Task<TriggerScriptEntity> CreateDefaultTriggerScriptEntityAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
       description: New TriggerScriptEntity with default values
-    content.vb: Function CreateDefaultTriggerScriptEntity As TriggerScriptEntity
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
-  id: SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+    content.vb: Function CreateDefaultTriggerScriptEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TriggerScriptEntity)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  id: SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: SaveTriggerScriptEntity(TriggerScriptEntity)
-  nameWithType: ICRMScriptAgent.SaveTriggerScriptEntity(TriggerScriptEntity)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+  name: SaveTriggerScriptEntityAsync(TriggerScriptEntity, CancellationToken)
+  nameWithType: ICRMScriptAgent.SaveTriggerScriptEntityAsync(TriggerScriptEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -197,26 +209,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nUpdates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: TriggerScriptEntity SaveTriggerScriptEntity(TriggerScriptEntity triggerScriptEntity)
+    content: Task<TriggerScriptEntity> SaveTriggerScriptEntityAsync(TriggerScriptEntity triggerScriptEntity, CancellationToken cancellationToken = null)
     parameters:
     - id: triggerScriptEntity
       type: SuperOffice.CRM.Services.TriggerScriptEntity
       description: The TriggerScriptEntity that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
       description: New or updated TriggerScriptEntity
-    content.vb: Function SaveTriggerScriptEntity(triggerScriptEntity As TriggerScriptEntity) As TriggerScriptEntity
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
-  id: DeleteTriggerScriptEntity(System.Int32)
+    content.vb: Function SaveTriggerScriptEntityAsync(triggerScriptEntity As TriggerScriptEntity, cancellationToken As CancellationToken = Nothing) As Task(Of TriggerScriptEntity)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: DeleteTriggerScriptEntity(Int32)
-  nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+  name: DeleteTriggerScriptEntityAsync(Int32, CancellationToken)
+  nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -226,23 +240,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDeletes the TriggerScriptEntity\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: void DeleteTriggerScriptEntity(int triggerScriptEntityId)
+    content: Task DeleteTriggerScriptEntityAsync(int triggerScriptEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: triggerScriptEntityId
       type: System.Int32
       description: The identity of the TriggerScriptEntity
-    content.vb: Sub DeleteTriggerScriptEntity(triggerScriptEntityId As Integer)
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
-  id: GetCRMScriptByUniqueIdentifier(System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteTriggerScriptEntityAsync(triggerScriptEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
+  id: GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: GetCRMScriptByUniqueIdentifier(String)
-  nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(String)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+  name: GetCRMScriptByUniqueIdentifierAsync(String, CancellationToken)
+  nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -252,26 +270,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet information about a script from a unique identifier\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: Script GetCRMScriptByUniqueIdentifier(string uniqueIdentifier)
+    content: Task<Script> GetCRMScriptByUniqueIdentifierAsync(string uniqueIdentifier, CancellationToken cancellationToken = null)
     parameters:
     - id: uniqueIdentifier
       type: System.String
       description: Global unique reference to script (independent of installation)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Script
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Script}
       description: Information about CRMScript
-    content.vb: Function GetCRMScriptByUniqueIdentifier(uniqueIdentifier As String) As Script
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
-  id: SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
+    content.vb: Function GetCRMScriptByUniqueIdentifierAsync(uniqueIdentifier As String, cancellationToken As CancellationToken = Nothing) As Task(Of Script)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync(System.String,SuperOffice.CRM.Services.Script,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync(System.String,SuperOffice.CRM.Services.Script,System.Threading.CancellationToken)
+  id: SaveCRMScriptByUniqueIdentifierAsync(System.String,SuperOffice.CRM.Services.Script,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: SaveCRMScriptByUniqueIdentifier(String, Script)
-  nameWithType: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(String, Script)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String, SuperOffice.CRM.Services.Script)
+  name: SaveCRMScriptByUniqueIdentifierAsync(String, Script, CancellationToken)
+  nameWithType: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync(String, Script, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync(System.String, SuperOffice.CRM.Services.Script, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -281,7 +301,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCreate or Update the CRMScript information\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: Script SaveCRMScriptByUniqueIdentifier(string uniqueIdentifier, Script crmscript)
+    content: Task<Script> SaveCRMScriptByUniqueIdentifierAsync(string uniqueIdentifier, Script crmscript, CancellationToken cancellationToken = null)
     parameters:
     - id: uniqueIdentifier
       type: System.String
@@ -289,21 +309,23 @@ items:
     - id: crmscript
       type: SuperOffice.CRM.Services.Script
       description: Information about the CRMScript
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Script
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Script}
       description: Information about the CRMScript as saved in the database
-    content.vb: Function SaveCRMScriptByUniqueIdentifier(uniqueIdentifier As String, crmscript As Script) As Script
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
-  id: DeleteCRMScriptByUniqueIdentifier(System.String)
+    content.vb: Function SaveCRMScriptByUniqueIdentifierAsync(uniqueIdentifier As String, crmscript As Script, cancellationToken As CancellationToken = Nothing) As Task(Of Script)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
+  id: DeleteCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: DeleteCRMScriptByUniqueIdentifier(String)
-  nameWithType: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(String)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+  name: DeleteCRMScriptByUniqueIdentifierAsync(String, CancellationToken)
+  nameWithType: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -313,23 +335,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDelete the CRMScript\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: void DeleteCRMScriptByUniqueIdentifier(string uniqueIdentifier)
+    content: Task DeleteCRMScriptByUniqueIdentifierAsync(string uniqueIdentifier, CancellationToken cancellationToken = null)
     parameters:
     - id: uniqueIdentifier
       type: System.String
       description: Global unique reference to script (independent of installation)
-    content.vb: Sub DeleteCRMScriptByUniqueIdentifier(uniqueIdentifier As String)
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
-  id: GetCRMScriptEntity(System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteCRMScriptByUniqueIdentifierAsync(uniqueIdentifier As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: GetCRMScriptEntity(Int32)
-  nameWithType: ICRMScriptAgent.GetCRMScriptEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
+  name: GetCRMScriptEntityAsync(Int32, CancellationToken)
+  nameWithType: ICRMScriptAgent.GetCRMScriptEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -339,26 +366,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets a CRMScriptEntity object.                        \n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptEntity GetCRMScriptEntity(int cRMScriptEntityId)
+    content: Task<CRMScriptEntity> GetCRMScriptEntityAsync(int cRMScriptEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptEntityId
       type: System.Int32
       description: The identifier of the CRMScriptEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
       description: CRMScriptEntity
-    content.vb: Function GetCRMScriptEntity(cRMScriptEntityId As Integer) As CRMScriptEntity
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
-  id: SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+    content.vb: Function GetCRMScriptEntityAsync(cRMScriptEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptEntity)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntityAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  id: SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: SaveCRMScriptEntityWithoutCompile(CRMScriptEntity)
-  nameWithType: ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(CRMScriptEntity)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+  name: SaveCRMScriptEntityWithoutCompileAsync(CRMScriptEntity, CancellationToken)
+  nameWithType: ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(CRMScriptEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.CRM.Services.CRMScriptEntity, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -368,26 +397,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSave the script directly without compiling TypeScript\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptEntity SaveCRMScriptEntityWithoutCompile(CRMScriptEntity crmScriptEntity)
+    content: Task<CRMScriptEntity> SaveCRMScriptEntityWithoutCompileAsync(CRMScriptEntity crmScriptEntity, CancellationToken cancellationToken = null)
     parameters:
     - id: crmScriptEntity
       type: SuperOffice.CRM.Services.CRMScriptEntity
       description: The entity to save. Source and SourceCode should both be specified
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
       description: The saved entity
-    content.vb: Function SaveCRMScriptEntityWithoutCompile(crmScriptEntity As CRMScriptEntity) As CRMScriptEntity
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
-  id: ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
+    content.vb: Function SaveCRMScriptEntityWithoutCompileAsync(crmScriptEntity As CRMScriptEntity, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptEntity)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsync(System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsync(System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  id: ExecuteScriptAsync(System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ExecuteScript(Int32, StringDictionary)
-  nameWithType: ICRMScriptAgent.ExecuteScript(Int32, StringDictionary)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32, SuperOffice.CRM.Services.StringDictionary)
+  name: ExecuteScriptAsync(Int32, StringDictionary, CancellationToken)
+  nameWithType: ICRMScriptAgent.ExecuteScriptAsync(Int32, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsync(System.Int32, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -397,7 +428,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nExecute a CRMScript with parameters, returning printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: string ExecuteScript(int cRMScriptId, StringDictionary parameters)
+    content: Task<string> ExecuteScriptAsync(int cRMScriptId, StringDictionary parameters, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptId
       type: System.Int32
@@ -405,21 +436,23 @@ items:
     - id: parameters
       type: SuperOffice.CRM.Services.StringDictionary
       description: Parameters passed as variables to the CRMScript
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: The output produced by the CRMScript
-    content.vb: Function ExecuteScript(cRMScriptId As Integer, parameters As StringDictionary) As String
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
-  id: ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
+    content.vb: Function ExecuteScriptAsync(cRMScriptId As Integer, parameters As StringDictionary, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeIdAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeIdAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  id: ExecuteScriptByIncludeIdAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ExecuteScriptByIncludeId(String, StringDictionary)
-  nameWithType: ICRMScriptAgent.ExecuteScriptByIncludeId(String, StringDictionary)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String, SuperOffice.CRM.Services.StringDictionary)
+  name: ExecuteScriptByIncludeIdAsync(String, StringDictionary, CancellationToken)
+  nameWithType: ICRMScriptAgent.ExecuteScriptByIncludeIdAsync(String, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeIdAsync(System.String, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -429,7 +462,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nExecute a CRMScript with parameters, returning printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: string ExecuteScriptByIncludeId(string cRMScriptIncludeId, StringDictionary parameters)
+    content: Task<string> ExecuteScriptByIncludeIdAsync(string cRMScriptIncludeId, StringDictionary parameters, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptIncludeId
       type: System.String
@@ -437,21 +470,23 @@ items:
     - id: parameters
       type: SuperOffice.CRM.Services.StringDictionary
       description: Parameters passed as variables to the CRMScript
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: The output produced by the CRMScript
-    content.vb: Function ExecuteScriptByIncludeId(cRMScriptIncludeId As String, parameters As StringDictionary) As String
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId(System.String,SuperOffice.CRM.Services.StringDictionary)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId(System.String,SuperOffice.CRM.Services.StringDictionary)
-  id: ExecuteScriptByUniqueId(System.String,SuperOffice.CRM.Services.StringDictionary)
+    content.vb: Function ExecuteScriptByIncludeIdAsync(cRMScriptIncludeId As String, parameters As StringDictionary, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeIdAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueIdAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueIdAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  id: ExecuteScriptByUniqueIdAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ExecuteScriptByUniqueId(String, StringDictionary)
-  nameWithType: ICRMScriptAgent.ExecuteScriptByUniqueId(String, StringDictionary)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId(System.String, SuperOffice.CRM.Services.StringDictionary)
+  name: ExecuteScriptByUniqueIdAsync(String, StringDictionary, CancellationToken)
+  nameWithType: ICRMScriptAgent.ExecuteScriptByUniqueIdAsync(String, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueIdAsync(System.String, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -461,7 +496,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nExecute a CRMScript with parameters, returning printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: string ExecuteScriptByUniqueId(string cRMScriptUniqueId, StringDictionary parameters)
+    content: Task<string> ExecuteScriptByUniqueIdAsync(string cRMScriptUniqueId, StringDictionary parameters, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptUniqueId
       type: System.String
@@ -469,21 +504,23 @@ items:
     - id: parameters
       type: SuperOffice.CRM.Services.StringDictionary
       description: Parameters passed as variables to the CRMScript
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: The output produced by the CRMScript
-    content.vb: Function ExecuteScriptByUniqueId(cRMScriptUniqueId As String, parameters As StringDictionary) As String
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent(System.Int32,SuperOffice.CRM.Services.EventData)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent(System.Int32,SuperOffice.CRM.Services.EventData)
-  id: ExecuteScriptAsEvent(System.Int32,SuperOffice.CRM.Services.EventData)
+    content.vb: Function ExecuteScriptByUniqueIdAsync(cRMScriptUniqueId As String, parameters As StringDictionary, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueIdAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventAsync(System.Int32,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventAsync(System.Int32,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  id: ExecuteScriptAsEventAsync(System.Int32,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ExecuteScriptAsEvent(Int32, EventData)
-  nameWithType: ICRMScriptAgent.ExecuteScriptAsEvent(Int32, EventData)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent(System.Int32, SuperOffice.CRM.Services.EventData)
+  name: ExecuteScriptAsEventAsync(Int32, EventData, CancellationToken)
+  nameWithType: ICRMScriptAgent.ExecuteScriptAsEventAsync(Int32, EventData, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventAsync(System.Int32, SuperOffice.CRM.Services.EventData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -493,7 +530,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nExecute a CRMScript with event data as input. Returns event data with output variable values.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: EventData ExecuteScriptAsEvent(int cRMScriptId, EventData eventData)
+    content: Task<EventData> ExecuteScriptAsEventAsync(int cRMScriptId, EventData eventData, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptId
       type: System.Int32
@@ -501,21 +538,23 @@ items:
     - id: eventData
       type: SuperOffice.CRM.Services.EventData
       description: The EventData instance sent to the crmscript with input values
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.EventData
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EventData}
       description: The EventData instance after script execution with output values
-    content.vb: Function ExecuteScriptAsEvent(cRMScriptId As Integer, eventData As EventData) As EventData
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(System.String,SuperOffice.CRM.Services.EventData)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(System.String,SuperOffice.CRM.Services.EventData)
-  id: ExecuteScriptAsEventByUniqueId(System.String,SuperOffice.CRM.Services.EventData)
+    content.vb: Function ExecuteScriptAsEventAsync(cRMScriptId As Integer, eventData As EventData, cancellationToken As CancellationToken = Nothing) As Task(Of EventData)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync(System.String,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync(System.String,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  id: ExecuteScriptAsEventByUniqueIdAsync(System.String,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ExecuteScriptAsEventByUniqueId(String, EventData)
-  nameWithType: ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(String, EventData)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(System.String, SuperOffice.CRM.Services.EventData)
+  name: ExecuteScriptAsEventByUniqueIdAsync(String, EventData, CancellationToken)
+  nameWithType: ICRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync(String, EventData, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync(System.String, SuperOffice.CRM.Services.EventData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -525,7 +564,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nExecute a CRMScript with event data as input. Returns event data with output variable values.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: EventData ExecuteScriptAsEventByUniqueId(string cRMScriptUniqueId, EventData eventData)
+    content: Task<EventData> ExecuteScriptAsEventByUniqueIdAsync(string cRMScriptUniqueId, EventData eventData, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptUniqueId
       type: System.String
@@ -533,21 +572,23 @@ items:
     - id: eventData
       type: SuperOffice.CRM.Services.EventData
       description: The EventData instance sent to the crmscript with input values
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.EventData
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EventData}
       description: The EventData instance after script execution with output values
-    content.vb: Function ExecuteScriptAsEventByUniqueId(cRMScriptUniqueId As String, eventData As EventData) As EventData
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
-  id: ValidateScript(System.Int32)
+    content.vb: Function ExecuteScriptAsEventByUniqueIdAsync(cRMScriptUniqueId As String, eventData As EventData, cancellationToken As CancellationToken = Nothing) As Task(Of EventData)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptAsync(System.Int32,System.Threading.CancellationToken)
+  id: ValidateScriptAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ValidateScript(Int32)
-  nameWithType: ICRMScriptAgent.ValidateScript(Int32)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
+  name: ValidateScriptAsync(Int32, CancellationToken)
+  nameWithType: ICRMScriptAgent.ValidateScriptAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -557,26 +598,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nValidate a CRMScript. This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptResult ValidateScript(int cRMScriptId)
+    content: Task<CRMScriptResult> ValidateScriptAsync(int cRMScriptId, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptId
       type: System.Int32
       description: The id of the CRMScript to execute
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptResult}
       description: True if the syntax is correct
-    content.vb: Function ValidateScript(cRMScriptId As Integer) As CRMScriptResult
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
-  id: ValidateScriptByIncludeId(System.String)
+    content.vb: Function ValidateScriptAsync(cRMScriptId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptResult)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeIdAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeIdAsync(System.String,System.Threading.CancellationToken)
+  id: ValidateScriptByIncludeIdAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ValidateScriptByIncludeId(String)
-  nameWithType: ICRMScriptAgent.ValidateScriptByIncludeId(String)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
+  name: ValidateScriptByIncludeIdAsync(String, CancellationToken)
+  nameWithType: ICRMScriptAgent.ValidateScriptByIncludeIdAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeIdAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -586,26 +629,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nValidate a CRMScript. This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptResult ValidateScriptByIncludeId(string cRMScriptIncludeId)
+    content: Task<CRMScriptResult> ValidateScriptByIncludeIdAsync(string cRMScriptIncludeId, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptIncludeId
       type: System.String
       description: The include id of the CRMScript to validate
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptResult}
       description: True if the syntax is correct
-    content.vb: Function ValidateScriptByIncludeId(cRMScriptIncludeId As String) As CRMScriptResult
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId(System.String)
-  id: ValidateScriptByUniqueId(System.String)
+    content.vb: Function ValidateScriptByIncludeIdAsync(cRMScriptIncludeId As String, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptResult)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeIdAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  id: ValidateScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ValidateScriptByUniqueId(String)
-  nameWithType: ICRMScriptAgent.ValidateScriptByUniqueId(String)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId(System.String)
+  name: ValidateScriptByUniqueIdAsync(String, CancellationToken)
+  nameWithType: ICRMScriptAgent.ValidateScriptByUniqueIdAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueIdAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -615,26 +660,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nValidate a CRMScript. This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptResult ValidateScriptByUniqueId(string cRMScriptUniqueId)
+    content: Task<CRMScriptResult> ValidateScriptByUniqueIdAsync(string cRMScriptUniqueId, CancellationToken cancellationToken = null)
     parameters:
     - id: cRMScriptUniqueId
       type: System.String
       description: The unique id of the CRMScript to validate
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptResult}
       description: True if the syntax is correct
-    content.vb: Function ValidateScriptByUniqueId(cRMScriptUniqueId As String) As CRMScriptResult
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData)
-  id: ExecuteScriptByString(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData)
+    content.vb: Function ValidateScriptByUniqueIdAsync(cRMScriptUniqueId As String, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptResult)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueIdAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByStringAsync(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByStringAsync(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  id: ExecuteScriptByStringAsync(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ExecuteScriptByString(String, StringDictionary, EventData)
-  nameWithType: ICRMScriptAgent.ExecuteScriptByString(String, StringDictionary, EventData)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString(System.String, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.EventData)
+  name: ExecuteScriptByStringAsync(String, StringDictionary, EventData, CancellationToken)
+  nameWithType: ICRMScriptAgent.ExecuteScriptByStringAsync(String, StringDictionary, EventData, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByStringAsync(System.String, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.EventData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -644,7 +691,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nExecute a CRMScript 2 (JavaScript), returning the printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptRunResult ExecuteScriptByString(string script, StringDictionary parameters, EventData eventData)
+    content: Task<CRMScriptRunResult> ExecuteScriptByStringAsync(string script, StringDictionary parameters, EventData eventData, CancellationToken cancellationToken = null)
     parameters:
     - id: script
       type: System.String
@@ -655,21 +702,23 @@ items:
     - id: eventData
       type: SuperOffice.CRM.Services.EventData
       description: The EventData instance sent to the crmscript with input values
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptRunResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptRunResult}
       description: The output produced by the CRMScript
-    content.vb: Function ExecuteScriptByString(script As String, parameters As StringDictionary, eventData As EventData) As CRMScriptRunResult
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString(System.String)
-  id: ValidateScriptByString(System.String)
+    content.vb: Function ExecuteScriptByStringAsync(script As String, parameters As StringDictionary, eventData As EventData, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptRunResult)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByStringAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByStringAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByStringAsync(System.String,System.Threading.CancellationToken)
+  id: ValidateScriptByStringAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ValidateScriptByString(String)
-  nameWithType: ICRMScriptAgent.ValidateScriptByString(String)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString(System.String)
+  name: ValidateScriptByStringAsync(String, CancellationToken)
+  nameWithType: ICRMScriptAgent.ValidateScriptByStringAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByStringAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -679,26 +728,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nValidate a CRMScript 2 (JavaScript). This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptResult ValidateScriptByString(string script)
+    content: Task<CRMScriptResult> ValidateScriptByStringAsync(string script, CancellationToken cancellationToken = null)
     parameters:
     - id: script
       type: System.String
       description: The script to validate
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptResult}
       description: The result of the syntax check
-    content.vb: Function ValidateScriptByString(script As String) As CRMScriptResult
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
-  id: ResolveIncludes(System.String,System.Boolean)
+    content.vb: Function ValidateScriptByStringAsync(script As String, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptResult)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByStringAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: ResolveIncludesAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ResolveIncludes(String, Boolean)
-  nameWithType: ICRMScriptAgent.ResolveIncludes(String, Boolean)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String, System.Boolean)
+  name: ResolveIncludesAsync(String, Boolean, CancellationToken)
+  nameWithType: ICRMScriptAgent.ResolveIncludesAsync(String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludesAsync(System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -708,7 +759,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWill resolve all includes for a TypeScript and return an array of the IDs\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: int[] ResolveIncludes(string script, bool ignoreErrors)
+    content: Task<int[]> ResolveIncludesAsync(string script, bool ignoreErrors, CancellationToken cancellationToken = null)
     parameters:
     - id: script
       type: System.String
@@ -716,21 +767,23 @@ items:
     - id: ignoreErrors
       type: System.Boolean
       description: If true, then missing includes will be ignored
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32[]
+      type: System.Threading.Tasks.Task{System.Int32[]}
       description: The ids of all the included scripts
-    content.vb: Function ResolveIncludes(script As String, ignoreErrors As Boolean) As Integer()
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
-  id: GetTriggerScriptEntity(System.Int32)
+    content.vb: Function ResolveIncludesAsync(script As String, ignoreErrors As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludesAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: GetTriggerScriptEntity(Int32)
-  nameWithType: ICRMScriptAgent.GetTriggerScriptEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+  name: GetTriggerScriptEntityAsync(Int32, CancellationToken)
+  nameWithType: ICRMScriptAgent.GetTriggerScriptEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -740,26 +793,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets a TriggerScriptEntity object.                        \n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: TriggerScriptEntity GetTriggerScriptEntity(int triggerScriptEntityId)
+    content: Task<TriggerScriptEntity> GetTriggerScriptEntityAsync(int triggerScriptEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: triggerScriptEntityId
       type: System.Int32
       description: The identifier of the TriggerScriptEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
       description: TriggerScriptEntity
-    content.vb: Function GetTriggerScriptEntity(triggerScriptEntityId As Integer) As TriggerScriptEntity
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
-  id: GetTriggerScriptByUniqueId(System.String)
+    content.vb: Function GetTriggerScriptEntityAsync(triggerScriptEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TriggerScriptEntity)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntityAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  id: GetTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: GetTriggerScriptByUniqueId(String)
-  nameWithType: ICRMScriptAgent.GetTriggerScriptByUniqueId(String)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+  name: GetTriggerScriptByUniqueIdAsync(String, CancellationToken)
+  nameWithType: ICRMScriptAgent.GetTriggerScriptByUniqueIdAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueIdAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -769,26 +824,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a trigger CRMScript.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: TriggerScriptEntity GetTriggerScriptByUniqueId(string triggerScriptUniqueId)
+    content: Task<TriggerScriptEntity> GetTriggerScriptByUniqueIdAsync(string triggerScriptUniqueId, CancellationToken cancellationToken = null)
     parameters:
     - id: triggerScriptUniqueId
       type: System.String
       description: The unique id of the CRMScript to validate
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
       description: Trigger script details and source code.
-    content.vb: Function GetTriggerScriptByUniqueId(triggerScriptUniqueId As String) As TriggerScriptEntity
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
-  id: SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
+    content.vb: Function GetTriggerScriptByUniqueIdAsync(triggerScriptUniqueId As String, cancellationToken As CancellationToken = Nothing) As Task(Of TriggerScriptEntity)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueIdAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueIdAsync(System.String,SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueIdAsync(System.String,SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  id: SaveTriggerScriptByUniqueIdAsync(System.String,SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: SaveTriggerScriptByUniqueId(String, TriggerScriptEntity)
-  nameWithType: ICRMScriptAgent.SaveTriggerScriptByUniqueId(String, TriggerScriptEntity)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String, SuperOffice.CRM.Services.TriggerScriptEntity)
+  name: SaveTriggerScriptByUniqueIdAsync(String, TriggerScriptEntity, CancellationToken)
+  nameWithType: ICRMScriptAgent.SaveTriggerScriptByUniqueIdAsync(String, TriggerScriptEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueIdAsync(System.String, SuperOffice.CRM.Services.TriggerScriptEntity, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -798,7 +855,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nValidate a CRMScript. This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: TriggerScriptEntity SaveTriggerScriptByUniqueId(string triggerScriptUniqueId, TriggerScriptEntity entity)
+    content: Task<TriggerScriptEntity> SaveTriggerScriptByUniqueIdAsync(string triggerScriptUniqueId, TriggerScriptEntity entity, CancellationToken cancellationToken = null)
     parameters:
     - id: triggerScriptUniqueId
       type: System.String
@@ -806,21 +863,23 @@ items:
     - id: entity
       type: SuperOffice.CRM.Services.TriggerScriptEntity
       description: Trigger script details and source code
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
       description: Trigger script details and source code.
-    content.vb: Function SaveTriggerScriptByUniqueId(triggerScriptUniqueId As String, entity As TriggerScriptEntity) As TriggerScriptEntity
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
-  id: DeleteTriggerScriptByUniqueId(System.String)
+    content.vb: Function SaveTriggerScriptByUniqueIdAsync(triggerScriptUniqueId As String, entity As TriggerScriptEntity, cancellationToken As CancellationToken = Nothing) As Task(Of TriggerScriptEntity)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueIdAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  id: DeleteTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: DeleteTriggerScriptByUniqueId(String)
-  nameWithType: ICRMScriptAgent.DeleteTriggerScriptByUniqueId(String)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+  name: DeleteTriggerScriptByUniqueIdAsync(String, CancellationToken)
+  nameWithType: ICRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -830,23 +889,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDelete a trigger CRMScript.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: void DeleteTriggerScriptByUniqueId(string triggerScriptUniqueId)
+    content: Task DeleteTriggerScriptByUniqueIdAsync(string triggerScriptUniqueId, CancellationToken cancellationToken = null)
     parameters:
     - id: triggerScriptUniqueId
       type: System.String
       description: The unique id of the CRMScript to validate
-    content.vb: Sub DeleteTriggerScriptByUniqueId(triggerScriptUniqueId As String)
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
-  id: ValidateTriggerScript(System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteTriggerScriptByUniqueIdAsync(triggerScriptUniqueId As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptAsync(System.Int32,System.Threading.CancellationToken)
+  id: ValidateTriggerScriptAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ValidateTriggerScript(Int32)
-  nameWithType: ICRMScriptAgent.ValidateTriggerScript(Int32)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
+  name: ValidateTriggerScriptAsync(Int32, CancellationToken)
+  nameWithType: ICRMScriptAgent.ValidateTriggerScriptAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -856,26 +920,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nValidate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptResult ValidateTriggerScript(int triggerScriptId)
+    content: Task<CRMScriptResult> ValidateTriggerScriptAsync(int triggerScriptId, CancellationToken cancellationToken = null)
     parameters:
     - id: triggerScriptId
       type: System.Int32
       description: The id of the CRMScript Trigger to validate
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptResult}
       description: True if the syntax is correct
-    content.vb: Function ValidateTriggerScript(triggerScriptId As Integer) As CRMScriptResult
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript*
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
-  id: ValidateTriggerScriptByUniqueId(System.String)
+    content.vb: Function ValidateTriggerScriptAsync(triggerScriptId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptResult)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptAsync*
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
+  id: ValidateTriggerScriptByUniqueIdAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   langs:
   - csharp
   - vb
-  name: ValidateTriggerScriptByUniqueId(String)
-  nameWithType: ICRMScriptAgent.ValidateTriggerScriptByUniqueId(String)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+  name: ValidateTriggerScriptByUniqueIdAsync(String, CancellationToken)
+  nameWithType: ICRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -885,16 +951,18 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nValidate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: CRMScriptResult ValidateTriggerScriptByUniqueId(string triggerScriptUniqueId)
+    content: Task<CRMScriptResult> ValidateTriggerScriptByUniqueIdAsync(string triggerScriptUniqueId, CancellationToken cancellationToken = null)
     parameters:
     - id: triggerScriptUniqueId
       type: System.String
       description: The unique id of the CRMScript to validate
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CRMScriptResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptResult}
       description: True if the syntax is correct
-    content.vb: Function ValidateTriggerScriptByUniqueId(triggerScriptUniqueId As String) As CRMScriptResult
-  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId*
+    content.vb: Function ValidateTriggerScriptByUniqueIdAsync(triggerScriptUniqueId As String, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptResult)
+  overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -902,12 +970,104 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync
   isExternal: true
-  name: CreateDefaultCRMScriptEntity
-  nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntity
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
+  name: CreateDefaultCRMScriptEntityAsync
+  nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CRMScriptEntity>
+  nameWithType: Task<CRMScriptEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CRMScriptEntity>
+  nameWithType.vb: Task(Of CRMScriptEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CRMScriptEntity)
+  name.vb: Task(Of CRMScriptEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.CRMScriptEntity
+    name: CRMScriptEntity
+    nameWithType: CRMScriptEntity
+    fullName: SuperOffice.CRM.Services.CRMScriptEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.CRMScriptEntity
+    name: CRMScriptEntity
+    nameWithType: CRMScriptEntity
+    fullName: SuperOffice.CRM.Services.CRMScriptEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync
+  isExternal: true
+  name: SaveCRMScriptEntityAsync
+  nameWithType: ICRMScriptAgent.SaveCRMScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync
 - uid: SuperOffice.CRM.Services.CRMScriptEntity
   commentId: T:SuperOffice.CRM.Services.CRMScriptEntity
   parent: SuperOffice.CRM.Services
@@ -915,18 +1075,12 @@ references:
   name: CRMScriptEntity
   nameWithType: CRMScriptEntity
   fullName: SuperOffice.CRM.Services.CRMScriptEntity
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync
   isExternal: true
-  name: SaveCRMScriptEntity
-  nameWithType: ICRMScriptAgent.SaveCRMScriptEntity
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity
-  isExternal: true
-  name: DeleteCRMScriptEntity
-  nameWithType: ICRMScriptAgent.DeleteCRMScriptEntity
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity
+  name: DeleteCRMScriptEntityAsync
+  nameWithType: ICRMScriptAgent.DeleteCRMScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -934,18 +1088,72 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync
   isExternal: true
-  name: CreateDefaultTriggerScriptEntity
-  nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntity
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+  name: CreateDefaultTriggerScriptEntityAsync
+  nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TriggerScriptEntity>
+  nameWithType: Task<TriggerScriptEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TriggerScriptEntity>
+  nameWithType.vb: Task(Of TriggerScriptEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TriggerScriptEntity)
+  name.vb: Task(Of TriggerScriptEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
+    name: TriggerScriptEntity
+    nameWithType: TriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.TriggerScriptEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
+    name: TriggerScriptEntity
+    nameWithType: TriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.TriggerScriptEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync
+  isExternal: true
+  name: SaveTriggerScriptEntityAsync
+  nameWithType: ICRMScriptAgent.SaveTriggerScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync
 - uid: SuperOffice.CRM.Services.TriggerScriptEntity
   commentId: T:SuperOffice.CRM.Services.TriggerScriptEntity
   parent: SuperOffice.CRM.Services
@@ -953,24 +1161,18 @@ references:
   name: TriggerScriptEntity
   nameWithType: TriggerScriptEntity
   fullName: SuperOffice.CRM.Services.TriggerScriptEntity
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync
   isExternal: true
-  name: SaveTriggerScriptEntity
-  nameWithType: ICRMScriptAgent.SaveTriggerScriptEntity
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity
+  name: DeleteTriggerScriptEntityAsync
+  nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
   isExternal: true
-  name: DeleteTriggerScriptEntity
-  nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntity
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier
-  isExternal: true
-  name: GetCRMScriptByUniqueIdentifier
-  nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifier
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier
+  name: GetCRMScriptByUniqueIdentifierAsync
+  nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -978,6 +1180,55 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Script}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Script}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Script>
+  nameWithType: Task<Script>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Script>
+  nameWithType.vb: Task(Of Script)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Script)
+  name.vb: Task(Of Script)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.Script
+    name: Script
+    nameWithType: Script
+    fullName: SuperOffice.CRM.Services.Script
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.Script
+    name: Script
+    nameWithType: Script
+    fullName: SuperOffice.CRM.Services.Script
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync
+  isExternal: true
+  name: SaveCRMScriptByUniqueIdentifierAsync
+  nameWithType: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync
 - uid: SuperOffice.CRM.Services.Script
   commentId: T:SuperOffice.CRM.Services.Script
   parent: SuperOffice.CRM.Services
@@ -985,59 +1236,96 @@ references:
   name: Script
   nameWithType: Script
   fullName: SuperOffice.CRM.Services.Script
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync
   isExternal: true
-  name: SaveCRMScriptByUniqueIdentifier
-  nameWithType: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
+  name: DeleteCRMScriptByUniqueIdentifierAsync
+  nameWithType: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntityAsync
   isExternal: true
-  name: DeleteCRMScriptByUniqueIdentifier
-  nameWithType: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity
+  name: GetCRMScriptEntityAsync
+  nameWithType: ICRMScriptAgent.GetCRMScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntityAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync
   isExternal: true
-  name: GetCRMScriptEntity
-  nameWithType: ICRMScriptAgent.GetCRMScriptEntity
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile
+  name: SaveCRMScriptEntityWithoutCompileAsync
+  nameWithType: ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsync
   isExternal: true
-  name: SaveCRMScriptEntityWithoutCompile
-  nameWithType: ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript
-  isExternal: true
-  name: ExecuteScript
-  nameWithType: ICRMScriptAgent.ExecuteScript
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript
+  name: ExecuteScriptAsync
+  nameWithType: ICRMScriptAgent.ExecuteScriptAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsync
 - uid: SuperOffice.CRM.Services.StringDictionary
   isExternal: true
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.CRM.Services.StringDictionary
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeIdAsync
   isExternal: true
-  name: ExecuteScriptByIncludeId
-  nameWithType: ICRMScriptAgent.ExecuteScriptByIncludeId
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId
+  name: ExecuteScriptByIncludeIdAsync
+  nameWithType: ICRMScriptAgent.ExecuteScriptByIncludeIdAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeIdAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueIdAsync
   isExternal: true
-  name: ExecuteScriptByUniqueId
-  nameWithType: ICRMScriptAgent.ExecuteScriptByUniqueId
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent
+  name: ExecuteScriptByUniqueIdAsync
+  nameWithType: ICRMScriptAgent.ExecuteScriptByUniqueIdAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueIdAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventAsync
   isExternal: true
-  name: ExecuteScriptAsEvent
-  nameWithType: ICRMScriptAgent.ExecuteScriptAsEvent
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent
+  name: ExecuteScriptAsEventAsync
+  nameWithType: ICRMScriptAgent.ExecuteScriptAsEventAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventAsync
 - uid: SuperOffice.CRM.Services.EventData
   commentId: T:SuperOffice.CRM.Services.EventData
   parent: SuperOffice.CRM.Services
@@ -1045,62 +1333,177 @@ references:
   name: EventData
   nameWithType: EventData
   fullName: SuperOffice.CRM.Services.EventData
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EventData}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.EventData}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<EventData>
+  nameWithType: Task<EventData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.EventData>
+  nameWithType.vb: Task(Of EventData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.EventData)
+  name.vb: Task(Of EventData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.EventData
+    name: EventData
+    nameWithType: EventData
+    fullName: SuperOffice.CRM.Services.EventData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.EventData
+    name: EventData
+    nameWithType: EventData
+    fullName: SuperOffice.CRM.Services.EventData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync
   isExternal: true
-  name: ExecuteScriptAsEventByUniqueId
-  nameWithType: ICRMScriptAgent.ExecuteScriptAsEventByUniqueId
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript
+  name: ExecuteScriptAsEventByUniqueIdAsync
+  nameWithType: ICRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptAsync
   isExternal: true
-  name: ValidateScript
-  nameWithType: ICRMScriptAgent.ValidateScript
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript
-- uid: SuperOffice.CRM.Services.CRMScriptResult
-  commentId: T:SuperOffice.CRM.Services.CRMScriptResult
-  parent: SuperOffice.CRM.Services
+  name: ValidateScriptAsync
+  nameWithType: ICRMScriptAgent.ValidateScriptAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CRMScriptResult>
+  nameWithType: Task<CRMScriptResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CRMScriptResult>
+  nameWithType.vb: Task(Of CRMScriptResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CRMScriptResult)
+  name.vb: Task(Of CRMScriptResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.CRMScriptResult
+    name: CRMScriptResult
+    nameWithType: CRMScriptResult
+    fullName: SuperOffice.CRM.Services.CRMScriptResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.CRMScriptResult
+    name: CRMScriptResult
+    nameWithType: CRMScriptResult
+    fullName: SuperOffice.CRM.Services.CRMScriptResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeIdAsync
   isExternal: true
-  name: CRMScriptResult
-  nameWithType: CRMScriptResult
-  fullName: SuperOffice.CRM.Services.CRMScriptResult
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId
+  name: ValidateScriptByIncludeIdAsync
+  nameWithType: ICRMScriptAgent.ValidateScriptByIncludeIdAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeIdAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueIdAsync
   isExternal: true
-  name: ValidateScriptByIncludeId
-  nameWithType: ICRMScriptAgent.ValidateScriptByIncludeId
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId
+  name: ValidateScriptByUniqueIdAsync
+  nameWithType: ICRMScriptAgent.ValidateScriptByUniqueIdAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueIdAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByStringAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByStringAsync
   isExternal: true
-  name: ValidateScriptByUniqueId
-  nameWithType: ICRMScriptAgent.ValidateScriptByUniqueId
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString
+  name: ExecuteScriptByStringAsync
+  nameWithType: ICRMScriptAgent.ExecuteScriptByStringAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByStringAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptRunResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptRunResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CRMScriptRunResult>
+  nameWithType: Task<CRMScriptRunResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CRMScriptRunResult>
+  nameWithType.vb: Task(Of CRMScriptRunResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CRMScriptRunResult)
+  name.vb: Task(Of CRMScriptRunResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.CRMScriptRunResult
+    name: CRMScriptRunResult
+    nameWithType: CRMScriptRunResult
+    fullName: SuperOffice.CRM.Services.CRMScriptRunResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.CRMScriptRunResult
+    name: CRMScriptRunResult
+    nameWithType: CRMScriptRunResult
+    fullName: SuperOffice.CRM.Services.CRMScriptRunResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByStringAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByStringAsync
   isExternal: true
-  name: ExecuteScriptByString
-  nameWithType: ICRMScriptAgent.ExecuteScriptByString
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString
-- uid: SuperOffice.CRM.Services.CRMScriptRunResult
-  commentId: T:SuperOffice.CRM.Services.CRMScriptRunResult
-  parent: SuperOffice.CRM.Services
+  name: ValidateScriptByStringAsync
+  nameWithType: ICRMScriptAgent.ValidateScriptByStringAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByStringAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludesAsync
   isExternal: true
-  name: CRMScriptRunResult
-  nameWithType: CRMScriptRunResult
-  fullName: SuperOffice.CRM.Services.CRMScriptRunResult
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString
-  isExternal: true
-  name: ValidateScriptByString
-  nameWithType: ICRMScriptAgent.ValidateScriptByString
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes
-  isExternal: true
-  name: ResolveIncludes
-  nameWithType: ICRMScriptAgent.ResolveIncludes
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes
+  name: ResolveIncludesAsync
+  nameWithType: ICRMScriptAgent.ResolveIncludesAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludesAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1108,15 +1511,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Int32[]
-  isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32[]>
+  nameWithType: Task<Int32[]>
+  fullName: System.Threading.Tasks.Task<System.Int32[]>
+  nameWithType.vb: Task(Of Int32())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32())
+  name.vb: Task(Of Int32())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
@@ -1125,7 +1537,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
@@ -1134,39 +1557,42 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntityAsync
   isExternal: true
-  name: GetTriggerScriptEntity
-  nameWithType: ICRMScriptAgent.GetTriggerScriptEntity
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId
+  name: GetTriggerScriptEntityAsync
+  nameWithType: ICRMScriptAgent.GetTriggerScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntityAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueIdAsync
   isExternal: true
-  name: GetTriggerScriptByUniqueId
-  nameWithType: ICRMScriptAgent.GetTriggerScriptByUniqueId
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId
+  name: GetTriggerScriptByUniqueIdAsync
+  nameWithType: ICRMScriptAgent.GetTriggerScriptByUniqueIdAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueIdAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueIdAsync
   isExternal: true
-  name: SaveTriggerScriptByUniqueId
-  nameWithType: ICRMScriptAgent.SaveTriggerScriptByUniqueId
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId
+  name: SaveTriggerScriptByUniqueIdAsync
+  nameWithType: ICRMScriptAgent.SaveTriggerScriptByUniqueIdAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueIdAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync
   isExternal: true
-  name: DeleteTriggerScriptByUniqueId
-  nameWithType: ICRMScriptAgent.DeleteTriggerScriptByUniqueId
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript
+  name: DeleteTriggerScriptByUniqueIdAsync
+  nameWithType: ICRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptAsync
   isExternal: true
-  name: ValidateTriggerScript
-  nameWithType: ICRMScriptAgent.ValidateTriggerScript
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId*
-  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId
+  name: ValidateTriggerScriptAsync
+  nameWithType: ICRMScriptAgent.ValidateTriggerScriptAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync
   isExternal: true
-  name: ValidateTriggerScriptByUniqueId
-  nameWithType: ICRMScriptAgent.ValidateTriggerScriptByUniqueId
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId
+  name: ValidateTriggerScriptByUniqueIdAsync
+  nameWithType: ICRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync

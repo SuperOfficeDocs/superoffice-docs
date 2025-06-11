@@ -7,14 +7,12 @@ items:
   children:
   - SuperOffice.CRM.Administration.SoUser.AddCredential(System.String,System.String,System.String)
   - SuperOffice.CRM.Administration.SoUser.AssociateId
-  - SuperOffice.CRM.Administration.SoUser.CanChangePassword
   - SuperOffice.CRM.Administration.SoUser.CanCreateExternalPerson
-  - SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
   - SuperOffice.CRM.Administration.SoUser.CanValidatePassword
-  - SuperOffice.CRM.Administration.SoUser.ChangePassword(System.String,System.String)
-  - SuperOffice.CRM.Administration.SoUser.ChangeUserGroup(System.Int32,System.Int32)
+  - SuperOffice.CRM.Administration.SoUser.ChangePasswordAsync(System.String,System.String)
+  - SuperOffice.CRM.Administration.SoUser.ChangeUserGroupAsync(System.Int32,System.Int32)
   - SuperOffice.CRM.Administration.SoUser.ConfidentialAppointment
-  - SuperOffice.CRM.Administration.SoUser.CreateNew(System.Int32,SuperOffice.License.UserType,System.Boolean)
+  - SuperOffice.CRM.Administration.SoUser.CreateNewAsync(System.Int32,SuperOffice.License.UserType,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.SoUser.Credentials
   - SuperOffice.CRM.Administration.SoUser.CredentialsTableInfo
   - SuperOffice.CRM.Administration.SoUser.CustomFields
@@ -24,18 +22,20 @@ items:
   - SuperOffice.CRM.Administration.SoUser.Ejuser
   - SuperOffice.CRM.Administration.SoUser.EjUserId
   - SuperOffice.CRM.Administration.SoUser.ExtraFields
-  - SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUser(System.Int32)
-  - SuperOffice.CRM.Administration.SoUser.FindUsersFromPerson(System.Int32)
-  - SuperOffice.CRM.Administration.SoUser.ForeignKeyHelper
-  - SuperOffice.CRM.Administration.SoUser.GetCurrent
-  - SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserName
+  - SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUserAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.FindUsersFromPersonAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.GetCanChangePasswordAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.GetCanSendChangePasswordMailAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.GetCurrentAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserNameAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.SoUser.GetFacadingItems
+  - SuperOffice.CRM.Administration.SoUser.GetForeignKeyHelperAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.SoUser.GetLicenseOwner(System.String)
   - SuperOffice.CRM.Administration.SoUser.GetModuleLicense(System.String)
   - SuperOffice.CRM.Administration.SoUser.GetModuleLicense(System.String,System.String)
   - SuperOffice.CRM.Administration.SoUser.GetModuleLicenses
-  - SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
-  - SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes
+  - SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockersAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.SoUser.GroupIdx
   - SuperOffice.CRM.Administration.SoUser.IsAssociateNameLegal(System.String,System.String@)
   - SuperOffice.CRM.Administration.SoUser.IsAssociateUserNameLegal(System.String,System.String@)
@@ -53,14 +53,14 @@ items:
   - SuperOffice.CRM.Administration.SoUser.LogonName
   - SuperOffice.CRM.Administration.SoUser.MainTable
   - SuperOffice.CRM.Administration.SoUser.MakeRetired(System.Boolean)
-  - SuperOffice.CRM.Administration.SoUser.ManageUser(System.Int32)
-  - SuperOffice.CRM.Administration.SoUser.ManageUser(System.String)
-  - SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserId(System.Int32)
-  - SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonId(System.Int32)
+  - SuperOffice.CRM.Administration.SoUser.ManageUserAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.ManageUserAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.SoUser.NetServerClient
-  - SuperOffice.CRM.Administration.SoUser.OnIdUpdate
-  - SuperOffice.CRM.Administration.SoUser.OnPreIdUpdate
-  - SuperOffice.CRM.Administration.SoUser.OnSaved(System.Boolean)
+  - SuperOffice.CRM.Administration.SoUser.OnIdUpdateAsync
+  - SuperOffice.CRM.Administration.SoUser.OnPreIdUpdateAsync
+  - SuperOffice.CRM.Administration.SoUser.OnSavedAsync(System.Boolean)
   - SuperOffice.CRM.Administration.SoUser.OtherGroupIds
   - SuperOffice.CRM.Administration.SoUser.PasswordFieldRight
   - SuperOffice.CRM.Administration.SoUser.Person
@@ -70,15 +70,15 @@ items:
   - SuperOffice.CRM.Administration.SoUser.RemoveCredential(System.String)
   - SuperOffice.CRM.Administration.SoUser.RemoveLicenses
   - SuperOffice.CRM.Administration.SoUser.RoleIdx
-  - SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail
+  - SuperOffice.CRM.Administration.SoUser.SendChangePasswordMailAsync
   - SuperOffice.CRM.Administration.SoUser.Sentries
   - SuperOffice.CRM.Administration.SoUser.SetGeneratedPassword
   - SuperOffice.CRM.Administration.SoUser.SetGeneratedPassword(System.Int32)
-  - SuperOffice.CRM.Administration.SoUser.SetOwnPassword(System.String,System.String)
   - SuperOffice.CRM.Administration.SoUser.SetPassword(System.String)
-  - SuperOffice.CRM.Administration.SoUser.SetValidAssociateName(System.String)
+  - SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.SetUserTypeAsync(SuperOffice.License.UserType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.SoUser.SetValidAssociateNameAsync(System.String)
   - SuperOffice.CRM.Administration.SoUser.SetValidAssociateUserName(System.String)
-  - SuperOffice.CRM.Administration.SoUser.SetValidUserName(System.String)
   - SuperOffice.CRM.Administration.SoUser.SkipConsistencyChecks
   - SuperOffice.CRM.Administration.SoUser.Tooltip
   - SuperOffice.CRM.Administration.SoUser.ToString
@@ -88,7 +88,7 @@ items:
   - SuperOffice.CRM.Administration.SoUser.UserRoleLinkTableInfo
   - SuperOffice.CRM.Administration.SoUser.UserType
   - SuperOffice.CRM.Administration.SoUser.Validate(SuperOffice.CRM.Rows.RowValidator)
-  - SuperOffice.CRM.Administration.SoUser.Validate(System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.CRM.Administration.SoUser.ValidateAsync(System.Collections.Generic.Dictionary{System.String,System.String})
   - SuperOffice.CRM.Administration.SoUser.WebClient
   - SuperOffice.CRM.Administration.SoUser.WinClient
   langs:
@@ -119,20 +119,20 @@ items:
   implements:
   - SuperOffice.Data.INestedPersist
   inheritedMembers:
-  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.NestedPersistFacade.IsDirty
   - SuperOffice.Data.NestedPersist._saveOwner
   - SuperOffice.Data.NestedPersist._isSaving
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
-  - SuperOffice.Data.NestedPersist.Save
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.SaveAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
@@ -180,16 +180,46 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserName
-  commentId: M:SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserName
-  id: GetDefaultAssociateUserName
+- uid: SuperOffice.CRM.Administration.SoUser.GetForeignKeyHelperAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.GetForeignKeyHelperAsync(System.Threading.CancellationToken)
+  id: GetForeignKeyHelperAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: GetDefaultAssociateUserName()
-  nameWithType: SoUser.GetDefaultAssociateUserName()
-  fullName: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserName()
+  name: GetForeignKeyHelperAsync(CancellationToken)
+  nameWithType: SoUser.GetForeignKeyHelperAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.GetForeignKeyHelperAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public Task<RowForeignKeyHelper> GetForeignKeyHelperAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.Util.RowForeignKeyHelper}
+    content.vb: Public Function GetForeignKeyHelperAsync(cancellationToken As CancellationToken = Nothing) As Task(Of RowForeignKeyHelper)
+  overload: SuperOffice.CRM.Administration.SoUser.GetForeignKeyHelperAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserNameAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserNameAsync(System.Threading.CancellationToken)
+  id: GetDefaultAssociateUserNameAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Administration.SoUser
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultAssociateUserNameAsync(CancellationToken)
+  nameWithType: SoUser.GetDefaultAssociateUserNameAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserNameAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -199,25 +229,28 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nAsk for the default UserName for Associate\n"
   syntax:
-    content: public string GetDefaultAssociateUserName()
+    content: public Task<string> GetDefaultAssociateUserNameAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Function GetDefaultAssociateUserName As String
-  overload: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserName*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function GetDefaultAssociateUserNameAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserNameAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Administration.SoUser.CreateNew(System.Int32,SuperOffice.License.UserType,System.Boolean)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.CreateNew(System.Int32,SuperOffice.License.UserType,System.Boolean)
-  id: CreateNew(System.Int32,SuperOffice.License.UserType,System.Boolean)
+- uid: SuperOffice.CRM.Administration.SoUser.CreateNewAsync(System.Int32,SuperOffice.License.UserType,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.CreateNewAsync(System.Int32,SuperOffice.License.UserType,System.Boolean,System.Threading.CancellationToken)
+  id: CreateNewAsync(System.Int32,SuperOffice.License.UserType,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: CreateNew(Int32, UserType, Boolean)
-  nameWithType: SoUser.CreateNew(Int32, UserType, Boolean)
-  fullName: SuperOffice.CRM.Administration.SoUser.CreateNew(System.Int32, SuperOffice.License.UserType, System.Boolean)
+  name: CreateNewAsync(Int32, UserType, Boolean, CancellationToken)
+  nameWithType: SoUser.CreateNewAsync(Int32, UserType, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.CreateNewAsync(System.Int32, SuperOffice.License.UserType, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -228,7 +261,7 @@ items:
   summary: "\nCreate a new user given it&apos;s PersonId\n"
   remarks: "\nAdministration privileges is required for creating new users.\n"
   syntax:
-    content: public static SoUser CreateNew(int personId, UserType userType, bool withDefaultCredentials = false)
+    content: public static Task<SoUser> CreateNewAsync(int personId, UserType userType, bool withDefaultCredentials = false, CancellationToken cancellationToken = null)
     parameters:
     - id: personId
       type: System.Int32
@@ -237,27 +270,29 @@ items:
       type: SuperOffice.License.UserType
     - id: withDefaultCredentials
       type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Administration.SoUser
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoUser}
       description: "\nA new instance of a user object.  This object needs to be primed with appropriate data before saving\n"
-    content.vb: Public Shared Function CreateNew(personId As Integer, userType As UserType, withDefaultCredentials As Boolean = False) As SoUser
-  overload: SuperOffice.CRM.Administration.SoUser.CreateNew*
+    content.vb: Public Shared Function CreateNewAsync(personId As Integer, userType As UserType, withDefaultCredentials As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of SoUser)
+  overload: SuperOffice.CRM.Administration.SoUser.CreateNewAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Administration.SoUser.ManageUser(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.ManageUser(System.Int32)
-  id: ManageUser(System.Int32)
+- uid: SuperOffice.CRM.Administration.SoUser.ManageUserAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.ManageUserAsync(System.Int32,System.Threading.CancellationToken)
+  id: ManageUserAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: ManageUser(Int32)
-  nameWithType: SoUser.ManageUser(Int32)
-  fullName: SuperOffice.CRM.Administration.SoUser.ManageUser(System.Int32)
+  name: ManageUserAsync(Int32, CancellationToken)
+  nameWithType: SoUser.ManageUserAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -267,16 +302,18 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nManage a user.\n"
   syntax:
-    content: public static SoUser ManageUser(int associateId)
+    content: public static Task<SoUser> ManageUserAsync(int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
       description: Id of the user to manage.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Administration.SoUser
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoUser}
       description: The user.
-    content.vb: Public Shared Function ManageUser(associateId As Integer) As SoUser
-  overload: SuperOffice.CRM.Administration.SoUser.ManageUser*
+    content.vb: Public Shared Function ManageUserAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SoUser)
+  overload: SuperOffice.CRM.Administration.SoUser.ManageUserAsync*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
@@ -287,16 +324,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Administration.SoUser.ManageUser(System.String)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.ManageUser(System.String)
-  id: ManageUser(System.String)
+- uid: SuperOffice.CRM.Administration.SoUser.ManageUserAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.ManageUserAsync(System.String,System.Threading.CancellationToken)
+  id: ManageUserAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: ManageUser(String)
-  nameWithType: SoUser.ManageUser(String)
-  fullName: SuperOffice.CRM.Administration.SoUser.ManageUser(System.String)
+  name: ManageUserAsync(String, CancellationToken)
+  nameWithType: SoUser.ManageUserAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -306,16 +343,18 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nManage a user.\n"
   syntax:
-    content: public static SoUser ManageUser(string associateName)
+    content: public static Task<SoUser> ManageUserAsync(string associateName, CancellationToken cancellationToken = null)
     parameters:
     - id: associateName
       type: System.String
       description: UserName <xref href="SuperOffice.CRM.Data.AssociateTableInfo.Name" data-throw-if-not-resolved="false"></xref> or <xref href="SuperOffice.CRM.Data.AssociateTableInfo.UserName" data-throw-if-not-resolved="false"></xref> of the user to manage.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Administration.SoUser
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoUser}
       description: SoUser object for the user.
-    content.vb: Public Shared Function ManageUser(associateName As String) As SoUser
-  overload: SuperOffice.CRM.Administration.SoUser.ManageUser*
+    content.vb: Public Shared Function ManageUserAsync(associateName As String, cancellationToken As CancellationToken = Nothing) As Task(Of SoUser)
+  overload: SuperOffice.CRM.Administration.SoUser.ManageUserAsync*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
@@ -329,16 +368,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonId(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonId(System.Int32)
-  id: ManageUserFromPersonId(System.Int32)
+- uid: SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: ManageUserFromPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: ManageUserFromPersonId(Int32)
-  nameWithType: SoUser.ManageUserFromPersonId(Int32)
-  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonId(System.Int32)
+  name: ManageUserFromPersonIdAsync(Int32, CancellationToken)
+  nameWithType: SoUser.ManageUserFromPersonIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -347,30 +386,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
-    content: public static SoUser[] ManageUserFromPersonId(int personId)
+    content: public static Task<SoUser[]> ManageUserFromPersonIdAsync(int personId, CancellationToken cancellationToken = null)
     parameters:
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Administration.SoUser[]
-    content.vb: Public Shared Function ManageUserFromPersonId(personId As Integer) As SoUser()
-  overload: SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonId*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoUser[]}
+    content.vb: Public Shared Function ManageUserFromPersonIdAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SoUser())
+  overload: SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserId(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserId(System.Int32)
-  id: ManageUserFromEjUserId(System.Int32)
+- uid: SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: ManageUserFromEjUserIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: ManageUserFromEjUserId(Int32)
-  nameWithType: SoUser.ManageUserFromEjUserId(Int32)
-  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserId(System.Int32)
+  name: ManageUserFromEjUserIdAsync(Int32, CancellationToken)
+  nameWithType: SoUser.ManageUserFromEjUserIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -379,30 +420,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
-    content: public static SoUser[] ManageUserFromEjUserId(int ejUserId)
+    content: public static Task<SoUser[]> ManageUserFromEjUserIdAsync(int ejUserId, CancellationToken cancellationToken = null)
     parameters:
     - id: ejUserId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Administration.SoUser[]
-    content.vb: Public Shared Function ManageUserFromEjUserId(ejUserId As Integer) As SoUser()
-  overload: SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserId*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoUser[]}
+    content.vb: Public Shared Function ManageUserFromEjUserIdAsync(ejUserId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SoUser())
+  overload: SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Administration.SoUser.GetCurrent
-  commentId: M:SuperOffice.CRM.Administration.SoUser.GetCurrent
-  id: GetCurrent
+- uid: SuperOffice.CRM.Administration.SoUser.GetCurrentAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.GetCurrentAsync(System.Threading.CancellationToken)
+  id: GetCurrentAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: GetCurrent()
-  nameWithType: SoUser.GetCurrent()
-  fullName: SuperOffice.CRM.Administration.SoUser.GetCurrent()
+  name: GetCurrentAsync(CancellationToken)
+  nameWithType: SoUser.GetCurrentAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.GetCurrentAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -413,12 +456,15 @@ items:
   summary: "\nManage the current user. Must be logged in. Can&apos;t manage users anonymously.\n"
   remarks: Only named users are permitted to manage their own user.  Other kinds of users needs to be maintained by an administrator.
   syntax:
-    content: public static SoUser GetCurrent()
+    content: public static Task<SoUser> GetCurrentAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Administration.SoUser
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoUser}
       description: SoUser object for the current user.
-    content.vb: Public Shared Function GetCurrent As SoUser
-  overload: SuperOffice.CRM.Administration.SoUser.GetCurrent*
+    content.vb: Public Shared Function GetCurrentAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SoUser)
+  overload: SuperOffice.CRM.Administration.SoUser.GetCurrentAsync*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
@@ -458,6 +504,38 @@ items:
   modifiers.vb:
   - Public
   - Overrides
+- uid: SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: SetPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Administration.SoUser
+  langs:
+  - csharp
+  - vb
+  name: SetPersonIdAsync(Int32, CancellationToken)
+  nameWithType: SoUser.SetPersonIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync(System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public Task SetPersonIdAsync(int id, CancellationToken cancellationToken = null)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetPersonIdAsync(id As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Administration.SoUser.GetLicenseOwner(System.String)
   commentId: M:SuperOffice.CRM.Administration.SoUser.GetLicenseOwner(System.String)
   id: GetLicenseOwner(System.String)
@@ -560,6 +638,38 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Administration.SoUser.SetUserTypeAsync(SuperOffice.License.UserType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.SetUserTypeAsync(SuperOffice.License.UserType,System.Threading.CancellationToken)
+  id: SetUserTypeAsync(SuperOffice.License.UserType,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Administration.SoUser
+  langs:
+  - csharp
+  - vb
+  name: SetUserTypeAsync(UserType, CancellationToken)
+  nameWithType: SoUser.SetUserTypeAsync(UserType, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.SetUserTypeAsync(SuperOffice.License.UserType, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public Task SetUserTypeAsync(UserType userType, CancellationToken cancellationToken = null)
+    parameters:
+    - id: userType
+      type: SuperOffice.License.UserType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetUserTypeAsync(userType As UserType, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Administration.SoUser.SetUserTypeAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Administration.SoUser.SetPassword(System.String)
   commentId: M:SuperOffice.CRM.Administration.SoUser.SetPassword(System.String)
   id: SetPassword(System.String)
@@ -595,16 +705,48 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes
-  commentId: M:SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes
-  id: GetSupportedChangePasswordTypes
+- uid: SuperOffice.CRM.Administration.SoUser.GetCanChangePasswordAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.GetCanChangePasswordAsync(System.Threading.CancellationToken)
+  id: GetCanChangePasswordAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: GetSupportedChangePasswordTypes()
-  nameWithType: SoUser.GetSupportedChangePasswordTypes()
-  fullName: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes()
+  name: GetCanChangePasswordAsync(CancellationToken)
+  nameWithType: SoUser.GetCanChangePasswordAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.GetCanChangePasswordAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nIs this plugin able to change password for the current\n"
+  remarks: True if the plugin is able to change password.
+  syntax:
+    content: public Task<bool> GetCanChangePasswordAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function GetCanChangePasswordAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Administration.SoUser.GetCanChangePasswordAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypesAsync(System.Threading.CancellationToken)
+  id: GetSupportedChangePasswordTypesAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Administration.SoUser
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedChangePasswordTypesAsync(CancellationToken)
+  nameWithType: SoUser.GetSupportedChangePasswordTypesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypesAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -614,25 +756,28 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nGet the supported change password methods\n"
   syntax:
-    content: public ChangePasswordType[] GetSupportedChangePasswordTypes()
+    content: public Task<ChangePasswordType[]> GetSupportedChangePasswordTypesAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.ChangePasswordType[]
-    content.vb: Public Function GetSupportedChangePasswordTypes As ChangePasswordType()
-  overload: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes*
+      type: System.Threading.Tasks.Task{SuperOffice.Data.ChangePasswordType[]}
+    content.vb: Public Function GetSupportedChangePasswordTypesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ChangePasswordType())
+  overload: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypesAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Administration.SoUser.ChangePassword(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.ChangePassword(System.String,System.String)
-  id: ChangePassword(System.String,System.String)
+- uid: SuperOffice.CRM.Administration.SoUser.ChangePasswordAsync(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.ChangePasswordAsync(System.String,System.String)
+  id: ChangePasswordAsync(System.String,System.String)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: ChangePassword(String, String)
-  nameWithType: SoUser.ChangePassword(String, String)
-  fullName: SuperOffice.CRM.Administration.SoUser.ChangePassword(System.String, System.String)
+  name: ChangePasswordAsync(String, String)
+  nameWithType: SoUser.ChangePasswordAsync(String, String)
+  fullName: SuperOffice.CRM.Administration.SoUser.ChangePasswordAsync(System.String, System.String)
   type: Method
   source:
     path: SoDataBase
@@ -642,7 +787,7 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nChanges the account password from the old password to the new password.\n"
   syntax:
-    content: public void ChangePassword(string oldPassword, string newPassword)
+    content: public Task ChangePasswordAsync(string oldPassword, string newPassword)
     parameters:
     - id: oldPassword
       type: System.String
@@ -650,22 +795,56 @@ items:
     - id: newPassword
       type: System.String
       description: The new password to change to.
-    content.vb: Public Sub ChangePassword(oldPassword As String, newPassword As String)
-  overload: SuperOffice.CRM.Administration.SoUser.ChangePassword*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ChangePasswordAsync(oldPassword As String, newPassword As String) As Task
+  overload: SuperOffice.CRM.Administration.SoUser.ChangePasswordAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail
-  commentId: M:SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail
-  id: SendChangePasswordMail
+- uid: SuperOffice.CRM.Administration.SoUser.GetCanSendChangePasswordMailAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.GetCanSendChangePasswordMailAsync(System.Threading.CancellationToken)
+  id: GetCanSendChangePasswordMailAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: SendChangePasswordMail()
-  nameWithType: SoUser.SendChangePasswordMail()
-  fullName: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail()
+  name: GetCanSendChangePasswordMailAsync(CancellationToken)
+  nameWithType: SoUser.GetCanSendChangePasswordMailAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.GetCanSendChangePasswordMailAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nIs this plugin able to send a change password email to the user\n"
+  remarks: True if the plugin is able to send the email.
+  syntax:
+    content: public Task<bool> GetCanSendChangePasswordMailAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function GetCanSendChangePasswordMailAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Administration.SoUser.GetCanSendChangePasswordMailAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMailAsync
+  commentId: M:SuperOffice.CRM.Administration.SoUser.SendChangePasswordMailAsync
+  id: SendChangePasswordMailAsync
+  parent: SuperOffice.CRM.Administration.SoUser
+  langs:
+  - csharp
+  - vb
+  name: SendChangePasswordMailAsync()
+  nameWithType: SoUser.SendChangePasswordMailAsync()
+  fullName: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMailAsync()
   type: Method
   source:
     path: SoDataBase
@@ -674,9 +853,11 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
-    content: public void SendChangePasswordMail()
-    content.vb: Public Sub SendChangePasswordMail
-  overload: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail*
+    content: public Task SendChangePasswordMailAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SendChangePasswordMailAsync As Task
+  overload: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMailAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -710,43 +891,6 @@ items:
       description: True if the right password is passed in.
     content.vb: Public Function IsPasswordValid(password As String) As Boolean
   overload: SuperOffice.CRM.Administration.SoUser.IsPasswordValid*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Administration.SoUser.SetOwnPassword(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.SetOwnPassword(System.String,System.String)
-  id: SetOwnPassword(System.String,System.String)
-  parent: SuperOffice.CRM.Administration.SoUser
-  langs:
-  - csharp
-  - vb
-  name: SetOwnPassword(String, String)
-  nameWithType: SoUser.SetOwnPassword(String, String)
-  fullName: SuperOffice.CRM.Administration.SoUser.SetOwnPassword(System.String, System.String)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Administration
-  summary: "\nSet own password.  Only currently logged in users are permitted to access this method.\n"
-  syntax:
-    content: public void SetOwnPassword(string oldPassword, string newPassword)
-    parameters:
-    - id: oldPassword
-      type: System.String
-      description: Your old password.
-    - id: newPassword
-      type: System.String
-      description: Your new password.
-    content.vb: Public Sub SetOwnPassword(oldPassword As String, newPassword As String)
-  overload: SuperOffice.CRM.Administration.SoUser.SetOwnPassword*
-  exceptions:
-  - type: SuperOffice.Exceptions.SoIllegalOperationException
-    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
-    description: If the user does not have required permissions.
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -851,46 +995,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Administration.SoUser.SetValidUserName(System.String)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.SetValidUserName(System.String)
-  id: SetValidUserName(System.String)
+- uid: SuperOffice.CRM.Administration.SoUser.SetValidAssociateNameAsync(System.String)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.SetValidAssociateNameAsync(System.String)
+  id: SetValidAssociateNameAsync(System.String)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: SetValidUserName(String)
-  nameWithType: SoUser.SetValidUserName(String)
-  fullName: SuperOffice.CRM.Administration.SoUser.SetValidUserName(System.String)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Administration
-  syntax:
-    content: public string SetValidUserName(string associateName)
-    parameters:
-    - id: associateName
-      type: System.String
-    return:
-      type: System.String
-    content.vb: Public Function SetValidUserName(associateName As String) As String
-  overload: SuperOffice.CRM.Administration.SoUser.SetValidUserName*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Administration.SoUser.SetValidAssociateName(System.String)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.SetValidAssociateName(System.String)
-  id: SetValidAssociateName(System.String)
-  parent: SuperOffice.CRM.Administration.SoUser
-  langs:
-  - csharp
-  - vb
-  name: SetValidAssociateName(String)
-  nameWithType: SoUser.SetValidAssociateName(String)
-  fullName: SuperOffice.CRM.Administration.SoUser.SetValidAssociateName(System.String)
+  name: SetValidAssociateNameAsync(String)
+  nameWithType: SoUser.SetValidAssociateNameAsync(String)
+  fullName: SuperOffice.CRM.Administration.SoUser.SetValidAssociateNameAsync(System.String)
   type: Method
   source:
     path: SoDataBase
@@ -900,15 +1014,15 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nAssign a user name and make sure it is valid.\n"
   syntax:
-    content: public string SetValidAssociateName(string associateName)
+    content: public Task<string> SetValidAssociateNameAsync(string associateName)
     parameters:
     - id: associateName
       type: System.String
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: The valid user name.
-    content.vb: Public Function SetValidAssociateName(associateName As String) As String
-  overload: SuperOffice.CRM.Administration.SoUser.SetValidAssociateName*
+    content.vb: Public Function SetValidAssociateNameAsync(associateName As String) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.SoUser.SetValidAssociateNameAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1106,16 +1220,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Administration.SoUser.Validate(System.Collections.Generic.Dictionary{System.String,System.String})
-  commentId: M:SuperOffice.CRM.Administration.SoUser.Validate(System.Collections.Generic.Dictionary{System.String,System.String})
-  id: Validate(System.Collections.Generic.Dictionary{System.String,System.String})
+- uid: SuperOffice.CRM.Administration.SoUser.ValidateAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.CRM.Administration.SoUser.ValidateAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+  id: ValidateAsync(System.Collections.Generic.Dictionary{System.String,System.String})
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: Validate(Dictionary<String, String>)
-  nameWithType: SoUser.Validate(Dictionary<String, String>)
-  fullName: SuperOffice.CRM.Administration.SoUser.Validate(System.Collections.Generic.Dictionary<System.String, System.String>)
+  name: ValidateAsync(Dictionary<String, String>)
+  nameWithType: SoUser.ValidateAsync(Dictionary<String, String>)
+  fullName: SuperOffice.CRM.Administration.SoUser.ValidateAsync(System.Collections.Generic.Dictionary<System.String, System.String>)
   type: Method
   source:
     path: SoDataBase
@@ -1124,29 +1238,31 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
-    content: public void Validate(Dictionary<string, string> validator)
+    content: public Task ValidateAsync(Dictionary<string, string> validator)
     parameters:
     - id: validator
       type: System.Collections.Generic.Dictionary{System.String,System.String}
-    content.vb: Public Sub Validate(validator As Dictionary(Of String, String))
-  overload: SuperOffice.CRM.Administration.SoUser.Validate*
-  nameWithType.vb: SoUser.Validate(Dictionary(Of String, String))
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ValidateAsync(validator As Dictionary(Of String, String)) As Task
+  overload: SuperOffice.CRM.Administration.SoUser.ValidateAsync*
+  nameWithType.vb: SoUser.ValidateAsync(Dictionary(Of String, String))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.CRM.Administration.SoUser.Validate(System.Collections.Generic.Dictionary(Of System.String, System.String))
-  name.vb: Validate(Dictionary(Of String, String))
-- uid: SuperOffice.CRM.Administration.SoUser.FindUsersFromPerson(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.FindUsersFromPerson(System.Int32)
-  id: FindUsersFromPerson(System.Int32)
+  fullName.vb: SuperOffice.CRM.Administration.SoUser.ValidateAsync(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: ValidateAsync(Dictionary(Of String, String))
+- uid: SuperOffice.CRM.Administration.SoUser.FindUsersFromPersonAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.FindUsersFromPersonAsync(System.Int32,System.Threading.CancellationToken)
+  id: FindUsersFromPersonAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: FindUsersFromPerson(Int32)
-  nameWithType: SoUser.FindUsersFromPerson(Int32)
-  fullName: SuperOffice.CRM.Administration.SoUser.FindUsersFromPerson(System.Int32)
+  name: FindUsersFromPersonAsync(Int32, CancellationToken)
+  nameWithType: SoUser.FindUsersFromPersonAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.FindUsersFromPersonAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -1156,32 +1272,34 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nMethod for finding associateId&apos;s of user providing the PersonId\n"
   syntax:
-    content: public static int[] FindUsersFromPerson(int personId)
+    content: public static Task<int[]> FindUsersFromPersonAsync(int personId, CancellationToken cancellationToken = null)
     parameters:
     - id: personId
       type: System.Int32
       description: PersonId of the user to find
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32[]
+      type: System.Threading.Tasks.Task{System.Int32[]}
       description: AssociateIdd of mathing users.
-    content.vb: Public Shared Function FindUsersFromPerson(personId As Integer) As Integer()
-  overload: SuperOffice.CRM.Administration.SoUser.FindUsersFromPerson*
+    content.vb: Public Shared Function FindUsersFromPersonAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Administration.SoUser.FindUsersFromPersonAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUser(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUser(System.Int32)
-  id: FindUsersFromEJUser(System.Int32)
+- uid: SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUserAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUserAsync(System.Int32,System.Threading.CancellationToken)
+  id: FindUsersFromEJUserAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: FindUsersFromEJUser(Int32)
-  nameWithType: SoUser.FindUsersFromEJUser(Int32)
-  fullName: SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUser(System.Int32)
+  name: FindUsersFromEJUserAsync(Int32, CancellationToken)
+  nameWithType: SoUser.FindUsersFromEJUserAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUserAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -1191,15 +1309,17 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nMethod for finding associateId&apos;s of eJournal users providing the ejUser.Id\n"
   syntax:
-    content: public static int[] FindUsersFromEJUser(int ejUserId)
+    content: public static Task<int[]> FindUsersFromEJUserAsync(int ejUserId, CancellationToken cancellationToken = null)
     parameters:
     - id: ejUserId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32[]
+      type: System.Threading.Tasks.Task{System.Int32[]}
       description: AssociateIdd of matching users.
-    content.vb: Public Shared Function FindUsersFromEJUser(ejUserId As Integer) As Integer()
-  overload: SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUser*
+    content.vb: Public Shared Function FindUsersFromEJUserAsync(ejUserId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUserAsync*
   modifiers.csharp:
   - public
   - static
@@ -1261,16 +1381,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Administration.SoUser.ChangeUserGroup(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.ChangeUserGroup(System.Int32,System.Int32)
-  id: ChangeUserGroup(System.Int32,System.Int32)
+- uid: SuperOffice.CRM.Administration.SoUser.ChangeUserGroupAsync(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.ChangeUserGroupAsync(System.Int32,System.Int32)
+  id: ChangeUserGroupAsync(System.Int32,System.Int32)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: ChangeUserGroup(Int32, Int32)
-  nameWithType: SoUser.ChangeUserGroup(Int32, Int32)
-  fullName: SuperOffice.CRM.Administration.SoUser.ChangeUserGroup(System.Int32, System.Int32)
+  name: ChangeUserGroupAsync(Int32, Int32)
+  nameWithType: SoUser.ChangeUserGroupAsync(Int32, Int32)
+  fullName: SuperOffice.CRM.Administration.SoUser.ChangeUserGroupAsync(System.Int32, System.Int32)
   type: Method
   source:
     path: SoDataBase
@@ -1280,14 +1400,16 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nThis function is called to change membership of one usergroup to another on the user.\n"
   syntax:
-    content: public void ChangeUserGroup(int oldGroupId, int newGroupId)
+    content: public Task ChangeUserGroupAsync(int oldGroupId, int newGroupId)
     parameters:
     - id: oldGroupId
       type: System.Int32
     - id: newGroupId
       type: System.Int32
-    content.vb: Public Sub ChangeUserGroup(oldGroupId As Integer, newGroupId As Integer)
-  overload: SuperOffice.CRM.Administration.SoUser.ChangeUserGroup*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ChangeUserGroupAsync(oldGroupId As Integer, newGroupId As Integer) As Task
+  overload: SuperOffice.CRM.Administration.SoUser.ChangeUserGroupAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1356,16 +1478,16 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdate
-  commentId: M:SuperOffice.CRM.Administration.SoUser.OnPreIdUpdate
-  id: OnPreIdUpdate
+- uid: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Administration.SoUser.OnPreIdUpdateAsync
+  id: OnPreIdUpdateAsync
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: OnPreIdUpdate()
-  nameWithType: SoUser.OnPreIdUpdate()
-  fullName: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: SoUser.OnPreIdUpdateAsync()
+  fullName: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -1375,26 +1497,28 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nHandle Pre Id Update: Update the implied licenses on the user to match the ExtraInfo &quot;set=...&quot;\nby removing all hidden licenses and then assigned the ones\n"
   syntax:
-    content: protected override void OnPreIdUpdate()
-    content.vb: Protected Overrides Sub OnPreIdUpdate
-  overridden: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-  overload: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdate*
+    content: protected override Task OnPreIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnPreIdUpdateAsync As Task
+  overridden: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+  overload: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdateAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
-  commentId: M:SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
-  id: GetRequestRestrictionBlockers
+- uid: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockersAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockersAsync(System.Threading.CancellationToken)
+  id: GetRequestRestrictionBlockersAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: GetRequestRestrictionBlockers()
-  nameWithType: SoUser.GetRequestRestrictionBlockers()
-  fullName: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers()
+  name: GetRequestRestrictionBlockersAsync(CancellationToken)
+  nameWithType: SoUser.GetRequestRestrictionBlockersAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockersAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -1404,26 +1528,29 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nReturn request based reasons for blocking delete of user\n"
   syntax:
-    content: public string GetRequestRestrictionBlockers()
+    content: public Task<string> GetRequestRestrictionBlockersAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: 'Blank or an error message: &quot;[SR_REQUEST_DEPENDENCY]&quot;'
-    content.vb: Public Function GetRequestRestrictionBlockers As String
-  overload: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers*
+    content.vb: Public Function GetRequestRestrictionBlockersAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockersAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Administration.SoUser.OnIdUpdate
-  commentId: M:SuperOffice.CRM.Administration.SoUser.OnIdUpdate
-  id: OnIdUpdate
+- uid: SuperOffice.CRM.Administration.SoUser.OnIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Administration.SoUser.OnIdUpdateAsync
+  id: OnIdUpdateAsync
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: OnIdUpdate()
-  nameWithType: SoUser.OnIdUpdate()
-  fullName: SuperOffice.CRM.Administration.SoUser.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: SoUser.OnIdUpdateAsync()
+  fullName: SuperOffice.CRM.Administration.SoUser.OnIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -1433,26 +1560,28 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nHandle Id Update: ensure that associate.ejUserId = ejUser.ejUserId\n\nUpdate related objects with correct id&apos;s to make sure that relations are consistent\nbefore saving to the database.\n"
   syntax:
-    content: protected override void OnIdUpdate()
-    content.vb: Protected Overrides Sub OnIdUpdate
-  overridden: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-  overload: SuperOffice.CRM.Administration.SoUser.OnIdUpdate*
+    content: protected override Task OnIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnIdUpdateAsync As Task
+  overridden: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+  overload: SuperOffice.CRM.Administration.SoUser.OnIdUpdateAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Administration.SoUser.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.CRM.Administration.SoUser.OnSaved(System.Boolean)
-  id: OnSaved(System.Boolean)
+- uid: SuperOffice.CRM.Administration.SoUser.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.CRM.Administration.SoUser.OnSavedAsync(System.Boolean)
+  id: OnSavedAsync(System.Boolean)
   parent: SuperOffice.CRM.Administration.SoUser
   langs:
   - csharp
   - vb
-  name: OnSaved(Boolean)
-  nameWithType: SoUser.OnSaved(Boolean)
-  fullName: SuperOffice.CRM.Administration.SoUser.OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: SoUser.OnSavedAsync(Boolean)
+  fullName: SuperOffice.CRM.Administration.SoUser.OnSavedAsync(System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -1461,13 +1590,15 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
-    content: protected override void OnSaved(bool bSucceeded)
+    content: protected override Task OnSavedAsync(bool bSucceeded)
     parameters:
     - id: bSucceeded
       type: System.Boolean
-    content.vb: Protected Overrides Sub OnSaved(bSucceeded As Boolean)
-  overridden: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-  overload: SuperOffice.CRM.Administration.SoUser.OnSaved*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnSavedAsync(bSucceeded As Boolean) As Task
+  overridden: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+  overload: SuperOffice.CRM.Administration.SoUser.OnSavedAsync*
   modifiers.csharp:
   - protected
   - override
@@ -1622,36 +1753,6 @@ items:
       type: SuperOffice.CRM.Rows.EjuserRow
     content.vb: Public ReadOnly Property Ejuser As EjuserRow
   overload: SuperOffice.CRM.Administration.SoUser.Ejuser*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Administration.SoUser.ForeignKeyHelper
-  commentId: P:SuperOffice.CRM.Administration.SoUser.ForeignKeyHelper
-  id: ForeignKeyHelper
-  parent: SuperOffice.CRM.Administration.SoUser
-  langs:
-  - csharp
-  - vb
-  name: ForeignKeyHelper
-  nameWithType: SoUser.ForeignKeyHelper
-  fullName: SuperOffice.CRM.Administration.SoUser.ForeignKeyHelper
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Administration
-  syntax:
-    content: public RowForeignKeyHelper ForeignKeyHelper { get; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
-    content.vb: Public ReadOnly Property ForeignKeyHelper As RowForeignKeyHelper
-  overload: SuperOffice.CRM.Administration.SoUser.ForeignKeyHelper*
   modifiers.csharp:
   - public
   - get
@@ -2049,18 +2150,18 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nPrimary key of the person in the person table.\n"
   syntax:
-    content: public int PersonId { get; set; }
+    content: public int PersonId { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Property PersonId As Integer
+    content.vb: Public ReadOnly Property PersonId As Integer
   overload: SuperOffice.CRM.Administration.SoUser.PersonId*
   modifiers.csharp:
   - public
   - get
-  - set
   modifiers.vb:
   - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Administration.SoUser.Person
   commentId: P:SuperOffice.CRM.Administration.SoUser.Person
   id: Person
@@ -2111,18 +2212,18 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nType of associate (e.g. logon). Can only be set by administrators.\n"
   syntax:
-    content: public UserType UserType { get; set; }
+    content: public UserType UserType { get; }
     parameters: []
     return:
       type: SuperOffice.License.UserType
-    content.vb: Public Property UserType As UserType
+    content.vb: Public ReadOnly Property UserType As UserType
   overload: SuperOffice.CRM.Administration.SoUser.UserType*
   modifiers.csharp:
   - public
   - get
-  - set
   modifiers.vb:
   - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Administration.SoUser.UserName
   commentId: P:SuperOffice.CRM.Administration.SoUser.UserName
   id: UserName
@@ -2617,70 +2718,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Administration.SoUser.CanChangePassword
-  commentId: P:SuperOffice.CRM.Administration.SoUser.CanChangePassword
-  id: CanChangePassword
-  parent: SuperOffice.CRM.Administration.SoUser
-  langs:
-  - csharp
-  - vb
-  name: CanChangePassword
-  nameWithType: SoUser.CanChangePassword
-  fullName: SuperOffice.CRM.Administration.SoUser.CanChangePassword
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Administration
-  summary: "\nIs this plugin able to change password for the current\n"
-  remarks: True if the plugin is able to change password.
-  syntax:
-    content: public bool CanChangePassword { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public ReadOnly Property CanChangePassword As Boolean
-  overload: SuperOffice.CRM.Administration.SoUser.CanChangePassword*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
-  commentId: P:SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
-  id: CanSendChangePasswordMail
-  parent: SuperOffice.CRM.Administration.SoUser
-  langs:
-  - csharp
-  - vb
-  name: CanSendChangePasswordMail
-  nameWithType: SoUser.CanSendChangePasswordMail
-  fullName: SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Administration
-  summary: "\nIs this plugin able to send a change password email to the user\n"
-  remarks: True if the plugin is able to send the email.
-  syntax:
-    content: public bool CanSendChangePasswordMail { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public ReadOnly Property CanSendChangePasswordMail As Boolean
-  overload: SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Administration.SoUser.CanValidatePassword
   commentId: P:SuperOffice.CRM.Administration.SoUser.CanValidatePassword
   id: CanValidatePassword
@@ -2906,18 +2943,18 @@ references:
   name: INestedPersist
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
-- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersistFacade.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2931,10 +2968,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2947,18 +2984,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2972,10 +3009,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2988,18 +3025,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnSave(BatchSave)
-  nameWithType: NestedPersistFacade.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: OnSaveAsync(BatchSave)
+  nameWithType: NestedPersistFacade.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: NestedPersistFacade.OnSave
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: NestedPersistFacade.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3013,10 +3050,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: NestedPersistFacade.OnSave
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: NestedPersistFacade.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3091,18 +3128,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.Save
-  commentId: M:SuperOffice.Data.NestedPersist.Save
+- uid: SuperOffice.Data.NestedPersist.SaveAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SaveAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: Save()
-  nameWithType: NestedPersist.Save()
-  fullName: SuperOffice.Data.NestedPersist.Save()
+  name: SaveAsync()
+  nameWithType: NestedPersist.SaveAsync()
+  fullName: SuperOffice.Data.NestedPersist.SaveAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3111,10 +3148,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3122,20 +3159,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPreIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name: INestedPersist.OnPreIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3144,10 +3181,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3155,20 +3192,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name: INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3182,10 +3219,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3198,20 +3235,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name: INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3225,10 +3262,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3241,20 +3278,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name: INestedPersist.OnIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3263,10 +3300,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3274,20 +3311,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSave(BatchSave)
-  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
-  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name: INestedPersist.OnSaveAsync(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: INestedPersist.OnSave
-    nameWithType: NestedPersist.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3301,10 +3338,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: SuperOffice.Data.INestedPersist.OnSave
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3317,20 +3354,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSaved(Boolean)
-  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
-  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name: INestedPersist.OnSavedAsync(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: INestedPersist.OnSaved
-    nameWithType: NestedPersist.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3344,10 +3381,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: SuperOffice.Data.INestedPersist.OnSaved
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3809,25 +3846,153 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserName*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserName
+- uid: SuperOffice.CRM.Administration.SoUser.GetForeignKeyHelperAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetForeignKeyHelperAsync
   isExternal: true
-  name: GetDefaultAssociateUserName
-  nameWithType: SoUser.GetDefaultAssociateUserName
-  fullName: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserName
-- uid: System.String
-  commentId: T:System.String
-  parent: System
+  name: GetForeignKeyHelperAsync
+  nameWithType: SoUser.GetForeignKeyHelperAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.GetForeignKeyHelperAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Administration.SoUser.CreateNew*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.CreateNew
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.Util.RowForeignKeyHelper}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.Util.RowForeignKeyHelper}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RowForeignKeyHelper>
+  nameWithType: Task<RowForeignKeyHelper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.Util.RowForeignKeyHelper>
+  nameWithType.vb: Task(Of RowForeignKeyHelper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.Util.RowForeignKeyHelper)
+  name.vb: Task(Of RowForeignKeyHelper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
+    name: RowForeignKeyHelper
+    nameWithType: RowForeignKeyHelper
+    fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
+    name: RowForeignKeyHelper
+    nameWithType: RowForeignKeyHelper
+    fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: CreateNew
-  nameWithType: SoUser.CreateNew
-  fullName: SuperOffice.CRM.Administration.SoUser.CreateNew
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserNameAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserNameAsync
+  isExternal: true
+  name: GetDefaultAssociateUserNameAsync
+  nameWithType: SoUser.GetDefaultAssociateUserNameAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserNameAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoUser.CreateNewAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.CreateNewAsync
+  isExternal: true
+  name: CreateNewAsync
+  nameWithType: SoUser.CreateNewAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.CreateNewAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -3847,19 +4012,55 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.Administration.SoUser
-  commentId: T:SuperOffice.CRM.Administration.SoUser
-  parent: SuperOffice.CRM.Administration
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoUser}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoUser}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SoUser>
+  nameWithType: Task<SoUser>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Administration.SoUser>
+  nameWithType.vb: Task(Of SoUser)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Administration.SoUser)
+  name.vb: Task(Of SoUser)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Administration.SoUser
+    name: SoUser
+    nameWithType: SoUser
+    fullName: SuperOffice.CRM.Administration.SoUser
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Administration.SoUser
+    name: SoUser
+    nameWithType: SoUser
+    fullName: SuperOffice.CRM.Administration.SoUser
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoUser.ManageUserAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ManageUserAsync
   isExternal: true
-  name: SoUser
-  nameWithType: SoUser
-  fullName: SuperOffice.CRM.Administration.SoUser
-- uid: SuperOffice.CRM.Administration.SoUser.ManageUser*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ManageUser
-  isExternal: true
-  name: ManageUser
-  nameWithType: SoUser.ManageUser
-  fullName: SuperOffice.CRM.Administration.SoUser.ManageUser
+  name: ManageUserAsync
+  nameWithType: SoUser.ManageUserAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserAsync
 - uid: SuperOffice.Exceptions.SoIllegalOperationException
   commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
   isExternal: true
@@ -3869,21 +4070,37 @@ references:
 - uid: System.ArgumentNullException
   commentId: T:System.ArgumentNullException
   isExternal: true
-- uid: SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonId*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
-  name: ManageUserFromPersonId
-  nameWithType: SoUser.ManageUserFromPersonId
-  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonId
-- uid: SuperOffice.CRM.Administration.SoUser[]
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonIdAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonIdAsync
   isExternal: true
-  name: SoUser[]
-  nameWithType: SoUser[]
-  fullName: SuperOffice.CRM.Administration.SoUser[]
-  nameWithType.vb: SoUser()
-  fullName.vb: SuperOffice.CRM.Administration.SoUser()
-  name.vb: SoUser()
+  name: ManageUserFromPersonIdAsync
+  nameWithType: SoUser.ManageUserFromPersonIdAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserFromPersonIdAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoUser[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoUser[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SoUser[]>
+  nameWithType: Task<SoUser[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Administration.SoUser[]>
+  nameWithType.vb: Task(Of SoUser())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Administration.SoUser())
+  name.vb: Task(Of SoUser())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Administration.SoUser
     name: SoUser
     nameWithType: SoUser
@@ -3892,7 +4109,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Administration.SoUser
     name: SoUser
     nameWithType: SoUser
@@ -3901,24 +4129,38 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserId*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserId
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserIdAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserIdAsync
   isExternal: true
-  name: ManageUserFromEjUserId
-  nameWithType: SoUser.ManageUserFromEjUserId
-  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserId
-- uid: SuperOffice.CRM.Administration.SoUser.GetCurrent*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetCurrent
+  name: ManageUserFromEjUserIdAsync
+  nameWithType: SoUser.ManageUserFromEjUserIdAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.ManageUserFromEjUserIdAsync
+- uid: SuperOffice.CRM.Administration.SoUser.GetCurrentAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetCurrentAsync
   isExternal: true
-  name: GetCurrent
-  nameWithType: SoUser.GetCurrent
-  fullName: SuperOffice.CRM.Administration.SoUser.GetCurrent
+  name: GetCurrentAsync
+  nameWithType: SoUser.GetCurrentAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.GetCurrentAsync
 - uid: SuperOffice.CRM.Administration.SoUser.ToString*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.ToString
   isExternal: true
   name: ToString
   nameWithType: SoUser.ToString
   fullName: SuperOffice.CRM.Administration.SoUser.ToString
+- uid: SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync
+  isExternal: true
+  name: SetPersonIdAsync
+  nameWithType: SoUser.SetPersonIdAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.SetPersonIdAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Administration.SoUser.GetLicenseOwner*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetLicenseOwner
   isExternal: true
@@ -3951,27 +4193,91 @@ references:
   name: AssociateModuleLicenseLink
   nameWithType: AssociateModuleLicenseLink
   fullName: SuperOffice.License.AssociateModuleLicenseLink
+- uid: SuperOffice.CRM.Administration.SoUser.SetUserTypeAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SetUserTypeAsync
+  isExternal: true
+  name: SetUserTypeAsync
+  nameWithType: SoUser.SetUserTypeAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.SetUserTypeAsync
 - uid: SuperOffice.CRM.Administration.SoUser.SetPassword*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.SetPassword
   isExternal: true
   name: SetPassword
   nameWithType: SoUser.SetPassword
   fullName: SuperOffice.CRM.Administration.SoUser.SetPassword
-- uid: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes
+- uid: SuperOffice.CRM.Administration.SoUser.GetCanChangePasswordAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetCanChangePasswordAsync
   isExternal: true
-  name: GetSupportedChangePasswordTypes
-  nameWithType: SoUser.GetSupportedChangePasswordTypes
-  fullName: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes
-- uid: SuperOffice.Data.ChangePasswordType[]
-  isExternal: true
-  name: ChangePasswordType[]
-  nameWithType: ChangePasswordType[]
-  fullName: SuperOffice.Data.ChangePasswordType[]
-  nameWithType.vb: ChangePasswordType()
-  fullName.vb: SuperOffice.Data.ChangePasswordType()
-  name.vb: ChangePasswordType()
+  name: GetCanChangePasswordAsync
+  nameWithType: SoUser.GetCanChangePasswordAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.GetCanChangePasswordAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypesAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypesAsync
+  isExternal: true
+  name: GetSupportedChangePasswordTypesAsync
+  nameWithType: SoUser.GetSupportedChangePasswordTypesAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.ChangePasswordType[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.ChangePasswordType[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ChangePasswordType[]>
+  nameWithType: Task<ChangePasswordType[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.ChangePasswordType[]>
+  nameWithType.vb: Task(Of ChangePasswordType())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.ChangePasswordType())
+  name.vb: Task(Of ChangePasswordType())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.ChangePasswordType
     name: ChangePasswordType
     nameWithType: ChangePasswordType
@@ -3980,7 +4286,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.ChangePasswordType
     name: ChangePasswordType
     nameWithType: ChangePasswordType
@@ -3989,30 +4306,33 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Administration.SoUser.ChangePassword*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ChangePassword
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoUser.ChangePasswordAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ChangePasswordAsync
   isExternal: true
-  name: ChangePassword
-  nameWithType: SoUser.ChangePassword
-  fullName: SuperOffice.CRM.Administration.SoUser.ChangePassword
-- uid: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail
+  name: ChangePasswordAsync
+  nameWithType: SoUser.ChangePasswordAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.ChangePasswordAsync
+- uid: SuperOffice.CRM.Administration.SoUser.GetCanSendChangePasswordMailAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetCanSendChangePasswordMailAsync
   isExternal: true
-  name: SendChangePasswordMail
-  nameWithType: SoUser.SendChangePasswordMail
-  fullName: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail
+  name: GetCanSendChangePasswordMailAsync
+  nameWithType: SoUser.GetCanSendChangePasswordMailAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.GetCanSendChangePasswordMailAsync
+- uid: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMailAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SendChangePasswordMailAsync
+  isExternal: true
+  name: SendChangePasswordMailAsync
+  nameWithType: SoUser.SendChangePasswordMailAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMailAsync
 - uid: SuperOffice.CRM.Administration.SoUser.IsPasswordValid*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.IsPasswordValid
   isExternal: true
   name: IsPasswordValid
   nameWithType: SoUser.IsPasswordValid
   fullName: SuperOffice.CRM.Administration.SoUser.IsPasswordValid
-- uid: SuperOffice.CRM.Administration.SoUser.SetOwnPassword*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SetOwnPassword
-  isExternal: true
-  name: SetOwnPassword
-  nameWithType: SoUser.SetOwnPassword
-  fullName: SuperOffice.CRM.Administration.SoUser.SetOwnPassword
 - uid: SuperOffice.CRM.Administration.SoUser.IsAssociateNameLegal*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.IsAssociateNameLegal
   isExternal: true
@@ -4031,18 +4351,12 @@ references:
   name: SetValidAssociateUserName
   nameWithType: SoUser.SetValidAssociateUserName
   fullName: SuperOffice.CRM.Administration.SoUser.SetValidAssociateUserName
-- uid: SuperOffice.CRM.Administration.SoUser.SetValidUserName*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SetValidUserName
+- uid: SuperOffice.CRM.Administration.SoUser.SetValidAssociateNameAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SetValidAssociateNameAsync
   isExternal: true
-  name: SetValidUserName
-  nameWithType: SoUser.SetValidUserName
-  fullName: SuperOffice.CRM.Administration.SoUser.SetValidUserName
-- uid: SuperOffice.CRM.Administration.SoUser.SetValidAssociateName*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SetValidAssociateName
-  isExternal: true
-  name: SetValidAssociateName
-  nameWithType: SoUser.SetValidAssociateName
-  fullName: SuperOffice.CRM.Administration.SoUser.SetValidAssociateName
+  name: SetValidAssociateNameAsync
+  nameWithType: SoUser.SetValidAssociateNameAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.SetValidAssociateNameAsync
 - uid: SuperOffice.CRM.Administration.SoUser.IsPasswordLegal*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.IsPasswordLegal
   isExternal: true
@@ -4086,6 +4400,12 @@ references:
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Administration.SoUser.ValidateAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ValidateAsync
+  isExternal: true
+  name: ValidateAsync
+  nameWithType: SoUser.ValidateAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.ValidateAsync
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
   commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
@@ -4195,21 +4515,30 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Administration.SoUser.FindUsersFromPerson*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.FindUsersFromPerson
+- uid: SuperOffice.CRM.Administration.SoUser.FindUsersFromPersonAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.FindUsersFromPersonAsync
   isExternal: true
-  name: FindUsersFromPerson
-  nameWithType: SoUser.FindUsersFromPerson
-  fullName: SuperOffice.CRM.Administration.SoUser.FindUsersFromPerson
-- uid: System.Int32[]
-  isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  name: FindUsersFromPersonAsync
+  nameWithType: SoUser.FindUsersFromPersonAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.FindUsersFromPersonAsync
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32[]>
+  nameWithType: Task<Int32[]>
+  fullName: System.Threading.Tasks.Task<System.Int32[]>
+  nameWithType.vb: Task(Of Int32())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32())
+  name.vb: Task(Of Int32())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
@@ -4218,7 +4547,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
@@ -4227,12 +4567,15 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUser*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUserAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUserAsync
   isExternal: true
-  name: FindUsersFromEJUser
-  nameWithType: SoUser.FindUsersFromEJUser
-  fullName: SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUser
+  name: FindUsersFromEJUserAsync
+  nameWithType: SoUser.FindUsersFromEJUserAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.FindUsersFromEJUserAsync
 - uid: SuperOffice.CRM.Administration.SoUser.RemoveLicenses*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.RemoveLicenses
   isExternal: true
@@ -4245,12 +4588,12 @@ references:
   name: MakeRetired
   nameWithType: SoUser.MakeRetired
   fullName: SuperOffice.CRM.Administration.SoUser.MakeRetired
-- uid: SuperOffice.CRM.Administration.SoUser.ChangeUserGroup*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ChangeUserGroup
+- uid: SuperOffice.CRM.Administration.SoUser.ChangeUserGroupAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ChangeUserGroupAsync
   isExternal: true
-  name: ChangeUserGroup
-  nameWithType: SoUser.ChangeUserGroup
-  fullName: SuperOffice.CRM.Administration.SoUser.ChangeUserGroup
+  name: ChangeUserGroupAsync
+  nameWithType: SoUser.ChangeUserGroupAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.ChangeUserGroupAsync
 - uid: SuperOffice.CRM.Administration.SoUser.DemandPermission*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.DemandPermission
   isExternal: true
@@ -4344,18 +4687,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+- uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPreIdUpdate()
-  nameWithType: NestedPersistFacade.OnPreIdUpdate()
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: NestedPersistFacade.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: NestedPersistFacade.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4364,10 +4707,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: NestedPersistFacade.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4375,30 +4718,30 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdate*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.OnPreIdUpdate
+- uid: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.OnPreIdUpdateAsync
   isExternal: true
-  name: OnPreIdUpdate
-  nameWithType: SoUser.OnPreIdUpdate
-  fullName: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdate
-- uid: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
+  name: OnPreIdUpdateAsync
+  nameWithType: SoUser.OnPreIdUpdateAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdateAsync
+- uid: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockersAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockersAsync
   isExternal: true
-  name: GetRequestRestrictionBlockers
-  nameWithType: SoUser.GetRequestRestrictionBlockers
-  fullName: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
-- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  name: GetRequestRestrictionBlockersAsync
+  nameWithType: SoUser.GetRequestRestrictionBlockersAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockersAsync
+- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnIdUpdate()
-  nameWithType: NestedPersistFacade.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: NestedPersistFacade.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: NestedPersistFacade.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4407,10 +4750,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: NestedPersistFacade.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4418,24 +4761,24 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Administration.SoUser.OnIdUpdate*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.OnIdUpdate
+- uid: SuperOffice.CRM.Administration.SoUser.OnIdUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.OnIdUpdateAsync
   isExternal: true
-  name: OnIdUpdate
-  nameWithType: SoUser.OnIdUpdate
-  fullName: SuperOffice.CRM.Administration.SoUser.OnIdUpdate
-- uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  name: OnIdUpdateAsync
+  nameWithType: SoUser.OnIdUpdateAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.OnIdUpdateAsync
+- uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnSaved(Boolean)
-  nameWithType: NestedPersistFacade.OnSaved(Boolean)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: NestedPersistFacade.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: NestedPersistFacade.OnSaved
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: NestedPersistFacade.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4449,10 +4792,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: NestedPersistFacade.OnSaved
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: NestedPersistFacade.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4465,18 +4808,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Administration.SoUser.OnSaved*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.OnSaved
+- uid: SuperOffice.CRM.Administration.SoUser.OnSavedAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.OnSavedAsync
   isExternal: true
-  name: OnSaved
-  nameWithType: SoUser.OnSaved
-  fullName: SuperOffice.CRM.Administration.SoUser.OnSaved
+  name: OnSavedAsync
+  nameWithType: SoUser.OnSavedAsync
+  fullName: SuperOffice.CRM.Administration.SoUser.OnSavedAsync
 - uid: SuperOffice.CRM.Administration.SoUser.OtherGroupIds*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.OtherGroupIds
   isExternal: true
   name: OtherGroupIds
   nameWithType: SoUser.OtherGroupIds
   fullName: SuperOffice.CRM.Administration.SoUser.OtherGroupIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Administration.SoUser.EjCategoryIds*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.EjCategoryIds
   isExternal: true
@@ -4547,25 +4916,6 @@ references:
   name: EjuserRow
   nameWithType: EjuserRow
   fullName: SuperOffice.CRM.Rows.EjuserRow
-- uid: SuperOffice.CRM.Administration.SoUser.ForeignKeyHelper*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.ForeignKeyHelper
-  isExternal: true
-  name: ForeignKeyHelper
-  nameWithType: SoUser.ForeignKeyHelper
-  fullName: SuperOffice.CRM.Administration.SoUser.ForeignKeyHelper
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
-  commentId: T:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
-  parent: SuperOffice.CRM.Rows.Util
-  isExternal: true
-  name: RowForeignKeyHelper
-  nameWithType: RowForeignKeyHelper
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
-- uid: SuperOffice.CRM.Rows.Util
-  commentId: N:SuperOffice.CRM.Rows.Util
-  isExternal: true
-  name: SuperOffice.CRM.Rows.Util
-  nameWithType: SuperOffice.CRM.Rows.Util
-  fullName: SuperOffice.CRM.Rows.Util
 - uid: SuperOffice.CRM.Administration.SoUser.SkipConsistencyChecks*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.SkipConsistencyChecks
   isExternal: true
@@ -4825,18 +5175,6 @@ references:
   name: PasswordFieldRight
   nameWithType: SoUser.PasswordFieldRight
   fullName: SuperOffice.CRM.Administration.SoUser.PasswordFieldRight
-- uid: SuperOffice.CRM.Administration.SoUser.CanChangePassword*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.CanChangePassword
-  isExternal: true
-  name: CanChangePassword
-  nameWithType: SoUser.CanChangePassword
-  fullName: SuperOffice.CRM.Administration.SoUser.CanChangePassword
-- uid: SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail*
-  commentId: Overload:SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
-  isExternal: true
-  name: CanSendChangePasswordMail
-  nameWithType: SoUser.CanSendChangePasswordMail
-  fullName: SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
 - uid: SuperOffice.CRM.Administration.SoUser.CanValidatePassword*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.CanValidatePassword
   isExternal: true

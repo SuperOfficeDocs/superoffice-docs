@@ -5,8 +5,8 @@ items:
   id: TemporaryKeyHelper
   parent: SuperOffice.CRM
   children:
-  - SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
-  - SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
+  - SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  - SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -34,16 +34,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
-  commentId: M:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
-  id: CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+- uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  commentId: M:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  id: CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
   parent: SuperOffice.CRM.TemporaryKeyHelper
   langs:
   - csharp
   - vb
-  name: CreateTemporaryKey(TemporaryKeyDomain, Int32, Int32, DateTime, String)
-  nameWithType: TemporaryKeyHelper.CreateTemporaryKey(TemporaryKeyDomain, Int32, Int32, DateTime, String)
-  fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain, System.Int32, System.Int32, System.DateTime, System.String)
+  name: CreateTemporaryKeyAsync(TemporaryKeyDomain, Int32, Int32, DateTime, String)
+  nameWithType: TemporaryKeyHelper.CreateTemporaryKeyAsync(TemporaryKeyDomain, Int32, Int32, DateTime, String)
+  fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync(SuperOffice.Data.TemporaryKeyDomain, System.Int32, System.Int32, System.DateTime, System.String)
   type: Method
   source:
     path: SoDataBase
@@ -52,7 +52,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static string CreateTemporaryKey(TemporaryKeyDomain domain, int targetId, int personId, DateTime expires, string payload = "")
+    content: public static Task<string> CreateTemporaryKeyAsync(TemporaryKeyDomain domain, int targetId, int personId, DateTime expires, string payload = "")
     parameters:
     - id: domain
       type: SuperOffice.Data.TemporaryKeyDomain
@@ -65,25 +65,25 @@ items:
     - id: payload
       type: System.String
     return:
-      type: System.String
-    content.vb: Public Shared Function CreateTemporaryKey(domain As TemporaryKeyDomain, targetId As Integer, personId As Integer, expires As DateTime, payload As String = "") As String
-  overload: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function CreateTemporaryKeyAsync(domain As TemporaryKeyDomain, targetId As Integer, personId As Integer, expires As DateTime, payload As String = "") As Task(Of String)
+  overload: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
-  commentId: M:SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
-  id: DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
+- uid: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Threading.CancellationToken)
+  id: DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TemporaryKeyHelper
   langs:
   - csharp
   - vb
-  name: DeleteTemporaryKeys(TemporaryKeyDomain, Int32)
-  nameWithType: TemporaryKeyHelper.DeleteTemporaryKeys(TemporaryKeyDomain, Int32)
-  fullName: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain, System.Int32)
+  name: DeleteTemporaryKeysAsync(TemporaryKeyDomain, Int32, CancellationToken)
+  nameWithType: TemporaryKeyHelper.DeleteTemporaryKeysAsync(TemporaryKeyDomain, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync(SuperOffice.Data.TemporaryKeyDomain, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -92,14 +92,18 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void DeleteTemporaryKeys(TemporaryKeyDomain domain, int personId)
+    content: public static Task DeleteTemporaryKeysAsync(TemporaryKeyDomain domain, int personId, CancellationToken cancellationToken)
     parameters:
     - id: domain
       type: SuperOffice.Data.TemporaryKeyDomain
     - id: personId
       type: System.Int32
-    content.vb: Public Shared Sub DeleteTemporaryKeys(domain As TemporaryKeyDomain, personId As Integer)
-  overload: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function DeleteTemporaryKeysAsync(domain As TemporaryKeyDomain, personId As Integer, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync*
   modifiers.csharp:
   - public
   - static
@@ -126,12 +130,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey*
-  commentId: Overload:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey
+- uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync*
+  commentId: Overload:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync
   isExternal: true
-  name: CreateTemporaryKey
-  nameWithType: TemporaryKeyHelper.CreateTemporaryKey
-  fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey
+  name: CreateTemporaryKeyAsync
+  nameWithType: TemporaryKeyHelper.CreateTemporaryKeyAsync
+  fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKeyAsync
 - uid: SuperOffice.Data.TemporaryKeyDomain
   commentId: T:SuperOffice.Data.TemporaryKeyDomain
   parent: SuperOffice.Data
@@ -158,15 +162,106 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys*
-  commentId: Overload:SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: DeleteTemporaryKeys
-  nameWithType: TemporaryKeyHelper.DeleteTemporaryKeys
-  fullName: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync*
+  commentId: Overload:SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync
+  isExternal: true
+  name: DeleteTemporaryKeysAsync
+  nameWithType: TemporaryKeyHelper.DeleteTemporaryKeysAsync
+  fullName: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeysAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

@@ -5,10 +5,10 @@ items:
   id: SelectableListHelper
   parent: SuperOffice.CRM.Lists
   children:
-  - SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@)
-  - SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds(SuperOffice.CRM.Lists.ISoListProvider)
-  - SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(SuperOffice.CRM.Lists.ISoListProvider)
+  - SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectableAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.SelectableListHelper.GetAllIdsAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  - SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIdsAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -37,16 +37,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@)
-  commentId: M:SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@)
-  id: ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@)
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectableAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectableAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Threading.CancellationToken)
+  id: ConvertToSelectableAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.SelectableListHelper
   langs:
   - csharp
   - vb
-  name: ConvertToSelectable(ISoListProvider, Int32[], out List<ISoListItem>, out List<ISoListHeading>, out List<ISoListItem>)
-  nameWithType: SelectableListHelper.ConvertToSelectable(ISoListProvider, Int32[], out List<ISoListItem>, out List<ISoListHeading>, out List<ISoListItem>)
-  fullName: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider, System.Int32[], out System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, out System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>, out System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
+  name: ConvertToSelectableAsync(ISoListProvider, Int32[], CancellationToken)
+  nameWithType: SelectableListHelper.ConvertToSelectableAsync(ISoListProvider, Int32[], CancellationToken)
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectableAsync(SuperOffice.CRM.Lists.ISoListProvider, System.Int32[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -56,7 +56,7 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nConvert an ISoListProvider into an equivalent set of root, heading and history items, where each item conforms\nto the <xref href=\"SuperOffice.CRM.Lists.ISelectableListItem\" data-throw-if-not-resolved=\"false\"></xref> interface. If an array of id&apos;s to be selected is also provided, all\nelements corresponding to those id&apos;s will have the Selected attribute set to true.\n"
   syntax:
-    content: public static void ConvertToSelectable(ISoListProvider source, int[] selectedIds, out List<ISoListItem> rootItems, out List<ISoListHeading> headingItems, out List<ISoListItem> historyItems)
+    content: public static Task<ValueTuple<List<ISoListItem>, List<ISoListHeading>, List<ISoListItem>>> ConvertToSelectableAsync(ISoListProvider source, int[] selectedIds, CancellationToken cancellationToken = null)
     parameters:
     - id: source
       type: SuperOffice.CRM.Lists.ISoListProvider
@@ -64,36 +64,31 @@ items:
     - id: selectedIds
       type: System.Int32[]
       description: Array of ID&apos;s to select, can be null
-    - id: rootItems
-      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-      description: 'Out: root items corresponding to the original root items'
-    - id: headingItems
-      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
-      description: 'Out: heading items corresponding to the original heading items'
-    - id: historyItems
-      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-      description: 'Out: history items corresponding to the original history items'
-    content.vb: Public Shared Sub ConvertToSelectable(source As ISoListProvider, selectedIds As Integer(), ByRef rootItems As List(Of ISoListItem), ByRef headingItems As List(Of ISoListHeading), ByRef historyItems As List(Of ISoListItem))
-  overload: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable*
-  nameWithType.vb: SelectableListHelper.ConvertToSelectable(ISoListProvider, Int32(), ByRef List(Of ISoListItem), ByRef List(Of ISoListHeading), ByRef List(Of ISoListItem))
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}}
+    content.vb: Public Shared Function ConvertToSelectableAsync(source As ISoListProvider, selectedIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of ValueTuple(Of List(Of ISoListItem), List(Of ISoListHeading), List(Of ISoListItem)))
+  overload: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectableAsync*
+  nameWithType.vb: SelectableListHelper.ConvertToSelectableAsync(ISoListProvider, Int32(), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider, System.Int32(), ByRef System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), ByRef System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading), ByRef System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
-  name.vb: ConvertToSelectable(ISoListProvider, Int32(), ByRef List(Of ISoListItem), ByRef List(Of ISoListHeading), ByRef List(Of ISoListItem))
-- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(SuperOffice.CRM.Lists.ISoListProvider)
-  commentId: M:SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(SuperOffice.CRM.Lists.ISoListProvider)
-  id: GetSelectedIds(SuperOffice.CRM.Lists.ISoListProvider)
+  fullName.vb: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectableAsync(SuperOffice.CRM.Lists.ISoListProvider, System.Int32(), System.Threading.CancellationToken)
+  name.vb: ConvertToSelectableAsync(ISoListProvider, Int32(), CancellationToken)
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIdsAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIdsAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Threading.CancellationToken)
+  id: GetSelectedIdsAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.SelectableListHelper
   langs:
   - csharp
   - vb
-  name: GetSelectedIds(ISoListProvider)
-  nameWithType: SelectableListHelper.GetSelectedIds(ISoListProvider)
-  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(SuperOffice.CRM.Lists.ISoListProvider)
+  name: GetSelectedIdsAsync(ISoListProvider, CancellationToken)
+  nameWithType: SelectableListHelper.GetSelectedIdsAsync(ISoListProvider, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIdsAsync(SuperOffice.CRM.Lists.ISoListProvider, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -103,16 +98,18 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nExtract the selected items&apos; id&apos;s from a provider that produces selectable items. Any items can be\npassed in, but only <xref href=\"SuperOffice.CRM.Lists.ISelectableListItem\" data-throw-if-not-resolved=\"false\"></xref> items contain a Selected attribute and can contribute\nto the result. The result is unique by ID, but not sorted.\n"
   syntax:
-    content: public static int[] GetSelectedIds(ISoListProvider selectableProvider)
+    content: public static Task<int[]> GetSelectedIdsAsync(ISoListProvider selectableProvider, CancellationToken cancellationToken = null)
     parameters:
     - id: selectableProvider
       type: SuperOffice.CRM.Lists.ISoListProvider
       description: Provider, whose lists are to be analyzed
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32[]
+      type: System.Threading.Tasks.Task{System.Int32[]}
       description: ID&apos;s of items that had Selected==true
-    content.vb: Public Shared Function GetSelectedIds(selectableProvider As ISoListProvider) As Integer()
-  overload: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds*
+    content.vb: Public Shared Function GetSelectedIdsAsync(selectableProvider As ISoListProvider, cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIdsAsync*
   modifiers.csharp:
   - public
   - static
@@ -162,16 +159,16 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
   name.vb: GetSelectedIds(List(Of ISoListItem), List(Of ISoListHeading), List(Of ISoListItem))
-- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds(SuperOffice.CRM.Lists.ISoListProvider)
-  commentId: M:SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds(SuperOffice.CRM.Lists.ISoListProvider)
-  id: GetAllIds(SuperOffice.CRM.Lists.ISoListProvider)
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIdsAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.SelectableListHelper.GetAllIdsAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Threading.CancellationToken)
+  id: GetAllIdsAsync(SuperOffice.CRM.Lists.ISoListProvider,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.SelectableListHelper
   langs:
   - csharp
   - vb
-  name: GetAllIds(ISoListProvider)
-  nameWithType: SelectableListHelper.GetAllIds(ISoListProvider)
-  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds(SuperOffice.CRM.Lists.ISoListProvider)
+  name: GetAllIdsAsync(ISoListProvider, CancellationToken)
+  nameWithType: SelectableListHelper.GetAllIdsAsync(ISoListProvider, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIdsAsync(SuperOffice.CRM.Lists.ISoListProvider, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -180,14 +177,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
   syntax:
-    content: public static int[] GetAllIds(ISoListProvider provider)
+    content: public static Task<int[]> GetAllIdsAsync(ISoListProvider provider, CancellationToken cancellationToken = null)
     parameters:
     - id: provider
       type: SuperOffice.CRM.Lists.ISoListProvider
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32[]
-    content.vb: Public Shared Function GetAllIds(provider As ISoListProvider) As Integer()
-  overload: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds*
+      type: System.Threading.Tasks.Task{System.Int32[]}
+    content.vb: Public Shared Function GetAllIdsAsync(provider As ISoListProvider, cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIdsAsync*
   modifiers.csharp:
   - public
   - static
@@ -214,12 +213,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable*
-  commentId: Overload:SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectableAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectableAsync
   isExternal: true
-  name: ConvertToSelectable
-  nameWithType: SelectableListHelper.ConvertToSelectable
-  fullName: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable
+  name: ConvertToSelectableAsync
+  nameWithType: SelectableListHelper.ConvertToSelectableAsync
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectableAsync
 - uid: SuperOffice.CRM.Lists.ISoListProvider
   commentId: T:SuperOffice.CRM.Lists.ISoListProvider
   parent: SuperOffice.CRM.Lists
@@ -253,6 +252,273 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}}
+  commentId: '!:System.Threading.Tasks.Task{System.ValueTuple{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ValueTuple<List<ISoListItem>, List<ISoListHeading>, List<ISoListItem>>>
+  nameWithType: Task<ValueTuple<List<ISoListItem>, List<ISoListHeading>, List<ISoListItem>>>
+  fullName: System.Threading.Tasks.Task<System.ValueTuple<System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>>>
+  nameWithType.vb: Task(Of ValueTuple(Of List(Of ISoListItem), List(Of ISoListHeading), List(Of ISoListItem)))
+  fullName.vb: System.Threading.Tasks.Task(Of System.ValueTuple(Of System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem)))
+  name.vb: Task(Of ValueTuple(Of List(Of ISoListItem), List(Of ISoListHeading), List(Of ISoListItem)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`3
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    nameWithType: ISoListHeading
+    fullName: SuperOffice.CRM.Lists.ISoListHeading
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`3
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    nameWithType: ISoListHeading
+    fullName: SuperOffice.CRM.Lists.ISoListHeading
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIdsAsync
+  isExternal: true
+  name: GetSelectedIdsAsync
+  nameWithType: SelectableListHelper.GetSelectedIdsAsync
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIdsAsync
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32[]>
+  nameWithType: Task<Int32[]>
+  fullName: System.Threading.Tasks.Task<System.Int32[]>
+  nameWithType.vb: Task(Of Int32())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32())
+  name.vb: Task(Of Int32())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds*
+  commentId: Overload:SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds
+  isExternal: true
+  name: GetSelectedIds
+  nameWithType: SelectableListHelper.GetSelectedIds
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
   commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}'
   definition: System.Collections.Generic.List`1
@@ -377,15 +643,9 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds*
-  commentId: Overload:SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.SelectableListHelper.GetAllIdsAsync
   isExternal: true
-  name: GetSelectedIds
-  nameWithType: SelectableListHelper.GetSelectedIds
-  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds
-- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds*
-  commentId: Overload:SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds
-  isExternal: true
-  name: GetAllIds
-  nameWithType: SelectableListHelper.GetAllIds
-  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds
+  name: GetAllIdsAsync
+  nameWithType: SelectableListHelper.GetAllIdsAsync
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIdsAsync

@@ -7,9 +7,9 @@ items:
   children:
   - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush
   - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.GetCurrent
-  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.Int32,System.Int32)
-  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.Int32)
-  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -105,16 +105,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.Int32,System.Int32)
-  id: LookupItem(System.Int32,System.Int32)
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: LookupItemAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
   langs:
   - csharp
   - vb
-  name: LookupItem(Int32, Int32)
-  nameWithType: ListItemLookupHelper.LookupItem(Int32, Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.Int32, System.Int32)
+  name: LookupItemAsync(Int32, Int32, CancellationToken)
+  nameWithType: ListItemLookupHelper.LookupItemAsync(Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -124,7 +124,7 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nLook up an SoList item by list table number and ID. This overload works for lists that directly\ncorrespond to actual database tables, with the added restriction that those tables must have \nSoTable.<see cref=\"!:SuperOffice.CRM.Data.SoTable.IsMDOList\"></see> set to true.\n<p></p>\nIf any condition is broken, or the list item does not exist, the generic blank item is returned.\n"
   syntax:
-    content: public ISoListItem LookupItem(int listTableNumber, int id)
+    content: public Task<ISoListItem> LookupItemAsync(int listTableNumber, int id, CancellationToken cancellationToken = null)
     parameters:
     - id: listTableNumber
       type: System.Int32
@@ -132,25 +132,27 @@ items:
     - id: id
       type: System.Int32
       description: ID to look up
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Lists.ISoListItem
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListItem}
       description: List item corresponding to table/ID, or blank
-    content.vb: Public Function LookupItem(listTableNumber As Integer, id As Integer) As ISoListItem
-  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem*
+    content.vb: Public Function LookupItemAsync(listTableNumber As Integer, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListItem)
+  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.String,System.String)
-  id: LookupItem(System.String,System.String,System.String)
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: LookupItemAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
   langs:
   - csharp
   - vb
-  name: LookupItem(String, String, String)
-  nameWithType: ListItemLookupHelper.LookupItem(String, String, String)
-  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String, System.String, System.String)
+  name: LookupItemAsync(String, String, String, CancellationToken)
+  nameWithType: ListItemLookupHelper.LookupItemAsync(String, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.String, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -161,7 +163,7 @@ items:
   summary: "\nLook up an item based on a string key instead of the usual int primarykey\n"
   remarks: "\nSome lists (ERP Connector related) use a string key instead of an int; the reason is that the source\nof the list may be external to the superoffice database. Such lists must have normal ISoListProviders\nimplemented, and provide their key in the ExtraInfo field of each item.\n<p></p>\nThis method lazy-loads the entire list of first reference, and performs dictionary looks later on.\nThe cache is only cleared on <xref href=\"SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush\" data-throw-if-not-resolved=\"false\"></xref>. If the ExtraInfo keys are not in fact unique,\nthen the last one wins (no crashes)\n"
   syntax:
-    content: public ISoListItem LookupItem(string listName, string listAdditionalInfo, string key)
+    content: public Task<ISoListItem> LookupItemAsync(string listName, string listAdditionalInfo, string key, CancellationToken cancellationToken)
     parameters:
     - id: listName
       type: System.String
@@ -171,24 +173,26 @@ items:
     - id: key
       type: System.String
       description: Key, matched to the ExtraInfo of each item
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Lists.ISoListItem
-    content.vb: Public Function LookupItem(listName As String, listAdditionalInfo As String, key As String) As ISoListItem
-  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListItem}
+    content.vb: Public Function LookupItemAsync(listName As String, listAdditionalInfo As String, key As String, cancellationToken As CancellationToken) As Task(Of ISoListItem)
+  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.Int32)
-  id: LookupItem(System.String,System.Int32)
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: LookupItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
   langs:
   - csharp
   - vb
-  name: LookupItem(String, Int32)
-  nameWithType: ListItemLookupHelper.LookupItem(String, Int32)
-  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String, System.Int32)
+  name: LookupItemAsync(String, Int32, CancellationToken)
+  nameWithType: ListItemLookupHelper.LookupItemAsync(String, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync(System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -198,18 +202,20 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nLook up an SoList item by list name and ID. This overload works for ANY list that the \n<xref href=\"SuperOffice.CRM.Lists.SoListProviderFactory\" data-throw-if-not-resolved=\"false\"></xref> knows about, regardless of the origin of that\nlist.\n<p></p>\nIf the list is not found, or the list item does not exist, the generic blank item is returned.\n"
   syntax:
-    content: public ISoListItem LookupItem(string listName, int id)
+    content: public Task<ISoListItem> LookupItemAsync(string listName, int id, CancellationToken cancellationToken = null)
     parameters:
     - id: listName
       type: System.String
     - id: id
       type: System.Int32
       description: ID to look up
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Lists.ISoListItem
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListItem}
       description: List item corresponding to table/ID, or blank
-    content.vb: Public Function LookupItem(listName As String, id As Integer) As ISoListItem
-  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem*
+    content.vb: Public Function LookupItemAsync(listName As String, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListItem)
+  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -418,12 +424,12 @@ references:
   name: ListItemLookupHelper
   nameWithType: ListItemLookupHelper
   fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
-- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync
   isExternal: true
-  name: LookupItem
-  nameWithType: ListItemLookupHelper.LookupItem
-  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem
+  name: LookupItemAsync
+  nameWithType: ListItemLookupHelper.LookupItemAsync
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItemAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -431,19 +437,92 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Lists.ISoListItem
-  commentId: T:SuperOffice.CRM.Lists.ISoListItem
-  parent: SuperOffice.CRM.Lists
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: ISoListItem
-  nameWithType: ISoListItem
-  fullName: SuperOffice.CRM.Lists.ISoListItem
-- uid: SuperOffice.CRM.Lists
-  commentId: N:SuperOffice.CRM.Lists
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListItem}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListItem}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ISoListItem>
+  nameWithType: Task<ISoListItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Lists.ISoListItem>
+  nameWithType.vb: Task(Of ISoListItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Lists.ISoListItem)
+  name.vb: Task(Of ISoListItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: SuperOffice.CRM.Lists
-  nameWithType: SuperOffice.CRM.Lists
-  fullName: SuperOffice.CRM.Lists
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System

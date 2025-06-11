@@ -1,0 +1,1182 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  id: ConfigFile.IDiagnosticsConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.AppInsightInstrumentationKey
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.CheckBrowserVersion
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableQAAttributes
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableResourceTracer
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableScaffolding
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableStackTracing
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogEventRecorder
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFailureAudit
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFolder
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LoggedServices
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueries
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesAsXML
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesToPlugins
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMail
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMailFolder
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogServiceCalls
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogSuccessAudit
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogTimes
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToEventLog
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToFile
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToTrace
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongNonQueryThreshold
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryRows
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryThreshold
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.ShowExceptionsFromBackend
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UsageStatUrl
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UserSyncUrl
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IDiagnosticsConfiguration
+  nameWithType: ConfigFile.IDiagnosticsConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration of diagnostic tools\nCreated in Process scope\n"
+  syntax:
+    content: public interface IDiagnosticsConfiguration
+    content.vb: Public Interface IDiagnosticsConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFailureAudit
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFailureAudit
+  id: LogFailureAudit
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogFailureAudit
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogFailureAudit
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFailureAudit
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog failed authentications (default &apos;True&apos;)\n"
+  remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
+  syntax:
+    content: bool LogFailureAudit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogFailureAudit As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFailureAudit*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogSuccessAudit
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogSuccessAudit
+  id: LogSuccessAudit
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogSuccessAudit
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogSuccessAudit
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogSuccessAudit
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog successful authentications (default &apos;False&apos;)\n"
+  remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
+  syntax:
+    content: bool LogSuccessAudit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogSuccessAudit As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogSuccessAudit*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToEventLog
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToEventLog
+  id: LogToEventLog
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogToEventLog
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogToEventLog
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToEventLog
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog to the OS event log (default &apos;True&apos;)\n"
+  remarks: "\nRequires that the app has write permissions to system event log.\n"
+  syntax:
+    content: bool LogToEventLog { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogToEventLog As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToEventLog*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToFile
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToFile
+  id: LogToFile
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogToFile
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogToFile
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToFile
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog to a LogFile located in the LogFolder(default &apos;False&apos;)\n"
+  remarks: "\nWrites a log file names &apos;2020-12-24.log&apos; in the LogFolder.\n"
+  syntax:
+    content: bool LogToFile { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogToFile As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToFile*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToTrace
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToTrace
+  id: LogToTrace
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogToTrace
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogToTrace
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToTrace
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog to a TraceSource named &apos;SuperOffice&apos; that can be listened to by <xref href=\"System.Diagnostics.TraceListener\" data-throw-if-not-resolved=\"false\"></xref>. (default &apos;False&apos;)\n"
+  syntax:
+    content: bool LogToTrace { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogToTrace As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToTrace*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFolder
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFolder
+  id: LogFolder
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogFolder
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogFolder
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFolder
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nFolder (e.g. UNC path) where the logfile is to reside.  Note that the owner of the process needs to have access to manipulate files in this folder. The Documents/Impersonation settings apply!\n"
+  syntax:
+    content: string LogFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property LogFolder As String
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFolder*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableScaffolding
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableScaffolding
+  id: EnableScaffolding
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableScaffolding
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.EnableScaffolding
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableScaffolding
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nWhen this option is enabled, extra logging is performed. It is strongly recommended to have this option disabled in production. Df\n"
+  remarks: "\nHuge log files are generated when this option is enabled!\n"
+  syntax:
+    content: bool EnableScaffolding { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableScaffolding As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableScaffolding*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueries
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueries
+  id: LogLongQueries
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogLongQueries
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogLongQueries
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueries
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould long-running queries be logged in textual form to a special file?  default false\n"
+  syntax:
+    content: bool LogLongQueries { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogLongQueries As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueries*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesToPlugins
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesToPlugins
+  id: LogLongQueriesToPlugins
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogLongQueriesToPlugins
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogLongQueriesToPlugins
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesToPlugins
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould long-running queries be logged to SoLoggerPlugins?  default false\n"
+  syntax:
+    content: bool LogLongQueriesToPlugins { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogLongQueriesToPlugins As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesToPlugins*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryThreshold
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryThreshold
+  id: LongQueryThreshold
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LongQueryThreshold
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LongQueryThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryThreshold
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThreshold for logging a long-running query, in milliseconds. Queries that execute in less than this time are not logged as long-running. The time is from the moment the SQL text is sent to the database, until the first row (for a select) or the &apos;nn rows affected&apos; return value is received.\n"
+  syntax:
+    content: int LongQueryThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property LongQueryThreshold As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryThreshold*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongNonQueryThreshold
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongNonQueryThreshold
+  id: LongNonQueryThreshold
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LongNonQueryThreshold
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LongNonQueryThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongNonQueryThreshold
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThreshold for logging a long-running query, in milliseconds. Queries that execute in less than this time are not logged as long-running. The time is from the moment the SQL text is sent to the database, until the first row (for a select) or the &apos;nn rows affected&apos; return value is received.\n"
+  syntax:
+    content: int LongNonQueryThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property LongNonQueryThreshold As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongNonQueryThreshold*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryRows
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryRows
+  id: LongQueryRows
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LongQueryRows
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LongQueryRows
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryRows
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThreshold for logging a long-running query, in rows. Queries that affects more than this number of rows are logged as long-running.\n"
+  syntax:
+    content: int LongQueryRows { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property LongQueryRows As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryRows*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesAsXML
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesAsXML
+  id: LogLongQueriesAsXML
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogLongQueriesAsXML
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogLongQueriesAsXML
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesAsXML
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould long-running queries be logged to a special file (Query_year.month.day.log) in XML serialized format, for later analysis and reruns using the QueryWorkbench tool\n"
+  syntax:
+    content: bool LogLongQueriesAsXML { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogLongQueriesAsXML As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesAsXML*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableStackTracing
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableStackTracing
+  id: EnableStackTracing
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableStackTracing
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.EnableStackTracing
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableStackTracing
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould stack traces be collected by various events\n"
+  syntax:
+    content: bool EnableStackTracing { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableStackTracing As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableStackTracing*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.CheckBrowserVersion
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.CheckBrowserVersion
+  id: CheckBrowserVersion
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CheckBrowserVersion
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.CheckBrowserVersion
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.CheckBrowserVersion
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould browser version information be sent back to SuperOffice for compatibility verification?\n"
+  syntax:
+    content: bool CheckBrowserVersion { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CheckBrowserVersion As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.CheckBrowserVersion*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogServiceCalls
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogServiceCalls
+  id: LogServiceCalls
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogServiceCalls
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogServiceCalls
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogServiceCalls
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould calls to the service layer be logged\n"
+  syntax:
+    content: bool LogServiceCalls { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogServiceCalls As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogServiceCalls*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LoggedServices
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LoggedServices
+  id: LoggedServices
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LoggedServices
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LoggedServices
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LoggedServices
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nList of services to be logged; default blank means all, otherwise comma-separated list of service names (without the Agent suffix, for instance: BLOB, Appointment)\n"
+  syntax:
+    content: string LoggedServices { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property LoggedServices As String
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LoggedServices*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMail
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMail
+  id: LogMail
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogMail
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogMail
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMail
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog mail server communication\n"
+  syntax:
+    content: bool LogMail { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogMail As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMail*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMailFolder
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMailFolder
+  id: LogMailFolder
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogMailFolder
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogMailFolder
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMailFolder
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nFolder to use for mail logging\n"
+  syntax:
+    content: string LogMailFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property LogMailFolder As String
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMailFolder*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogTimes
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogTimes
+  id: LogTimes
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogTimes
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogTimes
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogTimes
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog times to file.\n"
+  syntax:
+    content: bool LogTimes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogTimes As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogTimes*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogEventRecorder
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogEventRecorder
+  id: LogEventRecorder
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogEventRecorder
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogEventRecorder
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogEventRecorder
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nInclude a snapshot of the event recorder in all log entries\n"
+  syntax:
+    content: bool LogEventRecorder { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogEventRecorder As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogEventRecorder*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableResourceTracer
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableResourceTracer
+  id: EnableResourceTracer
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableResourceTracer
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.EnableResourceTracer
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableResourceTracer
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nEnable tracing of resource usage pr. opartation to trace.\n"
+  syntax:
+    content: bool EnableResourceTracer { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableResourceTracer As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableResourceTracer*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UsageStatUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UsageStatUrl
+  id: UsageStatUrl
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: UsageStatUrl
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.UsageStatUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UsageStatUrl
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCollection url for reporting Usage Statistics\n"
+  syntax:
+    content: string UsageStatUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property UsageStatUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UsageStatUrl*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UserSyncUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UserSyncUrl
+  id: UserSyncUrl
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: UserSyncUrl
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.UserSyncUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UserSyncUrl
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCollection url for sync&apos;ing user information\n"
+  syntax:
+    content: string UserSyncUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property UserSyncUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UserSyncUrl*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.AppInsightInstrumentationKey
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.AppInsightInstrumentationKey
+  id: AppInsightInstrumentationKey
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AppInsightInstrumentationKey
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.AppInsightInstrumentationKey
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.AppInsightInstrumentationKey
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIdentifier of resource that you want to associate your telemetry data with\n"
+  syntax:
+    content: string AppInsightInstrumentationKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property AppInsightInstrumentationKey As String
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.AppInsightInstrumentationKey*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.ShowExceptionsFromBackend
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.ShowExceptionsFromBackend
+  id: ShowExceptionsFromBackend
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ShowExceptionsFromBackend
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.ShowExceptionsFromBackend
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.ShowExceptionsFromBackend
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf true, then the innermost exception message from the backend will be shown in the GUI, dreictly when the error happens\n"
+  syntax:
+    content: bool ShowExceptionsFromBackend { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ShowExceptionsFromBackend As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.ShowExceptionsFromBackend*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableQAAttributes
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableQAAttributes
+  id: EnableQAAttributes
+  parent: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableQAAttributes
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.EnableQAAttributes
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableQAAttributes
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf true, the SCIL components renders additional attributes to help with automated UI tests\n"
+  syntax:
+    content: bool EnableQAAttributes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableQAAttributes As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableQAAttributes*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IDiagnosticsConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IDiagnosticsConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IDiagnosticsConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IDiagnosticsConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IDiagnosticsConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IDiagnosticsConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IDiagnosticsConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IDiagnosticsConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IDiagnosticsConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IDiagnosticsConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IDiagnosticsConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IDiagnosticsConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IDiagnosticsConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IDiagnosticsConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IDiagnosticsConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IDiagnosticsConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFailureAudit*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFailureAudit
+  isExternal: true
+  name: LogFailureAudit
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogFailureAudit
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFailureAudit
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogSuccessAudit*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogSuccessAudit
+  isExternal: true
+  name: LogSuccessAudit
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogSuccessAudit
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogSuccessAudit
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToEventLog*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToEventLog
+  isExternal: true
+  name: LogToEventLog
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogToEventLog
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToEventLog
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToFile*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToFile
+  isExternal: true
+  name: LogToFile
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogToFile
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToFile
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToTrace*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToTrace
+  isExternal: true
+  name: LogToTrace
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogToTrace
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogToTrace
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFolder*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFolder
+  isExternal: true
+  name: LogFolder
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogFolder
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogFolder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableScaffolding*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableScaffolding
+  isExternal: true
+  name: EnableScaffolding
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.EnableScaffolding
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableScaffolding
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueries*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueries
+  isExternal: true
+  name: LogLongQueries
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogLongQueries
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueries
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesToPlugins*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesToPlugins
+  isExternal: true
+  name: LogLongQueriesToPlugins
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogLongQueriesToPlugins
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesToPlugins
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryThreshold*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryThreshold
+  isExternal: true
+  name: LongQueryThreshold
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LongQueryThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryThreshold
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongNonQueryThreshold*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongNonQueryThreshold
+  isExternal: true
+  name: LongNonQueryThreshold
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LongNonQueryThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongNonQueryThreshold
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryRows*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryRows
+  isExternal: true
+  name: LongQueryRows
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LongQueryRows
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LongQueryRows
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesAsXML*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesAsXML
+  isExternal: true
+  name: LogLongQueriesAsXML
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogLongQueriesAsXML
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogLongQueriesAsXML
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableStackTracing*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableStackTracing
+  isExternal: true
+  name: EnableStackTracing
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.EnableStackTracing
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableStackTracing
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.CheckBrowserVersion*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.CheckBrowserVersion
+  isExternal: true
+  name: CheckBrowserVersion
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.CheckBrowserVersion
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.CheckBrowserVersion
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogServiceCalls*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogServiceCalls
+  isExternal: true
+  name: LogServiceCalls
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogServiceCalls
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogServiceCalls
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LoggedServices*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LoggedServices
+  isExternal: true
+  name: LoggedServices
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LoggedServices
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LoggedServices
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMail*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMail
+  isExternal: true
+  name: LogMail
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogMail
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMail
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMailFolder*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMailFolder
+  isExternal: true
+  name: LogMailFolder
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogMailFolder
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogMailFolder
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogTimes*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogTimes
+  isExternal: true
+  name: LogTimes
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogTimes
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogTimes
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogEventRecorder*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogEventRecorder
+  isExternal: true
+  name: LogEventRecorder
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.LogEventRecorder
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.LogEventRecorder
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableResourceTracer*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableResourceTracer
+  isExternal: true
+  name: EnableResourceTracer
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.EnableResourceTracer
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableResourceTracer
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UsageStatUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UsageStatUrl
+  isExternal: true
+  name: UsageStatUrl
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.UsageStatUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UsageStatUrl
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UserSyncUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UserSyncUrl
+  isExternal: true
+  name: UserSyncUrl
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.UserSyncUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.UserSyncUrl
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.AppInsightInstrumentationKey*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.AppInsightInstrumentationKey
+  isExternal: true
+  name: AppInsightInstrumentationKey
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.AppInsightInstrumentationKey
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.AppInsightInstrumentationKey
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.ShowExceptionsFromBackend*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.ShowExceptionsFromBackend
+  isExternal: true
+  name: ShowExceptionsFromBackend
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.ShowExceptionsFromBackend
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.ShowExceptionsFromBackend
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableQAAttributes*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableQAAttributes
+  isExternal: true
+  name: EnableQAAttributes
+  nameWithType: ConfigFile.IDiagnosticsConfiguration.EnableQAAttributes
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration.EnableQAAttributes

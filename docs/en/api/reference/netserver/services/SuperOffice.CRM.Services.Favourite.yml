@@ -33,8 +33,6 @@ items:
       Public Class Favourite
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.FavouriteAgent
-    commentId: T:SuperOffice.CRM.Services.FavouriteAgent
   - linkId: SuperOffice.CRM.Services.IFavouriteAgent
     commentId: T:SuperOffice.CRM.Services.IFavouriteAgent
   inheritance:
@@ -307,15 +305,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.FavouriteAgent
-  commentId: T:SuperOffice.CRM.Services.FavouriteAgent
-  isExternal: true
-  name: FavouriteAgent
-  nameWithType: FavouriteAgent
-  fullName: SuperOffice.CRM.Services.FavouriteAgent
 - uid: SuperOffice.CRM.Services.IFavouriteAgent
   commentId: T:SuperOffice.CRM.Services.IFavouriteAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IFavouriteAgent
   nameWithType: IFavouriteAgent

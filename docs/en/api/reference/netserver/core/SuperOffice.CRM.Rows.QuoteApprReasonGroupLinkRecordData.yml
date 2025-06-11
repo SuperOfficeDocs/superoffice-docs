@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData)
   - SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData.SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData.SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData.SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData.SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData)
-  name: ToInsert()
-  nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(QuoteApprReasonGroupLinkRecordData)
-  nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert(QuoteApprReasonGroupLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData)
+  name: ToInsertAsync(QuoteApprReasonGroupLinkRecordData, CancellationToken)
+  nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(QuoteApprReasonGroupLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: QuoteApprReasonGroupLinkRecordData
     nameWithType: QuoteApprReasonGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: QuoteApprReasonGroupLinkRecordData
     nameWithType: QuoteApprReasonGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

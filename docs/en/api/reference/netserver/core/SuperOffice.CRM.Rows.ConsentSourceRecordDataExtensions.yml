@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConsentSourceTableInfo})
   - SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo})
-  - SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
-  - SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData})
+  - SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ConsentSourceRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo})
+- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<ConsentSourceTableInfo>)
-  nameWithType: ConsentSourceRecordDataExtensions.FromSelect(TargetedSelect<ConsentSourceTableInfo>)
-  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ConsentSourceTableInfo>)
+  name: FromSelectAsync(TargetedSelect<ConsentSourceTableInfo>, CancellationToken)
+  nameWithType: ConsentSourceRecordDataExtensions.FromSelectAsync(TargetedSelect<ConsentSourceTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ConsentSourceTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<ConsentSourceRecordData> FromSelect(this TargetedSelect<ConsentSourceTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<ConsentSourceRecordData> FromSelectAsync(this TargetedSelect<ConsentSourceTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of ConsentSourceTableInfo)) As IEnumerable(Of ConsentSourceRecordData)
-  overload: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect*
-  nameWithType.vb: ConsentSourceRecordDataExtensions.FromSelect(TargetedSelect(Of ConsentSourceTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of ConsentSourceTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ConsentSourceRecordData)
+  overload: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: ConsentSourceRecordDataExtensions.FromSelectAsync(TargetedSelect(Of ConsentSourceTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ConsentSourceTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of ConsentSourceTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ConsentSourceTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of ConsentSourceTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConsentSourceTableInfo})
   commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConsentSourceTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConsentSourceTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ConsentSourceTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of ConsentSourceTableInfo))
-- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
+- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(ConsentSourceRecordData)
-  nameWithType: ConsentSourceRecordDataExtensions.ToInsert(ConsentSourceRecordData)
-  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
+  name: ToInsertAsync(ConsentSourceRecordData, CancellationToken)
+  nameWithType: ConsentSourceRecordDataExtensions.ToInsertAsync(ConsentSourceRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this ConsentSourceRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this ConsentSourceRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.ConsentSourceRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As ConsentSourceRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As ConsentSourceRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData})
-  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData})
+- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<ConsentSourceRecordData>)
-  nameWithType: ConsentSourceRecordDataExtensions.ToInserts(IEnumerable<ConsentSourceRecordData>)
-  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConsentSourceRecordData>)
+  name: ToInsertsAsync(IEnumerable<ConsentSourceRecordData>, CancellationToken)
+  nameWithType: ConsentSourceRecordDataExtensions.ToInsertsAsync(IEnumerable<ConsentSourceRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConsentSourceRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<ConsentSourceRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<ConsentSourceRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of ConsentSourceRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInserts*
-  nameWithType.vb: ConsentSourceRecordDataExtensions.ToInserts(IEnumerable(Of ConsentSourceRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of ConsentSourceRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: ConsentSourceRecordDataExtensions.ToInsertsAsync(IEnumerable(Of ConsentSourceRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ConsentSourceRecordData))
-  name.vb: ToInserts(IEnumerable(Of ConsentSourceRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ConsentSourceRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of ConsentSourceRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ConsentSourceRow)
   commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ConsentSourceRow)
   id: ToRecordData(SuperOffice.CRM.Rows.ConsentSourceRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<ConsentSourceTableInfo>)
+  nameWithType: ConsentSourceRecordDataExtensions.FromSelect(TargetedSelect<ConsentSourceTableInfo>)
+  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ConsentSourceTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;ConsentSourceTableInfo>, execute it and return an IEnumerable&lt;ConsentSourceRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<ConsentSourceRecordData> FromSelect(this TargetedSelect<ConsentSourceTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of ConsentSourceTableInfo)) As IEnumerable(Of ConsentSourceRecordData)
+  overload: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect*
+  nameWithType.vb: ConsentSourceRecordDataExtensions.FromSelect(TargetedSelect(Of ConsentSourceTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ConsentSourceTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of ConsentSourceTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: ConsentSourceRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: ConsentSourceRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConsentSourceTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<ConsentSourceRecordData>
-  nameWithType: IEnumerable<ConsentSourceRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConsentSourceRecordData>
-  nameWithType.vb: IEnumerable(Of ConsentSourceRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ConsentSourceRecordData)
-  name.vb: IEnumerable(Of ConsentSourceRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ConsentSourceRecordData>
+  nameWithType: IAsyncEnumerable<ConsentSourceRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.ConsentSourceRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of ConsentSourceRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.ConsentSourceRecordData)
+  name.vb: IAsyncEnumerable(Of ConsentSourceRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: ConsentSourceRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: ConsentSourceRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: ConsentSourceRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: ConsentSourceRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentSourceRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ConsentSourceRecordData>
+  nameWithType: IEnumerable<ConsentSourceRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConsentSourceRecordData>
+  nameWithType.vb: IEnumerable(Of ConsentSourceRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ConsentSourceRecordData)
+  name.vb: IEnumerable(Of ConsentSourceRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ConsentSourceRecordData
+    name: ConsentSourceRecordData
+    nameWithType: ConsentSourceRecordData
+    fullName: SuperOffice.CRM.Rows.ConsentSourceRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ConsentSourceRecordData
+    name: ConsentSourceRecordData
+    nameWithType: ConsentSourceRecordData
+    fullName: SuperOffice.CRM.Rows.ConsentSourceRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: ConsentSourceRow
   nameWithType: ConsentSourceRow
   fullName: SuperOffice.CRM.Rows.ConsentSourceRow
+- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: ConsentSourceRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.FromSelect

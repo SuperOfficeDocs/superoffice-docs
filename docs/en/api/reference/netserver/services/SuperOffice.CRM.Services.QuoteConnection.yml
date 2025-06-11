@@ -43,8 +43,6 @@ items:
       Public Class QuoteConnection
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.QuoteAgent
-    commentId: T:SuperOffice.CRM.Services.QuoteAgent
   - linkId: SuperOffice.CRM.Services.IQuoteAgent
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
@@ -647,15 +645,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.QuoteAgent
-  commentId: T:SuperOffice.CRM.Services.QuoteAgent
-  isExternal: true
-  name: QuoteAgent
-  nameWithType: QuoteAgent
-  fullName: SuperOffice.CRM.Services.QuoteAgent
 - uid: SuperOffice.CRM.Services.IQuoteAgent
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IQuoteAgent
   nameWithType: IQuoteAgent

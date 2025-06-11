@@ -5,9 +5,9 @@ items:
   id: ILspApi
   parent: SuperOffice.CRM.LspApiClient
   children:
-  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings
-  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox
-  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows
+  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync
+  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync
+  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync
   langs:
   - csharp
   - vb
@@ -34,16 +34,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings
-  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings
-  id: TryNudgeCsMailings
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync
+  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync
+  id: TryNudgeCsMailingsAsync
   parent: SuperOffice.CRM.LspApiClient.ILspApi
   langs:
   - csharp
   - vb
-  name: TryNudgeCsMailings()
-  nameWithType: ILspApi.TryNudgeCsMailings()
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings()
+  name: TryNudgeCsMailingsAsync()
+  nameWithType: ILspApi.TryNudgeCsMailingsAsync()
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync()
   type: Method
   source:
     path: SoDataBase
@@ -53,19 +53,21 @@ items:
   namespace: SuperOffice.CRM.LspApiClient
   summary: "\nAttempt to start mailings. Useful when we are ready to send and would prefer not to wait a minute or two.\n"
   syntax:
-    content: void TryNudgeCsMailings()
-    content.vb: Sub TryNudgeCsMailings
-  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings*
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox
-  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox
-  id: TryNudgeCsOutbox
+    content: Task TryNudgeCsMailingsAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function TryNudgeCsMailingsAsync As Task
+  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync*
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync
+  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync
+  id: TryNudgeCsOutboxAsync
   parent: SuperOffice.CRM.LspApiClient.ILspApi
   langs:
   - csharp
   - vb
-  name: TryNudgeCsOutbox()
-  nameWithType: ILspApi.TryNudgeCsOutbox()
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox()
+  name: TryNudgeCsOutboxAsync()
+  nameWithType: ILspApi.TryNudgeCsOutboxAsync()
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync()
   type: Method
   source:
     path: SoDataBase
@@ -75,19 +77,21 @@ items:
   namespace: SuperOffice.CRM.LspApiClient
   summary: "\nAttempt to start email/sms sending (not mailings). Useful when we are ready to send a message and would prefer not to wait a minute or two.\n"
   syntax:
-    content: void TryNudgeCsOutbox()
-    content.vb: Sub TryNudgeCsOutbox
-  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox*
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows
-  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows
-  id: TryNudgeEmailFlows
+    content: Task TryNudgeCsOutboxAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function TryNudgeCsOutboxAsync As Task
+  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync*
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync
+  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync
+  id: TryNudgeEmailFlowsAsync
   parent: SuperOffice.CRM.LspApiClient.ILspApi
   langs:
   - csharp
   - vb
-  name: TryNudgeEmailFlows()
-  nameWithType: ILspApi.TryNudgeEmailFlows()
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows()
+  name: TryNudgeEmailFlowsAsync()
+  nameWithType: ILspApi.TryNudgeEmailFlowsAsync()
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync()
   type: Method
   source:
     path: SoDataBase
@@ -97,9 +101,11 @@ items:
   namespace: SuperOffice.CRM.LspApiClient
   summary: "\nAttempt to start email flows\n"
   syntax:
-    content: void TryNudgeEmailFlows()
-    content.vb: Sub TryNudgeEmailFlows
-  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows*
+    content: Task TryNudgeEmailFlowsAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function TryNudgeEmailFlowsAsync As Task
+  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync*
 references:
 - uid: SuperOffice.CRM.LspApiClient
   commentId: N:SuperOffice.CRM.LspApiClient
@@ -272,21 +278,26 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings*
-  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync*
+  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync
   isExternal: true
-  name: TryNudgeCsMailings
-  nameWithType: ILspApi.TryNudgeCsMailings
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox*
-  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox
+  name: TryNudgeCsMailingsAsync
+  nameWithType: ILspApi.TryNudgeCsMailingsAsync
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: TryNudgeCsOutbox
-  nameWithType: ILspApi.TryNudgeCsOutbox
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows*
-  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync*
+  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync
   isExternal: true
-  name: TryNudgeEmailFlows
-  nameWithType: ILspApi.TryNudgeEmailFlows
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows
+  name: TryNudgeCsOutboxAsync
+  nameWithType: ILspApi.TryNudgeCsOutboxAsync
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync*
+  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync
+  isExternal: true
+  name: TryNudgeEmailFlowsAsync
+  nameWithType: ILspApi.TryNudgeEmailFlowsAsync
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync

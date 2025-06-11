@@ -43,8 +43,6 @@ items:
       Public Class StatusMonitor
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.SaintAgent
-    commentId: T:SuperOffice.CRM.Services.SaintAgent
   - linkId: SuperOffice.CRM.Services.ISaintAgent
     commentId: T:SuperOffice.CRM.Services.ISaintAgent
   inheritance:
@@ -647,15 +645,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.SaintAgent
-  commentId: T:SuperOffice.CRM.Services.SaintAgent
-  isExternal: true
-  name: SaintAgent
-  nameWithType: SaintAgent
-  fullName: SuperOffice.CRM.Services.SaintAgent
 - uid: SuperOffice.CRM.Services.ISaintAgent
   commentId: T:SuperOffice.CRM.Services.ISaintAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ISaintAgent
   nameWithType: ISaintAgent

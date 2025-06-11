@@ -6,8 +6,8 @@ items:
   parent: SuperOffice.TimeZone
   children:
   - SuperOffice.TimeZone.SoTimeConverterDataFetcher.#ctor
-  - SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
-  - SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
+  - SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+  - SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneDataAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -30,8 +30,6 @@ items:
           Implements ITimeConverterDataFetcher
   inheritance:
   - System.Object
-  derivedClasses:
-  - SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
   implements:
   - SuperOffice.TimeZone.ITimeConverterDataFetcher
   extensionMethods:
@@ -45,16 +43,16 @@ items:
   - Public
   - MustInherit
   - Class
-- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
-  commentId: M:SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
-  id: GetTimeZoneData
+- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneDataAsync(System.Threading.CancellationToken)
+  id: GetTimeZoneDataAsync(System.Threading.CancellationToken)
   parent: SuperOffice.TimeZone.SoTimeConverterDataFetcher
   langs:
   - csharp
   - vb
-  name: GetTimeZoneData()
-  nameWithType: SoTimeConverterDataFetcher.GetTimeZoneData()
-  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData()
+  name: GetTimeZoneDataAsync(CancellationToken)
+  nameWithType: SoTimeConverterDataFetcher.GetTimeZoneDataAsync(CancellationToken)
+  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneDataAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -63,29 +61,32 @@ items:
   - SoCore
   namespace: SuperOffice.TimeZone
   syntax:
-    content: public virtual TimeZoneData[] GetTimeZoneData()
+    content: public virtual Task<TimeZoneData[]> GetTimeZoneDataAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.TimeZoneData[]
-    content.vb: Public Overridable Function GetTimeZoneData As TimeZoneData()
-  overload: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.TimeZoneData[]}
+    content.vb: Public Overridable Function GetTimeZoneDataAsync(cancellationToken As CancellationToken) As Task(Of TimeZoneData())
+  overload: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneDataAsync*
   implements:
-  - SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneData
+  - SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneDataAsync(System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   - virtual
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
-  commentId: M:SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
-  id: GetBaseTimeZoneId
+- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+  id: GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.TimeZone.SoTimeConverterDataFetcher
   langs:
   - csharp
   - vb
-  name: GetBaseTimeZoneId()
-  nameWithType: SoTimeConverterDataFetcher.GetBaseTimeZoneId()
-  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId()
+  name: GetBaseTimeZoneIdAsync(CancellationToken)
+  nameWithType: SoTimeConverterDataFetcher.GetBaseTimeZoneIdAsync(CancellationToken)
+  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -94,13 +95,16 @@ items:
   - SoCore
   namespace: SuperOffice.TimeZone
   syntax:
-    content: public virtual int GetBaseTimeZoneId()
+    content: public virtual Task<int> GetBaseTimeZoneIdAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Overridable Function GetBaseTimeZoneId As Integer
-  overload: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Overridable Function GetBaseTimeZoneIdAsync(cancellationToken As CancellationToken) As Task(Of Integer)
+  overload: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneIdAsync*
   implements:
-  - SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneId
+  - SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   - virtual
@@ -324,52 +328,76 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData*
-  commentId: Overload:SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
+- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneDataAsync*
+  commentId: Overload:SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneDataAsync
   isExternal: true
-  name: GetTimeZoneData
-  nameWithType: SoTimeConverterDataFetcher.GetTimeZoneData
-  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
-- uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneData
-  commentId: M:SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneData
+  name: GetTimeZoneDataAsync
+  nameWithType: SoTimeConverterDataFetcher.GetTimeZoneDataAsync
+  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneDataAsync
+- uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneDataAsync(System.Threading.CancellationToken)
   parent: SuperOffice.TimeZone.ITimeConverterDataFetcher
   isExternal: true
-  name: GetTimeZoneData()
-  nameWithType: ITimeConverterDataFetcher.GetTimeZoneData()
-  fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneData()
+  name: GetTimeZoneDataAsync(CancellationToken)
+  nameWithType: ITimeConverterDataFetcher.GetTimeZoneDataAsync(CancellationToken)
+  fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneDataAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneData
-    name: GetTimeZoneData
-    nameWithType: ITimeConverterDataFetcher.GetTimeZoneData
-    fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneData
+  - uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneDataAsync(System.Threading.CancellationToken)
+    name: GetTimeZoneDataAsync
+    nameWithType: ITimeConverterDataFetcher.GetTimeZoneDataAsync
+    fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneDataAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneData
-    name: GetTimeZoneData
-    nameWithType: ITimeConverterDataFetcher.GetTimeZoneData
-    fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneData
+  - uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneDataAsync(System.Threading.CancellationToken)
+    name: GetTimeZoneDataAsync
+    nameWithType: ITimeConverterDataFetcher.GetTimeZoneDataAsync
+    fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneDataAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.TimeZoneData[]
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: TimeZoneData[]
-  nameWithType: TimeZoneData[]
-  fullName: SuperOffice.CRM.TimeZoneData[]
-  nameWithType.vb: TimeZoneData()
-  fullName.vb: SuperOffice.CRM.TimeZoneData()
-  name.vb: TimeZoneData()
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.TimeZoneData[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.TimeZoneData[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TimeZoneData[]>
+  nameWithType: Task<TimeZoneData[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.TimeZoneData[]>
+  nameWithType.vb: Task(Of TimeZoneData())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.TimeZoneData())
+  name.vb: Task(Of TimeZoneData())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.TimeZoneData
     name: TimeZoneData
     nameWithType: TimeZoneData
@@ -378,7 +406,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.TimeZoneData
     name: TimeZoneData
     nameWithType: TimeZoneData
@@ -387,50 +426,137 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId*
-  commentId: Overload:SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: GetBaseTimeZoneId
-  nameWithType: SoTimeConverterDataFetcher.GetBaseTimeZoneId
-  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
-- uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneId
-  commentId: M:SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneId
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneIdAsync*
+  commentId: Overload:SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneIdAsync
+  isExternal: true
+  name: GetBaseTimeZoneIdAsync
+  nameWithType: SoTimeConverterDataFetcher.GetBaseTimeZoneIdAsync
+  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneIdAsync
+- uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.TimeZone.ITimeConverterDataFetcher
   isExternal: true
-  name: GetBaseTimeZoneId()
-  nameWithType: ITimeConverterDataFetcher.GetBaseTimeZoneId()
-  fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneId()
+  name: GetBaseTimeZoneIdAsync(CancellationToken)
+  nameWithType: ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync(CancellationToken)
+  fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneId
-    name: GetBaseTimeZoneId
-    nameWithType: ITimeConverterDataFetcher.GetBaseTimeZoneId
-    fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneId
+  - uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+    name: GetBaseTimeZoneIdAsync
+    nameWithType: ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync
+    fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneId
-    name: GetBaseTimeZoneId
-    nameWithType: ITimeConverterDataFetcher.GetBaseTimeZoneId
-    fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneId
+  - uid: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+    name: GetBaseTimeZoneIdAsync
+    nameWithType: ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync
+    fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneIdAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.#ctor*
   commentId: Overload:SuperOffice.TimeZone.SoTimeConverterDataFetcher.#ctor
   isExternal: true

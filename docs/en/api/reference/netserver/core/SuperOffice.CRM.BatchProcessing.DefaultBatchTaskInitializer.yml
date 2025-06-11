@@ -5,10 +5,10 @@ items:
   id: DefaultBatchTaskInitializer
   parent: SuperOffice.CRM.BatchProcessing
   children:
-  - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor
-  - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
-  - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartAndForgetBatchTask(SuperOffice.Threading.AsyncContext,SuperOffice.CRM.Services.BatchTaskInfo)
-  - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNow(System.Int32,System.String)
+  - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory,SuperOffice.CRM.BatchProcessing.IBatchData)
+  - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer._batchData
+  - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+  - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNowAsync(System.Int32,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -34,8 +34,6 @@ items:
   - SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
   extensionMethods:
   - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer)
-  - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -43,16 +41,74 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
-  commentId: M:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
-  id: SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer._batchData
+  commentId: F:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer._batchData
+  id: _batchData
   parent: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
   langs:
   - csharp
   - vb
-  name: SaveAndInit(BatchTaskRow)
-  nameWithType: DefaultBatchTaskInitializer.SaveAndInit(BatchTaskRow)
-  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+  name: _batchData
+  nameWithType: DefaultBatchTaskInitializer._batchData
+  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer._batchData
+  type: Field
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  syntax:
+    content: protected readonly IBatchData _batchData
+    return:
+      type: SuperOffice.CRM.BatchProcessing.IBatchData
+    content.vb: Protected ReadOnly _batchData As IBatchData
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory,SuperOffice.CRM.BatchProcessing.IBatchData)
+  commentId: M:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory,SuperOffice.CRM.BatchProcessing.IBatchData)
+  id: '#ctor(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory,SuperOffice.CRM.BatchProcessing.IBatchData)'
+  parent: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
+  langs:
+  - csharp
+  - vb
+  name: DefaultBatchTaskInitializer(IBatchTaskFactory, IBatchData)
+  nameWithType: DefaultBatchTaskInitializer.DefaultBatchTaskInitializer(IBatchTaskFactory, IBatchData)
+  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.DefaultBatchTaskInitializer(SuperOffice.CRM.BatchProcessing.IBatchTaskFactory, SuperOffice.CRM.BatchProcessing.IBatchData)
+  type: Constructor
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  syntax:
+    content: public DefaultBatchTaskInitializer(IBatchTaskFactory batchTaskFactory, IBatchData batchData)
+    parameters:
+    - id: batchTaskFactory
+      type: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+    - id: batchData
+      type: SuperOffice.CRM.BatchProcessing.IBatchData
+    content.vb: Public Sub New(batchTaskFactory As IBatchTaskFactory, batchData As IBatchData)
+  overload: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+  commentId: M:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+  id: SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+  parent: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
+  langs:
+  - csharp
+  - vb
+  name: SaveAndInitAsync(BatchTaskRow)
+  nameWithType: DefaultBatchTaskInitializer.SaveAndInitAsync(BatchTaskRow)
+  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
   type: Method
   source:
     path: SoBatchProcessing
@@ -61,30 +117,32 @@ items:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
   syntax:
-    content: public virtual void SaveAndInit(BatchTaskRow row)
+    content: public virtual Task SaveAndInitAsync(BatchTaskRow row)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.BatchTaskRow
-    content.vb: Public Overridable Sub SaveAndInit(row As BatchTaskRow)
-  overload: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInit*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overridable Function SaveAndInitAsync(row As BatchTaskRow) As Task
+  overload: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInitAsync*
   implements:
-  - SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
   modifiers.csharp:
   - public
   - virtual
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNow(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNow(System.Int32,System.String)
-  id: StartNow(System.Int32,System.String)
+- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNowAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNowAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: StartNowAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
   langs:
   - csharp
   - vb
-  name: StartNow(Int32, String)
-  nameWithType: DefaultBatchTaskInitializer.StartNow(Int32, String)
-  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNow(System.Int32, System.String)
+  name: StartNowAsync(Int32, String, CancellationToken)
+  nameWithType: DefaultBatchTaskInitializer.StartNowAsync(Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNowAsync(System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoBatchProcessing
@@ -94,78 +152,24 @@ items:
   namespace: SuperOffice.CRM.BatchProcessing
   summary: "\nStarts the batch task in a separate thread \n"
   syntax:
-    content: protected virtual void StartNow(int id, string description)
+    content: protected virtual Task StartNowAsync(int id, string description, CancellationToken cancellationToken = null)
     parameters:
     - id: id
       type: System.Int32
     - id: description
       type: System.String
-    content.vb: Protected Overridable Sub StartNow(id As Integer, description As String)
-  overload: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNow*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overridable Function StartNowAsync(id As Integer, description As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNowAsync*
   modifiers.csharp:
   - protected
   - virtual
   modifiers.vb:
   - Protected
   - Overridable
-- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartAndForgetBatchTask(SuperOffice.Threading.AsyncContext,SuperOffice.CRM.Services.BatchTaskInfo)
-  commentId: M:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartAndForgetBatchTask(SuperOffice.Threading.AsyncContext,SuperOffice.CRM.Services.BatchTaskInfo)
-  id: StartAndForgetBatchTask(SuperOffice.Threading.AsyncContext,SuperOffice.CRM.Services.BatchTaskInfo)
-  parent: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
-  langs:
-  - csharp
-  - vb
-  name: StartAndForgetBatchTask(AsyncContext, BatchTaskInfo)
-  nameWithType: DefaultBatchTaskInitializer.StartAndForgetBatchTask(AsyncContext, BatchTaskInfo)
-  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartAndForgetBatchTask(SuperOffice.Threading.AsyncContext, SuperOffice.CRM.Services.BatchTaskInfo)
-  type: Method
-  source:
-    path: SoBatchProcessing
-    isExternal: true
-  assemblies:
-  - SoBatchProcessing
-  namespace: SuperOffice.CRM.BatchProcessing
-  summary: "\nThreadproc for spawning batch tasks\n"
-  syntax:
-    content: protected virtual void StartAndForgetBatchTask(AsyncContext cn, BatchTaskInfo batchTaskInfo)
-    parameters:
-    - id: cn
-      type: SuperOffice.Threading.AsyncContext
-    - id: batchTaskInfo
-      type: SuperOffice.CRM.Services.BatchTaskInfo
-    content.vb: Protected Overridable Sub StartAndForgetBatchTask(cn As AsyncContext, batchTaskInfo As BatchTaskInfo)
-  overload: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartAndForgetBatchTask*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
-- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor
-  commentId: M:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
-  langs:
-  - csharp
-  - vb
-  name: DefaultBatchTaskInitializer()
-  nameWithType: DefaultBatchTaskInitializer.DefaultBatchTaskInitializer()
-  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.DefaultBatchTaskInitializer()
-  type: Constructor
-  source:
-    path: SoBatchProcessing
-    isExternal: true
-  assemblies:
-  - SoBatchProcessing
-  namespace: SuperOffice.CRM.BatchProcessing
-  syntax:
-    content: public DefaultBatchTaskInitializer()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.BatchProcessing
   commentId: N:SuperOffice.CRM.BatchProcessing
@@ -214,84 +218,6 @@ references:
     name: MapEnums(Of DefaultBatchTaskInitializer, To)
     nameWithType: EnumUtil.MapEnums(Of DefaultBatchTaskInitializer, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<DefaultBatchTaskInitializer>(DefaultBatchTaskInitializer)
-  nameWithType: ObjectExtensions.AssignByReflection<DefaultBatchTaskInitializer>(DefaultBatchTaskInitializer)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer>(SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DefaultBatchTaskInitializer)(DefaultBatchTaskInitializer)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer)(SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer)
-  name.vb: AssignByReflection(Of DefaultBatchTaskInitializer)(DefaultBatchTaskInitializer)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<DefaultBatchTaskInitializer>
-    nameWithType: ObjectExtensions.AssignByReflection<DefaultBatchTaskInitializer>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
-    name: DefaultBatchTaskInitializer
-    nameWithType: DefaultBatchTaskInitializer
-    fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of DefaultBatchTaskInitializer)
-    nameWithType: ObjectExtensions.AssignByReflection(Of DefaultBatchTaskInitializer)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
-    name: DefaultBatchTaskInitializer
-    nameWithType: DefaultBatchTaskInitializer
-    fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<DefaultBatchTaskInitializer>()
-  nameWithType: ObjectExtensions.GraphCopy<DefaultBatchTaskInitializer>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DefaultBatchTaskInitializer)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer)()
-  name.vb: GraphCopy(Of DefaultBatchTaskInitializer)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<DefaultBatchTaskInitializer>
-    nameWithType: ObjectExtensions.GraphCopy<DefaultBatchTaskInitializer>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of DefaultBatchTaskInitializer)
-    nameWithType: ObjectExtensions.GraphCopy(Of DefaultBatchTaskInitializer)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer)
     isExternal: true
   - name: (
     nameWithType: (
@@ -384,103 +310,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -527,36 +356,50 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInit*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInit
+- uid: SuperOffice.CRM.BatchProcessing.IBatchData
+  commentId: T:SuperOffice.CRM.BatchProcessing.IBatchData
+  parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
-  name: SaveAndInit
-  nameWithType: DefaultBatchTaskInitializer.SaveAndInit
-  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInit
-- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
-  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+  name: IBatchData
+  nameWithType: IBatchData
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchData
+- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor
+  isExternal: true
+  name: DefaultBatchTaskInitializer
+  nameWithType: DefaultBatchTaskInitializer.DefaultBatchTaskInitializer
+  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.DefaultBatchTaskInitializer
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  commentId: T:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  parent: SuperOffice.CRM.BatchProcessing
+  isExternal: true
+  name: IBatchTaskFactory
+  nameWithType: IBatchTaskFactory
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInitAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInitAsync
+  isExternal: true
+  name: SaveAndInitAsync
+  nameWithType: DefaultBatchTaskInitializer.SaveAndInitAsync
+  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.SaveAndInitAsync
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
   parent: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
   isExternal: true
-  name: SaveAndInit(BatchTaskRow)
-  nameWithType: IBatchTaskInitializer.SaveAndInit(BatchTaskRow)
-  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+  name: SaveAndInitAsync(BatchTaskRow)
+  nameWithType: IBatchTaskInitializer.SaveAndInitAsync(BatchTaskRow)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
   spec.csharp:
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
-    name: SaveAndInit
-    nameWithType: IBatchTaskInitializer.SaveAndInit
-    fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+    name: SaveAndInitAsync
+    nameWithType: IBatchTaskInitializer.SaveAndInitAsync
+    fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -570,10 +413,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
-    name: SaveAndInit
-    nameWithType: IBatchTaskInitializer.SaveAndInit
-    fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+    name: SaveAndInitAsync
+    nameWithType: IBatchTaskInitializer.SaveAndInitAsync
+    fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -593,18 +436,23 @@ references:
   name: BatchTaskRow
   nameWithType: BatchTaskRow
   fullName: SuperOffice.CRM.Rows.BatchTaskRow
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNow*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNow
+- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNowAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNowAsync
   isExternal: true
-  name: StartNow
-  nameWithType: DefaultBatchTaskInitializer.StartNow
-  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNow
+  name: StartNowAsync
+  nameWithType: DefaultBatchTaskInitializer.StartNowAsync
+  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartNowAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -619,33 +467,8 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartAndForgetBatchTask*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartAndForgetBatchTask
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: StartAndForgetBatchTask
-  nameWithType: DefaultBatchTaskInitializer.StartAndForgetBatchTask
-  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.StartAndForgetBatchTask
-- uid: SuperOffice.Threading.AsyncContext
-  commentId: T:SuperOffice.Threading.AsyncContext
-  parent: SuperOffice.Threading
-  isExternal: true
-  name: AsyncContext
-  nameWithType: AsyncContext
-  fullName: SuperOffice.Threading.AsyncContext
-- uid: SuperOffice.CRM.Services.BatchTaskInfo
-  isExternal: true
-  name: BatchTaskInfo
-  nameWithType: BatchTaskInfo
-  fullName: SuperOffice.CRM.Services.BatchTaskInfo
-- uid: SuperOffice.Threading
-  commentId: N:SuperOffice.Threading
-  isExternal: true
-  name: SuperOffice.Threading
-  nameWithType: SuperOffice.Threading
-  fullName: SuperOffice.Threading
-- uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.#ctor
-  isExternal: true
-  name: DefaultBatchTaskInitializer
-  nameWithType: DefaultBatchTaskInitializer.DefaultBatchTaskInitializer
-  fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.DefaultBatchTaskInitializer
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken

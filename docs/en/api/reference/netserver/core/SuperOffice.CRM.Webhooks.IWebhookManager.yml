@@ -1,0 +1,1163 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager
+  commentId: T:SuperOffice.CRM.Webhooks.IWebhookManager
+  id: IWebhookManager
+  parent: SuperOffice.CRM.Webhooks
+  children:
+  - SuperOffice.CRM.Webhooks.IWebhookManager.DeleteWebhookAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Webhooks.IWebhookManager.GetAllWebhooksAsync(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Webhooks.IWebhookManager.GetLastErrorAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Webhooks.IWebhookManager.GetWebhookAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Webhooks.IWebhookManager.Notify(SuperOffice.CRM.Webhooks.ChangeType,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})
+  - SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook},SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+  - SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent(System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  - SuperOffice.CRM.Webhooks.IWebhookManager.TestWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Webhooks.IWebhookManager.WaitForWebhooksToCompleteAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IWebhookManager
+  nameWithType: IWebhookManager
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nInterface implemented by the <see cref=\"!:WebhookManager\"></see> class.    \n"
+  syntax:
+    content: public interface IWebhookManager
+    content.vb: Public Interface IWebhookManager
+  extensionMethods:
+  - SuperOffice.CRM.Webhooks.IWebhookManager.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Webhooks.IWebhookManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.DeleteWebhookAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.DeleteWebhookAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteWebhookAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: DeleteWebhookAsync(Int32, CancellationToken)
+  nameWithType: IWebhookManager.DeleteWebhookAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.DeleteWebhookAsync(System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: Task DeleteWebhookAsync(int id, CancellationToken cancellationToken = null)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteWebhookAsync(id As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.DeleteWebhookAsync*
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.GetAllWebhooksAsync(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.GetAllWebhooksAsync(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState},System.Threading.CancellationToken)
+  id: GetAllWebhooksAsync(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState},System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: GetAllWebhooksAsync(String, String, String, Nullable<WebhookState>, CancellationToken)
+  nameWithType: IWebhookManager.GetAllWebhooksAsync(String, String, String, Nullable<WebhookState>, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.GetAllWebhooksAsync(System.String, System.String, System.String, System.Nullable<SuperOffice.CRM.Webhooks.WebhookState>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nReturn all the stored webhooks.\n"
+  syntax:
+    content: Task<IEnumerable<Webhook>> GetAllWebhooksAsync(string name = null, string eventName = null, string appToken = null, Nullable<WebhookState> state = null, CancellationToken cancellationToken = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: Optional name of webhook to filter on.
+    - id: eventName
+      type: System.String
+      description: Optional name of event to filter list of webhooks on. Default NULL for no filter.
+    - id: appToken
+      type: System.String
+      description: Optional appToken name to filter on.
+    - id: state
+      type: System.Nullable{SuperOffice.CRM.Webhooks.WebhookState}
+      description: Optional state to filter list of webhooks on.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}}
+      description: List of webhooks (that are listening to eventName, in state, with given name)
+    content.vb: Function GetAllWebhooksAsync(name As String = Nothing, eventName As String = Nothing, appToken As String = Nothing, state As Nullable(Of WebhookState) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of IEnumerable(Of Webhook))
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.GetAllWebhooksAsync*
+  nameWithType.vb: IWebhookManager.GetAllWebhooksAsync(String, String, String, Nullable(Of WebhookState), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Webhooks.IWebhookManager.GetAllWebhooksAsync(System.String, System.String, System.String, System.Nullable(Of SuperOffice.CRM.Webhooks.WebhookState), System.Threading.CancellationToken)
+  name.vb: GetAllWebhooksAsync(String, String, String, Nullable(Of WebhookState), CancellationToken)
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.GetLastErrorAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.GetLastErrorAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetLastErrorAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: GetLastErrorAsync(Int32, CancellationToken)
+  nameWithType: IWebhookManager.GetLastErrorAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.GetLastErrorAsync(System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: Task<string> GetLastErrorAsync(int webhookId, CancellationToken cancellationToken = null)
+    parameters:
+    - id: webhookId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetLastErrorAsync(webhookId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.GetLastErrorAsync*
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.GetWebhookAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.GetWebhookAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetWebhookAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: GetWebhookAsync(Int32, CancellationToken)
+  nameWithType: IWebhookManager.GetWebhookAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.GetWebhookAsync(System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nGet a single webhook by id\n"
+  syntax:
+    content: Task<Webhook> GetWebhookAsync(int id, CancellationToken cancellationToken = null)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: primary key for webhook
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.Webhook}
+      description: The given webhook, or NULL if no found
+    content.vb: Function GetWebhookAsync(id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Webhook)
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.GetWebhookAsync*
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.Notify(SuperOffice.CRM.Webhooks.ChangeType,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.Notify(SuperOffice.CRM.Webhooks.ChangeType,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})
+  id: Notify(SuperOffice.CRM.Webhooks.ChangeType,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: Notify(ChangeType, Int32, String, IDictionary<String, Object>, Int32, IDictionary<String, Object>)
+  nameWithType: IWebhookManager.Notify(ChangeType, Int32, String, IDictionary<String, Object>, Int32, IDictionary<String, Object>)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.Notify(SuperOffice.CRM.Webhooks.ChangeType, System.Int32, System.String, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Int32, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nAsynchronously inform all interested plugins that an event has occurred. In other words, we don&apos;t\nblock on calls here. This method will return before the webhooks finish processing.\n"
+  syntax:
+    content: void Notify(ChangeType changeType, int primaryKey, string entityName, IDictionary<string, object> changes, int associateId, IDictionary<string, object> fieldValues)
+    parameters:
+    - id: changeType
+      type: SuperOffice.CRM.Webhooks.ChangeType
+      description: Created/Changed/Deleted/softDeleted
+    - id: primaryKey
+      type: System.Int32
+      description: id
+    - id: entityName
+      type: System.String
+      description: '&quot;contact&quot;, &quot;sale&quot;, etc'
+    - id: changes
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+      description: Dictionary of changed fields &quot;name&quot;, &quot;country_id&quot; mapped to the new values.
+    - id: associateId
+      type: System.Int32
+      description: User id who triggered event.
+    - id: fieldValues
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+    content.vb: Sub Notify(changeType As ChangeType, primaryKey As Integer, entityName As String, changes As IDictionary(Of String, Object), associateId As Integer, fieldValues As IDictionary(Of String, Object))
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.Notify*
+  nameWithType.vb: IWebhookManager.Notify(ChangeType, Int32, String, IDictionary(Of String, Object), Int32, IDictionary(Of String, Object))
+  fullName.vb: SuperOffice.CRM.Webhooks.IWebhookManager.Notify(SuperOffice.CRM.Webhooks.ChangeType, System.Int32, System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Int32, System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  name.vb: Notify(ChangeType, Int32, String, IDictionary(Of String, Object), Int32, IDictionary(Of String, Object))
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+  id: SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: SaveWebhookAsync(Webhook)
+  nameWithType: IWebhookManager.SaveWebhookAsync(Webhook)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nStore/Create a webhook.\n"
+  syntax:
+    content: Task<Webhook> SaveWebhookAsync(Webhook webhook)
+    parameters:
+    - id: webhook
+      type: SuperOffice.CRM.Webhooks.Webhook
+      description: webhook to store. Create new hook if id=0
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.Webhook}
+      description: Updated webhook, with primary key set.
+    content.vb: Function SaveWebhookAsync(webhook As Webhook) As Task(Of Webhook)
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync*
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent(System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent(System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  id: SignalEvent(System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: SignalEvent(String, Int32, String, IDictionary<String, Object>, Int32)
+  nameWithType: IWebhookManager.SignalEvent(String, Int32, String, IDictionary<String, Object>, Int32)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent(System.String, System.Int32, System.String, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nAsynchronously inform all interested webhooks that an event has occurred. In other words, we don&apos;t\nblock on calls here. This method will return before the webhooks finish processing.\n"
+  syntax:
+    content: void SignalEvent(string eventName, int primaryKey, string entityName, IDictionary<string, object> changes, int associateId)
+    parameters:
+    - id: eventName
+      type: System.String
+    - id: primaryKey
+      type: System.Int32
+      description: id
+    - id: entityName
+      type: System.String
+      description: '&quot;contact&quot;, &quot;sale&quot;, etc'
+    - id: changes
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+      description: Dictionary of changed fields &quot;name&quot;, &quot;country_id&quot; mapped to the new values.
+    - id: associateId
+      type: System.Int32
+      description: User id who triggered event.
+    content.vb: Sub SignalEvent(eventName As String, primaryKey As Integer, entityName As String, changes As IDictionary(Of String, Object), associateId As Integer)
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent*
+  nameWithType.vb: IWebhookManager.SignalEvent(String, Int32, String, IDictionary(Of String, Object), Int32)
+  fullName.vb: SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent(System.String, System.Int32, System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Int32)
+  name.vb: SignalEvent(String, Int32, String, IDictionary(Of String, Object), Int32)
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.TestWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.TestWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Threading.CancellationToken)
+  id: TestWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: TestWebhookAsync(Webhook, CancellationToken)
+  nameWithType: IWebhookManager.TestWebhookAsync(Webhook, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.TestWebhookAsync(SuperOffice.CRM.Webhooks.Webhook, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nTest invoke a webhook with a PING event to see if it works.\n"
+  syntax:
+    content: Task<WebhookResponse> TestWebhookAsync(Webhook webhook, CancellationToken cancellationToken = null)
+    parameters:
+    - id: webhook
+      type: SuperOffice.CRM.Webhooks.Webhook
+      description: webhook definition
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.WebhookResponse}
+      description: True if the webhook invocation worked, False if we did not get 200 OK. NULL is treated as failure.
+    content.vb: Function TestWebhookAsync(webhook As Webhook, cancellationToken As CancellationToken = Nothing) As Task(Of WebhookResponse)
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.TestWebhookAsync*
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.WaitForWebhooksToCompleteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.WaitForWebhooksToCompleteAsync(System.Threading.CancellationToken)
+  id: WaitForWebhooksToCompleteAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: WaitForWebhooksToCompleteAsync(CancellationToken)
+  nameWithType: IWebhookManager.WaitForWebhooksToCompleteAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.WaitForWebhooksToCompleteAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nWait for all webhooks currently being processed or in the queue to be completed.\nPrimarely used by tests verifying that webhooks are called.\n"
+  syntax:
+    content: Task WaitForWebhooksToCompleteAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function WaitForWebhooksToCompleteAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.WaitForWebhooksToCompleteAsync*
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook},SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook},SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+  id: NotifyWebhooksAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook},SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Webhooks.IWebhookManager
+  langs:
+  - csharp
+  - vb
+  name: NotifyWebhooksAsync(IEnumerable<Webhook>, WebhookPayload, CancellationToken)
+  nameWithType: IWebhookManager.NotifyWebhooksAsync(IEnumerable<Webhook>, WebhookPayload, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Webhooks.Webhook>, SuperOffice.CRM.Webhooks.WebhookPayload, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nCall out to the actual webhooks\n"
+  syntax:
+    content: Task NotifyWebhooksAsync(IEnumerable<Webhook> webhooks, WebhookPayload eventInfo, CancellationToken cancellationToken = null)
+    parameters:
+    - id: webhooks
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}
+    - id: eventInfo
+      type: SuperOffice.CRM.Webhooks.WebhookPayload
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function NotifyWebhooksAsync(webhooks As IEnumerable(Of Webhook), eventInfo As WebhookPayload, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync*
+  nameWithType.vb: IWebhookManager.NotifyWebhooksAsync(IEnumerable(Of Webhook), WebhookPayload, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Webhooks.Webhook), SuperOffice.CRM.Webhooks.WebhookPayload, System.Threading.CancellationToken)
+  name.vb: NotifyWebhooksAsync(IEnumerable(Of Webhook), WebhookPayload, CancellationToken)
+references:
+- uid: SuperOffice.CRM.Webhooks
+  commentId: N:SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: SuperOffice.CRM.Webhooks
+  nameWithType: SuperOffice.CRM.Webhooks
+  fullName: SuperOffice.CRM.Webhooks
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IWebhookManager, To>()
+  nameWithType: EnumUtil.MapEnums<IWebhookManager, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.IWebhookManager, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IWebhookManager, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.IWebhookManager, To)()
+  name.vb: MapEnums(Of IWebhookManager, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IWebhookManager, To>
+    nameWithType: EnumUtil.MapEnums<IWebhookManager, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.IWebhookManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IWebhookManager, To)
+    nameWithType: EnumUtil.MapEnums(Of IWebhookManager, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.IWebhookManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IWebhookManager, To>()
+  nameWithType: Converters.MapEnums<IWebhookManager, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.IWebhookManager, To>()
+  nameWithType.vb: Converters.MapEnums(Of IWebhookManager, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.IWebhookManager, To)()
+  name.vb: MapEnums(Of IWebhookManager, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IWebhookManager, To>
+    nameWithType: Converters.MapEnums<IWebhookManager, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.IWebhookManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IWebhookManager, To)
+    nameWithType: Converters.MapEnums(Of IWebhookManager, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.IWebhookManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.DeleteWebhookAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.DeleteWebhookAsync
+  isExternal: true
+  name: DeleteWebhookAsync
+  nameWithType: IWebhookManager.DeleteWebhookAsync
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.DeleteWebhookAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.GetAllWebhooksAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.GetAllWebhooksAsync
+  isExternal: true
+  name: GetAllWebhooksAsync
+  nameWithType: IWebhookManager.GetAllWebhooksAsync
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.GetAllWebhooksAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Nullable{SuperOffice.CRM.Webhooks.WebhookState}
+  commentId: '!:System.Nullable{SuperOffice.CRM.Webhooks.WebhookState}'
+  definition: System.Nullable`1
+  name: Nullable<WebhookState>
+  nameWithType: Nullable<WebhookState>
+  fullName: System.Nullable<SuperOffice.CRM.Webhooks.WebhookState>
+  nameWithType.vb: Nullable(Of WebhookState)
+  fullName.vb: System.Nullable(Of SuperOffice.CRM.Webhooks.WebhookState)
+  name.vb: Nullable(Of WebhookState)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Webhooks.WebhookState
+    name: WebhookState
+    nameWithType: WebhookState
+    fullName: SuperOffice.CRM.Webhooks.WebhookState
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Webhooks.WebhookState
+    name: WebhookState
+    nameWithType: WebhookState
+    fullName: SuperOffice.CRM.Webhooks.WebhookState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IEnumerable<Webhook>>
+  nameWithType: Task<IEnumerable<Webhook>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<SuperOffice.CRM.Webhooks.Webhook>>
+  nameWithType.vb: Task(Of IEnumerable(Of Webhook))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Webhooks.Webhook))
+  name.vb: Task(Of IEnumerable(Of Webhook))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Webhooks.Webhook
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Webhooks.Webhook
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.GetLastErrorAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.GetLastErrorAsync
+  isExternal: true
+  name: GetLastErrorAsync
+  nameWithType: IWebhookManager.GetLastErrorAsync
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.GetLastErrorAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.GetWebhookAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.GetWebhookAsync
+  isExternal: true
+  name: GetWebhookAsync
+  nameWithType: IWebhookManager.GetWebhookAsync
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.GetWebhookAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.Webhook}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.Webhook}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Webhook>
+  nameWithType: Task<Webhook>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Webhooks.Webhook>
+  nameWithType.vb: Task(Of Webhook)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Webhooks.Webhook)
+  name.vb: Task(Of Webhook)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Webhooks.Webhook
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Webhooks.Webhook
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.Notify*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.Notify
+  isExternal: true
+  name: Notify
+  nameWithType: IWebhookManager.Notify
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.Notify
+- uid: SuperOffice.CRM.Webhooks.ChangeType
+  commentId: T:SuperOffice.CRM.Webhooks.ChangeType
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: ChangeType
+  nameWithType: ChangeType
+  fullName: SuperOffice.CRM.Webhooks.ChangeType
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}
+  commentId: '!:System.Collections.Generic.IDictionary{System.String,System.Object}'
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, Object>
+  nameWithType: IDictionary<String, Object>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.Object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: System.Collections.Generic.IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: System.Collections.Generic.IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync
+  isExternal: true
+  name: SaveWebhookAsync
+  nameWithType: IWebhookManager.SaveWebhookAsync
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync
+- uid: SuperOffice.CRM.Webhooks.Webhook
+  commentId: T:SuperOffice.CRM.Webhooks.Webhook
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: Webhook
+  nameWithType: Webhook
+  fullName: SuperOffice.CRM.Webhooks.Webhook
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent
+  isExternal: true
+  name: SignalEvent
+  nameWithType: IWebhookManager.SignalEvent
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.TestWebhookAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.TestWebhookAsync
+  isExternal: true
+  name: TestWebhookAsync
+  nameWithType: IWebhookManager.TestWebhookAsync
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.TestWebhookAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.WebhookResponse}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.WebhookResponse}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<WebhookResponse>
+  nameWithType: Task<WebhookResponse>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Webhooks.WebhookResponse>
+  nameWithType.vb: Task(Of WebhookResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Webhooks.WebhookResponse)
+  name.vb: Task(Of WebhookResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Webhooks.WebhookResponse
+    name: WebhookResponse
+    nameWithType: WebhookResponse
+    fullName: SuperOffice.CRM.Webhooks.WebhookResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Webhooks.WebhookResponse
+    name: WebhookResponse
+    nameWithType: WebhookResponse
+    fullName: SuperOffice.CRM.Webhooks.WebhookResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.WaitForWebhooksToCompleteAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.WaitForWebhooksToCompleteAsync
+  isExternal: true
+  name: WaitForWebhooksToCompleteAsync
+  nameWithType: IWebhookManager.WaitForWebhooksToCompleteAsync
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.WaitForWebhooksToCompleteAsync
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync
+  isExternal: true
+  name: NotifyWebhooksAsync
+  nameWithType: IWebhookManager.NotifyWebhooksAsync
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Webhook>
+  nameWithType: IEnumerable<Webhook>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Webhooks.Webhook>
+  nameWithType.vb: IEnumerable(Of Webhook)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Webhooks.Webhook)
+  name.vb: IEnumerable(Of Webhook)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Webhooks.Webhook
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Webhooks.Webhook
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookPayload
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: WebhookPayload
+  nameWithType: WebhookPayload
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

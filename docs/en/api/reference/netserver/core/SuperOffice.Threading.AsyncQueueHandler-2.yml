@@ -1,0 +1,660 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.AsyncQueueHandler`2
+  commentId: T:SuperOffice.Threading.AsyncQueueHandler`2
+  id: AsyncQueueHandler`2
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.AsyncQueueHandler`2.#ctor(SuperOffice.Threading.IAsyncQueue{`0})
+  - SuperOffice.Threading.AsyncQueueHandler`2._processor
+  - SuperOffice.Threading.AsyncQueueHandler`2._queue
+  - SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
+  - SuperOffice.Threading.AsyncQueueHandler`2.HasWorkToDo
+  - SuperOffice.Threading.AsyncQueueHandler`2.OnSetup(`1)
+  - SuperOffice.Threading.AsyncQueueHandler`2.Processor
+  - SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup(`1)
+  langs:
+  - csharp
+  - vb
+  name: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nBase class replacing legacy system for quing things into an <xref href=\"SuperOffice.Threading.IAsyncQueue%601\" data-throw-if-not-resolved=\"false\"></xref>.  \n"
+  remarks: "\nThe Queue is processed by an instance of a hosted service, typically implementing <see cref=\"!:AsyncQueueHandlerProcessor\"></see>\n"
+  syntax:
+    content: >-
+      public abstract class AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument> : Object where TAsynchronousHandlerProcessor : AsynchronousHandlerProcessor<TAsynchronousArgument>, new()
+          where TAsynchronousArgument : class
+    typeParameters:
+    - id: TAsynchronousHandlerProcessor
+    - id: TAsynchronousArgument
+    content.vb: >-
+      Public MustInherit Class AsyncQueueHandler(Of TAsynchronousHandlerProcessor As {AsynchronousHandlerProcessor(Of TAsynchronousArgument), New}, TAsynchronousArgument As Class)
+          Inherits Object
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.Data.Private.TicketLogging.TicketLogger
+  extensionMethods:
+  - SuperOffice.Threading.AsyncQueueHandler`2.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.AsyncQueueHandler`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+  name.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+- uid: SuperOffice.Threading.AsyncQueueHandler`2._queue
+  commentId: F:SuperOffice.Threading.AsyncQueueHandler`2._queue
+  id: _queue
+  parent: SuperOffice.Threading.AsyncQueueHandler`2
+  langs:
+  - csharp
+  - vb
+  name: _queue
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>._queue
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>._queue
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nInternal (singleton) queue of processor instances that should be processed\n"
+  syntax:
+    content: protected readonly IAsyncQueue<TAsynchronousHandlerProcessor> _queue
+    return:
+      type: SuperOffice.Threading.IAsyncQueue{{TAsynchronousHandlerProcessor}}
+    content.vb: Protected ReadOnly _queue As IAsyncQueue(Of TAsynchronousHandlerProcessor)
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)._queue
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)._queue
+- uid: SuperOffice.Threading.AsyncQueueHandler`2._processor
+  commentId: F:SuperOffice.Threading.AsyncQueueHandler`2._processor
+  id: _processor
+  parent: SuperOffice.Threading.AsyncQueueHandler`2
+  langs:
+  - csharp
+  - vb
+  name: _processor
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>._processor
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>._processor
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: protected readonly TAsynchronousHandlerProcessor _processor
+    return:
+      type: '{TAsynchronousHandlerProcessor}'
+    content.vb: Protected ReadOnly _processor As TAsynchronousHandlerProcessor
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)._processor
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)._processor
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.#ctor(SuperOffice.Threading.IAsyncQueue{`0})
+  commentId: M:SuperOffice.Threading.AsyncQueueHandler`2.#ctor(SuperOffice.Threading.IAsyncQueue{`0})
+  id: '#ctor(SuperOffice.Threading.IAsyncQueue{`0})'
+  parent: SuperOffice.Threading.AsyncQueueHandler`2
+  langs:
+  - csharp
+  - vb
+  name: AsyncQueueHandler(IAsyncQueue<TAsynchronousHandlerProcessor>)
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsyncQueueHandler(IAsyncQueue<TAsynchronousHandlerProcessor>)
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsyncQueueHandler(SuperOffice.Threading.IAsyncQueue<TAsynchronousHandlerProcessor>)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: protected AsyncQueueHandler(IAsyncQueue<TAsynchronousHandlerProcessor> queue)
+    parameters:
+    - id: queue
+      type: SuperOffice.Threading.IAsyncQueue{{TAsynchronousHandlerProcessor}}
+      description: Queue instance typically obtained from DI
+    content.vb: Protected Sub New(queue As IAsyncQueue(Of TAsynchronousHandlerProcessor))
+  overload: SuperOffice.Threading.AsyncQueueHandler`2.#ctor*
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsyncQueueHandler(IAsyncQueue(Of TAsynchronousHandlerProcessor))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsyncQueueHandler(SuperOffice.Threading.IAsyncQueue(Of TAsynchronousHandlerProcessor))
+  name.vb: AsyncQueueHandler(IAsyncQueue(Of TAsynchronousHandlerProcessor))
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.OnSetup(`1)
+  commentId: M:SuperOffice.Threading.AsyncQueueHandler`2.OnSetup(`1)
+  id: OnSetup(`1)
+  parent: SuperOffice.Threading.AsyncQueueHandler`2
+  langs:
+  - csharp
+  - vb
+  name: OnSetup(TAsynchronousArgument)
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nDerived classes that need other behaviour than simply copying the ArgumentParameterCollection\nand PrimaryKey information from the incoming query should override this method.\n"
+  syntax:
+    content: protected virtual bool OnSetup(TAsynchronousArgument inputQuery)
+    parameters:
+    - id: inputQuery
+      type: '{TAsynchronousArgument}'
+      description: Incoming query to be copied
+    return:
+      type: System.Boolean
+      description: true - this default implementation signals that there IS something to do in the main routine
+    content.vb: Protected Overridable Function OnSetup(inputQuery As TAsynchronousArgument) As Boolean
+  overload: SuperOffice.Threading.AsyncQueueHandler`2.OnSetup*
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup(TAsynchronousArgument)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup(TAsynchronousArgument)
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup(`1)
+  commentId: M:SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup(`1)
+  id: SynchronousSetup(`1)
+  parent: SuperOffice.Threading.AsyncQueueHandler`2
+  langs:
+  - csharp
+  - vb
+  name: SynchronousSetup(TAsynchronousArgument)
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nPublic interface for the synchronous part of the operation. The query to be\nprocessed must be a parameter to this operation.\n"
+  syntax:
+    content: public bool SynchronousSetup(TAsynchronousArgument inputQuery)
+    parameters:
+    - id: inputQuery
+      type: '{TAsynchronousArgument}'
+      description: Query to be processed by the actual service
+    return:
+      type: System.Boolean
+      description: TRUE if there is something to do, i.e., if AsynchronousOperation should be called
+    content.vb: Public Function SynchronousSetup(inputQuery As TAsynchronousArgument) As Boolean
+  overload: SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup*
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup(TAsynchronousArgument)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup(TAsynchronousArgument)
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
+  commentId: M:SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
+  id: AsynchronousOperation
+  parent: SuperOffice.Threading.AsyncQueueHandler`2
+  langs:
+  - csharp
+  - vb
+  name: AsynchronousOperation()
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nPublic interface for the asynchronous part of the operation. Any data needed\nfor its execution has to be copied by the <xref href=\"SuperOffice.Threading.AsyncQueueHandler%602.SynchronousSetup(%601)\" data-throw-if-not-resolved=\"false\"></xref>, because\nyou DO NOT KNOW when the <see cref=\"!:OnOperation\"></see> method will actually be called.\n"
+  remarks: "\nYou should not really call this method if the <xref href=\"SuperOffice.Threading.AsyncQueueHandler%602.SynchronousSetup(%601)\" data-throw-if-not-resolved=\"false\"></xref> returned false, which can be checked\nby accessing the <see cref=\"!:WorkToDo\"></see> property. However, it is not an error to call\nthis method anyway, as it will check the workToDo variable before actually doing anything.\n<p></p>\nHowever, if you forget to call <xref href=\"SuperOffice.Threading.AsyncQueueHandler%602.SynchronousSetup(%601)\" data-throw-if-not-resolved=\"false\"></xref>, you will get an exception here.\n"
+  example:
+  - "\n<pre><code>AsynchronousHandler someOperation = new SomeOperation();\nsomeOperation.SynchronousSetup( currentQuery );\n...\nif( someOperation.WorkToDo )\n    someOperation.AsynchronousOperation();\n// we&apos;re done, async thread will sooner or later do the work</code></pre>\n"
+  syntax:
+    content: public void AsynchronousOperation()
+    content.vb: Public Sub AsynchronousOperation
+  overload: SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation*
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation()
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.Processor
+  commentId: P:SuperOffice.Threading.AsyncQueueHandler`2.Processor
+  id: Processor
+  parent: SuperOffice.Threading.AsyncQueueHandler`2
+  langs:
+  - csharp
+  - vb
+  name: Processor
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nProcessor executing the operation.\n"
+  syntax:
+    content: protected TAsynchronousHandlerProcessor Processor { get; }
+    parameters: []
+    return:
+      type: '{TAsynchronousHandlerProcessor}'
+    content.vb: Protected ReadOnly Property Processor As TAsynchronousHandlerProcessor
+  overload: SuperOffice.Threading.AsyncQueueHandler`2.Processor*
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).Processor
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).Processor
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.HasWorkToDo
+  commentId: P:SuperOffice.Threading.AsyncQueueHandler`2.HasWorkToDo
+  id: HasWorkToDo
+  parent: SuperOffice.Threading.AsyncQueueHandler`2
+  langs:
+  - csharp
+  - vb
+  name: HasWorkToDo
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nA flag property that reflects the output of <xref href=\"SuperOffice.Threading.AsyncQueueHandler%602.SynchronousSetup(%601)\" data-throw-if-not-resolved=\"false\"></xref>. It is true\nif there is work to do for the <xref href=\"SuperOffice.Threading.AsyncQueueHandler%602.AsynchronousOperation\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public bool HasWorkToDo { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasWorkToDo As Boolean
+  overload: SuperOffice.Threading.AsyncQueueHandler`2.HasWorkToDo*
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).HasWorkToDo
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).HasWorkToDo
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  nameWithType: EnumUtil.MapEnums<AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
+  name.vb: MapEnums(Of AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
+    nameWithType: EnumUtil.MapEnums<AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
+    nameWithType: EnumUtil.MapEnums(Of AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  nameWithType: Converters.MapEnums<AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  nameWithType.vb: Converters.MapEnums(Of AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
+  name.vb: MapEnums(Of AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
+    nameWithType: Converters.MapEnums<AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
+    nameWithType: Converters.MapEnums(Of AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.IAsyncQueue{{TAsynchronousHandlerProcessor}}
+  commentId: T:SuperOffice.Threading.IAsyncQueue{`0}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IAsyncQueue`1
+  name: IAsyncQueue<TAsynchronousHandlerProcessor>
+  nameWithType: IAsyncQueue<TAsynchronousHandlerProcessor>
+  fullName: SuperOffice.Threading.IAsyncQueue<TAsynchronousHandlerProcessor>
+  nameWithType.vb: IAsyncQueue(Of TAsynchronousHandlerProcessor)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of TAsynchronousHandlerProcessor)
+  name.vb: IAsyncQueue(Of TAsynchronousHandlerProcessor)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAsynchronousHandlerProcessor
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAsynchronousHandlerProcessor
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.IAsyncQueue`1
+  commentId: T:SuperOffice.Threading.IAsyncQueue`1
+  isExternal: true
+  name: IAsyncQueue<TItem>
+  nameWithType: IAsyncQueue<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueue<TItem>
+  nameWithType.vb: IAsyncQueue(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of TItem)
+  name.vb: IAsyncQueue(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{TAsynchronousHandlerProcessor}'
+  commentId: '!:TAsynchronousHandlerProcessor'
+  definition: TAsynchronousHandlerProcessor
+  name: TAsynchronousHandlerProcessor
+  nameWithType: TAsynchronousHandlerProcessor
+  fullName: TAsynchronousHandlerProcessor
+- uid: TAsynchronousHandlerProcessor
+  name: TAsynchronousHandlerProcessor
+  nameWithType: TAsynchronousHandlerProcessor
+  fullName: TAsynchronousHandlerProcessor
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.#ctor*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueHandler`2.#ctor
+  isExternal: true
+  name: AsyncQueueHandler
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsyncQueueHandler
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsyncQueueHandler
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsyncQueueHandler
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsyncQueueHandler
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.OnSetup*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueHandler`2.OnSetup
+  isExternal: true
+  name: OnSetup
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
+- uid: '{TAsynchronousArgument}'
+  commentId: '!:TAsynchronousArgument'
+  definition: TAsynchronousArgument
+  name: TAsynchronousArgument
+  nameWithType: TAsynchronousArgument
+  fullName: TAsynchronousArgument
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TAsynchronousArgument
+  name: TAsynchronousArgument
+  nameWithType: TAsynchronousArgument
+  fullName: TAsynchronousArgument
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup
+  isExternal: true
+  name: SynchronousSetup
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
+  isExternal: true
+  name: AsynchronousOperation
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.Processor*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueHandler`2.Processor
+  isExternal: true
+  name: Processor
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).Processor
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).Processor
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.HasWorkToDo*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueHandler`2.HasWorkToDo
+  isExternal: true
+  name: HasWorkToDo
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).HasWorkToDo
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).HasWorkToDo

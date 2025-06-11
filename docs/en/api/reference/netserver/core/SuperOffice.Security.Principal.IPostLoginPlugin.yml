@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.Security.Principal
   children:
   - SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
-  - SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
+  - SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
   - SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
   langs:
   - csharp
@@ -35,6 +35,32 @@ items:
   modifiers.vb:
   - Public
   - Interface
+- uid: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+  id: IsRequiredAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Security.Principal.IPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: IsRequiredAsync(CancellationToken)
+  nameWithType: IPostLoginPlugin.IsRequiredAsync(CancellationToken)
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: Task<bool> IsRequiredAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsRequiredAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync*
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
   commentId: M:SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
   id: GetEndpointUri(System.String,System.String)
@@ -102,34 +128,6 @@ items:
   nameWithType.vb: IPostLoginPlugin.ProcessCallback(String, Dictionary(Of String, String))
   fullName.vb: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
   name.vb: ProcessCallback(String, Dictionary(Of String, String))
-- uid: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
-  commentId: P:SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
-  id: IsRequired
-  parent: SuperOffice.Security.Principal.IPostLoginPlugin
-  langs:
-  - csharp
-  - vb
-  name: IsRequired
-  nameWithType: IPostLoginPlugin.IsRequired
-  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Security.Principal
-  syntax:
-    content: bool IsRequired { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: ReadOnly Property IsRequired As Boolean
-  overload: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
@@ -302,6 +300,98 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync*
+  commentId: Overload:SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync
+  isExternal: true
+  name: IsRequiredAsync
+  nameWithType: IPostLoginPlugin.IsRequiredAsync
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri*
   commentId: Overload:SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri
   isExternal: true
@@ -436,16 +526,3 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired*
-  commentId: Overload:SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
-  isExternal: true
-  name: IsRequired
-  nameWithType: IPostLoginPlugin.IsRequired
-  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean

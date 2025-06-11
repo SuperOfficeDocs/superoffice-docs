@@ -4,21 +4,20 @@ items:
   commentId: N:SuperOffice
   id: SuperOffice
   children:
-  - SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
-  - SuperOffice.DoneNotDoneSplitter`2
   - SuperOffice.HistoryStrings
+  - SuperOffice.IDatabaseContext
+  - SuperOffice.ISoDatabaseContextFactory
   - SuperOffice.ListNameConstants
   - SuperOffice.NetServerBuildType
   - SuperOffice.NetServerVersion
-  - SuperOffice.OperationContextType
   - SuperOffice.Pair`2
   - SuperOffice.ServiceConstants
   - SuperOffice.SoContext
+  - SuperOffice.SoContextHelper
+  - SuperOffice.SoCoreClaimsPrincipalExtensions
   - SuperOffice.SoDatabaseContext
-  - SuperOffice.SoDatabaseContext.DatabaseContext
   - SuperOffice.SoDatabaseContextStatic`1
   - SuperOffice.SoDatabaseLogOut
-  - SuperOffice.SoOperationContext
   - SuperOffice.SoSession
   - SuperOffice.SoSystemInfo
   - SuperOffice.UpgradeStatus
@@ -116,6 +115,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions
+  commentId: T:SuperOffice.SoCoreClaimsPrincipalExtensions
+  isExternal: true
+  name: SoCoreClaimsPrincipalExtensions
+  nameWithType: SoCoreClaimsPrincipalExtensions
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions
 - uid: SuperOffice.ServiceConstants
   commentId: T:SuperOffice.ServiceConstants
   isExternal: true
@@ -128,12 +133,6 @@ references:
   name: SoContext
   nameWithType: SoContext
   fullName: SuperOffice.SoContext
-- uid: SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
-  commentId: T:SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
-  isExternal: true
-  name: CurrentPrincipalEnvironmentInfoPlugin
-  nameWithType: CurrentPrincipalEnvironmentInfoPlugin
-  fullName: SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
 - uid: SuperOffice.SoDatabaseLogOut
   commentId: T:SuperOffice.SoDatabaseLogOut
   parent: SuperOffice
@@ -148,13 +147,6 @@ references:
   name: SoDatabaseContext
   nameWithType: SoDatabaseContext
   fullName: SuperOffice.SoDatabaseContext
-- uid: SuperOffice.SoDatabaseContext.DatabaseContext
-  commentId: T:SuperOffice.SoDatabaseContext.DatabaseContext
-  parent: SuperOffice
-  isExternal: true
-  name: SoDatabaseContext.DatabaseContext
-  nameWithType: SoDatabaseContext.DatabaseContext
-  fullName: SuperOffice.SoDatabaseContext.DatabaseContext
 - uid: SuperOffice.SoDatabaseContextStatic`1
   commentId: T:SuperOffice.SoDatabaseContextStatic`1
   isExternal: true
@@ -194,20 +186,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.OperationContextType
-  commentId: T:SuperOffice.OperationContextType
+- uid: SuperOffice.IDatabaseContext
+  commentId: T:SuperOffice.IDatabaseContext
   parent: SuperOffice
   isExternal: true
-  name: OperationContextType
-  nameWithType: OperationContextType
-  fullName: SuperOffice.OperationContextType
-- uid: SuperOffice.SoOperationContext
-  commentId: T:SuperOffice.SoOperationContext
-  parent: SuperOffice
+  name: IDatabaseContext
+  nameWithType: IDatabaseContext
+  fullName: SuperOffice.IDatabaseContext
+- uid: SuperOffice.ISoDatabaseContextFactory
+  commentId: T:SuperOffice.ISoDatabaseContextFactory
   isExternal: true
-  name: SoOperationContext
-  nameWithType: SoOperationContext
-  fullName: SuperOffice.SoOperationContext
+  name: ISoDatabaseContextFactory
+  nameWithType: ISoDatabaseContextFactory
+  fullName: SuperOffice.ISoDatabaseContextFactory
 - uid: SuperOffice.SoSession
   commentId: T:SuperOffice.SoSession
   parent: SuperOffice
@@ -228,57 +219,12 @@ references:
   name: UserPreferenceDefaults
   nameWithType: UserPreferenceDefaults
   fullName: SuperOffice.UserPreferenceDefaults
-- uid: SuperOffice.DoneNotDoneSplitter`2
-  commentId: T:SuperOffice.DoneNotDoneSplitter`2
+- uid: SuperOffice.SoContextHelper
+  commentId: T:SuperOffice.SoContextHelper
   isExternal: true
-  name: DoneNotDoneSplitter<InnerProvider, RootExtender>
-  nameWithType: DoneNotDoneSplitter<InnerProvider, RootExtender>
-  fullName: SuperOffice.DoneNotDoneSplitter<InnerProvider, RootExtender>
-  nameWithType.vb: DoneNotDoneSplitter(Of InnerProvider, RootExtender)
-  fullName.vb: SuperOffice.DoneNotDoneSplitter(Of InnerProvider, RootExtender)
-  name.vb: DoneNotDoneSplitter(Of InnerProvider, RootExtender)
-  spec.csharp:
-  - uid: SuperOffice.DoneNotDoneSplitter`2
-    name: DoneNotDoneSplitter
-    nameWithType: DoneNotDoneSplitter
-    fullName: SuperOffice.DoneNotDoneSplitter
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: InnerProvider
-    nameWithType: InnerProvider
-    fullName: InnerProvider
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: RootExtender
-    nameWithType: RootExtender
-    fullName: RootExtender
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.DoneNotDoneSplitter`2
-    name: DoneNotDoneSplitter
-    nameWithType: DoneNotDoneSplitter
-    fullName: SuperOffice.DoneNotDoneSplitter
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: InnerProvider
-    nameWithType: InnerProvider
-    fullName: InnerProvider
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: RootExtender
-    nameWithType: RootExtender
-    fullName: RootExtender
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: SoContextHelper
+  nameWithType: SoContextHelper
+  fullName: SuperOffice.SoContextHelper
 - uid: SuperOffice
   commentId: N:SuperOffice
   isExternal: true

@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData)
   - SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData.SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData.SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData.SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData.SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData)
-  name: ToInsert()
-  nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ExtAppGroupLinkRecordData)
-  nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsert(ExtAppGroupLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData)
+  name: ToInsertAsync(ExtAppGroupLinkRecordData, CancellationToken)
+  nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(ExtAppGroupLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: ExtAppGroupLinkRecordData
     nameWithType: ExtAppGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtAppGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: ExtAppGroupLinkRecordData
     nameWithType: ExtAppGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.ExtAppGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

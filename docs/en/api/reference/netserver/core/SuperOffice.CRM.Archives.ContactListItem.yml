@@ -16,8 +16,8 @@ items:
   - SuperOffice.CRM.Archives.ContactListItem.Department
   - SuperOffice.CRM.Archives.ContactListItem.DirectPhone
   - SuperOffice.CRM.Archives.ContactListItem.Email
-  - SuperOffice.CRM.Archives.ContactListItem.GetContactListItem(System.Int32)
-  - SuperOffice.CRM.Archives.ContactListItem.GetContactListItem(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Archives.ContactListItem.Initialize
   - SuperOffice.CRM.Archives.ContactListItem.Kananame
   - SuperOffice.CRM.Archives.ContactListItem.Load(SuperOffice.CRM.Archives.ContactList.ContactListQuery,SuperOffice.Data.SoDataReader)
@@ -113,16 +113,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Archives.ContactListItem.GetContactListItem(System.Int32)
-  commentId: M:SuperOffice.CRM.Archives.ContactListItem.GetContactListItem(System.Int32)
-  id: GetContactListItem(System.Int32)
+- uid: SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetContactListItemAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.ContactListItem
   langs:
   - csharp
   - vb
-  name: GetContactListItem(Int32)
-  nameWithType: ContactListItem.GetContactListItem(Int32)
-  fullName: SuperOffice.CRM.Archives.ContactListItem.GetContactListItem(System.Int32)
+  name: GetContactListItemAsync(Int32, CancellationToken)
+  nameWithType: ContactListItem.GetContactListItemAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -132,32 +132,34 @@ items:
   namespace: SuperOffice.CRM.Archives
   summary: "\nGet one item by contact id\n"
   syntax:
-    content: public static ContactListItem GetContactListItem(int contactId)
+    content: public static Task<ContactListItem> GetContactListItemAsync(int contactId, CancellationToken cancellationToken = null)
     parameters:
     - id: contactId
       type: System.Int32
       description: The contact id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Archives.ContactListItem
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ContactListItem}
       description: ContactListItem
-    content.vb: Public Shared Function GetContactListItem(contactId As Integer) As ContactListItem
-  overload: SuperOffice.CRM.Archives.ContactListItem.GetContactListItem*
+    content.vb: Public Shared Function GetContactListItemAsync(contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ContactListItem)
+  overload: SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Archives.ContactListItem.GetContactListItem(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Archives.ContactListItem.GetContactListItem(System.Int32,System.Boolean)
-  id: GetContactListItem(System.Int32,System.Boolean)
+- uid: SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: GetContactListItemAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.ContactListItem
   langs:
   - csharp
   - vb
-  name: GetContactListItem(Int32, Boolean)
-  nameWithType: ContactListItem.GetContactListItem(Int32, Boolean)
-  fullName: SuperOffice.CRM.Archives.ContactListItem.GetContactListItem(System.Int32, System.Boolean)
+  name: GetContactListItemAsync(Int32, Boolean, CancellationToken)
+  nameWithType: ContactListItem.GetContactListItemAsync(Int32, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync(System.Int32, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -167,7 +169,7 @@ items:
   namespace: SuperOffice.CRM.Archives
   summary: "\nGet one item by contact id, and optionally include data from owning associates person record\n"
   syntax:
-    content: public static ContactListItem GetContactListItem(int contactId, bool includeOwnerInfo)
+    content: public static Task<ContactListItem> GetContactListItemAsync(int contactId, bool includeOwnerInfo, CancellationToken cancellationToken = null)
     parameters:
     - id: contactId
       type: System.Int32
@@ -175,11 +177,13 @@ items:
     - id: includeOwnerInfo
       type: System.Boolean
       description: Should data from the owning associates person record be included
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Archives.ContactListItem
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ContactListItem}
       description: ContactListItem
-    content.vb: Public Shared Function GetContactListItem(contactId As Integer, includeOwnerInfo As Boolean) As ContactListItem
-  overload: SuperOffice.CRM.Archives.ContactListItem.GetContactListItem*
+    content.vb: Public Shared Function GetContactListItemAsync(contactId As Integer, includeOwnerInfo As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ContactListItem)
+  overload: SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync*
   modifiers.csharp:
   - public
   - static
@@ -1682,7 +1686,6 @@ references:
     fullName: )
 - uid: SuperOffice.CRM.Archives.ContactList
   commentId: T:SuperOffice.CRM.Archives.ContactList
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: ContactList
   nameWithType: ContactList
@@ -2324,12 +2327,12 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.Archives.ContactListItem.GetContactListItem*
-  commentId: Overload:SuperOffice.CRM.Archives.ContactListItem.GetContactListItem
+- uid: SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync
   isExternal: true
-  name: GetContactListItem
-  nameWithType: ContactListItem.GetContactListItem
-  fullName: SuperOffice.CRM.Archives.ContactListItem.GetContactListItem
+  name: GetContactListItemAsync
+  nameWithType: ContactListItem.GetContactListItemAsync
+  fullName: SuperOffice.CRM.Archives.ContactListItem.GetContactListItemAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2337,13 +2340,92 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Archives.ContactListItem
-  commentId: T:SuperOffice.CRM.Archives.ContactListItem
-  parent: SuperOffice.CRM.Archives
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: ContactListItem
-  nameWithType: ContactListItem
-  fullName: SuperOffice.CRM.Archives.ContactListItem
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ContactListItem}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ContactListItem}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ContactListItem>
+  nameWithType: Task<ContactListItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Archives.ContactListItem>
+  nameWithType.vb: Task(Of ContactListItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Archives.ContactListItem)
+  name.vb: Task(Of ContactListItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Archives.ContactListItem
+    name: ContactListItem
+    nameWithType: ContactListItem
+    fullName: SuperOffice.CRM.Archives.ContactListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Archives.ContactListItem
+    name: ContactListItem
+    nameWithType: ContactListItem
+    fullName: SuperOffice.CRM.Archives.ContactListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System

@@ -51,7 +51,7 @@ items:
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -723,34 +723,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-  name: ToInsert()
-  nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: PushNotificationServiceRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -936,17 +946,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(PushNotificationServiceRecordData)
-  nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert(PushNotificationServiceRecordData)
-  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
+  name: ToInsertAsync(PushNotificationServiceRecordData, CancellationToken)
+  nameWithType: PushNotificationServiceRecordDataExtensions.ToInsertAsync(PushNotificationServiceRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-    name: ToInsert
-    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -955,15 +965,23 @@ references:
     name: PushNotificationServiceRecordData
     nameWithType: PushNotificationServiceRecordData
     fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PushNotificationServiceRecordData)
-    name: ToInsert
-    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PushNotificationServiceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PushNotificationServiceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -972,6 +990,14 @@ references:
     name: PushNotificationServiceRecordData
     nameWithType: PushNotificationServiceRecordData
     fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

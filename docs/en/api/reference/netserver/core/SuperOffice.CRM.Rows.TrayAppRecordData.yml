@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.TrayAppRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TrayAppRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TrayAppRecordData)
   - SuperOffice.CRM.Rows.TrayAppRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.TrayAppRecordData.SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TrayAppRecordData.SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TrayAppRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TrayAppRecordData.SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TrayAppRecordData)
+- uid: SuperOffice.CRM.Rows.TrayAppRecordData.SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TrayAppRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TrayAppRecordData)
-  name: ToInsert()
-  nameWithType: TrayAppRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TrayAppRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: TrayAppRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TrayAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TrayAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TrayAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TrayAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TrayAppRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TrayAppRecordData)
+- uid: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TrayAppRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TrayAppRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(TrayAppRecordData)
-  nameWithType: TrayAppRecordDataExtensions.ToInsert(TrayAppRecordData)
-  fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TrayAppRecordData)
+  name: ToInsertAsync(TrayAppRecordData, CancellationToken)
+  nameWithType: TrayAppRecordDataExtensions.ToInsertAsync(TrayAppRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TrayAppRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TrayAppRecordData)
-    name: ToInsert
-    nameWithType: TrayAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TrayAppRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TrayAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: TrayAppRecordData
     nameWithType: TrayAppRecordData
     fullName: SuperOffice.CRM.Rows.TrayAppRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TrayAppRecordData)
-    name: ToInsert
-    nameWithType: TrayAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TrayAppRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TrayAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TrayAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: TrayAppRecordData
     nameWithType: TrayAppRecordData
     fullName: SuperOffice.CRM.Rows.TrayAppRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

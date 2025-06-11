@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
   - SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
-  - SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData)
-  - SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData})
+  - SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
+- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<SaleTypeQuoteAttachmentTableInfo>)
-  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(TargetedSelect<SaleTypeQuoteAttachmentTableInfo>)
-  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo>)
+  name: FromSelectAsync(TargetedSelect<SaleTypeQuoteAttachmentTableInfo>, CancellationToken)
+  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync(TargetedSelect<SaleTypeQuoteAttachmentTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<SaleTypeQuoteAttachmentRecordData> FromSelect(this TargetedSelect<SaleTypeQuoteAttachmentTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<SaleTypeQuoteAttachmentRecordData> FromSelectAsync(this TargetedSelect<SaleTypeQuoteAttachmentTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of SaleTypeQuoteAttachmentTableInfo)) As IEnumerable(Of SaleTypeQuoteAttachmentRecordData)
-  overload: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect*
-  nameWithType.vb: SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(TargetedSelect(Of SaleTypeQuoteAttachmentTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of SaleTypeQuoteAttachmentTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of SaleTypeQuoteAttachmentRecordData)
+  overload: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync(TargetedSelect(Of SaleTypeQuoteAttachmentTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of SaleTypeQuoteAttachmentTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of SaleTypeQuoteAttachmentTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
   commentId: M:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of SaleTypeQuoteAttachmentTableInfo))
-- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData)
+- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(SaleTypeQuoteAttachmentRecordData)
-  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.ToInsert(SaleTypeQuoteAttachmentRecordData)
-  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData)
+  name: ToInsertAsync(SaleTypeQuoteAttachmentRecordData, CancellationToken)
+  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertAsync(SaleTypeQuoteAttachmentRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this SaleTypeQuoteAttachmentRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this SaleTypeQuoteAttachmentRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As SaleTypeQuoteAttachmentRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As SaleTypeQuoteAttachmentRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData})
-  commentId: M:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData})
+- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<SaleTypeQuoteAttachmentRecordData>)
-  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts(IEnumerable<SaleTypeQuoteAttachmentRecordData>)
-  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData>)
+  name: ToInsertsAsync(IEnumerable<SaleTypeQuoteAttachmentRecordData>, CancellationToken)
+  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync(IEnumerable<SaleTypeQuoteAttachmentRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<SaleTypeQuoteAttachmentRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<SaleTypeQuoteAttachmentRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of SaleTypeQuoteAttachmentRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts*
-  nameWithType.vb: SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts(IEnumerable(Of SaleTypeQuoteAttachmentRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of SaleTypeQuoteAttachmentRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync(IEnumerable(Of SaleTypeQuoteAttachmentRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData))
-  name.vb: ToInserts(IEnumerable(Of SaleTypeQuoteAttachmentRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of SaleTypeQuoteAttachmentRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRow)
   commentId: M:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRow)
   id: ToRecordData(SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<SaleTypeQuoteAttachmentTableInfo>)
+  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(TargetedSelect<SaleTypeQuoteAttachmentTableInfo>)
+  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;SaleTypeQuoteAttachmentTableInfo>, execute it and return an IEnumerable&lt;SaleTypeQuoteAttachmentRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<SaleTypeQuoteAttachmentRecordData> FromSelect(this TargetedSelect<SaleTypeQuoteAttachmentTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of SaleTypeQuoteAttachmentTableInfo)) As IEnumerable(Of SaleTypeQuoteAttachmentRecordData)
+  overload: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect*
+  nameWithType.vb: SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(TargetedSelect(Of SaleTypeQuoteAttachmentTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of SaleTypeQuoteAttachmentTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<SaleTypeQuoteAttachmentRecordData>
-  nameWithType: IEnumerable<SaleTypeQuoteAttachmentRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData>
-  nameWithType.vb: IEnumerable(Of SaleTypeQuoteAttachmentRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData)
-  name.vb: IEnumerable(Of SaleTypeQuoteAttachmentRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<SaleTypeQuoteAttachmentRecordData>
+  nameWithType: IAsyncEnumerable<SaleTypeQuoteAttachmentRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of SaleTypeQuoteAttachmentRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData)
+  name.vb: IAsyncEnumerable(Of SaleTypeQuoteAttachmentRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SaleTypeQuoteAttachmentRecordData>
+  nameWithType: IEnumerable<SaleTypeQuoteAttachmentRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData>
+  nameWithType.vb: IEnumerable(Of SaleTypeQuoteAttachmentRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData)
+  name.vb: IEnumerable(Of SaleTypeQuoteAttachmentRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData
+    name: SaleTypeQuoteAttachmentRecordData
+    nameWithType: SaleTypeQuoteAttachmentRecordData
+    fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData
+    name: SaleTypeQuoteAttachmentRecordData
+    nameWithType: SaleTypeQuoteAttachmentRecordData
+    fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: SaleTypeQuoteAttachmentRow
   nameWithType: SaleTypeQuoteAttachmentRow
   fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRow
+- uid: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRecordDataExtensions.FromSelect

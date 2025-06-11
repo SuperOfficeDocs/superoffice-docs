@@ -8,7 +8,7 @@ items:
   - SuperOffice.CRM.Archives.PersonList.GetPerson(System.Int32)
   - SuperOffice.CRM.Archives.PersonList.GetPersonContact(System.Int32)
   - SuperOffice.CRM.Archives.PersonList.GetPersonListItem(System.Int32)
-  - SuperOffice.CRM.Archives.PersonList.OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.Archives.PersonList.OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   - SuperOffice.CRM.Archives.PersonList.PersonExist(System.Int32)
   langs:
   - csharp
@@ -45,7 +45,7 @@ items:
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.CopyTo(SuperOffice.CRM.Archives.PersonListItem[],System.Int32)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.IndexOf(SuperOffice.CRM.Archives.PersonListItem)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.Contains(SuperOffice.CRM.Archives.PersonListItem)
-  - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.GetEnumerator
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.Item(System.Int32)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.ListCollection
@@ -63,16 +63,16 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.CRM.Archives.PersonList.OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.Archives.PersonList.OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader)
-  id: OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader)
+- uid: SuperOffice.CRM.Archives.PersonList.OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.PersonList.OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  id: OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.PersonList
   langs:
   - csharp
   - vb
-  name: OnLoad(PersonList.PersonListQuery, SoDataReader)
-  nameWithType: PersonList.OnLoad(PersonList.PersonListQuery, SoDataReader)
-  fullName: SuperOffice.CRM.Archives.PersonList.OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.Data.SoDataReader)
+  name: OnLoadAsync(PersonList.PersonListQuery, SoDataReader, CancellationToken)
+  nameWithType: PersonList.OnLoadAsync(PersonList.PersonListQuery, SoDataReader, CancellationToken)
+  fullName: SuperOffice.CRM.Archives.PersonList.OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -82,16 +82,20 @@ items:
   namespace: SuperOffice.CRM.Archives
   summary: "\nResponsible for reading each row with data from the SoDataReader and insert the object each row represents\ninto the class&apos; collection. \n"
   syntax:
-    content: protected override void OnLoad(PersonList.PersonListQuery query, SoDataReader reader)
+    content: protected override Task OnLoadAsync(PersonList.PersonListQuery query, SoDataReader reader, CancellationToken cancellationToken)
     parameters:
     - id: query
       type: SuperOffice.CRM.Archives.PersonList.PersonListQuery
     - id: reader
       type: SuperOffice.Data.SoDataReader
       description: The reader which contains all data in the list.
-    content.vb: Protected Overrides Sub OnLoad(query As PersonList.PersonListQuery, reader As SoDataReader)
-  overridden: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader)
-  overload: SuperOffice.CRM.Archives.PersonList.OnLoad*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnLoadAsync(query As PersonList.PersonListQuery, reader As SoDataReader, cancellationToken As CancellationToken) As Task
+  overridden: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Archives.PersonList.OnLoadAsync*
   modifiers.csharp:
   - protected
   - override
@@ -659,20 +663,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader)
+- uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}.OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery,SuperOffice.CRM.Archives.PersonListItem}
-  definition: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-  name: OnLoad(PersonList.PersonListQuery, SoDataReader)
-  nameWithType: ListBase<PersonList.PersonListQuery, PersonListItem>.OnLoad(PersonList.PersonListQuery, SoDataReader)
-  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.CRM.Archives.PersonListItem>.OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.Data.SoDataReader)
-  nameWithType.vb: ListBase(Of PersonList.PersonListQuery, PersonListItem).OnLoad(PersonList.PersonListQuery, SoDataReader)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.CRM.Archives.PersonListItem).OnLoad(SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.Data.SoDataReader)
+  definition: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  name: OnLoadAsync(PersonList.PersonListQuery, SoDataReader, CancellationToken)
+  nameWithType: ListBase<PersonList.PersonListQuery, PersonListItem>.OnLoadAsync(PersonList.PersonListQuery, SoDataReader, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.CRM.Archives.PersonListItem>.OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
+  nameWithType.vb: ListBase(Of PersonList.PersonListQuery, PersonListItem).OnLoadAsync(PersonList.PersonListQuery, SoDataReader, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.CRM.Archives.PersonListItem).OnLoadAsync(SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-    name: OnLoad
-    nameWithType: ListBase<PersonList.PersonListQuery, PersonListItem>.OnLoad
-    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.CRM.Archives.PersonListItem>.OnLoad
+  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: ListBase<PersonList.PersonListQuery, PersonListItem>.OnLoadAsync
+    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.CRM.Archives.PersonListItem>.OnLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -689,15 +693,23 @@ references:
     name: SoDataReader
     nameWithType: SoDataReader
     fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-    name: OnLoad
-    nameWithType: ListBase(Of PersonList.PersonListQuery, PersonListItem).OnLoad
-    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.CRM.Archives.PersonListItem).OnLoad
+  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: ListBase(Of PersonList.PersonListQuery, PersonListItem).OnLoadAsync
+    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.PersonList.PersonListQuery, SuperOffice.CRM.Archives.PersonListItem).OnLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -714,6 +726,14 @@ references:
     name: SoDataReader
     nameWithType: SoDataReader
     fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -1271,19 +1291,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
+- uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   isExternal: true
-  name: OnLoad(TListSelect, SoDataReader)
-  nameWithType: ListBase<TListSelect, TListItem>.OnLoad(TListSelect, SoDataReader)
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoad(TListSelect, SuperOffice.Data.SoDataReader)
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).OnLoad(TListSelect, SoDataReader)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoad(TListSelect, SuperOffice.Data.SoDataReader)
+  name: OnLoadAsync(TListSelect, SoDataReader, CancellationToken)
+  nameWithType: ListBase<TListSelect, TListItem>.OnLoadAsync(TListSelect, SoDataReader, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoadAsync(TListSelect, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).OnLoadAsync(TListSelect, SoDataReader, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoadAsync(TListSelect, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-    name: OnLoad
-    nameWithType: ListBase<TListSelect, TListItem>.OnLoad
-    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoad
+  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: ListBase<TListSelect, TListItem>.OnLoadAsync
+    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1298,15 +1318,23 @@ references:
     name: SoDataReader
     nameWithType: SoDataReader
     fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-    name: OnLoad
-    nameWithType: ListBase(Of TListSelect, TListItem).OnLoad
-    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoad
+  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: ListBase(Of TListSelect, TListItem).OnLoadAsync
+    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1321,6 +1349,14 @@ references:
     name: SoDataReader
     nameWithType: SoDataReader
     fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -1529,12 +1565,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Archives.PersonList.OnLoad*
-  commentId: Overload:SuperOffice.CRM.Archives.PersonList.OnLoad
+- uid: SuperOffice.CRM.Archives.PersonList.OnLoadAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.PersonList.OnLoadAsync
   isExternal: true
-  name: OnLoad
-  nameWithType: PersonList.OnLoad
-  fullName: SuperOffice.CRM.Archives.PersonList.OnLoad
+  name: OnLoadAsync
+  nameWithType: PersonList.OnLoadAsync
+  fullName: SuperOffice.CRM.Archives.PersonList.OnLoadAsync
 - uid: SuperOffice.CRM.Archives.PersonList.PersonListQuery
   commentId: T:SuperOffice.CRM.Archives.PersonList.PersonListQuery
   parent: SuperOffice.CRM.Archives
@@ -1549,6 +1585,16 @@ references:
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true

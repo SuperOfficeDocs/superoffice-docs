@@ -5,14 +5,14 @@ items:
   id: IAssociateAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
-  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
-  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
-  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
-  - SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
-  - SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
-  - SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -53,16 +53,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
-  id: GetAssociate(System.Int32)
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   langs:
   - csharp
   - vb
-  name: GetAssociate(Int32)
-  nameWithType: IAssociateAgent.GetAssociate(Int32)
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
+  name: GetAssociateAsync(Int32, CancellationToken)
+  nameWithType: IAssociateAgent.GetAssociateAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -72,26 +72,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets a Associate object.                        \n"
   syntax:
-    content: Associate GetAssociate(int associateId)
+    content: Task<Associate> GetAssociateAsync(int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
       description: The identifier of the Associate object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Associate
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate}
       description: Associate
-    content.vb: Function GetAssociate(associateId As Integer) As Associate
-  overload: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate*
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
-  id: GetAssociateByPersonId(System.Int32)
+    content.vb: Function GetAssociateAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Associate)
+  overload: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync*
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   langs:
   - csharp
   - vb
-  name: GetAssociateByPersonId(Int32)
-  nameWithType: IAssociateAgent.GetAssociateByPersonId(Int32)
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
+  name: GetAssociateByPersonIdAsync(Int32, CancellationToken)
+  nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -101,26 +103,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturns the associate that belongs to this person if the person is an associate.\n"
   syntax:
-    content: Associate GetAssociateByPersonId(int personId)
+    content: Task<Associate> GetAssociateByPersonIdAsync(int personId, CancellationToken cancellationToken = null)
     parameters:
     - id: personId
       type: System.Int32
       description: The person id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Associate
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate}
       description: Associate if person is associate
-    content.vb: Function GetAssociateByPersonId(personId As Integer) As Associate
-  overload: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId*
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
-  id: GetNote(System.Int32)
+    content.vb: Function GetAssociateByPersonIdAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Associate)
+  overload: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync*
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetNoteAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   langs:
   - csharp
   - vb
-  name: GetNote(Int32)
-  nameWithType: IAssociateAgent.GetNote(Int32)
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
+  name: GetNoteAsync(Int32, CancellationToken)
+  nameWithType: IAssociateAgent.GetNoteAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -130,26 +134,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturns an array of strings(notepad pages).\n"
   syntax:
-    content: string[] GetNote(int associateId)
+    content: Task<string[]> GetNoteAsync(int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
       description: The associate id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
+      type: System.Threading.Tasks.Task{System.String[]}
       description: Returns an array of strings(notepad pages).
-    content.vb: Function GetNote(associateId As Integer) As String()
-  overload: SuperOffice.CRM.Services.IAssociateAgent.GetNote*
-- uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
-  id: SaveNote(System.Int32,System.String[])
+    content.vb: Function GetNoteAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync*
+- uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
+  id: SaveNoteAsync(System.Int32,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   langs:
   - csharp
   - vb
-  name: SaveNote(Int32, String[])
-  nameWithType: IAssociateAgent.SaveNote(Int32, String[])
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32, System.String[])
+  name: SaveNoteAsync(Int32, String[], CancellationToken)
+  nameWithType: IAssociateAgent.SaveNoteAsync(Int32, String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(System.Int32, System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -159,7 +165,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSaves an array of strings(notepad pages).\n"
   syntax:
-    content: void SaveNote(int associateId, string[] note)
+    content: Task SaveNoteAsync(int associateId, string[] note, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
@@ -167,21 +173,25 @@ items:
     - id: note
       type: System.String[]
       description: The array of strings(notepad pages).
-    content.vb: Sub SaveNote(associateId As Integer, note As String())
-  overload: SuperOffice.CRM.Services.IAssociateAgent.SaveNote*
-  nameWithType.vb: IAssociateAgent.SaveNote(Int32, String())
-  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32, System.String())
-  name.vb: SaveNote(Int32, String())
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
-  id: GetEncryptionKey
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveNoteAsync(associateId As Integer, note As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync*
+  nameWithType.vb: IAssociateAgent.SaveNoteAsync(Int32, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync(System.Int32, System.String(), System.Threading.CancellationToken)
+  name.vb: SaveNoteAsync(Int32, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
+  id: GetEncryptionKeyAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   langs:
   - csharp
   - vb
-  name: GetEncryptionKey()
-  nameWithType: IAssociateAgent.GetEncryptionKey()
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey()
+  name: GetEncryptionKeyAsync(CancellationToken)
+  nameWithType: IAssociateAgent.GetEncryptionKeyAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -191,22 +201,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet unique key made from AssociateId and dbTag used for local storage encryption operations.\n"
   syntax:
-    content: string GetEncryptionKey()
+    content: Task<string> GetEncryptionKeyAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: encryptionKey
-    content.vb: Function GetEncryptionKey As String
-  overload: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey*
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
-  id: GetAssociateList(System.Int32[])
+    content.vb: Function GetEncryptionKeyAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync*
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   langs:
   - csharp
   - vb
-  name: GetAssociateList(Int32[])
-  nameWithType: IAssociateAgent.GetAssociateList(Int32[])
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
+  name: GetAssociateListAsync(Int32[], CancellationToken)
+  nameWithType: IAssociateAgent.GetAssociateListAsync(Int32[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(System.Int32[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -216,29 +229,31 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets an array of Associate objects.                        \n"
   syntax:
-    content: Associate[] GetAssociateList(int[] associateIds)
+    content: Task<Associate[]> GetAssociateListAsync(int[] associateIds, CancellationToken cancellationToken = null)
     parameters:
     - id: associateIds
       type: System.Int32[]
       description: The identifiers of the Associate object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Associate[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate[]}
       description: Array of Associate objects
-    content.vb: Function GetAssociateList(associateIds As Integer()) As Associate()
-  overload: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList*
-  nameWithType.vb: IAssociateAgent.GetAssociateList(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32())
-  name.vb: GetAssociateList(Int32())
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
-  id: GetAssociatesByGroup(System.Int32,System.Int32)
+    content.vb: Function GetAssociateListAsync(associateIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Associate())
+  overload: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync*
+  nameWithType.vb: IAssociateAgent.GetAssociateListAsync(Int32(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync(System.Int32(), System.Threading.CancellationToken)
+  name.vb: GetAssociateListAsync(Int32(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetAssociatesByGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   langs:
   - csharp
   - vb
-  name: GetAssociatesByGroup(Int32, Int32)
-  nameWithType: IAssociateAgent.GetAssociatesByGroup(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32, System.Int32)
+  name: GetAssociatesByGroupAsync(Int32, Int32, CancellationToken)
+  nameWithType: IAssociateAgent.GetAssociatesByGroupAsync(Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -248,7 +263,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nMethod that returns a array of associate , based on DiaryGroupType and groupId. The differernt types are, Userdefined, Usergroup and ResourceHeadings\n"
   syntax:
-    content: Associate[] GetAssociatesByGroup(int groupId, int type)
+    content: Task<Associate[]> GetAssociatesByGroupAsync(int groupId, int type, CancellationToken cancellationToken = null)
     parameters:
     - id: groupId
       type: System.Int32
@@ -256,21 +271,23 @@ items:
     - id: type
       type: System.Int32
       description: The type of group. See DiaryGroupType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Associate[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate[]}
       description: Array of associate
-    content.vb: Function GetAssociatesByGroup(groupId As Integer, type As Integer) As Associate()
-  overload: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup*
-- uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
-  id: LogOffWindowsUsers(System.Int32[])
+    content.vb: Function GetAssociatesByGroupAsync(groupId As Integer, type As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Associate())
+  overload: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync*
+- uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
+  id: LogOffWindowsUsersAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAssociateAgent
   langs:
   - csharp
   - vb
-  name: LogOffWindowsUsers(Int32[])
-  nameWithType: IAssociateAgent.LogOffWindowsUsers(Int32[])
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
+  name: LogOffWindowsUsersAsync(Int32[], CancellationToken)
+  nameWithType: IAssociateAgent.LogOffWindowsUsersAsync(Int32[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -280,16 +297,21 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nMethod that logs off associates that are logged on to the win client\n"
   syntax:
-    content: void LogOffWindowsUsers(int[] associateIds)
+    content: Task LogOffWindowsUsersAsync(int[] associateIds, CancellationToken cancellationToken = null)
     parameters:
     - id: associateIds
       type: System.Int32[]
       description: The ids of the associates that shall be logged off
-    content.vb: Sub LogOffWindowsUsers(associateIds As Integer())
-  overload: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers*
-  nameWithType.vb: IAssociateAgent.LogOffWindowsUsers(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32())
-  name.vb: LogOffWindowsUsers(Int32())
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: A void return
+    content.vb: Function LogOffWindowsUsersAsync(associateIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync*
+  nameWithType.vb: IAssociateAgent.LogOffWindowsUsersAsync(Int32(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32(), System.Threading.CancellationToken)
+  name.vb: LogOffWindowsUsersAsync(Int32(), CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -297,12 +319,12 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate*
-  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetAssociate
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync
   isExternal: true
-  name: GetAssociate
-  nameWithType: IAssociateAgent.GetAssociate
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate
+  name: GetAssociateAsync
+  nameWithType: IAssociateAgent.GetAssociateAsync
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -310,31 +332,165 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Services.Associate
-  commentId: T:SuperOffice.CRM.Services.Associate
-  parent: SuperOffice.CRM.Services
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: Associate
-  nameWithType: Associate
-  fullName: SuperOffice.CRM.Services.Associate
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Associate>
+  nameWithType: Task<Associate>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Associate>
+  nameWithType.vb: Task(Of Associate)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Associate)
+  name.vb: Task(Of Associate)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.Associate
+    name: Associate
+    nameWithType: Associate
+    fullName: SuperOffice.CRM.Services.Associate
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.Associate
+    name: Associate
+    nameWithType: Associate
+    fullName: SuperOffice.CRM.Services.Associate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId*
-  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: GetAssociateByPersonId
-  nameWithType: IAssociateAgent.GetAssociateByPersonId
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetNote*
-  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetNote
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync
   isExternal: true
-  name: GetNote
-  nameWithType: IAssociateAgent.GetNote
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNote
+  name: GetAssociateByPersonIdAsync
+  nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonIdAsync
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync
+  isExternal: true
+  name: GetNoteAsync
+  nameWithType: IAssociateAgent.GetNoteAsync
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNoteAsync
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync
+  isExternal: true
+  name: SaveNoteAsync
+  nameWithType: IAssociateAgent.SaveNoteAsync
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNoteAsync
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -361,31 +517,66 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNote*
-  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.SaveNote
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: SaveNote
-  nameWithType: IAssociateAgent.SaveNote
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNote
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey*
-  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync
   isExternal: true
-  name: GetEncryptionKey
-  nameWithType: IAssociateAgent.GetEncryptionKey
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
-- uid: System.String
-  commentId: T:System.String
-  parent: System
+  name: GetEncryptionKeyAsync
+  nameWithType: IAssociateAgent.GetEncryptionKeyAsync
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKeyAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList*
-  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList
-  isExternal: true
-  name: GetAssociateList
-  nameWithType: IAssociateAgent.GetAssociateList
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList
+  name: GetAssociateListAsync
+  nameWithType: IAssociateAgent.GetAssociateListAsync
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -412,15 +603,24 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.Associate[]
-  isExternal: true
-  name: Associate[]
-  nameWithType: Associate[]
-  fullName: SuperOffice.CRM.Services.Associate[]
-  nameWithType.vb: Associate()
-  fullName.vb: SuperOffice.CRM.Services.Associate()
-  name.vb: Associate()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Associate[]>
+  nameWithType: Task<Associate[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Associate[]>
+  nameWithType.vb: Task(Of Associate())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Associate())
+  name.vb: Task(Of Associate())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.Associate
     name: Associate
     nameWithType: Associate
@@ -429,7 +629,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.Associate
     name: Associate
     nameWithType: Associate
@@ -438,15 +649,18 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup*
-  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync
   isExternal: true
-  name: GetAssociatesByGroup
-  nameWithType: IAssociateAgent.GetAssociatesByGroup
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup
-- uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers*
-  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers
+  name: GetAssociatesByGroupAsync
+  nameWithType: IAssociateAgent.GetAssociatesByGroupAsync
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroupAsync
+- uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync
   isExternal: true
-  name: LogOffWindowsUsers
-  nameWithType: IAssociateAgent.LogOffWindowsUsers
-  fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers
+  name: LogOffWindowsUsersAsync
+  nameWithType: IAssociateAgent.LogOffWindowsUsersAsync
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsersAsync

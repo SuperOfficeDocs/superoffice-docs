@@ -1,0 +1,710 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+  commentId: T:SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+  id: AsyncLocalPrincipalAccessor
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.#ctor
+  - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignOut
+  - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.User
+  langs:
+  - csharp
+  - vb
+  name: AsyncLocalPrincipalAccessor
+  nameWithType: AsyncLocalPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: 'public class AsyncLocalPrincipalAccessor : NSPrincipalAccessorBase, INSPrincipalAccessor'
+    content.vb: >-
+      Public Class AsyncLocalPrincipalAccessor
+          Inherits NSPrincipalAccessorBase
+          Implements INSPrincipalAccessor
+  inheritance:
+  - System.Object
+  - SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  implements:
+  - SuperOffice.Security.Principal.INSPrincipalAccessor
+  inheritedMembers:
+  - SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  extensionMethods:
+  - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor)
+  - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  id: SignIn(System.Security.Claims.ClaimsPrincipal)
+  parent: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: SignIn(ClaimsPrincipal)
+  nameWithType: AsyncLocalPrincipalAccessor.SignIn(ClaimsPrincipal)
+  fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override void SignIn(ClaimsPrincipal user)
+    parameters:
+    - id: user
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public Overrides Sub SignIn(user As ClaimsPrincipal)
+  overridden: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+  overload: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignIn*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignOut
+  commentId: M:SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignOut
+  id: SignOut
+  parent: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: SignOut()
+  nameWithType: AsyncLocalPrincipalAccessor.SignOut()
+  fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignOut()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override void SignOut()
+    content.vb: Public Overrides Sub SignOut
+  overridden: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+  overload: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignOut*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.#ctor
+  commentId: M:SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: AsyncLocalPrincipalAccessor()
+  nameWithType: AsyncLocalPrincipalAccessor.AsyncLocalPrincipalAccessor()
+  fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.AsyncLocalPrincipalAccessor()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public AsyncLocalPrincipalAccessor()
+    content.vb: Public Sub New
+  overload: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.User
+  commentId: P:SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.User
+  id: User
+  parent: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: AsyncLocalPrincipalAccessor.User
+  fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.User
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override ClaimsPrincipal User { get; }
+    parameters: []
+    return:
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public Overrides ReadOnly Property User As ClaimsPrincipal
+  overridden: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+  overload: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.User*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  commentId: T:SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: NSPrincipalAccessorBase
+  nameWithType: NSPrincipalAccessorBase
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+  commentId: T:SuperOffice.Security.Principal.INSPrincipalAccessor
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: INSPrincipalAccessor
+  nameWithType: INSPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  commentId: M:SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  isExternal: true
+  name: SignInWithTemporaryUser(ClaimsPrincipal, Boolean)
+  nameWithType: NSPrincipalAccessorBase.SignInWithTemporaryUser(ClaimsPrincipal, Boolean)
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+    name: SignInWithTemporaryUser
+    nameWithType: NSPrincipalAccessorBase.SignInWithTemporaryUser
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    nameWithType: ClaimsPrincipal
+    fullName: System.Security.Claims.ClaimsPrincipal
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+    name: SignInWithTemporaryUser
+    nameWithType: NSPrincipalAccessorBase.SignInWithTemporaryUser
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    nameWithType: ClaimsPrincipal
+    fullName: System.Security.Claims.ClaimsPrincipal
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AsyncLocalPrincipalAccessor, To>()
+  nameWithType: EnumUtil.MapEnums<AsyncLocalPrincipalAccessor, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AsyncLocalPrincipalAccessor, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor, To)()
+  name.vb: MapEnums(Of AsyncLocalPrincipalAccessor, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AsyncLocalPrincipalAccessor, To>
+    nameWithType: EnumUtil.MapEnums<AsyncLocalPrincipalAccessor, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AsyncLocalPrincipalAccessor, To)
+    nameWithType: EnumUtil.MapEnums(Of AsyncLocalPrincipalAccessor, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<AsyncLocalPrincipalAccessor>(AsyncLocalPrincipalAccessor)
+  nameWithType: ObjectExtensions.AssignByReflection<AsyncLocalPrincipalAccessor>(AsyncLocalPrincipalAccessor)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor>(SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AsyncLocalPrincipalAccessor)(AsyncLocalPrincipalAccessor)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor)(SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor)
+  name.vb: AssignByReflection(Of AsyncLocalPrincipalAccessor)(AsyncLocalPrincipalAccessor)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AsyncLocalPrincipalAccessor>
+    nameWithType: ObjectExtensions.AssignByReflection<AsyncLocalPrincipalAccessor>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+    name: AsyncLocalPrincipalAccessor
+    nameWithType: AsyncLocalPrincipalAccessor
+    fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AsyncLocalPrincipalAccessor)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AsyncLocalPrincipalAccessor)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+    name: AsyncLocalPrincipalAccessor
+    nameWithType: AsyncLocalPrincipalAccessor
+    fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<AsyncLocalPrincipalAccessor>()
+  nameWithType: ObjectExtensions.GraphCopy<AsyncLocalPrincipalAccessor>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AsyncLocalPrincipalAccessor)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor)()
+  name.vb: GraphCopy(Of AsyncLocalPrincipalAccessor)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AsyncLocalPrincipalAccessor>
+    nameWithType: ObjectExtensions.GraphCopy<AsyncLocalPrincipalAccessor>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AsyncLocalPrincipalAccessor)
+    nameWithType: ObjectExtensions.GraphCopy(Of AsyncLocalPrincipalAccessor)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AsyncLocalPrincipalAccessor, To>()
+  nameWithType: Converters.MapEnums<AsyncLocalPrincipalAccessor, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor, To>()
+  nameWithType.vb: Converters.MapEnums(Of AsyncLocalPrincipalAccessor, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor, To)()
+  name.vb: MapEnums(Of AsyncLocalPrincipalAccessor, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AsyncLocalPrincipalAccessor, To>
+    nameWithType: Converters.MapEnums<AsyncLocalPrincipalAccessor, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AsyncLocalPrincipalAccessor, To)
+    nameWithType: Converters.MapEnums(Of AsyncLocalPrincipalAccessor, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+  parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  isExternal: true
+  name: SignIn(ClaimsPrincipal)
+  nameWithType: NSPrincipalAccessorBase.SignIn(ClaimsPrincipal)
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+    name: SignIn
+    nameWithType: NSPrincipalAccessorBase.SignIn
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    nameWithType: ClaimsPrincipal
+    fullName: System.Security.Claims.ClaimsPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+    name: SignIn
+    nameWithType: NSPrincipalAccessorBase.SignIn
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    nameWithType: ClaimsPrincipal
+    fullName: System.Security.Claims.ClaimsPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignIn*
+  commentId: Overload:SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignIn
+  isExternal: true
+  name: SignIn
+  nameWithType: AsyncLocalPrincipalAccessor.SignIn
+  fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignIn
+- uid: System.Security.Claims.ClaimsPrincipal
+  isExternal: true
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+  commentId: M:SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+  parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  isExternal: true
+  name: SignOut()
+  nameWithType: NSPrincipalAccessorBase.SignOut()
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+    name: SignOut
+    nameWithType: NSPrincipalAccessorBase.SignOut
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+    name: SignOut
+    nameWithType: NSPrincipalAccessorBase.SignOut
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignOut*
+  commentId: Overload:SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignOut
+  isExternal: true
+  name: SignOut
+  nameWithType: AsyncLocalPrincipalAccessor.SignOut
+  fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.SignOut
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.#ctor
+  isExternal: true
+  name: AsyncLocalPrincipalAccessor
+  nameWithType: AsyncLocalPrincipalAccessor.AsyncLocalPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.AsyncLocalPrincipalAccessor
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+  commentId: P:SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+  parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  isExternal: true
+  name: User
+  nameWithType: NSPrincipalAccessorBase.User
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.User*
+  commentId: Overload:SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.User
+  isExternal: true
+  name: User
+  nameWithType: AsyncLocalPrincipalAccessor.User
+  fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.User

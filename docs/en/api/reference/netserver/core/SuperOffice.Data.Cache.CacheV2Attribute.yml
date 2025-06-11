@@ -5,7 +5,7 @@ items:
   id: CacheV2Attribute
   parent: SuperOffice.Data.Cache
   children:
-  - SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String,System.Int32)
+  - SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.Int32)
   - SuperOffice.Data.Cache.CacheV2Attribute.AbsoluteExpirationInSeconds
   langs:
   - csharp
@@ -21,13 +21,12 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data.Cache
   syntax:
-    content: 'public class CacheV2Attribute : SoInjectAttribute'
+    content: 'public class CacheV2Attribute : Attribute'
     content.vb: >-
       Public Class CacheV2Attribute
-          Inherits SoInjectAttribute
+          Inherits Attribute
   inheritance:
   - System.Object
-  - SuperOffice.Factory.SoInjectAttribute
   extensionMethods:
   - SuperOffice.Data.Cache.CacheV2Attribute.EnumUtil.MapEnums``2
   - SuperOffice.Data.Cache.CacheV2Attribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -37,16 +36,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String,System.Int32)
-  commentId: M:SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String,System.Int32)
-  id: '#ctor(System.String,System.Int32)'
+- uid: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.Int32)
+  commentId: M:SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
   parent: SuperOffice.Data.Cache.CacheV2Attribute
   langs:
   - csharp
   - vb
-  name: CacheV2Attribute(String, Int32)
-  nameWithType: CacheV2Attribute.CacheV2Attribute(String, Int32)
-  fullName: SuperOffice.Data.Cache.CacheV2Attribute.CacheV2Attribute(System.String, System.Int32)
+  name: CacheV2Attribute(Int32)
+  nameWithType: CacheV2Attribute.CacheV2Attribute(Int32)
+  fullName: SuperOffice.Data.Cache.CacheV2Attribute.CacheV2Attribute(System.Int32)
   type: Constructor
   source:
     path: SoDataBase
@@ -55,14 +54,12 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data.Cache
   syntax:
-    content: public CacheV2Attribute(string instanceContainerName = "Database", int absoluteExpirationInSeconds = 0)
+    content: public CacheV2Attribute(int absoluteExpirationInSeconds = 0)
     parameters:
-    - id: instanceContainerName
-      type: System.String
     - id: absoluteExpirationInSeconds
       type: System.Int32
       description: "\nNumber of seconds before the local cache expires and triggers a flush.\nBy default a cache will not have an absolute expiration.\nThis expiration feature is based on timeout and is not distributed.\nThe purpose is to have read-through caches free up memory by cleaning up local (some of them potentially stale) cache items.\n"
-    content.vb: Public Sub New(instanceContainerName As String = "Database", absoluteExpirationInSeconds As Integer = 0)
+    content.vb: Public Sub New(absoluteExpirationInSeconds As Integer = 0)
   overload: SuperOffice.Data.Cache.CacheV2Attribute.#ctor*
   modifiers.csharp:
   - public
@@ -113,13 +110,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: SuperOffice.Factory.SoInjectAttribute
-  commentId: T:SuperOffice.Factory.SoInjectAttribute
-  parent: SuperOffice.Factory
-  isExternal: true
-  name: SoInjectAttribute
-  nameWithType: SoInjectAttribute
-  fullName: SuperOffice.Factory.SoInjectAttribute
 - uid: SuperOffice.Data.Cache.CacheV2Attribute.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -194,12 +184,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.Factory
-  commentId: N:SuperOffice.Factory
-  isExternal: true
-  name: SuperOffice.Factory
-  nameWithType: SuperOffice.Factory
-  fullName: SuperOffice.Factory
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -303,13 +287,6 @@ references:
   name: CacheV2Attribute
   nameWithType: CacheV2Attribute.CacheV2Attribute
   fullName: SuperOffice.Data.Cache.CacheV2Attribute.CacheV2Attribute
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System

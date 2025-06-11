@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.ReasonSoldRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ReasonSoldRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ReasonSoldRecordData)
   - SuperOffice.CRM.Rows.ReasonSoldRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ReasonSoldRecordData.SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ReasonSoldRecordData.SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ReasonSoldRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ReasonSoldRecordData.SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReasonSoldRecordData)
+- uid: SuperOffice.CRM.Rows.ReasonSoldRecordData.SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReasonSoldRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReasonSoldRecordData)
-  name: ToInsert()
-  nameWithType: ReasonSoldRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReasonSoldRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ReasonSoldRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ReasonSoldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReasonSoldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ReasonSoldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReasonSoldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReasonSoldRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReasonSoldRecordData)
+- uid: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReasonSoldRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReasonSoldRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ReasonSoldRecordData)
-  nameWithType: ReasonSoldRecordDataExtensions.ToInsert(ReasonSoldRecordData)
-  fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReasonSoldRecordData)
+  name: ToInsertAsync(ReasonSoldRecordData, CancellationToken)
+  nameWithType: ReasonSoldRecordDataExtensions.ToInsertAsync(ReasonSoldRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReasonSoldRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReasonSoldRecordData)
-    name: ToInsert
-    nameWithType: ReasonSoldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReasonSoldRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReasonSoldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: ReasonSoldRecordData
     nameWithType: ReasonSoldRecordData
     fullName: SuperOffice.CRM.Rows.ReasonSoldRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReasonSoldRecordData)
-    name: ToInsert
-    nameWithType: ReasonSoldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReasonSoldRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReasonSoldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReasonSoldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: ReasonSoldRecordData
     nameWithType: ReasonSoldRecordData
     fullName: SuperOffice.CRM.Rows.ReasonSoldRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

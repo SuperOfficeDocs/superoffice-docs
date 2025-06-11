@@ -21,7 +21,7 @@ items:
   - SuperOffice.Util.ImageUtilities.Max(System.Drawing.Size,System.Drawing.Size)
   - SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size,System.Drawing.Size)
   - SuperOffice.Util.ImageUtilities.ProductImageSize
-  - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String,System.Int32)
+  - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
   - SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   - SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.Util.ImageUtilities.VerticalAlignment)
@@ -358,16 +358,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String,System.Int32)
-  commentId: M:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String,System.Int32)
-  id: ResolveUrlOrBase64Image(System.String,System.Int32)
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Util.ImageUtilities
   langs:
   - csharp
   - vb
-  name: ResolveUrlOrBase64Image(String, Int32)
-  nameWithType: ImageUtilities.ResolveUrlOrBase64Image(String, Int32)
-  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String, System.Int32)
+  name: ResolveUrlOrBase64ImageAsync(String, Int32, CancellationToken)
+  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageAsync(String, Int32, CancellationToken)
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -378,7 +378,7 @@ items:
   summary: "\nIf the input is a well-formed absolute URI, then assume that it leads to an image, and fetch that image; otherwise just pass the input straight out again.\nImages are scaled down to 1000/1000 if needed\n"
   remarks: "\nEventually this should do some caching, have a cache-retention policy, flush etc... but in this prototype version we just fetch the data directly\n"
   syntax:
-    content: public static string ResolveUrlOrBase64Image(string input, int maxPixelSize = 2000)
+    content: public static Task<string> ResolveUrlOrBase64ImageAsync(string input, int maxPixelSize = 2000, CancellationToken cancellationToken = null)
     parameters:
     - id: input
       type: System.String
@@ -389,10 +389,12 @@ items:
         Maximum image size, of longest side. Images larger than this in any direction
 
         will be shrunk (keeping the aspect ratio intact). Stretching will never occur.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function ResolveUrlOrBase64Image(input As String, maxPixelSize As Integer = 2000) As String
-  overload: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function ResolveUrlOrBase64ImageAsync(input As String, maxPixelSize As Integer = 2000, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync*
   modifiers.csharp:
   - public
   - static
@@ -1028,12 +1030,98 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image*
-  commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync
   isExternal: true
-  name: ResolveUrlOrBase64Image
-  nameWithType: ImageUtilities.ResolveUrlOrBase64Image
-  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image
+  name: ResolveUrlOrBase64ImageAsync
+  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageAsync
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction*
   commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction
   isExternal: true

@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
   - SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
-  - SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData)
-  - SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData})
+  - SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ScreenDefinitionElementRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<ScreenDefinitionElementTableInfo>)
-  nameWithType: ScreenDefinitionElementRecordDataExtensions.FromSelect(TargetedSelect<ScreenDefinitionElementTableInfo>)
-  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo>)
+  name: FromSelectAsync(TargetedSelect<ScreenDefinitionElementTableInfo>, CancellationToken)
+  nameWithType: ScreenDefinitionElementRecordDataExtensions.FromSelectAsync(TargetedSelect<ScreenDefinitionElementTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<ScreenDefinitionElementRecordData> FromSelect(this TargetedSelect<ScreenDefinitionElementTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<ScreenDefinitionElementRecordData> FromSelectAsync(this TargetedSelect<ScreenDefinitionElementTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of ScreenDefinitionElementTableInfo)) As IEnumerable(Of ScreenDefinitionElementRecordData)
-  overload: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect*
-  nameWithType.vb: ScreenDefinitionElementRecordDataExtensions.FromSelect(TargetedSelect(Of ScreenDefinitionElementTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of ScreenDefinitionElementTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ScreenDefinitionElementRecordData)
+  overload: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: ScreenDefinitionElementRecordDataExtensions.FromSelectAsync(TargetedSelect(Of ScreenDefinitionElementTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of ScreenDefinitionElementTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of ScreenDefinitionElementTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
   commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of ScreenDefinitionElementTableInfo))
-- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData)
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(ScreenDefinitionElementRecordData)
-  nameWithType: ScreenDefinitionElementRecordDataExtensions.ToInsert(ScreenDefinitionElementRecordData)
-  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData)
+  name: ToInsertAsync(ScreenDefinitionElementRecordData, CancellationToken)
+  nameWithType: ScreenDefinitionElementRecordDataExtensions.ToInsertAsync(ScreenDefinitionElementRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this ScreenDefinitionElementRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this ScreenDefinitionElementRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As ScreenDefinitionElementRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As ScreenDefinitionElementRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData})
-  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData})
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<ScreenDefinitionElementRecordData>)
-  nameWithType: ScreenDefinitionElementRecordDataExtensions.ToInserts(IEnumerable<ScreenDefinitionElementRecordData>)
-  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData>)
+  name: ToInsertsAsync(IEnumerable<ScreenDefinitionElementRecordData>, CancellationToken)
+  nameWithType: ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync(IEnumerable<ScreenDefinitionElementRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<ScreenDefinitionElementRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<ScreenDefinitionElementRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of ScreenDefinitionElementRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInserts*
-  nameWithType.vb: ScreenDefinitionElementRecordDataExtensions.ToInserts(IEnumerable(Of ScreenDefinitionElementRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of ScreenDefinitionElementRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync(IEnumerable(Of ScreenDefinitionElementRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData))
-  name.vb: ToInserts(IEnumerable(Of ScreenDefinitionElementRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of ScreenDefinitionElementRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ScreenDefinitionElementRow)
   commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ScreenDefinitionElementRow)
   id: ToRecordData(SuperOffice.CRM.Rows.ScreenDefinitionElementRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<ScreenDefinitionElementTableInfo>)
+  nameWithType: ScreenDefinitionElementRecordDataExtensions.FromSelect(TargetedSelect<ScreenDefinitionElementTableInfo>)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;ScreenDefinitionElementTableInfo>, execute it and return an IEnumerable&lt;ScreenDefinitionElementRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<ScreenDefinitionElementRecordData> FromSelect(this TargetedSelect<ScreenDefinitionElementTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of ScreenDefinitionElementTableInfo)) As IEnumerable(Of ScreenDefinitionElementRecordData)
+  overload: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect*
+  nameWithType.vb: ScreenDefinitionElementRecordDataExtensions.FromSelect(TargetedSelect(Of ScreenDefinitionElementTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of ScreenDefinitionElementTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: ScreenDefinitionElementRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: ScreenDefinitionElementRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<ScreenDefinitionElementRecordData>
-  nameWithType: IEnumerable<ScreenDefinitionElementRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData>
-  nameWithType.vb: IEnumerable(Of ScreenDefinitionElementRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData)
-  name.vb: IEnumerable(Of ScreenDefinitionElementRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ScreenDefinitionElementRecordData>
+  nameWithType: IAsyncEnumerable<ScreenDefinitionElementRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of ScreenDefinitionElementRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData)
+  name.vb: IAsyncEnumerable(Of ScreenDefinitionElementRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: ScreenDefinitionElementRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: ScreenDefinitionElementRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: ScreenDefinitionElementRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ScreenDefinitionElementRecordData>
+  nameWithType: IEnumerable<ScreenDefinitionElementRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData>
+  nameWithType.vb: IEnumerable(Of ScreenDefinitionElementRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData)
+  name.vb: IEnumerable(Of ScreenDefinitionElementRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData
+    name: ScreenDefinitionElementRecordData
+    nameWithType: ScreenDefinitionElementRecordData
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData
+    name: ScreenDefinitionElementRecordData
+    nameWithType: ScreenDefinitionElementRecordData
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: ScreenDefinitionElementRow
   nameWithType: ScreenDefinitionElementRow
   fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRow
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: ScreenDefinitionElementRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionElementRecordDataExtensions.FromSelect

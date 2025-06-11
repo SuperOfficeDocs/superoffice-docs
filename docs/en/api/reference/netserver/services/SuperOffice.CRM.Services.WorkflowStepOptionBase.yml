@@ -35,8 +35,6 @@ items:
       Public Class WorkflowStepOptionBase
           Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.WorkflowAgent
-    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
   - linkId: SuperOffice.CRM.Services.IWorkflowAgent
     commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
   inheritance:
@@ -384,15 +382,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.WorkflowAgent
-  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
-  isExternal: true
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.CRM.Services.WorkflowAgent
 - uid: SuperOffice.CRM.Services.IWorkflowAgent
   commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IWorkflowAgent
   nameWithType: IWorkflowAgent

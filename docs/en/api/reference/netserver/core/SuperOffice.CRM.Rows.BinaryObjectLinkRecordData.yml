@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.BinaryObjectLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.BinaryObjectLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData)
   - SuperOffice.CRM.Rows.BinaryObjectLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.BinaryObjectLinkRecordData.SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.BinaryObjectLinkRecordData.SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.BinaryObjectLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordData.SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData)
+- uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordData.SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData)
-  name: ToInsert()
-  nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData)
+- uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(BinaryObjectLinkRecordData)
-  nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsert(BinaryObjectLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData)
+  name: ToInsertAsync(BinaryObjectLinkRecordData, CancellationToken)
+  nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsertAsync(BinaryObjectLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData)
-    name: ToInsert
-    nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: BinaryObjectLinkRecordData
     nameWithType: BinaryObjectLinkRecordData
     fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData)
-    name: ToInsert
-    nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BinaryObjectLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: BinaryObjectLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: BinaryObjectLinkRecordData
     nameWithType: BinaryObjectLinkRecordData
     fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

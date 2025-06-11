@@ -47,10 +47,6 @@ items:
   - SuperOffice.CRM.Archives.SaleList.CustomSearch
   - SuperOffice.CRM.Archives.SaleList.SaleListQuery
   - SuperOffice.CRM.Archives.SaleListItem
-  - SuperOffice.CRM.Archives.UserList
-  - SuperOffice.CRM.Archives.UserList.CustomSearch
-  - SuperOffice.CRM.Archives.UserList.UserListQuery
-  - SuperOffice.CRM.Archives.UserListItem
   langs:
   - csharp
   - vb
@@ -63,7 +59,6 @@ items:
 references:
 - uid: SuperOffice.CRM.Archives.ActivityList
   commentId: T:SuperOffice.CRM.Archives.ActivityList
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: ActivityList
   nameWithType: ActivityList
@@ -95,7 +90,6 @@ references:
   fullName: SuperOffice.CRM.Archives.ActivityListItem
 - uid: SuperOffice.CRM.Archives.ContactList
   commentId: T:SuperOffice.CRM.Archives.ContactList
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: ContactList
   nameWithType: ContactList
@@ -122,7 +116,6 @@ references:
   fullName: SuperOffice.CRM.Archives.ContactListItem
 - uid: SuperOffice.CRM.Archives.DocumentList
   commentId: T:SuperOffice.CRM.Archives.DocumentList
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: DocumentList
   nameWithType: DocumentList
@@ -161,7 +154,6 @@ references:
   fullName: SuperOffice.CRM.Archives.DocumentListItem
 - uid: SuperOffice.CRM.Archives.PersonList
   commentId: T:SuperOffice.CRM.Archives.PersonList
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: PersonList
   nameWithType: PersonList
@@ -194,7 +186,6 @@ references:
   fullName: SuperOffice.CRM.Archives.PersonListItem
 - uid: SuperOffice.CRM.Archives.ProjectEventList
   commentId: T:SuperOffice.CRM.Archives.ProjectEventList
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: ProjectEventList
   nameWithType: ProjectEventList
@@ -220,14 +211,12 @@ references:
   fullName: SuperOffice.CRM.Archives.ProjectEventList.CustomSearch
 - uid: SuperOffice.CRM.Archives.ProjectEventListItem
   commentId: T:SuperOffice.CRM.Archives.ProjectEventListItem
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: ProjectEventListItem
   nameWithType: ProjectEventListItem
   fullName: SuperOffice.CRM.Archives.ProjectEventListItem
 - uid: SuperOffice.CRM.Archives.ProjectList
   commentId: T:SuperOffice.CRM.Archives.ProjectList
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: ProjectList
   nameWithType: ProjectList
@@ -260,7 +249,6 @@ references:
   fullName: SuperOffice.CRM.Archives.ProjectListItem
 - uid: SuperOffice.CRM.Archives.ProjectMemberList
   commentId: T:SuperOffice.CRM.Archives.ProjectMemberList
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: ProjectMemberList
   nameWithType: ProjectMemberList
@@ -293,7 +281,6 @@ references:
   fullName: SuperOffice.CRM.Archives.ProjectMemberListItem
 - uid: SuperOffice.CRM.Archives.RelationsList
   commentId: T:SuperOffice.CRM.Archives.RelationsList
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: RelationsList
   nameWithType: RelationsList
@@ -320,7 +307,6 @@ references:
   fullName: SuperOffice.CRM.Archives.RelationsListItem
 - uid: SuperOffice.CRM.Archives.SaleList
   commentId: T:SuperOffice.CRM.Archives.SaleList
-  parent: SuperOffice.CRM.Archives
   isExternal: true
   name: SaleList
   nameWithType: SaleList
@@ -345,33 +331,6 @@ references:
   name: SaleListItem
   nameWithType: SaleListItem
   fullName: SuperOffice.CRM.Archives.SaleListItem
-- uid: SuperOffice.CRM.Archives.UserList
-  commentId: T:SuperOffice.CRM.Archives.UserList
-  parent: SuperOffice.CRM.Archives
-  isExternal: true
-  name: UserList
-  nameWithType: UserList
-  fullName: SuperOffice.CRM.Archives.UserList
-- uid: SuperOffice.CRM.Archives.UserList.UserListQuery
-  commentId: T:SuperOffice.CRM.Archives.UserList.UserListQuery
-  parent: SuperOffice.CRM.Archives
-  isExternal: true
-  name: UserList.UserListQuery
-  nameWithType: UserList.UserListQuery
-  fullName: SuperOffice.CRM.Archives.UserList.UserListQuery
-- uid: SuperOffice.CRM.Archives.UserList.CustomSearch
-  commentId: T:SuperOffice.CRM.Archives.UserList.CustomSearch
-  isExternal: true
-  name: UserList.CustomSearch
-  nameWithType: UserList.CustomSearch
-  fullName: SuperOffice.CRM.Archives.UserList.CustomSearch
-- uid: SuperOffice.CRM.Archives.UserListItem
-  commentId: T:SuperOffice.CRM.Archives.UserListItem
-  parent: SuperOffice.CRM.Archives
-  isExternal: true
-  name: UserListItem
-  nameWithType: UserListItem
-  fullName: SuperOffice.CRM.Archives.UserListItem
 - uid: SuperOffice.CRM.Archives
   commentId: N:SuperOffice.CRM.Archives
   isExternal: true

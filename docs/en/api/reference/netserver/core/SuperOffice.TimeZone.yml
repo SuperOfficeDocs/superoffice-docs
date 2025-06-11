@@ -25,7 +25,6 @@ references:
   fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher
 - uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher
   commentId: T:SuperOffice.TimeZone.SoTimeConverterDataFetcher
-  parent: SuperOffice.TimeZone
   isExternal: true
   name: SoTimeConverterDataFetcher
   nameWithType: SoTimeConverterDataFetcher

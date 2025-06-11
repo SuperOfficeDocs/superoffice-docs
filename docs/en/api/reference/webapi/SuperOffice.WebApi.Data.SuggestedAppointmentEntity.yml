@@ -530,11 +530,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nType of the suggested appointment\n"
   syntax:
-    content: public virtual Task Type { get; set; }
+    content: public virtual SoTask Type { get; set; }
     parameters: []
     return:
-      type: SuperOffice.WebApi.Data.Task
-    content.vb: Public Overridable Property Type As Task
+      type: SuperOffice.WebApi.Data.SoTask
+    content.vb: Public Overridable Property Type As SoTask
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Type*
   modifiers.csharp:
   - public
@@ -728,10 +728,10 @@ references:
   name: Type
   nameWithType: SuggestedAppointmentEntity.Type
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Type
-- uid: SuperOffice.WebApi.Data.Task
-  commentId: T:SuperOffice.WebApi.Data.Task
+- uid: SuperOffice.WebApi.Data.SoTask
+  commentId: T:SuperOffice.WebApi.Data.SoTask
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  name: Task
-  nameWithType: Task
-  fullName: SuperOffice.WebApi.Data.Task
+  name: SoTask
+  nameWithType: SoTask
+  fullName: SuperOffice.WebApi.Data.SoTask

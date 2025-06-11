@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
   - SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
-  - SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedDocumentRecordData)
-  - SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData})
+  - SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedDocumentRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SuggestedDocumentRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
+- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<SuggestedDocumentTableInfo>)
-  nameWithType: SuggestedDocumentRecordDataExtensions.FromSelect(TargetedSelect<SuggestedDocumentTableInfo>)
-  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SuggestedDocumentTableInfo>)
+  name: FromSelectAsync(TargetedSelect<SuggestedDocumentTableInfo>, CancellationToken)
+  nameWithType: SuggestedDocumentRecordDataExtensions.FromSelectAsync(TargetedSelect<SuggestedDocumentTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SuggestedDocumentTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<SuggestedDocumentRecordData> FromSelect(this TargetedSelect<SuggestedDocumentTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<SuggestedDocumentRecordData> FromSelectAsync(this TargetedSelect<SuggestedDocumentTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of SuggestedDocumentTableInfo)) As IEnumerable(Of SuggestedDocumentRecordData)
-  overload: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect*
-  nameWithType.vb: SuggestedDocumentRecordDataExtensions.FromSelect(TargetedSelect(Of SuggestedDocumentTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of SuggestedDocumentTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of SuggestedDocumentRecordData)
+  overload: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: SuggestedDocumentRecordDataExtensions.FromSelectAsync(TargetedSelect(Of SuggestedDocumentTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SuggestedDocumentTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of SuggestedDocumentTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SuggestedDocumentTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of SuggestedDocumentTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
   commentId: M:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.SuggestedDocumentTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of SuggestedDocumentTableInfo))
-- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedDocumentRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedDocumentRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.SuggestedDocumentRecordData)
+- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedDocumentRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedDocumentRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.SuggestedDocumentRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(SuggestedDocumentRecordData)
-  nameWithType: SuggestedDocumentRecordDataExtensions.ToInsert(SuggestedDocumentRecordData)
-  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedDocumentRecordData)
+  name: ToInsertAsync(SuggestedDocumentRecordData, CancellationToken)
+  nameWithType: SuggestedDocumentRecordDataExtensions.ToInsertAsync(SuggestedDocumentRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedDocumentRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this SuggestedDocumentRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this SuggestedDocumentRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.SuggestedDocumentRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As SuggestedDocumentRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As SuggestedDocumentRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData})
-  commentId: M:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData})
+- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<SuggestedDocumentRecordData>)
-  nameWithType: SuggestedDocumentRecordDataExtensions.ToInserts(IEnumerable<SuggestedDocumentRecordData>)
-  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SuggestedDocumentRecordData>)
+  name: ToInsertsAsync(IEnumerable<SuggestedDocumentRecordData>, CancellationToken)
+  nameWithType: SuggestedDocumentRecordDataExtensions.ToInsertsAsync(IEnumerable<SuggestedDocumentRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SuggestedDocumentRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<SuggestedDocumentRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<SuggestedDocumentRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of SuggestedDocumentRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInserts*
-  nameWithType.vb: SuggestedDocumentRecordDataExtensions.ToInserts(IEnumerable(Of SuggestedDocumentRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of SuggestedDocumentRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: SuggestedDocumentRecordDataExtensions.ToInsertsAsync(IEnumerable(Of SuggestedDocumentRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SuggestedDocumentRecordData))
-  name.vb: ToInserts(IEnumerable(Of SuggestedDocumentRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SuggestedDocumentRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of SuggestedDocumentRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SuggestedDocumentRow)
   commentId: M:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SuggestedDocumentRow)
   id: ToRecordData(SuperOffice.CRM.Rows.SuggestedDocumentRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<SuggestedDocumentTableInfo>)
+  nameWithType: SuggestedDocumentRecordDataExtensions.FromSelect(TargetedSelect<SuggestedDocumentTableInfo>)
+  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SuggestedDocumentTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;SuggestedDocumentTableInfo>, execute it and return an IEnumerable&lt;SuggestedDocumentRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<SuggestedDocumentRecordData> FromSelect(this TargetedSelect<SuggestedDocumentTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of SuggestedDocumentTableInfo)) As IEnumerable(Of SuggestedDocumentRecordData)
+  overload: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect*
+  nameWithType.vb: SuggestedDocumentRecordDataExtensions.FromSelect(TargetedSelect(Of SuggestedDocumentTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SuggestedDocumentTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of SuggestedDocumentTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: SuggestedDocumentRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: SuggestedDocumentRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedDocumentTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<SuggestedDocumentRecordData>
-  nameWithType: IEnumerable<SuggestedDocumentRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SuggestedDocumentRecordData>
-  nameWithType.vb: IEnumerable(Of SuggestedDocumentRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SuggestedDocumentRecordData)
-  name.vb: IEnumerable(Of SuggestedDocumentRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<SuggestedDocumentRecordData>
+  nameWithType: IAsyncEnumerable<SuggestedDocumentRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.SuggestedDocumentRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of SuggestedDocumentRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.SuggestedDocumentRecordData)
+  name.vb: IAsyncEnumerable(Of SuggestedDocumentRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: SuggestedDocumentRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: SuggestedDocumentRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: SuggestedDocumentRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: SuggestedDocumentRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedDocumentRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SuggestedDocumentRecordData>
+  nameWithType: IEnumerable<SuggestedDocumentRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SuggestedDocumentRecordData>
+  nameWithType.vb: IEnumerable(Of SuggestedDocumentRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SuggestedDocumentRecordData)
+  name.vb: IEnumerable(Of SuggestedDocumentRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordData
+    name: SuggestedDocumentRecordData
+    nameWithType: SuggestedDocumentRecordData
+    fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordData
+    name: SuggestedDocumentRecordData
+    nameWithType: SuggestedDocumentRecordData
+    fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: SuggestedDocumentRow
   nameWithType: SuggestedDocumentRow
   fullName: SuperOffice.CRM.Rows.SuggestedDocumentRow
+- uid: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: SuggestedDocumentRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.SuggestedDocumentRecordDataExtensions.FromSelect

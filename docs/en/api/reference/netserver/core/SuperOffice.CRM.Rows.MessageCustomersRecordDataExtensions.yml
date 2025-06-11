@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.MessageCustomersTableInfo})
   - SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo})
-  - SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageCustomersRecordData)
-  - SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData})
+  - SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageCustomersRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.MessageCustomersRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo})
+- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<MessageCustomersTableInfo>)
-  nameWithType: MessageCustomersRecordDataExtensions.FromSelect(TargetedSelect<MessageCustomersTableInfo>)
-  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.MessageCustomersTableInfo>)
+  name: FromSelectAsync(TargetedSelect<MessageCustomersTableInfo>, CancellationToken)
+  nameWithType: MessageCustomersRecordDataExtensions.FromSelectAsync(TargetedSelect<MessageCustomersTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.MessageCustomersTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<MessageCustomersRecordData> FromSelect(this TargetedSelect<MessageCustomersTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<MessageCustomersRecordData> FromSelectAsync(this TargetedSelect<MessageCustomersTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of MessageCustomersTableInfo)) As IEnumerable(Of MessageCustomersRecordData)
-  overload: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect*
-  nameWithType.vb: MessageCustomersRecordDataExtensions.FromSelect(TargetedSelect(Of MessageCustomersTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of MessageCustomersTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of MessageCustomersRecordData)
+  overload: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: MessageCustomersRecordDataExtensions.FromSelectAsync(TargetedSelect(Of MessageCustomersTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.MessageCustomersTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of MessageCustomersTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.MessageCustomersTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of MessageCustomersTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.MessageCustomersTableInfo})
   commentId: M:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.MessageCustomersTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.MessageCustomersTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.MessageCustomersTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of MessageCustomersTableInfo))
-- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageCustomersRecordData)
-  commentId: M:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageCustomersRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.MessageCustomersRecordData)
+- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageCustomersRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageCustomersRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.MessageCustomersRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(MessageCustomersRecordData)
-  nameWithType: MessageCustomersRecordDataExtensions.ToInsert(MessageCustomersRecordData)
-  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageCustomersRecordData)
+  name: ToInsertAsync(MessageCustomersRecordData, CancellationToken)
+  nameWithType: MessageCustomersRecordDataExtensions.ToInsertAsync(MessageCustomersRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageCustomersRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this MessageCustomersRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this MessageCustomersRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.MessageCustomersRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As MessageCustomersRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As MessageCustomersRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData})
-  commentId: M:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData})
+- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<MessageCustomersRecordData>)
-  nameWithType: MessageCustomersRecordDataExtensions.ToInserts(IEnumerable<MessageCustomersRecordData>)
-  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.MessageCustomersRecordData>)
+  name: ToInsertsAsync(IEnumerable<MessageCustomersRecordData>, CancellationToken)
+  nameWithType: MessageCustomersRecordDataExtensions.ToInsertsAsync(IEnumerable<MessageCustomersRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.MessageCustomersRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<MessageCustomersRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<MessageCustomersRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of MessageCustomersRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInserts*
-  nameWithType.vb: MessageCustomersRecordDataExtensions.ToInserts(IEnumerable(Of MessageCustomersRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of MessageCustomersRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: MessageCustomersRecordDataExtensions.ToInsertsAsync(IEnumerable(Of MessageCustomersRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.MessageCustomersRecordData))
-  name.vb: ToInserts(IEnumerable(Of MessageCustomersRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.MessageCustomersRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of MessageCustomersRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.MessageCustomersRow)
   commentId: M:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.MessageCustomersRow)
   id: ToRecordData(SuperOffice.CRM.Rows.MessageCustomersRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<MessageCustomersTableInfo>)
+  nameWithType: MessageCustomersRecordDataExtensions.FromSelect(TargetedSelect<MessageCustomersTableInfo>)
+  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.MessageCustomersTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;MessageCustomersTableInfo>, execute it and return an IEnumerable&lt;MessageCustomersRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<MessageCustomersRecordData> FromSelect(this TargetedSelect<MessageCustomersTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of MessageCustomersTableInfo)) As IEnumerable(Of MessageCustomersRecordData)
+  overload: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect*
+  nameWithType.vb: MessageCustomersRecordDataExtensions.FromSelect(TargetedSelect(Of MessageCustomersTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.MessageCustomersTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of MessageCustomersTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: MessageCustomersRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: MessageCustomersRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.MessageCustomersTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<MessageCustomersRecordData>
-  nameWithType: IEnumerable<MessageCustomersRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.MessageCustomersRecordData>
-  nameWithType.vb: IEnumerable(Of MessageCustomersRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.MessageCustomersRecordData)
-  name.vb: IEnumerable(Of MessageCustomersRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<MessageCustomersRecordData>
+  nameWithType: IAsyncEnumerable<MessageCustomersRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.MessageCustomersRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of MessageCustomersRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.MessageCustomersRecordData)
+  name.vb: IAsyncEnumerable(Of MessageCustomersRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: MessageCustomersRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: MessageCustomersRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: MessageCustomersRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: MessageCustomersRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.MessageCustomersRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<MessageCustomersRecordData>
+  nameWithType: IEnumerable<MessageCustomersRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.MessageCustomersRecordData>
+  nameWithType.vb: IEnumerable(Of MessageCustomersRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.MessageCustomersRecordData)
+  name.vb: IEnumerable(Of MessageCustomersRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.MessageCustomersRecordData
+    name: MessageCustomersRecordData
+    nameWithType: MessageCustomersRecordData
+    fullName: SuperOffice.CRM.Rows.MessageCustomersRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.MessageCustomersRecordData
+    name: MessageCustomersRecordData
+    nameWithType: MessageCustomersRecordData
+    fullName: SuperOffice.CRM.Rows.MessageCustomersRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: MessageCustomersRow
   nameWithType: MessageCustomersRow
   fullName: SuperOffice.CRM.Rows.MessageCustomersRow
+- uid: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: MessageCustomersRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.MessageCustomersRecordDataExtensions.FromSelect

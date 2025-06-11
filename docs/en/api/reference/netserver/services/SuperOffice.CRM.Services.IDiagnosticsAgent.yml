@@ -5,30 +5,30 @@ items:
   id: IDiagnosticsAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations(System.String[])
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
-  - SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.CRM.Services.WebAppUsage[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsageAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsageAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync(System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessagesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewStateAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsersAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -69,16 +69,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
-  id: FlushCaches
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
+  id: FlushCachesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: FlushCaches()
-  nameWithType: IDiagnosticsAgent.FlushCaches()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches()
+  name: FlushCachesAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.FlushCachesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -88,19 +88,24 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nFlushes all NetServer caches\n"
   syntax:
-    content: void FlushCaches()
-    content.vb: Sub FlushCaches
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
-  id: GetCacheNames
+    content: Task FlushCachesAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function FlushCachesAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync(System.Threading.CancellationToken)
+  id: GetCacheNamesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: GetCacheNames()
-  nameWithType: IDiagnosticsAgent.GetCacheNames()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames()
+  name: GetCacheNamesAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.GetCacheNamesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -110,22 +115,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet the name of the caches that can be flushed\n"
   syntax:
-    content: string[] GetCacheNames()
+    content: Task<string[]> GetCacheNamesAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
+      type: System.Threading.Tasks.Task{System.String[]}
       description: Name of the caches that can be flusehd
-    content.vb: Function GetCacheNames As String()
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
-  id: FlushCachesByName(System.String[])
+    content.vb: Function GetCacheNamesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[],System.Threading.CancellationToken)
+  id: FlushCachesByNameAsync(System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: FlushCachesByName(String[])
-  nameWithType: IDiagnosticsAgent.FlushCachesByName(String[])
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
+  name: FlushCachesByNameAsync(String[], CancellationToken)
+  nameWithType: IDiagnosticsAgent.FlushCachesByNameAsync(String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -135,26 +143,31 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nFlushes all NetServer caches named\n"
   syntax:
-    content: void FlushCachesByName(string[] cacheNames)
+    content: Task FlushCachesByNameAsync(string[] cacheNames, CancellationToken cancellationToken = null)
     parameters:
     - id: cacheNames
       type: System.String[]
       description: Name of the cachnes to flush
-    content.vb: Sub FlushCachesByName(cacheNames As String())
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName*
-  nameWithType.vb: IDiagnosticsAgent.FlushCachesByName(String())
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String())
-  name.vb: FlushCachesByName(String())
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
-  id: GetCacheState(System.String[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function FlushCachesByNameAsync(cacheNames As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync*
+  nameWithType.vb: IDiagnosticsAgent.FlushCachesByNameAsync(String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync(System.String(), System.Threading.CancellationToken)
+  name.vb: FlushCachesByNameAsync(String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync(System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync(System.String[],System.Threading.CancellationToken)
+  id: GetCacheStateAsync(System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: GetCacheState(String[])
-  nameWithType: IDiagnosticsAgent.GetCacheState(String[])
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
+  name: GetCacheStateAsync(String[], CancellationToken)
+  nameWithType: IDiagnosticsAgent.GetCacheStateAsync(String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync(System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -164,29 +177,31 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet the current generation value of the named caches. State is opaque.\n"
   syntax:
-    content: string GetCacheState(string[] cacheNames)
+    content: Task<string> GetCacheStateAsync(string[] cacheNames, CancellationToken cancellationToken = null)
     parameters:
     - id: cacheNames
       type: System.String[]
       description: Names of the caches to check
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Current state of the caches named. If not the same as previous value, then it is time to flush
-    content.vb: Function GetCacheState(cacheNames As String()) As String
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState*
-  nameWithType.vb: IDiagnosticsAgent.GetCacheState(String())
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String())
-  name.vb: GetCacheState(String())
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations(System.String[])
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations(System.String[])
-  id: GetCacheInvalidationGenerations(System.String[])
+    content.vb: Function GetCacheStateAsync(cacheNames As String(), cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync*
+  nameWithType.vb: IDiagnosticsAgent.GetCacheStateAsync(String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync(System.String(), System.Threading.CancellationToken)
+  name.vb: GetCacheStateAsync(String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String[],System.Threading.CancellationToken)
+  id: GetCacheInvalidationGenerationsAsync(System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: GetCacheInvalidationGenerations(String[])
-  nameWithType: IDiagnosticsAgent.GetCacheInvalidationGenerations(String[])
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations(System.String[])
+  name: GetCacheInvalidationGenerationsAsync(String[], CancellationToken)
+  nameWithType: IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -196,29 +211,31 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet generation for provided names\n"
   syntax:
-    content: CacheInvalidation[] GetCacheInvalidationGenerations(string[] names)
+    content: Task<CacheInvalidation[]> GetCacheInvalidationGenerationsAsync(string[] names, CancellationToken cancellationToken = null)
     parameters:
     - id: names
       type: System.String[]
       description: Name of caches
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CacheInvalidation[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CacheInvalidation[]}
       description: Array of caches with generation number
-    content.vb: Function GetCacheInvalidationGenerations(names As String()) As CacheInvalidation()
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations*
-  nameWithType.vb: IDiagnosticsAgent.GetCacheInvalidationGenerations(String())
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations(System.String())
-  name.vb: GetCacheInvalidationGenerations(String())
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
-  id: GetEntityCountsForCurrentUser
+    content.vb: Function GetCacheInvalidationGenerationsAsync(names As String(), cancellationToken As CancellationToken = Nothing) As Task(Of CacheInvalidation())
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync*
+  nameWithType.vb: IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String(), System.Threading.CancellationToken)
+  name.vb: GetCacheInvalidationGenerationsAsync(String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(System.Threading.CancellationToken)
+  id: GetEntityCountsForCurrentUserAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: GetEntityCountsForCurrentUser()
-  nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUser()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser()
+  name: GetEntityCountsForCurrentUserAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -228,22 +245,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet an array of entities and number of entities created for the current associate\n"
   syntax:
-    content: EntityCounts[] GetEntityCountsForCurrentUser()
+    content: Task<EntityCounts[]> GetEntityCountsForCurrentUserAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.EntityCounts[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EntityCounts[]}
       description: Array of EntityCounts[] for the current associate
-    content.vb: Function GetEntityCountsForCurrentUser As EntityCounts()
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
-  id: GetEntityCountsForAllUsers
+    content.vb: Function GetEntityCountsForCurrentUserAsync(cancellationToken As CancellationToken = Nothing) As Task(Of EntityCounts())
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(System.Threading.CancellationToken)
+  id: GetEntityCountsForAllUsersAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: GetEntityCountsForAllUsers()
-  nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsers()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers()
+  name: GetEntityCountsForAllUsersAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -253,22 +273,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet an array of entities and number of entities created for all associates.\n"
   syntax:
-    content: EntityCounts[] GetEntityCountsForAllUsers()
+    content: Task<EntityCounts[]> GetEntityCountsForAllUsersAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.EntityCounts[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EntityCounts[]}
       description: Array of EntityCounts[] for all the users
-    content.vb: Function GetEntityCountsForAllUsers As EntityCounts()
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
-  id: LogViewState(System.String)
+    content.vb: Function GetEntityCountsForAllUsersAsync(cancellationToken As CancellationToken = Nothing) As Task(Of EntityCounts())
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewStateAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewStateAsync(System.String,System.Threading.CancellationToken)
+  id: LogViewStateAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: LogViewState(String)
-  nameWithType: IDiagnosticsAgent.LogViewState(String)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
+  name: LogViewStateAsync(String, CancellationToken)
+  nameWithType: IDiagnosticsAgent.LogViewStateAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewStateAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -278,23 +301,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLog a change in view state. The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.\n"
   syntax:
-    content: void LogViewState(string viewState)
+    content: Task LogViewStateAsync(string viewState, CancellationToken cancellationToken = null)
     parameters:
     - id: viewState
       type: System.String
       description: Current view state to be logged
-    content.vb: Sub LogViewState(viewState As String)
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  id: ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function LogViewStateAsync(viewState As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewStateAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
-  nameWithType: IDiagnosticsAgent.ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  name: ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CancellationToken)
+  nameWithType: IDiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -304,7 +331,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nChange NetServer log settings.\n"
   syntax:
-    content: void ChangeLogSettings(bool logWarning, bool logInformation, bool logSuccessAudit, bool logFailureAudit, bool logToEventLog, bool logToSuperOffice, bool logToFile, bool logToTrace)
+    content: Task ChangeLogSettingsAsync(bool logWarning, bool logInformation, bool logSuccessAudit, bool logFailureAudit, bool logToEventLog, bool logToSuperOffice, bool logToFile, bool logToTrace, CancellationToken cancellationToken = null)
     parameters:
     - id: logWarning
       type: System.Boolean
@@ -330,18 +357,22 @@ items:
     - id: logToTrace
       type: System.Boolean
       description: Log to trace
-    content.vb: Sub ChangeLogSettings(logWarning As Boolean, logInformation As Boolean, logSuccessAudit As Boolean, logFailureAudit As Boolean, logToEventLog As Boolean, logToSuperOffice As Boolean, logToFile As Boolean, logToTrace As Boolean)
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
-  id: CollectDataAdditions
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ChangeLogSettingsAsync(logWarning As Boolean, logInformation As Boolean, logSuccessAudit As Boolean, logFailureAudit As Boolean, logToEventLog As Boolean, logToSuperOffice As Boolean, logToFile As Boolean, logToTrace As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettingsAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync(System.Threading.CancellationToken)
+  id: CollectDataAdditionsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: CollectDataAdditions()
-  nameWithType: IDiagnosticsAgent.CollectDataAdditions()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions()
+  name: CollectDataAdditionsAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.CollectDataAdditionsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -351,19 +382,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCollect and transmit usage statistics: Database Additions. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
   syntax:
-    content: void CollectDataAdditions()
-    content.vb: Sub CollectDataAdditions
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
-  id: CollectWinUsage
+    content: Task CollectDataAdditionsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function CollectDataAdditionsAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsageAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsageAsync(System.Threading.CancellationToken)
+  id: CollectWinUsageAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: CollectWinUsage()
-  nameWithType: IDiagnosticsAgent.CollectWinUsage()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage()
+  name: CollectWinUsageAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.CollectWinUsageAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsageAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -373,19 +410,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCollect and transmit usage statistics: Windows CRM Client Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
   syntax:
-    content: void CollectWinUsage()
-    content.vb: Sub CollectWinUsage
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
-  id: CollectWebUsage
+    content: Task CollectWinUsageAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function CollectWinUsageAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsageAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsageAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsageAsync(System.Threading.CancellationToken)
+  id: CollectWebUsageAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: CollectWebUsage()
-  nameWithType: IDiagnosticsAgent.CollectWebUsage()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage()
+  name: CollectWebUsageAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.CollectWebUsageAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsageAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -395,19 +438,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCollect and transmit usage statistics: Web-based clients Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
   syntax:
-    content: void CollectWebUsage()
-    content.vb: Sub CollectWebUsage
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
-  id: CollectTableSizes
+    content: Task CollectWebUsageAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function CollectWebUsageAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsageAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizesAsync(System.Threading.CancellationToken)
+  id: CollectTableSizesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: CollectTableSizes()
-  nameWithType: IDiagnosticsAgent.CollectTableSizes()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes()
+  name: CollectTableSizesAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.CollectTableSizesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizesAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -417,19 +466,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCollect and transmit usage statistics: Table Sizes. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
   syntax:
-    content: void CollectTableSizes()
-    content.vb: Sub CollectTableSizes
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
-  id: ResyncUsers
+    content: Task CollectTableSizesAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function CollectTableSizesAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizesAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsersAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsersAsync(System.Threading.CancellationToken)
+  id: ResyncUsersAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: ResyncUsers()
-  nameWithType: IDiagnosticsAgent.ResyncUsers()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers()
+  name: ResyncUsersAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.ResyncUsersAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsersAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -439,19 +494,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nResynchronize user information with SuperOffice Community, if opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
   syntax:
-    content: void ResyncUsers()
-    content.vb: Sub ResyncUsers
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
-  id: SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
+    content: Task ResyncUsersAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function ResyncUsersAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsersAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType,System.Threading.CancellationToken)
+  id: SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: SendSystemMessage(String, Int32, String, DateTime, SystemMessageType)
-  nameWithType: IDiagnosticsAgent.SendSystemMessage(String, Int32, String, DateTime, SystemMessageType)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String, System.Int32, System.String, System.DateTime, SuperOffice.Data.SystemMessageType)
+  name: SendSystemMessageAsync(String, Int32, String, DateTime, SystemMessageType, CancellationToken)
+  nameWithType: IDiagnosticsAgent.SendSystemMessageAsync(String, Int32, String, DateTime, SystemMessageType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessageAsync(System.String, System.Int32, System.String, System.DateTime, SuperOffice.Data.SystemMessageType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -461,7 +522,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nAdds a system message for a specific associate.\n"
   syntax:
-    content: void SendSystemMessage(string systemMessageId, int associateId, string markdownMessage, DateTime expire, SystemMessageType type)
+    content: Task SendSystemMessageAsync(string systemMessageId, int associateId, string markdownMessage, DateTime expire, SystemMessageType type, CancellationToken cancellationToken = null)
     parameters:
     - id: systemMessageId
       type: System.String
@@ -478,18 +539,22 @@ items:
     - id: type
       type: SuperOffice.Data.SystemMessageType
       description: 'Type of message, example: info, warning, error'
-    content.vb: Sub SendSystemMessage(systemMessageId As String, associateId As Integer, markdownMessage As String, expire As DateTime, type As SystemMessageType)
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
-  id: RemoveSystemMessage(System.Int32,System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SendSystemMessageAsync(systemMessageId As String, associateId As Integer, markdownMessage As String, expire As DateTime, type As SystemMessageType, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessageAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: RemoveSystemMessageAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: RemoveSystemMessage(Int32, String)
-  nameWithType: IDiagnosticsAgent.RemoveSystemMessage(Int32, String)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32, System.String)
+  name: RemoveSystemMessageAsync(Int32, String, CancellationToken)
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessageAsync(Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageAsync(System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -499,7 +564,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nRemoves a system message for current associate\n"
   syntax:
-    content: void RemoveSystemMessage(int onlineappId, string systemMessageId)
+    content: Task RemoveSystemMessageAsync(int onlineappId, string systemMessageId, CancellationToken cancellationToken = null)
     parameters:
     - id: onlineappId
       type: System.Int32
@@ -507,18 +572,22 @@ items:
     - id: systemMessageId
       type: System.String
       description: Message identifier, used for message  removal
-    content.vb: Sub RemoveSystemMessage(onlineappId As Integer, systemMessageId As String)
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
-  id: RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveSystemMessageAsync(onlineappId As Integer, systemMessageId As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
+  id: RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: RemoveSystemMessageForAssociate(Int32, String, Int32)
-  nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociate(Int32, String, Int32)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32, System.String, System.Int32)
+  name: RemoveSystemMessageForAssociateAsync(Int32, String, Int32, CancellationToken)
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(Int32, String, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32, System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -528,7 +597,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nRemoves a system message for specific associate.\n"
   syntax:
-    content: void RemoveSystemMessageForAssociate(int onlineappId, string systemMessageId, int associateId)
+    content: Task RemoveSystemMessageForAssociateAsync(int onlineappId, string systemMessageId, int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: onlineappId
       type: System.Int32
@@ -539,18 +608,22 @@ items:
     - id: associateId
       type: System.Int32
       description: The associateId of the message target.
-    content.vb: Sub RemoveSystemMessageForAssociate(onlineappId As Integer, systemMessageId As String, associateId As Integer)
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
-  id: GetSystemMessages(System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveSystemMessageForAssociateAsync(onlineappId As Integer, systemMessageId As String, associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessagesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessagesAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetSystemMessagesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: GetSystemMessages(Int32)
-  nameWithType: IDiagnosticsAgent.GetSystemMessages(Int32)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
+  name: GetSystemMessagesAsync(Int32, CancellationToken)
+  nameWithType: IDiagnosticsAgent.GetSystemMessagesAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessagesAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -560,26 +633,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nRetrieves a list of system messages for a specific associate.\n"
   syntax:
-    content: SystemMessage[] GetSystemMessages(int associateId)
+    content: Task<SystemMessage[]> GetSystemMessagesAsync(int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
       description: The associateId of the message target.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SystemMessage[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SystemMessage[]}
       description: List of SystemMessages for desired associate
-    content.vb: Function GetSystemMessages(associateId As Integer) As SystemMessage()
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
-  id: RemoveExpiredSystemMessages
+    content.vb: Function GetSystemMessagesAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SystemMessage())
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessagesAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(System.Threading.CancellationToken)
+  id: RemoveExpiredSystemMessagesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: RemoveExpiredSystemMessages()
-  nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessages()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages()
+  name: RemoveExpiredSystemMessagesAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -589,19 +664,24 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDeletes expired system messages.\n"
   syntax:
-    content: void RemoveExpiredSystemMessages()
-    content.vb: Sub RemoveExpiredSystemMessages
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
-  id: PerformTasksAfterUpgrade
+    content: Task RemoveExpiredSystemMessagesAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveExpiredSystemMessagesAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
+  id: PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: PerformTasksAfterUpgrade()
-  nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgrade()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade()
+  name: PerformTasksAfterUpgradeAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -611,22 +691,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nAfter upgrading to a new fileset, there may be tasks that need to be done. Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.\n"
   syntax:
-    content: string PerformTasksAfterUpgrade()
+    content: Task<string> PerformTasksAfterUpgradeAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Message that can be shown to the user, summarizing what has been done, if anything.
-    content.vb: Function PerformTasksAfterUpgrade As String
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
-  id: PerformTasksAfterCustomObjectTableDeleted(System.String)
+    content.vb: Function PerformTasksAfterUpgradeAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,System.Threading.CancellationToken)
+  id: PerformTasksAfterCustomObjectTableDeletedAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: PerformTasksAfterCustomObjectTableDeleted(String)
-  nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(String)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+  name: PerformTasksAfterCustomObjectTableDeletedAsync(String, CancellationToken)
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -636,23 +719,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nA temporary method to be used from c++ until CustomObjectsAgent.DeleteTable implemented in NetServer\n"
   syntax:
-    content: void PerformTasksAfterCustomObjectTableDeleted(string tableName)
+    content: Task PerformTasksAfterCustomObjectTableDeletedAsync(string tableName, CancellationToken cancellationToken = null)
     parameters:
     - id: tableName
       type: System.String
       description: Name of DB table of the custom object that was deleted. E.g., &apos;y_car&apos;
-    content.vb: Sub PerformTasksAfterCustomObjectTableDeleted(tableName As String)
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
-  id: AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function PerformTasksAfterCustomObjectTableDeletedAsync(tableName As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.CRM.Services.WebAppUsage[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.CRM.Services.WebAppUsage[],System.Threading.CancellationToken)
+  id: AddWebAppUsageAsync(SuperOffice.CRM.Services.WebAppUsage[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: AddWebAppUsage(WebAppUsage[])
-  nameWithType: IDiagnosticsAgent.AddWebAppUsage(WebAppUsage[])
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
+  name: AddWebAppUsageAsync(WebAppUsage[], CancellationToken)
+  nameWithType: IDiagnosticsAgent.AddWebAppUsageAsync(WebAppUsage[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.CRM.Services.WebAppUsage[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -662,26 +750,30 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nAdds WebApp usage to existing log\n"
   syntax:
-    content: void AddWebAppUsage(WebAppUsage[] webAppUsages)
+    content: Task AddWebAppUsageAsync(WebAppUsage[] webAppUsages, CancellationToken cancellationToken = null)
     parameters:
     - id: webAppUsages
       type: SuperOffice.CRM.Services.WebAppUsage[]
       description: Web app usage.
-    content.vb: Sub AddWebAppUsage(webAppUsages As WebAppUsage())
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage*
-  nameWithType.vb: IDiagnosticsAgent.AddWebAppUsage(WebAppUsage())
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage())
-  name.vb: AddWebAppUsage(WebAppUsage())
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
-  id: WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddWebAppUsageAsync(webAppUsages As WebAppUsage(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync*
+  nameWithType.vb: IDiagnosticsAgent.AddWebAppUsageAsync(WebAppUsage(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.CRM.Services.WebAppUsage(), System.Threading.CancellationToken)
+  name.vb: AddWebAppUsageAsync(WebAppUsage(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,System.Threading.CancellationToken)
+  id: WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: WebAppUsageExistsInPeriod(Int32, String, DateTime)
-  nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriod(Int32, String, DateTime)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32, System.String, System.DateTime)
+  name: WebAppUsageExistsInPeriodAsync(Int32, String, DateTime, CancellationToken)
+  nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(Int32, String, DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32, System.String, System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -691,7 +783,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters\n"
   syntax:
-    content: bool WebAppUsageExistsInPeriod(int associateId, string viewState, DateTime fromDate)
+    content: Task<bool> WebAppUsageExistsInPeriodAsync(int associateId, string viewState, DateTime fromDate, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
@@ -702,21 +794,23 @@ items:
     - id: fromDate
       type: System.DateTime
       description: The datetime to restrict webapp usage on
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if viewState has been clicked at least once since FromDate
-    content.vb: Function WebAppUsageExistsInPeriod(associateId As Integer, viewState As String, fromDate As DateTime) As Boolean
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
-  id: GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
+    content.vb: Function WebAppUsageExistsInPeriodAsync(associateId As Integer, viewState As String, fromDate As DateTime, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,System.Threading.CancellationToken)
+  id: GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: GetWebAppUsagesForPeriod(DateTime, DateTime, String)
-  nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime, DateTime, String)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime, System.DateTime, System.String)
+  name: GetWebAppUsagesForPeriodAsync(DateTime, DateTime, String, CancellationToken)
+  nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(DateTime, DateTime, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime, System.DateTime, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -726,7 +820,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet all WebAppUsages for a given period, that match an optional search term\n"
   syntax:
-    content: WebAppUsage[] GetWebAppUsagesForPeriod(DateTime fromDate, DateTime toDate, string searchTerm)
+    content: Task<WebAppUsage[]> GetWebAppUsagesForPeriodAsync(DateTime fromDate, DateTime toDate, string searchTerm, CancellationToken cancellationToken = null)
     parameters:
     - id: fromDate
       type: System.DateTime
@@ -735,10 +829,12 @@ items:
     - id: searchTerm
       type: System.String
       description: ViewState search term. &apos;%&apos; is the wildcard character, for example &apos;Pocket%&apos; will match all viewstates starting with &apos;Pocket&apos;. If empty, all viewstates will be matched
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.WebAppUsage[]
-    content.vb: Function GetWebAppUsagesForPeriod(fromDate As DateTime, toDate As DateTime, searchTerm As String) As WebAppUsage()
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WebAppUsage[]}
+    content.vb: Function GetWebAppUsagesForPeriodAsync(fromDate As DateTime, toDate As DateTime, searchTerm As String, cancellationToken As CancellationToken = Nothing) As Task(Of WebAppUsage())
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -746,18 +842,121 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync
   isExternal: true
-  name: FlushCaches
-  nameWithType: IDiagnosticsAgent.FlushCaches
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
+  name: FlushCachesAsync
+  nameWithType: IDiagnosticsAgent.FlushCachesAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: GetCacheNames
-  nameWithType: IDiagnosticsAgent.GetCacheNames
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync
+  isExternal: true
+  name: GetCacheNamesAsync
+  nameWithType: IDiagnosticsAgent.GetCacheNamesAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync
+  isExternal: true
+  name: FlushCachesByNameAsync
+  nameWithType: IDiagnosticsAgent.FlushCachesByNameAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -784,18 +983,177 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync
   isExternal: true
-  name: FlushCachesByName
-  nameWithType: IDiagnosticsAgent.FlushCachesByName
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState
+  name: GetCacheStateAsync
+  nameWithType: IDiagnosticsAgent.GetCacheStateAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync
   isExternal: true
-  name: GetCacheState
-  nameWithType: IDiagnosticsAgent.GetCacheState
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState
+  name: GetCacheInvalidationGenerationsAsync
+  nameWithType: IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CacheInvalidation[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CacheInvalidation[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CacheInvalidation[]>
+  nameWithType: Task<CacheInvalidation[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CacheInvalidation[]>
+  nameWithType.vb: Task(Of CacheInvalidation())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CacheInvalidation())
+  name.vb: Task(Of CacheInvalidation())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.CacheInvalidation
+    name: CacheInvalidation
+    nameWithType: CacheInvalidation
+    fullName: SuperOffice.CRM.Services.CacheInvalidation
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.CacheInvalidation
+    name: CacheInvalidation
+    nameWithType: CacheInvalidation
+    fullName: SuperOffice.CRM.Services.CacheInvalidation
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync
+  isExternal: true
+  name: GetEntityCountsForCurrentUserAsync
+  nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EntityCounts[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.EntityCounts[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<EntityCounts[]>
+  nameWithType: Task<EntityCounts[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.EntityCounts[]>
+  nameWithType.vb: Task(Of EntityCounts())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.EntityCounts())
+  name.vb: Task(Of EntityCounts())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.EntityCounts
+    name: EntityCounts
+    nameWithType: EntityCounts
+    fullName: SuperOffice.CRM.Services.EntityCounts
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.EntityCounts
+    name: EntityCounts
+    nameWithType: EntityCounts
+    fullName: SuperOffice.CRM.Services.EntityCounts
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync
+  isExternal: true
+  name: GetEntityCountsForAllUsersAsync
+  nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsersAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewStateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewStateAsync
+  isExternal: true
+  name: LogViewStateAsync
+  nameWithType: IDiagnosticsAgent.LogViewStateAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewStateAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -809,88 +1167,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettingsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettingsAsync
   isExternal: true
-  name: GetCacheInvalidationGenerations
-  nameWithType: IDiagnosticsAgent.GetCacheInvalidationGenerations
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations
-- uid: SuperOffice.CRM.Services.CacheInvalidation[]
-  isExternal: true
-  name: CacheInvalidation[]
-  nameWithType: CacheInvalidation[]
-  fullName: SuperOffice.CRM.Services.CacheInvalidation[]
-  nameWithType.vb: CacheInvalidation()
-  fullName.vb: SuperOffice.CRM.Services.CacheInvalidation()
-  name.vb: CacheInvalidation()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.CacheInvalidation
-    name: CacheInvalidation
-    nameWithType: CacheInvalidation
-    fullName: SuperOffice.CRM.Services.CacheInvalidation
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.CacheInvalidation
-    name: CacheInvalidation
-    nameWithType: CacheInvalidation
-    fullName: SuperOffice.CRM.Services.CacheInvalidation
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
-  isExternal: true
-  name: GetEntityCountsForCurrentUser
-  nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUser
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
-- uid: SuperOffice.CRM.Services.EntityCounts[]
-  isExternal: true
-  name: EntityCounts[]
-  nameWithType: EntityCounts[]
-  fullName: SuperOffice.CRM.Services.EntityCounts[]
-  nameWithType.vb: EntityCounts()
-  fullName.vb: SuperOffice.CRM.Services.EntityCounts()
-  name.vb: EntityCounts()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.EntityCounts
-    name: EntityCounts
-    nameWithType: EntityCounts
-    fullName: SuperOffice.CRM.Services.EntityCounts
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.EntityCounts
-    name: EntityCounts
-    nameWithType: EntityCounts
-    fullName: SuperOffice.CRM.Services.EntityCounts
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
-  isExternal: true
-  name: GetEntityCountsForAllUsers
-  nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsers
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState
-  isExternal: true
-  name: LogViewState
-  nameWithType: IDiagnosticsAgent.LogViewState
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings
-  isExternal: true
-  name: ChangeLogSettings
-  nameWithType: IDiagnosticsAgent.ChangeLogSettings
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings
+  name: ChangeLogSettingsAsync
+  nameWithType: IDiagnosticsAgent.ChangeLogSettingsAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettingsAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -898,42 +1180,42 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync
   isExternal: true
-  name: CollectDataAdditions
-  nameWithType: IDiagnosticsAgent.CollectDataAdditions
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
+  name: CollectDataAdditionsAsync
+  nameWithType: IDiagnosticsAgent.CollectDataAdditionsAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsageAsync
   isExternal: true
-  name: CollectWinUsage
-  nameWithType: IDiagnosticsAgent.CollectWinUsage
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
+  name: CollectWinUsageAsync
+  nameWithType: IDiagnosticsAgent.CollectWinUsageAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsageAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsageAsync
   isExternal: true
-  name: CollectWebUsage
-  nameWithType: IDiagnosticsAgent.CollectWebUsage
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
+  name: CollectWebUsageAsync
+  nameWithType: IDiagnosticsAgent.CollectWebUsageAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsageAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizesAsync
   isExternal: true
-  name: CollectTableSizes
-  nameWithType: IDiagnosticsAgent.CollectTableSizes
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
+  name: CollectTableSizesAsync
+  nameWithType: IDiagnosticsAgent.CollectTableSizesAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizesAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsersAsync
   isExternal: true
-  name: ResyncUsers
-  nameWithType: IDiagnosticsAgent.ResyncUsers
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage
+  name: ResyncUsersAsync
+  nameWithType: IDiagnosticsAgent.ResyncUsersAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsersAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessageAsync
   isExternal: true
-  name: SendSystemMessage
-  nameWithType: IDiagnosticsAgent.SendSystemMessage
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage
+  name: SendSystemMessageAsync
+  nameWithType: IDiagnosticsAgent.SendSystemMessageAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessageAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -951,33 +1233,42 @@ references:
   name: SystemMessageType
   nameWithType: SystemMessageType
   fullName: SuperOffice.Data.SystemMessageType
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageAsync
   isExternal: true
-  name: RemoveSystemMessage
-  nameWithType: IDiagnosticsAgent.RemoveSystemMessage
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate
+  name: RemoveSystemMessageAsync
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessageAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync
   isExternal: true
-  name: RemoveSystemMessageForAssociate
-  nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociate
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages
+  name: RemoveSystemMessageForAssociateAsync
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessagesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessagesAsync
   isExternal: true
-  name: GetSystemMessages
-  nameWithType: IDiagnosticsAgent.GetSystemMessages
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages
-- uid: SuperOffice.CRM.Services.SystemMessage[]
-  isExternal: true
-  name: SystemMessage[]
-  nameWithType: SystemMessage[]
-  fullName: SuperOffice.CRM.Services.SystemMessage[]
-  nameWithType.vb: SystemMessage()
-  fullName.vb: SuperOffice.CRM.Services.SystemMessage()
-  name.vb: SystemMessage()
+  name: GetSystemMessagesAsync
+  nameWithType: IDiagnosticsAgent.GetSystemMessagesAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessagesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SystemMessage[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SystemMessage[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SystemMessage[]>
+  nameWithType: Task<SystemMessage[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SystemMessage[]>
+  nameWithType.vb: Task(Of SystemMessage())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SystemMessage())
+  name.vb: Task(Of SystemMessage())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.SystemMessage
     name: SystemMessage
     nameWithType: SystemMessage
@@ -986,7 +1277,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.SystemMessage
     name: SystemMessage
     nameWithType: SystemMessage
@@ -995,30 +1297,33 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync
   isExternal: true
-  name: RemoveExpiredSystemMessages
-  nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessages
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
+  name: RemoveExpiredSystemMessagesAsync
+  nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync
   isExternal: true
-  name: PerformTasksAfterUpgrade
-  nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgrade
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
+  name: PerformTasksAfterUpgradeAsync
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgradeAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
   isExternal: true
-  name: PerformTasksAfterCustomObjectTableDeleted
-  nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage
+  name: PerformTasksAfterCustomObjectTableDeletedAsync
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync
   isExternal: true
-  name: AddWebAppUsage
-  nameWithType: IDiagnosticsAgent.AddWebAppUsage
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage
+  name: AddWebAppUsageAsync
+  nameWithType: IDiagnosticsAgent.AddWebAppUsageAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync
 - uid: SuperOffice.CRM.Services.WebAppUsage[]
   isExternal: true
   name: WebAppUsage[]
@@ -1045,15 +1350,107 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync
   isExternal: true
-  name: WebAppUsageExistsInPeriod
-  nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriod
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod
+  name: WebAppUsageExistsInPeriodAsync
+  nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync
   isExternal: true
-  name: GetWebAppUsagesForPeriod
-  nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriod
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod
+  name: GetWebAppUsagesForPeriodAsync
+  nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WebAppUsage[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WebAppUsage[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<WebAppUsage[]>
+  nameWithType: Task<WebAppUsage[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WebAppUsage[]>
+  nameWithType.vb: Task(Of WebAppUsage())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WebAppUsage())
+  name.vb: Task(Of WebAppUsage())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.WebAppUsage
+    name: WebAppUsage
+    nameWithType: WebAppUsage
+    fullName: SuperOffice.CRM.Services.WebAppUsage
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.WebAppUsage
+    name: WebAppUsage
+    nameWithType: WebAppUsage
+    fullName: SuperOffice.CRM.Services.WebAppUsage
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )

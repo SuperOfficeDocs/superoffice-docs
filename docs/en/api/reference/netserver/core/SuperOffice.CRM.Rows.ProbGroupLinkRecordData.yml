@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.ProbGroupLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ProbGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ProbGroupLinkRecordData)
   - SuperOffice.CRM.Rows.ProbGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ProbGroupLinkRecordData.SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ProbGroupLinkRecordData.SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProbGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordData.SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordData.SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbGroupLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbGroupLinkRecordData)
-  name: ToInsert()
-  nameWithType: ProbGroupLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbGroupLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ProbGroupLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ProbGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProbGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ProbGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProbGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbGroupLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbGroupLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbGroupLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ProbGroupLinkRecordData)
-  nameWithType: ProbGroupLinkRecordDataExtensions.ToInsert(ProbGroupLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbGroupLinkRecordData)
+  name: ToInsertAsync(ProbGroupLinkRecordData, CancellationToken)
+  nameWithType: ProbGroupLinkRecordDataExtensions.ToInsertAsync(ProbGroupLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbGroupLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: ProbGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProbGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: ProbGroupLinkRecordData
     nameWithType: ProbGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: ProbGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProbGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: ProbGroupLinkRecordData
     nameWithType: ProbGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.ProbGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

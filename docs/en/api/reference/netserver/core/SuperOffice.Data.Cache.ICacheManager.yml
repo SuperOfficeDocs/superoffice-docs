@@ -1,0 +1,636 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.ICacheManager
+  commentId: T:SuperOffice.Data.Cache.ICacheManager
+  id: ICacheManager
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.ICacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  - SuperOffice.Data.Cache.ICacheManager.Flush``1
+  - SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext
+  - SuperOffice.Data.Cache.ICacheManager.GetOrCreate``1
+  - SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ICacheManager
+  nameWithType: ICacheManager
+  fullName: SuperOffice.Data.Cache.ICacheManager
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public interface ICacheManager
+    content.vb: Public Interface ICacheManager
+  extensionMethods:
+  - SuperOffice.Data.Cache.ICacheManager.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Cache.ICacheManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+  id: GetOrCreateAsync``1(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.ICacheManager
+  langs:
+  - csharp
+  - vb
+  name: GetOrCreateAsync<T>(CancellationToken)
+  nameWithType: ICacheManager.GetOrCreateAsync<T>(CancellationToken)
+  fullName: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync<T>(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nGet a cache given its&apos; type, or create it if a instance is not found.\n"
+  syntax:
+    content: >-
+      ValueTask<T> GetOrCreateAsync<T>(CancellationToken cancellationToken = null)
+          where T : CacheBaseV2
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    typeParameters:
+    - id: T
+      description: Type of the cache
+    return:
+      type: System.Threading.Tasks.ValueTask{{T}}
+      description: Instance of the given cache
+    content.vb: Function GetOrCreateAsync(Of T As CacheBaseV2)(cancellationToken As CancellationToken = Nothing) As ValueTask(Of T)
+  overload: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync*
+  nameWithType.vb: ICacheManager.GetOrCreateAsync(Of T)(CancellationToken)
+  fullName.vb: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync(Of T)(System.Threading.CancellationToken)
+  name.vb: GetOrCreateAsync(Of T)(CancellationToken)
+- uid: SuperOffice.Data.Cache.ICacheManager.GetOrCreate``1
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.GetOrCreate``1
+  id: GetOrCreate``1
+  parent: SuperOffice.Data.Cache.ICacheManager
+  langs:
+  - csharp
+  - vb
+  name: GetOrCreate<T>()
+  nameWithType: ICacheManager.GetOrCreate<T>()
+  fullName: SuperOffice.Data.Cache.ICacheManager.GetOrCreate<T>()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nGet a cache given its&apos; type, or create it if a instance is not found.\n"
+  syntax:
+    content: >-
+      T GetOrCreate<T>()
+          where T : CacheBaseV2
+    typeParameters:
+    - id: T
+      description: Type of the cache
+    return:
+      type: '{T}'
+      description: Instance of the given cache
+    content.vb: Function GetOrCreate(Of T As CacheBaseV2) As T
+  overload: SuperOffice.Data.Cache.ICacheManager.GetOrCreate*
+  nameWithType.vb: ICacheManager.GetOrCreate(Of T)()
+  fullName.vb: SuperOffice.Data.Cache.ICacheManager.GetOrCreate(Of T)()
+  name.vb: GetOrCreate(Of T)()
+- uid: SuperOffice.Data.Cache.ICacheManager.Flush``1
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.Flush``1
+  id: Flush``1
+  parent: SuperOffice.Data.Cache.ICacheManager
+  langs:
+  - csharp
+  - vb
+  name: Flush<T>()
+  nameWithType: ICacheManager.Flush<T>()
+  fullName: SuperOffice.Data.Cache.ICacheManager.Flush<T>()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nRemoves the cache instance from the system so it&apos;ll be queued for GC, next time we request the\ncache it will be recreated.\n"
+  syntax:
+    content: >-
+      void Flush<T>()
+          where T : CacheBaseV2
+    typeParameters:
+    - id: T
+    content.vb: Sub Flush(Of T As CacheBaseV2)
+  overload: SuperOffice.Data.Cache.ICacheManager.Flush*
+  nameWithType.vb: ICacheManager.Flush(Of T)()
+  fullName.vb: SuperOffice.Data.Cache.ICacheManager.Flush(Of T)()
+  name.vb: Flush(Of T)()
+- uid: SuperOffice.Data.Cache.ICacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  id: Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  parent: SuperOffice.Data.Cache.ICacheManager
+  langs:
+  - csharp
+  - vb
+  name: Flush(CacheBaseV2[])
+  nameWithType: ICacheManager.Flush(CacheBaseV2[])
+  fullName: SuperOffice.Data.Cache.ICacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nRemoves the cache instance from the system so it&apos;ll be queued for GC, next time we request the\ncache it will be recreated.\n"
+  syntax:
+    content: void Flush(params CacheBaseV2[] cache)
+    parameters:
+    - id: cache
+      type: SuperOffice.Data.Cache.CacheBaseV2[]
+    content.vb: Sub Flush(ParamArray cache As CacheBaseV2())
+  overload: SuperOffice.Data.Cache.ICacheManager.Flush*
+  nameWithType.vb: ICacheManager.Flush(CacheBaseV2())
+  fullName.vb: SuperOffice.Data.Cache.ICacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2())
+  name.vb: Flush(CacheBaseV2())
+- uid: SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext
+  id: GetAllCachesInContext
+  parent: SuperOffice.Data.Cache.ICacheManager
+  langs:
+  - csharp
+  - vb
+  name: GetAllCachesInContext()
+  nameWithType: ICacheManager.GetAllCachesInContext()
+  fullName: SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: IEnumerable<CacheBaseV2> GetAllCachesInContext()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.Cache.CacheBaseV2}
+    content.vb: Function GetAllCachesInContext As IEnumerable(Of CacheBaseV2)
+  overload: SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext*
+- uid: SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(System.String)
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(System.String)
+  id: IsAutoUpdateDisabled(System.String)
+  parent: SuperOffice.Data.Cache.ICacheManager
+  langs:
+  - csharp
+  - vb
+  name: IsAutoUpdateDisabled(String)
+  nameWithType: ICacheManager.IsAutoUpdateDisabled(String)
+  fullName: SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nDetermine if automatic updates are disabled for a particular table (not a particular cache!)\n"
+  syntax:
+    content: bool IsAutoUpdateDisabled(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function IsAutoUpdateDisabled(tableName As String) As Boolean
+  overload: SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled*
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: SuperOffice.Data.Cache.ICacheManager.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ICacheManager, To>()
+  nameWithType: EnumUtil.MapEnums<ICacheManager, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.ICacheManager, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ICacheManager, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.ICacheManager, To)()
+  name.vb: MapEnums(Of ICacheManager, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ICacheManager, To>
+    nameWithType: EnumUtil.MapEnums<ICacheManager, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.ICacheManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ICacheManager, To)
+    nameWithType: EnumUtil.MapEnums(Of ICacheManager, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.ICacheManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.ICacheManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ICacheManager, To>()
+  nameWithType: Converters.MapEnums<ICacheManager, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.ICacheManager, To>()
+  nameWithType.vb: Converters.MapEnums(Of ICacheManager, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.ICacheManager, To)()
+  name.vb: MapEnums(Of ICacheManager, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ICacheManager, To>
+    nameWithType: Converters.MapEnums<ICacheManager, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.ICacheManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ICacheManager, To)
+    nameWithType: Converters.MapEnums(Of ICacheManager, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.ICacheManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync*
+  commentId: Overload:SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync
+  isExternal: true
+  name: GetOrCreateAsync
+  nameWithType: ICacheManager.GetOrCreateAsync
+  fullName: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.ValueTask{{T}}
+  commentId: '!:System.Threading.Tasks.ValueTask{``0}'
+  definition: System.Threading.Tasks.ValueTask`1
+  name: ValueTask<T>
+  nameWithType: ValueTask<T>
+  fullName: System.Threading.Tasks.ValueTask<T>
+  nameWithType.vb: ValueTask(Of T)
+  fullName.vb: System.Threading.Tasks.ValueTask(Of T)
+  name.vb: ValueTask(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    nameWithType: ValueTask
+    fullName: System.Threading.Tasks.ValueTask
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    nameWithType: ValueTask
+    fullName: System.Threading.Tasks.ValueTask
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.ValueTask`1
+  commentId: '!:System.Threading.Tasks.ValueTask`1'
+  isExternal: true
+  name: ValueTask<>
+  nameWithType: ValueTask<>
+  fullName: System.Threading.Tasks.ValueTask<>
+  nameWithType.vb: ValueTask(Of )
+  fullName.vb: System.Threading.Tasks.ValueTask(Of )
+  name.vb: ValueTask(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    nameWithType: ValueTask
+    fullName: System.Threading.Tasks.ValueTask
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    nameWithType: ValueTask
+    fullName: System.Threading.Tasks.ValueTask
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.ICacheManager.GetOrCreate*
+  commentId: Overload:SuperOffice.Data.Cache.ICacheManager.GetOrCreate
+  isExternal: true
+  name: GetOrCreate
+  nameWithType: ICacheManager.GetOrCreate
+  fullName: SuperOffice.Data.Cache.ICacheManager.GetOrCreate
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.Data.Cache.ICacheManager.Flush*
+  commentId: Overload:SuperOffice.Data.Cache.ICacheManager.Flush
+  isExternal: true
+  name: Flush
+  nameWithType: ICacheManager.Flush
+  fullName: SuperOffice.Data.Cache.ICacheManager.Flush
+- uid: SuperOffice.Data.Cache.CacheBaseV2[]
+  isExternal: true
+  name: CacheBaseV2[]
+  nameWithType: CacheBaseV2[]
+  fullName: SuperOffice.Data.Cache.CacheBaseV2[]
+  nameWithType.vb: CacheBaseV2()
+  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2()
+  name.vb: CacheBaseV2()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    nameWithType: CacheBaseV2
+    fullName: SuperOffice.Data.Cache.CacheBaseV2
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    nameWithType: CacheBaseV2
+    fullName: SuperOffice.Data.Cache.CacheBaseV2
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext*
+  commentId: Overload:SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext
+  isExternal: true
+  name: GetAllCachesInContext
+  nameWithType: ICacheManager.GetAllCachesInContext
+  fullName: SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.Cache.CacheBaseV2}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.Cache.CacheBaseV2}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<CacheBaseV2>
+  nameWithType: IEnumerable<CacheBaseV2>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.Cache.CacheBaseV2>
+  nameWithType.vb: IEnumerable(Of CacheBaseV2)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.Cache.CacheBaseV2)
+  name.vb: IEnumerable(Of CacheBaseV2)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    nameWithType: CacheBaseV2
+    fullName: SuperOffice.Data.Cache.CacheBaseV2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    nameWithType: CacheBaseV2
+    fullName: SuperOffice.Data.Cache.CacheBaseV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled*
+  commentId: Overload:SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled
+  isExternal: true
+  name: IsAutoUpdateDisabled
+  nameWithType: ICacheManager.IsAutoUpdateDisabled
+  fullName: SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

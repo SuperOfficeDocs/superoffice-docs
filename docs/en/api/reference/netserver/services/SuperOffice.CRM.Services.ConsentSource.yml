@@ -37,8 +37,6 @@ items:
       Public Class ConsentSource
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ListAgent
-    commentId: T:SuperOffice.CRM.Services.ListAgent
   - linkId: SuperOffice.CRM.Services.IListAgent
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
@@ -377,15 +375,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ListAgent
-  commentId: T:SuperOffice.CRM.Services.ListAgent
-  isExternal: true
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.CRM.Services.ListAgent
 - uid: SuperOffice.CRM.Services.IListAgent
   commentId: T:SuperOffice.CRM.Services.IListAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IListAgent
   nameWithType: IListAgent

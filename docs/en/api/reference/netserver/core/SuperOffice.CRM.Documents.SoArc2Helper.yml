@@ -9,11 +9,11 @@ items:
   - SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists(System.IO.DirectoryInfo)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePath
   - SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths
-  - SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName(System.Int32)
+  - SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo,System.String)
-  - SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
+  - SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo,System.String)
-  - SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
+  - SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName(System.String)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath(System.String)
   - SuperOffice.CRM.Documents.SoArc2Helper.MakeLegalFileName(System.String)
@@ -147,16 +147,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
-  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
-  id: GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  id: GetFullArchivePathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.SoArc2Helper
   langs:
   - csharp
   - vb
-  name: GetFullArchivePath(DocumentRow)
-  nameWithType: SoArc2Helper.GetFullArchivePath(DocumentRow)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
+  name: GetFullArchivePathAsync(DocumentRow, CancellationToken)
+  nameWithType: SoArc2Helper.GetFullArchivePathAsync(DocumentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync(SuperOffice.CRM.Rows.DocumentRow, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -166,16 +166,18 @@ items:
   namespace: SuperOffice.CRM.Documents
   summary: "\nThis method will return the physical location of the given document based on the provided IDocumentInfo.\n"
   syntax:
-    content: public static string GetFullArchivePath(DocumentRow documentRow)
+    content: public static Task<string> GetFullArchivePathAsync(DocumentRow documentRow, CancellationToken cancellationToken = null)
     parameters:
     - id: documentRow
       type: SuperOffice.CRM.Rows.DocumentRow
       description: 'DocumentRow object containing the document information '
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Full Archive Path
-    content.vb: Public Shared Function GetFullArchivePath(documentRow As DocumentRow) As String
-  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath*
+    content.vb: Public Shared Function GetFullArchivePathAsync(documentRow As DocumentRow, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync*
   modifiers.csharp:
   - public
   - static
@@ -387,16 +389,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName(System.Int32)
-  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName(System.Int32)
-  id: GetAssociateName(System.Int32)
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAssociateNameAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.SoArc2Helper
   langs:
   - csharp
   - vb
-  name: GetAssociateName(Int32)
-  nameWithType: SoArc2Helper.GetAssociateName(Int32)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName(System.Int32)
+  name: GetAssociateNameAsync(Int32, CancellationToken)
+  nameWithType: SoArc2Helper.GetAssociateNameAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -406,16 +408,18 @@ items:
   namespace: SuperOffice.CRM.Documents
   summary: "\nGet the associate name for a given associate id\n"
   syntax:
-    content: public static string GetAssociateName(int associateId)
+    content: public static Task<string> GetAssociateNameAsync(int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
       description: Associate Id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Associate Name
-    content.vb: Public Shared Function GetAssociateName(associateId As Integer) As String
-  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName*
+    content.vb: Public Shared Function GetAssociateNameAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync*
   modifiers.csharp:
   - public
   - static
@@ -510,16 +514,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
-  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
-  id: GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  id: GetCurrentVersionFolderPathAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.SoArc2Helper
   langs:
   - csharp
   - vb
-  name: GetCurrentVersionFolderPath(DocumentRow)
-  nameWithType: SoArc2Helper.GetCurrentVersionFolderPath(DocumentRow)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
+  name: GetCurrentVersionFolderPathAsync(DocumentRow, CancellationToken)
+  nameWithType: SoArc2Helper.GetCurrentVersionFolderPathAsync(DocumentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync(SuperOffice.CRM.Rows.DocumentRow, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -529,16 +533,18 @@ items:
   namespace: SuperOffice.CRM.Documents
   summary: "\nThis is the folder path where the latest document is located.\n"
   syntax:
-    content: public static string GetCurrentVersionFolderPath(DocumentRow documentRow)
+    content: public static Task<string> GetCurrentVersionFolderPathAsync(DocumentRow documentRow, CancellationToken cancellationToken = null)
     parameters:
     - id: documentRow
       type: SuperOffice.CRM.Rows.DocumentRow
       description: document id, name, heading etc
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: '\\server\so_arc\user\1999.2'
-    content.vb: Public Shared Function GetCurrentVersionFolderPath(documentRow As DocumentRow) As String
-  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath*
+    content.vb: Public Shared Function GetCurrentVersionFolderPathAsync(documentRow As DocumentRow, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync*
   modifiers.csharp:
   - public
   - static
@@ -629,6 +635,12 @@ references:
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync
+  isExternal: true
+  name: GetFullArchivePathAsync
+  nameWithType: SoArc2Helper.GetFullArchivePathAsync
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePathAsync
 - uid: SuperOffice.CRM.Rows.DocumentRow
   commentId: T:SuperOffice.CRM.Rows.DocumentRow
   parent: SuperOffice.CRM.Rows
@@ -636,12 +648,98 @@ references:
   name: DocumentRow
   nameWithType: DocumentRow
   fullName: SuperOffice.CRM.Rows.DocumentRow
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.EnsureDirectoryExists
   isExternal: true
@@ -691,12 +789,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName*
-  commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync
   isExternal: true
-  name: GetAssociateName
-  nameWithType: SoArc2Helper.GetAssociateName
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName
+  name: GetAssociateNameAsync
+  nameWithType: SoArc2Helper.GetAssociateNameAsync
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateNameAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -730,3 +828,9 @@ references:
   name: GetCurrentVersionFolderPath
   nameWithType: SoArc2Helper.GetCurrentVersionFolderPath
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync
+  isExternal: true
+  name: GetCurrentVersionFolderPathAsync
+  nameWithType: SoArc2Helper.GetCurrentVersionFolderPathAsync
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPathAsync

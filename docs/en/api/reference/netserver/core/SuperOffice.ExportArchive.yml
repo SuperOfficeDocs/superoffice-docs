@@ -4,6 +4,7 @@ items:
   commentId: N:SuperOffice.ExportArchive
   id: SuperOffice.ExportArchive
   children:
+  - SuperOffice.ExportArchive.IBatchDataTicketExtensions
   - SuperOffice.ExportArchive.TicketBatchPluginBase
   - SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
   langs:
@@ -29,6 +30,13 @@ references:
   name: TicketBatchPluginBase.TicketForwardSettings
   nameWithType: TicketBatchPluginBase.TicketForwardSettings
   fullName: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  commentId: T:SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  parent: SuperOffice.ExportArchive
+  isExternal: true
+  name: IBatchDataTicketExtensions
+  nameWithType: IBatchDataTicketExtensions
+  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions
 - uid: SuperOffice.ExportArchive
   commentId: N:SuperOffice.ExportArchive
   isExternal: true

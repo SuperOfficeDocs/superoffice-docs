@@ -36,8 +36,6 @@ items:
       Public Class ForeignKey
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ForeignSystemAgent
-    commentId: T:SuperOffice.CRM.Services.ForeignSystemAgent
   - linkId: SuperOffice.CRM.Services.IForeignSystemAgent
     commentId: T:SuperOffice.CRM.Services.IForeignSystemAgent
   inheritance:
@@ -409,15 +407,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ForeignSystemAgent
-  commentId: T:SuperOffice.CRM.Services.ForeignSystemAgent
-  isExternal: true
-  name: ForeignSystemAgent
-  nameWithType: ForeignSystemAgent
-  fullName: SuperOffice.CRM.Services.ForeignSystemAgent
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent
   commentId: T:SuperOffice.CRM.Services.IForeignSystemAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IForeignSystemAgent
   nameWithType: IForeignSystemAgent

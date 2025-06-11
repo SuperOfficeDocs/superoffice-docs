@@ -41,8 +41,6 @@ items:
       Public Class SuggestedDocumentEntity
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.DocumentAgent
-    commentId: T:SuperOffice.CRM.Services.DocumentAgent
   - linkId: SuperOffice.CRM.Services.IDocumentAgent
     commentId: T:SuperOffice.CRM.Services.IDocumentAgent
   inheritance:
@@ -513,15 +511,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.DocumentAgent
-  commentId: T:SuperOffice.CRM.Services.DocumentAgent
-  isExternal: true
-  name: DocumentAgent
-  nameWithType: DocumentAgent
-  fullName: SuperOffice.CRM.Services.DocumentAgent
 - uid: SuperOffice.CRM.Services.IDocumentAgent
   commentId: T:SuperOffice.CRM.Services.IDocumentAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IDocumentAgent
   nameWithType: IDocumentAgent

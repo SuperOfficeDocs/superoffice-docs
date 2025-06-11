@@ -5,27 +5,27 @@ items:
   id: IAIAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurns(System.String)
-  - SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
-  - SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
-  - SuperOffice.CRM.Services.IAIAgent.ExpandText(System.String,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32)
-  - SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String,System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[],System.String)
-  - SuperOffice.CRM.Services.IAIAgent.GetChatbotTurns(System.String)
-  - SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
-  - SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
-  - SuperOffice.CRM.Services.IAIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.SummarizeText(System.String,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.TranslateEntity(System.String,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.DetectSentimentAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.ExpandTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestionsAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetChatbotResponseAsync(System.String,System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[],System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetTrainingStatusAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GuessCategoryAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.RephraseTextAsync(System.String,SuperOffice.Data.AiTextStyle,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.SummarizeContactAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.SummarizeSaleAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.SummarizeTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesserAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.TranslateAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.TranslateEntityAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -66,16 +66,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeText(System.String,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeText(System.String,System.Int32,System.String)
-  id: SummarizeText(System.String,System.Int32,System.String)
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  id: SummarizeTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: SummarizeText(String, Int32, String)
-  nameWithType: IAIAgent.SummarizeText(String, Int32, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeText(System.String, System.Int32, System.String)
+  name: SummarizeTextAsync(String, Int32, String, CancellationToken)
+  nameWithType: IAIAgent.SummarizeTextAsync(String, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeTextAsync(System.String, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -85,7 +85,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGenerate a short summary of a text\n"
   syntax:
-    content: string SummarizeText(string text, int percentSmaller, string isoLangCode)
+    content: Task<string> SummarizeTextAsync(string text, int percentSmaller, string isoLangCode, CancellationToken cancellationToken = null)
     parameters:
     - id: text
       type: System.String
@@ -96,21 +96,23 @@ items:
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in. Blank = do not specify language.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Short summary of the text
-    content.vb: Function SummarizeText(text As String, percentSmaller As Integer, isoLangCode As String) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.SummarizeText*
-- uid: SuperOffice.CRM.Services.IAIAgent.ExpandText(System.String,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.ExpandText(System.String,System.Int32,System.String)
-  id: ExpandText(System.String,System.Int32,System.String)
+    content.vb: Function SummarizeTextAsync(text As String, percentSmaller As Integer, isoLangCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.SummarizeTextAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.ExpandTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.ExpandTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  id: ExpandTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: ExpandText(String, Int32, String)
-  nameWithType: IAIAgent.ExpandText(String, Int32, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.ExpandText(System.String, System.Int32, System.String)
+  name: ExpandTextAsync(String, Int32, String, CancellationToken)
+  nameWithType: IAIAgent.ExpandTextAsync(String, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.ExpandTextAsync(System.String, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -120,7 +122,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGenerate a longer version of a text\n"
   syntax:
-    content: string ExpandText(string text, int percentBigger, string isoLangCode)
+    content: Task<string> ExpandTextAsync(string text, int percentBigger, string isoLangCode, CancellationToken cancellationToken = null)
     parameters:
     - id: text
       type: System.String
@@ -131,21 +133,23 @@ items:
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in. Blank = do not specify language.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Expanded version of the text
-    content.vb: Function ExpandText(text As String, percentBigger As Integer, isoLangCode As String) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.ExpandText*
-- uid: SuperOffice.CRM.Services.IAIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
-  id: RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
+    content.vb: Function ExpandTextAsync(text As String, percentBigger As Integer, isoLangCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.ExpandTextAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.RephraseTextAsync(System.String,SuperOffice.Data.AiTextStyle,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.RephraseTextAsync(System.String,SuperOffice.Data.AiTextStyle,System.String,System.Threading.CancellationToken)
+  id: RephraseTextAsync(System.String,SuperOffice.Data.AiTextStyle,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: RephraseText(String, AiTextStyle, String)
-  nameWithType: IAIAgent.RephraseText(String, AiTextStyle, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.RephraseText(System.String, SuperOffice.Data.AiTextStyle, System.String)
+  name: RephraseTextAsync(String, AiTextStyle, String, CancellationToken)
+  nameWithType: IAIAgent.RephraseTextAsync(String, AiTextStyle, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.RephraseTextAsync(System.String, SuperOffice.Data.AiTextStyle, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -155,7 +159,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGenerate a new version of a text\n"
   syntax:
-    content: string RephraseText(string text, AiTextStyle style, string isoLangCode)
+    content: Task<string> RephraseTextAsync(string text, AiTextStyle style, string isoLangCode, CancellationToken cancellationToken = null)
     parameters:
     - id: text
       type: System.String
@@ -166,21 +170,23 @@ items:
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in. Blank = do not specify language.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: New version of the text
-    content.vb: Function RephraseText(text As String, style As AiTextStyle, isoLangCode As String) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.RephraseText*
-- uid: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
-  id: CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
+    content.vb: Function RephraseTextAsync(text As String, style As AiTextStyle, isoLangCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.RephraseTextAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.Threading.CancellationToken)
+  id: CreateTextForAppointmentAsync(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: CreateTextForAppointment(AppointmentEntity, String)
-  nameWithType: IAIAgent.CreateTextForAppointment(AppointmentEntity, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity, System.String)
+  name: CreateTextForAppointmentAsync(AppointmentEntity, String, CancellationToken)
+  nameWithType: IAIAgent.CreateTextForAppointmentAsync(AppointmentEntity, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.CRM.Services.AppointmentEntity, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -190,7 +196,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGenerate agenda text for an appointment based on appointment&apos;s company category, title, person, etc.\n"
   syntax:
-    content: string CreateTextForAppointment(AppointmentEntity appointment, string isoLangCode)
+    content: Task<string> CreateTextForAppointmentAsync(AppointmentEntity appointment, string isoLangCode, CancellationToken cancellationToken = null)
     parameters:
     - id: appointment
       type: SuperOffice.CRM.Services.AppointmentEntity
@@ -198,21 +204,23 @@ items:
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in. Blank = do not specify language.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Agenda text in markdown format
-    content.vb: Function CreateTextForAppointment(appointment As AppointmentEntity, isoLangCode As String) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment*
-- uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
-  id: GetTrainingStatus
+    content.vb: Function CreateTextForAppointmentAsync(appointment As AppointmentEntity, isoLangCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointmentAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatusAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetTrainingStatusAsync(System.Threading.CancellationToken)
+  id: GetTrainingStatusAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: GetTrainingStatus()
-  nameWithType: IAIAgent.GetTrainingStatus()
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus()
+  name: GetTrainingStatusAsync(CancellationToken)
+  nameWithType: IAIAgent.GetTrainingStatusAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatusAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -222,22 +230,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCalling the HugoAI endpoint to fetch the current training status.\n"
   syntax:
-    content: CategorizationStatusResponse GetTrainingStatus()
+    content: Task<CategorizationStatusResponse> GetTrainingStatusAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CategorizationStatusResponse
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CategorizationStatusResponse}
       description: Carrier to describe the current status of HugoAI categorization
-    content.vb: Function GetTrainingStatus As CategorizationStatusResponse
-  overload: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus*
-- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
-  id: GuessCategory(System.Int32)
+    content.vb: Function GetTrainingStatusAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CategorizationStatusResponse)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatusAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategoryAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GuessCategoryAsync(System.Int32,System.Threading.CancellationToken)
+  id: GuessCategoryAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: GuessCategory(Int32)
-  nameWithType: IAIAgent.GuessCategory(Int32)
-  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+  name: GuessCategoryAsync(Int32, CancellationToken)
+  nameWithType: IAIAgent.GuessCategoryAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategoryAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -247,26 +258,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGiven a ticket&apos;s id, guess the ticket category it should be placed in. Currently this is based on the first message in the ticket\n"
   syntax:
-    content: int GuessCategory(int ticketId)
+    content: Task<int> GuessCategoryAsync(int ticketId, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
       description: Id of ticket to guess category for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Suggested ticket category ID
-    content.vb: Function GuessCategory(ticketId As Integer) As Integer
-  overload: SuperOffice.CRM.Services.IAIAgent.GuessCategory*
-- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
-  id: TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+    content.vb: Function GuessCategoryAsync(ticketId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IAIAgent.GuessCategoryAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesserAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesserAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: TrainCategoryGuesserAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: TrainCategoryGuesser(Int32, Int32, Int32)
-  nameWithType: IAIAgent.TrainCategoryGuesser(Int32, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32, System.Int32, System.Int32)
+  name: TrainCategoryGuesserAsync(Int32, Int32, Int32, CancellationToken)
+  nameWithType: IAIAgent.TrainCategoryGuesserAsync(Int32, Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesserAsync(System.Int32, System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -276,7 +289,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nThe category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call\n"
   syntax:
-    content: string TrainCategoryGuesser(int selectionId, int maxItems, int maxTextLength)
+    content: Task<string> TrainCategoryGuesserAsync(int selectionId, int maxItems, int maxTextLength, CancellationToken cancellationToken = null)
     parameters:
     - id: selectionId
       type: System.Int32
@@ -287,21 +300,23 @@ items:
     - id: maxTextLength
       type: System.Int32
       description: Maximum length of PlainTextBody or any other large text, truncated to nearest word boundary
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Placeholder for result...  should this be a BatchTaskId?  maybe not useful?
-    content.vb: Function TrainCategoryGuesser(selectionId As Integer, maxItems As Integer, maxTextLength As Integer) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser*
-- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String,System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[],System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String,System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[],System.String)
-  id: GetChatbotResponse(System.String,System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[],System.String)
+    content.vb: Function TrainCategoryGuesserAsync(selectionId As Integer, maxItems As Integer, maxTextLength As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesserAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponseAsync(System.String,System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[],System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetChatbotResponseAsync(System.String,System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[],System.String,System.Threading.CancellationToken)
+  id: GetChatbotResponseAsync(System.String,System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[],System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: GetChatbotResponse(String, String, String, String, ChatbotTurn[], String)
-  nameWithType: IAIAgent.GetChatbotResponse(String, String, String, String, ChatbotTurn[], String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String, System.String, System.String, System.String, SuperOffice.CRM.Services.ChatbotTurn[], System.String)
+  name: GetChatbotResponseAsync(String, String, String, String, ChatbotTurn[], String, CancellationToken)
+  nameWithType: IAIAgent.GetChatbotResponseAsync(String, String, String, String, ChatbotTurn[], String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponseAsync(System.String, System.String, System.String, System.String, SuperOffice.CRM.Services.ChatbotTurn[], System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -311,7 +326,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn a chatbot response given prompt and previous turns. Stores the new turn in the history for the chatId\n"
   syntax:
-    content: ChatbotTurn GetChatbotResponse(string chatId, string isoLangCode, string userPrompt, string displayValue, ChatbotTurn[] previousTurns, string apiUrl)
+    content: Task<ChatbotTurn> GetChatbotResponseAsync(string chatId, string isoLangCode, string userPrompt, string displayValue, ChatbotTurn[] previousTurns, string apiUrl, CancellationToken cancellationToken = null)
     parameters:
     - id: chatId
       type: System.String
@@ -331,24 +346,26 @@ items:
     - id: apiUrl
       type: System.String
       description: CRM API endpoint URL for chatbot to make callbacks to. &apos;https://example.com/superoffice/api/&apos;
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ChatbotTurn
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatbotTurn}
       description: Returns new turn that client can append to its local history.
-    content.vb: Function GetChatbotResponse(chatId As String, isoLangCode As String, userPrompt As String, displayValue As String, previousTurns As ChatbotTurn(), apiUrl As String) As ChatbotTurn
-  overload: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse*
-  nameWithType.vb: IAIAgent.GetChatbotResponse(String, String, String, String, ChatbotTurn(), String)
-  fullName.vb: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String, System.String, System.String, System.String, SuperOffice.CRM.Services.ChatbotTurn(), System.String)
-  name.vb: GetChatbotResponse(String, String, String, String, ChatbotTurn(), String)
-- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32)
-  id: GetChatbotPromptSuggestions(System.String,System.String,System.Int32)
+    content.vb: Function GetChatbotResponseAsync(chatId As String, isoLangCode As String, userPrompt As String, displayValue As String, previousTurns As ChatbotTurn(), apiUrl As String, cancellationToken As CancellationToken = Nothing) As Task(Of ChatbotTurn)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponseAsync*
+  nameWithType.vb: IAIAgent.GetChatbotResponseAsync(String, String, String, String, ChatbotTurn(), String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponseAsync(System.String, System.String, System.String, System.String, SuperOffice.CRM.Services.ChatbotTurn(), System.String, System.Threading.CancellationToken)
+  name.vb: GetChatbotResponseAsync(String, String, String, String, ChatbotTurn(), String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestionsAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestionsAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetChatbotPromptSuggestionsAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: GetChatbotPromptSuggestions(String, String, Int32)
-  nameWithType: IAIAgent.GetChatbotPromptSuggestions(String, String, Int32)
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions(System.String, System.String, System.Int32)
+  name: GetChatbotPromptSuggestionsAsync(String, String, Int32, CancellationToken)
+  nameWithType: IAIAgent.GetChatbotPromptSuggestionsAsync(String, String, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestionsAsync(System.String, System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -358,7 +375,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn one or more suggested prompts as actions to display in an empty chat window\n"
   syntax:
-    content: ChatbotTurn GetChatbotPromptSuggestions(string isoLangCode, string soProtocol, int currentId)
+    content: Task<ChatbotTurn> GetChatbotPromptSuggestionsAsync(string isoLangCode, string soProtocol, int currentId, CancellationToken cancellationToken = null)
     parameters:
     - id: isoLangCode
       type: System.String
@@ -369,21 +386,23 @@ items:
     - id: currentId
       type: System.Int32
       description: current company/person/project id - used for context in suggestions
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ChatbotTurn
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatbotTurn}
       description: Contains zero or more BotActions, and welcome message in Bot response
-    content.vb: Function GetChatbotPromptSuggestions(isoLangCode As String, soProtocol As String, currentId As Integer) As ChatbotTurn
-  overload: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions*
-- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotTurns(System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetChatbotTurns(System.String)
-  id: GetChatbotTurns(System.String)
+    content.vb: Function GetChatbotPromptSuggestionsAsync(isoLangCode As String, soProtocol As String, currentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ChatbotTurn)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestionsAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
+  id: GetChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: GetChatbotTurns(String)
-  nameWithType: IAIAgent.GetChatbotTurns(String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotTurns(System.String)
+  name: GetChatbotTurnsAsync(String, CancellationToken)
+  nameWithType: IAIAgent.GetChatbotTurnsAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotTurnsAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -393,26 +412,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturns stored history of chat messages for a given chat_id. Chat_id is usually derived from soproto + current id, but could also be arbitrary name.\n"
   syntax:
-    content: ChatbotTurn[] GetChatbotTurns(string chatId)
+    content: Task<ChatbotTurn[]> GetChatbotTurnsAsync(string chatId, CancellationToken cancellationToken = null)
     parameters:
     - id: chatId
       type: System.String
       description: identifies this chat = arbitrary name (e.g. user-defined) or the soprotocol + id (e.g. ticket-123, contact-43, diary)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ChatbotTurn[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatbotTurn[]}
       description: Array containing zero or more turns. If you got zero turns, call GetChatbotPromptSuggestions to get an initial turn from the bot.
-    content.vb: Function GetChatbotTurns(chatId As String) As ChatbotTurn()
-  overload: SuperOffice.CRM.Services.IAIAgent.GetChatbotTurns*
-- uid: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurns(System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurns(System.String)
-  id: ClearChatbotTurns(System.String)
+    content.vb: Function GetChatbotTurnsAsync(chatId As String, cancellationToken As CancellationToken = Nothing) As Task(Of ChatbotTurn())
+  overload: SuperOffice.CRM.Services.IAIAgent.GetChatbotTurnsAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
+  id: ClearChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: ClearChatbotTurns(String)
-  nameWithType: IAIAgent.ClearChatbotTurns(String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurns(System.String)
+  name: ClearChatbotTurnsAsync(String, CancellationToken)
+  nameWithType: IAIAgent.ClearChatbotTurnsAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -422,23 +443,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nClears the stored history of chat messages for a given chat_id. Chat_id is usually derived from soproto + current id, but could also be arbitrary name\n"
   syntax:
-    content: void ClearChatbotTurns(string chatId)
+    content: Task ClearChatbotTurnsAsync(string chatId, CancellationToken cancellationToken = null)
     parameters:
     - id: chatId
       type: System.String
       description: identifies this chat = arbitrary name (e.g. user-defined) or the soprotocol + id (e.g. ticket-123, contact-43, diary)
-    content.vb: Sub ClearChatbotTurns(chatId As String)
-  overload: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurns*
-- uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
-  id: DetectLanguage(System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function ClearChatbotTurnsAsync(chatId As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync(System.String,System.Threading.CancellationToken)
+  id: DetectLanguageAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: DetectLanguage(String)
-  nameWithType: IAIAgent.DetectLanguage(String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+  name: DetectLanguageAsync(String, CancellationToken)
+  nameWithType: IAIAgent.DetectLanguageAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -448,26 +474,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGiven a (reasonably short) text, detect the language it is written in\n"
   syntax:
-    content: string DetectLanguage(string text)
+    content: Task<string> DetectLanguageAsync(string text, CancellationToken cancellationToken = null)
     parameters:
     - id: text
       type: System.String
       description: Text to be analyzed; there may be a cost-per-character so do not send a book here
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: ISO Language code, such as NO, US, ES, FR
-    content.vb: Function DetectLanguage(text As String) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.DetectLanguage*
-- uid: SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
-  id: DetectSentiment(System.String)
+    content.vb: Function DetectLanguageAsync(text As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.DetectSentimentAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.DetectSentimentAsync(System.String,System.Threading.CancellationToken)
+  id: DetectSentimentAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: DetectSentiment(String)
-  nameWithType: IAIAgent.DetectSentiment(String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+  name: DetectSentimentAsync(String, CancellationToken)
+  nameWithType: IAIAgent.DetectSentimentAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.DetectSentimentAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -477,26 +505,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDetect the sentiment of a (reasonably short) text. Sentiment analysis may cause a translation to be made, since sentiment analysis only supports a limited set of languages\n"
   syntax:
-    content: Sentiment DetectSentiment(string text)
+    content: Task<Sentiment> DetectSentimentAsync(string text, CancellationToken cancellationToken = null)
     parameters:
     - id: text
       type: System.String
       description: Text to be analyzed
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Sentiment
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sentiment}
       description: 'The sentiment information: score (-100 to +100) and confidence'
-    content.vb: Function DetectSentiment(text As String) As Sentiment
-  overload: SuperOffice.CRM.Services.IAIAgent.DetectSentiment*
-- uid: SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
-  id: Translate(System.String,System.String)
+    content.vb: Function DetectSentimentAsync(text As String, cancellationToken As CancellationToken = Nothing) As Task(Of Sentiment)
+  overload: SuperOffice.CRM.Services.IAIAgent.DetectSentimentAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.TranslateAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.TranslateAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: TranslateAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: Translate(String, String)
-  nameWithType: IAIAgent.Translate(String, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.Translate(System.String, System.String)
+  name: TranslateAsync(String, String, CancellationToken)
+  nameWithType: IAIAgent.TranslateAsync(String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.TranslateAsync(System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -506,7 +536,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nTranslate a text from one language to another. Language of the text is automatically detected.\n"
   syntax:
-    content: string Translate(string text, string targetLanguage)
+    content: Task<string> TranslateAsync(string text, string targetLanguage, CancellationToken cancellationToken = null)
     parameters:
     - id: text
       type: System.String
@@ -514,21 +544,23 @@ items:
     - id: targetLanguage
       type: System.String
       description: ISO Language code (such as FR) to translate the text into
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Translated text
-    content.vb: Function Translate(text As String, targetLanguage As String) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.Translate*
-- uid: SuperOffice.CRM.Services.IAIAgent.TranslateEntity(System.String,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.TranslateEntity(System.String,System.Int32,System.String)
-  id: TranslateEntity(System.String,System.Int32,System.String)
+    content.vb: Function TranslateAsync(text As String, targetLanguage As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.TranslateAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.TranslateEntityAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.TranslateEntityAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  id: TranslateEntityAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: TranslateEntity(String, Int32, String)
-  nameWithType: IAIAgent.TranslateEntity(String, Int32, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.TranslateEntity(System.String, System.Int32, System.String)
+  name: TranslateEntityAsync(String, Int32, String, CancellationToken)
+  nameWithType: IAIAgent.TranslateEntityAsync(String, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.TranslateEntityAsync(System.String, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -538,7 +570,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nRetrieve, format and translate text for an entity to a specified language\n"
   syntax:
-    content: string TranslateEntity(string entityName, int entityId, string targetLanguage)
+    content: Task<string> TranslateEntityAsync(string entityName, int entityId, string targetLanguage, CancellationToken cancellationToken = null)
     parameters:
     - id: entityName
       type: System.String
@@ -549,21 +581,23 @@ items:
     - id: targetLanguage
       type: System.String
       description: ISO Language code (such as FR) to translate the text into
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Translated text
-    content.vb: Function TranslateEntity(entityName As String, entityId As Integer, targetLanguage As String) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.TranslateEntity*
-- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
-  id: SummarizeTicket(System.Int32,System.Int32,System.String)
+    content.vb: Function TranslateEntityAsync(entityName As String, entityId As Integer, targetLanguage As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.TranslateEntityAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: SummarizeTicketAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: SummarizeTicket(Int32, Int32, String)
-  nameWithType: IAIAgent.SummarizeTicket(Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket(System.Int32, System.Int32, System.String)
+  name: SummarizeTicketAsync(Int32, Int32, String, CancellationToken)
+  nameWithType: IAIAgent.SummarizeTicketAsync(Int32, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync(System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -573,7 +607,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGenerate a short summary of the messages on a ticket\n"
   syntax:
-    content: string SummarizeTicket(int ticketId, int numSentences, string isoLangCode)
+    content: Task<string> SummarizeTicketAsync(int ticketId, int numSentences, string isoLangCode, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
@@ -584,21 +618,23 @@ items:
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Short summary of the messages on a ticket - in HTML.
-    content.vb: Function SummarizeTicket(ticketId As Integer, numSentences As Integer, isoLangCode As String) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket*
-- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
-  id: GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
+    content.vb: Function SummarizeTicketAsync(ticketId As Integer, numSentences As Integer, isoLangCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  id: GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: GetSummarizeTicketPrompt(Int32, Int32, String, String)
-  nameWithType: IAIAgent.GetSummarizeTicketPrompt(Int32, Int32, String, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt(System.Int32, System.Int32, System.String, System.String)
+  name: GetSummarizeTicketPromptAsync(Int32, Int32, String, String, CancellationToken)
+  nameWithType: IAIAgent.GetSummarizeTicketPromptAsync(Int32, Int32, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPromptAsync(System.Int32, System.Int32, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -608,7 +644,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn the prompt used to get a short summary of the messages on a ticket. Does not call the chatbot for a response. Used for transfering a summary to a chat session.\n"
   syntax:
-    content: ChatbotTurn GetSummarizeTicketPrompt(int ticketId, int numSentences, string summary, string isoLangCode)
+    content: Task<ChatbotTurn> GetSummarizeTicketPromptAsync(int ticketId, int numSentences, string summary, string isoLangCode, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
@@ -622,21 +658,23 @@ items:
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ChatbotTurn
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatbotTurn}
       description: Display text and Prompt used to generate a short summary of the messages on a ticket.
-    content.vb: Function GetSummarizeTicketPrompt(ticketId As Integer, numSentences As Integer, summary As String, isoLangCode As String) As ChatbotTurn
-  overload: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt*
-- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
-  id: SummarizeContact(System.Int32,System.Int32,System.String)
+    content.vb: Function GetSummarizeTicketPromptAsync(ticketId As Integer, numSentences As Integer, summary As String, isoLangCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of ChatbotTurn)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPromptAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeContactAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeContactAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: SummarizeContactAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: SummarizeContact(Int32, Int32, String)
-  nameWithType: IAIAgent.SummarizeContact(Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeContact(System.Int32, System.Int32, System.String)
+  name: SummarizeContactAsync(Int32, Int32, String, CancellationToken)
+  nameWithType: IAIAgent.SummarizeContactAsync(Int32, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeContactAsync(System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -646,7 +684,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGenerate a short summary of the activities on a contact\n"
   syntax:
-    content: string SummarizeContact(int contactId, int numSentences, string isoLangCode)
+    content: Task<string> SummarizeContactAsync(int contactId, int numSentences, string isoLangCode, CancellationToken cancellationToken = null)
     parameters:
     - id: contactId
       type: System.Int32
@@ -657,21 +695,23 @@ items:
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in. Blank = do not specify language.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Short summary of the activities on a contact - in HTML.
-    content.vb: Function SummarizeContact(contactId As Integer, numSentences As Integer, isoLangCode As String) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.SummarizeContact*
-- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
-  id: GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
+    content.vb: Function SummarizeContactAsync(contactId As Integer, numSentences As Integer, isoLangCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.SummarizeContactAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  id: GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: GetSummarizeContactPrompt(Int32, Int32, String, String)
-  nameWithType: IAIAgent.GetSummarizeContactPrompt(Int32, Int32, String, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt(System.Int32, System.Int32, System.String, System.String)
+  name: GetSummarizeContactPromptAsync(Int32, Int32, String, String, CancellationToken)
+  nameWithType: IAIAgent.GetSummarizeContactPromptAsync(Int32, Int32, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPromptAsync(System.Int32, System.Int32, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -681,7 +721,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn the prompt used to get a short summary of the activities on a contact. Does not call the chatbot for a response. Used for transfering a summary to a chat session.\n"
   syntax:
-    content: ChatbotTurn GetSummarizeContactPrompt(int contactId, int numSentences, string summary, string isoLangCode)
+    content: Task<ChatbotTurn> GetSummarizeContactPromptAsync(int contactId, int numSentences, string summary, string isoLangCode, CancellationToken cancellationToken = null)
     parameters:
     - id: contactId
       type: System.Int32
@@ -695,21 +735,23 @@ items:
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in. Blank = do not specify language.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ChatbotTurn
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatbotTurn}
       description: Display text and Prompt used to generate a short summary of the activities on a contact.
-    content.vb: Function GetSummarizeContactPrompt(contactId As Integer, numSentences As Integer, summary As String, isoLangCode As String) As ChatbotTurn
-  overload: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt*
-- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
-  id: SummarizeSale(System.Int32,System.Int32,System.String)
+    content.vb: Function GetSummarizeContactPromptAsync(contactId As Integer, numSentences As Integer, summary As String, isoLangCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of ChatbotTurn)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPromptAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeSaleAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeSaleAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: SummarizeSaleAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: SummarizeSale(Int32, Int32, String)
-  nameWithType: IAIAgent.SummarizeSale(Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeSale(System.Int32, System.Int32, System.String)
+  name: SummarizeSaleAsync(Int32, Int32, String, CancellationToken)
+  nameWithType: IAIAgent.SummarizeSaleAsync(Int32, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeSaleAsync(System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -719,7 +761,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGenerate a short summary of the activities on a sale\n"
   syntax:
-    content: string SummarizeSale(int saleId, int numSentences, string isoLangCode)
+    content: Task<string> SummarizeSaleAsync(int saleId, int numSentences, string isoLangCode, CancellationToken cancellationToken = null)
     parameters:
     - id: saleId
       type: System.Int32
@@ -730,21 +772,23 @@ items:
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in. Blank = do not specify language.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Short summary of the activities on a sale - in HTML.
-    content.vb: Function SummarizeSale(saleId As Integer, numSentences As Integer, isoLangCode As String) As String
-  overload: SuperOffice.CRM.Services.IAIAgent.SummarizeSale*
-- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
-  id: GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
+    content.vb: Function SummarizeSaleAsync(saleId As Integer, numSentences As Integer, isoLangCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IAIAgent.SummarizeSaleAsync*
+- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  id: GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: GetSummarizeSalePrompt(Int32, Int32, String, String)
-  nameWithType: IAIAgent.GetSummarizeSalePrompt(Int32, Int32, String, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt(System.Int32, System.Int32, System.String, System.String)
+  name: GetSummarizeSalePromptAsync(Int32, Int32, String, String, CancellationToken)
+  nameWithType: IAIAgent.GetSummarizeSalePromptAsync(Int32, Int32, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePromptAsync(System.Int32, System.Int32, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -754,7 +798,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn the prompt used to get a short summary of the activities on a sale. Does not call the chatbot for a response. Used for transfering a summary to a chat session.\n"
   syntax:
-    content: ChatbotTurn GetSummarizeSalePrompt(int saleId, int numSentences, string summary, string isoLangCode)
+    content: Task<ChatbotTurn> GetSummarizeSalePromptAsync(int saleId, int numSentences, string summary, string isoLangCode, CancellationToken cancellationToken = null)
     parameters:
     - id: saleId
       type: System.Int32
@@ -768,11 +812,13 @@ items:
     - id: isoLangCode
       type: System.String
       description: Language returned text should be in
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ChatbotTurn
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatbotTurn}
       description: Display text and Prompt used to generate a short summary of the activities on a sale.
-    content.vb: Function GetSummarizeSalePrompt(saleId As Integer, numSentences As Integer, summary As String, isoLangCode As String) As ChatbotTurn
-  overload: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt*
+    content.vb: Function GetSummarizeSalePromptAsync(saleId As Integer, numSentences As Integer, summary As String, isoLangCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of ChatbotTurn)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePromptAsync*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -780,12 +826,12 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeText*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SummarizeText
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTextAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SummarizeTextAsync
   isExternal: true
-  name: SummarizeText
-  nameWithType: IAIAgent.SummarizeText
-  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeText
+  name: SummarizeTextAsync
+  nameWithType: IAIAgent.SummarizeTextAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeTextAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -800,35 +846,122 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IAIAgent.ExpandText*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.ExpandText
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: ExpandText
-  nameWithType: IAIAgent.ExpandText
-  fullName: SuperOffice.CRM.Services.IAIAgent.ExpandText
-- uid: SuperOffice.CRM.Services.IAIAgent.RephraseText*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.RephraseText
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IAIAgent.ExpandTextAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.ExpandTextAsync
   isExternal: true
-  name: RephraseText
-  nameWithType: IAIAgent.RephraseText
-  fullName: SuperOffice.CRM.Services.IAIAgent.RephraseText
+  name: ExpandTextAsync
+  nameWithType: IAIAgent.ExpandTextAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.ExpandTextAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.RephraseTextAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.RephraseTextAsync
+  isExternal: true
+  name: RephraseTextAsync
+  nameWithType: IAIAgent.RephraseTextAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.RephraseTextAsync
 - uid: SuperOffice.Data.AiTextStyle
+  commentId: '!:SuperOffice.Data.AiTextStyle'
   isExternal: true
   name: AiTextStyle
   nameWithType: AiTextStyle
   fullName: SuperOffice.Data.AiTextStyle
-- uid: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment
+- uid: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointmentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointmentAsync
   isExternal: true
-  name: CreateTextForAppointment
-  nameWithType: IAIAgent.CreateTextForAppointment
-  fullName: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment
+  name: CreateTextForAppointmentAsync
+  nameWithType: IAIAgent.CreateTextForAppointmentAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointmentAsync
 - uid: SuperOffice.CRM.Services.AppointmentEntity
   commentId: T:SuperOffice.CRM.Services.AppointmentEntity
   parent: SuperOffice.CRM.Services
@@ -836,37 +969,116 @@ references:
   name: AppointmentEntity
   nameWithType: AppointmentEntity
   fullName: SuperOffice.CRM.Services.AppointmentEntity
-- uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+- uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatusAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetTrainingStatusAsync
   isExternal: true
-  name: GetTrainingStatus
-  nameWithType: IAIAgent.GetTrainingStatus
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
-- uid: SuperOffice.CRM.Services.CategorizationStatusResponse
-  commentId: T:SuperOffice.CRM.Services.CategorizationStatusResponse
-  parent: SuperOffice.CRM.Services
+  name: GetTrainingStatusAsync
+  nameWithType: IAIAgent.GetTrainingStatusAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatusAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CategorizationStatusResponse}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CategorizationStatusResponse}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CategorizationStatusResponse>
+  nameWithType: Task<CategorizationStatusResponse>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CategorizationStatusResponse>
+  nameWithType.vb: Task(Of CategorizationStatusResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CategorizationStatusResponse)
+  name.vb: Task(Of CategorizationStatusResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.CategorizationStatusResponse
+    name: CategorizationStatusResponse
+    nameWithType: CategorizationStatusResponse
+    fullName: SuperOffice.CRM.Services.CategorizationStatusResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.CategorizationStatusResponse
+    name: CategorizationStatusResponse
+    nameWithType: CategorizationStatusResponse
+    fullName: SuperOffice.CRM.Services.CategorizationStatusResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategoryAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GuessCategoryAsync
   isExternal: true
-  name: CategorizationStatusResponse
-  nameWithType: CategorizationStatusResponse
-  fullName: SuperOffice.CRM.Services.CategorizationStatusResponse
-- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GuessCategory
+  name: GuessCategoryAsync
+  nameWithType: IAIAgent.GuessCategoryAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategoryAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesserAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesserAsync
   isExternal: true
-  name: GuessCategory
-  nameWithType: IAIAgent.GuessCategory
-  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory
-- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser
+  name: TrainCategoryGuesserAsync
+  nameWithType: IAIAgent.TrainCategoryGuesserAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesserAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponseAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetChatbotResponseAsync
   isExternal: true
-  name: TrainCategoryGuesser
-  nameWithType: IAIAgent.TrainCategoryGuesser
-  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser
-- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse
-  isExternal: true
-  name: GetChatbotResponse
-  nameWithType: IAIAgent.GetChatbotResponse
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse
+  name: GetChatbotResponseAsync
+  nameWithType: IAIAgent.GetChatbotResponseAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponseAsync
 - uid: SuperOffice.CRM.Services.ChatbotTurn[]
   isExternal: true
   name: ChatbotTurn[]
@@ -893,95 +1105,221 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.ChatbotTurn
-  commentId: T:SuperOffice.CRM.Services.ChatbotTurn
-  parent: SuperOffice.CRM.Services
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatbotTurn}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatbotTurn}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ChatbotTurn>
+  nameWithType: Task<ChatbotTurn>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatbotTurn>
+  nameWithType.vb: Task(Of ChatbotTurn)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatbotTurn)
+  name.vb: Task(Of ChatbotTurn)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ChatbotTurn
+    name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.CRM.Services.ChatbotTurn
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ChatbotTurn
+    name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.CRM.Services.ChatbotTurn
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestionsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestionsAsync
   isExternal: true
-  name: ChatbotTurn
-  nameWithType: ChatbotTurn
-  fullName: SuperOffice.CRM.Services.ChatbotTurn
-- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions
+  name: GetChatbotPromptSuggestionsAsync
+  nameWithType: IAIAgent.GetChatbotPromptSuggestionsAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestionsAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotTurnsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetChatbotTurnsAsync
   isExternal: true
-  name: GetChatbotPromptSuggestions
-  nameWithType: IAIAgent.GetChatbotPromptSuggestions
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions
-- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotTurns*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetChatbotTurns
+  name: GetChatbotTurnsAsync
+  nameWithType: IAIAgent.GetChatbotTurnsAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotTurnsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatbotTurn[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatbotTurn[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ChatbotTurn[]>
+  nameWithType: Task<ChatbotTurn[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatbotTurn[]>
+  nameWithType.vb: Task(Of ChatbotTurn())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatbotTurn())
+  name.vb: Task(Of ChatbotTurn())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ChatbotTurn
+    name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.CRM.Services.ChatbotTurn
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ChatbotTurn
+    name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.CRM.Services.ChatbotTurn
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync
   isExternal: true
-  name: GetChatbotTurns
-  nameWithType: IAIAgent.GetChatbotTurns
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotTurns
-- uid: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurns*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurns
+  name: ClearChatbotTurnsAsync
+  nameWithType: IAIAgent.ClearChatbotTurnsAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: ClearChatbotTurns
-  nameWithType: IAIAgent.ClearChatbotTurns
-  fullName: SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurns
-- uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguage*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.DetectLanguage
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync
   isExternal: true
-  name: DetectLanguage
-  nameWithType: IAIAgent.DetectLanguage
-  fullName: SuperOffice.CRM.Services.IAIAgent.DetectLanguage
-- uid: SuperOffice.CRM.Services.IAIAgent.DetectSentiment*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.DetectSentiment
+  name: DetectLanguageAsync
+  nameWithType: IAIAgent.DetectLanguageAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.DetectSentimentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.DetectSentimentAsync
   isExternal: true
-  name: DetectSentiment
-  nameWithType: IAIAgent.DetectSentiment
-  fullName: SuperOffice.CRM.Services.IAIAgent.DetectSentiment
-- uid: SuperOffice.CRM.Services.Sentiment
-  commentId: T:SuperOffice.CRM.Services.Sentiment
-  parent: SuperOffice.CRM.Services
+  name: DetectSentimentAsync
+  nameWithType: IAIAgent.DetectSentimentAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.DetectSentimentAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sentiment}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sentiment}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Sentiment>
+  nameWithType: Task<Sentiment>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Sentiment>
+  nameWithType.vb: Task(Of Sentiment)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Sentiment)
+  name.vb: Task(Of Sentiment)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.Sentiment
+    name: Sentiment
+    nameWithType: Sentiment
+    fullName: SuperOffice.CRM.Services.Sentiment
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.Sentiment
+    name: Sentiment
+    nameWithType: Sentiment
+    fullName: SuperOffice.CRM.Services.Sentiment
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IAIAgent.TranslateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.TranslateAsync
   isExternal: true
-  name: Sentiment
-  nameWithType: Sentiment
-  fullName: SuperOffice.CRM.Services.Sentiment
-- uid: SuperOffice.CRM.Services.IAIAgent.Translate*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.Translate
+  name: TranslateAsync
+  nameWithType: IAIAgent.TranslateAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.TranslateAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.TranslateEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.TranslateEntityAsync
   isExternal: true
-  name: Translate
-  nameWithType: IAIAgent.Translate
-  fullName: SuperOffice.CRM.Services.IAIAgent.Translate
-- uid: SuperOffice.CRM.Services.IAIAgent.TranslateEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.TranslateEntity
+  name: TranslateEntityAsync
+  nameWithType: IAIAgent.TranslateEntityAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.TranslateEntityAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync
   isExternal: true
-  name: TranslateEntity
-  nameWithType: IAIAgent.TranslateEntity
-  fullName: SuperOffice.CRM.Services.IAIAgent.TranslateEntity
-- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SummarizeTicket
+  name: SummarizeTicketAsync
+  nameWithType: IAIAgent.SummarizeTicketAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPromptAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPromptAsync
   isExternal: true
-  name: SummarizeTicket
-  nameWithType: IAIAgent.SummarizeTicket
-  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket
-- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt
+  name: GetSummarizeTicketPromptAsync
+  nameWithType: IAIAgent.GetSummarizeTicketPromptAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPromptAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeContactAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SummarizeContactAsync
   isExternal: true
-  name: GetSummarizeTicketPrompt
-  nameWithType: IAIAgent.GetSummarizeTicketPrompt
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt
-- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeContact*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SummarizeContact
+  name: SummarizeContactAsync
+  nameWithType: IAIAgent.SummarizeContactAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeContactAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPromptAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPromptAsync
   isExternal: true
-  name: SummarizeContact
-  nameWithType: IAIAgent.SummarizeContact
-  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeContact
-- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt
+  name: GetSummarizeContactPromptAsync
+  nameWithType: IAIAgent.GetSummarizeContactPromptAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPromptAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeSaleAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SummarizeSaleAsync
   isExternal: true
-  name: GetSummarizeContactPrompt
-  nameWithType: IAIAgent.GetSummarizeContactPrompt
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt
-- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeSale*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SummarizeSale
+  name: SummarizeSaleAsync
+  nameWithType: IAIAgent.SummarizeSaleAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeSaleAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePromptAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePromptAsync
   isExternal: true
-  name: SummarizeSale
-  nameWithType: IAIAgent.SummarizeSale
-  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeSale
-- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt
-  isExternal: true
-  name: GetSummarizeSalePrompt
-  nameWithType: IAIAgent.GetSummarizeSalePrompt
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt
+  name: GetSummarizeSalePromptAsync
+  nameWithType: IAIAgent.GetSummarizeSalePromptAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePromptAsync

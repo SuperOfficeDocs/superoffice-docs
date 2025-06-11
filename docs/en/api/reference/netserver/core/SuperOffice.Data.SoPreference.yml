@@ -5,29 +5,33 @@ items:
   id: SoPreference
   parent: SuperOffice.Data
   children:
-  - SuperOffice.Data.SoPreference.AsyncFullInit
   - SuperOffice.Data.SoPreference.CacheLifetime
   - SuperOffice.Data.SoPreference.GetBool(System.String,System.String,System.Boolean)
-  - SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String)
-  - SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String,System.DateTime)
+  - SuperOffice.Data.SoPreference.GetBoolAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoPreference.GetDateTimeAsync(System.String,System.String,System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoPreference.GetDateTimeAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.Data.SoPreference.GetInt(System.String,System.String,System.Int32)
-  - SuperOffice.Data.SoPreference.GetKeys(System.String)
+  - SuperOffice.Data.SoPreference.GetIntAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoPreference.GetKeysAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.Data.SoPreference.GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
+  - SuperOffice.Data.SoPreference.GetPreferenceAsync(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.Data.SoPreference.GetSectionAndKeyFromId(System.Int32)
-  - SuperOffice.Data.SoPreference.GetSections
+  - SuperOffice.Data.SoPreference.GetSectionsAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SoPreference.GetString(System.String,System.String)
   - SuperOffice.Data.SoPreference.GetString(System.String,System.String,System.String)
+  - SuperOffice.Data.SoPreference.GetStringAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoPreference.GetStringAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.Data.SoPreference.IndividualCacheKey(System.String,System.String)
   - SuperOffice.Data.SoPreference.ParseBooleanPreference(System.String,System.Boolean)
   - SuperOffice.Data.SoPreference.SectionCacheKey(System.String)
   - SuperOffice.Data.SoPreference.SetCachedValue(System.Int32,System.String,System.String,System.String,SuperOffice.Data.PreferenceLevel)
   - SuperOffice.Data.SoPreference.SetCachedValue(System.String,System.String,System.String)
-  - SuperOffice.Data.SoPreference.SetKeys(System.String)
-  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Boolean)
-  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.DateTime)
-  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Int32)
-  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String)
-  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
+  - SuperOffice.Data.SoPreference.SetKeys(System.String,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -57,16 +61,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.Data.SoPreference.GetSections
-  commentId: M:SuperOffice.Data.SoPreference.GetSections
-  id: GetSections
+- uid: SuperOffice.Data.SoPreference.GetSectionsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.GetSectionsAsync(System.Threading.CancellationToken)
+  id: GetSectionsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: GetSections()
-  nameWithType: SoPreference.GetSections()
-  fullName: SuperOffice.Data.SoPreference.GetSections()
+  name: GetSectionsAsync(CancellationToken)
+  nameWithType: SoPreference.GetSectionsAsync(CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.GetSectionsAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -77,59 +81,31 @@ items:
   summary: "\nGet all sections defined for the current associate, from the cache if possible, otherwise from the database.\n"
   remarks: "\nAn intended side effect is that the key cache for each section plus the value\ncache for each key are set.\n"
   syntax:
-    content: public static string[] GetSections()
+    content: public static Task<string[]> GetSectionsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
+      type: System.Threading.Tasks.Task{System.String[]}
       description: Array of sections
-    content.vb: Public Shared Function GetSections As String()
-  overload: SuperOffice.Data.SoPreference.GetSections*
+    content.vb: Public Shared Function GetSectionsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.Data.SoPreference.GetSectionsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.AsyncFullInit
-  commentId: M:SuperOffice.Data.SoPreference.AsyncFullInit
-  id: AsyncFullInit
+- uid: SuperOffice.Data.SoPreference.GetKeysAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.GetKeysAsync(System.String,System.Threading.CancellationToken)
+  id: GetKeysAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: AsyncFullInit()
-  nameWithType: SoPreference.AsyncFullInit()
-  fullName: SuperOffice.Data.SoPreference.AsyncFullInit()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nReserved for internal use\n"
-  remarks: "\nThis method calls <xref href=\"SuperOffice.Data.SoPreference.GetSections\" data-throw-if-not-resolved=\"false\"></xref> to trigger a full initialization (read\nall sections and data), asynchronously. Use the <xref href=\"SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32%2cSuperOffice.Threading.AsyncContext%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>\nto wait for it to complete at your convenience, and <strong>DO NOT</strong> call any other \npreference-related methods in the meantime.\n"
-  syntax:
-    content: public static AsyncContext AsyncFullInit()
-    return:
-      type: SuperOffice.Threading.AsyncContext
-    content.vb: Public Shared Function AsyncFullInit As AsyncContext
-  overload: SuperOffice.Data.SoPreference.AsyncFullInit*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.SoPreference.GetKeys(System.String)
-  commentId: M:SuperOffice.Data.SoPreference.GetKeys(System.String)
-  id: GetKeys(System.String)
-  parent: SuperOffice.Data.SoPreference
-  langs:
-  - csharp
-  - vb
-  name: GetKeys(String)
-  nameWithType: SoPreference.GetKeys(String)
-  fullName: SuperOffice.Data.SoPreference.GetKeys(System.String)
+  name: GetKeysAsync(String, CancellationToken)
+  nameWithType: SoPreference.GetKeysAsync(String, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.GetKeysAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -140,32 +116,34 @@ items:
   summary: "\nGet all available keys within a section from the cache if possible, otherwise from the database.\n"
   remarks: "\nAn intended side effect is that the value\ncache for each key are set.\n"
   syntax:
-    content: public static string[] GetKeys(string section)
+    content: public static Task<string[]> GetKeysAsync(string section, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
       description: Name of the section.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
+      type: System.Threading.Tasks.Task{System.String[]}
       description: Available keys in the section.
-    content.vb: Public Shared Function GetKeys(section As String) As String()
-  overload: SuperOffice.Data.SoPreference.GetKeys*
+    content.vb: Public Shared Function GetKeysAsync(section As String, cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.Data.SoPreference.GetKeysAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.SetKeys(System.String)
-  commentId: M:SuperOffice.Data.SoPreference.SetKeys(System.String)
-  id: SetKeys(System.String)
+- uid: SuperOffice.Data.SoPreference.SetKeys(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.SetKeys(System.String,System.Threading.CancellationToken)
+  id: SetKeys(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: SetKeys(String)
-  nameWithType: SoPreference.SetKeys(String)
-  fullName: SuperOffice.Data.SoPreference.SetKeys(System.String)
+  name: SetKeys(String, CancellationToken)
+  nameWithType: SoPreference.SetKeys(String, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.SetKeys(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -174,13 +152,15 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static string[] SetKeys(string section)
+    content: public static Task<string[]> SetKeys(string section, CancellationToken cancellationToken)
     parameters:
     - id: section
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
-    content.vb: Public Shared Function SetKeys(section As String) As String()
+      type: System.Threading.Tasks.Task{System.String[]}
+    content.vb: Public Shared Function SetKeys(section As String, cancellationToken As CancellationToken) As Task(Of String())
   overload: SuperOffice.Data.SoPreference.SetKeys*
   modifiers.csharp:
   - public
@@ -220,16 +200,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.GetString(System.String,System.String,System.String)
-  commentId: M:SuperOffice.Data.SoPreference.GetString(System.String,System.String,System.String)
-  id: GetString(System.String,System.String,System.String)
+- uid: SuperOffice.Data.SoPreference.GetStringAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.GetStringAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: GetStringAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: GetString(String, String, String)
-  nameWithType: SoPreference.GetString(String, String, String)
-  fullName: SuperOffice.Data.SoPreference.GetString(System.String, System.String, System.String)
+  name: GetStringAsync(String, String, String, CancellationToken)
+  nameWithType: SoPreference.GetStringAsync(String, String, String, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.GetStringAsync(System.String, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -239,7 +219,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nGet string value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
   syntax:
-    content: public static string GetString(string section, string key, string defaultValue)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<string> GetStringAsync(string section, string key, string defaultValue, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -250,11 +233,24 @@ items:
     - id: defaultValue
       type: System.String
       description: Default value
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: "\nUser preference.  If the user preference does not exist, the defualtValue is returned.\n"
-    content.vb: Public Shared Function GetString(section As String, key As String, defaultValue As String) As String
-  overload: SuperOffice.Data.SoPreference.GetString*
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetStringAsync(section As String, key As String, defaultValue As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.Data.SoPreference.GetStringAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - static
@@ -340,16 +336,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.GetString(System.String,System.String)
-  commentId: M:SuperOffice.Data.SoPreference.GetString(System.String,System.String)
-  id: GetString(System.String,System.String)
+- uid: SuperOffice.Data.SoPreference.GetStringAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.GetStringAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetStringAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: GetString(String, String)
-  nameWithType: SoPreference.GetString(String, String)
-  fullName: SuperOffice.Data.SoPreference.GetString(System.String, System.String)
+  name: GetStringAsync(String, String, CancellationToken)
+  nameWithType: SoPreference.GetStringAsync(String, String, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.GetStringAsync(System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -359,7 +355,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nGet string value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
   syntax:
-    content: public static string GetString(string section, string key)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<string> GetStringAsync(string section, string key, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -367,27 +366,40 @@ items:
     - id: key
       type: System.String
       description: Name of the key.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: User preference.  If the user preference does not exist, <xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref> is returned.
-    content.vb: Public Shared Function GetString(section As String, key As String) As String
-  overload: SuperOffice.Data.SoPreference.GetString*
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetStringAsync(section As String, key As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.Data.SoPreference.GetStringAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.GetBool(System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.Data.SoPreference.GetBool(System.String,System.String,System.Boolean)
-  id: GetBool(System.String,System.String,System.Boolean)
+- uid: SuperOffice.Data.SoPreference.GetBoolAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.GetBoolAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetBoolAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: GetBool(String, String, Boolean)
-  nameWithType: SoPreference.GetBool(String, String, Boolean)
-  fullName: SuperOffice.Data.SoPreference.GetBool(System.String, System.String, System.Boolean)
+  name: GetBoolAsync(String, String, Boolean, CancellationToken)
+  nameWithType: SoPreference.GetBoolAsync(String, String, Boolean, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.GetBoolAsync(System.String, System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -397,7 +409,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nGet boolean value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
   syntax:
-    content: public static bool GetBool(string section, string key, bool defaultValue)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<bool> GetBoolAsync(string section, string key, bool defaultValue, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -408,11 +423,24 @@ items:
     - id: defaultValue
       type: System.Boolean
       description: Default value
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: User preference.  If the user preference does not excist, the defualtValue is returned.
-    content.vb: Public Shared Function GetBool(section As String, key As String, defaultValue As Boolean) As Boolean
-  overload: SuperOffice.Data.SoPreference.GetBool*
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetBoolAsync(section As String, key As String, defaultValue As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.SoPreference.GetBoolAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - static
@@ -454,16 +482,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.GetInt(System.String,System.String,System.Int32)
-  commentId: M:SuperOffice.Data.SoPreference.GetInt(System.String,System.String,System.Int32)
-  id: GetInt(System.String,System.String,System.Int32)
+- uid: SuperOffice.Data.SoPreference.GetIntAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.GetIntAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetIntAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: GetInt(String, String, Int32)
-  nameWithType: SoPreference.GetInt(String, String, Int32)
-  fullName: SuperOffice.Data.SoPreference.GetInt(System.String, System.String, System.Int32)
+  name: GetIntAsync(String, String, Int32, CancellationToken)
+  nameWithType: SoPreference.GetIntAsync(String, String, Int32, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.GetIntAsync(System.String, System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -473,7 +501,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nGet integer value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
   syntax:
-    content: public static int GetInt(string section, string key, int defaultValue)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<int> GetIntAsync(string section, string key, int defaultValue, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -484,27 +515,40 @@ items:
     - id: defaultValue
       type: System.Int32
       description: Default value
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: User preference.  If the user preference does not exist, the defualtValue is returned.
-    content.vb: Public Shared Function GetInt(section As String, key As String, defaultValue As Integer) As Integer
-  overload: SuperOffice.Data.SoPreference.GetInt*
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetIntAsync(section As String, key As String, defaultValue As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.SoPreference.GetIntAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String,System.DateTime)
-  commentId: M:SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String,System.DateTime)
-  id: GetDateTime(System.String,System.String,System.DateTime)
+- uid: SuperOffice.Data.SoPreference.GetDateTimeAsync(System.String,System.String,System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.GetDateTimeAsync(System.String,System.String,System.DateTime,System.Threading.CancellationToken)
+  id: GetDateTimeAsync(System.String,System.String,System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: GetDateTime(String, String, DateTime)
-  nameWithType: SoPreference.GetDateTime(String, String, DateTime)
-  fullName: SuperOffice.Data.SoPreference.GetDateTime(System.String, System.String, System.DateTime)
+  name: GetDateTimeAsync(String, String, DateTime, CancellationToken)
+  nameWithType: SoPreference.GetDateTimeAsync(String, String, DateTime, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.GetDateTimeAsync(System.String, System.String, System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -514,7 +558,7 @@ items:
   namespace: SuperOffice.Data
   summary: "\nGet DateTime value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
   syntax:
-    content: public static DateTime GetDateTime(string section, string key, DateTime defaultValue)
+    content: public static Task<DateTime> GetDateTimeAsync(string section, string key, DateTime defaultValue, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -525,27 +569,29 @@ items:
     - id: defaultValue
       type: System.DateTime
       description: Default value
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.DateTime
-      description: User preference.  If the user preference does not excist, the defualtValue is returned.
-    content.vb: Public Shared Function GetDateTime(section As String, key As String, defaultValue As DateTime) As DateTime
-  overload: SuperOffice.Data.SoPreference.GetDateTime*
+      type: System.Threading.Tasks.Task{System.DateTime}
+      description: User preference.  If the user preference does not exist, the defualtValue is returned.
+    content.vb: Public Shared Function GetDateTimeAsync(section As String, key As String, defaultValue As DateTime, cancellationToken As CancellationToken = Nothing) As Task(Of DateTime)
+  overload: SuperOffice.Data.SoPreference.GetDateTimeAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String)
-  commentId: M:SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String)
-  id: GetDateTime(System.String,System.String)
+- uid: SuperOffice.Data.SoPreference.GetDateTimeAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.GetDateTimeAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetDateTimeAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: GetDateTime(String, String)
-  nameWithType: SoPreference.GetDateTime(String, String)
-  fullName: SuperOffice.Data.SoPreference.GetDateTime(System.String, System.String)
+  name: GetDateTimeAsync(String, String, CancellationToken)
+  nameWithType: SoPreference.GetDateTimeAsync(String, String, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.GetDateTimeAsync(System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -555,7 +601,7 @@ items:
   namespace: SuperOffice.Data
   summary: "\nGet DateTime value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
   syntax:
-    content: public static DateTime GetDateTime(string section, string key)
+    content: public static Task<DateTime> GetDateTimeAsync(string section, string key, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -563,27 +609,29 @@ items:
     - id: key
       type: System.String
       description: Name of the key.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.DateTime
-      description: User preference.  If the user preference does not excist, midnight January 1st, 1970 is returned.
-    content.vb: Public Shared Function GetDateTime(section As String, key As String) As DateTime
-  overload: SuperOffice.Data.SoPreference.GetDateTime*
+      type: System.Threading.Tasks.Task{System.DateTime}
+      description: User preference.  If the user preference does not exist, midnight January 1st, 1970 is returned.
+    content.vb: Public Shared Function GetDateTimeAsync(section As String, key As String, cancellationToken As CancellationToken = Nothing) As Task(Of DateTime)
+  overload: SuperOffice.Data.SoPreference.GetDateTimeAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Int32)
-  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Int32)
-  id: SetPreference(System.String,System.String,System.Int32)
+- uid: SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  id: SetPreferenceAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: SetPreference(String, String, Int32)
-  nameWithType: SoPreference.SetPreference(String, String, Int32)
-  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.Int32)
+  name: SetPreferenceAsync(String, String, Int32, CancellationToken)
+  nameWithType: SoPreference.SetPreferenceAsync(String, String, Int32, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String, System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -593,7 +641,7 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSet a preference on the Individual (associate) level\n"
   syntax:
-    content: public static void SetPreference(string section, string key, int value)
+    content: public static Task SetPreferenceAsync(string section, string key, int value, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -604,24 +652,28 @@ items:
     - id: value
       type: System.Int32
       description: New value, will overwrite the old or create a new record if no associate-level preference existed for the current associate
-    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As Integer)
-  overload: SuperOffice.Data.SoPreference.SetPreference*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetPreferenceAsync(section As String, key As String, value As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.SoPreference.SetPreferenceAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Boolean)
-  id: SetPreference(System.String,System.String,System.Boolean)
+- uid: SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: SetPreferenceAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: SetPreference(String, String, Boolean)
-  nameWithType: SoPreference.SetPreference(String, String, Boolean)
-  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.Boolean)
+  name: SetPreferenceAsync(String, String, Boolean, CancellationToken)
+  nameWithType: SoPreference.SetPreferenceAsync(String, String, Boolean, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String, System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -631,7 +683,7 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSet a preference on the Individual (associate) level\n"
   syntax:
-    content: public static void SetPreference(string section, string key, bool value)
+    content: public static Task SetPreferenceAsync(string section, string key, bool value, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -642,24 +694,28 @@ items:
     - id: value
       type: System.Boolean
       description: New value, will overwrite the old or create a new record if no associate-level preference existed for the current associate
-    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As Boolean)
-  overload: SuperOffice.Data.SoPreference.SetPreference*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetPreferenceAsync(section As String, key As String, value As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.SoPreference.SetPreferenceAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.DateTime)
-  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.DateTime)
-  id: SetPreference(System.String,System.String,System.DateTime)
+- uid: SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.DateTime,System.Threading.CancellationToken)
+  id: SetPreferenceAsync(System.String,System.String,System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: SetPreference(String, String, DateTime)
-  nameWithType: SoPreference.SetPreference(String, String, DateTime)
-  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.DateTime)
+  name: SetPreferenceAsync(String, String, DateTime, CancellationToken)
+  nameWithType: SoPreference.SetPreferenceAsync(String, String, DateTime, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String, System.String, System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -669,7 +725,7 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSet a preference on the Individual (associate) level\n"
   syntax:
-    content: public static void SetPreference(string section, string key, DateTime value)
+    content: public static Task SetPreferenceAsync(string section, string key, DateTime value, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -680,24 +736,28 @@ items:
     - id: value
       type: System.DateTime
       description: New value, will overwrite the old or create a new record if no associate-level preference existed for the current associate
-    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As DateTime)
-  overload: SuperOffice.Data.SoPreference.SetPreference*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetPreferenceAsync(section As String, key As String, value As DateTime, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.SoPreference.SetPreferenceAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String)
-  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String)
-  id: SetPreference(System.String,System.String,System.String)
+- uid: SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: SetPreferenceAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: SetPreference(String, String, String)
-  nameWithType: SoPreference.SetPreference(String, String, String)
-  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.String)
+  name: SetPreferenceAsync(String, String, String, CancellationToken)
+  nameWithType: SoPreference.SetPreferenceAsync(String, String, String, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -707,7 +767,7 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSet a preference on the maximum supported level for the given preference. If the maximum level is &quot;Individual&quot; - .an associate level preference will be created.\nIf the maxiumum level is &quot;Group&quot;, a group level preference for the current associate will be created.\n"
   syntax:
-    content: public static void SetPreference(string section, string key, string value)
+    content: public static Task SetPreferenceAsync(string section, string key, string value, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -718,24 +778,28 @@ items:
     - id: value
       type: System.String
       description: New value, will overwrite the old or create a new record if no preference existed for the maximum supported level
-    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As String)
-  overload: SuperOffice.Data.SoPreference.SetPreference*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetPreferenceAsync(section As String, key As String, value As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.SoPreference.SetPreferenceAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
-  id: SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
+- uid: SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: SetPreferenceAsync(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: SetPreference(String, String, String, Int32, PreferenceLevel, Boolean, Boolean)
-  nameWithType: SoPreference.SetPreference(String, String, String, Int32, PreferenceLevel, Boolean, Boolean)
-  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.String, System.Int32, SuperOffice.Data.PreferenceLevel, System.Boolean, System.Boolean)
+  name: SetPreferenceAsync(String, String, String, Int32, PreferenceLevel, Boolean, Boolean, CancellationToken)
+  nameWithType: SoPreference.SetPreferenceAsync(String, String, String, Int32, PreferenceLevel, Boolean, Boolean, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.SetPreferenceAsync(System.String, System.String, System.String, System.Int32, SuperOffice.Data.PreferenceLevel, System.Boolean, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -745,7 +809,7 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSet a preference \n"
   syntax:
-    content: public static int SetPreference(string section, string key, string value, int ownerId, PreferenceLevel level, bool removeOnLowerLevels = false, bool skipPermissionCheck = false)
+    content: public static Task<int> SetPreferenceAsync(string section, string key, string value, int ownerId, PreferenceLevel level, bool removeOnLowerLevels = false, bool skipPermissionCheck = false, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -768,26 +832,28 @@ items:
     - id: skipPermissionCheck
       type: System.Boolean
       description: Set this to true to skip the check for setting system wide preferences
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function SetPreference(section As String, key As String, value As String, ownerId As Integer, level As PreferenceLevel, removeOnLowerLevels As Boolean = False, skipPermissionCheck As Boolean = False) As Integer
-  overload: SuperOffice.Data.SoPreference.SetPreference*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function SetPreferenceAsync(section As String, key As String, value As String, ownerId As Integer, level As PreferenceLevel, removeOnLowerLevels As Boolean = False, skipPermissionCheck As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.SoPreference.SetPreferenceAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SoPreference.GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
-  commentId: M:SuperOffice.Data.SoPreference.GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
-  id: GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
+- uid: SuperOffice.Data.SoPreference.GetPreferenceAsync(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoPreference.GetPreferenceAsync(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Threading.CancellationToken)
+  id: GetPreferenceAsync(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoPreference
   langs:
   - csharp
   - vb
-  name: GetPreference(String, String, Int32, PreferenceLevel, Boolean)
-  nameWithType: SoPreference.GetPreference(String, String, Int32, PreferenceLevel, Boolean)
-  fullName: SuperOffice.Data.SoPreference.GetPreference(System.String, System.String, System.Int32, SuperOffice.Data.PreferenceLevel, System.Boolean)
+  name: GetPreferenceAsync(String, String, Int32, PreferenceLevel, Boolean, CancellationToken)
+  nameWithType: SoPreference.GetPreferenceAsync(String, String, Int32, PreferenceLevel, Boolean, CancellationToken)
+  fullName: SuperOffice.Data.SoPreference.GetPreferenceAsync(System.String, System.String, System.Int32, SuperOffice.Data.PreferenceLevel, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -797,7 +863,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nGet a preference value directly from the database, specifying a full section/key/level/owner independent of the current user\n"
   syntax:
-    content: public static string GetPreference(string section, string key, int ownerId, PreferenceLevel level, bool skipPermissionCheck = false)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<string> GetPreferenceAsync(string section, string key, int ownerId, PreferenceLevel level, bool skipPermissionCheck = false, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -814,10 +883,23 @@ items:
     - id: skipPermissionCheck
       type: System.Boolean
       description: Set this to true to skip the check for setting system wide preferences
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetPreference(section As String, key As String, ownerId As Integer, level As PreferenceLevel, skipPermissionCheck As Boolean = False) As String
-  overload: SuperOffice.Data.SoPreference.GetPreference*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetPreferenceAsync(section As String, key As String, ownerId As Integer, level As PreferenceLevel, skipPermissionCheck As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.Data.SoPreference.GetPreferenceAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - static
@@ -897,6 +979,213 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Data.SoPreference.GetString(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Data.SoPreference.GetString(System.String,System.String,System.String)
+  id: GetString(System.String,System.String,System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetString(String, String, String)
+  nameWithType: SoPreference.GetString(String, String, String)
+  fullName: SuperOffice.Data.SoPreference.GetString(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet string value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
+  syntax:
+    content: public static string GetString(string section, string key, string defaultValue)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    - id: key
+      type: System.String
+      description: Name of the key.
+    - id: defaultValue
+      type: System.String
+      description: Default value
+    return:
+      type: System.String
+      description: "\nUser preference.  If the user preference does not exist, the defualtValue is returned.\n"
+    content.vb: Public Shared Function GetString(section As String, key As String, defaultValue As String) As String
+  overload: SuperOffice.Data.SoPreference.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetString(System.String,System.String)
+  commentId: M:SuperOffice.Data.SoPreference.GetString(System.String,System.String)
+  id: GetString(System.String,System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetString(String, String)
+  nameWithType: SoPreference.GetString(String, String)
+  fullName: SuperOffice.Data.SoPreference.GetString(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet string value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
+  syntax:
+    content: public static string GetString(string section, string key)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    - id: key
+      type: System.String
+      description: Name of the key.
+    return:
+      type: System.String
+      description: User preference.  If the user preference does not exist, <see cref="!:String.Empty"></see> is returned.
+    content.vb: Public Shared Function GetString(section As String, key As String) As String
+  overload: SuperOffice.Data.SoPreference.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetBool(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.Data.SoPreference.GetBool(System.String,System.String,System.Boolean)
+  id: GetBool(System.String,System.String,System.Boolean)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetBool(String, String, Boolean)
+  nameWithType: SoPreference.GetBool(String, String, Boolean)
+  fullName: SuperOffice.Data.SoPreference.GetBool(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet boolean value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
+  syntax:
+    content: public static bool GetBool(string section, string key, bool defaultValue)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    - id: key
+      type: System.String
+      description: Name of the key.
+    - id: defaultValue
+      type: System.Boolean
+      description: Default value
+    return:
+      type: System.Boolean
+      description: User preference.  If the user preference does not excist, the defualtValue is returned.
+    content.vb: Public Shared Function GetBool(section As String, key As String, defaultValue As Boolean) As Boolean
+  overload: SuperOffice.Data.SoPreference.GetBool*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetInt(System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.Data.SoPreference.GetInt(System.String,System.String,System.Int32)
+  id: GetInt(System.String,System.String,System.Int32)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetInt(String, String, Int32)
+  nameWithType: SoPreference.GetInt(String, String, Int32)
+  fullName: SuperOffice.Data.SoPreference.GetInt(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet integer value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
+  syntax:
+    content: public static int GetInt(string section, string key, int defaultValue)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    - id: key
+      type: System.String
+      description: Name of the key.
+    - id: defaultValue
+      type: System.Int32
+      description: Default value
+    return:
+      type: System.Int32
+      description: User preference.  If the user preference does not exist, the defualtValue is returned.
+    content.vb: Public Shared Function GetInt(section As String, key As String, defaultValue As Integer) As Integer
+  overload: SuperOffice.Data.SoPreference.GetInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
+  commentId: M:SuperOffice.Data.SoPreference.GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
+  id: GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetPreference(String, String, Int32, PreferenceLevel, Boolean)
+  nameWithType: SoPreference.GetPreference(String, String, Int32, PreferenceLevel, Boolean)
+  fullName: SuperOffice.Data.SoPreference.GetPreference(System.String, System.String, System.Int32, SuperOffice.Data.PreferenceLevel, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet a preference value directly from the database, specifying a full section/key/level/owner independent of the current user\n"
+  syntax:
+    content: public static string GetPreference(string section, string key, int ownerId, PreferenceLevel level, bool skipPermissionCheck = false)
+    parameters:
+    - id: section
+      type: System.String
+      description: Preference section
+    - id: key
+      type: System.String
+      description: Preference key
+    - id: ownerId
+      type: System.Int32
+      description: The id to set for the ownerId field. This will point to different id type depending on the preference type
+    - id: level
+      type: SuperOffice.Data.PreferenceLevel
+      description: The level to set for this preference
+    - id: skipPermissionCheck
+      type: System.Boolean
+      description: Set this to true to skip the check for setting system wide preferences
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetPreference(section As String, key As String, ownerId As Integer, level As PreferenceLevel, skipPermissionCheck As Boolean = False) As String
+  overload: SuperOffice.Data.SoPreference.GetPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Data.SoPreference.CacheLifetime
   commentId: P:SuperOffice.Data.SoPreference.CacheLifetime
   id: CacheLifetime
@@ -951,21 +1240,35 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.Data.SoPreference.GetSections*
-  commentId: Overload:SuperOffice.Data.SoPreference.GetSections
+- uid: SuperOffice.Data.SoPreference.GetSectionsAsync*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetSectionsAsync
   isExternal: true
-  name: GetSections
-  nameWithType: SoPreference.GetSections
-  fullName: SuperOffice.Data.SoPreference.GetSections
-- uid: System.String[]
+  name: GetSectionsAsync
+  nameWithType: SoPreference.GetSectionsAsync
+  fullName: SuperOffice.Data.SoPreference.GetSectionsAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
     name: String
     nameWithType: String
@@ -974,7 +1277,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
     nameWithType: String
@@ -983,31 +1297,53 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.Data.SoPreference.AsyncFullInit*
-  commentId: Overload:SuperOffice.Data.SoPreference.AsyncFullInit
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: AsyncFullInit
-  nameWithType: SoPreference.AsyncFullInit
-  fullName: SuperOffice.Data.SoPreference.AsyncFullInit
-- uid: SuperOffice.Threading.AsyncContext
-  commentId: T:SuperOffice.Threading.AsyncContext
-  parent: SuperOffice.Threading
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoPreference.GetKeysAsync*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetKeysAsync
   isExternal: true
-  name: AsyncContext
-  nameWithType: AsyncContext
-  fullName: SuperOffice.Threading.AsyncContext
-- uid: SuperOffice.Threading
-  commentId: N:SuperOffice.Threading
-  isExternal: true
-  name: SuperOffice.Threading
-  nameWithType: SuperOffice.Threading
-  fullName: SuperOffice.Threading
-- uid: SuperOffice.Data.SoPreference.GetKeys*
-  commentId: Overload:SuperOffice.Data.SoPreference.GetKeys
-  isExternal: true
-  name: GetKeys
-  nameWithType: SoPreference.GetKeys
-  fullName: SuperOffice.Data.SoPreference.GetKeys
+  name: GetKeysAsync
+  nameWithType: SoPreference.GetKeysAsync
+  fullName: SuperOffice.Data.SoPreference.GetKeysAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1041,12 +1377,55 @@ references:
   name: UserPreferenceCacheObject
   nameWithType: UserPreferenceCacheObject
   fullName: SuperOffice.Data.UserPreferenceCacheObject
-- uid: SuperOffice.Data.SoPreference.GetString*
-  commentId: Overload:SuperOffice.Data.SoPreference.GetString
+- uid: SuperOffice.Data.SoPreference.GetStringAsync*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetStringAsync
   isExternal: true
-  name: GetString
-  nameWithType: SoPreference.GetString
-  fullName: SuperOffice.Data.SoPreference.GetString
+  name: GetStringAsync
+  nameWithType: SoPreference.GetStringAsync
+  fullName: SuperOffice.Data.SoPreference.GetStringAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SoPreference.SetCachedValue*
   commentId: Overload:SuperOffice.Data.SoPreference.SetCachedValue
   isExternal: true
@@ -1060,12 +1439,12 @@ references:
   name: PreferenceLevel
   nameWithType: PreferenceLevel
   fullName: SuperOffice.Data.PreferenceLevel
-- uid: SuperOffice.Data.SoPreference.GetBool*
-  commentId: Overload:SuperOffice.Data.SoPreference.GetBool
+- uid: SuperOffice.Data.SoPreference.GetBoolAsync*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetBoolAsync
   isExternal: true
-  name: GetBool
-  nameWithType: SoPreference.GetBool
-  fullName: SuperOffice.Data.SoPreference.GetBool
+  name: GetBoolAsync
+  nameWithType: SoPreference.GetBoolAsync
+  fullName: SuperOffice.Data.SoPreference.GetBoolAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1073,41 +1452,175 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SoPreference.ParseBooleanPreference*
   commentId: Overload:SuperOffice.Data.SoPreference.ParseBooleanPreference
   isExternal: true
   name: ParseBooleanPreference
   nameWithType: SoPreference.ParseBooleanPreference
   fullName: SuperOffice.Data.SoPreference.ParseBooleanPreference
-- uid: SuperOffice.Data.SoPreference.GetInt*
-  commentId: Overload:SuperOffice.Data.SoPreference.GetInt
+- uid: SuperOffice.Data.SoPreference.GetIntAsync*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetIntAsync
   isExternal: true
-  name: GetInt
-  nameWithType: SoPreference.GetInt
-  fullName: SuperOffice.Data.SoPreference.GetInt
-- uid: SuperOffice.Data.SoPreference.GetDateTime*
-  commentId: Overload:SuperOffice.Data.SoPreference.GetDateTime
+  name: GetIntAsync
+  nameWithType: SoPreference.GetIntAsync
+  fullName: SuperOffice.Data.SoPreference.GetIntAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoPreference.GetDateTimeAsync*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetDateTimeAsync
   isExternal: true
-  name: GetDateTime
-  nameWithType: SoPreference.GetDateTime
-  fullName: SuperOffice.Data.SoPreference.GetDateTime
+  name: GetDateTimeAsync
+  nameWithType: SoPreference.GetDateTimeAsync
+  fullName: SuperOffice.Data.SoPreference.GetDateTimeAsync
 - uid: System.DateTime
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: SuperOffice.Data.SoPreference.SetPreference*
-  commentId: Overload:SuperOffice.Data.SoPreference.SetPreference
+- uid: System.Threading.Tasks.Task{System.DateTime}
+  commentId: '!:System.Threading.Tasks.Task{System.DateTime}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DateTime>
+  nameWithType: Task<DateTime>
+  fullName: System.Threading.Tasks.Task<System.DateTime>
+  nameWithType.vb: Task(Of DateTime)
+  fullName.vb: System.Threading.Tasks.Task(Of System.DateTime)
+  name.vb: Task(Of DateTime)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoPreference.SetPreferenceAsync*
+  commentId: Overload:SuperOffice.Data.SoPreference.SetPreferenceAsync
   isExternal: true
-  name: SetPreference
-  nameWithType: SoPreference.SetPreference
-  fullName: SuperOffice.Data.SoPreference.SetPreference
-- uid: SuperOffice.Data.SoPreference.GetPreference*
-  commentId: Overload:SuperOffice.Data.SoPreference.GetPreference
+  name: SetPreferenceAsync
+  nameWithType: SoPreference.SetPreferenceAsync
+  fullName: SuperOffice.Data.SoPreference.SetPreferenceAsync
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: GetPreference
-  nameWithType: SoPreference.GetPreference
-  fullName: SuperOffice.Data.SoPreference.GetPreference
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Data.SoPreference.GetPreferenceAsync*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetPreferenceAsync
+  isExternal: true
+  name: GetPreferenceAsync
+  nameWithType: SoPreference.GetPreferenceAsync
+  fullName: SuperOffice.Data.SoPreference.GetPreferenceAsync
 - uid: SuperOffice.Data.SoPreference.SectionCacheKey*
   commentId: Overload:SuperOffice.Data.SoPreference.SectionCacheKey
   isExternal: true
@@ -1120,6 +1633,30 @@ references:
   name: IndividualCacheKey
   nameWithType: SoPreference.IndividualCacheKey
   fullName: SuperOffice.Data.SoPreference.IndividualCacheKey
+- uid: SuperOffice.Data.SoPreference.GetString*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetString
+  isExternal: true
+  name: GetString
+  nameWithType: SoPreference.GetString
+  fullName: SuperOffice.Data.SoPreference.GetString
+- uid: SuperOffice.Data.SoPreference.GetBool*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetBool
+  isExternal: true
+  name: GetBool
+  nameWithType: SoPreference.GetBool
+  fullName: SuperOffice.Data.SoPreference.GetBool
+- uid: SuperOffice.Data.SoPreference.GetInt*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetInt
+  isExternal: true
+  name: GetInt
+  nameWithType: SoPreference.GetInt
+  fullName: SuperOffice.Data.SoPreference.GetInt
+- uid: SuperOffice.Data.SoPreference.GetPreference*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetPreference
+  isExternal: true
+  name: GetPreference
+  nameWithType: SoPreference.GetPreference
+  fullName: SuperOffice.Data.SoPreference.GetPreference
 - uid: SuperOffice.Data.SoPreference.CacheLifetime*
   commentId: Overload:SuperOffice.Data.SoPreference.CacheLifetime
   isExternal: true

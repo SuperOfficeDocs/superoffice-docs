@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
   - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
-  name: ToInsert()
-  nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SourceHeadingLinkRecordData)
-  nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert(SourceHeadingLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+  name: ToInsertAsync(SourceHeadingLinkRecordData, CancellationToken)
+  nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsertAsync(SourceHeadingLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
-    name: ToInsert
-    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: SourceHeadingLinkRecordData
     nameWithType: SourceHeadingLinkRecordData
     fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
-    name: ToInsert
-    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: SourceHeadingLinkRecordData
     nameWithType: SourceHeadingLinkRecordData
     fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

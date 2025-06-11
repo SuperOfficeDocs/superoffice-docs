@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData)
   - SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData.SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData.SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData.SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData.SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData)
-  name: ToInsert()
-  nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SearchCatHeadingLinkRecordData)
-  nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsert(SearchCatHeadingLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData)
+  name: ToInsertAsync(SearchCatHeadingLinkRecordData, CancellationToken)
+  nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(SearchCatHeadingLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData)
-    name: ToInsert
-    nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: SearchCatHeadingLinkRecordData
     nameWithType: SearchCatHeadingLinkRecordData
     fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData)
-    name: ToInsert
-    nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: SearchCatHeadingLinkRecordData
     nameWithType: SearchCatHeadingLinkRecordData
     fullName: SuperOffice.CRM.Rows.SearchCatHeadingLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

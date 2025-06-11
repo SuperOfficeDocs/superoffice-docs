@@ -1,0 +1,361 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.IInterestHelperFactory
+  commentId: T:SuperOffice.CRM.Entities.IInterestHelperFactory
+  id: IInterestHelperFactory
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IInterestHelperFactory
+  nameWithType: IInterestHelperFactory
+  fullName: SuperOffice.CRM.Entities.IInterestHelperFactory
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public interface IInterestHelperFactory
+    content.vb: Public Interface IInterestHelperFactory
+  extensionMethods:
+  - SuperOffice.CRM.Entities.IInterestHelperFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.IInterestHelperFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  id: CreateAsync``1(``0,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelperFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync<T>(T, Int32, CancellationToken)
+  nameWithType: IInterestHelperFactory.CreateAsync<T>(T, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync<T>(T, System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nInstantiates a class that inherits IInterestHelper. The class is picked based on a given type of linkRows object.\nPlease check currently supported linkRows types on the implementation of this method.\n"
+  syntax:
+    content: >-
+      Task<IInterestHelper> CreateAsync<T>(T linkRows, int id, CancellationToken cancellationToken = null)
+          where T : TableRowsBase
+    parameters:
+    - id: linkRows
+      type: '{T}'
+      description: Supported linkRows object.
+    - id: id
+      type: System.Int32
+      description: Entity Id.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.IInterestHelper}
+      description: Class inheriting IInterestHelper
+    content.vb: Function CreateAsync(Of T As TableRowsBase)(linkRows As T, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of IInterestHelper)
+  overload: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync*
+  nameWithType.vb: IInterestHelperFactory.CreateAsync(Of T)(T, Int32, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync(Of T)(T, System.Int32, System.Threading.CancellationToken)
+  name.vb: CreateAsync(Of T)(T, Int32, CancellationToken)
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.IInterestHelperFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IInterestHelperFactory, To>()
+  nameWithType: EnumUtil.MapEnums<IInterestHelperFactory, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.IInterestHelperFactory, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IInterestHelperFactory, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.IInterestHelperFactory, To)()
+  name.vb: MapEnums(Of IInterestHelperFactory, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IInterestHelperFactory, To>
+    nameWithType: EnumUtil.MapEnums<IInterestHelperFactory, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.IInterestHelperFactory, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IInterestHelperFactory, To)
+    nameWithType: EnumUtil.MapEnums(Of IInterestHelperFactory, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.IInterestHelperFactory, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.IInterestHelperFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IInterestHelperFactory, To>()
+  nameWithType: Converters.MapEnums<IInterestHelperFactory, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.IInterestHelperFactory, To>()
+  nameWithType.vb: Converters.MapEnums(Of IInterestHelperFactory, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.IInterestHelperFactory, To)()
+  name.vb: MapEnums(Of IInterestHelperFactory, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IInterestHelperFactory, To>
+    nameWithType: Converters.MapEnums<IInterestHelperFactory, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.IInterestHelperFactory, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IInterestHelperFactory, To)
+    nameWithType: Converters.MapEnums(Of IInterestHelperFactory, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.IInterestHelperFactory, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync
+  isExternal: true
+  name: CreateAsync
+  nameWithType: IInterestHelperFactory.CreateAsync
+  fullName: SuperOffice.CRM.Entities.IInterestHelperFactory.CreateAsync
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.IInterestHelper}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Entities.IInterestHelper}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IInterestHelper>
+  nameWithType: Task<IInterestHelper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Entities.IInterestHelper>
+  nameWithType.vb: Task(Of IInterestHelper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Entities.IInterestHelper)
+  name.vb: Task(Of IInterestHelper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    nameWithType: IInterestHelper
+    fullName: SuperOffice.CRM.Entities.IInterestHelper
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    nameWithType: IInterestHelper
+    fullName: SuperOffice.CRM.Entities.IInterestHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

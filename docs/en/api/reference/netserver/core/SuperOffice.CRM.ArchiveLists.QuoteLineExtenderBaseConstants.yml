@@ -1,0 +1,878 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  commentId: T:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  id: QuoteLineExtenderBaseConstants
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.#ctor
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnCode
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnIsSubscription
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnName
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnPriceUnit
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductCategoryKey
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductFamilyKey
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductTypeKey
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuantityUnit
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineSubTotal
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineTotalPriceIncVAT
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineTotalPriceWithAlternativeDiscount
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineVATAmount
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnRank
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnSubscriptionUnit
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnVatInfo
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineExtenderBaseConstants
+  nameWithType: QuoteLineExtenderBaseConstants
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: 'public class QuoteLineExtenderBaseConstants : Object'
+    content.vb: >-
+      Public Class QuoteLineExtenderBaseConstants
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants)
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuantityUnit
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuantityUnit
+  id: ColumnQuantityUnit
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnQuantityUnit
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnQuantityUnit
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuantityUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnQuantityUnit = "quantityUnit"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnQuantityUnit As String = "quantityUnit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnPriceUnit
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnPriceUnit
+  id: ColumnPriceUnit
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnPriceUnit
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnPriceUnit
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnPriceUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnPriceUnit = "priceUnit"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnPriceUnit As String = "priceUnit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnSubscriptionUnit
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnSubscriptionUnit
+  id: ColumnSubscriptionUnit
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnSubscriptionUnit
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnSubscriptionUnit
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnSubscriptionUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnSubscriptionUnit = "subscriptionUnit"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnSubscriptionUnit As String = "subscriptionUnit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnIsSubscription
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnIsSubscription
+  id: ColumnIsSubscription
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnIsSubscription
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnIsSubscription
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnIsSubscription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnIsSubscription = "isSubscription"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnIsSubscription As String = "isSubscription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnVatInfo
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnVatInfo
+  id: ColumnVatInfo
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnVatInfo
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnVatInfo
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnVatInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnVatInfo = "vatInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnVatInfo As String = "vatInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductCategoryKey
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductCategoryKey
+  id: ColumnProductCategoryKey
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnProductCategoryKey
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnProductCategoryKey
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductCategoryKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnProductCategoryKey = "productCategoryKey"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnProductCategoryKey As String = "productCategoryKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductFamilyKey
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductFamilyKey
+  id: ColumnProductFamilyKey
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnProductFamilyKey
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnProductFamilyKey
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductFamilyKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnProductFamilyKey = "productFamilyKey"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnProductFamilyKey As String = "productFamilyKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductTypeKey
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductTypeKey
+  id: ColumnProductTypeKey
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnProductTypeKey
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnProductTypeKey
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnProductTypeKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnProductTypeKey = "productTypeKey"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnProductTypeKey As String = "productTypeKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnRank
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnRank
+  id: ColumnRank
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnRank
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnRank
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnRank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnRank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnRank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnName
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnName
+  id: ColumnName
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnName
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnName
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnName = "name"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnName As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnCode
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnCode
+  id: ColumnCode
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnCode
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnCode
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnCode = "code"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnCode As String = "code"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineSubTotal
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineSubTotal
+  id: ColumnQuotelineSubTotal
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnQuotelineSubTotal
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnQuotelineSubTotal
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineSubTotal
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnQuotelineSubTotal = "subTotal"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnQuotelineSubTotal As String = "subTotal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineTotalPriceWithAlternativeDiscount
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineTotalPriceWithAlternativeDiscount
+  id: ColumnQuotelineTotalPriceWithAlternativeDiscount
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnQuotelineTotalPriceWithAlternativeDiscount
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnQuotelineTotalPriceWithAlternativeDiscount
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineTotalPriceWithAlternativeDiscount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnQuotelineTotalPriceWithAlternativeDiscount = "totalPriceWithAlternativeDiscount"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnQuotelineTotalPriceWithAlternativeDiscount As String = "totalPriceWithAlternativeDiscount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineTotalPriceIncVAT
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineTotalPriceIncVAT
+  id: ColumnQuotelineTotalPriceIncVAT
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnQuotelineTotalPriceIncVAT
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnQuotelineTotalPriceIncVAT
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineTotalPriceIncVAT
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnQuotelineTotalPriceIncVAT = "totalPriceIncVAT"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnQuotelineTotalPriceIncVAT As String = "totalPriceIncVAT"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineVATAmount
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineVATAmount
+  id: ColumnQuotelineVATAmount
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnQuotelineVATAmount
+  nameWithType: QuoteLineExtenderBaseConstants.ColumnQuotelineVATAmount
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.ColumnQuotelineVATAmount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnQuotelineVATAmount = "vatAmount"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnQuotelineVATAmount As String = "vatAmount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineExtenderBaseConstants()
+  nameWithType: QuoteLineExtenderBaseConstants.QuoteLineExtenderBaseConstants()
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.QuoteLineExtenderBaseConstants()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public QuoteLineExtenderBaseConstants()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<QuoteLineExtenderBaseConstants, To>()
+  nameWithType: EnumUtil.MapEnums<QuoteLineExtenderBaseConstants, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QuoteLineExtenderBaseConstants, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants, To)()
+  name.vb: MapEnums(Of QuoteLineExtenderBaseConstants, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QuoteLineExtenderBaseConstants, To>
+    nameWithType: EnumUtil.MapEnums<QuoteLineExtenderBaseConstants, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QuoteLineExtenderBaseConstants, To)
+    nameWithType: EnumUtil.MapEnums(Of QuoteLineExtenderBaseConstants, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<QuoteLineExtenderBaseConstants>(QuoteLineExtenderBaseConstants)
+  nameWithType: ObjectExtensions.AssignByReflection<QuoteLineExtenderBaseConstants>(QuoteLineExtenderBaseConstants)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants>(SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteLineExtenderBaseConstants)(QuoteLineExtenderBaseConstants)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants)(SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants)
+  name.vb: AssignByReflection(Of QuoteLineExtenderBaseConstants)(QuoteLineExtenderBaseConstants)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<QuoteLineExtenderBaseConstants>
+    nameWithType: ObjectExtensions.AssignByReflection<QuoteLineExtenderBaseConstants>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+    name: QuoteLineExtenderBaseConstants
+    nameWithType: QuoteLineExtenderBaseConstants
+    fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of QuoteLineExtenderBaseConstants)
+    nameWithType: ObjectExtensions.AssignByReflection(Of QuoteLineExtenderBaseConstants)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+    name: QuoteLineExtenderBaseConstants
+    nameWithType: QuoteLineExtenderBaseConstants
+    fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<QuoteLineExtenderBaseConstants>()
+  nameWithType: ObjectExtensions.GraphCopy<QuoteLineExtenderBaseConstants>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteLineExtenderBaseConstants)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants)()
+  name.vb: GraphCopy(Of QuoteLineExtenderBaseConstants)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<QuoteLineExtenderBaseConstants>
+    nameWithType: ObjectExtensions.GraphCopy<QuoteLineExtenderBaseConstants>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of QuoteLineExtenderBaseConstants)
+    nameWithType: ObjectExtensions.GraphCopy(Of QuoteLineExtenderBaseConstants)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<QuoteLineExtenderBaseConstants, To>()
+  nameWithType: Converters.MapEnums<QuoteLineExtenderBaseConstants, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants, To>()
+  nameWithType.vb: Converters.MapEnums(Of QuoteLineExtenderBaseConstants, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants, To)()
+  name.vb: MapEnums(Of QuoteLineExtenderBaseConstants, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QuoteLineExtenderBaseConstants, To>
+    nameWithType: Converters.MapEnums<QuoteLineExtenderBaseConstants, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QuoteLineExtenderBaseConstants, To)
+    nameWithType: Converters.MapEnums(Of QuoteLineExtenderBaseConstants, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.#ctor
+  isExternal: true
+  name: QuoteLineExtenderBaseConstants
+  nameWithType: QuoteLineExtenderBaseConstants.QuoteLineExtenderBaseConstants
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBaseConstants.QuoteLineExtenderBaseConstants

@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
   - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
-  name: ToInsert()
-  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ConfigurableScreenAppliesToRecordData)
-  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(ConfigurableScreenAppliesToRecordData)
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  name: ToInsertAsync(ConfigurableScreenAppliesToRecordData, CancellationToken)
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(ConfigurableScreenAppliesToRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
-    name: ToInsert
-    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: ConfigurableScreenAppliesToRecordData
     nameWithType: ConfigurableScreenAppliesToRecordData
     fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
-    name: ToInsert
-    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: ConfigurableScreenAppliesToRecordData
     nameWithType: ConfigurableScreenAppliesToRecordData
     fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

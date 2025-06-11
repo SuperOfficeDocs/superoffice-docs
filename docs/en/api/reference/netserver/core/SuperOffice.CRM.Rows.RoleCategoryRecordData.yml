@@ -36,7 +36,7 @@ items:
   - SuperOffice.CRM.Rows.RoleCategoryRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.RoleCategoryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RoleCategoryRecordData)
   - SuperOffice.CRM.Rows.RoleCategoryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.RoleCategoryRecordData.SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.RoleCategoryRecordData.SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RoleCategoryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -303,34 +303,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.RoleCategoryRecordData.SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RoleCategoryRecordData)
+- uid: SuperOffice.CRM.Rows.RoleCategoryRecordData.SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RoleCategoryRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RoleCategoryRecordData)
-  name: ToInsert()
-  nameWithType: RoleCategoryRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RoleCategoryRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: RoleCategoryRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: RoleCategoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RoleCategoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: RoleCategoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RoleCategoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -516,17 +526,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RoleCategoryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RoleCategoryRecordData)
+- uid: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RoleCategoryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RoleCategoryRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(RoleCategoryRecordData)
-  nameWithType: RoleCategoryRecordDataExtensions.ToInsert(RoleCategoryRecordData)
-  fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RoleCategoryRecordData)
+  name: ToInsertAsync(RoleCategoryRecordData, CancellationToken)
+  nameWithType: RoleCategoryRecordDataExtensions.ToInsertAsync(RoleCategoryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RoleCategoryRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RoleCategoryRecordData)
-    name: ToInsert
-    nameWithType: RoleCategoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RoleCategoryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RoleCategoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -535,15 +545,23 @@ references:
     name: RoleCategoryRecordData
     nameWithType: RoleCategoryRecordData
     fullName: SuperOffice.CRM.Rows.RoleCategoryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RoleCategoryRecordData)
-    name: ToInsert
-    nameWithType: RoleCategoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RoleCategoryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RoleCategoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RoleCategoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -552,6 +570,14 @@ references:
     name: RoleCategoryRecordData
     nameWithType: RoleCategoryRecordData
     fullName: SuperOffice.CRM.Rows.RoleCategoryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

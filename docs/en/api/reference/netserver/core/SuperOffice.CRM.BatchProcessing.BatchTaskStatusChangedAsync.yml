@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+  commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+  id: BatchTaskStatusChangedAsync
+  parent: SuperOffice.CRM.BatchProcessing
+  children:
+  - SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.BeginInvoke(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken,System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.EndInvoke(System.IAsyncResult)
+  - SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.Invoke(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskStatusChangedAsync
+  nameWithType: BatchTaskStatusChangedAsync
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+  type: Class
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nDelegate used no notify changes in the process of a task.\n"
+  syntax:
+    content: 'public sealed class BatchTaskStatusChangedAsync : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class BatchTaskStatusChangedAsync
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskStatusChangedAsync(Object, IntPtr)
+  nameWithType: BatchTaskStatusChangedAsync.BatchTaskStatusChangedAsync(Object, IntPtr)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.BatchTaskStatusChangedAsync(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  syntax:
+    content: public BatchTaskStatusChangedAsync(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.Invoke(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.Invoke(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  id: Invoke(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+  langs:
+  - csharp
+  - vb
+  name: Invoke(BatchTaskInfo, CancellationToken)
+  nameWithType: BatchTaskStatusChangedAsync.Invoke(BatchTaskInfo, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.Invoke(SuperOffice.CRM.Services.BatchTaskInfo, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  syntax:
+    content: public virtual Task Invoke(BatchTaskInfo taskInfo, CancellationToken cancellationToken)
+    parameters:
+    - id: taskInfo
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overridable Function Invoke(taskInfo As BatchTaskInfo, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.BeginInvoke(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.BeginInvoke(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken,System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken,System.AsyncCallback,System.Object)
+  parent: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(BatchTaskInfo, CancellationToken, AsyncCallback, Object)
+  nameWithType: BatchTaskStatusChangedAsync.BeginInvoke(BatchTaskInfo, CancellationToken, AsyncCallback, Object)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.BeginInvoke(SuperOffice.CRM.Services.BatchTaskInfo, System.Threading.CancellationToken, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(BatchTaskInfo taskInfo, CancellationToken cancellationToken, AsyncCallback callback, object object)
+    parameters:
+    - id: taskInfo
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(taskInfo As BatchTaskInfo, cancellationToken As CancellationToken, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: BatchTaskStatusChangedAsync.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  syntax:
+    content: public virtual Task EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As Task
+  overload: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.BatchProcessing
+  commentId: N:SuperOffice.CRM.BatchProcessing
+  isExternal: true
+  name: SuperOffice.CRM.BatchProcessing
+  nameWithType: SuperOffice.CRM.BatchProcessing
+  fullName: SuperOffice.CRM.BatchProcessing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BatchTaskStatusChangedAsync, To>()
+  nameWithType: EnumUtil.MapEnums<BatchTaskStatusChangedAsync, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BatchTaskStatusChangedAsync, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync, To)()
+  name.vb: MapEnums(Of BatchTaskStatusChangedAsync, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BatchTaskStatusChangedAsync, To>
+    nameWithType: EnumUtil.MapEnums<BatchTaskStatusChangedAsync, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BatchTaskStatusChangedAsync, To)
+    nameWithType: EnumUtil.MapEnums(Of BatchTaskStatusChangedAsync, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BatchTaskStatusChangedAsync, To>()
+  nameWithType: Converters.MapEnums<BatchTaskStatusChangedAsync, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync, To>()
+  nameWithType.vb: Converters.MapEnums(Of BatchTaskStatusChangedAsync, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync, To)()
+  name.vb: MapEnums(Of BatchTaskStatusChangedAsync, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BatchTaskStatusChangedAsync, To>
+    nameWithType: Converters.MapEnums<BatchTaskStatusChangedAsync, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BatchTaskStatusChangedAsync, To)
+    nameWithType: Converters.MapEnums(Of BatchTaskStatusChangedAsync, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.#ctor*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.#ctor
+  isExternal: true
+  name: BatchTaskStatusChangedAsync
+  nameWithType: BatchTaskStatusChangedAsync.BatchTaskStatusChangedAsync
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.BatchTaskStatusChangedAsync
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.Invoke*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: BatchTaskStatusChangedAsync.Invoke
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.Invoke
+- uid: SuperOffice.CRM.Services.BatchTaskInfo
+  isExternal: true
+  name: BatchTaskInfo
+  nameWithType: BatchTaskInfo
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.BeginInvoke*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: BatchTaskStatusChangedAsync.BeginInvoke
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.BeginInvoke
+- uid: System.AsyncCallback
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.EndInvoke*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: BatchTaskStatusChangedAsync.EndInvoke
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync.EndInvoke

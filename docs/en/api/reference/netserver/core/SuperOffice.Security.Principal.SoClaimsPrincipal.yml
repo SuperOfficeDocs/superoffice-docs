@@ -1,0 +1,1284 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal
+  commentId: T:SuperOffice.Security.Principal.SoClaimsPrincipal
+  id: SoClaimsPrincipal
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.NSIdentityClaimValues)
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,System.Security.Claims.ClaimsIdentity)
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.Associate
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.AssociateId
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.ContactId
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.ContactOwnerId
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.ContextIdentifier
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.CountryId
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.EjAccessLevel
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserId
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserStatus
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.EMailAddress
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.FullName
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.GroupId
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.HomeCountryId
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.Identity
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.IsPerson
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.PersonId
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.RoleDescription
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.RoleId
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.RoleName
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.RoleType
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.SecondaryGroups
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.UserName
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.UserType
+  langs:
+  - csharp
+  - vb
+  name: SoClaimsPrincipal
+  nameWithType: SoClaimsPrincipal
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nWrapper class around <xref href=\"System.Security.Claims.ClaimsPrincipal\" data-throw-if-not-resolved=\"false\"></xref> in order to solve certain concerns, performance, etc.\n"
+  syntax:
+    content: 'public class SoClaimsPrincipal : ClaimsPrincipal'
+    content.vb: >-
+      Public Class SoClaimsPrincipal
+          Inherits ClaimsPrincipal
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,System.Security.Claims.ClaimsIdentity)
+  commentId: M:SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,System.Security.Claims.ClaimsIdentity)
+  id: '#ctor(SuperOffice.Security.Principal.IUserInfoService,System.Security.Claims.ClaimsIdentity)'
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: SoClaimsPrincipal(IUserInfoService, ClaimsIdentity)
+  nameWithType: SoClaimsPrincipal.SoClaimsPrincipal(IUserInfoService, ClaimsIdentity)
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.SoClaimsPrincipal(SuperOffice.Security.Principal.IUserInfoService, System.Security.Claims.ClaimsIdentity)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public SoClaimsPrincipal(IUserInfoService userInfo, ClaimsIdentity claimsIdentity)
+    parameters:
+    - id: userInfo
+      type: SuperOffice.Security.Principal.IUserInfoService
+    - id: claimsIdentity
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Sub New(userInfo As IUserInfoService, claimsIdentity As ClaimsIdentity)
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.NSIdentityClaimValues)
+  commentId: M:SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.NSIdentityClaimValues)
+  id: '#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.NSIdentityClaimValues)'
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: SoClaimsPrincipal(IUserInfoService, NSIdentityClaimValues)
+  nameWithType: SoClaimsPrincipal.SoClaimsPrincipal(IUserInfoService, NSIdentityClaimValues)
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.SoClaimsPrincipal(SuperOffice.Security.Principal.IUserInfoService, SuperOffice.Security.Principal.NSIdentityClaimValues)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public SoClaimsPrincipal(IUserInfoService userInfo, NSIdentityClaimValues nsIdentityClaimValues)
+    parameters:
+    - id: userInfo
+      type: SuperOffice.Security.Principal.IUserInfoService
+    - id: nsIdentityClaimValues
+      type: SuperOffice.Security.Principal.NSIdentityClaimValues
+    content.vb: Public Sub New(userInfo As IUserInfoService, nsIdentityClaimValues As NSIdentityClaimValues)
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity
+  id: ClaimsIdentity
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: ClaimsIdentity
+  nameWithType: SoClaimsPrincipal.ClaimsIdentity
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public ClaimsIdentity ClaimsIdentity { get; }
+    parameters: []
+    return:
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public ReadOnly Property ClaimsIdentity As ClaimsIdentity
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.Identity
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.Identity
+  id: Identity
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: SoClaimsPrincipal.Identity
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.Identity
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override IIdentity Identity { get; }
+    parameters: []
+    return:
+      type: System.Security.Principal.IIdentity
+    content.vb: Public Overrides ReadOnly Property Identity As IIdentity
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.Identity*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.Associate
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.Associate
+  id: Associate
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: SoClaimsPrincipal.Associate
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.Associate
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public string Associate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Associate As String
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.AssociateId
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.AssociateId
+  id: AssociateId
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: SoClaimsPrincipal.AssociateId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.AssociateId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int AssociateId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property AssociateId As Integer
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ContextIdentifier
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: SoClaimsPrincipal.ContextIdentifier
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.ContextIdentifier
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public string ContextIdentifier { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ContextIdentifier As String
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.ContextIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.UserName
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.UserName
+  id: UserName
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: SoClaimsPrincipal.UserName
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.UserName
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public string UserName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property UserName As String
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.UserType
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.UserType
+  id: UserType
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: SoClaimsPrincipal.UserType
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.UserType
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public UserType UserType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.License.UserType
+    content.vb: Public ReadOnly Property UserType As UserType
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.UserType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.FullName
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.FullName
+  id: FullName
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: SoClaimsPrincipal.FullName
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.FullName
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public string FullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FullName As String
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.FullName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.EMailAddress
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.EMailAddress
+  id: EMailAddress
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: EMailAddress
+  nameWithType: SoClaimsPrincipal.EMailAddress
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.EMailAddress
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public string EMailAddress { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property EMailAddress As String
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.EMailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.IsPerson
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.IsPerson
+  id: IsPerson
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: IsPerson
+  nameWithType: SoClaimsPrincipal.IsPerson
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.IsPerson
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public bool IsPerson { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPerson As Boolean
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.IsPerson*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.PersonId
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.PersonId
+  id: PersonId
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: SoClaimsPrincipal.PersonId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.PersonId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int PersonId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property PersonId As Integer
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.CountryId
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.CountryId
+  id: CountryId
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: SoClaimsPrincipal.CountryId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.CountryId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int CountryId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CountryId As Integer
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.HomeCountryId
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.HomeCountryId
+  id: HomeCountryId
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: HomeCountryId
+  nameWithType: SoClaimsPrincipal.HomeCountryId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.HomeCountryId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int HomeCountryId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property HomeCountryId As Integer
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.HomeCountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ContactId
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.ContactId
+  id: ContactId
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: SoClaimsPrincipal.ContactId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.ContactId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int ContactId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ContactId As Integer
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.GroupId
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.GroupId
+  id: GroupId
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: SoClaimsPrincipal.GroupId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.GroupId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int GroupId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property GroupId As Integer
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ContactOwnerId
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.ContactOwnerId
+  id: ContactOwnerId
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: ContactOwnerId
+  nameWithType: SoClaimsPrincipal.ContactOwnerId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.ContactOwnerId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int ContactOwnerId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ContactOwnerId As Integer
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.ContactOwnerId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleId
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.RoleId
+  id: RoleId
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: SoClaimsPrincipal.RoleId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int RoleId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property RoleId As Integer
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleName
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.RoleName
+  id: RoleName
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: RoleName
+  nameWithType: SoClaimsPrincipal.RoleName
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleName
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public string RoleName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property RoleName As String
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleDescription
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.RoleDescription
+  id: RoleDescription
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: RoleDescription
+  nameWithType: SoClaimsPrincipal.RoleDescription
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleDescription
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public string RoleDescription { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property RoleDescription As String
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleDescription*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleType
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.RoleType
+  id: RoleType
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: RoleType
+  nameWithType: SoClaimsPrincipal.RoleType
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleType
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public RoleType RoleType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.RoleType
+    content.vb: Public ReadOnly Property RoleType As RoleType
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserId
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserId
+  id: EjUserId
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: EjUserId
+  nameWithType: SoClaimsPrincipal.EjUserId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int EjUserId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property EjUserId As Integer
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.EjAccessLevel
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.EjAccessLevel
+  id: EjAccessLevel
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: EjAccessLevel
+  nameWithType: SoClaimsPrincipal.EjAccessLevel
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.EjAccessLevel
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public EjAccess EjAccessLevel { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EjAccess
+    content.vb: Public ReadOnly Property EjAccessLevel As EjAccess
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.EjAccessLevel*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserStatus
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserStatus
+  id: EjUserStatus
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: EjUserStatus
+  nameWithType: SoClaimsPrincipal.EjUserStatus
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserStatus
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public EjUserStatus EjUserStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EjUserStatus
+    content.vb: Public ReadOnly Property EjUserStatus As EjUserStatus
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserStatus*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.SecondaryGroups
+  commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.SecondaryGroups
+  id: SecondaryGroups
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: SecondaryGroups
+  nameWithType: SoClaimsPrincipal.SecondaryGroups
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.SecondaryGroups
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int[] SecondaryGroups { get; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public ReadOnly Property SecondaryGroups As Integer()
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.SecondaryGroups*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoClaimsPrincipal, To>()
+  nameWithType: EnumUtil.MapEnums<SoClaimsPrincipal, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.SoClaimsPrincipal, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoClaimsPrincipal, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoClaimsPrincipal, To)()
+  name.vb: MapEnums(Of SoClaimsPrincipal, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoClaimsPrincipal, To>
+    nameWithType: EnumUtil.MapEnums<SoClaimsPrincipal, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.SoClaimsPrincipal, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoClaimsPrincipal, To)
+    nameWithType: EnumUtil.MapEnums(Of SoClaimsPrincipal, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoClaimsPrincipal, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoClaimsPrincipal, To>()
+  nameWithType: Converters.MapEnums<SoClaimsPrincipal, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.SoClaimsPrincipal, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoClaimsPrincipal, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.SoClaimsPrincipal, To)()
+  name.vb: MapEnums(Of SoClaimsPrincipal, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoClaimsPrincipal, To>
+    nameWithType: Converters.MapEnums<SoClaimsPrincipal, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.SoClaimsPrincipal, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoClaimsPrincipal, To)
+    nameWithType: Converters.MapEnums(Of SoClaimsPrincipal, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.SoClaimsPrincipal, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor
+  isExternal: true
+  name: SoClaimsPrincipal
+  nameWithType: SoClaimsPrincipal.SoClaimsPrincipal
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.SoClaimsPrincipal
+- uid: SuperOffice.Security.Principal.IUserInfoService
+  commentId: T:SuperOffice.Security.Principal.IUserInfoService
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: IUserInfoService
+  nameWithType: IUserInfoService
+  fullName: SuperOffice.Security.Principal.IUserInfoService
+- uid: System.Security.Claims.ClaimsIdentity
+  isExternal: true
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues
+  commentId: T:SuperOffice.Security.Principal.NSIdentityClaimValues
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: NSIdentityClaimValues
+  nameWithType: NSIdentityClaimValues
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity
+  isExternal: true
+  name: ClaimsIdentity
+  nameWithType: SoClaimsPrincipal.ClaimsIdentity
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.Identity*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.Identity
+  isExternal: true
+  name: Identity
+  nameWithType: SoClaimsPrincipal.Identity
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.Identity
+- uid: System.Security.Principal.IIdentity
+  commentId: '!:System.Security.Principal.IIdentity'
+  isExternal: true
+  name: IIdentity
+  nameWithType: IIdentity
+  fullName: System.Security.Principal.IIdentity
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.Associate*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: SoClaimsPrincipal.Associate
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.Associate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.AssociateId*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: SoClaimsPrincipal.AssociateId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ContextIdentifier*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.ContextIdentifier
+  isExternal: true
+  name: ContextIdentifier
+  nameWithType: SoClaimsPrincipal.ContextIdentifier
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.ContextIdentifier
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.UserName*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: SoClaimsPrincipal.UserName
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.UserName
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.UserType*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: SoClaimsPrincipal.UserType
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.UserType
+- uid: SuperOffice.License.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.License.UserType
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.FullName*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: SoClaimsPrincipal.FullName
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.FullName
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.EMailAddress*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.EMailAddress
+  isExternal: true
+  name: EMailAddress
+  nameWithType: SoClaimsPrincipal.EMailAddress
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.EMailAddress
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.IsPerson*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.IsPerson
+  isExternal: true
+  name: IsPerson
+  nameWithType: SoClaimsPrincipal.IsPerson
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.IsPerson
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.PersonId*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: SoClaimsPrincipal.PersonId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.PersonId
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.CountryId*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: SoClaimsPrincipal.CountryId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.CountryId
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.HomeCountryId*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.HomeCountryId
+  isExternal: true
+  name: HomeCountryId
+  nameWithType: SoClaimsPrincipal.HomeCountryId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.HomeCountryId
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ContactId*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: SoClaimsPrincipal.ContactId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.ContactId
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.GroupId*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: SoClaimsPrincipal.GroupId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.GroupId
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ContactOwnerId*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.ContactOwnerId
+  isExternal: true
+  name: ContactOwnerId
+  nameWithType: SoClaimsPrincipal.ContactOwnerId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.ContactOwnerId
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleId*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.RoleId
+  isExternal: true
+  name: RoleId
+  nameWithType: SoClaimsPrincipal.RoleId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleId
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleName*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.RoleName
+  isExternal: true
+  name: RoleName
+  nameWithType: SoClaimsPrincipal.RoleName
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleName
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleDescription*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.RoleDescription
+  isExternal: true
+  name: RoleDescription
+  nameWithType: SoClaimsPrincipal.RoleDescription
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleDescription
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleType*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.RoleType
+  isExternal: true
+  name: RoleType
+  nameWithType: SoClaimsPrincipal.RoleType
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.RoleType
+- uid: SuperOffice.Data.RoleType
+  commentId: T:SuperOffice.Data.RoleType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.Data.RoleType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserId*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserId
+  isExternal: true
+  name: EjUserId
+  nameWithType: SoClaimsPrincipal.EjUserId
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserId
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.EjAccessLevel*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.EjAccessLevel
+  isExternal: true
+  name: EjAccessLevel
+  nameWithType: SoClaimsPrincipal.EjAccessLevel
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.EjAccessLevel
+- uid: SuperOffice.Data.EjAccess
+  commentId: T:SuperOffice.Data.EjAccess
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EjAccess
+  nameWithType: EjAccess
+  fullName: SuperOffice.Data.EjAccess
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserStatus*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserStatus
+  isExternal: true
+  name: EjUserStatus
+  nameWithType: SoClaimsPrincipal.EjUserStatus
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.EjUserStatus
+- uid: SuperOffice.Data.EjUserStatus
+  commentId: T:SuperOffice.Data.EjUserStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EjUserStatus
+  nameWithType: EjUserStatus
+  fullName: SuperOffice.Data.EjUserStatus
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.SecondaryGroups*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.SecondaryGroups
+  isExternal: true
+  name: SecondaryGroups
+  nameWithType: SoClaimsPrincipal.SecondaryGroups
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.SecondaryGroups
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

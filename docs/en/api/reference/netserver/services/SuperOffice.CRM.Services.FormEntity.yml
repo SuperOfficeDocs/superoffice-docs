@@ -53,8 +53,6 @@ items:
       Public Class FormEntity
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.MarketingAgent
-    commentId: T:SuperOffice.CRM.Services.MarketingAgent
   - linkId: SuperOffice.CRM.Services.IMarketingAgent
     commentId: T:SuperOffice.CRM.Services.IMarketingAgent
   inheritance:
@@ -921,15 +919,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.MarketingAgent
-  commentId: T:SuperOffice.CRM.Services.MarketingAgent
-  isExternal: true
-  name: MarketingAgent
-  nameWithType: MarketingAgent
-  fullName: SuperOffice.CRM.Services.MarketingAgent
 - uid: SuperOffice.CRM.Services.IMarketingAgent
   commentId: T:SuperOffice.CRM.Services.IMarketingAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IMarketingAgent
   nameWithType: IMarketingAgent

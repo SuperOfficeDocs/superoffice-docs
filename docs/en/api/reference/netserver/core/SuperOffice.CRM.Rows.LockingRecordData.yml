@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.LockingRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.LockingRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.LockingRecordData)
   - SuperOffice.CRM.Rows.LockingRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.LockingRecordData.SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.LockingRecordData.SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.LockingRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LockingRecordData.SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LockingRecordData)
+- uid: SuperOffice.CRM.Rows.LockingRecordData.SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LockingRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.LockingRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LockingRecordData)
-  name: ToInsert()
-  nameWithType: LockingRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LockingRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: LockingRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LockingRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LockingRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LockingRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LockingRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LockingRecordData)
-  commentId: M:SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LockingRecordData)
+- uid: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LockingRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LockingRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(LockingRecordData)
-  nameWithType: LockingRecordDataExtensions.ToInsert(LockingRecordData)
-  fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LockingRecordData)
+  name: ToInsertAsync(LockingRecordData, CancellationToken)
+  nameWithType: LockingRecordDataExtensions.ToInsertAsync(LockingRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LockingRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LockingRecordData)
-    name: ToInsert
-    nameWithType: LockingRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LockingRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LockingRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: LockingRecordData
     nameWithType: LockingRecordData
     fullName: SuperOffice.CRM.Rows.LockingRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LockingRecordData)
-    name: ToInsert
-    nameWithType: LockingRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LockingRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LockingRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LockingRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: LockingRecordData
     nameWithType: LockingRecordData
     fullName: SuperOffice.CRM.Rows.LockingRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

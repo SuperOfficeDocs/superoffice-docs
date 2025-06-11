@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData)
   - SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData.SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData.SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData.SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData.SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData)
-  name: ToInsert()
-  nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(CurrencyHeadingLinkRecordData)
-  nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsert(CurrencyHeadingLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData)
+  name: ToInsertAsync(CurrencyHeadingLinkRecordData, CancellationToken)
+  nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(CurrencyHeadingLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData)
-    name: ToInsert
-    nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: CurrencyHeadingLinkRecordData
     nameWithType: CurrencyHeadingLinkRecordData
     fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData)
-    name: ToInsert
-    nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: CurrencyHeadingLinkRecordData
     nameWithType: CurrencyHeadingLinkRecordData
     fullName: SuperOffice.CRM.Rows.CurrencyHeadingLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

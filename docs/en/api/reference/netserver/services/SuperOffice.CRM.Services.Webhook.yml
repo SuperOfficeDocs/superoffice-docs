@@ -44,8 +44,6 @@ items:
       Public Class Webhook
           Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.WebhookAgent
-    commentId: T:SuperOffice.CRM.Services.WebhookAgent
   - linkId: SuperOffice.CRM.Services.IWebhookAgent
     commentId: T:SuperOffice.CRM.Services.IWebhookAgent
   inheritance:
@@ -615,15 +613,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.WebhookAgent
-  commentId: T:SuperOffice.CRM.Services.WebhookAgent
-  isExternal: true
-  name: WebhookAgent
-  nameWithType: WebhookAgent
-  fullName: SuperOffice.CRM.Services.WebhookAgent
 - uid: SuperOffice.CRM.Services.IWebhookAgent
   commentId: T:SuperOffice.CRM.Services.IWebhookAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IWebhookAgent
   nameWithType: IWebhookAgent

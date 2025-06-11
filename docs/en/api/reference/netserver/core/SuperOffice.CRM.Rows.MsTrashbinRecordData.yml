@@ -37,7 +37,7 @@ items:
   - SuperOffice.CRM.Rows.MsTrashbinRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.MsTrashbinRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MsTrashbinRecordData)
   - SuperOffice.CRM.Rows.MsTrashbinRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.MsTrashbinRecordData.SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.MsTrashbinRecordData.SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.MsTrashbinRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -331,34 +331,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MsTrashbinRecordData.SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsTrashbinRecordData)
+- uid: SuperOffice.CRM.Rows.MsTrashbinRecordData.SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsTrashbinRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsTrashbinRecordData)
-  name: ToInsert()
-  nameWithType: MsTrashbinRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsTrashbinRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: MsTrashbinRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: MsTrashbinRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MsTrashbinRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: MsTrashbinRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MsTrashbinRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -544,17 +554,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsTrashbinRecordData)
-  commentId: M:SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsTrashbinRecordData)
+- uid: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsTrashbinRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsTrashbinRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(MsTrashbinRecordData)
-  nameWithType: MsTrashbinRecordDataExtensions.ToInsert(MsTrashbinRecordData)
-  fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsTrashbinRecordData)
+  name: ToInsertAsync(MsTrashbinRecordData, CancellationToken)
+  nameWithType: MsTrashbinRecordDataExtensions.ToInsertAsync(MsTrashbinRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsTrashbinRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsTrashbinRecordData)
-    name: ToInsert
-    nameWithType: MsTrashbinRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsTrashbinRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MsTrashbinRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -563,15 +573,23 @@ references:
     name: MsTrashbinRecordData
     nameWithType: MsTrashbinRecordData
     fullName: SuperOffice.CRM.Rows.MsTrashbinRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsTrashbinRecordData)
-    name: ToInsert
-    nameWithType: MsTrashbinRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsTrashbinRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MsTrashbinRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MsTrashbinRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -580,6 +598,14 @@ references:
     name: MsTrashbinRecordData
     nameWithType: MsTrashbinRecordData
     fullName: SuperOffice.CRM.Rows.MsTrashbinRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

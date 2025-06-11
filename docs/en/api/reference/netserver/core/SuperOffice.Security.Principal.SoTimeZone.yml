@@ -5,7 +5,7 @@ items:
   id: SoTimeZone
   parent: SuperOffice.Security.Principal
   children:
-  - SuperOffice.Security.Principal.SoTimeZone.#ctor
+  - SuperOffice.Security.Principal.SoTimeZone.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Principal.SoTimeZone})
   - SuperOffice.Security.Principal.SoTimeZone.IsSet
   - SuperOffice.Security.Principal.SoTimeZone.TimeZoneId
   langs:
@@ -34,8 +34,6 @@ items:
   - SuperOffice.Security.Principal.ISoTimeZone
   extensionMethods:
   - SuperOffice.Security.Principal.SoTimeZone.EnumUtil.MapEnums``2
-  - SuperOffice.Security.Principal.SoTimeZone.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.SoTimeZone)
-  - SuperOffice.Security.Principal.SoTimeZone.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Security.Principal.SoTimeZone.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -43,16 +41,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.Security.Principal.SoTimeZone.#ctor
-  commentId: M:SuperOffice.Security.Principal.SoTimeZone.#ctor
-  id: '#ctor'
+- uid: SuperOffice.Security.Principal.SoTimeZone.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Principal.SoTimeZone})
+  commentId: M:SuperOffice.Security.Principal.SoTimeZone.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Principal.SoTimeZone})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Principal.SoTimeZone})'
   parent: SuperOffice.Security.Principal.SoTimeZone
   langs:
   - csharp
   - vb
-  name: SoTimeZone()
-  nameWithType: SoTimeZone.SoTimeZone()
-  fullName: SuperOffice.Security.Principal.SoTimeZone.SoTimeZone()
+  name: SoTimeZone(ILogger<SoTimeZone>)
+  nameWithType: SoTimeZone.SoTimeZone(ILogger<SoTimeZone>)
+  fullName: SuperOffice.Security.Principal.SoTimeZone.SoTimeZone(Microsoft.Extensions.Logging.ILogger<SuperOffice.Security.Principal.SoTimeZone>)
   type: Constructor
   source:
     path: SoCore
@@ -61,13 +59,19 @@ items:
   - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: public SoTimeZone()
-    content.vb: Public Sub New
+    content: public SoTimeZone(ILogger<SoTimeZone> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Principal.SoTimeZone}
+    content.vb: Public Sub New(logger As ILogger(Of SoTimeZone))
   overload: SuperOffice.Security.Principal.SoTimeZone.#ctor*
+  nameWithType.vb: SoTimeZone.SoTimeZone(ILogger(Of SoTimeZone))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
+  fullName.vb: SuperOffice.Security.Principal.SoTimeZone.SoTimeZone(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Security.Principal.SoTimeZone))
+  name.vb: SoTimeZone(ILogger(Of SoTimeZone))
 - uid: SuperOffice.Security.Principal.SoTimeZone.TimeZoneId
   commentId: P:SuperOffice.Security.Principal.SoTimeZone.TimeZoneId
   id: TimeZoneId
@@ -85,6 +89,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
+  summary: "\nGet or set the current timezone id for the current scope.\n<see cref=\"!:TimeConverter.BaseTimeZoneData.TZLocationID\"></see> is used if nothing else is provided.\n"
   syntax:
     content: public int TimeZoneId { get; set; }
     parameters: []
@@ -187,84 +192,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Security.Principal.SoTimeZone.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.SoTimeZone)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<SoTimeZone>(SoTimeZone)
-  nameWithType: ObjectExtensions.AssignByReflection<SoTimeZone>(SoTimeZone)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.SoTimeZone>(SuperOffice.Security.Principal.SoTimeZone)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoTimeZone)(SoTimeZone)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.SoTimeZone)(SuperOffice.Security.Principal.SoTimeZone)
-  name.vb: AssignByReflection(Of SoTimeZone)(SoTimeZone)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<SoTimeZone>
-    nameWithType: ObjectExtensions.AssignByReflection<SoTimeZone>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.SoTimeZone>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Security.Principal.SoTimeZone
-    name: SoTimeZone
-    nameWithType: SoTimeZone
-    fullName: SuperOffice.Security.Principal.SoTimeZone
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of SoTimeZone)
-    nameWithType: ObjectExtensions.AssignByReflection(Of SoTimeZone)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.SoTimeZone)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Security.Principal.SoTimeZone
-    name: SoTimeZone
-    nameWithType: SoTimeZone
-    fullName: SuperOffice.Security.Principal.SoTimeZone
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Security.Principal.SoTimeZone.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<SoTimeZone>()
-  nameWithType: ObjectExtensions.GraphCopy<SoTimeZone>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.SoTimeZone>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoTimeZone)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.SoTimeZone)()
-  name.vb: GraphCopy(Of SoTimeZone)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<SoTimeZone>
-    nameWithType: ObjectExtensions.GraphCopy<SoTimeZone>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.SoTimeZone>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of SoTimeZone)
-    nameWithType: ObjectExtensions.GraphCopy(Of SoTimeZone)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.SoTimeZone)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Security.Principal.SoTimeZone.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -350,103 +277,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -493,12 +323,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -511,6 +335,87 @@ references:
   name: SoTimeZone
   nameWithType: SoTimeZone.SoTimeZone
   fullName: SuperOffice.Security.Principal.SoTimeZone.SoTimeZone
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Principal.SoTimeZone}
+  commentId: '!:Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Principal.SoTimeZone}'
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  name: ILogger<SoTimeZone>
+  nameWithType: ILogger<SoTimeZone>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Security.Principal.SoTimeZone>
+  nameWithType.vb: ILogger(Of SoTimeZone)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Security.Principal.SoTimeZone)
+  name.vb: ILogger(Of SoTimeZone)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Security.Principal.SoTimeZone
+    name: SoTimeZone
+    nameWithType: SoTimeZone
+    fullName: SuperOffice.Security.Principal.SoTimeZone
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Security.Principal.SoTimeZone
+    name: SoTimeZone
+    nameWithType: SoTimeZone
+    fullName: SuperOffice.Security.Principal.SoTimeZone
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  name: ILogger<>
+  nameWithType: ILogger<>
+  fullName: Microsoft.Extensions.Logging.ILogger<>
+  nameWithType.vb: ILogger(Of )
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of )
+  name.vb: ILogger(Of )
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Principal.SoTimeZone.TimeZoneId*
   commentId: Overload:SuperOffice.Security.Principal.SoTimeZone.TimeZoneId
   isExternal: true

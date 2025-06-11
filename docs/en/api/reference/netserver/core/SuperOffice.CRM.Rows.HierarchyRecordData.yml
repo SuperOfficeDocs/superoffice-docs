@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.HierarchyRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.HierarchyRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.HierarchyRecordData)
   - SuperOffice.CRM.Rows.HierarchyRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.HierarchyRecordData.SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.HierarchyRecordData.SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.HierarchyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.HierarchyRecordData.SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HierarchyRecordData)
+- uid: SuperOffice.CRM.Rows.HierarchyRecordData.SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HierarchyRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HierarchyRecordData)
-  name: ToInsert()
-  nameWithType: HierarchyRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HierarchyRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: HierarchyRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: HierarchyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: HierarchyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: HierarchyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: HierarchyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HierarchyRecordData)
-  commentId: M:SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HierarchyRecordData)
+- uid: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HierarchyRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HierarchyRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(HierarchyRecordData)
-  nameWithType: HierarchyRecordDataExtensions.ToInsert(HierarchyRecordData)
-  fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HierarchyRecordData)
+  name: ToInsertAsync(HierarchyRecordData, CancellationToken)
+  nameWithType: HierarchyRecordDataExtensions.ToInsertAsync(HierarchyRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HierarchyRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HierarchyRecordData)
-    name: ToInsert
-    nameWithType: HierarchyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HierarchyRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: HierarchyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: HierarchyRecordData
     nameWithType: HierarchyRecordData
     fullName: SuperOffice.CRM.Rows.HierarchyRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HierarchyRecordData)
-    name: ToInsert
-    nameWithType: HierarchyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HierarchyRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: HierarchyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.HierarchyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: HierarchyRecordData
     nameWithType: HierarchyRecordData
     fullName: SuperOffice.CRM.Rows.HierarchyRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

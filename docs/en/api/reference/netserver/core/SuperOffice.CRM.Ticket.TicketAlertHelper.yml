@@ -6,9 +6,9 @@ items:
   parent: SuperOffice.CRM.Ticket
   children:
   - SuperOffice.CRM.Ticket.TicketAlertHelper.#ctor
-  - SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow)
-  - SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout(System.Int32,System.Int16,System.Int32)
-  - SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation(SuperOffice.CRM.Rows.TicketRow)
+  - SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalatingAsync(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeoutAsync(System.Int32,System.Int16,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalationAsync(SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -40,16 +40,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout(System.Int32,System.Int16,System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout(System.Int32,System.Int16,System.Int32)
-  id: ComputeAlertTimeout(System.Int32,System.Int16,System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeoutAsync(System.Int32,System.Int16,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeoutAsync(System.Int32,System.Int16,System.Int32,System.Threading.CancellationToken)
+  id: ComputeAlertTimeoutAsync(System.Int32,System.Int16,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketAlertHelper
   langs:
   - csharp
   - vb
-  name: ComputeAlertTimeout(Int32, Int16, Int32)
-  nameWithType: TicketAlertHelper.ComputeAlertTimeout(Int32, Int16, Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout(System.Int32, System.Int16, System.Int32)
+  name: ComputeAlertTimeoutAsync(Int32, Int16, Int32, CancellationToken)
+  nameWithType: TicketAlertHelper.ComputeAlertTimeoutAsync(Int32, Int16, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeoutAsync(System.Int32, System.Int16, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -59,7 +59,7 @@ items:
   namespace: SuperOffice.CRM.Ticket
   summary: "\nCalculates alert timeout based on ticket priority\n"
   syntax:
-    content: public DateTime ComputeAlertTimeout(int priority, short alertLevel, int alertStop)
+    content: public Task<DateTime> ComputeAlertTimeoutAsync(int priority, short alertLevel, int alertStop, CancellationToken cancellationToken = null)
     parameters:
     - id: priority
       type: System.Int32
@@ -70,25 +70,27 @@ items:
     - id: alertStop
       type: System.Int32
       description: Ticket alert stop
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.DateTime
+      type: System.Threading.Tasks.Task{System.DateTime}
       description: Calculated AlertTimeout
-    content.vb: Public Function ComputeAlertTimeout(priority As Integer, alertLevel As Short, alertStop As Integer) As DateTime
-  overload: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout*
+    content.vb: Public Function ComputeAlertTimeoutAsync(priority As Integer, alertLevel As Short, alertStop As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of DateTime)
+  overload: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeoutAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow)
-  commentId: M:SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow)
-  id: CheckEscalating(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow)
+- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalatingAsync(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalatingAsync(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
+  id: CheckEscalatingAsync(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketAlertHelper
   langs:
   - csharp
   - vb
-  name: CheckEscalating(TicketPriorityEscalateAction, TicketRow)
-  nameWithType: TicketAlertHelper.CheckEscalating(TicketPriorityEscalateAction, TicketRow)
-  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating(SuperOffice.Data.TicketPriorityEscalateAction, SuperOffice.CRM.Rows.TicketRow)
+  name: CheckEscalatingAsync(TicketPriorityEscalateAction, TicketRow, CancellationToken)
+  nameWithType: TicketAlertHelper.CheckEscalatingAsync(TicketPriorityEscalateAction, TicketRow, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalatingAsync(SuperOffice.Data.TicketPriorityEscalateAction, SuperOffice.CRM.Rows.TicketRow, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -98,7 +100,7 @@ items:
   namespace: SuperOffice.CRM.Ticket
   summary: "\nChecks and changes alert level, alert timeout\nThis method will check if the ticket should change its alert level based on the priority and action.\nIf it is to change, the alert level and alert timeout for the ticket will be updated.\n"
   syntax:
-    content: public void CheckEscalating(TicketPriorityEscalateAction action, TicketRow ticketRow)
+    content: public Task CheckEscalatingAsync(TicketPriorityEscalateAction action, TicketRow ticketRow, CancellationToken cancellationToken = null)
     parameters:
     - id: action
       type: SuperOffice.Data.TicketPriorityEscalateAction
@@ -106,22 +108,26 @@ items:
     - id: ticketRow
       type: SuperOffice.CRM.Rows.TicketRow
       description: Ticket&apos;s row object to check escalation for
-    content.vb: Public Sub CheckEscalating(action As TicketPriorityEscalateAction, ticketRow As TicketRow)
-  overload: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function CheckEscalatingAsync(action As TicketPriorityEscalateAction, ticketRow As TicketRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalatingAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation(SuperOffice.CRM.Rows.TicketRow)
-  commentId: M:SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation(SuperOffice.CRM.Rows.TicketRow)
-  id: StopEscalation(SuperOffice.CRM.Rows.TicketRow)
+- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalationAsync(SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalationAsync(SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
+  id: StopEscalationAsync(SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketAlertHelper
   langs:
   - csharp
   - vb
-  name: StopEscalation(TicketRow)
-  nameWithType: TicketAlertHelper.StopEscalation(TicketRow)
-  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation(SuperOffice.CRM.Rows.TicketRow)
+  name: StopEscalationAsync(TicketRow, CancellationToken)
+  nameWithType: TicketAlertHelper.StopEscalationAsync(TicketRow, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalationAsync(SuperOffice.CRM.Rows.TicketRow, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -131,13 +137,17 @@ items:
   namespace: SuperOffice.CRM.Ticket
   summary: "\nStops ticket escalation by reseting alert timeout\nThis method recalculates alert stop and resets alert timeout.\n"
   syntax:
-    content: public void StopEscalation(TicketRow ticketRow)
+    content: public Task StopEscalationAsync(TicketRow ticketRow, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketRow
       type: SuperOffice.CRM.Rows.TicketRow
       description: Ticket&apos;s row object to stop escalation for
-    content.vb: Public Sub StopEscalation(ticketRow As TicketRow)
-  overload: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function StopEscalationAsync(ticketRow As TicketRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalationAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -533,12 +543,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout
+- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeoutAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeoutAsync
   isExternal: true
-  name: ComputeAlertTimeout
-  nameWithType: TicketAlertHelper.ComputeAlertTimeout
-  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout
+  name: ComputeAlertTimeoutAsync
+  nameWithType: TicketAlertHelper.ComputeAlertTimeoutAsync
+  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeoutAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -553,17 +563,98 @@ references:
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: System.DateTime
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.DateTime}
+  commentId: '!:System.Threading.Tasks.Task{System.DateTime}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DateTime>
+  nameWithType: Task<DateTime>
+  fullName: System.Threading.Tasks.Task<System.DateTime>
+  nameWithType.vb: Task(Of DateTime)
+  fullName.vb: System.Threading.Tasks.Task(Of System.DateTime)
+  name.vb: Task(Of DateTime)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: CheckEscalating
-  nameWithType: TicketAlertHelper.CheckEscalating
-  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalatingAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalatingAsync
+  isExternal: true
+  name: CheckEscalatingAsync
+  nameWithType: TicketAlertHelper.CheckEscalatingAsync
+  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalatingAsync
 - uid: SuperOffice.Data.TicketPriorityEscalateAction
   commentId: T:SuperOffice.Data.TicketPriorityEscalateAction
   parent: SuperOffice.Data
@@ -578,6 +669,11 @@ references:
   name: TicketRow
   nameWithType: TicketRow
   fullName: SuperOffice.CRM.Rows.TicketRow
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -590,12 +686,12 @@ references:
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation
+- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalationAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalationAsync
   isExternal: true
-  name: StopEscalation
-  nameWithType: TicketAlertHelper.StopEscalation
-  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation
+  name: StopEscalationAsync
+  nameWithType: TicketAlertHelper.StopEscalationAsync
+  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalationAsync
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.#ctor
   isExternal: true

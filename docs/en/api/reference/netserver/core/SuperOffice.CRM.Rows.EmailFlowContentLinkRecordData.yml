@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData)
   - SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData.SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData.SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData.SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData)
+- uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData.SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData)
-  name: ToInsert()
-  nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData)
+- uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(EmailFlowContentLinkRecordData)
-  nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsert(EmailFlowContentLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData)
+  name: ToInsertAsync(EmailFlowContentLinkRecordData, CancellationToken)
+  nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(EmailFlowContentLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData)
-    name: ToInsert
-    nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: EmailFlowContentLinkRecordData
     nameWithType: EmailFlowContentLinkRecordData
     fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData)
-    name: ToInsert
-    nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EmailFlowContentLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: EmailFlowContentLinkRecordData
     nameWithType: EmailFlowContentLinkRecordData
     fullName: SuperOffice.CRM.Rows.EmailFlowContentLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

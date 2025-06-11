@@ -6,10 +6,9 @@ items:
   parent: SuperOffice.CRM.BatchProcessing
   children:
   - SuperOffice.CRM.BatchProcessing.BatchTaskFacade.#ctor
-  - SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTask
-  - SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfo
-  - SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  - SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
+  - SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTaskAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfoAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.BatchProcessing.BatchTaskFacade.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -45,60 +44,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  id: StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync,System.Threading.CancellationToken)
+  id: RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.BatchTaskFacade
   langs:
   - csharp
   - vb
-  name: StartTask(Int32, String, String, BatchTaskStatusChanged)
-  nameWithType: BatchTaskFacade.StartTask(Int32, String, String, BatchTaskStatusChanged)
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask(System.Int32, System.String, System.String, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  type: Method
-  source:
-    path: SoBatchProcessing
-    isExternal: true
-  assemblies:
-  - SoBatchProcessing
-  namespace: SuperOffice.CRM.BatchProcessing
-  summary: "\nStart processing the task remotely\n"
-  syntax:
-    content: public BatchTaskInfo StartTask(int id, string name, string context, BatchTaskStatusChanged onBatchTaskStatusChanged)
-    parameters:
-    - id: id
-      type: System.Int32
-      description: Id of the task.  This value can be null for remotely processed tasks.
-    - id: name
-      type: System.String
-      description: Name of the task.
-    - id: context
-      type: System.String
-      description: Context of the task.
-    - id: onBatchTaskStatusChanged
-      type: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
-      description: Callback to recieve notifications about the task.
-    return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo
-      description: Information about the task.
-    content.vb: Public Function StartTask(id As Integer, name As String, context As String, onBatchTaskStatusChanged As BatchTaskStatusChanged) As BatchTaskInfo
-  overload: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask*
-  implements:
-  - SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  id: StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  parent: SuperOffice.CRM.BatchProcessing.BatchTaskFacade
-  langs:
-  - csharp
-  - vb
-  name: StartTask(BatchTaskInfo, String, BatchTaskStatusChanged)
-  nameWithType: BatchTaskFacade.StartTask(BatchTaskInfo, String, BatchTaskStatusChanged)
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask(SuperOffice.CRM.Services.BatchTaskInfo, System.String, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
+  name: RunTaskAsync(BatchTaskInfo, String, BatchTaskStatusChangedAsync, CancellationToken)
+  nameWithType: BatchTaskFacade.RunTaskAsync(BatchTaskInfo, String, BatchTaskStatusChangedAsync, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo, System.String, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoBatchProcessing
@@ -107,34 +62,36 @@ items:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
   syntax:
-    content: public BatchTaskInfo StartTask(BatchTaskInfo batchTaskInfo, string context, BatchTaskStatusChanged onBatchTaskStatusChanged)
+    content: public Task RunTaskAsync(BatchTaskInfo batchTaskInfo, string context, BatchTaskStatusChangedAsync onBatchTaskStatusChanged, CancellationToken cancellationToken = null)
     parameters:
     - id: batchTaskInfo
       type: SuperOffice.CRM.Services.BatchTaskInfo
     - id: context
       type: System.String
     - id: onBatchTaskStatusChanged
-      type: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
+      type: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo
-    content.vb: Public Function StartTask(batchTaskInfo As BatchTaskInfo, context As String, onBatchTaskStatusChanged As BatchTaskStatusChanged) As BatchTaskInfo
-  overload: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask*
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RunTaskAsync(batchTaskInfo As BatchTaskInfo, context As String, onBatchTaskStatusChanged As BatchTaskStatusChangedAsync, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.RunTaskAsync*
   implements:
-  - SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
+  - SuperOffice.CRM.BatchProcessing.IBatchTask.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync,System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfo
-  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfo
-  id: GetTaskInfo
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfoAsync(System.Threading.CancellationToken)
+  id: GetTaskInfoAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.BatchTaskFacade
   langs:
   - csharp
   - vb
-  name: GetTaskInfo()
-  nameWithType: BatchTaskFacade.GetTaskInfo()
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfo()
+  name: GetTaskInfoAsync(CancellationToken)
+  nameWithType: BatchTaskFacade.GetTaskInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfoAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoBatchProcessing
@@ -144,27 +101,30 @@ items:
   namespace: SuperOffice.CRM.BatchProcessing
   summary: "\nObtain information about the task.\n"
   syntax:
-    content: public BatchTaskInfo GetTaskInfo()
+    content: public Task<BatchTaskInfo> GetTaskInfoAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.BatchTaskInfo
-    content.vb: Public Function GetTaskInfo As BatchTaskInfo
-  overload: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfo*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
+    content.vb: Public Function GetTaskInfoAsync(cancellationToken As CancellationToken = Nothing) As Task(Of BatchTaskInfo)
+  overload: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfoAsync*
   implements:
-  - SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfo
+  - SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfoAsync(System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTask
-  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTask
-  id: EndTask
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTaskAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTaskAsync(System.Threading.CancellationToken)
+  id: EndTaskAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.BatchTaskFacade
   langs:
   - csharp
   - vb
-  name: EndTask()
-  nameWithType: BatchTaskFacade.EndTask()
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTask()
+  name: EndTaskAsync(CancellationToken)
+  nameWithType: BatchTaskFacade.EndTaskAsync(CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTaskAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoBatchProcessing
@@ -173,11 +133,16 @@ items:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
   syntax:
-    content: public void EndTask()
-    content.vb: Public Sub
-  overload: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTask*
+    content: public Task EndTaskAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function EndTaskAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTaskAsync*
   implements:
-  - SuperOffice.CRM.BatchProcessing.IBatchTask.EndTask
+  - SuperOffice.CRM.BatchProcessing.IBatchTask.EndTaskAsync(System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -580,32 +545,32 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.RunTaskAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.RunTaskAsync
   isExternal: true
-  name: StartTask
-  nameWithType: BatchTaskFacade.StartTask
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.StartTask
-- uid: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
+  name: RunTaskAsync
+  nameWithType: BatchTaskFacade.RunTaskAsync
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.RunTaskAsync
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTask.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTask.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.IBatchTask
   isExternal: true
-  name: StartTask(Int32, String, String, BatchTaskStatusChanged)
-  nameWithType: IBatchTask.StartTask(Int32, String, String, BatchTaskStatusChanged)
-  fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(System.Int32, System.String, System.String, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
+  name: RunTaskAsync(BatchTaskInfo, String, BatchTaskStatusChangedAsync, CancellationToken)
+  nameWithType: IBatchTask.RunTaskAsync(BatchTaskInfo, String, BatchTaskStatusChangedAsync, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo, System.String, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-    name: StartTask
-    nameWithType: IBatchTask.StartTask
-    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync,System.Threading.CancellationToken)
+    name: RunTaskAsync
+    nameWithType: IBatchTask.RunTaskAsync
+    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.RunTaskAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -618,35 +583,35 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+    name: BatchTaskStatusChangedAsync
+    nameWithType: BatchTaskStatusChangedAsync
+    fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
     isExternal: true
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
-    name: BatchTaskStatusChanged
-    nameWithType: BatchTaskStatusChanged
-    fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-    name: StartTask
-    nameWithType: IBatchTask.StartTask
-    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.RunTaskAsync(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync,System.Threading.CancellationToken)
+    name: RunTaskAsync
+    nameWithType: IBatchTask.RunTaskAsync
+    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.RunTaskAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -659,29 +624,27 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+    name: BatchTaskStatusChangedAsync
+    nameWithType: BatchTaskStatusChangedAsync
+    fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
     isExternal: true
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
-    name: BatchTaskStatusChanged
-    nameWithType: BatchTaskStatusChanged
-    fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: SuperOffice.CRM.Services.BatchTaskInfo
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  name: BatchTaskInfo
+  nameWithType: BatchTaskInfo
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -689,162 +652,195 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
-  commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+  commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
   parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
-  name: BatchTaskStatusChanged
-  nameWithType: BatchTaskStatusChanged
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
-- uid: SuperOffice.CRM.Services.BatchTaskInfo
+  name: BatchTaskStatusChangedAsync
+  nameWithType: BatchTaskStatusChangedAsync
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: BatchTaskInfo
-  nameWithType: BatchTaskInfo
-  fullName: SuperOffice.CRM.Services.BatchTaskInfo
-- uid: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfoAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfoAsync
+  isExternal: true
+  name: GetTaskInfoAsync
+  nameWithType: BatchTaskFacade.GetTaskInfoAsync
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfoAsync
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfoAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.IBatchTask
   isExternal: true
-  name: StartTask(BatchTaskInfo, String, BatchTaskStatusChanged)
-  nameWithType: IBatchTask.StartTask(BatchTaskInfo, String, BatchTaskStatusChanged)
-  fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(SuperOffice.CRM.Services.BatchTaskInfo, System.String, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
+  name: GetTaskInfoAsync(CancellationToken)
+  nameWithType: IBatchTask.GetTaskInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfoAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-    name: StartTask
-    nameWithType: IBatchTask.StartTask
-    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfoAsync(System.Threading.CancellationToken)
+    name: GetTaskInfoAsync
+    nameWithType: IBatchTask.GetTaskInfoAsync
+    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfoAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfoAsync(System.Threading.CancellationToken)
+    name: GetTaskInfoAsync
+    nameWithType: IBatchTask.GetTaskInfoAsync
+    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfoAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.BatchTaskInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<BatchTaskInfo>
+  nameWithType: Task<BatchTaskInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.BatchTaskInfo>
+  nameWithType.vb: Task(Of BatchTaskInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.BatchTaskInfo)
+  name.vb: Task(Of BatchTaskInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
     nameWithType: BatchTaskInfo
     fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
-    name: BatchTaskStatusChanged
-    nameWithType: BatchTaskStatusChanged
-    fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-    name: StartTask
-    nameWithType: IBatchTask.StartTask
-    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.StartTask
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
     nameWithType: BatchTaskInfo
     fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
-    name: BatchTaskStatusChanged
-    nameWithType: BatchTaskStatusChanged
-    fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfo*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfo
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: GetTaskInfo
-  nameWithType: BatchTaskFacade.GetTaskInfo
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.GetTaskInfo
-- uid: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfo
-  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfo
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTaskAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTaskAsync
+  isExternal: true
+  name: EndTaskAsync
+  nameWithType: BatchTaskFacade.EndTaskAsync
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTaskAsync
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTaskAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTask.EndTaskAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.IBatchTask
   isExternal: true
-  name: GetTaskInfo()
-  nameWithType: IBatchTask.GetTaskInfo()
-  fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfo()
+  name: EndTaskAsync(CancellationToken)
+  nameWithType: IBatchTask.EndTaskAsync(CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTaskAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfo
-    name: GetTaskInfo
-    nameWithType: IBatchTask.GetTaskInfo
-    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfo
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTaskAsync(System.Threading.CancellationToken)
+    name: EndTaskAsync
+    nameWithType: IBatchTask.EndTaskAsync
+    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTaskAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfo
-    name: GetTaskInfo
-    nameWithType: IBatchTask.GetTaskInfo
-    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.GetTaskInfo
+  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTaskAsync(System.Threading.CancellationToken)
+    name: EndTaskAsync
+    nameWithType: IBatchTask.EndTaskAsync
+    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTaskAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTask*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTask
-  isExternal: true
-  name: EndTask
-  nameWithType: BatchTaskFacade.EndTask
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.EndTask
-- uid: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTask
-  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTask.EndTask
-  parent: SuperOffice.CRM.BatchProcessing.IBatchTask
-  isExternal: true
-  name: EndTask()
-  nameWithType: IBatchTask.EndTask()
-  fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTask()
-  spec.csharp:
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTask
-    name: EndTask
-    nameWithType: IBatchTask.EndTask
-    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTask
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTask
-    name: EndTask
-    nameWithType: IBatchTask.EndTask
-    fullName: SuperOffice.CRM.BatchProcessing.IBatchTask.EndTask
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )

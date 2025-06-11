@@ -1,0 +1,1040 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  id: ConfigFile.IDocumentsConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveDomain
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePassword
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath1
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath10
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath2
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath3
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath4
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath5
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath6
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath7
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath8
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath9
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveRelativePath
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveUser
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.AzureBlobStorageContainerPrimaryUri
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.BufferSize
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.CanCreateDocumentTemplates
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ImpersonateUser
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplatePath
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplateRelativePath
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryPath
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryRelativePath
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IDocumentsConfiguration
+  nameWithType: ConfigFile.IDocumentsConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUtility class used to access the SuperOffice.Documents entry in the Config file.\nCreated in Database scope\n"
+  syntax:
+    content: public interface IDocumentsConfiguration
+    content.vb: Public Interface IDocumentsConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.AzureBlobStorageContainerPrimaryUri
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.AzureBlobStorageContainerPrimaryUri
+  id: AzureBlobStorageContainerPrimaryUri
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AzureBlobStorageContainerPrimaryUri
+  nameWithType: ConfigFile.IDocumentsConfiguration.AzureBlobStorageContainerPrimaryUri
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.AzureBlobStorageContainerPrimaryUri
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe Azure Blob Storage Container shared access signature (SAS) used to connect to a blob container when running in public cloud\n"
+  syntax:
+    content: string AzureBlobStorageContainerPrimaryUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property AzureBlobStorageContainerPrimaryUri As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.AzureBlobStorageContainerPrimaryUri*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveRelativePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveRelativePath
+  id: ArchiveRelativePath
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveRelativePath
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchiveRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveRelativePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDirectory path relative to Azure Blob Storage Container root used when running in public cloud\n"
+  syntax:
+    content: string ArchiveRelativePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchiveRelativePath As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveRelativePath*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplateRelativePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplateRelativePath
+  id: TemplateRelativePath
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TemplateRelativePath
+  nameWithType: ConfigFile.IDocumentsConfiguration.TemplateRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplateRelativePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDirectory path relative to Azure Blob Storage Container root used when running in public cloud\n"
+  syntax:
+    content: string TemplateRelativePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TemplateRelativePath As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplateRelativePath*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryRelativePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryRelativePath
+  id: TemporaryRelativePath
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TemporaryRelativePath
+  nameWithType: ConfigFile.IDocumentsConfiguration.TemporaryRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryRelativePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDirectory path relative to Azure Blob Storage Container root used when running in public cloud\n"
+  syntax:
+    content: string TemporaryRelativePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TemporaryRelativePath As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryRelativePath*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath
+  id: ArchivePath
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nPath for SO_ARC. Even it the so arc is not used, default path for document template folder is calculated from this folder.\n"
+  syntax:
+    content: string ArchivePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath1
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath1
+  id: ArchivePath1
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath1
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath1
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath1
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAlternative/additional archive path to search for documents\n"
+  syntax:
+    content: string ArchivePath1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath1 As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath1*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath2
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath2
+  id: ArchivePath2
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath2
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath2
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath2
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAlternative/additional archive path to search for documents\n"
+  syntax:
+    content: string ArchivePath2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath2 As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath2*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath3
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath3
+  id: ArchivePath3
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath3
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath3
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath3
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAlternative/additional archive path to search for documents\n"
+  syntax:
+    content: string ArchivePath3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath3 As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath3*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath4
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath4
+  id: ArchivePath4
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath4
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath4
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath4
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAlternative/additional archive path to search for documents\n"
+  syntax:
+    content: string ArchivePath4 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath4 As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath4*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath5
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath5
+  id: ArchivePath5
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath5
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath5
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath5
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAlternative/additional archive path to search for documents\n"
+  syntax:
+    content: string ArchivePath5 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath5 As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath5*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath6
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath6
+  id: ArchivePath6
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath6
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath6
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath6
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAlternative/additional archive path to search for documents\n"
+  syntax:
+    content: string ArchivePath6 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath6 As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath6*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath7
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath7
+  id: ArchivePath7
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath7
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath7
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath7
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAlternative/additional archive path to search for documents\n"
+  syntax:
+    content: string ArchivePath7 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath7 As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath7*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath8
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath8
+  id: ArchivePath8
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath8
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath8
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath8
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAlternative/additional archive path to search for documents\n"
+  syntax:
+    content: string ArchivePath8 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath8 As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath8*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath9
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath9
+  id: ArchivePath9
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath9
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath9
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath9
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAlternative/additional archive path to search for documents\n"
+  syntax:
+    content: string ArchivePath9 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath9 As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath9*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath10
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath10
+  id: ArchivePath10
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath10
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath10
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath10
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAlternative/additional archive path to search for documents\n"
+  syntax:
+    content: string ArchivePath10 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath10 As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath10*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplatePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplatePath
+  id: TemplatePath
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TemplatePath
+  nameWithType: ConfigFile.IDocumentsConfiguration.TemplatePath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplatePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nPath to document templates.\n"
+  remarks: "\nIf this value is not specified, the &quot;Template&quot; folder under <xref href=\"SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath\" data-throw-if-not-resolved=\"false\"></xref> is assumed.\n"
+  syntax:
+    content: string TemplatePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TemplatePath As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplatePath*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryPath
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryPath
+  id: TemporaryPath
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TemporaryPath
+  nameWithType: ConfigFile.IDocumentsConfiguration.TemporaryPath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryPath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nTemporary folder for working with documents.\n"
+  remarks: "\nIf this value does not exsist, the environment variable &quot;TEMP&quot; is used to find temporary folder.\n"
+  syntax:
+    content: string TemporaryPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TemporaryPath As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryPath*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ImpersonateUser
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ImpersonateUser
+  id: ImpersonateUser
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ImpersonateUser
+  nameWithType: ConfigFile.IDocumentsConfiguration.ImpersonateUser
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ImpersonateUser
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nImpersonate the user to access the document archive.\n"
+  remarks: "\nIf this value is true, see section <xref href=\"SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveUser\" data-throw-if-not-resolved=\"false\"></xref> for further reference.\n"
+  syntax:
+    content: bool ImpersonateUser { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ImpersonateUser As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ImpersonateUser*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveUser
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveUser
+  id: ArchiveUser
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveUser
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchiveUser
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveUser
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUsername of the user to impersonate.\n"
+  syntax:
+    content: string ArchiveUser { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchiveUser As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveUser*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePassword
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePassword
+  id: ArchivePassword
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePassword
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePassword
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePassword
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nPassword of the user to impersonate.\n"
+  syntax:
+    content: string ArchivePassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePassword As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePassword*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveDomain
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveDomain
+  id: ArchiveDomain
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveDomain
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchiveDomain
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveDomain
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDomain of the user to impersonate.\n"
+  syntax:
+    content: string ArchiveDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchiveDomain As String
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveDomain*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.BufferSize
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.BufferSize
+  id: BufferSize
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BufferSize
+  nameWithType: ConfigFile.IDocumentsConfiguration.BufferSize
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.BufferSize
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSize of the internal buffer (in Kilo Bytes) used for file handling.  Default buffer size is 1024KB.\n"
+  syntax:
+    content: int BufferSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property BufferSize As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.BufferSize*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.CanCreateDocumentTemplates
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.CanCreateDocumentTemplates
+  id: CanCreateDocumentTemplates
+  parent: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CanCreateDocumentTemplates
+  nameWithType: ConfigFile.IDocumentsConfiguration.CanCreateDocumentTemplates
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.CanCreateDocumentTemplates
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nNew document templates can be stored in SoArc\n"
+  syntax:
+    content: bool CanCreateDocumentTemplates { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CanCreateDocumentTemplates As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.CanCreateDocumentTemplates*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IDocumentsConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IDocumentsConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IDocumentsConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IDocumentsConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IDocumentsConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IDocumentsConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IDocumentsConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IDocumentsConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IDocumentsConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IDocumentsConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IDocumentsConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IDocumentsConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IDocumentsConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IDocumentsConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IDocumentsConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IDocumentsConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.AzureBlobStorageContainerPrimaryUri*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.AzureBlobStorageContainerPrimaryUri
+  isExternal: true
+  name: AzureBlobStorageContainerPrimaryUri
+  nameWithType: ConfigFile.IDocumentsConfiguration.AzureBlobStorageContainerPrimaryUri
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.AzureBlobStorageContainerPrimaryUri
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveRelativePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveRelativePath
+  isExternal: true
+  name: ArchiveRelativePath
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchiveRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveRelativePath
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplateRelativePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplateRelativePath
+  isExternal: true
+  name: TemplateRelativePath
+  nameWithType: ConfigFile.IDocumentsConfiguration.TemplateRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplateRelativePath
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryRelativePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryRelativePath
+  isExternal: true
+  name: TemporaryRelativePath
+  nameWithType: ConfigFile.IDocumentsConfiguration.TemporaryRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryRelativePath
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath
+  isExternal: true
+  name: ArchivePath
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath1*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath1
+  isExternal: true
+  name: ArchivePath1
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath1
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath1
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath2*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath2
+  isExternal: true
+  name: ArchivePath2
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath2
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath2
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath3*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath3
+  isExternal: true
+  name: ArchivePath3
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath3
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath3
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath4*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath4
+  isExternal: true
+  name: ArchivePath4
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath4
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath4
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath5*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath5
+  isExternal: true
+  name: ArchivePath5
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath5
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath5
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath6*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath6
+  isExternal: true
+  name: ArchivePath6
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath6
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath6
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath7*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath7
+  isExternal: true
+  name: ArchivePath7
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath7
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath7
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath8*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath8
+  isExternal: true
+  name: ArchivePath8
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath8
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath8
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath9*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath9
+  isExternal: true
+  name: ArchivePath9
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath9
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath9
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath10*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath10
+  isExternal: true
+  name: ArchivePath10
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePath10
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePath10
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplatePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplatePath
+  isExternal: true
+  name: TemplatePath
+  nameWithType: ConfigFile.IDocumentsConfiguration.TemplatePath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemplatePath
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryPath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryPath
+  isExternal: true
+  name: TemporaryPath
+  nameWithType: ConfigFile.IDocumentsConfiguration.TemporaryPath
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.TemporaryPath
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ImpersonateUser*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ImpersonateUser
+  isExternal: true
+  name: ImpersonateUser
+  nameWithType: ConfigFile.IDocumentsConfiguration.ImpersonateUser
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ImpersonateUser
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveUser*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveUser
+  isExternal: true
+  name: ArchiveUser
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchiveUser
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveUser
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePassword*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePassword
+  isExternal: true
+  name: ArchivePassword
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchivePassword
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchivePassword
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveDomain*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveDomain
+  isExternal: true
+  name: ArchiveDomain
+  nameWithType: ConfigFile.IDocumentsConfiguration.ArchiveDomain
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.ArchiveDomain
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.BufferSize*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.BufferSize
+  isExternal: true
+  name: BufferSize
+  nameWithType: ConfigFile.IDocumentsConfiguration.BufferSize
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.BufferSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.CanCreateDocumentTemplates*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.CanCreateDocumentTemplates
+  isExternal: true
+  name: CanCreateDocumentTemplates
+  nameWithType: ConfigFile.IDocumentsConfiguration.CanCreateDocumentTemplates
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration.CanCreateDocumentTemplates

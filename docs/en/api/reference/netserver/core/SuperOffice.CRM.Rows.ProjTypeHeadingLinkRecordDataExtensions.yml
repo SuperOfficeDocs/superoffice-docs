@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
   - SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
-  - SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData)
-  - SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData})
+  - SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
+- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<ProjTypeHeadingLinkTableInfo>)
-  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect<ProjTypeHeadingLinkTableInfo>)
-  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo>)
+  name: FromSelectAsync(TargetedSelect<ProjTypeHeadingLinkTableInfo>, CancellationToken)
+  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync(TargetedSelect<ProjTypeHeadingLinkTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<ProjTypeHeadingLinkRecordData> FromSelect(this TargetedSelect<ProjTypeHeadingLinkTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<ProjTypeHeadingLinkRecordData> FromSelectAsync(this TargetedSelect<ProjTypeHeadingLinkTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of ProjTypeHeadingLinkTableInfo)) As IEnumerable(Of ProjTypeHeadingLinkRecordData)
-  overload: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect*
-  nameWithType.vb: ProjTypeHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect(Of ProjTypeHeadingLinkTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of ProjTypeHeadingLinkTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ProjTypeHeadingLinkRecordData)
+  overload: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync(TargetedSelect(Of ProjTypeHeadingLinkTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of ProjTypeHeadingLinkTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of ProjTypeHeadingLinkTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
   commentId: M:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of ProjTypeHeadingLinkTableInfo))
-- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(ProjTypeHeadingLinkRecordData)
-  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.ToInsert(ProjTypeHeadingLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData)
+  name: ToInsertAsync(ProjTypeHeadingLinkRecordData, CancellationToken)
+  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.ToInsertAsync(ProjTypeHeadingLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this ProjTypeHeadingLinkRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this ProjTypeHeadingLinkRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As ProjTypeHeadingLinkRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As ProjTypeHeadingLinkRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData})
-  commentId: M:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData})
+- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<ProjTypeHeadingLinkRecordData>)
-  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.ToInserts(IEnumerable<ProjTypeHeadingLinkRecordData>)
-  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData>)
+  name: ToInsertsAsync(IEnumerable<ProjTypeHeadingLinkRecordData>, CancellationToken)
+  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync(IEnumerable<ProjTypeHeadingLinkRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<ProjTypeHeadingLinkRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<ProjTypeHeadingLinkRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of ProjTypeHeadingLinkRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInserts*
-  nameWithType.vb: ProjTypeHeadingLinkRecordDataExtensions.ToInserts(IEnumerable(Of ProjTypeHeadingLinkRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of ProjTypeHeadingLinkRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync(IEnumerable(Of ProjTypeHeadingLinkRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData))
-  name.vb: ToInserts(IEnumerable(Of ProjTypeHeadingLinkRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of ProjTypeHeadingLinkRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRow)
   commentId: M:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRow)
   id: ToRecordData(SuperOffice.CRM.Rows.ProjTypeHeadingLinkRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<ProjTypeHeadingLinkTableInfo>)
+  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect<ProjTypeHeadingLinkTableInfo>)
+  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;ProjTypeHeadingLinkTableInfo>, execute it and return an IEnumerable&lt;ProjTypeHeadingLinkRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<ProjTypeHeadingLinkRecordData> FromSelect(this TargetedSelect<ProjTypeHeadingLinkTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of ProjTypeHeadingLinkTableInfo)) As IEnumerable(Of ProjTypeHeadingLinkRecordData)
+  overload: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect*
+  nameWithType.vb: ProjTypeHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect(Of ProjTypeHeadingLinkTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of ProjTypeHeadingLinkTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<ProjTypeHeadingLinkRecordData>
-  nameWithType: IEnumerable<ProjTypeHeadingLinkRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData>
-  nameWithType.vb: IEnumerable(Of ProjTypeHeadingLinkRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData)
-  name.vb: IEnumerable(Of ProjTypeHeadingLinkRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ProjTypeHeadingLinkRecordData>
+  nameWithType: IAsyncEnumerable<ProjTypeHeadingLinkRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of ProjTypeHeadingLinkRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData)
+  name.vb: IAsyncEnumerable(Of ProjTypeHeadingLinkRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ProjTypeHeadingLinkRecordData>
+  nameWithType: IEnumerable<ProjTypeHeadingLinkRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData>
+  nameWithType.vb: IEnumerable(Of ProjTypeHeadingLinkRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData)
+  name.vb: IEnumerable(Of ProjTypeHeadingLinkRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData
+    name: ProjTypeHeadingLinkRecordData
+    nameWithType: ProjTypeHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData
+    name: ProjTypeHeadingLinkRecordData
+    nameWithType: ProjTypeHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: ProjTypeHeadingLinkRow
   nameWithType: ProjTypeHeadingLinkRow
   fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRow
+- uid: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: ProjTypeHeadingLinkRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.ProjTypeHeadingLinkRecordDataExtensions.FromSelect

@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ChatTopicTableInfo})
   - SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo})
-  - SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
-  - SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData})
+  - SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ChatTopicRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo})
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<ChatTopicTableInfo>)
-  nameWithType: ChatTopicRecordDataExtensions.FromSelect(TargetedSelect<ChatTopicTableInfo>)
-  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ChatTopicTableInfo>)
+  name: FromSelectAsync(TargetedSelect<ChatTopicTableInfo>, CancellationToken)
+  nameWithType: ChatTopicRecordDataExtensions.FromSelectAsync(TargetedSelect<ChatTopicTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ChatTopicTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<ChatTopicRecordData> FromSelect(this TargetedSelect<ChatTopicTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<ChatTopicRecordData> FromSelectAsync(this TargetedSelect<ChatTopicTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of ChatTopicTableInfo)) As IEnumerable(Of ChatTopicRecordData)
-  overload: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect*
-  nameWithType.vb: ChatTopicRecordDataExtensions.FromSelect(TargetedSelect(Of ChatTopicTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of ChatTopicTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ChatTopicRecordData)
+  overload: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: ChatTopicRecordDataExtensions.FromSelectAsync(TargetedSelect(Of ChatTopicTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ChatTopicTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of ChatTopicTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ChatTopicTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of ChatTopicTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ChatTopicTableInfo})
   commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ChatTopicTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ChatTopicTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ChatTopicTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of ChatTopicTableInfo))
-- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(ChatTopicRecordData)
-  nameWithType: ChatTopicRecordDataExtensions.ToInsert(ChatTopicRecordData)
-  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  name: ToInsertAsync(ChatTopicRecordData, CancellationToken)
+  nameWithType: ChatTopicRecordDataExtensions.ToInsertAsync(ChatTopicRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this ChatTopicRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this ChatTopicRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.ChatTopicRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As ChatTopicRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As ChatTopicRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData})
-  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData})
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<ChatTopicRecordData>)
-  nameWithType: ChatTopicRecordDataExtensions.ToInserts(IEnumerable<ChatTopicRecordData>)
-  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ChatTopicRecordData>)
+  name: ToInsertsAsync(IEnumerable<ChatTopicRecordData>, CancellationToken)
+  nameWithType: ChatTopicRecordDataExtensions.ToInsertsAsync(IEnumerable<ChatTopicRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ChatTopicRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<ChatTopicRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<ChatTopicRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of ChatTopicRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInserts*
-  nameWithType.vb: ChatTopicRecordDataExtensions.ToInserts(IEnumerable(Of ChatTopicRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of ChatTopicRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: ChatTopicRecordDataExtensions.ToInsertsAsync(IEnumerable(Of ChatTopicRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ChatTopicRecordData))
-  name.vb: ToInserts(IEnumerable(Of ChatTopicRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ChatTopicRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of ChatTopicRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ChatTopicRow)
   commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ChatTopicRow)
   id: ToRecordData(SuperOffice.CRM.Rows.ChatTopicRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<ChatTopicTableInfo>)
+  nameWithType: ChatTopicRecordDataExtensions.FromSelect(TargetedSelect<ChatTopicTableInfo>)
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ChatTopicTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;ChatTopicTableInfo>, execute it and return an IEnumerable&lt;ChatTopicRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<ChatTopicRecordData> FromSelect(this TargetedSelect<ChatTopicTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of ChatTopicTableInfo)) As IEnumerable(Of ChatTopicRecordData)
+  overload: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect*
+  nameWithType.vb: ChatTopicRecordDataExtensions.FromSelect(TargetedSelect(Of ChatTopicTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ChatTopicTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of ChatTopicTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: ChatTopicRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: ChatTopicRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ChatTopicTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<ChatTopicRecordData>
-  nameWithType: IEnumerable<ChatTopicRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ChatTopicRecordData>
-  nameWithType.vb: IEnumerable(Of ChatTopicRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ChatTopicRecordData)
-  name.vb: IEnumerable(Of ChatTopicRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ChatTopicRecordData>
+  nameWithType: IAsyncEnumerable<ChatTopicRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.ChatTopicRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of ChatTopicRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.ChatTopicRecordData)
+  name.vb: IAsyncEnumerable(Of ChatTopicRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: ChatTopicRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: ChatTopicRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: ChatTopicRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: ChatTopicRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ChatTopicRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ChatTopicRecordData>
+  nameWithType: IEnumerable<ChatTopicRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ChatTopicRecordData>
+  nameWithType.vb: IEnumerable(Of ChatTopicRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ChatTopicRecordData)
+  name.vb: IEnumerable(Of ChatTopicRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordData
+    name: ChatTopicRecordData
+    nameWithType: ChatTopicRecordData
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordData
+    name: ChatTopicRecordData
+    nameWithType: ChatTopicRecordData
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: ChatTopicRow
   nameWithType: ChatTopicRow
   fullName: SuperOffice.CRM.Rows.ChatTopicRow
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: ChatTopicRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.FromSelect

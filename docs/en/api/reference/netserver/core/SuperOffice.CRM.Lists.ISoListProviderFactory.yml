@@ -1,0 +1,1162 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory
+  commentId: T:SuperOffice.CRM.Lists.ISoListProviderFactory
+  id: ISoListProviderFactory
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.Flush
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation(System.String)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation(System.String,System.Int32)
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.KnownHistoryInfos
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.KnownListProviders
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.KnownSoListProviders
+  langs:
+  - csharp
+  - vb
+  name: ISoListProviderFactory
+  nameWithType: ISoListProviderFactory
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCreates a MDOProvider \n"
+  syntax:
+    content: public interface ISoListProviderFactory
+    content.vb: Public Interface ISoListProviderFactory
+  extensionMethods:
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.ISoListProviderFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation(System.String)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation(System.String)
+  id: GetHistoryInformation(System.String)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryInformation(String)
+  nameWithType: ISoListProviderFactory.GetHistoryInformation(String)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: HistoryInfo GetHistoryInformation(string listName)
+    parameters:
+    - id: listName
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Lists.HistoryInfo
+    content.vb: Function GetHistoryInformation(listName As String) As HistoryInfo
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation*
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation(System.String,System.Int32)
+  id: GetHistoryInformation(System.String,System.Int32)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryInformation(String, Int32)
+  nameWithType: ISoListProviderFactory.GetHistoryInformation(String, Int32)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: HistoryInfo GetHistoryInformation(string tableName, int extraId)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: extraId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Lists.HistoryInfo
+    content.vb: Function GetHistoryInformation(tableName As String, extraId As Integer) As HistoryInfo
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation*
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.Threading.CancellationToken)
+  id: CreateAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(String, CancellationToken)
+  nameWithType: ISoListProviderFactory.CreateAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCreate an MDOProvider for an MDO list\n"
+  syntax:
+    content: Task<ISoListProvider> CreateAsync(string listName, CancellationToken cancellationToken = null)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Name of the list to create the MDO Provider for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+      description: ISoListProvider with data from the table
+    content.vb: Function CreateAsync(listName As String, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync*
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: CreateAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(String, Boolean, CancellationToken)
+  nameWithType: ISoListProviderFactory.CreateAsync(String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.Boolean, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCreate an MDOProvider for an MDO list, and potentially force a flat output (no headings or history)\n"
+  syntax:
+    content: Task<ISoListProvider> CreateAsync(string listName, bool forceFlatList, CancellationToken cancellationToken = null)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Name of the list to create the MDO Provider for
+    - id: forceFlatList
+      type: System.Boolean
+      description: If true, forces flat output. Filtering will still be performed if specified in SoAdmin.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+    content.vb: Function CreateAsync(listName As String, forceFlatList As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync*
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: CreateAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(String, String, CancellationToken)
+  nameWithType: ISoListProviderFactory.CreateAsync(String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCreate an MDOProvider for an MDO list, with additional information for the provider\n"
+  syntax:
+    content: Task<ISoListProvider> CreateAsync(string listName, string additionalInfo, CancellationToken cancellationToken = null)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Name of the list to create the MDO Provider for
+    - id: additionalInfo
+      type: System.String
+      description: Additional information, passed to the provider factory and constructor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+    content.vb: Function CreateAsync(listName As String, additionalInfo As String, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync*
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: CreateAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(String, String, Boolean, CancellationToken)
+  nameWithType: ISoListProviderFactory.CreateAsync(String, String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCreate an MDOProvider, with additional information and possibly force flat output\n"
+  syntax:
+    content: Task<ISoListProvider> CreateAsync(string listName, string additionalInfo, bool forceFlatList, CancellationToken cancellationToken = null)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Name of the list to create the MDO Provider for
+    - id: additionalInfo
+      type: System.String
+      description: Additional info for the provider
+    - id: forceFlatList
+      type: System.Boolean
+      description: If true, forces flat output. Filtering will still be performed if specified in SoAdmin.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+      description: ISoListProvider
+    content.vb: Function CreateAsync(listName As String, additionalInfo As String, forceFlatList As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync*
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: CreateAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(String, String, String, CancellationToken)
+  nameWithType: ISoListProviderFactory.CreateAsync(String, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.String, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCreate an MDOProvider, with additional information, and restrict the output to those items that match\nthe given search value. The search algorithm is determined by the individual providers.\n"
+  syntax:
+    content: Task<ISoListProvider> CreateAsync(string listName, string additionalInfo, string searchValue, CancellationToken cancellationToken = null)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Name of the list to create the MDO Provider for
+    - id: additionalInfo
+      type: System.String
+      description: Additional information for the provider
+    - id: searchValue
+      type: System.String
+      description: Value to search for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+      description: Provider
+    content.vb: Function CreateAsync(listName As String, additionalInfo As String, searchValue As String, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync*
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: CreateAsync(System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(String, String, Boolean, Boolean, CancellationToken)
+  nameWithType: ISoListProviderFactory.CreateAsync(String, String, Boolean, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.String, System.Boolean, System.Boolean, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCreate an MDOProvider, with additional information, potentially force only history to be read, potentially force flat output\n"
+  syntax:
+    content: Task<ISoListProvider> CreateAsync(string listName, string additionalInfo, bool readOnlyHistory, bool forceFlatList, CancellationToken cancellationToken = null)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Name of the list to create the MDO Provider for
+    - id: additionalInfo
+      type: System.String
+      description: Additional information for the provider
+    - id: readOnlyHistory
+      type: System.Boolean
+      description: If true, only history is read and returned
+    - id: forceFlatList
+      type: System.Boolean
+      description: If true, forces flat output. Filtering will still be performed if specified in SoAdmin.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+      description: Provider
+    content.vb: Function CreateAsync(listName As String, additionalInfo As String, readOnlyHistory As Boolean, forceFlatList As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync*
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  id: CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(String, String, Int32[], Boolean, CancellationToken)
+  nameWithType: ISoListProviderFactory.CreateAsync(String, String, Int32[], Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.String, System.Int32[], System.Boolean, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCreate an MDOProvider, with additional information, an override of the history array, and potentially force flat output\n"
+  syntax:
+    content: Task<ISoListProvider> CreateAsync(string listName, string additionalInfo, int[] historyIds, bool forceFlatList, CancellationToken cancellationToken = null)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Name of the list to create the MDO Provider for
+    - id: additionalInfo
+      type: System.String
+      description: Additional info for the provider
+    - id: historyIds
+      type: System.Int32[]
+      description: "Ids of list primary keys that represent the history; the history table is NOT read in this case.\nAn array with zero elements will disable history fetching; a null parameter will instead cause history to be \nfetched from the database."
+    - id: forceFlatList
+      type: System.Boolean
+      description: If true, forces flat output. Filtering will still be performed if specified in SoAdmin.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+      description: ISoListProvider
+    content.vb: Function CreateAsync(listName As String, additionalInfo As String, historyIds As Integer(), forceFlatList As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync*
+  nameWithType.vb: ISoListProviderFactory.CreateAsync(String, String, Int32(), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.String, System.Int32(), System.Boolean, System.Threading.CancellationToken)
+  name.vb: CreateAsync(String, String, Int32(), Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(String, String, Int32[], Boolean, Boolean, CancellationToken)
+  nameWithType: ISoListProviderFactory.CreateAsync(String, String, Int32[], Boolean, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.String, System.Int32[], System.Boolean, System.Boolean, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCreate an MDOProvider, with additional information, an override of the history array, \npotentially force ONLY history to be returned, and potentially force flat output.\n"
+  syntax:
+    content: Task<ISoListProvider> CreateAsync(string listName, string additionalInfo, int[] historyIds, bool readOnlyHistory, bool forceFlatList, CancellationToken cancellationToken = null)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Name of the list to create the MDO Provider for
+    - id: additionalInfo
+      type: System.String
+      description: Additional information for the provider
+    - id: historyIds
+      type: System.Int32[]
+      description: "Ids of list primary keys that represent the history; the history table is NOT read in this case.\nAn array with zero elements will disable history fetching; a null parameter will instead cause history to be \nfetched from the database."
+    - id: readOnlyHistory
+      type: System.Boolean
+      description: If true, only history is read and returned
+    - id: forceFlatList
+      type: System.Boolean
+      description: If true, forces flat output. Filtering will still be performed if specified in SoAdmin.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+      description: Provider
+    content.vb: Function CreateAsync(listName As String, additionalInfo As String, historyIds As Integer(), readOnlyHistory As Boolean, forceFlatList As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync*
+  nameWithType.vb: ISoListProviderFactory.CreateAsync(String, String, Int32(), Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.String, System.Int32(), System.Boolean, System.Boolean, System.Threading.CancellationToken)
+  name.vb: CreateAsync(String, String, Int32(), Boolean, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: CreateAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(String, String, Int32[], Boolean, String, Boolean, CancellationToken)
+  nameWithType: ISoListProviderFactory.CreateAsync(String, String, Int32[], Boolean, String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCreate an MDOProvider, with additional information, an override of the history array, \npotentially force ONLY history to be returned, potentially restrict output via a seach value,\nand potentially force flat output.\n"
+  syntax:
+    content: Task<ISoListProvider> CreateAsync(string listName, string additionalInfo, int[] historyIDs, bool onlyReadHistory, string searchValue, bool forceFlatList, CancellationToken cancellationToken = null)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Name of the list to create the MDO Provider for
+    - id: additionalInfo
+      type: System.String
+      description: Additional information for the provider
+    - id: historyIDs
+      type: System.Int32[]
+      description: "Ids of list primary keys that represent the history; the history table is NOT read in this case.\nAn array with zero elements will disable history fetching; a null parameter will instead cause history to be \nfetched from the database."
+    - id: onlyReadHistory
+      type: System.Boolean
+      description: If true, only history is read and returned
+    - id: searchValue
+      type: System.String
+      description: Value to search for
+    - id: forceFlatList
+      type: System.Boolean
+      description: If true, forces flat output. Filtering will still be performed if specified in SoAdmin.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+      description: Provider
+    content.vb: Function CreateAsync(listName As String, additionalInfo As String, historyIDs As Integer(), onlyReadHistory As Boolean, searchValue As String, forceFlatList As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync*
+  nameWithType.vb: ISoListProviderFactory.CreateAsync(String, String, Int32(), Boolean, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean, System.Threading.CancellationToken)
+  name.vb: CreateAsync(String, String, Int32(), Boolean, String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.Flush
+  commentId: M:SuperOffice.CRM.Lists.ISoListProviderFactory.Flush
+  id: Flush
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: ISoListProviderFactory.Flush()
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.Flush()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nFlushes the MDOProvider plugin cache\n"
+  syntax:
+    content: void Flush()
+    content.vb: Sub Flush
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.Flush*
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownSoListProviders
+  commentId: P:SuperOffice.CRM.Lists.ISoListProviderFactory.KnownSoListProviders
+  id: KnownSoListProviders
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: KnownSoListProviders
+  nameWithType: ISoListProviderFactory.KnownSoListProviders
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownSoListProviders
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nReturn a dictionary of all known list providers (name/<xref href=\"SuperOffice.Factory.PluginInfo\" data-throw-if-not-resolved=\"false\"></xref>)\n"
+  syntax:
+    content: Dictionary<string, PluginInfo> KnownSoListProviders { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.Factory.PluginInfo}
+    content.vb: ReadOnly Property KnownSoListProviders As Dictionary(Of String, PluginInfo)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownSoListProviders*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownListProviders
+  commentId: P:SuperOffice.CRM.Lists.ISoListProviderFactory.KnownListProviders
+  id: KnownListProviders
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: KnownListProviders
+  nameWithType: ISoListProviderFactory.KnownListProviders
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownListProviders
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nReturn a list of the names of all known list providers\n"
+  syntax:
+    content: List<string> KnownListProviders { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: ReadOnly Property KnownListProviders As List(Of String)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownListProviders*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownHistoryInfos
+  commentId: P:SuperOffice.CRM.Lists.ISoListProviderFactory.KnownHistoryInfos
+  id: KnownHistoryInfos
+  parent: SuperOffice.CRM.Lists.ISoListProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: KnownHistoryInfos
+  nameWithType: ISoListProviderFactory.KnownHistoryInfos
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownHistoryInfos
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: Dictionary<string, HistoryInfo> KnownHistoryInfos { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Lists.HistoryInfo}
+    content.vb: ReadOnly Property KnownHistoryInfos As Dictionary(Of String, HistoryInfo)
+  overload: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownHistoryInfos*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISoListProviderFactory, To>()
+  nameWithType: EnumUtil.MapEnums<ISoListProviderFactory, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ISoListProviderFactory, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoListProviderFactory, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ISoListProviderFactory, To)()
+  name.vb: MapEnums(Of ISoListProviderFactory, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoListProviderFactory, To>
+    nameWithType: EnumUtil.MapEnums<ISoListProviderFactory, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ISoListProviderFactory, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoListProviderFactory, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoListProviderFactory, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ISoListProviderFactory, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISoListProviderFactory, To>()
+  nameWithType: Converters.MapEnums<ISoListProviderFactory, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ISoListProviderFactory, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoListProviderFactory, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ISoListProviderFactory, To)()
+  name.vb: MapEnums(Of ISoListProviderFactory, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoListProviderFactory, To>
+    nameWithType: Converters.MapEnums<ISoListProviderFactory, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ISoListProviderFactory, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoListProviderFactory, To)
+    nameWithType: Converters.MapEnums(Of ISoListProviderFactory, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ISoListProviderFactory, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation*
+  commentId: Overload:SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation
+  isExternal: true
+  name: GetHistoryInformation
+  nameWithType: ISoListProviderFactory.GetHistoryInformation
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.GetHistoryInformation
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Lists.HistoryInfo
+  commentId: T:SuperOffice.CRM.Lists.HistoryInfo
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: HistoryInfo
+  nameWithType: HistoryInfo
+  fullName: SuperOffice.CRM.Lists.HistoryInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync
+  isExternal: true
+  name: CreateAsync
+  nameWithType: ISoListProviderFactory.CreateAsync
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.CreateAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ISoListProvider>
+  nameWithType: Task<ISoListProvider>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Lists.ISoListProvider>
+  nameWithType.vb: Task(Of ISoListProvider)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Lists.ISoListProvider)
+  name.vb: Task(Of ISoListProvider)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListProvider
+    name: ISoListProvider
+    nameWithType: ISoListProvider
+    fullName: SuperOffice.CRM.Lists.ISoListProvider
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListProvider
+    name: ISoListProvider
+    nameWithType: ISoListProvider
+    fullName: SuperOffice.CRM.Lists.ISoListProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.Flush*
+  commentId: Overload:SuperOffice.CRM.Lists.ISoListProviderFactory.Flush
+  isExternal: true
+  name: Flush
+  nameWithType: ISoListProviderFactory.Flush
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.Flush
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownSoListProviders*
+  commentId: Overload:SuperOffice.CRM.Lists.ISoListProviderFactory.KnownSoListProviders
+  isExternal: true
+  name: KnownSoListProviders
+  nameWithType: ISoListProviderFactory.KnownSoListProviders
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownSoListProviders
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Factory.PluginInfo}
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.Factory.PluginInfo}'
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, PluginInfo>
+  nameWithType: Dictionary<String, PluginInfo>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.Factory.PluginInfo>
+  nameWithType.vb: Dictionary(Of String, PluginInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.Factory.PluginInfo)
+  name.vb: Dictionary(Of String, PluginInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Factory.PluginInfo
+    name: PluginInfo
+    nameWithType: PluginInfo
+    fullName: SuperOffice.Factory.PluginInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Factory.PluginInfo
+    name: PluginInfo
+    nameWithType: PluginInfo
+    fullName: SuperOffice.Factory.PluginInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownListProviders*
+  commentId: Overload:SuperOffice.CRM.Lists.ISoListProviderFactory.KnownListProviders
+  isExternal: true
+  name: KnownListProviders
+  nameWithType: ISoListProviderFactory.KnownListProviders
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownListProviders
+- uid: System.Collections.Generic.List{System.String}
+  commentId: '!:System.Collections.Generic.List{System.String}'
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownHistoryInfos*
+  commentId: Overload:SuperOffice.CRM.Lists.ISoListProviderFactory.KnownHistoryInfos
+  isExternal: true
+  name: KnownHistoryInfos
+  nameWithType: ISoListProviderFactory.KnownHistoryInfos
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory.KnownHistoryInfos
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Lists.HistoryInfo}
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Lists.HistoryInfo}'
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, HistoryInfo>
+  nameWithType: Dictionary<String, HistoryInfo>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.Lists.HistoryInfo>
+  nameWithType.vb: Dictionary(Of String, HistoryInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.Lists.HistoryInfo)
+  name.vb: Dictionary(Of String, HistoryInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.HistoryInfo
+    name: HistoryInfo
+    nameWithType: HistoryInfo
+    fullName: SuperOffice.CRM.Lists.HistoryInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.HistoryInfo
+    name: HistoryInfo
+    nameWithType: HistoryInfo
+    fullName: SuperOffice.CRM.Lists.HistoryInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

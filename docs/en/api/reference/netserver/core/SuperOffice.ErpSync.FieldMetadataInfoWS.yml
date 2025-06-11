@@ -245,7 +245,7 @@ items:
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\nUsed for getting the list items from the list provider. The source of the items are ultimately be accessed via\n<xref href=\"SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.CRM.IErpConnector.GetList(System.Guid%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref>, through various naming conventions and adapters. The actual Quote and ERP Connectors\nsolve this in slightly different ways.\n"
+  summary: "\nUsed for getting the list items from the list provider. The source of the items are ultimately be accessed via\n<xref href=\"SuperOffice.CRM.IQuoteConnector.GetQuoteListAsync(System.String%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.CRM.IErpConnector.GetList(System.Guid%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref>, through various naming conventions and adapters. The actual Quote and ERP Connectors\nsolve this in slightly different ways.\n"
   syntax:
     content: public string ListName { get; set; }
     parameters: []

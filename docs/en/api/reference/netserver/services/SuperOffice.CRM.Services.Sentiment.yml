@@ -30,8 +30,6 @@ items:
       Public Class Sentiment
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.AIAgent
-    commentId: T:SuperOffice.CRM.Services.AIAgent
   - linkId: SuperOffice.CRM.Services.IAIAgent
     commentId: T:SuperOffice.CRM.Services.IAIAgent
   inheritance:
@@ -205,15 +203,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AIAgent
-  commentId: T:SuperOffice.CRM.Services.AIAgent
-  isExternal: true
-  name: AIAgent
-  nameWithType: AIAgent
-  fullName: SuperOffice.CRM.Services.AIAgent
 - uid: SuperOffice.CRM.Services.IAIAgent
   commentId: T:SuperOffice.CRM.Services.IAIAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IAIAgent
   nameWithType: IAIAgent

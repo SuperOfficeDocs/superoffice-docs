@@ -5,8 +5,8 @@ items:
   id: TicketOwnerResolver
   parent: SuperOffice.CRM.Ticket
   children:
-  - SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(SuperOffice.CRM.Rows.TicketRow)
-  - SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(System.Int32,System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync(SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -34,16 +34,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(System.Int32,System.Int32,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(System.Int32,System.Int32,System.Int32,System.Int32)
-  id: ResolveOwner(System.Int32,System.Int32,System.Int32,System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: ResolveOwnerAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketOwnerResolver
   langs:
   - csharp
   - vb
-  name: ResolveOwner(Int32, Int32, Int32, Int32)
-  nameWithType: TicketOwnerResolver.ResolveOwner(Int32, Int32, Int32, Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(System.Int32, System.Int32, System.Int32, System.Int32)
+  name: ResolveOwnerAsync(Int32, Int32, Int32, Int32, CancellationToken)
+  nameWithType: TicketOwnerResolver.ResolveOwnerAsync(Int32, Int32, Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync(System.Int32, System.Int32, System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -52,7 +52,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static int ResolveOwner(int ticketId, int ejCategoryId, int personId, int ownedBy)
+    content: public static Task<int> ResolveOwnerAsync(int ticketId, int ejCategoryId, int personId, int ownedBy, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
@@ -62,26 +62,28 @@ items:
       type: System.Int32
     - id: ownedBy
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function ResolveOwner(ticketId As Integer, ejCategoryId As Integer, personId As Integer, ownedBy As Integer) As Integer
-  overload: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function ResolveOwnerAsync(ticketId As Integer, ejCategoryId As Integer, personId As Integer, ownedBy As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(SuperOffice.CRM.Rows.TicketRow)
-  commentId: M:SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(SuperOffice.CRM.Rows.TicketRow)
-  id: ResolveOwner(SuperOffice.CRM.Rows.TicketRow)
+- uid: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync(SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync(SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
+  id: ResolveOwnerAsync(SuperOffice.CRM.Rows.TicketRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketOwnerResolver
   langs:
   - csharp
   - vb
-  name: ResolveOwner(TicketRow)
-  nameWithType: TicketOwnerResolver.ResolveOwner(TicketRow)
-  fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(SuperOffice.CRM.Rows.TicketRow)
+  name: ResolveOwnerAsync(TicketRow, CancellationToken)
+  nameWithType: TicketOwnerResolver.ResolveOwnerAsync(TicketRow, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync(SuperOffice.CRM.Rows.TicketRow, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -90,14 +92,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static int ResolveOwner(TicketRow ticketRow)
+    content: public static Task<int> ResolveOwnerAsync(TicketRow ticketRow, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketRow
       type: SuperOffice.CRM.Rows.TicketRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function ResolveOwner(ticketRow As TicketRow) As Integer
-  overload: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function ResolveOwnerAsync(ticketRow As TicketRow, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync*
   modifiers.csharp:
   - public
   - static
@@ -124,12 +128,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner
+- uid: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync
   isExternal: true
-  name: ResolveOwner
-  nameWithType: TicketOwnerResolver.ResolveOwner
-  fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner
+  name: ResolveOwnerAsync
+  nameWithType: TicketOwnerResolver.ResolveOwnerAsync
+  fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwnerAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -137,6 +141,92 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TicketRow
   commentId: T:SuperOffice.CRM.Rows.TicketRow
   parent: SuperOffice.CRM.Rows

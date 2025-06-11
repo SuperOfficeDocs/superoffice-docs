@@ -5,7 +5,7 @@ items:
   id: ICustomWebhookPlugin
   parent: SuperOffice.CRM.Webhooks
   children:
-  - SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
+  - SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -19,7 +19,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: "\nWebhooks for custom systems. There may be several of these per system - these are not prioritized.\nAll of them are instantiated and processed by the webhook dispatcher <xref href=\"SuperOffice.CRM.Webhooks.WebhookManager\" data-throw-if-not-resolved=\"false\"></xref>.\nPlugins must be marked with the <xref href=\"SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute\" data-throw-if-not-resolved=\"false\"></xref> to be found by the class factory.\n"
+  summary: "\nWebhooks for custom systems. There may be several of these per system - these are not prioritized.\nAll of them are instantiated and processed by the webhook dispatcher <see cref=\"!:WebhookManager\"></see>.\nPlugins must be marked with the <xref href=\"SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute\" data-throw-if-not-resolved=\"false\"></xref> to be found by the class factory.\n"
   syntax:
     content: 'public interface ICustomWebhookPlugin : IPlugin'
     content.vb: >-
@@ -34,16 +34,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
-  commentId: M:SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
-  id: Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
+- uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+  id: NotifyAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
   langs:
   - csharp
   - vb
-  name: Notify(Webhook, WebhookPayload)
-  nameWithType: ICustomWebhookPlugin.Notify(Webhook, WebhookPayload)
-  fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload)
+  name: NotifyAsync(Webhook, WebhookPayload, CancellationToken)
+  nameWithType: ICustomWebhookPlugin.NotifyAsync(Webhook, WebhookPayload, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -53,7 +53,7 @@ items:
   namespace: SuperOffice.CRM.Webhooks
   summary: "\nBroadcast the event to all subscribers, and mark failures/success status on the passed webhook objects.\n"
   syntax:
-    content: WebhookResponse Notify(Webhook webhook, WebhookPayload eventInfo)
+    content: Task<WebhookResponse> NotifyAsync(Webhook webhook, WebhookPayload eventInfo, CancellationToken cancellationToken = null)
     parameters:
     - id: webhook
       type: SuperOffice.CRM.Webhooks.Webhook
@@ -61,11 +61,13 @@ items:
     - id: eventInfo
       type: SuperOffice.CRM.Webhooks.WebhookPayload
       description: Event name, unique id and details
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Webhooks.WebhookResponse
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.WebhookResponse}
       description: Success/Failure information. NULL is taken as SUCCESS
-    content.vb: Function Notify(webhook As Webhook, eventInfo As WebhookPayload) As WebhookResponse
-  overload: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify*
+    content.vb: Function NotifyAsync(webhook As Webhook, eventInfo As WebhookPayload, cancellationToken As CancellationToken = Nothing) As Task(Of WebhookResponse)
+  overload: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.NotifyAsync*
 references:
 - uid: SuperOffice.CRM.Webhooks
   commentId: N:SuperOffice.CRM.Webhooks
@@ -238,12 +240,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify*
-  commentId: Overload:SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify
+- uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.NotifyAsync*
+  commentId: Overload:SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.NotifyAsync
   isExternal: true
-  name: Notify
-  nameWithType: ICustomWebhookPlugin.Notify
-  fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify
+  name: NotifyAsync
+  nameWithType: ICustomWebhookPlugin.NotifyAsync
+  fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.NotifyAsync
 - uid: SuperOffice.CRM.Webhooks.Webhook
   commentId: T:SuperOffice.CRM.Webhooks.Webhook
   parent: SuperOffice.CRM.Webhooks
@@ -258,10 +260,89 @@ references:
   name: WebhookPayload
   nameWithType: WebhookPayload
   fullName: SuperOffice.CRM.Webhooks.WebhookPayload
-- uid: SuperOffice.CRM.Webhooks.WebhookResponse
-  commentId: T:SuperOffice.CRM.Webhooks.WebhookResponse
-  parent: SuperOffice.CRM.Webhooks
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: WebhookResponse
-  nameWithType: WebhookResponse
-  fullName: SuperOffice.CRM.Webhooks.WebhookResponse
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.WebhookResponse}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.WebhookResponse}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<WebhookResponse>
+  nameWithType: Task<WebhookResponse>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Webhooks.WebhookResponse>
+  nameWithType.vb: Task(Of WebhookResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Webhooks.WebhookResponse)
+  name.vb: Task(Of WebhookResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Webhooks.WebhookResponse
+    name: WebhookResponse
+    nameWithType: WebhookResponse
+    fullName: SuperOffice.CRM.Webhooks.WebhookResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Webhooks.WebhookResponse
+    name: WebhookResponse
+    nameWithType: WebhookResponse
+    fullName: SuperOffice.CRM.Webhooks.WebhookResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

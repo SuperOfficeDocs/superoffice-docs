@@ -27,8 +27,6 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: "\nCarrier object for TimeZoneData.\nInformation about a TimeZone    \n"
-  example:
-  - "\nGet TimeZoneData 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new TimeZoneAgent(configuration);\nvar timeZoneData = agent.GetTimeZoneData( 123 );</code></pre>\n"
   syntax:
     content: 'public class TimeZoneData : Object'
     content.vb: >-

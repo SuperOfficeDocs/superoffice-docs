@@ -31,8 +31,6 @@ items:
       Public Class ImportColumnInfo
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ImportAgent
-    commentId: T:SuperOffice.CRM.Services.ImportAgent
   - linkId: SuperOffice.CRM.Services.IImportAgent
     commentId: T:SuperOffice.CRM.Services.IImportAgent
   inheritance:
@@ -239,15 +237,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ImportAgent
-  commentId: T:SuperOffice.CRM.Services.ImportAgent
-  isExternal: true
-  name: ImportAgent
-  nameWithType: ImportAgent
-  fullName: SuperOffice.CRM.Services.ImportAgent
 - uid: SuperOffice.CRM.Services.IImportAgent
   commentId: T:SuperOffice.CRM.Services.IImportAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IImportAgent
   nameWithType: IImportAgent

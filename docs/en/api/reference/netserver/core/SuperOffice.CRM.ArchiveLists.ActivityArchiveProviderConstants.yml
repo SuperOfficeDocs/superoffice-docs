@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants
+  commentId: T:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants
+  id: ActivityArchiveProviderConstants
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.#ctor
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: ActivityArchiveProviderConstants
+  nameWithType: ActivityArchiveProviderConstants
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: 'public class ActivityArchiveProviderConstants : ActivityArchiveProviderBaseConstants'
+    content.vb: >-
+      Public Class ActivityArchiveProviderConstants
+          Inherits ActivityArchiveProviderBaseConstants
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityAppointment
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityToDo
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityDocument
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityOther
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.IconCommon
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants)
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.ProviderName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: ActivityArchiveProviderConstants.ProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.ProviderName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ProviderName = "Activity"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "Activity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants
+  langs:
+  - csharp
+  - vb
+  name: ActivityArchiveProviderConstants()
+  nameWithType: ActivityArchiveProviderConstants.ActivityArchiveProviderConstants()
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.ActivityArchiveProviderConstants()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ActivityArchiveProviderConstants()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants
+  commentId: T:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ActivityArchiveProviderBaseConstants
+  nameWithType: ActivityArchiveProviderBaseConstants
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityAppointment
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityAppointment
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants
+  isExternal: true
+  name: EntityAppointment
+  nameWithType: ActivityArchiveProviderBaseConstants.EntityAppointment
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityAppointment
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityToDo
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityToDo
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants
+  isExternal: true
+  name: EntityToDo
+  nameWithType: ActivityArchiveProviderBaseConstants.EntityToDo
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityToDo
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityDocument
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityDocument
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants
+  isExternal: true
+  name: EntityDocument
+  nameWithType: ActivityArchiveProviderBaseConstants.EntityDocument
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityDocument
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityOther
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityOther
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants
+  isExternal: true
+  name: EntityOther
+  nameWithType: ActivityArchiveProviderBaseConstants.EntityOther
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.EntityOther
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.IconCommon
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.IconCommon
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants
+  isExternal: true
+  name: IconCommon
+  nameWithType: ActivityArchiveProviderBaseConstants.IconCommon
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBaseConstants.IconCommon
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ActivityArchiveProviderConstants, To>()
+  nameWithType: EnumUtil.MapEnums<ActivityArchiveProviderConstants, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ActivityArchiveProviderConstants, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants, To)()
+  name.vb: MapEnums(Of ActivityArchiveProviderConstants, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ActivityArchiveProviderConstants, To>
+    nameWithType: EnumUtil.MapEnums<ActivityArchiveProviderConstants, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ActivityArchiveProviderConstants, To)
+    nameWithType: EnumUtil.MapEnums(Of ActivityArchiveProviderConstants, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ActivityArchiveProviderConstants>(ActivityArchiveProviderConstants)
+  nameWithType: ObjectExtensions.AssignByReflection<ActivityArchiveProviderConstants>(ActivityArchiveProviderConstants)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants>(SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ActivityArchiveProviderConstants)(ActivityArchiveProviderConstants)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants)(SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants)
+  name.vb: AssignByReflection(Of ActivityArchiveProviderConstants)(ActivityArchiveProviderConstants)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ActivityArchiveProviderConstants>
+    nameWithType: ObjectExtensions.AssignByReflection<ActivityArchiveProviderConstants>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants
+    name: ActivityArchiveProviderConstants
+    nameWithType: ActivityArchiveProviderConstants
+    fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ActivityArchiveProviderConstants)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ActivityArchiveProviderConstants)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants
+    name: ActivityArchiveProviderConstants
+    nameWithType: ActivityArchiveProviderConstants
+    fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ActivityArchiveProviderConstants>()
+  nameWithType: ObjectExtensions.GraphCopy<ActivityArchiveProviderConstants>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ActivityArchiveProviderConstants)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants)()
+  name.vb: GraphCopy(Of ActivityArchiveProviderConstants)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ActivityArchiveProviderConstants>
+    nameWithType: ObjectExtensions.GraphCopy<ActivityArchiveProviderConstants>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ActivityArchiveProviderConstants)
+    nameWithType: ObjectExtensions.GraphCopy(Of ActivityArchiveProviderConstants)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ActivityArchiveProviderConstants, To>()
+  nameWithType: Converters.MapEnums<ActivityArchiveProviderConstants, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants, To>()
+  nameWithType.vb: Converters.MapEnums(Of ActivityArchiveProviderConstants, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants, To)()
+  name.vb: MapEnums(Of ActivityArchiveProviderConstants, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ActivityArchiveProviderConstants, To>
+    nameWithType: Converters.MapEnums<ActivityArchiveProviderConstants, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ActivityArchiveProviderConstants, To)
+    nameWithType: Converters.MapEnums(Of ActivityArchiveProviderConstants, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.#ctor
+  isExternal: true
+  name: ActivityArchiveProviderConstants
+  nameWithType: ActivityArchiveProviderConstants.ActivityArchiveProviderConstants
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderConstants.ActivityArchiveProviderConstants

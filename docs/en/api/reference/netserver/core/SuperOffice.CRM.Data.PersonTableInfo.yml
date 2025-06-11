@@ -170,8 +170,8 @@ items:
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   extensionMethods:
   - SuperOffice.CRM.Data.PersonTableInfo.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Data.PersonTableInfo.SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
-  - SuperOffice.CRM.Data.PersonTableInfo.SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy
+  - SuperOffice.CRM.Data.PersonTableInfo.SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Data.PersonTableInfo.SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Data.PersonTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Data.SQL.DatabaseTableAttribute
@@ -4203,65 +4203,85 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Data.PersonTableInfo.SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
-  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+- uid: SuperOffice.CRM.Data.PersonTableInfo.SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Globalization.PersonNameFormatter
-  definition: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
-  name: GetPersonOrderBy()
-  nameWithType: PersonNameFormatter.GetPersonOrderBy()
-  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy()
+  definition: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
+  name: GetPersonOrderByAsync(CancellationToken)
+  nameWithType: PersonNameFormatter.GetPersonOrderByAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
-    name: GetPersonOrderBy
-    nameWithType: PersonNameFormatter.GetPersonOrderBy
-    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
+  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(System.Threading.CancellationToken)
+    name: GetPersonOrderByAsync
+    nameWithType: PersonNameFormatter.GetPersonOrderByAsync
+    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
-    name: GetPersonOrderBy
-    nameWithType: PersonNameFormatter.GetPersonOrderBy
-    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
+  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(System.Threading.CancellationToken)
+    name: GetPersonOrderByAsync
+    nameWithType: PersonNameFormatter.GetPersonOrderByAsync
+    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Data.PersonTableInfo.SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy
-  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+- uid: SuperOffice.CRM.Data.PersonTableInfo.SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Globalization.PersonNameFormatter
-  definition: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
-  name: GetAssociateOrderBy()
-  nameWithType: PersonNameFormatter.GetAssociateOrderBy()
-  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy()
+  definition: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
+  name: GetAssociateOrderByAsync(CancellationToken)
+  nameWithType: PersonNameFormatter.GetAssociateOrderByAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy
-    name: GetAssociateOrderBy
-    nameWithType: PersonNameFormatter.GetAssociateOrderBy
-    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy
+  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(System.Threading.CancellationToken)
+    name: GetAssociateOrderByAsync
+    nameWithType: PersonNameFormatter.GetAssociateOrderByAsync
+    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy
-    name: GetAssociateOrderBy
-    nameWithType: PersonNameFormatter.GetAssociateOrderBy
-    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy
+  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(System.Threading.CancellationToken)
+    name: GetAssociateOrderByAsync
+    nameWithType: PersonNameFormatter.GetAssociateOrderByAsync
+    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -4356,17 +4376,17 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
-  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
   isExternal: true
-  name: GetPersonOrderBy(PersonTableInfo)
-  nameWithType: PersonNameFormatter.GetPersonOrderBy(PersonTableInfo)
-  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  name: GetPersonOrderByAsync(PersonTableInfo, CancellationToken)
+  nameWithType: PersonNameFormatter.GetPersonOrderByAsync(PersonTableInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
-    name: GetPersonOrderBy
-    nameWithType: PersonNameFormatter.GetPersonOrderBy
-    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
+  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
+    name: GetPersonOrderByAsync
+    nameWithType: PersonNameFormatter.GetPersonOrderByAsync
+    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4375,15 +4395,23 @@ references:
     name: PersonTableInfo
     nameWithType: PersonTableInfo
     fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
-    name: GetPersonOrderBy
-    nameWithType: PersonNameFormatter.GetPersonOrderBy
-    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
+  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
+    name: GetPersonOrderByAsync
+    nameWithType: PersonNameFormatter.GetPersonOrderByAsync
+    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderByAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4392,6 +4420,14 @@ references:
     name: PersonTableInfo
     nameWithType: PersonTableInfo
     fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -4403,17 +4439,17 @@ references:
   name: PersonNameFormatter
   nameWithType: PersonNameFormatter
   fullName: SuperOffice.CRM.Globalization.PersonNameFormatter
-- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
-  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
   isExternal: true
-  name: GetAssociateOrderBy(PersonTableInfo)
-  nameWithType: PersonNameFormatter.GetAssociateOrderBy(PersonTableInfo)
-  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  name: GetAssociateOrderByAsync(PersonTableInfo, CancellationToken)
+  nameWithType: PersonNameFormatter.GetAssociateOrderByAsync(PersonTableInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
-    name: GetAssociateOrderBy
-    nameWithType: PersonNameFormatter.GetAssociateOrderBy
-    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy
+  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
+    name: GetAssociateOrderByAsync
+    nameWithType: PersonNameFormatter.GetAssociateOrderByAsync
+    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4422,15 +4458,23 @@ references:
     name: PersonTableInfo
     nameWithType: PersonTableInfo
     fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
-    name: GetAssociateOrderBy
-    nameWithType: PersonNameFormatter.GetAssociateOrderBy
-    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy
+  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync(SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
+    name: GetAssociateOrderByAsync
+    nameWithType: PersonNameFormatter.GetAssociateOrderByAsync
+    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderByAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4439,6 +4483,14 @@ references:
     name: PersonTableInfo
     nameWithType: PersonTableInfo
     fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

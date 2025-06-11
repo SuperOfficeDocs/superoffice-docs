@@ -48,12 +48,9 @@ items:
   - SuperOffice.WebApi.Data.ArchiveConfiguration
   - SuperOffice.WebApi.Data.ArchiveListItem
   - SuperOffice.WebApi.Data.ArchiveListResult
-  - SuperOffice.WebApi.Data.Area
   - SuperOffice.WebApi.Data.Associate
   - SuperOffice.WebApi.Data.AttachmentEntity
   - SuperOffice.WebApi.Data.AttachmentPreview
-  - SuperOffice.WebApi.Data.AudienceConfigParameter
-  - SuperOffice.WebApi.Data.AudienceLayoutEntity
   - SuperOffice.WebApi.Data.Batch
   - SuperOffice.WebApi.Data.BatchTaskInfo
   - SuperOffice.WebApi.Data.BlobEntity
@@ -108,9 +105,6 @@ items:
   - SuperOffice.WebApi.Data.CustomerServiceConfig
   - SuperOffice.WebApi.Data.CustomerServiceStartup
   - SuperOffice.WebApi.Data.Dash
-  - SuperOffice.WebApi.Data.Dashboard
-  - SuperOffice.WebApi.Data.DashboardTile
-  - SuperOffice.WebApi.Data.DashboardTileOption
   - SuperOffice.WebApi.Data.DashCollection
   - SuperOffice.WebApi.Data.DashTheme
   - SuperOffice.WebApi.Data.DashTile
@@ -173,6 +167,9 @@ items:
   - SuperOffice.WebApi.Data.ForeignKey
   - SuperOffice.WebApi.Data.FormEntity
   - SuperOffice.WebApi.Data.FormSubmissionEntity
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOption
   - SuperOffice.WebApi.Data.FreeText
   - SuperOffice.WebApi.Data.GrantedModuleLicense
   - SuperOffice.WebApi.Data.HeadingEntity
@@ -199,8 +196,6 @@ items:
   - SuperOffice.WebApi.Data.Mailbox
   - SuperOffice.WebApi.Data.MailboxEntity
   - SuperOffice.WebApi.Data.MailingStatistics
-  - SuperOffice.WebApi.Data.MailMergeSettings
-  - SuperOffice.WebApi.Data.MailMergeTask
   - SuperOffice.WebApi.Data.MassOperationResult
   - SuperOffice.WebApi.Data.MDOListItem
   - SuperOffice.WebApi.Data.MessageDeliveryStatus
@@ -262,7 +257,6 @@ items:
   - SuperOffice.WebApi.Data.QuoteEntity
   - SuperOffice.WebApi.Data.QuoteLine
   - SuperOffice.WebApi.Data.QuoteLineConfiguration
-  - SuperOffice.WebApi.Data.QuoteListItem
   - SuperOffice.WebApi.Data.QuotePublishDocuments
   - SuperOffice.WebApi.Data.QuoteVersion
   - SuperOffice.WebApi.Data.QuoteVersionAttachment
@@ -283,7 +277,6 @@ items:
   - SuperOffice.WebApi.Data.RelationToOwner
   - SuperOffice.WebApi.Data.RemoteTimeZoneMethods
   - SuperOffice.WebApi.Data.ReplyTemplateParsed
-  - SuperOffice.WebApi.Data.ReportEntity
   - SuperOffice.WebApi.Data.ReportLabelLayoutEntity
   - SuperOffice.WebApi.Data.ResolvedPerson
   - SuperOffice.WebApi.Data.ResolvedUser
@@ -301,7 +294,6 @@ items:
   - SuperOffice.WebApi.Data.SaleType
   - SuperOffice.WebApi.Data.SaleTypeEntity
   - SuperOffice.WebApi.Data.SaleTypeStageLink
-  - SuperOffice.WebApi.Data.Satellite
   - SuperOffice.WebApi.Data.Script
   - SuperOffice.WebApi.Data.SelectableMDOListItem
   - SuperOffice.WebApi.Data.SelectionCategory
@@ -316,6 +308,7 @@ items:
   - SuperOffice.WebApi.Data.SmsConfig
   - SuperOffice.WebApi.Data.SmtpTestResult
   - SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  - SuperOffice.WebApi.Data.SoTask
   - SuperOffice.WebApi.Data.Source
   - SuperOffice.WebApi.Data.StatisticsDataSet
   - SuperOffice.WebApi.Data.StatisticsDataValue
@@ -337,7 +330,6 @@ items:
   - SuperOffice.WebApi.Data.TargetGroup
   - SuperOffice.WebApi.Data.TargetRevision
   - SuperOffice.WebApi.Data.TargetRevisionHistory
-  - SuperOffice.WebApi.Data.Task
   - SuperOffice.WebApi.Data.TaskListItem
   - SuperOffice.WebApi.Data.TaskMenu
   - SuperOffice.WebApi.Data.TemplateVariablesParameters

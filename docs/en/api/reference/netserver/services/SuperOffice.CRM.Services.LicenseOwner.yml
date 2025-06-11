@@ -32,8 +32,6 @@ items:
       Public Class LicenseOwner
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.LicenseAgent
-    commentId: T:SuperOffice.CRM.Services.LicenseAgent
   - linkId: SuperOffice.CRM.Services.ILicenseAgent
     commentId: T:SuperOffice.CRM.Services.ILicenseAgent
   inheritance:
@@ -316,15 +314,8 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.LicenseAgent
-  commentId: T:SuperOffice.CRM.Services.LicenseAgent
-  isExternal: true
-  name: LicenseAgent
-  nameWithType: LicenseAgent
-  fullName: SuperOffice.CRM.Services.LicenseAgent
 - uid: SuperOffice.CRM.Services.ILicenseAgent
   commentId: T:SuperOffice.CRM.Services.ILicenseAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ILicenseAgent
   nameWithType: ILicenseAgent

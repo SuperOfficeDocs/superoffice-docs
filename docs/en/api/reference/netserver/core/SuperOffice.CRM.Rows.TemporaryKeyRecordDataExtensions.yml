@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
   - SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
-  - SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  - SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData})
+  - SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TemporaryKeyRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TemporaryKeyRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<TemporaryKeyTableInfo>)
-  nameWithType: TemporaryKeyRecordDataExtensions.FromSelect(TargetedSelect<TemporaryKeyTableInfo>)
-  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TemporaryKeyTableInfo>)
+  name: FromSelectAsync(TargetedSelect<TemporaryKeyTableInfo>, CancellationToken)
+  nameWithType: TemporaryKeyRecordDataExtensions.FromSelectAsync(TargetedSelect<TemporaryKeyTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TemporaryKeyTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<TemporaryKeyRecordData> FromSelect(this TargetedSelect<TemporaryKeyTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<TemporaryKeyRecordData> FromSelectAsync(this TargetedSelect<TemporaryKeyTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of TemporaryKeyTableInfo)) As IEnumerable(Of TemporaryKeyRecordData)
-  overload: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect*
-  nameWithType.vb: TemporaryKeyRecordDataExtensions.FromSelect(TargetedSelect(Of TemporaryKeyTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of TemporaryKeyTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of TemporaryKeyRecordData)
+  overload: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: TemporaryKeyRecordDataExtensions.FromSelectAsync(TargetedSelect(Of TemporaryKeyTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TemporaryKeyTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of TemporaryKeyTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TemporaryKeyTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of TemporaryKeyTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
   commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TemporaryKeyTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of TemporaryKeyTableInfo))
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TemporaryKeyRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TemporaryKeyRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.TemporaryKeyRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(TemporaryKeyRecordData)
-  nameWithType: TemporaryKeyRecordDataExtensions.ToInsert(TemporaryKeyRecordData)
-  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+  name: ToInsertAsync(TemporaryKeyRecordData, CancellationToken)
+  nameWithType: TemporaryKeyRecordDataExtensions.ToInsertAsync(TemporaryKeyRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TemporaryKeyRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this TemporaryKeyRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this TemporaryKeyRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.TemporaryKeyRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As TemporaryKeyRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As TemporaryKeyRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData})
-  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData})
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<TemporaryKeyRecordData>)
-  nameWithType: TemporaryKeyRecordDataExtensions.ToInserts(IEnumerable<TemporaryKeyRecordData>)
-  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TemporaryKeyRecordData>)
+  name: ToInsertsAsync(IEnumerable<TemporaryKeyRecordData>, CancellationToken)
+  nameWithType: TemporaryKeyRecordDataExtensions.ToInsertsAsync(IEnumerable<TemporaryKeyRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TemporaryKeyRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<TemporaryKeyRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<TemporaryKeyRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of TemporaryKeyRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInserts*
-  nameWithType.vb: TemporaryKeyRecordDataExtensions.ToInserts(IEnumerable(Of TemporaryKeyRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of TemporaryKeyRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: TemporaryKeyRecordDataExtensions.ToInsertsAsync(IEnumerable(Of TemporaryKeyRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData))
-  name.vb: ToInserts(IEnumerable(Of TemporaryKeyRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of TemporaryKeyRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TemporaryKeyRow)
   commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TemporaryKeyRow)
   id: ToRecordData(SuperOffice.CRM.Rows.TemporaryKeyRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<TemporaryKeyTableInfo>)
+  nameWithType: TemporaryKeyRecordDataExtensions.FromSelect(TargetedSelect<TemporaryKeyTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TemporaryKeyTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;TemporaryKeyTableInfo>, execute it and return an IEnumerable&lt;TemporaryKeyRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<TemporaryKeyRecordData> FromSelect(this TargetedSelect<TemporaryKeyTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of TemporaryKeyTableInfo)) As IEnumerable(Of TemporaryKeyRecordData)
+  overload: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect*
+  nameWithType.vb: TemporaryKeyRecordDataExtensions.FromSelect(TargetedSelect(Of TemporaryKeyTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TemporaryKeyTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of TemporaryKeyTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: TemporaryKeyRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: TemporaryKeyRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TemporaryKeyTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<TemporaryKeyRecordData>
-  nameWithType: IEnumerable<TemporaryKeyRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TemporaryKeyRecordData>
-  nameWithType.vb: IEnumerable(Of TemporaryKeyRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  name.vb: IEnumerable(Of TemporaryKeyRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<TemporaryKeyRecordData>
+  nameWithType: IAsyncEnumerable<TemporaryKeyRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.TemporaryKeyRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of TemporaryKeyRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+  name.vb: IAsyncEnumerable(Of TemporaryKeyRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: TemporaryKeyRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: TemporaryKeyRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: TemporaryKeyRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: TemporaryKeyRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TemporaryKeyRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TemporaryKeyRecordData>
+  nameWithType: IEnumerable<TemporaryKeyRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TemporaryKeyRecordData>
+  nameWithType.vb: IEnumerable(Of TemporaryKeyRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+  name.vb: IEnumerable(Of TemporaryKeyRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
+    name: TemporaryKeyRecordData
+    nameWithType: TemporaryKeyRecordData
+    fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
+    name: TemporaryKeyRecordData
+    nameWithType: TemporaryKeyRecordData
+    fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: TemporaryKeyRow
   nameWithType: TemporaryKeyRow
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRow
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: TemporaryKeyRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.FromSelect

@@ -41,7 +41,7 @@ items:
   - SuperOffice.CRM.Rows.DiaryViewRowRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.DiaryViewRowRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DiaryViewRowRecordData)
   - SuperOffice.CRM.Rows.DiaryViewRowRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.DiaryViewRowRecordData.SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.DiaryViewRowRecordData.SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.DiaryViewRowRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -443,34 +443,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DiaryViewRowRecordData.SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DiaryViewRowRecordData)
+- uid: SuperOffice.CRM.Rows.DiaryViewRowRecordData.SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DiaryViewRowRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DiaryViewRowRecordData)
-  name: ToInsert()
-  nameWithType: DiaryViewRowRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DiaryViewRowRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: DiaryViewRowRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: DiaryViewRowRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DiaryViewRowRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: DiaryViewRowRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DiaryViewRowRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -656,17 +666,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DiaryViewRowRecordData)
-  commentId: M:SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DiaryViewRowRecordData)
+- uid: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DiaryViewRowRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DiaryViewRowRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(DiaryViewRowRecordData)
-  nameWithType: DiaryViewRowRecordDataExtensions.ToInsert(DiaryViewRowRecordData)
-  fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DiaryViewRowRecordData)
+  name: ToInsertAsync(DiaryViewRowRecordData, CancellationToken)
+  nameWithType: DiaryViewRowRecordDataExtensions.ToInsertAsync(DiaryViewRowRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DiaryViewRowRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DiaryViewRowRecordData)
-    name: ToInsert
-    nameWithType: DiaryViewRowRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DiaryViewRowRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DiaryViewRowRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -675,15 +685,23 @@ references:
     name: DiaryViewRowRecordData
     nameWithType: DiaryViewRowRecordData
     fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DiaryViewRowRecordData)
-    name: ToInsert
-    nameWithType: DiaryViewRowRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DiaryViewRowRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DiaryViewRowRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -692,6 +710,14 @@ references:
     name: DiaryViewRowRecordData
     nameWithType: DiaryViewRowRecordData
     fullName: SuperOffice.CRM.Rows.DiaryViewRowRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

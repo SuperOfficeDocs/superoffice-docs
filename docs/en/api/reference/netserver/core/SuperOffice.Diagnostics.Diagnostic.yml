@@ -17,6 +17,7 @@ items:
   - SuperOffice.Diagnostics.Diagnostic.AssertNull(System.Object,System.String)
   - SuperOffice.Diagnostics.Diagnostic.AssertSame``1(``0,``0,System.String)
   - SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  - SuperOffice.Diagnostics.Diagnostic.DiagnoseAsync(SuperOffice.Diagnostics.DiagnoseMethodAsync,System.Threading.CancellationToken)
   - SuperOffice.Diagnostics.Diagnostic.Error(System.String)
   - SuperOffice.Diagnostics.Diagnostic.Information(System.String)
   - SuperOffice.Diagnostics.Diagnostic.ToString
@@ -53,16 +54,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
-  commentId: M:SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
-  id: Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+- uid: SuperOffice.Diagnostics.Diagnostic.DiagnoseAsync(SuperOffice.Diagnostics.DiagnoseMethodAsync,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.DiagnoseAsync(SuperOffice.Diagnostics.DiagnoseMethodAsync,System.Threading.CancellationToken)
+  id: DiagnoseAsync(SuperOffice.Diagnostics.DiagnoseMethodAsync,System.Threading.CancellationToken)
   parent: SuperOffice.Diagnostics.Diagnostic
   langs:
   - csharp
   - vb
-  name: Diagnose(DiagnoseMethod)
-  nameWithType: Diagnostic.Diagnose(DiagnoseMethod)
-  fullName: SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  name: DiagnoseAsync(DiagnoseMethodAsync, CancellationToken)
+  nameWithType: Diagnostic.DiagnoseAsync(DiagnoseMethodAsync, CancellationToken)
+  fullName: SuperOffice.Diagnostics.Diagnostic.DiagnoseAsync(SuperOffice.Diagnostics.DiagnoseMethodAsync, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -74,17 +75,35 @@ items:
   example:
   - "\nThe following example illustrates the verifications of two strings being equal.  \nIf they are different, an exception is thrown.\n<pre><code>Diagnostic.Diagnose(delegate(Diagnostic s)\n{\n    string tmp = &quot;hello&quot;;\n    if (tmp != &quot;world&quot;)\n        s.Error(&quot;The strings are not equal&quot;);\n});</code></pre>\n"
   syntax:
-    content: public static void Diagnose(DiagnoseMethod diagnoseMethod)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task DiagnoseAsync(DiagnoseMethodAsync diagnoseMethod, CancellationToken cancellationToken = null)
     parameters:
     - id: diagnoseMethod
-      type: SuperOffice.Diagnostics.DiagnoseMethod
+      type: SuperOffice.Diagnostics.DiagnoseMethodAsync
       description: Method to execute.
-    content.vb: Public Shared Sub Diagnose(diagnoseMethod As DiagnoseMethod)
-  overload: SuperOffice.Diagnostics.Diagnostic.Diagnose*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function DiagnoseAsync(diagnoseMethod As DiagnoseMethodAsync, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Diagnostics.Diagnostic.DiagnoseAsync*
   exceptions:
   - type: SuperOffice.Diagnostics.DiagnoseException
     commentId: T:SuperOffice.Diagnostics.DiagnoseException
     description: Thrown if errors occurs in hte executed code.
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - static
@@ -636,6 +655,44 @@ items:
   modifiers.vb:
   - Public
   - Overrides
+- uid: SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  id: Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: Diagnose(DiagnoseMethod)
+  nameWithType: Diagnostic.Diagnose(DiagnoseMethod)
+  fullName: SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCarry out the diagnostic method in debug code and in &quot;EnableScaffolding&quot; is turned on in the configuration file.\n"
+  example:
+  - "\nThe following example illustrates the verifications of two strings being equal.  \nIf they are different, an exception is thrown.\n<pre><code>Diagnostic.Diagnose(delegate(Diagnostic s)\n{\n    string tmp = &quot;hello&quot;;\n    if (tmp != &quot;world&quot;)\n        s.Error(&quot;The strings are not equal&quot;);\n});</code></pre>\n"
+  syntax:
+    content: public static void Diagnose(DiagnoseMethod diagnoseMethod)
+    parameters:
+    - id: diagnoseMethod
+      type: SuperOffice.Diagnostics.DiagnoseMethod
+      description: Method to execute.
+    content.vb: Public Shared Sub Diagnose(diagnoseMethod As DiagnoseMethod)
+  overload: SuperOffice.Diagnostics.Diagnostic.Diagnose*
+  exceptions:
+  - type: SuperOffice.Diagnostics.DiagnoseException
+    commentId: T:SuperOffice.Diagnostics.DiagnoseException
+    description: Thrown if errors occurs in hte executed code.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.Diagnostics
   commentId: N:SuperOffice.Diagnostics
@@ -821,25 +878,35 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Diagnostics.Diagnostic.Diagnose*
-  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.Diagnose
+- uid: SuperOffice.Diagnostics.Diagnostic.DiagnoseAsync*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.DiagnoseAsync
   isExternal: true
-  name: Diagnose
-  nameWithType: Diagnostic.Diagnose
-  fullName: SuperOffice.Diagnostics.Diagnostic.Diagnose
+  name: DiagnoseAsync
+  nameWithType: Diagnostic.DiagnoseAsync
+  fullName: SuperOffice.Diagnostics.Diagnostic.DiagnoseAsync
 - uid: SuperOffice.Diagnostics.DiagnoseException
   commentId: T:SuperOffice.Diagnostics.DiagnoseException
   isExternal: true
   name: DiagnoseException
   nameWithType: DiagnoseException
   fullName: SuperOffice.Diagnostics.DiagnoseException
-- uid: SuperOffice.Diagnostics.DiagnoseMethod
-  commentId: T:SuperOffice.Diagnostics.DiagnoseMethod
+- uid: SuperOffice.Diagnostics.DiagnoseMethodAsync
+  commentId: T:SuperOffice.Diagnostics.DiagnoseMethodAsync
   parent: SuperOffice.Diagnostics
   isExternal: true
-  name: DiagnoseMethod
-  nameWithType: DiagnoseMethod
-  fullName: SuperOffice.Diagnostics.DiagnoseMethod
+  name: DiagnoseMethodAsync
+  nameWithType: DiagnoseMethodAsync
+  fullName: SuperOffice.Diagnostics.DiagnoseMethodAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Diagnostics.Diagnostic.Error*
   commentId: Overload:SuperOffice.Diagnostics.Diagnostic.Error
   isExternal: true
@@ -942,3 +1009,16 @@ references:
   name: ToString
   nameWithType: Diagnostic.ToString
   fullName: SuperOffice.Diagnostics.Diagnostic.ToString
+- uid: SuperOffice.Diagnostics.Diagnostic.Diagnose*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.Diagnose
+  isExternal: true
+  name: Diagnose
+  nameWithType: Diagnostic.Diagnose
+  fullName: SuperOffice.Diagnostics.Diagnostic.Diagnose
+- uid: SuperOffice.Diagnostics.DiagnoseMethod
+  commentId: T:SuperOffice.Diagnostics.DiagnoseMethod
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: DiagnoseMethod
+  nameWithType: DiagnoseMethod
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod

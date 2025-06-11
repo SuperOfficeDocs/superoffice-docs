@@ -5,11 +5,11 @@ items:
   id: ProgressHandler
   parent: SuperOffice.CRM.BatchProcessing.Plugins
   children:
-  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor(SuperOffice.CRM.Services.BatchTaskInfo)
-  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.bti
-  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress(System.Int32)
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.CRM.BatchProcessing.IBatchData)
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler._batchTaskInfo
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations
-  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription(System.String)
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -24,15 +24,15 @@ items:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
   syntax:
-    content: 'public class ProgressHandler : Object, UdefPublishHelper.IProgressHandler'
+    content: 'public class ProgressHandler : Object, IProgressHandler'
     content.vb: >-
       Public Class ProgressHandler
           Inherits Object
-          Implements UdefPublishHelper.IProgressHandler
+          Implements IProgressHandler
   inheritance:
   - System.Object
   implements:
-  - SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  - SuperOffice.Data.IProgressHandler
   extensionMethods:
   - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.EnumUtil.MapEnums``2
   - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -42,16 +42,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.bti
-  commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.bti
-  id: bti
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler._batchTaskInfo
+  commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler._batchTaskInfo
+  id: _batchTaskInfo
   parent: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
   langs:
   - csharp
   - vb
-  name: bti
-  nameWithType: ProgressHandler.bti
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.bti
+  name: _batchTaskInfo
+  nameWithType: ProgressHandler._batchTaskInfo
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler._batchTaskInfo
   type: Field
   source:
     path: SoBatchProcessing
@@ -60,24 +60,26 @@ items:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
   syntax:
-    content: public BatchTaskInfo bti
+    content: public readonly BatchTaskInfo _batchTaskInfo
     return:
       type: SuperOffice.CRM.Services.BatchTaskInfo
-    content.vb: Public bti As BatchTaskInfo
+    content.vb: Public ReadOnly _batchTaskInfo As BatchTaskInfo
   modifiers.csharp:
   - public
+  - readonly
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor(SuperOffice.CRM.Services.BatchTaskInfo)
-  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor(SuperOffice.CRM.Services.BatchTaskInfo)
-  id: '#ctor(SuperOffice.CRM.Services.BatchTaskInfo)'
+  - ReadOnly
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.CRM.BatchProcessing.IBatchData)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.CRM.BatchProcessing.IBatchData)
+  id: '#ctor(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.CRM.BatchProcessing.IBatchData)'
   parent: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
   langs:
   - csharp
   - vb
-  name: ProgressHandler(BatchTaskInfo)
-  nameWithType: ProgressHandler.ProgressHandler(BatchTaskInfo)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.ProgressHandler(SuperOffice.CRM.Services.BatchTaskInfo)
+  name: ProgressHandler(BatchTaskInfo, IBatchData)
+  nameWithType: ProgressHandler.ProgressHandler(BatchTaskInfo, IBatchData)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.ProgressHandler(SuperOffice.CRM.Services.BatchTaskInfo, SuperOffice.CRM.BatchProcessing.IBatchData)
   type: Constructor
   source:
     path: SoBatchProcessing
@@ -86,26 +88,28 @@ items:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
   syntax:
-    content: public ProgressHandler(BatchTaskInfo pBti)
+    content: public ProgressHandler(BatchTaskInfo batchTaskInfo, IBatchData batchData)
     parameters:
-    - id: pBti
+    - id: batchTaskInfo
       type: SuperOffice.CRM.Services.BatchTaskInfo
-    content.vb: Public Sub New(pBti As BatchTaskInfo)
+    - id: batchData
+      type: SuperOffice.CRM.BatchProcessing.IBatchData
+    content.vb: Public Sub New(batchTaskInfo As BatchTaskInfo, batchData As IBatchData)
   overload: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress(System.Int32)
-  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress(System.Int32)
-  id: IncrementProgress(System.Int32)
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
+  id: IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
   langs:
   - csharp
   - vb
-  name: IncrementProgress(Int32)
-  nameWithType: ProgressHandler.IncrementProgress(Int32)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress(System.Int32)
+  name: IncrementProgressAsync(Int32, CancellationToken)
+  nameWithType: ProgressHandler.IncrementProgressAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgressAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoBatchProcessing
@@ -114,28 +118,32 @@ items:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
   syntax:
-    content: public void IncrementProgress(int numOperationsDone)
+    content: public Task IncrementProgressAsync(int numOperationsDone, CancellationToken cancellationToken = null)
     parameters:
     - id: numOperationsDone
       type: System.Int32
-    content.vb: Public Sub IncrementProgress(numOperationsDone As Integer)
-  overload: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function IncrementProgressAsync(numOperationsDone As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgressAsync*
   implements:
-  - SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
+  - SuperOffice.Data.IProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription(System.String)
-  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription(System.String)
-  id: SetProgressDescription(System.String)
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
+  id: SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
   langs:
   - csharp
   - vb
-  name: SetProgressDescription(String)
-  nameWithType: ProgressHandler.SetProgressDescription(String)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription(System.String)
+  name: SetProgressDescriptionAsync(String, CancellationToken)
+  nameWithType: ProgressHandler.SetProgressDescriptionAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescriptionAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoBatchProcessing
@@ -144,14 +152,18 @@ items:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
   syntax:
-    content: public void SetProgressDescription(string description)
+    content: public Task SetProgressDescriptionAsync(string description, CancellationToken cancellationToken = null)
     parameters:
     - id: description
       type: System.String
-    content.vb: Public Sub SetProgressDescription(description As String)
-  overload: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetProgressDescriptionAsync(description As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescriptionAsync*
   implements:
-  - SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
+  - SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -181,7 +193,7 @@ items:
     content.vb: Public Property NumOperations As Integer
   overload: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations*
   implements:
-  - SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
+  - SuperOffice.Data.IProgressHandler.NumOperations
   modifiers.csharp:
   - public
   - get
@@ -202,13 +214,13 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-  commentId: T:SuperOffice.Data.UdefPublishHelper.IProgressHandler
+- uid: SuperOffice.Data.IProgressHandler
+  commentId: T:SuperOffice.Data.IProgressHandler
   parent: SuperOffice.Data
   isExternal: true
-  name: UdefPublishHelper.IProgressHandler
-  nameWithType: UdefPublishHelper.IProgressHandler
-  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  name: IProgressHandler
+  nameWithType: IProgressHandler
+  fullName: SuperOffice.Data.IProgressHandler
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -397,24 +409,37 @@ references:
   name: ProgressHandler
   nameWithType: ProgressHandler.ProgressHandler
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.ProgressHandler
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress
+- uid: SuperOffice.CRM.BatchProcessing.IBatchData
+  commentId: T:SuperOffice.CRM.BatchProcessing.IBatchData
+  parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
-  name: IncrementProgress
-  nameWithType: ProgressHandler.IncrementProgress
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress
-- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
-  commentId: M:SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
-  parent: SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  name: IBatchData
+  nameWithType: IBatchData
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchData
+- uid: SuperOffice.CRM.BatchProcessing
+  commentId: N:SuperOffice.CRM.BatchProcessing
   isExternal: true
-  name: IncrementProgress(Int32)
-  nameWithType: UdefPublishHelper.IProgressHandler.IncrementProgress(Int32)
-  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
+  name: SuperOffice.CRM.BatchProcessing
+  nameWithType: SuperOffice.CRM.BatchProcessing
+  fullName: SuperOffice.CRM.BatchProcessing
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgressAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgressAsync
+  isExternal: true
+  name: IncrementProgressAsync
+  nameWithType: ProgressHandler.IncrementProgressAsync
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgressAsync
+- uid: SuperOffice.Data.IProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.IProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.IProgressHandler
+  isExternal: true
+  name: IncrementProgressAsync(Int32, CancellationToken)
+  nameWithType: IProgressHandler.IncrementProgressAsync(Int32, CancellationToken)
+  fullName: SuperOffice.Data.IProgressHandler.IncrementProgressAsync(System.Int32, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
-    name: IncrementProgress
-    nameWithType: UdefPublishHelper.IProgressHandler.IncrementProgress
-    fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress
+  - uid: SuperOffice.Data.IProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
+    name: IncrementProgressAsync
+    nameWithType: IProgressHandler.IncrementProgressAsync
+    fullName: SuperOffice.Data.IProgressHandler.IncrementProgressAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -423,15 +448,23 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
-    name: IncrementProgress
-    nameWithType: UdefPublishHelper.IProgressHandler.IncrementProgress
-    fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress
+  - uid: SuperOffice.Data.IProgressHandler.IncrementProgressAsync(System.Int32,System.Threading.CancellationToken)
+    name: IncrementProgressAsync
+    nameWithType: IProgressHandler.IncrementProgressAsync
+    fullName: SuperOffice.Data.IProgressHandler.IncrementProgressAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -440,6 +473,14 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -451,24 +492,34 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: SetProgressDescription
-  nameWithType: ProgressHandler.SetProgressDescription
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription
-- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
-  commentId: M:SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
-  parent: SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: SetProgressDescription(String)
-  nameWithType: UdefPublishHelper.IProgressHandler.SetProgressDescription(String)
-  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescriptionAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescriptionAsync
+  isExternal: true
+  name: SetProgressDescriptionAsync
+  nameWithType: ProgressHandler.SetProgressDescriptionAsync
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescriptionAsync
+- uid: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.IProgressHandler
+  isExternal: true
+  name: SetProgressDescriptionAsync(String, CancellationToken)
+  nameWithType: IProgressHandler.SetProgressDescriptionAsync(String, CancellationToken)
+  fullName: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
-    name: SetProgressDescription
-    nameWithType: UdefPublishHelper.IProgressHandler.SetProgressDescription
-    fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription
+  - uid: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
+    name: SetProgressDescriptionAsync
+    nameWithType: IProgressHandler.SetProgressDescriptionAsync
+    fullName: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -477,15 +528,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
-    name: SetProgressDescription
-    nameWithType: UdefPublishHelper.IProgressHandler.SetProgressDescription
-    fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription
+  - uid: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync(System.String,System.Threading.CancellationToken)
+    name: SetProgressDescriptionAsync
+    nameWithType: IProgressHandler.SetProgressDescriptionAsync
+    fullName: SuperOffice.Data.IProgressHandler.SetProgressDescriptionAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -494,6 +553,14 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -511,10 +578,10 @@ references:
   name: NumOperations
   nameWithType: ProgressHandler.NumOperations
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations
-- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
-  commentId: P:SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
-  parent: SuperOffice.Data.UdefPublishHelper.IProgressHandler
+- uid: SuperOffice.Data.IProgressHandler.NumOperations
+  commentId: P:SuperOffice.Data.IProgressHandler.NumOperations
+  parent: SuperOffice.Data.IProgressHandler
   isExternal: true
   name: NumOperations
-  nameWithType: UdefPublishHelper.IProgressHandler.NumOperations
-  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
+  nameWithType: IProgressHandler.NumOperations
+  fullName: SuperOffice.Data.IProgressHandler.NumOperations

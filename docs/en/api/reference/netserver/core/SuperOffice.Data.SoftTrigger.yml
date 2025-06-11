@@ -7,13 +7,9 @@ items:
   children:
   - SuperOffice.Data.SoftTrigger.#ctor(SuperOffice.Data.ISoftTriggerPlugin[])
   - SuperOffice.Data.SoftTrigger.HasSubscribers(System.String)
-  - SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
-  - SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
-  - SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
-  - SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
   langs:
   - csharp
@@ -120,39 +116,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  commentId: M:SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  id: SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  parent: SuperOffice.Data.SoftTrigger
-  langs:
-  - csharp
-  - vb
-  name: SubscribeOnPreChange(Int32, SoftTrigger.OnChange)
-  nameWithType: SoftTrigger.SubscribeOnPreChange(Int32, SoftTrigger.OnChange)
-  fullName: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32, SuperOffice.Data.SoftTrigger.OnChange)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nSubscribe to event raised before the update command is sent to the database.\n"
-  syntax:
-    content: public void SubscribeOnPreChange(int tableNumber, SoftTrigger.OnChange callback)
-    parameters:
-    - id: tableNumber
-      type: System.Int32
-      description: Table subscribing to modifications for.
-    - id: callback
-      type: SuperOffice.Data.SoftTrigger.OnChange
-      description: Callback called when modifications in the database is carried out.
-    content.vb: Public Sub SubscribeOnPreChange(tableNumber As Integer, callback As SoftTrigger.OnChange)
-  overload: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
   commentId: M:SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
   id: SubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
@@ -182,39 +145,6 @@ items:
       description: Callback called when modifications in the database is carried out.
     content.vb: Public Sub SubscribeOnPreChange(tableName As String, callback As SoftTrigger.OnChange)
   overload: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  commentId: M:SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  id: UnsubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  parent: SuperOffice.Data.SoftTrigger
-  langs:
-  - csharp
-  - vb
-  name: UnsubscribeOnPreChange(Int32, SoftTrigger.OnChange)
-  nameWithType: SoftTrigger.UnsubscribeOnPreChange(Int32, SoftTrigger.OnChange)
-  fullName: SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.Int32, SuperOffice.Data.SoftTrigger.OnChange)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nUnsubscribe to event raised before the update command is sent to the database.\n"
-  syntax:
-    content: public void UnsubscribeOnPreChange(int tableNumber, SoftTrigger.OnChange callback)
-    parameters:
-    - id: tableNumber
-      type: System.Int32
-      description: Table subscribing to modifications for.
-    - id: callback
-      type: SuperOffice.Data.SoftTrigger.OnChange
-      description: Callback called when modifications in the database is carried out.
-    content.vb: Public Sub UnsubscribeOnPreChange(tableNumber As Integer, callback As SoftTrigger.OnChange)
-  overload: SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -252,39 +182,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  commentId: M:SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  id: SubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  parent: SuperOffice.Data.SoftTrigger
-  langs:
-  - csharp
-  - vb
-  name: SubscribeOnPostChange(Int32, SoftTrigger.OnChange)
-  nameWithType: SoftTrigger.SubscribeOnPostChange(Int32, SoftTrigger.OnChange)
-  fullName: SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.Int32, SuperOffice.Data.SoftTrigger.OnChange)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nSubscribe to event raised after the update command is sent to the database.\n"
-  syntax:
-    content: public void SubscribeOnPostChange(int tableNumber, SoftTrigger.OnChange callback)
-    parameters:
-    - id: tableNumber
-      type: System.Int32
-      description: Table subscribing to modifications for.
-    - id: callback
-      type: SuperOffice.Data.SoftTrigger.OnChange
-      description: Callback called when modifications in the database is carried out.
-    content.vb: Public Sub SubscribeOnPostChange(tableNumber As Integer, callback As SoftTrigger.OnChange)
-  overload: SuperOffice.Data.SoftTrigger.SubscribeOnPostChange*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
   commentId: M:SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
   id: SubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
@@ -314,39 +211,6 @@ items:
       description: Callback called when modifications in the database is carried out.
     content.vb: Public Sub SubscribeOnPostChange(tableName As String, callback As SoftTrigger.OnChange)
   overload: SuperOffice.Data.SoftTrigger.SubscribeOnPostChange*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  commentId: M:SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  id: UnsubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
-  parent: SuperOffice.Data.SoftTrigger
-  langs:
-  - csharp
-  - vb
-  name: UnsubscribeOnPostChange(Int32, SoftTrigger.OnChange)
-  nameWithType: SoftTrigger.UnsubscribeOnPostChange(Int32, SoftTrigger.OnChange)
-  fullName: SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.Int32, SuperOffice.Data.SoftTrigger.OnChange)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nUnsubscribe to event raised after the update command is sent to the database.\n"
-  syntax:
-    content: public void UnsubscribeOnPostChange(int tableNumber, SoftTrigger.OnChange callback)
-    parameters:
-    - id: tableNumber
-      type: System.Int32
-      description: Table subscribing to modifications for.
-    - id: callback
-      type: SuperOffice.Data.SoftTrigger.OnChange
-      description: Callback called when modifications in the database is carried out.
-    content.vb: Public Sub UnsubscribeOnPostChange(tableNumber As Integer, callback As SoftTrigger.OnChange)
-  overload: SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -627,13 +491,6 @@ references:
   name: SubscribeOnPreChange
   nameWithType: SoftTrigger.SubscribeOnPreChange
   fullName: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: SuperOffice.Data.SoftTrigger.OnChange
   commentId: T:SuperOffice.Data.SoftTrigger.OnChange
   parent: SuperOffice.Data

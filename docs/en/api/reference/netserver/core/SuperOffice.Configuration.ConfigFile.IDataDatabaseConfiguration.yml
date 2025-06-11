@@ -1,0 +1,757 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  id: ConfigFile.IDataDatabaseConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CacheCheckInterval
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CommandTimeout
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ConnectionString
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMajor
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMinor
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseName
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.Server
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.TablePrefix
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IDataDatabaseConfiguration
+  nameWithType: ConfigFile.IDataDatabaseConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUtility class used to access the SuperOffice.Data.Database entry in the config-file.\nCreated in Database scope\n"
+  syntax:
+    content: public interface IDataDatabaseConfiguration
+    content.vb: Public Interface IDataDatabaseConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMajor
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMajor
+  id: DatabaseMajor
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DatabaseMajor
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DatabaseMajor
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMajor
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nMajor name of database provider\n"
+  syntax:
+    content: string DatabaseMajor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DatabaseMajor As String
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMajor*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMinor
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMinor
+  id: DatabaseMinor
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DatabaseMinor
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DatabaseMinor
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMinor
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nVersion number of Database\n"
+  syntax:
+    content: string DatabaseMinor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DatabaseMinor As String
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMinor*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.Server
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.Server
+  id: Server
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Server
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.Server
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.Server
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe server where the database is located\n"
+  syntax:
+    content: string Server { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Server As String
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.Server*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseName
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseName
+  id: DatabaseName
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DatabaseName
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DatabaseName
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseName
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nName of the database. Also used for distinct service name.\n"
+  syntax:
+    content: string DatabaseName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DatabaseName As String
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.TablePrefix
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.TablePrefix
+  id: TablePrefix
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TablePrefix
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.TablePrefix
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.TablePrefix
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe prefix of the SuperOffice CRM tables in the database.\n"
+  syntax:
+    content: string TablePrefix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TablePrefix As String
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.TablePrefix*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ConnectionString
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ConnectionString
+  id: ConnectionString
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ConnectionString
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.ConnectionString
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ConnectionString
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe connection string formatted as a &quot;template&quot;.\n"
+  syntax:
+    content: string ConnectionString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ConnectionString As String
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ConnectionString*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CommandTimeout
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CommandTimeout
+  id: CommandTimeout
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CommandTimeout
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.CommandTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CommandTimeout
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nTimeout in seconds for the command to wait for a response from the database.\n"
+  syntax:
+    content: int CommandTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property CommandTimeout As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CommandTimeout*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
+  id: DynamicLoadedDataBaseDriver
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DynamicLoadedDataBaseDriver
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the name of the ADO.NET driver to load.\n"
+  syntax:
+    content: string DynamicLoadedDataBaseDriver { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DynamicLoadedDataBaseDriver As String
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
+  id: DynamicLoadedConnectionType
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DynamicLoadedConnectionType
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the type of connection to open.\n"
+  syntax:
+    content: string DynamicLoadedConnectionType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DynamicLoadedConnectionType As String
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
+  id: DefaultReadUncommitted
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DefaultReadUncommitted
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould SELECTs by default run in &quot;ReadUncommitted&quot; isolation level, lessening locking contention (especially on SQL Server)?  Default setting is TRUE.\n"
+  syntax:
+    content: bool DefaultReadUncommitted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property DefaultReadUncommitted As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
+  id: ImpersonateDatabaseUser
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ImpersonateDatabaseUser
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould the DbUser be logged in with windows and impersonated when connecting to the database in order to support database integrated authentication.\n"
+  syntax:
+    content: bool ImpersonateDatabaseUser { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ImpersonateDatabaseUser As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
+  id: DisableSqlTrackingComments
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DisableSqlTrackingComments
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf true, then comments that usually precede generated SQL to identify the operation and user will not be generated at all; may help performance on Oracle which thinks it has to reparse everything if a comment changes\n"
+  syntax:
+    content: bool DisableSqlTrackingComments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property DisableSqlTrackingComments As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments
+  id: DisableUserInSqlTrackingComments
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DisableUserInSqlTrackingComments
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf true, then comments that usually precede generated SQL to identify the operation will not contain associate information; may help performance on Oracle which thinks it has to reparse everything if a comment changes\n"
+  syntax:
+    content: bool DisableUserInSqlTrackingComments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property DisableUserInSqlTrackingComments As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CacheCheckInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CacheCheckInterval
+  id: CacheCheckInterval
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CacheCheckInterval
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.CacheCheckInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CacheCheckInterval
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nNumber of seconds to check if cache are outdated and refersh. 0 will disable the timer.\n"
+  syntax:
+    content: int CacheCheckInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property CacheCheckInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CacheCheckInterval*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval
+  id: ForceCacheRefreshInterval
+  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ForceCacheRefreshInterval
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nNumber of seconds before caches are force refreshed. 0 will disable the timer.\n"
+  syntax:
+    content: int ForceCacheRefreshInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ForceCacheRefreshInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IDataDatabaseConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IDataDatabaseConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IDataDatabaseConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IDataDatabaseConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IDataDatabaseConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IDataDatabaseConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IDataDatabaseConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IDataDatabaseConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IDataDatabaseConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IDataDatabaseConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IDataDatabaseConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IDataDatabaseConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IDataDatabaseConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IDataDatabaseConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IDataDatabaseConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IDataDatabaseConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMajor*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMajor
+  isExternal: true
+  name: DatabaseMajor
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DatabaseMajor
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMajor
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMinor*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMinor
+  isExternal: true
+  name: DatabaseMinor
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DatabaseMinor
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseMinor
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.Server*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.Server
+  isExternal: true
+  name: Server
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.Server
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.Server
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseName
+  isExternal: true
+  name: DatabaseName
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DatabaseName
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DatabaseName
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.TablePrefix*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.TablePrefix
+  isExternal: true
+  name: TablePrefix
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.TablePrefix
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.TablePrefix
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ConnectionString*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ConnectionString
+  isExternal: true
+  name: ConnectionString
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.ConnectionString
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ConnectionString
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CommandTimeout*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CommandTimeout
+  isExternal: true
+  name: CommandTimeout
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.CommandTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CommandTimeout
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
+  isExternal: true
+  name: DynamicLoadedDataBaseDriver
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
+  isExternal: true
+  name: DynamicLoadedConnectionType
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
+  isExternal: true
+  name: DefaultReadUncommitted
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
+  isExternal: true
+  name: ImpersonateDatabaseUser
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
+  isExternal: true
+  name: DisableSqlTrackingComments
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments
+  isExternal: true
+  name: DisableUserInSqlTrackingComments
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CacheCheckInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CacheCheckInterval
+  isExternal: true
+  name: CacheCheckInterval
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.CacheCheckInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CacheCheckInterval
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval
+  isExternal: true
+  name: ForceCacheRefreshInterval
+  nameWithType: ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval

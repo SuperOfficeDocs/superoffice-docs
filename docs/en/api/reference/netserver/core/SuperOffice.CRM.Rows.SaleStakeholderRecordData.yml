@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.SaleStakeholderRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SaleStakeholderRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SaleStakeholderRecordData)
   - SuperOffice.CRM.Rows.SaleStakeholderRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SaleStakeholderRecordData.SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SaleStakeholderRecordData.SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SaleStakeholderRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SaleStakeholderRecordData.SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleStakeholderRecordData)
+- uid: SuperOffice.CRM.Rows.SaleStakeholderRecordData.SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleStakeholderRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleStakeholderRecordData)
-  name: ToInsert()
-  nameWithType: SaleStakeholderRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleStakeholderRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SaleStakeholderRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SaleStakeholderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SaleStakeholderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SaleStakeholderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SaleStakeholderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleStakeholderRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleStakeholderRecordData)
+- uid: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleStakeholderRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleStakeholderRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SaleStakeholderRecordData)
-  nameWithType: SaleStakeholderRecordDataExtensions.ToInsert(SaleStakeholderRecordData)
-  fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleStakeholderRecordData)
+  name: ToInsertAsync(SaleStakeholderRecordData, CancellationToken)
+  nameWithType: SaleStakeholderRecordDataExtensions.ToInsertAsync(SaleStakeholderRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleStakeholderRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleStakeholderRecordData)
-    name: ToInsert
-    nameWithType: SaleStakeholderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleStakeholderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SaleStakeholderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: SaleStakeholderRecordData
     nameWithType: SaleStakeholderRecordData
     fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleStakeholderRecordData)
-    name: ToInsert
-    nameWithType: SaleStakeholderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleStakeholderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SaleStakeholderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: SaleStakeholderRecordData
     nameWithType: SaleStakeholderRecordData
     fullName: SuperOffice.CRM.Rows.SaleStakeholderRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

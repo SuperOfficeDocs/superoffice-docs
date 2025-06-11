@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
   - SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
-  - SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
-  - SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData})
+  - SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ErpInternalKeyRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
+- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<ErpInternalKeyTableInfo>)
-  nameWithType: ErpInternalKeyRecordDataExtensions.FromSelect(TargetedSelect<ErpInternalKeyTableInfo>)
-  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ErpInternalKeyTableInfo>)
+  name: FromSelectAsync(TargetedSelect<ErpInternalKeyTableInfo>, CancellationToken)
+  nameWithType: ErpInternalKeyRecordDataExtensions.FromSelectAsync(TargetedSelect<ErpInternalKeyTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ErpInternalKeyTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<ErpInternalKeyRecordData> FromSelect(this TargetedSelect<ErpInternalKeyTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<ErpInternalKeyRecordData> FromSelectAsync(this TargetedSelect<ErpInternalKeyTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of ErpInternalKeyTableInfo)) As IEnumerable(Of ErpInternalKeyRecordData)
-  overload: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect*
-  nameWithType.vb: ErpInternalKeyRecordDataExtensions.FromSelect(TargetedSelect(Of ErpInternalKeyTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of ErpInternalKeyTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ErpInternalKeyRecordData)
+  overload: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: ErpInternalKeyRecordDataExtensions.FromSelectAsync(TargetedSelect(Of ErpInternalKeyTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ErpInternalKeyTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of ErpInternalKeyTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ErpInternalKeyTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of ErpInternalKeyTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
   commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ErpInternalKeyTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of ErpInternalKeyTableInfo))
-- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
+- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(ErpInternalKeyRecordData)
-  nameWithType: ErpInternalKeyRecordDataExtensions.ToInsert(ErpInternalKeyRecordData)
-  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
+  name: ToInsertAsync(ErpInternalKeyRecordData, CancellationToken)
+  nameWithType: ErpInternalKeyRecordDataExtensions.ToInsertAsync(ErpInternalKeyRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this ErpInternalKeyRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this ErpInternalKeyRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.ErpInternalKeyRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As ErpInternalKeyRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As ErpInternalKeyRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData})
-  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData})
+- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<ErpInternalKeyRecordData>)
-  nameWithType: ErpInternalKeyRecordDataExtensions.ToInserts(IEnumerable<ErpInternalKeyRecordData>)
-  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ErpInternalKeyRecordData>)
+  name: ToInsertsAsync(IEnumerable<ErpInternalKeyRecordData>, CancellationToken)
+  nameWithType: ErpInternalKeyRecordDataExtensions.ToInsertsAsync(IEnumerable<ErpInternalKeyRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ErpInternalKeyRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<ErpInternalKeyRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<ErpInternalKeyRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of ErpInternalKeyRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInserts*
-  nameWithType.vb: ErpInternalKeyRecordDataExtensions.ToInserts(IEnumerable(Of ErpInternalKeyRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of ErpInternalKeyRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: ErpInternalKeyRecordDataExtensions.ToInsertsAsync(IEnumerable(Of ErpInternalKeyRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ErpInternalKeyRecordData))
-  name.vb: ToInserts(IEnumerable(Of ErpInternalKeyRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ErpInternalKeyRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of ErpInternalKeyRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ErpInternalKeyRow)
   commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ErpInternalKeyRow)
   id: ToRecordData(SuperOffice.CRM.Rows.ErpInternalKeyRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<ErpInternalKeyTableInfo>)
+  nameWithType: ErpInternalKeyRecordDataExtensions.FromSelect(TargetedSelect<ErpInternalKeyTableInfo>)
+  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ErpInternalKeyTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;ErpInternalKeyTableInfo>, execute it and return an IEnumerable&lt;ErpInternalKeyRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<ErpInternalKeyRecordData> FromSelect(this TargetedSelect<ErpInternalKeyTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of ErpInternalKeyTableInfo)) As IEnumerable(Of ErpInternalKeyRecordData)
+  overload: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect*
+  nameWithType.vb: ErpInternalKeyRecordDataExtensions.FromSelect(TargetedSelect(Of ErpInternalKeyTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ErpInternalKeyTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of ErpInternalKeyTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: ErpInternalKeyRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: ErpInternalKeyRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ErpInternalKeyTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<ErpInternalKeyRecordData>
-  nameWithType: IEnumerable<ErpInternalKeyRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ErpInternalKeyRecordData>
-  nameWithType.vb: IEnumerable(Of ErpInternalKeyRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
-  name.vb: IEnumerable(Of ErpInternalKeyRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ErpInternalKeyRecordData>
+  nameWithType: IAsyncEnumerable<ErpInternalKeyRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.ErpInternalKeyRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of ErpInternalKeyRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
+  name.vb: IAsyncEnumerable(Of ErpInternalKeyRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: ErpInternalKeyRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: ErpInternalKeyRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: ErpInternalKeyRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: ErpInternalKeyRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ErpInternalKeyRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ErpInternalKeyRecordData>
+  nameWithType: IEnumerable<ErpInternalKeyRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ErpInternalKeyRecordData>
+  nameWithType.vb: IEnumerable(Of ErpInternalKeyRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
+  name.vb: IEnumerable(Of ErpInternalKeyRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordData
+    name: ErpInternalKeyRecordData
+    nameWithType: ErpInternalKeyRecordData
+    fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordData
+    name: ErpInternalKeyRecordData
+    nameWithType: ErpInternalKeyRecordData
+    fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: ErpInternalKeyRow
   nameWithType: ErpInternalKeyRow
   fullName: SuperOffice.CRM.Rows.ErpInternalKeyRow
+- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: ErpInternalKeyRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.FromSelect

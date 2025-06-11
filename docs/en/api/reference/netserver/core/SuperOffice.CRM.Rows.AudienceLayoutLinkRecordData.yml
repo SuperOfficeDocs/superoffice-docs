@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData)
   - SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData.SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData.SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData.SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData)
+- uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData.SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData)
-  name: ToInsert()
-  nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData)
+- uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(AudienceLayoutLinkRecordData)
-  nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsert(AudienceLayoutLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData)
+  name: ToInsertAsync(AudienceLayoutLinkRecordData, CancellationToken)
+  nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(AudienceLayoutLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData)
-    name: ToInsert
-    nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: AudienceLayoutLinkRecordData
     nameWithType: AudienceLayoutLinkRecordData
     fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData)
-    name: ToInsert
-    nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AudienceLayoutLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: AudienceLayoutLinkRecordData
     nameWithType: AudienceLayoutLinkRecordData
     fullName: SuperOffice.CRM.Rows.AudienceLayoutLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

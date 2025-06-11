@@ -8,23 +8,24 @@ items:
   - SuperOffice.IO.Files.DiskFileAccess.#ctor
   - SuperOffice.IO.Files.DiskFileAccess.ArchivePath
   - SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists(System.String)
-  - SuperOffice.IO.Files.DiskFileAccess.CreateForWrite(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.CreateForWriteAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.Files.DiskFileAccess.DirectoryExists(System.String)
-  - SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos(System.String)
-  - SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
+  - SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfosAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Action)
+  - SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
   - SuperOffice.IO.Files.DiskFileAccess.EnsureAccess``1(System.Func{``0})
-  - SuperOffice.IO.Files.DiskFileAccess.FileDelete(System.String)
-  - SuperOffice.IO.Files.DiskFileAccess.FileExists(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.FileDeleteAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.Files.DiskFileAccess.GetDirectoryName(System.String)
   - SuperOffice.IO.Files.DiskFileAccess.GetFileName(System.String)
   - SuperOffice.IO.Files.DiskFileAccess.GetFileNameWithoutExtension(System.String)
-  - SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLockAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.Files.DiskFileAccess.PathCombine(System.String[])
   - SuperOffice.IO.Files.DiskFileAccess.PathGetExtension(System.String)
   - SuperOffice.IO.Files.DiskFileAccess.PathGetFileName(System.String)
   - SuperOffice.IO.Files.DiskFileAccess.PathGetInvalidFileNameChars
-  - SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFileAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.Files.DiskFileAccess.TemplatesPath
   - SuperOffice.IO.Files.DiskFileAccess.TemporaryPath
   langs:
@@ -91,6 +92,41 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
+  id: EnsureAccess(System.Func{System.Threading.Tasks.Task})
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: EnsureAccess(Func<Task>)
+  nameWithType: DiskFileAccess.EnsureAccess(Func<Task>)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public Task EnsureAccess(Func<Task> action)
+    parameters:
+    - id: action
+      type: System.Func{System.Threading.Tasks.Task}
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function EnsureAccess(action As Func(Of Task)) As Task
+  overload: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
+  nameWithType.vb: DiskFileAccess.EnsureAccess(Func(Of Task))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Func(Of System.Threading.Tasks.Task))
+  name.vb: EnsureAccess(Func(Of Task))
 - uid: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess``1(System.Func{``0})
   commentId: M:SuperOffice.IO.Files.DiskFileAccess.EnsureAccess``1(System.Func{``0})
   id: EnsureAccess``1(System.Func{``0})
@@ -128,16 +164,16 @@ items:
   - Public
   fullName.vb: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(Of T)(System.Func(Of T))
   name.vb: EnsureAccess(Of T)(Func(Of T))
-- uid: SuperOffice.IO.Files.DiskFileAccess.FileExists(System.String)
-  commentId: M:SuperOffice.IO.Files.DiskFileAccess.FileExists(System.String)
-  id: FileExists(System.String)
+- uid: SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
+  id: FileExistsAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.DiskFileAccess
   langs:
   - csharp
   - vb
-  name: FileExists(String)
-  nameWithType: DiskFileAccess.FileExists(String)
-  fullName: SuperOffice.IO.Files.DiskFileAccess.FileExists(System.String)
+  name: FileExistsAsync(String, CancellationToken)
+  nameWithType: DiskFileAccess.FileExistsAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -146,30 +182,32 @@ items:
   - SoCore
   namespace: SuperOffice.IO.Files
   syntax:
-    content: public bool FileExists(string path)
+    content: public Task<bool> FileExistsAsync(string path, CancellationToken cancellationToken = null)
     parameters:
     - id: path
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Function FileExists(path As String) As Boolean
-  overload: SuperOffice.IO.Files.DiskFileAccess.FileExists*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function FileExistsAsync(path As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync*
   implements:
-  - SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
+  - SuperOffice.IO.Files.IFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
-  id: DirectoryGetFiles(System.String,System.String,System.Boolean)
+- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: DirectoryGetFilesAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.DiskFileAccess
   langs:
   - csharp
   - vb
-  name: DirectoryGetFiles(String, String, Boolean)
-  nameWithType: DiskFileAccess.DirectoryGetFiles(String, String, Boolean)
-  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles(System.String, System.String, System.Boolean)
+  name: DirectoryGetFilesAsync(String, String, Boolean, CancellationToken)
+  nameWithType: DiskFileAccess.DirectoryGetFilesAsync(String, String, Boolean, CancellationToken)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync(System.String, System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -178,7 +216,7 @@ items:
   - SoCore
   namespace: SuperOffice.IO.Files
   syntax:
-    content: public string[] DirectoryGetFiles(string path, string searchPattern, bool searchInSubdirectories = false)
+    content: public Task<string[]> DirectoryGetFilesAsync(string path, string searchPattern, bool searchInSubdirectories = false, CancellationToken cancellationToken = null)
     parameters:
     - id: path
       type: System.String
@@ -186,26 +224,28 @@ items:
       type: System.String
     - id: searchInSubdirectories
       type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
-    content.vb: Public Function DirectoryGetFiles(path As String, searchPattern As String, searchInSubdirectories As Boolean = False) As String()
-  overload: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles*
+      type: System.Threading.Tasks.Task{System.String[]}
+    content.vb: Public Function DirectoryGetFilesAsync(path As String, searchPattern As String, searchInSubdirectories As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync*
   implements:
-  - SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
+  - SuperOffice.IO.Files.IFileAccess.DirectoryGetFilesAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos(System.String)
-  commentId: M:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos(System.String)
-  id: DirectoryGetFileInfos(System.String)
+- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfosAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfosAsync(System.String,System.Threading.CancellationToken)
+  id: DirectoryGetFileInfosAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.DiskFileAccess
   langs:
   - csharp
   - vb
-  name: DirectoryGetFileInfos(String)
-  nameWithType: DiskFileAccess.DirectoryGetFileInfos(String)
-  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos(System.String)
+  name: DirectoryGetFileInfosAsync(String, CancellationToken)
+  nameWithType: DiskFileAccess.DirectoryGetFileInfosAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfosAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -214,16 +254,18 @@ items:
   - SoCore
   namespace: SuperOffice.IO.Files
   syntax:
-    content: public SoFileInfo[] DirectoryGetFileInfos(string path)
+    content: public Task<SoFileInfo[]> DirectoryGetFileInfosAsync(string path, CancellationToken cancellationToken = null)
     parameters:
     - id: path
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.IO.Files.SoFileInfo[]
-    content.vb: Public Function DirectoryGetFileInfos(path As String) As SoFileInfo()
-  overload: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos*
+      type: System.Threading.Tasks.Task{SuperOffice.IO.Files.SoFileInfo[]}
+    content.vb: Public Function DirectoryGetFileInfosAsync(path As String, cancellationToken As CancellationToken = Nothing) As Task(Of SoFileInfo())
+  overload: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfosAsync*
   implements:
-  - SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
+  - SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfosAsync(System.String,System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -514,16 +556,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock(System.String)
-  commentId: M:SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock(System.String)
-  id: OpenReadOnlyNoLock(System.String)
+- uid: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLockAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLockAsync(System.String,System.Threading.CancellationToken)
+  id: OpenReadOnlyNoLockAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.DiskFileAccess
   langs:
   - csharp
   - vb
-  name: OpenReadOnlyNoLock(String)
-  nameWithType: DiskFileAccess.OpenReadOnlyNoLock(String)
-  fullName: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock(System.String)
+  name: OpenReadOnlyNoLockAsync(String, CancellationToken)
+  nameWithType: DiskFileAccess.OpenReadOnlyNoLockAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLockAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -532,30 +574,32 @@ items:
   - SoCore
   namespace: SuperOffice.IO.Files
   syntax:
-    content: public Stream OpenReadOnlyNoLock(string path)
+    content: public Task<Stream> OpenReadOnlyNoLockAsync(string path, CancellationToken cancellationToken = null)
     parameters:
     - id: path
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.IO.Stream
-    content.vb: Public Function OpenReadOnlyNoLock(path As String) As Stream
-  overload: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock*
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+    content.vb: Public Function OpenReadOnlyNoLockAsync(path As String, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLockAsync*
   implements:
-  - SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
+  - SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLockAsync(System.String,System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
-  commentId: M:SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
-  id: SaveStreamToFile(System.IO.Stream,System.String)
+- uid: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFileAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFileAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  id: SaveStreamToFileAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.DiskFileAccess
   langs:
   - csharp
   - vb
-  name: SaveStreamToFile(Stream, String)
-  nameWithType: DiskFileAccess.SaveStreamToFile(Stream, String)
-  fullName: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile(System.IO.Stream, System.String)
+  name: SaveStreamToFileAsync(Stream, String, CancellationToken)
+  nameWithType: DiskFileAccess.SaveStreamToFileAsync(Stream, String, CancellationToken)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFileAsync(System.IO.Stream, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -564,62 +608,34 @@ items:
   - SoCore
   namespace: SuperOffice.IO.Files
   syntax:
-    content: public void SaveStreamToFile(Stream stream, string path)
+    content: public Task SaveStreamToFileAsync(Stream stream, string path, CancellationToken cancellationToken = null)
     parameters:
     - id: stream
       type: System.IO.Stream
     - id: path
       type: System.String
-    content.vb: Public Sub SaveStreamToFile(stream As Stream, path As String)
-  overload: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile*
-  implements:
-  - SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.IO.Files.DiskFileAccess.CreateForWrite(System.String)
-  commentId: M:SuperOffice.IO.Files.DiskFileAccess.CreateForWrite(System.String)
-  id: CreateForWrite(System.String)
-  parent: SuperOffice.IO.Files.DiskFileAccess
-  langs:
-  - csharp
-  - vb
-  name: CreateForWrite(String)
-  nameWithType: DiskFileAccess.CreateForWrite(String)
-  fullName: SuperOffice.IO.Files.DiskFileAccess.CreateForWrite(System.String)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO.Files
-  syntax:
-    content: public Stream CreateForWrite(string path)
-    parameters:
-    - id: path
-      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.IO.Stream
-    content.vb: Public Function CreateForWrite(path As String) As Stream
-  overload: SuperOffice.IO.Files.DiskFileAccess.CreateForWrite*
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SaveStreamToFileAsync(stream As Stream, path As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFileAsync*
   implements:
-  - SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
+  - SuperOffice.IO.Files.IFileAccess.SaveStreamToFileAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.IO.Files.DiskFileAccess.FileDelete(System.String)
-  commentId: M:SuperOffice.IO.Files.DiskFileAccess.FileDelete(System.String)
-  id: FileDelete(System.String)
+- uid: SuperOffice.IO.Files.DiskFileAccess.CreateForWriteAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.CreateForWriteAsync(System.String,System.Threading.CancellationToken)
+  id: CreateForWriteAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.DiskFileAccess
   langs:
   - csharp
   - vb
-  name: FileDelete(String)
-  nameWithType: DiskFileAccess.FileDelete(String)
-  fullName: SuperOffice.IO.Files.DiskFileAccess.FileDelete(System.String)
+  name: CreateForWriteAsync(String, CancellationToken)
+  nameWithType: DiskFileAccess.CreateForWriteAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.CreateForWriteAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -628,14 +644,52 @@ items:
   - SoCore
   namespace: SuperOffice.IO.Files
   syntax:
-    content: public void FileDelete(string path)
+    content: public Task<Stream> CreateForWriteAsync(string path, CancellationToken cancellationToken = null)
     parameters:
     - id: path
       type: System.String
-    content.vb: Public Sub FileDelete(path As String)
-  overload: SuperOffice.IO.Files.DiskFileAccess.FileDelete*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+    content.vb: Public Function CreateForWriteAsync(path As String, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.IO.Files.DiskFileAccess.CreateForWriteAsync*
   implements:
-  - SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
+  - SuperOffice.IO.Files.IFileAccess.CreateForWriteAsync(System.String,System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.FileDeleteAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.FileDeleteAsync(System.String,System.Threading.CancellationToken)
+  id: FileDeleteAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: FileDeleteAsync(String, CancellationToken)
+  nameWithType: DiskFileAccess.FileDeleteAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.FileDeleteAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public Task FileDeleteAsync(string path, CancellationToken cancellationToken = null)
+    parameters:
+    - id: path
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function FileDeleteAsync(path As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.IO.Files.DiskFileAccess.FileDeleteAsync*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.FileDeleteAsync(System.String,System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1186,6 +1240,158 @@ references:
   name: Action
   nameWithType: Action
   fullName: System.Action
+- uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
+  commentId: M:SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: EnsureAccess(Func<Task>)
+  nameWithType: IFileAccess.EnsureAccess(Func<Task>)
+  fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func<System.Threading.Tasks.Task>)
+  nameWithType.vb: IFileAccess.EnsureAccess(Func(Of Task))
+  fullName.vb: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func(Of System.Threading.Tasks.Task))
+  name.vb: EnsureAccess(Func(Of Task))
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
+    name: EnsureAccess
+    nameWithType: IFileAccess.EnsureAccess
+    fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
+    name: EnsureAccess
+    nameWithType: IFileAccess.EnsureAccess
+    fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: '!:System.Func{System.Threading.Tasks.Task}'
+  definition: System.Func`1
+  name: Func<Task>
+  nameWithType: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
+  name.vb: Func(Of Task)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{{T}})
   commentId: M:SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
   parent: SuperOffice.IO.Files.IFileAccess
@@ -1354,66 +1560,28 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Func`1
-  isExternal: true
-  name: Func<>
-  nameWithType: Func<>
-  fullName: System.Func<>
-  nameWithType.vb: Func(Of )
-  fullName.vb: System.Func(Of )
-  name.vb: Func(Of )
-  spec.csharp:
-  - uid: System.Func`1
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Func`1
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: T
   name: T
   nameWithType: T
   fullName: T
-- uid: SuperOffice.IO.Files.DiskFileAccess.FileExists*
-  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.FileExists
+- uid: SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync
   isExternal: true
-  name: FileExists
-  nameWithType: DiskFileAccess.FileExists
-  fullName: SuperOffice.IO.Files.DiskFileAccess.FileExists
-- uid: SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
-  commentId: M:SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
+  name: FileExistsAsync
+  nameWithType: DiskFileAccess.FileExistsAsync
+  fullName: SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync
+- uid: SuperOffice.IO.Files.IFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.IFileAccess
   isExternal: true
-  name: FileExists(String)
-  nameWithType: IFileAccess.FileExists(String)
-  fullName: SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
+  name: FileExistsAsync(String, CancellationToken)
+  nameWithType: IFileAccess.FileExistsAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Files.IFileAccess.FileExistsAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
-    name: FileExists
-    nameWithType: IFileAccess.FileExists
-    fullName: SuperOffice.IO.Files.IFileAccess.FileExists
+  - uid: SuperOffice.IO.Files.IFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
+    name: FileExistsAsync
+    nameWithType: IFileAccess.FileExistsAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.FileExistsAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1422,15 +1590,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
-    name: FileExists
-    nameWithType: IFileAccess.FileExists
-    fullName: SuperOffice.IO.Files.IFileAccess.FileExists
+  - uid: SuperOffice.IO.Files.IFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
+    name: FileExistsAsync
+    nameWithType: IFileAccess.FileExistsAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.FileExistsAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1439,6 +1615,14 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -1450,6 +1634,187 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync
+  isExternal: true
+  name: DirectoryGetFilesAsync
+  nameWithType: DiskFileAccess.DirectoryGetFilesAsync
+  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync
+- uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFilesAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.DirectoryGetFilesAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: DirectoryGetFilesAsync(String, String, Boolean, CancellationToken)
+  nameWithType: IFileAccess.DirectoryGetFilesAsync(String, String, Boolean, CancellationToken)
+  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFilesAsync(System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFilesAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: DirectoryGetFilesAsync
+    nameWithType: IFileAccess.DirectoryGetFilesAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFilesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFilesAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: DirectoryGetFilesAsync
+    nameWithType: IFileAccess.DirectoryGetFilesAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFilesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1457,94 +1822,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles*
-  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles
-  isExternal: true
-  name: DirectoryGetFiles
-  nameWithType: DiskFileAccess.DirectoryGetFiles
-  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles
-- uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
-  parent: SuperOffice.IO.Files.IFileAccess
-  isExternal: true
-  name: DirectoryGetFiles(String, String, Boolean)
-  nameWithType: IFileAccess.DirectoryGetFiles(String, String, Boolean)
-  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String, System.String, System.Boolean)
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
   spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
-    name: DirectoryGetFiles
-    nameWithType: IFileAccess.DirectoryGetFiles
-    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
-    name: DirectoryGetFiles
-    nameWithType: IFileAccess.DirectoryGetFiles
-    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.String[]
-  isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
-  spec.csharp:
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
     name: String
     nameWithType: String
@@ -1553,7 +1848,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
     nameWithType: String
@@ -1562,24 +1868,27 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos*
-  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfosAsync*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfosAsync
   isExternal: true
-  name: DirectoryGetFileInfos
-  nameWithType: DiskFileAccess.DirectoryGetFileInfos
-  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos
-- uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
-  commentId: M:SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
+  name: DirectoryGetFileInfosAsync
+  nameWithType: DiskFileAccess.DirectoryGetFileInfosAsync
+  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfosAsync
+- uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfosAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfosAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.IFileAccess
   isExternal: true
-  name: DirectoryGetFileInfos(String)
-  nameWithType: IFileAccess.DirectoryGetFileInfos(String)
-  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
+  name: DirectoryGetFileInfosAsync(String, CancellationToken)
+  nameWithType: IFileAccess.DirectoryGetFileInfosAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfosAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
-    name: DirectoryGetFileInfos
-    nameWithType: IFileAccess.DirectoryGetFileInfos
-    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos
+  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfosAsync(System.String,System.Threading.CancellationToken)
+    name: DirectoryGetFileInfosAsync
+    nameWithType: IFileAccess.DirectoryGetFileInfosAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfosAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1588,15 +1897,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
-    name: DirectoryGetFileInfos
-    nameWithType: IFileAccess.DirectoryGetFileInfos
-    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos
+  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfosAsync(System.String,System.Threading.CancellationToken)
+    name: DirectoryGetFileInfosAsync
+    nameWithType: IFileAccess.DirectoryGetFileInfosAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfosAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1606,18 +1923,35 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.Files.SoFileInfo[]
-  isExternal: true
-  name: SoFileInfo[]
-  nameWithType: SoFileInfo[]
-  fullName: SuperOffice.IO.Files.SoFileInfo[]
-  nameWithType.vb: SoFileInfo()
-  fullName.vb: SuperOffice.IO.Files.SoFileInfo()
-  name.vb: SoFileInfo()
+- uid: System.Threading.Tasks.Task{SuperOffice.IO.Files.SoFileInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.IO.Files.SoFileInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SoFileInfo[]>
+  nameWithType: Task<SoFileInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.IO.Files.SoFileInfo[]>
+  nameWithType.vb: Task(Of SoFileInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.IO.Files.SoFileInfo())
+  name.vb: Task(Of SoFileInfo())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.IO.Files.SoFileInfo
     name: SoFileInfo
     nameWithType: SoFileInfo
@@ -1626,7 +1960,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.IO.Files.SoFileInfo
     name: SoFileInfo
     nameWithType: SoFileInfo
@@ -1635,6 +1980,9 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists*
   commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists
   isExternal: true
@@ -1926,6 +2274,32 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.IO.Files.DiskFileAccess.PathGetExtension*
   commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.PathGetExtension
   isExternal: true
@@ -2083,24 +2457,24 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock*
-  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock
+- uid: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLockAsync*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLockAsync
   isExternal: true
-  name: OpenReadOnlyNoLock
-  nameWithType: DiskFileAccess.OpenReadOnlyNoLock
-  fullName: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock
-- uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
-  commentId: M:SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
+  name: OpenReadOnlyNoLockAsync
+  nameWithType: DiskFileAccess.OpenReadOnlyNoLockAsync
+  fullName: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLockAsync
+- uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLockAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLockAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.IFileAccess
   isExternal: true
-  name: OpenReadOnlyNoLock(String)
-  nameWithType: IFileAccess.OpenReadOnlyNoLock(String)
-  fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
+  name: OpenReadOnlyNoLockAsync(String, CancellationToken)
+  nameWithType: IFileAccess.OpenReadOnlyNoLockAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLockAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
-    name: OpenReadOnlyNoLock
-    nameWithType: IFileAccess.OpenReadOnlyNoLock
-    fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock
+  - uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLockAsync(System.String,System.Threading.CancellationToken)
+    name: OpenReadOnlyNoLockAsync
+    nameWithType: IFileAccess.OpenReadOnlyNoLockAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLockAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2109,15 +2483,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
-    name: OpenReadOnlyNoLock
-    nameWithType: IFileAccess.OpenReadOnlyNoLock
-    fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock
+  - uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLockAsync(System.String,System.Threading.CancellationToken)
+    name: OpenReadOnlyNoLockAsync
+    nameWithType: IFileAccess.OpenReadOnlyNoLockAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLockAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2126,6 +2508,136 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.IO.Stream}
+  commentId: '!:System.Threading.Tasks.Task{System.IO.Stream}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Stream>
+  nameWithType: Task<Stream>
+  fullName: System.Threading.Tasks.Task<System.IO.Stream>
+  nameWithType.vb: Task(Of Stream)
+  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
+  name.vb: Task(Of Stream)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFileAsync*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFileAsync
+  isExternal: true
+  name: SaveStreamToFileAsync
+  nameWithType: DiskFileAccess.SaveStreamToFileAsync
+  fullName: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFileAsync
+- uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFileAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.SaveStreamToFileAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: SaveStreamToFileAsync(Stream, String, CancellationToken)
+  nameWithType: IFileAccess.SaveStreamToFileAsync(Stream, String, CancellationToken)
+  fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFileAsync(System.IO.Stream, System.String, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFileAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
+    name: SaveStreamToFileAsync
+    nameWithType: IFileAccess.SaveStreamToFileAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFileAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFileAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
+    name: SaveStreamToFileAsync
+    nameWithType: IFileAccess.SaveStreamToFileAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFileAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -2135,87 +2647,87 @@ references:
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile*
-  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile
+- uid: SuperOffice.IO.Files.DiskFileAccess.CreateForWriteAsync*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.CreateForWriteAsync
   isExternal: true
-  name: SaveStreamToFile
-  nameWithType: DiskFileAccess.SaveStreamToFile
-  fullName: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile
-- uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
-  commentId: M:SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
+  name: CreateForWriteAsync
+  nameWithType: DiskFileAccess.CreateForWriteAsync
+  fullName: SuperOffice.IO.Files.DiskFileAccess.CreateForWriteAsync
+- uid: SuperOffice.IO.Files.IFileAccess.CreateForWriteAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.CreateForWriteAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.IFileAccess
   isExternal: true
-  name: SaveStreamToFile(Stream, String)
-  nameWithType: IFileAccess.SaveStreamToFile(Stream, String)
-  fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream, System.String)
+  name: CreateForWriteAsync(String, CancellationToken)
+  nameWithType: IFileAccess.CreateForWriteAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Files.IFileAccess.CreateForWriteAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
-    name: SaveStreamToFile
-    nameWithType: IFileAccess.SaveStreamToFile
-    fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile
+  - uid: SuperOffice.IO.Files.IFileAccess.CreateForWriteAsync(System.String,System.Threading.CancellationToken)
+    name: CreateForWriteAsync
+    nameWithType: IFileAccess.CreateForWriteAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.CreateForWriteAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.IO.Stream
-    name: Stream
-    nameWithType: Stream
-    fullName: System.IO.Stream
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
-    name: SaveStreamToFile
-    nameWithType: IFileAccess.SaveStreamToFile
-    fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile
+  - uid: SuperOffice.IO.Files.IFileAccess.CreateForWriteAsync(System.String,System.Threading.CancellationToken)
+    name: CreateForWriteAsync
+    nameWithType: IFileAccess.CreateForWriteAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.CreateForWriteAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.IO.Stream
-    name: Stream
-    nameWithType: Stream
-    fullName: System.IO.Stream
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.Files.DiskFileAccess.CreateForWrite*
-  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.CreateForWrite
+- uid: SuperOffice.IO.Files.DiskFileAccess.FileDeleteAsync*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.FileDeleteAsync
   isExternal: true
-  name: CreateForWrite
-  nameWithType: DiskFileAccess.CreateForWrite
-  fullName: SuperOffice.IO.Files.DiskFileAccess.CreateForWrite
-- uid: SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
-  commentId: M:SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
+  name: FileDeleteAsync
+  nameWithType: DiskFileAccess.FileDeleteAsync
+  fullName: SuperOffice.IO.Files.DiskFileAccess.FileDeleteAsync
+- uid: SuperOffice.IO.Files.IFileAccess.FileDeleteAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.FileDeleteAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Files.IFileAccess
   isExternal: true
-  name: CreateForWrite(String)
-  nameWithType: IFileAccess.CreateForWrite(String)
-  fullName: SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
+  name: FileDeleteAsync(String, CancellationToken)
+  nameWithType: IFileAccess.FileDeleteAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Files.IFileAccess.FileDeleteAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
-    name: CreateForWrite
-    nameWithType: IFileAccess.CreateForWrite
-    fullName: SuperOffice.IO.Files.IFileAccess.CreateForWrite
+  - uid: SuperOffice.IO.Files.IFileAccess.FileDeleteAsync(System.String,System.Threading.CancellationToken)
+    name: FileDeleteAsync
+    nameWithType: IFileAccess.FileDeleteAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.FileDeleteAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2224,15 +2736,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
-    name: CreateForWrite
-    nameWithType: IFileAccess.CreateForWrite
-    fullName: SuperOffice.IO.Files.IFileAccess.CreateForWrite
+  - uid: SuperOffice.IO.Files.IFileAccess.FileDeleteAsync(System.String,System.Threading.CancellationToken)
+    name: FileDeleteAsync
+    nameWithType: IFileAccess.FileDeleteAsync
+    fullName: SuperOffice.IO.Files.IFileAccess.FileDeleteAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2242,52 +2762,13 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.IO.Files.DiskFileAccess.FileDelete*
-  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.FileDelete
-  isExternal: true
-  name: FileDelete
-  nameWithType: DiskFileAccess.FileDelete
-  fullName: SuperOffice.IO.Files.DiskFileAccess.FileDelete
-- uid: SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
-  commentId: M:SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
-  parent: SuperOffice.IO.Files.IFileAccess
-  isExternal: true
-  name: FileDelete(String)
-  nameWithType: IFileAccess.FileDelete(String)
-  fullName: SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
-  spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
-    name: FileDelete
-    nameWithType: IFileAccess.FileDelete
-    fullName: SuperOffice.IO.Files.IFileAccess.FileDelete
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
-    name: FileDelete
-    nameWithType: IFileAccess.FileDelete
-    fullName: SuperOffice.IO.Files.IFileAccess.FileDelete
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

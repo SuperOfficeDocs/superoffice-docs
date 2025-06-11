@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo})
   - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
-  - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
-  - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData})
+  - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookUsageRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<WebhookUsageTableInfo>)
-  nameWithType: WebhookUsageRecordDataExtensions.FromSelect(TargetedSelect<WebhookUsageTableInfo>)
-  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WebhookUsageTableInfo>)
+  name: FromSelectAsync(TargetedSelect<WebhookUsageTableInfo>, CancellationToken)
+  nameWithType: WebhookUsageRecordDataExtensions.FromSelectAsync(TargetedSelect<WebhookUsageTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WebhookUsageTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<WebhookUsageRecordData> FromSelect(this TargetedSelect<WebhookUsageTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<WebhookUsageRecordData> FromSelectAsync(this TargetedSelect<WebhookUsageTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of WebhookUsageTableInfo)) As IEnumerable(Of WebhookUsageRecordData)
-  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect*
-  nameWithType.vb: WebhookUsageRecordDataExtensions.FromSelect(TargetedSelect(Of WebhookUsageTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of WebhookUsageTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of WebhookUsageRecordData)
+  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: WebhookUsageRecordDataExtensions.FromSelectAsync(TargetedSelect(Of WebhookUsageTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WebhookUsageTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of WebhookUsageTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WebhookUsageTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of WebhookUsageTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo})
   commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.WebhookUsageTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of WebhookUsageTableInfo))
-- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
-  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(WebhookUsageRecordData)
-  nameWithType: WebhookUsageRecordDataExtensions.ToInsert(WebhookUsageRecordData)
-  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
+  name: ToInsertAsync(WebhookUsageRecordData, CancellationToken)
+  nameWithType: WebhookUsageRecordDataExtensions.ToInsertAsync(WebhookUsageRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this WebhookUsageRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this WebhookUsageRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As WebhookUsageRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As WebhookUsageRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData})
-  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData})
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<WebhookUsageRecordData>)
-  nameWithType: WebhookUsageRecordDataExtensions.ToInserts(IEnumerable<WebhookUsageRecordData>)
-  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WebhookUsageRecordData>)
+  name: ToInsertsAsync(IEnumerable<WebhookUsageRecordData>, CancellationToken)
+  nameWithType: WebhookUsageRecordDataExtensions.ToInsertsAsync(IEnumerable<WebhookUsageRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WebhookUsageRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<WebhookUsageRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<WebhookUsageRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of WebhookUsageRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts*
-  nameWithType.vb: WebhookUsageRecordDataExtensions.ToInserts(IEnumerable(Of WebhookUsageRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of WebhookUsageRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: WebhookUsageRecordDataExtensions.ToInsertsAsync(IEnumerable(Of WebhookUsageRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WebhookUsageRecordData))
-  name.vb: ToInserts(IEnumerable(Of WebhookUsageRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WebhookUsageRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of WebhookUsageRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookUsageRow)
   commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookUsageRow)
   id: ToRecordData(SuperOffice.CRM.Rows.WebhookUsageRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<WebhookUsageTableInfo>)
+  nameWithType: WebhookUsageRecordDataExtensions.FromSelect(TargetedSelect<WebhookUsageTableInfo>)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WebhookUsageTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;WebhookUsageTableInfo>, execute it and return an IEnumerable&lt;WebhookUsageRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<WebhookUsageRecordData> FromSelect(this TargetedSelect<WebhookUsageTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of WebhookUsageTableInfo)) As IEnumerable(Of WebhookUsageRecordData)
+  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect*
+  nameWithType.vb: WebhookUsageRecordDataExtensions.FromSelect(TargetedSelect(Of WebhookUsageTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WebhookUsageTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of WebhookUsageTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: WebhookUsageRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: WebhookUsageRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<WebhookUsageRecordData>
-  nameWithType: IEnumerable<WebhookUsageRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WebhookUsageRecordData>
-  nameWithType.vb: IEnumerable(Of WebhookUsageRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WebhookUsageRecordData)
-  name.vb: IEnumerable(Of WebhookUsageRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<WebhookUsageRecordData>
+  nameWithType: IAsyncEnumerable<WebhookUsageRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.WebhookUsageRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of WebhookUsageRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.WebhookUsageRecordData)
+  name.vb: IAsyncEnumerable(Of WebhookUsageRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: WebhookUsageRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: WebhookUsageRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: WebhookUsageRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: WebhookUsageRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<WebhookUsageRecordData>
+  nameWithType: IEnumerable<WebhookUsageRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WebhookUsageRecordData>
+  nameWithType.vb: IEnumerable(Of WebhookUsageRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WebhookUsageRecordData)
+  name.vb: IEnumerable(Of WebhookUsageRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    name: WebhookUsageRecordData
+    nameWithType: WebhookUsageRecordData
+    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    name: WebhookUsageRecordData
+    nameWithType: WebhookUsageRecordData
+    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: WebhookUsageRow
   nameWithType: WebhookUsageRow
   fullName: SuperOffice.CRM.Rows.WebhookUsageRow
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: WebhookUsageRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect

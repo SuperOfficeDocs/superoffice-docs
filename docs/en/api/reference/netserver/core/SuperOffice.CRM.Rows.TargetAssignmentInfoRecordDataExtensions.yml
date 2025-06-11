@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
   - SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
-  - SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData)
-  - SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData})
+  - SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetAssignmentInfoRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
+- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<TargetAssignmentInfoTableInfo>)
-  nameWithType: TargetAssignmentInfoRecordDataExtensions.FromSelect(TargetedSelect<TargetAssignmentInfoTableInfo>)
-  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo>)
+  name: FromSelectAsync(TargetedSelect<TargetAssignmentInfoTableInfo>, CancellationToken)
+  nameWithType: TargetAssignmentInfoRecordDataExtensions.FromSelectAsync(TargetedSelect<TargetAssignmentInfoTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<TargetAssignmentInfoRecordData> FromSelect(this TargetedSelect<TargetAssignmentInfoTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<TargetAssignmentInfoRecordData> FromSelectAsync(this TargetedSelect<TargetAssignmentInfoTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of TargetAssignmentInfoTableInfo)) As IEnumerable(Of TargetAssignmentInfoRecordData)
-  overload: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect*
-  nameWithType.vb: TargetAssignmentInfoRecordDataExtensions.FromSelect(TargetedSelect(Of TargetAssignmentInfoTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of TargetAssignmentInfoTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of TargetAssignmentInfoRecordData)
+  overload: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: TargetAssignmentInfoRecordDataExtensions.FromSelectAsync(TargetedSelect(Of TargetAssignmentInfoTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of TargetAssignmentInfoTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of TargetAssignmentInfoTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
   commentId: M:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of TargetAssignmentInfoTableInfo))
-- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData)
+- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(TargetAssignmentInfoRecordData)
-  nameWithType: TargetAssignmentInfoRecordDataExtensions.ToInsert(TargetAssignmentInfoRecordData)
-  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData)
+  name: ToInsertAsync(TargetAssignmentInfoRecordData, CancellationToken)
+  nameWithType: TargetAssignmentInfoRecordDataExtensions.ToInsertAsync(TargetAssignmentInfoRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this TargetAssignmentInfoRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this TargetAssignmentInfoRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As TargetAssignmentInfoRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As TargetAssignmentInfoRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData})
-  commentId: M:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData})
+- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<TargetAssignmentInfoRecordData>)
-  nameWithType: TargetAssignmentInfoRecordDataExtensions.ToInserts(IEnumerable<TargetAssignmentInfoRecordData>)
-  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData>)
+  name: ToInsertsAsync(IEnumerable<TargetAssignmentInfoRecordData>, CancellationToken)
+  nameWithType: TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync(IEnumerable<TargetAssignmentInfoRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<TargetAssignmentInfoRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<TargetAssignmentInfoRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of TargetAssignmentInfoRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInserts*
-  nameWithType.vb: TargetAssignmentInfoRecordDataExtensions.ToInserts(IEnumerable(Of TargetAssignmentInfoRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of TargetAssignmentInfoRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync(IEnumerable(Of TargetAssignmentInfoRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData))
-  name.vb: ToInserts(IEnumerable(Of TargetAssignmentInfoRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of TargetAssignmentInfoRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetAssignmentInfoRow)
   commentId: M:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetAssignmentInfoRow)
   id: ToRecordData(SuperOffice.CRM.Rows.TargetAssignmentInfoRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<TargetAssignmentInfoTableInfo>)
+  nameWithType: TargetAssignmentInfoRecordDataExtensions.FromSelect(TargetedSelect<TargetAssignmentInfoTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;TargetAssignmentInfoTableInfo>, execute it and return an IEnumerable&lt;TargetAssignmentInfoRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<TargetAssignmentInfoRecordData> FromSelect(this TargetedSelect<TargetAssignmentInfoTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of TargetAssignmentInfoTableInfo)) As IEnumerable(Of TargetAssignmentInfoRecordData)
+  overload: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect*
+  nameWithType.vb: TargetAssignmentInfoRecordDataExtensions.FromSelect(TargetedSelect(Of TargetAssignmentInfoTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of TargetAssignmentInfoTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: TargetAssignmentInfoRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: TargetAssignmentInfoRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<TargetAssignmentInfoRecordData>
-  nameWithType: IEnumerable<TargetAssignmentInfoRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData>
-  nameWithType.vb: IEnumerable(Of TargetAssignmentInfoRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData)
-  name.vb: IEnumerable(Of TargetAssignmentInfoRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<TargetAssignmentInfoRecordData>
+  nameWithType: IAsyncEnumerable<TargetAssignmentInfoRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of TargetAssignmentInfoRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData)
+  name.vb: IAsyncEnumerable(Of TargetAssignmentInfoRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: TargetAssignmentInfoRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: TargetAssignmentInfoRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: TargetAssignmentInfoRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TargetAssignmentInfoRecordData>
+  nameWithType: IEnumerable<TargetAssignmentInfoRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData>
+  nameWithType.vb: IEnumerable(Of TargetAssignmentInfoRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData)
+  name.vb: IEnumerable(Of TargetAssignmentInfoRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData
+    name: TargetAssignmentInfoRecordData
+    nameWithType: TargetAssignmentInfoRecordData
+    fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData
+    name: TargetAssignmentInfoRecordData
+    nameWithType: TargetAssignmentInfoRecordData
+    fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: TargetAssignmentInfoRow
   nameWithType: TargetAssignmentInfoRow
   fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRow
+- uid: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: TargetAssignmentInfoRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.TargetAssignmentInfoRecordDataExtensions.FromSelect

@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.FieldLabelTableInfo})
   - SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo})
-  - SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FieldLabelRecordData)
-  - SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData})
+  - SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FieldLabelRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.FieldLabelRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo})
+- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<FieldLabelTableInfo>)
-  nameWithType: FieldLabelRecordDataExtensions.FromSelect(TargetedSelect<FieldLabelTableInfo>)
-  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.FieldLabelTableInfo>)
+  name: FromSelectAsync(TargetedSelect<FieldLabelTableInfo>, CancellationToken)
+  nameWithType: FieldLabelRecordDataExtensions.FromSelectAsync(TargetedSelect<FieldLabelTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.FieldLabelTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<FieldLabelRecordData> FromSelect(this TargetedSelect<FieldLabelTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<FieldLabelRecordData> FromSelectAsync(this TargetedSelect<FieldLabelTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of FieldLabelTableInfo)) As IEnumerable(Of FieldLabelRecordData)
-  overload: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect*
-  nameWithType.vb: FieldLabelRecordDataExtensions.FromSelect(TargetedSelect(Of FieldLabelTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of FieldLabelTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of FieldLabelRecordData)
+  overload: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: FieldLabelRecordDataExtensions.FromSelectAsync(TargetedSelect(Of FieldLabelTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.FieldLabelTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of FieldLabelTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.FieldLabelTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of FieldLabelTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.FieldLabelTableInfo})
   commentId: M:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.FieldLabelTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.FieldLabelTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.FieldLabelTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of FieldLabelTableInfo))
-- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FieldLabelRecordData)
-  commentId: M:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FieldLabelRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.FieldLabelRecordData)
+- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FieldLabelRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FieldLabelRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.FieldLabelRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(FieldLabelRecordData)
-  nameWithType: FieldLabelRecordDataExtensions.ToInsert(FieldLabelRecordData)
-  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FieldLabelRecordData)
+  name: ToInsertAsync(FieldLabelRecordData, CancellationToken)
+  nameWithType: FieldLabelRecordDataExtensions.ToInsertAsync(FieldLabelRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FieldLabelRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this FieldLabelRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this FieldLabelRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.FieldLabelRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As FieldLabelRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As FieldLabelRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData})
-  commentId: M:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData})
+- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<FieldLabelRecordData>)
-  nameWithType: FieldLabelRecordDataExtensions.ToInserts(IEnumerable<FieldLabelRecordData>)
-  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.FieldLabelRecordData>)
+  name: ToInsertsAsync(IEnumerable<FieldLabelRecordData>, CancellationToken)
+  nameWithType: FieldLabelRecordDataExtensions.ToInsertsAsync(IEnumerable<FieldLabelRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.FieldLabelRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<FieldLabelRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<FieldLabelRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of FieldLabelRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInserts*
-  nameWithType.vb: FieldLabelRecordDataExtensions.ToInserts(IEnumerable(Of FieldLabelRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of FieldLabelRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: FieldLabelRecordDataExtensions.ToInsertsAsync(IEnumerable(Of FieldLabelRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.FieldLabelRecordData))
-  name.vb: ToInserts(IEnumerable(Of FieldLabelRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.FieldLabelRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of FieldLabelRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.FieldLabelRow)
   commentId: M:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.FieldLabelRow)
   id: ToRecordData(SuperOffice.CRM.Rows.FieldLabelRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<FieldLabelTableInfo>)
+  nameWithType: FieldLabelRecordDataExtensions.FromSelect(TargetedSelect<FieldLabelTableInfo>)
+  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.FieldLabelTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;FieldLabelTableInfo>, execute it and return an IEnumerable&lt;FieldLabelRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<FieldLabelRecordData> FromSelect(this TargetedSelect<FieldLabelTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of FieldLabelTableInfo)) As IEnumerable(Of FieldLabelRecordData)
+  overload: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect*
+  nameWithType.vb: FieldLabelRecordDataExtensions.FromSelect(TargetedSelect(Of FieldLabelTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.FieldLabelTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of FieldLabelTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: FieldLabelRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: FieldLabelRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.FieldLabelTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<FieldLabelRecordData>
-  nameWithType: IEnumerable<FieldLabelRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.FieldLabelRecordData>
-  nameWithType.vb: IEnumerable(Of FieldLabelRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.FieldLabelRecordData)
-  name.vb: IEnumerable(Of FieldLabelRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<FieldLabelRecordData>
+  nameWithType: IAsyncEnumerable<FieldLabelRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.FieldLabelRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of FieldLabelRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.FieldLabelRecordData)
+  name.vb: IAsyncEnumerable(Of FieldLabelRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: FieldLabelRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: FieldLabelRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: FieldLabelRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: FieldLabelRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.FieldLabelRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<FieldLabelRecordData>
+  nameWithType: IEnumerable<FieldLabelRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.FieldLabelRecordData>
+  nameWithType.vb: IEnumerable(Of FieldLabelRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.FieldLabelRecordData)
+  name.vb: IEnumerable(Of FieldLabelRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.FieldLabelRecordData
+    name: FieldLabelRecordData
+    nameWithType: FieldLabelRecordData
+    fullName: SuperOffice.CRM.Rows.FieldLabelRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.FieldLabelRecordData
+    name: FieldLabelRecordData
+    nameWithType: FieldLabelRecordData
+    fullName: SuperOffice.CRM.Rows.FieldLabelRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: FieldLabelRow
   nameWithType: FieldLabelRow
   fullName: SuperOffice.CRM.Rows.FieldLabelRow
+- uid: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: FieldLabelRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.FieldLabelRecordDataExtensions.FromSelect

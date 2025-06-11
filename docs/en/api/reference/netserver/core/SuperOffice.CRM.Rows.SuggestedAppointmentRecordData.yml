@@ -51,7 +51,7 @@ items:
   - SuperOffice.CRM.Rows.SuggestedAppointmentRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SuggestedAppointmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
   - SuperOffice.CRM.Rows.SuggestedAppointmentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SuggestedAppointmentRecordData.SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SuggestedAppointmentRecordData.SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SuggestedAppointmentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -723,34 +723,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordData.SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
+- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordData.SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
-  name: ToInsert()
-  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -936,17 +946,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
+- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SuggestedAppointmentRecordData)
-  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsert(SuggestedAppointmentRecordData)
-  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
+  name: ToInsertAsync(SuggestedAppointmentRecordData, CancellationToken)
+  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuggestedAppointmentRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
-    name: ToInsert
-    nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -955,15 +965,23 @@ references:
     name: SuggestedAppointmentRecordData
     nameWithType: SuggestedAppointmentRecordData
     fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
-    name: ToInsert
-    nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -972,6 +990,14 @@ references:
     name: SuggestedAppointmentRecordData
     nameWithType: SuggestedAppointmentRecordData
     fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

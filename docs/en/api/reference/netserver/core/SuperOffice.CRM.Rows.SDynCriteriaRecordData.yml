@@ -39,7 +39,7 @@ items:
   - SuperOffice.CRM.Rows.SDynCriteriaRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SDynCriteriaRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
   - SuperOffice.CRM.Rows.SDynCriteriaRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SDynCriteriaRecordData.SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SDynCriteriaRecordData.SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SDynCriteriaRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -387,34 +387,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordData.SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordData.SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
-  name: ToInsert()
-  nameWithType: SDynCriteriaRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SDynCriteriaRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SDynCriteriaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SDynCriteriaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SDynCriteriaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SDynCriteriaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -600,17 +610,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
+- uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SDynCriteriaRecordData)
-  nameWithType: SDynCriteriaRecordDataExtensions.ToInsert(SDynCriteriaRecordData)
-  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
+  name: ToInsertAsync(SDynCriteriaRecordData, CancellationToken)
+  nameWithType: SDynCriteriaRecordDataExtensions.ToInsertAsync(SDynCriteriaRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
-    name: ToInsert
-    nameWithType: SDynCriteriaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SDynCriteriaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -619,15 +629,23 @@ references:
     name: SDynCriteriaRecordData
     nameWithType: SDynCriteriaRecordData
     fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SDynCriteriaRecordData)
-    name: ToInsert
-    nameWithType: SDynCriteriaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SDynCriteriaRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SDynCriteriaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -636,6 +654,14 @@ references:
     name: SDynCriteriaRecordData
     nameWithType: SDynCriteriaRecordData
     fullName: SuperOffice.CRM.Rows.SDynCriteriaRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

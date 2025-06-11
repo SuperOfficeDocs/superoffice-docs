@@ -45,7 +45,7 @@ items:
   - SuperOffice.CRM.Rows.CurrencyRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CurrencyRecordData)
   - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -555,34 +555,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
+- uid: SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-  name: ToInsert()
-  nameWithType: CurrencyRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: CurrencyRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CurrencyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CurrencyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CurrencyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CurrencyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -768,17 +778,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-  commentId: M:SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
+- uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(CurrencyRecordData)
-  nameWithType: CurrencyRecordDataExtensions.ToInsert(CurrencyRecordData)
-  fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
+  name: ToInsertAsync(CurrencyRecordData, CancellationToken)
+  nameWithType: CurrencyRecordDataExtensions.ToInsertAsync(CurrencyRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: ToInsert
-    nameWithType: CurrencyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CurrencyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -787,15 +797,23 @@ references:
     name: CurrencyRecordData
     nameWithType: CurrencyRecordData
     fullName: SuperOffice.CRM.Rows.CurrencyRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: ToInsert
-    nameWithType: CurrencyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CurrencyRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CurrencyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -804,6 +822,14 @@ references:
     name: CurrencyRecordData
     nameWithType: CurrencyRecordData
     fullName: SuperOffice.CRM.Rows.CurrencyRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

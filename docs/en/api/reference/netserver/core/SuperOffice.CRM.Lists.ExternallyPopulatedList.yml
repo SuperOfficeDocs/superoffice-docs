@@ -5,12 +5,13 @@ items:
   id: ExternallyPopulatedList
   parent: SuperOffice.CRM.Lists
   children:
-  - SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}})
-  - SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-  - SuperOffice.CRM.Lists.ExternallyPopulatedList.HeadingItems
+  - SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Func{System.Threading.CancellationToken,System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Lists.SoListItem}})
+  - SuperOffice.CRM.Lists.ExternallyPopulatedList.ClearHistoryItems
+  - SuperOffice.CRM.Lists.ExternallyPopulatedList.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ExternallyPopulatedList.GetRootItemsAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryInfo
-  - SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryItems
-  - SuperOffice.CRM.Lists.ExternallyPopulatedList.RootItems
   langs:
   - csharp
   - vb
@@ -48,16 +49,16 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}})
-  commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}})
-  id: '#ctor(System.String,System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}})'
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Func{System.Threading.CancellationToken,System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Lists.SoListItem}})
+  commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Func{System.Threading.CancellationToken,System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Lists.SoListItem}})
+  id: '#ctor(System.String,System.Func{System.Threading.CancellationToken,System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Lists.SoListItem}})'
   parent: SuperOffice.CRM.Lists.ExternallyPopulatedList
   langs:
   - csharp
   - vb
-  name: ExternallyPopulatedList(String, Func<IEnumerable<SoListItem>>)
-  nameWithType: ExternallyPopulatedList.ExternallyPopulatedList(String, Func<IEnumerable<SoListItem>>)
-  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.ExternallyPopulatedList(System.String, System.Func<System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.SoListItem>>)
+  name: ExternallyPopulatedList(String, Func<CancellationToken, IAsyncEnumerable<SoListItem>>)
+  nameWithType: ExternallyPopulatedList.ExternallyPopulatedList(String, Func<CancellationToken, IAsyncEnumerable<SoListItem>>)
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.ExternallyPopulatedList(System.String, System.Func<System.Threading.CancellationToken, System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Lists.SoListItem>>)
   type: Constructor
   source:
     path: SoDataBase
@@ -66,31 +67,31 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
   syntax:
-    content: public ExternallyPopulatedList(string listName, Func<IEnumerable<SoListItem>> populateFunction)
+    content: public ExternallyPopulatedList(string listName, Func<CancellationToken, IAsyncEnumerable<SoListItem>> populateFunction)
     parameters:
     - id: listName
       type: System.String
     - id: populateFunction
-      type: System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}}
-    content.vb: Public Sub New(listName As String, populateFunction As Func(Of IEnumerable(Of SoListItem)))
+      type: System.Func{System.Threading.CancellationToken,System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Lists.SoListItem}}
+    content.vb: Public Sub New(listName As String, populateFunction As Func(Of CancellationToken, IAsyncEnumerable(Of SoListItem)))
   overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor*
-  nameWithType.vb: ExternallyPopulatedList.ExternallyPopulatedList(String, Func(Of IEnumerable(Of SoListItem)))
+  nameWithType.vb: ExternallyPopulatedList.ExternallyPopulatedList(String, Func(Of CancellationToken, IAsyncEnumerable(Of SoListItem)))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.CRM.Lists.ExternallyPopulatedList.ExternallyPopulatedList(System.String, System.Func(Of System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Lists.SoListItem)))
-  name.vb: ExternallyPopulatedList(String, Func(Of IEnumerable(Of SoListItem)))
-- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-  id: Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.ExternallyPopulatedList.ExternallyPopulatedList(System.String, System.Func(Of System.Threading.CancellationToken, System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Lists.SoListItem)))
+  name.vb: ExternallyPopulatedList(String, Func(Of CancellationToken, IAsyncEnumerable(Of SoListItem)))
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ExternallyPopulatedList
   langs:
   - csharp
   - vb
-  name: Construct(String, String, Int32[], Boolean, String, Boolean)
-  nameWithType: ExternallyPopulatedList.Construct(String, String, Int32[], Boolean, String, Boolean)
-  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  name: ConstructAsync(String, String, Int32[], Boolean, String, Boolean, CancellationToken)
+  nameWithType: ExternallyPopulatedList.ConstructAsync(String, String, Int32[], Boolean, String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.ConstructAsync(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -100,7 +101,7 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nCalls the populateFunction passed in to the constructor\n"
   syntax:
-    content: public void Construct(string listName, string additionalInfo, int[] historyIDs, bool onlyReadHistory, string searchValue, bool forceFlatList)
+    content: public Task ConstructAsync(string listName, string additionalInfo, int[] historyIDs, bool onlyReadHistory, string searchValue, bool forceFlatList, CancellationToken cancellationToken = null)
     parameters:
     - id: listName
       type: System.String
@@ -114,17 +115,144 @@ items:
       type: System.String
     - id: forceFlatList
       type: System.Boolean
-    content.vb: Public Sub Construct(listName As String, additionalInfo As String, historyIDs As Integer(), onlyReadHistory As Boolean, searchValue As String, forceFlatList As Boolean)
-  overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ConstructAsync(listName As String, additionalInfo As String, historyIDs As Integer(), onlyReadHistory As Boolean, searchValue As String, forceFlatList As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.ConstructAsync*
   implements:
-  - SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-  nameWithType.vb: ExternallyPopulatedList.Construct(String, String, Int32(), Boolean, String, Boolean)
+  - SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: ExternallyPopulatedList.ConstructAsync(String, String, Int32(), Boolean, String, Boolean, CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
-  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.ExternallyPopulatedList.ConstructAsync(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean, System.Threading.CancellationToken)
+  name.vb: ConstructAsync(String, String, Int32(), Boolean, String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  id: GetHistoryItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ExternallyPopulatedList
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryItemsAsync(CancellationToken)
+  nameWithType: ExternallyPopulatedList.GetHistoryItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public Task<List<ISoListItem>> GetHistoryItemsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}
+    content.vb: Public Function GetHistoryItemsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ISoListItem))
+  overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHistoryItemsAsync*
+  implements:
+  - SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.ClearHistoryItems
+  commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.ClearHistoryItems
+  id: ClearHistoryItems
+  parent: SuperOffice.CRM.Lists.ExternallyPopulatedList
+  langs:
+  - csharp
+  - vb
+  name: ClearHistoryItems()
+  nameWithType: ExternallyPopulatedList.ClearHistoryItems()
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.ClearHistoryItems()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public void ClearHistoryItems()
+    content.vb: Public Sub ClearHistoryItems
+  overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.ClearHistoryItems*
+  implements:
+  - SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetRootItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.GetRootItemsAsync(System.Threading.CancellationToken)
+  id: GetRootItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ExternallyPopulatedList
+  langs:
+  - csharp
+  - vb
+  name: GetRootItemsAsync(CancellationToken)
+  nameWithType: ExternallyPopulatedList.GetRootItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetRootItemsAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public Task<List<ISoListItem>> GetRootItemsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}
+    content.vb: Public Function GetRootItemsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ISoListItem))
+  overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetRootItemsAsync*
+  implements:
+  - SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  id: GetHeadingItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ExternallyPopulatedList
+  langs:
+  - csharp
+  - vb
+  name: GetHeadingItemsAsync(CancellationToken)
+  nameWithType: ExternallyPopulatedList.GetHeadingItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public Task<List<ISoListHeading>> GetHeadingItemsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}}
+    content.vb: Public Function GetHeadingItemsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ISoListHeading))
+  overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHeadingItemsAsync*
+  implements:
+  - SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryInfo
   commentId: P:SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryInfo
   id: HistoryInfo
@@ -151,102 +279,6 @@ items:
   overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryInfo*
   implements:
   - SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryItems
-  commentId: P:SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryItems
-  id: HistoryItems
-  parent: SuperOffice.CRM.Lists.ExternallyPopulatedList
-  langs:
-  - csharp
-  - vb
-  name: HistoryItems
-  nameWithType: ExternallyPopulatedList.HistoryItems
-  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryItems
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Lists
-  syntax:
-    content: public List<ISoListItem> HistoryItems { get; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-    content.vb: Public ReadOnly Property HistoryItems As List(Of ISoListItem)
-  overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryItems*
-  implements:
-  - SuperOffice.CRM.Lists.ISoList.HistoryItems
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.RootItems
-  commentId: P:SuperOffice.CRM.Lists.ExternallyPopulatedList.RootItems
-  id: RootItems
-  parent: SuperOffice.CRM.Lists.ExternallyPopulatedList
-  langs:
-  - csharp
-  - vb
-  name: RootItems
-  nameWithType: ExternallyPopulatedList.RootItems
-  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.RootItems
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Lists
-  syntax:
-    content: public List<ISoListItem> RootItems { get; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-    content.vb: Public ReadOnly Property RootItems As List(Of ISoListItem)
-  overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.RootItems*
-  implements:
-  - SuperOffice.CRM.Lists.ISoList.RootItems
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.HeadingItems
-  commentId: P:SuperOffice.CRM.Lists.ExternallyPopulatedList.HeadingItems
-  id: HeadingItems
-  parent: SuperOffice.CRM.Lists.ExternallyPopulatedList
-  langs:
-  - csharp
-  - vb
-  name: HeadingItems
-  nameWithType: ExternallyPopulatedList.HeadingItems
-  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.HeadingItems
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Lists
-  syntax:
-    content: public List<ISoListHeading> HeadingItems { get; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
-    content.vb: Public ReadOnly Property HeadingItems As List(Of ISoListHeading)
-  overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.HeadingItems*
-  implements:
-  - SuperOffice.CRM.Lists.ISoList.HeadingItems
   modifiers.csharp:
   - public
   - get
@@ -465,17 +497,17 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}}
-  commentId: '!:System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}}'
-  definition: System.Func`1
-  name: Func<IEnumerable<SoListItem>>
-  nameWithType: Func<IEnumerable<SoListItem>>
-  fullName: System.Func<System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.SoListItem>>
-  nameWithType.vb: Func(Of IEnumerable(Of SoListItem))
-  fullName.vb: System.Func(Of System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Lists.SoListItem))
-  name.vb: Func(Of IEnumerable(Of SoListItem))
+- uid: System.Func{System.Threading.CancellationToken,System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Lists.SoListItem}}
+  commentId: '!:System.Func{System.Threading.CancellationToken,System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Lists.SoListItem}}'
+  definition: System.Func`2
+  name: Func<CancellationToken, IAsyncEnumerable<SoListItem>>
+  nameWithType: Func<CancellationToken, IAsyncEnumerable<SoListItem>>
+  fullName: System.Func<System.Threading.CancellationToken, System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Lists.SoListItem>>
+  nameWithType.vb: Func(Of CancellationToken, IAsyncEnumerable(Of SoListItem))
+  fullName.vb: System.Func(Of System.Threading.CancellationToken, System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Lists.SoListItem))
+  name.vb: Func(Of CancellationToken, IAsyncEnumerable(Of SoListItem))
   spec.csharp:
-  - uid: System.Func`1
+  - uid: System.Func`2
     name: Func
     nameWithType: Func
     fullName: System.Func
@@ -483,10 +515,18 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -503,7 +543,7 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Func`1
+  - uid: System.Func`2
     name: Func
     nameWithType: Func
     fullName: System.Func
@@ -511,10 +551,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -530,16 +578,16 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Func`1
+- uid: System.Func`2
   isExternal: true
-  name: Func<>
-  nameWithType: Func<>
-  fullName: System.Func<>
-  nameWithType.vb: Func(Of )
-  fullName.vb: System.Func(Of )
-  name.vb: Func(Of )
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
   spec.csharp:
-  - uid: System.Func`1
+  - uid: System.Func`2
     name: Func
     nameWithType: Func
     fullName: System.Func
@@ -550,11 +598,17 @@ references:
   - name: ''
     nameWithType: ''
     fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Func`1
+  - uid: System.Func`2
     name: Func
     nameWithType: Func
     fullName: System.Func
@@ -565,30 +619,36 @@ references:
   - name: ''
     nameWithType: ''
     fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct*
-  commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.ConstructAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.ConstructAsync
   isExternal: true
-  name: Construct
-  nameWithType: ExternallyPopulatedList.Construct
-  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct
-- uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  name: ConstructAsync
+  nameWithType: ExternallyPopulatedList.ConstructAsync
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.ConstructAsync
+- uid: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ISoListProvider
   isExternal: true
-  name: Construct(String, String, Int32[], Boolean, String, Boolean)
-  nameWithType: ISoListProvider.Construct(String, String, Int32[], Boolean, String, Boolean)
-  fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
-  nameWithType.vb: ISoListProvider.Construct(String, String, Int32(), Boolean, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
-  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+  name: ConstructAsync(String, String, Int32[], Boolean, String, Boolean, CancellationToken)
+  nameWithType: ISoListProvider.ConstructAsync(String, String, Int32[], Boolean, String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType.vb: ISoListProvider.ConstructAsync(String, String, Int32(), Boolean, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean, System.Threading.CancellationToken)
+  name.vb: ConstructAsync(String, String, Int32(), Boolean, String, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-    name: Construct
-    nameWithType: ISoListProvider.Construct
-    fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct
+  - uid: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ConstructAsync
+    nameWithType: ISoListProvider.ConstructAsync
+    fullName: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -641,14 +701,22 @@ references:
     nameWithType: Boolean
     fullName: System.Boolean
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-    name: Construct
-    nameWithType: ISoListProvider.Construct
-    fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct
+  - uid: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ConstructAsync
+    nameWithType: ISoListProvider.ConstructAsync
+    fullName: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -700,6 +768,14 @@ references:
     name: Boolean
     nameWithType: Boolean
     fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -737,6 +813,362 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHistoryItemsAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHistoryItemsAsync
+  isExternal: true
+  name: GetHistoryItemsAsync
+  nameWithType: ExternallyPopulatedList.GetHistoryItemsAsync
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHistoryItemsAsync
+- uid: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: GetHistoryItemsAsync(CancellationToken)
+  nameWithType: ISoList.GetHistoryItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsAsync
+    nameWithType: ISoList.GetHistoryItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsAsync
+    nameWithType: ISoList.GetHistoryItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<ISoListItem>>
+  nameWithType: Task<List<ISoListItem>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>>
+  nameWithType.vb: Task(Of List(Of ISoListItem))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: Task(Of List(Of ISoListItem))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.ClearHistoryItems*
+  commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.ClearHistoryItems
+  isExternal: true
+  name: ClearHistoryItems
+  nameWithType: ExternallyPopulatedList.ClearHistoryItems
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.ClearHistoryItems
+- uid: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+  commentId: M:SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: ClearHistoryItems()
+  nameWithType: ISoList.ClearHistoryItems()
+  fullName: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+    name: ClearHistoryItems
+    nameWithType: ISoList.ClearHistoryItems
+    fullName: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+    name: ClearHistoryItems
+    nameWithType: ISoList.ClearHistoryItems
+    fullName: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetRootItemsAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.GetRootItemsAsync
+  isExternal: true
+  name: GetRootItemsAsync
+  nameWithType: ExternallyPopulatedList.GetRootItemsAsync
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetRootItemsAsync
+- uid: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: GetRootItemsAsync(CancellationToken)
+  nameWithType: ISoList.GetRootItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+    name: GetRootItemsAsync
+    nameWithType: ISoList.GetRootItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+    name: GetRootItemsAsync
+    nameWithType: ISoList.GetRootItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHeadingItemsAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHeadingItemsAsync
+  isExternal: true
+  name: GetHeadingItemsAsync
+  nameWithType: ExternallyPopulatedList.GetHeadingItemsAsync
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.GetHeadingItemsAsync
+- uid: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: GetHeadingItemsAsync(CancellationToken)
+  nameWithType: ISoList.GetHeadingItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+    name: GetHeadingItemsAsync
+    nameWithType: ISoList.GetHeadingItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+    name: GetHeadingItemsAsync
+    nameWithType: ISoList.GetHeadingItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<ISoListHeading>>
+  nameWithType: Task<List<ISoListHeading>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>>
+  nameWithType.vb: Task(Of List(Of ISoListHeading))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading))
+  name.vb: Task(Of List(Of ISoListHeading))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    nameWithType: ISoListHeading
+    fullName: SuperOffice.CRM.Lists.ISoListHeading
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    nameWithType: ISoListHeading
+    fullName: SuperOffice.CRM.Lists.ISoListHeading
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryInfo*
   commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryInfo
   isExternal: true
@@ -757,166 +1189,3 @@ references:
   name: HistoryInfo
   nameWithType: HistoryInfo
   fullName: SuperOffice.CRM.Lists.HistoryInfo
-- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryItems*
-  commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryItems
-  isExternal: true
-  name: HistoryItems
-  nameWithType: ExternallyPopulatedList.HistoryItems
-  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryItems
-- uid: SuperOffice.CRM.Lists.ISoList.HistoryItems
-  commentId: P:SuperOffice.CRM.Lists.ISoList.HistoryItems
-  parent: SuperOffice.CRM.Lists.ISoList
-  isExternal: true
-  name: HistoryItems
-  nameWithType: ISoList.HistoryItems
-  fullName: SuperOffice.CRM.Lists.ISoList.HistoryItems
-- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}'
-  definition: System.Collections.Generic.List`1
-  name: List<ISoListItem>
-  nameWithType: List<ISoListItem>
-  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>
-  nameWithType.vb: List(Of ISoListItem)
-  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem)
-  name.vb: List(Of ISoListItem)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Lists.ISoListItem
-    name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Lists.ISoListItem
-    name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.List`1
-  isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: System.Collections.Generic.List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: System.Collections.Generic.List(Of )
-  name.vb: List(Of )
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.RootItems*
-  commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.RootItems
-  isExternal: true
-  name: RootItems
-  nameWithType: ExternallyPopulatedList.RootItems
-  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.RootItems
-- uid: SuperOffice.CRM.Lists.ISoList.RootItems
-  commentId: P:SuperOffice.CRM.Lists.ISoList.RootItems
-  parent: SuperOffice.CRM.Lists.ISoList
-  isExternal: true
-  name: RootItems
-  nameWithType: ISoList.RootItems
-  fullName: SuperOffice.CRM.Lists.ISoList.RootItems
-- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.HeadingItems*
-  commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.HeadingItems
-  isExternal: true
-  name: HeadingItems
-  nameWithType: ExternallyPopulatedList.HeadingItems
-  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.HeadingItems
-- uid: SuperOffice.CRM.Lists.ISoList.HeadingItems
-  commentId: P:SuperOffice.CRM.Lists.ISoList.HeadingItems
-  parent: SuperOffice.CRM.Lists.ISoList
-  isExternal: true
-  name: HeadingItems
-  nameWithType: ISoList.HeadingItems
-  fullName: SuperOffice.CRM.Lists.ISoList.HeadingItems
-- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
-  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}'
-  definition: System.Collections.Generic.List`1
-  name: List<ISoListHeading>
-  nameWithType: List<ISoListHeading>
-  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>
-  nameWithType.vb: List(Of ISoListHeading)
-  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading)
-  name.vb: List(Of ISoListHeading)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Lists.ISoListHeading
-    name: ISoListHeading
-    nameWithType: ISoListHeading
-    fullName: SuperOffice.CRM.Lists.ISoListHeading
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Lists.ISoListHeading
-    name: ISoListHeading
-    nameWithType: ISoListHeading
-    fullName: SuperOffice.CRM.Lists.ISoListHeading
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )

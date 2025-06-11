@@ -6,8 +6,8 @@ items:
   parent: SuperOffice.CRM.Sale
   children:
   - SuperOffice.CRM.Sale.QuoteDocument.#ctor
-  - SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocument(System.Int32)
-  - SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocument(System.Int32)
+  - SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocumentAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocumentAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -39,16 +39,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocument(System.Int32)
-  commentId: M:SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocument(System.Int32)
-  id: LinkMainDocument(System.Int32)
+- uid: SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocumentAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocumentAsync(System.Int32,System.Threading.CancellationToken)
+  id: LinkMainDocumentAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Sale.QuoteDocument
   langs:
   - csharp
   - vb
-  name: LinkMainDocument(Int32)
-  nameWithType: QuoteDocument.LinkMainDocument(Int32)
-  fullName: SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocument(System.Int32)
+  name: LinkMainDocumentAsync(Int32, CancellationToken)
+  nameWithType: QuoteDocument.LinkMainDocumentAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocumentAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -58,31 +58,33 @@ items:
   namespace: SuperOffice.CRM.Sale
   summary: "\nUser story 12100: If a document is a quote doc (from the template) and related to a sale with a quote\nthat does not yet have a quote doc, then set the document as the QuoteMainDocument.\n"
   syntax:
-    content: public static int LinkMainDocument(int documentId)
+    content: public static Task<int> LinkMainDocumentAsync(int documentId, CancellationToken cancellationToken = null)
     parameters:
     - id: documentId
       type: System.Int32
       description: The id of the already-saved document we will consider for linking
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function LinkMainDocument(documentId As Integer) As Integer
-  overload: SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocument*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function LinkMainDocumentAsync(documentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocumentAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocument(System.Int32)
-  commentId: M:SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocument(System.Int32)
-  id: UnlinkMainDocument(System.Int32)
+- uid: SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocumentAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocumentAsync(System.Int32,System.Threading.CancellationToken)
+  id: UnlinkMainDocumentAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Sale.QuoteDocument
   langs:
   - csharp
   - vb
-  name: UnlinkMainDocument(Int32)
-  nameWithType: QuoteDocument.UnlinkMainDocument(Int32)
-  fullName: SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocument(System.Int32)
+  name: UnlinkMainDocumentAsync(Int32, CancellationToken)
+  nameWithType: QuoteDocument.UnlinkMainDocumentAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocumentAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -92,16 +94,18 @@ items:
   namespace: SuperOffice.CRM.Sale
   summary: "\nUser story 13470 If a document is a quote doc (from the template) and related to a sale as a quote main document,\nthen set the quote&apos;s QuoteMainDocument back to 0 when the document is deleted.\n"
   syntax:
-    content: public static int UnlinkMainDocument(int documentId)
+    content: public static Task<int> UnlinkMainDocumentAsync(int documentId, CancellationToken cancellationToken = null)
     parameters:
     - id: documentId
       type: System.Int32
       description: The id of the document we are about to delete
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Quote id of the quote that was reset
-    content.vb: Public Shared Function UnlinkMainDocument(documentId As Integer) As Integer
-  overload: SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocument*
+    content.vb: Public Shared Function UnlinkMainDocumentAsync(documentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocumentAsync*
   modifiers.csharp:
   - public
   - static
@@ -499,12 +503,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocument*
-  commentId: Overload:SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocument
+- uid: SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocumentAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocumentAsync
   isExternal: true
-  name: LinkMainDocument
-  nameWithType: QuoteDocument.LinkMainDocument
-  fullName: SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocument
+  name: LinkMainDocumentAsync
+  nameWithType: QuoteDocument.LinkMainDocumentAsync
+  fullName: SuperOffice.CRM.Sale.QuoteDocument.LinkMainDocumentAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -512,12 +516,98 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocument*
-  commentId: Overload:SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocument
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: UnlinkMainDocument
-  nameWithType: QuoteDocument.UnlinkMainDocument
-  fullName: SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocument
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocumentAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocumentAsync
+  isExternal: true
+  name: UnlinkMainDocumentAsync
+  nameWithType: QuoteDocument.UnlinkMainDocumentAsync
+  fullName: SuperOffice.CRM.Sale.QuoteDocument.UnlinkMainDocumentAsync
 - uid: SuperOffice.CRM.Sale.QuoteDocument.#ctor*
   commentId: Overload:SuperOffice.CRM.Sale.QuoteDocument.#ctor
   isExternal: true

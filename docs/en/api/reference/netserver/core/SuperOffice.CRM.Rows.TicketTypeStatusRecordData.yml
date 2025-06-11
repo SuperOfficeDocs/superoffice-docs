@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.TicketTypeStatusRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TicketTypeStatusRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
   - SuperOffice.CRM.Rows.TicketTypeStatusRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.TicketTypeStatusRecordData.SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TicketTypeStatusRecordData.SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TicketTypeStatusRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordData.SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
+- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordData.SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
-  name: ToInsert()
-  nameWithType: TicketTypeStatusRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: TicketTypeStatusRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TicketTypeStatusRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TicketTypeStatusRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TicketTypeStatusRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TicketTypeStatusRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
+- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(TicketTypeStatusRecordData)
-  nameWithType: TicketTypeStatusRecordDataExtensions.ToInsert(TicketTypeStatusRecordData)
-  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
+  name: ToInsertAsync(TicketTypeStatusRecordData, CancellationToken)
+  nameWithType: TicketTypeStatusRecordDataExtensions.ToInsertAsync(TicketTypeStatusRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
-    name: ToInsert
-    nameWithType: TicketTypeStatusRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TicketTypeStatusRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: TicketTypeStatusRecordData
     nameWithType: TicketTypeStatusRecordData
     fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
-    name: ToInsert
-    nameWithType: TicketTypeStatusRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TicketTypeStatusRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: TicketTypeStatusRecordData
     nameWithType: TicketTypeStatusRecordData
     fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

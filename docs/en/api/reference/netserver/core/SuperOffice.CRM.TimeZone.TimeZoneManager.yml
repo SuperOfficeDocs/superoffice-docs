@@ -5,17 +5,18 @@ items:
   id: TimeZoneManager
   parent: SuperOffice.CRM.TimeZone
   children:
-  - SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable
-  - SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.#ctor
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId
-  - SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData
-  - SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow(System.Int32,System.Boolean)
-  - SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-  - SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId(System.Int32)
-  - SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate
-  - SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow(System.Int32)
-  - SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -30,29 +31,33 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.TimeZone
   syntax:
-    content: 'public static class TimeZoneManager : Object'
+    content: 'public class TimeZoneManager : Object'
     content.vb: >-
-      Public Module TimeZoneManager
+      Public Class TimeZoneManager
           Inherits Object
   inheritance:
   - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.TimeZone.TimeZoneManager)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - static
   - class
   modifiers.vb:
   - Public
-  - Module
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable
-  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable
-  id: CheckNewTimeZoneDataAvailable
+  - Class
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+  id: CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TimeZone.TimeZoneManager
   langs:
   - csharp
   - vb
-  name: CheckNewTimeZoneDataAvailable()
-  nameWithType: TimeZoneManager.CheckNewTimeZoneDataAvailable()
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable()
+  name: CheckNewTimeZoneDataAvailableAsync(CancellationToken)
+  nameWithType: TimeZoneManager.CheckNewTimeZoneDataAvailableAsync(CancellationToken)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -61,27 +66,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.TimeZone
   syntax:
-    content: public static bool CheckNewTimeZoneDataAvailable()
+    content: public static Task<bool> CheckNewTimeZoneDataAvailableAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function CheckNewTimeZoneDataAvailable As Boolean
-  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Shared Function CheckNewTimeZoneDataAvailableAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailableAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData
-  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData
-  id: UpdateTimeZoneData
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
+  id: UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TimeZone.TimeZoneManager
   langs:
   - csharp
   - vb
-  name: UpdateTimeZoneData()
-  nameWithType: TimeZoneManager.UpdateTimeZoneData()
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData()
+  name: UpdateTimeZoneDataAsync(CancellationToken)
+  nameWithType: TimeZoneManager.UpdateTimeZoneDataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -90,27 +98,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.TimeZone
   syntax:
-    content: public static bool UpdateTimeZoneData()
+    content: public static Task<bool> UpdateTimeZoneDataAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function UpdateTimeZoneData As Boolean
-  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Shared Function UpdateTimeZoneDataAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneDataAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate
-  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate
-  id: TimeOfLastTimeZoneUpdate
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
+  id: TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TimeZone.TimeZoneManager
   langs:
   - csharp
   - vb
-  name: TimeOfLastTimeZoneUpdate()
-  nameWithType: TimeZoneManager.TimeOfLastTimeZoneUpdate()
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate()
+  name: TimeOfLastTimeZoneUpdateAsync(CancellationToken)
+  nameWithType: TimeZoneManager.TimeOfLastTimeZoneUpdateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -119,27 +130,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.TimeZone
   syntax:
-    content: public static DateTime TimeOfLastTimeZoneUpdate()
+    content: public static Task<DateTime> TimeOfLastTimeZoneUpdateAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.DateTime
-    content.vb: Public Shared Function TimeOfLastTimeZoneUpdate As DateTime
-  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate*
+      type: System.Threading.Tasks.Task{System.DateTime}
+    content.vb: Public Shared Function TimeOfLastTimeZoneUpdateAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DateTime)
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdateAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow(System.Int32)
-  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow(System.Int32)
-  id: ToggleActiveTimeZoneRow(System.Int32)
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+  id: ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TimeZone.TimeZoneManager
   langs:
   - csharp
   - vb
-  name: ToggleActiveTimeZoneRow(Int32)
-  nameWithType: TimeZoneManager.ToggleActiveTimeZoneRow(Int32)
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow(System.Int32)
+  name: ToggleActiveTimeZoneRowAsync(Int32, CancellationToken)
+  nameWithType: TimeZoneManager.ToggleActiveTimeZoneRowAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRowAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -148,28 +162,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.TimeZone
   syntax:
-    content: public static void ToggleActiveTimeZoneRow(int id)
+    content: public static Task ToggleActiveTimeZoneRowAsync(int id, CancellationToken cancellationToken)
     parameters:
     - id: id
       type: System.Int32
-    content.vb: Public Shared Sub ToggleActiveTimeZoneRow(id As Integer)
-  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function ToggleActiveTimeZoneRowAsync(id As Integer, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRowAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow(System.Int32,System.Boolean)
-  id: SetActiveTimeZoneRow(System.Int32,System.Boolean)
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TimeZone.TimeZoneManager
   langs:
   - csharp
   - vb
-  name: SetActiveTimeZoneRow(Int32, Boolean)
-  nameWithType: TimeZoneManager.SetActiveTimeZoneRow(Int32, Boolean)
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow(System.Int32, System.Boolean)
+  name: SetActiveTimeZoneRowAsync(Int32, Boolean, CancellationToken)
+  nameWithType: TimeZoneManager.SetActiveTimeZoneRowAsync(Int32, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRowAsync(System.Int32, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -178,30 +196,34 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.TimeZone
   syntax:
-    content: public static void SetActiveTimeZoneRow(int id, bool active)
+    content: public static Task SetActiveTimeZoneRowAsync(int id, bool active, CancellationToken cancellationToken)
     parameters:
     - id: id
       type: System.Int32
     - id: active
       type: System.Boolean
-    content.vb: Public Shared Sub SetActiveTimeZoneRow(id As Integer, active As Boolean)
-  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetActiveTimeZoneRowAsync(id As Integer, active As Boolean, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRowAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-  id: SetActiveTimeZonesByFilter(System.String,System.Boolean)
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TimeZone.TimeZoneManager
   langs:
   - csharp
   - vb
-  name: SetActiveTimeZonesByFilter(String, Boolean)
-  nameWithType: TimeZoneManager.SetActiveTimeZonesByFilter(String, Boolean)
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter(System.String, System.Boolean)
+  name: SetActiveTimeZonesByFilterAsync(String, Boolean, CancellationToken)
+  nameWithType: TimeZoneManager.SetActiveTimeZonesByFilterAsync(String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilterAsync(System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -210,59 +232,34 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.TimeZone
   syntax:
-    content: public static void SetActiveTimeZonesByFilter(string filter, bool active)
+    content: public static Task SetActiveTimeZonesByFilterAsync(string filter, bool active, CancellationToken cancellationToken)
     parameters:
     - id: filter
       type: System.String
     - id: active
       type: System.Boolean
-    content.vb: Public Shared Sub SetActiveTimeZonesByFilter(filter As String, active As Boolean)
-  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference
-  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference
-  id: GetDefaultTimeZonePreference
-  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
-  langs:
-  - csharp
-  - vb
-  name: GetDefaultTimeZonePreference()
-  nameWithType: TimeZoneManager.GetDefaultTimeZonePreference()
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.TimeZone
-  syntax:
-    content: public static int GetDefaultTimeZonePreference()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function GetDefaultTimeZonePreference As Integer
-  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference*
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetActiveTimeZonesByFilterAsync(filter As String, active As Boolean, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilterAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones
-  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones
-  id: DeleteTimeZones
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
+  id: GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TimeZone.TimeZoneManager
   langs:
   - csharp
   - vb
-  name: DeleteTimeZones()
-  nameWithType: TimeZoneManager.DeleteTimeZones()
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones()
+  name: GetDefaultTimeZonePreferenceAsync(CancellationToken)
+  nameWithType: TimeZoneManager.GetDefaultTimeZonePreferenceAsync(CancellationToken)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -271,9 +268,46 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.TimeZone
   syntax:
-    content: public static void DeleteTimeZones()
-    content.vb: Public Shared Sub DeleteTimeZones
-  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones*
+    content: public static Task<int> GetDefaultTimeZonePreferenceAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function GetDefaultTimeZonePreferenceAsync(cancellationToken As CancellationToken) As Task(Of Integer)
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreferenceAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync(System.Threading.CancellationToken)
+  id: DeleteTimeZonesAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: DeleteTimeZonesAsync(CancellationToken)
+  nameWithType: TimeZoneManager.DeleteTimeZonesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static Task DeleteTimeZonesAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function DeleteTimeZonesAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync*
   modifiers.csharp:
   - public
   - static
@@ -341,16 +375,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId(System.Int32)
-  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId(System.Int32)
-  id: SetBaseTimeZoneId(System.Int32)
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TimeZone.TimeZoneManager
   langs:
   - csharp
   - vb
-  name: SetBaseTimeZoneId(Int32)
-  nameWithType: TimeZoneManager.SetBaseTimeZoneId(Int32)
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId(System.Int32)
+  name: SetBaseTimeZoneIdAsync(Int32, CancellationToken)
+  nameWithType: TimeZoneManager.SetBaseTimeZoneIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -359,20 +393,47 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.TimeZone
   syntax:
-    content: public static bool SetBaseTimeZoneId(int timeZoneId)
+    content: public static Task<bool> SetBaseTimeZoneIdAsync(int timeZoneId, CancellationToken cancellationToken)
     parameters:
     - id: timeZoneId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function SetBaseTimeZoneId(timeZoneId As Integer) As Boolean
-  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Shared Function SetBaseTimeZoneIdAsync(timeZoneId As Integer, cancellationToken As CancellationToken) As Task(Of Boolean)
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.#ctor
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneManager()
+  nameWithType: TimeZoneManager.TimeZoneManager()
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeZoneManager()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public TimeZoneManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.TimeZone
   commentId: N:SuperOffice.CRM.TimeZone
@@ -387,48 +448,511 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TimeZoneManager, To>()
+  nameWithType: EnumUtil.MapEnums<TimeZoneManager, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.TimeZone.TimeZoneManager, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TimeZoneManager, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.TimeZone.TimeZoneManager, To)()
+  name.vb: MapEnums(Of TimeZoneManager, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TimeZoneManager, To>
+    nameWithType: EnumUtil.MapEnums<TimeZoneManager, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.TimeZone.TimeZoneManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TimeZoneManager, To)
+    nameWithType: EnumUtil.MapEnums(Of TimeZoneManager, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.TimeZone.TimeZoneManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.TimeZone.TimeZoneManager)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TimeZoneManager>(TimeZoneManager)
+  nameWithType: ObjectExtensions.AssignByReflection<TimeZoneManager>(TimeZoneManager)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.TimeZone.TimeZoneManager>(SuperOffice.CRM.TimeZone.TimeZoneManager)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TimeZoneManager)(TimeZoneManager)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.TimeZone.TimeZoneManager)(SuperOffice.CRM.TimeZone.TimeZoneManager)
+  name.vb: AssignByReflection(Of TimeZoneManager)(TimeZoneManager)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TimeZoneManager>
+    nameWithType: ObjectExtensions.AssignByReflection<TimeZoneManager>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.TimeZone.TimeZoneManager>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.TimeZone.TimeZoneManager
+    name: TimeZoneManager
+    nameWithType: TimeZoneManager
+    fullName: SuperOffice.CRM.TimeZone.TimeZoneManager
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TimeZoneManager)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TimeZoneManager)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.TimeZone.TimeZoneManager)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.TimeZone.TimeZoneManager
+    name: TimeZoneManager
+    nameWithType: TimeZoneManager
+    fullName: SuperOffice.CRM.TimeZone.TimeZoneManager
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TimeZoneManager>()
+  nameWithType: ObjectExtensions.GraphCopy<TimeZoneManager>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.TimeZone.TimeZoneManager>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TimeZoneManager)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.TimeZone.TimeZoneManager)()
+  name.vb: GraphCopy(Of TimeZoneManager)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TimeZoneManager>
+    nameWithType: ObjectExtensions.GraphCopy<TimeZoneManager>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.TimeZone.TimeZoneManager>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TimeZoneManager)
+    nameWithType: ObjectExtensions.GraphCopy(Of TimeZoneManager)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.TimeZone.TimeZoneManager)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TimeZoneManager, To>()
+  nameWithType: Converters.MapEnums<TimeZoneManager, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.TimeZone.TimeZoneManager, To>()
+  nameWithType.vb: Converters.MapEnums(Of TimeZoneManager, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.TimeZone.TimeZoneManager, To)()
+  name.vb: MapEnums(Of TimeZoneManager, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TimeZoneManager, To>
+    nameWithType: Converters.MapEnums<TimeZoneManager, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.TimeZone.TimeZoneManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TimeZoneManager, To)
+    nameWithType: Converters.MapEnums(Of TimeZoneManager, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.TimeZone.TimeZoneManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable*
-  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  name: CheckNewTimeZoneDataAvailable
-  nameWithType: TimeZoneManager.CheckNewTimeZoneDataAvailable
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData*
-  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: UpdateTimeZoneData
-  nameWithType: TimeZoneManager.UpdateTimeZoneData
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate*
-  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
   isExternal: true
-  name: TimeOfLastTimeZoneUpdate
-  nameWithType: TimeZoneManager.TimeOfLastTimeZoneUpdate
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate
-- uid: System.DateTime
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow*
-  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  name: ToggleActiveTimeZoneRow
-  nameWithType: TimeZoneManager.ToggleActiveTimeZoneRow
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailableAsync*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailableAsync
+  isExternal: true
+  name: CheckNewTimeZoneDataAvailableAsync
+  nameWithType: TimeZoneManager.CheckNewTimeZoneDataAvailableAsync
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailableAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneDataAsync*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneDataAsync
+  isExternal: true
+  name: UpdateTimeZoneDataAsync
+  nameWithType: TimeZoneManager.UpdateTimeZoneDataAsync
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneDataAsync
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdateAsync
+  isExternal: true
+  name: TimeOfLastTimeZoneUpdateAsync
+  nameWithType: TimeZoneManager.TimeOfLastTimeZoneUpdateAsync
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdateAsync
+- uid: System.Threading.Tasks.Task{System.DateTime}
+  commentId: '!:System.Threading.Tasks.Task{System.DateTime}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DateTime>
+  nameWithType: Task<DateTime>
+  fullName: System.Threading.Tasks.Task<System.DateTime>
+  nameWithType.vb: Task(Of DateTime)
+  fullName.vb: System.Threading.Tasks.Task(Of System.DateTime)
+  name.vb: Task(Of DateTime)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRowAsync*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRowAsync
+  isExternal: true
+  name: ToggleActiveTimeZoneRowAsync
+  nameWithType: TimeZoneManager.ToggleActiveTimeZoneRowAsync
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRowAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -436,18 +960,30 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow*
-  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: SetActiveTimeZoneRow
-  nameWithType: TimeZoneManager.SetActiveTimeZoneRow
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter*
-  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRowAsync*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRowAsync
   isExternal: true
-  name: SetActiveTimeZonesByFilter
-  nameWithType: TimeZoneManager.SetActiveTimeZonesByFilter
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter
+  name: SetActiveTimeZoneRowAsync
+  nameWithType: TimeZoneManager.SetActiveTimeZoneRowAsync
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRowAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilterAsync*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilterAsync
+  isExternal: true
+  name: SetActiveTimeZonesByFilterAsync
+  nameWithType: TimeZoneManager.SetActiveTimeZonesByFilterAsync
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilterAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -455,18 +991,61 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference*
-  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreferenceAsync*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreferenceAsync
   isExternal: true
-  name: GetDefaultTimeZonePreference
-  nameWithType: TimeZoneManager.GetDefaultTimeZonePreference
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones*
-  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones
+  name: GetDefaultTimeZonePreferenceAsync
+  nameWithType: TimeZoneManager.GetDefaultTimeZonePreferenceAsync
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreferenceAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync
   isExternal: true
-  name: DeleteTimeZones
-  nameWithType: TimeZoneManager.DeleteTimeZones
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones
+  name: DeleteTimeZonesAsync
+  nameWithType: TimeZoneManager.DeleteTimeZonesAsync
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync
 - uid: SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData*
   commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData
   isExternal: true
@@ -505,9 +1084,15 @@ references:
   name: GetBaseTimeZoneId
   nameWithType: TimeZoneManager.GetBaseTimeZoneId
   fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId*
-  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneIdAsync*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneIdAsync
   isExternal: true
-  name: SetBaseTimeZoneId
-  nameWithType: TimeZoneManager.SetBaseTimeZoneId
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId
+  name: SetBaseTimeZoneIdAsync
+  nameWithType: TimeZoneManager.SetBaseTimeZoneIdAsync
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneIdAsync
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.#ctor*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.#ctor
+  isExternal: true
+  name: TimeZoneManager
+  nameWithType: TimeZoneManager.TimeZoneManager
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeZoneManager

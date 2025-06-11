@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
   - SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
-  - SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
-  - SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData})
+  - SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TravelIDMappingRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
+- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<TravelIDMappingTableInfo>)
-  nameWithType: TravelIDMappingRecordDataExtensions.FromSelect(TargetedSelect<TravelIDMappingTableInfo>)
-  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TravelIDMappingTableInfo>)
+  name: FromSelectAsync(TargetedSelect<TravelIDMappingTableInfo>, CancellationToken)
+  nameWithType: TravelIDMappingRecordDataExtensions.FromSelectAsync(TargetedSelect<TravelIDMappingTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TravelIDMappingTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<TravelIDMappingRecordData> FromSelect(this TargetedSelect<TravelIDMappingTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<TravelIDMappingRecordData> FromSelectAsync(this TargetedSelect<TravelIDMappingTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of TravelIDMappingTableInfo)) As IEnumerable(Of TravelIDMappingRecordData)
-  overload: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect*
-  nameWithType.vb: TravelIDMappingRecordDataExtensions.FromSelect(TargetedSelect(Of TravelIDMappingTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of TravelIDMappingTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of TravelIDMappingRecordData)
+  overload: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: TravelIDMappingRecordDataExtensions.FromSelectAsync(TargetedSelect(Of TravelIDMappingTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TravelIDMappingTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of TravelIDMappingTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TravelIDMappingTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of TravelIDMappingTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
   commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TravelIDMappingTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of TravelIDMappingTableInfo))
-- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
+- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(TravelIDMappingRecordData)
-  nameWithType: TravelIDMappingRecordDataExtensions.ToInsert(TravelIDMappingRecordData)
-  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
+  name: ToInsertAsync(TravelIDMappingRecordData, CancellationToken)
+  nameWithType: TravelIDMappingRecordDataExtensions.ToInsertAsync(TravelIDMappingRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this TravelIDMappingRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this TravelIDMappingRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.TravelIDMappingRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As TravelIDMappingRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As TravelIDMappingRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData})
-  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData})
+- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<TravelIDMappingRecordData>)
-  nameWithType: TravelIDMappingRecordDataExtensions.ToInserts(IEnumerable<TravelIDMappingRecordData>)
-  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TravelIDMappingRecordData>)
+  name: ToInsertsAsync(IEnumerable<TravelIDMappingRecordData>, CancellationToken)
+  nameWithType: TravelIDMappingRecordDataExtensions.ToInsertsAsync(IEnumerable<TravelIDMappingRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TravelIDMappingRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<TravelIDMappingRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<TravelIDMappingRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of TravelIDMappingRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInserts*
-  nameWithType.vb: TravelIDMappingRecordDataExtensions.ToInserts(IEnumerable(Of TravelIDMappingRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of TravelIDMappingRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: TravelIDMappingRecordDataExtensions.ToInsertsAsync(IEnumerable(Of TravelIDMappingRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TravelIDMappingRecordData))
-  name.vb: ToInserts(IEnumerable(Of TravelIDMappingRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TravelIDMappingRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of TravelIDMappingRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TravelIDMappingRow)
   commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TravelIDMappingRow)
   id: ToRecordData(SuperOffice.CRM.Rows.TravelIDMappingRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<TravelIDMappingTableInfo>)
+  nameWithType: TravelIDMappingRecordDataExtensions.FromSelect(TargetedSelect<TravelIDMappingTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TravelIDMappingTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;TravelIDMappingTableInfo>, execute it and return an IEnumerable&lt;TravelIDMappingRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<TravelIDMappingRecordData> FromSelect(this TargetedSelect<TravelIDMappingTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of TravelIDMappingTableInfo)) As IEnumerable(Of TravelIDMappingRecordData)
+  overload: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect*
+  nameWithType.vb: TravelIDMappingRecordDataExtensions.FromSelect(TargetedSelect(Of TravelIDMappingTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TravelIDMappingTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of TravelIDMappingTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: TravelIDMappingRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: TravelIDMappingRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TravelIDMappingTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<TravelIDMappingRecordData>
-  nameWithType: IEnumerable<TravelIDMappingRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TravelIDMappingRecordData>
-  nameWithType.vb: IEnumerable(Of TravelIDMappingRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TravelIDMappingRecordData)
-  name.vb: IEnumerable(Of TravelIDMappingRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<TravelIDMappingRecordData>
+  nameWithType: IAsyncEnumerable<TravelIDMappingRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.TravelIDMappingRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of TravelIDMappingRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.TravelIDMappingRecordData)
+  name.vb: IAsyncEnumerable(Of TravelIDMappingRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: TravelIDMappingRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: TravelIDMappingRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: TravelIDMappingRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: TravelIDMappingRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TravelIDMappingRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TravelIDMappingRecordData>
+  nameWithType: IEnumerable<TravelIDMappingRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TravelIDMappingRecordData>
+  nameWithType.vb: IEnumerable(Of TravelIDMappingRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TravelIDMappingRecordData)
+  name.vb: IEnumerable(Of TravelIDMappingRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordData
+    name: TravelIDMappingRecordData
+    nameWithType: TravelIDMappingRecordData
+    fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordData
+    name: TravelIDMappingRecordData
+    nameWithType: TravelIDMappingRecordData
+    fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: TravelIDMappingRow
   nameWithType: TravelIDMappingRow
   fullName: SuperOffice.CRM.Rows.TravelIDMappingRow
+- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: TravelIDMappingRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.FromSelect

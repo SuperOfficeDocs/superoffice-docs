@@ -59,8 +59,6 @@ items:
   - SuperOffice.Data.DashTileType
   - SuperOffice.Data.DashTileUsage
   - SuperOffice.Data.DatabaseStepAttribute
-  - SuperOffice.Data.DbConvert
-  - SuperOffice.Data.DbConvertType
   - SuperOffice.Data.DeltaState
   - SuperOffice.Data.DeltaType
   - SuperOffice.Data.DesignType
@@ -128,10 +126,12 @@ items:
   - SuperOffice.Data.INestedPersist
   - SuperOffice.Data.InterRestrictionOperator
   - SuperOffice.Data.InvitationStatus
-  - SuperOffice.Data.ISoCollection
+  - SuperOffice.Data.IProgressHandler
   - SuperOffice.Data.ISoDataRecord
   - SuperOffice.Data.ISoftTriggerPlugin
-  - SuperOffice.Data.ISoItem
+  - SuperOffice.Data.ISystemEventHelper
+  - SuperOffice.Data.IUdefHelper
+  - SuperOffice.Data.IUdefPublishHelper
   - SuperOffice.Data.LayoutUnits
   - SuperOffice.Data.LicenceType
   - SuperOffice.Data.LocalizedTextType
@@ -146,10 +146,8 @@ items:
   - SuperOffice.Data.MessagingStatus
   - SuperOffice.Data.ModifiedAppointmentFields
   - SuperOffice.Data.MoveMergeOperation
-  - SuperOffice.Data.MultiSave
   - SuperOffice.Data.Navigation
   - SuperOffice.Data.NestedCollectionPersist
-  - SuperOffice.Data.NestedCollectionPersist`1
   - SuperOffice.Data.NestedPersist
   - SuperOffice.Data.NestedPersistFacade
   - SuperOffice.Data.NetServerBuildType
@@ -161,6 +159,7 @@ items:
   - SuperOffice.Data.OnIdUpdate
   - SuperOffice.Data.OnSaved
   - SuperOffice.Data.OrderBySortType
+  - SuperOffice.Data.PageOneFieldInfo
   - SuperOffice.Data.ParticipantType
   - SuperOffice.Data.PhoneType
   - SuperOffice.Data.PKContainer
@@ -245,9 +244,7 @@ items:
   - SuperOffice.Data.SoConnection
   - SuperOffice.Data.SoDatabase
   - SuperOffice.Data.SoDatabase.Version
-  - SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
   - SuperOffice.Data.SoDataReader
-  - SuperOffice.Data.SoDuplicateChecker
   - SuperOffice.Data.SoftTrigger
   - SuperOffice.Data.SoftTrigger.OnChange
   - SuperOffice.Data.SoftTriggerPluginAttribute
@@ -298,14 +295,10 @@ items:
   - SuperOffice.Data.TravelEncryptionOwn
   - SuperOffice.Data.TrlogTransType
   - SuperOffice.Data.TtlFlags
-  - SuperOffice.Data.UdefConvertHelper
+  - SuperOffice.Data.UDefFieldDatabaseType
   - SuperOffice.Data.UDefFieldType
-  - SuperOffice.Data.UdefHelper
-  - SuperOffice.Data.UdefHelper.UDefFieldDatabaseType
   - SuperOffice.Data.UdefJustification
   - SuperOffice.Data.UdefParser
-  - SuperOffice.Data.UdefPublishHelper
-  - SuperOffice.Data.UdefPublishHelper.IProgressHandler
   - SuperOffice.Data.UDefType
   - SuperOffice.Data.UpsertNomatchAction
   - SuperOffice.Data.UpsertRowActionStatus
@@ -2222,25 +2215,53 @@ references:
   name: CachedSequence
   nameWithType: CachedSequence
   fullName: SuperOffice.Data.CachedSequence
-- uid: SuperOffice.Data.DbConvertType
-  commentId: T:SuperOffice.Data.DbConvertType
-  parent: SuperOffice.Data
-  isExternal: true
-  name: DbConvertType
-  nameWithType: DbConvertType
-  fullName: SuperOffice.Data.DbConvertType
-- uid: SuperOffice.Data.DbConvert
-  commentId: T:SuperOffice.Data.DbConvert
-  isExternal: true
-  name: DbConvert
-  nameWithType: DbConvert
-  fullName: SuperOffice.Data.DbConvert
 - uid: SuperOffice.Data.IDebugUser
   commentId: T:SuperOffice.Data.IDebugUser
   isExternal: true
   name: IDebugUser
   nameWithType: IDebugUser
   fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Data.ISystemEventHelper
+  commentId: T:SuperOffice.Data.ISystemEventHelper
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ISystemEventHelper
+  nameWithType: ISystemEventHelper
+  fullName: SuperOffice.Data.ISystemEventHelper
+- uid: SuperOffice.Data.IUdefHelper
+  commentId: T:SuperOffice.Data.IUdefHelper
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IUdefHelper
+  nameWithType: IUdefHelper
+  fullName: SuperOffice.Data.IUdefHelper
+- uid: SuperOffice.Data.UDefFieldDatabaseType
+  commentId: T:SuperOffice.Data.UDefFieldDatabaseType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UDefFieldDatabaseType
+  nameWithType: UDefFieldDatabaseType
+  fullName: SuperOffice.Data.UDefFieldDatabaseType
+- uid: SuperOffice.Data.IUdefPublishHelper
+  commentId: T:SuperOffice.Data.IUdefPublishHelper
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IUdefPublishHelper
+  nameWithType: IUdefPublishHelper
+  fullName: SuperOffice.Data.IUdefPublishHelper
+- uid: SuperOffice.Data.IProgressHandler
+  commentId: T:SuperOffice.Data.IProgressHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IProgressHandler
+  nameWithType: IProgressHandler
+  fullName: SuperOffice.Data.IProgressHandler
+- uid: SuperOffice.Data.PageOneFieldInfo
+  commentId: T:SuperOffice.Data.PageOneFieldInfo
+  isExternal: true
+  name: PageOneFieldInfo
+  nameWithType: PageOneFieldInfo
+  fullName: SuperOffice.Data.PageOneFieldInfo
 - uid: SuperOffice.Data.OnSaved
   commentId: T:SuperOffice.Data.OnSaved
   parent: SuperOffice.Data
@@ -2276,45 +2297,6 @@ references:
   name: NestedCollectionPersist
   nameWithType: NestedCollectionPersist
   fullName: SuperOffice.Data.NestedCollectionPersist
-- uid: SuperOffice.Data.NestedCollectionPersist`1
-  commentId: T:SuperOffice.Data.NestedCollectionPersist`1
-  isExternal: true
-  name: NestedCollectionPersist<TNestedPersist>
-  nameWithType: NestedCollectionPersist<TNestedPersist>
-  fullName: SuperOffice.Data.NestedCollectionPersist<TNestedPersist>
-  nameWithType.vb: NestedCollectionPersist(Of TNestedPersist)
-  fullName.vb: SuperOffice.Data.NestedCollectionPersist(Of TNestedPersist)
-  name.vb: NestedCollectionPersist(Of TNestedPersist)
-  spec.csharp:
-  - uid: SuperOffice.Data.NestedCollectionPersist`1
-    name: NestedCollectionPersist
-    nameWithType: NestedCollectionPersist
-    fullName: SuperOffice.Data.NestedCollectionPersist
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TNestedPersist
-    nameWithType: TNestedPersist
-    fullName: TNestedPersist
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.NestedCollectionPersist`1
-    name: NestedCollectionPersist
-    nameWithType: NestedCollectionPersist
-    fullName: SuperOffice.Data.NestedCollectionPersist
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TNestedPersist
-    nameWithType: TNestedPersist
-    fullName: TNestedPersist
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade
   commentId: T:SuperOffice.Data.NestedPersistFacade
   parent: SuperOffice.Data
@@ -2322,12 +2304,6 @@ references:
   name: NestedPersistFacade
   nameWithType: NestedPersistFacade
   fullName: SuperOffice.Data.NestedPersistFacade
-- uid: SuperOffice.Data.MultiSave
-  commentId: T:SuperOffice.Data.MultiSave
-  isExternal: true
-  name: MultiSave
-  nameWithType: MultiSave
-  fullName: SuperOffice.Data.MultiSave
 - uid: SuperOffice.Data.PKContainer
   commentId: T:SuperOffice.Data.PKContainer
   parent: SuperOffice.Data
@@ -2484,12 +2460,6 @@ references:
   name: SoDatabase.Version
   nameWithType: SoDatabase.Version
   fullName: SuperOffice.Data.SoDatabase.Version
-- uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
-  commentId: T:SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
-  isExternal: true
-  name: SoDatabaseEnvironmentInfoPlugin
-  nameWithType: SoDatabaseEnvironmentInfoPlugin
-  fullName: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
 - uid: SuperOffice.Data.ISoDataRecord
   commentId: T:SuperOffice.Data.ISoDataRecord
   parent: SuperOffice.Data
@@ -2504,13 +2474,6 @@ references:
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
-- uid: SuperOffice.Data.SoDuplicateChecker
-  commentId: T:SuperOffice.Data.SoDuplicateChecker
-  parent: SuperOffice.Data
-  isExternal: true
-  name: SoDuplicateChecker
-  nameWithType: SoDuplicateChecker
-  fullName: SuperOffice.Data.SoDuplicateChecker
 - uid: SuperOffice.Data.SoftTrigger
   commentId: T:SuperOffice.Data.SoftTrigger
   parent: SuperOffice.Data
@@ -2539,20 +2502,6 @@ references:
   name: SoftTriggerPluginAttribute
   nameWithType: SoftTriggerPluginAttribute
   fullName: SuperOffice.Data.SoftTriggerPluginAttribute
-- uid: SuperOffice.Data.ISoItem
-  commentId: T:SuperOffice.Data.ISoItem
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ISoItem
-  nameWithType: ISoItem
-  fullName: SuperOffice.Data.ISoItem
-- uid: SuperOffice.Data.ISoCollection
-  commentId: T:SuperOffice.Data.ISoCollection
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ISoCollection
-  nameWithType: ISoCollection
-  fullName: SuperOffice.Data.ISoCollection
 - uid: SuperOffice.Data.SoParameter
   commentId: T:SuperOffice.Data.SoParameter
   parent: SuperOffice.Data
@@ -2595,7 +2544,6 @@ references:
   fullName: SuperOffice.Data.SoTransaction
 - uid: SuperOffice.Data.ScopedSystemEvent
   commentId: T:SuperOffice.Data.ScopedSystemEvent
-  parent: SuperOffice.Data
   isExternal: true
   name: ScopedSystemEvent
   nameWithType: ScopedSystemEvent
@@ -2613,38 +2561,6 @@ references:
   name: SystemEventHelper.Scope
   nameWithType: SystemEventHelper.Scope
   fullName: SuperOffice.Data.SystemEventHelper.Scope
-- uid: SuperOffice.Data.UdefConvertHelper
-  commentId: T:SuperOffice.Data.UdefConvertHelper
-  isExternal: true
-  name: UdefConvertHelper
-  nameWithType: UdefConvertHelper
-  fullName: SuperOffice.Data.UdefConvertHelper
-- uid: SuperOffice.Data.UdefHelper
-  commentId: T:SuperOffice.Data.UdefHelper
-  isExternal: true
-  name: UdefHelper
-  nameWithType: UdefHelper
-  fullName: SuperOffice.Data.UdefHelper
-- uid: SuperOffice.Data.UdefHelper.UDefFieldDatabaseType
-  commentId: T:SuperOffice.Data.UdefHelper.UDefFieldDatabaseType
-  parent: SuperOffice.Data
-  isExternal: true
-  name: UdefHelper.UDefFieldDatabaseType
-  nameWithType: UdefHelper.UDefFieldDatabaseType
-  fullName: SuperOffice.Data.UdefHelper.UDefFieldDatabaseType
-- uid: SuperOffice.Data.UdefPublishHelper
-  commentId: T:SuperOffice.Data.UdefPublishHelper
-  isExternal: true
-  name: UdefPublishHelper
-  nameWithType: UdefPublishHelper
-  fullName: SuperOffice.Data.UdefPublishHelper
-- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-  commentId: T:SuperOffice.Data.UdefPublishHelper.IProgressHandler
-  parent: SuperOffice.Data
-  isExternal: true
-  name: UdefPublishHelper.IProgressHandler
-  nameWithType: UdefPublishHelper.IProgressHandler
-  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true

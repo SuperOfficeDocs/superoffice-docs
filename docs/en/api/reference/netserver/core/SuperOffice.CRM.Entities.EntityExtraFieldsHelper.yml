@@ -9,8 +9,8 @@ items:
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper._row
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(System.String)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
-  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
-  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync(System.String,SuperOffice.Data.SQL.TableInfo,System.Object,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(System.String)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(System.String)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item(System.String)
@@ -230,16 +230,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
-  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
-  id: GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync(System.String,SuperOffice.Data.SQL.TableInfo,System.Object,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync(System.String,SuperOffice.Data.SQL.TableInfo,System.Object,System.Threading.CancellationToken)
+  id: GetExtraInfoAsync(System.String,SuperOffice.Data.SQL.TableInfo,System.Object,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
   langs:
   - csharp
   - vb
-  name: GetExtraInfo(String, TableInfo, Object)
-  nameWithType: EntityExtraFieldsHelper.GetExtraInfo(String, TableInfo, Object)
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String, SuperOffice.Data.SQL.TableInfo, System.Object)
+  name: GetExtraInfoAsync(String, TableInfo, Object, CancellationToken)
+  nameWithType: EntityExtraFieldsHelper.GetExtraInfoAsync(String, TableInfo, Object, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync(System.String, SuperOffice.Data.SQL.TableInfo, System.Object, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -248,7 +248,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static ValueTuple<string, string, bool> GetExtraInfo(string fieldname, TableInfo table, object value)
+    content: public static Task<ValueTuple<string, string, bool>> GetExtraInfoAsync(string fieldname, TableInfo table, object value, CancellationToken cancellationToken = null)
     parameters:
     - id: fieldname
       type: System.String
@@ -256,26 +256,28 @@ items:
       type: SuperOffice.Data.SQL.TableInfo
     - id: value
       type: System.Object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.ValueTuple{System.String,System.String,System.Boolean}
-    content.vb: Public Shared Function GetExtraInfo(fieldname As String, table As TableInfo, value As Object) As ValueTuple(Of String, String, Boolean)
-  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String,System.Boolean}}
+    content.vb: Public Shared Function GetExtraInfoAsync(fieldname As String, table As TableInfo, value As Object, cancellationToken As CancellationToken = Nothing) As Task(Of ValueTuple(Of String, String, Boolean))
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
-  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
-  id: GetExtraInfo(System.String)
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync(System.String,System.Threading.CancellationToken)
+  id: GetExtraInfoAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
   langs:
   - csharp
   - vb
-  name: GetExtraInfo(String)
-  nameWithType: EntityExtraFieldsHelper.GetExtraInfo(String)
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
+  name: GetExtraInfoAsync(String, CancellationToken)
+  nameWithType: EntityExtraFieldsHelper.GetExtraInfoAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -284,14 +286,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public ValueTuple<string, string, bool> GetExtraInfo(string fieldname)
+    content: public Task<ValueTuple<string, string, bool>> GetExtraInfoAsync(string fieldname, CancellationToken cancellationToken = null)
     parameters:
     - id: fieldname
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.ValueTuple{System.String,System.String,System.Boolean}
-    content.vb: Public Function GetExtraInfo(fieldname As String) As ValueTuple(Of String, String, Boolean)
-  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String,System.Boolean}}
+    content.vb: Public Function GetExtraInfoAsync(fieldname As String, cancellationToken As CancellationToken = Nothing) As Task(Of ValueTuple(Of String, String, Boolean))
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -711,12 +715,12 @@ references:
   name: Parse
   nameWithType: EntityExtraFieldsHelper.Parse
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse
-- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync
   isExternal: true
-  name: GetExtraInfo
-  nameWithType: EntityExtraFieldsHelper.GetExtraInfo
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo
+  name: GetExtraInfoAsync
+  nameWithType: EntityExtraFieldsHelper.GetExtraInfoAsync
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfoAsync
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
@@ -724,16 +728,29 @@ references:
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
-- uid: System.ValueTuple{System.String,System.String,System.Boolean}
-  commentId: '!:System.ValueTuple{System.String,System.String,System.Boolean}'
-  definition: System.ValueTuple`3
-  name: ValueTuple<String, String, Boolean>
-  nameWithType: ValueTuple<String, String, Boolean>
-  fullName: System.ValueTuple<System.String, System.String, System.Boolean>
-  nameWithType.vb: ValueTuple(Of String, String, Boolean)
-  fullName.vb: System.ValueTuple(Of System.String, System.String, System.Boolean)
-  name.vb: ValueTuple(Of String, String, Boolean)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String,System.Boolean}}
+  commentId: '!:System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String,System.Boolean}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ValueTuple<String, String, Boolean>>
+  nameWithType: Task<ValueTuple<String, String, Boolean>>
+  fullName: System.Threading.Tasks.Task<System.ValueTuple<System.String, System.String, System.Boolean>>
+  nameWithType.vb: Task(Of ValueTuple(Of String, String, Boolean))
+  fullName.vb: System.Threading.Tasks.Task(Of System.ValueTuple(Of System.String, System.String, System.Boolean))
+  name.vb: Task(Of ValueTuple(Of String, String, Boolean))
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.ValueTuple`3
     name: ValueTuple
     nameWithType: ValueTuple
@@ -766,7 +783,18 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.ValueTuple`3
     name: ValueTuple
     nameWithType: ValueTuple
@@ -799,25 +827,28 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.ValueTuple`3
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: ValueTuple<, , >
-  nameWithType: ValueTuple<, , >
-  fullName: System.ValueTuple<, , >
-  nameWithType.vb: ValueTuple(Of , , )
-  fullName.vb: System.ValueTuple(Of , , )
-  name.vb: ValueTuple(Of , , )
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
-  - uid: System.ValueTuple`3
-    name: ValueTuple
-    nameWithType: ValueTuple
-    fullName: System.ValueTuple
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -825,42 +856,18 @@ references:
   - name: ''
     nameWithType: ''
     fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.ValueTuple`3
-    name: ValueTuple
-    nameWithType: ValueTuple
-    fullName: System.ValueTuple
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
   - name: ''
     nameWithType: ''
     fullName: ''

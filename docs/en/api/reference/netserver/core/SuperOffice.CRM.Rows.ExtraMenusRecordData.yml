@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraMenusRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ExtraMenusRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExtraMenusRecordData)
   - SuperOffice.CRM.Rows.ExtraMenusRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ExtraMenusRecordData.SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ExtraMenusRecordData.SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ExtraMenusRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ExtraMenusRecordData.SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraMenusRecordData)
+- uid: SuperOffice.CRM.Rows.ExtraMenusRecordData.SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraMenusRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraMenusRecordData)
-  name: ToInsert()
-  nameWithType: ExtraMenusRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraMenusRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ExtraMenusRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ExtraMenusRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtraMenusRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ExtraMenusRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtraMenusRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraMenusRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraMenusRecordData)
+- uid: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraMenusRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraMenusRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ExtraMenusRecordData)
-  nameWithType: ExtraMenusRecordDataExtensions.ToInsert(ExtraMenusRecordData)
-  fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraMenusRecordData)
+  name: ToInsertAsync(ExtraMenusRecordData, CancellationToken)
+  nameWithType: ExtraMenusRecordDataExtensions.ToInsertAsync(ExtraMenusRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraMenusRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraMenusRecordData)
-    name: ToInsert
-    nameWithType: ExtraMenusRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraMenusRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtraMenusRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: ExtraMenusRecordData
     nameWithType: ExtraMenusRecordData
     fullName: SuperOffice.CRM.Rows.ExtraMenusRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraMenusRecordData)
-    name: ToInsert
-    nameWithType: ExtraMenusRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraMenusRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtraMenusRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtraMenusRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: ExtraMenusRecordData
     nameWithType: ExtraMenusRecordData
     fullName: SuperOffice.CRM.Rows.ExtraMenusRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

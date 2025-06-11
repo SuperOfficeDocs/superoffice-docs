@@ -5,20 +5,17 @@ items:
   id: ConsentManagementEmail
   parent: SuperOffice.CRM.Entities
   children:
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(SuperOffice.CRM.Entities.Person)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.Int32)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[],System.Int32)
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(System.Int32)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.String[],System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables
   - SuperOffice.CRM.Entities.ConsentManagementEmail.HasTemplate
-  - SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.SmtpConnectionExists
   langs:
   - csharp
@@ -49,17 +46,17 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String)'
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: CreateAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: ConsentManagementEmail(Int32, Int32, Int32, Int32, String)
-  nameWithType: ConsentManagementEmail.ConsentManagementEmail(Int32, Int32, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.ConsentManagementEmail(System.Int32, System.Int32, System.Int32, System.Int32, System.String)
-  type: Constructor
+  name: CreateAsync(Int32, String, Int32, Int32, String, CancellationToken)
+  nameWithType: ConsentManagementEmail.CreateAsync(Int32, String, Int32, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(System.Int32, System.String, System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
+  type: Method
   source:
     path: SoDataBase
     isExternal: true
@@ -67,43 +64,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public ConsentManagementEmail(int personId, int emailAddressId, int emailTemplateId, int cultureLcidId, string subject)
-    parameters:
-    - id: personId
-      type: System.Int32
-    - id: emailAddressId
-      type: System.Int32
-    - id: emailTemplateId
-      type: System.Int32
-    - id: cultureLcidId
-      type: System.Int32
-    - id: subject
-      type: System.String
-    content.vb: Public Sub New(personId As Integer, emailAddressId As Integer, emailTemplateId As Integer, cultureLcidId As Integer, subject As String)
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String)
-  id: '#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String)'
-  parent: SuperOffice.CRM.Entities.ConsentManagementEmail
-  langs:
-  - csharp
-  - vb
-  name: ConsentManagementEmail(Int32, String, Int32, Int32, String)
-  nameWithType: ConsentManagementEmail.ConsentManagementEmail(Int32, String, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.ConsentManagementEmail(System.Int32, System.String, System.Int32, System.Int32, System.String)
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  syntax:
-    content: public ConsentManagementEmail(int personId, string emailAddress, int emailTemplateId, int cultureLcidId, string subject)
+    content: public static Task<ConsentManagementEmail> CreateAsync(int personId, string emailAddress, int emailTemplateId, int cultureLcidId, string subject, CancellationToken cancellationToken = null)
     parameters:
     - id: personId
       type: System.Int32
@@ -115,23 +76,29 @@ items:
       type: System.Int32
     - id: subject
       type: System.String
-    content.vb: Public Sub New(personId As Integer, emailAddress As String, emailTemplateId As Integer, cultureLcidId As Integer, subject As String)
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentManagementEmail}
+    content.vb: Public Shared Function CreateAsync(personId As Integer, emailAddress As String, emailTemplateId As Integer, cultureLcidId As Integer, subject As String, cancellationToken As CancellationToken = Nothing) As Task(Of ConsentManagementEmail)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync*
   modifiers.csharp:
   - public
+  - static
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String)
-  id: '#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String)'
+  - Shared
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  id: CreateAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: ConsentManagementEmail(Int32, String, Int32, Int32, String, String, String)
-  nameWithType: ConsentManagementEmail.ConsentManagementEmail(Int32, String, Int32, Int32, String, String, String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.ConsentManagementEmail(System.Int32, System.String, System.Int32, System.Int32, System.String, System.String, System.String)
-  type: Constructor
+  name: CreateAsync(Person, CancellationToken)
+  nameWithType: ConsentManagementEmail.CreateAsync(Person, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync(SuperOffice.CRM.Entities.Person, System.Threading.CancellationToken)
+  type: Method
   source:
     path: SoDataBase
     isExternal: true
@@ -139,66 +106,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public ConsentManagementEmail(int personId, string emailAddress, int emailTemplateId, int cultureLcidId, string subject, string smtpHost, string defaultAddress)
-    parameters:
-    - id: personId
-      type: System.Int32
-    - id: emailAddress
-      type: System.String
-    - id: emailTemplateId
-      type: System.Int32
-    - id: cultureLcidId
-      type: System.Int32
-    - id: subject
-      type: System.String
-    - id: smtpHost
-      type: System.String
-    - id: defaultAddress
-      type: System.String
-    content.vb: Public Sub New(personId As Integer, emailAddress As String, emailTemplateId As Integer, cultureLcidId As Integer, subject As String, smtpHost As String, defaultAddress As String)
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(SuperOffice.CRM.Entities.Person)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(SuperOffice.CRM.Entities.Person)
-  id: '#ctor(SuperOffice.CRM.Entities.Person)'
-  parent: SuperOffice.CRM.Entities.ConsentManagementEmail
-  langs:
-  - csharp
-  - vb
-  name: ConsentManagementEmail(Person)
-  nameWithType: ConsentManagementEmail.ConsentManagementEmail(Person)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.ConsentManagementEmail(SuperOffice.CRM.Entities.Person)
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  syntax:
-    content: public ConsentManagementEmail(Person person)
+    content: public static Task<ConsentManagementEmail> CreateAsync(Person person, CancellationToken cancellationToken = null)
     parameters:
     - id: person
       type: SuperOffice.CRM.Entities.Person
-    content.vb: Public Sub New(person As Person)
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentManagementEmail}
+    content.vb: Public Shared Function CreateAsync(person As Person, cancellationToken As CancellationToken = Nothing) As Task(Of ConsentManagementEmail)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync*
   modifiers.csharp:
   - public
+  - static
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
-  id: GetSupportedLanguagesForDocTmplate(System.String)
+  - Shared
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(System.String,System.Threading.CancellationToken)
+  id: GetSupportedLanguagesForDocTemplateAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: GetSupportedLanguagesForDocTmplate(String)
-  nameWithType: ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(String)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
+  name: GetSupportedLanguagesForDocTemplateAsync(String, CancellationToken)
+  nameWithType: ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -208,32 +141,34 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nGets template languages for a given document template filename\n"
   syntax:
-    content: public static string[] GetSupportedLanguagesForDocTmplate(string tmplName)
+    content: public static Task<string[]> GetSupportedLanguagesForDocTemplateAsync(string tmplName, CancellationToken cancellationToken = null)
     parameters:
     - id: tmplName
       type: System.String
       description: Template filename
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
+      type: System.Threading.Tasks.Task{System.String[]}
       description: 'SuperOffice language codes: [&quot;US&quot;, &quot;SW&quot;, &quot;GE&quot;] or empty array if no language-specific variant exists'
-    content.vb: Public Shared Function GetSupportedLanguagesForDocTmplate(tmplName As String) As String()
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate*
+    content.vb: Public Shared Function GetSupportedLanguagesForDocTemplateAsync(tmplName As String, cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.Int32)
-  id: GetBestLanguageForPerson(System.Int32,System.Int32)
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetBestLanguageForPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: GetBestLanguageForPerson(Int32, Int32)
-  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson(Int32, Int32)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32, System.Int32)
+  name: GetBestLanguageForPersonAsync(Int32, Int32, CancellationToken)
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPersonAsync(Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -242,32 +177,34 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static string GetBestLanguageForPerson(int personId, int templateId)
+    content: public static Task<string> GetBestLanguageForPersonAsync(int personId, int templateId, CancellationToken cancellationToken = null)
     parameters:
     - id: personId
       type: System.Int32
     - id: templateId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetBestLanguageForPerson(personId As Integer, templateId As Integer) As String
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetBestLanguageForPersonAsync(personId As Integer, templateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[],System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[],System.Int32)
-  id: GetBestLanguageForPerson(System.String[],System.Int32)
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.String[],System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.String[],System.Int32,System.Threading.CancellationToken)
+  id: GetBestLanguageForPersonAsync(System.String[],System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: GetBestLanguageForPerson(String[], Int32)
-  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson(String[], Int32)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[], System.Int32)
+  name: GetBestLanguageForPersonAsync(String[], Int32, CancellationToken)
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPersonAsync(String[], Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.String[], System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -276,35 +213,37 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static string GetBestLanguageForPerson(string[] supportedLanguages, int personId)
+    content: public static Task<string> GetBestLanguageForPersonAsync(string[] supportedLanguages, int personId, CancellationToken cancellationToken = null)
     parameters:
     - id: supportedLanguages
       type: System.String[]
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetBestLanguageForPerson(supportedLanguages As String(), personId As Integer) As String
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
-  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPerson(String(), Int32)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetBestLanguageForPersonAsync(supportedLanguages As String(), personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync*
+  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPersonAsync(String(), Int32, CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String(), System.Int32)
-  name.vb: GetBestLanguageForPerson(String(), Int32)
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
-  id: GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.String(), System.Int32, System.Threading.CancellationToken)
+  name.vb: GetBestLanguageForPersonAsync(String(), Int32, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32,System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetBestLanguageForPersonAsync(System.Int32,System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: GetBestLanguageForPerson(Int32, String[], Int32, Int32)
-  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson(Int32, String[], Int32, Int32)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32, System.String[], System.Int32, System.Int32)
+  name: GetBestLanguageForPersonAsync(Int32, String[], Int32, Int32, CancellationToken)
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPersonAsync(Int32, String[], Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32, System.String[], System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -313,7 +252,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static string GetBestLanguageForPerson(int supportLangId, string[] supportedLanguages, int countryId, int overrideLcid)
+    content: public static Task<string> GetBestLanguageForPersonAsync(int supportLangId, string[] supportedLanguages, int countryId, int overrideLcid, CancellationToken cancellationToken = null)
     parameters:
     - id: supportLangId
       type: System.Int32
@@ -323,29 +262,31 @@ items:
       type: System.Int32
     - id: overrideLcid
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetBestLanguageForPerson(supportLangId As Integer, supportedLanguages As String(), countryId As Integer, overrideLcid As Integer) As String
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
-  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPerson(Int32, String(), Int32, Int32)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetBestLanguageForPersonAsync(supportLangId As Integer, supportedLanguages As String(), countryId As Integer, overrideLcid As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync*
+  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPersonAsync(Int32, String(), Int32, Int32, CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32, System.String(), System.Int32, System.Int32)
-  name.vb: GetBestLanguageForPerson(Int32, String(), Int32, Int32)
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
-  id: SendNewPersonConfirmationEmail
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync(System.Int32, System.String(), System.Int32, System.Int32, System.Threading.CancellationToken)
+  name.vb: GetBestLanguageForPersonAsync(Int32, String(), Int32, Int32, CancellationToken)
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync(System.Threading.CancellationToken)
+  id: SendNewPersonConfirmationEmailAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: SendNewPersonConfirmationEmail()
-  nameWithType: ConsentManagementEmail.SendNewPersonConfirmationEmail()
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail()
+  name: SendNewPersonConfirmationEmailAsync(CancellationToken)
+  nameWithType: ConsentManagementEmail.SendNewPersonConfirmationEmailAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -355,46 +296,18 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSend email to the new person and archive as a document on the newly created person. \n"
   syntax:
-    content: public void SendNewPersonConfirmationEmail()
-    content.vb: Public Sub SendNewPersonConfirmationEmail
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(System.Int32)
-  id: GetCurrentPrincipalPreferredLangauge(System.Int32)
-  parent: SuperOffice.CRM.Entities.ConsentManagementEmail
-  langs:
-  - csharp
-  - vb
-  name: GetCurrentPrincipalPreferredLangauge(Int32)
-  nameWithType: ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(Int32)
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  summary: "\nGet the SO language code to use when translating email and subject\n"
-  syntax:
-    content: public static string GetCurrentPrincipalPreferredLangauge(int overrideCultureLcidId)
+    content: public Task SendNewPersonConfirmationEmailAsync(CancellationToken cancellationToken = null)
     parameters:
-    - id: overrideCultureLcidId
-      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetCurrentPrincipalPreferredLangauge(overrideCultureLcidId As Integer) As String
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge*
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SendNewPersonConfirmationEmailAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync*
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress
   commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress
   id: GetFromAddress
@@ -451,16 +364,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
-  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
-  id: GetPersonEmail
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync(System.Threading.CancellationToken)
+  id: GetPersonEmailAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ConsentManagementEmail
   langs:
   - csharp
   - vb
-  name: GetPersonEmail()
-  nameWithType: ConsentManagementEmail.GetPersonEmail()
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail()
+  name: GetPersonEmailAsync(CancellationToken)
+  nameWithType: ConsentManagementEmail.GetPersonEmailAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -469,11 +382,14 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public string GetPersonEmail()
+    content: public Task<string> GetPersonEmailAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Function GetPersonEmail As String
-  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function GetPersonEmailAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -720,12 +636,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync
   isExternal: true
-  name: ConsentManagementEmail
-  nameWithType: ConsentManagementEmail.ConsentManagementEmail
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.ConsentManagementEmail
+  name: CreateAsync
+  nameWithType: ConsentManagementEmail.CreateAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.CreateAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -740,6 +656,92 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentManagementEmail}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ConsentManagementEmail}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ConsentManagementEmail>
+  nameWithType: Task<ConsentManagementEmail>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Entities.ConsentManagementEmail>
+  nameWithType.vb: Task(Of ConsentManagementEmail)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Entities.ConsentManagementEmail)
+  name.vb: Task(Of ConsentManagementEmail)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    nameWithType: ConsentManagementEmail
+    fullName: SuperOffice.CRM.Entities.ConsentManagementEmail
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+    name: ConsentManagementEmail
+    nameWithType: ConsentManagementEmail
+    fullName: SuperOffice.CRM.Entities.ConsentManagementEmail
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Person
   commentId: T:SuperOffice.CRM.Entities.Person
   parent: SuperOffice.CRM.Entities
@@ -747,12 +749,110 @@ references:
   name: Person
   nameWithType: Person
   fullName: SuperOffice.CRM.Entities.Person
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync
   isExternal: true
-  name: GetSupportedLanguagesForDocTmplate
-  nameWithType: ConsentManagementEmail.GetSupportedLanguagesForDocTmplate
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate
+  name: GetSupportedLanguagesForDocTemplateAsync
+  nameWithType: ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTemplateAsync
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync
+  isExternal: true
+  name: GetBestLanguageForPersonAsync
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPersonAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPersonAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -779,24 +879,17 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync
   isExternal: true
-  name: GetBestLanguageForPerson
-  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
+  name: SendNewPersonConfirmationEmailAsync
+  nameWithType: ConsentManagementEmail.SendNewPersonConfirmationEmailAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmailAsync
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: SendNewPersonConfirmationEmail
-  nameWithType: ConsentManagementEmail.SendNewPersonConfirmationEmail
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge
-  isExternal: true
-  name: GetCurrentPrincipalPreferredLangauge
-  nameWithType: ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress*
   commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress
   isExternal: true
@@ -816,12 +909,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail*
-  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync
   isExternal: true
-  name: GetPersonEmail
-  nameWithType: ConsentManagementEmail.GetPersonEmail
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
+  name: GetPersonEmailAsync
+  nameWithType: ConsentManagementEmail.GetPersonEmailAsync
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmailAsync
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables*
   commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables
   isExternal: true

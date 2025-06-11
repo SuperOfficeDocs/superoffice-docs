@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.MailAliasRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.MailAliasRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MailAliasRecordData)
   - SuperOffice.CRM.Rows.MailAliasRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.MailAliasRecordData.SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.MailAliasRecordData.SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.MailAliasRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MailAliasRecordData.SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MailAliasRecordData)
+- uid: SuperOffice.CRM.Rows.MailAliasRecordData.SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MailAliasRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MailAliasRecordData)
-  name: ToInsert()
-  nameWithType: MailAliasRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MailAliasRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: MailAliasRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: MailAliasRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MailAliasRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: MailAliasRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MailAliasRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MailAliasRecordData)
-  commentId: M:SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MailAliasRecordData)
+- uid: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MailAliasRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MailAliasRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(MailAliasRecordData)
-  nameWithType: MailAliasRecordDataExtensions.ToInsert(MailAliasRecordData)
-  fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MailAliasRecordData)
+  name: ToInsertAsync(MailAliasRecordData, CancellationToken)
+  nameWithType: MailAliasRecordDataExtensions.ToInsertAsync(MailAliasRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MailAliasRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MailAliasRecordData)
-    name: ToInsert
-    nameWithType: MailAliasRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MailAliasRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MailAliasRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: MailAliasRecordData
     nameWithType: MailAliasRecordData
     fullName: SuperOffice.CRM.Rows.MailAliasRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MailAliasRecordData)
-    name: ToInsert
-    nameWithType: MailAliasRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MailAliasRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MailAliasRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MailAliasRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: MailAliasRecordData
     nameWithType: MailAliasRecordData
     fullName: SuperOffice.CRM.Rows.MailAliasRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

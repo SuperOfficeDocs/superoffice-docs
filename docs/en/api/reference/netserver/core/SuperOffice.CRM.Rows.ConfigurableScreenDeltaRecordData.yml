@@ -45,7 +45,7 @@ items:
   - SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData)
   - SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData.SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData.SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -555,34 +555,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData.SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData)
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData.SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData)
-  name: ToInsert()
-  nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -768,17 +778,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData)
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ConfigurableScreenDeltaRecordData)
-  nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsert(ConfigurableScreenDeltaRecordData)
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData)
+  name: ToInsertAsync(ConfigurableScreenDeltaRecordData, CancellationToken)
+  nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(ConfigurableScreenDeltaRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData)
-    name: ToInsert
-    nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -787,15 +797,23 @@ references:
     name: ConfigurableScreenDeltaRecordData
     nameWithType: ConfigurableScreenDeltaRecordData
     fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData)
-    name: ToInsert
-    nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -804,6 +822,14 @@ references:
     name: ConfigurableScreenDeltaRecordData
     nameWithType: ConfigurableScreenDeltaRecordData
     fullName: SuperOffice.CRM.Rows.ConfigurableScreenDeltaRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

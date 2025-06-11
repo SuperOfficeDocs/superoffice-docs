@@ -42,6 +42,7 @@ items:
   - SuperOffice.Util.CollectionOps.GetNamedDateTimeValue(System.String,System.String)
   - SuperOffice.Util.CollectionOps.GetNamedDoubleValue(System.String,System.String)
   - SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String,System.String,System.Int32)
+  - SuperOffice.Util.CollectionOps.GetNamedIntValues(System.String,System.String)
   - SuperOffice.Util.CollectionOps.GetNamedValue(System.String,System.String)
   - SuperOffice.Util.CollectionOps.GetPairs(System.String)
   - SuperOffice.Util.CollectionOps.HasName(System.String,System.String)
@@ -187,23 +188,17 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nCheck if two arrays have the same contents. The arrays must be of the same type, and the \nbase type must be comparable so that it can be sorted. The algorithm is O(log n) if the arrays\nhave the same size, otherwise it is very fast.\n"
-  remarks: "\nType inference means that you do not have to explicitly specify the actual type, simply\npass in two arrays.\n<example>\nThis example shows how:\n<pre><code>int[] allAssocs = AssociateCache.GetCurrent().GetAssociateIds();\nint[] myAssocs = { 1, 2, 3 };\nbool areMyAllThereAre = SuperOffice.Util.ArraysEquivalent( allAssocs, myAssocs );</code></pre>\n</example>\n"
   syntax:
     content: public static bool ArraysEquivalent<T>(T[] left, T[] right)
     parameters:
     - id: left
       type: '{T}[]'
-      description: Left side of comparison; if null, a false result will always be returned
     - id: right
       type: '{T}[]'
-      description: Right side of comparison; if null, a false result will always be returned
     typeParameters:
     - id: T
-      description: Base type of arrays
     return:
       type: System.Boolean
-      description: True if the arrays have the same length and same elements, regardless of element order
     content.vb: Public Shared Function ArraysEquivalent(Of T)(left As T(), right As T()) As Boolean
   overload: SuperOffice.Util.CollectionOps.ArraysEquivalent*
   nameWithType.vb: CollectionOps.ArraysEquivalent(Of T)(T(), T())
@@ -1889,6 +1884,48 @@ items:
 
       Public Shared Function GetNamedIntValue(nameValueString As String, nameToFind As String, defaultValue As Integer = 0) As Integer
   overload: SuperOffice.Util.CollectionOps.GetNamedIntValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.GetNamedIntValues(System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.GetNamedIntValues(System.String,System.String)
+  id: GetNamedIntValues(System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: GetNamedIntValues(String, String)
+  nameWithType: CollectionOps.GetNamedIntValues(String, String)
+  fullName: SuperOffice.Util.CollectionOps.GetNamedIntValues(System.String, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nFind and parse a int array typed option in a named-value string, and return the result\n"
+  syntax:
+    content: public static List<int> GetNamedIntValues(this string nameValueString, string nameToFind)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection string; empty and null are legal
+    - id: nameToFind
+      type: System.String
+      description: Name of key to find (case insensitive)
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+      description: Integer values, or 0 if option not found or invalid format
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetNamedIntValues(nameValueString As String, nameToFind As String) As List(Of Integer)
+  overload: SuperOffice.Util.CollectionOps.GetNamedIntValues*
   modifiers.csharp:
   - public
   - static
@@ -3975,6 +4012,55 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.Util.CollectionOps.GetNamedIntValues*
+  commentId: Overload:SuperOffice.Util.CollectionOps.GetNamedIntValues
+  isExternal: true
+  name: GetNamedIntValues
+  nameWithType: CollectionOps.GetNamedIntValues
+  fullName: SuperOffice.Util.CollectionOps.GetNamedIntValues
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: '!:System.Collections.Generic.List{System.Int32}'
+  definition: System.Collections.Generic.List`1
+  name: List<Int32>
+  nameWithType: List<Int32>
+  fullName: System.Collections.Generic.List<System.Int32>
+  nameWithType.vb: List(Of Int32)
+  fullName.vb: System.Collections.Generic.List(Of System.Int32)
+  name.vb: List(Of Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.CollectionOps.GetNamedDateTimeValue*
   commentId: Overload:SuperOffice.Util.CollectionOps.GetNamedDateTimeValue
   isExternal: true
@@ -4029,49 +4115,6 @@ references:
   name: ParseDelimitedStringToIntArray
   nameWithType: CollectionOps.ParseDelimitedStringToIntArray
   fullName: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray
-- uid: System.Collections.Generic.List{System.Int32}
-  commentId: '!:System.Collections.Generic.List{System.Int32}'
-  definition: System.Collections.Generic.List`1
-  name: List<Int32>
-  nameWithType: List<Int32>
-  fullName: System.Collections.Generic.List<System.Int32>
-  nameWithType.vb: List(Of Int32)
-  fullName.vb: System.Collections.Generic.List(Of System.Int32)
-  name.vb: List(Of Int32)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Char[]
   isExternal: true
   name: Char[]

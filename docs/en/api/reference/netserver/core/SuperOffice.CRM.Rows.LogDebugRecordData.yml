@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.LogDebugRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.LogDebugRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.LogDebugRecordData)
   - SuperOffice.CRM.Rows.LogDebugRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.LogDebugRecordData.SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.LogDebugRecordData.SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.LogDebugRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LogDebugRecordData.SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LogDebugRecordData)
+- uid: SuperOffice.CRM.Rows.LogDebugRecordData.SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LogDebugRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LogDebugRecordData)
-  name: ToInsert()
-  nameWithType: LogDebugRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LogDebugRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: LogDebugRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LogDebugRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LogDebugRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LogDebugRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LogDebugRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LogDebugRecordData)
-  commentId: M:SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LogDebugRecordData)
+- uid: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LogDebugRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LogDebugRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(LogDebugRecordData)
-  nameWithType: LogDebugRecordDataExtensions.ToInsert(LogDebugRecordData)
-  fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LogDebugRecordData)
+  name: ToInsertAsync(LogDebugRecordData, CancellationToken)
+  nameWithType: LogDebugRecordDataExtensions.ToInsertAsync(LogDebugRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LogDebugRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LogDebugRecordData)
-    name: ToInsert
-    nameWithType: LogDebugRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LogDebugRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LogDebugRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: LogDebugRecordData
     nameWithType: LogDebugRecordData
     fullName: SuperOffice.CRM.Rows.LogDebugRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LogDebugRecordData)
-    name: ToInsert
-    nameWithType: LogDebugRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LogDebugRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LogDebugRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LogDebugRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: LogDebugRecordData
     nameWithType: LogDebugRecordData
     fullName: SuperOffice.CRM.Rows.LogDebugRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

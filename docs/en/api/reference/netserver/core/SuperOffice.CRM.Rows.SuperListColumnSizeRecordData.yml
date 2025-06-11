@@ -50,7 +50,7 @@ items:
   - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
   - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -695,34 +695,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
-  name: ToInsert()
-  nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -908,17 +918,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SuperListColumnSizeRecordData)
-  nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert(SuperListColumnSizeRecordData)
-  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+  name: ToInsertAsync(SuperListColumnSizeRecordData, CancellationToken)
+  nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsertAsync(SuperListColumnSizeRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
-    name: ToInsert
-    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -927,15 +937,23 @@ references:
     name: SuperListColumnSizeRecordData
     nameWithType: SuperListColumnSizeRecordData
     fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
-    name: ToInsert
-    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -944,6 +962,14 @@ references:
     name: SuperListColumnSizeRecordData
     nameWithType: SuperListColumnSizeRecordData
     fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SPictureEntryTableInfo})
   - SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo})
-  - SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
-  - SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData})
+  - SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SPictureEntryRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo})
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<SPictureEntryTableInfo>)
-  nameWithType: SPictureEntryRecordDataExtensions.FromSelect(TargetedSelect<SPictureEntryTableInfo>)
-  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SPictureEntryTableInfo>)
+  name: FromSelectAsync(TargetedSelect<SPictureEntryTableInfo>, CancellationToken)
+  nameWithType: SPictureEntryRecordDataExtensions.FromSelectAsync(TargetedSelect<SPictureEntryTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SPictureEntryTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<SPictureEntryRecordData> FromSelect(this TargetedSelect<SPictureEntryTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<SPictureEntryRecordData> FromSelectAsync(this TargetedSelect<SPictureEntryTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of SPictureEntryTableInfo)) As IEnumerable(Of SPictureEntryRecordData)
-  overload: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect*
-  nameWithType.vb: SPictureEntryRecordDataExtensions.FromSelect(TargetedSelect(Of SPictureEntryTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of SPictureEntryTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of SPictureEntryRecordData)
+  overload: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: SPictureEntryRecordDataExtensions.FromSelectAsync(TargetedSelect(Of SPictureEntryTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SPictureEntryTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of SPictureEntryTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SPictureEntryTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of SPictureEntryTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SPictureEntryTableInfo})
   commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SPictureEntryTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SPictureEntryTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.SPictureEntryTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of SPictureEntryTableInfo))
-- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(SPictureEntryRecordData)
-  nameWithType: SPictureEntryRecordDataExtensions.ToInsert(SPictureEntryRecordData)
-  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  name: ToInsertAsync(SPictureEntryRecordData, CancellationToken)
+  nameWithType: SPictureEntryRecordDataExtensions.ToInsertAsync(SPictureEntryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this SPictureEntryRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this SPictureEntryRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As SPictureEntryRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As SPictureEntryRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData})
-  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData})
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<SPictureEntryRecordData>)
-  nameWithType: SPictureEntryRecordDataExtensions.ToInserts(IEnumerable<SPictureEntryRecordData>)
-  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SPictureEntryRecordData>)
+  name: ToInsertsAsync(IEnumerable<SPictureEntryRecordData>, CancellationToken)
+  nameWithType: SPictureEntryRecordDataExtensions.ToInsertsAsync(IEnumerable<SPictureEntryRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SPictureEntryRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<SPictureEntryRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<SPictureEntryRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of SPictureEntryRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInserts*
-  nameWithType.vb: SPictureEntryRecordDataExtensions.ToInserts(IEnumerable(Of SPictureEntryRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of SPictureEntryRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: SPictureEntryRecordDataExtensions.ToInsertsAsync(IEnumerable(Of SPictureEntryRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SPictureEntryRecordData))
-  name.vb: ToInserts(IEnumerable(Of SPictureEntryRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SPictureEntryRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of SPictureEntryRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SPictureEntryRow)
   commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SPictureEntryRow)
   id: ToRecordData(SuperOffice.CRM.Rows.SPictureEntryRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<SPictureEntryTableInfo>)
+  nameWithType: SPictureEntryRecordDataExtensions.FromSelect(TargetedSelect<SPictureEntryTableInfo>)
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SPictureEntryTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;SPictureEntryTableInfo>, execute it and return an IEnumerable&lt;SPictureEntryRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<SPictureEntryRecordData> FromSelect(this TargetedSelect<SPictureEntryTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of SPictureEntryTableInfo)) As IEnumerable(Of SPictureEntryRecordData)
+  overload: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect*
+  nameWithType.vb: SPictureEntryRecordDataExtensions.FromSelect(TargetedSelect(Of SPictureEntryTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SPictureEntryTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of SPictureEntryTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: SPictureEntryRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: SPictureEntryRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SPictureEntryTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<SPictureEntryRecordData>
-  nameWithType: IEnumerable<SPictureEntryRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SPictureEntryRecordData>
-  nameWithType.vb: IEnumerable(Of SPictureEntryRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SPictureEntryRecordData)
-  name.vb: IEnumerable(Of SPictureEntryRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<SPictureEntryRecordData>
+  nameWithType: IAsyncEnumerable<SPictureEntryRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.SPictureEntryRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of SPictureEntryRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  name.vb: IAsyncEnumerable(Of SPictureEntryRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: SPictureEntryRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: SPictureEntryRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: SPictureEntryRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: SPictureEntryRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SPictureEntryRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SPictureEntryRecordData>
+  nameWithType: IEnumerable<SPictureEntryRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SPictureEntryRecordData>
+  nameWithType.vb: IEnumerable(Of SPictureEntryRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  name.vb: IEnumerable(Of SPictureEntryRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    name: SPictureEntryRecordData
+    nameWithType: SPictureEntryRecordData
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    name: SPictureEntryRecordData
+    nameWithType: SPictureEntryRecordData
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: SPictureEntryRow
   nameWithType: SPictureEntryRow
   fullName: SuperOffice.CRM.Rows.SPictureEntryRow
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: SPictureEntryRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.FromSelect

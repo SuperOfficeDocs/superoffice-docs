@@ -45,7 +45,7 @@ items:
   - SuperOffice.CRM.Rows.LicenseAssocLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.LicenseAssocLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
   - SuperOffice.CRM.Rows.LicenseAssocLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.LicenseAssocLinkRecordData.SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.LicenseAssocLinkRecordData.SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.LicenseAssocLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -555,34 +555,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordData.SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
+- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordData.SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
-  name: ToInsert()
-  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -768,17 +778,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
+- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(LicenseAssocLinkRecordData)
-  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsert(LicenseAssocLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
+  name: ToInsertAsync(LicenseAssocLinkRecordData, CancellationToken)
+  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsertAsync(LicenseAssocLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
-    name: ToInsert
-    nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -787,15 +797,23 @@ references:
     name: LicenseAssocLinkRecordData
     nameWithType: LicenseAssocLinkRecordData
     fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
-    name: ToInsert
-    nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -804,6 +822,14 @@ references:
     name: LicenseAssocLinkRecordData
     nameWithType: LicenseAssocLinkRecordData
     fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

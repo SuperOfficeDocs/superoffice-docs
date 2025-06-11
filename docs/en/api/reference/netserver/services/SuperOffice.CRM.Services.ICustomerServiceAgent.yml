@@ -5,48 +5,46 @@ items:
   id: ICustomerServiceAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData(System.Int32,System.String)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption(System.String)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession(System.String)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData(System.Int32,System.String)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions(System.Int32[])
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig(System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists(SuperOffice.Data.EventHandlerType)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId(System.String,System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig(System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner(System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry(System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply(System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate(System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl(System.String,System.Boolean)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics(SuperOffice.Data.StatusScreenPanelType[])
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate(System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession(System.Int32)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive(System.String)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs(SuperOffice.CRM.Services.CustomerCenterConfig[])
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig(SuperOffice.CRM.Services.CustomerCenterConfig)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig(SuperOffice.CRM.Services.SmsConfig)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings(SuperOffice.CRM.Services.SystemTemplateSettings)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid(System.String)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer(System.String,System.String,System.Boolean)
-  - SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles(SuperOffice.CRM.Services.CsFeatureToggle[])
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailDataAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUserAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplatesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryptionAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSessionAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExistsAsync(SuperOffice.Data.EventHandlerType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.Data.EventHandlerType[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlersAsync(SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomerAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplateAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntryAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReplyAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrlAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfigAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatisticsAsync(SuperOffice.Data.StatusScreenPanelType[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettingsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplateAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotifyAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActiveAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync(SuperOffice.CRM.Services.CustomerCenterConfig[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettingsAsync(SuperOffice.CRM.Services.SystemTemplateSettings,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValidAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServerAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync(SuperOffice.CRM.Services.CsFeatureToggle[],System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -87,16 +85,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
-  id: CreateDefaultCustomerCenterConfig
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
+  id: CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultCustomerCenterConfig()
-  nameWithType: ICustomerServiceAgent.CreateDefaultCustomerCenterConfig()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig()
+  name: CreateDefaultCustomerCenterConfigAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -106,22 +104,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLoading default values into a new CustomerCenterConfig.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: CustomerCenterConfig CreateDefaultCustomerCenterConfig()
+    content: Task<CustomerCenterConfig> CreateDefaultCustomerCenterConfigAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CustomerCenterConfig
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
       description: New CustomerCenterConfig with default values
-    content.vb: Function CreateDefaultCustomerCenterConfig As CustomerCenterConfig
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig(SuperOffice.CRM.Services.CustomerCenterConfig)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig(SuperOffice.CRM.Services.CustomerCenterConfig)
-  id: SaveCustomerCenterConfig(SuperOffice.CRM.Services.CustomerCenterConfig)
+    content.vb: Function CreateDefaultCustomerCenterConfigAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CustomerCenterConfig)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig,System.Threading.CancellationToken)
+  id: SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: SaveCustomerCenterConfig(CustomerCenterConfig)
-  nameWithType: ICustomerServiceAgent.SaveCustomerCenterConfig(CustomerCenterConfig)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig(SuperOffice.CRM.Services.CustomerCenterConfig)
+  name: SaveCustomerCenterConfigAsync(CustomerCenterConfig, CancellationToken)
+  nameWithType: ICustomerServiceAgent.SaveCustomerCenterConfigAsync(CustomerCenterConfig, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -131,26 +132,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nUpdates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty\n"
   syntax:
-    content: CustomerCenterConfig SaveCustomerCenterConfig(CustomerCenterConfig customerCenterConfig)
+    content: Task<CustomerCenterConfig> SaveCustomerCenterConfigAsync(CustomerCenterConfig customerCenterConfig, CancellationToken cancellationToken = null)
     parameters:
     - id: customerCenterConfig
       type: SuperOffice.CRM.Services.CustomerCenterConfig
       description: The CustomerCenterConfig that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CustomerCenterConfig
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
       description: New or updated CustomerCenterConfig
-    content.vb: Function SaveCustomerCenterConfig(customerCenterConfig As CustomerCenterConfig) As CustomerCenterConfig
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig(System.Int32)
-  id: DeleteCustomerCenterConfig(System.Int32)
+    content.vb: Function SaveCustomerCenterConfigAsync(customerCenterConfig As CustomerCenterConfig, cancellationToken As CancellationToken = Nothing) As Task(Of CustomerCenterConfig)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: DeleteCustomerCenterConfig(Int32)
-  nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfig(Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig(System.Int32)
+  name: DeleteCustomerCenterConfigAsync(Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -160,23 +163,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDeletes the CustomerCenterConfig\n"
   syntax:
-    content: void DeleteCustomerCenterConfig(int customerCenterConfigId)
+    content: Task DeleteCustomerCenterConfigAsync(int customerCenterConfigId, CancellationToken cancellationToken = null)
     parameters:
     - id: customerCenterConfigId
       type: System.Int32
       description: The identity of the CustomerCenterConfig
-    content.vb: Sub DeleteCustomerCenterConfig(customerCenterConfigId As Integer)
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
-  id: CreateDefaultMailboxEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteCustomerCenterConfigAsync(customerCenterConfigId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultMailboxEntity()
-  nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntity()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity()
+  name: CreateDefaultMailboxEntityAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -186,22 +193,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLoading default values into a new MailboxEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: MailboxEntity CreateDefaultMailboxEntity()
+    content: Task<MailboxEntity> CreateDefaultMailboxEntityAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.MailboxEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
       description: New MailboxEntity with default values
-    content.vb: Function CreateDefaultMailboxEntity As MailboxEntity
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
-  id: SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+    content.vb: Function CreateDefaultMailboxEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of MailboxEntity)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity,System.Threading.CancellationToken)
+  id: SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: SaveMailboxEntity(MailboxEntity)
-  nameWithType: ICustomerServiceAgent.SaveMailboxEntity(MailboxEntity)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+  name: SaveMailboxEntityAsync(MailboxEntity, CancellationToken)
+  nameWithType: ICustomerServiceAgent.SaveMailboxEntityAsync(MailboxEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -211,80 +221,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nUpdates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is empty\n"
   syntax:
-    content: MailboxEntity SaveMailboxEntity(MailboxEntity mailboxEntity)
+    content: Task<MailboxEntity> SaveMailboxEntityAsync(MailboxEntity mailboxEntity, CancellationToken cancellationToken = null)
     parameters:
     - id: mailboxEntity
       type: SuperOffice.CRM.Services.MailboxEntity
       description: The MailboxEntity that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.MailboxEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
       description: New or updated MailboxEntity
-    content.vb: Function SaveMailboxEntity(mailboxEntity As MailboxEntity) As MailboxEntity
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig
-  id: CreateDefaultSmsConfig
+    content.vb: Function SaveMailboxEntityAsync(mailboxEntity As MailboxEntity, cancellationToken As CancellationToken = Nothing) As Task(Of MailboxEntity)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync(System.Int32[],System.Threading.CancellationToken)
+  id: DeleteChatSessionsAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultSmsConfig()
-  nameWithType: ICustomerServiceAgent.CreateDefaultSmsConfig()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new SmsConfig.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: SmsConfig CreateDefaultSmsConfig()
-    return:
-      type: SuperOffice.CRM.Services.SmsConfig
-      description: New SmsConfig with default values
-    content.vb: Function CreateDefaultSmsConfig As SmsConfig
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig(SuperOffice.CRM.Services.SmsConfig)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig(SuperOffice.CRM.Services.SmsConfig)
-  id: SaveSmsConfig(SuperOffice.CRM.Services.SmsConfig)
-  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveSmsConfig(SmsConfig)
-  nameWithType: ICustomerServiceAgent.SaveSmsConfig(SmsConfig)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig(SuperOffice.CRM.Services.SmsConfig)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing SmsConfig or creates a new SmsConfig if the id parameter is empty\n"
-  syntax:
-    content: SmsConfig SaveSmsConfig(SmsConfig smsConfig)
-    parameters:
-    - id: smsConfig
-      type: SuperOffice.CRM.Services.SmsConfig
-      description: The SmsConfig that is saved.
-    return:
-      type: SuperOffice.CRM.Services.SmsConfig
-      description: New or updated SmsConfig
-    content.vb: Function SaveSmsConfig(smsConfig As SmsConfig) As SmsConfig
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions(System.Int32[])
-  id: DeleteChatSessions(System.Int32[])
-  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteChatSessions(Int32[])
-  nameWithType: ICustomerServiceAgent.DeleteChatSessions(Int32[])
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions(System.Int32[])
+  name: DeleteChatSessionsAsync(Int32[], CancellationToken)
+  nameWithType: ICustomerServiceAgent.DeleteChatSessionsAsync(Int32[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync(System.Int32[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -294,26 +252,31 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDeletes the specified chat sessions.\n"
   syntax:
-    content: void DeleteChatSessions(int[] ids)
+    content: Task DeleteChatSessionsAsync(int[] ids, CancellationToken cancellationToken = null)
     parameters:
     - id: ids
       type: System.Int32[]
       description: The ids of the chat sessions to delete
-    content.vb: Sub DeleteChatSessions(ids As Integer())
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions*
-  nameWithType.vb: ICustomerServiceAgent.DeleteChatSessions(Int32())
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions(System.Int32())
-  name.vb: DeleteChatSessions(Int32())
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser
-  id: ChatSessionsForUser
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteChatSessionsAsync(ids As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync*
+  nameWithType.vb: ICustomerServiceAgent.DeleteChatSessionsAsync(Int32(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync(System.Int32(), System.Threading.CancellationToken)
+  name.vb: DeleteChatSessionsAsync(Int32(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUserAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUserAsync(System.Threading.CancellationToken)
+  id: ChatSessionsForUserAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: ChatSessionsForUser()
-  nameWithType: ICustomerServiceAgent.ChatSessionsForUser()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser()
+  name: ChatSessionsForUserAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.ChatSessionsForUserAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUserAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -323,22 +286,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet all chat TOPICS which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager\n"
   syntax:
-    content: ChatSession[] ChatSessionsForUser()
+    content: Task<ChatSession[]> ChatSessionsForUserAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ChatSession[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSession[]}
       description: Array of chat TOPIC ids the current user can access. NOT chat sessions.
-    content.vb: Function ChatSessionsForUser As ChatSession()
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles(SuperOffice.CRM.Services.CsFeatureToggle[])
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles(SuperOffice.CRM.Services.CsFeatureToggle[])
-  id: UpdateFeatureToggles(SuperOffice.CRM.Services.CsFeatureToggle[])
+    content.vb: Function ChatSessionsForUserAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ChatSession())
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUserAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync(SuperOffice.CRM.Services.CsFeatureToggle[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync(SuperOffice.CRM.Services.CsFeatureToggle[],System.Threading.CancellationToken)
+  id: UpdateFeatureTogglesAsync(SuperOffice.CRM.Services.CsFeatureToggle[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: UpdateFeatureToggles(CsFeatureToggle[])
-  nameWithType: ICustomerServiceAgent.UpdateFeatureToggles(CsFeatureToggle[])
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles(SuperOffice.CRM.Services.CsFeatureToggle[])
+  name: UpdateFeatureTogglesAsync(CsFeatureToggle[], CancellationToken)
+  nameWithType: ICustomerServiceAgent.UpdateFeatureTogglesAsync(CsFeatureToggle[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync(SuperOffice.CRM.Services.CsFeatureToggle[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -348,26 +314,30 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nUpdate the cached FeatureToggles for CS\n"
   syntax:
-    content: void UpdateFeatureToggles(CsFeatureToggle[] featureToggles)
+    content: Task UpdateFeatureTogglesAsync(CsFeatureToggle[] featureToggles, CancellationToken cancellationToken = null)
     parameters:
     - id: featureToggles
       type: SuperOffice.CRM.Services.CsFeatureToggle[]
       description: Feature toggle name / state
-    content.vb: Sub UpdateFeatureToggles(featureToggles As CsFeatureToggle())
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles*
-  nameWithType.vb: ICustomerServiceAgent.UpdateFeatureToggles(CsFeatureToggle())
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles(SuperOffice.CRM.Services.CsFeatureToggle())
-  name.vb: UpdateFeatureToggles(CsFeatureToggle())
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists(SuperOffice.Data.EventHandlerType)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists(SuperOffice.Data.EventHandlerType)
-  id: EventHandlerExists(SuperOffice.Data.EventHandlerType)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function UpdateFeatureTogglesAsync(featureToggles As CsFeatureToggle(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync*
+  nameWithType.vb: ICustomerServiceAgent.UpdateFeatureTogglesAsync(CsFeatureToggle(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync(SuperOffice.CRM.Services.CsFeatureToggle(), System.Threading.CancellationToken)
+  name.vb: UpdateFeatureTogglesAsync(CsFeatureToggle(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExistsAsync(SuperOffice.Data.EventHandlerType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExistsAsync(SuperOffice.Data.EventHandlerType,System.Threading.CancellationToken)
+  id: EventHandlerExistsAsync(SuperOffice.Data.EventHandlerType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: EventHandlerExists(EventHandlerType)
-  nameWithType: ICustomerServiceAgent.EventHandlerExists(EventHandlerType)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists(SuperOffice.Data.EventHandlerType)
+  name: EventHandlerExistsAsync(EventHandlerType, CancellationToken)
+  nameWithType: ICustomerServiceAgent.EventHandlerExistsAsync(EventHandlerType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExistsAsync(SuperOffice.Data.EventHandlerType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -377,26 +347,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCheck if an eventhandler exists for a given enum\n"
   syntax:
-    content: bool EventHandlerExists(EventHandlerType eventHandlerType)
+    content: Task<bool> EventHandlerExistsAsync(EventHandlerType eventHandlerType, CancellationToken cancellationToken = null)
     parameters:
     - id: eventHandlerType
       type: SuperOffice.Data.EventHandlerType
       description: The EventHandlerType we are checking
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True if it exists
-    content.vb: Function EventHandlerExists(eventHandlerType As EventHandlerType) As Boolean
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
-  id: EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+    content.vb: Function EventHandlerExistsAsync(eventHandlerType As EventHandlerType, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExistsAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.Data.EventHandlerType[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.Data.EventHandlerType[],System.Threading.CancellationToken)
+  id: EventHandlersExistsAsync(SuperOffice.Data.EventHandlerType[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: EventHandlersExists(EventHandlerType[])
-  nameWithType: ICustomerServiceAgent.EventHandlersExists(EventHandlerType[])
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+  name: EventHandlersExistsAsync(EventHandlerType[], CancellationToken)
+  nameWithType: ICustomerServiceAgent.EventHandlersExistsAsync(EventHandlerType[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.Data.EventHandlerType[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -406,29 +378,31 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCheck if any given eventhandler exists\n"
   syntax:
-    content: EventHandlerType[] EventHandlersExists(EventHandlerType[] eventHandlerTypes)
+    content: Task<EventHandlerType[]> EventHandlersExistsAsync(EventHandlerType[] eventHandlerTypes, CancellationToken cancellationToken = null)
     parameters:
     - id: eventHandlerTypes
       type: SuperOffice.Data.EventHandlerType[]
       description: The EventHandlerTypes we are checking
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.EventHandlerType[]
+      type: System.Threading.Tasks.Task{SuperOffice.Data.EventHandlerType[]}
       description: The existing event handlers
-    content.vb: Function EventHandlersExists(eventHandlerTypes As EventHandlerType()) As EventHandlerType()
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists*
-  nameWithType.vb: ICustomerServiceAgent.EventHandlersExists(EventHandlerType())
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType())
-  name.vb: EventHandlersExists(EventHandlerType())
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession(System.String)
-  id: CreateSession(System.String)
+    content.vb: Function EventHandlersExistsAsync(eventHandlerTypes As EventHandlerType(), cancellationToken As CancellationToken = Nothing) As Task(Of EventHandlerType())
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExistsAsync*
+  nameWithType.vb: ICustomerServiceAgent.EventHandlersExistsAsync(EventHandlerType(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.Data.EventHandlerType(), System.Threading.CancellationToken)
+  name.vb: EventHandlersExistsAsync(EventHandlerType(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSessionAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSessionAsync(System.String,System.Threading.CancellationToken)
+  id: CreateSessionAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: CreateSession(String)
-  nameWithType: ICustomerServiceAgent.CreateSession(String)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession(System.String)
+  name: CreateSessionAsync(String, CancellationToken)
+  nameWithType: ICustomerServiceAgent.CreateSessionAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSessionAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -438,26 +412,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCreates a login session for a CS user\n"
   syntax:
-    content: CsSessionKey CreateSession(string remoteIp)
+    content: Task<CsSessionKey> CreateSessionAsync(string remoteIp, CancellationToken cancellationToken = null)
     parameters:
     - id: remoteIp
       type: System.String
       description: The ip of the client creating the session
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CsSessionKey
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CsSessionKey}
       description: The session key information
-    content.vb: Function CreateSession(remoteIp As String) As CsSessionKey
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession(System.Int32)
-  id: RemoveSession(System.Int32)
+    content.vb: Function CreateSessionAsync(remoteIp As String, cancellationToken As CancellationToken = Nothing) As Task(Of CsSessionKey)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSessionAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync(System.Int32,System.Threading.CancellationToken)
+  id: RemoveSessionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: RemoveSession(Int32)
-  nameWithType: ICustomerServiceAgent.RemoveSession(Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession(System.Int32)
+  name: RemoveSessionAsync(Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.RemoveSessionAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -467,23 +443,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nRemove a login session for a CS user\n"
   syntax:
-    content: void RemoveSession(int loginId)
+    content: Task RemoveSessionAsync(int loginId, CancellationToken cancellationToken = null)
     parameters:
     - id: loginId
       type: System.Int32
       description: The login id to remove
-    content.vb: Sub RemoveSession(loginId As Integer)
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid(System.String)
-  id: SessionIsValid(System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveSessionAsync(loginId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValidAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValidAsync(System.String,System.Threading.CancellationToken)
+  id: SessionIsValidAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: SessionIsValid(String)
-  nameWithType: ICustomerServiceAgent.SessionIsValid(String)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid(System.String)
+  name: SessionIsValidAsync(String, CancellationToken)
+  nameWithType: ICustomerServiceAgent.SessionIsValidAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValidAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -493,26 +473,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCheck if a CS session is valid\n"
   syntax:
-    content: bool SessionIsValid(string csSessionKey)
+    content: Task<bool> SessionIsValidAsync(string csSessionKey, CancellationToken cancellationToken = null)
     parameters:
     - id: csSessionKey
       type: System.String
       description: The CS session key to check
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True if there is a valid CS session based on the session key
-    content.vb: Function SessionIsValid(csSessionKey As String) As Boolean
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify
-  id: HasChatNotify
+    content.vb: Function SessionIsValidAsync(csSessionKey As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValidAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotifyAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotifyAsync(System.Threading.CancellationToken)
+  id: HasChatNotifyAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: HasChatNotify()
-  nameWithType: ICustomerServiceAgent.HasChatNotify()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify()
+  name: HasChatNotifyAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.HasChatNotifyAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotifyAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -522,22 +504,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCheck if user has any chat notification\n"
   syntax:
-    content: bool HasChatNotify()
+    content: Task<bool> HasChatNotifyAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True if the user has at least one notification setting on
-    content.vb: Function HasChatNotify As Boolean
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption(System.String)
-  id: CheckSymmetricEncryption(System.String)
+    content.vb: Function HasChatNotifyAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotifyAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryptionAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryptionAsync(System.String,System.Threading.CancellationToken)
+  id: CheckSymmetricEncryptionAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: CheckSymmetricEncryption(String)
-  nameWithType: ICustomerServiceAgent.CheckSymmetricEncryption(String)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption(System.String)
+  name: CheckSymmetricEncryptionAsync(String, CancellationToken)
+  nameWithType: ICustomerServiceAgent.CheckSymmetricEncryptionAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryptionAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -547,26 +532,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDo a test to check that we are using the same encryption keys\n"
   syntax:
-    content: string CheckSymmetricEncryption(string encryptedString)
+    content: Task<string> CheckSymmetricEncryptionAsync(string encryptedString, CancellationToken cancellationToken = null)
     parameters:
     - id: encryptedString
       type: System.String
       description: An encrypted version of the string
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Encrypted version of the string done by NetServer
-    content.vb: Function CheckSymmetricEncryption(encryptedString As String) As String
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive(System.String)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive(System.String)
-  id: ReportSessionActive(System.String)
+    content.vb: Function CheckSymmetricEncryptionAsync(encryptedString As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryptionAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActiveAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActiveAsync(System.String,System.Threading.CancellationToken)
+  id: ReportSessionActiveAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: ReportSessionActive(String)
-  nameWithType: ICustomerServiceAgent.ReportSessionActive(String)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive(System.String)
+  name: ReportSessionActiveAsync(String, CancellationToken)
+  nameWithType: ICustomerServiceAgent.ReportSessionActiveAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActiveAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -576,26 +563,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReport a session as being &apos;active&apos;; will update the corresponding row in login table, but not more than once per minute/session\n"
   syntax:
-    content: int ReportSessionActive(string sessionKey)
+    content: Task<int> ReportSessionActiveAsync(string sessionKey, CancellationToken cancellationToken = null)
     parameters:
     - id: sessionKey
       type: System.String
       description: CS session key, matching the &apos;login&apos; table
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: The ID of the login table row, or 0 if not found
-    content.vb: Function ReportSessionActive(sessionKey As String) As Integer
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig(System.Int32)
-  id: GetCustomerCenterConfig(System.Int32)
+    content.vb: Function ReportSessionActiveAsync(sessionKey As String, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActiveAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetCustomerCenterConfig(Int32)
-  nameWithType: ICustomerServiceAgent.GetCustomerCenterConfig(Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig(System.Int32)
+  name: GetCustomerCenterConfigAsync(Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetCustomerCenterConfigAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -605,26 +594,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets a CustomerCenterConfig object.                        \n"
   syntax:
-    content: CustomerCenterConfig GetCustomerCenterConfig(int customerCenterConfigId)
+    content: Task<CustomerCenterConfig> GetCustomerCenterConfigAsync(int customerCenterConfigId, CancellationToken cancellationToken = null)
     parameters:
     - id: customerCenterConfigId
       type: System.Int32
       description: The identifier of the CustomerCenterConfig object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CustomerCenterConfig
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
       description: CustomerCenterConfig
-    content.vb: Function GetCustomerCenterConfig(customerCenterConfigId As Integer) As CustomerCenterConfig
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs
-  id: GetAllCustomerCenterConfigs
+    content.vb: Function GetCustomerCenterConfigAsync(customerCenterConfigId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CustomerCenterConfig)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigsAsync(System.Threading.CancellationToken)
+  id: GetAllCustomerCenterConfigsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetAllCustomerCenterConfigs()
-  nameWithType: ICustomerServiceAgent.GetAllCustomerCenterConfigs()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs()
+  name: GetAllCustomerCenterConfigsAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetAllCustomerCenterConfigsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigsAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -634,22 +625,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet all rows from cust_config as an array of CustomerCenterConfig entities\n"
   syntax:
-    content: CustomerCenterConfig[] GetAllCustomerCenterConfigs()
+    content: Task<CustomerCenterConfig[]> GetAllCustomerCenterConfigsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CustomerCenterConfig[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig[]}
       description: An array of CustomerCenterConfig entities
-    content.vb: Function GetAllCustomerCenterConfigs As CustomerCenterConfig()
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs(SuperOffice.CRM.Services.CustomerCenterConfig[])
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs(SuperOffice.CRM.Services.CustomerCenterConfig[])
-  id: SaveAllCustomerCenterConfigs(SuperOffice.CRM.Services.CustomerCenterConfig[])
+    content.vb: Function GetAllCustomerCenterConfigsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CustomerCenterConfig())
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigsAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync(SuperOffice.CRM.Services.CustomerCenterConfig[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync(SuperOffice.CRM.Services.CustomerCenterConfig[],System.Threading.CancellationToken)
+  id: SaveAllCustomerCenterConfigsAsync(SuperOffice.CRM.Services.CustomerCenterConfig[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: SaveAllCustomerCenterConfigs(CustomerCenterConfig[])
-  nameWithType: ICustomerServiceAgent.SaveAllCustomerCenterConfigs(CustomerCenterConfig[])
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs(SuperOffice.CRM.Services.CustomerCenterConfig[])
+  name: SaveAllCustomerCenterConfigsAsync(CustomerCenterConfig[], CancellationToken)
+  nameWithType: ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync(CustomerCenterConfig[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync(SuperOffice.CRM.Services.CustomerCenterConfig[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -659,26 +653,31 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSave an array of CustomerCenterConfig entities to the database\n"
   syntax:
-    content: void SaveAllCustomerCenterConfigs(CustomerCenterConfig[] custConfigs)
+    content: Task SaveAllCustomerCenterConfigsAsync(CustomerCenterConfig[] custConfigs, CancellationToken cancellationToken = null)
     parameters:
     - id: custConfigs
       type: SuperOffice.CRM.Services.CustomerCenterConfig[]
       description: The CustomerCenterConfig entities to be saved. If the id does not exists, a new one will be created. Unknown ids will be skipped
-    content.vb: Sub SaveAllCustomerCenterConfigs(custConfigs As CustomerCenterConfig())
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs*
-  nameWithType.vb: ICustomerServiceAgent.SaveAllCustomerCenterConfigs(CustomerCenterConfig())
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs(SuperOffice.CRM.Services.CustomerCenterConfig())
-  name.vb: SaveAllCustomerCenterConfigs(CustomerCenterConfig())
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates
-  id: CheckIfCustomizedTemplates
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: void
+    content.vb: Function SaveAllCustomerCenterConfigsAsync(custConfigs As CustomerCenterConfig(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync*
+  nameWithType.vb: ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync(CustomerCenterConfig(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync(SuperOffice.CRM.Services.CustomerCenterConfig(), System.Threading.CancellationToken)
+  name.vb: SaveAllCustomerCenterConfigsAsync(CustomerCenterConfig(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplatesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplatesAsync(System.Threading.CancellationToken)
+  id: CheckIfCustomizedTemplatesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: CheckIfCustomizedTemplates()
-  nameWithType: ICustomerServiceAgent.CheckIfCustomizedTemplates()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates()
+  name: CheckIfCustomizedTemplatesAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.CheckIfCustomizedTemplatesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplatesAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -688,22 +687,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nChecks whether the core html templates are customized\n"
   syntax:
-    content: bool CheckIfCustomizedTemplates()
+    content: Task<bool> CheckIfCustomizedTemplatesAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True if the templates are customized
-    content.vb: Function CheckIfCustomizedTemplates As Boolean
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl(System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl(System.String,System.Boolean)
-  id: GetProgramUrl(System.String,System.Boolean)
+    content.vb: Function CheckIfCustomizedTemplatesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplatesAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrlAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrlAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetProgramUrlAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetProgramUrl(String, Boolean)
-  nameWithType: ICustomerServiceAgent.GetProgramUrl(String, Boolean)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl(System.String, System.Boolean)
+  name: GetProgramUrlAsync(String, Boolean, CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetProgramUrlAsync(String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrlAsync(System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -713,7 +715,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nThis method will convert a module name into a Service URL.\n"
   syntax:
-    content: string GetProgramUrl(string programName, bool external)
+    content: Task<string> GetProgramUrlAsync(string programName, bool external, CancellationToken cancellationToken = null)
     parameters:
     - id: programName
       type: System.String
@@ -721,21 +723,23 @@ items:
     - id: external
       type: System.Boolean
       description: If set to true, this will generate URLs that are accesible from the outside (for example Internet)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Returns a valid Service URL composed of the give parameters.
-    content.vb: Function GetProgramUrl(programName As String, external As Boolean) As String
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
-  id: GetFaqForCustomer(System.Int32)
+    content.vb: Function GetProgramUrlAsync(programName As String, external As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrlAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomerAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomerAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFaqForCustomerAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetFaqForCustomer(Int32)
-  nameWithType: ICustomerServiceAgent.GetFaqForCustomer(Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
+  name: GetFaqForCustomerAsync(Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetFaqForCustomerAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomerAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -745,26 +749,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a FAQ entry, ment to be displayed for a customer. This can either be a link to the FAQ entry on Custom Center, or it can be the answer and question. This is dependent on Registry setting with reg_id=157\n"
   syntax:
-    content: string GetFaqForCustomer(int faqEntryId)
+    content: Task<string> GetFaqForCustomerAsync(int faqEntryId, CancellationToken cancellationToken = null)
     parameters:
     - id: faqEntryId
       type: System.Int32
       description: The id of the FAQ entry to get. Only FAQ entries with access level public (both for unauthenticated and autenticated customer) will be returned
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: The FAQ to show to the customer. Either a clickable link or the question/answer itself.
-    content.vb: Function GetFaqForCustomer(faqEntryId As Integer) As String
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup
-  id: GetCustomerServiceStartup
+    content.vb: Function GetFaqForCustomerAsync(faqEntryId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomerAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupAsync(System.Threading.CancellationToken)
+  id: GetCustomerServiceStartupAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetCustomerServiceStartup()
-  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartup()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup()
+  name: GetCustomerServiceStartupAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -774,22 +780,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet the carrier with data that Service needs when starting up\n"
   syntax:
-    content: CustomerServiceStartup GetCustomerServiceStartup()
+    content: Task<CustomerServiceStartup> GetCustomerServiceStartupAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CustomerServiceStartup
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerServiceStartup}
       description: The carrier containing the startup data
-    content.vb: Function GetCustomerServiceStartup As CustomerServiceStartup
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner(System.Int32)
-  id: GetCustomerServiceStartupByOwner(System.Int32)
+    content.vb: Function GetCustomerServiceStartupAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CustomerServiceStartup)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetCustomerServiceStartupByOwnerAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetCustomerServiceStartupByOwner(Int32)
-  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupByOwner(Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner(System.Int32)
+  name: GetCustomerServiceStartupByOwnerAsync(Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -799,26 +808,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet the carrier with data that Service needs when starting up for a specific user\n"
   syntax:
-    content: CustomerServiceStartup GetCustomerServiceStartupByOwner(int userId)
+    content: Task<CustomerServiceStartup> GetCustomerServiceStartupByOwnerAsync(int userId, CancellationToken cancellationToken = null)
     parameters:
     - id: userId
       type: System.Int32
       description: The user for which we want to fetch the startup values for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CustomerServiceStartup
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerServiceStartup}
       description: The carrier containing the startup data
-    content.vb: Function GetCustomerServiceStartupByOwner(userId As Integer) As CustomerServiceStartup
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
-  id: ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
+    content.vb: Function GetCustomerServiceStartupByOwnerAsync(userId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CustomerServiceStartup)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlersAsync(SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlersAsync(SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
+  id: ExecuteEventHandlersAsync(SuperOffice.CRM.Services.EventData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: ExecuteEventHandlers(EventData)
-  nameWithType: ICustomerServiceAgent.ExecuteEventHandlers(EventData)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
+  name: ExecuteEventHandlersAsync(EventData, CancellationToken)
+  nameWithType: ICustomerServiceAgent.ExecuteEventHandlersAsync(EventData, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlersAsync(SuperOffice.CRM.Services.EventData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -828,26 +839,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nThis method will execute event handlers in CRMScript for a given event.\n"
   syntax:
-    content: EventData ExecuteEventHandlers(EventData eventData)
+    content: Task<EventData> ExecuteEventHandlersAsync(EventData eventData, CancellationToken cancellationToken = null)
     parameters:
     - id: eventData
       type: SuperOffice.CRM.Services.EventData
       description: The EventData instance sent to the event handler
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.EventData
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EventData}
       description: The EventData instance after event handler execution
-    content.vb: Function ExecuteEventHandlers(eventData As EventData) As EventData
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes
-  id: GetMailboxes
+    content.vb: Function ExecuteEventHandlersAsync(eventData As EventData, cancellationToken As CancellationToken = Nothing) As Task(Of EventData)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlersAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxesAsync(System.Threading.CancellationToken)
+  id: GetMailboxesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetMailboxes()
-  nameWithType: ICustomerServiceAgent.GetMailboxes()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes()
+  name: GetMailboxesAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetMailboxesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxesAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -857,22 +870,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nThis method will get all registered mailboxes in Service\n"
   syntax:
-    content: Mailbox[] GetMailboxes()
+    content: Task<Mailbox[]> GetMailboxesAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Mailbox[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Mailbox[]}
       description: An array of Mailbox objects
-    content.vb: Function GetMailboxes As Mailbox()
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
-  id: GetMailboxEntity(System.Int32)
+    content.vb: Function GetMailboxesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Mailbox())
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxesAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetMailboxEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetMailboxEntity(Int32)
-  nameWithType: ICustomerServiceAgent.GetMailboxEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
+  name: GetMailboxEntityAsync(Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetMailboxEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -882,26 +898,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets a MailboxEntity object.                        \n"
   syntax:
-    content: MailboxEntity GetMailboxEntity(int mailboxEntityId)
+    content: Task<MailboxEntity> GetMailboxEntityAsync(int mailboxEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: mailboxEntityId
       type: System.Int32
       description: The identifier of the MailboxEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.MailboxEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
       description: MailboxEntity
-    content.vb: Function GetMailboxEntity(mailboxEntityId As Integer) As MailboxEntity
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry(System.Int32)
-  id: GetPreviewFaqEntry(System.Int32)
+    content.vb: Function GetMailboxEntityAsync(mailboxEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of MailboxEntity)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntryAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntryAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPreviewFaqEntryAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetPreviewFaqEntry(Int32)
-  nameWithType: ICustomerServiceAgent.GetPreviewFaqEntry(Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry(System.Int32)
+  name: GetPreviewFaqEntryAsync(Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetPreviewFaqEntryAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntryAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -911,26 +929,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a faq entry from its faq entry id\n"
   syntax:
-    content: PreviewFaqEntry GetPreviewFaqEntry(int kbEntryId)
+    content: Task<PreviewFaqEntry> GetPreviewFaqEntryAsync(int kbEntryId, CancellationToken cancellationToken = null)
     parameters:
     - id: kbEntryId
       type: System.Int32
       description: FAQ entry ID
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreviewFaqEntry
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewFaqEntry}
       description: FAQ entry suitable for preview
-    content.vb: Function GetPreviewFaqEntry(kbEntryId As Integer) As PreviewFaqEntry
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply(System.Int32)
-  id: GetPreviewQuickReply(System.Int32)
+    content.vb: Function GetPreviewFaqEntryAsync(kbEntryId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PreviewFaqEntry)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntryAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReplyAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReplyAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPreviewQuickReplyAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetPreviewQuickReply(Int32)
-  nameWithType: ICustomerServiceAgent.GetPreviewQuickReply(Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply(System.Int32)
+  name: GetPreviewQuickReplyAsync(Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetPreviewQuickReplyAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReplyAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -940,26 +960,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a quick reply from its quick reply id\n"
   syntax:
-    content: PreviewQuickReply GetPreviewQuickReply(int quickReplyId)
+    content: Task<PreviewQuickReply> GetPreviewQuickReplyAsync(int quickReplyId, CancellationToken cancellationToken = null)
     parameters:
     - id: quickReplyId
       type: System.Int32
       description: Quick reply ID
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreviewQuickReply
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewQuickReply}
       description: Quick reply suitable for preview
-    content.vb: Function GetPreviewQuickReply(quickReplyId As Integer) As PreviewQuickReply
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate(System.Int32)
-  id: GetPreviewReplyTemplate(System.Int32)
+    content.vb: Function GetPreviewQuickReplyAsync(quickReplyId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PreviewQuickReply)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReplyAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplateAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPreviewReplyTemplateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetPreviewReplyTemplate(Int32)
-  nameWithType: ICustomerServiceAgent.GetPreviewReplyTemplate(Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate(System.Int32)
+  name: GetPreviewReplyTemplateAsync(Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetPreviewReplyTemplateAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplateAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -969,26 +991,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a reply template from its reply template id\n"
   syntax:
-    content: PreviewReplyTemplate GetPreviewReplyTemplate(int replyTemplateId)
+    content: Task<PreviewReplyTemplate> GetPreviewReplyTemplateAsync(int replyTemplateId, CancellationToken cancellationToken = null)
     parameters:
     - id: replyTemplateId
       type: System.Int32
       description: Reply template ID
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreviewReplyTemplate
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewReplyTemplate}
       description: Reply template suitable for preview
-    content.vb: Function GetPreviewReplyTemplate(replyTemplateId As Integer) As PreviewReplyTemplate
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
-  id: GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
+    content.vb: Function GetPreviewReplyTemplateAsync(replyTemplateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PreviewReplyTemplate)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplateAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplateAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplateAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetParsedTemplateAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetParsedTemplate(Int32, Int32, Int32, Int32)
-  nameWithType: ICustomerServiceAgent.GetParsedTemplate(Int32, Int32, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32, System.Int32, System.Int32, System.Int32)
+  name: GetParsedTemplateAsync(Int32, Int32, Int32, Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetParsedTemplateAsync(Int32, Int32, Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplateAsync(System.Int32, System.Int32, System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -998,7 +1022,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a specific langauge version of the reply template, and run this trough the parser\n"
   syntax:
-    content: ReplyTemplateParsed GetParsedTemplate(int replyTemplateId, int languageId, int personId, int ticketId)
+    content: Task<ReplyTemplateParsed> GetParsedTemplateAsync(int replyTemplateId, int languageId, int personId, int ticketId, CancellationToken cancellationToken = null)
     parameters:
     - id: replyTemplateId
       type: System.Int32
@@ -1012,21 +1036,23 @@ items:
     - id: ticketId
       type: System.Int32
       description: The id of the ticket that will be populated into the parser
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ReplyTemplateParsed
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ReplyTemplateParsed}
       description: The parsed reply template
-    content.vb: Function GetParsedTemplate(replyTemplateId As Integer, languageId As Integer, personId As Integer, ticketId As Integer) As ReplyTemplateParsed
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate(System.Int32,System.Int32)
-  id: GetUnparsedTemplate(System.Int32,System.Int32)
+    content.vb: Function GetParsedTemplateAsync(replyTemplateId As Integer, languageId As Integer, personId As Integer, ticketId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ReplyTemplateParsed)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplateAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplateAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplateAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetUnparsedTemplateAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetUnparsedTemplate(Int32, Int32)
-  nameWithType: ICustomerServiceAgent.GetUnparsedTemplate(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate(System.Int32, System.Int32)
+  name: GetUnparsedTemplateAsync(Int32, Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetUnparsedTemplateAsync(Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplateAsync(System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1036,7 +1062,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a specific langauge version of the reply template. No parsing is performed.\n"
   syntax:
-    content: ReplyTemplateParsed GetUnparsedTemplate(int replyTemplateId, int languageId)
+    content: Task<ReplyTemplateParsed> GetUnparsedTemplateAsync(int replyTemplateId, int languageId, CancellationToken cancellationToken = null)
     parameters:
     - id: replyTemplateId
       type: System.Int32
@@ -1044,21 +1070,23 @@ items:
     - id: languageId
       type: System.Int32
       description: The language id (prefered language). If 0 is given, the language of the person will be used
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ReplyTemplateParsed
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ReplyTemplateParsed}
       description: The unparsed reply template, but using the same return data structure
-    content.vb: Function GetUnparsedTemplate(replyTemplateId As Integer, languageId As Integer) As ReplyTemplateParsed
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig
-  id: GetSmsConfig
+    content.vb: Function GetUnparsedTemplateAsync(replyTemplateId As Integer, languageId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ReplyTemplateParsed)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplateAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfigAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfigAsync(System.Threading.CancellationToken)
+  id: GetSmsConfigAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetSmsConfig()
-  nameWithType: ICustomerServiceAgent.GetSmsConfig()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig()
+  name: GetSmsConfigAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetSmsConfigAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfigAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1068,22 +1096,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet the SmsConfig settings for Customer Service sms providers.\n"
   syntax:
-    content: SmsConfig GetSmsConfig()
+    content: Task<SmsConfig> GetSmsConfigAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SmsConfig
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SmsConfig}
       description: Current SMS configuration.
-    content.vb: Function GetSmsConfig As SmsConfig
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer(System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer(System.String,System.String,System.Boolean)
-  id: TestSmtpServer(System.String,System.String,System.Boolean)
+    content.vb: Function GetSmsConfigAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SmsConfig)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfigAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServerAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServerAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: TestSmtpServerAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: TestSmtpServer(String, String, Boolean)
-  nameWithType: ICustomerServiceAgent.TestSmtpServer(String, String, Boolean)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer(System.String, System.String, System.Boolean)
+  name: TestSmtpServerAsync(String, String, Boolean, CancellationToken)
+  nameWithType: ICustomerServiceAgent.TestSmtpServerAsync(String, String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServerAsync(System.String, System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1093,7 +1124,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nThis method will do a test of a SMTP account, by sending an email to a special @superoffice.com account\n"
   syntax:
-    content: SmtpTestResult TestSmtpServer(string smtpUri, string from, bool useStoredPassword)
+    content: Task<SmtpTestResult> TestSmtpServerAsync(string smtpUri, string from, bool useStoredPassword, CancellationToken cancellationToken = null)
     parameters:
     - id: smtpUri
       type: System.String
@@ -1104,21 +1135,23 @@ items:
     - id: useStoredPassword
       type: System.Boolean
       description: Use database persisted password
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SmtpTestResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SmtpTestResult}
       description: Contains the result of the test
-    content.vb: Function TestSmtpServer(smtpUri As String, from As String, useStoredPassword As Boolean) As SmtpTestResult
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics(SuperOffice.Data.StatusScreenPanelType[])
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics(SuperOffice.Data.StatusScreenPanelType[])
-  id: GetStatistics(SuperOffice.Data.StatusScreenPanelType[])
+    content.vb: Function TestSmtpServerAsync(smtpUri As String, from As String, useStoredPassword As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of SmtpTestResult)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServerAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatisticsAsync(SuperOffice.Data.StatusScreenPanelType[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatisticsAsync(SuperOffice.Data.StatusScreenPanelType[],System.Threading.CancellationToken)
+  id: GetStatisticsAsync(SuperOffice.Data.StatusScreenPanelType[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetStatistics(StatusScreenPanelType[])
-  nameWithType: ICustomerServiceAgent.GetStatistics(StatusScreenPanelType[])
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics(SuperOffice.Data.StatusScreenPanelType[])
+  name: GetStatisticsAsync(StatusScreenPanelType[], CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetStatisticsAsync(StatusScreenPanelType[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatisticsAsync(SuperOffice.Data.StatusScreenPanelType[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1128,29 +1161,31 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturns the calculated results for the required statistics for the Customer Service Status Page\n"
   syntax:
-    content: StatisticsDataSet[] GetStatistics(StatusScreenPanelType[] functions)
+    content: Task<StatisticsDataSet[]> GetStatisticsAsync(StatusScreenPanelType[] functions, CancellationToken cancellationToken = null)
     parameters:
     - id: functions
       type: SuperOffice.Data.StatusScreenPanelType[]
       description: List of functions to calculate and return
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.StatisticsDataSet[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatisticsDataSet[]}
       description: Array of StatisticsDataSet
-    content.vb: Function GetStatistics(functions As StatusScreenPanelType()) As StatisticsDataSet()
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics*
-  nameWithType.vb: ICustomerServiceAgent.GetStatistics(StatusScreenPanelType())
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics(SuperOffice.Data.StatusScreenPanelType())
-  name.vb: GetStatistics(StatusScreenPanelType())
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings
-  id: GetSystemTemplateSettings
+    content.vb: Function GetStatisticsAsync(functions As StatusScreenPanelType(), cancellationToken As CancellationToken = Nothing) As Task(Of StatisticsDataSet())
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatisticsAsync*
+  nameWithType.vb: ICustomerServiceAgent.GetStatisticsAsync(StatusScreenPanelType(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatisticsAsync(SuperOffice.Data.StatusScreenPanelType(), System.Threading.CancellationToken)
+  name.vb: GetStatisticsAsync(StatusScreenPanelType(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettingsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettingsAsync(System.Threading.CancellationToken)
+  id: GetSystemTemplateSettingsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: GetSystemTemplateSettings()
-  nameWithType: ICustomerServiceAgent.GetSystemTemplateSettings()
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings()
+  name: GetSystemTemplateSettingsAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.GetSystemTemplateSettingsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettingsAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1160,22 +1195,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturns system template settings\n"
   syntax:
-    content: SystemTemplateSettings GetSystemTemplateSettings()
+    content: Task<SystemTemplateSettings> GetSystemTemplateSettingsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SystemTemplateSettings
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SystemTemplateSettings}
       description: System template settings item
-    content.vb: Function GetSystemTemplateSettings As SystemTemplateSettings
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings(SuperOffice.CRM.Services.SystemTemplateSettings)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings(SuperOffice.CRM.Services.SystemTemplateSettings)
-  id: SaveSystemTemplateSettings(SuperOffice.CRM.Services.SystemTemplateSettings)
+    content.vb: Function GetSystemTemplateSettingsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SystemTemplateSettings)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettingsAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettingsAsync(SuperOffice.CRM.Services.SystemTemplateSettings,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettingsAsync(SuperOffice.CRM.Services.SystemTemplateSettings,System.Threading.CancellationToken)
+  id: SaveSystemTemplateSettingsAsync(SuperOffice.CRM.Services.SystemTemplateSettings,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: SaveSystemTemplateSettings(SystemTemplateSettings)
-  nameWithType: ICustomerServiceAgent.SaveSystemTemplateSettings(SystemTemplateSettings)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings(SuperOffice.CRM.Services.SystemTemplateSettings)
+  name: SaveSystemTemplateSettingsAsync(SystemTemplateSettings, CancellationToken)
+  nameWithType: ICustomerServiceAgent.SaveSystemTemplateSettingsAsync(SystemTemplateSettings, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettingsAsync(SuperOffice.CRM.Services.SystemTemplateSettings, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1185,26 +1223,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSaves and validates updated system templates. Throws exception if validation fails\n"
   syntax:
-    content: SystemTemplateSettings SaveSystemTemplateSettings(SystemTemplateSettings systemTemplateSettings)
+    content: Task<SystemTemplateSettings> SaveSystemTemplateSettingsAsync(SystemTemplateSettings systemTemplateSettings, CancellationToken cancellationToken = null)
     parameters:
     - id: systemTemplateSettings
       type: SuperOffice.CRM.Services.SystemTemplateSettings
       description: System template settings item with updated values
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SystemTemplateSettings
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SystemTemplateSettings}
       description: Updated system template settings
-    content.vb: Function SaveSystemTemplateSettings(systemTemplateSettings As SystemTemplateSettings) As SystemTemplateSettings
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData(System.Int32,System.String)
-  id: CreateTicketFromMailData(System.Int32,System.String)
+    content.vb: Function SaveSystemTemplateSettingsAsync(systemTemplateSettings As SystemTemplateSettings, cancellationToken As CancellationToken = Nothing) As Task(Of SystemTemplateSettings)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettingsAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: CreateTicketFromMailDataAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: CreateTicketFromMailData(Int32, String)
-  nameWithType: ICustomerServiceAgent.CreateTicketFromMailData(Int32, String)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData(System.Int32, System.String)
+  name: CreateTicketFromMailDataAsync(Int32, String, CancellationToken)
+  nameWithType: ICustomerServiceAgent.CreateTicketFromMailDataAsync(Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1214,7 +1254,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nThis method create a new ticket in the same way as importMail would import an email. It accepts RFC822 formatted data\n"
   syntax:
-    content: TicketInfo CreateTicketFromMailData(int mailboxId, string data)
+    content: Task<TicketInfo> CreateTicketFromMailDataAsync(int mailboxId, string data, CancellationToken cancellationToken = null)
     parameters:
     - id: mailboxId
       type: System.Int32
@@ -1222,21 +1262,23 @@ items:
     - id: data
       type: System.String
       description: RFC822 formatted data to import as a ticket
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TicketInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketInfo}
       description: An object containing some meta data for the created ticket
-    content.vb: Function CreateTicketFromMailData(mailboxId As Integer, data As String) As TicketInfo
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData(System.Int32,System.String)
-  id: AddMessageFromMailData(System.Int32,System.String)
+    content.vb: Function CreateTicketFromMailDataAsync(mailboxId As Integer, data As String, cancellationToken As CancellationToken = Nothing) As Task(Of TicketInfo)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailDataAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailDataAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailDataAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: AddMessageFromMailDataAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: AddMessageFromMailData(Int32, String)
-  nameWithType: ICustomerServiceAgent.AddMessageFromMailData(Int32, String)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData(System.Int32, System.String)
+  name: AddMessageFromMailDataAsync(Int32, String, CancellationToken)
+  nameWithType: ICustomerServiceAgent.AddMessageFromMailDataAsync(Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailDataAsync(System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1246,7 +1288,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nThis method will add a message to an existing request in the sam way as importMail would do it from an email. It accepts RFC822 formatted data\n"
   syntax:
-    content: TicketInfo AddMessageFromMailData(int ticketId, string data)
+    content: Task<TicketInfo> AddMessageFromMailDataAsync(int ticketId, string data, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
@@ -1254,21 +1296,23 @@ items:
     - id: data
       type: System.String
       description: RFC822 formatted data to import as a message
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TicketInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketInfo}
       description: An object containing some meta data for the ticket
-    content.vb: Function AddMessageFromMailData(ticketId As Integer, data As String) As TicketInfo
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId(System.String,System.Int32)
-  id: FindTicketsByTitleOrId(System.String,System.Int32)
+    content.vb: Function AddMessageFromMailDataAsync(ticketId As Integer, data As String, cancellationToken As CancellationToken = Nothing) As Task(Of TicketInfo)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailDataAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: FindTicketsByTitleOrIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: FindTicketsByTitleOrId(String, Int32)
-  nameWithType: ICustomerServiceAgent.FindTicketsByTitleOrId(String, Int32)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId(System.String, System.Int32)
+  name: FindTicketsByTitleOrIdAsync(String, Int32, CancellationToken)
+  nameWithType: ICustomerServiceAgent.FindTicketsByTitleOrIdAsync(String, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrIdAsync(System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1278,7 +1322,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nThis method wil search for tickets matching title or id\n"
   syntax:
-    content: TicketInfo[] FindTicketsByTitleOrId(string titleOrId, int maxRows)
+    content: Task<TicketInfo[]> FindTicketsByTitleOrIdAsync(string titleOrId, int maxRows, CancellationToken cancellationToken = null)
     parameters:
     - id: titleOrId
       type: System.String
@@ -1286,11 +1330,13 @@ items:
     - id: maxRows
       type: System.Int32
       description: The maximum number of rows to be returned
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TicketInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketInfo[]}
       description: An array of objects containing some meta data for matching tickets
-    content.vb: Function FindTicketsByTitleOrId(titleOrId As String, maxRows As Integer) As TicketInfo()
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId*
+    content.vb: Function FindTicketsByTitleOrIdAsync(titleOrId As String, maxRows As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TicketInfo())
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrIdAsync*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1298,12 +1344,104 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync
   isExternal: true
-  name: CreateDefaultCustomerCenterConfig
-  nameWithType: ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
+  name: CreateDefaultCustomerCenterConfigAsync
+  nameWithType: ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CustomerCenterConfig>
+  nameWithType: Task<CustomerCenterConfig>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CustomerCenterConfig>
+  nameWithType.vb: Task(Of CustomerCenterConfig)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CustomerCenterConfig)
+  name.vb: Task(Of CustomerCenterConfig)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.CustomerCenterConfig
+    name: CustomerCenterConfig
+    nameWithType: CustomerCenterConfig
+    fullName: SuperOffice.CRM.Services.CustomerCenterConfig
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.CustomerCenterConfig
+    name: CustomerCenterConfig
+    nameWithType: CustomerCenterConfig
+    fullName: SuperOffice.CRM.Services.CustomerCenterConfig
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync
+  isExternal: true
+  name: SaveCustomerCenterConfigAsync
+  nameWithType: ICustomerServiceAgent.SaveCustomerCenterConfigAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync
 - uid: SuperOffice.CRM.Services.CustomerCenterConfig
   commentId: T:SuperOffice.CRM.Services.CustomerCenterConfig
   parent: SuperOffice.CRM.Services
@@ -1311,18 +1449,12 @@ references:
   name: CustomerCenterConfig
   nameWithType: CustomerCenterConfig
   fullName: SuperOffice.CRM.Services.CustomerCenterConfig
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync
   isExternal: true
-  name: SaveCustomerCenterConfig
-  nameWithType: ICustomerServiceAgent.SaveCustomerCenterConfig
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig
-  isExternal: true
-  name: DeleteCustomerCenterConfig
-  nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfig
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig
+  name: DeleteCustomerCenterConfigAsync
+  nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfigAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1330,18 +1462,72 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync
   isExternal: true
-  name: CreateDefaultMailboxEntity
-  nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntity
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
+  name: CreateDefaultMailboxEntityAsync
+  nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntityAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<MailboxEntity>
+  nameWithType: Task<MailboxEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.MailboxEntity>
+  nameWithType.vb: Task(Of MailboxEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.MailboxEntity)
+  name.vb: Task(Of MailboxEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.MailboxEntity
+    name: MailboxEntity
+    nameWithType: MailboxEntity
+    fullName: SuperOffice.CRM.Services.MailboxEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.MailboxEntity
+    name: MailboxEntity
+    nameWithType: MailboxEntity
+    fullName: SuperOffice.CRM.Services.MailboxEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync
+  isExternal: true
+  name: SaveMailboxEntityAsync
+  nameWithType: ICustomerServiceAgent.SaveMailboxEntityAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync
 - uid: SuperOffice.CRM.Services.MailboxEntity
   commentId: T:SuperOffice.CRM.Services.MailboxEntity
   parent: SuperOffice.CRM.Services
@@ -1349,37 +1535,12 @@ references:
   name: MailboxEntity
   nameWithType: MailboxEntity
   fullName: SuperOffice.CRM.Services.MailboxEntity
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync
   isExternal: true
-  name: SaveMailboxEntity
-  nameWithType: ICustomerServiceAgent.SaveMailboxEntity
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig
-  isExternal: true
-  name: CreateDefaultSmsConfig
-  nameWithType: ICustomerServiceAgent.CreateDefaultSmsConfig
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig
-- uid: SuperOffice.CRM.Services.SmsConfig
-  commentId: T:SuperOffice.CRM.Services.SmsConfig
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: SmsConfig
-  nameWithType: SmsConfig
-  fullName: SuperOffice.CRM.Services.SmsConfig
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig
-  isExternal: true
-  name: SaveSmsConfig
-  nameWithType: ICustomerServiceAgent.SaveSmsConfig
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions
-  isExternal: true
-  name: DeleteChatSessions
-  nameWithType: ICustomerServiceAgent.DeleteChatSessions
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions
+  name: DeleteChatSessionsAsync
+  nameWithType: ICustomerServiceAgent.DeleteChatSessionsAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -1406,21 +1567,30 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUserAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUserAsync
   isExternal: true
-  name: ChatSessionsForUser
-  nameWithType: ICustomerServiceAgent.ChatSessionsForUser
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser
-- uid: SuperOffice.CRM.Services.ChatSession[]
-  isExternal: true
-  name: ChatSession[]
-  nameWithType: ChatSession[]
-  fullName: SuperOffice.CRM.Services.ChatSession[]
-  nameWithType.vb: ChatSession()
-  fullName.vb: SuperOffice.CRM.Services.ChatSession()
-  name.vb: ChatSession()
+  name: ChatSessionsForUserAsync
+  nameWithType: ICustomerServiceAgent.ChatSessionsForUserAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUserAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSession[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSession[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ChatSession[]>
+  nameWithType: Task<ChatSession[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatSession[]>
+  nameWithType.vb: Task(Of ChatSession())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatSession())
+  name.vb: Task(Of ChatSession())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.ChatSession
     name: ChatSession
     nameWithType: ChatSession
@@ -1429,7 +1599,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.ChatSession
     name: ChatSession
     nameWithType: ChatSession
@@ -1438,12 +1619,15 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync
   isExternal: true
-  name: UpdateFeatureToggles
-  nameWithType: ICustomerServiceAgent.UpdateFeatureToggles
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles
+  name: UpdateFeatureTogglesAsync
+  nameWithType: ICustomerServiceAgent.UpdateFeatureTogglesAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync
 - uid: SuperOffice.CRM.Services.CsFeatureToggle[]
   isExternal: true
   name: CsFeatureToggle[]
@@ -1470,30 +1654,66 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExistsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExistsAsync
   isExternal: true
-  name: EventHandlerExists
-  nameWithType: ICustomerServiceAgent.EventHandlerExists
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists
+  name: EventHandlerExistsAsync
+  nameWithType: ICustomerServiceAgent.EventHandlerExistsAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExistsAsync
 - uid: SuperOffice.Data.EventHandlerType
   isExternal: true
   name: EventHandlerType
   nameWithType: EventHandlerType
   fullName: SuperOffice.Data.EventHandlerType
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExistsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExistsAsync
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists
-  isExternal: true
-  name: EventHandlersExists
-  nameWithType: ICustomerServiceAgent.EventHandlersExists
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists
+  name: EventHandlersExistsAsync
+  nameWithType: ICustomerServiceAgent.EventHandlersExistsAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExistsAsync
 - uid: SuperOffice.Data.EventHandlerType[]
   isExternal: true
   name: EventHandlerType[]
@@ -1520,12 +1740,61 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.EventHandlerType[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.EventHandlerType[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<EventHandlerType[]>
+  nameWithType: Task<EventHandlerType[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.EventHandlerType[]>
+  nameWithType.vb: Task(Of EventHandlerType())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.EventHandlerType())
+  name.vb: Task(Of EventHandlerType())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.Data.EventHandlerType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.Data.EventHandlerType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSessionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSessionAsync
   isExternal: true
-  name: CreateSession
-  nameWithType: ICustomerServiceAgent.CreateSession
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession
+  name: CreateSessionAsync
+  nameWithType: ICustomerServiceAgent.CreateSessionAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSessionAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1533,55 +1802,232 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.Services.CsSessionKey
-  commentId: T:SuperOffice.CRM.Services.CsSessionKey
-  parent: SuperOffice.CRM.Services
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CsSessionKey}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CsSessionKey}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CsSessionKey>
+  nameWithType: Task<CsSessionKey>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CsSessionKey>
+  nameWithType.vb: Task(Of CsSessionKey)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CsSessionKey)
+  name.vb: Task(Of CsSessionKey)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.CsSessionKey
+    name: CsSessionKey
+    nameWithType: CsSessionKey
+    fullName: SuperOffice.CRM.Services.CsSessionKey
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.CsSessionKey
+    name: CsSessionKey
+    nameWithType: CsSessionKey
+    fullName: SuperOffice.CRM.Services.CsSessionKey
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync
   isExternal: true
-  name: CsSessionKey
-  nameWithType: CsSessionKey
-  fullName: SuperOffice.CRM.Services.CsSessionKey
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession
+  name: RemoveSessionAsync
+  nameWithType: ICustomerServiceAgent.RemoveSessionAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValidAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValidAsync
   isExternal: true
-  name: RemoveSession
-  nameWithType: ICustomerServiceAgent.RemoveSession
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid
+  name: SessionIsValidAsync
+  nameWithType: ICustomerServiceAgent.SessionIsValidAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValidAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotifyAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotifyAsync
   isExternal: true
-  name: SessionIsValid
-  nameWithType: ICustomerServiceAgent.SessionIsValid
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify
+  name: HasChatNotifyAsync
+  nameWithType: ICustomerServiceAgent.HasChatNotifyAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotifyAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryptionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryptionAsync
   isExternal: true
-  name: HasChatNotify
-  nameWithType: ICustomerServiceAgent.HasChatNotify
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption
+  name: CheckSymmetricEncryptionAsync
+  nameWithType: ICustomerServiceAgent.CheckSymmetricEncryptionAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryptionAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActiveAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActiveAsync
   isExternal: true
-  name: CheckSymmetricEncryption
-  nameWithType: ICustomerServiceAgent.CheckSymmetricEncryption
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive
+  name: ReportSessionActiveAsync
+  nameWithType: ICustomerServiceAgent.ReportSessionActiveAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActiveAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync
   isExternal: true
-  name: ReportSessionActive
-  nameWithType: ICustomerServiceAgent.ReportSessionActive
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig
+  name: GetCustomerCenterConfigAsync
+  nameWithType: ICustomerServiceAgent.GetCustomerCenterConfigAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigsAsync
   isExternal: true
-  name: GetCustomerCenterConfig
-  nameWithType: ICustomerServiceAgent.GetCustomerCenterConfig
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs
+  name: GetAllCustomerCenterConfigsAsync
+  nameWithType: ICustomerServiceAgent.GetAllCustomerCenterConfigsAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CustomerCenterConfig[]>
+  nameWithType: Task<CustomerCenterConfig[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CustomerCenterConfig[]>
+  nameWithType.vb: Task(Of CustomerCenterConfig())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CustomerCenterConfig())
+  name.vb: Task(Of CustomerCenterConfig())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.CustomerCenterConfig
+    name: CustomerCenterConfig
+    nameWithType: CustomerCenterConfig
+    fullName: SuperOffice.CRM.Services.CustomerCenterConfig
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.CustomerCenterConfig
+    name: CustomerCenterConfig
+    nameWithType: CustomerCenterConfig
+    fullName: SuperOffice.CRM.Services.CustomerCenterConfig
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync
   isExternal: true
-  name: GetAllCustomerCenterConfigs
-  nameWithType: ICustomerServiceAgent.GetAllCustomerCenterConfigs
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs
+  name: SaveAllCustomerCenterConfigsAsync
+  nameWithType: ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigsAsync
 - uid: SuperOffice.CRM.Services.CustomerCenterConfig[]
   isExternal: true
   name: CustomerCenterConfig[]
@@ -1608,55 +2054,92 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplatesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplatesAsync
   isExternal: true
-  name: SaveAllCustomerCenterConfigs
-  nameWithType: ICustomerServiceAgent.SaveAllCustomerCenterConfigs
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates
+  name: CheckIfCustomizedTemplatesAsync
+  nameWithType: ICustomerServiceAgent.CheckIfCustomizedTemplatesAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplatesAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrlAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrlAsync
   isExternal: true
-  name: CheckIfCustomizedTemplates
-  nameWithType: ICustomerServiceAgent.CheckIfCustomizedTemplates
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl
+  name: GetProgramUrlAsync
+  nameWithType: ICustomerServiceAgent.GetProgramUrlAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrlAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
-  name: GetProgramUrl
-  nameWithType: ICustomerServiceAgent.GetProgramUrl
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomerAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomerAsync
   isExternal: true
-  name: GetFaqForCustomer
-  nameWithType: ICustomerServiceAgent.GetFaqForCustomer
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup
+  name: GetFaqForCustomerAsync
+  nameWithType: ICustomerServiceAgent.GetFaqForCustomerAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomerAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupAsync
   isExternal: true
-  name: GetCustomerServiceStartup
-  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartup
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup
-- uid: SuperOffice.CRM.Services.CustomerServiceStartup
-  commentId: T:SuperOffice.CRM.Services.CustomerServiceStartup
-  parent: SuperOffice.CRM.Services
+  name: GetCustomerServiceStartupAsync
+  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerServiceStartup}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerServiceStartup}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CustomerServiceStartup>
+  nameWithType: Task<CustomerServiceStartup>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CustomerServiceStartup>
+  nameWithType.vb: Task(Of CustomerServiceStartup)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CustomerServiceStartup)
+  name.vb: Task(Of CustomerServiceStartup)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.CustomerServiceStartup
+    name: CustomerServiceStartup
+    nameWithType: CustomerServiceStartup
+    fullName: SuperOffice.CRM.Services.CustomerServiceStartup
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.CustomerServiceStartup
+    name: CustomerServiceStartup
+    nameWithType: CustomerServiceStartup
+    fullName: SuperOffice.CRM.Services.CustomerServiceStartup
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync
   isExternal: true
-  name: CustomerServiceStartup
-  nameWithType: CustomerServiceStartup
-  fullName: SuperOffice.CRM.Services.CustomerServiceStartup
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner
+  name: GetCustomerServiceStartupByOwnerAsync
+  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlersAsync
   isExternal: true
-  name: GetCustomerServiceStartupByOwner
-  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupByOwner
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers
-  isExternal: true
-  name: ExecuteEventHandlers
-  nameWithType: ICustomerServiceAgent.ExecuteEventHandlers
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers
+  name: ExecuteEventHandlersAsync
+  nameWithType: ICustomerServiceAgent.ExecuteEventHandlersAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlersAsync
 - uid: SuperOffice.CRM.Services.EventData
   commentId: T:SuperOffice.CRM.Services.EventData
   parent: SuperOffice.CRM.Services
@@ -1664,21 +2147,73 @@ references:
   name: EventData
   nameWithType: EventData
   fullName: SuperOffice.CRM.Services.EventData
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes
-  isExternal: true
-  name: GetMailboxes
-  nameWithType: ICustomerServiceAgent.GetMailboxes
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes
-- uid: SuperOffice.CRM.Services.Mailbox[]
-  isExternal: true
-  name: Mailbox[]
-  nameWithType: Mailbox[]
-  fullName: SuperOffice.CRM.Services.Mailbox[]
-  nameWithType.vb: Mailbox()
-  fullName.vb: SuperOffice.CRM.Services.Mailbox()
-  name.vb: Mailbox()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EventData}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.EventData}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<EventData>
+  nameWithType: Task<EventData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.EventData>
+  nameWithType.vb: Task(Of EventData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.EventData)
+  name.vb: Task(Of EventData)
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.EventData
+    name: EventData
+    nameWithType: EventData
+    fullName: SuperOffice.CRM.Services.EventData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.EventData
+    name: EventData
+    nameWithType: EventData
+    fullName: SuperOffice.CRM.Services.EventData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxesAsync
+  isExternal: true
+  name: GetMailboxesAsync
+  nameWithType: ICustomerServiceAgent.GetMailboxesAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Mailbox[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Mailbox[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Mailbox[]>
+  nameWithType: Task<Mailbox[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Mailbox[]>
+  nameWithType.vb: Task(Of Mailbox())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Mailbox())
+  name.vb: Task(Of Mailbox())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.Mailbox
     name: Mailbox
     nameWithType: Mailbox
@@ -1687,7 +2222,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.Mailbox
     name: Mailbox
     nameWithType: Mailbox
@@ -1696,95 +2242,321 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync
   isExternal: true
-  name: GetMailboxEntity
-  nameWithType: ICustomerServiceAgent.GetMailboxEntity
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry
+  name: GetMailboxEntityAsync
+  nameWithType: ICustomerServiceAgent.GetMailboxEntityAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntryAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntryAsync
   isExternal: true
-  name: GetPreviewFaqEntry
-  nameWithType: ICustomerServiceAgent.GetPreviewFaqEntry
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry
-- uid: SuperOffice.CRM.Services.PreviewFaqEntry
-  commentId: T:SuperOffice.CRM.Services.PreviewFaqEntry
-  parent: SuperOffice.CRM.Services
+  name: GetPreviewFaqEntryAsync
+  nameWithType: ICustomerServiceAgent.GetPreviewFaqEntryAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntryAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewFaqEntry}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewFaqEntry}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PreviewFaqEntry>
+  nameWithType: Task<PreviewFaqEntry>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreviewFaqEntry>
+  nameWithType.vb: Task(Of PreviewFaqEntry)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreviewFaqEntry)
+  name.vb: Task(Of PreviewFaqEntry)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.PreviewFaqEntry
+    name: PreviewFaqEntry
+    nameWithType: PreviewFaqEntry
+    fullName: SuperOffice.CRM.Services.PreviewFaqEntry
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.PreviewFaqEntry
+    name: PreviewFaqEntry
+    nameWithType: PreviewFaqEntry
+    fullName: SuperOffice.CRM.Services.PreviewFaqEntry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReplyAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReplyAsync
   isExternal: true
-  name: PreviewFaqEntry
-  nameWithType: PreviewFaqEntry
-  fullName: SuperOffice.CRM.Services.PreviewFaqEntry
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply
+  name: GetPreviewQuickReplyAsync
+  nameWithType: ICustomerServiceAgent.GetPreviewQuickReplyAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReplyAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewQuickReply}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewQuickReply}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PreviewQuickReply>
+  nameWithType: Task<PreviewQuickReply>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreviewQuickReply>
+  nameWithType.vb: Task(Of PreviewQuickReply)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreviewQuickReply)
+  name.vb: Task(Of PreviewQuickReply)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.PreviewQuickReply
+    name: PreviewQuickReply
+    nameWithType: PreviewQuickReply
+    fullName: SuperOffice.CRM.Services.PreviewQuickReply
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.PreviewQuickReply
+    name: PreviewQuickReply
+    nameWithType: PreviewQuickReply
+    fullName: SuperOffice.CRM.Services.PreviewQuickReply
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplateAsync
   isExternal: true
-  name: GetPreviewQuickReply
-  nameWithType: ICustomerServiceAgent.GetPreviewQuickReply
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply
-- uid: SuperOffice.CRM.Services.PreviewQuickReply
-  commentId: T:SuperOffice.CRM.Services.PreviewQuickReply
-  parent: SuperOffice.CRM.Services
+  name: GetPreviewReplyTemplateAsync
+  nameWithType: ICustomerServiceAgent.GetPreviewReplyTemplateAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplateAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewReplyTemplate}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewReplyTemplate}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PreviewReplyTemplate>
+  nameWithType: Task<PreviewReplyTemplate>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreviewReplyTemplate>
+  nameWithType.vb: Task(Of PreviewReplyTemplate)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreviewReplyTemplate)
+  name.vb: Task(Of PreviewReplyTemplate)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.PreviewReplyTemplate
+    name: PreviewReplyTemplate
+    nameWithType: PreviewReplyTemplate
+    fullName: SuperOffice.CRM.Services.PreviewReplyTemplate
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.PreviewReplyTemplate
+    name: PreviewReplyTemplate
+    nameWithType: PreviewReplyTemplate
+    fullName: SuperOffice.CRM.Services.PreviewReplyTemplate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplateAsync
   isExternal: true
-  name: PreviewQuickReply
-  nameWithType: PreviewQuickReply
-  fullName: SuperOffice.CRM.Services.PreviewQuickReply
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate
+  name: GetParsedTemplateAsync
+  nameWithType: ICustomerServiceAgent.GetParsedTemplateAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplateAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ReplyTemplateParsed}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ReplyTemplateParsed}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ReplyTemplateParsed>
+  nameWithType: Task<ReplyTemplateParsed>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ReplyTemplateParsed>
+  nameWithType.vb: Task(Of ReplyTemplateParsed)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ReplyTemplateParsed)
+  name.vb: Task(Of ReplyTemplateParsed)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ReplyTemplateParsed
+    name: ReplyTemplateParsed
+    nameWithType: ReplyTemplateParsed
+    fullName: SuperOffice.CRM.Services.ReplyTemplateParsed
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ReplyTemplateParsed
+    name: ReplyTemplateParsed
+    nameWithType: ReplyTemplateParsed
+    fullName: SuperOffice.CRM.Services.ReplyTemplateParsed
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplateAsync
   isExternal: true
-  name: GetPreviewReplyTemplate
-  nameWithType: ICustomerServiceAgent.GetPreviewReplyTemplate
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate
-- uid: SuperOffice.CRM.Services.PreviewReplyTemplate
-  commentId: T:SuperOffice.CRM.Services.PreviewReplyTemplate
-  parent: SuperOffice.CRM.Services
+  name: GetUnparsedTemplateAsync
+  nameWithType: ICustomerServiceAgent.GetUnparsedTemplateAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplateAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfigAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfigAsync
   isExternal: true
-  name: PreviewReplyTemplate
-  nameWithType: PreviewReplyTemplate
-  fullName: SuperOffice.CRM.Services.PreviewReplyTemplate
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate
+  name: GetSmsConfigAsync
+  nameWithType: ICustomerServiceAgent.GetSmsConfigAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfigAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SmsConfig}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SmsConfig}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SmsConfig>
+  nameWithType: Task<SmsConfig>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SmsConfig>
+  nameWithType.vb: Task(Of SmsConfig)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SmsConfig)
+  name.vb: Task(Of SmsConfig)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.SmsConfig
+    name: SmsConfig
+    nameWithType: SmsConfig
+    fullName: SuperOffice.CRM.Services.SmsConfig
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.SmsConfig
+    name: SmsConfig
+    nameWithType: SmsConfig
+    fullName: SuperOffice.CRM.Services.SmsConfig
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServerAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServerAsync
   isExternal: true
-  name: GetParsedTemplate
-  nameWithType: ICustomerServiceAgent.GetParsedTemplate
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate
-- uid: SuperOffice.CRM.Services.ReplyTemplateParsed
-  commentId: T:SuperOffice.CRM.Services.ReplyTemplateParsed
-  parent: SuperOffice.CRM.Services
+  name: TestSmtpServerAsync
+  nameWithType: ICustomerServiceAgent.TestSmtpServerAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServerAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SmtpTestResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SmtpTestResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SmtpTestResult>
+  nameWithType: Task<SmtpTestResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SmtpTestResult>
+  nameWithType.vb: Task(Of SmtpTestResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SmtpTestResult)
+  name.vb: Task(Of SmtpTestResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.SmtpTestResult
+    name: SmtpTestResult
+    nameWithType: SmtpTestResult
+    fullName: SuperOffice.CRM.Services.SmtpTestResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.SmtpTestResult
+    name: SmtpTestResult
+    nameWithType: SmtpTestResult
+    fullName: SuperOffice.CRM.Services.SmtpTestResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatisticsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatisticsAsync
   isExternal: true
-  name: ReplyTemplateParsed
-  nameWithType: ReplyTemplateParsed
-  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate
-  isExternal: true
-  name: GetUnparsedTemplate
-  nameWithType: ICustomerServiceAgent.GetUnparsedTemplate
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig
-  isExternal: true
-  name: GetSmsConfig
-  nameWithType: ICustomerServiceAgent.GetSmsConfig
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer
-  isExternal: true
-  name: TestSmtpServer
-  nameWithType: ICustomerServiceAgent.TestSmtpServer
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer
-- uid: SuperOffice.CRM.Services.SmtpTestResult
-  commentId: T:SuperOffice.CRM.Services.SmtpTestResult
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: SmtpTestResult
-  nameWithType: SmtpTestResult
-  fullName: SuperOffice.CRM.Services.SmtpTestResult
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics
-  isExternal: true
-  name: GetStatistics
-  nameWithType: ICustomerServiceAgent.GetStatistics
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics
+  name: GetStatisticsAsync
+  nameWithType: ICustomerServiceAgent.GetStatisticsAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatisticsAsync
 - uid: SuperOffice.Data.StatusScreenPanelType[]
   isExternal: true
   name: StatusScreenPanelType[]
@@ -1811,15 +2583,24 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.StatisticsDataSet[]
-  isExternal: true
-  name: StatisticsDataSet[]
-  nameWithType: StatisticsDataSet[]
-  fullName: SuperOffice.CRM.Services.StatisticsDataSet[]
-  nameWithType.vb: StatisticsDataSet()
-  fullName.vb: SuperOffice.CRM.Services.StatisticsDataSet()
-  name.vb: StatisticsDataSet()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatisticsDataSet[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatisticsDataSet[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<StatisticsDataSet[]>
+  nameWithType: Task<StatisticsDataSet[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.StatisticsDataSet[]>
+  nameWithType.vb: Task(Of StatisticsDataSet())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.StatisticsDataSet())
+  name.vb: Task(Of StatisticsDataSet())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.StatisticsDataSet
     name: StatisticsDataSet
     nameWithType: StatisticsDataSet
@@ -1828,7 +2609,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.StatisticsDataSet
     name: StatisticsDataSet
     nameWithType: StatisticsDataSet
@@ -1837,12 +2629,64 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettingsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettingsAsync
   isExternal: true
-  name: GetSystemTemplateSettings
-  nameWithType: ICustomerServiceAgent.GetSystemTemplateSettings
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings
+  name: GetSystemTemplateSettingsAsync
+  nameWithType: ICustomerServiceAgent.GetSystemTemplateSettingsAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettingsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SystemTemplateSettings}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SystemTemplateSettings}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SystemTemplateSettings>
+  nameWithType: Task<SystemTemplateSettings>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SystemTemplateSettings>
+  nameWithType.vb: Task(Of SystemTemplateSettings)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SystemTemplateSettings)
+  name.vb: Task(Of SystemTemplateSettings)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.SystemTemplateSettings
+    name: SystemTemplateSettings
+    nameWithType: SystemTemplateSettings
+    fullName: SuperOffice.CRM.Services.SystemTemplateSettings
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.SystemTemplateSettings
+    name: SystemTemplateSettings
+    nameWithType: SystemTemplateSettings
+    fullName: SuperOffice.CRM.Services.SystemTemplateSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettingsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettingsAsync
+  isExternal: true
+  name: SaveSystemTemplateSettingsAsync
+  nameWithType: ICustomerServiceAgent.SaveSystemTemplateSettingsAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettingsAsync
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings
   commentId: T:SuperOffice.CRM.Services.SystemTemplateSettings
   parent: SuperOffice.CRM.Services
@@ -1850,46 +2694,85 @@ references:
   name: SystemTemplateSettings
   nameWithType: SystemTemplateSettings
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailDataAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailDataAsync
   isExternal: true
-  name: SaveSystemTemplateSettings
-  nameWithType: ICustomerServiceAgent.SaveSystemTemplateSettings
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData
-  isExternal: true
-  name: CreateTicketFromMailData
-  nameWithType: ICustomerServiceAgent.CreateTicketFromMailData
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData
-- uid: SuperOffice.CRM.Services.TicketInfo
-  commentId: T:SuperOffice.CRM.Services.TicketInfo
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: TicketInfo
-  nameWithType: TicketInfo
-  fullName: SuperOffice.CRM.Services.TicketInfo
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData
-  isExternal: true
-  name: AddMessageFromMailData
-  nameWithType: ICustomerServiceAgent.AddMessageFromMailData
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId
-  isExternal: true
-  name: FindTicketsByTitleOrId
-  nameWithType: ICustomerServiceAgent.FindTicketsByTitleOrId
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId
-- uid: SuperOffice.CRM.Services.TicketInfo[]
-  isExternal: true
-  name: TicketInfo[]
-  nameWithType: TicketInfo[]
-  fullName: SuperOffice.CRM.Services.TicketInfo[]
-  nameWithType.vb: TicketInfo()
-  fullName.vb: SuperOffice.CRM.Services.TicketInfo()
-  name.vb: TicketInfo()
+  name: CreateTicketFromMailDataAsync
+  nameWithType: ICustomerServiceAgent.CreateTicketFromMailDataAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailDataAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketInfo>
+  nameWithType: Task<TicketInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TicketInfo>
+  nameWithType.vb: Task(Of TicketInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TicketInfo)
+  name.vb: Task(Of TicketInfo)
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.TicketInfo
+    name: TicketInfo
+    nameWithType: TicketInfo
+    fullName: SuperOffice.CRM.Services.TicketInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.TicketInfo
+    name: TicketInfo
+    nameWithType: TicketInfo
+    fullName: SuperOffice.CRM.Services.TicketInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailDataAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailDataAsync
+  isExternal: true
+  name: AddMessageFromMailDataAsync
+  nameWithType: ICustomerServiceAgent.AddMessageFromMailDataAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailDataAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrIdAsync
+  isExternal: true
+  name: FindTicketsByTitleOrIdAsync
+  nameWithType: ICustomerServiceAgent.FindTicketsByTitleOrIdAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrIdAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketInfo[]>
+  nameWithType: Task<TicketInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TicketInfo[]>
+  nameWithType.vb: Task(Of TicketInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TicketInfo())
+  name.vb: Task(Of TicketInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.TicketInfo
     name: TicketInfo
     nameWithType: TicketInfo
@@ -1898,7 +2781,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.TicketInfo
     name: TicketInfo
     nameWithType: TicketInfo
@@ -1907,3 +2801,6 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )

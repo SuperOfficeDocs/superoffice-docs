@@ -8,10 +8,10 @@ items:
   - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.DocumentTemplateInfo
   - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.GetDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo)
   - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.GetDocumentTemplate(System.String,System.Boolean)
-  - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load
-  - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load(System.String)
-  - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save(System.IO.Stream)
-  - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save(System.IO.Stream,System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync(System.IO.Stream,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -115,16 +115,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load
-  commentId: M:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load
-  id: Load
+- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync(System.Threading.CancellationToken)
+  id: LoadAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.PhysicalDocumentTemplate
   langs:
   - csharp
   - vb
-  name: Load()
-  nameWithType: PhysicalDocumentTemplate.Load()
-  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load()
+  name: LoadAsync(CancellationToken)
+  nameWithType: PhysicalDocumentTemplate.LoadAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -134,26 +134,29 @@ items:
   namespace: SuperOffice.CRM.Documents
   summary: "\nLoad a template based on information provided about it\n"
   syntax:
-    content: public Stream Load()
+    content: public Task<Stream> LoadAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.IO.Stream
+      type: System.Threading.Tasks.Task{System.IO.Stream}
       description: <xref href="System.IO.Stream" data-throw-if-not-resolved="false"></xref> to read the document template from.
-    content.vb: Public Function Load As Stream
-  overload: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load*
+    content.vb: Public Function LoadAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load(System.String)
-  commentId: M:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load(System.String)
-  id: Load(System.String)
+- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync(System.String,System.Threading.CancellationToken)
+  id: LoadAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.PhysicalDocumentTemplate
   langs:
   - csharp
   - vb
-  name: Load(String)
-  nameWithType: PhysicalDocumentTemplate.Load(String)
-  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load(System.String)
+  name: LoadAsync(String, CancellationToken)
+  nameWithType: PhysicalDocumentTemplate.LoadAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -163,30 +166,32 @@ items:
   namespace: SuperOffice.CRM.Documents
   summary: "\nLoad a template based on information provided about it\n"
   syntax:
-    content: public Stream Load(string culture)
+    content: public Task<Stream> LoadAsync(string culture, CancellationToken cancellationToken = null)
     parameters:
     - id: culture
       type: System.String
       description: Language code for template. &quot;nb-NO&quot; or NULL for default.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.IO.Stream
+      type: System.Threading.Tasks.Task{System.IO.Stream}
       description: <xref href="System.IO.Stream" data-throw-if-not-resolved="false"></xref> to read the document template from.
-    content.vb: Public Function Load(culture As String) As Stream
-  overload: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load*
+    content.vb: Public Function LoadAsync(culture As String, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save(System.IO.Stream)
-  commentId: M:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save(System.IO.Stream)
-  id: Save(System.IO.Stream)
+- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync(System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync(System.IO.Stream,System.Threading.CancellationToken)
+  id: SaveAsync(System.IO.Stream,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.PhysicalDocumentTemplate
   langs:
   - csharp
   - vb
-  name: Save(Stream)
-  nameWithType: PhysicalDocumentTemplate.Save(Stream)
-  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save(System.IO.Stream)
+  name: SaveAsync(Stream, CancellationToken)
+  nameWithType: PhysicalDocumentTemplate.SaveAsync(Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync(System.IO.Stream, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -197,27 +202,31 @@ items:
   summary: "\nSave a document or mail template based on information about it (e.g. <xref href=\"SuperOffice.CRM.Documents.PhysicalDocumentTemplate.DocumentTemplateInfo\" data-throw-if-not-resolved=\"false\"></xref>). Saves to the default template - not a language specific variant.\n"
   remarks: "\nIf the document template file does not exist from before, the document template file is created.\nDoes not provide a language code. i.e. only saves default templates.\n"
   syntax:
-    content: public void Save(Stream template)
+    content: public Task SaveAsync(Stream template, CancellationToken cancellationToken = null)
     parameters:
     - id: template
       type: System.IO.Stream
       description: <xref href="System.IO.Stream" data-throw-if-not-resolved="false"></xref> to read the document template from. Closes the stream when finished.
-    content.vb: Public Sub Save(template As Stream)
-  overload: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SaveAsync(template As Stream, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save(System.IO.Stream,System.String)
-  commentId: M:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save(System.IO.Stream,System.String)
-  id: Save(System.IO.Stream,System.String)
+- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  id: SaveAsync(System.IO.Stream,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.PhysicalDocumentTemplate
   langs:
   - csharp
   - vb
-  name: Save(Stream, String)
-  nameWithType: PhysicalDocumentTemplate.Save(Stream, String)
-  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save(System.IO.Stream, System.String)
+  name: SaveAsync(Stream, String, CancellationToken)
+  nameWithType: PhysicalDocumentTemplate.SaveAsync(Stream, String, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync(System.IO.Stream, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -228,7 +237,7 @@ items:
   summary: "\nSave a template based on information about it (e.g. <xref href=\"SuperOffice.CRM.Documents.PhysicalDocumentTemplate.DocumentTemplateInfo\" data-throw-if-not-resolved=\"false\"></xref>).\n"
   remarks: "\nIf the document template file does not exist from before, the document template file is created.\nDoes not provide a language code. i.e. only saves default templates.\n"
   syntax:
-    content: public void Save(Stream template, string culture)
+    content: public Task SaveAsync(Stream template, string culture, CancellationToken cancellationToken = null)
     parameters:
     - id: template
       type: System.IO.Stream
@@ -236,8 +245,12 @@ items:
     - id: culture
       type: System.String
       description: Language variant of the template to save to. &quot;nb-NO&quot; or NULL for default.
-    content.vb: Public Sub Save(template As Stream, culture As String)
-  overload: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SaveAsync(template As Stream, culture As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -498,23 +511,114 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load*
-  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load
+- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync
   isExternal: true
-  name: Load
-  nameWithType: PhysicalDocumentTemplate.Load
-  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Load
+  name: LoadAsync
+  nameWithType: PhysicalDocumentTemplate.LoadAsync
+  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.LoadAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.IO.Stream}
+  commentId: '!:System.Threading.Tasks.Task{System.IO.Stream}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Stream>
+  nameWithType: Task<Stream>
+  fullName: System.Threading.Tasks.Task<System.IO.Stream>
+  nameWithType.vb: Task(Of Stream)
+  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
+  name.vb: Task(Of Stream)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync
+  isExternal: true
+  name: SaveAsync
+  nameWithType: PhysicalDocumentTemplate.SaveAsync
+  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.SaveAsync
 - uid: System.IO.Stream
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save*
-  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: Save
-  nameWithType: PhysicalDocumentTemplate.Save
-  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.Save
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate.DocumentTemplateInfo*
   commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocumentTemplate.DocumentTemplateInfo
   isExternal: true

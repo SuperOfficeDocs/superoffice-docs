@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.SatelliteRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SatelliteRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SatelliteRecordData)
   - SuperOffice.CRM.Rows.SatelliteRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SatelliteRecordData.SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SatelliteRecordData.SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SatelliteRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SatelliteRecordData.SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SatelliteRecordData)
+- uid: SuperOffice.CRM.Rows.SatelliteRecordData.SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SatelliteRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SatelliteRecordData)
-  name: ToInsert()
-  nameWithType: SatelliteRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SatelliteRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SatelliteRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SatelliteRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SatelliteRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SatelliteRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SatelliteRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SatelliteRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SatelliteRecordData)
+- uid: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SatelliteRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SatelliteRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SatelliteRecordData)
-  nameWithType: SatelliteRecordDataExtensions.ToInsert(SatelliteRecordData)
-  fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SatelliteRecordData)
+  name: ToInsertAsync(SatelliteRecordData, CancellationToken)
+  nameWithType: SatelliteRecordDataExtensions.ToInsertAsync(SatelliteRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SatelliteRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SatelliteRecordData)
-    name: ToInsert
-    nameWithType: SatelliteRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SatelliteRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SatelliteRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: SatelliteRecordData
     nameWithType: SatelliteRecordData
     fullName: SuperOffice.CRM.Rows.SatelliteRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SatelliteRecordData)
-    name: ToInsert
-    nameWithType: SatelliteRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SatelliteRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SatelliteRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SatelliteRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: SatelliteRecordData
     nameWithType: SatelliteRecordData
     fullName: SuperOffice.CRM.Rows.SatelliteRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

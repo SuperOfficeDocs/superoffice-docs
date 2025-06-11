@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SORTemplateTableInfo})
   - SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo})
-  - SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORTemplateRecordData)
-  - SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData})
+  - SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORTemplateRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SORTemplateRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo})
+- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<SORTemplateTableInfo>)
-  nameWithType: SORTemplateRecordDataExtensions.FromSelect(TargetedSelect<SORTemplateTableInfo>)
-  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SORTemplateTableInfo>)
+  name: FromSelectAsync(TargetedSelect<SORTemplateTableInfo>, CancellationToken)
+  nameWithType: SORTemplateRecordDataExtensions.FromSelectAsync(TargetedSelect<SORTemplateTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SORTemplateTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<SORTemplateRecordData> FromSelect(this TargetedSelect<SORTemplateTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<SORTemplateRecordData> FromSelectAsync(this TargetedSelect<SORTemplateTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of SORTemplateTableInfo)) As IEnumerable(Of SORTemplateRecordData)
-  overload: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect*
-  nameWithType.vb: SORTemplateRecordDataExtensions.FromSelect(TargetedSelect(Of SORTemplateTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of SORTemplateTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of SORTemplateRecordData)
+  overload: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: SORTemplateRecordDataExtensions.FromSelectAsync(TargetedSelect(Of SORTemplateTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SORTemplateTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of SORTemplateTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SORTemplateTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of SORTemplateTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SORTemplateTableInfo})
   commentId: M:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SORTemplateTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SORTemplateTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.SORTemplateTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of SORTemplateTableInfo))
-- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORTemplateRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORTemplateRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.SORTemplateRecordData)
+- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORTemplateRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORTemplateRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.SORTemplateRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(SORTemplateRecordData)
-  nameWithType: SORTemplateRecordDataExtensions.ToInsert(SORTemplateRecordData)
-  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORTemplateRecordData)
+  name: ToInsertAsync(SORTemplateRecordData, CancellationToken)
+  nameWithType: SORTemplateRecordDataExtensions.ToInsertAsync(SORTemplateRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORTemplateRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this SORTemplateRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this SORTemplateRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.SORTemplateRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As SORTemplateRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As SORTemplateRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData})
-  commentId: M:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData})
+- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<SORTemplateRecordData>)
-  nameWithType: SORTemplateRecordDataExtensions.ToInserts(IEnumerable<SORTemplateRecordData>)
-  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SORTemplateRecordData>)
+  name: ToInsertsAsync(IEnumerable<SORTemplateRecordData>, CancellationToken)
+  nameWithType: SORTemplateRecordDataExtensions.ToInsertsAsync(IEnumerable<SORTemplateRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SORTemplateRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<SORTemplateRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<SORTemplateRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of SORTemplateRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInserts*
-  nameWithType.vb: SORTemplateRecordDataExtensions.ToInserts(IEnumerable(Of SORTemplateRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of SORTemplateRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: SORTemplateRecordDataExtensions.ToInsertsAsync(IEnumerable(Of SORTemplateRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SORTemplateRecordData))
-  name.vb: ToInserts(IEnumerable(Of SORTemplateRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SORTemplateRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of SORTemplateRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SORTemplateRow)
   commentId: M:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SORTemplateRow)
   id: ToRecordData(SuperOffice.CRM.Rows.SORTemplateRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<SORTemplateTableInfo>)
+  nameWithType: SORTemplateRecordDataExtensions.FromSelect(TargetedSelect<SORTemplateTableInfo>)
+  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SORTemplateTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;SORTemplateTableInfo>, execute it and return an IEnumerable&lt;SORTemplateRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<SORTemplateRecordData> FromSelect(this TargetedSelect<SORTemplateTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of SORTemplateTableInfo)) As IEnumerable(Of SORTemplateRecordData)
+  overload: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect*
+  nameWithType.vb: SORTemplateRecordDataExtensions.FromSelect(TargetedSelect(Of SORTemplateTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SORTemplateTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of SORTemplateTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: SORTemplateRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: SORTemplateRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SORTemplateTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<SORTemplateRecordData>
-  nameWithType: IEnumerable<SORTemplateRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SORTemplateRecordData>
-  nameWithType.vb: IEnumerable(Of SORTemplateRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SORTemplateRecordData)
-  name.vb: IEnumerable(Of SORTemplateRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<SORTemplateRecordData>
+  nameWithType: IAsyncEnumerable<SORTemplateRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.SORTemplateRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of SORTemplateRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.SORTemplateRecordData)
+  name.vb: IAsyncEnumerable(Of SORTemplateRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: SORTemplateRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: SORTemplateRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: SORTemplateRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: SORTemplateRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SORTemplateRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SORTemplateRecordData>
+  nameWithType: IEnumerable<SORTemplateRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SORTemplateRecordData>
+  nameWithType.vb: IEnumerable(Of SORTemplateRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SORTemplateRecordData)
+  name.vb: IEnumerable(Of SORTemplateRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SORTemplateRecordData
+    name: SORTemplateRecordData
+    nameWithType: SORTemplateRecordData
+    fullName: SuperOffice.CRM.Rows.SORTemplateRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SORTemplateRecordData
+    name: SORTemplateRecordData
+    nameWithType: SORTemplateRecordData
+    fullName: SuperOffice.CRM.Rows.SORTemplateRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: SORTemplateRow
   nameWithType: SORTemplateRow
   fullName: SuperOffice.CRM.Rows.SORTemplateRow
+- uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: SORTemplateRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions.FromSelect

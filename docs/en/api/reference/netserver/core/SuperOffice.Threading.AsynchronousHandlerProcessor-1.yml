@@ -7,10 +7,9 @@ items:
   children:
   - SuperOffice.Threading.AsynchronousHandlerProcessor`1.#ctor
   - SuperOffice.Threading.AsynchronousHandlerProcessor`1.Argument
-  - SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
+  - SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync(System.Threading.CancellationToken)
   - SuperOffice.Threading.AsynchronousHandlerProcessor`1.HasWorkToDo
   - SuperOffice.Threading.AsynchronousHandlerProcessor`1.OnSetup(`0)
-  - SuperOffice.Threading.AsynchronousHandlerProcessor`1.ThreadName
   langs:
   - csharp
   - vb
@@ -24,8 +23,8 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: "\nBase class for processing carried out by <xref href=\"SuperOffice.Threading.AsynchronousHandler%602\" data-throw-if-not-resolved=\"false\"></xref>\nand implementations of such.  \n"
-  remarks: "\nThread handling and processing are separated into two parts.  This part represents processing.  \nImplementations of this class needs to have a default constructor to work with <xref href=\"SuperOffice.Threading.AsynchronousHandler%602\" data-throw-if-not-resolved=\"false\"></xref>.\nThis class is instantiated by the <xref href=\"SuperOffice.Threading.AsynchronousHandler%602\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nBase class for processing carried out by <see cref=\"!:AsynchronousHandler&lt;TAsynchronousHandlerProcessor, TAsynchronousArgument>\"></see>\nand implementations of such.  \n"
+  remarks: "\nThread handling and processing are separated into two parts.  This part represents processing.  \nImplementations of this class needs to have a default constructor to work with <see cref=\"!:AsynchronousHandler&lt;TAsynchronousHandlerProcessor, TAsynchronousArgument>\"></see>.\nThis class is instantiated by the <see cref=\"!:AsynchronousHandler&lt;TAsynchronousHandlerProcessor, TAsynchronousArgument>\"></see>.\n"
   syntax:
     content: 'public abstract class AsynchronousHandlerProcessor<TAsynchronousArgument> : Object where TAsynchronousArgument : class'
     typeParameters:
@@ -36,10 +35,6 @@ items:
           Inherits Object
   inheritance:
   - System.Object
-  derivedClasses:
-  - SuperOffice.CRM.Mail.CacheMailQueueProcessor
-  - SuperOffice.CRM.Mail.SendMailQueueProcessor
-  - SuperOffice.Threading.QueueAsyncChunkProcessor`1
   extensionMethods:
   - SuperOffice.Threading.AsynchronousHandlerProcessor`1.EnumUtil.MapEnums``2
   - SuperOffice.Threading.AsynchronousHandlerProcessor`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -71,7 +66,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: "\nCalled by <xref href=\"SuperOffice.Threading.AsynchronousHandler%602\" data-throw-if-not-resolved=\"false\"></xref> to initiate processing.\n"
+  summary: "\nCalled by <see cref=\"!:AsynchronousHandler&lt;TAsynchronousHandlerProcessor, TAsynchronousArgument>\"></see> to initiate processing.\n"
   remarks: The default implementation copies the argument to a member variable exposed by the <xref href="SuperOffice.Threading.AsynchronousHandlerProcessor%601.Argument" data-throw-if-not-resolved="false"></xref> property
   syntax:
     content: public virtual bool OnSetup(TAsynchronousArgument argument)
@@ -92,16 +87,16 @@ items:
   - Public
   - Overridable
   fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).OnSetup(TAsynchronousArgument)
-- uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
-  commentId: M:SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
-  id: ExecuteWork
+- uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync(System.Threading.CancellationToken)
+  id: ExecuteWorkAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Threading.AsynchronousHandlerProcessor`1
   langs:
   - csharp
   - vb
-  name: ExecuteWork()
-  nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWork()
-  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWork()
+  name: ExecuteWorkAsync(CancellationToken)
+  nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWorkAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWorkAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -111,17 +106,22 @@ items:
   namespace: SuperOffice.Threading
   summary: "\nImplemented by sub classes to execute the actual work.\n"
   syntax:
-    content: public abstract void ExecuteWork()
-    content.vb: Public MustOverride Sub ExecuteWork
-  overload: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork*
-  nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWork()
+    content: public virtual Task ExecuteWorkAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overridable Function ExecuteWorkAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync*
+  nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWorkAsync(CancellationToken)
   modifiers.csharp:
   - public
-  - abstract
+  - virtual
   modifiers.vb:
   - Public
-  - MustOverride
-  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWork()
+  - Overridable
+  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWorkAsync(System.Threading.CancellationToken)
 - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.#ctor
   commentId: M:SuperOffice.Threading.AsynchronousHandlerProcessor`1.#ctor
   id: '#ctor'
@@ -217,42 +217,6 @@ items:
   - Protected
   - ReadOnly
   fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).Argument
-- uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ThreadName
-  commentId: P:SuperOffice.Threading.AsynchronousHandlerProcessor`1.ThreadName
-  id: ThreadName
-  parent: SuperOffice.Threading.AsynchronousHandlerProcessor`1
-  langs:
-  - csharp
-  - vb
-  name: ThreadName
-  nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ThreadName
-  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ThreadName
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Threading
-  summary: "\nImplemented by sub classes to get the name of the thread.\n"
-  remarks: "\nUsed by <xref href=\"SuperOffice.Threading.AsynchronousHandler%602\" data-throw-if-not-resolved=\"false\"></xref> to\nget a meaning full name of the thread.\n"
-  syntax:
-    content: public abstract string ThreadName { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public MustOverride ReadOnly Property ThreadName As String
-  overload: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ThreadName*
-  nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ThreadName
-  modifiers.csharp:
-  - public
-  - abstract
-  - get
-  modifiers.vb:
-  - Public
-  - MustOverride
-  - ReadOnly
-  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ThreadName
 references:
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
@@ -463,14 +427,24 @@ references:
   name: TAsynchronousArgument
   nameWithType: TAsynchronousArgument
   fullName: TAsynchronousArgument
-- uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork*
-  commentId: Overload:SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
+- uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync*
+  commentId: Overload:SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync
   isExternal: true
-  name: ExecuteWork
-  nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWork
-  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWork
-  nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWork
-  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWork
+  name: ExecuteWorkAsync
+  nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWorkAsync
+  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWorkAsync
+  nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWorkAsync
+  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWorkAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.#ctor*
   commentId: Overload:SuperOffice.Threading.AsynchronousHandlerProcessor`1.#ctor
   isExternal: true
@@ -495,18 +469,3 @@ references:
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.Argument
   nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).Argument
   fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).Argument
-- uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ThreadName*
-  commentId: Overload:SuperOffice.Threading.AsynchronousHandlerProcessor`1.ThreadName
-  isExternal: true
-  name: ThreadName
-  nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ThreadName
-  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ThreadName
-  nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ThreadName
-  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ThreadName
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String

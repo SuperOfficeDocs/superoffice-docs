@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  commentId: N:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  id: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  children:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  nameWithType: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  type: Namespace
+  assemblies:
+  - SuperOffice.WebApi
+references:
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  commentId: T:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  isExternal: true
+  name: IDashboardAgent
+  nameWithType: IDashboardAgent
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  commentId: T:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  isExternal: true
+  name: DashboardAgent
+  nameWithType: DashboardAgent
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  commentId: N:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  isExternal: true
+  name: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  nameWithType: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11

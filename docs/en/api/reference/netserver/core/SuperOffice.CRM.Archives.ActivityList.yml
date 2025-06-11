@@ -5,7 +5,7 @@ items:
   id: ActivityList
   parent: SuperOffice.CRM.Archives
   children:
-  - SuperOffice.CRM.Archives.ActivityList.OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.Archives.ActivityList.OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -41,7 +41,7 @@ items:
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.CopyTo(SuperOffice.CRM.Archives.ActivityListItem[],System.Int32)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.IndexOf(SuperOffice.CRM.Archives.ActivityListItem)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.Contains(SuperOffice.CRM.Archives.ActivityListItem)
-  - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.GetEnumerator
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.Item(System.Int32)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.ListCollection
@@ -59,16 +59,16 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.CRM.Archives.ActivityList.OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.Archives.ActivityList.OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
-  id: OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+- uid: SuperOffice.CRM.Archives.ActivityList.OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.ActivityList.OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  id: OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.ActivityList
   langs:
   - csharp
   - vb
-  name: OnLoad(ActivityList.ActivityListQuery, SoDataReader)
-  nameWithType: ActivityList.OnLoad(ActivityList.ActivityListQuery, SoDataReader)
-  fullName: SuperOffice.CRM.Archives.ActivityList.OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.Data.SoDataReader)
+  name: OnLoadAsync(ActivityList.ActivityListQuery, SoDataReader, CancellationToken)
+  nameWithType: ActivityList.OnLoadAsync(ActivityList.ActivityListQuery, SoDataReader, CancellationToken)
+  fullName: SuperOffice.CRM.Archives.ActivityList.OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -78,16 +78,20 @@ items:
   namespace: SuperOffice.CRM.Archives
   summary: "\nResponsible for reading each row with data from the SoDataReader and insert the object each row represents\ninto the class&apos; collection. \n"
   syntax:
-    content: protected override void OnLoad(ActivityList.ActivityListQuery query, SoDataReader reader)
+    content: protected override Task OnLoadAsync(ActivityList.ActivityListQuery query, SoDataReader reader, CancellationToken cancellationToken)
     parameters:
     - id: query
       type: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
     - id: reader
       type: SuperOffice.Data.SoDataReader
       description: The reader which contains all data in the list.
-    content.vb: Protected Overrides Sub OnLoad(query As ActivityList.ActivityListQuery, reader As SoDataReader)
-  overridden: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
-  overload: SuperOffice.CRM.Archives.ActivityList.OnLoad*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnLoadAsync(query As ActivityList.ActivityListQuery, reader As SoDataReader, cancellationToken As CancellationToken) As Task
+  overridden: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Archives.ActivityList.OnLoadAsync*
   modifiers.csharp:
   - protected
   - override
@@ -523,20 +527,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+- uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}.OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.CRM.Archives.ActivityListItem}
-  definition: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-  name: OnLoad(ActivityList.ActivityListQuery, SoDataReader)
-  nameWithType: ListBase<ActivityList.ActivityListQuery, ActivityListItem>.OnLoad(ActivityList.ActivityListQuery, SoDataReader)
-  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.CRM.Archives.ActivityListItem>.OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.Data.SoDataReader)
-  nameWithType.vb: ListBase(Of ActivityList.ActivityListQuery, ActivityListItem).OnLoad(ActivityList.ActivityListQuery, SoDataReader)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.CRM.Archives.ActivityListItem).OnLoad(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.Data.SoDataReader)
+  definition: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  name: OnLoadAsync(ActivityList.ActivityListQuery, SoDataReader, CancellationToken)
+  nameWithType: ListBase<ActivityList.ActivityListQuery, ActivityListItem>.OnLoadAsync(ActivityList.ActivityListQuery, SoDataReader, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.CRM.Archives.ActivityListItem>.OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
+  nameWithType.vb: ListBase(Of ActivityList.ActivityListQuery, ActivityListItem).OnLoadAsync(ActivityList.ActivityListQuery, SoDataReader, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.CRM.Archives.ActivityListItem).OnLoadAsync(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-    name: OnLoad
-    nameWithType: ListBase<ActivityList.ActivityListQuery, ActivityListItem>.OnLoad
-    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.CRM.Archives.ActivityListItem>.OnLoad
+  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: ListBase<ActivityList.ActivityListQuery, ActivityListItem>.OnLoadAsync
+    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.CRM.Archives.ActivityListItem>.OnLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -553,15 +557,23 @@ references:
     name: SoDataReader
     nameWithType: SoDataReader
     fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-    name: OnLoad
-    nameWithType: ListBase(Of ActivityList.ActivityListQuery, ActivityListItem).OnLoad
-    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.CRM.Archives.ActivityListItem).OnLoad
+  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: ListBase(Of ActivityList.ActivityListQuery, ActivityListItem).OnLoadAsync
+    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.CRM.Archives.ActivityListItem).OnLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -578,6 +590,14 @@ references:
     name: SoDataReader
     nameWithType: SoDataReader
     fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -1135,19 +1155,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
+- uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   isExternal: true
-  name: OnLoad(TListSelect, SoDataReader)
-  nameWithType: ListBase<TListSelect, TListItem>.OnLoad(TListSelect, SoDataReader)
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoad(TListSelect, SuperOffice.Data.SoDataReader)
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).OnLoad(TListSelect, SoDataReader)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoad(TListSelect, SuperOffice.Data.SoDataReader)
+  name: OnLoadAsync(TListSelect, SoDataReader, CancellationToken)
+  nameWithType: ListBase<TListSelect, TListItem>.OnLoadAsync(TListSelect, SoDataReader, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoadAsync(TListSelect, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).OnLoadAsync(TListSelect, SoDataReader, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoadAsync(TListSelect, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-    name: OnLoad
-    nameWithType: ListBase<TListSelect, TListItem>.OnLoad
-    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoad
+  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: ListBase<TListSelect, TListItem>.OnLoadAsync
+    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1162,15 +1182,23 @@ references:
     name: SoDataReader
     nameWithType: SoDataReader
     fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-    name: OnLoad
-    nameWithType: ListBase(Of TListSelect, TListItem).OnLoad
-    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoad
+  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: ListBase(Of TListSelect, TListItem).OnLoadAsync
+    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1185,6 +1213,14 @@ references:
     name: SoDataReader
     nameWithType: SoDataReader
     fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -1393,12 +1429,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Archives.ActivityList.OnLoad*
-  commentId: Overload:SuperOffice.CRM.Archives.ActivityList.OnLoad
+- uid: SuperOffice.CRM.Archives.ActivityList.OnLoadAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityList.OnLoadAsync
   isExternal: true
-  name: OnLoad
-  nameWithType: ActivityList.OnLoad
-  fullName: SuperOffice.CRM.Archives.ActivityList.OnLoad
+  name: OnLoadAsync
+  nameWithType: ActivityList.OnLoadAsync
+  fullName: SuperOffice.CRM.Archives.ActivityList.OnLoadAsync
 - uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
   commentId: T:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
   parent: SuperOffice.CRM.Archives
@@ -1413,6 +1449,16 @@ references:
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true

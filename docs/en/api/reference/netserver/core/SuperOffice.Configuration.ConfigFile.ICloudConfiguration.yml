@@ -1,0 +1,645 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  id: ConfigFile.ICloudConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.ArchivePath
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.CloudUrl
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DefaultCallbackUrl
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DispatcherUrl
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DocumentContentType
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.PresentationContentType
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.Provider
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.SpreadSheetContentType
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.StoreAttachmentsInAzure
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TemplatePath
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TenantId
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.UseInheritedPermissions
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.ICloudConfiguration
+  nameWithType: ConfigFile.ICloudConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\n\nCreated in Database scope\n"
+  syntax:
+    content: public interface ICloudConfiguration
+    content.vb: Public Interface ICloudConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.Provider
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.Provider
+  id: Provider
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Provider
+  nameWithType: ConfigFile.ICloudConfiguration.Provider
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.Provider
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe provider to use (office365/google)\n"
+  syntax:
+    content: string Provider { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Provider As String
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.Provider*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DispatcherUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DispatcherUrl
+  id: DispatcherUrl
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DispatcherUrl
+  nameWithType: ConfigFile.ICloudConfiguration.DispatcherUrl
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DispatcherUrl
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe url to the SuperOffice Dispatcher service\n"
+  syntax:
+    content: string DispatcherUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DispatcherUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DispatcherUrl*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.CloudUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.CloudUrl
+  id: CloudUrl
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CloudUrl
+  nameWithType: ConfigFile.ICloudConfiguration.CloudUrl
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.CloudUrl
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe url to the cloud\n"
+  syntax:
+    content: string CloudUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CloudUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.CloudUrl*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TenantId
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TenantId
+  id: TenantId
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TenantId
+  nameWithType: ConfigFile.ICloudConfiguration.TenantId
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TenantId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe tenant id\n"
+  syntax:
+    content: string TenantId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TenantId As String
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TenantId*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TemplatePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TemplatePath
+  id: TemplatePath
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TemplatePath
+  nameWithType: ConfigFile.ICloudConfiguration.TemplatePath
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TemplatePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe path/uri to the templates\n"
+  syntax:
+    content: string TemplatePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TemplatePath As String
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TemplatePath*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.ArchivePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.ArchivePath
+  id: ArchivePath
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath
+  nameWithType: ConfigFile.ICloudConfiguration.ArchivePath
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.ArchivePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe path/uri to the archive\n"
+  syntax:
+    content: string ArchivePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArchivePath As String
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.ArchivePath*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DefaultCallbackUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DefaultCallbackUrl
+  id: DefaultCallbackUrl
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DefaultCallbackUrl
+  nameWithType: ConfigFile.ICloudConfiguration.DefaultCallbackUrl
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DefaultCallbackUrl
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe default callback url\n"
+  syntax:
+    content: string DefaultCallbackUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DefaultCallbackUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DefaultCallbackUrl*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DocumentContentType
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DocumentContentType
+  id: DocumentContentType
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DocumentContentType
+  nameWithType: ConfigFile.ICloudConfiguration.DocumentContentType
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DocumentContentType
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe content type to be used when creating new documents\n"
+  syntax:
+    content: string DocumentContentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DocumentContentType As String
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DocumentContentType*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.SpreadSheetContentType
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.SpreadSheetContentType
+  id: SpreadSheetContentType
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SpreadSheetContentType
+  nameWithType: ConfigFile.ICloudConfiguration.SpreadSheetContentType
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.SpreadSheetContentType
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe content type to be used when creating new spreadsheets\n"
+  syntax:
+    content: string SpreadSheetContentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property SpreadSheetContentType As String
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.SpreadSheetContentType*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.PresentationContentType
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.PresentationContentType
+  id: PresentationContentType
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PresentationContentType
+  nameWithType: ConfigFile.ICloudConfiguration.PresentationContentType
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.PresentationContentType
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe content type to be used when creating new presentations\n"
+  syntax:
+    content: string PresentationContentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property PresentationContentType As String
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.PresentationContentType*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.UseInheritedPermissions
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.UseInheritedPermissions
+  id: UseInheritedPermissions
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: UseInheritedPermissions
+  nameWithType: ConfigFile.ICloudConfiguration.UseInheritedPermissions
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.UseInheritedPermissions
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf true, do not set own permissions in document-plugin.\n"
+  syntax:
+    content: bool UseInheritedPermissions { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property UseInheritedPermissions As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.UseInheritedPermissions*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.StoreAttachmentsInAzure
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.StoreAttachmentsInAzure
+  id: StoreAttachmentsInAzure
+  parent: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  langs:
+  - csharp
+  - vb
+  name: StoreAttachmentsInAzure
+  nameWithType: ConfigFile.ICloudConfiguration.StoreAttachmentsInAzure
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.StoreAttachmentsInAzure
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf true, new Attachments (in Service) will be stored in Azure. Existing attachments have a link to attachment_location that identifies where they are. This value is set throug OC options.\n"
+  syntax:
+    content: bool StoreAttachmentsInAzure { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property StoreAttachmentsInAzure As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.StoreAttachmentsInAzure*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.ICloudConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.ICloudConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.ICloudConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.ICloudConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.ICloudConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.ICloudConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.ICloudConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.ICloudConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.ICloudConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.ICloudConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.ICloudConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.ICloudConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.ICloudConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.ICloudConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.ICloudConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.ICloudConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.ICloudConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.ICloudConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.ICloudConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.ICloudConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.ICloudConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.ICloudConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.ICloudConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.ICloudConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.Provider*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.Provider
+  isExternal: true
+  name: Provider
+  nameWithType: ConfigFile.ICloudConfiguration.Provider
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.Provider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DispatcherUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DispatcherUrl
+  isExternal: true
+  name: DispatcherUrl
+  nameWithType: ConfigFile.ICloudConfiguration.DispatcherUrl
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DispatcherUrl
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.CloudUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.CloudUrl
+  isExternal: true
+  name: CloudUrl
+  nameWithType: ConfigFile.ICloudConfiguration.CloudUrl
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.CloudUrl
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TenantId*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TenantId
+  isExternal: true
+  name: TenantId
+  nameWithType: ConfigFile.ICloudConfiguration.TenantId
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TenantId
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TemplatePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TemplatePath
+  isExternal: true
+  name: TemplatePath
+  nameWithType: ConfigFile.ICloudConfiguration.TemplatePath
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.TemplatePath
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.ArchivePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.ArchivePath
+  isExternal: true
+  name: ArchivePath
+  nameWithType: ConfigFile.ICloudConfiguration.ArchivePath
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.ArchivePath
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DefaultCallbackUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DefaultCallbackUrl
+  isExternal: true
+  name: DefaultCallbackUrl
+  nameWithType: ConfigFile.ICloudConfiguration.DefaultCallbackUrl
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DefaultCallbackUrl
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DocumentContentType*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DocumentContentType
+  isExternal: true
+  name: DocumentContentType
+  nameWithType: ConfigFile.ICloudConfiguration.DocumentContentType
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.DocumentContentType
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.SpreadSheetContentType*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.SpreadSheetContentType
+  isExternal: true
+  name: SpreadSheetContentType
+  nameWithType: ConfigFile.ICloudConfiguration.SpreadSheetContentType
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.SpreadSheetContentType
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.PresentationContentType*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.PresentationContentType
+  isExternal: true
+  name: PresentationContentType
+  nameWithType: ConfigFile.ICloudConfiguration.PresentationContentType
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.PresentationContentType
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.UseInheritedPermissions*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.UseInheritedPermissions
+  isExternal: true
+  name: UseInheritedPermissions
+  nameWithType: ConfigFile.ICloudConfiguration.UseInheritedPermissions
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.UseInheritedPermissions
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.StoreAttachmentsInAzure*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICloudConfiguration.StoreAttachmentsInAzure
+  isExternal: true
+  name: StoreAttachmentsInAzure
+  nameWithType: ConfigFile.ICloudConfiguration.StoreAttachmentsInAzure
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration.StoreAttachmentsInAzure

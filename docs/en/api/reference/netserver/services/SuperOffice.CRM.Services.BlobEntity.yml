@@ -43,8 +43,6 @@ items:
       Public Class BlobEntity
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.BLOBAgent
-    commentId: T:SuperOffice.CRM.Services.BLOBAgent
   - linkId: SuperOffice.CRM.Services.IBLOBAgent
     commentId: T:SuperOffice.CRM.Services.IBLOBAgent
   inheritance:
@@ -581,15 +579,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.BLOBAgent
-  commentId: T:SuperOffice.CRM.Services.BLOBAgent
-  isExternal: true
-  name: BLOBAgent
-  nameWithType: BLOBAgent
-  fullName: SuperOffice.CRM.Services.BLOBAgent
 - uid: SuperOffice.CRM.Services.IBLOBAgent
   commentId: T:SuperOffice.CRM.Services.IBLOBAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IBLOBAgent
   nameWithType: IBLOBAgent

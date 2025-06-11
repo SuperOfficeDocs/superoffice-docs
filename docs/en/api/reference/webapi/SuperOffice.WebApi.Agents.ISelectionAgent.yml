@@ -14,15 +14,12 @@ items:
   - SuperOffice.WebApi.Agents.ISelectionAgent.CopySelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync(SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporarySelectionFromIdsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.DeleteContactsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -58,7 +55,6 @@ items:
   - SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria3Async(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaAsync(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionGroup[],SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync(SuperOffice.WebApi.Data.MailMergeSettings,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISelectionAgent.UpdateTypicalSearchAsync(SuperOffice.WebApi.Data.TypicalSearches,SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -85,64 +81,6 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync(SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync(SuperOffice.WebApi.RequestOptions)
-  id: CreateDefaultMailMergeSettingsAsync(SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ISelectionAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultMailMergeSettingsAsync(RequestOptions)
-  nameWithType: ISelectionAgent.CreateDefaultMailMergeSettingsAsync(RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync(SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new MailMergeSettings.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: Task<MailMergeSettings> CreateDefaultMailMergeSettingsAsync(RequestOptions requestOptions = null)
-    parameters:
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeSettings}
-      description: A blank MailMergeSettings
-    content.vb: Function CreateDefaultMailMergeSettingsAsync(requestOptions As RequestOptions = Nothing) As Task(Of MailMergeSettings)
-  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync*
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
-  id: CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ISelectionAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultMailMergeTaskAsync(RequestOptions)
-  nameWithType: ISelectionAgent.CreateDefaultMailMergeTaskAsync(RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new MailMergeTask.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: Task<MailMergeTask> CreateDefaultMailMergeTaskAsync(RequestOptions requestOptions = null)
-    parameters:
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeTask}
-      description: A blank MailMergeTask
-    content.vb: Function CreateDefaultMailMergeTaskAsync(requestOptions As RequestOptions = Nothing) As Task(Of MailMergeTask)
-  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync*
 - uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -344,38 +282,6 @@ items:
   nameWithType.vb: ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(ContactPersonId(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId(), SuperOffice.WebApi.RequestOptions)
   name.vb: CreateTemporaryContactSelectionFromContactPersonIdsAsync(ContactPersonId(), RequestOptions)
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  id: CreateTemporaryContactSelectionFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ISelectionAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateTemporaryContactSelectionFromProjectMembersAsync(Int32, RequestOptions)
-  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nCreates a temporary selection with members from an existing project.\n"
-  syntax:
-    content: Task<SelectionEntity> CreateTemporaryContactSelectionFromProjectMembersAsync(int projectId, RequestOptions requestOptions = null)
-    parameters:
-    - id: projectId
-      type: System.Int32
-      description: The id of the project to add members from.
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
-      description: Returns the newly created SelectionEntity.
-    content.vb: Function CreateTemporaryContactSelectionFromProjectMembersAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
-  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync*
 - uid: SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: CopyContactSelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -959,37 +865,6 @@ items:
       description: Returns a unicode byte array with the file to export to the user.
     content.vb: Function ExportSelectionMembersWithOrderByAsync(selectionId As Integer, templateName As String, useContacts As Boolean, orderBy As String, requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersWithOrderByAsync*
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync(SuperOffice.WebApi.Data.MailMergeSettings,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync(SuperOffice.WebApi.Data.MailMergeSettings,SuperOffice.WebApi.RequestOptions)
-  id: StartMailMergeAsync(SuperOffice.WebApi.Data.MailMergeSettings,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ISelectionAgent
-  langs:
-  - csharp
-  - vb
-  name: StartMailMergeAsync(MailMergeSettings, RequestOptions)
-  nameWithType: ISelectionAgent.StartMailMergeAsync(MailMergeSettings, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync(SuperOffice.WebApi.Data.MailMergeSettings, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nStart a mailmerge operation with specified settings.\n"
-  syntax:
-    content: Task StartMailMergeAsync(MailMergeSettings settings, RequestOptions requestOptions = null)
-    parameters:
-    - id: settings
-      type: SuperOffice.WebApi.Data.MailMergeSettings
-      description: All settings needed to perform the mailmerge operation.
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function StartMailMergeAsync(settings As MailMergeSettings, requestOptions As RequestOptions = Nothing) As Task
-  overload: SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync*
 - uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
   id: SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
@@ -1999,12 +1874,12 @@ references:
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync
   isExternal: true
-  name: CreateDefaultMailMergeSettingsAsync
-  nameWithType: ISelectionAgent.CreateDefaultMailMergeSettingsAsync
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync
+  name: CreateDefaultSelectionEntityAsync
+  nameWithType: ISelectionAgent.CreateDefaultSelectionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
@@ -2012,15 +1887,15 @@ references:
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
-- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeSettings}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeSettings}'
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}'
   definition: System.Threading.Tasks.Task`1
-  name: Task<MailMergeSettings>
-  nameWithType: Task<MailMergeSettings>
-  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MailMergeSettings>
-  nameWithType.vb: Task(Of MailMergeSettings)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.MailMergeSettings)
-  name.vb: Task(Of MailMergeSettings)
+  name: Task<SelectionEntity>
+  nameWithType: Task<SelectionEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SelectionEntity>
+  nameWithType.vb: Task(Of SelectionEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SelectionEntity)
+  name.vb: Task(Of SelectionEntity)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
@@ -2030,10 +1905,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: SuperOffice.WebApi.Data.MailMergeSettings
-    name: MailMergeSettings
-    nameWithType: MailMergeSettings
-    fullName: SuperOffice.WebApi.Data.MailMergeSettings
+  - uid: SuperOffice.WebApi.Data.SelectionEntity
+    name: SelectionEntity
+    nameWithType: SelectionEntity
+    fullName: SuperOffice.WebApi.Data.SelectionEntity
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -2047,10 +1922,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.MailMergeSettings
-    name: MailMergeSettings
-    nameWithType: MailMergeSettings
-    fullName: SuperOffice.WebApi.Data.MailMergeSettings
+  - uid: SuperOffice.WebApi.Data.SelectionEntity
+    name: SelectionEntity
+    nameWithType: SelectionEntity
+    fullName: SuperOffice.WebApi.Data.SelectionEntity
     isExternal: true
   - name: )
     nameWithType: )
@@ -2096,104 +1971,6 @@ references:
   - name: ''
     nameWithType: ''
     fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync
-  isExternal: true
-  name: CreateDefaultMailMergeTaskAsync
-  nameWithType: ISelectionAgent.CreateDefaultMailMergeTaskAsync
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeTask}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeTask}'
-  definition: System.Threading.Tasks.Task`1
-  name: Task<MailMergeTask>
-  nameWithType: Task<MailMergeTask>
-  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MailMergeTask>
-  nameWithType.vb: Task(Of MailMergeTask)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.MailMergeTask)
-  name.vb: Task(Of MailMergeTask)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.MailMergeTask
-    name: MailMergeTask
-    nameWithType: MailMergeTask
-    fullName: SuperOffice.WebApi.Data.MailMergeTask
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.MailMergeTask
-    name: MailMergeTask
-    nameWithType: MailMergeTask
-    fullName: SuperOffice.WebApi.Data.MailMergeTask
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync
-  isExternal: true
-  name: CreateDefaultSelectionEntityAsync
-  nameWithType: ISelectionAgent.CreateDefaultSelectionEntityAsync
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}'
-  definition: System.Threading.Tasks.Task`1
-  name: Task<SelectionEntity>
-  nameWithType: Task<SelectionEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SelectionEntity>
-  nameWithType.vb: Task(Of SelectionEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SelectionEntity)
-  name.vb: Task(Of SelectionEntity)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.SelectionEntity
-    name: SelectionEntity
-    nameWithType: SelectionEntity
-    fullName: SuperOffice.WebApi.Data.SelectionEntity
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.SelectionEntity
-    name: SelectionEntity
-    nameWithType: SelectionEntity
-    fullName: SuperOffice.WebApi.Data.SelectionEntity
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2300,12 +2077,6 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync
-  isExternal: true
-  name: CreateTemporaryContactSelectionFromProjectMembersAsync
-  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync
 - uid: SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync
   isExternal: true
@@ -2582,19 +2353,6 @@ references:
   name: ExportSelectionMembersWithOrderByAsync
   nameWithType: ISelectionAgent.ExportSelectionMembersWithOrderByAsync
   fullName: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersWithOrderByAsync
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync
-  isExternal: true
-  name: StartMailMergeAsync
-  nameWithType: ISelectionAgent.StartMailMergeAsync
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync
-- uid: SuperOffice.WebApi.Data.MailMergeSettings
-  commentId: T:SuperOffice.WebApi.Data.MailMergeSettings
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: MailMergeSettings
-  nameWithType: MailMergeSettings
-  fullName: SuperOffice.WebApi.Data.MailMergeSettings
 - uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync
   isExternal: true

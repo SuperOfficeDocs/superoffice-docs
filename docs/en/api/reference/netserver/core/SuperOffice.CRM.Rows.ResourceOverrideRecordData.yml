@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.ResourceOverrideRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ResourceOverrideRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ResourceOverrideRecordData)
   - SuperOffice.CRM.Rows.ResourceOverrideRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ResourceOverrideRecordData.SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ResourceOverrideRecordData.SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ResourceOverrideRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ResourceOverrideRecordData.SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ResourceOverrideRecordData)
+- uid: SuperOffice.CRM.Rows.ResourceOverrideRecordData.SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ResourceOverrideRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ResourceOverrideRecordData)
-  name: ToInsert()
-  nameWithType: ResourceOverrideRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ResourceOverrideRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ResourceOverrideRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ResourceOverrideRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ResourceOverrideRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ResourceOverrideRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ResourceOverrideRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ResourceOverrideRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ResourceOverrideRecordData)
+- uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ResourceOverrideRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ResourceOverrideRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ResourceOverrideRecordData)
-  nameWithType: ResourceOverrideRecordDataExtensions.ToInsert(ResourceOverrideRecordData)
-  fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ResourceOverrideRecordData)
+  name: ToInsertAsync(ResourceOverrideRecordData, CancellationToken)
+  nameWithType: ResourceOverrideRecordDataExtensions.ToInsertAsync(ResourceOverrideRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ResourceOverrideRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ResourceOverrideRecordData)
-    name: ToInsert
-    nameWithType: ResourceOverrideRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ResourceOverrideRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ResourceOverrideRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: ResourceOverrideRecordData
     nameWithType: ResourceOverrideRecordData
     fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ResourceOverrideRecordData)
-    name: ToInsert
-    nameWithType: ResourceOverrideRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ResourceOverrideRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ResourceOverrideRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: ResourceOverrideRecordData
     nameWithType: ResourceOverrideRecordData
     fullName: SuperOffice.CRM.Rows.ResourceOverrideRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

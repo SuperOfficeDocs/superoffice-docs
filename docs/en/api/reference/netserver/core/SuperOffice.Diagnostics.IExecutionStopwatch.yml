@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch
+  commentId: T:SuperOffice.Diagnostics.IExecutionStopwatch
+  id: IExecutionStopwatch
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+  - SuperOffice.Diagnostics.IExecutionStopwatch.Start
+  - SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+  langs:
+  - csharp
+  - vb
+  name: IExecutionStopwatch
+  nameWithType: IExecutionStopwatch
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public interface IExecutionStopwatch
+    content.vb: Public Interface IExecutionStopwatch
+  extensionMethods:
+  - SuperOffice.Diagnostics.IExecutionStopwatch.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.IExecutionStopwatch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Start
+  commentId: M:SuperOffice.Diagnostics.IExecutionStopwatch.Start
+  id: Start
+  parent: SuperOffice.Diagnostics.IExecutionStopwatch
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: IExecutionStopwatch.Start()
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Start()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: void Start()
+    content.vb: Sub Start
+  overload: SuperOffice.Diagnostics.IExecutionStopwatch.Start*
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+  commentId: M:SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+  id: Stop
+  parent: SuperOffice.Diagnostics.IExecutionStopwatch
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: IExecutionStopwatch.Stop()
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Stop()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: void Stop()
+    content.vb: Sub Stop
+  overload: SuperOffice.Diagnostics.IExecutionStopwatch.Stop*
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+  commentId: P:SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+  id: Elapsed
+  parent: SuperOffice.Diagnostics.IExecutionStopwatch
+  langs:
+  - csharp
+  - vb
+  name: Elapsed
+  nameWithType: IExecutionStopwatch.Elapsed
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: TimeSpan Elapsed { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: ReadOnly Property Elapsed As TimeSpan
+  overload: SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IExecutionStopwatch, To>()
+  nameWithType: EnumUtil.MapEnums<IExecutionStopwatch, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.IExecutionStopwatch, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IExecutionStopwatch, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.IExecutionStopwatch, To)()
+  name.vb: MapEnums(Of IExecutionStopwatch, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IExecutionStopwatch, To>
+    nameWithType: EnumUtil.MapEnums<IExecutionStopwatch, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.IExecutionStopwatch, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IExecutionStopwatch, To)
+    nameWithType: EnumUtil.MapEnums(Of IExecutionStopwatch, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.IExecutionStopwatch, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IExecutionStopwatch, To>()
+  nameWithType: Converters.MapEnums<IExecutionStopwatch, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.IExecutionStopwatch, To>()
+  nameWithType.vb: Converters.MapEnums(Of IExecutionStopwatch, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.IExecutionStopwatch, To)()
+  name.vb: MapEnums(Of IExecutionStopwatch, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IExecutionStopwatch, To>
+    nameWithType: Converters.MapEnums<IExecutionStopwatch, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.IExecutionStopwatch, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IExecutionStopwatch, To)
+    nameWithType: Converters.MapEnums(Of IExecutionStopwatch, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.IExecutionStopwatch, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Start*
+  commentId: Overload:SuperOffice.Diagnostics.IExecutionStopwatch.Start
+  isExternal: true
+  name: Start
+  nameWithType: IExecutionStopwatch.Start
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Start
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Stop*
+  commentId: Overload:SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+  isExternal: true
+  name: Stop
+  nameWithType: IExecutionStopwatch.Stop
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed*
+  commentId: Overload:SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+  isExternal: true
+  name: Elapsed
+  nameWithType: IExecutionStopwatch.Elapsed
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+- uid: System.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan

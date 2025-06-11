@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.MessageRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.MessageRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MessageRecordData)
   - SuperOffice.CRM.Rows.MessageRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.MessageRecordData.SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.MessageRecordData.SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.MessageRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MessageRecordData.SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageRecordData)
+- uid: SuperOffice.CRM.Rows.MessageRecordData.SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.MessageRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageRecordData)
-  name: ToInsert()
-  nameWithType: MessageRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: MessageRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: MessageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MessageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: MessageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MessageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageRecordData)
-  commentId: M:SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageRecordData)
+- uid: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(MessageRecordData)
-  nameWithType: MessageRecordDataExtensions.ToInsert(MessageRecordData)
-  fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageRecordData)
+  name: ToInsertAsync(MessageRecordData, CancellationToken)
+  nameWithType: MessageRecordDataExtensions.ToInsertAsync(MessageRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageRecordData)
-    name: ToInsert
-    nameWithType: MessageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MessageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: MessageRecordData
     nameWithType: MessageRecordData
     fullName: SuperOffice.CRM.Rows.MessageRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MessageRecordData)
-    name: ToInsert
-    nameWithType: MessageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MessageRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MessageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MessageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: MessageRecordData
     nameWithType: MessageRecordData
     fullName: SuperOffice.CRM.Rows.MessageRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

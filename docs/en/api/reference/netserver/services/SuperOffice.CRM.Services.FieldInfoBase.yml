@@ -42,8 +42,6 @@ items:
       Public Class FieldInfoBase
           Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
-    commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
   - linkId: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
     commentId: T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   inheritance:
@@ -631,15 +629,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
-  commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
-  isExternal: true
-  name: UserDefinedFieldInfoAgent
-  nameWithType: UserDefinedFieldInfoAgent
-  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   commentId: T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IUserDefinedFieldInfoAgent
   nameWithType: IUserDefinedFieldInfoAgent

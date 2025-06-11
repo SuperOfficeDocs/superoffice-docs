@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
   - SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
-  - SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ComptrGroupLinkRecordData)
-  - SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData})
+  - SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ComptrGroupLinkRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ComptrGroupLinkRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
+- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<ComptrGroupLinkTableInfo>)
-  nameWithType: ComptrGroupLinkRecordDataExtensions.FromSelect(TargetedSelect<ComptrGroupLinkTableInfo>)
-  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ComptrGroupLinkTableInfo>)
+  name: FromSelectAsync(TargetedSelect<ComptrGroupLinkTableInfo>, CancellationToken)
+  nameWithType: ComptrGroupLinkRecordDataExtensions.FromSelectAsync(TargetedSelect<ComptrGroupLinkTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ComptrGroupLinkTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<ComptrGroupLinkRecordData> FromSelect(this TargetedSelect<ComptrGroupLinkTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<ComptrGroupLinkRecordData> FromSelectAsync(this TargetedSelect<ComptrGroupLinkTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of ComptrGroupLinkTableInfo)) As IEnumerable(Of ComptrGroupLinkRecordData)
-  overload: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect*
-  nameWithType.vb: ComptrGroupLinkRecordDataExtensions.FromSelect(TargetedSelect(Of ComptrGroupLinkTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of ComptrGroupLinkTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ComptrGroupLinkRecordData)
+  overload: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: ComptrGroupLinkRecordDataExtensions.FromSelectAsync(TargetedSelect(Of ComptrGroupLinkTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ComptrGroupLinkTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of ComptrGroupLinkTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ComptrGroupLinkTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of ComptrGroupLinkTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
   commentId: M:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ComptrGroupLinkTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of ComptrGroupLinkTableInfo))
-- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ComptrGroupLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ComptrGroupLinkRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.ComptrGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ComptrGroupLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ComptrGroupLinkRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.ComptrGroupLinkRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(ComptrGroupLinkRecordData)
-  nameWithType: ComptrGroupLinkRecordDataExtensions.ToInsert(ComptrGroupLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ComptrGroupLinkRecordData)
+  name: ToInsertAsync(ComptrGroupLinkRecordData, CancellationToken)
+  nameWithType: ComptrGroupLinkRecordDataExtensions.ToInsertAsync(ComptrGroupLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ComptrGroupLinkRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this ComptrGroupLinkRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this ComptrGroupLinkRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.ComptrGroupLinkRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As ComptrGroupLinkRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As ComptrGroupLinkRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData})
-  commentId: M:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData})
+- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<ComptrGroupLinkRecordData>)
-  nameWithType: ComptrGroupLinkRecordDataExtensions.ToInserts(IEnumerable<ComptrGroupLinkRecordData>)
-  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ComptrGroupLinkRecordData>)
+  name: ToInsertsAsync(IEnumerable<ComptrGroupLinkRecordData>, CancellationToken)
+  nameWithType: ComptrGroupLinkRecordDataExtensions.ToInsertsAsync(IEnumerable<ComptrGroupLinkRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ComptrGroupLinkRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<ComptrGroupLinkRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<ComptrGroupLinkRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of ComptrGroupLinkRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInserts*
-  nameWithType.vb: ComptrGroupLinkRecordDataExtensions.ToInserts(IEnumerable(Of ComptrGroupLinkRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of ComptrGroupLinkRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: ComptrGroupLinkRecordDataExtensions.ToInsertsAsync(IEnumerable(Of ComptrGroupLinkRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ComptrGroupLinkRecordData))
-  name.vb: ToInserts(IEnumerable(Of ComptrGroupLinkRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ComptrGroupLinkRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of ComptrGroupLinkRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ComptrGroupLinkRow)
   commentId: M:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ComptrGroupLinkRow)
   id: ToRecordData(SuperOffice.CRM.Rows.ComptrGroupLinkRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<ComptrGroupLinkTableInfo>)
+  nameWithType: ComptrGroupLinkRecordDataExtensions.FromSelect(TargetedSelect<ComptrGroupLinkTableInfo>)
+  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ComptrGroupLinkTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;ComptrGroupLinkTableInfo>, execute it and return an IEnumerable&lt;ComptrGroupLinkRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<ComptrGroupLinkRecordData> FromSelect(this TargetedSelect<ComptrGroupLinkTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of ComptrGroupLinkTableInfo)) As IEnumerable(Of ComptrGroupLinkRecordData)
+  overload: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect*
+  nameWithType.vb: ComptrGroupLinkRecordDataExtensions.FromSelect(TargetedSelect(Of ComptrGroupLinkTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ComptrGroupLinkTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of ComptrGroupLinkTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: ComptrGroupLinkRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: ComptrGroupLinkRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ComptrGroupLinkTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<ComptrGroupLinkRecordData>
-  nameWithType: IEnumerable<ComptrGroupLinkRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ComptrGroupLinkRecordData>
-  nameWithType.vb: IEnumerable(Of ComptrGroupLinkRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ComptrGroupLinkRecordData)
-  name.vb: IEnumerable(Of ComptrGroupLinkRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ComptrGroupLinkRecordData>
+  nameWithType: IAsyncEnumerable<ComptrGroupLinkRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.ComptrGroupLinkRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of ComptrGroupLinkRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.ComptrGroupLinkRecordData)
+  name.vb: IAsyncEnumerable(Of ComptrGroupLinkRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: ComptrGroupLinkRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: ComptrGroupLinkRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: ComptrGroupLinkRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: ComptrGroupLinkRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ComptrGroupLinkRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ComptrGroupLinkRecordData>
+  nameWithType: IEnumerable<ComptrGroupLinkRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ComptrGroupLinkRecordData>
+  nameWithType.vb: IEnumerable(Of ComptrGroupLinkRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ComptrGroupLinkRecordData)
+  name.vb: IEnumerable(Of ComptrGroupLinkRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordData
+    name: ComptrGroupLinkRecordData
+    nameWithType: ComptrGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordData
+    name: ComptrGroupLinkRecordData
+    nameWithType: ComptrGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: ComptrGroupLinkRow
   nameWithType: ComptrGroupLinkRow
   fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRow
+- uid: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: ComptrGroupLinkRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.ComptrGroupLinkRecordDataExtensions.FromSelect

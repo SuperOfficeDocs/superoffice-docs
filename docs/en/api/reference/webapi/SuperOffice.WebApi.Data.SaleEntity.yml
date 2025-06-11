@@ -73,7 +73,7 @@ items:
 
     History: <pre><code>&quot;SaleHistory&quot;</code></pre> with restriction <pre><code>&quot;saleId eq &quot; + id</code></pre>.
 
-    Activities: <pre><code>&quot;SaleActivities&quot;</code></pre> with restriction <pre><code>&quot;saleId eq &quot; + id</code></pre>.
+    Activities: <pre><code>&quot;SaleActivity&quot;</code></pre> with restriction <pre><code>&quot;saleId eq &quot; + id</code></pre>.
 
     Guide: <pre><code>&quot;SaleGuide&quot;</code></pre> with restriction <pre><code>&quot;saleId eq &quot; + id</code></pre>.
 

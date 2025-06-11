@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WinPosSizeTableInfo})
   - SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo})
-  - SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
-  - SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData})
+  - SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WinPosSizeRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo})
+- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<WinPosSizeTableInfo>)
-  nameWithType: WinPosSizeRecordDataExtensions.FromSelect(TargetedSelect<WinPosSizeTableInfo>)
-  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WinPosSizeTableInfo>)
+  name: FromSelectAsync(TargetedSelect<WinPosSizeTableInfo>, CancellationToken)
+  nameWithType: WinPosSizeRecordDataExtensions.FromSelectAsync(TargetedSelect<WinPosSizeTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WinPosSizeTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<WinPosSizeRecordData> FromSelect(this TargetedSelect<WinPosSizeTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<WinPosSizeRecordData> FromSelectAsync(this TargetedSelect<WinPosSizeTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of WinPosSizeTableInfo)) As IEnumerable(Of WinPosSizeRecordData)
-  overload: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect*
-  nameWithType.vb: WinPosSizeRecordDataExtensions.FromSelect(TargetedSelect(Of WinPosSizeTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of WinPosSizeTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of WinPosSizeRecordData)
+  overload: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: WinPosSizeRecordDataExtensions.FromSelectAsync(TargetedSelect(Of WinPosSizeTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WinPosSizeTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of WinPosSizeTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WinPosSizeTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of WinPosSizeTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WinPosSizeTableInfo})
   commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WinPosSizeTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WinPosSizeTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.WinPosSizeTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of WinPosSizeTableInfo))
-- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
-  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
+- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(WinPosSizeRecordData)
-  nameWithType: WinPosSizeRecordDataExtensions.ToInsert(WinPosSizeRecordData)
-  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
+  name: ToInsertAsync(WinPosSizeRecordData, CancellationToken)
+  nameWithType: WinPosSizeRecordDataExtensions.ToInsertAsync(WinPosSizeRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this WinPosSizeRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this WinPosSizeRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.WinPosSizeRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As WinPosSizeRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As WinPosSizeRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData})
-  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData})
+- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<WinPosSizeRecordData>)
-  nameWithType: WinPosSizeRecordDataExtensions.ToInserts(IEnumerable<WinPosSizeRecordData>)
-  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WinPosSizeRecordData>)
+  name: ToInsertsAsync(IEnumerable<WinPosSizeRecordData>, CancellationToken)
+  nameWithType: WinPosSizeRecordDataExtensions.ToInsertsAsync(IEnumerable<WinPosSizeRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WinPosSizeRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<WinPosSizeRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<WinPosSizeRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of WinPosSizeRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInserts*
-  nameWithType.vb: WinPosSizeRecordDataExtensions.ToInserts(IEnumerable(Of WinPosSizeRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of WinPosSizeRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: WinPosSizeRecordDataExtensions.ToInsertsAsync(IEnumerable(Of WinPosSizeRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WinPosSizeRecordData))
-  name.vb: ToInserts(IEnumerable(Of WinPosSizeRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WinPosSizeRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of WinPosSizeRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WinPosSizeRow)
   commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WinPosSizeRow)
   id: ToRecordData(SuperOffice.CRM.Rows.WinPosSizeRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<WinPosSizeTableInfo>)
+  nameWithType: WinPosSizeRecordDataExtensions.FromSelect(TargetedSelect<WinPosSizeTableInfo>)
+  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WinPosSizeTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;WinPosSizeTableInfo>, execute it and return an IEnumerable&lt;WinPosSizeRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<WinPosSizeRecordData> FromSelect(this TargetedSelect<WinPosSizeTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of WinPosSizeTableInfo)) As IEnumerable(Of WinPosSizeRecordData)
+  overload: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect*
+  nameWithType.vb: WinPosSizeRecordDataExtensions.FromSelect(TargetedSelect(Of WinPosSizeTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WinPosSizeTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of WinPosSizeTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: WinPosSizeRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: WinPosSizeRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WinPosSizeTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<WinPosSizeRecordData>
-  nameWithType: IEnumerable<WinPosSizeRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WinPosSizeRecordData>
-  nameWithType.vb: IEnumerable(Of WinPosSizeRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WinPosSizeRecordData)
-  name.vb: IEnumerable(Of WinPosSizeRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<WinPosSizeRecordData>
+  nameWithType: IAsyncEnumerable<WinPosSizeRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.WinPosSizeRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of WinPosSizeRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.WinPosSizeRecordData)
+  name.vb: IAsyncEnumerable(Of WinPosSizeRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: WinPosSizeRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: WinPosSizeRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: WinPosSizeRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: WinPosSizeRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WinPosSizeRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<WinPosSizeRecordData>
+  nameWithType: IEnumerable<WinPosSizeRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WinPosSizeRecordData>
+  nameWithType.vb: IEnumerable(Of WinPosSizeRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WinPosSizeRecordData)
+  name.vb: IEnumerable(Of WinPosSizeRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.WinPosSizeRecordData
+    name: WinPosSizeRecordData
+    nameWithType: WinPosSizeRecordData
+    fullName: SuperOffice.CRM.Rows.WinPosSizeRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.WinPosSizeRecordData
+    name: WinPosSizeRecordData
+    nameWithType: WinPosSizeRecordData
+    fullName: SuperOffice.CRM.Rows.WinPosSizeRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: WinPosSizeRow
   nameWithType: WinPosSizeRow
   fullName: SuperOffice.CRM.Rows.WinPosSizeRow
+- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: WinPosSizeRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.FromSelect

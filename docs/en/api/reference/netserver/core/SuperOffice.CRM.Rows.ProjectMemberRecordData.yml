@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectMemberRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ProjectMemberRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ProjectMemberRecordData)
   - SuperOffice.CRM.Rows.ProjectMemberRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ProjectMemberRecordData.SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ProjectMemberRecordData.SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProjectMemberRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProjectMemberRecordData.SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjectMemberRecordData)
+- uid: SuperOffice.CRM.Rows.ProjectMemberRecordData.SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjectMemberRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjectMemberRecordData)
-  name: ToInsert()
-  nameWithType: ProjectMemberRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjectMemberRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ProjectMemberRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ProjectMemberRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProjectMemberRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ProjectMemberRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProjectMemberRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjectMemberRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjectMemberRecordData)
+- uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjectMemberRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjectMemberRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ProjectMemberRecordData)
-  nameWithType: ProjectMemberRecordDataExtensions.ToInsert(ProjectMemberRecordData)
-  fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjectMemberRecordData)
+  name: ToInsertAsync(ProjectMemberRecordData, CancellationToken)
+  nameWithType: ProjectMemberRecordDataExtensions.ToInsertAsync(ProjectMemberRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjectMemberRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjectMemberRecordData)
-    name: ToInsert
-    nameWithType: ProjectMemberRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjectMemberRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProjectMemberRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: ProjectMemberRecordData
     nameWithType: ProjectMemberRecordData
     fullName: SuperOffice.CRM.Rows.ProjectMemberRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProjectMemberRecordData)
-    name: ToInsert
-    nameWithType: ProjectMemberRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProjectMemberRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProjectMemberRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: ProjectMemberRecordData
     nameWithType: ProjectMemberRecordData
     fullName: SuperOffice.CRM.Rows.ProjectMemberRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

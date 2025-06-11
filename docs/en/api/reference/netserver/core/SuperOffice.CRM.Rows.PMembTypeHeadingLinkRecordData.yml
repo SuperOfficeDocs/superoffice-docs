@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData)
   - SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData.SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData.SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData.SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData.SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData)
-  name: ToInsert()
-  nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(PMembTypeHeadingLinkRecordData)
-  nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsert(PMembTypeHeadingLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData)
+  name: ToInsertAsync(PMembTypeHeadingLinkRecordData, CancellationToken)
+  nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(PMembTypeHeadingLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData)
-    name: ToInsert
-    nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: PMembTypeHeadingLinkRecordData
     nameWithType: PMembTypeHeadingLinkRecordData
     fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData)
-    name: ToInsert
-    nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: PMembTypeHeadingLinkRecordData
     nameWithType: PMembTypeHeadingLinkRecordData
     fullName: SuperOffice.CRM.Rows.PMembTypeHeadingLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

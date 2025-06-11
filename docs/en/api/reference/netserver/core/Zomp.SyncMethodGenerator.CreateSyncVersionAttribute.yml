@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+  commentId: T:Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+  id: CreateSyncVersionAttribute
+  parent: Zomp.SyncMethodGenerator
+  children:
+  - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+  - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.OmitNullableDirective
+  langs:
+  - csharp
+  - vb
+  name: CreateSyncVersionAttribute
+  nameWithType: CreateSyncVersionAttribute
+  fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Zomp.SyncMethodGenerator
+  summary: "\nAn attribute that can be used to automatically generate a synchronous version of an async method. Must be used in a partial class.\n"
+  remarks: "\nCopy pasted from the code generator Zomp.SyncMethodGenerator. The generator acts wonky when there are multiple attributes\nacross multiple projects combined with InternalVisibleTo. Defining it ourselves allow us to force that only a single copy\nof the attribute exists in our source code, hence no buggy behavior.\nhttps://github.com/zompinc/sync-method-generator/issues/76\n"
+  syntax:
+    content: 'public class CreateSyncVersionAttribute : Attribute'
+    content.vb: >-
+      Public Class CreateSyncVersionAttribute
+          Inherits Attribute
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.EnumUtil.MapEnums``2
+  - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(Zomp.SyncMethodGenerator.CreateSyncVersionAttribute)
+  - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+  commentId: M:Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+  id: '#ctor'
+  parent: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+  langs:
+  - csharp
+  - vb
+  name: CreateSyncVersionAttribute()
+  nameWithType: CreateSyncVersionAttribute.CreateSyncVersionAttribute()
+  fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.CreateSyncVersionAttribute()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Zomp.SyncMethodGenerator
+  syntax:
+    content: public CreateSyncVersionAttribute()
+    content.vb: Public Sub New
+  overload: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.OmitNullableDirective
+  commentId: P:Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.OmitNullableDirective
+  id: OmitNullableDirective
+  parent: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+  langs:
+  - csharp
+  - vb
+  name: OmitNullableDirective
+  nameWithType: CreateSyncVersionAttribute.OmitNullableDirective
+  fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.OmitNullableDirective
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Zomp.SyncMethodGenerator
+  summary: "\nGets or sets a value indicating whether &quot;#nullable enable&quot; directive will be omitted from generated code. False by default.\n"
+  syntax:
+    content: public bool OmitNullableDirective { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property OmitNullableDirective As Boolean
+  overload: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.OmitNullableDirective*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Zomp.SyncMethodGenerator
+  commentId: N:Zomp.SyncMethodGenerator
+  isExternal: true
+  name: Zomp.SyncMethodGenerator
+  nameWithType: Zomp.SyncMethodGenerator
+  fullName: Zomp.SyncMethodGenerator
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CreateSyncVersionAttribute, To>()
+  nameWithType: EnumUtil.MapEnums<CreateSyncVersionAttribute, To>()
+  fullName: EnumUtil.MapEnums<Zomp.SyncMethodGenerator.CreateSyncVersionAttribute, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CreateSyncVersionAttribute, To)()
+  fullName.vb: EnumUtil.MapEnums(Of Zomp.SyncMethodGenerator.CreateSyncVersionAttribute, To)()
+  name.vb: MapEnums(Of CreateSyncVersionAttribute, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CreateSyncVersionAttribute, To>
+    nameWithType: EnumUtil.MapEnums<CreateSyncVersionAttribute, To>
+    fullName: EnumUtil.MapEnums<Zomp.SyncMethodGenerator.CreateSyncVersionAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CreateSyncVersionAttribute, To)
+    nameWithType: EnumUtil.MapEnums(Of CreateSyncVersionAttribute, To)
+    fullName: EnumUtil.MapEnums(Of Zomp.SyncMethodGenerator.CreateSyncVersionAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(Zomp.SyncMethodGenerator.CreateSyncVersionAttribute)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CreateSyncVersionAttribute>(CreateSyncVersionAttribute)
+  nameWithType: ObjectExtensions.AssignByReflection<CreateSyncVersionAttribute>(CreateSyncVersionAttribute)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<Zomp.SyncMethodGenerator.CreateSyncVersionAttribute>(Zomp.SyncMethodGenerator.CreateSyncVersionAttribute)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CreateSyncVersionAttribute)(CreateSyncVersionAttribute)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of Zomp.SyncMethodGenerator.CreateSyncVersionAttribute)(Zomp.SyncMethodGenerator.CreateSyncVersionAttribute)
+  name.vb: AssignByReflection(Of CreateSyncVersionAttribute)(CreateSyncVersionAttribute)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CreateSyncVersionAttribute>
+    nameWithType: ObjectExtensions.AssignByReflection<CreateSyncVersionAttribute>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<Zomp.SyncMethodGenerator.CreateSyncVersionAttribute>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    name: CreateSyncVersionAttribute
+    nameWithType: CreateSyncVersionAttribute
+    fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CreateSyncVersionAttribute)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CreateSyncVersionAttribute)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of Zomp.SyncMethodGenerator.CreateSyncVersionAttribute)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    name: CreateSyncVersionAttribute
+    nameWithType: CreateSyncVersionAttribute
+    fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CreateSyncVersionAttribute>()
+  nameWithType: ObjectExtensions.GraphCopy<CreateSyncVersionAttribute>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<Zomp.SyncMethodGenerator.CreateSyncVersionAttribute>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CreateSyncVersionAttribute)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of Zomp.SyncMethodGenerator.CreateSyncVersionAttribute)()
+  name.vb: GraphCopy(Of CreateSyncVersionAttribute)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CreateSyncVersionAttribute>
+    nameWithType: ObjectExtensions.GraphCopy<CreateSyncVersionAttribute>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<Zomp.SyncMethodGenerator.CreateSyncVersionAttribute>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CreateSyncVersionAttribute)
+    nameWithType: ObjectExtensions.GraphCopy(Of CreateSyncVersionAttribute)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of Zomp.SyncMethodGenerator.CreateSyncVersionAttribute)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CreateSyncVersionAttribute, To>()
+  nameWithType: Converters.MapEnums<CreateSyncVersionAttribute, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Zomp.SyncMethodGenerator.CreateSyncVersionAttribute, To>()
+  nameWithType.vb: Converters.MapEnums(Of CreateSyncVersionAttribute, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Zomp.SyncMethodGenerator.CreateSyncVersionAttribute, To)()
+  name.vb: MapEnums(Of CreateSyncVersionAttribute, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CreateSyncVersionAttribute, To>
+    nameWithType: Converters.MapEnums<CreateSyncVersionAttribute, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Zomp.SyncMethodGenerator.CreateSyncVersionAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CreateSyncVersionAttribute, To)
+    nameWithType: Converters.MapEnums(Of CreateSyncVersionAttribute, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Zomp.SyncMethodGenerator.CreateSyncVersionAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor*
+  commentId: Overload:Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+  isExternal: true
+  name: CreateSyncVersionAttribute
+  nameWithType: CreateSyncVersionAttribute.CreateSyncVersionAttribute
+  fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.CreateSyncVersionAttribute
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.OmitNullableDirective*
+  commentId: Overload:Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.OmitNullableDirective
+  isExternal: true
+  name: OmitNullableDirective
+  nameWithType: CreateSyncVersionAttribute.OmitNullableDirective
+  fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.OmitNullableDirective
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

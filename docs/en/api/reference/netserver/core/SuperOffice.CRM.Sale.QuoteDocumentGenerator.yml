@@ -6,8 +6,8 @@ items:
   parent: SuperOffice.CRM.Sale
   children:
   - SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
-  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
   - SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
+  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
   langs:
   - csharp
@@ -108,16 +108,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
-  commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
-  id: PrescanForTags(System.Int32)
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync(System.Int32,System.Threading.CancellationToken)
+  id: PrescanForTagsAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Sale.QuoteDocumentGenerator
   langs:
   - csharp
   - vb
-  name: PrescanForTags(Int32)
-  nameWithType: QuoteDocumentGenerator.PrescanForTags(Int32)
-  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
+  name: PrescanForTagsAsync(Int32, CancellationToken)
+  nameWithType: QuoteDocumentGenerator.PrescanForTagsAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -127,14 +127,16 @@ items:
   namespace: SuperOffice.CRM.Sale
   summary: "\nFind out which tags are present in a Word document;\nthis is used to control the final data-generation process\n"
   syntax:
-    content: public static string[] PrescanForTags(int documentId)
+    content: public static Task<string[]> PrescanForTagsAsync(int documentId, CancellationToken cancellationToken = null)
     parameters:
     - id: documentId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
-    content.vb: Public Shared Function PrescanForTags(documentId As Integer) As String()
-  overload: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags*
+      type: System.Threading.Tasks.Task{System.String[]}
+    content.vb: Public Shared Function PrescanForTagsAsync(documentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync*
   modifiers.csharp:
   - public
   - static
@@ -212,16 +214,17 @@ references:
   nameWithType: Stream
   fullName: System.IO.Stream
 - uid: System.Data.DataSet
+  commentId: '!:System.Data.DataSet'
   isExternal: true
   name: DataSet
   nameWithType: DataSet
   fullName: System.Data.DataSet
-- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags*
-  commentId: Overload:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync
   isExternal: true
-  name: PrescanForTags
-  nameWithType: QuoteDocumentGenerator.PrescanForTags
-  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags
+  name: PrescanForTagsAsync
+  nameWithType: QuoteDocumentGenerator.PrescanForTagsAsync
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -229,6 +232,104 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags
+  isExternal: true
+  name: PrescanForTags
+  nameWithType: QuoteDocumentGenerator.PrescanForTags
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags
 - uid: System.String[]
   isExternal: true
   name: String[]

@@ -1,0 +1,1950 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.IUdefHelper
+  commentId: T:SuperOffice.Data.IUdefHelper
+  id: IUdefHelper
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.IUdefHelper.CheckRevisionAsync
+  - SuperOffice.Data.IUdefHelper.CheckRevisionAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.CompareUdefRows(SuperOffice.CRM.Rows.UDefFieldRow,SuperOffice.CRM.Rows.UDefFieldRow)
+  - SuperOffice.Data.IUdefHelper.ConvertFromAdminLineNo(System.Int32)
+  - SuperOffice.Data.IUdefHelper.ConvertToAdminLineNo(System.Int32)
+  - SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  - SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Boolean)
+  - SuperOffice.Data.IUdefHelper.GetAdminVersionAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync
+  - SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync(SuperOffice.Data.UDefType[])
+  - SuperOffice.Data.IUdefHelper.GetAllFields(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  - SuperOffice.Data.IUdefHelper.GetCurrentVersionAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync
+  - SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync(SuperOffice.Data.UDefType[])
+  - SuperOffice.Data.IUdefHelper.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
+  - SuperOffice.Data.IUdefHelper.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
+  - SuperOffice.Data.IUdefHelper.GetTableInfo(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.GetTableInfoLarge(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.GetTableInfoLargeOrSmall(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  - SuperOffice.Data.IUdefHelper.GetTableInfoSmall(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.GetTemplateVariableName(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Int32)
+  - SuperOffice.Data.IUdefHelper.GetUdefType(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.IUdefHelper.GetUdefType(System.Int32)
+  - SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListString(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListStringAdmin(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.GetVersionPreferenceAdmin(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.GetVersionPreferenceCurrent(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.IncrementAdminVersionAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.IncrementCurrentVersionAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.IUdefHelper.IsLargeTableColumn(System.Int32)
+  - SuperOffice.Data.IUdefHelper.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.Data.IUdefHelper.IsSmallTableColumn(System.Int32)
+  - SuperOffice.Data.IUdefHelper.IsUnpublishedPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.Data.IUdefHelper.SetAdminVersionAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.IUdefHelper.SetCurrentVersionAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.IUdefHelper.SetRankOnFieldsAsync(SuperOffice.Data.UDefType,System.Int32[])
+  - SuperOffice.Data.IUdefHelper.SuggestLocation(SuperOffice.Data.UDefType,System.Int32@,System.Int32@,System.Int32,System.Int32,System.Int32@,System.Int32@)
+  - SuperOffice.Data.IUdefHelper.TranslateFieldTypeToDatabaseType(SuperOffice.Data.UDefFieldType)
+  langs:
+  - csharp
+  - vb
+  name: IUdefHelper
+  nameWithType: IUdefHelper
+  fullName: SuperOffice.Data.IUdefHelper
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public interface IUdefHelper
+    content.vb: Public Interface IUdefHelper
+  extensionMethods:
+  - SuperOffice.Data.IUdefHelper.EnumUtil.MapEnums``2
+  - SuperOffice.Data.IUdefHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.IUdefHelper.CheckRevisionAsync
+  commentId: M:SuperOffice.Data.IUdefHelper.CheckRevisionAsync
+  id: CheckRevisionAsync
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: CheckRevisionAsync()
+  nameWithType: IUdefHelper.CheckRevisionAsync()
+  fullName: SuperOffice.Data.IUdefHelper.CheckRevisionAsync()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task CheckRevisionAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CheckRevisionAsync As Task
+  overload: SuperOffice.Data.IUdefHelper.CheckRevisionAsync*
+- uid: SuperOffice.Data.IUdefHelper.CheckRevisionAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.CheckRevisionAsync(SuperOffice.Data.UDefType)
+  id: CheckRevisionAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: CheckRevisionAsync(UDefType)
+  nameWithType: IUdefHelper.CheckRevisionAsync(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.CheckRevisionAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task CheckRevisionAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CheckRevisionAsync(type As UDefType) As Task
+  overload: SuperOffice.Data.IUdefHelper.CheckRevisionAsync*
+- uid: SuperOffice.Data.IUdefHelper.CompareUdefRows(SuperOffice.CRM.Rows.UDefFieldRow,SuperOffice.CRM.Rows.UDefFieldRow)
+  commentId: M:SuperOffice.Data.IUdefHelper.CompareUdefRows(SuperOffice.CRM.Rows.UDefFieldRow,SuperOffice.CRM.Rows.UDefFieldRow)
+  id: CompareUdefRows(SuperOffice.CRM.Rows.UDefFieldRow,SuperOffice.CRM.Rows.UDefFieldRow)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: CompareUdefRows(UDefFieldRow, UDefFieldRow)
+  nameWithType: IUdefHelper.CompareUdefRows(UDefFieldRow, UDefFieldRow)
+  fullName: SuperOffice.Data.IUdefHelper.CompareUdefRows(SuperOffice.CRM.Rows.UDefFieldRow, SuperOffice.CRM.Rows.UDefFieldRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: bool CompareUdefRows(UDefFieldRow leftRow, UDefFieldRow rightRow)
+    parameters:
+    - id: leftRow
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+    - id: rightRow
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+    return:
+      type: System.Boolean
+    content.vb: Function CompareUdefRows(leftRow As UDefFieldRow, rightRow As UDefFieldRow) As Boolean
+  overload: SuperOffice.Data.IUdefHelper.CompareUdefRows*
+- uid: SuperOffice.Data.IUdefHelper.ConvertFromAdminLineNo(System.Int32)
+  commentId: M:SuperOffice.Data.IUdefHelper.ConvertFromAdminLineNo(System.Int32)
+  id: ConvertFromAdminLineNo(System.Int32)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertFromAdminLineNo(Int32)
+  nameWithType: IUdefHelper.ConvertFromAdminLineNo(Int32)
+  fullName: SuperOffice.Data.IUdefHelper.ConvertFromAdminLineNo(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: short ConvertFromAdminLineNo(int lineNo)
+    parameters:
+    - id: lineNo
+      type: System.Int32
+    return:
+      type: System.Int16
+    content.vb: Function ConvertFromAdminLineNo(lineNo As Integer) As Short
+  overload: SuperOffice.Data.IUdefHelper.ConvertFromAdminLineNo*
+- uid: SuperOffice.Data.IUdefHelper.ConvertToAdminLineNo(System.Int32)
+  commentId: M:SuperOffice.Data.IUdefHelper.ConvertToAdminLineNo(System.Int32)
+  id: ConvertToAdminLineNo(System.Int32)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertToAdminLineNo(Int32)
+  nameWithType: IUdefHelper.ConvertToAdminLineNo(Int32)
+  fullName: SuperOffice.Data.IUdefHelper.ConvertToAdminLineNo(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: short ConvertToAdminLineNo(int lineNo)
+    parameters:
+    - id: lineNo
+      type: System.Int32
+    return:
+      type: System.Int16
+    content.vb: Function ConvertToAdminLineNo(lineNo As Integer) As Short
+  overload: SuperOffice.Data.IUdefHelper.ConvertToAdminLineNo*
+- uid: SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  commentId: M:SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  id: FindAvailableFieldAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: FindAvailableFieldAsync(UDefType, UDefFieldType)
+  nameWithType: IUdefHelper.FindAvailableFieldAsync(UDefType, UDefFieldType)
+  fullName: SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync(SuperOffice.Data.UDefType, SuperOffice.Data.UDefFieldType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<FieldInfo> FindAvailableFieldAsync(UDefType type, UDefFieldType fieldType)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    - id: fieldType
+      type: SuperOffice.Data.UDefFieldType
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.FieldInfo}
+    content.vb: Function FindAvailableFieldAsync(type As UDefType, fieldType As UDefFieldType) As Task(Of FieldInfo)
+  overload: SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync*
+- uid: SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Boolean)
+  commentId: M:SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Boolean)
+  id: FindAvailableFieldAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Boolean)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: FindAvailableFieldAsync(UDefType, UDefFieldType, Boolean)
+  nameWithType: IUdefHelper.FindAvailableFieldAsync(UDefType, UDefFieldType, Boolean)
+  fullName: SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync(SuperOffice.Data.UDefType, SuperOffice.Data.UDefFieldType, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<FieldInfo> FindAvailableFieldAsync(UDefType type, UDefFieldType fieldType, bool isIndexed)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    - id: fieldType
+      type: SuperOffice.Data.UDefFieldType
+    - id: isIndexed
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.FieldInfo}
+    content.vb: Function FindAvailableFieldAsync(type As UDefType, fieldType As UDefFieldType, isIndexed As Boolean) As Task(Of FieldInfo)
+  overload: SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync*
+- uid: SuperOffice.Data.IUdefHelper.GetAdminVersionAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetAdminVersionAsync(SuperOffice.Data.UDefType)
+  id: GetAdminVersionAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAdminVersionAsync(UDefType)
+  nameWithType: IUdefHelper.GetAdminVersionAsync(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.GetAdminVersionAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<int> GetAdminVersionAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function GetAdminVersionAsync(type As UDefType) As Task(Of Integer)
+  overload: SuperOffice.Data.IUdefHelper.GetAdminVersionAsync*
+- uid: SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync
+  commentId: M:SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync
+  id: GetAdminVersionsAsync
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAdminVersionsAsync()
+  nameWithType: IUdefHelper.GetAdminVersionsAsync()
+  fullName: SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<Dictionary<UDefType, int>> GetAdminVersionsAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}}
+    content.vb: Function GetAdminVersionsAsync As Task(Of Dictionary(Of UDefType, Integer))
+  overload: SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync*
+- uid: SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync(SuperOffice.Data.UDefType[])
+  commentId: M:SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync(SuperOffice.Data.UDefType[])
+  id: GetAdminVersionsAsync(SuperOffice.Data.UDefType[])
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAdminVersionsAsync(UDefType[])
+  nameWithType: IUdefHelper.GetAdminVersionsAsync(UDefType[])
+  fullName: SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync(SuperOffice.Data.UDefType[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<Dictionary<UDefType, int>> GetAdminVersionsAsync(params UDefType[] types)
+    parameters:
+    - id: types
+      type: SuperOffice.Data.UDefType[]
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}}
+    content.vb: Function GetAdminVersionsAsync(ParamArray types As UDefType()) As Task(Of Dictionary(Of UDefType, Integer))
+  overload: SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync*
+  nameWithType.vb: IUdefHelper.GetAdminVersionsAsync(UDefType())
+  fullName.vb: SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync(SuperOffice.Data.UDefType())
+  name.vb: GetAdminVersionsAsync(UDefType())
+- uid: SuperOffice.Data.IUdefHelper.GetAllFields(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetAllFields(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  id: GetAllFields(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAllFields(UDefType, UDefFieldType)
+  nameWithType: IUdefHelper.GetAllFields(UDefType, UDefFieldType)
+  fullName: SuperOffice.Data.IUdefHelper.GetAllFields(SuperOffice.Data.UDefType, SuperOffice.Data.UDefFieldType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: IEnumerable<FieldInfo> GetAllFields(UDefType type, UDefFieldType fieldType)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    - id: fieldType
+      type: SuperOffice.Data.UDefFieldType
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+    content.vb: Function GetAllFields(type As UDefType, fieldType As UDefFieldType) As IEnumerable(Of FieldInfo)
+  overload: SuperOffice.Data.IUdefHelper.GetAllFields*
+- uid: SuperOffice.Data.IUdefHelper.GetCurrentVersionAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetCurrentVersionAsync(SuperOffice.Data.UDefType)
+  id: GetCurrentVersionAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentVersionAsync(UDefType)
+  nameWithType: IUdefHelper.GetCurrentVersionAsync(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.GetCurrentVersionAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<int> GetCurrentVersionAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function GetCurrentVersionAsync(type As UDefType) As Task(Of Integer)
+  overload: SuperOffice.Data.IUdefHelper.GetCurrentVersionAsync*
+- uid: SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync
+  commentId: M:SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync
+  id: GetCurrentVersionsAsync
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentVersionsAsync()
+  nameWithType: IUdefHelper.GetCurrentVersionsAsync()
+  fullName: SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<Dictionary<UDefType, int>> GetCurrentVersionsAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}}
+    content.vb: Function GetCurrentVersionsAsync As Task(Of Dictionary(Of UDefType, Integer))
+  overload: SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync*
+- uid: SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync(SuperOffice.Data.UDefType[])
+  commentId: M:SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync(SuperOffice.Data.UDefType[])
+  id: GetCurrentVersionsAsync(SuperOffice.Data.UDefType[])
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentVersionsAsync(UDefType[])
+  nameWithType: IUdefHelper.GetCurrentVersionsAsync(UDefType[])
+  fullName: SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync(SuperOffice.Data.UDefType[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<Dictionary<UDefType, int>> GetCurrentVersionsAsync(params UDefType[] types)
+    parameters:
+    - id: types
+      type: SuperOffice.Data.UDefType[]
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}}
+    content.vb: Function GetCurrentVersionsAsync(ParamArray types As UDefType()) As Task(Of Dictionary(Of UDefType, Integer))
+  overload: SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync*
+  nameWithType.vb: IUdefHelper.GetCurrentVersionsAsync(UDefType())
+  fullName.vb: SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync(SuperOffice.Data.UDefType())
+  name.vb: GetCurrentVersionsAsync(UDefType())
+- uid: SuperOffice.Data.IUdefHelper.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
+  id: GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultValue(UDefFieldRow)
+  nameWithType: IUdefHelper.GetDefaultValue(UDefFieldRow)
+  fullName: SuperOffice.Data.IUdefHelper.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: object GetDefaultValue(UDefFieldRow definition)
+    parameters:
+    - id: definition
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+    return:
+      type: System.Object
+    content.vb: Function GetDefaultValue(definition As UDefFieldRow) As Object
+  overload: SuperOffice.Data.IUdefHelper.GetDefaultValue*
+- uid: SuperOffice.Data.IUdefHelper.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
+  id: GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetListName(UDefFieldRow)
+  nameWithType: IUdefHelper.GetListName(UDefFieldRow)
+  fullName: SuperOffice.Data.IUdefHelper.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: string GetListName(UDefFieldRow definition)
+    parameters:
+    - id: definition
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+    return:
+      type: System.String
+    content.vb: Function GetListName(definition As UDefFieldRow) As String
+  overload: SuperOffice.Data.IUdefHelper.GetListName*
+- uid: SuperOffice.Data.IUdefHelper.GetTableInfo(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetTableInfo(SuperOffice.Data.UDefType)
+  id: GetTableInfo(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTableInfo(UDefType)
+  nameWithType: IUdefHelper.GetTableInfo(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.GetTableInfo(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: TableInfo GetTableInfo(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Function GetTableInfo(type As UDefType) As TableInfo
+  overload: SuperOffice.Data.IUdefHelper.GetTableInfo*
+- uid: SuperOffice.Data.IUdefHelper.GetTableInfoLarge(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetTableInfoLarge(SuperOffice.Data.UDefType)
+  id: GetTableInfoLarge(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTableInfoLarge(UDefType)
+  nameWithType: IUdefHelper.GetTableInfoLarge(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.GetTableInfoLarge(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: TableInfo GetTableInfoLarge(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Function GetTableInfoLarge(type As UDefType) As TableInfo
+  overload: SuperOffice.Data.IUdefHelper.GetTableInfoLarge*
+- uid: SuperOffice.Data.IUdefHelper.GetTableInfoLargeOrSmall(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetTableInfoLargeOrSmall(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  id: GetTableInfoLargeOrSmall(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTableInfoLargeOrSmall(UDefType, UDefFieldType)
+  nameWithType: IUdefHelper.GetTableInfoLargeOrSmall(UDefType, UDefFieldType)
+  fullName: SuperOffice.Data.IUdefHelper.GetTableInfoLargeOrSmall(SuperOffice.Data.UDefType, SuperOffice.Data.UDefFieldType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: TableInfo GetTableInfoLargeOrSmall(UDefType type, UDefFieldType fieldType)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    - id: fieldType
+      type: SuperOffice.Data.UDefFieldType
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Function GetTableInfoLargeOrSmall(type As UDefType, fieldType As UDefFieldType) As TableInfo
+  overload: SuperOffice.Data.IUdefHelper.GetTableInfoLargeOrSmall*
+- uid: SuperOffice.Data.IUdefHelper.GetTableInfoSmall(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetTableInfoSmall(SuperOffice.Data.UDefType)
+  id: GetTableInfoSmall(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTableInfoSmall(UDefType)
+  nameWithType: IUdefHelper.GetTableInfoSmall(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.GetTableInfoSmall(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: TableInfo GetTableInfoSmall(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Function GetTableInfoSmall(type As UDefType) As TableInfo
+  overload: SuperOffice.Data.IUdefHelper.GetTableInfoSmall*
+- uid: SuperOffice.Data.IUdefHelper.GetTemplateVariableName(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Int32)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetTemplateVariableName(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Int32)
+  id: GetTemplateVariableName(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Int32)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateVariableName(UDefType, UDefFieldType, Int32)
+  nameWithType: IUdefHelper.GetTemplateVariableName(UDefType, UDefFieldType, Int32)
+  fullName: SuperOffice.Data.IUdefHelper.GetTemplateVariableName(SuperOffice.Data.UDefType, SuperOffice.Data.UDefFieldType, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: string GetTemplateVariableName(UDefType udefType, UDefFieldType udefFieldType, int columnId)
+    parameters:
+    - id: udefType
+      type: SuperOffice.Data.UDefType
+    - id: udefFieldType
+      type: SuperOffice.Data.UDefFieldType
+    - id: columnId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Function GetTemplateVariableName(udefType As UDefType, udefFieldType As UDefFieldType, columnId As Integer) As String
+  overload: SuperOffice.Data.IUdefHelper.GetTemplateVariableName*
+- uid: SuperOffice.Data.IUdefHelper.GetUdefType(System.Int32)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetUdefType(System.Int32)
+  id: GetUdefType(System.Int32)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUdefType(Int32)
+  nameWithType: IUdefHelper.GetUdefType(Int32)
+  fullName: SuperOffice.Data.IUdefHelper.GetUdefType(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: UDefType GetUdefType(int tableNumber)
+    parameters:
+    - id: tableNumber
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.UDefType
+    content.vb: Function GetUdefType(tableNumber As Integer) As UDefType
+  overload: SuperOffice.Data.IUdefHelper.GetUdefType*
+- uid: SuperOffice.Data.IUdefHelper.GetUdefType(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetUdefType(SuperOffice.Data.SQL.TableInfo)
+  id: GetUdefType(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUdefType(TableInfo)
+  nameWithType: IUdefHelper.GetUdefType(TableInfo)
+  fullName: SuperOffice.Data.IUdefHelper.GetUdefType(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: UDefType GetUdefType(TableInfo tableInfo)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: SuperOffice.Data.UDefType
+    content.vb: Function GetUdefType(tableInfo As TableInfo) As UDefType
+  overload: SuperOffice.Data.IUdefHelper.GetUdefType*
+- uid: SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListString(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListString(SuperOffice.Data.UDefType)
+  id: GetUserPreferenceMDOListString(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUserPreferenceMDOListString(UDefType)
+  nameWithType: IUdefHelper.GetUserPreferenceMDOListString(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListString(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: string GetUserPreferenceMDOListString(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.String
+    content.vb: Function GetUserPreferenceMDOListString(type As UDefType) As String
+  overload: SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListString*
+- uid: SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListStringAdmin(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListStringAdmin(SuperOffice.Data.UDefType)
+  id: GetUserPreferenceMDOListStringAdmin(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUserPreferenceMDOListStringAdmin(UDefType)
+  nameWithType: IUdefHelper.GetUserPreferenceMDOListStringAdmin(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListStringAdmin(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: string GetUserPreferenceMDOListStringAdmin(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.String
+    content.vb: Function GetUserPreferenceMDOListStringAdmin(type As UDefType) As String
+  overload: SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListStringAdmin*
+- uid: SuperOffice.Data.IUdefHelper.GetVersionPreferenceAdmin(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetVersionPreferenceAdmin(SuperOffice.Data.UDefType)
+  id: GetVersionPreferenceAdmin(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVersionPreferenceAdmin(UDefType)
+  nameWithType: IUdefHelper.GetVersionPreferenceAdmin(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.GetVersionPreferenceAdmin(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: string GetVersionPreferenceAdmin(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.String
+    content.vb: Function GetVersionPreferenceAdmin(type As UDefType) As String
+  overload: SuperOffice.Data.IUdefHelper.GetVersionPreferenceAdmin*
+- uid: SuperOffice.Data.IUdefHelper.GetVersionPreferenceCurrent(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.GetVersionPreferenceCurrent(SuperOffice.Data.UDefType)
+  id: GetVersionPreferenceCurrent(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVersionPreferenceCurrent(UDefType)
+  nameWithType: IUdefHelper.GetVersionPreferenceCurrent(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.GetVersionPreferenceCurrent(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: string GetVersionPreferenceCurrent(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.String
+    content.vb: Function GetVersionPreferenceCurrent(type As UDefType) As String
+  overload: SuperOffice.Data.IUdefHelper.GetVersionPreferenceCurrent*
+- uid: SuperOffice.Data.IUdefHelper.IncrementAdminVersionAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.IncrementAdminVersionAsync(SuperOffice.Data.UDefType)
+  id: IncrementAdminVersionAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: IncrementAdminVersionAsync(UDefType)
+  nameWithType: IUdefHelper.IncrementAdminVersionAsync(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.IncrementAdminVersionAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<int> IncrementAdminVersionAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function IncrementAdminVersionAsync(type As UDefType) As Task(Of Integer)
+  overload: SuperOffice.Data.IUdefHelper.IncrementAdminVersionAsync*
+- uid: SuperOffice.Data.IUdefHelper.IncrementCurrentVersionAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.IUdefHelper.IncrementCurrentVersionAsync(SuperOffice.Data.UDefType)
+  id: IncrementCurrentVersionAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: IncrementCurrentVersionAsync(UDefType)
+  nameWithType: IUdefHelper.IncrementCurrentVersionAsync(UDefType)
+  fullName: SuperOffice.Data.IUdefHelper.IncrementCurrentVersionAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<int> IncrementCurrentVersionAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function IncrementCurrentVersionAsync(type As UDefType) As Task(Of Integer)
+  overload: SuperOffice.Data.IUdefHelper.IncrementCurrentVersionAsync*
+- uid: SuperOffice.Data.IUdefHelper.IsLargeTableColumn(System.Int32)
+  commentId: M:SuperOffice.Data.IUdefHelper.IsLargeTableColumn(System.Int32)
+  id: IsLargeTableColumn(System.Int32)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: IsLargeTableColumn(Int32)
+  nameWithType: IUdefHelper.IsLargeTableColumn(Int32)
+  fullName: SuperOffice.Data.IUdefHelper.IsLargeTableColumn(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: bool IsLargeTableColumn(int columnId)
+    parameters:
+    - id: columnId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function IsLargeTableColumn(columnId As Integer) As Boolean
+  overload: SuperOffice.Data.IUdefHelper.IsLargeTableColumn*
+- uid: SuperOffice.Data.IUdefHelper.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.IUdefHelper.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: IsPageOneMDOAsync(UDefType, CancellationToken)
+  nameWithType: IUdefHelper.IsPageOneMDOAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.Data.IUdefHelper.IsPageOneMDOAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<bool> IsPageOneMDOAsync(UDefType type, CancellationToken cancellationToken = null)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsPageOneMDOAsync(type As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.IUdefHelper.IsPageOneMDOAsync*
+- uid: SuperOffice.Data.IUdefHelper.IsSmallTableColumn(System.Int32)
+  commentId: M:SuperOffice.Data.IUdefHelper.IsSmallTableColumn(System.Int32)
+  id: IsSmallTableColumn(System.Int32)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: IsSmallTableColumn(Int32)
+  nameWithType: IUdefHelper.IsSmallTableColumn(Int32)
+  fullName: SuperOffice.Data.IUdefHelper.IsSmallTableColumn(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: bool IsSmallTableColumn(int columnId)
+    parameters:
+    - id: columnId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function IsSmallTableColumn(columnId As Integer) As Boolean
+  overload: SuperOffice.Data.IUdefHelper.IsSmallTableColumn*
+- uid: SuperOffice.Data.IUdefHelper.IsUnpublishedPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.IUdefHelper.IsUnpublishedPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: IsUnpublishedPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: IsUnpublishedPageOneMDOAsync(UDefType, CancellationToken)
+  nameWithType: IUdefHelper.IsUnpublishedPageOneMDOAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.Data.IUdefHelper.IsUnpublishedPageOneMDOAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<bool> IsUnpublishedPageOneMDOAsync(UDefType type, CancellationToken cancellationToken = null)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsUnpublishedPageOneMDOAsync(type As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.IUdefHelper.IsUnpublishedPageOneMDOAsync*
+- uid: SuperOffice.Data.IUdefHelper.SetAdminVersionAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.IUdefHelper.SetAdminVersionAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  id: SetAdminVersionAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: SetAdminVersionAsync(UDefType, Int32, CancellationToken)
+  nameWithType: IUdefHelper.SetAdminVersionAsync(UDefType, Int32, CancellationToken)
+  fullName: SuperOffice.Data.IUdefHelper.SetAdminVersionAsync(SuperOffice.Data.UDefType, System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task SetAdminVersionAsync(UDefType type, int version, CancellationToken cancellationToken = null)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    - id: version
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetAdminVersionAsync(type As UDefType, version As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.IUdefHelper.SetAdminVersionAsync*
+- uid: SuperOffice.Data.IUdefHelper.SetCurrentVersionAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.IUdefHelper.SetCurrentVersionAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  id: SetCurrentVersionAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentVersionAsync(UDefType, Int32, CancellationToken)
+  nameWithType: IUdefHelper.SetCurrentVersionAsync(UDefType, Int32, CancellationToken)
+  fullName: SuperOffice.Data.IUdefHelper.SetCurrentVersionAsync(SuperOffice.Data.UDefType, System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task SetCurrentVersionAsync(UDefType type, int version, CancellationToken cancellationToken = null)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    - id: version
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetCurrentVersionAsync(type As UDefType, version As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.IUdefHelper.SetCurrentVersionAsync*
+- uid: SuperOffice.Data.IUdefHelper.SetRankOnFieldsAsync(SuperOffice.Data.UDefType,System.Int32[])
+  commentId: M:SuperOffice.Data.IUdefHelper.SetRankOnFieldsAsync(SuperOffice.Data.UDefType,System.Int32[])
+  id: SetRankOnFieldsAsync(SuperOffice.Data.UDefType,System.Int32[])
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: SetRankOnFieldsAsync(UDefType, Int32[])
+  nameWithType: IUdefHelper.SetRankOnFieldsAsync(UDefType, Int32[])
+  fullName: SuperOffice.Data.IUdefHelper.SetRankOnFieldsAsync(SuperOffice.Data.UDefType, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task SetRankOnFieldsAsync(UDefType ownerType, int[] rankedFieldsIds)
+    parameters:
+    - id: ownerType
+      type: SuperOffice.Data.UDefType
+    - id: rankedFieldsIds
+      type: System.Int32[]
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetRankOnFieldsAsync(ownerType As UDefType, rankedFieldsIds As Integer()) As Task
+  overload: SuperOffice.Data.IUdefHelper.SetRankOnFieldsAsync*
+  nameWithType.vb: IUdefHelper.SetRankOnFieldsAsync(UDefType, Int32())
+  fullName.vb: SuperOffice.Data.IUdefHelper.SetRankOnFieldsAsync(SuperOffice.Data.UDefType, System.Int32())
+  name.vb: SetRankOnFieldsAsync(UDefType, Int32())
+- uid: SuperOffice.Data.IUdefHelper.SuggestLocation(SuperOffice.Data.UDefType,System.Int32@,System.Int32@,System.Int32,System.Int32,System.Int32@,System.Int32@)
+  commentId: M:SuperOffice.Data.IUdefHelper.SuggestLocation(SuperOffice.Data.UDefType,System.Int32@,System.Int32@,System.Int32,System.Int32,System.Int32@,System.Int32@)
+  id: SuggestLocation(SuperOffice.Data.UDefType,System.Int32@,System.Int32@,System.Int32,System.Int32,System.Int32@,System.Int32@)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: SuggestLocation(UDefType, out Int32, out Int32, Int32, Int32, out Int32, out Int32)
+  nameWithType: IUdefHelper.SuggestLocation(UDefType, out Int32, out Int32, Int32, Int32, out Int32, out Int32)
+  fullName: SuperOffice.Data.IUdefHelper.SuggestLocation(SuperOffice.Data.UDefType, out System.Int32, out System.Int32, System.Int32, System.Int32, out System.Int32, out System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: void SuggestLocation(UDefType type, out int labelLeft, out int labelTop, int labelWidth, int labelHeight, out int fieldLeft, out int fieldTop)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    - id: labelLeft
+      type: System.Int32
+    - id: labelTop
+      type: System.Int32
+    - id: labelWidth
+      type: System.Int32
+    - id: labelHeight
+      type: System.Int32
+    - id: fieldLeft
+      type: System.Int32
+    - id: fieldTop
+      type: System.Int32
+    content.vb: Sub SuggestLocation(type As UDefType, ByRef labelLeft As Integer, ByRef labelTop As Integer, labelWidth As Integer, labelHeight As Integer, ByRef fieldLeft As Integer, ByRef fieldTop As Integer)
+  overload: SuperOffice.Data.IUdefHelper.SuggestLocation*
+  nameWithType.vb: IUdefHelper.SuggestLocation(UDefType, ByRef Int32, ByRef Int32, Int32, Int32, ByRef Int32, ByRef Int32)
+  fullName.vb: SuperOffice.Data.IUdefHelper.SuggestLocation(SuperOffice.Data.UDefType, ByRef System.Int32, ByRef System.Int32, System.Int32, System.Int32, ByRef System.Int32, ByRef System.Int32)
+  name.vb: SuggestLocation(UDefType, ByRef Int32, ByRef Int32, Int32, Int32, ByRef Int32, ByRef Int32)
+- uid: SuperOffice.Data.IUdefHelper.TranslateFieldTypeToDatabaseType(SuperOffice.Data.UDefFieldType)
+  commentId: M:SuperOffice.Data.IUdefHelper.TranslateFieldTypeToDatabaseType(SuperOffice.Data.UDefFieldType)
+  id: TranslateFieldTypeToDatabaseType(SuperOffice.Data.UDefFieldType)
+  parent: SuperOffice.Data.IUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: TranslateFieldTypeToDatabaseType(UDefFieldType)
+  nameWithType: IUdefHelper.TranslateFieldTypeToDatabaseType(UDefFieldType)
+  fullName: SuperOffice.Data.IUdefHelper.TranslateFieldTypeToDatabaseType(SuperOffice.Data.UDefFieldType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: UDefFieldDatabaseType TranslateFieldTypeToDatabaseType(UDefFieldType fieldType)
+    parameters:
+    - id: fieldType
+      type: SuperOffice.Data.UDefFieldType
+    return:
+      type: SuperOffice.Data.UDefFieldDatabaseType
+    content.vb: Function TranslateFieldTypeToDatabaseType(fieldType As UDefFieldType) As UDefFieldDatabaseType
+  overload: SuperOffice.Data.IUdefHelper.TranslateFieldTypeToDatabaseType*
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.IUdefHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IUdefHelper, To>()
+  nameWithType: EnumUtil.MapEnums<IUdefHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.IUdefHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IUdefHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.IUdefHelper, To)()
+  name.vb: MapEnums(Of IUdefHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IUdefHelper, To>
+    nameWithType: EnumUtil.MapEnums<IUdefHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.IUdefHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IUdefHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of IUdefHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.IUdefHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IUdefHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IUdefHelper, To>()
+  nameWithType: Converters.MapEnums<IUdefHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IUdefHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of IUdefHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IUdefHelper, To)()
+  name.vb: MapEnums(Of IUdefHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IUdefHelper, To>
+    nameWithType: Converters.MapEnums<IUdefHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IUdefHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IUdefHelper, To)
+    nameWithType: Converters.MapEnums(Of IUdefHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IUdefHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.IUdefHelper.CheckRevisionAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.CheckRevisionAsync
+  isExternal: true
+  name: CheckRevisionAsync
+  nameWithType: IUdefHelper.CheckRevisionAsync
+  fullName: SuperOffice.Data.IUdefHelper.CheckRevisionAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Data.UDefType
+  commentId: T:SuperOffice.Data.UDefType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.Data.UDefType
+- uid: SuperOffice.Data.IUdefHelper.CompareUdefRows*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.CompareUdefRows
+  isExternal: true
+  name: CompareUdefRows
+  nameWithType: IUdefHelper.CompareUdefRows
+  fullName: SuperOffice.Data.IUdefHelper.CompareUdefRows
+- uid: SuperOffice.CRM.Rows.UDefFieldRow
+  commentId: T:SuperOffice.CRM.Rows.UDefFieldRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: UDefFieldRow
+  nameWithType: UDefFieldRow
+  fullName: SuperOffice.CRM.Rows.UDefFieldRow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.IUdefHelper.ConvertFromAdminLineNo*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.ConvertFromAdminLineNo
+  isExternal: true
+  name: ConvertFromAdminLineNo
+  nameWithType: IUdefHelper.ConvertFromAdminLineNo
+  fullName: SuperOffice.Data.IUdefHelper.ConvertFromAdminLineNo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.IUdefHelper.ConvertToAdminLineNo*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.ConvertToAdminLineNo
+  isExternal: true
+  name: ConvertToAdminLineNo
+  nameWithType: IUdefHelper.ConvertToAdminLineNo
+  fullName: SuperOffice.Data.IUdefHelper.ConvertToAdminLineNo
+- uid: SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync
+  isExternal: true
+  name: FindAvailableFieldAsync
+  nameWithType: IUdefHelper.FindAvailableFieldAsync
+  fullName: SuperOffice.Data.IUdefHelper.FindAvailableFieldAsync
+- uid: SuperOffice.Data.UDefFieldType
+  commentId: T:SuperOffice.Data.UDefFieldType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UDefFieldType
+  nameWithType: UDefFieldType
+  fullName: SuperOffice.Data.UDefFieldType
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.FieldInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.FieldInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<FieldInfo>
+  nameWithType: Task<FieldInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: Task(Of FieldInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.FieldInfo)
+  name.vb: Task(Of FieldInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IUdefHelper.GetAdminVersionAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetAdminVersionAsync
+  isExternal: true
+  name: GetAdminVersionAsync
+  nameWithType: IUdefHelper.GetAdminVersionAsync
+  fullName: SuperOffice.Data.IUdefHelper.GetAdminVersionAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync
+  isExternal: true
+  name: GetAdminVersionsAsync
+  nameWithType: IUdefHelper.GetAdminVersionsAsync
+  fullName: SuperOffice.Data.IUdefHelper.GetAdminVersionsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Dictionary<UDefType, Int32>>
+  nameWithType: Task<Dictionary<UDefType, Int32>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<SuperOffice.Data.UDefType, System.Int32>>
+  nameWithType.vb: Task(Of Dictionary(Of UDefType, Int32))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of SuperOffice.Data.UDefType, System.Int32))
+  name.vb: Task(Of Dictionary(Of UDefType, Int32))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.UDefType[]
+  isExternal: true
+  name: UDefType[]
+  nameWithType: UDefType[]
+  fullName: SuperOffice.Data.UDefType[]
+  nameWithType.vb: UDefType()
+  fullName.vb: SuperOffice.Data.UDefType()
+  name.vb: UDefType()
+  spec.csharp:
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.IUdefHelper.GetAllFields*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetAllFields
+  isExternal: true
+  name: GetAllFields
+  nameWithType: IUdefHelper.GetAllFields
+  fullName: SuperOffice.Data.IUdefHelper.GetAllFields
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<FieldInfo>
+  nameWithType: IEnumerable<FieldInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: IEnumerable(Of FieldInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.FieldInfo)
+  name.vb: IEnumerable(Of FieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IUdefHelper.GetCurrentVersionAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetCurrentVersionAsync
+  isExternal: true
+  name: GetCurrentVersionAsync
+  nameWithType: IUdefHelper.GetCurrentVersionAsync
+  fullName: SuperOffice.Data.IUdefHelper.GetCurrentVersionAsync
+- uid: SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync
+  isExternal: true
+  name: GetCurrentVersionsAsync
+  nameWithType: IUdefHelper.GetCurrentVersionsAsync
+  fullName: SuperOffice.Data.IUdefHelper.GetCurrentVersionsAsync
+- uid: SuperOffice.Data.IUdefHelper.GetDefaultValue*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetDefaultValue
+  isExternal: true
+  name: GetDefaultValue
+  nameWithType: IUdefHelper.GetDefaultValue
+  fullName: SuperOffice.Data.IUdefHelper.GetDefaultValue
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.IUdefHelper.GetListName*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetListName
+  isExternal: true
+  name: GetListName
+  nameWithType: IUdefHelper.GetListName
+  fullName: SuperOffice.Data.IUdefHelper.GetListName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.IUdefHelper.GetTableInfo*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetTableInfo
+  isExternal: true
+  name: GetTableInfo
+  nameWithType: IUdefHelper.GetTableInfo
+  fullName: SuperOffice.Data.IUdefHelper.GetTableInfo
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.IUdefHelper.GetTableInfoLarge*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetTableInfoLarge
+  isExternal: true
+  name: GetTableInfoLarge
+  nameWithType: IUdefHelper.GetTableInfoLarge
+  fullName: SuperOffice.Data.IUdefHelper.GetTableInfoLarge
+- uid: SuperOffice.Data.IUdefHelper.GetTableInfoLargeOrSmall*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetTableInfoLargeOrSmall
+  isExternal: true
+  name: GetTableInfoLargeOrSmall
+  nameWithType: IUdefHelper.GetTableInfoLargeOrSmall
+  fullName: SuperOffice.Data.IUdefHelper.GetTableInfoLargeOrSmall
+- uid: SuperOffice.Data.IUdefHelper.GetTableInfoSmall*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetTableInfoSmall
+  isExternal: true
+  name: GetTableInfoSmall
+  nameWithType: IUdefHelper.GetTableInfoSmall
+  fullName: SuperOffice.Data.IUdefHelper.GetTableInfoSmall
+- uid: SuperOffice.Data.IUdefHelper.GetTemplateVariableName*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetTemplateVariableName
+  isExternal: true
+  name: GetTemplateVariableName
+  nameWithType: IUdefHelper.GetTemplateVariableName
+  fullName: SuperOffice.Data.IUdefHelper.GetTemplateVariableName
+- uid: SuperOffice.Data.IUdefHelper.GetUdefType*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetUdefType
+  isExternal: true
+  name: GetUdefType
+  nameWithType: IUdefHelper.GetUdefType
+  fullName: SuperOffice.Data.IUdefHelper.GetUdefType
+- uid: SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListString*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListString
+  isExternal: true
+  name: GetUserPreferenceMDOListString
+  nameWithType: IUdefHelper.GetUserPreferenceMDOListString
+  fullName: SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListString
+- uid: SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListStringAdmin*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListStringAdmin
+  isExternal: true
+  name: GetUserPreferenceMDOListStringAdmin
+  nameWithType: IUdefHelper.GetUserPreferenceMDOListStringAdmin
+  fullName: SuperOffice.Data.IUdefHelper.GetUserPreferenceMDOListStringAdmin
+- uid: SuperOffice.Data.IUdefHelper.GetVersionPreferenceAdmin*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetVersionPreferenceAdmin
+  isExternal: true
+  name: GetVersionPreferenceAdmin
+  nameWithType: IUdefHelper.GetVersionPreferenceAdmin
+  fullName: SuperOffice.Data.IUdefHelper.GetVersionPreferenceAdmin
+- uid: SuperOffice.Data.IUdefHelper.GetVersionPreferenceCurrent*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.GetVersionPreferenceCurrent
+  isExternal: true
+  name: GetVersionPreferenceCurrent
+  nameWithType: IUdefHelper.GetVersionPreferenceCurrent
+  fullName: SuperOffice.Data.IUdefHelper.GetVersionPreferenceCurrent
+- uid: SuperOffice.Data.IUdefHelper.IncrementAdminVersionAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.IncrementAdminVersionAsync
+  isExternal: true
+  name: IncrementAdminVersionAsync
+  nameWithType: IUdefHelper.IncrementAdminVersionAsync
+  fullName: SuperOffice.Data.IUdefHelper.IncrementAdminVersionAsync
+- uid: SuperOffice.Data.IUdefHelper.IncrementCurrentVersionAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.IncrementCurrentVersionAsync
+  isExternal: true
+  name: IncrementCurrentVersionAsync
+  nameWithType: IUdefHelper.IncrementCurrentVersionAsync
+  fullName: SuperOffice.Data.IUdefHelper.IncrementCurrentVersionAsync
+- uid: SuperOffice.Data.IUdefHelper.IsLargeTableColumn*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.IsLargeTableColumn
+  isExternal: true
+  name: IsLargeTableColumn
+  nameWithType: IUdefHelper.IsLargeTableColumn
+  fullName: SuperOffice.Data.IUdefHelper.IsLargeTableColumn
+- uid: SuperOffice.Data.IUdefHelper.IsPageOneMDOAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.IsPageOneMDOAsync
+  isExternal: true
+  name: IsPageOneMDOAsync
+  nameWithType: IUdefHelper.IsPageOneMDOAsync
+  fullName: SuperOffice.Data.IUdefHelper.IsPageOneMDOAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IUdefHelper.IsSmallTableColumn*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.IsSmallTableColumn
+  isExternal: true
+  name: IsSmallTableColumn
+  nameWithType: IUdefHelper.IsSmallTableColumn
+  fullName: SuperOffice.Data.IUdefHelper.IsSmallTableColumn
+- uid: SuperOffice.Data.IUdefHelper.IsUnpublishedPageOneMDOAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.IsUnpublishedPageOneMDOAsync
+  isExternal: true
+  name: IsUnpublishedPageOneMDOAsync
+  nameWithType: IUdefHelper.IsUnpublishedPageOneMDOAsync
+  fullName: SuperOffice.Data.IUdefHelper.IsUnpublishedPageOneMDOAsync
+- uid: SuperOffice.Data.IUdefHelper.SetAdminVersionAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.SetAdminVersionAsync
+  isExternal: true
+  name: SetAdminVersionAsync
+  nameWithType: IUdefHelper.SetAdminVersionAsync
+  fullName: SuperOffice.Data.IUdefHelper.SetAdminVersionAsync
+- uid: SuperOffice.Data.IUdefHelper.SetCurrentVersionAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.SetCurrentVersionAsync
+  isExternal: true
+  name: SetCurrentVersionAsync
+  nameWithType: IUdefHelper.SetCurrentVersionAsync
+  fullName: SuperOffice.Data.IUdefHelper.SetCurrentVersionAsync
+- uid: SuperOffice.Data.IUdefHelper.SetRankOnFieldsAsync*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.SetRankOnFieldsAsync
+  isExternal: true
+  name: SetRankOnFieldsAsync
+  nameWithType: IUdefHelper.SetRankOnFieldsAsync
+  fullName: SuperOffice.Data.IUdefHelper.SetRankOnFieldsAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.IUdefHelper.SuggestLocation*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.SuggestLocation
+  isExternal: true
+  name: SuggestLocation
+  nameWithType: IUdefHelper.SuggestLocation
+  fullName: SuperOffice.Data.IUdefHelper.SuggestLocation
+- uid: SuperOffice.Data.IUdefHelper.TranslateFieldTypeToDatabaseType*
+  commentId: Overload:SuperOffice.Data.IUdefHelper.TranslateFieldTypeToDatabaseType
+  isExternal: true
+  name: TranslateFieldTypeToDatabaseType
+  nameWithType: IUdefHelper.TranslateFieldTypeToDatabaseType
+  fullName: SuperOffice.Data.IUdefHelper.TranslateFieldTypeToDatabaseType
+- uid: SuperOffice.Data.UDefFieldDatabaseType
+  commentId: T:SuperOffice.Data.UDefFieldDatabaseType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UDefFieldDatabaseType
+  nameWithType: UDefFieldDatabaseType
+  fullName: SuperOffice.Data.UDefFieldDatabaseType

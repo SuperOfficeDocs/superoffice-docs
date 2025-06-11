@@ -6,11 +6,10 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor
-  - SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevision
-  - SuperOffice.CRM.Rows.UDefFieldAdminCache.GetCurrent
+  - SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevisionAsync
   - SuperOffice.CRM.Rows.UDefFieldAdminCache.GetLineNo(System.Int32)
-  - SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersions
-  - SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDO(SuperOffice.Data.UDefType)
+  - SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersionsAsync
+  - SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -27,23 +26,21 @@ items:
   summary: "\nUdef fields cache for unpublished fields\n"
   syntax:
     content: >-
-      [CacheV2("Database", 0)]
+      [CacheV2(0)]
 
-      public class UDefFieldAdminCache : UDefFieldCacheBase, IFlushableV2, IDisposable
+      public class UDefFieldAdminCache : UDefFieldCacheBase, IInstanceContainerDisposable
     content.vb: >-
-      <CacheV2("Database", 0)>
+      <CacheV2(0)>
 
       Public Class UDefFieldAdminCache
           Inherits UDefFieldCacheBase
-          Implements IFlushableV2, IDisposable
+          Implements IInstanceContainerDisposable
   inheritance:
   - System.Object
   - SuperOffice.Data.Cache.CacheBaseV2
   - SuperOffice.CRM.Rows.UDefFieldCacheBase
-  implements:
-  - SuperOffice.Data.Cache.IFlushableV2
-  - System.IDisposable
   inheritedMembers:
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase._udefHelper
   - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
   - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.Dictionary.SoField)
@@ -58,16 +55,14 @@ items:
   - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType,System.Int32)
   - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
   - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
-  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
   - SuperOffice.CRM.Rows.UDefFieldCacheBase.LoadOnDemand
   - SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoad
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoadAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.UDefFieldCacheBase.TableNames
-  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-  - SuperOffice.Data.Cache.CacheBaseV2.Dispose
-  - SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
-  - SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  - SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.Cache.CacheBaseV2.Load
   - SuperOffice.Data.Cache.CacheBaseV2.Disposed
   extensionMethods:
@@ -77,10 +72,8 @@ items:
   - SuperOffice.CRM.Rows.UDefFieldAdminCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Data.Cache.CacheV2Attribute
-    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String,System.Int32)
+    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.Int32)
     arguments:
-    - type: System.String
-      value: Database
     - type: System.Int32
       value: 0
   modifiers.csharp:
@@ -89,17 +82,17 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetCurrent
-  commentId: M:SuperOffice.CRM.Rows.UDefFieldAdminCache.GetCurrent
-  id: GetCurrent
+- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor
+  id: '#ctor'
   parent: SuperOffice.CRM.Rows.UDefFieldAdminCache
   langs:
   - csharp
   - vb
-  name: GetCurrent()
-  nameWithType: UDefFieldAdminCache.GetCurrent()
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetCurrent()
-  type: Method
+  name: UDefFieldAdminCache()
+  nameWithType: UDefFieldAdminCache.UDefFieldAdminCache()
+  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.UDefFieldAdminCache()
+  type: Constructor
   source:
     path: SoDataBase
     isExternal: true
@@ -107,27 +100,23 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static UDefFieldAdminCache GetCurrent()
-    return:
-      type: SuperOffice.CRM.Rows.UDefFieldAdminCache
-    content.vb: Public Shared Function GetCurrent As UDefFieldAdminCache
-  overload: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetCurrent*
+    content: public UDefFieldAdminCache()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor*
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersions
-  commentId: M:SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersions
-  id: GetVersions
+- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersionsAsync
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersionsAsync
+  id: GetVersionsAsync
   parent: SuperOffice.CRM.Rows.UDefFieldAdminCache
   langs:
   - csharp
   - vb
-  name: GetVersions()
-  nameWithType: UDefFieldAdminCache.GetVersions()
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersions()
+  name: GetVersionsAsync()
+  nameWithType: UDefFieldAdminCache.GetVersionsAsync()
+  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersionsAsync()
   type: Method
   source:
     path: SoDataBase
@@ -136,28 +125,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: protected override Dictionary<UDefType, int> GetVersions()
+    content: protected override Task<Dictionary<UDefType, int>> GetVersionsAsync()
     return:
-      type: System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}
-    content.vb: Protected Overrides Function GetVersions As Dictionary(Of UDefType, Integer)
-  overridden: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
-  overload: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersions*
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}}
+    content.vb: Protected Overrides Function GetVersionsAsync As Task(Of Dictionary(Of UDefType, Integer))
+  overridden: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersionsAsync
+  overload: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersionsAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevision
-  commentId: M:SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevision
-  id: CheckRevision
+- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevisionAsync
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevisionAsync
+  id: CheckRevisionAsync
   parent: SuperOffice.CRM.Rows.UDefFieldAdminCache
   langs:
   - csharp
   - vb
-  name: CheckRevision()
-  nameWithType: UDefFieldAdminCache.CheckRevision()
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevision()
+  name: CheckRevisionAsync()
+  nameWithType: UDefFieldAdminCache.CheckRevisionAsync()
+  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevisionAsync()
   type: Method
   source:
     path: SoDataBase
@@ -166,26 +155,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: protected override void CheckRevision()
-    content.vb: Protected Overrides Sub CheckRevision
-  overridden: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
-  overload: SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevision*
+    content: protected override Task CheckRevisionAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function CheckRevisionAsync As Task
+  overridden: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevisionAsync
+  overload: SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevisionAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDO(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDO(SuperOffice.Data.UDefType)
-  id: IsPageOneMDO(SuperOffice.Data.UDefType)
+- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.UDefFieldAdminCache
   langs:
   - csharp
   - vb
-  name: IsPageOneMDO(UDefType)
-  nameWithType: UDefFieldAdminCache.IsPageOneMDO(UDefType)
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDO(SuperOffice.Data.UDefType)
+  name: IsPageOneMDOAsync(UDefType, CancellationToken)
+  nameWithType: UDefFieldAdminCache.IsPageOneMDOAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDOAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -194,15 +185,17 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: protected override bool IsPageOneMDO(UDefType udefType)
+    content: protected override Task<bool> IsPageOneMDOAsync(UDefType udefType, CancellationToken cancellationToken = null)
     parameters:
     - id: udefType
       type: SuperOffice.Data.UDefType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Protected Overrides Function IsPageOneMDO(udefType As UDefType) As Boolean
-  overridden: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
-  overload: SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDO*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Protected Overrides Function IsPageOneMDOAsync(udefType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overridden: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDOAsync*
   modifiers.csharp:
   - protected
   - override
@@ -243,31 +236,6 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor
-  commentId: M:SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Rows.UDefFieldAdminCache
-  langs:
-  - csharp
-  - vb
-  name: UDefFieldAdminCache()
-  nameWithType: UDefFieldAdminCache.UDefFieldAdminCache()
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.UDefFieldAdminCache()
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  syntax:
-    content: public UDefFieldAdminCache()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -296,18 +264,13 @@ references:
   name: UDefFieldCacheBase
   nameWithType: UDefFieldCacheBase
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase
-- uid: SuperOffice.Data.Cache.IFlushableV2
-  commentId: T:SuperOffice.Data.Cache.IFlushableV2
-  parent: SuperOffice.Data.Cache
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase._udefHelper
+  commentId: F:SuperOffice.CRM.Rows.UDefFieldCacheBase._udefHelper
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  name: IFlushableV2
-  nameWithType: IFlushableV2
-  fullName: SuperOffice.Data.Cache.IFlushableV2
-- uid: System.IDisposable
-  isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  name: _udefHelper
+  nameWithType: UDefFieldCacheBase._udefHelper
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase._udefHelper
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
@@ -994,88 +957,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
-  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
-  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
-  isExternal: true
-  name: GetDefaultValue(UDefFieldRow)
-  nameWithType: UDefFieldCacheBase.GetDefaultValue(UDefFieldRow)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
-    name: GetDefaultValue
-    nameWithType: UDefFieldCacheBase.GetDefaultValue
-    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldRow
-    name: UDefFieldRow
-    nameWithType: UDefFieldRow
-    fullName: SuperOffice.CRM.Rows.UDefFieldRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
-    name: GetDefaultValue
-    nameWithType: UDefFieldCacheBase.GetDefaultValue
-    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldRow
-    name: UDefFieldRow
-    nameWithType: UDefFieldRow
-    fullName: SuperOffice.CRM.Rows.UDefFieldRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
-  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
-  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
-  isExternal: true
-  name: GetListName(UDefFieldRow)
-  nameWithType: UDefFieldCacheBase.GetListName(UDefFieldRow)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
-    name: GetListName
-    nameWithType: UDefFieldCacheBase.GetListName
-    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldRow
-    name: UDefFieldRow
-    nameWithType: UDefFieldRow
-    fullName: SuperOffice.CRM.Rows.UDefFieldRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
-    name: GetListName
-    nameWithType: UDefFieldCacheBase.GetListName
-    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldRow
-    name: UDefFieldRow
-    nameWithType: UDefFieldRow
-    fullName: SuperOffice.CRM.Rows.UDefFieldRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.LoadOnDemand
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.LoadOnDemand
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
@@ -1138,6 +1019,47 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoadAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  isExternal: true
+  name: OnLoadAsync(CancellationToken)
+  nameWithType: UDefFieldCacheBase.OnLoadAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoadAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoadAsync(System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: UDefFieldCacheBase.OnLoadAsync
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoadAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoadAsync(System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: UDefFieldCacheBase.OnLoadAsync
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoadAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.TableNames
   commentId: P:SuperOffice.CRM.Rows.UDefFieldCacheBase.TableNames
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
@@ -1145,18 +1067,18 @@ references:
   name: TableNames
   nameWithType: UDefFieldCacheBase.TableNames
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.TableNames
-- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: IsCacheInvalidated(String, Int32, PrivateSave)
-  nameWithType: CacheBaseV2.IsCacheInvalidated(String, Int32, PrivateSave)
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String, System.Int32, SuperOffice.Data.SQL.PrivateSave)
+  name: IsCacheInvalidatedAsync(String, Int32, PrivateSave, CancellationToken)
+  nameWithType: CacheBaseV2.IsCacheInvalidatedAsync(String, Int32, PrivateSave, CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String, System.Int32, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-    name: IsCacheInvalidated
-    nameWithType: CacheBaseV2.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+    name: IsCacheInvalidatedAsync
+    nameWithType: CacheBaseV2.IsCacheInvalidatedAsync
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1182,14 +1104,22 @@ references:
     nameWithType: PrivateSave
     fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-    name: IsCacheInvalidated
-    nameWithType: CacheBaseV2.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+    name: IsCacheInvalidatedAsync
+    nameWithType: CacheBaseV2.IsCacheInvalidatedAsync
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1215,21 +1145,29 @@ references:
     nameWithType: PrivateSave
     fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
+- uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: Dispose()
-  nameWithType: CacheBaseV2.Dispose()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
+  name: InstanceDispose()
+  nameWithType: CacheBaseV2.InstanceDispose()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-    name: Dispose
-    nameWithType: CacheBaseV2.Dispose
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+    name: InstanceDispose
+    nameWithType: CacheBaseV2.InstanceDispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
     isExternal: true
   - name: (
     nameWithType: (
@@ -1238,41 +1176,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-    name: Dispose
-    nameWithType: CacheBaseV2.Dispose
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
-  parent: SuperOffice.Data.Cache.CacheBaseV2
-  isExternal: true
-  name: Flush()
-  nameWithType: CacheBaseV2.Flush()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    name: Flush
-    nameWithType: CacheBaseV2.Flush
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    name: Flush
-    nameWithType: CacheBaseV2.Flush
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+    name: InstanceDispose
+    nameWithType: CacheBaseV2.InstanceDispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
     isExternal: true
   - name: (
     nameWithType: (
@@ -1311,37 +1218,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+- uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: GetCurrent<T>()
-  nameWithType: CacheBaseV2.GetCurrent<T>()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>()
-  nameWithType.vb: CacheBaseV2.GetCurrent(Of T)()
-  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)()
-  name.vb: GetCurrent(Of T)()
+  name: LoadAsync(CancellationToken)
+  nameWithType: CacheBaseV2.LoadAsync(CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent<T>
-    nameWithType: CacheBaseV2.GetCurrent<T>
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+    name: LoadAsync
+    nameWithType: CacheBaseV2.LoadAsync
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent(Of T)
-    nameWithType: CacheBaseV2.GetCurrent(Of T)
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+    name: LoadAsync
+    nameWithType: CacheBaseV2.LoadAsync
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1741,31 +1655,24 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetCurrent*
-  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldAdminCache.GetCurrent
-  isExternal: true
-  name: GetCurrent
-  nameWithType: UDefFieldAdminCache.GetCurrent
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetCurrent
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache
-  commentId: T:SuperOffice.CRM.Rows.UDefFieldAdminCache
-  parent: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor
   isExternal: true
   name: UDefFieldAdminCache
-  nameWithType: UDefFieldAdminCache
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache
-- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
-  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
+  nameWithType: UDefFieldAdminCache.UDefFieldAdminCache
+  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.UDefFieldAdminCache
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersionsAsync
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersionsAsync
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  name: GetVersions()
-  nameWithType: UDefFieldCacheBase.GetVersions()
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions()
+  name: GetVersionsAsync()
+  nameWithType: UDefFieldCacheBase.GetVersionsAsync()
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersionsAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
-    name: GetVersions
-    nameWithType: UDefFieldCacheBase.GetVersions
-    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersionsAsync
+    name: GetVersionsAsync
+    nameWithType: UDefFieldCacheBase.GetVersionsAsync
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersionsAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1774,10 +1681,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
-    name: GetVersions
-    nameWithType: UDefFieldCacheBase.GetVersions
-    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersionsAsync
+    name: GetVersionsAsync
+    nameWithType: UDefFieldCacheBase.GetVersionsAsync
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersionsAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1785,22 +1692,30 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersions*
-  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersions
+- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersionsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersionsAsync
   isExternal: true
-  name: GetVersions
-  nameWithType: UDefFieldAdminCache.GetVersions
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersions
-- uid: System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}
-  commentId: '!:System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}'
-  definition: System.Collections.Generic.Dictionary`2
-  name: Dictionary<UDefType, Int32>
-  nameWithType: Dictionary<UDefType, Int32>
-  fullName: System.Collections.Generic.Dictionary<SuperOffice.Data.UDefType, System.Int32>
-  nameWithType.vb: Dictionary(Of UDefType, Int32)
-  fullName.vb: System.Collections.Generic.Dictionary(Of SuperOffice.Data.UDefType, System.Int32)
-  name.vb: Dictionary(Of UDefType, Int32)
+  name: GetVersionsAsync
+  nameWithType: UDefFieldAdminCache.GetVersionsAsync
+  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.GetVersionsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Dictionary<UDefType, Int32>>
+  nameWithType: Task<Dictionary<UDefType, Int32>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<SuperOffice.Data.UDefType, System.Int32>>
+  nameWithType.vb: Task(Of Dictionary(Of UDefType, Int32))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of SuperOffice.Data.UDefType, System.Int32))
+  name.vb: Task(Of Dictionary(Of UDefType, Int32))
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     nameWithType: Dictionary
@@ -1825,7 +1740,18 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     nameWithType: Dictionary
@@ -1850,19 +1776,22 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.Dictionary`2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: Dictionary<, >
-  nameWithType: Dictionary<, >
-  fullName: System.Collections.Generic.Dictionary<, >
-  nameWithType.vb: Dictionary(Of , )
-  fullName.vb: System.Collections.Generic.Dictionary(Of , )
-  name.vb: Dictionary(Of , )
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -1870,20 +1799,14 @@ references:
   - name: ''
     nameWithType: ''
     fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1891,64 +1814,88 @@ references:
   - name: ''
     nameWithType: ''
     fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevisionAsync
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevisionAsync
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  isExternal: true
+  name: CheckRevisionAsync()
+  nameWithType: UDefFieldCacheBase.CheckRevisionAsync()
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevisionAsync()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevisionAsync
+    name: CheckRevisionAsync
+    nameWithType: UDefFieldCacheBase.CheckRevisionAsync
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevisionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevisionAsync
+    name: CheckRevisionAsync
+    nameWithType: UDefFieldCacheBase.CheckRevisionAsync
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevisionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevisionAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevisionAsync
+  isExternal: true
+  name: CheckRevisionAsync
+  nameWithType: UDefFieldAdminCache.CheckRevisionAsync
+  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevisionAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  isExternal: true
+  name: IsPageOneMDOAsync(UDefType, CancellationToken)
+  nameWithType: UDefFieldCacheBase.IsPageOneMDOAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDOAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+    name: IsPageOneMDOAsync
+    nameWithType: UDefFieldCacheBase.IsPageOneMDOAsync
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDOAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
-  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
-  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
-  isExternal: true
-  name: CheckRevision()
-  nameWithType: UDefFieldCacheBase.CheckRevision()
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
-    name: CheckRevision
-    nameWithType: UDefFieldCacheBase.CheckRevision
-    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
-    name: CheckRevision
-    nameWithType: UDefFieldCacheBase.CheckRevision
-    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevision*
-  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevision
-  isExternal: true
-  name: CheckRevision
-  nameWithType: UDefFieldAdminCache.CheckRevision
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.CheckRevision
-- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
-  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
-  isExternal: true
-  name: IsPageOneMDO(UDefType)
-  nameWithType: UDefFieldCacheBase.IsPageOneMDO(UDefType)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
-    name: IsPageOneMDO
-    nameWithType: UDefFieldCacheBase.IsPageOneMDO
-    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDOAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+    name: IsPageOneMDOAsync
+    nameWithType: UDefFieldCacheBase.IsPageOneMDOAsync
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDOAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1958,32 +1905,23 @@ references:
     nameWithType: UDefType
     fullName: SuperOffice.Data.UDefType
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
-    name: IsPageOneMDO
-    nameWithType: UDefFieldCacheBase.IsPageOneMDO
-    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.UDefType
-    name: UDefType
-    nameWithType: UDefType
-    fullName: SuperOffice.Data.UDefType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDO*
-  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDO
+- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDOAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDOAsync
   isExternal: true
-  name: IsPageOneMDO
-  nameWithType: UDefFieldAdminCache.IsPageOneMDO
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDO
+  name: IsPageOneMDOAsync
+  nameWithType: UDefFieldAdminCache.IsPageOneMDOAsync
+  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.IsPageOneMDOAsync
 - uid: SuperOffice.Data.UDefType
   commentId: T:SuperOffice.Data.UDefType
   parent: SuperOffice.Data
@@ -1991,13 +1929,54 @@ references:
   name: UDefType
   nameWithType: UDefType
   fullName: SuperOffice.Data.UDefType
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -2058,9 +2037,3 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor*
-  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldAdminCache.#ctor
-  isExternal: true
-  name: UDefFieldAdminCache
-  nameWithType: UDefFieldAdminCache.UDefFieldAdminCache
-  fullName: SuperOffice.CRM.Rows.UDefFieldAdminCache.UDefFieldAdminCache

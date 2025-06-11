@@ -5,9 +5,9 @@ items:
   id: INextDueDatePlugin
   parent: SuperOffice.CRM
   children:
-  - SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  - SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate(System.Int32)
-  - SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate(System.Int32)
+  - SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDateAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  - SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDateAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -36,16 +36,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate(System.Int32)
-  commentId: M:SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate(System.Int32)
-  id: CalculateNextDueDate(System.Int32)
+- uid: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDateAsync(System.Int32,System.Threading.CancellationToken)
+  id: CalculateNextDueDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.INextDueDatePlugin
   langs:
   - csharp
   - vb
-  name: CalculateNextDueDate(Int32)
-  nameWithType: INextDueDatePlugin.CalculateNextDueDate(Int32)
-  fullName: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate(System.Int32)
+  name: CalculateNextDueDateAsync(Int32, CancellationToken)
+  nameWithType: INextDueDatePlugin.CalculateNextDueDateAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDateAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -55,26 +55,28 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nCalculates the next due date for a given sale. This method takes into account the status of the sale. \n"
   syntax:
-    content: NextDateInfo CalculateNextDueDate(int saleId)
+    content: Task<NextDateInfo> CalculateNextDueDateAsync(int saleId, CancellationToken cancellationToken = null)
     parameters:
     - id: saleId
       type: System.Int32
       description: Identifies the sale for which you want to calculate the next due date
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.NextDateInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
       description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> representing the next due date for the supplied sale identifier
-    content.vb: Function CalculateNextDueDate(saleId As Integer) As NextDateInfo
-  overload: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate*
-- uid: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  id: BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+    content.vb: Function CalculateNextDueDateAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NextDateInfo)
+  overload: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDateAsync*
+- uid: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDateAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDateAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  id: BatchUpdateNextDueDateAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.INextDueDatePlugin
   langs:
   - csharp
   - vb
-  name: BatchUpdateNextDueDate(ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: INextDueDatePlugin.BatchUpdateNextDueDate(ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  name: BatchUpdateNextDueDateAsync(ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  nameWithType: INextDueDatePlugin.BatchUpdateNextDueDateAsync(ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  fullName: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDateAsync(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -84,24 +86,28 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nUpdates the next due date for all sales. The callback is called for each 1/1000th step of the total, with the current value (0-1000)\n"
   syntax:
-    content: void BatchUpdateNextDueDate(ProgressEstimateCallback estimate, ProgressStepCallback step)
+    content: Task BatchUpdateNextDueDateAsync(ProgressEstimateCallback estimate, ProgressStepCallback step, CancellationToken cancellationToken = null)
     parameters:
     - id: estimate
       type: SuperOffice.CRM.ProgressEstimateCallback
     - id: step
       type: SuperOffice.CRM.ProgressStepCallback
-    content.vb: Sub BatchUpdateNextDueDate(estimate As ProgressEstimateCallback, step As ProgressStepCallback)
-  overload: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate*
-- uid: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate(System.Int32)
-  commentId: M:SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate(System.Int32)
-  id: GetNextDueAppointmentDate(System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function BatchUpdateNextDueDateAsync(estimate As ProgressEstimateCallback, step As ProgressStepCallback, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDateAsync*
+- uid: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDateAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetNextDueAppointmentDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.INextDueDatePlugin
   langs:
   - csharp
   - vb
-  name: GetNextDueAppointmentDate(Int32)
-  nameWithType: INextDueDatePlugin.GetNextDueAppointmentDate(Int32)
-  fullName: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate(System.Int32)
+  name: GetNextDueAppointmentDateAsync(Int32, CancellationToken)
+  nameWithType: INextDueDatePlugin.GetNextDueAppointmentDateAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDateAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -111,16 +117,18 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nGets the active date from the first appointment associated with the specified sale.\nThis method does not take into account the status of the sale. \n"
   syntax:
-    content: NextDateInfo GetNextDueAppointmentDate(int saleId)
+    content: Task<NextDateInfo> GetNextDueAppointmentDateAsync(int saleId, CancellationToken cancellationToken = null)
     parameters:
     - id: saleId
       type: System.Int32
       description: Identifies the sale for which you want to calculate the next due date
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.NextDateInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
       description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> representing the next due date for the supplied sale identifier
-    content.vb: Function GetNextDueAppointmentDate(saleId As Integer) As NextDateInfo
-  overload: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate*
+    content.vb: Function GetNextDueAppointmentDateAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NextDateInfo)
+  overload: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDateAsync*
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
@@ -293,12 +301,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate*
-  commentId: Overload:SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate
+- uid: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDateAsync*
+  commentId: Overload:SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDateAsync
   isExternal: true
-  name: CalculateNextDueDate
-  nameWithType: INextDueDatePlugin.CalculateNextDueDate
-  fullName: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate
+  name: CalculateNextDueDateAsync
+  nameWithType: INextDueDatePlugin.CalculateNextDueDateAsync
+  fullName: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDateAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -306,25 +314,104 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.NextDateInfo
-  commentId: T:SuperOffice.CRM.NextDateInfo
-  parent: SuperOffice.CRM
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: NextDateInfo
-  nameWithType: NextDateInfo
-  fullName: SuperOffice.CRM.NextDateInfo
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<NextDateInfo>
+  nameWithType: Task<NextDateInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.NextDateInfo>
+  nameWithType.vb: Task(Of NextDateInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.NextDateInfo)
+  name.vb: Task(Of NextDateInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.NextDateInfo
+    name: NextDateInfo
+    nameWithType: NextDateInfo
+    fullName: SuperOffice.CRM.NextDateInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.NextDateInfo
+    name: NextDateInfo
+    nameWithType: NextDateInfo
+    fullName: SuperOffice.CRM.NextDateInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate*
-  commentId: Overload:SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: BatchUpdateNextDueDate
-  nameWithType: INextDueDatePlugin.BatchUpdateNextDueDate
-  fullName: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDateAsync*
+  commentId: Overload:SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDateAsync
+  isExternal: true
+  name: BatchUpdateNextDueDateAsync
+  nameWithType: INextDueDatePlugin.BatchUpdateNextDueDateAsync
+  fullName: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDateAsync
 - uid: SuperOffice.CRM.ProgressEstimateCallback
   commentId: T:SuperOffice.CRM.ProgressEstimateCallback
   parent: SuperOffice.CRM
@@ -339,9 +426,14 @@ references:
   name: ProgressStepCallback
   nameWithType: ProgressStepCallback
   fullName: SuperOffice.CRM.ProgressStepCallback
-- uid: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate*
-  commentId: Overload:SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: GetNextDueAppointmentDate
-  nameWithType: INextDueDatePlugin.GetNextDueAppointmentDate
-  fullName: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDateAsync*
+  commentId: Overload:SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDateAsync
+  isExternal: true
+  name: GetNextDueAppointmentDateAsync
+  nameWithType: INextDueDatePlugin.GetNextDueAppointmentDateAsync
+  fullName: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDateAsync

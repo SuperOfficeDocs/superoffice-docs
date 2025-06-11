@@ -5,12 +5,12 @@ items:
   id: IUserPlugin
   parent: SuperOffice.CRM.Administration
   children:
-  - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultPrimaryGroup(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultRole(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultSecondaryGroups(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
-  - SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  - SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   - SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   - SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateUserName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
@@ -43,16 +43,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  id: GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  id: GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   langs:
   - csharp
   - vb
-  name: GetDefaultAssociateName(UserType, Person, CheckIfAssociateNameIsLegal)
-  nameWithType: IUserPlugin.GetDefaultAssociateName(UserType, Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: GetDefaultAssociateNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: IUserPlugin.GetDefaultAssociateNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,7 +62,7 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nGet default associate name for a user.\n"
   syntax:
-    content: string GetDefaultAssociateName(UserType type, Person person, CheckIfAssociateNameIsLegal validator)
+    content: Task<string> GetDefaultAssociateNameAsync(UserType type, Person person, CheckIfAssociateNameIsLegal validator, CancellationToken cancellationToken = null)
     parameters:
     - id: type
       type: SuperOffice.License.UserType
@@ -73,21 +73,23 @@ items:
     - id: validator
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
       description: Validator to help check if the an associate name is valid.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Default associate name validated with the provided <xref href="SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal" data-throw-if-not-resolved="false"></xref> delegate.
-    content.vb: Function GetDefaultAssociateName(type As UserType, person As Person, validator As CheckIfAssociateNameIsLegal) As String
-  overload: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName*
-- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  id: GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+    content.vb: Function GetDefaultAssociateNameAsync(type As UserType, person As Person, validator As CheckIfAssociateNameIsLegal, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync*
+- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  id: GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   langs:
   - csharp
   - vb
-  name: GetDefaultAssociateUserName(UserType, Person, CheckIfAssociateNameIsLegal)
-  nameWithType: IUserPlugin.GetDefaultAssociateUserName(UserType, Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: GetDefaultAssociateUserNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: IUserPlugin.GetDefaultAssociateUserNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -97,7 +99,7 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nGet default associate user name for a user.\n"
   syntax:
-    content: string GetDefaultAssociateUserName(UserType type, Person person, CheckIfAssociateNameIsLegal validator)
+    content: Task<string> GetDefaultAssociateUserNameAsync(UserType type, Person person, CheckIfAssociateNameIsLegal validator, CancellationToken cancellationToken = null)
     parameters:
     - id: type
       type: SuperOffice.License.UserType
@@ -108,21 +110,23 @@ items:
     - id: validator
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
       description: Validator to help check if the an associate user name is valid.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Default associate user name validated with the provided <xref href="SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal" data-throw-if-not-resolved="false"></xref> delegate.
-    content.vb: Function GetDefaultAssociateUserName(type As UserType, person As Person, validator As CheckIfAssociateNameIsLegal) As String
-  overload: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName*
-- uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  id: GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+    content.vb: Function GetDefaultAssociateUserNameAsync(type As UserType, person As Person, validator As CheckIfAssociateNameIsLegal, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync*
+- uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  id: GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   langs:
   - csharp
   - vb
-  name: GetValidAssociateName(UserType, Person, String, CheckIfAssociateNameIsLegal)
-  nameWithType: IUserPlugin.GetValidAssociateName(UserType, Person, String, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, System.String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: GetValidAssociateNameAsync(UserType, Person, String, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: IUserPlugin.GetValidAssociateNameAsync(UserType, Person, String, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, System.String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -132,7 +136,7 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nGet valid associate name for a user.\n"
   syntax:
-    content: string GetValidAssociateName(UserType type, Person person, string associateName, CheckIfAssociateNameIsLegal validator)
+    content: Task<string> GetValidAssociateNameAsync(UserType type, Person person, string associateName, CheckIfAssociateNameIsLegal validator, CancellationToken cancellationToken = null)
     parameters:
     - id: type
       type: SuperOffice.License.UserType
@@ -146,11 +150,13 @@ items:
     - id: validator
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
       description: Validator to help check if the an associate name is valid.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Default associate name validated with the provided <xref href="SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal" data-throw-if-not-resolved="false"></xref> delegate.
-    content.vb: Function GetValidAssociateName(type As UserType, person As Person, associateName As String, validator As CheckIfAssociateNameIsLegal) As String
-  overload: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName*
+    content.vb: Function GetValidAssociateNameAsync(type As UserType, person As Person, associateName As String, validator As CheckIfAssociateNameIsLegal, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync*
 - uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   id: GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
@@ -541,12 +547,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName*
-  commentId: Overload:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName
+- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync
   isExternal: true
-  name: GetDefaultAssociateName
-  nameWithType: IUserPlugin.GetDefaultAssociateName
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName
+  name: GetDefaultAssociateNameAsync
+  nameWithType: IUserPlugin.GetDefaultAssociateNameAsync
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync
 - uid: SuperOffice.License.UserType
   isExternal: true
   name: UserType
@@ -566,6 +572,110 @@ references:
   name: CheckIfAssociateNameIsLegal
   nameWithType: CheckIfAssociateNameIsLegal
   fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync
+  isExternal: true
+  name: GetDefaultAssociateUserNameAsync
+  nameWithType: IUserPlugin.GetDefaultAssociateUserNameAsync
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync
+- uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync
+  isExternal: true
+  name: GetValidAssociateNameAsync
+  nameWithType: IUserPlugin.GetValidAssociateNameAsync
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -573,30 +683,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.Entities
-  commentId: N:SuperOffice.CRM.Entities
-  isExternal: true
-  name: SuperOffice.CRM.Entities
-  nameWithType: SuperOffice.CRM.Entities
-  fullName: SuperOffice.CRM.Entities
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName*
-  commentId: Overload:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName
-  isExternal: true
-  name: GetDefaultAssociateUserName
-  nameWithType: IUserPlugin.GetDefaultAssociateUserName
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName
-- uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName*
-  commentId: Overload:SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName
-  isExternal: true
-  name: GetValidAssociateName
-  nameWithType: IUserPlugin.GetValidAssociateName
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName
 - uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName*
   commentId: Overload:SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName
   isExternal: true

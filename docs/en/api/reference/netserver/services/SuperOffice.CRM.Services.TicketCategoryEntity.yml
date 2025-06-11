@@ -49,8 +49,6 @@ items:
           Inherits Carrier
           Implements IExtraFieldCarrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ListAgent
-    commentId: T:SuperOffice.CRM.Services.ListAgent
   - linkId: SuperOffice.CRM.Services.IListAgent
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
@@ -763,15 +761,8 @@ references:
   name: IExtraFieldCarrier
   nameWithType: IExtraFieldCarrier
   fullName: SuperOffice.CRM.Services.IExtraFieldCarrier
-- uid: SuperOffice.CRM.Services.ListAgent
-  commentId: T:SuperOffice.CRM.Services.ListAgent
-  isExternal: true
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.CRM.Services.ListAgent
 - uid: SuperOffice.CRM.Services.IListAgent
   commentId: T:SuperOffice.CRM.Services.IListAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IListAgent
   nameWithType: IListAgent

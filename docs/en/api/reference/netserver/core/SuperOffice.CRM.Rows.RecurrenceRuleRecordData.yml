@@ -46,7 +46,7 @@ items:
   - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
   - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -583,34 +583,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
-  name: ToInsert()
-  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -796,17 +806,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
-  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(RecurrenceRuleRecordData)
-  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert(RecurrenceRuleRecordData)
-  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  name: ToInsertAsync(RecurrenceRuleRecordData, CancellationToken)
+  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsertAsync(RecurrenceRuleRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
-    name: ToInsert
-    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -815,15 +825,23 @@ references:
     name: RecurrenceRuleRecordData
     nameWithType: RecurrenceRuleRecordData
     fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
-    name: ToInsert
-    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -832,6 +850,14 @@ references:
     name: RecurrenceRuleRecordData
     nameWithType: RecurrenceRuleRecordData
     fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

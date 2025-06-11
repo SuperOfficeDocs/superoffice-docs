@@ -11,11 +11,9 @@ items:
   - SuperOffice.SoSession.Authenticate(System.Security.Claims.ClaimsIdentity,System.Security.Claims.Claim[])
   - SuperOffice.SoSession.Authenticate(System.String,System.String)
   - SuperOffice.SoSession.Close
-  - SuperOffice.SoSession.Continue(System.String)
   - SuperOffice.SoSession.Dispose
   - SuperOffice.SoSession.IsOpen
   - SuperOffice.SoSession.Principal
-  - SuperOffice.SoSession.Suspend
   langs:
   - csharp
   - vb
@@ -30,7 +28,7 @@ items:
   - SoCore
   namespace: SuperOffice
   summary: "\nSession object used to authenticate and handle a SuperOffice session\n"
-  remarks: "\nNetServer is designed to be both deployed locally and server-side.  \n<ul><li>Local: \n		A local application is an application that does something for \n		one user.  The application starts of by authenticating the \n		user and provides some functionality to him.  On completion, \n		the user will log out.  The entire time the application \n		provides functionality to the user, there is a valid session \n		on behalf of this user.\n</li><li>Server-side: \n	A server-side application serves several users.  Users are \n	performing operations or requests.  There is a valid session \n	for the user while he is performing the operation and the \n	session is suspended between operations.  An example of this \n	is a web application.  The user clicks something on the \n	browser and sends off a request to the server.  While the \n	server is processing the request, the session is valid.  \n	Between the requests, the session is suspended.\n</li></ul>\n<p>\nThe first operation performed against NetServer in a local application \nwill be to <xref href=\"SuperOffice.SoSession.Authenticate\" data-throw-if-not-resolved=\"false\"></xref> and the last will be to \n<xref href=\"SuperOffice.SoSession.Close\" data-throw-if-not-resolved=\"false\"></xref> the session.  The session object will not be used \nin extent of this in a local application.\n</p>\n<p>\nIn a server-side application, the user will be authenticated, by an \nunderlying call to the <xref href=\"SuperOffice.SoSession.Authenticate\" data-throw-if-not-resolved=\"false\"></xref> method.  As each request is \ncompleted, a <xref href=\"SuperOffice.SoSession.Suspend\" data-throw-if-not-resolved=\"false\"></xref> should be called.  As the next request starts, the \nsuspended session will be continued using the <xref href=\"SuperOffice.SoSession.Continue(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method.\n</p>\n<p>\nThe suspend method returns a string that represents the \nauthenticated user.  This string should be stored in the web-\napplications session-state.  As it is needed for a continuation of \nthe session, it should be fetched back from the web-applications \nsession-state.  \n</p>\n<p>\nThe <xref href=\"SuperOffice.SoSession.Suspend\" data-throw-if-not-resolved=\"false\"></xref> method will return a <xref href=\"SuperOffice.Security.Principal.SoCredentials\" data-throw-if-not-resolved=\"false\"></xref> object, serialized \nand decrypted using \n<xref href=\"SuperOffice.Security.Principal.Private.PrincipalHelper.SerializeCredentials(SuperOffice.Security.Principal.SoCredentials)\" data-throw-if-not-resolved=\"false\"></xref>.  \nthe <xref href=\"SuperOffice.SoSession.Continue(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method will use \n<xref href=\"SuperOffice.Security.Principal.Private.PrincipalHelper.DeserializeCredentials(System.String)\" data-throw-if-not-resolved=\"false\"></xref> \nto decrypt end deserialize the credentials.\n</p>\n"
+  remarks: "\nNetServer is designed to be both deployed locally and server-side.  \n<ul><li>Local: \n		A local application is an application that does something for \n		one user.  The application starts of by authenticating the \n		user and provides some functionality to him.  On completion, \n		the user will log out.  The entire time the application \n		provides functionality to the user, there is a valid session \n		on behalf of this user.\n</li><li>Server-side: \n	A server-side application serves several users.  Users are \n	performing operations or requests.  There is a valid session \n	for the user while he is performing the operation and the \n	session is suspended between operations.  An example of this \n	is a web application.  The user clicks something on the \n	browser and sends off a request to the server.  While the \n	server is processing the request, the session is valid.  \n	Between the requests, the session is suspended.\n</li></ul>\n<p>\nThe first operation performed against NetServer in a local application \nwill be to <xref href=\"SuperOffice.SoSession.Authenticate\" data-throw-if-not-resolved=\"false\"></xref> and the last will be to \n<xref href=\"SuperOffice.SoSession.Close\" data-throw-if-not-resolved=\"false\"></xref> the session.  The session object will not be used \nin extent of this in a local application.\n</p>\n<p>\nIn a server-side application, the user will be authenticated, by an \nunderlying call to the <xref href=\"SuperOffice.SoSession.Authenticate\" data-throw-if-not-resolved=\"false\"></xref> method.  As each request is \ncompleted, a <see cref=\"!:Suspend\"></see> should be called.  As the next request starts, the \nsuspended session will be continued using the <see cref=\"!:Continue\"></see> method.\n</p>\n<p>\nThe suspend method returns a string that represents the \nauthenticated user.  This string should be stored in the web-\napplications session-state.  As it is needed for a continuation of \nthe session, it should be fetched back from the web-applications \nsession-state.  \n</p>\n<p>\nThe <see cref=\"!:Suspend\"></see> method will return a <xref href=\"SuperOffice.Security.Principal.SoCredentials\" data-throw-if-not-resolved=\"false\"></xref> object, serialized \nand decrypted using \n<see cref=\"!:SuperOffice.Security.Principal.Private.PrincipalHelper.SerializeCredentials\"></see>.  \nthe <see cref=\"!:Continue\"></see> method will use \n<see cref=\"!:SuperOffice.Security.Principal.Private.PrincipalHelper.DeserializeCredentials\"></see> \nto decrypt end deserialize the credentials.\n</p>\n"
   example:
   - "\nThe user is authenticated using the Authenticate method:\n<pre><code>SoSession session = SoSession.Authenticate(&quot;user&quot;, &quot;Password&quot;);\n// Do some stuff.\nsession.Close();</code></pre>\n"
   syntax:
@@ -236,70 +234,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.SoSession.Continue(System.String)
-  commentId: M:SuperOffice.SoSession.Continue(System.String)
-  id: Continue(System.String)
-  parent: SuperOffice.SoSession
-  langs:
-  - csharp
-  - vb
-  name: Continue(String)
-  nameWithType: SoSession.Continue(String)
-  fullName: SuperOffice.SoSession.Continue(System.String)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nContinue a session that has ben suspended.\n"
-  syntax:
-    content: public static SoSession Continue(string state)
-    parameters:
-    - id: state
-      type: System.String
-      description: State as returned by the Suspend method
-    return:
-      type: SuperOffice.SoSession
-      description: SoSession object representing the session if succeeded, and null if failed.
-    content.vb: Public Shared Function Continue(state As String) As SoSession
-  overload: SuperOffice.SoSession.Continue*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.SoSession.Suspend
-  commentId: M:SuperOffice.SoSession.Suspend
-  id: Suspend
-  parent: SuperOffice.SoSession
-  langs:
-  - csharp
-  - vb
-  name: Suspend()
-  nameWithType: SoSession.Suspend()
-  fullName: SuperOffice.SoSession.Suspend()
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nSuspend the session and retrieve a &quot;session-id&quot;\n"
-  syntax:
-    content: public string Suspend()
-    return:
-      type: System.String
-      description: '&quot;Session id&quot; or state of the current session.'
-    content.vb: Public Function Suspend As String
-  overload: SuperOffice.SoSession.Suspend*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.SoSession.Close
   commentId: M:SuperOffice.SoSession.Close
   id: Close
@@ -371,11 +305,11 @@ items:
   namespace: SuperOffice
   summary: "\nThe principal the session represents\n"
   syntax:
-    content: public SoPrincipal Principal { get; }
+    content: public ClaimsPrincipal Principal { get; }
     parameters: []
     return:
-      type: SuperOffice.Security.Principal.SoPrincipal
-    content.vb: Public ReadOnly Property Principal As SoPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public ReadOnly Property Principal As ClaimsPrincipal
   overload: SuperOffice.SoSession.Principal*
   modifiers.csharp:
   - public
@@ -673,18 +607,6 @@ references:
   name: WindowsIdentity
   nameWithType: WindowsIdentity
   fullName: System.Security.Principal.WindowsIdentity
-- uid: SuperOffice.SoSession.Continue*
-  commentId: Overload:SuperOffice.SoSession.Continue
-  isExternal: true
-  name: Continue
-  nameWithType: SoSession.Continue
-  fullName: SuperOffice.SoSession.Continue
-- uid: SuperOffice.SoSession.Suspend*
-  commentId: Overload:SuperOffice.SoSession.Suspend
-  isExternal: true
-  name: Suspend
-  nameWithType: SoSession.Suspend
-  fullName: SuperOffice.SoSession.Suspend
 - uid: SuperOffice.SoSession.Close*
   commentId: Overload:SuperOffice.SoSession.Close
   isExternal: true
@@ -703,13 +625,11 @@ references:
   name: Principal
   nameWithType: SoSession.Principal
   fullName: SuperOffice.SoSession.Principal
-- uid: SuperOffice.Security.Principal.SoPrincipal
-  commentId: T:SuperOffice.Security.Principal.SoPrincipal
-  parent: SuperOffice.Security.Principal
+- uid: System.Security.Claims.ClaimsPrincipal
   isExternal: true
-  name: SoPrincipal
-  nameWithType: SoPrincipal
-  fullName: SuperOffice.Security.Principal.SoPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
 - uid: SuperOffice.SoSession.IsOpen*
   commentId: Overload:SuperOffice.SoSession.IsOpen
   isExternal: true

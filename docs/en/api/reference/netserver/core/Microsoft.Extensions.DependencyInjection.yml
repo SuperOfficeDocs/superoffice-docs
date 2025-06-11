@@ -8,13 +8,10 @@ items:
   - Microsoft.Extensions.DependencyInjection.INetServerCoreOptions
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptions
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
-  - Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
-  - Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
   - Microsoft.Extensions.DependencyInjection.NetServerOptions
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
   - Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions
   - Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-  - Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
   langs:
   - csharp
   - vb
@@ -70,25 +67,6 @@ references:
   name: ServiceCollectionExtensions
   nameWithType: ServiceCollectionExtensions
   fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-- uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
-  commentId: T:Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
-  isExternal: true
-  name: NetServerLocalOptions
-  nameWithType: NetServerLocalOptions
-  fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
-- uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-  commentId: T:Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-  parent: Microsoft.Extensions.DependencyInjection
-  isExternal: true
-  name: NetServerLocalOptionsBuilder
-  nameWithType: NetServerLocalOptionsBuilder
-  fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-- uid: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
-  commentId: T:Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
-  isExternal: true
-  name: SoDatabaseServiceCollectionExtensions
-  nameWithType: SoDatabaseServiceCollectionExtensions
-  fullName: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
 - uid: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
   commentId: T:Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
   isExternal: true

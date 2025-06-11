@@ -18,11 +18,14 @@ items:
   - SuperOffice.CRM.Globalization.ContactTags.CountryCode
   - SuperOffice.CRM.Globalization.ContactTags.CountryEnglish
   - SuperOffice.CRM.Globalization.ContactTags.County
-  - SuperOffice.CRM.Globalization.ContactTags.CountyZip
   - SuperOffice.CRM.Globalization.ContactTags.Deparment
   - SuperOffice.CRM.Globalization.ContactTags.EMail
   - SuperOffice.CRM.Globalization.ContactTags.EMailId
-  - SuperOffice.CRM.Globalization.ContactTags.Id
+  - SuperOffice.CRM.Globalization.ContactTags.GetCountyZipAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.ContactTags.GetIdAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.ContactTags.GetPostalAddressPrefixAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.ContactTags.GetPostCodeAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.ContactTags.GetSupportPersonNameAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Globalization.ContactTags.LineFeedAustraliaUK
   - SuperOffice.CRM.Globalization.ContactTags.LineFeedGermany
   - SuperOffice.CRM.Globalization.ContactTags.Name
@@ -37,13 +40,11 @@ items:
   - SuperOffice.CRM.Globalization.ContactTags.PostalAddressLine1And3
   - SuperOffice.CRM.Globalization.ContactTags.PostalAddressLine2
   - SuperOffice.CRM.Globalization.ContactTags.PostalAddressLine3
-  - SuperOffice.CRM.Globalization.ContactTags.PostalAddressPrefix
   - SuperOffice.CRM.Globalization.ContactTags.PostalAddressState
   - SuperOffice.CRM.Globalization.ContactTags.PostalAddressZip
   - SuperOffice.CRM.Globalization.ContactTags.PostalAddressZipCity
   - SuperOffice.CRM.Globalization.ContactTags.PostalCity
   - SuperOffice.CRM.Globalization.ContactTags.PostalCityFull
-  - SuperOffice.CRM.Globalization.ContactTags.PostCode
   - SuperOffice.CRM.Globalization.ContactTags.StreetAddressCity
   - SuperOffice.CRM.Globalization.ContactTags.StreetAddressLine1
   - SuperOffice.CRM.Globalization.ContactTags.StreetAddressLine2
@@ -52,7 +53,6 @@ items:
   - SuperOffice.CRM.Globalization.ContactTags.StreetAddressZip
   - SuperOffice.CRM.Globalization.ContactTags.StreetAddressZipGerman
   - SuperOffice.CRM.Globalization.ContactTags.SupportPersonId
-  - SuperOffice.CRM.Globalization.ContactTags.SupportPersonName
   - SuperOffice.CRM.Globalization.ContactTags.UserDefinedFieldDecimal1
   - SuperOffice.CRM.Globalization.ContactTags.UserDefinedFieldDecimal10
   - SuperOffice.CRM.Globalization.ContactTags.UserDefinedFieldDecimal2
@@ -203,13 +203,13 @@ items:
   - SuperOffice.IO.TagContainer.AddData(System.Object[])
   - SuperOffice.IO.TagContainer.GetData
   - SuperOffice.IO.TagContainer.ClearData
-  - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.GetTags
   - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
-  - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  - SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  - SuperOffice.IO.TagContainer.Init
+  - SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.CurrentUiCulture
   - SuperOffice.IO.TagContainer.Data
   extensionMethods:
@@ -331,17 +331,17 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Globalization.ContactTags.Id
-  commentId: P:SuperOffice.CRM.Globalization.ContactTags.Id
-  id: Id
+- uid: SuperOffice.CRM.Globalization.ContactTags.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.ContactTags.GetIdAsync(System.Threading.CancellationToken)
+  id: GetIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Globalization.ContactTags
   langs:
   - csharp
   - vb
-  name: Id
-  nameWithType: ContactTags.Id
-  fullName: SuperOffice.CRM.Globalization.ContactTags.Id
-  type: Property
+  name: GetIdAsync(CancellationToken)
+  nameWithType: ContactTags.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.ContactTags.GetIdAsync(System.Threading.CancellationToken)
+  type: Method
   source:
     path: SoDataBase
     isExternal: true
@@ -353,16 +353,18 @@ items:
     content: >-
       [TemplateTag("cuid")]
 
-      public override int Id { get; }
-    parameters: []
+      public override Task<int> GetIdAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
     content.vb: >-
       <TemplateTag("cuid")>
 
-      Public Overrides ReadOnly Property Id As Integer
-  overridden: SuperOffice.IO.TagContainer.Id
-  overload: SuperOffice.CRM.Globalization.ContactTags.Id*
+      Public Overrides Function GetIdAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overridden: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Globalization.ContactTags.GetIdAsync*
   attributes:
   - type: SuperOffice.IO.TemplateTagAttribute
     ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
@@ -372,11 +374,181 @@ items:
   modifiers.csharp:
   - public
   - override
-  - get
   modifiers.vb:
   - Public
   - Overrides
-  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.ContactTags.GetPostCodeAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.ContactTags.GetPostCodeAsync(System.Threading.CancellationToken)
+  id: GetPostCodeAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.ContactTags
+  langs:
+  - csharp
+  - vb
+  name: GetPostCodeAsync(CancellationToken)
+  nameWithType: ContactTags.GetPostCodeAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.ContactTags.GetPostCodeAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nPostcode including country prefix (e.g. N-0163 for a postcode in Norway)\n"
+  syntax:
+    content: >-
+      [TemplateTag("cozi")]
+
+      public Task<string> GetPostCodeAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("cozi")>
+
+      Public Function GetPostCodeAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.ContactTags.GetPostCodeAsync*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: cozi
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.ContactTags.GetCountyZipAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.ContactTags.GetCountyZipAsync(System.Threading.CancellationToken)
+  id: GetCountyZipAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.ContactTags
+  langs:
+  - csharp
+  - vb
+  name: GetCountyZipAsync(CancellationToken)
+  nameWithType: ContactTags.GetCountyZipAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.ContactTags.GetCountyZipAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nCounty and postcode (for UK addresses)\n"
+  syntax:
+    content: >-
+      [TemplateTag("czip")]
+
+      public Task<string> GetCountyZipAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("czip")>
+
+      Public Function GetCountyZipAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.ContactTags.GetCountyZipAsync*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: czip
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.ContactTags.GetPostalAddressPrefixAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.ContactTags.GetPostalAddressPrefixAsync(System.Threading.CancellationToken)
+  id: GetPostalAddressPrefixAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.ContactTags
+  langs:
+  - csharp
+  - vb
+  name: GetPostalAddressPrefixAsync(CancellationToken)
+  nameWithType: ContactTags.GetPostalAddressPrefixAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.ContactTags.GetPostalAddressPrefixAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nPostcode prefix\n"
+  syntax:
+    content: >-
+      [TemplateTag("zino")]
+
+      public Task<string> GetPostalAddressPrefixAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("zino")>
+
+      Public Function GetPostalAddressPrefixAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.ContactTags.GetPostalAddressPrefixAsync*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: zino
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.ContactTags.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.ContactTags.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  id: GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.ContactTags
+  langs:
+  - csharp
+  - vb
+  name: GetSupportPersonNameAsync(CancellationToken)
+  nameWithType: ContactTags.GetSupportPersonNameAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.ContactTags.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nThe company&apos;s primary support person - full name\n"
+  syntax:
+    content: >-
+      [TemplateTag("cspn")]
+
+      public Task<string> GetSupportPersonNameAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("cspn")>
+
+      Public Function GetSupportPersonNameAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.ContactTags.GetSupportPersonNameAsync*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: cspn
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Globalization.ContactTags.Name
   commentId: P:SuperOffice.CRM.Globalization.ContactTags.Name
   id: Name
@@ -807,49 +979,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Globalization.ContactTags.PostCode
-  commentId: P:SuperOffice.CRM.Globalization.ContactTags.PostCode
-  id: PostCode
-  parent: SuperOffice.CRM.Globalization.ContactTags
-  langs:
-  - csharp
-  - vb
-  name: PostCode
-  nameWithType: ContactTags.PostCode
-  fullName: SuperOffice.CRM.Globalization.ContactTags.PostCode
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nPostcode including country prefix (e.g. N-0163 for a postcode in Norway)\n"
-  syntax:
-    content: >-
-      [TemplateTag("cozi")]
-
-      public string PostCode { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("cozi")>
-
-      Public ReadOnly Property PostCode As String
-  overload: SuperOffice.CRM.Globalization.ContactTags.PostCode*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: cozi
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.ContactTags.PostalAddressZip
   commentId: P:SuperOffice.CRM.Globalization.ContactTags.PostalAddressZip
   id: PostalAddressZip
@@ -936,49 +1065,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Globalization.ContactTags.CountyZip
-  commentId: P:SuperOffice.CRM.Globalization.ContactTags.CountyZip
-  id: CountyZip
-  parent: SuperOffice.CRM.Globalization.ContactTags
-  langs:
-  - csharp
-  - vb
-  name: CountyZip
-  nameWithType: ContactTags.CountyZip
-  fullName: SuperOffice.CRM.Globalization.ContactTags.CountyZip
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nCounty and postcode (for UK addresses)\n"
-  syntax:
-    content: >-
-      [TemplateTag("czip")]
-
-      public string CountyZip { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("czip")>
-
-      Public ReadOnly Property CountyZip As String
-  overload: SuperOffice.CRM.Globalization.ContactTags.CountyZip*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: czip
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.ContactTags.StreetAddressZip
   commentId: P:SuperOffice.CRM.Globalization.ContactTags.StreetAddressZip
   id: StreetAddressZip
@@ -1016,49 +1102,6 @@ items:
     arguments:
     - type: System.String
       value: zipp
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.ContactTags.PostalAddressPrefix
-  commentId: P:SuperOffice.CRM.Globalization.ContactTags.PostalAddressPrefix
-  id: PostalAddressPrefix
-  parent: SuperOffice.CRM.Globalization.ContactTags
-  langs:
-  - csharp
-  - vb
-  name: PostalAddressPrefix
-  nameWithType: ContactTags.PostalAddressPrefix
-  fullName: SuperOffice.CRM.Globalization.ContactTags.PostalAddressPrefix
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nPostcode prefix\n"
-  syntax:
-    content: >-
-      [TemplateTag("zino")]
-
-      public string PostalAddressPrefix { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("zino")>
-
-      Public ReadOnly Property PostalAddressPrefix As String
-  overload: SuperOffice.CRM.Globalization.ContactTags.PostalAddressPrefix*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: zino
   modifiers.csharp:
   - public
   - get
@@ -2306,49 +2349,6 @@ items:
     arguments:
     - type: System.String
       value: cspi
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.ContactTags.SupportPersonName
-  commentId: P:SuperOffice.CRM.Globalization.ContactTags.SupportPersonName
-  id: SupportPersonName
-  parent: SuperOffice.CRM.Globalization.ContactTags
-  langs:
-  - csharp
-  - vb
-  name: SupportPersonName
-  nameWithType: ContactTags.SupportPersonName
-  fullName: SuperOffice.CRM.Globalization.ContactTags.SupportPersonName
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nThe company&apos;s primary support person - full name\n"
-  syntax:
-    content: >-
-      [TemplateTag("cspn")]
-
-      public string SupportPersonName { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("cspn")>
-
-      Public ReadOnly Property SupportPersonName As String
-  overload: SuperOffice.CRM.Globalization.ContactTags.SupportPersonName*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: cspn
   modifiers.csharp:
   - public
   - get
@@ -7612,18 +7612,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
+- uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: GetValue(String)
-  nameWithType: TagContainer.GetValue(String)
-  fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
+  name: GetValueAsync(String, CancellationToken)
+  nameWithType: TagContainer.GetValueAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetValueAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-    name: GetValue
-    nameWithType: TagContainer.GetValue
-    fullName: SuperOffice.IO.TagContainer.GetValue
+  - uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+    name: GetValueAsync
+    nameWithType: TagContainer.GetValueAsync
+    fullName: SuperOffice.IO.TagContainer.GetValueAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -7632,15 +7632,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-    name: GetValue
-    nameWithType: TagContainer.GetValue
-    fullName: SuperOffice.IO.TagContainer.GetValue
+  - uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+    name: GetValueAsync
+    nameWithType: TagContainer.GetValueAsync
+    fullName: SuperOffice.IO.TagContainer.GetValueAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -7649,6 +7657,14 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -7782,18 +7798,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: IsTagLegal(String)
-  nameWithType: TagContainer.IsTagLegal(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  name: IsTagLegalAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagLegalAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-    name: IsTagLegal
-    nameWithType: TagContainer.IsTagLegal
-    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+  - uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagLegalAsync
+    nameWithType: TagContainer.IsTagLegalAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -7802,15 +7818,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-    name: IsTagLegal
-    nameWithType: TagContainer.IsTagLegal
-    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+  - uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagLegalAsync
+    nameWithType: TagContainer.IsTagLegalAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -7819,22 +7843,30 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: IsTagInContext(String)
-  nameWithType: TagContainer.IsTagInContext(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  name: IsTagInContextAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagInContextAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-    name: IsTagInContext
-    nameWithType: TagContainer.IsTagInContext
-    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+  - uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagInContextAsync
+    nameWithType: TagContainer.IsTagInContextAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -7843,15 +7875,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-    name: IsTagInContext
-    nameWithType: TagContainer.IsTagInContext
-    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+  - uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagInContextAsync
+    nameWithType: TagContainer.IsTagInContextAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -7861,37 +7901,55 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.Init
-  commentId: M:SuperOffice.IO.TagContainer.Init
+- uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: Init()
-  nameWithType: TagContainer.Init()
-  fullName: SuperOffice.IO.TagContainer.Init()
+  name: InitAsync(CancellationToken)
+  nameWithType: TagContainer.InitAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.Init
-    name: Init
-    nameWithType: TagContainer.Init
-    fullName: SuperOffice.IO.TagContainer.Init
+  - uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
+    nameWithType: TagContainer.InitAsync
+    fullName: SuperOffice.IO.TagContainer.InitAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.Init
-    name: Init
-    nameWithType: TagContainer.Init
-    fullName: SuperOffice.IO.TagContainer.Init
+  - uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
+    nameWithType: TagContainer.InitAsync
+    fullName: SuperOffice.IO.TagContainer.InitAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -8119,19 +8177,206 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.IO.TagContainer.Id
-  commentId: P:SuperOffice.IO.TagContainer.Id
+- uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: Id
-  nameWithType: TagContainer.Id
-  fullName: SuperOffice.IO.TagContainer.Id
-- uid: SuperOffice.CRM.Globalization.ContactTags.Id*
-  commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.Id
+  name: GetIdAsync(CancellationToken)
+  nameWithType: TagContainer.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+    name: GetIdAsync
+    nameWithType: TagContainer.GetIdAsync
+    fullName: SuperOffice.IO.TagContainer.GetIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+    name: GetIdAsync
+    nameWithType: TagContainer.GetIdAsync
+    fullName: SuperOffice.IO.TagContainer.GetIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.ContactTags.GetIdAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.GetIdAsync
   isExternal: true
-  name: Id
-  nameWithType: ContactTags.Id
-  fullName: SuperOffice.CRM.Globalization.ContactTags.Id
+  name: GetIdAsync
+  nameWithType: ContactTags.GetIdAsync
+  fullName: SuperOffice.CRM.Globalization.ContactTags.GetIdAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.ContactTags.GetPostCodeAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.GetPostCodeAsync
+  isExternal: true
+  name: GetPostCodeAsync
+  nameWithType: ContactTags.GetPostCodeAsync
+  fullName: SuperOffice.CRM.Globalization.ContactTags.GetPostCodeAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.ContactTags.GetCountyZipAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.GetCountyZipAsync
+  isExternal: true
+  name: GetCountyZipAsync
+  nameWithType: ContactTags.GetCountyZipAsync
+  fullName: SuperOffice.CRM.Globalization.ContactTags.GetCountyZipAsync
+- uid: SuperOffice.CRM.Globalization.ContactTags.GetPostalAddressPrefixAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.GetPostalAddressPrefixAsync
+  isExternal: true
+  name: GetPostalAddressPrefixAsync
+  nameWithType: ContactTags.GetPostalAddressPrefixAsync
+  fullName: SuperOffice.CRM.Globalization.ContactTags.GetPostalAddressPrefixAsync
+- uid: SuperOffice.CRM.Globalization.ContactTags.GetSupportPersonNameAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.GetSupportPersonNameAsync
+  isExternal: true
+  name: GetSupportPersonNameAsync
+  nameWithType: ContactTags.GetSupportPersonNameAsync
+  fullName: SuperOffice.CRM.Globalization.ContactTags.GetSupportPersonNameAsync
 - uid: SuperOffice.CRM.Globalization.ContactTags.Name*
   commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.Name
   isExternal: true
@@ -8199,12 +8444,6 @@ references:
   name: CountryEnglish
   nameWithType: ContactTags.CountryEnglish
   fullName: SuperOffice.CRM.Globalization.ContactTags.CountryEnglish
-- uid: SuperOffice.CRM.Globalization.ContactTags.PostCode*
-  commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.PostCode
-  isExternal: true
-  name: PostCode
-  nameWithType: ContactTags.PostCode
-  fullName: SuperOffice.CRM.Globalization.ContactTags.PostCode
 - uid: SuperOffice.CRM.Globalization.ContactTags.PostalAddressZip*
   commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.PostalAddressZip
   isExternal: true
@@ -8217,24 +8456,12 @@ references:
   name: PostalAddressZipCity
   nameWithType: ContactTags.PostalAddressZipCity
   fullName: SuperOffice.CRM.Globalization.ContactTags.PostalAddressZipCity
-- uid: SuperOffice.CRM.Globalization.ContactTags.CountyZip*
-  commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.CountyZip
-  isExternal: true
-  name: CountyZip
-  nameWithType: ContactTags.CountyZip
-  fullName: SuperOffice.CRM.Globalization.ContactTags.CountyZip
 - uid: SuperOffice.CRM.Globalization.ContactTags.StreetAddressZip*
   commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.StreetAddressZip
   isExternal: true
   name: StreetAddressZip
   nameWithType: ContactTags.StreetAddressZip
   fullName: SuperOffice.CRM.Globalization.ContactTags.StreetAddressZip
-- uid: SuperOffice.CRM.Globalization.ContactTags.PostalAddressPrefix*
-  commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.PostalAddressPrefix
-  isExternal: true
-  name: PostalAddressPrefix
-  nameWithType: ContactTags.PostalAddressPrefix
-  fullName: SuperOffice.CRM.Globalization.ContactTags.PostalAddressPrefix
 - uid: SuperOffice.CRM.Globalization.ContactTags.OurContact*
   commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.OurContact
   isExternal: true
@@ -8409,12 +8636,6 @@ references:
   name: SupportPersonId
   nameWithType: ContactTags.SupportPersonId
   fullName: SuperOffice.CRM.Globalization.ContactTags.SupportPersonId
-- uid: SuperOffice.CRM.Globalization.ContactTags.SupportPersonName*
-  commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.SupportPersonName
-  isExternal: true
-  name: SupportPersonName
-  nameWithType: ContactTags.SupportPersonName
-  fullName: SuperOffice.CRM.Globalization.ContactTags.SupportPersonName
 - uid: SuperOffice.CRM.Globalization.ContactTags.UserDefinedFieldString1*
   commentId: Overload:SuperOffice.CRM.Globalization.ContactTags.UserDefinedFieldString1
   isExternal: true

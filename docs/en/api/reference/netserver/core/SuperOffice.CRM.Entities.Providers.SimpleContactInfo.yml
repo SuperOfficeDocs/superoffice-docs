@@ -25,6 +25,7 @@ items:
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.FaxId
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.FaxStripped
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetInternationalAddress(System.Int32)
+  - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetSupportPersonNameAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetUserDefinedDecimal(System.Int32)
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetUserDefinedDecimal(System.String)
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetUserDefinedInt(System.Int32)
@@ -60,7 +61,6 @@ items:
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.StreetAddressZip
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.StreetAddressZipGerman
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.SupportPersonId
-  - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.SupportPersonName
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.UdefDecimal
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.UdefInt
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo.UdefString
@@ -102,6 +102,38 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  id: GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.Providers.SimpleContactInfo
+  langs:
+  - csharp
+  - vb
+  name: GetSupportPersonNameAsync(CancellationToken)
+  nameWithType: SimpleContactInfo.GetSupportPersonNameAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public Task<string> GetSupportPersonNameAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function GetSupportPersonNameAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetSupportPersonNameAsync*
+  implements:
+  - SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetInternationalAddress(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetInternationalAddress(System.Int32)
   id: GetInternationalAddress(System.Int32)
@@ -1932,38 +1964,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.SupportPersonName
-  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleContactInfo.SupportPersonName
-  id: SupportPersonName
-  parent: SuperOffice.CRM.Entities.Providers.SimpleContactInfo
-  langs:
-  - csharp
-  - vb
-  name: SupportPersonName
-  nameWithType: SimpleContactInfo.SupportPersonName
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.SupportPersonName
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities.Providers
-  syntax:
-    content: public string SupportPersonName { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property SupportPersonName As String
-  overload: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.SupportPersonName*
-  implements:
-  - SuperOffice.CRM.IContactInfo2.SupportPersonName
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.UdefDecimal
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleContactInfo.UdefDecimal
   id: UdefDecimal
@@ -2443,6 +2443,139 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetSupportPersonNameAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetSupportPersonNameAsync
+  isExternal: true
+  name: GetSupportPersonNameAsync
+  nameWithType: SimpleContactInfo.GetSupportPersonNameAsync
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetSupportPersonNameAsync
+- uid: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.IContactInfo2
+  isExternal: true
+  name: GetSupportPersonNameAsync(CancellationToken)
+  nameWithType: IContactInfo2.GetSupportPersonNameAsync(CancellationToken)
+  fullName: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+    name: GetSupportPersonNameAsync
+    nameWithType: IContactInfo2.GetSupportPersonNameAsync
+    fullName: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+    name: GetSupportPersonNameAsync
+    nameWithType: IContactInfo2.GetSupportPersonNameAsync
+    fullName: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetInternationalAddress*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleContactInfo.GetInternationalAddress
   isExternal: true
@@ -3418,19 +3551,6 @@ references:
   name: SupportPersonId
   nameWithType: IContactInfo2.SupportPersonId
   fullName: SuperOffice.CRM.IContactInfo2.SupportPersonId
-- uid: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.SupportPersonName*
-  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleContactInfo.SupportPersonName
-  isExternal: true
-  name: SupportPersonName
-  nameWithType: SimpleContactInfo.SupportPersonName
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.SupportPersonName
-- uid: SuperOffice.CRM.IContactInfo2.SupportPersonName
-  commentId: P:SuperOffice.CRM.IContactInfo2.SupportPersonName
-  parent: SuperOffice.CRM.IContactInfo2
-  isExternal: true
-  name: SupportPersonName
-  nameWithType: IContactInfo2.SupportPersonName
-  fullName: SuperOffice.CRM.IContactInfo2.SupportPersonName
 - uid: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.UdefDecimal*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleContactInfo.UdefDecimal
   isExternal: true

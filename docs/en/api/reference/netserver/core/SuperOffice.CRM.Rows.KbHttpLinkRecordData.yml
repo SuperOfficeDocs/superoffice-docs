@@ -36,7 +36,7 @@ items:
   - SuperOffice.CRM.Rows.KbHttpLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.KbHttpLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.KbHttpLinkRecordData)
   - SuperOffice.CRM.Rows.KbHttpLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.KbHttpLinkRecordData.SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.KbHttpLinkRecordData.SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.KbHttpLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -303,34 +303,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.KbHttpLinkRecordData.SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbHttpLinkRecordData)
+- uid: SuperOffice.CRM.Rows.KbHttpLinkRecordData.SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbHttpLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbHttpLinkRecordData)
-  name: ToInsert()
-  nameWithType: KbHttpLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbHttpLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: KbHttpLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: KbHttpLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbHttpLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: KbHttpLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbHttpLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -516,17 +526,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbHttpLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbHttpLinkRecordData)
+- uid: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbHttpLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbHttpLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(KbHttpLinkRecordData)
-  nameWithType: KbHttpLinkRecordDataExtensions.ToInsert(KbHttpLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbHttpLinkRecordData)
+  name: ToInsertAsync(KbHttpLinkRecordData, CancellationToken)
+  nameWithType: KbHttpLinkRecordDataExtensions.ToInsertAsync(KbHttpLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbHttpLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbHttpLinkRecordData)
-    name: ToInsert
-    nameWithType: KbHttpLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbHttpLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbHttpLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -535,15 +545,23 @@ references:
     name: KbHttpLinkRecordData
     nameWithType: KbHttpLinkRecordData
     fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbHttpLinkRecordData)
-    name: ToInsert
-    nameWithType: KbHttpLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbHttpLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbHttpLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -552,6 +570,14 @@ references:
     name: KbHttpLinkRecordData
     nameWithType: KbHttpLinkRecordData
     fullName: SuperOffice.CRM.Rows.KbHttpLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

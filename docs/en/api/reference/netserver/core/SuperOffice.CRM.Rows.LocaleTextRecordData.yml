@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.LocaleTextRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.LocaleTextRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.LocaleTextRecordData)
   - SuperOffice.CRM.Rows.LocaleTextRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.LocaleTextRecordData.SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.LocaleTextRecordData.SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.LocaleTextRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LocaleTextRecordData.SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LocaleTextRecordData)
+- uid: SuperOffice.CRM.Rows.LocaleTextRecordData.SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LocaleTextRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LocaleTextRecordData)
-  name: ToInsert()
-  nameWithType: LocaleTextRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LocaleTextRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: LocaleTextRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LocaleTextRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LocaleTextRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LocaleTextRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LocaleTextRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LocaleTextRecordData)
-  commentId: M:SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LocaleTextRecordData)
+- uid: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LocaleTextRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LocaleTextRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(LocaleTextRecordData)
-  nameWithType: LocaleTextRecordDataExtensions.ToInsert(LocaleTextRecordData)
-  fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LocaleTextRecordData)
+  name: ToInsertAsync(LocaleTextRecordData, CancellationToken)
+  nameWithType: LocaleTextRecordDataExtensions.ToInsertAsync(LocaleTextRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LocaleTextRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LocaleTextRecordData)
-    name: ToInsert
-    nameWithType: LocaleTextRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LocaleTextRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LocaleTextRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: LocaleTextRecordData
     nameWithType: LocaleTextRecordData
     fullName: SuperOffice.CRM.Rows.LocaleTextRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LocaleTextRecordData)
-    name: ToInsert
-    nameWithType: LocaleTextRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LocaleTextRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LocaleTextRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LocaleTextRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: LocaleTextRecordData
     nameWithType: LocaleTextRecordData
     fullName: SuperOffice.CRM.Rows.LocaleTextRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

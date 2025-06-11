@@ -32,28 +32,22 @@ items:
   summary: "\nQuery Processor plugin to trigger logging of Ticket changes.\n"
   remarks: "\nUse the base class and standard pattern to delegate the actual work to the <xref href=\"SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor\" data-throw-if-not-resolved=\"false\"></xref>, which\nhas a synchronous (before save) part to collect information, and a later part to do the logging, asynchronously.\n<br />\nThe purpose of this class is to connect to the correct interception points (BeforeGenerate, AfterExecute) out of the\nmany possible ones. It also contains mechanisms to turn off this logging functionality.\n"
   syntax:
-    content: 'public sealed class TicketLogger : ThreadStaticQueuedThreadBase<TicketLoggerProcessor, BatchSave>, IQueryProcessorPlugin'
+    content: 'public sealed class TicketLogger : AsyncQueueHandler<TicketLoggerProcessor, BatchSave>, IQueryProcessorPlugin'
     content.vb: >-
       Public NotInheritable Class TicketLogger
-          Inherits ThreadStaticQueuedThreadBase(Of TicketLoggerProcessor, BatchSave)
+          Inherits AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave)
           Implements IQueryProcessorPlugin
   inheritance:
   - System.Object
-  - SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  - SuperOffice.Threading.QueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  - SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
+  - SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
   inheritedMembers:
-  - SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.WorkInformation
-  - SuperOffice.Threading.QueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ScheduleNewWork
-  - SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ToString
-  - SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.OnSetup(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.SynchronousSetup(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.AsynchronousOperation
-  - SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ExecuteWork
-  - SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.Processor
-  - SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.WasSetupCalled
-  - SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.HasWorkToDo
-  - SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ThreadName
+  - SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}._queue
+  - SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}._processor
+  - SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.OnSetup(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.SynchronousSetup(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.AsynchronousOperation
+  - SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.Processor
+  - SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.HasWorkToDo
   extensionMethods:
   - SuperOffice.Data.Private.TicketLogging.TicketLogger.EnumUtil.MapEnums``2
   - SuperOffice.Data.Private.TicketLogging.TicketLogger.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Private.TicketLogging.TicketLogger)
@@ -67,6 +61,31 @@ items:
   - Public
   - NotInheritable
   - Class
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLogger.#ctor
+  commentId: M:SuperOffice.Data.Private.TicketLogging.TicketLogger.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.Private.TicketLogging.TicketLogger
+  langs:
+  - csharp
+  - vb
+  name: TicketLogger()
+  nameWithType: TicketLogger.TicketLogger()
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLogger.TicketLogger()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Private.TicketLogging
+  syntax:
+    content: public TicketLogger()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.Private.TicketLogging.TicketLogger.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Private.TicketLogging.TicketLogger.AfterCommit
   commentId: M:SuperOffice.Data.Private.TicketLogging.TicketLogger.AfterCommit
   id: AfterCommit
@@ -365,31 +384,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.Private.TicketLogging.TicketLogger.#ctor
-  commentId: M:SuperOffice.Data.Private.TicketLogging.TicketLogger.#ctor
-  id: '#ctor'
-  parent: SuperOffice.Data.Private.TicketLogging.TicketLogger
-  langs:
-  - csharp
-  - vb
-  name: TicketLogger()
-  nameWithType: TicketLogger.TicketLogger()
-  fullName: SuperOffice.Data.Private.TicketLogging.TicketLogger.TicketLogger()
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data.Private.TicketLogging
-  syntax:
-    content: public TicketLogger()
-    content.vb: Public Sub New
-  overload: SuperOffice.Data.Private.TicketLogging.TicketLogger.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.Data.Private.TicketLogging
   commentId: N:SuperOffice.Data.Private.TicketLogging
@@ -404,21 +398,21 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  commentId: T:SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
+- uid: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
+  commentId: T:SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
   parent: SuperOffice.Threading
-  definition: SuperOffice.Threading.AsynchronousHandler`2
-  name: AsynchronousHandler<TicketLoggerProcessor, BatchSave>
-  nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>
-  fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>
-  nameWithType.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave)
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave)
-  name.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave)
+  definition: SuperOffice.Threading.AsyncQueueHandler`2
+  name: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>
+  nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>
+  fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>
+  nameWithType.vb: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave)
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave)
+  name.vb: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2
-    name: AsynchronousHandler
-    nameWithType: AsynchronousHandler
-    fullName: SuperOffice.Threading.AsynchronousHandler
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2
+    name: AsyncQueueHandler
+    nameWithType: AsyncQueueHandler
+    fullName: SuperOffice.Threading.AsyncQueueHandler
     isExternal: true
   - name: <
     nameWithType: <
@@ -440,10 +434,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2
-    name: AsynchronousHandler
-    nameWithType: AsynchronousHandler
-    fullName: SuperOffice.Threading.AsynchronousHandler
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2
+    name: AsyncQueueHandler
+    nameWithType: AsyncQueueHandler
+    fullName: SuperOffice.Threading.AsyncQueueHandler
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -464,215 +458,38 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Threading.QueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  commentId: T:SuperOffice.Threading.QueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  parent: SuperOffice.Threading
-  definition: SuperOffice.Threading.QueuedThreadBase`2
-  name: QueuedThreadBase<TicketLoggerProcessor, BatchSave>
-  nameWithType: QueuedThreadBase<TicketLoggerProcessor, BatchSave>
-  fullName: SuperOffice.Threading.QueuedThreadBase<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>
-  nameWithType.vb: QueuedThreadBase(Of TicketLoggerProcessor, BatchSave)
-  fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave)
-  name.vb: QueuedThreadBase(Of TicketLoggerProcessor, BatchSave)
-  spec.csharp:
-  - uid: SuperOffice.Threading.QueuedThreadBase`2
-    name: QueuedThreadBase
-    nameWithType: QueuedThreadBase
-    fullName: SuperOffice.Threading.QueuedThreadBase
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
-    name: TicketLoggerProcessor
-    nameWithType: TicketLoggerProcessor
-    fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.Data.SQL.BatchSave
-    name: BatchSave
-    nameWithType: BatchSave
-    fullName: SuperOffice.Data.SQL.BatchSave
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.QueuedThreadBase`2
-    name: QueuedThreadBase
-    nameWithType: QueuedThreadBase
-    fullName: SuperOffice.Threading.QueuedThreadBase
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
-    name: TicketLoggerProcessor
-    nameWithType: TicketLoggerProcessor
-    fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.Data.SQL.BatchSave
-    name: BatchSave
-    nameWithType: BatchSave
-    fullName: SuperOffice.Data.SQL.BatchSave
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  commentId: T:SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  parent: SuperOffice.Threading
-  definition: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
-  name: ThreadStaticQueuedThreadBase<TicketLoggerProcessor, BatchSave>
-  nameWithType: ThreadStaticQueuedThreadBase<TicketLoggerProcessor, BatchSave>
-  fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>
-  nameWithType.vb: ThreadStaticQueuedThreadBase(Of TicketLoggerProcessor, BatchSave)
-  fullName.vb: SuperOffice.Threading.ThreadStaticQueuedThreadBase(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave)
-  name.vb: ThreadStaticQueuedThreadBase(Of TicketLoggerProcessor, BatchSave)
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
-    name: ThreadStaticQueuedThreadBase
-    nameWithType: ThreadStaticQueuedThreadBase
-    fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
-    name: TicketLoggerProcessor
-    nameWithType: TicketLoggerProcessor
-    fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.Data.SQL.BatchSave
-    name: BatchSave
-    nameWithType: BatchSave
-    fullName: SuperOffice.Data.SQL.BatchSave
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
-    name: ThreadStaticQueuedThreadBase
-    nameWithType: ThreadStaticQueuedThreadBase
-    fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
-    name: TicketLoggerProcessor
-    nameWithType: TicketLoggerProcessor
-    fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.Data.SQL.BatchSave
-    name: BatchSave
-    nameWithType: BatchSave
-    fullName: SuperOffice.Data.SQL.BatchSave
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.WorkInformation
-  commentId: P:SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.WorkInformation
-  parent: SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2.WorkInformation
-  name: WorkInformation
-  nameWithType: ThreadStaticQueuedThreadBase<TicketLoggerProcessor, BatchSave>.WorkInformation
-  fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.WorkInformation
-  nameWithType.vb: ThreadStaticQueuedThreadBase(Of TicketLoggerProcessor, BatchSave).WorkInformation
-  fullName.vb: SuperOffice.Threading.ThreadStaticQueuedThreadBase(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).WorkInformation
-- uid: SuperOffice.Threading.QueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ScheduleNewWork
-  commentId: M:SuperOffice.Threading.QueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ScheduleNewWork
-  parent: SuperOffice.Threading.QueuedThreadBase{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
-  name: ScheduleNewWork()
-  nameWithType: QueuedThreadBase<TicketLoggerProcessor, BatchSave>.ScheduleNewWork()
-  fullName: SuperOffice.Threading.QueuedThreadBase<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.ScheduleNewWork()
-  nameWithType.vb: QueuedThreadBase(Of TicketLoggerProcessor, BatchSave).ScheduleNewWork()
-  fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).ScheduleNewWork()
-  spec.csharp:
-  - uid: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
-    name: ScheduleNewWork
-    nameWithType: QueuedThreadBase<TicketLoggerProcessor, BatchSave>.ScheduleNewWork
-    fullName: SuperOffice.Threading.QueuedThreadBase<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.ScheduleNewWork
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
-    name: ScheduleNewWork
-    nameWithType: QueuedThreadBase(Of TicketLoggerProcessor, BatchSave).ScheduleNewWork
-    fullName: SuperOffice.Threading.QueuedThreadBase(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).ScheduleNewWork
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ToString
-  commentId: M:SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ToString
-  parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandler`2.ToString
-  name: ToString()
-  nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.ToString()
-  fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.ToString()
-  nameWithType.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).ToString()
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).ToString()
-  spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
-    name: ToString
-    nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.ToString
-    fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
-    name: ToString
-    nameWithType: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).ToString
-    fullName: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.OnSetup(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.OnSetup(SuperOffice.Data.SQL.BatchSave)
-  parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+- uid: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}._queue
+  commentId: F:SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}._queue
+  parent: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
+  definition: SuperOffice.Threading.AsyncQueueHandler`2._queue
+  name: _queue
+  nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>._queue
+  fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>._queue
+  nameWithType.vb: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave)._queue
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave)._queue
+- uid: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}._processor
+  commentId: F:SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}._processor
+  parent: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
+  definition: SuperOffice.Threading.AsyncQueueHandler`2._processor
+  name: _processor
+  nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>._processor
+  fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>._processor
+  nameWithType.vb: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave)._processor
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave)._processor
+- uid: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.OnSetup(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.OnSetup(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
+  definition: SuperOffice.Threading.AsyncQueueHandler`2.OnSetup(`1)
   name: OnSetup(BatchSave)
-  nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.OnSetup(BatchSave)
-  fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.OnSetup(SuperOffice.Data.SQL.BatchSave)
-  nameWithType.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).OnSetup(BatchSave)
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).OnSetup(SuperOffice.Data.SQL.BatchSave)
+  nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>.OnSetup(BatchSave)
+  fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.OnSetup(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave).OnSetup(BatchSave)
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).OnSetup(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.OnSetup(`1)
     name: OnSetup
-    nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.OnSetup
-    fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.OnSetup
+    nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>.OnSetup
+    fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.OnSetup
     isExternal: true
   - name: (
     nameWithType: (
@@ -686,10 +503,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.OnSetup(`1)
     name: OnSetup
-    nameWithType: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).OnSetup
-    fullName: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).OnSetup
+    nameWithType: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave).OnSetup
+    fullName: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).OnSetup
     isExternal: true
   - name: (
     nameWithType: (
@@ -702,20 +519,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.SynchronousSetup(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.SynchronousSetup(SuperOffice.Data.SQL.BatchSave)
-  parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+- uid: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.SynchronousSetup(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.SynchronousSetup(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
+  definition: SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup(`1)
   name: SynchronousSetup(BatchSave)
-  nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.SynchronousSetup(BatchSave)
-  fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.SynchronousSetup(SuperOffice.Data.SQL.BatchSave)
-  nameWithType.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).SynchronousSetup(BatchSave)
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).SynchronousSetup(SuperOffice.Data.SQL.BatchSave)
+  nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>.SynchronousSetup(BatchSave)
+  fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.SynchronousSetup(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave).SynchronousSetup(BatchSave)
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).SynchronousSetup(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
-    nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.SynchronousSetup
-    fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.SynchronousSetup
+    nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>.SynchronousSetup
+    fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.SynchronousSetup
     isExternal: true
   - name: (
     nameWithType: (
@@ -729,10 +546,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
-    nameWithType: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).SynchronousSetup
-    fullName: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).SynchronousSetup
+    nameWithType: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave).SynchronousSetup
+    fullName: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).SynchronousSetup
     isExternal: true
   - name: (
     nameWithType: (
@@ -745,20 +562,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.AsynchronousOperation
-  commentId: M:SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.AsynchronousOperation
-  parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+- uid: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.AsynchronousOperation
+  commentId: M:SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.AsynchronousOperation
+  parent: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
+  definition: SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
   name: AsynchronousOperation()
-  nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.AsynchronousOperation()
-  fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.AsynchronousOperation()
-  nameWithType.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).AsynchronousOperation()
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).AsynchronousOperation()
+  nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>.AsynchronousOperation()
+  fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.AsynchronousOperation()
+  nameWithType.vb: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave).AsynchronousOperation()
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).AsynchronousOperation()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
     name: AsynchronousOperation
-    nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.AsynchronousOperation
-    fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.AsynchronousOperation
+    nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>.AsynchronousOperation
+    fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.AsynchronousOperation
     isExternal: true
   - name: (
     nameWithType: (
@@ -767,10 +584,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
     name: AsynchronousOperation
-    nameWithType: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).AsynchronousOperation
-    fullName: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).AsynchronousOperation
+    nameWithType: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave).AsynchronousOperation
+    fullName: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).AsynchronousOperation
     isExternal: true
   - name: (
     nameWithType: (
@@ -778,75 +595,24 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ExecuteWork
-  commentId: M:SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ExecuteWork
-  parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
-  name: ExecuteWork()
-  nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.ExecuteWork()
-  fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.ExecuteWork()
-  nameWithType.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).ExecuteWork()
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).ExecuteWork()
-  spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
-    name: ExecuteWork
-    nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.ExecuteWork
-    fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.ExecuteWork
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
-    name: ExecuteWork
-    nameWithType: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).ExecuteWork
-    fullName: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).ExecuteWork
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.Processor
-  commentId: P:SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.Processor
-  parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandler`2.Processor
+- uid: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.Processor
+  commentId: P:SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.Processor
+  parent: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
+  definition: SuperOffice.Threading.AsyncQueueHandler`2.Processor
   name: Processor
-  nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.Processor
-  fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.Processor
-  nameWithType.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).Processor
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).Processor
-- uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.WasSetupCalled
-  commentId: P:SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.WasSetupCalled
-  parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
-  name: WasSetupCalled
-  nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.WasSetupCalled
-  fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.WasSetupCalled
-  nameWithType.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).WasSetupCalled
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).WasSetupCalled
-- uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.HasWorkToDo
-  commentId: P:SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.HasWorkToDo
-  parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
+  nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>.Processor
+  fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.Processor
+  nameWithType.vb: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave).Processor
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).Processor
+- uid: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.HasWorkToDo
+  commentId: P:SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.HasWorkToDo
+  parent: SuperOffice.Threading.AsyncQueueHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
+  definition: SuperOffice.Threading.AsyncQueueHandler`2.HasWorkToDo
   name: HasWorkToDo
-  nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.HasWorkToDo
-  fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.HasWorkToDo
-  nameWithType.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).HasWorkToDo
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).HasWorkToDo
-- uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ThreadName
-  commentId: P:SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}.ThreadName
-  parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor,SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandler`2.ThreadName
-  name: ThreadName
-  nameWithType: AsynchronousHandler<TicketLoggerProcessor, BatchSave>.ThreadName
-  fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.ThreadName
-  nameWithType.vb: AsynchronousHandler(Of TicketLoggerProcessor, BatchSave).ThreadName
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).ThreadName
+  nameWithType: AsyncQueueHandler<TicketLoggerProcessor, BatchSave>.HasWorkToDo
+  fullName: SuperOffice.Threading.AsyncQueueHandler<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave>.HasWorkToDo
+  nameWithType.vb: AsyncQueueHandler(Of TicketLoggerProcessor, BatchSave).HasWorkToDo
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor, SuperOffice.Data.SQL.BatchSave).HasWorkToDo
 - uid: SuperOffice.Data.Private.TicketLogging.TicketLogger.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -999,20 +765,20 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.Threading.AsynchronousHandler`2
-  commentId: T:SuperOffice.Threading.AsynchronousHandler`2
+- uid: SuperOffice.Threading.AsyncQueueHandler`2
+  commentId: T:SuperOffice.Threading.AsyncQueueHandler`2
   isExternal: true
-  name: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
-  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
-  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
-  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
-  name.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+  name: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+  name.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2
-    name: AsynchronousHandler
-    nameWithType: AsynchronousHandler
-    fullName: SuperOffice.Threading.AsynchronousHandler
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2
+    name: AsyncQueueHandler
+    nameWithType: AsyncQueueHandler
+    fullName: SuperOffice.Threading.AsyncQueueHandler
     isExternal: true
   - name: <
     nameWithType: <
@@ -1030,10 +796,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2
-    name: AsynchronousHandler
-    nameWithType: AsynchronousHandler
-    fullName: SuperOffice.Threading.AsynchronousHandler
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2
+    name: AsyncQueueHandler
+    nameWithType: AsyncQueueHandler
+    fullName: SuperOffice.Threading.AsyncQueueHandler
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1056,193 +822,35 @@ references:
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
-- uid: SuperOffice.Threading.QueuedThreadBase`2
-  commentId: T:SuperOffice.Threading.QueuedThreadBase`2
+- uid: SuperOffice.Threading.AsyncQueueHandler`2._queue
+  commentId: F:SuperOffice.Threading.AsyncQueueHandler`2._queue
   isExternal: true
-  name: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
-  nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
-  fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
-  nameWithType.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
-  fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
-  name.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
-  spec.csharp:
-  - uid: SuperOffice.Threading.QueuedThreadBase`2
-    name: QueuedThreadBase
-    nameWithType: QueuedThreadBase
-    fullName: SuperOffice.Threading.QueuedThreadBase
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAsynchronousHandlerProcessor
-    nameWithType: TAsynchronousHandlerProcessor
-    fullName: TAsynchronousHandlerProcessor
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TAsynchronousArgument
-    nameWithType: TAsynchronousArgument
-    fullName: TAsynchronousArgument
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.QueuedThreadBase`2
-    name: QueuedThreadBase
-    nameWithType: QueuedThreadBase
-    fullName: SuperOffice.Threading.QueuedThreadBase
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAsynchronousHandlerProcessor
-    nameWithType: TAsynchronousHandlerProcessor
-    fullName: TAsynchronousHandlerProcessor
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TAsynchronousArgument
-    nameWithType: TAsynchronousArgument
-    fullName: TAsynchronousArgument
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
-  commentId: T:SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
+  name: _queue
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>._queue
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>._queue
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)._queue
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)._queue
+- uid: SuperOffice.Threading.AsyncQueueHandler`2._processor
+  commentId: F:SuperOffice.Threading.AsyncQueueHandler`2._processor
   isExternal: true
-  name: ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
-  nameWithType: ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
-  fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
-  nameWithType.vb: ThreadStaticQueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
-  fullName.vb: SuperOffice.Threading.ThreadStaticQueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
-  name.vb: ThreadStaticQueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
-    name: ThreadStaticQueuedThreadBase
-    nameWithType: ThreadStaticQueuedThreadBase
-    fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAsynchronousHandlerProcessor
-    nameWithType: TAsynchronousHandlerProcessor
-    fullName: TAsynchronousHandlerProcessor
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TAsynchronousArgument
-    nameWithType: TAsynchronousArgument
-    fullName: TAsynchronousArgument
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
-    name: ThreadStaticQueuedThreadBase
-    nameWithType: ThreadStaticQueuedThreadBase
-    fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAsynchronousHandlerProcessor
-    nameWithType: TAsynchronousHandlerProcessor
-    fullName: TAsynchronousHandlerProcessor
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TAsynchronousArgument
-    nameWithType: TAsynchronousArgument
-    fullName: TAsynchronousArgument
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2.WorkInformation
-  commentId: P:SuperOffice.Threading.ThreadStaticQueuedThreadBase`2.WorkInformation
-  isExternal: true
-  name: WorkInformation
-  nameWithType: ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInformation
-  fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInformation
-  nameWithType.vb: ThreadStaticQueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInformation
-  fullName.vb: SuperOffice.Threading.ThreadStaticQueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInformation
-- uid: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
-  commentId: M:SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
-  isExternal: true
-  name: ScheduleNewWork()
-  nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
-  fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
-  nameWithType.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork()
-  fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork()
-  spec.csharp:
-  - uid: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
-    name: ScheduleNewWork
-    nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
-    fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
-    name: ScheduleNewWork
-    nameWithType: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
-    fullName: SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
-  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ToString
-  isExternal: true
-  name: ToString()
-  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
-  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
-  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString()
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString()
-  spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
-    name: ToString
-    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
-    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
-    name: ToString
-    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
-    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
-  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+  name: _processor
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>._processor
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>._processor
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)._processor
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)._processor
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.OnSetup(`1)
+  commentId: M:SuperOffice.Threading.AsyncQueueHandler`2.OnSetup(`1)
   isExternal: true
   name: OnSetup(TAsynchronousArgument)
-  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
-  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
-  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup(TAsynchronousArgument)
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup(TAsynchronousArgument)
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup(TAsynchronousArgument)
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup(TAsynchronousArgument)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.OnSetup(`1)
     name: OnSetup
-    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
-    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
+    nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
+    fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
     isExternal: true
   - name: (
     nameWithType: (
@@ -1254,10 +862,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.OnSetup(`1)
     name: OnSetup
-    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
-    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
+    nameWithType: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
+    fullName: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
     isExternal: true
   - name: (
     nameWithType: (
@@ -1268,19 +876,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
-  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup(`1)
+  commentId: M:SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup(`1)
   isExternal: true
   name: SynchronousSetup(TAsynchronousArgument)
-  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
-  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
-  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup(TAsynchronousArgument)
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup(TAsynchronousArgument)
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup(TAsynchronousArgument)
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup(TAsynchronousArgument)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
-    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
-    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
+    nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
+    fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
     isExternal: true
   - name: (
     nameWithType: (
@@ -1292,10 +900,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
-    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
-    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
+    nameWithType: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
+    fullName: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
     isExternal: true
   - name: (
     nameWithType: (
@@ -1306,19 +914,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
-  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
+  commentId: M:SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
   isExternal: true
   name: AsynchronousOperation()
-  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
-  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
-  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation()
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation()
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation()
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
     name: AsynchronousOperation
-    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
-    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
+    nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
+    fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
     isExternal: true
   - name: (
     nameWithType: (
@@ -1327,10 +935,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+  - uid: SuperOffice.Threading.AsyncQueueHandler`2.AsynchronousOperation
     name: AsynchronousOperation
-    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
-    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
+    nameWithType: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
+    fullName: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
     isExternal: true
   - name: (
     nameWithType: (
@@ -1338,70 +946,22 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
-  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
-  isExternal: true
-  name: ExecuteWork()
-  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
-  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
-  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork()
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork()
-  spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
-    name: ExecuteWork
-    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
-    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
-    name: ExecuteWork
-    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
-    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.AsynchronousHandler`2.Processor
-  commentId: P:SuperOffice.Threading.AsynchronousHandler`2.Processor
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.Processor
+  commentId: P:SuperOffice.Threading.AsyncQueueHandler`2.Processor
   isExternal: true
   name: Processor
-  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
-  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
-  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).Processor
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).Processor
-- uid: SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
-  commentId: P:SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
-  isExternal: true
-  name: WasSetupCalled
-  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
-  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
-  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WasSetupCalled
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WasSetupCalled
-- uid: SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
-  commentId: P:SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).Processor
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).Processor
+- uid: SuperOffice.Threading.AsyncQueueHandler`2.HasWorkToDo
+  commentId: P:SuperOffice.Threading.AsyncQueueHandler`2.HasWorkToDo
   isExternal: true
   name: HasWorkToDo
-  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
-  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
-  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).HasWorkToDo
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).HasWorkToDo
-- uid: SuperOffice.Threading.AsynchronousHandler`2.ThreadName
-  commentId: P:SuperOffice.Threading.AsynchronousHandler`2.ThreadName
-  isExternal: true
-  name: ThreadName
-  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
-  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
-  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ThreadName
-  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ThreadName
+  nameWithType: AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
+  fullName: SuperOffice.Threading.AsyncQueueHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
+  nameWithType.vb: AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).HasWorkToDo
+  fullName.vb: SuperOffice.Threading.AsyncQueueHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).HasWorkToDo
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -1602,6 +1162,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLogger.#ctor*
+  commentId: Overload:SuperOffice.Data.Private.TicketLogging.TicketLogger.#ctor
+  isExternal: true
+  name: TicketLogger
+  nameWithType: TicketLogger.TicketLogger
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLogger.TicketLogger
 - uid: SuperOffice.Data.Private.TicketLogging.TicketLogger.AfterCommit*
   commentId: Overload:SuperOffice.Data.Private.TicketLogging.TicketLogger.AfterCommit
   isExternal: true
@@ -1709,9 +1275,3 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.Data.Private.TicketLogging.TicketLogger.#ctor*
-  commentId: Overload:SuperOffice.Data.Private.TicketLogging.TicketLogger.#ctor
-  isExternal: true
-  name: TicketLogger
-  nameWithType: TicketLogger.TicketLogger
-  fullName: SuperOffice.Data.Private.TicketLogging.TicketLogger.TicketLogger

@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
+  id: ConfigFile.IGoogleRecaptchaConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SecretKey
+  - SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SiteKey
+  - SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.VerificationUrl
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IGoogleRecaptchaConfiguration
+  nameWithType: ConfigFile.IGoogleRecaptchaConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfuguration values for the Google Recaptcha validation service.\nCreated in Database scope\n"
+  syntax:
+    content: public interface IGoogleRecaptchaConfiguration
+    content.vb: Public Interface IGoogleRecaptchaConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.VerificationUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.VerificationUrl
+  id: VerificationUrl
+  parent: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
+  langs:
+  - csharp
+  - vb
+  name: VerificationUrl
+  nameWithType: ConfigFile.IGoogleRecaptchaConfiguration.VerificationUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.VerificationUrl
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nURL for Google Recaptcha validation service.\n"
+  syntax:
+    content: string VerificationUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property VerificationUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.VerificationUrl*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SiteKey
+  commentId: P:SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SiteKey
+  id: SiteKey
+  parent: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SiteKey
+  nameWithType: ConfigFile.IGoogleRecaptchaConfiguration.SiteKey
+  fullName: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SiteKey
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe site key from from the Google Recaptcha instance.\n"
+  syntax:
+    content: string SiteKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property SiteKey As String
+  overload: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SiteKey*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SecretKey
+  commentId: P:SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SecretKey
+  id: SecretKey
+  parent: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SecretKey
+  nameWithType: ConfigFile.IGoogleRecaptchaConfiguration.SecretKey
+  fullName: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SecretKey
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe secret key from the Google Recaptcha instance.\n"
+  syntax:
+    content: string SecretKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property SecretKey As String
+  overload: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SecretKey*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IGoogleRecaptchaConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IGoogleRecaptchaConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IGoogleRecaptchaConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IGoogleRecaptchaConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IGoogleRecaptchaConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IGoogleRecaptchaConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IGoogleRecaptchaConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IGoogleRecaptchaConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IGoogleRecaptchaConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IGoogleRecaptchaConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IGoogleRecaptchaConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IGoogleRecaptchaConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IGoogleRecaptchaConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IGoogleRecaptchaConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IGoogleRecaptchaConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IGoogleRecaptchaConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.VerificationUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.VerificationUrl
+  isExternal: true
+  name: VerificationUrl
+  nameWithType: ConfigFile.IGoogleRecaptchaConfiguration.VerificationUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.VerificationUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SiteKey*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SiteKey
+  isExternal: true
+  name: SiteKey
+  nameWithType: ConfigFile.IGoogleRecaptchaConfiguration.SiteKey
+  fullName: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SiteKey
+- uid: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SecretKey*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SecretKey
+  isExternal: true
+  name: SecretKey
+  nameWithType: ConfigFile.IGoogleRecaptchaConfiguration.SecretKey
+  fullName: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration.SecretKey

@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.QuickReplyRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.QuickReplyRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.QuickReplyRecordData)
   - SuperOffice.CRM.Rows.QuickReplyRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.QuickReplyRecordData.SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.QuickReplyRecordData.SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.QuickReplyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.QuickReplyRecordData.SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuickReplyRecordData)
+- uid: SuperOffice.CRM.Rows.QuickReplyRecordData.SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuickReplyRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuickReplyRecordData)
-  name: ToInsert()
-  nameWithType: QuickReplyRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuickReplyRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: QuickReplyRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: QuickReplyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuickReplyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: QuickReplyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuickReplyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuickReplyRecordData)
-  commentId: M:SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuickReplyRecordData)
+- uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuickReplyRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuickReplyRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(QuickReplyRecordData)
-  nameWithType: QuickReplyRecordDataExtensions.ToInsert(QuickReplyRecordData)
-  fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuickReplyRecordData)
+  name: ToInsertAsync(QuickReplyRecordData, CancellationToken)
+  nameWithType: QuickReplyRecordDataExtensions.ToInsertAsync(QuickReplyRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuickReplyRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuickReplyRecordData)
-    name: ToInsert
-    nameWithType: QuickReplyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuickReplyRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuickReplyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: QuickReplyRecordData
     nameWithType: QuickReplyRecordData
     fullName: SuperOffice.CRM.Rows.QuickReplyRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuickReplyRecordData)
-    name: ToInsert
-    nameWithType: QuickReplyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuickReplyRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuickReplyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: QuickReplyRecordData
     nameWithType: QuickReplyRecordData
     fullName: SuperOffice.CRM.Rows.QuickReplyRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

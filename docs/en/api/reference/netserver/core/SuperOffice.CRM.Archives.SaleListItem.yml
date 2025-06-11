@@ -16,7 +16,7 @@ items:
   - SuperOffice.CRM.Archives.SaleListItem.Description
   - SuperOffice.CRM.Archives.SaleListItem.Earning
   - SuperOffice.CRM.Archives.SaleListItem.EarningPercent
-  - SuperOffice.CRM.Archives.SaleListItem.GetSaleListItem(System.Int32)
+  - SuperOffice.CRM.Archives.SaleListItem.GetSaleListItemAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Archives.SaleListItem.Initialize
   - SuperOffice.CRM.Archives.SaleListItem.Load(SuperOffice.CRM.Archives.SaleList.SaleListQuery,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Archives.SaleListItem.Number
@@ -104,16 +104,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Archives.SaleListItem.GetSaleListItem(System.Int32)
-  commentId: M:SuperOffice.CRM.Archives.SaleListItem.GetSaleListItem(System.Int32)
-  id: GetSaleListItem(System.Int32)
+- uid: SuperOffice.CRM.Archives.SaleListItem.GetSaleListItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.SaleListItem.GetSaleListItemAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetSaleListItemAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.SaleListItem
   langs:
   - csharp
   - vb
-  name: GetSaleListItem(Int32)
-  nameWithType: SaleListItem.GetSaleListItem(Int32)
-  fullName: SuperOffice.CRM.Archives.SaleListItem.GetSaleListItem(System.Int32)
+  name: GetSaleListItemAsync(Int32, CancellationToken)
+  nameWithType: SaleListItem.GetSaleListItemAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Archives.SaleListItem.GetSaleListItemAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -122,14 +122,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Archives
   syntax:
-    content: public static SaleListItem GetSaleListItem(int saleId)
+    content: public static Task<SaleListItem> GetSaleListItemAsync(int saleId, CancellationToken cancellationToken = null)
     parameters:
     - id: saleId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Archives.SaleListItem
-    content.vb: Public Shared Function GetSaleListItem(saleId As Integer) As SaleListItem
-  overload: SuperOffice.CRM.Archives.SaleListItem.GetSaleListItem*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.SaleListItem}
+    content.vb: Public Shared Function GetSaleListItemAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SaleListItem)
+  overload: SuperOffice.CRM.Archives.SaleListItem.GetSaleListItemAsync*
   modifiers.csharp:
   - public
   - static
@@ -2145,12 +2147,12 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.Archives.SaleListItem.GetSaleListItem*
-  commentId: Overload:SuperOffice.CRM.Archives.SaleListItem.GetSaleListItem
+- uid: SuperOffice.CRM.Archives.SaleListItem.GetSaleListItemAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.SaleListItem.GetSaleListItemAsync
   isExternal: true
-  name: GetSaleListItem
-  nameWithType: SaleListItem.GetSaleListItem
-  fullName: SuperOffice.CRM.Archives.SaleListItem.GetSaleListItem
+  name: GetSaleListItemAsync
+  nameWithType: SaleListItem.GetSaleListItemAsync
+  fullName: SuperOffice.CRM.Archives.SaleListItem.GetSaleListItemAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2158,13 +2160,92 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Archives.SaleListItem
-  commentId: T:SuperOffice.CRM.Archives.SaleListItem
-  parent: SuperOffice.CRM.Archives
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: SaleListItem
-  nameWithType: SaleListItem
-  fullName: SuperOffice.CRM.Archives.SaleListItem
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.SaleListItem}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Archives.SaleListItem}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SaleListItem>
+  nameWithType: Task<SaleListItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Archives.SaleListItem>
+  nameWithType.vb: Task(Of SaleListItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Archives.SaleListItem)
+  name.vb: Task(Of SaleListItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Archives.SaleListItem
+    name: SaleListItem
+    nameWithType: SaleListItem
+    fullName: SuperOffice.CRM.Archives.SaleListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Archives.SaleListItem
+    name: SaleListItem
+    nameWithType: SaleListItem
+    fullName: SuperOffice.CRM.Archives.SaleListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.SaleList.SaleListQuery}.Initialize
   commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.SaleList.SaleListQuery}.Initialize
   parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.SaleList.SaleListQuery}

@@ -6,23 +6,24 @@ items:
   parent: SuperOffice.CRM.Ticket
   children:
   - SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.TicketTableInfo,System.Int32)
-  - SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+  - SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId(System.Int32)
   - SuperOffice.CRM.Ticket.TicketHelper.GetIconHint(System.String,SuperOffice.Data.TicketBaseStatus,System.DateTime)
-  - SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress(System.Int32)
-  - SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue
-  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus(System.Int32)
-  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData(System.Int32)
-  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers(System.Int32,System.Int32)
-  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketData(System.Int32)
-  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel(System.Int32)
-  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData(System.Int16)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddressAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueueAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatusAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeDataAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomersAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketDataAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync(System.Int16,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
-  - SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
-  - SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle(System.Int32,System.String)
-  - SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged(SuperOffice.CRM.Rows.TicketRow,System.Boolean)
-  - SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt(SuperOffice.CRM.Rows.TicketRow,System.DateTime)
-  - SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages(System.Int32)
+  - SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync(System.Int32)
+  - SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitleAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChangedAsync(SuperOffice.CRM.Rows.TicketRow,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAtAsync(SuperOffice.CRM.Rows.TicketRow,System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessagesAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -50,16 +51,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData(System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData(System.Int32)
-  id: GetTicketChangeData(System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeDataAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeDataAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTicketChangeDataAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: GetTicketChangeData(Int32)
-  nameWithType: TicketHelper.GetTicketChangeData(Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData(System.Int32)
+  name: GetTicketChangeDataAsync(Int32, CancellationToken)
+  nameWithType: TicketHelper.GetTicketChangeDataAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeDataAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -68,14 +69,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static TicketChangeData GetTicketChangeData(int ticketId)
+    content: public static Task<TicketChangeData> GetTicketChangeDataAsync(int ticketId, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Ticket.TicketChangeData
-    content.vb: Public Shared Function GetTicketChangeData(ticketId As Integer) As TicketChangeData
-  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.TicketChangeData}
+    content.vb: Public Shared Function GetTicketChangeDataAsync(ticketId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TicketChangeData)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeDataAsync*
   modifiers.csharp:
   - public
   - static
@@ -121,16 +124,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel(System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel(System.Int32)
-  id: GetTicketSecurityLevel(System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTicketSecurityLevelAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: GetTicketSecurityLevel(Int32)
-  nameWithType: TicketHelper.GetTicketSecurityLevel(Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel(System.Int32)
+  name: GetTicketSecurityLevelAsync(Int32, CancellationToken)
+  nameWithType: TicketHelper.GetTicketSecurityLevelAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -140,31 +143,33 @@ items:
   namespace: SuperOffice.CRM.Ticket
   summary: "\nGets <xref href=\"SuperOffice.Data.TicketSecurityLevel\" data-throw-if-not-resolved=\"false\"></xref> depending on TicketTypeId. If the <see cref=\"!:ticketTypeId\"></see> == 0 default ticket type is used\n"
   syntax:
-    content: public static TicketSecurityLevel GetTicketSecurityLevel(int ticketTypeId = 0)
+    content: public static Task<TicketSecurityLevel> GetTicketSecurityLevelAsync(int ticketTypeId = 0, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketTypeId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.TicketSecurityLevel
+      type: System.Threading.Tasks.Task{SuperOffice.Data.TicketSecurityLevel}
       description: Resolved <xref href="SuperOffice.Data.TicketSecurityLevel" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Shared Function GetTicketSecurityLevel(ticketTypeId As Integer = 0) As TicketSecurityLevel
-  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel*
+    content.vb: Public Shared Function GetTicketSecurityLevelAsync(ticketTypeId As Integer = 0, cancellationToken As CancellationToken = Nothing) As Task(Of TicketSecurityLevel)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
-  id: ResolveTicketId(System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: ResolveTicketIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: ResolveTicketId(Int32)
-  nameWithType: TicketHelper.ResolveTicketId(Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
+  name: ResolveTicketIdAsync(Int32, CancellationToken)
+  nameWithType: TicketHelper.ResolveTicketIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -174,32 +179,34 @@ items:
   namespace: SuperOffice.CRM.Ticket
   summary: "\nTicket can be connected (merged) to another ticket. This method traverses through its connection(s) and returns proper ticketId\n"
   syntax:
-    content: public static int ResolveTicketId(int ticketId)
+    content: public static Task<int> ResolveTicketIdAsync(int ticketId, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
       description: Potentially correct ticketId
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Correct ticketId. Returns 0 in case ticket does not exists
-    content.vb: Public Shared Function ResolveTicketId(ticketId As Integer) As Integer
-  overload: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId*
+    content.vb: Public Shared Function ResolveTicketIdAsync(ticketId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketData(System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketData(System.Int32)
-  id: GetTicketData(System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketDataAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketDataAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTicketDataAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: GetTicketData(Int32)
-  nameWithType: TicketHelper.GetTicketData(Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketData(System.Int32)
+  name: GetTicketDataAsync(Int32, CancellationToken)
+  nameWithType: TicketHelper.GetTicketDataAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketDataAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -208,14 +215,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static TicketData GetTicketData(int ticketId)
+    content: public static Task<TicketData> GetTicketDataAsync(int ticketId, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Ticket.TicketData
-    content.vb: Public Shared Function GetTicketData(ticketId As Integer) As TicketData
-  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketData*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.TicketData}
+    content.vb: Public Shared Function GetTicketDataAsync(ticketId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TicketData)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketDataAsync*
   modifiers.csharp:
   - public
   - static
@@ -256,16 +265,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus(System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus(System.Int32)
-  id: GetTicketBaseStatus(System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatusAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatusAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTicketBaseStatusAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: GetTicketBaseStatus(Int32)
-  nameWithType: TicketHelper.GetTicketBaseStatus(Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus(System.Int32)
+  name: GetTicketBaseStatusAsync(Int32, CancellationToken)
+  nameWithType: TicketHelper.GetTicketBaseStatusAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatusAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -275,33 +284,35 @@ items:
   namespace: SuperOffice.CRM.Ticket
   summary: "\nGet TicketBaseStatus from TicketStatus. Example: TicketStatus &quot;Resolved&quot; may have a TicketBaseStatus &quot;Closed&quot;.\n"
   syntax:
-    content: public static TicketBaseStatus GetTicketBaseStatus(int ticketStatus)
+    content: public static Task<TicketBaseStatus> GetTicketBaseStatusAsync(int ticketStatus, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketStatus
       type: System.Int32
       description: TicketStatus int from TicketStatus table
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.TicketBaseStatus
+      type: System.Threading.Tasks.Task{SuperOffice.Data.TicketBaseStatus}
       description: TicketBaseStatus(enum) of provided TicketStatus
-    content.vb: Public Shared Function GetTicketBaseStatus(ticketStatus As Integer) As TicketBaseStatus
-  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus*
+    content.vb: Public Shared Function GetTicketBaseStatusAsync(ticketStatus As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TicketBaseStatus)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatusAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged(SuperOffice.CRM.Rows.TicketRow,System.Boolean)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged(SuperOffice.CRM.Rows.TicketRow,System.Boolean)
-  id: UpdateLastChanged(SuperOffice.CRM.Rows.TicketRow,System.Boolean)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChangedAsync(SuperOffice.CRM.Rows.TicketRow,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChangedAsync(SuperOffice.CRM.Rows.TicketRow,System.Boolean,System.Threading.CancellationToken)
+  id: UpdateLastChangedAsync(SuperOffice.CRM.Rows.TicketRow,System.Boolean,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: UpdateLastChanged(TicketRow, Boolean)
-  nameWithType: TicketHelper.UpdateLastChanged(TicketRow, Boolean)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged(SuperOffice.CRM.Rows.TicketRow, System.Boolean)
+  name: UpdateLastChangedAsync(TicketRow, Boolean, CancellationToken)
+  nameWithType: TicketHelper.UpdateLastChangedAsync(TicketRow, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChangedAsync(SuperOffice.CRM.Rows.TicketRow, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -311,7 +322,7 @@ items:
   namespace: SuperOffice.CRM.Ticket
   summary: "\nUpdate Ticket LastChanged field.\nThis function will set the ticket&apos;s last_changed timestamp to now.\nThe read_status will be set to yellow if it is green. If it is red,\nit will not be changed.\n"
   syntax:
-    content: public static void UpdateLastChanged(this TicketRow ticketRow, bool noNewInfo)
+    content: public static Task UpdateLastChangedAsync(this TicketRow ticketRow, bool noNewInfo, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketRow
       type: SuperOffice.CRM.Rows.TicketRow
@@ -319,28 +330,32 @@ items:
     - id: noNewInfo
       type: System.Boolean
       description: Indicates if ticket has changed
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Sub UpdateLastChanged(ticketRow As TicketRow, noNewInfo As Boolean)
-  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged*
+      Public Shared Function UpdateLastChangedAsync(ticketRow As TicketRow, noNewInfo As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChangedAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt(SuperOffice.CRM.Rows.TicketRow,System.DateTime)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt(SuperOffice.CRM.Rows.TicketRow,System.DateTime)
-  id: UpdateRepliedAt(SuperOffice.CRM.Rows.TicketRow,System.DateTime)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAtAsync(SuperOffice.CRM.Rows.TicketRow,System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAtAsync(SuperOffice.CRM.Rows.TicketRow,System.DateTime,System.Threading.CancellationToken)
+  id: UpdateRepliedAtAsync(SuperOffice.CRM.Rows.TicketRow,System.DateTime,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: UpdateRepliedAt(TicketRow, DateTime)
-  nameWithType: TicketHelper.UpdateRepliedAt(TicketRow, DateTime)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt(SuperOffice.CRM.Rows.TicketRow, System.DateTime)
+  name: UpdateRepliedAtAsync(TicketRow, DateTime, CancellationToken)
+  nameWithType: TicketHelper.UpdateRepliedAtAsync(TicketRow, DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAtAsync(SuperOffice.CRM.Rows.TicketRow, System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -350,7 +365,7 @@ items:
   namespace: SuperOffice.CRM.Ticket
   summary: "\nUpdate Ticket RepliedAt field.\nThis function will calculate and set repliedAt, timeToReply and realTimeToReply fields.\n"
   syntax:
-    content: public static void UpdateRepliedAt(this TicketRow ticketRow, DateTime repliedAt)
+    content: public static Task UpdateRepliedAtAsync(this TicketRow ticketRow, DateTime repliedAt, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketRow
       type: SuperOffice.CRM.Rows.TicketRow
@@ -358,27 +373,31 @@ items:
     - id: repliedAt
       type: System.DateTime
       description: RepliedAt datetime
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Sub UpdateRepliedAt(ticketRow As TicketRow, repliedAt As DateTime)
-  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt*
+      Public Shared Function UpdateRepliedAtAsync(ticketRow As TicketRow, repliedAt As DateTime, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAtAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages(System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages(System.Int32)
-  id: UpdateTicketStatisticsFromMessages(System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessagesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessagesAsync(System.Int32,System.Threading.CancellationToken)
+  id: UpdateTicketStatisticsFromMessagesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: UpdateTicketStatisticsFromMessages(Int32)
-  nameWithType: TicketHelper.UpdateTicketStatisticsFromMessages(Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages(System.Int32)
+  name: UpdateTicketStatisticsFromMessagesAsync(Int32, CancellationToken)
+  nameWithType: TicketHelper.UpdateTicketStatisticsFromMessagesAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessagesAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -388,29 +407,33 @@ items:
   namespace: SuperOffice.CRM.Ticket
   summary: "\nUpdate number of messages, replies and timespent for ticket\n"
   syntax:
-    content: public static void UpdateTicketStatisticsFromMessages(int ticketId)
+    content: public static Task UpdateTicketStatisticsFromMessagesAsync(int ticketId, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
       description: Ticket id
-    content.vb: Public Shared Sub UpdateTicketStatisticsFromMessages(ticketId As Integer)
-  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function UpdateTicketStatisticsFromMessagesAsync(ticketId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessagesAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue
-  id: GetNextInQueue
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueueAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueueAsync(System.Threading.CancellationToken)
+  id: GetNextInQueueAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: GetNextInQueue()
-  nameWithType: TicketHelper.GetNextInQueue()
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue()
+  name: GetNextInQueueAsync(CancellationToken)
+  nameWithType: TicketHelper.GetNextInQueueAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueueAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -419,27 +442,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static int GetNextInQueue()
+    content: public static Task<int> GetNextInQueueAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function GetNextInQueue As Integer
-  overload: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function GetNextInQueueAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueueAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers(System.Int32,System.Int32)
-  id: GetTicketCustomers(System.Int32,System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomersAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomersAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetTicketCustomersAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: GetTicketCustomers(Int32, Int32)
-  nameWithType: TicketHelper.GetTicketCustomers(Int32, Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers(System.Int32, System.Int32)
+  name: GetTicketCustomersAsync(Int32, Int32, CancellationToken)
+  nameWithType: TicketHelper.GetTicketCustomersAsync(Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomersAsync(System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -449,7 +475,7 @@ items:
   namespace: SuperOffice.CRM.Ticket
   summary: "\nGet ticket customer rows.\n"
   syntax:
-    content: public static TicketCustomersRows GetTicketCustomers(int ticketId, int customerId = 0)
+    content: public static Task<TicketCustomersRows> GetTicketCustomersAsync(int ticketId, int customerId = 0, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
@@ -457,27 +483,29 @@ items:
     - id: customerId
       type: System.Int32
       description: Optional customer id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.TicketCustomersRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketCustomersRows}
       description: TicketCustomersRows object
-    content.vb: Public Shared Function GetTicketCustomers(ticketId As Integer, customerId As Integer = 0) As TicketCustomersRows
-  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers*
+    content.vb: Public Shared Function GetTicketCustomersAsync(ticketId As Integer, customerId As Integer = 0, cancellationToken As CancellationToken = Nothing) As Task(Of TicketCustomersRows)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomersAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData(System.Int16)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData(System.Int16)
-  id: GetTicketStatusRecordData(System.Int16)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync(System.Int16,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync(System.Int16,System.Threading.CancellationToken)
+  id: GetTicketStatusRecordDataAsync(System.Int16,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: GetTicketStatusRecordData(Int16)
-  nameWithType: TicketHelper.GetTicketStatusRecordData(Int16)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData(System.Int16)
+  name: GetTicketStatusRecordDataAsync(Int16, CancellationToken)
+  nameWithType: TicketHelper.GetTicketStatusRecordDataAsync(Int16, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync(System.Int16, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -486,30 +514,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static TicketStatusRecordData GetTicketStatusRecordData(short ticketStatusId)
+    content: public static Task<TicketStatusRecordData> GetTicketStatusRecordDataAsync(short ticketStatusId, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketStatusId
       type: System.Int16
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.TicketStatusRecordData
-    content.vb: Public Shared Function GetTicketStatusRecordData(ticketStatusId As Short) As TicketStatusRecordData
-  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketStatusRecordData}
+    content.vb: Public Shared Function GetTicketStatusRecordDataAsync(ticketStatusId As Short, cancellationToken As CancellationToken = Nothing) As Task(Of TicketStatusRecordData)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
-  id: DemandAdminPermissions
+- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync(System.Threading.CancellationToken)
+  id: DemandAdminPermissionsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: DemandAdminPermissions()
-  nameWithType: TicketHelper.DemandAdminPermissions()
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions()
+  name: DemandAdminPermissionsAsync(CancellationToken)
+  nameWithType: TicketHelper.DemandAdminPermissionsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -518,9 +548,14 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static void DemandAdminPermissions()
-    content.vb: Public Shared Sub DemandAdminPermissions
-  overload: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions*
+    content: public static Task DemandAdminPermissionsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function DemandAdminPermissionsAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync*
   modifiers.csharp:
   - public
   - static
@@ -559,16 +594,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress(System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress(System.Int32)
-  id: GetMailInFilterAddress(System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddressAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddressAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetMailInFilterAddressAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: GetMailInFilterAddress(Int32)
-  nameWithType: TicketHelper.GetMailInFilterAddress(Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress(System.Int32)
+  name: GetMailInFilterAddressAsync(Int32, CancellationToken)
+  nameWithType: TicketHelper.GetMailInFilterAddressAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddressAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -577,30 +612,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static string GetMailInFilterAddress(int filterId)
+    content: public static Task<string> GetMailInFilterAddressAsync(int filterId, CancellationToken cancellationToken = null)
     parameters:
     - id: filterId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetMailInFilterAddress(filterId As Integer) As String
-  overload: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetMailInFilterAddressAsync(filterId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddressAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle(System.Int32,System.String)
-  id: UpdateEjMessageSearchTitle(System.Int32,System.String)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitleAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitleAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: UpdateEjMessageSearchTitleAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: UpdateEjMessageSearchTitle(Int32, String)
-  nameWithType: TicketHelper.UpdateEjMessageSearchTitle(Int32, String)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle(System.Int32, System.String)
+  name: UpdateEjMessageSearchTitleAsync(Int32, String, CancellationToken)
+  nameWithType: TicketHelper.UpdateEjMessageSearchTitleAsync(Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitleAsync(System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -609,14 +646,50 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static void UpdateEjMessageSearchTitle(int ticketId, string title)
+    content: public static Task UpdateEjMessageSearchTitleAsync(int ticketId, string title, CancellationToken cancellationToken = null)
     parameters:
     - id: ticketId
       type: System.Int32
     - id: title
       type: System.String
-    content.vb: Public Shared Sub UpdateEjMessageSearchTitle(ticketId As Integer, title As String)
-  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function UpdateEjMessageSearchTitleAsync(ticketId As Integer, title As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitleAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync(System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync(System.Int32)
+  id: NotifyNewTicketAsync(System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: NotifyNewTicketAsync(Int32)
+  nameWithType: TicketHelper.NotifyNewTicketAsync(Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static Task NotifyNewTicketAsync(int ticketEntityId)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function NotifyNewTicketAsync(ticketEntityId As Integer) As Task
+  overload: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync*
   modifiers.csharp:
   - public
   - static
@@ -677,12 +750,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeDataAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeDataAsync
   isExternal: true
-  name: GetTicketChangeData
-  nameWithType: TicketHelper.GetTicketChangeData
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData
+  name: GetTicketChangeDataAsync
+  nameWithType: TicketHelper.GetTicketChangeDataAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeDataAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -690,13 +763,92 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Ticket.TicketChangeData
-  commentId: T:SuperOffice.CRM.Ticket.TicketChangeData
-  parent: SuperOffice.CRM.Ticket
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: TicketChangeData
-  nameWithType: TicketChangeData
-  fullName: SuperOffice.CRM.Ticket.TicketChangeData
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.TicketChangeData}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.TicketChangeData}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketChangeData>
+  nameWithType: Task<TicketChangeData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Ticket.TicketChangeData>
+  nameWithType.vb: Task(Of TicketChangeData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Ticket.TicketChangeData)
+  name.vb: Task(Of TicketChangeData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Ticket.TicketChangeData
+    name: TicketChangeData
+    nameWithType: TicketChangeData
+    fullName: SuperOffice.CRM.Ticket.TicketChangeData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Ticket.TicketChangeData
+    name: TicketChangeData
+    nameWithType: TicketChangeData
+    fullName: SuperOffice.CRM.Ticket.TicketChangeData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Ticket.TicketHelper.GetIconHint*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetIconHint
   isExternal: true
@@ -728,56 +880,214 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelAsync
   isExternal: true
-  name: GetTicketSecurityLevel
-  nameWithType: TicketHelper.GetTicketSecurityLevel
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel
-- uid: SuperOffice.Data.TicketSecurityLevel
-  commentId: T:SuperOffice.Data.TicketSecurityLevel
-  parent: SuperOffice.Data
+  name: GetTicketSecurityLevelAsync
+  nameWithType: TicketHelper.GetTicketSecurityLevelAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.TicketSecurityLevel}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.TicketSecurityLevel}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketSecurityLevel>
+  nameWithType: Task<TicketSecurityLevel>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.TicketSecurityLevel>
+  nameWithType.vb: Task(Of TicketSecurityLevel)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.TicketSecurityLevel)
+  name.vb: Task(Of TicketSecurityLevel)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.TicketSecurityLevel
+    name: TicketSecurityLevel
+    nameWithType: TicketSecurityLevel
+    fullName: SuperOffice.Data.TicketSecurityLevel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.TicketSecurityLevel
+    name: TicketSecurityLevel
+    nameWithType: TicketSecurityLevel
+    fullName: SuperOffice.Data.TicketSecurityLevel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketIdAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketIdAsync
   isExternal: true
-  name: TicketSecurityLevel
-  nameWithType: TicketSecurityLevel
-  fullName: SuperOffice.Data.TicketSecurityLevel
-- uid: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId
+  name: ResolveTicketIdAsync
+  nameWithType: TicketHelper.ResolveTicketIdAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketIdAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketDataAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketDataAsync
   isExternal: true
-  name: ResolveTicketId
-  nameWithType: TicketHelper.ResolveTicketId
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketData*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketData
-  isExternal: true
-  name: GetTicketData
-  nameWithType: TicketHelper.GetTicketData
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketData
-- uid: SuperOffice.CRM.Ticket.TicketData
-  commentId: T:SuperOffice.CRM.Ticket.TicketData
-  parent: SuperOffice.CRM.Ticket
-  isExternal: true
-  name: TicketData
-  nameWithType: TicketData
-  fullName: SuperOffice.CRM.Ticket.TicketData
+  name: GetTicketDataAsync
+  nameWithType: TicketHelper.GetTicketDataAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketDataAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.TicketData}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.TicketData}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketData>
+  nameWithType: Task<TicketData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Ticket.TicketData>
+  nameWithType.vb: Task(Of TicketData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Ticket.TicketData)
+  name.vb: Task(Of TicketData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Ticket.TicketData
+    name: TicketData
+    nameWithType: TicketData
+    fullName: SuperOffice.CRM.Ticket.TicketData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Ticket.TicketData
+    name: TicketData
+    nameWithType: TicketData
+    fullName: SuperOffice.CRM.Ticket.TicketData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId
   isExternal: true
   name: GetFacadeAssociateId
   nameWithType: TicketHelper.GetFacadeAssociateId
   fullName: SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatusAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatusAsync
   isExternal: true
-  name: GetTicketBaseStatus
-  nameWithType: TicketHelper.GetTicketBaseStatus
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus
-- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged
+  name: GetTicketBaseStatusAsync
+  nameWithType: TicketHelper.GetTicketBaseStatusAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatusAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.TicketBaseStatus}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.TicketBaseStatus}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketBaseStatus>
+  nameWithType: Task<TicketBaseStatus>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.TicketBaseStatus>
+  nameWithType.vb: Task(Of TicketBaseStatus)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.TicketBaseStatus)
+  name.vb: Task(Of TicketBaseStatus)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.TicketBaseStatus
+    name: TicketBaseStatus
+    nameWithType: TicketBaseStatus
+    fullName: SuperOffice.Data.TicketBaseStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.TicketBaseStatus
+    name: TicketBaseStatus
+    nameWithType: TicketBaseStatus
+    fullName: SuperOffice.Data.TicketBaseStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChangedAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChangedAsync
   isExternal: true
-  name: UpdateLastChanged
-  nameWithType: TicketHelper.UpdateLastChanged
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged
+  name: UpdateLastChangedAsync
+  nameWithType: TicketHelper.UpdateLastChangedAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChangedAsync
 - uid: SuperOffice.CRM.Rows.TicketRow
   commentId: T:SuperOffice.CRM.Rows.TicketRow
   parent: SuperOffice.CRM.Rows
@@ -792,49 +1102,90 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAtAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAtAsync
   isExternal: true
-  name: UpdateRepliedAt
-  nameWithType: TicketHelper.UpdateRepliedAt
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt
-- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages
+  name: UpdateRepliedAtAsync
+  nameWithType: TicketHelper.UpdateRepliedAtAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAtAsync
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessagesAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessagesAsync
   isExternal: true
-  name: UpdateTicketStatisticsFromMessages
-  nameWithType: TicketHelper.UpdateTicketStatisticsFromMessages
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue
+  name: UpdateTicketStatisticsFromMessagesAsync
+  nameWithType: TicketHelper.UpdateTicketStatisticsFromMessagesAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessagesAsync
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueueAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueueAsync
   isExternal: true
-  name: GetNextInQueue
-  nameWithType: TicketHelper.GetNextInQueue
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers
+  name: GetNextInQueueAsync
+  nameWithType: TicketHelper.GetNextInQueueAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueueAsync
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomersAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomersAsync
   isExternal: true
-  name: GetTicketCustomers
-  nameWithType: TicketHelper.GetTicketCustomers
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers
-- uid: SuperOffice.CRM.Rows.TicketCustomersRows
-  commentId: T:SuperOffice.CRM.Rows.TicketCustomersRows
-  parent: SuperOffice.CRM.Rows
+  name: GetTicketCustomersAsync
+  nameWithType: TicketHelper.GetTicketCustomersAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomersAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketCustomersRows}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketCustomersRows}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketCustomersRows>
+  nameWithType: Task<TicketCustomersRows>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.TicketCustomersRows>
+  nameWithType.vb: Task(Of TicketCustomersRows)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.TicketCustomersRows)
+  name.vb: Task(Of TicketCustomersRows)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TicketCustomersRows
+    name: TicketCustomersRows
+    nameWithType: TicketCustomersRows
+    fullName: SuperOffice.CRM.Rows.TicketCustomersRows
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TicketCustomersRows
+    name: TicketCustomersRows
+    nameWithType: TicketCustomersRows
+    fullName: SuperOffice.CRM.Rows.TicketCustomersRows
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync
   isExternal: true
-  name: TicketCustomersRows
-  nameWithType: TicketCustomersRows
-  fullName: SuperOffice.CRM.Rows.TicketCustomersRows
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData
-  isExternal: true
-  name: GetTicketStatusRecordData
-  nameWithType: TicketHelper.GetTicketStatusRecordData
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData
+  name: GetTicketStatusRecordDataAsync
+  nameWithType: TicketHelper.GetTicketStatusRecordDataAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
@@ -842,37 +1193,129 @@ references:
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: SuperOffice.CRM.Rows.TicketStatusRecordData
-  commentId: T:SuperOffice.CRM.Rows.TicketStatusRecordData
-  parent: SuperOffice.CRM.Rows
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketStatusRecordData}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketStatusRecordData}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketStatusRecordData>
+  nameWithType: Task<TicketStatusRecordData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.TicketStatusRecordData>
+  nameWithType.vb: Task(Of TicketStatusRecordData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.TicketStatusRecordData)
+  name.vb: Task(Of TicketStatusRecordData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TicketStatusRecordData
+    name: TicketStatusRecordData
+    nameWithType: TicketStatusRecordData
+    fullName: SuperOffice.CRM.Rows.TicketStatusRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TicketStatusRecordData
+    name: TicketStatusRecordData
+    nameWithType: TicketStatusRecordData
+    fullName: SuperOffice.CRM.Rows.TicketStatusRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync
   isExternal: true
-  name: TicketStatusRecordData
-  nameWithType: TicketStatusRecordData
-  fullName: SuperOffice.CRM.Rows.TicketStatusRecordData
-- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
-  isExternal: true
-  name: DemandAdminPermissions
-  nameWithType: TicketHelper.DemandAdminPermissions
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+  name: DemandAdminPermissionsAsync
+  nameWithType: TicketHelper.DemandAdminPermissionsAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync
 - uid: SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight
   isExternal: true
   name: HasUpdateRight
   nameWithType: TicketHelper.HasUpdateRight
   fullName: SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress
+- uid: SuperOffice.CRM.Ticket.TicketData
+  commentId: T:SuperOffice.CRM.Ticket.TicketData
+  parent: SuperOffice.CRM.Ticket
   isExternal: true
-  name: GetMailInFilterAddress
-  nameWithType: TicketHelper.GetMailInFilterAddress
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress
-- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle
+  name: TicketData
+  nameWithType: TicketData
+  fullName: SuperOffice.CRM.Ticket.TicketData
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddressAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddressAsync
   isExternal: true
-  name: UpdateEjMessageSearchTitle
-  nameWithType: TicketHelper.UpdateEjMessageSearchTitle
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle
+  name: GetMailInFilterAddressAsync
+  nameWithType: TicketHelper.GetMailInFilterAddressAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddressAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitleAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitleAsync
+  isExternal: true
+  name: UpdateEjMessageSearchTitleAsync
+  nameWithType: TicketHelper.UpdateEjMessageSearchTitleAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitleAsync
+- uid: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync
+  isExternal: true
+  name: NotifyNewTicketAsync
+  nameWithType: TicketHelper.NotifyNewTicketAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync
 - uid: SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories
   isExternal: true

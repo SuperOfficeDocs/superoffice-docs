@@ -45,7 +45,7 @@ items:
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -555,34 +555,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
-  name: ToInsert()
-  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -768,17 +778,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(TargetRevisionHistoryRecordData)
-  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert(TargetRevisionHistoryRecordData)
-  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  name: ToInsertAsync(TargetRevisionHistoryRecordData, CancellationToken)
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(TargetRevisionHistoryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
-    name: ToInsert
-    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -787,15 +797,23 @@ references:
     name: TargetRevisionHistoryRecordData
     nameWithType: TargetRevisionHistoryRecordData
     fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
-    name: ToInsert
-    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -804,6 +822,14 @@ references:
     name: TargetRevisionHistoryRecordData
     nameWithType: TargetRevisionHistoryRecordData
     fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -275,6 +275,66 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Function DeleteHistoryAsync(historyName As String, id As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IViewStateAgent.DeleteHistoryAsync*
+- uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryLengthPrefValueAsync(RequestOptions)
+  nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the logged on user&apos;s preferred history list length. Will return the system preference if no user preferences are available.\n"
+  syntax:
+    content: Task<int> GetHistoryLengthPrefValueAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The history list lenght
+    content.vb: Function GetHistoryLengthPrefValueAsync(requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync*
+- uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
+  nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the logged on user&apos;s preferred history list length.\n"
+  syntax:
+    content: Task SetHistoryLengthPrefValueAsync(int length, RequestOptions requestOptions = null)
+    parameters:
+    - id: length
+      type: System.Int32
+      description: The new history list lenght
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetHistoryLengthPrefValueAsync(length As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync*
 - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
   id: GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
@@ -408,66 +468,6 @@ items:
   nameWithType.vb: IViewStateAgent.SaveHistoriesAsync(String, History(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync(System.String, SuperOffice.WebApi.Data.History(), SuperOffice.WebApi.RequestOptions)
   name.vb: SaveHistoriesAsync(String, History(), RequestOptions)
-- uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  id: GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IViewStateAgent
-  langs:
-  - csharp
-  - vb
-  name: GetHistoryLengthPrefValueAsync(RequestOptions)
-  nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync(RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet the logged on user&apos;s preferred history list length. Will return the system preference if no user preferences are available.\n"
-  syntax:
-    content: Task<int> GetHistoryLengthPrefValueAsync(RequestOptions requestOptions = null)
-    parameters:
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{System.Int32}
-      description: The history list lenght
-    content.vb: Function GetHistoryLengthPrefValueAsync(requestOptions As RequestOptions = Nothing) As Task(Of Integer)
-  overload: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync*
-- uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  id: SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IViewStateAgent
-  langs:
-  - csharp
-  - vb
-  name: SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
-  nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet the logged on user&apos;s preferred history list length.\n"
-  syntax:
-    content: Task SetHistoryLengthPrefValueAsync(int length, RequestOptions requestOptions = null)
-    parameters:
-    - id: length
-      type: System.Int32
-      description: The new history list lenght
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function SetHistoryLengthPrefValueAsync(length As Integer, requestOptions As RequestOptions = Nothing) As Task
-  overload: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync*
 - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   id: SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
@@ -803,6 +803,61 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync
+  isExternal: true
+  name: GetHistoryLengthPrefValueAsync
+  nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync
+  isExternal: true
+  name: SetHistoryLengthPrefValueAsync
+  nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync
 - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync
   isExternal: true
@@ -928,61 +983,6 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync
-  isExternal: true
-  name: GetHistoryLengthPrefValueAsync
-  nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync
-- uid: System.Threading.Tasks.Task{System.Int32}
-  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
-  definition: System.Threading.Tasks.Task`1
-  name: Task<Int32>
-  nameWithType: Task<Int32>
-  fullName: System.Threading.Tasks.Task<System.Int32>
-  nameWithType.vb: Task(Of Int32)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
-  name.vb: Task(Of Int32)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync
-  isExternal: true
-  name: SetHistoryLengthPrefValueAsync
-  nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync
 - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync
   isExternal: true

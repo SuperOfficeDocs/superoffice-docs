@@ -26,9 +26,8 @@ items:
   - SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery._textTableInfoSignOffText
   - SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery._textTableInfoSignOnConfirmationText
   - SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery._textTableInfoSignOnText
-  - SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.op_Implicit(SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery)~SuperOffice.CRM.Archives.ProjectEventList
   - SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ParseQueryStructure(System.Int32,System.Int32)
-  - SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventList
+  - SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventListAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -65,8 +64,8 @@ items:
   - SuperOffice.CRM.Lists.ListSelect._fields
   - SuperOffice.CRM.Lists.ListSelect._orderBy
   - SuperOffice.CRM.Lists.ListSelect._groupBy
-  - SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,SuperOffice.CRM.Security.Sentry[])
-  - SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Int32,SuperOffice.CRM.Security.Sentry[])
+  - SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Threading.CancellationToken,SuperOffice.CRM.Security.Sentry[])
+  - SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Int32,System.Threading.CancellationToken,SuperOffice.CRM.Security.Sentry[])
   - SuperOffice.CRM.Lists.ListSelect.InnerRestriction
   - SuperOffice.CRM.Lists.ListSelect.InnerReturnFields
   - SuperOffice.CRM.Lists.ListSelect.InnerOrderBy
@@ -104,9 +103,12 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
   extensionMethods:
   - SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(System.Threading.CancellationToken)
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
-  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
@@ -684,16 +686,16 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventList
-  commentId: M:SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventList
-  id: ToProjectEventList
+- uid: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventListAsync(System.Threading.CancellationToken)
+  id: ToProjectEventListAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery
   langs:
   - csharp
   - vb
-  name: ToProjectEventList()
-  nameWithType: ProjectEventList.ProjectEventListQuery.ToProjectEventList()
-  fullName: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventList()
+  name: ToProjectEventListAsync(CancellationToken)
+  nameWithType: ProjectEventList.ProjectEventListQuery.ToProjectEventListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventListAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -703,54 +705,19 @@ items:
   namespace: SuperOffice.CRM.Archives
   summary: "\nToPersonList creates the person list based on the information that is contained\nin its class. \n"
   syntax:
-    content: public ProjectEventList ToProjectEventList()
-    return:
-      type: SuperOffice.CRM.Archives.ProjectEventList
-      description: The person list.
-    content.vb: Public Function ToProjectEventList As ProjectEventList
-  overload: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventList*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.op_Implicit(SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery)~SuperOffice.CRM.Archives.ProjectEventList
-  commentId: M:SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.op_Implicit(SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery)~SuperOffice.CRM.Archives.ProjectEventList
-  id: op_Implicit(SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery)~SuperOffice.CRM.Archives.ProjectEventList
-  parent: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery
-  langs:
-  - csharp
-  - vb
-  name: Implicit(ProjectEventList.ProjectEventListQuery to ProjectEventList)
-  nameWithType: ProjectEventList.ProjectEventListQuery.Implicit(ProjectEventList.ProjectEventListQuery to ProjectEventList)
-  fullName: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.Implicit(SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery to SuperOffice.CRM.Archives.ProjectEventList)
-  type: Operator
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Archives
-  summary: "\nImplicit operator. Will return a person list based on the in-parameter.\n"
-  syntax:
-    content: public static implicit operator ProjectEventList(ProjectEventList.ProjectEventListQuery q)
+    content: public Task<ProjectEventList> ToProjectEventListAsync(CancellationToken cancellationToken = null)
     parameters:
-    - id: q
-      type: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery
-      description: The query we want to build the person list on.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Archives.ProjectEventList
-      description: Person list based on the in-parameter.
-    content.vb: Public Shared Widening Operator CType(q As ProjectEventList.ProjectEventListQuery) As ProjectEventList
-  overload: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.op_Implicit*
-  nameWithType.vb: ProjectEventList.ProjectEventListQuery.Widening(ProjectEventList.ProjectEventListQuery to ProjectEventList)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ProjectEventList}
+      description: The person list.
+    content.vb: Public Function ToProjectEventListAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEventList)
+  overload: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventListAsync*
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.Widening(SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery to SuperOffice.CRM.Archives.ProjectEventList)
-  name.vb: Widening(ProjectEventList.ProjectEventListQuery to ProjectEventList)
 - uid: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ParseQueryStructure(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ParseQueryStructure(System.Int32,System.Int32)
   id: ParseQueryStructure(System.Int32,System.Int32)
@@ -861,21 +828,21 @@ references:
   name: _groupBy
   nameWithType: ListSelect._groupBy
   fullName: SuperOffice.CRM.Lists.ListSelect._groupBy
-- uid: SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,SuperOffice.CRM.Security.Sentry[])
-  commentId: M:SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,SuperOffice.CRM.Security.Sentry[])
+- uid: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Threading.CancellationToken,SuperOffice.CRM.Security.Sentry[])
+  commentId: M:SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Threading.CancellationToken,SuperOffice.CRM.Security.Sentry[])
   parent: SuperOffice.CRM.Lists.ListSelect
   isExternal: true
-  name: CreateListReader(SoConnection, PrivateSelect, Sentry[])
-  nameWithType: ListSelect.CreateListReader(SoConnection, PrivateSelect, Sentry[])
-  fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection, SuperOffice.Data.SQL.PrivateSelect, SuperOffice.CRM.Security.Sentry[])
-  nameWithType.vb: ListSelect.CreateListReader(SoConnection, PrivateSelect, Sentry())
-  fullName.vb: SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection, SuperOffice.Data.SQL.PrivateSelect, SuperOffice.CRM.Security.Sentry())
-  name.vb: CreateListReader(SoConnection, PrivateSelect, Sentry())
+  name: CreateListReaderAsync(SoConnection, PrivateSelect, CancellationToken, Sentry[])
+  nameWithType: ListSelect.CreateListReaderAsync(SoConnection, PrivateSelect, CancellationToken, Sentry[])
+  fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection, SuperOffice.Data.SQL.PrivateSelect, System.Threading.CancellationToken, SuperOffice.CRM.Security.Sentry[])
+  nameWithType.vb: ListSelect.CreateListReaderAsync(SoConnection, PrivateSelect, CancellationToken, Sentry())
+  fullName.vb: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection, SuperOffice.Data.SQL.PrivateSelect, System.Threading.CancellationToken, SuperOffice.CRM.Security.Sentry())
+  name.vb: CreateListReaderAsync(SoConnection, PrivateSelect, CancellationToken, Sentry())
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,SuperOffice.CRM.Security.Sentry[])
-    name: CreateListReader
-    nameWithType: ListSelect.CreateListReader
-    fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReader
+  - uid: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Threading.CancellationToken,SuperOffice.CRM.Security.Sentry[])
+    name: CreateListReaderAsync
+    nameWithType: ListSelect.CreateListReaderAsync
+    fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -892,6 +859,14 @@ references:
     name: PrivateSelect
     nameWithType: PrivateSelect
     fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -908,10 +883,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,SuperOffice.CRM.Security.Sentry[])
-    name: CreateListReader
-    nameWithType: ListSelect.CreateListReader
-    fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReader
+  - uid: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Threading.CancellationToken,SuperOffice.CRM.Security.Sentry[])
+    name: CreateListReaderAsync
+    nameWithType: ListSelect.CreateListReaderAsync
+    fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -928,6 +903,14 @@ references:
     name: PrivateSelect
     nameWithType: PrivateSelect
     fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -943,21 +926,21 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Int32,SuperOffice.CRM.Security.Sentry[])
-  commentId: M:SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Int32,SuperOffice.CRM.Security.Sentry[])
+- uid: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Int32,System.Threading.CancellationToken,SuperOffice.CRM.Security.Sentry[])
+  commentId: M:SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Int32,System.Threading.CancellationToken,SuperOffice.CRM.Security.Sentry[])
   parent: SuperOffice.CRM.Lists.ListSelect
   isExternal: true
-  name: CreateListReader(SoConnection, PrivateSelect, Int32, Sentry[])
-  nameWithType: ListSelect.CreateListReader(SoConnection, PrivateSelect, Int32, Sentry[])
-  fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection, SuperOffice.Data.SQL.PrivateSelect, System.Int32, SuperOffice.CRM.Security.Sentry[])
-  nameWithType.vb: ListSelect.CreateListReader(SoConnection, PrivateSelect, Int32, Sentry())
-  fullName.vb: SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection, SuperOffice.Data.SQL.PrivateSelect, System.Int32, SuperOffice.CRM.Security.Sentry())
-  name.vb: CreateListReader(SoConnection, PrivateSelect, Int32, Sentry())
+  name: CreateListReaderAsync(SoConnection, PrivateSelect, Int32, CancellationToken, Sentry[])
+  nameWithType: ListSelect.CreateListReaderAsync(SoConnection, PrivateSelect, Int32, CancellationToken, Sentry[])
+  fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection, SuperOffice.Data.SQL.PrivateSelect, System.Int32, System.Threading.CancellationToken, SuperOffice.CRM.Security.Sentry[])
+  nameWithType.vb: ListSelect.CreateListReaderAsync(SoConnection, PrivateSelect, Int32, CancellationToken, Sentry())
+  fullName.vb: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection, SuperOffice.Data.SQL.PrivateSelect, System.Int32, System.Threading.CancellationToken, SuperOffice.CRM.Security.Sentry())
+  name.vb: CreateListReaderAsync(SoConnection, PrivateSelect, Int32, CancellationToken, Sentry())
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Int32,SuperOffice.CRM.Security.Sentry[])
-    name: CreateListReader
-    nameWithType: ListSelect.CreateListReader
-    fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReader
+  - uid: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Int32,System.Threading.CancellationToken,SuperOffice.CRM.Security.Sentry[])
+    name: CreateListReaderAsync
+    nameWithType: ListSelect.CreateListReaderAsync
+    fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -982,6 +965,14 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -998,10 +989,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListSelect.CreateListReader(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Int32,SuperOffice.CRM.Security.Sentry[])
-    name: CreateListReader
-    nameWithType: ListSelect.CreateListReader
-    fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReader
+  - uid: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.PrivateSelect,System.Int32,System.Threading.CancellationToken,SuperOffice.CRM.Security.Sentry[])
+    name: CreateListReaderAsync
+    nameWithType: ListSelect.CreateListReaderAsync
+    fullName: SuperOffice.CRM.Lists.ListSelect.CreateListReaderAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1026,6 +1017,14 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -1993,6 +1992,208 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+  name: ExecuteReaderAsync(Boolean, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteReaderAsync(Boolean, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(System.Boolean, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(System.Boolean,System.Threading.CancellationToken)
+    name: ExecuteReaderAsync
+    nameWithType: QueryExectionExtensions.ExecuteReaderAsync
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(System.Boolean,System.Threading.CancellationToken)
+    name: ExecuteReaderAsync
+    nameWithType: QueryExectionExtensions.ExecuteReaderAsync
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+  name: ExecuteScalarAsync<T>(CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteScalarAsync<T>(CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync<T>(System.Threading.CancellationToken)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalarAsync(Of T)(CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync(Of T)(System.Threading.CancellationToken)
+  name.vb: ExecuteScalarAsync(Of T)(CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(System.Threading.CancellationToken)
+    name: ExecuteScalarAsync<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalarAsync<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(System.Threading.CancellationToken)
+    name: ExecuteScalarAsync(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalarAsync(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+  name: ExecuteScalarAsync<T>(Boolean, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteScalarAsync<T>(Boolean, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync<T>(System.Boolean, System.Threading.CancellationToken)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalarAsync(Of T)(Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync(Of T)(System.Boolean, System.Threading.CancellationToken)
+  name.vb: ExecuteScalarAsync(Of T)(Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(System.Boolean,System.Threading.CancellationToken)
+    name: ExecuteScalarAsync<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalarAsync<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(System.Boolean,System.Threading.CancellationToken)
+    name: ExecuteScalarAsync(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalarAsync(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+  name: ExecuteNonQueryAsync(CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteNonQueryAsync(CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(System.Threading.CancellationToken)
+    name: ExecuteNonQueryAsync
+    nameWithType: QueryExectionExtensions.ExecuteNonQueryAsync
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(System.Threading.CancellationToken)
+    name: ExecuteNonQueryAsync
+    nameWithType: QueryExectionExtensions.ExecuteNonQueryAsync
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   parent: SuperOffice.Data.QueryExectionExtensions
@@ -2065,50 +2266,6 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
-  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-  parent: SuperOffice.Data.QueryExectionExtensions
-  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-  name: ExecuteScalar<T>(Boolean)
-  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(Boolean)
-  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(System.Boolean)
-  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(Boolean)
-  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(System.Boolean)
-  name.vb: ExecuteScalar(Of T)(Boolean)
-  spec.csharp:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
-    name: ExecuteScalar<T>
-    nameWithType: QueryExectionExtensions.ExecuteScalar<T>
-    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
-    name: ExecuteScalar(Of T)
-    nameWithType: QueryExectionExtensions.ExecuteScalar(Of T)
-    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2240,6 +2397,275 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+  isExternal: true
+  name: ExecuteReaderAsync(SqlCommand, Boolean, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteReaderAsync(SqlCommand, Boolean, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand, System.Boolean, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+    name: ExecuteReaderAsync
+    nameWithType: QueryExectionExtensions.ExecuteReaderAsync
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+    name: ExecuteReaderAsync
+    nameWithType: QueryExectionExtensions.ExecuteReaderAsync
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExectionExtensions
+  commentId: T:SuperOffice.Data.QueryExectionExtensions
+  parent: SuperOffice.Data
+  isExternal: true
+  name: QueryExectionExtensions
+  nameWithType: QueryExectionExtensions
+  fullName: SuperOffice.Data.QueryExectionExtensions
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+  isExternal: true
+  name: ExecuteScalarAsync<T>(SqlCommand, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteScalarAsync<T>(SqlCommand, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync<T>(SuperOffice.Data.SQL.SqlCommand, System.Threading.CancellationToken)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalarAsync(Of T)(SqlCommand, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync(Of T)(SuperOffice.Data.SQL.SqlCommand, System.Threading.CancellationToken)
+  name.vb: ExecuteScalarAsync(Of T)(SqlCommand, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+    name: ExecuteScalarAsync<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalarAsync<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+    name: ExecuteScalarAsync(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalarAsync(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+  isExternal: true
+  name: ExecuteScalarAsync<T>(SqlCommand, Boolean, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteScalarAsync<T>(SqlCommand, Boolean, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync<T>(SuperOffice.Data.SQL.SqlCommand, System.Boolean, System.Threading.CancellationToken)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalarAsync(Of T)(SqlCommand, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync(Of T)(SuperOffice.Data.SQL.SqlCommand, System.Boolean, System.Threading.CancellationToken)
+  name.vb: ExecuteScalarAsync(Of T)(SqlCommand, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+    name: ExecuteScalarAsync<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalarAsync<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Threading.CancellationToken)
+    name: ExecuteScalarAsync(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalarAsync(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+  isExternal: true
+  name: ExecuteNonQueryAsync(SqlCommand, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteNonQueryAsync(SqlCommand, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+    name: ExecuteNonQueryAsync
+    nameWithType: QueryExectionExtensions.ExecuteNonQueryAsync
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
+    name: ExecuteNonQueryAsync
+    nameWithType: QueryExectionExtensions.ExecuteNonQueryAsync
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   isExternal: true
@@ -2296,13 +2722,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.QueryExectionExtensions
-  commentId: T:SuperOffice.Data.QueryExectionExtensions
-  parent: SuperOffice.Data
-  isExternal: true
-  name: QueryExectionExtensions
-  nameWithType: QueryExectionExtensions
-  fullName: SuperOffice.Data.QueryExectionExtensions
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
   isExternal: true
@@ -2342,65 +2761,6 @@ references:
     name: SqlCommand
     nameWithType: SqlCommand
     fullName: SuperOffice.Data.SQL.SqlCommand
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-  isExternal: true
-  name: ExecuteScalar<T>(SqlCommand, Boolean)
-  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, Boolean)
-  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
-  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
-  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
-  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-    name: ExecuteScalar<T>
-    nameWithType: QueryExectionExtensions.ExecuteScalar<T>
-    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    nameWithType: SqlCommand
-    fullName: SuperOffice.Data.SQL.SqlCommand
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-    name: ExecuteScalar(Of T)
-    nameWithType: QueryExectionExtensions.ExecuteScalar(Of T)
-    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    nameWithType: SqlCommand
-    fullName: SuperOffice.Data.SQL.SqlCommand
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
   - name: )
     nameWithType: )
@@ -2600,35 +2960,98 @@ references:
   name: PublishTableInfo
   nameWithType: PublishTableInfo
   fullName: SuperOffice.CRM.Data.PublishTableInfo
-- uid: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventList*
-  commentId: Overload:SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventList
+- uid: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventListAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventListAsync
   isExternal: true
-  name: ToProjectEventList
-  nameWithType: ProjectEventList.ProjectEventListQuery.ToProjectEventList
-  fullName: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventList
-- uid: SuperOffice.CRM.Archives.ProjectEventList
-  commentId: T:SuperOffice.CRM.Archives.ProjectEventList
-  parent: SuperOffice.CRM.Archives
+  name: ToProjectEventListAsync
+  nameWithType: ProjectEventList.ProjectEventListQuery.ToProjectEventListAsync
+  fullName: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ToProjectEventListAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: ProjectEventList
-  nameWithType: ProjectEventList
-  fullName: SuperOffice.CRM.Archives.ProjectEventList
-- uid: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.op_Implicit*
-  commentId: Overload:SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.op_Implicit
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ProjectEventList}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ProjectEventList}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProjectEventList>
+  nameWithType: Task<ProjectEventList>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Archives.ProjectEventList>
+  nameWithType.vb: Task(Of ProjectEventList)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Archives.ProjectEventList)
+  name.vb: Task(Of ProjectEventList)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Archives.ProjectEventList
+    name: ProjectEventList
+    nameWithType: ProjectEventList
+    fullName: SuperOffice.CRM.Archives.ProjectEventList
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Archives.ProjectEventList
+    name: ProjectEventList
+    nameWithType: ProjectEventList
+    fullName: SuperOffice.CRM.Archives.ProjectEventList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: Implicit
-  nameWithType: ProjectEventList.ProjectEventListQuery.Implicit
-  fullName: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.Implicit
-  nameWithType.vb: ProjectEventList.ProjectEventListQuery.Widening
-  fullName.vb: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.Widening
-  name.vb: Widening
-- uid: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery
-  commentId: T:SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery
-  parent: SuperOffice.CRM.Archives
-  isExternal: true
-  name: ProjectEventList.ProjectEventListQuery
-  nameWithType: ProjectEventList.ProjectEventListQuery
-  fullName: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ParseQueryStructure*
   commentId: Overload:SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery.ParseQueryStructure
   isExternal: true

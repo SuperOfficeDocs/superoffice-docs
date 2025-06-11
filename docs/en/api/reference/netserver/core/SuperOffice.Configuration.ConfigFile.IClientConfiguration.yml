@@ -1,0 +1,1167 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  id: ConfigFile.IClientConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationInstance
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationName
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationTitle
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.ClientCacheKey
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportBatchTaskThreshold
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportPageSize
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportRowLimit
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpDispatcherUrl
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpFilesAdminBaseUrl
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientId
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientSecret
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportDispatcher
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.HelpFilesBaseUrl
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.HighchartsExportServiceUrl
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.IdleTimeout
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiEventLimit
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiPollingInterval
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.MasterDcfConfigHashKeyFormat
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesNextDate
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesStatusUrl
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.ShowWelcomeDialogs
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.SynchronizerSettingsUrl
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlHostOverride
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlPortOverride
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlSchemeOverride
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.WebAppUsage
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.WWW3Url
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IClientConfiguration
+  nameWithType: ConfigFile.IClientConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values related to client configuration, extension of ClientConfigurationProvider\nCreated in Database scope\n"
+  syntax:
+    content: public interface IClientConfiguration
+    content.vb: Public Interface IClientConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpDispatcherUrl
+  commentId: M:SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpDispatcherUrl
+  id: GetHelpDispatcherUrl
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetHelpDispatcherUrl()
+  nameWithType: ConfigFile.IClientConfiguration.GetHelpDispatcherUrl()
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpDispatcherUrl()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: string GetHelpDispatcherUrl()
+    return:
+      type: System.String
+    content.vb: Function GetHelpDispatcherUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpDispatcherUrl*
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpFilesAdminBaseUrl
+  commentId: M:SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpFilesAdminBaseUrl
+  id: GetHelpFilesAdminBaseUrl
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetHelpFilesAdminBaseUrl()
+  nameWithType: ConfigFile.IClientConfiguration.GetHelpFilesAdminBaseUrl()
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpFilesAdminBaseUrl()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: string GetHelpFilesAdminBaseUrl()
+    return:
+      type: System.String
+    content.vb: Function GetHelpFilesAdminBaseUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpFilesAdminBaseUrl*
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationName
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationName
+  id: ApplicationName
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ApplicationName
+  nameWithType: ConfigFile.IClientConfiguration.ApplicationName
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationName
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\n\n"
+  syntax:
+    content: string ApplicationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ApplicationName As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationInstance
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationInstance
+  id: ApplicationInstance
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ApplicationInstance
+  nameWithType: ConfigFile.IClientConfiguration.ApplicationInstance
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationInstance
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\n\n"
+  syntax:
+    content: string ApplicationInstance { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ApplicationInstance As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationInstance*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.HelpFilesBaseUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.HelpFilesBaseUrl
+  id: HelpFilesBaseUrl
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: HelpFilesBaseUrl
+  nameWithType: ConfigFile.IClientConfiguration.HelpFilesBaseUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.HelpFilesBaseUrl
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverride the help files location - to support local deployments. \n"
+  syntax:
+    content: string HelpFilesBaseUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property HelpFilesBaseUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.HelpFilesBaseUrl*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportPageSize
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportPageSize
+  id: ExportPageSize
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ExportPageSize
+  nameWithType: ConfigFile.IClientConfiguration.ExportPageSize
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportPageSize
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nObsolete, no longer in use. See ExportRowLimit and ExportBatchTaskThreshold\n"
+  syntax:
+    content: int ExportPageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ExportPageSize As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportPageSize*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportRowLimit
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportRowLimit
+  id: ExportRowLimit
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ExportRowLimit
+  nameWithType: ConfigFile.IClientConfiguration.ExportRowLimit
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportRowLimit
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAbsolute upper limit for number of rows in a file export, such as an Excel Export from Archives\n"
+  syntax:
+    content: int ExportRowLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ExportRowLimit As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportRowLimit*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportBatchTaskThreshold
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportBatchTaskThreshold
+  id: ExportBatchTaskThreshold
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ExportBatchTaskThreshold
+  nameWithType: ConfigFile.IClientConfiguration.ExportBatchTaskThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportBatchTaskThreshold
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThreshold when an Export is delegated to a Batch Task, rather than being run directly in the Web server\n"
+  syntax:
+    content: int ExportBatchTaskThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ExportBatchTaskThreshold As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportBatchTaskThreshold*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationTitle
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationTitle
+  id: ApplicationTitle
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ApplicationTitle
+  nameWithType: ConfigFile.IClientConfiguration.ApplicationTitle
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationTitle
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nApplication title\n"
+  syntax:
+    content: string ApplicationTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ApplicationTitle As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationTitle*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.WebAppUsage
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.WebAppUsage
+  id: WebAppUsage
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage
+  nameWithType: ConfigFile.IClientConfiguration.WebAppUsage
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.WebAppUsage
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nEnable the collection of Web Client usage statistics (only view usage, no references to actual data)\n"
+  syntax:
+    content: bool WebAppUsage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property WebAppUsage As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.WebAppUsage*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ClientCacheKey
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ClientCacheKey
+  id: ClientCacheKey
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ClientCacheKey
+  nameWithType: ConfigFile.IClientConfiguration.ClientCacheKey
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ClientCacheKey
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCache key that is appended (if it exists) to the querystring for javascript and css includes\n"
+  syntax:
+    content: string ClientCacheKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ClientCacheKey As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ClientCacheKey*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlSchemeOverride
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlSchemeOverride
+  id: UrlSchemeOverride
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: UrlSchemeOverride
+  nameWithType: ConfigFile.IClientConfiguration.UrlSchemeOverride
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlSchemeOverride
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverridden value of sheme (HTTP or HTTPS\n"
+  syntax:
+    content: string UrlSchemeOverride { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property UrlSchemeOverride As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlSchemeOverride*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlHostOverride
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlHostOverride
+  id: UrlHostOverride
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: UrlHostOverride
+  nameWithType: ConfigFile.IClientConfiguration.UrlHostOverride
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlHostOverride
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverridden value of host, like: online.superoffice.com\n"
+  syntax:
+    content: string UrlHostOverride { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property UrlHostOverride As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlHostOverride*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlPortOverride
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlPortOverride
+  id: UrlPortOverride
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: UrlPortOverride
+  nameWithType: ConfigFile.IClientConfiguration.UrlPortOverride
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlPortOverride
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverridden value of port, like: 80 or 443\n"
+  syntax:
+    content: int UrlPortOverride { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property UrlPortOverride As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlPortOverride*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportDispatcher
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportDispatcher
+  id: GoogleImportDispatcher
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GoogleImportDispatcher
+  nameWithType: ConfigFile.IClientConfiguration.GoogleImportDispatcher
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportDispatcher
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nurl to import from google\n"
+  syntax:
+    content: string GoogleImportDispatcher { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property GoogleImportDispatcher As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportDispatcher*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientId
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientId
+  id: GoogleImportClientId
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GoogleImportClientId
+  nameWithType: ConfigFile.IClientConfiguration.GoogleImportClientId
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nClient ID when importing from google\n"
+  syntax:
+    content: string GoogleImportClientId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property GoogleImportClientId As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientId*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientSecret
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientSecret
+  id: GoogleImportClientSecret
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GoogleImportClientSecret
+  nameWithType: ConfigFile.IClientConfiguration.GoogleImportClientSecret
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientSecret
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nClient secret when importing from google\n"
+  syntax:
+    content: string GoogleImportClientSecret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property GoogleImportClientSecret As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientSecret*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.MasterDcfConfigHashKeyFormat
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.MasterDcfConfigHashKeyFormat
+  id: MasterDcfConfigHashKeyFormat
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MasterDcfConfigHashKeyFormat
+  nameWithType: ConfigFile.IClientConfiguration.MasterDcfConfigHashKeyFormat
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.MasterDcfConfigHashKeyFormat
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe format key used to generate a unique DCF page config hash. {0} = MachineName. {1} = Build-label. {2} = Assembly version. Defaults to {0}.\n"
+  syntax:
+    content: string MasterDcfConfigHashKeyFormat { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property MasterDcfConfigHashKeyFormat As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.MasterDcfConfigHashKeyFormat*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesStatusUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesStatusUrl
+  id: NetServicesStatusUrl
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NetServicesStatusUrl
+  nameWithType: ConfigFile.IClientConfiguration.NetServicesStatusUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesStatusUrl
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverride the default NetServices Status URL with this value. Useful for testing.\n"
+  syntax:
+    content: string NetServicesStatusUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property NetServicesStatusUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesStatusUrl*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesNextDate
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesNextDate
+  id: NetServicesNextDate
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NetServicesNextDate
+  nameWithType: ConfigFile.IClientConfiguration.NetServicesNextDate
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesNextDate
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverride the Next Check Date preference for NetServices Status checking. Useful for testing. YYYY.MM.DD\n"
+  syntax:
+    content: string NetServicesNextDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property NetServicesNextDate As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesNextDate*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ShowWelcomeDialogs
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ShowWelcomeDialogs
+  id: ShowWelcomeDialogs
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ShowWelcomeDialogs
+  nameWithType: ConfigFile.IClientConfiguration.ShowWelcomeDialogs
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ShowWelcomeDialogs
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAllow automated tests to disable webtools and welcome dialogs.\n"
+  syntax:
+    content: bool ShowWelcomeDialogs { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ShowWelcomeDialogs As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ShowWelcomeDialogs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.WWW3Url
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.WWW3Url
+  id: WWW3Url
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: WWW3Url
+  nameWithType: ConfigFile.IClientConfiguration.WWW3Url
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.WWW3Url
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe root-URL of the global SuperOffice www3 host.\n"
+  syntax:
+    content: string WWW3Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property WWW3Url As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.WWW3Url*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.IdleTimeout
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.IdleTimeout
+  id: IdleTimeout
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: IdleTimeout
+  nameWithType: ConfigFile.IClientConfiguration.IdleTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.IdleTimeout
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIdle detection threshold in minutes. When exceeded user is logged out. Default is off.\n"
+  syntax:
+    content: int IdleTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property IdleTimeout As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.IdleTimeout*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiPollingInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiPollingInterval
+  id: LiveUiPollingInterval
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LiveUiPollingInterval
+  nameWithType: ConfigFile.IClientConfiguration.LiveUiPollingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiPollingInterval
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nInterval (in seconds) defining how often UI events should be polled.\n"
+  syntax:
+    content: int LiveUiPollingInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property LiveUiPollingInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiPollingInterval*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiEventLimit
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiEventLimit
+  id: LiveUiEventLimit
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LiveUiEventLimit
+  nameWithType: ConfigFile.IClientConfiguration.LiveUiEventLimit
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiEventLimit
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nMax amount of UI events to be stored on a backend.\n"
+  syntax:
+    content: int LiveUiEventLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property LiveUiEventLimit As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiEventLimit*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.SynchronizerSettingsUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.SynchronizerSettingsUrl
+  id: SynchronizerSettingsUrl
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SynchronizerSettingsUrl
+  nameWithType: ConfigFile.IClientConfiguration.SynchronizerSettingsUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.SynchronizerSettingsUrl
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nURL to InfoBridge Synchronizer Settings\n"
+  syntax:
+    content: string SynchronizerSettingsUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property SynchronizerSettingsUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.SynchronizerSettingsUrl*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.HighchartsExportServiceUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfiguration.HighchartsExportServiceUrl
+  id: HighchartsExportServiceUrl
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  langs:
+  - csharp
+  - vb
+  name: HighchartsExportServiceUrl
+  nameWithType: ConfigFile.IClientConfiguration.HighchartsExportServiceUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.HighchartsExportServiceUrl
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nURL to the Highcharts export service\n"
+  syntax:
+    content: string HighchartsExportServiceUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property HighchartsExportServiceUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfiguration.HighchartsExportServiceUrl*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IClientConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IClientConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IClientConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IClientConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IClientConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IClientConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IClientConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IClientConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IClientConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IClientConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IClientConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IClientConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IClientConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IClientConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IClientConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IClientConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IClientConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IClientConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IClientConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IClientConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IClientConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IClientConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IClientConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IClientConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpDispatcherUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpDispatcherUrl
+  isExternal: true
+  name: GetHelpDispatcherUrl
+  nameWithType: ConfigFile.IClientConfiguration.GetHelpDispatcherUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpDispatcherUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpFilesAdminBaseUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpFilesAdminBaseUrl
+  isExternal: true
+  name: GetHelpFilesAdminBaseUrl
+  nameWithType: ConfigFile.IClientConfiguration.GetHelpFilesAdminBaseUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GetHelpFilesAdminBaseUrl
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationName
+  isExternal: true
+  name: ApplicationName
+  nameWithType: ConfigFile.IClientConfiguration.ApplicationName
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationName
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationInstance*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationInstance
+  isExternal: true
+  name: ApplicationInstance
+  nameWithType: ConfigFile.IClientConfiguration.ApplicationInstance
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationInstance
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.HelpFilesBaseUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.HelpFilesBaseUrl
+  isExternal: true
+  name: HelpFilesBaseUrl
+  nameWithType: ConfigFile.IClientConfiguration.HelpFilesBaseUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.HelpFilesBaseUrl
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportPageSize*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportPageSize
+  isExternal: true
+  name: ExportPageSize
+  nameWithType: ConfigFile.IClientConfiguration.ExportPageSize
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportPageSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportRowLimit*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportRowLimit
+  isExternal: true
+  name: ExportRowLimit
+  nameWithType: ConfigFile.IClientConfiguration.ExportRowLimit
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportRowLimit
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportBatchTaskThreshold*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportBatchTaskThreshold
+  isExternal: true
+  name: ExportBatchTaskThreshold
+  nameWithType: ConfigFile.IClientConfiguration.ExportBatchTaskThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ExportBatchTaskThreshold
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationTitle*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationTitle
+  isExternal: true
+  name: ApplicationTitle
+  nameWithType: ConfigFile.IClientConfiguration.ApplicationTitle
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ApplicationTitle
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.WebAppUsage*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.WebAppUsage
+  isExternal: true
+  name: WebAppUsage
+  nameWithType: ConfigFile.IClientConfiguration.WebAppUsage
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.WebAppUsage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ClientCacheKey*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ClientCacheKey
+  isExternal: true
+  name: ClientCacheKey
+  nameWithType: ConfigFile.IClientConfiguration.ClientCacheKey
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ClientCacheKey
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlSchemeOverride*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlSchemeOverride
+  isExternal: true
+  name: UrlSchemeOverride
+  nameWithType: ConfigFile.IClientConfiguration.UrlSchemeOverride
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlSchemeOverride
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlHostOverride*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlHostOverride
+  isExternal: true
+  name: UrlHostOverride
+  nameWithType: ConfigFile.IClientConfiguration.UrlHostOverride
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlHostOverride
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlPortOverride*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlPortOverride
+  isExternal: true
+  name: UrlPortOverride
+  nameWithType: ConfigFile.IClientConfiguration.UrlPortOverride
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.UrlPortOverride
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportDispatcher*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportDispatcher
+  isExternal: true
+  name: GoogleImportDispatcher
+  nameWithType: ConfigFile.IClientConfiguration.GoogleImportDispatcher
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportDispatcher
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientId*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientId
+  isExternal: true
+  name: GoogleImportClientId
+  nameWithType: ConfigFile.IClientConfiguration.GoogleImportClientId
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientId
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientSecret*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientSecret
+  isExternal: true
+  name: GoogleImportClientSecret
+  nameWithType: ConfigFile.IClientConfiguration.GoogleImportClientSecret
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.GoogleImportClientSecret
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.MasterDcfConfigHashKeyFormat*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.MasterDcfConfigHashKeyFormat
+  isExternal: true
+  name: MasterDcfConfigHashKeyFormat
+  nameWithType: ConfigFile.IClientConfiguration.MasterDcfConfigHashKeyFormat
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.MasterDcfConfigHashKeyFormat
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesStatusUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesStatusUrl
+  isExternal: true
+  name: NetServicesStatusUrl
+  nameWithType: ConfigFile.IClientConfiguration.NetServicesStatusUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesStatusUrl
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesNextDate*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesNextDate
+  isExternal: true
+  name: NetServicesNextDate
+  nameWithType: ConfigFile.IClientConfiguration.NetServicesNextDate
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.NetServicesNextDate
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ShowWelcomeDialogs*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.ShowWelcomeDialogs
+  isExternal: true
+  name: ShowWelcomeDialogs
+  nameWithType: ConfigFile.IClientConfiguration.ShowWelcomeDialogs
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.ShowWelcomeDialogs
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.WWW3Url*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.WWW3Url
+  isExternal: true
+  name: WWW3Url
+  nameWithType: ConfigFile.IClientConfiguration.WWW3Url
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.WWW3Url
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.IdleTimeout*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.IdleTimeout
+  isExternal: true
+  name: IdleTimeout
+  nameWithType: ConfigFile.IClientConfiguration.IdleTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.IdleTimeout
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiPollingInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiPollingInterval
+  isExternal: true
+  name: LiveUiPollingInterval
+  nameWithType: ConfigFile.IClientConfiguration.LiveUiPollingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiPollingInterval
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiEventLimit*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiEventLimit
+  isExternal: true
+  name: LiveUiEventLimit
+  nameWithType: ConfigFile.IClientConfiguration.LiveUiEventLimit
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.LiveUiEventLimit
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.SynchronizerSettingsUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.SynchronizerSettingsUrl
+  isExternal: true
+  name: SynchronizerSettingsUrl
+  nameWithType: ConfigFile.IClientConfiguration.SynchronizerSettingsUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.SynchronizerSettingsUrl
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration.HighchartsExportServiceUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfiguration.HighchartsExportServiceUrl
+  isExternal: true
+  name: HighchartsExportServiceUrl
+  nameWithType: ConfigFile.IClientConfiguration.HighchartsExportServiceUrl
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration.HighchartsExportServiceUrl

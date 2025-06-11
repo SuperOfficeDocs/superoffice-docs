@@ -7,7 +7,6 @@ items:
   children:
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor(SuperOffice.CRM.IPersonInfo4)
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor(System.Int32,System.Int32)
-  - SuperOffice.CRM.Globalization.CurrentPersonVariables.AttentionSalutation
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.Business
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.Category
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.ChatAddress
@@ -28,10 +27,12 @@ items:
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.FirstName
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.FirstNameInitial
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.FirstNameInitialStop
+  - SuperOffice.CRM.Globalization.CurrentPersonVariables.GetAttentionSalutationAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.CurrentPersonVariables.GetIdAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.CurrentPersonVariables.GetSubscriptionManagementUrlAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.HomePhoneNumber
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.HomePhoneNumberId
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.HomePhoneNumberWithPrefix
-  - SuperOffice.CRM.Globalization.CurrentPersonVariables.Id
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.LastName
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.LineFeedGermany
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.LoginName
@@ -74,7 +75,6 @@ items:
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.ServiceContactId
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.ServiceContactName
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.ServicePriority
-  - SuperOffice.CRM.Globalization.CurrentPersonVariables.SubscriptionManagementUrl
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.Title
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.Url
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.UrlId
@@ -232,13 +232,13 @@ items:
   - SuperOffice.IO.TagContainer.AddData(System.Object[])
   - SuperOffice.IO.TagContainer.GetData
   - SuperOffice.IO.TagContainer.ClearData
-  - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.GetTags
   - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
-  - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  - SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  - SuperOffice.IO.TagContainer.Init
+  - SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.CurrentUiCulture
   - SuperOffice.IO.TagContainer.Data
   extensionMethods:
@@ -308,17 +308,17 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.Id
-  commentId: P:SuperOffice.CRM.Globalization.CurrentPersonVariables.Id
-  id: Id
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.CurrentPersonVariables.GetIdAsync(System.Threading.CancellationToken)
+  id: GetIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Globalization.CurrentPersonVariables
   langs:
   - csharp
   - vb
-  name: Id
-  nameWithType: CurrentPersonVariables.Id
-  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.Id
-  type: Property
+  name: GetIdAsync(CancellationToken)
+  nameWithType: CurrentPersonVariables.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetIdAsync(System.Threading.CancellationToken)
+  type: Method
   source:
     path: SoDataBase
     isExternal: true
@@ -330,16 +330,18 @@ items:
     content: >-
       [TemplateTag("atid")]
 
-      public override int Id { get; }
-    parameters: []
+      public override Task<int> GetIdAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
     content.vb: >-
       <TemplateTag("atid")>
 
-      Public Overrides ReadOnly Property Id As Integer
-  overridden: SuperOffice.IO.TagContainer.Id
-  overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.Id*
+      Public Overrides Function GetIdAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overridden: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetIdAsync*
   attributes:
   - type: SuperOffice.IO.TemplateTagAttribute
     ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
@@ -349,11 +351,95 @@ items:
   modifiers.csharp:
   - public
   - override
-  - get
   modifiers.vb:
   - Public
   - Overrides
-  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetAttentionSalutationAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.CurrentPersonVariables.GetAttentionSalutationAsync(System.Threading.CancellationToken)
+  id: GetAttentionSalutationAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.CurrentPersonVariables
+  langs:
+  - csharp
+  - vb
+  name: GetAttentionSalutationAsync(CancellationToken)
+  nameWithType: CurrentPersonVariables.GetAttentionSalutationAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetAttentionSalutationAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nPerson attention salutation. Combined name/title/mrmrs\n"
+  syntax:
+    content: >-
+      [TemplateTag("atsa")]
+
+      public Task<string> GetAttentionSalutationAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("atsa")>
+
+      Public Function GetAttentionSalutationAsync(cancellationToken As CancellationToken) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetAttentionSalutationAsync*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: atsa
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetSubscriptionManagementUrlAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.CurrentPersonVariables.GetSubscriptionManagementUrlAsync(System.Threading.CancellationToken)
+  id: GetSubscriptionManagementUrlAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.CurrentPersonVariables
+  langs:
+  - csharp
+  - vb
+  name: GetSubscriptionManagementUrlAsync(CancellationToken)
+  nameWithType: CurrentPersonVariables.GetSubscriptionManagementUrlAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetSubscriptionManagementUrlAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nSubscription management URL for this person\n"
+  syntax:
+    content: >-
+      [TemplateTag("asmu")]
+
+      public Task<string> GetSubscriptionManagementUrlAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("asmu")>
+
+      Public Function GetSubscriptionManagementUrlAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetSubscriptionManagementUrlAsync*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: asmu
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.LoginName
   commentId: P:SuperOffice.CRM.Globalization.CurrentPersonVariables.LoginName
   id: LoginName
@@ -864,49 +950,6 @@ items:
     arguments:
     - type: System.String
       value: asal
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.AttentionSalutation
-  commentId: P:SuperOffice.CRM.Globalization.CurrentPersonVariables.AttentionSalutation
-  id: AttentionSalutation
-  parent: SuperOffice.CRM.Globalization.CurrentPersonVariables
-  langs:
-  - csharp
-  - vb
-  name: AttentionSalutation
-  nameWithType: CurrentPersonVariables.AttentionSalutation
-  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.AttentionSalutation
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nPerson attention salutation. Combined name/title/mrmrs\n"
-  syntax:
-    content: >-
-      [TemplateTag("atsa")]
-
-      public string AttentionSalutation { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("atsa")>
-
-      Public ReadOnly Property AttentionSalutation As String
-  overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.AttentionSalutation*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: atsa
   modifiers.csharp:
   - public
   - get
@@ -8610,49 +8653,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.SubscriptionManagementUrl
-  commentId: P:SuperOffice.CRM.Globalization.CurrentPersonVariables.SubscriptionManagementUrl
-  id: SubscriptionManagementUrl
-  parent: SuperOffice.CRM.Globalization.CurrentPersonVariables
-  langs:
-  - csharp
-  - vb
-  name: SubscriptionManagementUrl
-  nameWithType: CurrentPersonVariables.SubscriptionManagementUrl
-  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.SubscriptionManagementUrl
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nSubscription management URL for this person\n"
-  syntax:
-    content: >-
-      [TemplateTag("asmu")]
-
-      public string SubscriptionManagementUrl { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("asmu")>
-
-      Public ReadOnly Property SubscriptionManagementUrl As String
-  overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.SubscriptionManagementUrl*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: asmu
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
@@ -8821,18 +8821,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
+- uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: GetValue(String)
-  nameWithType: TagContainer.GetValue(String)
-  fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
+  name: GetValueAsync(String, CancellationToken)
+  nameWithType: TagContainer.GetValueAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetValueAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-    name: GetValue
-    nameWithType: TagContainer.GetValue
-    fullName: SuperOffice.IO.TagContainer.GetValue
+  - uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+    name: GetValueAsync
+    nameWithType: TagContainer.GetValueAsync
+    fullName: SuperOffice.IO.TagContainer.GetValueAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -8841,15 +8841,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-    name: GetValue
-    nameWithType: TagContainer.GetValue
-    fullName: SuperOffice.IO.TagContainer.GetValue
+  - uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+    name: GetValueAsync
+    nameWithType: TagContainer.GetValueAsync
+    fullName: SuperOffice.IO.TagContainer.GetValueAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -8858,6 +8866,14 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -8991,18 +9007,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: IsTagLegal(String)
-  nameWithType: TagContainer.IsTagLegal(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  name: IsTagLegalAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagLegalAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-    name: IsTagLegal
-    nameWithType: TagContainer.IsTagLegal
-    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+  - uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagLegalAsync
+    nameWithType: TagContainer.IsTagLegalAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -9011,15 +9027,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-    name: IsTagLegal
-    nameWithType: TagContainer.IsTagLegal
-    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+  - uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagLegalAsync
+    nameWithType: TagContainer.IsTagLegalAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -9028,22 +9052,30 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: IsTagInContext(String)
-  nameWithType: TagContainer.IsTagInContext(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  name: IsTagInContextAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagInContextAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-    name: IsTagInContext
-    nameWithType: TagContainer.IsTagInContext
-    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+  - uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagInContextAsync
+    nameWithType: TagContainer.IsTagInContextAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -9052,15 +9084,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-    name: IsTagInContext
-    nameWithType: TagContainer.IsTagInContext
-    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+  - uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagInContextAsync
+    nameWithType: TagContainer.IsTagInContextAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -9070,37 +9110,55 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.Init
-  commentId: M:SuperOffice.IO.TagContainer.Init
+- uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: Init()
-  nameWithType: TagContainer.Init()
-  fullName: SuperOffice.IO.TagContainer.Init()
+  name: InitAsync(CancellationToken)
+  nameWithType: TagContainer.InitAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.Init
-    name: Init
-    nameWithType: TagContainer.Init
-    fullName: SuperOffice.IO.TagContainer.Init
+  - uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
+    nameWithType: TagContainer.InitAsync
+    fullName: SuperOffice.IO.TagContainer.InitAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.Init
-    name: Init
-    nameWithType: TagContainer.Init
-    fullName: SuperOffice.IO.TagContainer.Init
+  - uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
+    nameWithType: TagContainer.InitAsync
+    fullName: SuperOffice.IO.TagContainer.InitAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -9321,19 +9379,194 @@ references:
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-- uid: SuperOffice.IO.TagContainer.Id
-  commentId: P:SuperOffice.IO.TagContainer.Id
+- uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: Id
-  nameWithType: TagContainer.Id
-  fullName: SuperOffice.IO.TagContainer.Id
-- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.Id*
-  commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.Id
+  name: GetIdAsync(CancellationToken)
+  nameWithType: TagContainer.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+    name: GetIdAsync
+    nameWithType: TagContainer.GetIdAsync
+    fullName: SuperOffice.IO.TagContainer.GetIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+    name: GetIdAsync
+    nameWithType: TagContainer.GetIdAsync
+    fullName: SuperOffice.IO.TagContainer.GetIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetIdAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.GetIdAsync
   isExternal: true
-  name: Id
-  nameWithType: CurrentPersonVariables.Id
-  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.Id
+  name: GetIdAsync
+  nameWithType: CurrentPersonVariables.GetIdAsync
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetIdAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetAttentionSalutationAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.GetAttentionSalutationAsync
+  isExternal: true
+  name: GetAttentionSalutationAsync
+  nameWithType: CurrentPersonVariables.GetAttentionSalutationAsync
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetAttentionSalutationAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetSubscriptionManagementUrlAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.GetSubscriptionManagementUrlAsync
+  isExternal: true
+  name: GetSubscriptionManagementUrlAsync
+  nameWithType: CurrentPersonVariables.GetSubscriptionManagementUrlAsync
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.GetSubscriptionManagementUrlAsync
 - uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.LoginName*
   commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.LoginName
   isExternal: true
@@ -9413,12 +9646,6 @@ references:
   name: Salutation
   nameWithType: CurrentPersonVariables.Salutation
   fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.Salutation
-- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.AttentionSalutation*
-  commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.AttentionSalutation
-  isExternal: true
-  name: AttentionSalutation
-  nameWithType: CurrentPersonVariables.AttentionSalutation
-  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.AttentionSalutation
 - uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.Position*
   commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.Position
   isExternal: true
@@ -10493,9 +10720,3 @@ references:
   name: Department
   nameWithType: CurrentPersonVariables.Department
   fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.Department
-- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.SubscriptionManagementUrl*
-  commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.SubscriptionManagementUrl
-  isExternal: true
-  name: SubscriptionManagementUrl
-  nameWithType: CurrentPersonVariables.SubscriptionManagementUrl
-  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.SubscriptionManagementUrl

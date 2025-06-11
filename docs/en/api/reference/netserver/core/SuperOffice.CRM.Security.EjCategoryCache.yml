@@ -8,13 +8,13 @@ items:
   - SuperOffice.CRM.Security.EjCategoryCache.#ctor
   - SuperOffice.CRM.Security.EjCategoryCache.GetCategoriesUserIsMasterOf(System.Int32)
   - SuperOffice.CRM.Security.EjCategoryCache.GetCategoriesUserIsMemberOrMasterOf(System.Int32)
-  - SuperOffice.CRM.Security.EjCategoryCache.GetCurrent
   - SuperOffice.CRM.Security.EjCategoryCache.GetEffectiveReplyTemplateId(System.Int32)
   - SuperOffice.CRM.Security.EjCategoryCache.GetFlags(System.Int32)
   - SuperOffice.CRM.Security.EjCategoryCache.GetOwnCategoriesFromEjUserId(System.Int32)
   - SuperOffice.CRM.Security.EjCategoryCache.IsMemberOfCategory(System.Int32,System.Int32)
   - SuperOffice.CRM.Security.EjCategoryCache.IsMemberOrMasterOfCategory(System.Int32,System.Int32)
   - SuperOffice.CRM.Security.EjCategoryCache.OnLoad
+  - SuperOffice.CRM.Security.EjCategoryCache.OnLoadAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Security.EjCategoryCache.RestrictedCategories(System.Int32)
   - SuperOffice.CRM.Security.EjCategoryCache.TableNames
   langs:
@@ -33,27 +33,23 @@ items:
   summary: "\nCache holding information about the ejcategories and category memberships\n"
   syntax:
     content: >-
-      [CacheV2("Database", 0)]
+      [CacheV2(0)]
 
-      public class EjCategoryCache : CacheBaseV2, IFlushableV2, IDisposable
+      public class EjCategoryCache : CacheBaseV2, IInstanceContainerDisposable
     content.vb: >-
-      <CacheV2("Database", 0)>
+      <CacheV2(0)>
 
       Public Class EjCategoryCache
           Inherits CacheBaseV2
-          Implements IFlushableV2, IDisposable
+          Implements IInstanceContainerDisposable
   inheritance:
   - System.Object
   - SuperOffice.Data.Cache.CacheBaseV2
-  implements:
-  - SuperOffice.Data.Cache.IFlushableV2
-  - System.IDisposable
   inheritedMembers:
-  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-  - SuperOffice.Data.Cache.CacheBaseV2.Dispose
-  - SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
-  - SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  - SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.Cache.CacheBaseV2.Load
   - SuperOffice.Data.Cache.CacheBaseV2.Disposed
   extensionMethods:
@@ -63,10 +59,8 @@ items:
   - SuperOffice.CRM.Security.EjCategoryCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Data.Cache.CacheV2Attribute
-    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String,System.Int32)
+    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.Int32)
     arguments:
-    - type: System.String
-      value: Database
     - type: System.Int32
       value: 0
   modifiers.csharp:
@@ -327,6 +321,53 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Security.EjCategoryCache.OnLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.OnLoadAsync(System.Threading.CancellationToken)
+  id: OnLoadAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Security.EjCategoryCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoadAsync(CancellationToken)
+  nameWithType: EjCategoryCache.OnLoadAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.OnLoadAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      protected override Task OnLoadAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Protected Overrides Function OnLoadAsync(cancellationToken As CancellationToken) As Task
+  overridden: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Security.EjCategoryCache.OnLoadAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Security.EjCategoryCache.OnLoad
   commentId: M:SuperOffice.CRM.Security.EjCategoryCache.OnLoad
   id: OnLoad
@@ -355,35 +396,6 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Security.EjCategoryCache.GetCurrent
-  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.GetCurrent
-  id: GetCurrent
-  parent: SuperOffice.CRM.Security.EjCategoryCache
-  langs:
-  - csharp
-  - vb
-  name: GetCurrent()
-  nameWithType: EjCategoryCache.GetCurrent()
-  fullName: SuperOffice.CRM.Security.EjCategoryCache.GetCurrent()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  syntax:
-    content: public static EjCategoryCache GetCurrent()
-    return:
-      type: SuperOffice.CRM.Security.EjCategoryCache
-    content.vb: Public Shared Function GetCurrent As EjCategoryCache
-  overload: SuperOffice.CRM.Security.EjCategoryCache.GetCurrent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Security.EjCategoryCache.#ctor
   commentId: M:SuperOffice.CRM.Security.EjCategoryCache.#ctor
   id: '#ctor'
@@ -463,30 +475,18 @@ references:
   name: CacheBaseV2
   nameWithType: CacheBaseV2
   fullName: SuperOffice.Data.Cache.CacheBaseV2
-- uid: SuperOffice.Data.Cache.IFlushableV2
-  commentId: T:SuperOffice.Data.Cache.IFlushableV2
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: IFlushableV2
-  nameWithType: IFlushableV2
-  fullName: SuperOffice.Data.Cache.IFlushableV2
-- uid: System.IDisposable
-  isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: IsCacheInvalidated(String, Int32, PrivateSave)
-  nameWithType: CacheBaseV2.IsCacheInvalidated(String, Int32, PrivateSave)
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String, System.Int32, SuperOffice.Data.SQL.PrivateSave)
+  name: IsCacheInvalidatedAsync(String, Int32, PrivateSave, CancellationToken)
+  nameWithType: CacheBaseV2.IsCacheInvalidatedAsync(String, Int32, PrivateSave, CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String, System.Int32, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-    name: IsCacheInvalidated
-    nameWithType: CacheBaseV2.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+    name: IsCacheInvalidatedAsync
+    nameWithType: CacheBaseV2.IsCacheInvalidatedAsync
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -512,14 +512,22 @@ references:
     nameWithType: PrivateSave
     fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-    name: IsCacheInvalidated
-    nameWithType: CacheBaseV2.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+    name: IsCacheInvalidatedAsync
+    nameWithType: CacheBaseV2.IsCacheInvalidatedAsync
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -545,21 +553,29 @@ references:
     nameWithType: PrivateSave
     fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
+- uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: Dispose()
-  nameWithType: CacheBaseV2.Dispose()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
+  name: InstanceDispose()
+  nameWithType: CacheBaseV2.InstanceDispose()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-    name: Dispose
-    nameWithType: CacheBaseV2.Dispose
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+    name: InstanceDispose
+    nameWithType: CacheBaseV2.InstanceDispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
     isExternal: true
   - name: (
     nameWithType: (
@@ -568,41 +584,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-    name: Dispose
-    nameWithType: CacheBaseV2.Dispose
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
-  parent: SuperOffice.Data.Cache.CacheBaseV2
-  isExternal: true
-  name: Flush()
-  nameWithType: CacheBaseV2.Flush()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    name: Flush
-    nameWithType: CacheBaseV2.Flush
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    name: Flush
-    nameWithType: CacheBaseV2.Flush
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+    name: InstanceDispose
+    nameWithType: CacheBaseV2.InstanceDispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
     isExternal: true
   - name: (
     nameWithType: (
@@ -641,37 +626,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+- uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: GetCurrent<T>()
-  nameWithType: CacheBaseV2.GetCurrent<T>()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>()
-  nameWithType.vb: CacheBaseV2.GetCurrent(Of T)()
-  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)()
-  name.vb: GetCurrent(Of T)()
+  name: LoadAsync(CancellationToken)
+  nameWithType: CacheBaseV2.LoadAsync(CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent<T>
-    nameWithType: CacheBaseV2.GetCurrent<T>
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+    name: LoadAsync
+    nameWithType: CacheBaseV2.LoadAsync
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent(Of T)
-    nameWithType: CacheBaseV2.GetCurrent(Of T)
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+    name: LoadAsync
+    nameWithType: CacheBaseV2.LoadAsync
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1159,6 +1151,63 @@ references:
   name: GetEffectiveReplyTemplateId
   nameWithType: EjCategoryCache.GetEffectiveReplyTemplateId
   fullName: SuperOffice.CRM.Security.EjCategoryCache.GetEffectiveReplyTemplateId
+- uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: OnLoadAsync(CancellationToken)
+  nameWithType: CacheBaseV2.OnLoadAsync(CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: CacheBaseV2.OnLoadAsync
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+    name: OnLoadAsync
+    nameWithType: CacheBaseV2.OnLoadAsync
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.EjCategoryCache.OnLoadAsync*
+  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.OnLoadAsync
+  isExternal: true
+  name: OnLoadAsync
+  nameWithType: EjCategoryCache.OnLoadAsync
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.OnLoadAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   parent: SuperOffice.Data.Cache.CacheBaseV2
@@ -1196,19 +1245,6 @@ references:
   name: OnLoad
   nameWithType: EjCategoryCache.OnLoad
   fullName: SuperOffice.CRM.Security.EjCategoryCache.OnLoad
-- uid: SuperOffice.CRM.Security.EjCategoryCache.GetCurrent*
-  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.GetCurrent
-  isExternal: true
-  name: GetCurrent
-  nameWithType: EjCategoryCache.GetCurrent
-  fullName: SuperOffice.CRM.Security.EjCategoryCache.GetCurrent
-- uid: SuperOffice.CRM.Security.EjCategoryCache
-  commentId: T:SuperOffice.CRM.Security.EjCategoryCache
-  parent: SuperOffice.CRM.Security
-  isExternal: true
-  name: EjCategoryCache
-  nameWithType: EjCategoryCache
-  fullName: SuperOffice.CRM.Security.EjCategoryCache
 - uid: SuperOffice.CRM.Security.EjCategoryCache.#ctor*
   commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.#ctor
   isExternal: true

@@ -14,15 +14,15 @@ items:
   - SuperOffice.CRM.CustomerService.GetCreateMailingsUrl(System.String,System.String,System.String)
   - SuperOffice.CRM.CustomerService.GetCSAuthUrl(System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.CustomerService.GetCsProgramUrl(System.String,System.String,System.String,System.String,SuperOffice.Data.CsAuthenticationType,SuperOffice.CRM.CustomerService.CsUrlType)
-  - SuperOffice.CRM.CustomerService.GetCSRegistryValue(System.Int32)
+  - SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.CustomerService.GetEditUrlFor(System.Int32)
-  - SuperOffice.CRM.CustomerService.GetEMarketingUrl(System.String)
+  - SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.CustomerService.GetOpenMailingsUrl(System.String,System.Int32)
   - SuperOffice.CRM.CustomerService.GetPreviewUrlFor(System.Int32)
   - SuperOffice.CRM.CustomerService.GetRegistryExtension
   - SuperOffice.CRM.CustomerService.GetShowUrlFor(System.Int32)
-  - SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32)
-  - SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32,System.String)
+  - SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.CustomerService.GetWwwFolder
   - SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeDocument
   - SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeHtml
@@ -325,16 +325,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.CustomerService.GetEMarketingUrl(System.String)
-  commentId: M:SuperOffice.CRM.CustomerService.GetEMarketingUrl(System.String)
-  id: GetEMarketingUrl(System.String)
+- uid: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync(System.String,System.Threading.CancellationToken)
+  id: GetEMarketingUrlAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.CustomerService
   langs:
   - csharp
   - vb
-  name: GetEMarketingUrl(String)
-  nameWithType: CustomerService.GetEMarketingUrl(String)
-  fullName: SuperOffice.CRM.CustomerService.GetEMarketingUrl(System.String)
+  name: GetEMarketingUrlAsync(String, CancellationToken)
+  nameWithType: CustomerService.GetEMarketingUrlAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -344,14 +344,16 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nUsed by Win/web client. They don&apos;t want to know how it&apos;s build. \nIt should be usable as is - for round-tripping.\n"
   syntax:
-    content: public static string GetEMarketingUrl(string languageCode)
+    content: public static Task<string> GetEMarketingUrlAsync(string languageCode, CancellationToken cancellationToken = null)
     parameters:
     - id: languageCode
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetEMarketingUrl(languageCode As String) As String
-  overload: SuperOffice.CRM.CustomerService.GetEMarketingUrl*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetEMarketingUrlAsync(languageCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync*
   modifiers.csharp:
   - public
   - static
@@ -693,16 +695,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.CustomerService.GetCSRegistryValue(System.Int32)
-  commentId: M:SuperOffice.CRM.CustomerService.GetCSRegistryValue(System.Int32)
-  id: GetCSRegistryValue(System.Int32)
+- uid: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetCSRegistryValueAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.CustomerService
   langs:
   - csharp
   - vb
-  name: GetCSRegistryValue(Int32)
-  nameWithType: CustomerService.GetCSRegistryValue(Int32)
-  fullName: SuperOffice.CRM.CustomerService.GetCSRegistryValue(System.Int32)
+  name: GetCSRegistryValueAsync(Int32, CancellationToken)
+  nameWithType: CustomerService.GetCSRegistryValueAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -711,14 +713,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static string GetCSRegistryValue(int entryId)
+    content: public static Task<string> GetCSRegistryValueAsync(int entryId, CancellationToken cancellationToken = null)
     parameters:
     - id: entryId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetCSRegistryValue(entryId As Integer) As String
-  overload: SuperOffice.CRM.CustomerService.GetCSRegistryValue*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetCSRegistryValueAsync(entryId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync*
   modifiers.csharp:
   - public
   - static
@@ -832,16 +836,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32)
-  commentId: M:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32)
-  id: GetSubscriptionManagementUrl(System.Int32)
+- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetSubscriptionManagementUrlAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.CustomerService
   langs:
   - csharp
   - vb
-  name: GetSubscriptionManagementUrl(Int32)
-  nameWithType: CustomerService.GetSubscriptionManagementUrl(Int32)
-  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32)
+  name: GetSubscriptionManagementUrlAsync(Int32, CancellationToken)
+  nameWithType: CustomerService.GetSubscriptionManagementUrlAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -850,30 +854,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static string GetSubscriptionManagementUrl(int personId)
+    content: public static Task<string> GetSubscriptionManagementUrlAsync(int personId, CancellationToken cancellationToken = null)
     parameters:
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetSubscriptionManagementUrl(personId As Integer) As String
-  overload: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetSubscriptionManagementUrlAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32,System.String)
-  id: GetSubscriptionManagementUrl(System.Int32,System.String)
+- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetSubscriptionManagementUrlAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.CustomerService
   langs:
   - csharp
   - vb
-  name: GetSubscriptionManagementUrl(Int32, String)
-  nameWithType: CustomerService.GetSubscriptionManagementUrl(Int32, String)
-  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32, System.String)
+  name: GetSubscriptionManagementUrlAsync(Int32, String, CancellationToken)
+  nameWithType: CustomerService.GetSubscriptionManagementUrlAsync(Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -882,16 +888,18 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static string GetSubscriptionManagementUrl(int personId, string languageCode)
+    content: public static Task<string> GetSubscriptionManagementUrlAsync(int personId, string languageCode, CancellationToken cancellationToken = null)
     parameters:
     - id: personId
       type: System.Int32
     - id: languageCode
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetSubscriptionManagementUrl(personId As Integer, languageCode As String) As String
-  overload: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetSubscriptionManagementUrlAsync(personId As Integer, languageCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync*
   modifiers.csharp:
   - public
   - static
@@ -950,12 +958,98 @@ references:
   name: GetEditUrlFor
   nameWithType: CustomerService.GetEditUrlFor
   fullName: SuperOffice.CRM.CustomerService.GetEditUrlFor
-- uid: SuperOffice.CRM.CustomerService.GetEMarketingUrl*
-  commentId: Overload:SuperOffice.CRM.CustomerService.GetEMarketingUrl
+- uid: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync*
+  commentId: Overload:SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync
   isExternal: true
-  name: GetEMarketingUrl
-  nameWithType: CustomerService.GetEMarketingUrl
-  fullName: SuperOffice.CRM.CustomerService.GetEMarketingUrl
+  name: GetEMarketingUrlAsync
+  nameWithType: CustomerService.GetEMarketingUrlAsync
+  fullName: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.CustomerService.GetCgiUrlInternal*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetCgiUrlInternal
   isExternal: true
@@ -1030,12 +1124,12 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.CustomerService.GetCSRegistryValue*
-  commentId: Overload:SuperOffice.CRM.CustomerService.GetCSRegistryValue
+- uid: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync*
+  commentId: Overload:SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync
   isExternal: true
-  name: GetCSRegistryValue
-  nameWithType: CustomerService.GetCSRegistryValue
-  fullName: SuperOffice.CRM.CustomerService.GetCSRegistryValue
+  name: GetCSRegistryValueAsync
+  nameWithType: CustomerService.GetCSRegistryValueAsync
+  fullName: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync
 - uid: SuperOffice.CRM.CustomerService.GetCreateMailingsUrl*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetCreateMailingsUrl
   isExternal: true
@@ -1061,9 +1155,9 @@ references:
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl*
-  commentId: Overload:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl
+- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync*
+  commentId: Overload:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync
   isExternal: true
-  name: GetSubscriptionManagementUrl
-  nameWithType: CustomerService.GetSubscriptionManagementUrl
-  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl
+  name: GetSubscriptionManagementUrlAsync
+  nameWithType: CustomerService.GetSubscriptionManagementUrlAsync
+  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync

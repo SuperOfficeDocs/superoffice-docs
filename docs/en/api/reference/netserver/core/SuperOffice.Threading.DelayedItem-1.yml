@@ -1,0 +1,563 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.DelayedItem`1
+  commentId: T:SuperOffice.Threading.DelayedItem`1
+  id: DelayedItem`1
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.DelayedItem`1.#ctor
+  - SuperOffice.Threading.DelayedItem`1.Item
+  - SuperOffice.Threading.DelayedItem`1.PrerequisiteTask
+  langs:
+  - csharp
+  - vb
+  name: DelayedItem<TItem>
+  nameWithType: DelayedItem<TItem>
+  fullName: SuperOffice.Threading.DelayedItem<TItem>
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nInternal type used by <xref href=\"SuperOffice.Threading.IDelayedAsyncQueue%601\" data-throw-if-not-resolved=\"false\"></xref> to represent the condition to when an item is to be processed.\n"
+  syntax:
+    content: 'public class DelayedItem<TItem> : Object'
+    typeParameters:
+    - id: TItem
+    content.vb: >-
+      Public Class DelayedItem(Of TItem)
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Threading.DelayedItem`1.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.DelayedItem`1.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.DelayedItem{{TItem}})
+  - SuperOffice.Threading.DelayedItem`1.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Threading.DelayedItem`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: DelayedItem(Of TItem)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: SuperOffice.Threading.DelayedItem(Of TItem)
+  name.vb: DelayedItem(Of TItem)
+- uid: SuperOffice.Threading.DelayedItem`1.#ctor
+  commentId: M:SuperOffice.Threading.DelayedItem`1.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Threading.DelayedItem`1
+  langs:
+  - csharp
+  - vb
+  name: DelayedItem()
+  nameWithType: DelayedItem<TItem>.DelayedItem()
+  fullName: SuperOffice.Threading.DelayedItem<TItem>.DelayedItem()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public DelayedItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.Threading.DelayedItem`1.#ctor*
+  nameWithType.vb: DelayedItem(Of TItem).DelayedItem()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.DelayedItem(Of TItem).DelayedItem()
+- uid: SuperOffice.Threading.DelayedItem`1.Item
+  commentId: P:SuperOffice.Threading.DelayedItem`1.Item
+  id: Item
+  parent: SuperOffice.Threading.DelayedItem`1
+  langs:
+  - csharp
+  - vb
+  name: Item
+  nameWithType: DelayedItem<TItem>.Item
+  fullName: SuperOffice.Threading.DelayedItem<TItem>.Item
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nItem that should be processed\n"
+  syntax:
+    content: public TItem Item { get; set; }
+    parameters: []
+    return:
+      type: '{TItem}'
+    content.vb: Public Property Item As TItem
+  overload: SuperOffice.Threading.DelayedItem`1.Item*
+  nameWithType.vb: DelayedItem(Of TItem).Item
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.DelayedItem(Of TItem).Item
+- uid: SuperOffice.Threading.DelayedItem`1.PrerequisiteTask
+  commentId: P:SuperOffice.Threading.DelayedItem`1.PrerequisiteTask
+  id: PrerequisiteTask
+  parent: SuperOffice.Threading.DelayedItem`1
+  langs:
+  - csharp
+  - vb
+  name: PrerequisiteTask
+  nameWithType: DelayedItem<TItem>.PrerequisiteTask
+  fullName: SuperOffice.Threading.DelayedItem<TItem>.PrerequisiteTask
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nTask that must be completed before the item can be processed.\n"
+  syntax:
+    content: public Task PrerequisiteTask { get; set; }
+    parameters: []
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Property PrerequisiteTask As Task
+  overload: SuperOffice.Threading.DelayedItem`1.PrerequisiteTask*
+  nameWithType.vb: DelayedItem(Of TItem).PrerequisiteTask
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.DelayedItem(Of TItem).PrerequisiteTask
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Threading.DelayedItem`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DelayedItem<TItem>, To>()
+  nameWithType: EnumUtil.MapEnums<DelayedItem<TItem>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.DelayedItem<TItem>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DelayedItem(Of TItem), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.DelayedItem(Of TItem), To)()
+  name.vb: MapEnums(Of DelayedItem(Of TItem), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DelayedItem<TItem>, To>
+    nameWithType: EnumUtil.MapEnums<DelayedItem<TItem>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.DelayedItem<TItem>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DelayedItem(Of TItem), To)
+    nameWithType: EnumUtil.MapEnums(Of DelayedItem(Of TItem), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.DelayedItem(Of TItem), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.DelayedItem`1.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.DelayedItem{{TItem}})
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DelayedItem<TItem>>(DelayedItem<TItem>)
+  nameWithType: ObjectExtensions.AssignByReflection<DelayedItem<TItem>>(DelayedItem<TItem>)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.DelayedItem<TItem>>(SuperOffice.Threading.DelayedItem<TItem>)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DelayedItem(Of TItem))(DelayedItem(Of TItem))
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.DelayedItem(Of TItem))(SuperOffice.Threading.DelayedItem(Of TItem))
+  name.vb: AssignByReflection(Of DelayedItem(Of TItem))(DelayedItem(Of TItem))
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DelayedItem<TItem>>
+    nameWithType: ObjectExtensions.AssignByReflection<DelayedItem<TItem>>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.DelayedItem<TItem>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.DelayedItem`1
+    name: DelayedItem
+    nameWithType: DelayedItem
+    fullName: SuperOffice.Threading.DelayedItem
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DelayedItem(Of TItem))
+    nameWithType: ObjectExtensions.AssignByReflection(Of DelayedItem(Of TItem))
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.DelayedItem(Of TItem))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.DelayedItem`1
+    name: DelayedItem
+    nameWithType: DelayedItem
+    fullName: SuperOffice.Threading.DelayedItem
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.DelayedItem`1.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DelayedItem<TItem>>()
+  nameWithType: ObjectExtensions.GraphCopy<DelayedItem<TItem>>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.DelayedItem<TItem>>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DelayedItem(Of TItem))()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.DelayedItem(Of TItem))()
+  name.vb: GraphCopy(Of DelayedItem(Of TItem))()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DelayedItem<TItem>>
+    nameWithType: ObjectExtensions.GraphCopy<DelayedItem<TItem>>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.DelayedItem<TItem>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DelayedItem(Of TItem))
+    nameWithType: ObjectExtensions.GraphCopy(Of DelayedItem(Of TItem))
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.DelayedItem(Of TItem))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.DelayedItem`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DelayedItem<TItem>, To>()
+  nameWithType: Converters.MapEnums<DelayedItem<TItem>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.DelayedItem<TItem>, To>()
+  nameWithType.vb: Converters.MapEnums(Of DelayedItem(Of TItem), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.DelayedItem(Of TItem), To)()
+  name.vb: MapEnums(Of DelayedItem(Of TItem), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DelayedItem<TItem>, To>
+    nameWithType: Converters.MapEnums<DelayedItem<TItem>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.DelayedItem<TItem>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DelayedItem(Of TItem), To)
+    nameWithType: Converters.MapEnums(Of DelayedItem(Of TItem), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.DelayedItem(Of TItem), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.DelayedItem`1.#ctor*
+  commentId: Overload:SuperOffice.Threading.DelayedItem`1.#ctor
+  isExternal: true
+  name: DelayedItem
+  nameWithType: DelayedItem<TItem>.DelayedItem
+  fullName: SuperOffice.Threading.DelayedItem<TItem>.DelayedItem
+  nameWithType.vb: DelayedItem(Of TItem).DelayedItem
+  fullName.vb: SuperOffice.Threading.DelayedItem(Of TItem).DelayedItem
+- uid: SuperOffice.Threading.DelayedItem`1.Item*
+  commentId: Overload:SuperOffice.Threading.DelayedItem`1.Item
+  isExternal: true
+  name: Item
+  nameWithType: DelayedItem<TItem>.Item
+  fullName: SuperOffice.Threading.DelayedItem<TItem>.Item
+  nameWithType.vb: DelayedItem(Of TItem).Item
+  fullName.vb: SuperOffice.Threading.DelayedItem(Of TItem).Item
+- uid: '{TItem}'
+  commentId: '!:TItem'
+  definition: TItem
+  name: TItem
+  nameWithType: TItem
+  fullName: TItem
+- uid: TItem
+  name: TItem
+  nameWithType: TItem
+  fullName: TItem
+- uid: SuperOffice.Threading.DelayedItem`1.PrerequisiteTask*
+  commentId: Overload:SuperOffice.Threading.DelayedItem`1.PrerequisiteTask
+  isExternal: true
+  name: PrerequisiteTask
+  nameWithType: DelayedItem<TItem>.PrerequisiteTask
+  fullName: SuperOffice.Threading.DelayedItem<TItem>.PrerequisiteTask
+  nameWithType.vb: DelayedItem(Of TItem).PrerequisiteTask
+  fullName.vb: SuperOffice.Threading.DelayedItem(Of TItem).PrerequisiteTask
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

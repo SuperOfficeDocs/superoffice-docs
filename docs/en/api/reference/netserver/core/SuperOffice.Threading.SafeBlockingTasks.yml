@@ -1,0 +1,400 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.SafeBlockingTasks
+  commentId: T:SuperOffice.Threading.SafeBlockingTasks
+  id: SafeBlockingTasks
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Action)
+  - SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Func{System.Threading.Tasks.Task})
+  - SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{``0})
+  - SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{System.Threading.Tasks.Task{``0}})
+  langs:
+  - csharp
+  - vb
+  name: SafeBlockingTasks
+  nameWithType: SafeBlockingTasks
+  fullName: SuperOffice.Threading.SafeBlockingTasks
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: 'public static class SafeBlockingTasks : Object'
+    content.vb: >-
+      Public Module SafeBlockingTasks
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Func{System.Threading.Tasks.Task})
+  commentId: M:SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Func{System.Threading.Tasks.Task})
+  id: SafeBlock(System.Func{System.Threading.Tasks.Task})
+  parent: SuperOffice.Threading.SafeBlockingTasks
+  langs:
+  - csharp
+  - vb
+  name: SafeBlock(Func<Task>)
+  nameWithType: SafeBlockingTasks.SafeBlock(Func<Task>)
+  fullName: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nHelper method to do a &quot;safe&quot; block on a <xref href=\"System.Threading.Tasks.Task\" data-throw-if-not-resolved=\"false\"></xref> instance, by &quot;safe&quot; we mean that it does not deadlock.\nThreadPool starvation could be a possibility if it&apos;s overused, however this should not be a problem, because\nit is only intended for the limited areas of the code that is planned to be dropped in the future. Everywhere\nelse should use real async/await all the way.\n"
+  syntax:
+    content: public static void SafeBlock(Func<Task> task)
+    parameters:
+    - id: task
+      type: System.Func{System.Threading.Tasks.Task}
+    content.vb: Public Shared Sub SafeBlock(task As Func(Of Task))
+  overload: SuperOffice.Threading.SafeBlockingTasks.SafeBlock*
+  nameWithType.vb: SafeBlockingTasks.SafeBlock(Func(Of Task))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Func(Of System.Threading.Tasks.Task))
+  name.vb: SafeBlock(Func(Of Task))
+- uid: SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{System.Threading.Tasks.Task{``0}})
+  commentId: M:SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{System.Threading.Tasks.Task{``0}})
+  id: SafeBlock``1(System.Func{System.Threading.Tasks.Task{``0}})
+  parent: SuperOffice.Threading.SafeBlockingTasks
+  langs:
+  - csharp
+  - vb
+  name: SafeBlock<T>(Func<Task<T>>)
+  nameWithType: SafeBlockingTasks.SafeBlock<T>(Func<Task<T>>)
+  fullName: SuperOffice.Threading.SafeBlockingTasks.SafeBlock<T>(System.Func<System.Threading.Tasks.Task<T>>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public static T SafeBlock<T>(Func<Task<T>> task)
+    parameters:
+    - id: task
+      type: System.Func{System.Threading.Tasks.Task{{T}}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SafeBlock(Of T)(task As Func(Of Task(Of T))) As T
+  overload: SuperOffice.Threading.SafeBlockingTasks.SafeBlock*
+  nameWithType.vb: SafeBlockingTasks.SafeBlock(Of T)(Func(Of Task(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(Of T)(System.Func(Of System.Threading.Tasks.Task(Of T)))
+  name.vb: SafeBlock(Of T)(Func(Of Task(Of T)))
+- uid: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Action)
+  commentId: M:SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Action)
+  id: SafeBlock(System.Action)
+  parent: SuperOffice.Threading.SafeBlockingTasks
+  langs:
+  - csharp
+  - vb
+  name: SafeBlock(Action)
+  nameWithType: SafeBlockingTasks.SafeBlock(Action)
+  fullName: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(System.Action)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  remarks: "\nUse this when you have a synchronous method that you know invokes sync-over-async somewhere in the call stack\n"
+  syntax:
+    content: public static void SafeBlock(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+    content.vb: Public Shared Sub SafeBlock(action As Action)
+  overload: SuperOffice.Threading.SafeBlockingTasks.SafeBlock*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{``0})
+  commentId: M:SuperOffice.Threading.SafeBlockingTasks.SafeBlock``1(System.Func{``0})
+  id: SafeBlock``1(System.Func{``0})
+  parent: SuperOffice.Threading.SafeBlockingTasks
+  langs:
+  - csharp
+  - vb
+  name: SafeBlock<T>(Func<T>)
+  nameWithType: SafeBlockingTasks.SafeBlock<T>(Func<T>)
+  fullName: SuperOffice.Threading.SafeBlockingTasks.SafeBlock<T>(System.Func<T>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  remarks: "\nUse this when you have a synchronous method that you know invokes sync-over-async somewhere in the call stack\n"
+  syntax:
+    content: public static T SafeBlock<T>(Func<T> action)
+    parameters:
+    - id: action
+      type: System.Func{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SafeBlock(Of T)(action As Func(Of T)) As T
+  overload: SuperOffice.Threading.SafeBlockingTasks.SafeBlock*
+  nameWithType.vb: SafeBlockingTasks.SafeBlock(Of T)(Func(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.SafeBlockingTasks.SafeBlock(Of T)(System.Func(Of T))
+  name.vb: SafeBlock(Of T)(Func(Of T))
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Threading.SafeBlockingTasks.SafeBlock*
+  commentId: Overload:SuperOffice.Threading.SafeBlockingTasks.SafeBlock
+  isExternal: true
+  name: SafeBlock
+  nameWithType: SafeBlockingTasks.SafeBlock
+  fullName: SuperOffice.Threading.SafeBlockingTasks.SafeBlock
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: '!:System.Func{System.Threading.Tasks.Task}'
+  definition: System.Func`1
+  name: Func<Task>
+  nameWithType: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
+  name.vb: Func(Of Task)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{System.Threading.Tasks.Task{{T}}}
+  commentId: '!:System.Func{System.Threading.Tasks.Task{`0}}'
+  definition: System.Func`1
+  name: Func<Task<T>>
+  nameWithType: Func<Task<T>>
+  fullName: System.Func<System.Threading.Tasks.Task<T>>
+  nameWithType.vb: Func(Of Task(Of T))
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task(Of T))
+  name.vb: Func(Of Task(Of T))
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Func{{T}}
+  commentId: '!:System.Func{`0}'
+  definition: System.Func`1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

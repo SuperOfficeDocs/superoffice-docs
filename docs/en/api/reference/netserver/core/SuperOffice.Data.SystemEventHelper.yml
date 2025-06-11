@@ -5,24 +5,25 @@ items:
   id: SystemEventHelper
   parent: SuperOffice.Data
   children:
-  - SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEvent
-  - SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEvent
-  - SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEvent(SuperOffice.Data.UDefType)
-  - SuperOffice.Data.SystemEventHelper.CreatePublishSystemEvent(SuperOffice.Data.UDefType)
-  - SuperOffice.Data.SystemEventHelper.CreateScopedEvent(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
+  - SuperOffice.Data.SystemEventHelper.#ctor
+  - SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEventAsync(System.Threading.CancellationToken)
+  - SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEventAsync(System.Threading.CancellationToken)
+  - SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.SystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.SystemEventHelper.CreateScopedEventAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.SystemEventHelper.FreetextRebuildEventName
   - SuperOffice.Data.SystemEventHelper.GetPublishStartSystemEventName(SuperOffice.Data.UDefType)
   - SuperOffice.Data.SystemEventHelper.GetPublishSystemEventName(SuperOffice.Data.UDefType)
-  - SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActive
-  - SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExcept(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveAsync
+  - SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
   - SuperOffice.Data.SystemEventHelper.IsFreetextRebuildEventActive
-  - SuperOffice.Data.SystemEventHelper.IsPublishEventActive(SuperOffice.Data.UDefType)
-  - SuperOffice.Data.SystemEventHelper.IsPublishStartEventActive(SuperOffice.Data.UDefType)
-  - SuperOffice.Data.SystemEventHelper.IsScopedEventActive(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
-  - SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEvent
-  - SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEvent(SuperOffice.Data.UDefType)
-  - SuperOffice.Data.SystemEventHelper.RemovePublishSystemEvent(SuperOffice.Data.UDefType)
-  - SuperOffice.Data.SystemEventHelper.RemoveScopedEvent(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
+  - SuperOffice.Data.SystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.SystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.SystemEventHelper.IsScopedEventActiveAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEventAsync(System.Threading.CancellationToken)
+  - SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.SystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.SystemEventHelper.RemoveScopedEventAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -38,14 +39,19 @@ items:
   namespace: SuperOffice.Data
   summary: "\nThis class contains helper functions for publishing user-defined fields.\n"
   syntax:
-    content: 'public class SystemEventHelper : Object'
+    content: 'public class SystemEventHelper : Object, ISystemEventHelper'
     content.vb: >-
       Public Class SystemEventHelper
           Inherits Object
+          Implements ISystemEventHelper
   inheritance:
   - System.Object
+  implements:
+  - SuperOffice.Data.ISystemEventHelper
   extensionMethods:
   - SuperOffice.Data.SystemEventHelper.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SystemEventHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SystemEventHelper)
+  - SuperOffice.Data.SystemEventHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.SystemEventHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -145,16 +151,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SystemEventHelper.CreatePublishSystemEvent(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.Data.SystemEventHelper.CreatePublishSystemEvent(SuperOffice.Data.UDefType)
-  id: CreatePublishSystemEvent(SuperOffice.Data.UDefType)
+- uid: SuperOffice.Data.SystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.SystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  id: CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: CreatePublishSystemEvent(UDefType)
-  nameWithType: SystemEventHelper.CreatePublishSystemEvent(UDefType)
-  fullName: SuperOffice.Data.SystemEventHelper.CreatePublishSystemEvent(SuperOffice.Data.UDefType)
+  name: CreatePublishSystemEventAsync(UDefType)
+  nameWithType: SystemEventHelper.CreatePublishSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.SystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
   type: Method
   source:
     path: SoDataBase
@@ -163,30 +169,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static SystemEventRow CreatePublishSystemEvent(UDefType type)
+    content: public Task<SystemEventRow> CreatePublishSystemEventAsync(UDefType type)
     parameters:
     - id: type
       type: SuperOffice.Data.UDefType
     return:
-      type: SuperOffice.CRM.Rows.SystemEventRow
-    content.vb: Public Shared Function CreatePublishSystemEvent(type As UDefType) As SystemEventRow
-  overload: SuperOffice.Data.SystemEventHelper.CreatePublishSystemEvent*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SystemEventRow}
+    content.vb: Public Function CreatePublishSystemEventAsync(type As UDefType) As Task(Of SystemEventRow)
+  overload: SuperOffice.Data.SystemEventHelper.CreatePublishSystemEventAsync*
+  implements:
+  - SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
-- uid: SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEvent(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEvent(SuperOffice.Data.UDefType)
-  id: CreatePublishStartSystemEvent(SuperOffice.Data.UDefType)
+- uid: SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  id: CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: CreatePublishStartSystemEvent(UDefType)
-  nameWithType: SystemEventHelper.CreatePublishStartSystemEvent(UDefType)
-  fullName: SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEvent(SuperOffice.Data.UDefType)
+  name: CreatePublishStartSystemEventAsync(UDefType)
+  nameWithType: SystemEventHelper.CreatePublishStartSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
   type: Method
   source:
     path: SoDataBase
@@ -195,30 +201,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static SystemEventRow CreatePublishStartSystemEvent(UDefType type)
+    content: public Task<SystemEventRow> CreatePublishStartSystemEventAsync(UDefType type)
     parameters:
     - id: type
       type: SuperOffice.Data.UDefType
     return:
-      type: SuperOffice.CRM.Rows.SystemEventRow
-    content.vb: Public Shared Function CreatePublishStartSystemEvent(type As UDefType) As SystemEventRow
-  overload: SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEvent*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SystemEventRow}
+    content.vb: Public Function CreatePublishStartSystemEventAsync(type As UDefType) As Task(Of SystemEventRow)
+  overload: SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEventAsync*
+  implements:
+  - SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
-- uid: SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEvent
-  commentId: M:SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEvent
-  id: CreateFreetextRebuildEvent
+- uid: SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEventAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEventAsync(System.Threading.CancellationToken)
+  id: CreateFreetextRebuildEventAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: CreateFreetextRebuildEvent()
-  nameWithType: SystemEventHelper.CreateFreetextRebuildEvent()
-  fullName: SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEvent()
+  name: CreateFreetextRebuildEventAsync(CancellationToken)
+  nameWithType: SystemEventHelper.CreateFreetextRebuildEventAsync(CancellationToken)
+  fullName: SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEventAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -227,27 +233,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static ScopedSystemEvent CreateFreetextRebuildEvent()
+    content: public static Task<ScopedSystemEvent> CreateFreetextRebuildEventAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.ScopedSystemEvent
-    content.vb: Public Shared Function CreateFreetextRebuildEvent As ScopedSystemEvent
-  overload: SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEvent*
+      type: System.Threading.Tasks.Task{SuperOffice.Data.ScopedSystemEvent}
+    content.vb: Public Shared Function CreateFreetextRebuildEventAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ScopedSystemEvent)
+  overload: SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEventAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEvent
-  commentId: M:SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEvent
-  id: RemoveFreetextRebuildEvent
+- uid: SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEventAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEventAsync(System.Threading.CancellationToken)
+  id: RemoveFreetextRebuildEventAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: RemoveFreetextRebuildEvent()
-  nameWithType: SystemEventHelper.RemoveFreetextRebuildEvent()
-  fullName: SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEvent()
+  name: RemoveFreetextRebuildEventAsync(CancellationToken)
+  nameWithType: SystemEventHelper.RemoveFreetextRebuildEventAsync(CancellationToken)
+  fullName: SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEventAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -256,9 +265,14 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static void RemoveFreetextRebuildEvent()
-    content.vb: Public Shared Sub RemoveFreetextRebuildEvent
-  overload: SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEvent*
+    content: public static Task RemoveFreetextRebuildEventAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function RemoveFreetextRebuildEventAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEventAsync*
   modifiers.csharp:
   - public
   - static
@@ -294,16 +308,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEvent
-  commentId: M:SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEvent
-  id: CreateCounterRebuildEvent
+- uid: SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEventAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEventAsync(System.Threading.CancellationToken)
+  id: CreateCounterRebuildEventAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: CreateCounterRebuildEvent()
-  nameWithType: SystemEventHelper.CreateCounterRebuildEvent()
-  fullName: SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEvent()
+  name: CreateCounterRebuildEventAsync(CancellationToken)
+  nameWithType: SystemEventHelper.CreateCounterRebuildEventAsync(CancellationToken)
+  fullName: SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEventAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -312,27 +326,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static ScopedSystemEvent CreateCounterRebuildEvent()
+    content: public static Task<ScopedSystemEvent> CreateCounterRebuildEventAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.ScopedSystemEvent
-    content.vb: Public Shared Function CreateCounterRebuildEvent As ScopedSystemEvent
-  overload: SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEvent*
+      type: System.Threading.Tasks.Task{SuperOffice.Data.ScopedSystemEvent}
+    content.vb: Public Shared Function CreateCounterRebuildEventAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ScopedSystemEvent)
+  overload: SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEventAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SystemEventHelper.CreateScopedEvent(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
-  commentId: M:SuperOffice.Data.SystemEventHelper.CreateScopedEvent(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
-  id: CreateScopedEvent(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
+- uid: SuperOffice.Data.SystemEventHelper.CreateScopedEventAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SystemEventHelper.CreateScopedEventAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
+  id: CreateScopedEventAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: CreateScopedEvent(String, SystemEventHelper.Scope, Int32)
-  nameWithType: SystemEventHelper.CreateScopedEvent(String, SystemEventHelper.Scope, Int32)
-  fullName: SuperOffice.Data.SystemEventHelper.CreateScopedEvent(System.String, SuperOffice.Data.SystemEventHelper.Scope, System.Int32)
+  name: CreateScopedEventAsync(String, SystemEventHelper.Scope, Int32, CancellationToken)
+  nameWithType: SystemEventHelper.CreateScopedEventAsync(String, SystemEventHelper.Scope, Int32, CancellationToken)
+  fullName: SuperOffice.Data.SystemEventHelper.CreateScopedEventAsync(System.String, SuperOffice.Data.SystemEventHelper.Scope, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -341,7 +358,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static ScopedSystemEvent CreateScopedEvent(string key, SystemEventHelper.Scope scope, int owner)
+    content: public static Task<ScopedSystemEvent> CreateScopedEventAsync(string key, SystemEventHelper.Scope scope, int owner, CancellationToken cancellationToken = null)
     parameters:
     - id: key
       type: System.String
@@ -349,26 +366,28 @@ items:
       type: SuperOffice.Data.SystemEventHelper.Scope
     - id: owner
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.ScopedSystemEvent
-    content.vb: Public Shared Function CreateScopedEvent(key As String, scope As SystemEventHelper.Scope, owner As Integer) As ScopedSystemEvent
-  overload: SuperOffice.Data.SystemEventHelper.CreateScopedEvent*
+      type: System.Threading.Tasks.Task{SuperOffice.Data.ScopedSystemEvent}
+    content.vb: Public Shared Function CreateScopedEventAsync(key As String, scope As SystemEventHelper.Scope, owner As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ScopedSystemEvent)
+  overload: SuperOffice.Data.SystemEventHelper.CreateScopedEventAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SystemEventHelper.RemoveScopedEvent(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
-  commentId: M:SuperOffice.Data.SystemEventHelper.RemoveScopedEvent(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
-  id: RemoveScopedEvent(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
+- uid: SuperOffice.Data.SystemEventHelper.RemoveScopedEventAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SystemEventHelper.RemoveScopedEventAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
+  id: RemoveScopedEventAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: RemoveScopedEvent(String, SystemEventHelper.Scope, Int32)
-  nameWithType: SystemEventHelper.RemoveScopedEvent(String, SystemEventHelper.Scope, Int32)
-  fullName: SuperOffice.Data.SystemEventHelper.RemoveScopedEvent(System.String, SuperOffice.Data.SystemEventHelper.Scope, System.Int32)
+  name: RemoveScopedEventAsync(String, SystemEventHelper.Scope, Int32, CancellationToken)
+  nameWithType: SystemEventHelper.RemoveScopedEventAsync(String, SystemEventHelper.Scope, Int32, CancellationToken)
+  fullName: SuperOffice.Data.SystemEventHelper.RemoveScopedEventAsync(System.String, SuperOffice.Data.SystemEventHelper.Scope, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -377,7 +396,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static void RemoveScopedEvent(string key, SystemEventHelper.Scope scope, int owner)
+    content: public static Task RemoveScopedEventAsync(string key, SystemEventHelper.Scope scope, int owner, CancellationToken cancellationToken = null)
     parameters:
     - id: key
       type: System.String
@@ -385,24 +404,28 @@ items:
       type: SuperOffice.Data.SystemEventHelper.Scope
     - id: owner
       type: System.Int32
-    content.vb: Public Shared Sub RemoveScopedEvent(key As String, scope As SystemEventHelper.Scope, owner As Integer)
-  overload: SuperOffice.Data.SystemEventHelper.RemoveScopedEvent*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function RemoveScopedEventAsync(key As String, scope As SystemEventHelper.Scope, owner As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.SystemEventHelper.RemoveScopedEventAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SystemEventHelper.IsScopedEventActive(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
-  commentId: M:SuperOffice.Data.SystemEventHelper.IsScopedEventActive(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
-  id: IsScopedEventActive(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32)
+- uid: SuperOffice.Data.SystemEventHelper.IsScopedEventActiveAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SystemEventHelper.IsScopedEventActiveAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
+  id: IsScopedEventActiveAsync(System.String,SuperOffice.Data.SystemEventHelper.Scope,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: IsScopedEventActive(String, SystemEventHelper.Scope, Int32)
-  nameWithType: SystemEventHelper.IsScopedEventActive(String, SystemEventHelper.Scope, Int32)
-  fullName: SuperOffice.Data.SystemEventHelper.IsScopedEventActive(System.String, SuperOffice.Data.SystemEventHelper.Scope, System.Int32)
+  name: IsScopedEventActiveAsync(String, SystemEventHelper.Scope, Int32, CancellationToken)
+  nameWithType: SystemEventHelper.IsScopedEventActiveAsync(String, SystemEventHelper.Scope, Int32, CancellationToken)
+  fullName: SuperOffice.Data.SystemEventHelper.IsScopedEventActiveAsync(System.String, SuperOffice.Data.SystemEventHelper.Scope, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -411,7 +434,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static bool IsScopedEventActive(string key, SystemEventHelper.Scope scope, int owner)
+    content: public static Task<bool> IsScopedEventActiveAsync(string key, SystemEventHelper.Scope scope, int owner, CancellationToken cancellationToken = null)
     parameters:
     - id: key
       type: System.String
@@ -419,26 +442,28 @@ items:
       type: SuperOffice.Data.SystemEventHelper.Scope
     - id: owner
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function IsScopedEventActive(key As String, scope As SystemEventHelper.Scope, owner As Integer) As Boolean
-  overload: SuperOffice.Data.SystemEventHelper.IsScopedEventActive*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Shared Function IsScopedEventActiveAsync(key As String, scope As SystemEventHelper.Scope, owner As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.SystemEventHelper.IsScopedEventActiveAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.SystemEventHelper.RemovePublishSystemEvent(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.Data.SystemEventHelper.RemovePublishSystemEvent(SuperOffice.Data.UDefType)
-  id: RemovePublishSystemEvent(SuperOffice.Data.UDefType)
+- uid: SuperOffice.Data.SystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.SystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  id: RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: RemovePublishSystemEvent(UDefType)
-  nameWithType: SystemEventHelper.RemovePublishSystemEvent(UDefType)
-  fullName: SuperOffice.Data.SystemEventHelper.RemovePublishSystemEvent(SuperOffice.Data.UDefType)
+  name: RemovePublishSystemEventAsync(UDefType)
+  nameWithType: SystemEventHelper.RemovePublishSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.SystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
   type: Method
   source:
     path: SoDataBase
@@ -447,119 +472,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static void RemovePublishSystemEvent(UDefType type)
-    parameters:
-    - id: type
-      type: SuperOffice.Data.UDefType
-    content.vb: Public Shared Sub RemovePublishSystemEvent(type As UDefType)
-  overload: SuperOffice.Data.SystemEventHelper.RemovePublishSystemEvent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEvent(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEvent(SuperOffice.Data.UDefType)
-  id: RemovePublishStartSystemEvent(SuperOffice.Data.UDefType)
-  parent: SuperOffice.Data.SystemEventHelper
-  langs:
-  - csharp
-  - vb
-  name: RemovePublishStartSystemEvent(UDefType)
-  nameWithType: SystemEventHelper.RemovePublishStartSystemEvent(UDefType)
-  fullName: SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEvent(SuperOffice.Data.UDefType)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  syntax:
-    content: public static void RemovePublishStartSystemEvent(UDefType type)
-    parameters:
-    - id: type
-      type: SuperOffice.Data.UDefType
-    content.vb: Public Shared Sub RemovePublishStartSystemEvent(type As UDefType)
-  overload: SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEvent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActive
-  commentId: M:SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActive
-  id: IsAnyPublishEventActive
-  parent: SuperOffice.Data.SystemEventHelper
-  langs:
-  - csharp
-  - vb
-  name: IsAnyPublishEventActive()
-  nameWithType: SystemEventHelper.IsAnyPublishEventActive()
-  fullName: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActive()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  syntax:
-    content: public static bool IsAnyPublishEventActive()
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Function IsAnyPublishEventActive As Boolean
-  overload: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActive*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExcept(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExcept(SuperOffice.Data.UDefType)
-  id: IsAnyPublishEventActiveExcept(SuperOffice.Data.UDefType)
-  parent: SuperOffice.Data.SystemEventHelper
-  langs:
-  - csharp
-  - vb
-  name: IsAnyPublishEventActiveExcept(UDefType)
-  nameWithType: SystemEventHelper.IsAnyPublishEventActiveExcept(UDefType)
-  fullName: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExcept(SuperOffice.Data.UDefType)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  syntax:
-    content: public static bool IsAnyPublishEventActiveExcept(UDefType type)
+    content: public Task RemovePublishSystemEventAsync(UDefType type)
     parameters:
     - id: type
       type: SuperOffice.Data.UDefType
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function IsAnyPublishEventActiveExcept(type As UDefType) As Boolean
-  overload: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExcept*
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RemovePublishSystemEventAsync(type As UDefType) As Task
+  overload: SuperOffice.Data.SystemEventHelper.RemovePublishSystemEventAsync*
+  implements:
+  - SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
-- uid: SuperOffice.Data.SystemEventHelper.IsPublishEventActive(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.Data.SystemEventHelper.IsPublishEventActive(SuperOffice.Data.UDefType)
-  id: IsPublishEventActive(SuperOffice.Data.UDefType)
+- uid: SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  id: RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: IsPublishEventActive(UDefType)
-  nameWithType: SystemEventHelper.IsPublishEventActive(UDefType)
-  fullName: SuperOffice.Data.SystemEventHelper.IsPublishEventActive(SuperOffice.Data.UDefType)
+  name: RemovePublishStartSystemEventAsync(UDefType)
+  nameWithType: SystemEventHelper.RemovePublishStartSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
   type: Method
   source:
     path: SoDataBase
@@ -568,30 +504,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static bool IsPublishEventActive(UDefType type)
+    content: public Task RemovePublishStartSystemEventAsync(UDefType type)
     parameters:
     - id: type
       type: SuperOffice.Data.UDefType
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function IsPublishEventActive(type As UDefType) As Boolean
-  overload: SuperOffice.Data.SystemEventHelper.IsPublishEventActive*
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RemovePublishStartSystemEventAsync(type As UDefType) As Task
+  overload: SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEventAsync*
+  implements:
+  - SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
-- uid: SuperOffice.Data.SystemEventHelper.IsPublishStartEventActive(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.Data.SystemEventHelper.IsPublishStartEventActive(SuperOffice.Data.UDefType)
-  id: IsPublishStartEventActive(SuperOffice.Data.UDefType)
+- uid: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveAsync
+  commentId: M:SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveAsync
+  id: IsAnyPublishEventActiveAsync
   parent: SuperOffice.Data.SystemEventHelper
   langs:
   - csharp
   - vb
-  name: IsPublishStartEventActive(UDefType)
-  nameWithType: SystemEventHelper.IsPublishStartEventActive(UDefType)
-  fullName: SuperOffice.Data.SystemEventHelper.IsPublishStartEventActive(SuperOffice.Data.UDefType)
+  name: IsAnyPublishEventActiveAsync()
+  nameWithType: SystemEventHelper.IsAnyPublishEventActiveAsync()
+  fullName: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveAsync()
   type: Method
   source:
     path: SoDataBase
@@ -600,20 +536,138 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static bool IsPublishStartEventActive(UDefType type)
+    content: public Task<bool> IsAnyPublishEventActiveAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function IsAnyPublishEventActiveAsync As Task(Of Boolean)
+  overload: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveAsync*
+  implements:
+  - SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  id: IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.SystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: IsAnyPublishEventActiveExceptAsync(UDefType)
+  nameWithType: SystemEventHelper.IsAnyPublishEventActiveExceptAsync(UDefType)
+  fullName: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public Task<bool> IsAnyPublishEventActiveExceptAsync(UDefType type)
     parameters:
     - id: type
       type: SuperOffice.Data.UDefType
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function IsPublishStartEventActive(type As UDefType) As Boolean
-  overload: SuperOffice.Data.SystemEventHelper.IsPublishStartEventActive*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function IsAnyPublishEventActiveExceptAsync(type As UDefType) As Task(Of Boolean)
+  overload: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExceptAsync*
+  implements:
+  - SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
+- uid: SuperOffice.Data.SystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.SystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  id: IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.SystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: IsPublishEventActiveAsync(UDefType)
+  nameWithType: SystemEventHelper.IsPublishEventActiveAsync(UDefType)
+  fullName: SuperOffice.Data.SystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public Task<bool> IsPublishEventActiveAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function IsPublishEventActiveAsync(type As UDefType) As Task(Of Boolean)
+  overload: SuperOffice.Data.SystemEventHelper.IsPublishEventActiveAsync*
+  implements:
+  - SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.SystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  id: IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.SystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: IsPublishStartEventActiveAsync(UDefType)
+  nameWithType: SystemEventHelper.IsPublishStartEventActiveAsync(UDefType)
+  fullName: SuperOffice.Data.SystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public Task<bool> IsPublishStartEventActiveAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function IsPublishStartEventActiveAsync(type As UDefType) As Task(Of Boolean)
+  overload: SuperOffice.Data.SystemEventHelper.IsPublishStartEventActiveAsync*
+  implements:
+  - SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SystemEventHelper.#ctor
+  commentId: M:SuperOffice.Data.SystemEventHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.SystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: SystemEventHelper()
+  nameWithType: SystemEventHelper.SystemEventHelper()
+  fullName: SuperOffice.Data.SystemEventHelper.SystemEventHelper()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public SystemEventHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.SystemEventHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -628,6 +682,13 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: SuperOffice.Data.ISystemEventHelper
+  commentId: T:SuperOffice.Data.ISystemEventHelper
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ISystemEventHelper
+  nameWithType: ISystemEventHelper
+  fullName: SuperOffice.Data.ISystemEventHelper
 - uid: SuperOffice.Data.SystemEventHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -655,6 +716,84 @@ references:
     name: MapEnums(Of SystemEventHelper, To)
     nameWithType: EnumUtil.MapEnums(Of SystemEventHelper, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SystemEventHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SystemEventHelper)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SystemEventHelper>(SystemEventHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<SystemEventHelper>(SystemEventHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SystemEventHelper>(SuperOffice.Data.SystemEventHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SystemEventHelper)(SystemEventHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SystemEventHelper)(SuperOffice.Data.SystemEventHelper)
+  name.vb: AssignByReflection(Of SystemEventHelper)(SystemEventHelper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SystemEventHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<SystemEventHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SystemEventHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SystemEventHelper
+    name: SystemEventHelper
+    nameWithType: SystemEventHelper
+    fullName: SuperOffice.Data.SystemEventHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SystemEventHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SystemEventHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SystemEventHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SystemEventHelper
+    name: SystemEventHelper
+    nameWithType: SystemEventHelper
+    fullName: SuperOffice.Data.SystemEventHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SystemEventHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<SystemEventHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SystemEventHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SystemEventHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SystemEventHelper)()
+  name.vb: GraphCopy(Of SystemEventHelper)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SystemEventHelper>
+    nameWithType: ObjectExtensions.GraphCopy<SystemEventHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SystemEventHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SystemEventHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of SystemEventHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SystemEventHelper)
     isExternal: true
   - name: (
     nameWithType: (
@@ -747,6 +886,103 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -793,6 +1029,12 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -825,50 +1067,246 @@ references:
   name: GetPublishStartSystemEventName
   nameWithType: SystemEventHelper.GetPublishStartSystemEventName
   fullName: SuperOffice.Data.SystemEventHelper.GetPublishStartSystemEventName
-- uid: SuperOffice.Data.SystemEventHelper.CreatePublishSystemEvent*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.CreatePublishSystemEvent
+- uid: SuperOffice.Data.SystemEventHelper.CreatePublishSystemEventAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.CreatePublishSystemEventAsync
   isExternal: true
-  name: CreatePublishSystemEvent
-  nameWithType: SystemEventHelper.CreatePublishSystemEvent
-  fullName: SuperOffice.Data.SystemEventHelper.CreatePublishSystemEvent
-- uid: SuperOffice.CRM.Rows.SystemEventRow
-  commentId: T:SuperOffice.CRM.Rows.SystemEventRow
-  parent: SuperOffice.CRM.Rows
+  name: CreatePublishSystemEventAsync
+  nameWithType: SystemEventHelper.CreatePublishSystemEventAsync
+  fullName: SuperOffice.Data.SystemEventHelper.CreatePublishSystemEventAsync
+- uid: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
   isExternal: true
-  name: SystemEventRow
-  nameWithType: SystemEventRow
-  fullName: SuperOffice.CRM.Rows.SystemEventRow
-- uid: SuperOffice.CRM.Rows
-  commentId: N:SuperOffice.CRM.Rows
+  name: CreatePublishSystemEventAsync(UDefType)
+  nameWithType: ISystemEventHelper.CreatePublishSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+    name: CreatePublishSystemEventAsync
+    nameWithType: ISystemEventHelper.CreatePublishSystemEventAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+    name: CreatePublishSystemEventAsync
+    nameWithType: ISystemEventHelper.CreatePublishSystemEventAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SystemEventRow}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SystemEventRow}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SystemEventRow>
+  nameWithType: Task<SystemEventRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.SystemEventRow>
+  nameWithType.vb: Task(Of SystemEventRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.SystemEventRow)
+  name.vb: Task(Of SystemEventRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SystemEventRow
+    name: SystemEventRow
+    nameWithType: SystemEventRow
+    fullName: SuperOffice.CRM.Rows.SystemEventRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SystemEventRow
+    name: SystemEventRow
+    nameWithType: SystemEventRow
+    fullName: SuperOffice.CRM.Rows.SystemEventRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: SuperOffice.CRM.Rows
-  nameWithType: SuperOffice.CRM.Rows
-  fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEvent*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEvent
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEventAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEventAsync
   isExternal: true
-  name: CreatePublishStartSystemEvent
-  nameWithType: SystemEventHelper.CreatePublishStartSystemEvent
-  fullName: SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEvent
-- uid: SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEvent*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEvent
+  name: CreatePublishStartSystemEventAsync
+  nameWithType: SystemEventHelper.CreatePublishStartSystemEventAsync
+  fullName: SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEventAsync
+- uid: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
   isExternal: true
-  name: CreateFreetextRebuildEvent
-  nameWithType: SystemEventHelper.CreateFreetextRebuildEvent
-  fullName: SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEvent
-- uid: SuperOffice.Data.ScopedSystemEvent
-  commentId: T:SuperOffice.Data.ScopedSystemEvent
-  parent: SuperOffice.Data
+  name: CreatePublishStartSystemEventAsync(UDefType)
+  nameWithType: ISystemEventHelper.CreatePublishStartSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+    name: CreatePublishStartSystemEventAsync
+    nameWithType: ISystemEventHelper.CreatePublishStartSystemEventAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+    name: CreatePublishStartSystemEventAsync
+    nameWithType: ISystemEventHelper.CreatePublishStartSystemEventAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEventAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEventAsync
   isExternal: true
-  name: ScopedSystemEvent
-  nameWithType: ScopedSystemEvent
-  fullName: SuperOffice.Data.ScopedSystemEvent
-- uid: SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEvent*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEvent
+  name: CreateFreetextRebuildEventAsync
+  nameWithType: SystemEventHelper.CreateFreetextRebuildEventAsync
+  fullName: SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEventAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: RemoveFreetextRebuildEvent
-  nameWithType: SystemEventHelper.RemoveFreetextRebuildEvent
-  fullName: SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEvent
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.ScopedSystemEvent}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.ScopedSystemEvent}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ScopedSystemEvent>
+  nameWithType: Task<ScopedSystemEvent>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.ScopedSystemEvent>
+  nameWithType.vb: Task(Of ScopedSystemEvent)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.ScopedSystemEvent)
+  name.vb: Task(Of ScopedSystemEvent)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.ScopedSystemEvent
+    name: ScopedSystemEvent
+    nameWithType: ScopedSystemEvent
+    fullName: SuperOffice.Data.ScopedSystemEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.ScopedSystemEvent
+    name: ScopedSystemEvent
+    nameWithType: ScopedSystemEvent
+    fullName: SuperOffice.Data.ScopedSystemEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEventAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEventAsync
+  isExternal: true
+  name: RemoveFreetextRebuildEventAsync
+  nameWithType: SystemEventHelper.RemoveFreetextRebuildEventAsync
+  fullName: SuperOffice.Data.SystemEventHelper.RemoveFreetextRebuildEventAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Data.SystemEventHelper.IsFreetextRebuildEventActive*
   commentId: Overload:SuperOffice.Data.SystemEventHelper.IsFreetextRebuildEventActive
   isExternal: true
@@ -882,18 +1320,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEvent*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEvent
+- uid: SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEventAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEventAsync
   isExternal: true
-  name: CreateCounterRebuildEvent
-  nameWithType: SystemEventHelper.CreateCounterRebuildEvent
-  fullName: SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEvent
-- uid: SuperOffice.Data.SystemEventHelper.CreateScopedEvent*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.CreateScopedEvent
+  name: CreateCounterRebuildEventAsync
+  nameWithType: SystemEventHelper.CreateCounterRebuildEventAsync
+  fullName: SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEventAsync
+- uid: SuperOffice.Data.SystemEventHelper.CreateScopedEventAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.CreateScopedEventAsync
   isExternal: true
-  name: CreateScopedEvent
-  nameWithType: SystemEventHelper.CreateScopedEvent
-  fullName: SuperOffice.Data.SystemEventHelper.CreateScopedEvent
+  name: CreateScopedEventAsync
+  nameWithType: SystemEventHelper.CreateScopedEventAsync
+  fullName: SuperOffice.Data.SystemEventHelper.CreateScopedEventAsync
 - uid: SuperOffice.Data.SystemEventHelper.Scope
   commentId: T:SuperOffice.Data.SystemEventHelper.Scope
   parent: SuperOffice.Data
@@ -908,51 +1346,336 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.Data.SystemEventHelper.RemoveScopedEvent*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.RemoveScopedEvent
+- uid: SuperOffice.Data.SystemEventHelper.RemoveScopedEventAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.RemoveScopedEventAsync
   isExternal: true
-  name: RemoveScopedEvent
-  nameWithType: SystemEventHelper.RemoveScopedEvent
-  fullName: SuperOffice.Data.SystemEventHelper.RemoveScopedEvent
-- uid: SuperOffice.Data.SystemEventHelper.IsScopedEventActive*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.IsScopedEventActive
+  name: RemoveScopedEventAsync
+  nameWithType: SystemEventHelper.RemoveScopedEventAsync
+  fullName: SuperOffice.Data.SystemEventHelper.RemoveScopedEventAsync
+- uid: SuperOffice.Data.SystemEventHelper.IsScopedEventActiveAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.IsScopedEventActiveAsync
   isExternal: true
-  name: IsScopedEventActive
-  nameWithType: SystemEventHelper.IsScopedEventActive
-  fullName: SuperOffice.Data.SystemEventHelper.IsScopedEventActive
-- uid: SuperOffice.Data.SystemEventHelper.RemovePublishSystemEvent*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.RemovePublishSystemEvent
+  name: IsScopedEventActiveAsync
+  nameWithType: SystemEventHelper.IsScopedEventActiveAsync
+  fullName: SuperOffice.Data.SystemEventHelper.IsScopedEventActiveAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.RemovePublishSystemEventAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.RemovePublishSystemEventAsync
   isExternal: true
-  name: RemovePublishSystemEvent
-  nameWithType: SystemEventHelper.RemovePublishSystemEvent
-  fullName: SuperOffice.Data.SystemEventHelper.RemovePublishSystemEvent
-- uid: SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEvent*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEvent
+  name: RemovePublishSystemEventAsync
+  nameWithType: SystemEventHelper.RemovePublishSystemEventAsync
+  fullName: SuperOffice.Data.SystemEventHelper.RemovePublishSystemEventAsync
+- uid: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
   isExternal: true
-  name: RemovePublishStartSystemEvent
-  nameWithType: SystemEventHelper.RemovePublishStartSystemEvent
-  fullName: SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEvent
-- uid: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActive*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActive
+  name: RemovePublishSystemEventAsync(UDefType)
+  nameWithType: ISystemEventHelper.RemovePublishSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+    name: RemovePublishSystemEventAsync
+    nameWithType: ISystemEventHelper.RemovePublishSystemEventAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+    name: RemovePublishSystemEventAsync
+    nameWithType: ISystemEventHelper.RemovePublishSystemEventAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEventAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEventAsync
   isExternal: true
-  name: IsAnyPublishEventActive
-  nameWithType: SystemEventHelper.IsAnyPublishEventActive
-  fullName: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActive
-- uid: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExcept*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExcept
+  name: RemovePublishStartSystemEventAsync
+  nameWithType: SystemEventHelper.RemovePublishStartSystemEventAsync
+  fullName: SuperOffice.Data.SystemEventHelper.RemovePublishStartSystemEventAsync
+- uid: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
   isExternal: true
-  name: IsAnyPublishEventActiveExcept
-  nameWithType: SystemEventHelper.IsAnyPublishEventActiveExcept
-  fullName: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExcept
-- uid: SuperOffice.Data.SystemEventHelper.IsPublishEventActive*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.IsPublishEventActive
+  name: RemovePublishStartSystemEventAsync(UDefType)
+  nameWithType: ISystemEventHelper.RemovePublishStartSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+    name: RemovePublishStartSystemEventAsync
+    nameWithType: ISystemEventHelper.RemovePublishStartSystemEventAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+    name: RemovePublishStartSystemEventAsync
+    nameWithType: ISystemEventHelper.RemovePublishStartSystemEventAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveAsync
   isExternal: true
-  name: IsPublishEventActive
-  nameWithType: SystemEventHelper.IsPublishEventActive
-  fullName: SuperOffice.Data.SystemEventHelper.IsPublishEventActive
-- uid: SuperOffice.Data.SystemEventHelper.IsPublishStartEventActive*
-  commentId: Overload:SuperOffice.Data.SystemEventHelper.IsPublishStartEventActive
+  name: IsAnyPublishEventActiveAsync
+  nameWithType: SystemEventHelper.IsAnyPublishEventActiveAsync
+  fullName: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveAsync
+- uid: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+  commentId: M:SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+  parent: SuperOffice.Data.ISystemEventHelper
   isExternal: true
-  name: IsPublishStartEventActive
-  nameWithType: SystemEventHelper.IsPublishStartEventActive
-  fullName: SuperOffice.Data.SystemEventHelper.IsPublishStartEventActive
+  name: IsAnyPublishEventActiveAsync()
+  nameWithType: ISystemEventHelper.IsAnyPublishEventActiveAsync()
+  fullName: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync()
+  spec.csharp:
+  - uid: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+    name: IsAnyPublishEventActiveAsync
+    nameWithType: ISystemEventHelper.IsAnyPublishEventActiveAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+    name: IsAnyPublishEventActiveAsync
+    nameWithType: ISystemEventHelper.IsAnyPublishEventActiveAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExceptAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExceptAsync
+  isExternal: true
+  name: IsAnyPublishEventActiveExceptAsync
+  nameWithType: SystemEventHelper.IsAnyPublishEventActiveExceptAsync
+  fullName: SuperOffice.Data.SystemEventHelper.IsAnyPublishEventActiveExceptAsync
+- uid: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
+  isExternal: true
+  name: IsAnyPublishEventActiveExceptAsync(UDefType)
+  nameWithType: ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+    name: IsAnyPublishEventActiveExceptAsync
+    nameWithType: ISystemEventHelper.IsAnyPublishEventActiveExceptAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+    name: IsAnyPublishEventActiveExceptAsync
+    nameWithType: ISystemEventHelper.IsAnyPublishEventActiveExceptAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.IsPublishEventActiveAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.IsPublishEventActiveAsync
+  isExternal: true
+  name: IsPublishEventActiveAsync
+  nameWithType: SystemEventHelper.IsPublishEventActiveAsync
+  fullName: SuperOffice.Data.SystemEventHelper.IsPublishEventActiveAsync
+- uid: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
+  isExternal: true
+  name: IsPublishEventActiveAsync(UDefType)
+  nameWithType: ISystemEventHelper.IsPublishEventActiveAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+    name: IsPublishEventActiveAsync
+    nameWithType: ISystemEventHelper.IsPublishEventActiveAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+    name: IsPublishEventActiveAsync
+    nameWithType: ISystemEventHelper.IsPublishEventActiveAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.IsPublishStartEventActiveAsync*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.IsPublishStartEventActiveAsync
+  isExternal: true
+  name: IsPublishStartEventActiveAsync
+  nameWithType: SystemEventHelper.IsPublishStartEventActiveAsync
+  fullName: SuperOffice.Data.SystemEventHelper.IsPublishStartEventActiveAsync
+- uid: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
+  isExternal: true
+  name: IsPublishStartEventActiveAsync(UDefType)
+  nameWithType: ISystemEventHelper.IsPublishStartEventActiveAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+    name: IsPublishStartEventActiveAsync
+    nameWithType: ISystemEventHelper.IsPublishStartEventActiveAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+    name: IsPublishStartEventActiveAsync
+    nameWithType: ISystemEventHelper.IsPublishStartEventActiveAsync
+    fullName: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SystemEventHelper.#ctor*
+  commentId: Overload:SuperOffice.Data.SystemEventHelper.#ctor
+  isExternal: true
+  name: SystemEventHelper
+  nameWithType: SystemEventHelper.SystemEventHelper
+  fullName: SuperOffice.Data.SystemEventHelper.SystemEventHelper

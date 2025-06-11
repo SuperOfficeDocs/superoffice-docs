@@ -42,8 +42,6 @@ items:
       Public Class ReportLabelLayoutEntity
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ReportAgent
-    commentId: T:SuperOffice.CRM.Services.ReportAgent
   - linkId: SuperOffice.CRM.Services.IReportAgent
     commentId: T:SuperOffice.CRM.Services.IReportAgent
   inheritance:
@@ -547,15 +545,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ReportAgent
-  commentId: T:SuperOffice.CRM.Services.ReportAgent
-  isExternal: true
-  name: ReportAgent
-  nameWithType: ReportAgent
-  fullName: SuperOffice.CRM.Services.ReportAgent
 - uid: SuperOffice.CRM.Services.IReportAgent
   commentId: T:SuperOffice.CRM.Services.IReportAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IReportAgent
   nameWithType: IReportAgent

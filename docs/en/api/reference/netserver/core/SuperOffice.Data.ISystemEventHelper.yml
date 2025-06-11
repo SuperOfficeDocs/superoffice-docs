@@ -1,0 +1,601 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ISystemEventHelper
+  commentId: T:SuperOffice.Data.ISystemEventHelper
+  id: ISystemEventHelper
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+  - SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  - SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  langs:
+  - csharp
+  - vb
+  name: ISystemEventHelper
+  nameWithType: ISystemEventHelper
+  fullName: SuperOffice.Data.ISystemEventHelper
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public interface ISystemEventHelper
+    content.vb: Public Interface ISystemEventHelper
+  extensionMethods:
+  - SuperOffice.Data.ISystemEventHelper.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ISystemEventHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  id: CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: CreatePublishStartSystemEventAsync(UDefType)
+  nameWithType: ISystemEventHelper.CreatePublishStartSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<SystemEventRow> CreatePublishStartSystemEventAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SystemEventRow}
+    content.vb: Function CreatePublishStartSystemEventAsync(type As UDefType) As Task(Of SystemEventRow)
+  overload: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync*
+- uid: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  id: CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: CreatePublishSystemEventAsync(UDefType)
+  nameWithType: ISystemEventHelper.CreatePublishSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<SystemEventRow> CreatePublishSystemEventAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SystemEventRow}
+    content.vb: Function CreatePublishSystemEventAsync(type As UDefType) As Task(Of SystemEventRow)
+  overload: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync*
+- uid: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+  commentId: M:SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+  id: IsAnyPublishEventActiveAsync
+  parent: SuperOffice.Data.ISystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: IsAnyPublishEventActiveAsync()
+  nameWithType: ISystemEventHelper.IsAnyPublishEventActiveAsync()
+  fullName: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<bool> IsAnyPublishEventActiveAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsAnyPublishEventActiveAsync As Task(Of Boolean)
+  overload: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync*
+- uid: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  id: IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: IsAnyPublishEventActiveExceptAsync(UDefType)
+  nameWithType: ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<bool> IsAnyPublishEventActiveExceptAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsAnyPublishEventActiveExceptAsync(type As UDefType) As Task(Of Boolean)
+  overload: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync*
+- uid: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  id: IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: IsPublishEventActiveAsync(UDefType)
+  nameWithType: ISystemEventHelper.IsPublishEventActiveAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<bool> IsPublishEventActiveAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsPublishEventActiveAsync(type As UDefType) As Task(Of Boolean)
+  overload: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync*
+- uid: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  id: IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: IsPublishStartEventActiveAsync(UDefType)
+  nameWithType: ISystemEventHelper.IsPublishStartEventActiveAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task<bool> IsPublishStartEventActiveAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsPublishStartEventActiveAsync(type As UDefType) As Task(Of Boolean)
+  overload: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync*
+- uid: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  id: RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: RemovePublishStartSystemEventAsync(UDefType)
+  nameWithType: ISystemEventHelper.RemovePublishStartSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task RemovePublishStartSystemEventAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemovePublishStartSystemEventAsync(type As UDefType) As Task
+  overload: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync*
+- uid: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  id: RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  parent: SuperOffice.Data.ISystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: RemovePublishSystemEventAsync(UDefType)
+  nameWithType: ISystemEventHelper.RemovePublishSystemEventAsync(UDefType)
+  fullName: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Task RemovePublishSystemEventAsync(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemovePublishSystemEventAsync(type As UDefType) As Task
+  overload: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync*
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ISystemEventHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISystemEventHelper, To>()
+  nameWithType: EnumUtil.MapEnums<ISystemEventHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ISystemEventHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISystemEventHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ISystemEventHelper, To)()
+  name.vb: MapEnums(Of ISystemEventHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISystemEventHelper, To>
+    nameWithType: EnumUtil.MapEnums<ISystemEventHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ISystemEventHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISystemEventHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of ISystemEventHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ISystemEventHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ISystemEventHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISystemEventHelper, To>()
+  nameWithType: Converters.MapEnums<ISystemEventHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISystemEventHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISystemEventHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISystemEventHelper, To)()
+  name.vb: MapEnums(Of ISystemEventHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISystemEventHelper, To>
+    nameWithType: Converters.MapEnums<ISystemEventHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISystemEventHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISystemEventHelper, To)
+    nameWithType: Converters.MapEnums(Of ISystemEventHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISystemEventHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync*
+  commentId: Overload:SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync
+  isExternal: true
+  name: CreatePublishStartSystemEventAsync
+  nameWithType: ISystemEventHelper.CreatePublishStartSystemEventAsync
+  fullName: SuperOffice.Data.ISystemEventHelper.CreatePublishStartSystemEventAsync
+- uid: SuperOffice.Data.UDefType
+  commentId: T:SuperOffice.Data.UDefType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.Data.UDefType
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SystemEventRow}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SystemEventRow}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SystemEventRow>
+  nameWithType: Task<SystemEventRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.SystemEventRow>
+  nameWithType.vb: Task(Of SystemEventRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.SystemEventRow)
+  name.vb: Task(Of SystemEventRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SystemEventRow
+    name: SystemEventRow
+    nameWithType: SystemEventRow
+    fullName: SuperOffice.CRM.Rows.SystemEventRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SystemEventRow
+    name: SystemEventRow
+    nameWithType: SystemEventRow
+    fullName: SuperOffice.CRM.Rows.SystemEventRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync*
+  commentId: Overload:SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync
+  isExternal: true
+  name: CreatePublishSystemEventAsync
+  nameWithType: ISystemEventHelper.CreatePublishSystemEventAsync
+  fullName: SuperOffice.Data.ISystemEventHelper.CreatePublishSystemEventAsync
+- uid: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync*
+  commentId: Overload:SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+  isExternal: true
+  name: IsAnyPublishEventActiveAsync
+  nameWithType: ISystemEventHelper.IsAnyPublishEventActiveAsync
+  fullName: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync*
+  commentId: Overload:SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync
+  isExternal: true
+  name: IsAnyPublishEventActiveExceptAsync
+  nameWithType: ISystemEventHelper.IsAnyPublishEventActiveExceptAsync
+  fullName: SuperOffice.Data.ISystemEventHelper.IsAnyPublishEventActiveExceptAsync
+- uid: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync*
+  commentId: Overload:SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync
+  isExternal: true
+  name: IsPublishEventActiveAsync
+  nameWithType: ISystemEventHelper.IsPublishEventActiveAsync
+  fullName: SuperOffice.Data.ISystemEventHelper.IsPublishEventActiveAsync
+- uid: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync*
+  commentId: Overload:SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync
+  isExternal: true
+  name: IsPublishStartEventActiveAsync
+  nameWithType: ISystemEventHelper.IsPublishStartEventActiveAsync
+  fullName: SuperOffice.Data.ISystemEventHelper.IsPublishStartEventActiveAsync
+- uid: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync*
+  commentId: Overload:SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync
+  isExternal: true
+  name: RemovePublishStartSystemEventAsync
+  nameWithType: ISystemEventHelper.RemovePublishStartSystemEventAsync
+  fullName: SuperOffice.Data.ISystemEventHelper.RemovePublishStartSystemEventAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync*
+  commentId: Overload:SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync
+  isExternal: true
+  name: RemovePublishSystemEventAsync
+  nameWithType: ISystemEventHelper.RemovePublishSystemEventAsync
+  fullName: SuperOffice.Data.ISystemEventHelper.RemovePublishSystemEventAsync

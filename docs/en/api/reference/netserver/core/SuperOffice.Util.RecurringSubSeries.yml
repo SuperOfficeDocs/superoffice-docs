@@ -19,8 +19,8 @@ items:
   - SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.DateTime)
   - SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.Int32)
   - SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries(System.Int32,System.Int32@)
-  - SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId(System.Int32)
-  - SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate(System.DateTime)
+  - SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDateAsync(System.DateTime,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -255,16 +255,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate(System.DateTime)
-  commentId: M:SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate(System.DateTime)
-  id: UpdateRecurringStartDate(System.DateTime)
+- uid: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDateAsync(System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDateAsync(System.DateTime,System.Threading.CancellationToken)
+  id: UpdateRecurringStartDateAsync(System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.Util.RecurringSubSeries
   langs:
   - csharp
   - vb
-  name: UpdateRecurringStartDate(DateTime)
-  nameWithType: RecurringSubSeries.UpdateRecurringStartDate(DateTime)
-  fullName: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate(System.DateTime)
+  name: UpdateRecurringStartDateAsync(DateTime, CancellationToken)
+  nameWithType: RecurringSubSeries.UpdateRecurringStartDateAsync(DateTime, CancellationToken)
+  fullName: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDateAsync(System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -273,26 +273,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public void UpdateRecurringStartDate(DateTime recurringStartDate)
+    content: public Task UpdateRecurringStartDateAsync(DateTime recurringStartDate, CancellationToken cancellationToken = null)
     parameters:
     - id: recurringStartDate
       type: System.DateTime
-    content.vb: Public Sub UpdateRecurringStartDate(recurringStartDate As DateTime)
-  overload: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function UpdateRecurringStartDateAsync(recurringStartDate As DateTime, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDateAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId(System.Int32)
-  commentId: M:SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId(System.Int32)
-  id: UpdateInvitationRootAppointmentId(System.Int32)
+- uid: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: UpdateInvitationRootAppointmentIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Util.RecurringSubSeries
   langs:
   - csharp
   - vb
-  name: UpdateInvitationRootAppointmentId(Int32)
-  nameWithType: RecurringSubSeries.UpdateInvitationRootAppointmentId(Int32)
-  fullName: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId(System.Int32)
+  name: UpdateInvitationRootAppointmentIdAsync(Int32, CancellationToken)
+  nameWithType: RecurringSubSeries.UpdateInvitationRootAppointmentIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -301,12 +305,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public void UpdateInvitationRootAppointmentId(int appointmentId)
+    content: public Task UpdateInvitationRootAppointmentIdAsync(int appointmentId, CancellationToken cancellationToken = null)
     parameters:
     - id: appointmentId
       type: System.Int32
-    content.vb: Public Sub UpdateInvitationRootAppointmentId(appointmentId As Integer)
-  overload: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function UpdateInvitationRootAppointmentIdAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentIdAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -847,18 +855,28 @@ references:
   name: GetAppointmentRecordData
   nameWithType: RecurringSubSeries.GetAppointmentRecordData
   fullName: SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData
-- uid: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate*
-  commentId: Overload:SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate
+- uid: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDateAsync*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDateAsync
   isExternal: true
-  name: UpdateRecurringStartDate
-  nameWithType: RecurringSubSeries.UpdateRecurringStartDate
-  fullName: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate
-- uid: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId*
-  commentId: Overload:SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId
+  name: UpdateRecurringStartDateAsync
+  nameWithType: RecurringSubSeries.UpdateRecurringStartDateAsync
+  fullName: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDateAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: UpdateInvitationRootAppointmentId
-  nameWithType: RecurringSubSeries.UpdateInvitationRootAppointmentId
-  fullName: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentIdAsync*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentIdAsync
+  isExternal: true
+  name: UpdateInvitationRootAppointmentIdAsync
+  nameWithType: RecurringSubSeries.UpdateInvitationRootAppointmentIdAsync
+  fullName: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentIdAsync
 - uid: SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries*
   commentId: Overload:SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries
   isExternal: true

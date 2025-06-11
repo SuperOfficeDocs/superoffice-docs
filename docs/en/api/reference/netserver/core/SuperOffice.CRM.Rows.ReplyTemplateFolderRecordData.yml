@@ -38,7 +38,7 @@ items:
   - SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData)
   - SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData.SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData.SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -359,34 +359,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData.SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData)
+- uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData.SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData)
-  name: ToInsert()
-  nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -572,17 +582,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData)
+- uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ReplyTemplateFolderRecordData)
-  nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsert(ReplyTemplateFolderRecordData)
-  fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData)
+  name: ToInsertAsync(ReplyTemplateFolderRecordData, CancellationToken)
+  nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(ReplyTemplateFolderRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData)
-    name: ToInsert
-    nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -591,15 +601,23 @@ references:
     name: ReplyTemplateFolderRecordData
     nameWithType: ReplyTemplateFolderRecordData
     fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData)
-    name: ToInsert
-    nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReplyTemplateFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -608,6 +626,14 @@ references:
     name: ReplyTemplateFolderRecordData
     nameWithType: ReplyTemplateFolderRecordData
     fullName: SuperOffice.CRM.Rows.ReplyTemplateFolderRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.SPictureEntryRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SPictureEntryRecordData)
   - SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
-  name: ToInsert()
-  nameWithType: SPictureEntryRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SPictureEntryRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SPictureEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SPictureEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SPictureEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SPictureEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SPictureEntryRecordData)
-  nameWithType: SPictureEntryRecordDataExtensions.ToInsert(SPictureEntryRecordData)
-  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  name: ToInsertAsync(SPictureEntryRecordData, CancellationToken)
+  nameWithType: SPictureEntryRecordDataExtensions.ToInsertAsync(SPictureEntryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
-    name: ToInsert
-    nameWithType: SPictureEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SPictureEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: SPictureEntryRecordData
     nameWithType: SPictureEntryRecordData
     fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
-    name: ToInsert
-    nameWithType: SPictureEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureEntryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SPictureEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: SPictureEntryRecordData
     nameWithType: SPictureEntryRecordData
     fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

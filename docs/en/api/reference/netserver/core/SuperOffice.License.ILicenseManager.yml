@@ -1,0 +1,1928 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License.ILicenseManager
+  commentId: T:SuperOffice.License.ILicenseManager
+  id: ILicenseManager
+  parent: SuperOffice.License
+  children:
+  - SuperOffice.License.ILicenseManager.ActivateLicenseInfoAsync(SuperOffice.License.ExtendedLicenseInfo,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.ChangeSerialNumberAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetAssociateLicenseUsageCountAsync(SuperOffice.Data.AssociateType,System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetCurrentLicenseAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetGrantedModuleLicenses(System.Int32)
+  - SuperOffice.License.ILicenseManager.GetLicenseForAllOwnersFromDBAsync(System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetLicenseFromDBAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetLicenseFromFileAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerWithAssignmentsAsync(System.String,System.Boolean,System.String,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetLicenseStateFromLicenseServerAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetModuleLicenseHistoryFromLicenseServerAsync(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetModuleOwnerAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetModuleOwnersAsync(System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetSatelliteLicensesAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetSatelliteLicenseUsageCountAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetShopUrlAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.GetUserLicensesAsync(System.Int32,SuperOffice.License.UserType,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.InitializeAsync
+  - SuperOffice.License.ILicenseManager.LicenseExists(System.String)
+  - SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.MapAndValidateLicenseWithDbAsync(SuperOffice.License.LicenseInfo,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.RemoveLicenseFromDBAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.UpgradeToNewPricelistAsync(System.String,System.String,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  - SuperOffice.License.ILicenseManager.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  - SuperOffice.License.ILicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ILicenseManager
+  nameWithType: ILicenseManager
+  fullName: SuperOffice.License.ILicenseManager
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  summary: "\nUtility class for dealing with licenses\n"
+  remarks: "\nAccessing this class is a 2 phase process, after getting the instance from the DI container you must also call <xref href=\"SuperOffice.License.ILicenseManager.InitializeAsync\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public interface ILicenseManager
+    content.vb: Public Interface ILicenseManager
+  extensionMethods:
+  - SuperOffice.License.ILicenseManager.EnumUtil.MapEnums``2
+  - SuperOffice.License.ILicenseManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.License.ILicenseManager.InitializeAsync
+  commentId: M:SuperOffice.License.ILicenseManager.InitializeAsync
+  id: InitializeAsync
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: InitializeAsync()
+  nameWithType: ILicenseManager.InitializeAsync()
+  fullName: SuperOffice.License.ILicenseManager.InitializeAsync()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  summary: "\nShould be called before using the license manager.\n"
+  syntax:
+    content: Task InitializeAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function InitializeAsync As Task
+  overload: SuperOffice.License.ILicenseManager.InitializeAsync*
+- uid: SuperOffice.License.ILicenseManager.UpgradeToNewPricelistAsync(System.String,System.String,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.UpgradeToNewPricelistAsync(System.String,System.String,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  id: UpgradeToNewPricelistAsync(System.String,System.String,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: UpgradeToNewPricelistAsync(String, String, String, ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  nameWithType: ILicenseManager.UpgradeToNewPricelistAsync(String, String, String, ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.UpgradeToNewPricelistAsync(System.String, System.String, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<bool> UpgradeToNewPricelistAsync(string systemUser, string password, string additionalInfo, ProgressEstimateCallback estimateCB, ProgressStepCallback stepCB, CancellationToken cancellationToken = null)
+    parameters:
+    - id: systemUser
+      type: System.String
+    - id: password
+      type: System.String
+    - id: additionalInfo
+      type: System.String
+    - id: estimateCB
+      type: SuperOffice.CRM.ProgressEstimateCallback
+    - id: stepCB
+      type: SuperOffice.CRM.ProgressStepCallback
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function UpgradeToNewPricelistAsync(systemUser As String, password As String, additionalInfo As String, estimateCB As ProgressEstimateCallback, stepCB As ProgressStepCallback, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.License.ILicenseManager.UpgradeToNewPricelistAsync*
+- uid: SuperOffice.License.ILicenseManager.ActivateLicenseInfoAsync(SuperOffice.License.ExtendedLicenseInfo,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.ActivateLicenseInfoAsync(SuperOffice.License.ExtendedLicenseInfo,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: ActivateLicenseInfoAsync(SuperOffice.License.ExtendedLicenseInfo,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: ActivateLicenseInfoAsync(ExtendedLicenseInfo, Boolean, Boolean, CancellationToken)
+  nameWithType: ILicenseManager.ActivateLicenseInfoAsync(ExtendedLicenseInfo, Boolean, Boolean, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.ActivateLicenseInfoAsync(SuperOffice.License.ExtendedLicenseInfo, System.Boolean, System.Boolean, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task ActivateLicenseInfoAsync(ExtendedLicenseInfo newLicense, bool checkSerialNumber = true, bool checkUserLicense = true, CancellationToken cancellationToken = null)
+    parameters:
+    - id: newLicense
+      type: SuperOffice.License.ExtendedLicenseInfo
+    - id: checkSerialNumber
+      type: System.Boolean
+    - id: checkUserLicense
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ActivateLicenseInfoAsync(newLicense As ExtendedLicenseInfo, checkSerialNumber As Boolean = True, checkUserLicense As Boolean = True, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.License.ILicenseManager.ActivateLicenseInfoAsync*
+- uid: SuperOffice.License.ILicenseManager.ChangeSerialNumberAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.ChangeSerialNumberAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: ChangeSerialNumberAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: ChangeSerialNumberAsync(String, String, CancellationToken)
+  nameWithType: ILicenseManager.ChangeSerialNumberAsync(String, String, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.ChangeSerialNumberAsync(System.String, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task ChangeSerialNumberAsync(string newCompanyName, string newSerialNumber, CancellationToken cancellationToken)
+    parameters:
+    - id: newCompanyName
+      type: System.String
+    - id: newSerialNumber
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ChangeSerialNumberAsync(newCompanyName As String, newSerialNumber As String, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.License.ILicenseManager.ChangeSerialNumberAsync*
+- uid: SuperOffice.License.ILicenseManager.GetAssociateLicenseUsageCountAsync(SuperOffice.Data.AssociateType,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetAssociateLicenseUsageCountAsync(SuperOffice.Data.AssociateType,System.Int32[],System.Threading.CancellationToken)
+  id: GetAssociateLicenseUsageCountAsync(SuperOffice.Data.AssociateType,System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateLicenseUsageCountAsync(AssociateType, Int32[], CancellationToken)
+  nameWithType: ILicenseManager.GetAssociateLicenseUsageCountAsync(AssociateType, Int32[], CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetAssociateLicenseUsageCountAsync(SuperOffice.Data.AssociateType, System.Int32[], System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<Dictionary<int, int>> GetAssociateLicenseUsageCountAsync(AssociateType associateType, int[] associateModules, CancellationToken cancellationToken = null)
+    parameters:
+    - id: associateType
+      type: SuperOffice.Data.AssociateType
+    - id: associateModules
+      type: System.Int32[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.Int32,System.Int32}}
+    content.vb: Function GetAssociateLicenseUsageCountAsync(associateType As AssociateType, associateModules As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Dictionary(Of Integer, Integer))
+  overload: SuperOffice.License.ILicenseManager.GetAssociateLicenseUsageCountAsync*
+  nameWithType.vb: ILicenseManager.GetAssociateLicenseUsageCountAsync(AssociateType, Int32(), CancellationToken)
+  fullName.vb: SuperOffice.License.ILicenseManager.GetAssociateLicenseUsageCountAsync(SuperOffice.Data.AssociateType, System.Int32(), System.Threading.CancellationToken)
+  name.vb: GetAssociateLicenseUsageCountAsync(AssociateType, Int32(), CancellationToken)
+- uid: SuperOffice.License.ILicenseManager.GetCurrentLicenseAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetCurrentLicenseAsync(System.String,System.Threading.CancellationToken)
+  id: GetCurrentLicenseAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentLicenseAsync(String, CancellationToken)
+  nameWithType: ILicenseManager.GetCurrentLicenseAsync(String, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetCurrentLicenseAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<ValueTuple<LicenseInfo, DateTime>> GetCurrentLicenseAsync(string moduleOwner, CancellationToken cancellationToken = null)
+    parameters:
+    - id: moduleOwner
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.License.LicenseInfo,System.DateTime}}
+    content.vb: Function GetCurrentLicenseAsync(moduleOwner As String, cancellationToken As CancellationToken = Nothing) As Task(Of ValueTuple(Of LicenseInfo, DateTime))
+  overload: SuperOffice.License.ILicenseManager.GetCurrentLicenseAsync*
+- uid: SuperOffice.License.ILicenseManager.GetGrantedModuleLicenses(System.Int32)
+  commentId: M:SuperOffice.License.ILicenseManager.GetGrantedModuleLicenses(System.Int32)
+  id: GetGrantedModuleLicenses(System.Int32)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetGrantedModuleLicenses(Int32)
+  nameWithType: ILicenseManager.GetGrantedModuleLicenses(Int32)
+  fullName: SuperOffice.License.ILicenseManager.GetGrantedModuleLicenses(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: GrantedModuleLicense[] GetGrantedModuleLicenses(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.GrantedModuleLicense[]
+    content.vb: Function GetGrantedModuleLicenses(associateId As Integer) As GrantedModuleLicense()
+  overload: SuperOffice.License.ILicenseManager.GetGrantedModuleLicenses*
+- uid: SuperOffice.License.ILicenseManager.GetLicenseForAllOwnersFromDBAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetLicenseForAllOwnersFromDBAsync(System.Threading.CancellationToken)
+  id: GetLicenseForAllOwnersFromDBAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseForAllOwnersFromDBAsync(CancellationToken)
+  nameWithType: ILicenseManager.GetLicenseForAllOwnersFromDBAsync(CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseForAllOwnersFromDBAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<ExtendedLicenseInfo[]> GetLicenseForAllOwnersFromDBAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfo[]}
+    content.vb: Function GetLicenseForAllOwnersFromDBAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ExtendedLicenseInfo())
+  overload: SuperOffice.License.ILicenseManager.GetLicenseForAllOwnersFromDBAsync*
+- uid: SuperOffice.License.ILicenseManager.GetLicenseFromDBAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetLicenseFromDBAsync(System.String,System.Threading.CancellationToken)
+  id: GetLicenseFromDBAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseFromDBAsync(String, CancellationToken)
+  nameWithType: ILicenseManager.GetLicenseFromDBAsync(String, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseFromDBAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<ExtendedLicenseInfo> GetLicenseFromDBAsync(string ownerName, CancellationToken cancellationToken = null)
+    parameters:
+    - id: ownerName
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfo}
+    content.vb: Function GetLicenseFromDBAsync(ownerName As String, cancellationToken As CancellationToken = Nothing) As Task(Of ExtendedLicenseInfo)
+  overload: SuperOffice.License.ILicenseManager.GetLicenseFromDBAsync*
+- uid: SuperOffice.License.ILicenseManager.GetLicenseFromFileAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetLicenseFromFileAsync(System.String,System.Threading.CancellationToken)
+  id: GetLicenseFromFileAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseFromFileAsync(String, CancellationToken)
+  nameWithType: ILicenseManager.GetLicenseFromFileAsync(String, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseFromFileAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<ExtendedLicenseInfo> GetLicenseFromFileAsync(string fileContent, CancellationToken cancellationToken)
+    parameters:
+    - id: fileContent
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfo}
+    content.vb: Function GetLicenseFromFileAsync(fileContent As String, cancellationToken As CancellationToken) As Task(Of ExtendedLicenseInfo)
+  overload: SuperOffice.License.ILicenseManager.GetLicenseFromFileAsync*
+- uid: SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetLicenseFromLicenseServerAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseFromLicenseServerAsync(String, String, CancellationToken)
+  nameWithType: ILicenseManager.GetLicenseFromLicenseServerAsync(String, String, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerAsync(System.String, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<ExtendedLicenseInfo> GetLicenseFromLicenseServerAsync(string ownerName, string additionalInfo = null, CancellationToken cancellationToken = null)
+    parameters:
+    - id: ownerName
+      type: System.String
+    - id: additionalInfo
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfo}
+    content.vb: Function GetLicenseFromLicenseServerAsync(ownerName As String, additionalInfo As String = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of ExtendedLicenseInfo)
+  overload: SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerAsync*
+- uid: SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerWithAssignmentsAsync(System.String,System.Boolean,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerWithAssignmentsAsync(System.String,System.Boolean,System.String,System.Threading.CancellationToken)
+  id: GetLicenseFromLicenseServerWithAssignmentsAsync(System.String,System.Boolean,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseFromLicenseServerWithAssignmentsAsync(String, Boolean, String, CancellationToken)
+  nameWithType: ILicenseManager.GetLicenseFromLicenseServerWithAssignmentsAsync(String, Boolean, String, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerWithAssignmentsAsync(System.String, System.Boolean, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<ExtendedLicenseInfoWithAssignments> GetLicenseFromLicenseServerWithAssignmentsAsync(string ownerName, bool isTestUpgrade = false, string licenseUrl = null, CancellationToken cancellationToken = null)
+    parameters:
+    - id: ownerName
+      type: System.String
+    - id: isTestUpgrade
+      type: System.Boolean
+    - id: licenseUrl
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfoWithAssignments}
+    content.vb: Function GetLicenseFromLicenseServerWithAssignmentsAsync(ownerName As String, isTestUpgrade As Boolean = False, licenseUrl As String = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of ExtendedLicenseInfoWithAssignments)
+  overload: SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerWithAssignmentsAsync*
+- uid: SuperOffice.License.ILicenseManager.GetLicenseStateFromLicenseServerAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetLicenseStateFromLicenseServerAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetLicenseStateFromLicenseServerAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseStateFromLicenseServerAsync(String, String, CancellationToken)
+  nameWithType: ILicenseManager.GetLicenseStateFromLicenseServerAsync(String, String, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseStateFromLicenseServerAsync(System.String, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<CheckLicenseStatusResult> GetLicenseStateFromLicenseServerAsync(string ownerName, string additionalInfo = null, CancellationToken cancellationToken = null)
+    parameters:
+    - id: ownerName
+      type: System.String
+    - id: additionalInfo
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.License.CheckLicenseStatusResult}
+    content.vb: Function GetLicenseStateFromLicenseServerAsync(ownerName As String, additionalInfo As String = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of CheckLicenseStatusResult)
+  overload: SuperOffice.License.ILicenseManager.GetLicenseStateFromLicenseServerAsync*
+- uid: SuperOffice.License.ILicenseManager.GetModuleLicenseHistoryFromLicenseServerAsync(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetModuleLicenseHistoryFromLicenseServerAsync(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense,System.Threading.CancellationToken)
+  id: GetModuleLicenseHistoryFromLicenseServerAsync(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetModuleLicenseHistoryFromLicenseServerAsync(ExtendedLicenseInfo, ExtendedModuleLicense, CancellationToken)
+  nameWithType: ILicenseManager.GetModuleLicenseHistoryFromLicenseServerAsync(ExtendedLicenseInfo, ExtendedModuleLicense, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetModuleLicenseHistoryFromLicenseServerAsync(SuperOffice.License.ExtendedLicenseInfo, SuperOffice.License.ExtendedModuleLicense, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<string> GetModuleLicenseHistoryFromLicenseServerAsync(ExtendedLicenseInfo licenseInfo, ExtendedModuleLicense moduleLicense, CancellationToken cancellationToken = null)
+    parameters:
+    - id: licenseInfo
+      type: SuperOffice.License.ExtendedLicenseInfo
+    - id: moduleLicense
+      type: SuperOffice.License.ExtendedModuleLicense
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetModuleLicenseHistoryFromLicenseServerAsync(licenseInfo As ExtendedLicenseInfo, moduleLicense As ExtendedModuleLicense, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.License.ILicenseManager.GetModuleLicenseHistoryFromLicenseServerAsync*
+- uid: SuperOffice.License.ILicenseManager.GetModuleOwnerAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetModuleOwnerAsync(System.String,System.Threading.CancellationToken)
+  id: GetModuleOwnerAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetModuleOwnerAsync(String, CancellationToken)
+  nameWithType: ILicenseManager.GetModuleOwnerAsync(String, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetModuleOwnerAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<ModuleOwnerRow> GetModuleOwnerAsync(string moduleOwner, CancellationToken cancellationToken)
+    parameters:
+    - id: moduleOwner
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ModuleOwnerRow}
+    content.vb: Function GetModuleOwnerAsync(moduleOwner As String, cancellationToken As CancellationToken) As Task(Of ModuleOwnerRow)
+  overload: SuperOffice.License.ILicenseManager.GetModuleOwnerAsync*
+- uid: SuperOffice.License.ILicenseManager.GetModuleOwnersAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetModuleOwnersAsync(System.Threading.CancellationToken)
+  id: GetModuleOwnersAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetModuleOwnersAsync(CancellationToken)
+  nameWithType: ILicenseManager.GetModuleOwnersAsync(CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetModuleOwnersAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<ModuleOwnerRow[]> GetModuleOwnersAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ModuleOwnerRow[]}
+    content.vb: Function GetModuleOwnersAsync(cancellationToken As CancellationToken) As Task(Of ModuleOwnerRow())
+  overload: SuperOffice.License.ILicenseManager.GetModuleOwnersAsync*
+- uid: SuperOffice.License.ILicenseManager.GetSatelliteLicensesAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetSatelliteLicensesAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: GetSatelliteLicensesAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetSatelliteLicensesAsync(Int32, Boolean, CancellationToken)
+  nameWithType: ILicenseManager.GetSatelliteLicensesAsync(Int32, Boolean, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetSatelliteLicensesAsync(System.Int32, System.Boolean, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<SatelliteModuleLicenseOwner[]> GetSatelliteLicensesAsync(int satelliteId, bool fetchForCentralIfSatelliteIdIsZero, CancellationToken cancellationToken = null)
+    parameters:
+    - id: satelliteId
+      type: System.Int32
+    - id: fetchForCentralIfSatelliteIdIsZero
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.License.SatelliteModuleLicenseOwner[]}
+    content.vb: Function GetSatelliteLicensesAsync(satelliteId As Integer, fetchForCentralIfSatelliteIdIsZero As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of SatelliteModuleLicenseOwner())
+  overload: SuperOffice.License.ILicenseManager.GetSatelliteLicensesAsync*
+- uid: SuperOffice.License.ILicenseManager.GetSatelliteLicenseUsageCountAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetSatelliteLicenseUsageCountAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetSatelliteLicenseUsageCountAsync(System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetSatelliteLicenseUsageCountAsync(Int32[], CancellationToken)
+  nameWithType: ILicenseManager.GetSatelliteLicenseUsageCountAsync(Int32[], CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetSatelliteLicenseUsageCountAsync(System.Int32[], System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<Dictionary<int, int>> GetSatelliteLicenseUsageCountAsync(int[] satelliteModules, CancellationToken cancellationToken = null)
+    parameters:
+    - id: satelliteModules
+      type: System.Int32[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.Int32,System.Int32}}
+    content.vb: Function GetSatelliteLicenseUsageCountAsync(satelliteModules As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Dictionary(Of Integer, Integer))
+  overload: SuperOffice.License.ILicenseManager.GetSatelliteLicenseUsageCountAsync*
+  nameWithType.vb: ILicenseManager.GetSatelliteLicenseUsageCountAsync(Int32(), CancellationToken)
+  fullName.vb: SuperOffice.License.ILicenseManager.GetSatelliteLicenseUsageCountAsync(System.Int32(), System.Threading.CancellationToken)
+  name.vb: GetSatelliteLicenseUsageCountAsync(Int32(), CancellationToken)
+- uid: SuperOffice.License.ILicenseManager.GetShopUrlAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetShopUrlAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetShopUrlAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetShopUrlAsync(String, String, CancellationToken)
+  nameWithType: ILicenseManager.GetShopUrlAsync(String, String, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetShopUrlAsync(System.String, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<string> GetShopUrlAsync(string ownerName, string context, CancellationToken cancellationToken)
+    parameters:
+    - id: ownerName
+      type: System.String
+    - id: context
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetShopUrlAsync(ownerName As String, context As String, cancellationToken As CancellationToken) As Task(Of String)
+  overload: SuperOffice.License.ILicenseManager.GetShopUrlAsync*
+- uid: SuperOffice.License.ILicenseManager.GetUserLicensesAsync(System.Int32,SuperOffice.License.UserType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.GetUserLicensesAsync(System.Int32,SuperOffice.License.UserType,System.Threading.CancellationToken)
+  id: GetUserLicensesAsync(System.Int32,SuperOffice.License.UserType,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: GetUserLicensesAsync(Int32, UserType, CancellationToken)
+  nameWithType: ILicenseManager.GetUserLicensesAsync(Int32, UserType, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.GetUserLicensesAsync(System.Int32, SuperOffice.License.UserType, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<AssociateModuleLicenseOwner[]> GetUserLicensesAsync(int associateId, UserType allowedType, CancellationToken cancellationToken = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: allowedType
+      type: SuperOffice.License.UserType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.License.AssociateModuleLicenseOwner[]}
+    content.vb: Function GetUserLicensesAsync(associateId As Integer, allowedType As UserType, cancellationToken As CancellationToken = Nothing) As Task(Of AssociateModuleLicenseOwner())
+  overload: SuperOffice.License.ILicenseManager.GetUserLicensesAsync*
+- uid: SuperOffice.License.ILicenseManager.LicenseExists(System.String)
+  commentId: M:SuperOffice.License.ILicenseManager.LicenseExists(System.String)
+  id: LicenseExists(System.String)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: LicenseExists(String)
+  nameWithType: ILicenseManager.LicenseExists(String)
+  fullName: SuperOffice.License.ILicenseManager.LicenseExists(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: bool LicenseExists(string license)
+    parameters:
+    - id: license
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function LicenseExists(license As String) As Boolean
+  overload: SuperOffice.License.ILicenseManager.LicenseExists*
+- uid: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  id: LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: LoadNewLicenseFromServerIfNeededAsync(CancellationToken)
+  nameWithType: ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task LoadNewLicenseFromServerIfNeededAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function LoadNewLicenseFromServerIfNeededAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync*
+- uid: SuperOffice.License.ILicenseManager.MapAndValidateLicenseWithDbAsync(SuperOffice.License.LicenseInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.MapAndValidateLicenseWithDbAsync(SuperOffice.License.LicenseInfo,System.Threading.CancellationToken)
+  id: MapAndValidateLicenseWithDbAsync(SuperOffice.License.LicenseInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: MapAndValidateLicenseWithDbAsync(LicenseInfo, CancellationToken)
+  nameWithType: ILicenseManager.MapAndValidateLicenseWithDbAsync(LicenseInfo, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.MapAndValidateLicenseWithDbAsync(SuperOffice.License.LicenseInfo, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task<ExtendedLicenseInfo> MapAndValidateLicenseWithDbAsync(LicenseInfo newLicense, CancellationToken cancellationToken)
+    parameters:
+    - id: newLicense
+      type: SuperOffice.License.LicenseInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfo}
+    content.vb: Function MapAndValidateLicenseWithDbAsync(newLicense As LicenseInfo, cancellationToken As CancellationToken) As Task(Of ExtendedLicenseInfo)
+  overload: SuperOffice.License.ILicenseManager.MapAndValidateLicenseWithDbAsync*
+- uid: SuperOffice.License.ILicenseManager.RemoveLicenseFromDBAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.License.ILicenseManager.RemoveLicenseFromDBAsync(System.String,System.Threading.CancellationToken)
+  id: RemoveLicenseFromDBAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: RemoveLicenseFromDBAsync(String, CancellationToken)
+  nameWithType: ILicenseManager.RemoveLicenseFromDBAsync(String, CancellationToken)
+  fullName: SuperOffice.License.ILicenseManager.RemoveLicenseFromDBAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: Task RemoveLicenseFromDBAsync(string ownerName, CancellationToken cancellationToken = null)
+    parameters:
+    - id: ownerName
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveLicenseFromDBAsync(ownerName As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.License.ILicenseManager.RemoveLicenseFromDBAsync*
+- uid: SuperOffice.License.ILicenseManager.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  commentId: M:SuperOffice.License.ILicenseManager.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  id: ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: ValidateLicenseInfo(ExtendedLicenseInfo)
+  nameWithType: ILicenseManager.ValidateLicenseInfo(ExtendedLicenseInfo)
+  fullName: SuperOffice.License.ILicenseManager.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: void ValidateLicenseInfo(ExtendedLicenseInfo licenseInfo)
+    parameters:
+    - id: licenseInfo
+      type: SuperOffice.License.ExtendedLicenseInfo
+    content.vb: Sub ValidateLicenseInfo(licenseInfo As ExtendedLicenseInfo)
+  overload: SuperOffice.License.ILicenseManager.ValidateLicenseInfo*
+- uid: SuperOffice.License.ILicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo,System.Boolean)
+  commentId: M:SuperOffice.License.ILicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo,System.Boolean)
+  id: ValidateLicenseInfo(SuperOffice.License.LicenseInfo,System.Boolean)
+  parent: SuperOffice.License.ILicenseManager
+  langs:
+  - csharp
+  - vb
+  name: ValidateLicenseInfo(LicenseInfo, Boolean)
+  nameWithType: ILicenseManager.ValidateLicenseInfo(LicenseInfo, Boolean)
+  fullName: SuperOffice.License.ILicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: void ValidateLicenseInfo(LicenseInfo licenseInfo, bool checkSerialNumber = true)
+    parameters:
+    - id: licenseInfo
+      type: SuperOffice.License.LicenseInfo
+    - id: checkSerialNumber
+      type: System.Boolean
+    content.vb: Sub ValidateLicenseInfo(licenseInfo As LicenseInfo, checkSerialNumber As Boolean = True)
+  overload: SuperOffice.License.ILicenseManager.ValidateLicenseInfo*
+references:
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+- uid: SuperOffice.License.ILicenseManager.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ILicenseManager, To>()
+  nameWithType: EnumUtil.MapEnums<ILicenseManager, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.License.ILicenseManager, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ILicenseManager, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.ILicenseManager, To)()
+  name.vb: MapEnums(Of ILicenseManager, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ILicenseManager, To>
+    nameWithType: EnumUtil.MapEnums<ILicenseManager, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.License.ILicenseManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ILicenseManager, To)
+    nameWithType: EnumUtil.MapEnums(Of ILicenseManager, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.License.ILicenseManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ILicenseManager, To>()
+  nameWithType: Converters.MapEnums<ILicenseManager, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.ILicenseManager, To>()
+  nameWithType.vb: Converters.MapEnums(Of ILicenseManager, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.ILicenseManager, To)()
+  name.vb: MapEnums(Of ILicenseManager, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ILicenseManager, To>
+    nameWithType: Converters.MapEnums<ILicenseManager, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.ILicenseManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ILicenseManager, To)
+    nameWithType: Converters.MapEnums(Of ILicenseManager, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.ILicenseManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.License.ILicenseManager.InitializeAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.InitializeAsync
+  isExternal: true
+  name: InitializeAsync
+  nameWithType: ILicenseManager.InitializeAsync
+  fullName: SuperOffice.License.ILicenseManager.InitializeAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.License.ILicenseManager.UpgradeToNewPricelistAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.UpgradeToNewPricelistAsync
+  isExternal: true
+  name: UpgradeToNewPricelistAsync
+  nameWithType: ILicenseManager.UpgradeToNewPricelistAsync
+  fullName: SuperOffice.License.ILicenseManager.UpgradeToNewPricelistAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ProgressEstimateCallback
+  commentId: T:SuperOffice.CRM.ProgressEstimateCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressEstimateCallback
+  nameWithType: ProgressEstimateCallback
+  fullName: SuperOffice.CRM.ProgressEstimateCallback
+- uid: SuperOffice.CRM.ProgressStepCallback
+  commentId: T:SuperOffice.CRM.ProgressStepCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressStepCallback
+  nameWithType: ProgressStepCallback
+  fullName: SuperOffice.CRM.ProgressStepCallback
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.ActivateLicenseInfoAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.ActivateLicenseInfoAsync
+  isExternal: true
+  name: ActivateLicenseInfoAsync
+  nameWithType: ILicenseManager.ActivateLicenseInfoAsync
+  fullName: SuperOffice.License.ILicenseManager.ActivateLicenseInfoAsync
+- uid: SuperOffice.License.ExtendedLicenseInfo
+  commentId: T:SuperOffice.License.ExtendedLicenseInfo
+  parent: SuperOffice.License
+  isExternal: true
+  name: ExtendedLicenseInfo
+  nameWithType: ExtendedLicenseInfo
+  fullName: SuperOffice.License.ExtendedLicenseInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.License.ILicenseManager.ChangeSerialNumberAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.ChangeSerialNumberAsync
+  isExternal: true
+  name: ChangeSerialNumberAsync
+  nameWithType: ILicenseManager.ChangeSerialNumberAsync
+  fullName: SuperOffice.License.ILicenseManager.ChangeSerialNumberAsync
+- uid: SuperOffice.License.ILicenseManager.GetAssociateLicenseUsageCountAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetAssociateLicenseUsageCountAsync
+  isExternal: true
+  name: GetAssociateLicenseUsageCountAsync
+  nameWithType: ILicenseManager.GetAssociateLicenseUsageCountAsync
+  fullName: SuperOffice.License.ILicenseManager.GetAssociateLicenseUsageCountAsync
+- uid: SuperOffice.Data.AssociateType
+  commentId: T:SuperOffice.Data.AssociateType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AssociateType
+  nameWithType: AssociateType
+  fullName: SuperOffice.Data.AssociateType
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.Int32,System.Int32}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.Int32,System.Int32}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Dictionary<Int32, Int32>>
+  nameWithType: Task<Dictionary<Int32, Int32>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<System.Int32, System.Int32>>
+  nameWithType.vb: Task(Of Dictionary(Of Int32, Int32))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of System.Int32, System.Int32))
+  name.vb: Task(Of Dictionary(Of Int32, Int32))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.License.ILicenseManager.GetCurrentLicenseAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetCurrentLicenseAsync
+  isExternal: true
+  name: GetCurrentLicenseAsync
+  nameWithType: ILicenseManager.GetCurrentLicenseAsync
+  fullName: SuperOffice.License.ILicenseManager.GetCurrentLicenseAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.License.LicenseInfo,System.DateTime}}
+  commentId: '!:System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.License.LicenseInfo,System.DateTime}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ValueTuple<LicenseInfo, DateTime>>
+  nameWithType: Task<ValueTuple<LicenseInfo, DateTime>>
+  fullName: System.Threading.Tasks.Task<System.ValueTuple<SuperOffice.License.LicenseInfo, System.DateTime>>
+  nameWithType.vb: Task(Of ValueTuple(Of LicenseInfo, DateTime))
+  fullName.vb: System.Threading.Tasks.Task(Of System.ValueTuple(Of SuperOffice.License.LicenseInfo, System.DateTime))
+  name.vb: Task(Of ValueTuple(Of LicenseInfo, DateTime))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.License.LicenseInfo
+    name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.License.LicenseInfo
+    name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.GetGrantedModuleLicenses*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetGrantedModuleLicenses
+  isExternal: true
+  name: GetGrantedModuleLicenses
+  nameWithType: ILicenseManager.GetGrantedModuleLicenses
+  fullName: SuperOffice.License.ILicenseManager.GetGrantedModuleLicenses
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense[]
+  isExternal: true
+  name: GrantedModuleLicense[]
+  nameWithType: GrantedModuleLicense[]
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense[]
+  nameWithType.vb: GrantedModuleLicense()
+  fullName.vb: SuperOffice.CRM.Services.GrantedModuleLicense()
+  name.vb: GrantedModuleLicense()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.GrantedModuleLicense
+    name: GrantedModuleLicense
+    nameWithType: GrantedModuleLicense
+    fullName: SuperOffice.CRM.Services.GrantedModuleLicense
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.GrantedModuleLicense
+    name: GrantedModuleLicense
+    nameWithType: GrantedModuleLicense
+    fullName: SuperOffice.CRM.Services.GrantedModuleLicense
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.License.ILicenseManager.GetLicenseForAllOwnersFromDBAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetLicenseForAllOwnersFromDBAsync
+  isExternal: true
+  name: GetLicenseForAllOwnersFromDBAsync
+  nameWithType: ILicenseManager.GetLicenseForAllOwnersFromDBAsync
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseForAllOwnersFromDBAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ExtendedLicenseInfo[]>
+  nameWithType: Task<ExtendedLicenseInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.License.ExtendedLicenseInfo[]>
+  nameWithType.vb: Task(Of ExtendedLicenseInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.License.ExtendedLicenseInfo())
+  name.vb: Task(Of ExtendedLicenseInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.GetLicenseFromDBAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetLicenseFromDBAsync
+  isExternal: true
+  name: GetLicenseFromDBAsync
+  nameWithType: ILicenseManager.GetLicenseFromDBAsync
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseFromDBAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ExtendedLicenseInfo>
+  nameWithType: Task<ExtendedLicenseInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.License.ExtendedLicenseInfo>
+  nameWithType.vb: Task(Of ExtendedLicenseInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.License.ExtendedLicenseInfo)
+  name.vb: Task(Of ExtendedLicenseInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.GetLicenseFromFileAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetLicenseFromFileAsync
+  isExternal: true
+  name: GetLicenseFromFileAsync
+  nameWithType: ILicenseManager.GetLicenseFromFileAsync
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseFromFileAsync
+- uid: SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerAsync
+  isExternal: true
+  name: GetLicenseFromLicenseServerAsync
+  nameWithType: ILicenseManager.GetLicenseFromLicenseServerAsync
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerAsync
+- uid: SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerWithAssignmentsAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerWithAssignmentsAsync
+  isExternal: true
+  name: GetLicenseFromLicenseServerWithAssignmentsAsync
+  nameWithType: ILicenseManager.GetLicenseFromLicenseServerWithAssignmentsAsync
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseFromLicenseServerWithAssignmentsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfoWithAssignments}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.License.ExtendedLicenseInfoWithAssignments}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ExtendedLicenseInfoWithAssignments>
+  nameWithType: Task<ExtendedLicenseInfoWithAssignments>
+  fullName: System.Threading.Tasks.Task<SuperOffice.License.ExtendedLicenseInfoWithAssignments>
+  nameWithType.vb: Task(Of ExtendedLicenseInfoWithAssignments)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.License.ExtendedLicenseInfoWithAssignments)
+  name.vb: Task(Of ExtendedLicenseInfoWithAssignments)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.License.ExtendedLicenseInfoWithAssignments
+    name: ExtendedLicenseInfoWithAssignments
+    nameWithType: ExtendedLicenseInfoWithAssignments
+    fullName: SuperOffice.License.ExtendedLicenseInfoWithAssignments
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.License.ExtendedLicenseInfoWithAssignments
+    name: ExtendedLicenseInfoWithAssignments
+    nameWithType: ExtendedLicenseInfoWithAssignments
+    fullName: SuperOffice.License.ExtendedLicenseInfoWithAssignments
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.GetLicenseStateFromLicenseServerAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetLicenseStateFromLicenseServerAsync
+  isExternal: true
+  name: GetLicenseStateFromLicenseServerAsync
+  nameWithType: ILicenseManager.GetLicenseStateFromLicenseServerAsync
+  fullName: SuperOffice.License.ILicenseManager.GetLicenseStateFromLicenseServerAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.License.CheckLicenseStatusResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.License.CheckLicenseStatusResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CheckLicenseStatusResult>
+  nameWithType: Task<CheckLicenseStatusResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.License.CheckLicenseStatusResult>
+  nameWithType.vb: Task(Of CheckLicenseStatusResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.License.CheckLicenseStatusResult)
+  name.vb: Task(Of CheckLicenseStatusResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.License.CheckLicenseStatusResult
+    name: CheckLicenseStatusResult
+    nameWithType: CheckLicenseStatusResult
+    fullName: SuperOffice.License.CheckLicenseStatusResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.License.CheckLicenseStatusResult
+    name: CheckLicenseStatusResult
+    nameWithType: CheckLicenseStatusResult
+    fullName: SuperOffice.License.CheckLicenseStatusResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.GetModuleLicenseHistoryFromLicenseServerAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetModuleLicenseHistoryFromLicenseServerAsync
+  isExternal: true
+  name: GetModuleLicenseHistoryFromLicenseServerAsync
+  nameWithType: ILicenseManager.GetModuleLicenseHistoryFromLicenseServerAsync
+  fullName: SuperOffice.License.ILicenseManager.GetModuleLicenseHistoryFromLicenseServerAsync
+- uid: SuperOffice.License.ExtendedModuleLicense
+  commentId: T:SuperOffice.License.ExtendedModuleLicense
+  parent: SuperOffice.License
+  isExternal: true
+  name: ExtendedModuleLicense
+  nameWithType: ExtendedModuleLicense
+  fullName: SuperOffice.License.ExtendedModuleLicense
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.GetModuleOwnerAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetModuleOwnerAsync
+  isExternal: true
+  name: GetModuleOwnerAsync
+  nameWithType: ILicenseManager.GetModuleOwnerAsync
+  fullName: SuperOffice.License.ILicenseManager.GetModuleOwnerAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ModuleOwnerRow}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ModuleOwnerRow}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ModuleOwnerRow>
+  nameWithType: Task<ModuleOwnerRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.ModuleOwnerRow>
+  nameWithType.vb: Task(Of ModuleOwnerRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.ModuleOwnerRow)
+  name.vb: Task(Of ModuleOwnerRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRow
+    name: ModuleOwnerRow
+    nameWithType: ModuleOwnerRow
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRow
+    name: ModuleOwnerRow
+    nameWithType: ModuleOwnerRow
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.GetModuleOwnersAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetModuleOwnersAsync
+  isExternal: true
+  name: GetModuleOwnersAsync
+  nameWithType: ILicenseManager.GetModuleOwnersAsync
+  fullName: SuperOffice.License.ILicenseManager.GetModuleOwnersAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ModuleOwnerRow[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ModuleOwnerRow[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ModuleOwnerRow[]>
+  nameWithType: Task<ModuleOwnerRow[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.ModuleOwnerRow[]>
+  nameWithType.vb: Task(Of ModuleOwnerRow())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.ModuleOwnerRow())
+  name.vb: Task(Of ModuleOwnerRow())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRow
+    name: ModuleOwnerRow
+    nameWithType: ModuleOwnerRow
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRow
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRow
+    name: ModuleOwnerRow
+    nameWithType: ModuleOwnerRow
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRow
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.GetSatelliteLicensesAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetSatelliteLicensesAsync
+  isExternal: true
+  name: GetSatelliteLicensesAsync
+  nameWithType: ILicenseManager.GetSatelliteLicensesAsync
+  fullName: SuperOffice.License.ILicenseManager.GetSatelliteLicensesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.License.SatelliteModuleLicenseOwner[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.License.SatelliteModuleLicenseOwner[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SatelliteModuleLicenseOwner[]>
+  nameWithType: Task<SatelliteModuleLicenseOwner[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.License.SatelliteModuleLicenseOwner[]>
+  nameWithType.vb: Task(Of SatelliteModuleLicenseOwner())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.License.SatelliteModuleLicenseOwner())
+  name.vb: Task(Of SatelliteModuleLicenseOwner())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.License.SatelliteModuleLicenseOwner
+    name: SatelliteModuleLicenseOwner
+    nameWithType: SatelliteModuleLicenseOwner
+    fullName: SuperOffice.License.SatelliteModuleLicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.License.SatelliteModuleLicenseOwner
+    name: SatelliteModuleLicenseOwner
+    nameWithType: SatelliteModuleLicenseOwner
+    fullName: SuperOffice.License.SatelliteModuleLicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.GetSatelliteLicenseUsageCountAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetSatelliteLicenseUsageCountAsync
+  isExternal: true
+  name: GetSatelliteLicenseUsageCountAsync
+  nameWithType: ILicenseManager.GetSatelliteLicenseUsageCountAsync
+  fullName: SuperOffice.License.ILicenseManager.GetSatelliteLicenseUsageCountAsync
+- uid: SuperOffice.License.ILicenseManager.GetShopUrlAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetShopUrlAsync
+  isExternal: true
+  name: GetShopUrlAsync
+  nameWithType: ILicenseManager.GetShopUrlAsync
+  fullName: SuperOffice.License.ILicenseManager.GetShopUrlAsync
+- uid: SuperOffice.License.ILicenseManager.GetUserLicensesAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.GetUserLicensesAsync
+  isExternal: true
+  name: GetUserLicensesAsync
+  nameWithType: ILicenseManager.GetUserLicensesAsync
+  fullName: SuperOffice.License.ILicenseManager.GetUserLicensesAsync
+- uid: SuperOffice.License.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.License.UserType
+- uid: System.Threading.Tasks.Task{SuperOffice.License.AssociateModuleLicenseOwner[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.License.AssociateModuleLicenseOwner[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AssociateModuleLicenseOwner[]>
+  nameWithType: Task<AssociateModuleLicenseOwner[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.License.AssociateModuleLicenseOwner[]>
+  nameWithType.vb: Task(Of AssociateModuleLicenseOwner())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.License.AssociateModuleLicenseOwner())
+  name.vb: Task(Of AssociateModuleLicenseOwner())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.License.AssociateModuleLicenseOwner
+    name: AssociateModuleLicenseOwner
+    nameWithType: AssociateModuleLicenseOwner
+    fullName: SuperOffice.License.AssociateModuleLicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.License.AssociateModuleLicenseOwner
+    name: AssociateModuleLicenseOwner
+    nameWithType: AssociateModuleLicenseOwner
+    fullName: SuperOffice.License.AssociateModuleLicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ILicenseManager.LicenseExists*
+  commentId: Overload:SuperOffice.License.ILicenseManager.LicenseExists
+  isExternal: true
+  name: LicenseExists
+  nameWithType: ILicenseManager.LicenseExists
+  fullName: SuperOffice.License.ILicenseManager.LicenseExists
+- uid: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync
+  isExternal: true
+  name: LoadNewLicenseFromServerIfNeededAsync
+  nameWithType: ILicenseManager.LoadNewLicenseFromServerIfNeededAsync
+  fullName: SuperOffice.License.ILicenseManager.LoadNewLicenseFromServerIfNeededAsync
+- uid: SuperOffice.License.ILicenseManager.MapAndValidateLicenseWithDbAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.MapAndValidateLicenseWithDbAsync
+  isExternal: true
+  name: MapAndValidateLicenseWithDbAsync
+  nameWithType: ILicenseManager.MapAndValidateLicenseWithDbAsync
+  fullName: SuperOffice.License.ILicenseManager.MapAndValidateLicenseWithDbAsync
+- uid: SuperOffice.License.LicenseInfo
+  isExternal: true
+  name: LicenseInfo
+  nameWithType: LicenseInfo
+  fullName: SuperOffice.License.LicenseInfo
+- uid: SuperOffice.License.ILicenseManager.RemoveLicenseFromDBAsync*
+  commentId: Overload:SuperOffice.License.ILicenseManager.RemoveLicenseFromDBAsync
+  isExternal: true
+  name: RemoveLicenseFromDBAsync
+  nameWithType: ILicenseManager.RemoveLicenseFromDBAsync
+  fullName: SuperOffice.License.ILicenseManager.RemoveLicenseFromDBAsync
+- uid: SuperOffice.License.ILicenseManager.ValidateLicenseInfo*
+  commentId: Overload:SuperOffice.License.ILicenseManager.ValidateLicenseInfo
+  isExternal: true
+  name: ValidateLicenseInfo
+  nameWithType: ILicenseManager.ValidateLicenseInfo
+  fullName: SuperOffice.License.ILicenseManager.ValidateLicenseInfo

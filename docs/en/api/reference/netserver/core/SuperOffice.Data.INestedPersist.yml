@@ -11,14 +11,14 @@ items:
   - SuperOffice.Data.INestedPersist.IsMarkedForDelete
   - SuperOffice.Data.INestedPersist.IsSaving
   - SuperOffice.Data.INestedPersist.OnElementIdUpdate
-  - SuperOffice.Data.INestedPersist.OnIdUpdate
-  - SuperOffice.Data.INestedPersist.OnPreIdUpdate
-  - SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  - SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+  - SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+  - SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
   - SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
-  - SuperOffice.Data.INestedPersist.Save
+  - SuperOffice.Data.INestedPersist.SaveAsync
   - SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   langs:
   - csharp
@@ -47,16 +47,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.Data.INestedPersist.Save
-  commentId: M:SuperOffice.Data.INestedPersist.Save
-  id: Save
+- uid: SuperOffice.Data.INestedPersist.SaveAsync
+  commentId: M:SuperOffice.Data.INestedPersist.SaveAsync
+  id: SaveAsync
   parent: SuperOffice.Data.INestedPersist
   langs:
   - csharp
   - vb
-  name: Save()
-  nameWithType: INestedPersist.Save()
-  fullName: SuperOffice.Data.INestedPersist.Save()
+  name: SaveAsync()
+  nameWithType: INestedPersist.SaveAsync()
+  fullName: SuperOffice.Data.INestedPersist.SaveAsync()
   type: Method
   source:
     path: SoDataBase
@@ -67,19 +67,21 @@ items:
   summary: "\nSave all the contained objects to the database.\n"
   remarks: "\n<p>\nSave contained objects to the database:\n</p>\n<ol></ol>\n"
   syntax:
-    content: void Save()
-    content.vb: Sub Save
-  overload: SuperOffice.Data.INestedPersist.Save*
-- uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-  commentId: M:SuperOffice.Data.INestedPersist.OnPreIdUpdate
-  id: OnPreIdUpdate
+    content: Task SaveAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveAsync As Task
+  overload: SuperOffice.Data.INestedPersist.SaveAsync*
+- uid: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+  id: OnPreIdUpdateAsync
   parent: SuperOffice.Data.INestedPersist
   langs:
   - csharp
   - vb
-  name: OnPreIdUpdate()
-  nameWithType: INestedPersist.OnPreIdUpdate()
-  fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: INestedPersist.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -90,19 +92,21 @@ items:
   summary: "\nAllow for &quot;fake id&apos;s&quot; to be forced upon related objects.\n"
   remarks: "\nIn order to figure out which objects taking part of the nested save operation that\nactually needs to be saved, this method allows for &quot;fake id&apos;s&quot; to be\nforced upon related objects. Upon receiving the &quot;fake id&quot;, the\nobjects receiving such an id can determine if they needs to be persisted (e.g.\nsaved) to the database.  However, the fake id&apos;s forced upon related objects must\nbe set to correct id&apos;s in the OnIdUpdate method taking place later in the save\noperation.\n"
   syntax:
-    content: void OnPreIdUpdate()
-    content.vb: Sub OnPreIdUpdate
-  overload: SuperOffice.Data.INestedPersist.OnPreIdUpdate*
-- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  id: OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    content: Task OnPreIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnPreIdUpdateAsync As Task
+  overload: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync*
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  id: OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.INestedPersist
   langs:
   - csharp
   - vb
-  name: OnPrimaryKeyRequest(PKContainer)
-  nameWithType: INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   type: Method
   source:
     path: SoDataBase
@@ -113,23 +117,25 @@ items:
   summary: "\nAllow the object to add itself to a collection of requests for primary keys.\n"
   remarks: "\nWhen implementing this method, add yourself to the collection if you need a new\nprimary key.\n"
   syntax:
-    content: void OnPrimaryKeyRequest(PKContainer pkContainer)
+    content: Task OnPrimaryKeyRequestAsync(PKContainer pkContainer)
     parameters:
     - id: pkContainer
       type: SuperOffice.Data.PKContainer
       description: Collection of objects getting a primary key.
-    content.vb: Sub OnPrimaryKeyRequest(pkContainer As PKContainer)
-  overload: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest*
-- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  id: OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnPrimaryKeyRequestAsync(pkContainer As PKContainer) As Task
+  overload: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync*
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  id: OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.INestedPersist
   langs:
   - csharp
   - vb
-  name: OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   type: Method
   source:
     path: SoDataBase
@@ -139,23 +145,25 @@ items:
   namespace: SuperOffice.Data
   summary: "\nUpdate primary key.\n"
   syntax:
-    content: void OnPrimaryKeyUpdate(PKContainer pkContainer)
+    content: Task OnPrimaryKeyUpdateAsync(PKContainer pkContainer)
     parameters:
     - id: pkContainer
       type: SuperOffice.Data.PKContainer
       description: Collection of objects getting a primary key.
-    content.vb: Sub OnPrimaryKeyUpdate(pkContainer As PKContainer)
-  overload: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate*
-- uid: SuperOffice.Data.INestedPersist.OnIdUpdate
-  commentId: M:SuperOffice.Data.INestedPersist.OnIdUpdate
-  id: OnIdUpdate
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnPrimaryKeyUpdateAsync(pkContainer As PKContainer) As Task
+  overload: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync*
+- uid: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+  id: OnIdUpdateAsync
   parent: SuperOffice.Data.INestedPersist
   langs:
   - csharp
   - vb
-  name: OnIdUpdate()
-  nameWithType: INestedPersist.OnIdUpdate()
-  fullName: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: INestedPersist.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -165,19 +173,21 @@ items:
   namespace: SuperOffice.Data
   summary: "\nUpdate related objects with correct id&apos;s to make sure that relations are consistent\nbefore saving to the database.\n"
   syntax:
-    content: void OnIdUpdate()
-    content.vb: Sub OnIdUpdate
-  overload: SuperOffice.Data.INestedPersist.OnIdUpdate*
-- uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  id: OnSave(SuperOffice.Data.SQL.BatchSave)
+    content: Task OnIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnIdUpdateAsync As Task
+  overload: SuperOffice.Data.INestedPersist.OnIdUpdateAsync*
+- uid: SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  id: OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.INestedPersist
   langs:
   - csharp
   - vb
-  name: OnSave(BatchSave)
-  nameWithType: INestedPersist.OnSave(BatchSave)
-  fullName: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: OnSaveAsync(BatchSave)
+  nameWithType: INestedPersist.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   type: Method
   source:
     path: SoDataBase
@@ -187,23 +197,25 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd the object to the collection of objects that are to be saved within the transaction.\n"
   syntax:
-    content: void OnSave(BatchSave batchSave)
+    content: Task OnSaveAsync(BatchSave batchSave)
     parameters:
     - id: batchSave
       type: SuperOffice.Data.SQL.BatchSave
       description: An object holding all the objects that needs to be persisted.
-    content.vb: Sub OnSave(batchSave As BatchSave)
-  overload: SuperOffice.Data.INestedPersist.OnSave*
-- uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-  id: OnSaved(System.Boolean)
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnSaveAsync(batchSave As BatchSave) As Task
+  overload: SuperOffice.Data.INestedPersist.OnSaveAsync*
+- uid: SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+  id: OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.INestedPersist
   langs:
   - csharp
   - vb
-  name: OnSaved(Boolean)
-  nameWithType: INestedPersist.OnSaved(Boolean)
-  fullName: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: INestedPersist.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -213,13 +225,15 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCalled after the save operation has completed.  A boolean value is passed to\nnotify whether or not the save operation succeeded.  The complete save operation\nis rolled back if Save operation failed.\n"
   syntax:
-    content: void OnSaved(bool bSucceeded)
+    content: Task OnSavedAsync(bool bSucceeded)
     parameters:
     - id: bSucceeded
       type: System.Boolean
       description: True if the save operation succeeded and false if the save operation failed and rolled back.
-    content.vb: Sub OnSaved(bSucceeded As Boolean)
-  overload: SuperOffice.Data.INestedPersist.OnSaved*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnSavedAsync(bSucceeded As Boolean) As Task
+  overload: SuperOffice.Data.INestedPersist.OnSavedAsync*
 - uid: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   commentId: M:SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   id: SetSaveOwner(SuperOffice.Data.INestedPersist)
@@ -607,24 +621,29 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Data.INestedPersist.Save*
-  commentId: Overload:SuperOffice.Data.INestedPersist.Save
+- uid: SuperOffice.Data.INestedPersist.SaveAsync*
+  commentId: Overload:SuperOffice.Data.INestedPersist.SaveAsync
   isExternal: true
-  name: Save
-  nameWithType: INestedPersist.Save
-  fullName: SuperOffice.Data.INestedPersist.Save
-- uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate*
-  commentId: Overload:SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  name: SaveAsync
+  nameWithType: INestedPersist.SaveAsync
+  fullName: SuperOffice.Data.INestedPersist.SaveAsync
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: OnPreIdUpdate
-  nameWithType: INestedPersist.OnPreIdUpdate
-  fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest*
-  commentId: Overload:SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
   isExternal: true
-  name: OnPrimaryKeyRequest
-  nameWithType: INestedPersist.OnPrimaryKeyRequest
-  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  name: OnPreIdUpdateAsync
+  nameWithType: INestedPersist.OnPreIdUpdateAsync
+  fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+  isExternal: true
+  name: OnPrimaryKeyRequestAsync
+  nameWithType: INestedPersist.OnPrimaryKeyRequestAsync
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
 - uid: SuperOffice.Data.PKContainer
   commentId: T:SuperOffice.Data.PKContainer
   parent: SuperOffice.Data
@@ -632,24 +651,24 @@ references:
   name: PKContainer
   nameWithType: PKContainer
   fullName: SuperOffice.Data.PKContainer
-- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate*
-  commentId: Overload:SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
   isExternal: true
-  name: OnPrimaryKeyUpdate
-  nameWithType: INestedPersist.OnPrimaryKeyUpdate
-  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-- uid: SuperOffice.Data.INestedPersist.OnIdUpdate*
-  commentId: Overload:SuperOffice.Data.INestedPersist.OnIdUpdate
+  name: OnPrimaryKeyUpdateAsync
+  nameWithType: INestedPersist.OnPrimaryKeyUpdateAsync
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+- uid: SuperOffice.Data.INestedPersist.OnIdUpdateAsync*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnIdUpdateAsync
   isExternal: true
-  name: OnIdUpdate
-  nameWithType: INestedPersist.OnIdUpdate
-  fullName: SuperOffice.Data.INestedPersist.OnIdUpdate
-- uid: SuperOffice.Data.INestedPersist.OnSave*
-  commentId: Overload:SuperOffice.Data.INestedPersist.OnSave
+  name: OnIdUpdateAsync
+  nameWithType: INestedPersist.OnIdUpdateAsync
+  fullName: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+- uid: SuperOffice.Data.INestedPersist.OnSaveAsync*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnSaveAsync
   isExternal: true
-  name: OnSave
-  nameWithType: INestedPersist.OnSave
-  fullName: SuperOffice.Data.INestedPersist.OnSave
+  name: OnSaveAsync
+  nameWithType: INestedPersist.OnSaveAsync
+  fullName: SuperOffice.Data.INestedPersist.OnSaveAsync
 - uid: SuperOffice.Data.SQL.BatchSave
   commentId: T:SuperOffice.Data.SQL.BatchSave
   parent: SuperOffice.Data.SQL
@@ -663,12 +682,12 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: SuperOffice.Data.INestedPersist.OnSaved*
-  commentId: Overload:SuperOffice.Data.INestedPersist.OnSaved
+- uid: SuperOffice.Data.INestedPersist.OnSavedAsync*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnSavedAsync
   isExternal: true
-  name: OnSaved
-  nameWithType: INestedPersist.OnSaved
-  fullName: SuperOffice.Data.INestedPersist.OnSaved
+  name: OnSavedAsync
+  nameWithType: INestedPersist.OnSavedAsync
+  fullName: SuperOffice.Data.INestedPersist.OnSavedAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System

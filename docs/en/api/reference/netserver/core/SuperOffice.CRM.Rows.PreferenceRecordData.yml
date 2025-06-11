@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.PreferenceRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.PreferenceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PreferenceRecordData)
   - SuperOffice.CRM.Rows.PreferenceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.PreferenceRecordData.SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PreferenceRecordData.SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PreferenceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PreferenceRecordData.SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PreferenceRecordData)
+- uid: SuperOffice.CRM.Rows.PreferenceRecordData.SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PreferenceRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PreferenceRecordData)
-  name: ToInsert()
-  nameWithType: PreferenceRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PreferenceRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: PreferenceRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PreferenceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PreferenceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PreferenceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PreferenceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PreferenceRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PreferenceRecordData)
+- uid: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PreferenceRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PreferenceRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(PreferenceRecordData)
-  nameWithType: PreferenceRecordDataExtensions.ToInsert(PreferenceRecordData)
-  fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PreferenceRecordData)
+  name: ToInsertAsync(PreferenceRecordData, CancellationToken)
+  nameWithType: PreferenceRecordDataExtensions.ToInsertAsync(PreferenceRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PreferenceRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PreferenceRecordData)
-    name: ToInsert
-    nameWithType: PreferenceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PreferenceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PreferenceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: PreferenceRecordData
     nameWithType: PreferenceRecordData
     fullName: SuperOffice.CRM.Rows.PreferenceRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PreferenceRecordData)
-    name: ToInsert
-    nameWithType: PreferenceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PreferenceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PreferenceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PreferenceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: PreferenceRecordData
     nameWithType: PreferenceRecordData
     fullName: SuperOffice.CRM.Rows.PreferenceRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

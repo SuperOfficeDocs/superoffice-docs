@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.ISoImpersonationService
+  commentId: T:SuperOffice.Security.ISoImpersonationService
+  id: ISoImpersonationService
+  parent: SuperOffice.Security
+  children:
+  - SuperOffice.Security.ISoImpersonationService.CanImpersonate(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.Security.ISoImpersonationService.Impersonate(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISoImpersonationService
+  nameWithType: ISoImpersonationService
+  fullName: SuperOffice.Security.ISoImpersonationService
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security
+  syntax:
+    content: public interface ISoImpersonationService
+    content.vb: Public Interface ISoImpersonationService
+  extensionMethods:
+  - SuperOffice.Security.ISoImpersonationService.EnumUtil.MapEnums``2
+  - SuperOffice.Security.ISoImpersonationService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Security.ISoImpersonationService.CanImpersonate(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.Security.ISoImpersonationService.CanImpersonate(System.Security.Claims.ClaimsPrincipal)
+  id: CanImpersonate(System.Security.Claims.ClaimsPrincipal)
+  parent: SuperOffice.Security.ISoImpersonationService
+  langs:
+  - csharp
+  - vb
+  name: CanImpersonate(ClaimsPrincipal)
+  nameWithType: ISoImpersonationService.CanImpersonate(ClaimsPrincipal)
+  fullName: SuperOffice.Security.ISoImpersonationService.CanImpersonate(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security
+  summary: "\nCheck if the user represented by the provided principle is permitted to impersonate.\n"
+  syntax:
+    content: bool CanImpersonate(ClaimsPrincipal impersonator)
+    parameters:
+    - id: impersonator
+      type: System.Security.Claims.ClaimsPrincipal
+      description: The user to check if it has the permission to impersonate
+    return:
+      type: System.Boolean
+      description: True if the user represented by the provided principle is permitted to impersonate.
+    content.vb: Function CanImpersonate(impersonator As ClaimsPrincipal) As Boolean
+  overload: SuperOffice.Security.ISoImpersonationService.CanImpersonate*
+- uid: SuperOffice.Security.ISoImpersonationService.Impersonate(System.String)
+  commentId: M:SuperOffice.Security.ISoImpersonationService.Impersonate(System.String)
+  id: Impersonate(System.String)
+  parent: SuperOffice.Security.ISoImpersonationService
+  langs:
+  - csharp
+  - vb
+  name: Impersonate(String)
+  nameWithType: ISoImpersonationService.Impersonate(String)
+  fullName: SuperOffice.Security.ISoImpersonationService.Impersonate(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security
+  summary: "\nImpersonate as the user with the provided user name.  Only users of type System logged in with \nusername and passwords are permitted to impersonate.  Call <xref href=\"SuperOffice.Security.SoImpersonationContext.Dispose\" data-throw-if-not-resolved=\"false\"></xref>\nor <see cref=\"!:SoImpersonationContext.Revert\"></see>.  Impersonation is not supported with remote mode.\n"
+  remarks: "\nImpersonation lives in the thread scope.  Threads executed with the \n<see cref=\"!:SoContext.SpawnThread\"></see> will also be executed inside the\nscope of the impersonated user.\nIt is not permitted to log out using <xref href=\"SuperOffice.SoSession.Close\" data-throw-if-not-resolved=\"false\"></xref> or\nin any other way end the current session like calling \n<see cref=\"!:SoSession.Suspend\"></see> while in a impersonated state.\n"
+  syntax:
+    content: SoImpersonationContext Impersonate(string user)
+    parameters:
+    - id: user
+      type: System.String
+      description: Name of the user to impersonate as.
+    return:
+      type: SuperOffice.Security.SoImpersonationContext
+      description: Disposable context for the impersonation.
+    content.vb: Function Impersonate(user As String) As SoImpersonationContext
+  overload: SuperOffice.Security.ISoImpersonationService.Impersonate*
+references:
+- uid: SuperOffice.Security
+  commentId: N:SuperOffice.Security
+  isExternal: true
+  name: SuperOffice.Security
+  nameWithType: SuperOffice.Security
+  fullName: SuperOffice.Security
+- uid: SuperOffice.Security.ISoImpersonationService.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISoImpersonationService, To>()
+  nameWithType: EnumUtil.MapEnums<ISoImpersonationService, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.ISoImpersonationService, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoImpersonationService, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.ISoImpersonationService, To)()
+  name.vb: MapEnums(Of ISoImpersonationService, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoImpersonationService, To>
+    nameWithType: EnumUtil.MapEnums<ISoImpersonationService, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.ISoImpersonationService, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoImpersonationService, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoImpersonationService, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.ISoImpersonationService, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.ISoImpersonationService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISoImpersonationService, To>()
+  nameWithType: Converters.MapEnums<ISoImpersonationService, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.ISoImpersonationService, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoImpersonationService, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.ISoImpersonationService, To)()
+  name.vb: MapEnums(Of ISoImpersonationService, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoImpersonationService, To>
+    nameWithType: Converters.MapEnums<ISoImpersonationService, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.ISoImpersonationService, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoImpersonationService, To)
+    nameWithType: Converters.MapEnums(Of ISoImpersonationService, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.ISoImpersonationService, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.ISoImpersonationService.CanImpersonate*
+  commentId: Overload:SuperOffice.Security.ISoImpersonationService.CanImpersonate
+  isExternal: true
+  name: CanImpersonate
+  nameWithType: ISoImpersonationService.CanImpersonate
+  fullName: SuperOffice.Security.ISoImpersonationService.CanImpersonate
+- uid: System.Security.Claims.ClaimsPrincipal
+  isExternal: true
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.ISoImpersonationService.Impersonate*
+  commentId: Overload:SuperOffice.Security.ISoImpersonationService.Impersonate
+  isExternal: true
+  name: Impersonate
+  nameWithType: ISoImpersonationService.Impersonate
+  fullName: SuperOffice.Security.ISoImpersonationService.Impersonate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.SoImpersonationContext
+  commentId: T:SuperOffice.Security.SoImpersonationContext
+  parent: SuperOffice.Security
+  isExternal: true
+  name: SoImpersonationContext
+  nameWithType: SoImpersonationContext
+  fullName: SuperOffice.Security.SoImpersonationContext

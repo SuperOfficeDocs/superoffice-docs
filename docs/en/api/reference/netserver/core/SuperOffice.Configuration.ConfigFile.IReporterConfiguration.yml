@@ -1,0 +1,330 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IReporterConfiguration
+  id: ConfigFile.IReporterConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ExePath
+  - SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ODBC
+  - SuperOffice.Configuration.ConfigFile.IReporterConfiguration.Timeout
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IReporterConfiguration
+  nameWithType: ConfigFile.IReporterConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values related to Reporter.\nCreated in Database scope\n"
+  syntax:
+    content: public interface IReporterConfiguration
+    content.vb: Public Interface IReporterConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IReporterConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IReporterConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ExePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ExePath
+  id: ExePath
+  parent: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ExePath
+  nameWithType: ConfigFile.IReporterConfiguration.ExePath
+  fullName: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ExePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nContains the path to the folder where the file SoReporterExecuter.exe is located.\n"
+  syntax:
+    content: string ExePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ExePath As String
+  overload: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ExePath*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.Timeout
+  commentId: P:SuperOffice.Configuration.ConfigFile.IReporterConfiguration.Timeout
+  id: Timeout
+  parent: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: ConfigFile.IReporterConfiguration.Timeout
+  fullName: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.Timeout
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nTimeout in milliseconds for the reporter process.\n"
+  syntax:
+    content: int Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Timeout As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.Timeout*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ODBC
+  commentId: P:SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ODBC
+  id: ODBC
+  parent: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ODBC
+  nameWithType: ConfigFile.IReporterConfiguration.ODBC
+  fullName: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ODBC
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nODBC Datasource name to use when running Reporter\n"
+  syntax:
+    content: string ODBC { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ODBC As String
+  overload: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ODBC*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IReporterConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IReporterConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IReporterConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IReporterConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IReporterConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IReporterConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IReporterConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IReporterConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IReporterConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IReporterConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IReporterConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IReporterConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IReporterConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IReporterConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IReporterConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IReporterConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IReporterConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IReporterConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IReporterConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IReporterConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IReporterConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IReporterConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IReporterConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IReporterConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ExePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ExePath
+  isExternal: true
+  name: ExePath
+  nameWithType: ConfigFile.IReporterConfiguration.ExePath
+  fullName: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ExePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.Timeout*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IReporterConfiguration.Timeout
+  isExternal: true
+  name: Timeout
+  nameWithType: ConfigFile.IReporterConfiguration.Timeout
+  fullName: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.Timeout
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ODBC*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ODBC
+  isExternal: true
+  name: ODBC
+  nameWithType: ConfigFile.IReporterConfiguration.ODBC
+  fullName: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.ODBC

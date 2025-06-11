@@ -9,7 +9,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.EnforceRequiredFields
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.GetValue(System.String)
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSaved
+  - SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSavedAsync
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.Reset
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.SetValue(System.String,System.Object)
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.ToString
@@ -159,16 +159,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSaved
-  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSaved
-  id: OnSaved
+- uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSavedAsync
+  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSavedAsync
+  id: OnSavedAsync
   parent: SuperOffice.CRM.Rows.ExtraFieldsHelper
   langs:
   - csharp
   - vb
-  name: OnSaved()
-  nameWithType: ExtraFieldsHelper.OnSaved()
-  fullName: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSaved()
+  name: OnSavedAsync()
+  nameWithType: ExtraFieldsHelper.OnSavedAsync()
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSavedAsync()
   type: Method
   source:
     path: SoDataBase
@@ -178,9 +178,11 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nSet persisted values to be the current values\n"
   syntax:
-    content: public void OnSaved()
-    content.vb: Public Sub OnSaved
-  overload: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSaved*
+    content: public Task OnSavedAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function OnSavedAsync As Task
+  overload: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSavedAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -503,12 +505,17 @@ references:
   name: Reset
   nameWithType: ExtraFieldsHelper.Reset
   fullName: SuperOffice.CRM.Rows.ExtraFieldsHelper.Reset
-- uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSaved*
-  commentId: Overload:SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSaved
+- uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSavedAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSavedAsync
   isExternal: true
-  name: OnSaved
-  nameWithType: ExtraFieldsHelper.OnSaved
-  fullName: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSaved
+  name: OnSavedAsync
+  nameWithType: ExtraFieldsHelper.OnSavedAsync
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSavedAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnLoad*
   commentId: Overload:SuperOffice.CRM.Rows.ExtraFieldsHelper.OnLoad
   isExternal: true

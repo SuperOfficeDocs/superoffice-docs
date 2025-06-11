@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.ErpConnectorRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ErpConnectorRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ErpConnectorRecordData)
   - SuperOffice.CRM.Rows.ErpConnectorRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ErpConnectorRecordData.SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ErpConnectorRecordData.SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ErpConnectorRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ErpConnectorRecordData.SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectorRecordData)
+- uid: SuperOffice.CRM.Rows.ErpConnectorRecordData.SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectorRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectorRecordData)
-  name: ToInsert()
-  nameWithType: ErpConnectorRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectorRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ErpConnectorRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ErpConnectorRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ErpConnectorRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ErpConnectorRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ErpConnectorRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectorRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectorRecordData)
+- uid: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectorRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectorRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ErpConnectorRecordData)
-  nameWithType: ErpConnectorRecordDataExtensions.ToInsert(ErpConnectorRecordData)
-  fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectorRecordData)
+  name: ToInsertAsync(ErpConnectorRecordData, CancellationToken)
+  nameWithType: ErpConnectorRecordDataExtensions.ToInsertAsync(ErpConnectorRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectorRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectorRecordData)
-    name: ToInsert
-    nameWithType: ErpConnectorRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectorRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ErpConnectorRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: ErpConnectorRecordData
     nameWithType: ErpConnectorRecordData
     fullName: SuperOffice.CRM.Rows.ErpConnectorRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectorRecordData)
-    name: ToInsert
-    nameWithType: ErpConnectorRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectorRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ErpConnectorRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ErpConnectorRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: ErpConnectorRecordData
     nameWithType: ErpConnectorRecordData
     fullName: SuperOffice.CRM.Rows.ErpConnectorRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

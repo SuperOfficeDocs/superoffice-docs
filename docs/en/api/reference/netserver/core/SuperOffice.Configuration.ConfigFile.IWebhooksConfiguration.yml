@@ -1,0 +1,400 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  id: ConfigFile.IWebhooksConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.EnableWebhooks
+  - SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.NumThreads
+  - SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.RequireHttps
+  - SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.Timeout
+  - SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.ValidateHttps
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IWebhooksConfiguration
+  nameWithType: ConfigFile.IWebhooksConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfigure webhooks - broadcast events to remote servers.\nCreated in Database scope\n"
+  syntax:
+    content: public interface IWebhooksConfiguration
+    content.vb: Public Interface IWebhooksConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.EnableWebhooks
+  commentId: P:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.EnableWebhooks
+  id: EnableWebhooks
+  parent: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableWebhooks
+  nameWithType: ConfigFile.IWebhooksConfiguration.EnableWebhooks
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.EnableWebhooks
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBroadcast events to remote servers. Default false.\n"
+  syntax:
+    content: bool EnableWebhooks { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableWebhooks As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.EnableWebhooks*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.RequireHttps
+  commentId: P:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.RequireHttps
+  id: RequireHttps
+  parent: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  langs:
+  - csharp
+  - vb
+  name: RequireHttps
+  nameWithType: ConfigFile.IWebhooksConfiguration.RequireHttps
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.RequireHttps
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nRequire webhooks target URLs use HTTPS protocol. Should only be turned off during development. Default true.\n"
+  syntax:
+    content: bool RequireHttps { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property RequireHttps As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.RequireHttps*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.ValidateHttps
+  commentId: P:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.ValidateHttps
+  id: ValidateHttps
+  parent: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ValidateHttps
+  nameWithType: ConfigFile.IWebhooksConfiguration.ValidateHttps
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.ValidateHttps
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nRequire valid public HTTPS certificates. Self-signed or expired certs on webhook target URLs are refused. Should only be turned off during development. Default true.\n"
+  syntax:
+    content: bool ValidateHttps { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ValidateHttps As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.ValidateHttps*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.NumThreads
+  commentId: P:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.NumThreads
+  id: NumThreads
+  parent: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NumThreads
+  nameWithType: ConfigFile.IWebhooksConfiguration.NumThreads
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.NumThreads
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nHow many background threads to run for dispatching webhooks. Default 0 = scale automatically according to demand.\n"
+  syntax:
+    content: int NumThreads { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property NumThreads As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.NumThreads*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.Timeout
+  commentId: P:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.Timeout
+  id: Timeout
+  parent: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: ConfigFile.IWebhooksConfiguration.Timeout
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.Timeout
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nStop background threads after X number of seconds of idle time. Default 30 seconds.\n"
+  syntax:
+    content: int Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Timeout As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.Timeout*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IWebhooksConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IWebhooksConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IWebhooksConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IWebhooksConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IWebhooksConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IWebhooksConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IWebhooksConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IWebhooksConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IWebhooksConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IWebhooksConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IWebhooksConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IWebhooksConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IWebhooksConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IWebhooksConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IWebhooksConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IWebhooksConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.EnableWebhooks*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.EnableWebhooks
+  isExternal: true
+  name: EnableWebhooks
+  nameWithType: ConfigFile.IWebhooksConfiguration.EnableWebhooks
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.EnableWebhooks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.RequireHttps*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.RequireHttps
+  isExternal: true
+  name: RequireHttps
+  nameWithType: ConfigFile.IWebhooksConfiguration.RequireHttps
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.RequireHttps
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.ValidateHttps*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.ValidateHttps
+  isExternal: true
+  name: ValidateHttps
+  nameWithType: ConfigFile.IWebhooksConfiguration.ValidateHttps
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.ValidateHttps
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.NumThreads*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.NumThreads
+  isExternal: true
+  name: NumThreads
+  nameWithType: ConfigFile.IWebhooksConfiguration.NumThreads
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.NumThreads
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.Timeout*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.Timeout
+  isExternal: true
+  name: Timeout
+  nameWithType: ConfigFile.IWebhooksConfiguration.Timeout
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration.Timeout

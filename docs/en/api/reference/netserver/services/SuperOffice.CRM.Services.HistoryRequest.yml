@@ -31,8 +31,6 @@ items:
       Public Class HistoryRequest
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ViewStateAgent
-    commentId: T:SuperOffice.CRM.Services.ViewStateAgent
   - linkId: SuperOffice.CRM.Services.IViewStateAgent
     commentId: T:SuperOffice.CRM.Services.IViewStateAgent
   inheritance:
@@ -239,15 +237,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ViewStateAgent
-  commentId: T:SuperOffice.CRM.Services.ViewStateAgent
-  isExternal: true
-  name: ViewStateAgent
-  nameWithType: ViewStateAgent
-  fullName: SuperOffice.CRM.Services.ViewStateAgent
 - uid: SuperOffice.CRM.Services.IViewStateAgent
   commentId: T:SuperOffice.CRM.Services.IViewStateAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IViewStateAgent
   nameWithType: IViewStateAgent

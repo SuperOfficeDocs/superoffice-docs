@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData)
   - SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData.SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData.SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData.SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData.SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData)
-  name: ToInsert()
-  nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(StakeholderRoleGroupLinkRecordData)
-  nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsert(StakeholderRoleGroupLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData)
+  name: ToInsertAsync(StakeholderRoleGroupLinkRecordData, CancellationToken)
+  nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(StakeholderRoleGroupLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: StakeholderRoleGroupLinkRecordData
     nameWithType: StakeholderRoleGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: StakeholderRoleGroupLinkRecordData
     nameWithType: StakeholderRoleGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

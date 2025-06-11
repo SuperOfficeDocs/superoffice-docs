@@ -1,0 +1,715 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.WorkList
+  commentId: T:SuperOffice.Diagnostics.WorkList
+  id: WorkList
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.WorkList.#ctor
+  - SuperOffice.Diagnostics.WorkList.ColumnNames
+  - SuperOffice.Diagnostics.WorkList.ColumnTypes
+  - SuperOffice.Diagnostics.WorkList.ListName
+  - SuperOffice.Diagnostics.WorkList.Rows
+  langs:
+  - csharp
+  - vb
+  name: WorkList
+  nameWithType: WorkList
+  fullName: SuperOffice.Diagnostics.WorkList
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: 'public class WorkList : Object'
+    content.vb: >-
+      Public Class WorkList
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Diagnostics.WorkList.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.WorkList.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.WorkList)
+  - SuperOffice.Diagnostics.WorkList.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Diagnostics.WorkList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Diagnostics.WorkList.#ctor
+  commentId: M:SuperOffice.Diagnostics.WorkList.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Diagnostics.WorkList
+  langs:
+  - csharp
+  - vb
+  name: WorkList()
+  nameWithType: WorkList.WorkList()
+  fullName: SuperOffice.Diagnostics.WorkList.WorkList()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public WorkList()
+    content.vb: Public Sub New
+  overload: SuperOffice.Diagnostics.WorkList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.WorkList.ListName
+  commentId: P:SuperOffice.Diagnostics.WorkList.ListName
+  id: ListName
+  parent: SuperOffice.Diagnostics.WorkList
+  langs:
+  - csharp
+  - vb
+  name: ListName
+  nameWithType: WorkList.ListName
+  fullName: SuperOffice.Diagnostics.WorkList.ListName
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public string ListName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ListName As String
+  overload: SuperOffice.Diagnostics.WorkList.ListName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.WorkList.ColumnNames
+  commentId: P:SuperOffice.Diagnostics.WorkList.ColumnNames
+  id: ColumnNames
+  parent: SuperOffice.Diagnostics.WorkList
+  langs:
+  - csharp
+  - vb
+  name: ColumnNames
+  nameWithType: WorkList.ColumnNames
+  fullName: SuperOffice.Diagnostics.WorkList.ColumnNames
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public List<string> ColumnNames { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property ColumnNames As List(Of String)
+  overload: SuperOffice.Diagnostics.WorkList.ColumnNames*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.WorkList.ColumnTypes
+  commentId: P:SuperOffice.Diagnostics.WorkList.ColumnTypes
+  id: ColumnTypes
+  parent: SuperOffice.Diagnostics.WorkList
+  langs:
+  - csharp
+  - vb
+  name: ColumnTypes
+  nameWithType: WorkList.ColumnTypes
+  fullName: SuperOffice.Diagnostics.WorkList.ColumnTypes
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public List<string> ColumnTypes { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property ColumnTypes As List(Of String)
+  overload: SuperOffice.Diagnostics.WorkList.ColumnTypes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.WorkList.Rows
+  commentId: P:SuperOffice.Diagnostics.WorkList.Rows
+  id: Rows
+  parent: SuperOffice.Diagnostics.WorkList
+  langs:
+  - csharp
+  - vb
+  name: Rows
+  nameWithType: WorkList.Rows
+  fullName: SuperOffice.Diagnostics.WorkList.Rows
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public List<WorkRow> Rows { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.Diagnostics.WorkRow}
+    content.vb: Public Property Rows As List(Of WorkRow)
+  overload: SuperOffice.Diagnostics.WorkList.Rows*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Diagnostics.WorkList.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkList, To>()
+  nameWithType: EnumUtil.MapEnums<WorkList, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.WorkList, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkList, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.WorkList, To)()
+  name.vb: MapEnums(Of WorkList, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkList, To>
+    nameWithType: EnumUtil.MapEnums<WorkList, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.WorkList, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkList, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkList, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.WorkList, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.WorkList.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.WorkList)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WorkList>(WorkList)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkList>(WorkList)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.WorkList>(SuperOffice.Diagnostics.WorkList)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkList)(WorkList)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.WorkList)(SuperOffice.Diagnostics.WorkList)
+  name.vb: AssignByReflection(Of WorkList)(WorkList)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WorkList>
+    nameWithType: ObjectExtensions.AssignByReflection<WorkList>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.WorkList>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.WorkList
+    name: WorkList
+    nameWithType: WorkList
+    fullName: SuperOffice.Diagnostics.WorkList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WorkList)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WorkList)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.WorkList)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.WorkList
+    name: WorkList
+    nameWithType: WorkList
+    fullName: SuperOffice.Diagnostics.WorkList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.WorkList.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WorkList>()
+  nameWithType: ObjectExtensions.GraphCopy<WorkList>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.WorkList>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkList)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.WorkList)()
+  name.vb: GraphCopy(Of WorkList)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WorkList>
+    nameWithType: ObjectExtensions.GraphCopy<WorkList>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.WorkList>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WorkList)
+    nameWithType: ObjectExtensions.GraphCopy(Of WorkList)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.WorkList)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.WorkList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkList, To>()
+  nameWithType: Converters.MapEnums<WorkList, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.WorkList, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkList, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.WorkList, To)()
+  name.vb: MapEnums(Of WorkList, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkList, To>
+    nameWithType: Converters.MapEnums<WorkList, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.WorkList, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkList, To)
+    nameWithType: Converters.MapEnums(Of WorkList, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.WorkList, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.WorkList.#ctor*
+  commentId: Overload:SuperOffice.Diagnostics.WorkList.#ctor
+  isExternal: true
+  name: WorkList
+  nameWithType: WorkList.WorkList
+  fullName: SuperOffice.Diagnostics.WorkList.WorkList
+- uid: SuperOffice.Diagnostics.WorkList.ListName*
+  commentId: Overload:SuperOffice.Diagnostics.WorkList.ListName
+  isExternal: true
+  name: ListName
+  nameWithType: WorkList.ListName
+  fullName: SuperOffice.Diagnostics.WorkList.ListName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Diagnostics.WorkList.ColumnNames*
+  commentId: Overload:SuperOffice.Diagnostics.WorkList.ColumnNames
+  isExternal: true
+  name: ColumnNames
+  nameWithType: WorkList.ColumnNames
+  fullName: SuperOffice.Diagnostics.WorkList.ColumnNames
+- uid: System.Collections.Generic.List{System.String}
+  commentId: '!:System.Collections.Generic.List{System.String}'
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.WorkList.ColumnTypes*
+  commentId: Overload:SuperOffice.Diagnostics.WorkList.ColumnTypes
+  isExternal: true
+  name: ColumnTypes
+  nameWithType: WorkList.ColumnTypes
+  fullName: SuperOffice.Diagnostics.WorkList.ColumnTypes
+- uid: SuperOffice.Diagnostics.WorkList.Rows*
+  commentId: Overload:SuperOffice.Diagnostics.WorkList.Rows
+  isExternal: true
+  name: Rows
+  nameWithType: WorkList.Rows
+  fullName: SuperOffice.Diagnostics.WorkList.Rows
+- uid: System.Collections.Generic.List{SuperOffice.Diagnostics.WorkRow}
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Diagnostics.WorkRow}'
+  definition: System.Collections.Generic.List`1
+  name: List<WorkRow>
+  nameWithType: List<WorkRow>
+  fullName: System.Collections.Generic.List<SuperOffice.Diagnostics.WorkRow>
+  nameWithType.vb: List(Of WorkRow)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Diagnostics.WorkRow)
+  name.vb: List(Of WorkRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Diagnostics.WorkRow
+    name: WorkRow
+    nameWithType: WorkRow
+    fullName: SuperOffice.Diagnostics.WorkRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Diagnostics.WorkRow
+    name: WorkRow
+    nameWithType: WorkRow
+    fullName: SuperOffice.Diagnostics.WorkRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

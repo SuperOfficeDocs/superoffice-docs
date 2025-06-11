@@ -32,8 +32,6 @@ items:
       Public Class CriteriaGroup
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.FindAgent
-    commentId: T:SuperOffice.CRM.Services.FindAgent
   - linkId: SuperOffice.CRM.Services.IFindAgent
     commentId: T:SuperOffice.CRM.Services.IFindAgent
   inheritance:
@@ -273,15 +271,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.FindAgent
-  commentId: T:SuperOffice.CRM.Services.FindAgent
-  isExternal: true
-  name: FindAgent
-  nameWithType: FindAgent
-  fullName: SuperOffice.CRM.Services.FindAgent
 - uid: SuperOffice.CRM.Services.IFindAgent
   commentId: T:SuperOffice.CRM.Services.IFindAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IFindAgent
   nameWithType: IFindAgent

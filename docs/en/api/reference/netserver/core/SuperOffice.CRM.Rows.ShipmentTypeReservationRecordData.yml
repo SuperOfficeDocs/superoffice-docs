@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData)
   - SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData.SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData.SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData.SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData)
+- uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData.SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData)
-  name: ToInsert()
-  nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData)
+- uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ShipmentTypeReservationRecordData)
-  nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsert(ShipmentTypeReservationRecordData)
-  fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData)
+  name: ToInsertAsync(ShipmentTypeReservationRecordData, CancellationToken)
+  nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(ShipmentTypeReservationRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData)
-    name: ToInsert
-    nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: ShipmentTypeReservationRecordData
     nameWithType: ShipmentTypeReservationRecordData
     fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData)
-    name: ToInsert
-    nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ShipmentTypeReservationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: ShipmentTypeReservationRecordData
     nameWithType: ShipmentTypeReservationRecordData
     fullName: SuperOffice.CRM.Rows.ShipmentTypeReservationRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

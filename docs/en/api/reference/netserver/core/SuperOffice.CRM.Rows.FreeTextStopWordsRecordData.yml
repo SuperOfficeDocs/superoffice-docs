@@ -34,7 +34,7 @@ items:
   - SuperOffice.CRM.Rows.FreeTextStopWordsRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.FreeTextStopWordsRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData)
   - SuperOffice.CRM.Rows.FreeTextStopWordsRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.FreeTextStopWordsRecordData.SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.FreeTextStopWordsRecordData.SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.FreeTextStopWordsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -247,34 +247,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordData.SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData)
+- uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordData.SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData)
-  name: ToInsert()
-  nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -460,17 +470,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData)
-  commentId: M:SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData)
+- uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(FreeTextStopWordsRecordData)
-  nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsert(FreeTextStopWordsRecordData)
-  fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData)
+  name: ToInsertAsync(FreeTextStopWordsRecordData, CancellationToken)
+  nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsertAsync(FreeTextStopWordsRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData)
-    name: ToInsert
-    nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -479,15 +489,23 @@ references:
     name: FreeTextStopWordsRecordData
     nameWithType: FreeTextStopWordsRecordData
     fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData)
-    name: ToInsert
-    nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextStopWordsRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: FreeTextStopWordsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -496,6 +514,14 @@ references:
     name: FreeTextStopWordsRecordData
     nameWithType: FreeTextStopWordsRecordData
     fullName: SuperOffice.CRM.Rows.FreeTextStopWordsRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

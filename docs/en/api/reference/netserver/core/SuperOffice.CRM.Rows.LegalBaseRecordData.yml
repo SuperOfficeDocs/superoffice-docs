@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.LegalBaseRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.LegalBaseRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.LegalBaseRecordData)
   - SuperOffice.CRM.Rows.LegalBaseRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.LegalBaseRecordData.SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.LegalBaseRecordData.SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.LegalBaseRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LegalBaseRecordData.SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LegalBaseRecordData)
+- uid: SuperOffice.CRM.Rows.LegalBaseRecordData.SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LegalBaseRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LegalBaseRecordData)
-  name: ToInsert()
-  nameWithType: LegalBaseRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LegalBaseRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: LegalBaseRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LegalBaseRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LegalBaseRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LegalBaseRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LegalBaseRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LegalBaseRecordData)
-  commentId: M:SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LegalBaseRecordData)
+- uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LegalBaseRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LegalBaseRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(LegalBaseRecordData)
-  nameWithType: LegalBaseRecordDataExtensions.ToInsert(LegalBaseRecordData)
-  fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LegalBaseRecordData)
+  name: ToInsertAsync(LegalBaseRecordData, CancellationToken)
+  nameWithType: LegalBaseRecordDataExtensions.ToInsertAsync(LegalBaseRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LegalBaseRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LegalBaseRecordData)
-    name: ToInsert
-    nameWithType: LegalBaseRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LegalBaseRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LegalBaseRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: LegalBaseRecordData
     nameWithType: LegalBaseRecordData
     fullName: SuperOffice.CRM.Rows.LegalBaseRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LegalBaseRecordData)
-    name: ToInsert
-    nameWithType: LegalBaseRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LegalBaseRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LegalBaseRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: LegalBaseRecordData
     nameWithType: LegalBaseRecordData
     fullName: SuperOffice.CRM.Rows.LegalBaseRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

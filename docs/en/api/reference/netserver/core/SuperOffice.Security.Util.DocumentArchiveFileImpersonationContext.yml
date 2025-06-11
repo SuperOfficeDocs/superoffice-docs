@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.#ctor
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Action)
+  - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Func{System.Threading.Tasks.Task})
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute``1(System.Func{``0})
   langs:
   - csharp
@@ -72,6 +73,39 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Func{System.Threading.Tasks.Task})
+  commentId: M:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Func{System.Threading.Tasks.Task})
+  id: Execute(System.Func{System.Threading.Tasks.Task})
+  parent: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
+  langs:
+  - csharp
+  - vb
+  name: Execute(Func<Task>)
+  nameWithType: DocumentArchiveFileImpersonationContext.Execute(Func<Task>)
+  fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Util
+  syntax:
+    content: public Task Execute(Func<Task> action)
+    parameters:
+    - id: action
+      type: System.Func{System.Threading.Tasks.Task}
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function Execute(action As Func(Of Task)) As Task
+  overload: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute*
+  nameWithType.vb: DocumentArchiveFileImpersonationContext.Execute(Func(Of Task))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Func(Of System.Threading.Tasks.Task))
+  name.vb: Execute(Func(Of Task))
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute``1(System.Func{``0})
   commentId: M:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute``1(System.Func{``0})
   id: Execute``1(System.Func{``0})
@@ -509,6 +543,92 @@ references:
   name: Action
   nameWithType: Action
   fullName: System.Action
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: '!:System.Func{System.Threading.Tasks.Task}'
+  definition: System.Func`1
+  name: Func<Task>
+  nameWithType: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
+  name.vb: Func(Of Task)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Func{{T}}
   commentId: '!:System.Func{`0}'
   definition: System.Func`1
@@ -554,44 +674,6 @@ references:
   name: T
   nameWithType: T
   fullName: T
-- uid: System.Func`1
-  isExternal: true
-  name: Func<>
-  nameWithType: Func<>
-  fullName: System.Func<>
-  nameWithType.vb: Func(Of )
-  fullName.vb: System.Func(Of )
-  name.vb: Func(Of )
-  spec.csharp:
-  - uid: System.Func`1
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Func`1
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: T
   name: T
   nameWithType: T

@@ -31,8 +31,6 @@ items:
       Public Class AttachmentValidationResult
           Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.TicketAgent
-    commentId: T:SuperOffice.CRM.Services.TicketAgent
   - linkId: SuperOffice.CRM.Services.ITicketAgent
     commentId: T:SuperOffice.CRM.Services.ITicketAgent
   inheritance:
@@ -239,15 +237,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.TicketAgent
-  commentId: T:SuperOffice.CRM.Services.TicketAgent
-  isExternal: true
-  name: TicketAgent
-  nameWithType: TicketAgent
-  fullName: SuperOffice.CRM.Services.TicketAgent
 - uid: SuperOffice.CRM.Services.ITicketAgent
   commentId: T:SuperOffice.CRM.Services.ITicketAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ITicketAgent
   nameWithType: ITicketAgent

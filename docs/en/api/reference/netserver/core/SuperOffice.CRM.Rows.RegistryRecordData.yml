@@ -36,7 +36,7 @@ items:
   - SuperOffice.CRM.Rows.RegistryRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.RegistryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RegistryRecordData)
   - SuperOffice.CRM.Rows.RegistryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.RegistryRecordData.SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.RegistryRecordData.SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RegistryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -303,34 +303,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.RegistryRecordData.SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RegistryRecordData)
+- uid: SuperOffice.CRM.Rows.RegistryRecordData.SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RegistryRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RegistryRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RegistryRecordData)
-  name: ToInsert()
-  nameWithType: RegistryRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RegistryRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: RegistryRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: RegistryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RegistryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: RegistryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RegistryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -516,17 +526,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RegistryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RegistryRecordData)
+- uid: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RegistryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RegistryRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(RegistryRecordData)
-  nameWithType: RegistryRecordDataExtensions.ToInsert(RegistryRecordData)
-  fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RegistryRecordData)
+  name: ToInsertAsync(RegistryRecordData, CancellationToken)
+  nameWithType: RegistryRecordDataExtensions.ToInsertAsync(RegistryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RegistryRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RegistryRecordData)
-    name: ToInsert
-    nameWithType: RegistryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RegistryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RegistryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -535,15 +545,23 @@ references:
     name: RegistryRecordData
     nameWithType: RegistryRecordData
     fullName: SuperOffice.CRM.Rows.RegistryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RegistryRecordData)
-    name: ToInsert
-    nameWithType: RegistryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.RegistryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: RegistryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.RegistryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -552,6 +570,14 @@ references:
     name: RegistryRecordData
     nameWithType: RegistryRecordData
     fullName: SuperOffice.CRM.Rows.RegistryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

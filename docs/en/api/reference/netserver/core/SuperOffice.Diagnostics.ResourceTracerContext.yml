@@ -67,10 +67,10 @@ items:
   - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
-    content: public ExecutionStopwatch CpuTimer
+    content: public IExecutionStopwatch CpuTimer
     return:
-      type: SuperOffice.Diagnostics.ExecutionStopwatch
-    content.vb: Public CpuTimer As ExecutionStopwatch
+      type: SuperOffice.Diagnostics.IExecutionStopwatch
+    content.vb: Public CpuTimer As IExecutionStopwatch
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -563,13 +563,13 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Diagnostics.ExecutionStopwatch
-  commentId: T:SuperOffice.Diagnostics.ExecutionStopwatch
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch
+  commentId: T:SuperOffice.Diagnostics.IExecutionStopwatch
   parent: SuperOffice.Diagnostics
   isExternal: true
-  name: ExecutionStopwatch
-  nameWithType: ExecutionStopwatch
-  fullName: SuperOffice.Diagnostics.ExecutionStopwatch
+  name: IExecutionStopwatch
+  nameWithType: IExecutionStopwatch
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch
 - uid: System.Diagnostics.Stopwatch
   commentId: '!:System.Diagnostics.Stopwatch'
   isExternal: true

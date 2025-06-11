@@ -41,8 +41,6 @@ items:
       Public Class RefCountEntity
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.NumberAllocationAgent
-    commentId: T:SuperOffice.CRM.Services.NumberAllocationAgent
   - linkId: SuperOffice.CRM.Services.INumberAllocationAgent
     commentId: T:SuperOffice.CRM.Services.INumberAllocationAgent
   inheritance:
@@ -513,15 +511,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent
-  commentId: T:SuperOffice.CRM.Services.NumberAllocationAgent
-  isExternal: true
-  name: NumberAllocationAgent
-  nameWithType: NumberAllocationAgent
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent
 - uid: SuperOffice.CRM.Services.INumberAllocationAgent
   commentId: T:SuperOffice.CRM.Services.INumberAllocationAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: INumberAllocationAgent
   nameWithType: INumberAllocationAgent

@@ -5,8 +5,7 @@ items:
   id: IFlushCacheAndBroadcastPlugin
   parent: SuperOffice.Data.Cache
   children:
-  - SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable{System.String})
-  - SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String[])
+  - SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -27,6 +26,8 @@ items:
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.String[])
+  - SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.Threading.CancellationToken,System.String[])
   - SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -34,16 +35,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String[])
-  commentId: M:SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String[])
-  id: FlushAndBroadcast(System.String[])
+- uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  id: FlushAndBroadcastAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
   langs:
   - csharp
   - vb
-  name: FlushAndBroadcast(String[])
-  nameWithType: IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(String[])
-  fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String[])
+  name: FlushAndBroadcastAsync(IEnumerable<String>, CancellationToken)
+  nameWithType: IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync(IEnumerable<String>, CancellationToken)
+  fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync(System.Collections.Generic.IEnumerable<System.String>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -53,45 +54,20 @@ items:
   namespace: SuperOffice.Data.Cache
   summary: "\nFlushes the caches and broadcast\n"
   syntax:
-    content: void FlushAndBroadcast(params string[] cacheNames)
-    parameters:
-    - id: cacheNames
-      type: System.String[]
-      description: "\nCaches to flush. Input can be technical name of the cache, or it can be the table name from the database and it&apos;ll do a\nlookup to find all the caches that&apos;s associated with that table and flush.\n"
-    content.vb: Sub FlushAndBroadcast(ParamArray cacheNames As String())
-  overload: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast*
-  nameWithType.vb: IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(String())
-  fullName.vb: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String())
-  name.vb: FlushAndBroadcast(String())
-- uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable{System.String})
-  commentId: M:SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable{System.String})
-  id: FlushAndBroadcast(System.Collections.Generic.IEnumerable{System.String})
-  parent: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
-  langs:
-  - csharp
-  - vb
-  name: FlushAndBroadcast(IEnumerable<String>)
-  nameWithType: IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(IEnumerable<String>)
-  fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable<System.String>)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data.Cache
-  summary: "\nFlushes the caches and broadcast\n"
-  syntax:
-    content: void FlushAndBroadcast(IEnumerable<string> cacheNames)
+    content: Task FlushAndBroadcastAsync(IEnumerable<string> cacheNames, CancellationToken cancellationToken = null)
     parameters:
     - id: cacheNames
       type: System.Collections.Generic.IEnumerable{System.String}
       description: "\nCaches to flush. Input can be technical name of the cache, or it can be the table name from the database and it&apos;ll do a\nlookup to find all the caches that&apos;s associated with that table and flush.\n"
-    content.vb: Sub FlushAndBroadcast(cacheNames As IEnumerable(Of String))
-  overload: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast*
-  nameWithType.vb: IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(IEnumerable(Of String))
-  fullName.vb: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable(Of System.String))
-  name.vb: FlushAndBroadcast(IEnumerable(Of String))
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function FlushAndBroadcastAsync(cacheNames As IEnumerable(Of String), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync*
+  nameWithType.vb: IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync(IEnumerable(Of String), CancellationToken)
+  fullName.vb: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync(System.Collections.Generic.IEnumerable(Of System.String), System.Threading.CancellationToken)
+  name.vb: FlushAndBroadcastAsync(IEnumerable(Of String), CancellationToken)
 references:
 - uid: SuperOffice.Data.Cache
   commentId: N:SuperOffice.Data.Cache
@@ -130,6 +106,122 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.String[])
+  commentId: M:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.String[])
+  parent: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+  definition: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.String[])
+  name: FlushAndBroadcastAsync(String[])
+  nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(String[])
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.String[])
+  nameWithType.vb: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(String())
+  fullName.vb: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.String())
+  name.vb: FlushAndBroadcastAsync(String())
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.String[])
+    name: FlushAndBroadcastAsync
+    nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.String[])
+    name: FlushAndBroadcastAsync
+    nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.Threading.CancellationToken,System.String[])
+  commentId: M:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.Threading.CancellationToken,System.String[])
+  parent: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+  definition: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.Threading.CancellationToken,System.String[])
+  name: FlushAndBroadcastAsync(CancellationToken, String[])
+  nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(CancellationToken, String[])
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.Threading.CancellationToken, System.String[])
+  nameWithType.vb: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(CancellationToken, String())
+  fullName.vb: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.Threading.CancellationToken, System.String())
+  name.vb: FlushAndBroadcastAsync(CancellationToken, String())
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.Threading.CancellationToken,System.String[])
+    name: FlushAndBroadcastAsync
+    nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(System.Threading.CancellationToken,System.String[])
+    name: FlushAndBroadcastAsync
+    nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
     nameWithType: )
     fullName: )
@@ -212,6 +304,159 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.String[])
+  commentId: M:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.String[])
+  isExternal: true
+  name: FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, String[])
+  nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, String[])
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin, System.String[])
+  nameWithType.vb: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, String())
+  fullName.vb: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin, System.String())
+  name.vb: FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, String())
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.String[])
+    name: FlushAndBroadcastAsync
+    nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+    name: IFlushCacheAndBroadcastPlugin
+    nameWithType: IFlushCacheAndBroadcastPlugin
+    fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.String[])
+    name: FlushAndBroadcastAsync
+    nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+    name: IFlushCacheAndBroadcastPlugin
+    nameWithType: IFlushCacheAndBroadcastPlugin
+    fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+  commentId: T:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: FlushCacheAndBroadcastPluginExtensions
+  nameWithType: FlushCacheAndBroadcastPluginExtensions
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.Threading.CancellationToken,System.String[])
+  commentId: M:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.Threading.CancellationToken,System.String[])
+  isExternal: true
+  name: FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, CancellationToken, String[])
+  nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, CancellationToken, String[])
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin, System.Threading.CancellationToken, System.String[])
+  nameWithType.vb: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, CancellationToken, String())
+  fullName.vb: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin, System.Threading.CancellationToken, System.String())
+  name.vb: FlushAndBroadcastAsync(IFlushCacheAndBroadcastPlugin, CancellationToken, String())
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.Threading.CancellationToken,System.String[])
+    name: FlushAndBroadcastAsync
+    nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+    name: IFlushCacheAndBroadcastPlugin
+    nameWithType: IFlushCacheAndBroadcastPlugin
+    fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync(SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin,System.Threading.CancellationToken,System.String[])
+    name: FlushAndBroadcastAsync
+    nameWithType: FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.FlushAndBroadcastAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+    name: IFlushCacheAndBroadcastPlugin
+    nameWithType: IFlushCacheAndBroadcastPlugin
+    fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -264,38 +509,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast*
-  commentId: Overload:SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast
+- uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync*
+  commentId: Overload:SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync
   isExternal: true
-  name: FlushAndBroadcast
-  nameWithType: IFlushCacheAndBroadcastPlugin.FlushAndBroadcast
-  fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcast
-- uid: System.String[]
-  isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
-  spec.csharp:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  name: FlushAndBroadcastAsync
+  nameWithType: IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync
+  fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.FlushAndBroadcastAsync
 - uid: System.Collections.Generic.IEnumerable{System.String}
   commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
   definition: System.Collections.Generic.IEnumerable`1
@@ -339,6 +558,16 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System.Collections.Generic.IEnumerable`1
   isExternal: true
   name: IEnumerable<>

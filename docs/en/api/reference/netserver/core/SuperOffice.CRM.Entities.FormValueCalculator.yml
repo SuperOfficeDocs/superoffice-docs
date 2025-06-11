@@ -6,9 +6,9 @@ items:
   parent: SuperOffice.CRM.Entities
   children:
   - SuperOffice.CRM.Entities.FormValueCalculator.#ctor
-  - SuperOffice.CRM.Entities.FormValueCalculator.Update(System.Int32)
-  - SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm(System.Int32)
-  - SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission(System.Int32)
+  - SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -41,16 +41,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission(System.Int32)
-  id: UpdateFormSubmission(System.Int32)
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync(System.Int32,System.Threading.CancellationToken)
+  id: UpdateFormSubmissionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.FormValueCalculator
   langs:
   - csharp
   - vb
-  name: UpdateFormSubmission(Int32)
-  nameWithType: FormValueCalculator.UpdateFormSubmission(Int32)
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission(System.Int32)
+  name: UpdateFormSubmissionAsync(Int32, CancellationToken)
+  nameWithType: FormValueCalculator.UpdateFormSubmissionAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -60,30 +60,32 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSave the form values to the database\n"
   syntax:
-    content: public static int UpdateFormSubmission(int formSubmissionId)
+    content: public static Task<int> UpdateFormSubmissionAsync(int formSubmissionId, CancellationToken cancellationToken = null)
     parameters:
     - id: formSubmissionId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function UpdateFormSubmission(formSubmissionId As Integer) As Integer
-  overload: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function UpdateFormSubmissionAsync(formSubmissionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm(System.Int32)
-  id: UpdateForm(System.Int32)
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync(System.Int32,System.Threading.CancellationToken)
+  id: UpdateFormAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.FormValueCalculator
   langs:
   - csharp
   - vb
-  name: UpdateForm(Int32)
-  nameWithType: FormValueCalculator.UpdateForm(Int32)
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm(System.Int32)
+  name: UpdateFormAsync(Int32, CancellationToken)
+  nameWithType: FormValueCalculator.UpdateFormAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -92,30 +94,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static int UpdateForm(int formId)
+    content: public static Task<int> UpdateFormAsync(int formId, CancellationToken cancellationToken = null)
     parameters:
     - id: formId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function UpdateForm(formId As Integer) As Integer
-  overload: SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function UpdateFormAsync(formId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.Update(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.Update(System.Int32)
-  id: Update(System.Int32)
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync(System.Int32,System.Threading.CancellationToken)
+  id: UpdateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.FormValueCalculator
   langs:
   - csharp
   - vb
-  name: Update(Int32)
-  nameWithType: FormValueCalculator.Update(Int32)
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.Update(System.Int32)
+  name: UpdateAsync(Int32, CancellationToken)
+  nameWithType: FormValueCalculator.UpdateAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -124,14 +128,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static int Update(int count)
+    content: public static Task<int> UpdateAsync(int count, CancellationToken cancellationToken = null)
     parameters:
     - id: count
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function Update(count As Integer) As Integer
-  overload: SuperOffice.CRM.Entities.FormValueCalculator.Update*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function UpdateAsync(count As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync*
   modifiers.csharp:
   - public
   - static
@@ -529,12 +535,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission*
-  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync
   isExternal: true
-  name: UpdateFormSubmission
-  nameWithType: FormValueCalculator.UpdateFormSubmission
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmission
+  name: UpdateFormSubmissionAsync
+  nameWithType: FormValueCalculator.UpdateFormSubmissionAsync
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormSubmissionAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -542,18 +548,104 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm*
-  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: UpdateForm
-  nameWithType: FormValueCalculator.UpdateForm
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateForm
-- uid: SuperOffice.CRM.Entities.FormValueCalculator.Update*
-  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.Update
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: Update
-  nameWithType: FormValueCalculator.Update
-  fullName: SuperOffice.CRM.Entities.FormValueCalculator.Update
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync
+  isExternal: true
+  name: UpdateFormAsync
+  nameWithType: FormValueCalculator.UpdateFormAsync
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateFormAsync
+- uid: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync
+  isExternal: true
+  name: UpdateAsync
+  nameWithType: FormValueCalculator.UpdateAsync
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator.UpdateAsync
 - uid: SuperOffice.CRM.Entities.FormValueCalculator.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.FormValueCalculator.#ctor
   isExternal: true

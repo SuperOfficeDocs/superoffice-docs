@@ -47,7 +47,7 @@ items:
   - SuperOffice.CRM.Rows.WinPosSizeRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.WinPosSizeRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WinPosSizeRecordData)
   - SuperOffice.CRM.Rows.WinPosSizeRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.WinPosSizeRecordData.SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.WinPosSizeRecordData.SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.WinPosSizeRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -611,34 +611,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WinPosSizeRecordData.SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
+- uid: SuperOffice.CRM.Rows.WinPosSizeRecordData.SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
-  name: ToInsert()
-  nameWithType: WinPosSizeRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: WinPosSizeRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: WinPosSizeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WinPosSizeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: WinPosSizeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WinPosSizeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -824,17 +834,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
-  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
+- uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(WinPosSizeRecordData)
-  nameWithType: WinPosSizeRecordDataExtensions.ToInsert(WinPosSizeRecordData)
-  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
+  name: ToInsertAsync(WinPosSizeRecordData, CancellationToken)
+  nameWithType: WinPosSizeRecordDataExtensions.ToInsertAsync(WinPosSizeRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
-    name: ToInsert
-    nameWithType: WinPosSizeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WinPosSizeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -843,15 +853,23 @@ references:
     name: WinPosSizeRecordData
     nameWithType: WinPosSizeRecordData
     fullName: SuperOffice.CRM.Rows.WinPosSizeRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WinPosSizeRecordData)
-    name: ToInsert
-    nameWithType: WinPosSizeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WinPosSizeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WinPosSizeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WinPosSizeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -860,6 +878,14 @@ references:
     name: WinPosSizeRecordData
     nameWithType: WinPosSizeRecordData
     fullName: SuperOffice.CRM.Rows.WinPosSizeRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

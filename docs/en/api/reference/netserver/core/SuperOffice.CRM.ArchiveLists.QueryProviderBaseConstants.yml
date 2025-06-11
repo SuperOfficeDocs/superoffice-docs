@@ -1,0 +1,461 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants
+  commentId: T:SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants
+  id: QueryProviderBaseConstants
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.#ctor
+  langs:
+  - csharp
+  - vb
+  name: QueryProviderBaseConstants
+  nameWithType: QueryProviderBaseConstants
+  fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: 'public class QueryProviderBaseConstants : ExtensibleColumnsBaseConstants'
+    content.vb: >-
+      Public Class QueryProviderBaseConstants
+          Inherits ExtensibleColumnsBaseConstants
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants.GetAllRestriction
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants.GetNoneRestriction
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants)
+  - SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants
+  langs:
+  - csharp
+  - vb
+  name: QueryProviderBaseConstants()
+  nameWithType: QueryProviderBaseConstants.QueryProviderBaseConstants()
+  fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.QueryProviderBaseConstants()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public QueryProviderBaseConstants()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ExtensibleColumnsBaseConstants
+  nameWithType: ExtensibleColumnsBaseConstants
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants.GetAllRestriction
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants.GetAllRestriction
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants
+  isExternal: true
+  name: GetAllRestriction
+  nameWithType: ExtensibleColumnsBaseConstants.GetAllRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants.GetAllRestriction
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants.GetNoneRestriction
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants.GetNoneRestriction
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants
+  isExternal: true
+  name: GetNoneRestriction
+  nameWithType: ExtensibleColumnsBaseConstants.GetNoneRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBaseConstants.GetNoneRestriction
+- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<QueryProviderBaseConstants, To>()
+  nameWithType: EnumUtil.MapEnums<QueryProviderBaseConstants, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QueryProviderBaseConstants, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants, To)()
+  name.vb: MapEnums(Of QueryProviderBaseConstants, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QueryProviderBaseConstants, To>
+    nameWithType: EnumUtil.MapEnums<QueryProviderBaseConstants, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QueryProviderBaseConstants, To)
+    nameWithType: EnumUtil.MapEnums(Of QueryProviderBaseConstants, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<QueryProviderBaseConstants>(QueryProviderBaseConstants)
+  nameWithType: ObjectExtensions.AssignByReflection<QueryProviderBaseConstants>(QueryProviderBaseConstants)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants>(SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QueryProviderBaseConstants)(QueryProviderBaseConstants)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants)(SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants)
+  name.vb: AssignByReflection(Of QueryProviderBaseConstants)(QueryProviderBaseConstants)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<QueryProviderBaseConstants>
+    nameWithType: ObjectExtensions.AssignByReflection<QueryProviderBaseConstants>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants
+    name: QueryProviderBaseConstants
+    nameWithType: QueryProviderBaseConstants
+    fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of QueryProviderBaseConstants)
+    nameWithType: ObjectExtensions.AssignByReflection(Of QueryProviderBaseConstants)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants
+    name: QueryProviderBaseConstants
+    nameWithType: QueryProviderBaseConstants
+    fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<QueryProviderBaseConstants>()
+  nameWithType: ObjectExtensions.GraphCopy<QueryProviderBaseConstants>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QueryProviderBaseConstants)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants)()
+  name.vb: GraphCopy(Of QueryProviderBaseConstants)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<QueryProviderBaseConstants>
+    nameWithType: ObjectExtensions.GraphCopy<QueryProviderBaseConstants>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of QueryProviderBaseConstants)
+    nameWithType: ObjectExtensions.GraphCopy(Of QueryProviderBaseConstants)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<QueryProviderBaseConstants, To>()
+  nameWithType: Converters.MapEnums<QueryProviderBaseConstants, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants, To>()
+  nameWithType.vb: Converters.MapEnums(Of QueryProviderBaseConstants, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants, To)()
+  name.vb: MapEnums(Of QueryProviderBaseConstants, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QueryProviderBaseConstants, To>
+    nameWithType: Converters.MapEnums<QueryProviderBaseConstants, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QueryProviderBaseConstants, To)
+    nameWithType: Converters.MapEnums(Of QueryProviderBaseConstants, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.#ctor
+  isExternal: true
+  name: QueryProviderBaseConstants
+  nameWithType: QueryProviderBaseConstants.QueryProviderBaseConstants
+  fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBaseConstants.QueryProviderBaseConstants

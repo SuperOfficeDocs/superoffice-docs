@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
   - SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
-  - SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
-  - SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData})
+  - SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketTypeStatusRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
+- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<TicketTypeStatusTableInfo>)
-  nameWithType: TicketTypeStatusRecordDataExtensions.FromSelect(TargetedSelect<TicketTypeStatusTableInfo>)
-  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TicketTypeStatusTableInfo>)
+  name: FromSelectAsync(TargetedSelect<TicketTypeStatusTableInfo>, CancellationToken)
+  nameWithType: TicketTypeStatusRecordDataExtensions.FromSelectAsync(TargetedSelect<TicketTypeStatusTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TicketTypeStatusTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<TicketTypeStatusRecordData> FromSelect(this TargetedSelect<TicketTypeStatusTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<TicketTypeStatusRecordData> FromSelectAsync(this TargetedSelect<TicketTypeStatusTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of TicketTypeStatusTableInfo)) As IEnumerable(Of TicketTypeStatusRecordData)
-  overload: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect*
-  nameWithType.vb: TicketTypeStatusRecordDataExtensions.FromSelect(TargetedSelect(Of TicketTypeStatusTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of TicketTypeStatusTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of TicketTypeStatusRecordData)
+  overload: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: TicketTypeStatusRecordDataExtensions.FromSelectAsync(TargetedSelect(Of TicketTypeStatusTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TicketTypeStatusTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of TicketTypeStatusTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TicketTypeStatusTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of TicketTypeStatusTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
   commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TicketTypeStatusTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of TicketTypeStatusTableInfo))
-- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
+- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(TicketTypeStatusRecordData)
-  nameWithType: TicketTypeStatusRecordDataExtensions.ToInsert(TicketTypeStatusRecordData)
-  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
+  name: ToInsertAsync(TicketTypeStatusRecordData, CancellationToken)
+  nameWithType: TicketTypeStatusRecordDataExtensions.ToInsertAsync(TicketTypeStatusRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketTypeStatusRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this TicketTypeStatusRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this TicketTypeStatusRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.TicketTypeStatusRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As TicketTypeStatusRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As TicketTypeStatusRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData})
-  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData})
+- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<TicketTypeStatusRecordData>)
-  nameWithType: TicketTypeStatusRecordDataExtensions.ToInserts(IEnumerable<TicketTypeStatusRecordData>)
-  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TicketTypeStatusRecordData>)
+  name: ToInsertsAsync(IEnumerable<TicketTypeStatusRecordData>, CancellationToken)
+  nameWithType: TicketTypeStatusRecordDataExtensions.ToInsertsAsync(IEnumerable<TicketTypeStatusRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TicketTypeStatusRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<TicketTypeStatusRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<TicketTypeStatusRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of TicketTypeStatusRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInserts*
-  nameWithType.vb: TicketTypeStatusRecordDataExtensions.ToInserts(IEnumerable(Of TicketTypeStatusRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of TicketTypeStatusRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: TicketTypeStatusRecordDataExtensions.ToInsertsAsync(IEnumerable(Of TicketTypeStatusRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TicketTypeStatusRecordData))
-  name.vb: ToInserts(IEnumerable(Of TicketTypeStatusRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TicketTypeStatusRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of TicketTypeStatusRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketTypeStatusRow)
   commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketTypeStatusRow)
   id: ToRecordData(SuperOffice.CRM.Rows.TicketTypeStatusRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<TicketTypeStatusTableInfo>)
+  nameWithType: TicketTypeStatusRecordDataExtensions.FromSelect(TargetedSelect<TicketTypeStatusTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TicketTypeStatusTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;TicketTypeStatusTableInfo>, execute it and return an IEnumerable&lt;TicketTypeStatusRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<TicketTypeStatusRecordData> FromSelect(this TargetedSelect<TicketTypeStatusTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of TicketTypeStatusTableInfo)) As IEnumerable(Of TicketTypeStatusRecordData)
+  overload: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect*
+  nameWithType.vb: TicketTypeStatusRecordDataExtensions.FromSelect(TargetedSelect(Of TicketTypeStatusTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TicketTypeStatusTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of TicketTypeStatusTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: TicketTypeStatusRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: TicketTypeStatusRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketTypeStatusTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<TicketTypeStatusRecordData>
-  nameWithType: IEnumerable<TicketTypeStatusRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TicketTypeStatusRecordData>
-  nameWithType.vb: IEnumerable(Of TicketTypeStatusRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
-  name.vb: IEnumerable(Of TicketTypeStatusRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<TicketTypeStatusRecordData>
+  nameWithType: IAsyncEnumerable<TicketTypeStatusRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.TicketTypeStatusRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of TicketTypeStatusRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
+  name.vb: IAsyncEnumerable(Of TicketTypeStatusRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: TicketTypeStatusRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: TicketTypeStatusRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: TicketTypeStatusRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: TicketTypeStatusRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketTypeStatusRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TicketTypeStatusRecordData>
+  nameWithType: IEnumerable<TicketTypeStatusRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TicketTypeStatusRecordData>
+  nameWithType.vb: IEnumerable(Of TicketTypeStatusRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TicketTypeStatusRecordData)
+  name.vb: IEnumerable(Of TicketTypeStatusRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordData
+    name: TicketTypeStatusRecordData
+    nameWithType: TicketTypeStatusRecordData
+    fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordData
+    name: TicketTypeStatusRecordData
+    nameWithType: TicketTypeStatusRecordData
+    fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: TicketTypeStatusRow
   nameWithType: TicketTypeStatusRow
   fullName: SuperOffice.CRM.Rows.TicketTypeStatusRow
+- uid: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: TicketTypeStatusRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions.FromSelect

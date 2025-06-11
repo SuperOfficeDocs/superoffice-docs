@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.#ctor
   - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.HasWorkToDo
-  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperation(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnSetup(SuperOffice.Data.SQL.BatchSave)
   langs:
   - csharp
@@ -34,9 +34,8 @@ items:
   - SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}
   - SuperOffice.Data.Private.BatchSaveProcessor
   inheritedMembers:
-  - SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}.ExecuteWork
+  - SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}.ExecuteWorkAsync(System.Threading.CancellationToken)
   - SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}.Argument
-  - SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}.ThreadName
   extensionMethods:
   - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.EnumUtil.MapEnums``2
   - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor)
@@ -84,16 +83,16 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperation(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperation(SuperOffice.Data.SQL.BatchSave)
-  id: OnOperation(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
+  id: OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
   langs:
   - csharp
   - vb
-  name: OnOperation(BatchSave)
-  nameWithType: TicketLoggerProcessor.OnOperation(BatchSave)
-  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperation(SuperOffice.Data.SQL.BatchSave)
+  name: OnOperationAsync(BatchSave)
+  nameWithType: TicketLoggerProcessor.OnOperationAsync(BatchSave)
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
   type: Method
   source:
     path: SoDataBase
@@ -103,13 +102,15 @@ items:
   namespace: SuperOffice.Data.Private.TicketLogging
   summary: "\nCall the actual logging logic. This method is called on a separate thread, asynchronously.\n"
   syntax:
-    content: protected override void OnOperation(BatchSave _)
+    content: protected override Task OnOperationAsync(BatchSave _)
     parameters:
     - id: _
       type: SuperOffice.Data.SQL.BatchSave
-    content.vb: Protected Overrides Sub OnOperation(_ As BatchSave)
-  overridden: SuperOffice.Data.Private.BatchSaveProcessor.OnOperation(SuperOffice.Data.SQL.BatchSave)
-  overload: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperation*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnOperationAsync(_ As BatchSave) As Task
+  overridden: SuperOffice.Data.Private.BatchSaveProcessor.OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
+  overload: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperationAsync*
   modifiers.csharp:
   - protected
   - override
@@ -240,36 +241,46 @@ references:
   name: BatchSaveProcessor
   nameWithType: BatchSaveProcessor
   fullName: SuperOffice.Data.Private.BatchSaveProcessor
-- uid: SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}.ExecuteWork
-  commentId: M:SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}.ExecuteWork
+- uid: SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}.ExecuteWorkAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}.ExecuteWorkAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
-  name: ExecuteWork()
-  nameWithType: AsynchronousHandlerProcessor<BatchSave>.ExecuteWork()
-  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<SuperOffice.Data.SQL.BatchSave>.ExecuteWork()
-  nameWithType.vb: AsynchronousHandlerProcessor(Of BatchSave).ExecuteWork()
-  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of SuperOffice.Data.SQL.BatchSave).ExecuteWork()
+  definition: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync(System.Threading.CancellationToken)
+  name: ExecuteWorkAsync(CancellationToken)
+  nameWithType: AsynchronousHandlerProcessor<BatchSave>.ExecuteWorkAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<SuperOffice.Data.SQL.BatchSave>.ExecuteWorkAsync(System.Threading.CancellationToken)
+  nameWithType.vb: AsynchronousHandlerProcessor(Of BatchSave).ExecuteWorkAsync(CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of SuperOffice.Data.SQL.BatchSave).ExecuteWorkAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
-    name: ExecuteWork
-    nameWithType: AsynchronousHandlerProcessor<BatchSave>.ExecuteWork
-    fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<SuperOffice.Data.SQL.BatchSave>.ExecuteWork
+  - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync(System.Threading.CancellationToken)
+    name: ExecuteWorkAsync
+    nameWithType: AsynchronousHandlerProcessor<BatchSave>.ExecuteWorkAsync
+    fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<SuperOffice.Data.SQL.BatchSave>.ExecuteWorkAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
-    name: ExecuteWork
-    nameWithType: AsynchronousHandlerProcessor(Of BatchSave).ExecuteWork
-    fullName: SuperOffice.Threading.AsynchronousHandlerProcessor(Of SuperOffice.Data.SQL.BatchSave).ExecuteWork
+  - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync(System.Threading.CancellationToken)
+    name: ExecuteWorkAsync
+    nameWithType: AsynchronousHandlerProcessor(Of BatchSave).ExecuteWorkAsync
+    fullName: SuperOffice.Threading.AsynchronousHandlerProcessor(Of SuperOffice.Data.SQL.BatchSave).ExecuteWorkAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -282,15 +293,6 @@ references:
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<SuperOffice.Data.SQL.BatchSave>.Argument
   nameWithType.vb: AsynchronousHandlerProcessor(Of BatchSave).Argument
   fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of SuperOffice.Data.SQL.BatchSave).Argument
-- uid: SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}.ThreadName
-  commentId: P:SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}.ThreadName
-  parent: SuperOffice.Threading.AsynchronousHandlerProcessor{SuperOffice.Data.SQL.BatchSave}
-  definition: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ThreadName
-  name: ThreadName
-  nameWithType: AsynchronousHandlerProcessor<BatchSave>.ThreadName
-  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<SuperOffice.Data.SQL.BatchSave>.ThreadName
-  nameWithType.vb: AsynchronousHandlerProcessor(Of BatchSave).ThreadName
-  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of SuperOffice.Data.SQL.BatchSave).ThreadName
 - uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -494,35 +496,45 @@ references:
   name: SuperOffice.Data.Private
   nameWithType: SuperOffice.Data.Private
   fullName: SuperOffice.Data.Private
-- uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
-  commentId: M:SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
+- uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync(System.Threading.CancellationToken)
   isExternal: true
-  name: ExecuteWork()
-  nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWork()
-  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWork()
-  nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWork()
-  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWork()
+  name: ExecuteWorkAsync(CancellationToken)
+  nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWorkAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWorkAsync(System.Threading.CancellationToken)
+  nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWorkAsync(CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWorkAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
-    name: ExecuteWork
-    nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWork
-    fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWork
+  - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync(System.Threading.CancellationToken)
+    name: ExecuteWorkAsync
+    nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWorkAsync
+    fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWorkAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWork
-    name: ExecuteWork
-    nameWithType: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWork
-    fullName: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWork
+  - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ExecuteWorkAsync(System.Threading.CancellationToken)
+    name: ExecuteWorkAsync
+    nameWithType: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWorkAsync
+    fullName: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ExecuteWorkAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -534,14 +546,6 @@ references:
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.Argument
   nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).Argument
   fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).Argument
-- uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1.ThreadName
-  commentId: P:SuperOffice.Threading.AsynchronousHandlerProcessor`1.ThreadName
-  isExternal: true
-  name: ThreadName
-  nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>.ThreadName
-  fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ThreadName
-  nameWithType.vb: AsynchronousHandlerProcessor(Of TAsynchronousArgument).ThreadName
-  fullName.vb: SuperOffice.Threading.AsynchronousHandlerProcessor(Of TAsynchronousArgument).ThreadName
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -809,18 +813,18 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: SuperOffice.Data.Private.BatchSaveProcessor.OnOperation(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.Private.BatchSaveProcessor.OnOperation(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.Private.BatchSaveProcessor.OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.Private.BatchSaveProcessor.OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.Private.BatchSaveProcessor
   isExternal: true
-  name: OnOperation(BatchSave)
-  nameWithType: BatchSaveProcessor.OnOperation(BatchSave)
-  fullName: SuperOffice.Data.Private.BatchSaveProcessor.OnOperation(SuperOffice.Data.SQL.BatchSave)
+  name: OnOperationAsync(BatchSave)
+  nameWithType: BatchSaveProcessor.OnOperationAsync(BatchSave)
+  fullName: SuperOffice.Data.Private.BatchSaveProcessor.OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.Private.BatchSaveProcessor.OnOperation(SuperOffice.Data.SQL.BatchSave)
-    name: OnOperation
-    nameWithType: BatchSaveProcessor.OnOperation
-    fullName: SuperOffice.Data.Private.BatchSaveProcessor.OnOperation
+  - uid: SuperOffice.Data.Private.BatchSaveProcessor.OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnOperationAsync
+    nameWithType: BatchSaveProcessor.OnOperationAsync
+    fullName: SuperOffice.Data.Private.BatchSaveProcessor.OnOperationAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -834,10 +838,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Private.BatchSaveProcessor.OnOperation(SuperOffice.Data.SQL.BatchSave)
-    name: OnOperation
-    nameWithType: BatchSaveProcessor.OnOperation
-    fullName: SuperOffice.Data.Private.BatchSaveProcessor.OnOperation
+  - uid: SuperOffice.Data.Private.BatchSaveProcessor.OnOperationAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnOperationAsync
+    nameWithType: BatchSaveProcessor.OnOperationAsync
+    fullName: SuperOffice.Data.Private.BatchSaveProcessor.OnOperationAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -850,12 +854,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperation*
-  commentId: Overload:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperation
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperationAsync*
+  commentId: Overload:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperationAsync
   isExternal: true
-  name: OnOperation
-  nameWithType: TicketLoggerProcessor.OnOperation
-  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperation
+  name: OnOperationAsync
+  nameWithType: TicketLoggerProcessor.OnOperationAsync
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OnOperationAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.#ctor*
   commentId: Overload:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.#ctor
   isExternal: true

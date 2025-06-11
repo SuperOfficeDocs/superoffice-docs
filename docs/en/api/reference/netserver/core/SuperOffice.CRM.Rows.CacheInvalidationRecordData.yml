@@ -38,7 +38,7 @@ items:
   - SuperOffice.CRM.Rows.CacheInvalidationRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.CacheInvalidationRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CacheInvalidationRecordData)
   - SuperOffice.CRM.Rows.CacheInvalidationRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.CacheInvalidationRecordData.SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.CacheInvalidationRecordData.SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.CacheInvalidationRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -359,34 +359,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.CacheInvalidationRecordData.SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CacheInvalidationRecordData)
+- uid: SuperOffice.CRM.Rows.CacheInvalidationRecordData.SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CacheInvalidationRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CacheInvalidationRecordData)
-  name: ToInsert()
-  nameWithType: CacheInvalidationRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CacheInvalidationRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: CacheInvalidationRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CacheInvalidationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CacheInvalidationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CacheInvalidationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CacheInvalidationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -572,17 +582,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CacheInvalidationRecordData)
-  commentId: M:SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CacheInvalidationRecordData)
+- uid: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CacheInvalidationRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CacheInvalidationRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(CacheInvalidationRecordData)
-  nameWithType: CacheInvalidationRecordDataExtensions.ToInsert(CacheInvalidationRecordData)
-  fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CacheInvalidationRecordData)
+  name: ToInsertAsync(CacheInvalidationRecordData, CancellationToken)
+  nameWithType: CacheInvalidationRecordDataExtensions.ToInsertAsync(CacheInvalidationRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CacheInvalidationRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CacheInvalidationRecordData)
-    name: ToInsert
-    nameWithType: CacheInvalidationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CacheInvalidationRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CacheInvalidationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -591,15 +601,23 @@ references:
     name: CacheInvalidationRecordData
     nameWithType: CacheInvalidationRecordData
     fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CacheInvalidationRecordData)
-    name: ToInsert
-    nameWithType: CacheInvalidationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CacheInvalidationRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CacheInvalidationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -608,6 +626,14 @@ references:
     name: CacheInvalidationRecordData
     nameWithType: CacheInvalidationRecordData
     fullName: SuperOffice.CRM.Rows.CacheInvalidationRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

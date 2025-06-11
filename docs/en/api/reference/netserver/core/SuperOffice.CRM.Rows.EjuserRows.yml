@@ -13,22 +13,22 @@ items:
   - SuperOffice.CRM.Rows.EjuserRows.Find(System.Predicate{SuperOffice.CRM.Rows.EjuserRow})
   - SuperOffice.CRM.Rows.EjuserRows.FindAll(System.Predicate{SuperOffice.CRM.Rows.EjuserRow})
   - SuperOffice.CRM.Rows.EjuserRows.ForEach(System.Action{SuperOffice.CRM.Rows.EjuserRow})
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearch(SuperOffice.CRM.Rows.EjuserRows.CustomSearch)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentId(System.Int32)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKey(System.String)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModified(System.DateTime)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronized(System.DateTime)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategory(System.Int32)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessage(System.Int32)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicket(System.Int32)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmail(System.String)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategory(System.Int32)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginname(System.String)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureId(System.Int32)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileId(System.Int32)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroup(System.Int32)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsername(System.String)
-  - SuperOffice.CRM.Rows.EjuserRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EjuserTableInfo)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.EjuserRows.CustomSearch,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKeyAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModifiedAsync(System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronizedAsync(System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategoryAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessageAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicketAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmailAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategoryAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginnameAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroupAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsernameAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjuserRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EjuserTableInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EjuserRows.Item(System.Int32)
   - SuperOffice.CRM.Rows.EjuserRows.Remove(SuperOffice.CRM.Rows.EjuserRow)
   - SuperOffice.CRM.Rows.EjuserRows.ToArray
@@ -47,13 +47,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\nThis table contains entries for the users of the system.\nCollection of EjuserRow. Each element of the collection represents one row in the Ejuser\ntable. \n"
-  remarks: "\nRow collections can be created in several ways. \n<ul><li>Use the static <xref href=\"SuperOffice.CRM.Rows.EjuserRows.CreateNew\" data-throw-if-not-resolved=\"false\"></xref> method to create a new, empty collection. You can then add objects of type\n<xref href=\"SuperOffice.CRM.Rows.EjuserRow\" data-throw-if-not-resolved=\"false\"></xref> to it, and use methods like <see cref=\"!:Save\"></see> to operate on the whole collection.</li><li>You can create a (nested) EjuserRows <xref href=\"SuperOffice.CRM.Rows.EjuserRows.CustomSearch\" data-throw-if-not-resolved=\"false\"></xref> object to obtain a query pre-populated with\nthe correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <xref href=\"SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearch(SuperOffice.CRM.Rows.EjuserRows.CustomSearch)\" data-throw-if-not-resolved=\"false\"></xref> method\nto apply the query to the database and obtain the result as a Rows object, with one item for each table row that matched your query.</li><li>For each non-unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy.</li></ul>\nUnique indexes are handled through the <xref href=\"SuperOffice.CRM.Rows.EjuserRow\" data-throw-if-not-resolved=\"false\"></xref> object directly,\nwhich has nested classes and GetFromIdx methods for each unique index. Similarly, there is a <xref href=\"SuperOffice.CRM.Rows.EjuserRows.GetFromReader(SuperOffice.Data.SoDataReader%2cSuperOffice.CRM.Data.EjuserTableInfo)\" data-throw-if-not-resolved=\"false\"></xref>\nmethod to retrieve the results of queries that return more than one row (this method will iterate over the reader to fetch ALL results, so beware of fetching\nhuge result sets).\n<p></p>\n"
+  remarks: "\nRow collections can be created in several ways. \n<ul><li>Use the static <xref href=\"SuperOffice.CRM.Rows.EjuserRows.CreateNew\" data-throw-if-not-resolved=\"false\"></xref> method to create a new, empty collection. You can then add objects of type\n<xref href=\"SuperOffice.CRM.Rows.EjuserRow\" data-throw-if-not-resolved=\"false\"></xref> to it, and use methods like <see cref=\"!:Save\"></see> to operate on the whole collection.</li><li>You can create a (nested) EjuserRows <xref href=\"SuperOffice.CRM.Rows.EjuserRows.CustomSearch\" data-throw-if-not-resolved=\"false\"></xref> object to obtain a query pre-populated with\nthe correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <see cref=\"!:GetFromCustomSearch\"></see> method\nto apply the query to the database and obtain the result as a Rows object, with one item for each table row that matched your query.</li><li>For each non-unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy.</li></ul>\nUnique indexes are handled through the <xref href=\"SuperOffice.CRM.Rows.EjuserRow\" data-throw-if-not-resolved=\"false\"></xref> object directly,\nwhich has nested classes and GetFromIdx methods for each unique index. Similarly, there is a <see cref=\"!:SuperOffice.CRM.Rows.EjuserRows.GetFromReader\"></see>\nmethod to retrieve the results of queries that return more than one row (this method will iterate over the reader to fetch ALL results, so beware of fetching\nhuge result sets).\n<p></p>\n"
   syntax:
-    content: 'public class EjuserRows : TableRowsBase, INestedPersist, IEnumerable<INestedPersist>, ISoCollection, IEnumerable, IList, ICollection, INotifyCollectionChanged, IBindingList'
+    content: 'public class EjuserRows : TableRowsBase, INestedPersist, IEnumerable<INestedPersist>, IList, ICollection, IEnumerable, INotifyCollectionChanged, IBindingList'
     content.vb: >-
       Public Class EjuserRows
           Inherits TableRowsBase
-          Implements INestedPersist, IEnumerable(Of INestedPersist), ISoCollection, IEnumerable, IList, ICollection, INotifyCollectionChanged, IBindingList
+          Implements INestedPersist, IEnumerable(Of INestedPersist), IList, ICollection, IEnumerable, INotifyCollectionChanged, IBindingList
   inheritance:
   - System.Object
   - SuperOffice.Data.NestedPersist
@@ -63,10 +63,9 @@ items:
   implements:
   - SuperOffice.Data.INestedPersist
   - System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  - SuperOffice.Data.ISoCollection
-  - System.Collections.IEnumerable
   - System.Collections.IList
   - System.Collections.ICollection
+  - System.Collections.IEnumerable
   - System.Collections.Specialized.INotifyCollectionChanged
   - System.ComponentModel.IBindingList
   inheritedMembers:
@@ -75,10 +74,10 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase._sentries
   - SuperOffice.CRM.Rows.TableRowsBase._idx
   - SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged(SuperOffice.CRM.Rows.IdxBase)
-  - SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
-  - SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
-  - SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
-  - SuperOffice.CRM.Rows.TableRowsBase.Delete
+  - SuperOffice.CRM.Rows.TableRowsBase.LoadAsync(SuperOffice.CRM.Rows.IdxBase,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TableRowsBase.DeleteAsync
   - SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
   - SuperOffice.CRM.Rows.TableRowsBase.Add(SuperOffice.CRM.Rows.TableRowBase)
   - SuperOffice.CRM.Rows.TableRowsBase.Remove(SuperOffice.CRM.Rows.TableRowBase)
@@ -86,8 +85,6 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
   - SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
   - SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
-  - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
-  - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
   - SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
   - SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
   - SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
@@ -96,6 +93,9 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor,System.Object)
   - SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex(System.ComponentModel.PropertyDescriptor)
   - SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
+  - SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+  - SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  - SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
   - SuperOffice.CRM.Rows.TableRowsBase.Sentries
   - SuperOffice.CRM.Rows.TableRowsBase.IsDirty
   - SuperOffice.CRM.Rows.TableRowsBase.Index
@@ -117,22 +117,22 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase.ListChanged
   - SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
   - SuperOffice.Data.NestedCollectionPersist.IsDeleted
-  - SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-  - SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+  - SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
   - SuperOffice.Data.NestedPersist._saveOwner
   - SuperOffice.Data.NestedPersist._isSaving
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
-  - SuperOffice.Data.NestedPersist.Save
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.SaveAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
@@ -280,16 +280,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearch(SuperOffice.CRM.Rows.EjuserRows.CustomSearch)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearch(SuperOffice.CRM.Rows.EjuserRows.CustomSearch)
-  id: GetFromCustomSearch(SuperOffice.CRM.Rows.EjuserRows.CustomSearch)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.EjuserRows.CustomSearch,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.EjuserRows.CustomSearch,System.Threading.CancellationToken)
+  id: GetFromCustomSearchAsync(SuperOffice.CRM.Rows.EjuserRows.CustomSearch,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromCustomSearch(EjuserRows.CustomSearch)
-  nameWithType: EjuserRows.GetFromCustomSearch(EjuserRows.CustomSearch)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearch(SuperOffice.CRM.Rows.EjuserRows.CustomSearch)
+  name: GetFromCustomSearchAsync(EjuserRows.CustomSearch, CancellationToken)
+  nameWithType: EjuserRows.GetFromCustomSearchAsync(EjuserRows.CustomSearch, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.EjuserRows.CustomSearch, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -299,32 +299,34 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nCreate a new instance of the EjuserRows object, and populate it with data from a custom search.\nIf the search returns no results, an empty collection will be returned; if the result contains\nrows, a collection of EjuserRow objects representing each row will be returned. \n"
   syntax:
-    content: public static EjuserRows GetFromCustomSearch(EjuserRows.CustomSearch query)
+    content: public static Task<EjuserRows> GetFromCustomSearchAsync(EjuserRows.CustomSearch query, CancellationToken cancellationToken = null)
     parameters:
     - id: query
       type: SuperOffice.CRM.Rows.EjuserRows.CustomSearch
       description: The custom search to execute against the database
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: A new instance of the EjuserRows object, reflecting the result of the query.
-    content.vb: Public Shared Function GetFromCustomSearch(query As EjuserRows.CustomSearch) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearch*
+    content.vb: Public Shared Function GetFromCustomSearchAsync(query As EjuserRows.CustomSearch, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearchAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginname(System.String)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginname(System.String)
-  id: GetFromIdxLoginname(System.String)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginnameAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginnameAsync(System.String,System.Threading.CancellationToken)
+  id: GetFromIdxLoginnameAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxLoginname(String)
-  nameWithType: EjuserRows.GetFromIdxLoginname(String)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginname(System.String)
+  name: GetFromIdxLoginnameAsync(String, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxLoginnameAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginnameAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -335,31 +337,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserLoginname&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxLoginname(string loginname)
+    content: public static Task<EjuserRows> GetFromIdxLoginnameAsync(string loginname, CancellationToken cancellationToken = null)
     parameters:
     - id: loginname
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxLoginname(loginname As String) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginname*
+    content.vb: Public Shared Function GetFromIdxLoginnameAsync(loginname As String, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginnameAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroup(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroup(System.Int32)
-  id: GetFromIdxUsergroup(System.Int32)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroupAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroupAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxUsergroupAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxUsergroup(Int32)
-  nameWithType: EjuserRows.GetFromIdxUsergroup(Int32)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroup(System.Int32)
+  name: GetFromIdxUsergroupAsync(Int32, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxUsergroupAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroupAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -370,31 +374,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserUsergroup&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxUsergroup(int usergroup)
+    content: public static Task<EjuserRows> GetFromIdxUsergroupAsync(int usergroup, CancellationToken cancellationToken = null)
     parameters:
     - id: usergroup
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxUsergroup(usergroup As Integer) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroup*
+    content.vb: Public Shared Function GetFromIdxUsergroupAsync(usergroup As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroupAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsername(System.String)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsername(System.String)
-  id: GetFromIdxUsername(System.String)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsernameAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsernameAsync(System.String,System.Threading.CancellationToken)
+  id: GetFromIdxUsernameAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxUsername(String)
-  nameWithType: EjuserRows.GetFromIdxUsername(String)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsername(System.String)
+  name: GetFromIdxUsernameAsync(String, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxUsernameAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsernameAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -405,31 +411,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserUsername&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxUsername(string username)
+    content: public static Task<EjuserRows> GetFromIdxUsernameAsync(string username, CancellationToken cancellationToken = null)
     parameters:
     - id: username
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxUsername(username As String) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsername*
+    content.vb: Public Shared Function GetFromIdxUsernameAsync(username As String, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsernameAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmail(System.String)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmail(System.String)
-  id: GetFromIdxEmail(System.String)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmailAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmailAsync(System.String,System.Threading.CancellationToken)
+  id: GetFromIdxEmailAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxEmail(String)
-  nameWithType: EjuserRows.GetFromIdxEmail(String)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmail(System.String)
+  name: GetFromIdxEmailAsync(String, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxEmailAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmailAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -440,31 +448,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserEmail&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxEmail(string email)
+    content: public static Task<EjuserRows> GetFromIdxEmailAsync(string email, CancellationToken cancellationToken = null)
     parameters:
     - id: email
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxEmail(email As String) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmail*
+    content.vb: Public Shared Function GetFromIdxEmailAsync(email As String, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmailAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategory(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategory(System.Int32)
-  id: GetFromIdxDefaultCategory(System.Int32)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategoryAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategoryAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxDefaultCategoryAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxDefaultCategory(Int32)
-  nameWithType: EjuserRows.GetFromIdxDefaultCategory(Int32)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategory(System.Int32)
+  name: GetFromIdxDefaultCategoryAsync(Int32, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxDefaultCategoryAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategoryAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -475,31 +485,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserDefault_category&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxDefaultCategory(int defaultCategory)
+    content: public static Task<EjuserRows> GetFromIdxDefaultCategoryAsync(int defaultCategory, CancellationToken cancellationToken = null)
     parameters:
     - id: defaultCategory
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxDefaultCategory(defaultCategory As Integer) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategory*
+    content.vb: Public Shared Function GetFromIdxDefaultCategoryAsync(defaultCategory As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategoryAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategory(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategory(System.Int32)
-  id: GetFromIdxLastCategory(System.Int32)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategoryAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategoryAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxLastCategoryAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxLastCategory(Int32)
-  nameWithType: EjuserRows.GetFromIdxLastCategory(Int32)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategory(System.Int32)
+  name: GetFromIdxLastCategoryAsync(Int32, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxLastCategoryAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategoryAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -510,31 +522,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserLast_category&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxLastCategory(int lastCategory)
+    content: public static Task<EjuserRows> GetFromIdxLastCategoryAsync(int lastCategory, CancellationToken cancellationToken = null)
     parameters:
     - id: lastCategory
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxLastCategory(lastCategory As Integer) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategory*
+    content.vb: Public Shared Function GetFromIdxLastCategoryAsync(lastCategory As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategoryAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileId(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileId(System.Int32)
-  id: GetFromIdxProfileId(System.Int32)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxProfileIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxProfileId(Int32)
-  nameWithType: EjuserRows.GetFromIdxProfileId(Int32)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileId(System.Int32)
+  name: GetFromIdxProfileIdAsync(Int32, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxProfileIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -545,31 +559,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserProfile_id&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxProfileId(int profileId)
+    content: public static Task<EjuserRows> GetFromIdxProfileIdAsync(int profileId, CancellationToken cancellationToken = null)
     parameters:
     - id: profileId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxProfileId(profileId As Integer) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileId*
+    content.vb: Public Shared Function GetFromIdxProfileIdAsync(profileId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentId(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentId(System.Int32)
-  id: GetFromIdxDbiAgentId(System.Int32)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxDbiAgentIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxDbiAgentId(Int32)
-  nameWithType: EjuserRows.GetFromIdxDbiAgentId(Int32)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentId(System.Int32)
+  name: GetFromIdxDbiAgentIdAsync(Int32, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxDbiAgentIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -580,31 +596,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserDbi_agent_id&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxDbiAgentId(int dbiAgentId)
+    content: public static Task<EjuserRows> GetFromIdxDbiAgentIdAsync(int dbiAgentId, CancellationToken cancellationToken = null)
     parameters:
     - id: dbiAgentId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxDbiAgentId(dbiAgentId As Integer) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentId*
+    content.vb: Public Shared Function GetFromIdxDbiAgentIdAsync(dbiAgentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKey(System.String)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKey(System.String)
-  id: GetFromIdxDbiKey(System.String)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKeyAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKeyAsync(System.String,System.Threading.CancellationToken)
+  id: GetFromIdxDbiKeyAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxDbiKey(String)
-  nameWithType: EjuserRows.GetFromIdxDbiKey(String)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKey(System.String)
+  name: GetFromIdxDbiKeyAsync(String, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxDbiKeyAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKeyAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -615,31 +633,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserDbi_key&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxDbiKey(string dbiKey)
+    content: public static Task<EjuserRows> GetFromIdxDbiKeyAsync(string dbiKey, CancellationToken cancellationToken = null)
     parameters:
     - id: dbiKey
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxDbiKey(dbiKey As String) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKey*
+    content.vb: Public Shared Function GetFromIdxDbiKeyAsync(dbiKey As String, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKeyAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronized(System.DateTime)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronized(System.DateTime)
-  id: GetFromIdxDbiLastSyncronized(System.DateTime)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronizedAsync(System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronizedAsync(System.DateTime,System.Threading.CancellationToken)
+  id: GetFromIdxDbiLastSyncronizedAsync(System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxDbiLastSyncronized(DateTime)
-  nameWithType: EjuserRows.GetFromIdxDbiLastSyncronized(DateTime)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronized(System.DateTime)
+  name: GetFromIdxDbiLastSyncronizedAsync(DateTime, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxDbiLastSyncronizedAsync(DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronizedAsync(System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -650,31 +670,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserDbi_last_syncronized&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxDbiLastSyncronized(DateTime dbiLastSyncronized)
+    content: public static Task<EjuserRows> GetFromIdxDbiLastSyncronizedAsync(DateTime dbiLastSyncronized, CancellationToken cancellationToken = null)
     parameters:
     - id: dbiLastSyncronized
       type: System.DateTime
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxDbiLastSyncronized(dbiLastSyncronized As DateTime) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronized*
+    content.vb: Public Shared Function GetFromIdxDbiLastSyncronizedAsync(dbiLastSyncronized As DateTime, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronizedAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModified(System.DateTime)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModified(System.DateTime)
-  id: GetFromIdxDbiLastModified(System.DateTime)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModifiedAsync(System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModifiedAsync(System.DateTime,System.Threading.CancellationToken)
+  id: GetFromIdxDbiLastModifiedAsync(System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxDbiLastModified(DateTime)
-  nameWithType: EjuserRows.GetFromIdxDbiLastModified(DateTime)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModified(System.DateTime)
+  name: GetFromIdxDbiLastModifiedAsync(DateTime, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxDbiLastModifiedAsync(DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModifiedAsync(System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -685,31 +707,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserDbi_last_modified&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxDbiLastModified(DateTime dbiLastModified)
+    content: public static Task<EjuserRows> GetFromIdxDbiLastModifiedAsync(DateTime dbiLastModified, CancellationToken cancellationToken = null)
     parameters:
     - id: dbiLastModified
       type: System.DateTime
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxDbiLastModified(dbiLastModified As DateTime) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModified*
+    content.vb: Public Shared Function GetFromIdxDbiLastModifiedAsync(dbiLastModified As DateTime, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModifiedAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureId(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureId(System.Int32)
-  id: GetFromIdxPictureId(System.Int32)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxPictureIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxPictureId(Int32)
-  nameWithType: EjuserRows.GetFromIdxPictureId(Int32)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureId(System.Int32)
+  name: GetFromIdxPictureIdAsync(Int32, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxPictureIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -720,31 +744,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserPicture_id&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxPictureId(int pictureId)
+    content: public static Task<EjuserRows> GetFromIdxPictureIdAsync(int pictureId, CancellationToken cancellationToken = null)
     parameters:
     - id: pictureId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxPictureId(pictureId As Integer) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureId*
+    content.vb: Public Shared Function GetFromIdxPictureIdAsync(pictureId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicket(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicket(System.Int32)
-  id: GetFromIdxDefaultStatusNewTicket(System.Int32)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicketAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicketAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxDefaultStatusNewTicketAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxDefaultStatusNewTicket(Int32)
-  nameWithType: EjuserRows.GetFromIdxDefaultStatusNewTicket(Int32)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicket(System.Int32)
+  name: GetFromIdxDefaultStatusNewTicketAsync(Int32, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxDefaultStatusNewTicketAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicketAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -755,31 +781,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserDefault_status_new_ticket&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxDefaultStatusNewTicket(int defaultStatusNewTicket)
+    content: public static Task<EjuserRows> GetFromIdxDefaultStatusNewTicketAsync(int defaultStatusNewTicket, CancellationToken cancellationToken = null)
     parameters:
     - id: defaultStatusNewTicket
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxDefaultStatusNewTicket(defaultStatusNewTicket As Integer) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicket*
+    content.vb: Public Shared Function GetFromIdxDefaultStatusNewTicketAsync(defaultStatusNewTicket As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicketAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessage(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessage(System.Int32)
-  id: GetFromIdxDefaultStatusAddMessage(System.Int32)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessageAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessageAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxDefaultStatusAddMessageAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxDefaultStatusAddMessage(Int32)
-  nameWithType: EjuserRows.GetFromIdxDefaultStatusAddMessage(Int32)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessage(System.Int32)
+  name: GetFromIdxDefaultStatusAddMessageAsync(Int32, CancellationToken)
+  nameWithType: EjuserRows.GetFromIdxDefaultStatusAddMessageAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessageAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -790,31 +818,33 @@ items:
   summary: "\nCreate a new instance of the EjuserRow object, by querying the database table via the index &apos;IDXEjuserDefault_status_add_message&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Ejuser table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjuserRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static EjuserRows GetFromIdxDefaultStatusAddMessage(int defaultStatusAddMessage)
+    content: public static Task<EjuserRows> GetFromIdxDefaultStatusAddMessageAsync(int defaultStatusAddMessage, CancellationToken cancellationToken = null)
     parameters:
     - id: defaultStatusAddMessage
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxDefaultStatusAddMessage(defaultStatusAddMessage As Integer) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessage*
+    content.vb: Public Shared Function GetFromIdxDefaultStatusAddMessageAsync(defaultStatusAddMessage As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessageAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EjuserTableInfo)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EjuserTableInfo)
-  id: GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EjuserTableInfo)
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EjuserTableInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EjuserTableInfo,System.Threading.CancellationToken)
+  id: GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EjuserTableInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRows
   langs:
   - csharp
   - vb
-  name: GetFromReader(SoDataReader, EjuserTableInfo)
-  nameWithType: EjuserRows.GetFromReader(SoDataReader, EjuserTableInfo)
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Data.EjuserTableInfo)
+  name: GetFromReaderAsync(SoDataReader, EjuserTableInfo, CancellationToken)
+  nameWithType: EjuserRows.GetFromReaderAsync(SoDataReader, EjuserTableInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Data.EjuserTableInfo, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -824,7 +854,7 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nCreate a new instance of the EjuserRows object, and populate it with data from a reader.\nIf the search returns no results, an empty collection will be returned; if the result contains\nrows, a collection of EjuserRow objects representing each row will be returned. \n<p></p>Note that the internal logic starts by calling reader.<xref href=\"SuperOffice.Data.SoDataReader.Read\" data-throw-if-not-resolved=\"false\"></xref>, \nwhich is correct if you hand the method the result of an <xref href=\"SuperOffice.Data.SoCommand.ExecuteReader\" data-throw-if-not-resolved=\"false\"></xref>,\nbut if the reader has already been advanced one or more rows, the current row will be skipped and collection\npopulation will start with the next row.\n"
   syntax:
-    content: public static EjuserRows GetFromReader(SoDataReader reader, EjuserTableInfo tableInfo)
+    content: public static Task<EjuserRows> GetFromReaderAsync(SoDataReader reader, EjuserTableInfo tableInfo, CancellationToken cancellationToken = null)
     parameters:
     - id: reader
       type: SuperOffice.Data.SoDataReader
@@ -834,10 +864,12 @@ items:
       description: >-
         <xref href="SuperOffice.CRM.Data.EjuserTableInfo" data-throw-if-not-resolved="false"></xref> instance used in the query that is the source of the reader.
                     The fields used from the reader will be those owned by this tableinfo object.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.EjuserRows
-    content.vb: Public Shared Function GetFromReader(reader As SoDataReader, tableInfo As EjuserTableInfo) As EjuserRows
-  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromReader*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
+    content.vb: Public Shared Function GetFromReaderAsync(reader As SoDataReader, tableInfo As EjuserTableInfo, cancellationToken As CancellationToken = Nothing) As Task(Of EjuserRows)
+  overload: SuperOffice.CRM.Rows.EjuserRows.GetFromReaderAsync*
   modifiers.csharp:
   - public
   - static
@@ -1189,18 +1221,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.ISoCollection
-  commentId: T:SuperOffice.Data.ISoCollection
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ISoCollection
-  nameWithType: ISoCollection
-  fullName: SuperOffice.Data.ISoCollection
-- uid: System.Collections.IEnumerable
-  isExternal: true
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
 - uid: System.Collections.IList
   isExternal: true
   name: IList
@@ -1211,6 +1231,11 @@ references:
   name: ICollection
   nameWithType: ICollection
   fullName: System.Collections.ICollection
+- uid: System.Collections.IEnumerable
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
 - uid: System.Collections.Specialized.INotifyCollectionChanged
   isExternal: true
   name: INotifyCollectionChanged
@@ -1290,18 +1315,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.LoadAsync(SuperOffice.CRM.Rows.IdxBase,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.LoadAsync(SuperOffice.CRM.Rows.IdxBase,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  name: Load(IdxBase)
-  nameWithType: TableRowsBase.Load(IdxBase)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+  name: LoadAsync(IdxBase, CancellationToken)
+  nameWithType: TableRowsBase.LoadAsync(IdxBase, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.LoadAsync(SuperOffice.CRM.Rows.IdxBase, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
-    name: Load
-    nameWithType: TableRowsBase.Load
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.Load
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.LoadAsync(SuperOffice.CRM.Rows.IdxBase,System.Threading.CancellationToken)
+    name: LoadAsync
+    nameWithType: TableRowsBase.LoadAsync
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.LoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1311,14 +1336,22 @@ references:
     nameWithType: IdxBase
     fullName: SuperOffice.CRM.Rows.IdxBase
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
-    name: Load
-    nameWithType: TableRowsBase.Load
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.Load
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.LoadAsync(SuperOffice.CRM.Rows.IdxBase,System.Threading.CancellationToken)
+    name: LoadAsync
+    nameWithType: TableRowsBase.LoadAsync
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.LoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1328,52 +1361,70 @@ references:
     nameWithType: IdxBase
     fullName: SuperOffice.CRM.Rows.IdxBase
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  name: RowsLoad()
-  nameWithType: TableRowsBase.RowsLoad()
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad()
+  name: RowsLoadAsync(CancellationToken)
+  nameWithType: TableRowsBase.RowsLoadAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
-    name: RowsLoad
-    nameWithType: TableRowsBase.RowsLoad
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(System.Threading.CancellationToken)
+    name: RowsLoadAsync
+    nameWithType: TableRowsBase.RowsLoadAsync
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
-    name: RowsLoad
-    nameWithType: TableRowsBase.RowsLoad
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(System.Threading.CancellationToken)
+    name: RowsLoadAsync
+    nameWithType: TableRowsBase.RowsLoadAsync
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  name: RowsLoad(ITableRowLoadHandlerFactory)
-  nameWithType: TableRowsBase.RowsLoad(ITableRowLoadHandlerFactory)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+  name: RowsLoadAsync(ITableRowLoadHandlerFactory, CancellationToken)
+  nameWithType: TableRowsBase.RowsLoadAsync(ITableRowLoadHandlerFactory, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
-    name: RowsLoad
-    nameWithType: TableRowsBase.RowsLoad
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory,System.Threading.CancellationToken)
+    name: RowsLoadAsync
+    nameWithType: TableRowsBase.RowsLoadAsync
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1383,14 +1434,22 @@ references:
     nameWithType: ITableRowLoadHandlerFactory
     fullName: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
-    name: RowsLoad
-    nameWithType: TableRowsBase.RowsLoad
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory,System.Threading.CancellationToken)
+    name: RowsLoadAsync
+    nameWithType: TableRowsBase.RowsLoadAsync
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoadAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1400,21 +1459,29 @@ references:
     nameWithType: ITableRowLoadHandlerFactory
     fullName: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.Delete
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Delete
+- uid: SuperOffice.CRM.Rows.TableRowsBase.DeleteAsync
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.DeleteAsync
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  name: Delete()
-  nameWithType: TableRowsBase.Delete()
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.Delete()
+  name: DeleteAsync()
+  nameWithType: TableRowsBase.DeleteAsync()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.DeleteAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.Delete
-    name: Delete
-    nameWithType: TableRowsBase.Delete
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.Delete
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.DeleteAsync
+    name: DeleteAsync
+    nameWithType: TableRowsBase.DeleteAsync
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.DeleteAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1423,10 +1490,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.Delete
-    name: Delete
-    nameWithType: TableRowsBase.Delete
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.Delete
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.DeleteAsync
+    name: DeleteAsync
+    nameWithType: TableRowsBase.DeleteAsync
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.DeleteAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1704,82 +1771,6 @@ references:
     nameWithType: Int32
     fullName: System.Int32
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: ISoCollection.Add(ISoItem)
-  nameWithType: TableRowsBase.ISoCollection.Add(ISoItem)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
-  nameWithType.vb: TableRowsBase.SuperOffice.Data.ISoCollection.Add(ISoItem)
-  name.vb: SuperOffice.Data.ISoCollection.Add(ISoItem)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
-    name: ISoCollection.Add
-    nameWithType: TableRowsBase.ISoCollection.Add
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.Add
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ISoItem
-    name: ISoItem
-    nameWithType: ISoItem
-    fullName: SuperOffice.Data.ISoItem
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
-    name: SuperOffice.Data.ISoCollection.Add
-    nameWithType: TableRowsBase.SuperOffice.Data.ISoCollection.Add
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.Add
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ISoItem
-    name: ISoItem
-    nameWithType: ISoItem
-    fullName: SuperOffice.Data.ISoItem
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: ISoCollection.AddNew()
-  nameWithType: TableRowsBase.ISoCollection.AddNew()
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.AddNew()
-  nameWithType.vb: TableRowsBase.SuperOffice.Data.ISoCollection.AddNew()
-  name.vb: SuperOffice.Data.ISoCollection.AddNew()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
-    name: ISoCollection.AddNew
-    nameWithType: TableRowsBase.ISoCollection.AddNew
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.AddNew
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
-    name: SuperOffice.Data.ISoCollection.AddNew
-    nameWithType: TableRowsBase.SuperOffice.Data.ISoCollection.AddNew
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.AddNew
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )
@@ -2149,6 +2140,119 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  isExternal: true
+  name: Load(IdxBase)
+  nameWithType: TableRowsBase.Load(IdxBase)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+    name: Load
+    nameWithType: TableRowsBase.Load
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.IdxBase
+    name: IdxBase
+    nameWithType: IdxBase
+    fullName: SuperOffice.CRM.Rows.IdxBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+    name: Load
+    nameWithType: TableRowsBase.Load
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.IdxBase
+    name: IdxBase
+    nameWithType: IdxBase
+    fullName: SuperOffice.CRM.Rows.IdxBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  isExternal: true
+  name: RowsLoad()
+  nameWithType: TableRowsBase.RowsLoad()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+    name: RowsLoad
+    nameWithType: TableRowsBase.RowsLoad
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+    name: RowsLoad
+    nameWithType: TableRowsBase.RowsLoad
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  isExternal: true
+  name: RowsLoad(ITableRowLoadHandlerFactory)
+  nameWithType: TableRowsBase.RowsLoad(ITableRowLoadHandlerFactory)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+    name: RowsLoad
+    nameWithType: TableRowsBase.RowsLoad
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
+    name: ITableRowLoadHandlerFactory
+    nameWithType: ITableRowLoadHandlerFactory
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+    name: RowsLoad
+    nameWithType: TableRowsBase.RowsLoad
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
+    name: ITableRowLoadHandlerFactory
+    nameWithType: ITableRowLoadHandlerFactory
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.Sentries
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.Sentries
   parent: SuperOffice.CRM.Rows.TableRowsBase
@@ -2320,18 +2424,18 @@ references:
   name: IsDeleted
   nameWithType: NestedCollectionPersist.IsDeleted
   fullName: SuperOffice.Data.NestedCollectionPersist.IsDeleted
-- uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+- uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPreIdUpdate()
-  nameWithType: NestedPersistFacade.OnPreIdUpdate()
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: NestedPersistFacade.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: NestedPersistFacade.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2340,10 +2444,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: NestedPersistFacade.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2351,18 +2455,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersistFacade.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2376,10 +2480,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2392,18 +2496,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2417,10 +2521,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2433,18 +2537,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnIdUpdate()
-  nameWithType: NestedPersistFacade.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: NestedPersistFacade.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: NestedPersistFacade.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2453,10 +2557,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: NestedPersistFacade.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2464,18 +2568,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnSave(BatchSave)
-  nameWithType: NestedPersistFacade.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: OnSaveAsync(BatchSave)
+  nameWithType: NestedPersistFacade.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: NestedPersistFacade.OnSave
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: NestedPersistFacade.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2489,10 +2593,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: NestedPersistFacade.OnSave
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: NestedPersistFacade.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2505,18 +2609,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+- uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnSaved(Boolean)
-  nameWithType: NestedPersistFacade.OnSaved(Boolean)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: NestedPersistFacade.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: NestedPersistFacade.OnSaved
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: NestedPersistFacade.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2530,10 +2634,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: NestedPersistFacade.OnSaved
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: NestedPersistFacade.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2601,18 +2705,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.Save
-  commentId: M:SuperOffice.Data.NestedPersist.Save
+- uid: SuperOffice.Data.NestedPersist.SaveAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SaveAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: Save()
-  nameWithType: NestedPersist.Save()
-  fullName: SuperOffice.Data.NestedPersist.Save()
+  name: SaveAsync()
+  nameWithType: NestedPersist.SaveAsync()
+  fullName: SuperOffice.Data.NestedPersist.SaveAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2621,10 +2725,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2632,20 +2736,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPreIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name: INestedPersist.OnPreIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2654,10 +2758,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2665,20 +2769,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name: INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2692,10 +2796,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2708,20 +2812,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name: INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2735,10 +2839,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2751,20 +2855,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name: INestedPersist.OnIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2773,10 +2877,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2784,20 +2888,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSave(BatchSave)
-  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
-  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name: INestedPersist.OnSaveAsync(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: INestedPersist.OnSave
-    nameWithType: NestedPersist.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2811,10 +2915,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: SuperOffice.Data.INestedPersist.OnSave
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2827,20 +2931,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSaved(Boolean)
-  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
-  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name: INestedPersist.OnSavedAsync(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: INestedPersist.OnSaved
-    nameWithType: NestedPersist.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2854,10 +2958,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: SuperOffice.Data.INestedPersist.OnSaved
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3470,12 +3574,12 @@ references:
   name: CreateNew
   nameWithType: EjuserRows.CreateNew
   fullName: SuperOffice.CRM.Rows.EjuserRows.CreateNew
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearch*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearch
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearchAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearchAsync
   isExternal: true
-  name: GetFromCustomSearch
-  nameWithType: EjuserRows.GetFromCustomSearch
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearch
+  name: GetFromCustomSearchAsync
+  nameWithType: EjuserRows.GetFromCustomSearchAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromCustomSearchAsync
 - uid: SuperOffice.CRM.Rows.EjuserRows.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.EjuserRows.CustomSearch
   parent: SuperOffice.CRM.Rows
@@ -3483,12 +3587,98 @@ references:
   name: EjuserRows.CustomSearch
   nameWithType: EjuserRows.CustomSearch
   fullName: SuperOffice.CRM.Rows.EjuserRows.CustomSearch
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginname*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginname
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: GetFromIdxLoginname
-  nameWithType: EjuserRows.GetFromIdxLoginname
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginname
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EjuserRows}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<EjuserRows>
+  nameWithType: Task<EjuserRows>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.EjuserRows>
+  nameWithType.vb: Task(Of EjuserRows)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.EjuserRows)
+  name.vb: Task(Of EjuserRows)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.EjuserRows
+    name: EjuserRows
+    nameWithType: EjuserRows
+    fullName: SuperOffice.CRM.Rows.EjuserRows
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.EjuserRows
+    name: EjuserRows
+    nameWithType: EjuserRows
+    fullName: SuperOffice.CRM.Rows.EjuserRows
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginnameAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginnameAsync
+  isExternal: true
+  name: GetFromIdxLoginnameAsync
+  nameWithType: EjuserRows.GetFromIdxLoginnameAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLoginnameAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -3496,12 +3686,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroup*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroup
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroupAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroupAsync
   isExternal: true
-  name: GetFromIdxUsergroup
-  nameWithType: EjuserRows.GetFromIdxUsergroup
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroup
+  name: GetFromIdxUsergroupAsync
+  nameWithType: EjuserRows.GetFromIdxUsergroupAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsergroupAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -3509,89 +3699,89 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsername*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsername
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsernameAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsernameAsync
   isExternal: true
-  name: GetFromIdxUsername
-  nameWithType: EjuserRows.GetFromIdxUsername
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsername
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmail*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmail
+  name: GetFromIdxUsernameAsync
+  nameWithType: EjuserRows.GetFromIdxUsernameAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxUsernameAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmailAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmailAsync
   isExternal: true
-  name: GetFromIdxEmail
-  nameWithType: EjuserRows.GetFromIdxEmail
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmail
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategory*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategory
+  name: GetFromIdxEmailAsync
+  nameWithType: EjuserRows.GetFromIdxEmailAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxEmailAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategoryAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategoryAsync
   isExternal: true
-  name: GetFromIdxDefaultCategory
-  nameWithType: EjuserRows.GetFromIdxDefaultCategory
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategory
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategory*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategory
+  name: GetFromIdxDefaultCategoryAsync
+  nameWithType: EjuserRows.GetFromIdxDefaultCategoryAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultCategoryAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategoryAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategoryAsync
   isExternal: true
-  name: GetFromIdxLastCategory
-  nameWithType: EjuserRows.GetFromIdxLastCategory
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategory
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileId*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileId
+  name: GetFromIdxLastCategoryAsync
+  nameWithType: EjuserRows.GetFromIdxLastCategoryAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxLastCategoryAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileIdAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileIdAsync
   isExternal: true
-  name: GetFromIdxProfileId
-  nameWithType: EjuserRows.GetFromIdxProfileId
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileId
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentId*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentId
+  name: GetFromIdxProfileIdAsync
+  nameWithType: EjuserRows.GetFromIdxProfileIdAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxProfileIdAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentIdAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentIdAsync
   isExternal: true
-  name: GetFromIdxDbiAgentId
-  nameWithType: EjuserRows.GetFromIdxDbiAgentId
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentId
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKey*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKey
+  name: GetFromIdxDbiAgentIdAsync
+  nameWithType: EjuserRows.GetFromIdxDbiAgentIdAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiAgentIdAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKeyAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKeyAsync
   isExternal: true
-  name: GetFromIdxDbiKey
-  nameWithType: EjuserRows.GetFromIdxDbiKey
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKey
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronized*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronized
+  name: GetFromIdxDbiKeyAsync
+  nameWithType: EjuserRows.GetFromIdxDbiKeyAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiKeyAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronizedAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronizedAsync
   isExternal: true
-  name: GetFromIdxDbiLastSyncronized
-  nameWithType: EjuserRows.GetFromIdxDbiLastSyncronized
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronized
+  name: GetFromIdxDbiLastSyncronizedAsync
+  nameWithType: EjuserRows.GetFromIdxDbiLastSyncronizedAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastSyncronizedAsync
 - uid: System.DateTime
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModified*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModified
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModifiedAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModifiedAsync
   isExternal: true
-  name: GetFromIdxDbiLastModified
-  nameWithType: EjuserRows.GetFromIdxDbiLastModified
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModified
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureId*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureId
+  name: GetFromIdxDbiLastModifiedAsync
+  nameWithType: EjuserRows.GetFromIdxDbiLastModifiedAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDbiLastModifiedAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureIdAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureIdAsync
   isExternal: true
-  name: GetFromIdxPictureId
-  nameWithType: EjuserRows.GetFromIdxPictureId
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureId
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicket*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicket
+  name: GetFromIdxPictureIdAsync
+  nameWithType: EjuserRows.GetFromIdxPictureIdAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxPictureIdAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicketAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicketAsync
   isExternal: true
-  name: GetFromIdxDefaultStatusNewTicket
-  nameWithType: EjuserRows.GetFromIdxDefaultStatusNewTicket
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicket
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessage*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessage
+  name: GetFromIdxDefaultStatusNewTicketAsync
+  nameWithType: EjuserRows.GetFromIdxDefaultStatusNewTicketAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusNewTicketAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessageAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessageAsync
   isExternal: true
-  name: GetFromIdxDefaultStatusAddMessage
-  nameWithType: EjuserRows.GetFromIdxDefaultStatusAddMessage
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessage
-- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromReader*
-  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromReader
+  name: GetFromIdxDefaultStatusAddMessageAsync
+  nameWithType: EjuserRows.GetFromIdxDefaultStatusAddMessageAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromIdxDefaultStatusAddMessageAsync
+- uid: SuperOffice.CRM.Rows.EjuserRows.GetFromReaderAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjuserRows.GetFromReaderAsync
   isExternal: true
-  name: GetFromReader
-  nameWithType: EjuserRows.GetFromReader
-  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromReader
+  name: GetFromReaderAsync
+  nameWithType: EjuserRows.GetFromReaderAsync
+  fullName: SuperOffice.CRM.Rows.EjuserRows.GetFromReaderAsync
 - uid: SuperOffice.Data.SoDataReader
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data

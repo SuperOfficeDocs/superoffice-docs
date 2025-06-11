@@ -198,7 +198,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nLicense names for SuperOffice Module Licenses. Use\n<xref href=\"SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> and \n<xref href=\"SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> with these constants.\n"
+  summary: "\nLicense names for SuperOffice Module Licenses. Use\n<see cref=\"!:SuperOffice.Security.Principal.SoPrincipal.GetLicense\"></see> and \n<see cref=\"!:SuperOffice.Security.Principal.SoPrincipal.HasLicense\"></see> with these constants.\n"
   syntax:
     content: 'public static class SoLicenseNames : Object'
     content.vb: >-

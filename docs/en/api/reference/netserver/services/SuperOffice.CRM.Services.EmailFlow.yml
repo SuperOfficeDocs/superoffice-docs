@@ -74,8 +74,6 @@ items:
           Inherits Carrier
           Implements IVisibleForCarrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.WorkflowAgent
-    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
   - linkId: SuperOffice.CRM.Services.IWorkflowAgent
     commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
   inheritance:
@@ -1611,15 +1609,8 @@ references:
   name: IVisibleForCarrier
   nameWithType: IVisibleForCarrier
   fullName: SuperOffice.CRM.Services.IVisibleForCarrier
-- uid: SuperOffice.CRM.Services.WorkflowAgent
-  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
-  isExternal: true
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.CRM.Services.WorkflowAgent
 - uid: SuperOffice.CRM.Services.IWorkflowAgent
   commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IWorkflowAgent
   nameWithType: IWorkflowAgent

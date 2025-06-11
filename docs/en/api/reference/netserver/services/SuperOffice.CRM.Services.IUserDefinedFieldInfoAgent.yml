@@ -5,39 +5,39 @@ items:
   id: IUserDefinedFieldInfoAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType(SuperOffice.CRM.Services.UserDefinedFieldInfo,SuperOffice.Data.UDefFieldType,System.Boolean)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(System.Int32)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges(SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges(SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(SuperOffice.CRM.Services.UserDefinedFieldInfo)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String,System.String)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String,System.Boolean)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(System.Int32[])
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(System.String[],SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(System.Int32)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList(SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive(SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish(SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert(SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(SuperOffice.CRM.Services.UserDefinedFieldInfo)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(SuperOffice.CRM.Services.UserDefinedFieldInfo[])
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(SuperOffice.Data.UDefType,System.Boolean)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(SuperOffice.Data.UDefType)
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields(SuperOffice.Data.UDefType,System.Int32[])
-  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(SuperOffice.Data.UDefType,System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,SuperOffice.Data.UDefFieldType,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCachesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(System.String[],SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.PublishAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.RevertAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(SuperOffice.Data.UDefType,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(SuperOffice.Data.UDefType,System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(SuperOffice.Data.UDefType,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -78,16 +78,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
-  id: CreateDefaultUserDefinedFieldInfo
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync(System.Threading.CancellationToken)
+  id: CreateDefaultUserDefinedFieldInfoAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultUserDefinedFieldInfo()
-  nameWithType: IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
+  name: CreateDefaultUserDefinedFieldInfoAsync(CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -97,22 +97,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLoading default values into a new UserDefinedFieldInfo.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: UserDefinedFieldInfo CreateDefaultUserDefinedFieldInfo()
+    content: Task<UserDefinedFieldInfo> CreateDefaultUserDefinedFieldInfoAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
       description: New UserDefinedFieldInfo with default values
-    content.vb: Function CreateDefaultUserDefinedFieldInfo As UserDefinedFieldInfo
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(SuperOffice.CRM.Services.UserDefinedFieldInfo)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(SuperOffice.CRM.Services.UserDefinedFieldInfo)
-  id: SaveUserDefinedFieldInfo(SuperOffice.CRM.Services.UserDefinedFieldInfo)
+    content.vb: Function CreateDefaultUserDefinedFieldInfoAsync(cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Threading.CancellationToken)
+  id: SaveUserDefinedFieldInfoAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: SaveUserDefinedFieldInfo(UserDefinedFieldInfo)
-  nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(UserDefinedFieldInfo)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(SuperOffice.CRM.Services.UserDefinedFieldInfo)
+  name: SaveUserDefinedFieldInfoAsync(UserDefinedFieldInfo, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync(UserDefinedFieldInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -122,26 +125,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nUpdates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is empty\n"
   syntax:
-    content: UserDefinedFieldInfo SaveUserDefinedFieldInfo(UserDefinedFieldInfo userDefinedFieldInfo)
+    content: Task<UserDefinedFieldInfo> SaveUserDefinedFieldInfoAsync(UserDefinedFieldInfo userDefinedFieldInfo, CancellationToken cancellationToken = null)
     parameters:
     - id: userDefinedFieldInfo
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
       description: The UserDefinedFieldInfo that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
       description: New or updated UserDefinedFieldInfo
-    content.vb: Function SaveUserDefinedFieldInfo(userDefinedFieldInfo As UserDefinedFieldInfo) As UserDefinedFieldInfo
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(System.Int32)
-  id: DeleteUserDefinedFieldInfo(System.Int32)
+    content.vb: Function SaveUserDefinedFieldInfoAsync(userDefinedFieldInfo As UserDefinedFieldInfo, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteUserDefinedFieldInfoAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: DeleteUserDefinedFieldInfo(Int32)
-  nameWithType: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Int32)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(System.Int32)
+  name: DeleteUserDefinedFieldInfoAsync(Int32, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -151,23 +156,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDeletes the UserDefinedFieldInfo\n"
   syntax:
-    content: void DeleteUserDefinedFieldInfo(int userDefinedFieldInfoId)
+    content: Task DeleteUserDefinedFieldInfoAsync(int userDefinedFieldInfoId, CancellationToken cancellationToken = null)
     parameters:
     - id: userDefinedFieldInfoId
       type: System.Int32
       description: The identity of the UserDefinedFieldInfo
-    content.vb: Sub DeleteUserDefinedFieldInfo(userDefinedFieldInfoId As Integer)
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String,System.Boolean)
-  id: GetCustomFieldInfoList(System.String,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteUserDefinedFieldInfoAsync(userDefinedFieldInfoId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetCustomFieldInfoListAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetCustomFieldInfoList(String, Boolean)
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String, Boolean)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String, System.Boolean)
+  name: GetCustomFieldInfoListAsync(String, Boolean, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync(System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -177,7 +186,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn information about all the custom fields (user-defined + extra) on a particular table\n"
   syntax:
-    content: FieldInfoBase[] GetCustomFieldInfoList(string tableName, bool includeStandard)
+    content: Task<FieldInfoBase[]> GetCustomFieldInfoListAsync(string tableName, bool includeStandard, CancellationToken cancellationToken = null)
     parameters:
     - id: tableName
       type: System.String
@@ -185,21 +194,23 @@ items:
     - id: includeStandard
       type: System.Boolean
       description: Include standard fields in result. Default false.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.FieldInfoBase[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldInfoBase[]}
       description: Array of user-defined and extra field info in rank order. Describes default values, mandatory, visiblity, labels and choices.
-    content.vb: Function GetCustomFieldInfoList(tableName As String, includeStandard As Boolean) As FieldInfoBase()
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String,System.String)
-  id: GetCustomFieldInfo(System.String,System.String)
+    content.vb: Function GetCustomFieldInfoListAsync(tableName As String, includeStandard As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of FieldInfoBase())
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetCustomFieldInfoAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetCustomFieldInfo(String, String)
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfo(String, String)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String, System.String)
+  name: GetCustomFieldInfoAsync(String, String, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync(System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -209,7 +220,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn information about a particular custom field (user-defined + extra) on a particular table\n"
   syntax:
-    content: FieldInfoBase GetCustomFieldInfo(string tableName, string fieldName)
+    content: Task<FieldInfoBase> GetCustomFieldInfoAsync(string tableName, string fieldName, CancellationToken cancellationToken = null)
     parameters:
     - id: tableName
       type: System.String
@@ -217,21 +228,23 @@ items:
     - id: fieldName
       type: System.String
       description: 'The name of the field: prog:id or field name. e.g. &apos;SuperOffice:21&apos; or &apos;x_foobar&apos;'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.FieldInfoBase
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldInfoBase}
       description: user-defined or extra field info. Describes default values, mandatory, visiblity, labels and choices.
-    content.vb: Function GetCustomFieldInfo(tableName As String, fieldName As String) As FieldInfoBase
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(System.Int32)
-  id: GetUserDefinedFieldInfo(System.Int32)
+    content.vb: Function GetCustomFieldInfoAsync(tableName As String, fieldName As String, cancellationToken As CancellationToken = Nothing) As Task(Of FieldInfoBase)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetUserDefinedFieldInfoAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldInfo(Int32)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Int32)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(System.Int32)
+  name: GetUserDefinedFieldInfoAsync(Int32, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -241,26 +254,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets a UserDefinedFieldInfo object.                        \n"
   syntax:
-    content: UserDefinedFieldInfo GetUserDefinedFieldInfo(int userDefinedFieldInfoId)
+    content: Task<UserDefinedFieldInfo> GetUserDefinedFieldInfoAsync(int userDefinedFieldInfoId, CancellationToken cancellationToken = null)
     parameters:
     - id: userDefinedFieldInfoId
       type: System.Int32
       description: The identifier of the UserDefinedFieldInfo object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
       description: UserDefinedFieldInfo
-    content.vb: Function GetUserDefinedFieldInfo(userDefinedFieldInfoId As Integer) As UserDefinedFieldInfo
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList(SuperOffice.Data.UDefType)
-  id: GetUserDefinedFieldList(SuperOffice.Data.UDefType)
+    content.vb: Function GetUserDefinedFieldInfoAsync(userDefinedFieldInfoId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: GetUserDefinedFieldListAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldList(UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldList(UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList(SuperOffice.Data.UDefType)
+  name: GetUserDefinedFieldListAsync(UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -270,26 +285,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn information about all the user defined fields on a particular owner type (project, contact, person, etc). Note this may be different than the currently published fields.\n"
   syntax:
-    content: UserDefinedFieldInfo[] GetUserDefinedFieldList(UDefType ownerType)
+    content: Task<UserDefinedFieldInfo[]> GetUserDefinedFieldListAsync(UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: 'The user-defined field owner-entity id.  '
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo[]}
       description: 'Returns an array of user-defined field info carriers. '
-    content.vb: Function GetUserDefinedFieldList(ownerType As UDefType) As UserDefinedFieldInfo()
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(SuperOffice.Data.UDefType)
-  id: GetPublishedUserDefinedFieldList(SuperOffice.Data.UDefType)
+    content.vb: Function GetUserDefinedFieldListAsync(ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo())
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: GetPublishedUserDefinedFieldListAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetPublishedUserDefinedFieldList(UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(SuperOffice.Data.UDefType)
+  name: GetPublishedUserDefinedFieldListAsync(UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -299,26 +316,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn information about all the user defined fields on a particular owner type (project, contact, person, etc).\n"
   syntax:
-    content: UserDefinedFieldInfo[] GetPublishedUserDefinedFieldList(UDefType ownerType)
+    content: Task<UserDefinedFieldInfo[]> GetPublishedUserDefinedFieldListAsync(UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: 'The user-defined field owner-entity id.  '
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo[]}
       description: 'Returns an array of user-defined field info carriers. '
-    content.vb: Function GetPublishedUserDefinedFieldList(ownerType As UDefType) As UserDefinedFieldInfo()
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
-  id: GetUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
+    content.vb: Function GetPublishedUserDefinedFieldListAsync(ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo())
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: GetUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromFieldLabel(String, UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String, UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(System.String, SuperOffice.Data.UDefType)
+  name: GetUserDefinedFieldFromFieldLabelAsync(String, UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(String, UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync(System.String, SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -328,7 +347,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn information about the given user defined field identified by the owner and the field label. Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored. Note this may be different than the currently published fields.\n"
   syntax:
-    content: UserDefinedFieldInfo GetUserDefinedFieldFromFieldLabel(string fieldLabel, UDefType ownerType)
+    content: Task<UserDefinedFieldInfo> GetUserDefinedFieldFromFieldLabelAsync(string fieldLabel, UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: fieldLabel
       type: System.String
@@ -336,21 +355,23 @@ items:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: 'The user-defined field owner-entity id. '
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier, or null if no matching field is found.
-    content.vb: Function GetUserDefinedFieldFromFieldLabel(fieldLabel As String, ownerType As UDefType) As UserDefinedFieldInfo
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
-  id: GetPublishedUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
+    content.vb: Function GetUserDefinedFieldFromFieldLabelAsync(fieldLabel As String, ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: GetPublishedUserDefinedFieldFromFieldLabelAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetPublishedUserDefinedFieldFromFieldLabel(String, UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(String, UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(System.String, SuperOffice.Data.UDefType)
+  name: GetPublishedUserDefinedFieldFromFieldLabelAsync(String, UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(String, UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync(System.String, SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -360,7 +381,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn information about the given user defined field identified by the owner and the field label. Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored.\n"
   syntax:
-    content: UserDefinedFieldInfo GetPublishedUserDefinedFieldFromFieldLabel(string fieldLabel, UDefType ownerType)
+    content: Task<UserDefinedFieldInfo> GetPublishedUserDefinedFieldFromFieldLabelAsync(string fieldLabel, UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: fieldLabel
       type: System.String
@@ -368,21 +389,23 @@ items:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: 'The user-defined field owner-entity id. '
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier, or null if no matching field is found.
-    content.vb: Function GetPublishedUserDefinedFieldFromFieldLabel(fieldLabel As String, ownerType As UDefType) As UserDefinedFieldInfo
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
-  id: GetUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
+    content.vb: Function GetPublishedUserDefinedFieldFromFieldLabelAsync(fieldLabel As String, ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: GetUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromProgId(String, UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(String, UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(System.String, SuperOffice.Data.UDefType)
+  name: GetUserDefinedFieldFromProgIdAsync(String, UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(String, UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync(System.String, SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -392,7 +415,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.\n"
   syntax:
-    content: UserDefinedFieldInfo GetUserDefinedFieldFromProgId(string progId, UDefType ownerType)
+    content: Task<UserDefinedFieldInfo> GetUserDefinedFieldFromProgIdAsync(string progId, UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: progId
       type: System.String
@@ -400,21 +423,23 @@ items:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: 'The user-defined field owner-entity id. '
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier, or null if no matching field is found.
-    content.vb: Function GetUserDefinedFieldFromProgId(progId As String, ownerType As UDefType) As UserDefinedFieldInfo
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
-  id: GetPublishedUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
+    content.vb: Function GetUserDefinedFieldFromProgIdAsync(progId As String, ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: GetPublishedUserDefinedFieldFromProgIdAsync(System.String,SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetPublishedUserDefinedFieldFromProgId(String, UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(String, UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(System.String, SuperOffice.Data.UDefType)
+  name: GetPublishedUserDefinedFieldFromProgIdAsync(String, UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(String, UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync(System.String, SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -424,7 +449,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers.\n"
   syntax:
-    content: UserDefinedFieldInfo GetPublishedUserDefinedFieldFromProgId(string progId, UDefType ownerType)
+    content: Task<UserDefinedFieldInfo> GetPublishedUserDefinedFieldFromProgIdAsync(string progId, UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: progId
       type: System.String
@@ -432,21 +457,23 @@ items:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: 'The user-defined field owner-entity id. '
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier, or null if no matching field is found.
-    content.vb: Function GetPublishedUserDefinedFieldFromProgId(progId As String, ownerType As UDefType) As UserDefinedFieldInfo
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(System.Int32[])
-  id: GetUserDefinedFieldFromIds(System.Int32[])
+    content.vb: Function GetPublishedUserDefinedFieldFromProgIdAsync(progId As String, ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetUserDefinedFieldFromIdsAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromIds(Int32[])
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Int32[])
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(System.Int32[])
+  name: GetUserDefinedFieldFromIdsAsync(Int32[], CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(Int32[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(System.Int32[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -456,29 +483,31 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn an given array of user defined field identified by the ids.\n"
   syntax:
-    content: UserDefinedFieldInfo[] GetUserDefinedFieldFromIds(int[] ids)
+    content: Task<UserDefinedFieldInfo[]> GetUserDefinedFieldFromIdsAsync(int[] ids, CancellationToken cancellationToken = null)
     parameters:
     - id: ids
       type: System.Int32[]
       description: Array of user defined field ids
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo[]}
       description: Returns an array of user-defined field info carriers
-    content.vb: Function GetUserDefinedFieldFromIds(ids As Integer()) As UserDefinedFieldInfo()
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(System.Int32())
-  name.vb: GetUserDefinedFieldFromIds(Int32())
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(System.String[],SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(System.String[],SuperOffice.Data.UDefType)
-  id: GetUserDefinedFieldFromProgIds(System.String[],SuperOffice.Data.UDefType)
+    content.vb: Function GetUserDefinedFieldFromIdsAsync(ids As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo())
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(Int32(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync(System.Int32(), System.Threading.CancellationToken)
+  name.vb: GetUserDefinedFieldFromIdsAsync(Int32(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(System.String[],SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(System.String[],SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: GetUserDefinedFieldFromProgIdsAsync(System.String[],SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromProgIds(String[], UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String[], UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(System.String[], SuperOffice.Data.UDefType)
+  name: GetUserDefinedFieldFromProgIdsAsync(String[], UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(String[], UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(System.String[], SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -488,7 +517,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn an given array user defined field identified by the owner and the prog-ids. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.\n"
   syntax:
-    content: UserDefinedFieldInfo[] GetUserDefinedFieldFromProgIds(string[] progIds, UDefType ownerType)
+    content: Task<UserDefinedFieldInfo[]> GetUserDefinedFieldFromProgIdsAsync(string[] progIds, UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: progIds
       type: System.String[]
@@ -496,24 +525,26 @@ items:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: 'The user-defined field owner-entity id. '
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo[]}
       description: Returns an array of user-defined field info carriers
-    content.vb: Function GetUserDefinedFieldFromProgIds(progIds As String(), ownerType As UDefType) As UserDefinedFieldInfo()
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String(), UDefType)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(System.String(), SuperOffice.Data.UDefType)
-  name.vb: GetUserDefinedFieldFromProgIds(String(), UDefType)
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
-  id: CreateUserDefinedFieldInfo(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
+    content.vb: Function GetUserDefinedFieldFromProgIdsAsync(progIds As String(), ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo())
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(String(), UDefType, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync(System.String(), SuperOffice.Data.UDefType, System.Threading.CancellationToken)
+  name.vb: GetUserDefinedFieldFromProgIdsAsync(String(), UDefType, CancellationToken)
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Threading.CancellationToken)
+  id: CreateUserDefinedFieldInfoAsync(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: CreateUserDefinedFieldInfo(UDefType, UDefFieldType)
-  nameWithType: IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(UDefType, UDefFieldType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(SuperOffice.Data.UDefType, SuperOffice.Data.UDefFieldType)
+  name: CreateUserDefinedFieldInfoAsync(UDefType, UDefFieldType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync(UDefType, UDefFieldType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync(SuperOffice.Data.UDefType, SuperOffice.Data.UDefFieldType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -523,7 +554,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCreate a UserDefinedFieldInfo based on a owner-entity id\n"
   syntax:
-    content: UserDefinedFieldInfo CreateUserDefinedFieldInfo(UDefType ownerType, UDefFieldType fieldType)
+    content: Task<UserDefinedFieldInfo> CreateUserDefinedFieldInfoAsync(UDefType ownerType, UDefFieldType fieldType, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
@@ -531,21 +562,23 @@ items:
     - id: fieldType
       type: SuperOffice.Data.UDefFieldType
       description: The field type of the new field
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier
-    content.vb: Function CreateUserDefinedFieldInfo(ownerType As UDefType, fieldType As UDefFieldType) As UserDefinedFieldInfo
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType(SuperOffice.CRM.Services.UserDefinedFieldInfo,SuperOffice.Data.UDefFieldType,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType(SuperOffice.CRM.Services.UserDefinedFieldInfo,SuperOffice.Data.UDefFieldType,System.Boolean)
-  id: ChangeFieldType(SuperOffice.CRM.Services.UserDefinedFieldInfo,SuperOffice.Data.UDefFieldType,System.Boolean)
+    content.vb: Function CreateUserDefinedFieldInfoAsync(ownerType As UDefType, fieldType As UDefFieldType, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,SuperOffice.Data.UDefFieldType,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,SuperOffice.Data.UDefFieldType,System.Boolean,System.Threading.CancellationToken)
+  id: ChangeFieldTypeAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,SuperOffice.Data.UDefFieldType,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: ChangeFieldType(UserDefinedFieldInfo, UDefFieldType, Boolean)
-  nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldType(UserDefinedFieldInfo, UDefFieldType, Boolean)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType(SuperOffice.CRM.Services.UserDefinedFieldInfo, SuperOffice.Data.UDefFieldType, System.Boolean)
+  name: ChangeFieldTypeAsync(UserDefinedFieldInfo, UDefFieldType, Boolean, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(UserDefinedFieldInfo, UDefFieldType, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo, SuperOffice.Data.UDefFieldType, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -555,7 +588,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCreate a UserDefinedFieldInfo based on a owner-entity id\n"
   syntax:
-    content: UserDefinedFieldInfo ChangeFieldType(UserDefinedFieldInfo info, UDefFieldType fieldType, bool isIndexed)
+    content: Task<UserDefinedFieldInfo> ChangeFieldTypeAsync(UserDefinedFieldInfo info, UDefFieldType fieldType, bool isIndexed, CancellationToken cancellationToken = null)
     parameters:
     - id: info
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
@@ -566,21 +599,23 @@ items:
     - id: isIndexed
       type: System.Boolean
       description: The new indexed status you want
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
       description: Returns the user-defined field info carrier
-    content.vb: Function ChangeFieldType(info As UserDefinedFieldInfo, fieldType As UDefFieldType, isIndexed As Boolean) As UserDefinedFieldInfo
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
-  id: GetUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
+    content.vb: Function ChangeFieldTypeAsync(info As UserDefinedFieldInfo, fieldType As UDefFieldType, isIndexed As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  id: GetUserDefinedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetUserDefinedPageOneFields(UDefType, Int32)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(UDefType, Int32)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(SuperOffice.Data.UDefType, System.Int32)
+  name: GetUserDefinedPageOneFieldsAsync(UDefType, Int32, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(UDefType, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync(SuperOffice.Data.UDefType, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -590,7 +625,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a list of page one fields for given Udef type and current user group\n"
   syntax:
-    content: UserDefinedFieldInfo[] GetUserDefinedPageOneFields(UDefType ownerType, int userGroupId)
+    content: Task<UserDefinedFieldInfo[]> GetUserDefinedPageOneFieldsAsync(UDefType ownerType, int userGroupId, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
@@ -598,21 +633,23 @@ items:
     - id: userGroupId
       type: System.Int32
       description: Id of UserGroup
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo[]}
       description: 'Returns an array of page one user-defined field info carriers. '
-    content.vb: Function GetUserDefinedPageOneFields(ownerType As UDefType, userGroupId As Integer) As UserDefinedFieldInfo()
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
-  id: GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
+    content.vb: Function GetUserDefinedPageOneFieldsAsync(ownerType As UDefType, userGroupId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo())
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  id: GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetPublishedUserDefinedPageOneFields(UDefType, Int32)
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(UDefType, Int32)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType, System.Int32)
+  name: GetPublishedUserDefinedPageOneFieldsAsync(UDefType, Int32, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(UDefType, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync(SuperOffice.Data.UDefType, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -622,7 +659,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a list of page one fields for given Udef type and current user group\n"
   syntax:
-    content: UserDefinedFieldInfo[] GetPublishedUserDefinedPageOneFields(UDefType ownerType, int userGroupId)
+    content: Task<UserDefinedFieldInfo[]> GetPublishedUserDefinedPageOneFieldsAsync(UDefType ownerType, int userGroupId, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
@@ -630,21 +667,23 @@ items:
     - id: userGroupId
       type: System.Int32
       description: Id of UserGroup
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo[]}
       description: 'Returns an array of page one user-defined field info carriers. '
-    content.vb: Function GetPublishedUserDefinedPageOneFields(ownerType As UDefType, userGroupId As Integer) As UserDefinedFieldInfo()
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish(SuperOffice.Data.UDefType)
-  id: Publish(SuperOffice.Data.UDefType)
+    content.vb: Function GetPublishedUserDefinedPageOneFieldsAsync(ownerType As UDefType, userGroupId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo())
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.PublishAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.PublishAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: PublishAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: Publish(UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.Publish(UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish(SuperOffice.Data.UDefType)
+  name: PublishAsync(UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.PublishAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.PublishAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -654,26 +693,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nPublish changed Udef fields for the given owner type\n"
   syntax:
-    content: int Publish(UDefType ownerType)
+    content: Task<int> PublishAsync(UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: The owner type to publish for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Batch task id or 0 that handles publishing.
-    content.vb: Function Publish(ownerType As UDefType) As Integer
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert(SuperOffice.Data.UDefType)
-  id: Revert(SuperOffice.Data.UDefType)
+    content.vb: Function PublishAsync(ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.PublishAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.RevertAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.RevertAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: RevertAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: Revert(UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.Revert(UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert(SuperOffice.Data.UDefType)
+  name: RevertAsync(UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.RevertAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.RevertAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -683,23 +724,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nRevert changed Udef fields for the given owner type - all unpublished changes will be lost\n"
   syntax:
-    content: void Revert(UDefType ownerType)
+    content: Task RevertAsync(UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: The owner type to revert fields for
-    content.vb: Sub Revert(ownerType As UDefType)
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(SuperOffice.CRM.Services.UserDefinedFieldInfo[])
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(SuperOffice.CRM.Services.UserDefinedFieldInfo[])
-  id: SaveUserDefinedFieldInfos(SuperOffice.CRM.Services.UserDefinedFieldInfo[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RevertAsync(ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.RevertAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo[],System.Threading.CancellationToken)
+  id: SaveUserDefinedFieldInfosAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: SaveUserDefinedFieldInfos(UserDefinedFieldInfo[])
-  nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(UserDefinedFieldInfo[])
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(SuperOffice.CRM.Services.UserDefinedFieldInfo[])
+  name: SaveUserDefinedFieldInfosAsync(UserDefinedFieldInfo[], CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(UserDefinedFieldInfo[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -709,26 +754,30 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSave an array of user defined fields. This will update the unpublished layout.\n"
   syntax:
-    content: void SaveUserDefinedFieldInfos(UserDefinedFieldInfo[] infos)
+    content: Task SaveUserDefinedFieldInfosAsync(UserDefinedFieldInfo[] infos, CancellationToken cancellationToken = null)
     parameters:
     - id: infos
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
       description: An array of user defined fields
-    content.vb: Sub SaveUserDefinedFieldInfos(infos As UserDefinedFieldInfo())
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(UserDefinedFieldInfo())
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(SuperOffice.CRM.Services.UserDefinedFieldInfo())
-  name.vb: SaveUserDefinedFieldInfos(UserDefinedFieldInfo())
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges(SuperOffice.Data.UDefType)
-  id: DetectUnpublishedChanges(SuperOffice.Data.UDefType)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveUserDefinedFieldInfosAsync(infos As UserDefinedFieldInfo(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(UserDefinedFieldInfo(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo(), System.Threading.CancellationToken)
+  name.vb: SaveUserDefinedFieldInfosAsync(UserDefinedFieldInfo(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: DetectUnpublishedChangesAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: DetectUnpublishedChanges(UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.DetectUnpublishedChanges(UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges(SuperOffice.Data.UDefType)
+  name: DetectUnpublishedChangesAsync(UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -738,26 +787,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDetect changes to the admin version (unpublished)\n"
   syntax:
-    content: bool DetectUnpublishedChanges(UDefType ownerType)
+    content: Task<bool> DetectUnpublishedChangesAsync(UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: The owner type
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if any changes were found. This includes cosmetic changes.
-    content.vb: Function DetectUnpublishedChanges(ownerType As UDefType) As Boolean
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges(SuperOffice.Data.UDefType)
-  id: DetectColumnIdChanges(SuperOffice.Data.UDefType)
+    content.vb: Function DetectUnpublishedChangesAsync(ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: DetectColumnIdChangesAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: DetectColumnIdChanges(UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.DetectColumnIdChanges(UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges(SuperOffice.Data.UDefType)
+  name: DetectColumnIdChangesAsync(UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -767,26 +818,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDetect columnid changes to the admin version (for determining publish warning)\n"
   syntax:
-    content: bool DetectColumnIdChanges(UDefType ownerType)
+    content: Task<bool> DetectColumnIdChangesAsync(UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: The owner type
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if columnid changes where found. i.e. if data needs to be moved during publishing.
-    content.vb: Function DetectColumnIdChanges(ownerType As UDefType) As Boolean
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(SuperOffice.Data.UDefType,System.Int32,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(SuperOffice.Data.UDefType,System.Int32,System.Int32,System.Int32)
-  id: SetUserDefinedPageOneField(SuperOffice.Data.UDefType,System.Int32,System.Int32,System.Int32)
+    content.vb: Function DetectColumnIdChangesAsync(ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(SuperOffice.Data.UDefType,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(SuperOffice.Data.UDefType,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: SetUserDefinedPageOneFieldAsync(SuperOffice.Data.UDefType,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: SetUserDefinedPageOneField(UDefType, Int32, Int32, Int32)
-  nameWithType: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(UDefType, Int32, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(SuperOffice.Data.UDefType, System.Int32, System.Int32, System.Int32)
+  name: SetUserDefinedPageOneFieldAsync(UDefType, Int32, Int32, Int32, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(UDefType, Int32, Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync(SuperOffice.Data.UDefType, System.Int32, System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -796,7 +849,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSets a user defined fields as page one field.\n"
   syntax:
-    content: void SetUserDefinedPageOneField(UDefType ownerType, int udefFieldId, int userGroupId, int fieldLineNo)
+    content: Task SetUserDefinedPageOneFieldAsync(UDefType ownerType, int udefFieldId, int userGroupId, int fieldLineNo, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
@@ -810,18 +863,22 @@ items:
     - id: fieldLineNo
       type: System.Int32
       description: Page one line number
-    content.vb: Sub SetUserDefinedPageOneField(ownerType As UDefType, udefFieldId As Integer, userGroupId As Integer, fieldLineNo As Integer)
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive(SuperOffice.Data.UDefType)
-  id: IsPublishEventActive(SuperOffice.Data.UDefType)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetUserDefinedPageOneFieldAsync(ownerType As UDefType, udefFieldId As Integer, userGroupId As Integer, fieldLineNo As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: IsPublishEventActiveAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: IsPublishEventActive(UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.IsPublishEventActive(UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive(SuperOffice.Data.UDefType)
+  name: IsPublishEventActiveAsync(UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -831,24 +888,26 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCheck if the publish event is active for the given type\n"
   syntax:
-    content: bool IsPublishEventActive(UDefType type)
+    content: Task<bool> IsPublishEventActiveAsync(UDefType type, CancellationToken cancellationToken = null)
     parameters:
     - id: type
       type: SuperOffice.Data.UDefType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Function IsPublishEventActive(type As UDefType) As Boolean
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive
-  id: IsAnyPublishEventActive
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsPublishEventActiveAsync(type As UDefType, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync(System.Threading.CancellationToken)
+  id: IsAnyPublishEventActiveAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: IsAnyPublishEventActive()
-  nameWithType: IUserDefinedFieldInfoAgent.IsAnyPublishEventActive()
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive()
+  name: IsAnyPublishEventActiveAsync(CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -858,21 +917,24 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCheck if any publish events are active\n"
   syntax:
-    content: bool IsAnyPublishEventActive()
+    content: Task<bool> IsAnyPublishEventActiveAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Function IsAnyPublishEventActive As Boolean
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
-  id: GetChangedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsAnyPublishEventActiveAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
+  id: GetChangedPageOneFieldsAsync(SuperOffice.Data.UDefType,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetChangedPageOneFields(UDefType, Int32)
-  nameWithType: IUserDefinedFieldInfoAgent.GetChangedPageOneFields(UDefType, Int32)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields(SuperOffice.Data.UDefType, System.Int32)
+  name: GetChangedPageOneFieldsAsync(UDefType, Int32, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(UDefType, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync(SuperOffice.Data.UDefType, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -882,7 +944,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets which page one fields have changed from the current version\n"
   syntax:
-    content: bool[] GetChangedPageOneFields(UDefType ownerType, int userGroupId)
+    content: Task<bool[]> GetChangedPageOneFieldsAsync(UDefType ownerType, int userGroupId, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
@@ -890,20 +952,22 @@ items:
     - id: userGroupId
       type: System.Int32
       description: Id of UserGroup
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean[]
-    content.vb: Function GetChangedPageOneFields(ownerType As UDefType, userGroupId As Integer) As Boolean()
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(SuperOffice.Data.UDefType,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(SuperOffice.Data.UDefType,System.Boolean)
-  id: SetPageOneFieldGrouping(SuperOffice.Data.UDefType,System.Boolean)
+      type: System.Threading.Tasks.Task{System.Boolean[]}
+    content.vb: Function GetChangedPageOneFieldsAsync(ownerType As UDefType, userGroupId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean())
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(SuperOffice.Data.UDefType,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(SuperOffice.Data.UDefType,System.Boolean,System.Threading.CancellationToken)
+  id: SetPageOneFieldGroupingAsync(SuperOffice.Data.UDefType,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: SetPageOneFieldGrouping(UDefType, Boolean)
-  nameWithType: IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(UDefType, Boolean)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(SuperOffice.Data.UDefType, System.Boolean)
+  name: SetPageOneFieldGroupingAsync(UDefType, Boolean, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(UDefType, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync(SuperOffice.Data.UDefType, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -913,7 +977,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSets the Page One Field grouping for a specific entity\n"
   syntax:
-    content: void SetPageOneFieldGrouping(UDefType ownerType, bool active)
+    content: Task SetPageOneFieldGroupingAsync(UDefType ownerType, bool active, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
@@ -921,18 +985,22 @@ items:
     - id: active
       type: System.Boolean
       description: If true, use grouping
-    content.vb: Sub SetPageOneFieldGrouping(ownerType As UDefType, active As Boolean)
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32)
-  id: SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetPageOneFieldGroupingAsync(ownerType As UDefType, active As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32,System.Threading.CancellationToken)
+  id: SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo, Int32)
-  nameWithType: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo, Int32)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo, System.Int32)
+  name: SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(UserDefinedFieldInfo, Int32, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(UserDefinedFieldInfo, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -942,26 +1010,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nMake stuff similar to what happens in the win client\n"
   syntax:
-    content: UserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo info, int selectedListId)
+    content: Task<UserDefinedFieldInfo> SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(UserDefinedFieldInfo info, int selectedListId, CancellationToken cancellationToken = null)
     parameters:
     - id: info
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
     - id: selectedListId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UserDefinedFieldInfo
-    content.vb: Function SetListTableIdAndUDListDefinitionIdFromSelectedListId(info As UserDefinedFieldInfo, selectedListId As Integer) As UserDefinedFieldInfo
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(SuperOffice.CRM.Services.UserDefinedFieldInfo)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(SuperOffice.CRM.Services.UserDefinedFieldInfo)
-  id: FigureOutListIdFromListTableIdAndUDListDefinitionId(SuperOffice.CRM.Services.UserDefinedFieldInfo)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
+    content.vb: Function SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync(info As UserDefinedFieldInfo, selectedListId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of UserDefinedFieldInfo)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Threading.CancellationToken)
+  id: FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: FigureOutListIdFromListTableIdAndUDListDefinitionId(UserDefinedFieldInfo)
-  nameWithType: IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(UserDefinedFieldInfo)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(SuperOffice.CRM.Services.UserDefinedFieldInfo)
+  name: FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(UserDefinedFieldInfo, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(UserDefinedFieldInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(SuperOffice.CRM.Services.UserDefinedFieldInfo, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -971,24 +1041,26 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nKind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId\n"
   syntax:
-    content: int FigureOutListIdFromListTableIdAndUDListDefinitionId(UserDefinedFieldInfo info)
+    content: Task<int> FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(UserDefinedFieldInfo info, CancellationToken cancellationToken = null)
     parameters:
     - id: info
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Function FigureOutListIdFromListTableIdAndUDListDefinitionId(info As UserDefinedFieldInfo) As Integer
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields(SuperOffice.Data.UDefType,System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields(SuperOffice.Data.UDefType,System.Int32[])
-  id: SetRankOnFields(SuperOffice.Data.UDefType,System.Int32[])
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync(info As UserDefinedFieldInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(SuperOffice.Data.UDefType,System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(SuperOffice.Data.UDefType,System.Int32[],System.Threading.CancellationToken)
+  id: SetRankOnFieldsAsync(SuperOffice.Data.UDefType,System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: SetRankOnFields(UDefType, Int32[])
-  nameWithType: IUserDefinedFieldInfoAgent.SetRankOnFields(UDefType, Int32[])
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields(SuperOffice.Data.UDefType, System.Int32[])
+  name: SetRankOnFieldsAsync(UDefType, Int32[], CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(UDefType, Int32[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(SuperOffice.Data.UDefType, System.Int32[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -998,7 +1070,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nChange rank of user defined fields\n"
   syntax:
-    content: void SetRankOnFields(UDefType ownerType, int[] rankedFieldsIds)
+    content: Task SetRankOnFieldsAsync(UDefType ownerType, int[] rankedFieldsIds, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
@@ -1006,21 +1078,25 @@ items:
     - id: rankedFieldsIds
       type: System.Int32[]
       description: All IDs of this owner-entity in desired rank order
-    content.vb: Sub SetRankOnFields(ownerType As UDefType, rankedFieldsIds As Integer())
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.SetRankOnFields(UDefType, Int32())
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields(SuperOffice.Data.UDefType, System.Int32())
-  name.vb: SetRankOnFields(UDefType, Int32())
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(SuperOffice.Data.UDefType)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(SuperOffice.Data.UDefType)
-  id: SetPublishStartSystemEvent(SuperOffice.Data.UDefType)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetRankOnFieldsAsync(ownerType As UDefType, rankedFieldsIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync*
+  nameWithType.vb: IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(UDefType, Int32(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync(SuperOffice.Data.UDefType, System.Int32(), System.Threading.CancellationToken)
+  name.vb: SetRankOnFieldsAsync(UDefType, Int32(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
+  id: SetPublishStartSystemEventAsync(SuperOffice.Data.UDefType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: SetPublishStartSystemEvent(UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(SuperOffice.Data.UDefType)
+  name: SetPublishStartSystemEventAsync(UDefType, CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync(UDefType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync(SuperOffice.Data.UDefType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1030,23 +1106,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSet the start flag for udef publishing. Must be called before PUBLISH, or PUBLISH will fail. Start flag is removed when publish process completes.\n"
   syntax:
-    content: void SetPublishStartSystemEvent(UDefType ownerType)
+    content: Task SetPublishStartSystemEventAsync(UDefType ownerType, CancellationToken cancellationToken = null)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
       description: The user-defined field owner-entity.
-    content.vb: Sub SetPublishStartSystemEvent(ownerType As UDefType)
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches
-  id: ClearCaches
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetPublishStartSystemEventAsync(ownerType As UDefType, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCachesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCachesAsync(System.Threading.CancellationToken)
+  id: ClearCachesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: ClearCaches()
-  nameWithType: IUserDefinedFieldInfoAgent.ClearCaches()
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches()
+  name: ClearCachesAsync(CancellationToken)
+  nameWithType: IUserDefinedFieldInfoAgent.ClearCachesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCachesAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1056,9 +1136,14 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nClear all relevant caches. This is normally done automatically but can be useful in certain circumstances.\n"
   syntax:
-    content: void ClearCaches()
-    content.vb: Sub ClearCaches
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches*
+    content: Task ClearCachesAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ClearCachesAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCachesAsync*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1066,12 +1151,104 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync
   isExternal: true
-  name: CreateDefaultUserDefinedFieldInfo
-  nameWithType: IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
+  name: CreateDefaultUserDefinedFieldInfoAsync
+  nameWithType: IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfoAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<UserDefinedFieldInfo>
+  nameWithType: Task<UserDefinedFieldInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.UserDefinedFieldInfo>
+  nameWithType.vb: Task(Of UserDefinedFieldInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.UserDefinedFieldInfo)
+  name.vb: Task(Of UserDefinedFieldInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
+    name: UserDefinedFieldInfo
+    nameWithType: UserDefinedFieldInfo
+    fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
+    name: UserDefinedFieldInfo
+    nameWithType: UserDefinedFieldInfo
+    fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync
+  isExternal: true
+  name: SaveUserDefinedFieldInfoAsync
+  nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfoAsync
 - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
   commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfo
   parent: SuperOffice.CRM.Services
@@ -1079,18 +1256,12 @@ references:
   name: UserDefinedFieldInfo
   nameWithType: UserDefinedFieldInfo
   fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync
   isExternal: true
-  name: SaveUserDefinedFieldInfo
-  nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo
-  isExternal: true
-  name: DeleteUserDefinedFieldInfo
-  nameWithType: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo
+  name: DeleteUserDefinedFieldInfoAsync
+  nameWithType: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfoAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1098,18 +1269,23 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync
   isExternal: true
-  name: GetCustomFieldInfoList
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
+  name: GetCustomFieldInfoListAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoListAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1124,15 +1300,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.FieldInfoBase[]
-  isExternal: true
-  name: FieldInfoBase[]
-  nameWithType: FieldInfoBase[]
-  fullName: SuperOffice.CRM.Services.FieldInfoBase[]
-  nameWithType.vb: FieldInfoBase()
-  fullName.vb: SuperOffice.CRM.Services.FieldInfoBase()
-  name.vb: FieldInfoBase()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldInfoBase[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldInfoBase[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<FieldInfoBase[]>
+  nameWithType: Task<FieldInfoBase[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FieldInfoBase[]>
+  nameWithType.vb: Task(Of FieldInfoBase())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FieldInfoBase())
+  name.vb: Task(Of FieldInfoBase())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.FieldInfoBase
     name: FieldInfoBase
     nameWithType: FieldInfoBase
@@ -1141,7 +1326,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.FieldInfoBase
     name: FieldInfoBase
     nameWithType: FieldInfoBase
@@ -1150,45 +1346,93 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync
   isExternal: true
-  name: GetCustomFieldInfo
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfo
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo
-- uid: SuperOffice.CRM.Services.FieldInfoBase
-  commentId: T:SuperOffice.CRM.Services.FieldInfoBase
-  parent: SuperOffice.CRM.Services
+  name: GetCustomFieldInfoAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldInfoBase}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldInfoBase}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<FieldInfoBase>
+  nameWithType: Task<FieldInfoBase>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FieldInfoBase>
+  nameWithType.vb: Task(Of FieldInfoBase)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FieldInfoBase)
+  name.vb: Task(Of FieldInfoBase)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.FieldInfoBase
+    name: FieldInfoBase
+    nameWithType: FieldInfoBase
+    fullName: SuperOffice.CRM.Services.FieldInfoBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.FieldInfoBase
+    name: FieldInfoBase
+    nameWithType: FieldInfoBase
+    fullName: SuperOffice.CRM.Services.FieldInfoBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync
   isExternal: true
-  name: FieldInfoBase
-  nameWithType: FieldInfoBase
-  fullName: SuperOffice.CRM.Services.FieldInfoBase
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
+  name: GetUserDefinedFieldInfoAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfoAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync
   isExternal: true
-  name: GetUserDefinedFieldInfo
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList
-  isExternal: true
-  name: GetUserDefinedFieldList
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldList
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList
+  name: GetUserDefinedFieldListAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldListAsync
 - uid: SuperOffice.Data.UDefType
   isExternal: true
   name: UDefType
   nameWithType: UDefType
   fullName: SuperOffice.Data.UDefType
-- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
-  isExternal: true
-  name: UserDefinedFieldInfo[]
-  nameWithType: UserDefinedFieldInfo[]
-  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
-  nameWithType.vb: UserDefinedFieldInfo()
-  fullName.vb: SuperOffice.CRM.Services.UserDefinedFieldInfo()
-  name.vb: UserDefinedFieldInfo()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserDefinedFieldInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<UserDefinedFieldInfo[]>
+  nameWithType: Task<UserDefinedFieldInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.UserDefinedFieldInfo[]>
+  nameWithType.vb: Task(Of UserDefinedFieldInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.UserDefinedFieldInfo())
+  name.vb: Task(Of UserDefinedFieldInfo())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
     nameWithType: UserDefinedFieldInfo
@@ -1197,7 +1441,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
     nameWithType: UserDefinedFieldInfo
@@ -1206,42 +1461,45 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync
   isExternal: true
-  name: GetPublishedUserDefinedFieldList
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
+  name: GetPublishedUserDefinedFieldListAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldListAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync
   isExternal: true
-  name: GetUserDefinedFieldFromFieldLabel
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
+  name: GetUserDefinedFieldFromFieldLabelAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabelAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync
   isExternal: true
-  name: GetPublishedUserDefinedFieldFromFieldLabel
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId
+  name: GetPublishedUserDefinedFieldFromFieldLabelAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabelAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync
   isExternal: true
-  name: GetUserDefinedFieldFromProgId
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId
+  name: GetUserDefinedFieldFromProgIdAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync
   isExternal: true
-  name: GetPublishedUserDefinedFieldFromProgId
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
+  name: GetPublishedUserDefinedFieldFromProgIdAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgIdAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync
   isExternal: true
-  name: GetUserDefinedFieldFromIds
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
+  name: GetUserDefinedFieldFromIdsAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIdsAsync
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -1268,12 +1526,12 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync
   isExternal: true
-  name: GetUserDefinedFieldFromProgIds
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
+  name: GetUserDefinedFieldFromProgIdsAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIdsAsync
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -1300,98 +1558,219 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync
   isExternal: true
-  name: CreateUserDefinedFieldInfo
-  nameWithType: IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
+  name: CreateUserDefinedFieldInfoAsync
+  nameWithType: IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfoAsync
 - uid: SuperOffice.Data.UDefFieldType
   isExternal: true
   name: UDefFieldType
   nameWithType: UDefFieldType
   fullName: SuperOffice.Data.UDefFieldType
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync
   isExternal: true
-  name: ChangeFieldType
-  nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldType
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields
+  name: ChangeFieldTypeAsync
+  nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldTypeAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync
   isExternal: true
-  name: GetUserDefinedPageOneFields
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
+  name: GetUserDefinedPageOneFieldsAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFieldsAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync
   isExternal: true
-  name: GetPublishedUserDefinedPageOneFields
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish
+  name: GetPublishedUserDefinedPageOneFieldsAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFieldsAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.PublishAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.PublishAsync
   isExternal: true
-  name: Publish
-  nameWithType: IUserDefinedFieldInfoAgent.Publish
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert
-  isExternal: true
-  name: Revert
-  nameWithType: IUserDefinedFieldInfoAgent.Revert
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos
-  isExternal: true
-  name: SaveUserDefinedFieldInfos
-  nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges
-  isExternal: true
-  name: DetectUnpublishedChanges
-  nameWithType: IUserDefinedFieldInfoAgent.DetectUnpublishedChanges
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges
-  isExternal: true
-  name: DetectColumnIdChanges
-  nameWithType: IUserDefinedFieldInfoAgent.DetectColumnIdChanges
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField
-  isExternal: true
-  name: SetUserDefinedPageOneField
-  nameWithType: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive
-  isExternal: true
-  name: IsPublishEventActive
-  nameWithType: IUserDefinedFieldInfoAgent.IsPublishEventActive
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive
-  isExternal: true
-  name: IsAnyPublishEventActive
-  nameWithType: IUserDefinedFieldInfoAgent.IsAnyPublishEventActive
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields
-  isExternal: true
-  name: GetChangedPageOneFields
-  nameWithType: IUserDefinedFieldInfoAgent.GetChangedPageOneFields
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields
-- uid: System.Boolean[]
-  isExternal: true
-  name: Boolean[]
-  nameWithType: Boolean[]
-  fullName: System.Boolean[]
-  nameWithType.vb: Boolean()
-  fullName.vb: System.Boolean()
-  name.vb: Boolean()
+  name: PublishAsync
+  nameWithType: IUserDefinedFieldInfoAgent.PublishAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.PublishAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.RevertAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.RevertAsync
+  isExternal: true
+  name: RevertAsync
+  nameWithType: IUserDefinedFieldInfoAgent.RevertAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.RevertAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync
+  isExternal: true
+  name: SaveUserDefinedFieldInfosAsync
+  nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfosAsync
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
+  isExternal: true
+  name: UserDefinedFieldInfo[]
+  nameWithType: UserDefinedFieldInfo[]
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
+  nameWithType.vb: UserDefinedFieldInfo()
+  fullName.vb: SuperOffice.CRM.Services.UserDefinedFieldInfo()
+  name.vb: UserDefinedFieldInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
+    name: UserDefinedFieldInfo
+    nameWithType: UserDefinedFieldInfo
+    fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
+    name: UserDefinedFieldInfo
+    nameWithType: UserDefinedFieldInfo
+    fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync
+  isExternal: true
+  name: DetectUnpublishedChangesAsync
+  nameWithType: IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChangesAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync
+  isExternal: true
+  name: DetectColumnIdChangesAsync
+  nameWithType: IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChangesAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync
+  isExternal: true
+  name: SetUserDefinedPageOneFieldAsync
+  nameWithType: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneFieldAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync
+  isExternal: true
+  name: IsPublishEventActiveAsync
+  nameWithType: IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActiveAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync
+  isExternal: true
+  name: IsAnyPublishEventActiveAsync
+  nameWithType: IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActiveAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync
+  isExternal: true
+  name: GetChangedPageOneFieldsAsync
+  nameWithType: IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFieldsAsync
+- uid: System.Threading.Tasks.Task{System.Boolean[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean[]>
+  nameWithType: Task<Boolean[]>
+  fullName: System.Threading.Tasks.Task<System.Boolean[]>
+  nameWithType.vb: Task(Of Boolean())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean())
+  name.vb: Task(Of Boolean())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Boolean
     name: Boolean
     nameWithType: Boolean
@@ -1400,7 +1779,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Boolean
     name: Boolean
     nameWithType: Boolean
@@ -1409,39 +1799,42 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync
   isExternal: true
-  name: SetPageOneFieldGrouping
-  nameWithType: IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId
+  name: SetPageOneFieldGroupingAsync
+  nameWithType: IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGroupingAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync
   isExternal: true
-  name: SetListTableIdAndUDListDefinitionIdFromSelectedListId
-  nameWithType: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
+  name: SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync
+  nameWithType: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListIdAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync
   isExternal: true
-  name: FigureOutListIdFromListTableIdAndUDListDefinitionId
-  nameWithType: IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields
+  name: FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync
+  nameWithType: IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionIdAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync
   isExternal: true
-  name: SetRankOnFields
-  nameWithType: IUserDefinedFieldInfoAgent.SetRankOnFields
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
+  name: SetRankOnFieldsAsync
+  nameWithType: IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFieldsAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync
   isExternal: true
-  name: SetPublishStartSystemEvent
-  nameWithType: IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches
+  name: SetPublishStartSystemEventAsync
+  nameWithType: IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEventAsync
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCachesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCachesAsync
   isExternal: true
-  name: ClearCaches
-  nameWithType: IUserDefinedFieldInfoAgent.ClearCaches
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches
+  name: ClearCachesAsync
+  nameWithType: IUserDefinedFieldInfoAgent.ClearCachesAsync
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCachesAsync

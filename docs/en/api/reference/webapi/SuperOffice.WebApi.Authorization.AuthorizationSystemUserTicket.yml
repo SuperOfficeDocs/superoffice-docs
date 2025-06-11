@@ -36,7 +36,7 @@ items:
   - SuperOffice.WebApi.Authorization.IAddHeaders
   inheritedMembers:
   - SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
-  - SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+  - SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync
   - SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
   modifiers.csharp:
   - public
@@ -206,13 +206,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
-  commentId: P:SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync
+  commentId: P:SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync
   parent: SuperOffice.WebApi.Authorization.AuthorizationTicket
   isExternal: true
-  name: RefreshAuthorization
-  nameWithType: AuthorizationTicket.RefreshAuthorization
-  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+  name: RefreshAuthorizationAsync
+  nameWithType: AuthorizationTicket.RefreshAuthorizationAsync
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync
 - uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
   commentId: P:SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
   parent: SuperOffice.WebApi.Authorization.AuthorizationTicket

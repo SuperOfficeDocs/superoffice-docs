@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.FreeTextIndexRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.FreeTextIndexRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FreeTextIndexRecordData)
   - SuperOffice.CRM.Rows.FreeTextIndexRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.FreeTextIndexRecordData.SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.FreeTextIndexRecordData.SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.FreeTextIndexRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.FreeTextIndexRecordData.SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextIndexRecordData)
+- uid: SuperOffice.CRM.Rows.FreeTextIndexRecordData.SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextIndexRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextIndexRecordData)
-  name: ToInsert()
-  nameWithType: FreeTextIndexRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextIndexRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: FreeTextIndexRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: FreeTextIndexRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: FreeTextIndexRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: FreeTextIndexRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: FreeTextIndexRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextIndexRecordData)
-  commentId: M:SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextIndexRecordData)
+- uid: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextIndexRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextIndexRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(FreeTextIndexRecordData)
-  nameWithType: FreeTextIndexRecordDataExtensions.ToInsert(FreeTextIndexRecordData)
-  fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextIndexRecordData)
+  name: ToInsertAsync(FreeTextIndexRecordData, CancellationToken)
+  nameWithType: FreeTextIndexRecordDataExtensions.ToInsertAsync(FreeTextIndexRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextIndexRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextIndexRecordData)
-    name: ToInsert
-    nameWithType: FreeTextIndexRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextIndexRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: FreeTextIndexRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: FreeTextIndexRecordData
     nameWithType: FreeTextIndexRecordData
     fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FreeTextIndexRecordData)
-    name: ToInsert
-    nameWithType: FreeTextIndexRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FreeTextIndexRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: FreeTextIndexRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: FreeTextIndexRecordData
     nameWithType: FreeTextIndexRecordData
     fullName: SuperOffice.CRM.Rows.FreeTextIndexRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -5,28 +5,28 @@ items:
   id: Defaulter
   parent: SuperOffice.CRM.Entities
   children:
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -59,16 +59,16 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
-  id: SetDefaults(SuperOffice.CRM.Entities.EntityBase)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(EntityBase)
-  nameWithType: Defaulter.SetDefaults(EntityBase)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
+  name: SetDefaultsAsync(EntityBase, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(EntityBase, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -78,29 +78,33 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity.  This default implementation does nothing.\n"
   syntax:
-    content: public static void SetDefaults(EntityBase entity)
+    content: public static Task SetDefaultsAsync(EntityBase entity, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.EntityBase
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As EntityBase)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As EntityBase, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(EntityBase, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(EntityBase, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(EntityBase, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(EntityBase, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -110,7 +114,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity.  This default implementation does nothing.\n"
   syntax:
-    content: public static void SetDefaults(EntityBase entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(EntityBase entity, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.EntityBase
@@ -118,24 +122,28 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As EntityBase, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As EntityBase, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
-  id: SetDefaults(SuperOffice.CRM.Entities.Appointment)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Appointment)
-  nameWithType: Defaulter.SetDefaults(Appointment)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
+  name: SetDefaultsAsync(Appointment, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Appointment, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -145,29 +153,33 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Appointment entity)
+    content: public static Task SetDefaultsAsync(Appointment entity, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Appointment
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Appointment)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Appointment, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Appointment, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Appointment, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Appointment, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Appointment, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -177,7 +189,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Appointment entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Appointment entity, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Appointment
@@ -185,24 +197,28 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Appointment, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Appointment, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
-  id: SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Appointment, TaskType)
-  nameWithType: Defaulter.SetDefaults(Appointment, TaskType)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.TaskType)
+  name: SetDefaultsAsync(Appointment, TaskType, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Appointment, TaskType, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.TaskType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -212,7 +228,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the appointment&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Appointment entity, TaskType type)
+    content: public static Task SetDefaultsAsync(Appointment entity, TaskType type, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Appointment
@@ -220,24 +236,28 @@ items:
     - id: type
       type: SuperOffice.Data.TaskType
       description: The type of appointment
-    content.vb: Public Shared Sub SetDefaults(entity As Appointment, type As TaskType)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Appointment, type As TaskType, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Appointment, TaskType, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Appointment, TaskType, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.TaskType, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Appointment, TaskType, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Appointment, TaskType, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.TaskType, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -247,7 +267,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the appointment&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Appointment entity, TaskType type, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Appointment entity, TaskType type, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Appointment
@@ -258,24 +278,28 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Appointment, type As TaskType, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Appointment, type As TaskType, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
-  id: SetDefaults(SuperOffice.CRM.Entities.Contact)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Contact)
-  nameWithType: Defaulter.SetDefaults(Contact)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
+  name: SetDefaultsAsync(Contact, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Contact, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -285,29 +309,33 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Contact entity)
+    content: public static Task SetDefaultsAsync(Contact entity, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Contact
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Contact)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Contact, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Contact, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Contact, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Contact, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Contact, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -317,7 +345,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Contact entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Contact entity, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Contact
@@ -325,24 +353,28 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Contact, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Contact, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
-  id: SetDefaults(SuperOffice.CRM.Entities.Document)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Document,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Document)
-  nameWithType: Defaulter.SetDefaults(Document)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
+  name: SetDefaultsAsync(Document, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Document, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -352,29 +384,33 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Document entity)
+    content: public static Task SetDefaultsAsync(Document entity, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Document
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Document)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Document, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Document, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Document, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Document, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Document, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -384,7 +420,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Document entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Document entity, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Document
@@ -392,24 +428,28 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Document, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Document, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
-  id: SetDefaults(SuperOffice.CRM.Entities.Person)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Person)
-  nameWithType: Defaulter.SetDefaults(Person)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
+  name: SetDefaultsAsync(Person, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Person, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -419,29 +459,33 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Person entity)
+    content: public static Task SetDefaultsAsync(Person entity, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Person
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Person)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Person, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Person, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Person, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Person, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Person, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -451,7 +495,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Person entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Person entity, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Person
@@ -459,24 +503,28 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Person, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Person, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
-  id: SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Person, Int32)
-  nameWithType: Defaulter.SetDefaults(Person, Int32)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person, System.Int32)
+  name: SetDefaultsAsync(Person, Int32, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Person, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -486,7 +534,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Person entity, int contactId)
+    content: public static Task SetDefaultsAsync(Person entity, int contactId, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Person
@@ -494,24 +542,28 @@ items:
     - id: contactId
       type: System.Int32
       description: The id of the contact the person belongs to.
-    content.vb: Public Shared Sub SetDefaults(entity As Person, contactId As Integer)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Person, contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Person, Int32, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Person, Int32, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person, System.Int32, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Person, Int32, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Person, Int32, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person, System.Int32, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -521,7 +573,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Person entity, int contactId, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Person entity, int contactId, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Person
@@ -532,24 +584,28 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Person, contactId As Integer, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Person, contactId As Integer, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
-  id: SetDefaults(SuperOffice.CRM.Entities.Project)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Project,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Project)
-  nameWithType: Defaulter.SetDefaults(Project)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
+  name: SetDefaultsAsync(Project, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Project, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -559,29 +615,33 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Project entity)
+    content: public static Task SetDefaultsAsync(Project entity, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Project
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Project)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Project, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Project, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Project, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Project, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Project, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -591,7 +651,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Project entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Project entity, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Project
@@ -599,24 +659,28 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Project, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Project, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
-  id: SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(ProjectMember)
-  nameWithType: Defaulter.SetDefaults(ProjectMember)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
+  name: SetDefaultsAsync(ProjectMember, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(ProjectMember, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -626,29 +690,33 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(ProjectMember entity)
+    content: public static Task SetDefaultsAsync(ProjectMember entity, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.ProjectMember
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As ProjectMember)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As ProjectMember, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(ProjectMember, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(ProjectMember, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(ProjectMember, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(ProjectMember, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -658,7 +726,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(ProjectMember entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(ProjectMember entity, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.ProjectMember
@@ -666,24 +734,28 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As ProjectMember, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As ProjectMember, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
-  id: SetDefaults(SuperOffice.CRM.Entities.Sale)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Sale)
-  nameWithType: Defaulter.SetDefaults(Sale)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
+  name: SetDefaultsAsync(Sale, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Sale, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -693,29 +765,33 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Sale entity)
+    content: public static Task SetDefaultsAsync(Sale entity, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Sale
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Sale)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Sale, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Sale, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Sale, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Sale, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Sale, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -725,7 +801,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Sale entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Sale entity, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Sale
@@ -733,24 +809,28 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Sale, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Sale, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
-  id: SetDefaults(SuperOffice.CRM.Entities.Selection)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Selection)
-  nameWithType: Defaulter.SetDefaults(Selection)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
+  name: SetDefaultsAsync(Selection, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Selection, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -760,29 +840,33 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Selection entity)
+    content: public static Task SetDefaultsAsync(Selection entity, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Selection
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Selection)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Selection, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Selection, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Selection, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Selection, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Selection, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -792,7 +876,7 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
   syntax:
-    content: public static void SetDefaults(Selection entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Selection entity, DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Selection
@@ -800,8 +884,12 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Selection, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Selection, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
   modifiers.csharp:
   - public
   - static
@@ -993,12 +1081,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  commentId: Overload:SuperOffice.CRM.Entities.Defaulter.SetDefaults
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync
   isExternal: true
-  name: SetDefaults
-  nameWithType: Defaulter.SetDefaults
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults
+  name: SetDefaultsAsync
+  nameWithType: Defaulter.SetDefaultsAsync
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync
 - uid: SuperOffice.CRM.Entities.EntityBase
   commentId: T:SuperOffice.CRM.Entities.EntityBase
   parent: SuperOffice.CRM.Entities
@@ -1006,6 +1094,16 @@ references:
   name: EntityBase
   nameWithType: EntityBase
   fullName: SuperOffice.CRM.Entities.EntityBase
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Rows.DefaulterStrategy
   commentId: T:SuperOffice.CRM.Rows.DefaulterStrategy
   parent: SuperOffice.CRM.Rows

@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.PrefDescLineRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PrefDescLineRecordData)
   - SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
-  name: ToInsert()
-  nameWithType: PrefDescLineRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: PrefDescLineRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PrefDescLineRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PrefDescLineRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PrefDescLineRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PrefDescLineRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(PrefDescLineRecordData)
-  nameWithType: PrefDescLineRecordDataExtensions.ToInsert(PrefDescLineRecordData)
-  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  name: ToInsertAsync(PrefDescLineRecordData, CancellationToken)
+  nameWithType: PrefDescLineRecordDataExtensions.ToInsertAsync(PrefDescLineRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
-    name: ToInsert
-    nameWithType: PrefDescLineRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PrefDescLineRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: PrefDescLineRecordData
     nameWithType: PrefDescLineRecordData
     fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
-    name: ToInsert
-    nameWithType: PrefDescLineRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PrefDescLineRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: PrefDescLineRecordData
     nameWithType: PrefDescLineRecordData
     fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

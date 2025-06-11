@@ -154,14 +154,12 @@ references:
   fullName: SuperOffice.CRM.Documents.VersionInfo
 - uid: SuperOffice.CRM.Documents.TemplateInfo
   commentId: T:SuperOffice.CRM.Documents.TemplateInfo
-  parent: SuperOffice.CRM.Documents
   isExternal: true
   name: TemplateInfo
   nameWithType: TemplateInfo
   fullName: SuperOffice.CRM.Documents.TemplateInfo
 - uid: SuperOffice.CRM.Documents.CheckoutInfo
   commentId: T:SuperOffice.CRM.Documents.CheckoutInfo
-  parent: SuperOffice.CRM.Documents
   isExternal: true
   name: CheckoutInfo
   nameWithType: CheckoutInfo

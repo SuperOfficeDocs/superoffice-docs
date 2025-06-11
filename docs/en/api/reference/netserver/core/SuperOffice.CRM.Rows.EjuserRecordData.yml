@@ -79,7 +79,7 @@ items:
   - SuperOffice.CRM.Rows.EjuserRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.EjuserRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EjuserRecordData)
   - SuperOffice.CRM.Rows.EjuserRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.EjuserRecordData.SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.EjuserRecordData.SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EjuserRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -1507,34 +1507,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EjuserRecordData.SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjuserRecordData)
+- uid: SuperOffice.CRM.Rows.EjuserRecordData.SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjuserRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjuserRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjuserRecordData)
-  name: ToInsert()
-  nameWithType: EjuserRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjuserRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: EjuserRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: EjuserRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EjuserRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: EjuserRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EjuserRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1720,17 +1730,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjuserRecordData)
-  commentId: M:SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjuserRecordData)
+- uid: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjuserRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjuserRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(EjuserRecordData)
-  nameWithType: EjuserRecordDataExtensions.ToInsert(EjuserRecordData)
-  fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjuserRecordData)
+  name: ToInsertAsync(EjuserRecordData, CancellationToken)
+  nameWithType: EjuserRecordDataExtensions.ToInsertAsync(EjuserRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjuserRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjuserRecordData)
-    name: ToInsert
-    nameWithType: EjuserRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjuserRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EjuserRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1739,15 +1749,23 @@ references:
     name: EjuserRecordData
     nameWithType: EjuserRecordData
     fullName: SuperOffice.CRM.Rows.EjuserRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjuserRecordData)
-    name: ToInsert
-    nameWithType: EjuserRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjuserRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EjuserRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EjuserRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1756,6 +1774,14 @@ references:
     name: EjuserRecordData
     nameWithType: EjuserRecordData
     fullName: SuperOffice.CRM.Rows.EjuserRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

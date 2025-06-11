@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Services.Implementation
   children:
   - SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
+  - SuperOffice.CRM.Services.Implementation.UsageCalculator.NoReturnValue
   - SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket,System.Object)
   langs:
   - csharp
@@ -35,6 +36,34 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.NoReturnValue
+  commentId: F:SuperOffice.CRM.Services.Implementation.UsageCalculator.NoReturnValue
+  id: NoReturnValue
+  parent: SuperOffice.CRM.Services.Implementation.UsageCalculator
+  langs:
+  - csharp
+  - vb
+  name: NoReturnValue
+  nameWithType: UsageCalculator.NoReturnValue
+  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.NoReturnValue
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public const string NoReturnValue = "!!noreturn!!"
+    return:
+      type: System.String
+    content.vb: Public Const NoReturnValue As String = "!!noreturn!!"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
   commentId: M:SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
   id: GetRecordsFromResults(System.Object)
@@ -130,6 +159,13 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults
   isExternal: true

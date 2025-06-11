@@ -10,10 +10,7 @@ items:
   - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.CancellationBehaviour
   - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.DefaultCancellationBehaviour
   - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Description
-  - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
   - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup
-  - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
-  - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
   - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Timeout
   langs:
   - csharp
@@ -162,99 +159,6 @@ items:
       type: System.Int32
     content.vb: Public Property Timeout As Integer
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Timeout*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
-  commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
-  id: IsMultiPass
-  parent: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-  langs:
-  - csharp
-  - vb
-  name: IsMultiPass
-  nameWithType: BatchTaskAttribute.IsMultiPass
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
-  type: Property
-  source:
-    path: SoBatchProcessing
-    isExternal: true
-  assemblies:
-  - SoBatchProcessing
-  namespace: SuperOffice.CRM.BatchProcessing
-  summary: "\nShould the task be executed in a loop?  Default value is false.\n"
-  syntax:
-    content: public bool IsMultiPass { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property IsMultiPass As Boolean
-  overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
-  commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
-  id: StartInterval
-  parent: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-  langs:
-  - csharp
-  - vb
-  name: StartInterval
-  nameWithType: BatchTaskAttribute.StartInterval
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
-  type: Property
-  source:
-    path: SoBatchProcessing
-    isExternal: true
-  assemblies:
-  - SoBatchProcessing
-  namespace: SuperOffice.CRM.BatchProcessing
-  summary: "\nInterval in milliseconds between each time the task is executed \nwhen it is executed multiple times (e.g. <xref href=\"SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass\" data-throw-if-not-resolved=\"false\"></xref> = true).   \n"
-  syntax:
-    content: public int StartInterval { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Property StartInterval As Integer
-  overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
-  commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
-  id: MinimumSleepTime
-  parent: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-  langs:
-  - csharp
-  - vb
-  name: MinimumSleepTime
-  nameWithType: BatchTaskAttribute.MinimumSleepTime
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
-  type: Property
-  source:
-    path: SoBatchProcessing
-    isExternal: true
-  assemblies:
-  - SoBatchProcessing
-  namespace: SuperOffice.CRM.BatchProcessing
-  summary: "\nMinimum time in milliseconds to sleep between execution of the task \nwhen it is executed multiple times (e.g. <xref href=\"SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass\" data-throw-if-not-resolved=\"false\"></xref> = true).\n"
-  syntax:
-    content: public int MinimumSleepTime { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Property MinimumSleepTime As Integer
-  overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime*
   modifiers.csharp:
   - public
   - get
@@ -599,12 +503,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup
   isExternal: true
-  name: IsMultiPass
-  nameWithType: BatchTaskAttribute.IsMultiPass
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
+  name: ManualCleanup
+  nameWithType: BatchTaskAttribute.ManualCleanup
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -612,24 +516,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
-  isExternal: true
-  name: StartInterval
-  nameWithType: BatchTaskAttribute.StartInterval
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
-  isExternal: true
-  name: MinimumSleepTime
-  nameWithType: BatchTaskAttribute.MinimumSleepTime
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup
-  isExternal: true
-  name: ManualCleanup
-  nameWithType: BatchTaskAttribute.ManualCleanup
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.CancellationBehaviour*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.CancellationBehaviour
   isExternal: true

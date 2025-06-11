@@ -23,8 +23,6 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: "\nCarrier object for NavigatorCompany.\n\n"
-  example:
-  - "\nGet NavigatorCompany 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new NavigatorAgent(configuration);\nvar navigatorCompany = agent.GetNavigatorCompany( 123 );</code></pre>\n"
   syntax:
     content: 'public class NavigatorCompany : Carrier'
     content.vb: >-

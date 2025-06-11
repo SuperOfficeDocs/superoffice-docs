@@ -210,10 +210,10 @@ items:
   - SuperOffice.WebApi.Agents.IListAgent.GetSaleTypeListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetSelectionCategoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetSelectionCategoryListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IListAgent.GetSoTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetSourceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetSourceListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetSourcesAsync(SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.IListAgent.GetTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetTaskListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetTaskMenuByProgIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -8847,16 +8847,16 @@ items:
       description: Array of sources
     content.vb: Function GetSourcesAsync(requestOptions As RequestOptions = Nothing) As Task(Of Source())
   overload: SuperOffice.WebApi.Agents.IListAgent.GetSourcesAsync*
-- uid: SuperOffice.WebApi.Agents.IListAgent.GetTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IListAgent.GetTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  id: GetTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IListAgent.GetSoTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.GetSoTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetSoTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IListAgent
   langs:
   - csharp
   - vb
-  name: GetTaskAsync(Int32, RequestOptions)
-  nameWithType: IListAgent.GetTaskAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IListAgent.GetTaskAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetSoTaskAsync(Int32, RequestOptions)
+  nameWithType: IListAgent.GetSoTaskAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.GetSoTaskAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
   source:
     path: SuperOffice.WebApi
@@ -8864,21 +8864,21 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a specific Task object.                        \n"
+  summary: "\nGets a specific SoTask object.                        \n"
   syntax:
-    content: Task<Task> GetTaskAsync(int taskId, RequestOptions requestOptions = null)
+    content: Task<SoTask> GetSoTaskAsync(int soTaskId, RequestOptions requestOptions = null)
     parameters:
-    - id: taskId
+    - id: soTaskId
       type: System.Int32
-      description: The identifier of the Task object
+      description: The identifier of the SoTask object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Task}
-      description: Task
-    content.vb: Function GetTaskAsync(taskId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Task)
-  overload: SuperOffice.WebApi.Agents.IListAgent.GetTaskAsync*
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoTask}
+      description: SoTask
+    content.vb: Function GetSoTaskAsync(soTaskId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of SoTask)
+  overload: SuperOffice.WebApi.Agents.IListAgent.GetSoTaskAsync*
 - uid: SuperOffice.WebApi.Agents.IListAgent.GetDocumentTemplateTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IListAgent.GetDocumentTemplateTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetDocumentTemplateTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -8898,7 +8898,7 @@ items:
   namespace: SuperOffice.WebApi.Agents
   summary: "\nReturns a Document Template list item as a TaskListItem. The appointment&apos;s task is a Document template item when the appointment is a document.\n"
   syntax:
-    content: Task<Task> GetDocumentTemplateTaskAsync(int documentTemplateId, RequestOptions requestOptions = null)
+    content: Task<SoTask> GetDocumentTemplateTaskAsync(int documentTemplateId, RequestOptions requestOptions = null)
     parameters:
     - id: documentTemplateId
       type: System.Int32
@@ -8907,9 +8907,9 @@ items:
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Task}
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoTask}
       description: Document Template item as TaskListItem.
-    content.vb: Function GetDocumentTemplateTaskAsync(documentTemplateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Task)
+    content.vb: Function GetDocumentTemplateTaskAsync(documentTemplateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of SoTask)
   overload: SuperOffice.WebApi.Agents.IListAgent.GetDocumentTemplateTaskAsync*
 - uid: SuperOffice.WebApi.Agents.IListAgent.GetTaskListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IListAgent.GetTaskListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -8928,20 +8928,20 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets an array of specific Task objects.                        \n"
+  summary: "\nGets an array of specific SoTask objects.                        \n"
   syntax:
-    content: Task<Task[]> GetTaskListAsync(int[] taskIds, RequestOptions requestOptions = null)
+    content: Task<SoTask[]> GetTaskListAsync(int[] soTaskIds, RequestOptions requestOptions = null)
     parameters:
-    - id: taskIds
+    - id: soTaskIds
       type: System.Int32[]
-      description: The identifiers of the Task object
+      description: The identifiers of the SoTask object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Task[]}
-      description: Array of Task objects
-    content.vb: Function GetTaskListAsync(taskIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Task())
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoTask[]}
+      description: Array of SoTask objects
+    content.vb: Function GetTaskListAsync(soTaskIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of SoTask())
   overload: SuperOffice.WebApi.Agents.IListAgent.GetTaskListAsync*
   nameWithType.vb: IListAgent.GetTaskListAsync(Int32(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IListAgent.GetTaskListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
@@ -8965,15 +8965,15 @@ items:
   namespace: SuperOffice.WebApi.Agents
   summary: "\nReturns all appointment tasks\n"
   syntax:
-    content: Task<Task[]> GetTasksAsync(RequestOptions requestOptions = null)
+    content: Task<SoTask[]> GetTasksAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Task[]}
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoTask[]}
       description: An array of all available tasks
-    content.vb: Function GetTasksAsync(requestOptions As RequestOptions = Nothing) As Task(Of Task())
+    content.vb: Function GetTasksAsync(requestOptions As RequestOptions = Nothing) As Task(Of SoTask())
   overload: SuperOffice.WebApi.Agents.IListAgent.GetTasksAsync*
 - uid: SuperOffice.WebApi.Agents.IListAgent.GetDocumentTemplatesTasksAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IListAgent.GetDocumentTemplatesTasksAsync(SuperOffice.WebApi.RequestOptions)
@@ -8994,15 +8994,15 @@ items:
   namespace: SuperOffice.WebApi.Agents
   summary: "\nThe appointment&apos;s task is a Document template item when the appointment is a document.\n"
   syntax:
-    content: Task<Task[]> GetDocumentTemplatesTasksAsync(RequestOptions requestOptions = null)
+    content: Task<SoTask[]> GetDocumentTemplatesTasksAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Task[]}
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoTask[]}
       description: Document Template list as a array of Tasks
-    content.vb: Function GetDocumentTemplatesTasksAsync(requestOptions As RequestOptions = Nothing) As Task(Of Task())
+    content.vb: Function GetDocumentTemplatesTasksAsync(requestOptions As RequestOptions = Nothing) As Task(Of SoTask())
   overload: SuperOffice.WebApi.Agents.IListAgent.GetDocumentTemplatesTasksAsync*
 - uid: SuperOffice.WebApi.Agents.IListAgent.GetAllTasksAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IListAgent.GetAllTasksAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -17204,21 +17204,21 @@ references:
   name: GetSourcesAsync
   nameWithType: IListAgent.GetSourcesAsync
   fullName: SuperOffice.WebApi.Agents.IListAgent.GetSourcesAsync
-- uid: SuperOffice.WebApi.Agents.IListAgent.GetTaskAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.IListAgent.GetTaskAsync
+- uid: SuperOffice.WebApi.Agents.IListAgent.GetSoTaskAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IListAgent.GetSoTaskAsync
   isExternal: true
-  name: GetTaskAsync
-  nameWithType: IListAgent.GetTaskAsync
-  fullName: SuperOffice.WebApi.Agents.IListAgent.GetTaskAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Task}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Task}'
+  name: GetSoTaskAsync
+  nameWithType: IListAgent.GetSoTaskAsync
+  fullName: SuperOffice.WebApi.Agents.IListAgent.GetSoTaskAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoTask}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoTask}'
   definition: System.Threading.Tasks.Task`1
-  name: Task<Task>
-  nameWithType: Task<Task>
-  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Task>
-  nameWithType.vb: Task(Of Task)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Task)
-  name.vb: Task(Of Task)
+  name: Task<SoTask>
+  nameWithType: Task<SoTask>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SoTask>
+  nameWithType.vb: Task(Of SoTask)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SoTask)
+  name.vb: Task(Of SoTask)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
@@ -17228,10 +17228,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: SuperOffice.WebApi.Data.Task
-    name: Task
-    nameWithType: Task
-    fullName: SuperOffice.WebApi.Data.Task
+  - uid: SuperOffice.WebApi.Data.SoTask
+    name: SoTask
+    nameWithType: SoTask
+    fullName: SuperOffice.WebApi.Data.SoTask
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -17245,10 +17245,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.Task
-    name: Task
-    nameWithType: Task
-    fullName: SuperOffice.WebApi.Data.Task
+  - uid: SuperOffice.WebApi.Data.SoTask
+    name: SoTask
+    nameWithType: SoTask
+    fullName: SuperOffice.WebApi.Data.SoTask
     isExternal: true
   - name: )
     nameWithType: )
@@ -17265,15 +17265,15 @@ references:
   name: GetTaskListAsync
   nameWithType: IListAgent.GetTaskListAsync
   fullName: SuperOffice.WebApi.Agents.IListAgent.GetTaskListAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Task[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Task[]}'
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoTask[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoTask[]}'
   definition: System.Threading.Tasks.Task`1
-  name: Task<Task[]>
-  nameWithType: Task<Task[]>
-  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Task[]>
-  nameWithType.vb: Task(Of Task())
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Task())
-  name.vb: Task(Of Task())
+  name: Task<SoTask[]>
+  nameWithType: Task<SoTask[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SoTask[]>
+  nameWithType.vb: Task(Of SoTask())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SoTask())
+  name.vb: Task(Of SoTask())
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
@@ -17283,10 +17283,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: SuperOffice.WebApi.Data.Task
-    name: Task
-    nameWithType: Task
-    fullName: SuperOffice.WebApi.Data.Task
+  - uid: SuperOffice.WebApi.Data.SoTask
+    name: SoTask
+    nameWithType: SoTask
+    fullName: SuperOffice.WebApi.Data.SoTask
     isExternal: true
   - name: '[]'
     nameWithType: '[]'
@@ -17303,10 +17303,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.Task
-    name: Task
-    nameWithType: Task
-    fullName: SuperOffice.WebApi.Data.Task
+  - uid: SuperOffice.WebApi.Data.SoTask
+    name: SoTask
+    nameWithType: SoTask
+    fullName: SuperOffice.WebApi.Data.SoTask
     isExternal: true
   - name: ()
     nameWithType: ()

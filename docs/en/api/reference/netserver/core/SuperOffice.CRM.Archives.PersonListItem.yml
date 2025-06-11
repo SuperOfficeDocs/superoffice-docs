@@ -25,8 +25,8 @@ items:
   - SuperOffice.CRM.Archives.PersonListItem.Fax
   - SuperOffice.CRM.Archives.PersonListItem.FirstName
   - SuperOffice.CRM.Archives.PersonListItem.FullName
-  - SuperOffice.CRM.Archives.PersonListItem.GetPersonListItem(System.Int32)
-  - SuperOffice.CRM.Archives.PersonListItem.GetPersonListItems(System.Int32[])
+  - SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemsAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Archives.PersonListItem.HasInfo
   - SuperOffice.CRM.Archives.PersonListItem.HasInterests
   - SuperOffice.CRM.Archives.PersonListItem.Info
@@ -123,16 +123,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItem(System.Int32)
-  commentId: M:SuperOffice.CRM.Archives.PersonListItem.GetPersonListItem(System.Int32)
-  id: GetPersonListItem(System.Int32)
+- uid: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPersonListItemAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.PersonListItem
   langs:
   - csharp
   - vb
-  name: GetPersonListItem(Int32)
-  nameWithType: PersonListItem.GetPersonListItem(Int32)
-  fullName: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItem(System.Int32)
+  name: GetPersonListItemAsync(Int32, CancellationToken)
+  nameWithType: PersonListItem.GetPersonListItemAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -141,30 +141,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Archives
   syntax:
-    content: public static PersonListItem GetPersonListItem(int personId)
+    content: public static Task<PersonListItem> GetPersonListItemAsync(int personId, CancellationToken cancellationToken = null)
     parameters:
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Archives.PersonListItem
-    content.vb: Public Shared Function GetPersonListItem(personId As Integer) As PersonListItem
-  overload: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItem*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.PersonListItem}
+    content.vb: Public Shared Function GetPersonListItemAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PersonListItem)
+  overload: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItems(System.Int32[])
-  commentId: M:SuperOffice.CRM.Archives.PersonListItem.GetPersonListItems(System.Int32[])
-  id: GetPersonListItems(System.Int32[])
+- uid: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemsAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemsAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetPersonListItemsAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.PersonListItem
   langs:
   - csharp
   - vb
-  name: GetPersonListItems(Int32[])
-  nameWithType: PersonListItem.GetPersonListItems(Int32[])
-  fullName: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItems(System.Int32[])
+  name: GetPersonListItemsAsync(Int32[], CancellationToken)
+  nameWithType: PersonListItem.GetPersonListItemsAsync(Int32[], CancellationToken)
+  fullName: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemsAsync(System.Int32[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -173,23 +175,25 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Archives
   syntax:
-    content: public static PersonListItem[] GetPersonListItems(int[] personIds)
+    content: public static Task<PersonListItem[]> GetPersonListItemsAsync(int[] personIds, CancellationToken cancellationToken = null)
     parameters:
     - id: personIds
       type: System.Int32[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Archives.PersonListItem[]
-    content.vb: Public Shared Function GetPersonListItems(personIds As Integer()) As PersonListItem()
-  overload: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItems*
-  nameWithType.vb: PersonListItem.GetPersonListItems(Int32())
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.PersonListItem[]}
+    content.vb: Public Shared Function GetPersonListItemsAsync(personIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of PersonListItem())
+  overload: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemsAsync*
+  nameWithType.vb: PersonListItem.GetPersonListItemsAsync(Int32(), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItems(System.Int32())
-  name.vb: GetPersonListItems(Int32())
+  fullName.vb: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemsAsync(System.Int32(), System.Threading.CancellationToken)
+  name.vb: GetPersonListItemsAsync(Int32(), CancellationToken)
 - uid: SuperOffice.CRM.Archives.PersonListItem.Initialize
   commentId: M:SuperOffice.CRM.Archives.PersonListItem.Initialize
   id: Initialize
@@ -2753,12 +2757,12 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItem*
-  commentId: Overload:SuperOffice.CRM.Archives.PersonListItem.GetPersonListItem
+- uid: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemAsync
   isExternal: true
-  name: GetPersonListItem
-  nameWithType: PersonListItem.GetPersonListItem
-  fullName: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItem
+  name: GetPersonListItemAsync
+  nameWithType: PersonListItem.GetPersonListItemAsync
+  fullName: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2766,19 +2770,98 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Archives.PersonListItem
-  commentId: T:SuperOffice.CRM.Archives.PersonListItem
-  parent: SuperOffice.CRM.Archives
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: PersonListItem
-  nameWithType: PersonListItem
-  fullName: SuperOffice.CRM.Archives.PersonListItem
-- uid: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItems*
-  commentId: Overload:SuperOffice.CRM.Archives.PersonListItem.GetPersonListItems
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.PersonListItem}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Archives.PersonListItem}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PersonListItem>
+  nameWithType: Task<PersonListItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Archives.PersonListItem>
+  nameWithType.vb: Task(Of PersonListItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Archives.PersonListItem)
+  name.vb: Task(Of PersonListItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Archives.PersonListItem
+    name: PersonListItem
+    nameWithType: PersonListItem
+    fullName: SuperOffice.CRM.Archives.PersonListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Archives.PersonListItem
+    name: PersonListItem
+    nameWithType: PersonListItem
+    fullName: SuperOffice.CRM.Archives.PersonListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: GetPersonListItems
-  nameWithType: PersonListItem.GetPersonListItems
-  fullName: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItems
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemsAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemsAsync
+  isExternal: true
+  name: GetPersonListItemsAsync
+  nameWithType: PersonListItem.GetPersonListItemsAsync
+  fullName: SuperOffice.CRM.Archives.PersonListItem.GetPersonListItemsAsync
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -2805,15 +2888,24 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Archives.PersonListItem[]
-  isExternal: true
-  name: PersonListItem[]
-  nameWithType: PersonListItem[]
-  fullName: SuperOffice.CRM.Archives.PersonListItem[]
-  nameWithType.vb: PersonListItem()
-  fullName.vb: SuperOffice.CRM.Archives.PersonListItem()
-  name.vb: PersonListItem()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.PersonListItem[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Archives.PersonListItem[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PersonListItem[]>
+  nameWithType: Task<PersonListItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Archives.PersonListItem[]>
+  nameWithType.vb: Task(Of PersonListItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Archives.PersonListItem())
+  name.vb: Task(Of PersonListItem())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Archives.PersonListItem
     name: PersonListItem
     nameWithType: PersonListItem
@@ -2822,7 +2914,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Archives.PersonListItem
     name: PersonListItem
     nameWithType: PersonListItem
@@ -2831,6 +2934,9 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery}.Initialize
   commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery}.Initialize
   parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.PersonList.PersonListQuery}

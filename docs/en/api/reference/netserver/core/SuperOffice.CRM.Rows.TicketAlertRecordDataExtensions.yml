@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TicketAlertTableInfo})
   - SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo})
-  - SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketAlertRecordData)
-  - SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData})
+  - SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketAlertRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketAlertRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo})
+- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<TicketAlertTableInfo>)
-  nameWithType: TicketAlertRecordDataExtensions.FromSelect(TargetedSelect<TicketAlertTableInfo>)
-  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TicketAlertTableInfo>)
+  name: FromSelectAsync(TargetedSelect<TicketAlertTableInfo>, CancellationToken)
+  nameWithType: TicketAlertRecordDataExtensions.FromSelectAsync(TargetedSelect<TicketAlertTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TicketAlertTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<TicketAlertRecordData> FromSelect(this TargetedSelect<TicketAlertTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<TicketAlertRecordData> FromSelectAsync(this TargetedSelect<TicketAlertTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of TicketAlertTableInfo)) As IEnumerable(Of TicketAlertRecordData)
-  overload: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect*
-  nameWithType.vb: TicketAlertRecordDataExtensions.FromSelect(TargetedSelect(Of TicketAlertTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of TicketAlertTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of TicketAlertRecordData)
+  overload: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: TicketAlertRecordDataExtensions.FromSelectAsync(TargetedSelect(Of TicketAlertTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TicketAlertTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of TicketAlertTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TicketAlertTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of TicketAlertTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TicketAlertTableInfo})
   commentId: M:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TicketAlertTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TicketAlertTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TicketAlertTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of TicketAlertTableInfo))
-- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketAlertRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketAlertRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.TicketAlertRecordData)
+- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketAlertRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketAlertRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.TicketAlertRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(TicketAlertRecordData)
-  nameWithType: TicketAlertRecordDataExtensions.ToInsert(TicketAlertRecordData)
-  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketAlertRecordData)
+  name: ToInsertAsync(TicketAlertRecordData, CancellationToken)
+  nameWithType: TicketAlertRecordDataExtensions.ToInsertAsync(TicketAlertRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TicketAlertRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this TicketAlertRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this TicketAlertRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.TicketAlertRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As TicketAlertRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As TicketAlertRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData})
-  commentId: M:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData})
+- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<TicketAlertRecordData>)
-  nameWithType: TicketAlertRecordDataExtensions.ToInserts(IEnumerable<TicketAlertRecordData>)
-  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TicketAlertRecordData>)
+  name: ToInsertsAsync(IEnumerable<TicketAlertRecordData>, CancellationToken)
+  nameWithType: TicketAlertRecordDataExtensions.ToInsertsAsync(IEnumerable<TicketAlertRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TicketAlertRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<TicketAlertRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<TicketAlertRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of TicketAlertRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInserts*
-  nameWithType.vb: TicketAlertRecordDataExtensions.ToInserts(IEnumerable(Of TicketAlertRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of TicketAlertRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: TicketAlertRecordDataExtensions.ToInsertsAsync(IEnumerable(Of TicketAlertRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TicketAlertRecordData))
-  name.vb: ToInserts(IEnumerable(Of TicketAlertRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TicketAlertRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of TicketAlertRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketAlertRow)
   commentId: M:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketAlertRow)
   id: ToRecordData(SuperOffice.CRM.Rows.TicketAlertRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<TicketAlertTableInfo>)
+  nameWithType: TicketAlertRecordDataExtensions.FromSelect(TargetedSelect<TicketAlertTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TicketAlertTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;TicketAlertTableInfo>, execute it and return an IEnumerable&lt;TicketAlertRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<TicketAlertRecordData> FromSelect(this TargetedSelect<TicketAlertTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of TicketAlertTableInfo)) As IEnumerable(Of TicketAlertRecordData)
+  overload: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect*
+  nameWithType.vb: TicketAlertRecordDataExtensions.FromSelect(TargetedSelect(Of TicketAlertTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TicketAlertTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of TicketAlertTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: TicketAlertRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: TicketAlertRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TicketAlertTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<TicketAlertRecordData>
-  nameWithType: IEnumerable<TicketAlertRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TicketAlertRecordData>
-  nameWithType.vb: IEnumerable(Of TicketAlertRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TicketAlertRecordData)
-  name.vb: IEnumerable(Of TicketAlertRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<TicketAlertRecordData>
+  nameWithType: IAsyncEnumerable<TicketAlertRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.TicketAlertRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of TicketAlertRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.TicketAlertRecordData)
+  name.vb: IAsyncEnumerable(Of TicketAlertRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: TicketAlertRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: TicketAlertRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: TicketAlertRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: TicketAlertRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TicketAlertRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TicketAlertRecordData>
+  nameWithType: IEnumerable<TicketAlertRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TicketAlertRecordData>
+  nameWithType.vb: IEnumerable(Of TicketAlertRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TicketAlertRecordData)
+  name.vb: IEnumerable(Of TicketAlertRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TicketAlertRecordData
+    name: TicketAlertRecordData
+    nameWithType: TicketAlertRecordData
+    fullName: SuperOffice.CRM.Rows.TicketAlertRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TicketAlertRecordData
+    name: TicketAlertRecordData
+    nameWithType: TicketAlertRecordData
+    fullName: SuperOffice.CRM.Rows.TicketAlertRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: TicketAlertRow
   nameWithType: TicketAlertRow
   fullName: SuperOffice.CRM.Rows.TicketAlertRow
+- uid: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: TicketAlertRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.TicketAlertRecordDataExtensions.FromSelect

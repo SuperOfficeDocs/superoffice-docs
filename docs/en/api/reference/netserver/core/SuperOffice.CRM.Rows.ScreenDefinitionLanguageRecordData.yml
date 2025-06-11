@@ -37,7 +37,7 @@ items:
   - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
   - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData.SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData.SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -331,34 +331,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData.SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData.SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
-  name: ToInsert()
-  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -544,17 +554,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ScreenDefinitionLanguageRecordData)
-  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsert(ScreenDefinitionLanguageRecordData)
-  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
+  name: ToInsertAsync(ScreenDefinitionLanguageRecordData, CancellationToken)
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(ScreenDefinitionLanguageRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
-    name: ToInsert
-    nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -563,15 +573,23 @@ references:
     name: ScreenDefinitionLanguageRecordData
     nameWithType: ScreenDefinitionLanguageRecordData
     fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
-    name: ToInsert
-    nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -580,6 +598,14 @@ references:
     name: ScreenDefinitionLanguageRecordData
     nameWithType: ScreenDefinitionLanguageRecordData
     fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

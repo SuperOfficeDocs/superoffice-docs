@@ -46,7 +46,7 @@ items:
   - SuperOffice.CRM.Rows.TimestampsRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TimestampsRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TimestampsRecordData)
   - SuperOffice.CRM.Rows.TimestampsRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.TimestampsRecordData.SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TimestampsRecordData.SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TimestampsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -583,34 +583,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TimestampsRecordData.SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TimestampsRecordData)
+- uid: SuperOffice.CRM.Rows.TimestampsRecordData.SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TimestampsRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TimestampsRecordData)
-  name: ToInsert()
-  nameWithType: TimestampsRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TimestampsRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: TimestampsRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TimestampsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TimestampsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TimestampsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TimestampsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -796,17 +806,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TimestampsRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TimestampsRecordData)
+- uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TimestampsRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TimestampsRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(TimestampsRecordData)
-  nameWithType: TimestampsRecordDataExtensions.ToInsert(TimestampsRecordData)
-  fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TimestampsRecordData)
+  name: ToInsertAsync(TimestampsRecordData, CancellationToken)
+  nameWithType: TimestampsRecordDataExtensions.ToInsertAsync(TimestampsRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TimestampsRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TimestampsRecordData)
-    name: ToInsert
-    nameWithType: TimestampsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TimestampsRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TimestampsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -815,15 +825,23 @@ references:
     name: TimestampsRecordData
     nameWithType: TimestampsRecordData
     fullName: SuperOffice.CRM.Rows.TimestampsRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TimestampsRecordData)
-    name: ToInsert
-    nameWithType: TimestampsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TimestampsRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TimestampsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -832,6 +850,14 @@ references:
     name: TimestampsRecordData
     nameWithType: TimestampsRecordData
     fullName: SuperOffice.CRM.Rows.TimestampsRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

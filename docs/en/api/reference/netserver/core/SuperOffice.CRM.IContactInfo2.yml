@@ -5,8 +5,8 @@ items:
   id: IContactInfo2
   parent: SuperOffice.CRM
   children:
+  - SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.IContactInfo2.SupportPersonId
-  - SuperOffice.CRM.IContactInfo2.SupportPersonName
   langs:
   - csharp
   - vb
@@ -91,6 +91,33 @@ items:
   modifiers.vb:
   - Public
   - Interface
+- uid: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  id: GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.IContactInfo2
+  langs:
+  - csharp
+  - vb
+  name: GetSupportPersonNameAsync(CancellationToken)
+  nameWithType: IContactInfo2.GetSupportPersonNameAsync(CancellationToken)
+  fullName: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nContact&apos;s support person - Full name\n"
+  syntax:
+    content: Task<string> GetSupportPersonNameAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetSupportPersonNameAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync*
 - uid: SuperOffice.CRM.IContactInfo2.SupportPersonId
   commentId: P:SuperOffice.CRM.IContactInfo2.SupportPersonId
   id: SupportPersonId
@@ -116,35 +143,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property SupportPersonId As Integer
   overload: SuperOffice.CRM.IContactInfo2.SupportPersonId*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
-- uid: SuperOffice.CRM.IContactInfo2.SupportPersonName
-  commentId: P:SuperOffice.CRM.IContactInfo2.SupportPersonName
-  id: SupportPersonName
-  parent: SuperOffice.CRM.IContactInfo2
-  langs:
-  - csharp
-  - vb
-  name: SupportPersonName
-  nameWithType: IContactInfo2.SupportPersonName
-  fullName: SuperOffice.CRM.IContactInfo2.SupportPersonName
-  type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
-  assemblies:
-  - SuperOffice.Plugins
-  namespace: SuperOffice.CRM
-  summary: "\nContact&apos;s support person - Full name\n"
-  syntax:
-    content: string SupportPersonName { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: ReadOnly Property SupportPersonName As String
-  overload: SuperOffice.CRM.IContactInfo2.SupportPersonName*
   modifiers.csharp:
   - get
   modifiers.vb:
@@ -951,6 +949,98 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync*
+  commentId: Overload:SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync
+  isExternal: true
+  name: GetSupportPersonNameAsync
+  nameWithType: IContactInfo2.GetSupportPersonNameAsync
+  fullName: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IContactInfo2.SupportPersonId*
   commentId: Overload:SuperOffice.CRM.IContactInfo2.SupportPersonId
   isExternal: true
@@ -970,16 +1060,3 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.IContactInfo2.SupportPersonName*
-  commentId: Overload:SuperOffice.CRM.IContactInfo2.SupportPersonName
-  isExternal: true
-  name: SupportPersonName
-  nameWithType: IContactInfo2.SupportPersonName
-  fullName: SuperOffice.CRM.IContactInfo2.SupportPersonName
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String

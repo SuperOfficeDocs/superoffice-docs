@@ -42,8 +42,6 @@ items:
       Public Class MDOListItem
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.MDOAgent
-    commentId: T:SuperOffice.CRM.Services.MDOAgent
   - linkId: SuperOffice.CRM.Services.IMDOAgent
     commentId: T:SuperOffice.CRM.Services.IMDOAgent
   inheritance:
@@ -617,15 +615,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.MDOAgent
-  commentId: T:SuperOffice.CRM.Services.MDOAgent
-  isExternal: true
-  name: MDOAgent
-  nameWithType: MDOAgent
-  fullName: SuperOffice.CRM.Services.MDOAgent
 - uid: SuperOffice.CRM.Services.IMDOAgent
   commentId: T:SuperOffice.CRM.Services.IMDOAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IMDOAgent
   nameWithType: IMDOAgent

@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
   - SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
-  - SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselMetaResultRecordData)
-  - SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData})
+  - SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselMetaResultRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.EjselMetaResultRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
+- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<EjselMetaResultTableInfo>)
-  nameWithType: EjselMetaResultRecordDataExtensions.FromSelect(TargetedSelect<EjselMetaResultTableInfo>)
-  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.EjselMetaResultTableInfo>)
+  name: FromSelectAsync(TargetedSelect<EjselMetaResultTableInfo>, CancellationToken)
+  nameWithType: EjselMetaResultRecordDataExtensions.FromSelectAsync(TargetedSelect<EjselMetaResultTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.EjselMetaResultTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<EjselMetaResultRecordData> FromSelect(this TargetedSelect<EjselMetaResultTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<EjselMetaResultRecordData> FromSelectAsync(this TargetedSelect<EjselMetaResultTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of EjselMetaResultTableInfo)) As IEnumerable(Of EjselMetaResultRecordData)
-  overload: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect*
-  nameWithType.vb: EjselMetaResultRecordDataExtensions.FromSelect(TargetedSelect(Of EjselMetaResultTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of EjselMetaResultTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of EjselMetaResultRecordData)
+  overload: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: EjselMetaResultRecordDataExtensions.FromSelectAsync(TargetedSelect(Of EjselMetaResultTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.EjselMetaResultTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of EjselMetaResultTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.EjselMetaResultTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of EjselMetaResultTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
   commentId: M:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.EjselMetaResultTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of EjselMetaResultTableInfo))
-- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselMetaResultRecordData)
-  commentId: M:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselMetaResultRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.EjselMetaResultRecordData)
+- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselMetaResultRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselMetaResultRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.EjselMetaResultRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(EjselMetaResultRecordData)
-  nameWithType: EjselMetaResultRecordDataExtensions.ToInsert(EjselMetaResultRecordData)
-  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselMetaResultRecordData)
+  name: ToInsertAsync(EjselMetaResultRecordData, CancellationToken)
+  nameWithType: EjselMetaResultRecordDataExtensions.ToInsertAsync(EjselMetaResultRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselMetaResultRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this EjselMetaResultRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this EjselMetaResultRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.EjselMetaResultRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As EjselMetaResultRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As EjselMetaResultRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData})
-  commentId: M:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData})
+- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<EjselMetaResultRecordData>)
-  nameWithType: EjselMetaResultRecordDataExtensions.ToInserts(IEnumerable<EjselMetaResultRecordData>)
-  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EjselMetaResultRecordData>)
+  name: ToInsertsAsync(IEnumerable<EjselMetaResultRecordData>, CancellationToken)
+  nameWithType: EjselMetaResultRecordDataExtensions.ToInsertsAsync(IEnumerable<EjselMetaResultRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EjselMetaResultRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<EjselMetaResultRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<EjselMetaResultRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of EjselMetaResultRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInserts*
-  nameWithType.vb: EjselMetaResultRecordDataExtensions.ToInserts(IEnumerable(Of EjselMetaResultRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of EjselMetaResultRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: EjselMetaResultRecordDataExtensions.ToInsertsAsync(IEnumerable(Of EjselMetaResultRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EjselMetaResultRecordData))
-  name.vb: ToInserts(IEnumerable(Of EjselMetaResultRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EjselMetaResultRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of EjselMetaResultRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.EjselMetaResultRow)
   commentId: M:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.EjselMetaResultRow)
   id: ToRecordData(SuperOffice.CRM.Rows.EjselMetaResultRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<EjselMetaResultTableInfo>)
+  nameWithType: EjselMetaResultRecordDataExtensions.FromSelect(TargetedSelect<EjselMetaResultTableInfo>)
+  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.EjselMetaResultTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;EjselMetaResultTableInfo>, execute it and return an IEnumerable&lt;EjselMetaResultRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<EjselMetaResultRecordData> FromSelect(this TargetedSelect<EjselMetaResultTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of EjselMetaResultTableInfo)) As IEnumerable(Of EjselMetaResultRecordData)
+  overload: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect*
+  nameWithType.vb: EjselMetaResultRecordDataExtensions.FromSelect(TargetedSelect(Of EjselMetaResultTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.EjselMetaResultTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of EjselMetaResultTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: EjselMetaResultRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: EjselMetaResultRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselMetaResultTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<EjselMetaResultRecordData>
-  nameWithType: IEnumerable<EjselMetaResultRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EjselMetaResultRecordData>
-  nameWithType.vb: IEnumerable(Of EjselMetaResultRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EjselMetaResultRecordData)
-  name.vb: IEnumerable(Of EjselMetaResultRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<EjselMetaResultRecordData>
+  nameWithType: IAsyncEnumerable<EjselMetaResultRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.EjselMetaResultRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of EjselMetaResultRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.EjselMetaResultRecordData)
+  name.vb: IAsyncEnumerable(Of EjselMetaResultRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: EjselMetaResultRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: EjselMetaResultRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: EjselMetaResultRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: EjselMetaResultRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselMetaResultRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<EjselMetaResultRecordData>
+  nameWithType: IEnumerable<EjselMetaResultRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EjselMetaResultRecordData>
+  nameWithType.vb: IEnumerable(Of EjselMetaResultRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EjselMetaResultRecordData)
+  name.vb: IEnumerable(Of EjselMetaResultRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.EjselMetaResultRecordData
+    name: EjselMetaResultRecordData
+    nameWithType: EjselMetaResultRecordData
+    fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.EjselMetaResultRecordData
+    name: EjselMetaResultRecordData
+    nameWithType: EjselMetaResultRecordData
+    fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: EjselMetaResultRow
   nameWithType: EjselMetaResultRow
   fullName: SuperOffice.CRM.Rows.EjselMetaResultRow
+- uid: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: EjselMetaResultRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.EjselMetaResultRecordDataExtensions.FromSelect

@@ -1,0 +1,779 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues
+  commentId: T:SuperOffice.Security.Principal.NSIdentityClaimValues
+  id: NSIdentityClaimValues
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.#ctor
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.#ctor(System.Security.Claims.ClaimsIdentity)
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.Associate
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.AssociateId
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.ContextIdentifier
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity(System.String)
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity(System.String,System.Security.Claims.Claim[])
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.UserName
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.UserType
+  langs:
+  - csharp
+  - vb
+  name: NSIdentityClaimValues
+  nameWithType: NSIdentityClaimValues
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nHelper class for building NetServers&apos; s ClaimsIdentity\n"
+  syntax:
+    content: 'public class NSIdentityClaimValues : Object'
+    content.vb: >-
+      Public Class NSIdentityClaimValues
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.NSIdentityClaimValues)
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Security.Principal.NSIdentityClaimValues.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.#ctor
+  commentId: M:SuperOffice.Security.Principal.NSIdentityClaimValues.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Security.Principal.NSIdentityClaimValues
+  langs:
+  - csharp
+  - vb
+  name: NSIdentityClaimValues()
+  nameWithType: NSIdentityClaimValues.NSIdentityClaimValues()
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.NSIdentityClaimValues()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public NSIdentityClaimValues()
+    content.vb: Public Sub New
+  overload: SuperOffice.Security.Principal.NSIdentityClaimValues.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.#ctor(System.Security.Claims.ClaimsIdentity)
+  commentId: M:SuperOffice.Security.Principal.NSIdentityClaimValues.#ctor(System.Security.Claims.ClaimsIdentity)
+  id: '#ctor(System.Security.Claims.ClaimsIdentity)'
+  parent: SuperOffice.Security.Principal.NSIdentityClaimValues
+  langs:
+  - csharp
+  - vb
+  name: NSIdentityClaimValues(ClaimsIdentity)
+  nameWithType: NSIdentityClaimValues.NSIdentityClaimValues(ClaimsIdentity)
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.NSIdentityClaimValues(System.Security.Claims.ClaimsIdentity)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public NSIdentityClaimValues(ClaimsIdentity source)
+    parameters:
+    - id: source
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Sub New(source As ClaimsIdentity)
+  overload: SuperOffice.Security.Principal.NSIdentityClaimValues.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity(System.String)
+  commentId: M:SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity(System.String)
+  id: GetClaimsIdentity(System.String)
+  parent: SuperOffice.Security.Principal.NSIdentityClaimValues
+  langs:
+  - csharp
+  - vb
+  name: GetClaimsIdentity(String)
+  nameWithType: NSIdentityClaimValues.GetClaimsIdentity(String)
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public ClaimsIdentity GetClaimsIdentity(string authenticationType = null)
+    parameters:
+    - id: authenticationType
+      type: System.String
+    return:
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Function GetClaimsIdentity(authenticationType As String = Nothing) As ClaimsIdentity
+  overload: SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity(System.String,System.Security.Claims.Claim[])
+  commentId: M:SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity(System.String,System.Security.Claims.Claim[])
+  id: GetClaimsIdentity(System.String,System.Security.Claims.Claim[])
+  parent: SuperOffice.Security.Principal.NSIdentityClaimValues
+  langs:
+  - csharp
+  - vb
+  name: GetClaimsIdentity(String, Claim[])
+  nameWithType: NSIdentityClaimValues.GetClaimsIdentity(String, Claim[])
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity(System.String, System.Security.Claims.Claim[])
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public ClaimsIdentity GetClaimsIdentity(string authenticationType, params Claim[] additionalClaims)
+    parameters:
+    - id: authenticationType
+      type: System.String
+    - id: additionalClaims
+      type: System.Security.Claims.Claim[]
+    return:
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Function GetClaimsIdentity(authenticationType As String, ParamArray additionalClaims As Claim()) As ClaimsIdentity
+  overload: SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity*
+  nameWithType.vb: NSIdentityClaimValues.GetClaimsIdentity(String, Claim())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity(System.String, System.Security.Claims.Claim())
+  name.vb: GetClaimsIdentity(String, Claim())
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.Associate
+  commentId: P:SuperOffice.Security.Principal.NSIdentityClaimValues.Associate
+  id: Associate
+  parent: SuperOffice.Security.Principal.NSIdentityClaimValues
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: NSIdentityClaimValues.Associate
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.Associate
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nAssociate.Name\n"
+  syntax:
+    content: public string Associate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Associate As String
+  overload: SuperOffice.Security.Principal.NSIdentityClaimValues.Associate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.AssociateId
+  commentId: P:SuperOffice.Security.Principal.NSIdentityClaimValues.AssociateId
+  id: AssociateId
+  parent: SuperOffice.Security.Principal.NSIdentityClaimValues
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: NSIdentityClaimValues.AssociateId
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.AssociateId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nAssociate.Id \n"
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.Security.Principal.NSIdentityClaimValues.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.ContextIdentifier
+  commentId: P:SuperOffice.Security.Principal.NSIdentityClaimValues.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.Security.Principal.NSIdentityClaimValues
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: NSIdentityClaimValues.ContextIdentifier
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.ContextIdentifier
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nContext Identifier.\n"
+  syntax:
+    content: public string ContextIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContextIdentifier As String
+  overload: SuperOffice.Security.Principal.NSIdentityClaimValues.ContextIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.UserName
+  commentId: P:SuperOffice.Security.Principal.NSIdentityClaimValues.UserName
+  id: UserName
+  parent: SuperOffice.Security.Principal.NSIdentityClaimValues
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: NSIdentityClaimValues.UserName
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.UserName
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nClaim type for Assoiate.UserName\n"
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: SuperOffice.Security.Principal.NSIdentityClaimValues.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.UserType
+  commentId: P:SuperOffice.Security.Principal.NSIdentityClaimValues.UserType
+  id: UserType
+  parent: SuperOffice.Security.Principal.NSIdentityClaimValues
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: NSIdentityClaimValues.UserType
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.UserType
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nClaim type for the users <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public UserType UserType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.License.UserType
+    content.vb: Public Property UserType As UserType
+  overload: SuperOffice.Security.Principal.NSIdentityClaimValues.UserType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<NSIdentityClaimValues, To>()
+  nameWithType: EnumUtil.MapEnums<NSIdentityClaimValues, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.NSIdentityClaimValues, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NSIdentityClaimValues, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.NSIdentityClaimValues, To)()
+  name.vb: MapEnums(Of NSIdentityClaimValues, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NSIdentityClaimValues, To>
+    nameWithType: EnumUtil.MapEnums<NSIdentityClaimValues, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.NSIdentityClaimValues, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NSIdentityClaimValues, To)
+    nameWithType: EnumUtil.MapEnums(Of NSIdentityClaimValues, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.NSIdentityClaimValues, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.NSIdentityClaimValues)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<NSIdentityClaimValues>(NSIdentityClaimValues)
+  nameWithType: ObjectExtensions.AssignByReflection<NSIdentityClaimValues>(NSIdentityClaimValues)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.NSIdentityClaimValues>(SuperOffice.Security.Principal.NSIdentityClaimValues)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NSIdentityClaimValues)(NSIdentityClaimValues)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.NSIdentityClaimValues)(SuperOffice.Security.Principal.NSIdentityClaimValues)
+  name.vb: AssignByReflection(Of NSIdentityClaimValues)(NSIdentityClaimValues)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<NSIdentityClaimValues>
+    nameWithType: ObjectExtensions.AssignByReflection<NSIdentityClaimValues>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.NSIdentityClaimValues>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.NSIdentityClaimValues
+    name: NSIdentityClaimValues
+    nameWithType: NSIdentityClaimValues
+    fullName: SuperOffice.Security.Principal.NSIdentityClaimValues
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of NSIdentityClaimValues)
+    nameWithType: ObjectExtensions.AssignByReflection(Of NSIdentityClaimValues)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.NSIdentityClaimValues)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.NSIdentityClaimValues
+    name: NSIdentityClaimValues
+    nameWithType: NSIdentityClaimValues
+    fullName: SuperOffice.Security.Principal.NSIdentityClaimValues
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<NSIdentityClaimValues>()
+  nameWithType: ObjectExtensions.GraphCopy<NSIdentityClaimValues>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.NSIdentityClaimValues>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of NSIdentityClaimValues)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.NSIdentityClaimValues)()
+  name.vb: GraphCopy(Of NSIdentityClaimValues)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<NSIdentityClaimValues>
+    nameWithType: ObjectExtensions.GraphCopy<NSIdentityClaimValues>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.NSIdentityClaimValues>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of NSIdentityClaimValues)
+    nameWithType: ObjectExtensions.GraphCopy(Of NSIdentityClaimValues)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.NSIdentityClaimValues)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<NSIdentityClaimValues, To>()
+  nameWithType: Converters.MapEnums<NSIdentityClaimValues, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.NSIdentityClaimValues, To>()
+  nameWithType.vb: Converters.MapEnums(Of NSIdentityClaimValues, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.NSIdentityClaimValues, To)()
+  name.vb: MapEnums(Of NSIdentityClaimValues, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NSIdentityClaimValues, To>
+    nameWithType: Converters.MapEnums<NSIdentityClaimValues, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.NSIdentityClaimValues, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NSIdentityClaimValues, To)
+    nameWithType: Converters.MapEnums(Of NSIdentityClaimValues, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.NSIdentityClaimValues, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.NSIdentityClaimValues.#ctor
+  isExternal: true
+  name: NSIdentityClaimValues
+  nameWithType: NSIdentityClaimValues.NSIdentityClaimValues
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.NSIdentityClaimValues
+- uid: System.Security.Claims.ClaimsIdentity
+  isExternal: true
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity*
+  commentId: Overload:SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity
+  isExternal: true
+  name: GetClaimsIdentity
+  nameWithType: NSIdentityClaimValues.GetClaimsIdentity
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.GetClaimsIdentity
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Security.Claims.Claim[]
+  isExternal: true
+  name: Claim[]
+  nameWithType: Claim[]
+  fullName: System.Security.Claims.Claim[]
+  nameWithType.vb: Claim()
+  fullName.vb: System.Security.Claims.Claim()
+  name.vb: Claim()
+  spec.csharp:
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.Associate*
+  commentId: Overload:SuperOffice.Security.Principal.NSIdentityClaimValues.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: NSIdentityClaimValues.Associate
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.Associate
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.AssociateId*
+  commentId: Overload:SuperOffice.Security.Principal.NSIdentityClaimValues.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: NSIdentityClaimValues.AssociateId
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.ContextIdentifier*
+  commentId: Overload:SuperOffice.Security.Principal.NSIdentityClaimValues.ContextIdentifier
+  isExternal: true
+  name: ContextIdentifier
+  nameWithType: NSIdentityClaimValues.ContextIdentifier
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.ContextIdentifier
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.UserName*
+  commentId: Overload:SuperOffice.Security.Principal.NSIdentityClaimValues.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: NSIdentityClaimValues.UserName
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.UserName
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues.UserType*
+  commentId: Overload:SuperOffice.Security.Principal.NSIdentityClaimValues.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: NSIdentityClaimValues.UserType
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues.UserType
+- uid: SuperOffice.License.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.License.UserType

@@ -5,7 +5,7 @@ items:
   id: DocumentEntityHelper
   parent: SuperOffice.CRM.Documents
   children:
-  - SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStream(System.String,System.Boolean,System.String)
+  - SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStreamAsync(System.String,System.Boolean,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -33,16 +33,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStream(System.String,System.Boolean,System.String)
-  commentId: M:SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStream(System.String,System.Boolean,System.String)
-  id: GetSanitizedTemplateStream(System.String,System.Boolean,System.String)
+- uid: SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStreamAsync(System.String,System.Boolean,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStreamAsync(System.String,System.Boolean,System.String,System.Threading.CancellationToken)
+  id: GetSanitizedTemplateStreamAsync(System.String,System.Boolean,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.DocumentEntityHelper
   langs:
   - csharp
   - vb
-  name: GetSanitizedTemplateStream(String, Boolean, String)
-  nameWithType: DocumentEntityHelper.GetSanitizedTemplateStream(String, Boolean, String)
-  fullName: SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStream(System.String, System.Boolean, System.String)
+  name: GetSanitizedTemplateStreamAsync(String, Boolean, String, CancellationToken)
+  nameWithType: DocumentEntityHelper.GetSanitizedTemplateStreamAsync(String, Boolean, String, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStreamAsync(System.String, System.Boolean, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -52,7 +52,7 @@ items:
   namespace: SuperOffice.CRM.Documents
   summary: "\nRetrieve a stream to a document template based on its name, and optionally its path.\n"
   syntax:
-    content: public static Stream GetSanitizedTemplateStream(string templateName, bool allowPerson, string uiCulture)
+    content: public static Task<Stream> GetSanitizedTemplateStreamAsync(string templateName, bool allowPerson, string uiCulture, CancellationToken cancellationToken = null)
     parameters:
     - id: templateName
       type: System.String
@@ -62,11 +62,13 @@ items:
       description: If true, look for template in user area before default template area
     - id: uiCulture
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.IO.Stream
+      type: System.Threading.Tasks.Task{System.IO.Stream}
       description: Open stream to the template
-    content.vb: Public Shared Function GetSanitizedTemplateStream(templateName As String, allowPerson As Boolean, uiCulture As String) As Stream
-  overload: SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStream*
+    content.vb: Public Shared Function GetSanitizedTemplateStreamAsync(templateName As String, allowPerson As Boolean, uiCulture As String, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStreamAsync*
   modifiers.csharp:
   - public
   - static
@@ -93,12 +95,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStream*
-  commentId: Overload:SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStream
+- uid: SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStreamAsync
   isExternal: true
-  name: GetSanitizedTemplateStream
-  nameWithType: DocumentEntityHelper.GetSanitizedTemplateStream
-  fullName: SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStream
+  name: GetSanitizedTemplateStreamAsync
+  nameWithType: DocumentEntityHelper.GetSanitizedTemplateStreamAsync
+  fullName: SuperOffice.CRM.Documents.DocumentEntityHelper.GetSanitizedTemplateStreamAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -113,8 +115,89 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.IO.Stream
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.IO.Stream}
+  commentId: '!:System.Threading.Tasks.Task{System.IO.Stream}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Stream>
+  nameWithType: Task<Stream>
+  fullName: System.Threading.Tasks.Task<System.IO.Stream>
+  nameWithType.vb: Task(Of Stream)
+  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
+  name.vb: Task(Of Stream)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

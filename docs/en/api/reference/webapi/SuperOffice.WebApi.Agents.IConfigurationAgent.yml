@@ -47,6 +47,8 @@ items:
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetWindowPosSizesOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetWwwUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetWwwUrlForSMWebAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildCustomObjectArchivePanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildTaskMenuDeltasAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildUdefDeltasAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildWebpanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.SaveAndPublishAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
@@ -671,6 +673,64 @@ items:
       description: Mapping of recipeId and selected appliesToKey
     content.vb: Function GetRecipeAppliesToMappingsAsync(requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
   overload: SuperOffice.WebApi.Agents.IConfigurationAgent.GetRecipeAppliesToMappingsAsync*
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildCustomObjectArchivePanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildCustomObjectArchivePanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  id: RebuildCustomObjectArchivePanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: RebuildCustomObjectArchivePanelDeltasAsync(RequestOptions)
+  nameWithType: IConfigurationAgent.RebuildCustomObjectArchivePanelDeltasAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildCustomObjectArchivePanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nFlush and rebuild CustomObjectArchivePanel deltas.\n"
+  syntax:
+    content: Task RebuildCustomObjectArchivePanelDeltasAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: No return value
+    content.vb: Function RebuildCustomObjectArchivePanelDeltasAsync(requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildCustomObjectArchivePanelDeltasAsync*
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildTaskMenuDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildTaskMenuDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  id: RebuildTaskMenuDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: RebuildTaskMenuDeltasAsync(RequestOptions)
+  nameWithType: IConfigurationAgent.RebuildTaskMenuDeltasAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildTaskMenuDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nFlush and rebuild TaskMenu deltas.\n"
+  syntax:
+    content: Task RebuildTaskMenuDeltasAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: No return value
+    content.vb: Function RebuildTaskMenuDeltasAsync(requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildTaskMenuDeltasAsync*
 - uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetApplicationConfigurationAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.GetApplicationConfigurationAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetApplicationConfigurationAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -2240,6 +2300,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildCustomObjectArchivePanelDeltasAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildCustomObjectArchivePanelDeltasAsync
+  isExternal: true
+  name: RebuildCustomObjectArchivePanelDeltasAsync
+  nameWithType: IConfigurationAgent.RebuildCustomObjectArchivePanelDeltasAsync
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildCustomObjectArchivePanelDeltasAsync
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildTaskMenuDeltasAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildTaskMenuDeltasAsync
+  isExternal: true
+  name: RebuildTaskMenuDeltasAsync
+  nameWithType: IConfigurationAgent.RebuildTaskMenuDeltasAsync
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.RebuildTaskMenuDeltasAsync
 - uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetApplicationConfigurationAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.GetApplicationConfigurationAsync
   isExternal: true

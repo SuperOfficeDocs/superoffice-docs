@@ -30,8 +30,6 @@ items:
       Public Class DocumentMigrationSummary
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.DocumentMigrationAgent
-    commentId: T:SuperOffice.CRM.Services.DocumentMigrationAgent
   - linkId: SuperOffice.CRM.Services.IDocumentMigrationAgent
     commentId: T:SuperOffice.CRM.Services.IDocumentMigrationAgent
   inheritance:
@@ -205,15 +203,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.DocumentMigrationAgent
-  commentId: T:SuperOffice.CRM.Services.DocumentMigrationAgent
-  isExternal: true
-  name: DocumentMigrationAgent
-  nameWithType: DocumentMigrationAgent
-  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent
 - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent
   commentId: T:SuperOffice.CRM.Services.IDocumentMigrationAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IDocumentMigrationAgent
   nameWithType: IDocumentMigrationAgent

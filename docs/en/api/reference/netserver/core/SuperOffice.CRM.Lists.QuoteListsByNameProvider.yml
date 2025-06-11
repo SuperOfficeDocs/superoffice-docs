@@ -5,10 +5,10 @@ items:
   id: QuoteListsByNameProvider
   parent: SuperOffice.CRM.Lists
   children:
-  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor(SuperOffice.CRM.Lists.ISoListProviderFactory)
   - SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String,System.Int32)
   - SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String,System.String)
-  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider(System.String)
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.QuoteListsByNameProvider.Prefix
   langs:
   - csharp
@@ -42,8 +42,6 @@ items:
   - SuperOffice.CRM.Lists.IWildcardMDOProvider
   extensionMethods:
   - SuperOffice.CRM.Lists.QuoteListsByNameProvider.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.QuoteListsByNameProvider)
-  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.CRM.Lists.WildcardMDOProviderPluginAttribute
@@ -87,6 +85,34 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor(SuperOffice.CRM.Lists.ISoListProviderFactory)
+  commentId: M:SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor(SuperOffice.CRM.Lists.ISoListProviderFactory)
+  id: '#ctor(SuperOffice.CRM.Lists.ISoListProviderFactory)'
+  parent: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+  langs:
+  - csharp
+  - vb
+  name: QuoteListsByNameProvider(ISoListProviderFactory)
+  nameWithType: QuoteListsByNameProvider.QuoteListsByNameProvider(ISoListProviderFactory)
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.QuoteListsByNameProvider(SuperOffice.CRM.Lists.ISoListProviderFactory)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public QuoteListsByNameProvider(ISoListProviderFactory soListProviderFactory)
+    parameters:
+    - id: soListProviderFactory
+      type: SuperOffice.CRM.Lists.ISoListProviderFactory
+    content.vb: Public Sub New(soListProviderFactory As ISoListProviderFactory)
+  overload: SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String,System.Int32)
   id: GetListName(System.String,System.Int32)
@@ -156,16 +182,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider(System.String)
-  commentId: M:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider(System.String)
-  id: GetProvider(System.String)
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
+  id: GetProviderAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.QuoteListsByNameProvider
   langs:
   - csharp
   - vb
-  name: GetProvider(String)
-  nameWithType: QuoteListsByNameProvider.GetProvider(String)
-  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider(System.String)
+  name: GetProviderAsync(String, CancellationToken)
+  nameWithType: QuoteListsByNameProvider.GetProviderAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProviderAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -175,42 +201,19 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nReturn a fully populated, concrete list provider for a given list name; or null. See class remarks for more information.\n"
   syntax:
-    content: public ISoListProvider GetProvider(string listName)
+    content: public Task<ISoListProvider> GetProviderAsync(string listName, CancellationToken cancellationToken = null)
     parameters:
     - id: listName
       type: System.String
       description: "&quot;qm_excelquoteconnector_productcategory&quot; (generic connector name - during setup) \nor &quot;qm_con3_productCategory&quot; (3=connection id), \nor &quot;qm_3_productCategory&quot;, where 3 = sale-id"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Lists.ISoListProvider
-    content.vb: Public Function GetProvider(listName As String) As ISoListProvider
-  overload: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+    content.vb: Public Function GetProviderAsync(listName As String, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProviderAsync*
   implements:
-  - SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor
-  commentId: M:SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Lists.QuoteListsByNameProvider
-  langs:
-  - csharp
-  - vb
-  name: QuoteListsByNameProvider()
-  nameWithType: QuoteListsByNameProvider.QuoteListsByNameProvider()
-  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.QuoteListsByNameProvider()
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Lists
-  syntax:
-    content: public QuoteListsByNameProvider()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor*
+  - SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -263,84 +266,6 @@ references:
     name: MapEnums(Of QuoteListsByNameProvider, To)
     nameWithType: EnumUtil.MapEnums(Of QuoteListsByNameProvider, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.QuoteListsByNameProvider)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<QuoteListsByNameProvider>(QuoteListsByNameProvider)
-  nameWithType: ObjectExtensions.AssignByReflection<QuoteListsByNameProvider>(QuoteListsByNameProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.QuoteListsByNameProvider>(SuperOffice.CRM.Lists.QuoteListsByNameProvider)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteListsByNameProvider)(QuoteListsByNameProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider)(SuperOffice.CRM.Lists.QuoteListsByNameProvider)
-  name.vb: AssignByReflection(Of QuoteListsByNameProvider)(QuoteListsByNameProvider)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<QuoteListsByNameProvider>
-    nameWithType: ObjectExtensions.AssignByReflection<QuoteListsByNameProvider>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.QuoteListsByNameProvider>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider
-    name: QuoteListsByNameProvider
-    nameWithType: QuoteListsByNameProvider
-    fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of QuoteListsByNameProvider)
-    nameWithType: ObjectExtensions.AssignByReflection(Of QuoteListsByNameProvider)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider
-    name: QuoteListsByNameProvider
-    nameWithType: QuoteListsByNameProvider
-    fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<QuoteListsByNameProvider>()
-  nameWithType: ObjectExtensions.GraphCopy<QuoteListsByNameProvider>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.QuoteListsByNameProvider>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteListsByNameProvider)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider)()
-  name.vb: GraphCopy(Of QuoteListsByNameProvider)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<QuoteListsByNameProvider>
-    nameWithType: ObjectExtensions.GraphCopy<QuoteListsByNameProvider>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.QuoteListsByNameProvider>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of QuoteListsByNameProvider)
-    nameWithType: ObjectExtensions.GraphCopy(Of QuoteListsByNameProvider)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider)
     isExternal: true
   - name: (
     nameWithType: (
@@ -433,103 +358,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -576,12 +404,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -595,6 +417,19 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor
+  isExternal: true
+  name: QuoteListsByNameProvider
+  nameWithType: QuoteListsByNameProvider.QuoteListsByNameProvider
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.QuoteListsByNameProvider
+- uid: SuperOffice.CRM.Lists.ISoListProviderFactory
+  commentId: T:SuperOffice.CRM.Lists.ISoListProviderFactory
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProviderFactory
+  nameWithType: ISoListProviderFactory
+  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory
 - uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName*
   commentId: Overload:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName
   isExternal: true
@@ -608,24 +443,24 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider*
-  commentId: Overload:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProviderAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProviderAsync
   isExternal: true
-  name: GetProvider
-  nameWithType: QuoteListsByNameProvider.GetProvider
-  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider
-- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
-  commentId: M:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  name: GetProviderAsync
+  nameWithType: QuoteListsByNameProvider.GetProviderAsync
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProviderAsync
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.IWildcardMDOProvider
   isExternal: true
-  name: GetProvider(String)
-  nameWithType: IWildcardMDOProvider.GetProvider(String)
-  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  name: GetProviderAsync(String, CancellationToken)
+  nameWithType: IWildcardMDOProvider.GetProviderAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
-    name: GetProvider
-    nameWithType: IWildcardMDOProvider.GetProvider
-    fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
+    name: GetProviderAsync
+    nameWithType: IWildcardMDOProvider.GetProviderAsync
+    fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -634,15 +469,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
-    name: GetProvider
-    nameWithType: IWildcardMDOProvider.GetProvider
-    fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
+    name: GetProviderAsync
+    nameWithType: IWildcardMDOProvider.GetProviderAsync
+    fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -652,19 +495,100 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Lists.ISoListProvider
-  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
-  parent: SuperOffice.CRM.Lists
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: ISoListProvider
-  nameWithType: ISoListProvider
-  fullName: SuperOffice.CRM.Lists.ISoListProvider
-- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor*
-  commentId: Overload:SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ISoListProvider>
+  nameWithType: Task<ISoListProvider>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Lists.ISoListProvider>
+  nameWithType.vb: Task(Of ISoListProvider)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Lists.ISoListProvider)
+  name.vb: Task(Of ISoListProvider)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListProvider
+    name: ISoListProvider
+    nameWithType: ISoListProvider
+    fullName: SuperOffice.CRM.Lists.ISoListProvider
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListProvider
+    name: ISoListProvider
+    nameWithType: ISoListProvider
+    fullName: SuperOffice.CRM.Lists.ISoListProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: QuoteListsByNameProvider
-  nameWithType: QuoteListsByNameProvider.QuoteListsByNameProvider
-  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.QuoteListsByNameProvider
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

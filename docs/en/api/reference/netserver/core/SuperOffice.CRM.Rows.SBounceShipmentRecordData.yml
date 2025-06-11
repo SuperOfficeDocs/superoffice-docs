@@ -36,7 +36,7 @@ items:
   - SuperOffice.CRM.Rows.SBounceShipmentRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SBounceShipmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SBounceShipmentRecordData)
   - SuperOffice.CRM.Rows.SBounceShipmentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SBounceShipmentRecordData.SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SBounceShipmentRecordData.SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SBounceShipmentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -303,34 +303,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SBounceShipmentRecordData.SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SBounceShipmentRecordData)
+- uid: SuperOffice.CRM.Rows.SBounceShipmentRecordData.SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SBounceShipmentRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SBounceShipmentRecordData)
-  name: ToInsert()
-  nameWithType: SBounceShipmentRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SBounceShipmentRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SBounceShipmentRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SBounceShipmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SBounceShipmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SBounceShipmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SBounceShipmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -516,17 +526,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SBounceShipmentRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SBounceShipmentRecordData)
+- uid: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SBounceShipmentRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SBounceShipmentRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SBounceShipmentRecordData)
-  nameWithType: SBounceShipmentRecordDataExtensions.ToInsert(SBounceShipmentRecordData)
-  fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SBounceShipmentRecordData)
+  name: ToInsertAsync(SBounceShipmentRecordData, CancellationToken)
+  nameWithType: SBounceShipmentRecordDataExtensions.ToInsertAsync(SBounceShipmentRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SBounceShipmentRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SBounceShipmentRecordData)
-    name: ToInsert
-    nameWithType: SBounceShipmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SBounceShipmentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SBounceShipmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -535,15 +545,23 @@ references:
     name: SBounceShipmentRecordData
     nameWithType: SBounceShipmentRecordData
     fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SBounceShipmentRecordData)
-    name: ToInsert
-    nameWithType: SBounceShipmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SBounceShipmentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SBounceShipmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -552,6 +570,14 @@ references:
     name: SBounceShipmentRecordData
     nameWithType: SBounceShipmentRecordData
     fullName: SuperOffice.CRM.Rows.SBounceShipmentRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

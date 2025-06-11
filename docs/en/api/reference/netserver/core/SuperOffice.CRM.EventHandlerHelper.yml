@@ -5,7 +5,7 @@ items:
   id: EventHandlerHelper
   parent: SuperOffice.CRM
   children:
-  - SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  - SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
   - SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(System.String)
   langs:
   - csharp
@@ -67,16 +67,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
-  commentId: M:SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
-  id: ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+- uid: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  id: ExecuteEventHandlerAsync(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
   parent: SuperOffice.CRM.EventHandlerHelper
   langs:
   - csharp
   - vb
-  name: ExecuteEventHandler(EventHandlerType, ref StringDictionary, StringDictionary, StringDictionary)
-  nameWithType: EventHandlerHelper.ExecuteEventHandler(EventHandlerType, ref StringDictionary, StringDictionary, StringDictionary)
-  fullName: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType, ref SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary)
+  name: ExecuteEventHandlerAsync(EventHandlerType, StringDictionary, StringDictionary, StringDictionary)
+  nameWithType: EventHandlerHelper.ExecuteEventHandlerAsync(EventHandlerType, StringDictionary, StringDictionary, StringDictionary)
+  fullName: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync(SuperOffice.Data.EventHandlerType, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary)
   type: Method
   source:
     path: SoDataBase
@@ -85,7 +85,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void ExecuteEventHandler(EventHandlerType eventType, ref StringDictionary sharedState, StringDictionary parameters, StringDictionary parserValues = null)
+    content: public static Task<StringDictionary> ExecuteEventHandlerAsync(EventHandlerType eventType, StringDictionary sharedState, StringDictionary parameters, StringDictionary parserValues = null)
     parameters:
     - id: eventType
       type: SuperOffice.Data.EventHandlerType
@@ -95,17 +95,16 @@ items:
       type: SuperOffice.CRM.Services.StringDictionary
     - id: parserValues
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: Public Shared Sub ExecuteEventHandler(eventType As EventHandlerType, ByRef sharedState As StringDictionary, parameters As StringDictionary, parserValues As StringDictionary = Nothing)
-  overload: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler*
-  nameWithType.vb: EventHandlerHelper.ExecuteEventHandler(EventHandlerType, ByRef StringDictionary, StringDictionary, StringDictionary)
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+    content.vb: Public Shared Function ExecuteEventHandlerAsync(eventType As EventHandlerType, sharedState As StringDictionary, parameters As StringDictionary, parserValues As StringDictionary = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType, ByRef SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary)
-  name.vb: ExecuteEventHandler(EventHandlerType, ByRef StringDictionary, StringDictionary, StringDictionary)
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
@@ -220,12 +219,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler*
-  commentId: Overload:SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler
+- uid: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync*
+  commentId: Overload:SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync
   isExternal: true
-  name: ExecuteEventHandler
-  nameWithType: EventHandlerHelper.ExecuteEventHandler
-  fullName: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler
+  name: ExecuteEventHandlerAsync
+  nameWithType: EventHandlerHelper.ExecuteEventHandlerAsync
+  fullName: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandlerAsync
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -240,6 +239,49 @@ references:
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.CRM.Services.StringDictionary
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.CRM.Services.StringDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -252,3 +294,41 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

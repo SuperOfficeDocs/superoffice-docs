@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Entities
   children:
   - SuperOffice.CRM.Entities.PersonPhoneSyncHelper.#ctor
-  - SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhones(System.Int32,System.ValueTuple{SuperOffice.Data.PhoneType,System.String}[])
+  - SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhonesAsync(System.Int32,System.ValueTuple{SuperOffice.Data.PhoneType,System.String}[])
   langs:
   - csharp
   - vb
@@ -38,16 +38,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhones(System.Int32,System.ValueTuple{SuperOffice.Data.PhoneType,System.String}[])
-  commentId: M:SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhones(System.Int32,System.ValueTuple{SuperOffice.Data.PhoneType,System.String}[])
-  id: SetPhones(System.Int32,System.ValueTuple{SuperOffice.Data.PhoneType,System.String}[])
+- uid: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhonesAsync(System.Int32,System.ValueTuple{SuperOffice.Data.PhoneType,System.String}[])
+  commentId: M:SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhonesAsync(System.Int32,System.ValueTuple{SuperOffice.Data.PhoneType,System.String}[])
+  id: SetPhonesAsync(System.Int32,System.ValueTuple{SuperOffice.Data.PhoneType,System.String}[])
   parent: SuperOffice.CRM.Entities.PersonPhoneSyncHelper
   langs:
   - csharp
   - vb
-  name: SetPhones(Int32, ValueTuple<PhoneType, String>[])
-  nameWithType: PersonPhoneSyncHelper.SetPhones(Int32, ValueTuple<PhoneType, String>[])
-  fullName: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhones(System.Int32, System.ValueTuple<SuperOffice.Data.PhoneType, System.String>[])
+  name: SetPhonesAsync(Int32, ValueTuple<PhoneType, String>[])
+  nameWithType: PersonPhoneSyncHelper.SetPhonesAsync(Int32, ValueTuple<PhoneType, String>[])
+  fullName: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhonesAsync(System.Int32, System.ValueTuple<SuperOffice.Data.PhoneType, System.String>[])
   type: Method
   source:
     path: SoDataBase
@@ -57,24 +57,26 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet the phone numbers (of various types) for the given person id.\nThis is a specialized function, and will delete any phone numbers not\nin the current parameters.\n"
   syntax:
-    content: public static void SetPhones(int personId, ValueTuple<PhoneType, string>[] rawPhones)
+    content: public static Task SetPhonesAsync(int personId, ValueTuple<PhoneType, string>[] rawPhones)
     parameters:
     - id: personId
       type: System.Int32
       description: ID of an existing person
     - id: rawPhones
       type: System.ValueTuple{SuperOffice.Data.PhoneType,System.String}[]
-    content.vb: Public Shared Sub SetPhones(personId As Integer, rawPhones As ValueTuple(Of PhoneType, String)())
-  overload: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhones*
-  nameWithType.vb: PersonPhoneSyncHelper.SetPhones(Int32, ValueTuple(Of PhoneType, String)())
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetPhonesAsync(personId As Integer, rawPhones As ValueTuple(Of PhoneType, String)()) As Task
+  overload: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhonesAsync*
+  nameWithType.vb: PersonPhoneSyncHelper.SetPhonesAsync(Int32, ValueTuple(Of PhoneType, String)())
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhones(System.Int32, System.ValueTuple(Of SuperOffice.Data.PhoneType, System.String)())
-  name.vb: SetPhones(Int32, ValueTuple(Of PhoneType, String)())
+  fullName.vb: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhonesAsync(System.Int32, System.ValueTuple(Of SuperOffice.Data.PhoneType, System.String)())
+  name.vb: SetPhonesAsync(Int32, ValueTuple(Of PhoneType, String)())
 - uid: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.#ctor
   commentId: M:SuperOffice.CRM.Entities.PersonPhoneSyncHelper.#ctor
   id: '#ctor'
@@ -466,12 +468,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhones*
-  commentId: Overload:SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhones
+- uid: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhonesAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhonesAsync
   isExternal: true
-  name: SetPhones
-  nameWithType: PersonPhoneSyncHelper.SetPhones
-  fullName: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhones
+  name: SetPhonesAsync
+  nameWithType: PersonPhoneSyncHelper.SetPhonesAsync
+  fullName: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.SetPhonesAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -543,6 +545,11 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Entities.PersonPhoneSyncHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.PersonPhoneSyncHelper.#ctor
   isExternal: true

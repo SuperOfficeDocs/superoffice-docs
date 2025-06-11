@@ -28,7 +28,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAudience layout. Each instance of Audience has at least one layout. The layout is connected to the instance by it&apos;s instance name or is linked to the currently logged on user. The web part layout and the Audience configuration parameters belongs to an Audience layout\n<p></p>\nCarrier object for AudienceLayoutEntity.\nServices for the AudienceLayoutEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAudienceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nAudience layout. Each instance of Audience has at least one layout. The layout is connected to the instance by it&apos;s instance name or is linked to the currently logged on user. The web part layout and the Audience configuration parameters belongs to an Audience layout\n<p></p>\nCarrier object for AudienceLayoutEntity.\nServices for the AudienceLayoutEntity Carrier is available from the <see cref=\"!:IAudienceAgent\">Audience Agent</see>.\n"
   example:
   - "\nGet AudienceLayoutEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new AudienceAgent();\n    var audienceLayoutEntity = agent.GetAudienceLayoutEntity( 123 );\n }</code></pre>\n"
   syntax:
@@ -36,11 +36,6 @@ items:
     content.vb: >-
       Public Class AudienceLayoutEntity
           Inherits Carrier
-  seealso:
-  - linkId: SuperOffice.CRM.Services.AudienceAgent
-    commentId: T:SuperOffice.CRM.Services.AudienceAgent
-  - linkId: SuperOffice.CRM.Services.IAudienceAgent
-    commentId: T:SuperOffice.CRM.Services.IAudienceAgent
   inheritance:
   - System.Object
   modifiers.csharp:
@@ -377,19 +372,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AudienceAgent
-  commentId: T:SuperOffice.CRM.Services.AudienceAgent
-  isExternal: true
-  name: AudienceAgent
-  nameWithType: AudienceAgent
-  fullName: SuperOffice.CRM.Services.AudienceAgent
-- uid: SuperOffice.CRM.Services.IAudienceAgent
-  commentId: T:SuperOffice.CRM.Services.IAudienceAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: IAudienceAgent
-  nameWithType: IAudienceAgent
-  fullName: SuperOffice.CRM.Services.IAudienceAgent
 - uid: SuperOffice.CRM.Services.AudienceLayoutEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AudienceLayoutEntity.#ctor
   isExternal: true

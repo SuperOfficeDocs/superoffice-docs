@@ -1,0 +1,1417 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.IBookingManager
+  commentId: T:SuperOffice.CRM.Entities.IBookingManager
+  id: IBookingManager
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.IBookingManager.AcceptAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IBookingManager.AcceptRejectedAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IBookingManager.AssignToAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IBookingManager.AssignToExternalOrganizer(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Entities.IBookingManager.CreateAppointmentForParticipantAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.InvitationStatus)
+  - SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.InvitationStatus)
+  - SuperOffice.CRM.Entities.IBookingManager.GetBookingType(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.IBookingManager.GetBookingType(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.GetBookingType(System.Int32,System.Int32)
+  - SuperOffice.CRM.Entities.IBookingManager.HasAccepted(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
+  - SuperOffice.CRM.Entities.IBookingManager.IsEmailParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.IsExternalPersonAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IBookingManager.ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.RejectAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IBookingManager.SetSeen(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.IBookingManager.ValidateAppointmentAsync(System.Boolean,System.Boolean,SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IBookingManager
+  nameWithType: IBookingManager
+  fullName: SuperOffice.CRM.Entities.IBookingManager
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public interface IBookingManager
+    content.vb: Public Interface IBookingManager
+  extensionMethods:
+  - SuperOffice.CRM.Entities.IBookingManager.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.IBookingManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Entities.IBookingManager.AcceptAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.AcceptAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  id: AcceptAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: AcceptAppointmentAsync(AppointmentRow, CancellationToken)
+  nameWithType: IBookingManager.AcceptAppointmentAsync(AppointmentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.AcceptAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task AcceptAppointmentAsync(AppointmentRow appointment, CancellationToken cancellationToken = null)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AcceptAppointmentAsync(appointment As AppointmentRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IBookingManager.AcceptAppointmentAsync*
+- uid: SuperOffice.CRM.Entities.IBookingManager.AcceptRejectedAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.AcceptRejectedAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  id: AcceptRejectedAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: AcceptRejectedAppointmentAsync(AppointmentRow, CancellationToken)
+  nameWithType: IBookingManager.AcceptRejectedAppointmentAsync(AppointmentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.AcceptRejectedAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task AcceptRejectedAppointmentAsync(AppointmentRow appointmentRow, CancellationToken cancellationToken = null)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AcceptRejectedAppointmentAsync(appointmentRow As AppointmentRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IBookingManager.AcceptRejectedAppointmentAsync*
+- uid: SuperOffice.CRM.Entities.IBookingManager.AssignToAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.AssignToAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  id: AssignToAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: AssignToAsync(AppointmentRow, ParticipantInfo, CancellationToken)
+  nameWithType: IBookingManager.AssignToAsync(AppointmentRow, ParticipantInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.AssignToAsync(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Services.ParticipantInfo, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task AssignToAsync(AppointmentRow row, ParticipantInfo participant, CancellationToken cancellationToken = null)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AssignToAsync(row As AppointmentRow, participant As ParticipantInfo, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IBookingManager.AssignToAsync*
+- uid: SuperOffice.CRM.Entities.IBookingManager.AssignToExternalOrganizer(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.AssignToExternalOrganizer(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  id: AssignToExternalOrganizer(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: AssignToExternalOrganizer(AppointmentRow, ParticipantInfo)
+  nameWithType: IBookingManager.AssignToExternalOrganizer(AppointmentRow, ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.AssignToExternalOrganizer(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void AssignToExternalOrganizer(AppointmentRow row, ParticipantInfo participant)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    content.vb: Sub AssignToExternalOrganizer(row As AppointmentRow, participant As ParticipantInfo)
+  overload: SuperOffice.CRM.Entities.IBookingManager.AssignToExternalOrganizer*
+- uid: SuperOffice.CRM.Entities.IBookingManager.CreateAppointmentForParticipantAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.CreateAppointmentForParticipantAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  id: CreateAppointmentForParticipantAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: CreateAppointmentForParticipantAsync(AppointmentRow, ParticipantInfo, CancellationToken)
+  nameWithType: IBookingManager.CreateAppointmentForParticipantAsync(AppointmentRow, ParticipantInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.CreateAppointmentForParticipantAsync(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Services.ParticipantInfo, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task<AppointmentRow> CreateAppointmentForParticipantAsync(AppointmentRow mainBooking, ParticipantInfo participant, CancellationToken cancellationToken = null)
+    parameters:
+    - id: mainBooking
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.AppointmentRow}
+    content.vb: Function CreateAppointmentForParticipantAsync(mainBooking As AppointmentRow, participant As ParticipantInfo, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentRow)
+  overload: SuperOffice.CRM.Entities.IBookingManager.CreateAppointmentForParticipantAsync*
+- uid: SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.InvitationStatus)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.InvitationStatus)
+  id: GetAppointmentDeleteAction(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.InvitationStatus)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentDeleteAction(Appointment, InvitationStatus)
+  nameWithType: IBookingManager.GetAppointmentDeleteAction(Appointment, InvitationStatus)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.InvitationStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: AppointmentDeleteAction GetAppointmentDeleteAction(Appointment appointment, InvitationStatus invitationStatus)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    - id: invitationStatus
+      type: SuperOffice.Data.InvitationStatus
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentDeleteAction
+    content.vb: Function GetAppointmentDeleteAction(appointment As Appointment, invitationStatus As InvitationStatus) As AppointmentDeleteAction
+  overload: SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction*
+- uid: SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.InvitationStatus)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.InvitationStatus)
+  id: GetAppointmentDeleteAction(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.InvitationStatus)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentDeleteAction(AppointmentRow, InvitationStatus)
+  nameWithType: IBookingManager.GetAppointmentDeleteAction(AppointmentRow, InvitationStatus)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.Data.InvitationStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: AppointmentDeleteAction GetAppointmentDeleteAction(AppointmentRow appointmentRow, InvitationStatus invitationStatus)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: invitationStatus
+      type: SuperOffice.Data.InvitationStatus
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentDeleteAction
+    content.vb: Function GetAppointmentDeleteAction(appointmentRow As AppointmentRow, invitationStatus As InvitationStatus) As AppointmentDeleteAction
+  overload: SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction*
+- uid: SuperOffice.CRM.Entities.IBookingManager.GetBookingType(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.GetBookingType(SuperOffice.CRM.Entities.Appointment)
+  id: GetBookingType(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: GetBookingType(Appointment)
+  nameWithType: IBookingManager.GetBookingType(Appointment)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.GetBookingType(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: BookingType GetBookingType(Appointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    return:
+      type: SuperOffice.Data.BookingType
+    content.vb: Function GetBookingType(appointment As Appointment) As BookingType
+  overload: SuperOffice.CRM.Entities.IBookingManager.GetBookingType*
+- uid: SuperOffice.CRM.Entities.IBookingManager.GetBookingType(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.GetBookingType(SuperOffice.CRM.Rows.AppointmentRow)
+  id: GetBookingType(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: GetBookingType(AppointmentRow)
+  nameWithType: IBookingManager.GetBookingType(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.GetBookingType(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: BookingType GetBookingType(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: SuperOffice.Data.BookingType
+    content.vb: Function GetBookingType(appointmentRow As AppointmentRow) As BookingType
+  overload: SuperOffice.CRM.Entities.IBookingManager.GetBookingType*
+- uid: SuperOffice.CRM.Entities.IBookingManager.GetBookingType(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.GetBookingType(System.Int32,System.Int32)
+  id: GetBookingType(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: GetBookingType(Int32, Int32)
+  nameWithType: IBookingManager.GetBookingType(Int32, Int32)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.GetBookingType(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: BookingType GetBookingType(int appointmentId, int motherId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: motherId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.BookingType
+    content.vb: Function GetBookingType(appointmentId As Integer, motherId As Integer) As BookingType
+  overload: SuperOffice.CRM.Entities.IBookingManager.GetBookingType*
+- uid: SuperOffice.CRM.Entities.IBookingManager.HasAccepted(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.HasAccepted(SuperOffice.CRM.Rows.AppointmentRow)
+  id: HasAccepted(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: HasAccepted(AppointmentRow)
+  nameWithType: IBookingManager.HasAccepted(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.HasAccepted(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool HasAccepted(AppointmentRow appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+    content.vb: Function HasAccepted(appointment As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.HasAccepted*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment(SuperOffice.CRM.Entities.Appointment)
+  id: IsAppointmentAssignment(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentAssignment(Appointment)
+  nameWithType: IBookingManager.IsAppointmentAssignment(Appointment)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsAppointmentAssignment(Appointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    return:
+      type: System.Boolean
+    content.vb: Function IsAppointmentAssignment(appointment As Appointment) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsAppointmentAssignment(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentAssignment(AppointmentRow)
+  nameWithType: IBookingManager.IsAppointmentAssignment(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsAppointmentAssignment(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+    content.vb: Function IsAppointmentAssignment(appointmentRow As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking(SuperOffice.CRM.Entities.Appointment)
+  id: IsAppointmentBooking(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentBooking(Appointment)
+  nameWithType: IBookingManager.IsAppointmentBooking(Appointment)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsAppointmentBooking(Appointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    return:
+      type: System.Boolean
+    content.vb: Function IsAppointmentBooking(appointment As Appointment) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsAppointmentBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentBooking(AppointmentRow)
+  nameWithType: IBookingManager.IsAppointmentBooking(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsAppointmentBooking(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+    content.vb: Function IsAppointmentBooking(appointmentRow As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Entities.Appointment)
+  id: IsAppointmentChildBooking(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentChildBooking(Appointment)
+  nameWithType: IBookingManager.IsAppointmentChildBooking(Appointment)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsAppointmentChildBooking(Appointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    return:
+      type: System.Boolean
+    content.vb: Function IsAppointmentChildBooking(appointment As Appointment) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsAppointmentChildBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentChildBooking(AppointmentRow)
+  nameWithType: IBookingManager.IsAppointmentChildBooking(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsAppointmentChildBooking(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+    content.vb: Function IsAppointmentChildBooking(appointmentRow As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentIncludedInParticipantList(AppointmentRow)
+  nameWithType: IBookingManager.IsAppointmentIncludedInParticipantList(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsAppointmentIncludedInParticipantList(AppointmentRow appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+    content.vb: Function IsAppointmentIncludedInParticipantList(appointment As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentIncludedInParticipantList*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
+  id: IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentMainBooking(Appointment)
+  nameWithType: IBookingManager.IsAppointmentMainBooking(Appointment)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsAppointmentMainBooking(Appointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    return:
+      type: System.Boolean
+    content.vb: Function IsAppointmentMainBooking(appointment As Appointment) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentMainBooking(AppointmentRow)
+  nameWithType: IBookingManager.IsAppointmentMainBooking(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsAppointmentMainBooking(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+    content.vb: Function IsAppointmentMainBooking(appointmentRow As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
+  id: IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentStatusSimilar(AppointmentStatus, AppointmentStatus)
+  nameWithType: IBookingManager.IsAppointmentStatusSimilar(AppointmentStatus, AppointmentStatus)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus, SuperOffice.Data.AppointmentStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsAppointmentStatusSimilar(AppointmentStatus originalStaus, AppointmentStatus compareStatus)
+    parameters:
+    - id: originalStaus
+      type: SuperOffice.Data.AppointmentStatus
+    - id: compareStatus
+      type: SuperOffice.Data.AppointmentStatus
+    return:
+      type: System.Boolean
+    content.vb: Function IsAppointmentStatusSimilar(originalStaus As AppointmentStatus, compareStatus As AppointmentStatus) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentStatusSimilar*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsEmailParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsEmailParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsEmailParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsEmailParticipant(AppointmentRow)
+  nameWithType: IBookingManager.IsEmailParticipant(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsEmailParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsEmailParticipant(AppointmentRow appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+    content.vb: Function IsEmailParticipant(appointment As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsEmailParticipant*
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsExternalPersonAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.IsExternalPersonAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  id: IsExternalPersonAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsExternalPersonAsync(ParticipantInfo, CancellationToken)
+  nameWithType: IBookingManager.IsExternalPersonAsync(ParticipantInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsExternalPersonAsync(SuperOffice.CRM.Services.ParticipantInfo, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task<bool> IsExternalPersonAsync(ParticipantInfo participantInfo, CancellationToken cancellationToken = null)
+    parameters:
+    - id: participantInfo
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function IsExternalPersonAsync(participantInfo As ParticipantInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Entities.IBookingManager.IsExternalPersonAsync*
+- uid: SuperOffice.CRM.Entities.IBookingManager.ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.AppointmentRow)
+  id: ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: ModifyAppointmentForParticipant(AppointmentRow, AppointmentRow)
+  nameWithType: IBookingManager.ModifyAppointmentForParticipant(AppointmentRow, AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: BookingManagerModified ModifyAppointmentForParticipant(AppointmentRow mainBooking, AppointmentRow childBooking)
+    parameters:
+    - id: mainBooking
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: childBooking
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: SuperOffice.CRM.Entities.BookingManagerModified
+    content.vb: Function ModifyAppointmentForParticipant(mainBooking As AppointmentRow, childBooking As AppointmentRow) As BookingManagerModified
+  overload: SuperOffice.CRM.Entities.IBookingManager.ModifyAppointmentForParticipant*
+- uid: SuperOffice.CRM.Entities.IBookingManager.RejectAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.RejectAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.String,System.Threading.CancellationToken)
+  id: RejectAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: RejectAppointmentAsync(AppointmentRow, String, CancellationToken)
+  nameWithType: IBookingManager.RejectAppointmentAsync(AppointmentRow, String, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.RejectAppointmentAsync(SuperOffice.CRM.Rows.AppointmentRow, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task RejectAppointmentAsync(AppointmentRow appointmentRow, string rejectReason, CancellationToken cancellationToken = null)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: rejectReason
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RejectAppointmentAsync(appointmentRow As AppointmentRow, rejectReason As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IBookingManager.RejectAppointmentAsync*
+- uid: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetAppointmentToIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: SetAppointmentToIncludedInParticipantList(AppointmentRow)
+  nameWithType: IBookingManager.SetAppointmentToIncludedInParticipantList(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void SetAppointmentToIncludedInParticipantList(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: Sub SetAppointmentToIncludedInParticipantList(appointmentRow As AppointmentRow)
+  overload: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToIncludedInParticipantList*
+- uid: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  id: SetAppointmentToRemovedFromParticipantListAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: SetAppointmentToRemovedFromParticipantListAsync(AppointmentRow, CancellationToken)
+  nameWithType: IBookingManager.SetAppointmentToRemovedFromParticipantListAsync(AppointmentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync(SuperOffice.CRM.Rows.AppointmentRow, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task SetAppointmentToRemovedFromParticipantListAsync(AppointmentRow appointmentRow, CancellationToken cancellationToken = null)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetAppointmentToRemovedFromParticipantListAsync(appointmentRow As AppointmentRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync*
+- uid: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Int32,System.Threading.CancellationToken)
+  id: SetAppointmentToRemovedFromParticipantListAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: SetAppointmentToRemovedFromParticipantListAsync(AppointmentRow, Int32, CancellationToken)
+  nameWithType: IBookingManager.SetAppointmentToRemovedFromParticipantListAsync(AppointmentRow, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync(SuperOffice.CRM.Rows.AppointmentRow, System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task SetAppointmentToRemovedFromParticipantListAsync(AppointmentRow appointmentRow, int diaryOwner, CancellationToken cancellationToken = null)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: diaryOwner
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetAppointmentToRemovedFromParticipantListAsync(appointmentRow As AppointmentRow, diaryOwner As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync*
+- uid: SuperOffice.CRM.Entities.IBookingManager.SetSeen(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.SetSeen(SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetSeen(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: SetSeen(AppointmentRow)
+  nameWithType: IBookingManager.SetSeen(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.SetSeen(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void SetSeen(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: Sub SetSeen(appointmentRow As AppointmentRow)
+  overload: SuperOffice.CRM.Entities.IBookingManager.SetSeen*
+- uid: SuperOffice.CRM.Entities.IBookingManager.ValidateAppointmentAsync(System.Boolean,System.Boolean,SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IBookingManager.ValidateAppointmentAsync(System.Boolean,System.Boolean,SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  id: ValidateAppointmentAsync(System.Boolean,System.Boolean,SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IBookingManager
+  langs:
+  - csharp
+  - vb
+  name: ValidateAppointmentAsync(Boolean, Boolean, AppointmentRow, CancellationToken)
+  nameWithType: IBookingManager.ValidateAppointmentAsync(Boolean, Boolean, AppointmentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IBookingManager.ValidateAppointmentAsync(System.Boolean, System.Boolean, SuperOffice.CRM.Rows.AppointmentRow, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task ValidateAppointmentAsync(bool isBookingMaster, bool isBooking, AppointmentRow appointmentRow, CancellationToken cancellationToken = null)
+    parameters:
+    - id: isBookingMaster
+      type: System.Boolean
+    - id: isBooking
+      type: System.Boolean
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ValidateAppointmentAsync(isBookingMaster As Boolean, isBooking As Boolean, appointmentRow As AppointmentRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IBookingManager.ValidateAppointmentAsync*
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.IBookingManager.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IBookingManager, To>()
+  nameWithType: EnumUtil.MapEnums<IBookingManager, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.IBookingManager, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IBookingManager, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.IBookingManager, To)()
+  name.vb: MapEnums(Of IBookingManager, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IBookingManager, To>
+    nameWithType: EnumUtil.MapEnums<IBookingManager, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.IBookingManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IBookingManager, To)
+    nameWithType: EnumUtil.MapEnums(Of IBookingManager, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.IBookingManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.IBookingManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IBookingManager, To>()
+  nameWithType: Converters.MapEnums<IBookingManager, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.IBookingManager, To>()
+  nameWithType.vb: Converters.MapEnums(Of IBookingManager, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.IBookingManager, To)()
+  name.vb: MapEnums(Of IBookingManager, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IBookingManager, To>
+    nameWithType: Converters.MapEnums<IBookingManager, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.IBookingManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IBookingManager, To)
+    nameWithType: Converters.MapEnums(Of IBookingManager, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.IBookingManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.IBookingManager.AcceptAppointmentAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.AcceptAppointmentAsync
+  isExternal: true
+  name: AcceptAppointmentAsync
+  nameWithType: IBookingManager.AcceptAppointmentAsync
+  fullName: SuperOffice.CRM.Entities.IBookingManager.AcceptAppointmentAsync
+- uid: SuperOffice.CRM.Rows.AppointmentRow
+  commentId: T:SuperOffice.CRM.Rows.AppointmentRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: AppointmentRow
+  nameWithType: AppointmentRow
+  fullName: SuperOffice.CRM.Rows.AppointmentRow
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Entities.IBookingManager.AcceptRejectedAppointmentAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.AcceptRejectedAppointmentAsync
+  isExternal: true
+  name: AcceptRejectedAppointmentAsync
+  nameWithType: IBookingManager.AcceptRejectedAppointmentAsync
+  fullName: SuperOffice.CRM.Entities.IBookingManager.AcceptRejectedAppointmentAsync
+- uid: SuperOffice.CRM.Entities.IBookingManager.AssignToAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.AssignToAsync
+  isExternal: true
+  name: AssignToAsync
+  nameWithType: IBookingManager.AssignToAsync
+  fullName: SuperOffice.CRM.Entities.IBookingManager.AssignToAsync
+- uid: SuperOffice.CRM.Services.ParticipantInfo
+  commentId: T:SuperOffice.CRM.Services.ParticipantInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: SuperOffice.CRM.Services.ParticipantInfo
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Entities.IBookingManager.AssignToExternalOrganizer*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.AssignToExternalOrganizer
+  isExternal: true
+  name: AssignToExternalOrganizer
+  nameWithType: IBookingManager.AssignToExternalOrganizer
+  fullName: SuperOffice.CRM.Entities.IBookingManager.AssignToExternalOrganizer
+- uid: SuperOffice.CRM.Entities.IBookingManager.CreateAppointmentForParticipantAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.CreateAppointmentForParticipantAsync
+  isExternal: true
+  name: CreateAppointmentForParticipantAsync
+  nameWithType: IBookingManager.CreateAppointmentForParticipantAsync
+  fullName: SuperOffice.CRM.Entities.IBookingManager.CreateAppointmentForParticipantAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.AppointmentRow}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.AppointmentRow}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AppointmentRow>
+  nameWithType: Task<AppointmentRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.AppointmentRow>
+  nameWithType.vb: Task(Of AppointmentRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.AppointmentRow)
+  name.vb: Task(Of AppointmentRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    nameWithType: AppointmentRow
+    fullName: SuperOffice.CRM.Rows.AppointmentRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    nameWithType: AppointmentRow
+    fullName: SuperOffice.CRM.Rows.AppointmentRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction
+  isExternal: true
+  name: GetAppointmentDeleteAction
+  nameWithType: IBookingManager.GetAppointmentDeleteAction
+  fullName: SuperOffice.CRM.Entities.IBookingManager.GetAppointmentDeleteAction
+- uid: SuperOffice.CRM.Entities.Appointment
+  commentId: T:SuperOffice.CRM.Entities.Appointment
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.CRM.Entities.Appointment
+- uid: SuperOffice.Data.InvitationStatus
+  commentId: T:SuperOffice.Data.InvitationStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: InvitationStatus
+  nameWithType: InvitationStatus
+  fullName: SuperOffice.Data.InvitationStatus
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  commentId: T:SuperOffice.CRM.Entities.AppointmentDeleteAction
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentDeleteAction
+  nameWithType: AppointmentDeleteAction
+  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Entities.IBookingManager.GetBookingType*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.GetBookingType
+  isExternal: true
+  name: GetBookingType
+  nameWithType: IBookingManager.GetBookingType
+  fullName: SuperOffice.CRM.Entities.IBookingManager.GetBookingType
+- uid: SuperOffice.Data.BookingType
+  commentId: T:SuperOffice.Data.BookingType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: BookingType
+  nameWithType: BookingType
+  fullName: SuperOffice.Data.BookingType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Entities.IBookingManager.HasAccepted*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.HasAccepted
+  isExternal: true
+  name: HasAccepted
+  nameWithType: IBookingManager.HasAccepted
+  fullName: SuperOffice.CRM.Entities.IBookingManager.HasAccepted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment
+  isExternal: true
+  name: IsAppointmentAssignment
+  nameWithType: IBookingManager.IsAppointmentAssignment
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentAssignment
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking
+  isExternal: true
+  name: IsAppointmentBooking
+  nameWithType: IBookingManager.IsAppointmentBooking
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentBooking
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking
+  isExternal: true
+  name: IsAppointmentChildBooking
+  nameWithType: IBookingManager.IsAppointmentChildBooking
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentChildBooking
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentIncludedInParticipantList*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentIncludedInParticipantList
+  isExternal: true
+  name: IsAppointmentIncludedInParticipantList
+  nameWithType: IBookingManager.IsAppointmentIncludedInParticipantList
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentIncludedInParticipantList
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking
+  isExternal: true
+  name: IsAppointmentMainBooking
+  nameWithType: IBookingManager.IsAppointmentMainBooking
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentMainBooking
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentStatusSimilar*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.IsAppointmentStatusSimilar
+  isExternal: true
+  name: IsAppointmentStatusSimilar
+  nameWithType: IBookingManager.IsAppointmentStatusSimilar
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsAppointmentStatusSimilar
+- uid: SuperOffice.Data.AppointmentStatus
+  commentId: T:SuperOffice.Data.AppointmentStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: SuperOffice.Data.AppointmentStatus
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsEmailParticipant*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.IsEmailParticipant
+  isExternal: true
+  name: IsEmailParticipant
+  nameWithType: IBookingManager.IsEmailParticipant
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsEmailParticipant
+- uid: SuperOffice.CRM.Entities.IBookingManager.IsExternalPersonAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.IsExternalPersonAsync
+  isExternal: true
+  name: IsExternalPersonAsync
+  nameWithType: IBookingManager.IsExternalPersonAsync
+  fullName: SuperOffice.CRM.Entities.IBookingManager.IsExternalPersonAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.IBookingManager.ModifyAppointmentForParticipant*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.ModifyAppointmentForParticipant
+  isExternal: true
+  name: ModifyAppointmentForParticipant
+  nameWithType: IBookingManager.ModifyAppointmentForParticipant
+  fullName: SuperOffice.CRM.Entities.IBookingManager.ModifyAppointmentForParticipant
+- uid: SuperOffice.CRM.Entities.BookingManagerModified
+  commentId: T:SuperOffice.CRM.Entities.BookingManagerModified
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: BookingManagerModified
+  nameWithType: BookingManagerModified
+  fullName: SuperOffice.CRM.Entities.BookingManagerModified
+- uid: SuperOffice.CRM.Entities.IBookingManager.RejectAppointmentAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.RejectAppointmentAsync
+  isExternal: true
+  name: RejectAppointmentAsync
+  nameWithType: IBookingManager.RejectAppointmentAsync
+  fullName: SuperOffice.CRM.Entities.IBookingManager.RejectAppointmentAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToIncludedInParticipantList*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToIncludedInParticipantList
+  isExternal: true
+  name: SetAppointmentToIncludedInParticipantList
+  nameWithType: IBookingManager.SetAppointmentToIncludedInParticipantList
+  fullName: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToIncludedInParticipantList
+- uid: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync
+  isExternal: true
+  name: SetAppointmentToRemovedFromParticipantListAsync
+  nameWithType: IBookingManager.SetAppointmentToRemovedFromParticipantListAsync
+  fullName: SuperOffice.CRM.Entities.IBookingManager.SetAppointmentToRemovedFromParticipantListAsync
+- uid: SuperOffice.CRM.Entities.IBookingManager.SetSeen*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.SetSeen
+  isExternal: true
+  name: SetSeen
+  nameWithType: IBookingManager.SetSeen
+  fullName: SuperOffice.CRM.Entities.IBookingManager.SetSeen
+- uid: SuperOffice.CRM.Entities.IBookingManager.ValidateAppointmentAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IBookingManager.ValidateAppointmentAsync
+  isExternal: true
+  name: ValidateAppointmentAsync
+  nameWithType: IBookingManager.ValidateAppointmentAsync
+  fullName: SuperOffice.CRM.Entities.IBookingManager.ValidateAppointmentAsync

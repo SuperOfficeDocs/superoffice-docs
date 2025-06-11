@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData)
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData.SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData.SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData.SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData)
+- uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData.SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData)
-  name: ToInsert()
-  nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData)
+- uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SearchCriteriaGroupRecordData)
-  nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsert(SearchCriteriaGroupRecordData)
-  fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData)
+  name: ToInsertAsync(SearchCriteriaGroupRecordData, CancellationToken)
+  nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(SearchCriteriaGroupRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData)
-    name: ToInsert
-    nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: SearchCriteriaGroupRecordData
     nameWithType: SearchCriteriaGroupRecordData
     fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData)
-    name: ToInsert
-    nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SearchCriteriaGroupRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: SearchCriteriaGroupRecordData
     nameWithType: SearchCriteriaGroupRecordData
     fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.UDContactLargeRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.UDContactLargeRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDContactLargeRecordData)
   - SuperOffice.CRM.Rows.UDContactLargeRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.UDContactLargeRecordData.SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.UDContactLargeRecordData.SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.UDContactLargeRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.UDContactLargeRecordData.SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDContactLargeRecordData)
+- uid: SuperOffice.CRM.Rows.UDContactLargeRecordData.SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDContactLargeRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDContactLargeRecordData)
-  name: ToInsert()
-  nameWithType: UDContactLargeRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDContactLargeRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: UDContactLargeRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: UDContactLargeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: UDContactLargeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: UDContactLargeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: UDContactLargeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDContactLargeRecordData)
-  commentId: M:SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDContactLargeRecordData)
+- uid: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDContactLargeRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDContactLargeRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(UDContactLargeRecordData)
-  nameWithType: UDContactLargeRecordDataExtensions.ToInsert(UDContactLargeRecordData)
-  fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDContactLargeRecordData)
+  name: ToInsertAsync(UDContactLargeRecordData, CancellationToken)
+  nameWithType: UDContactLargeRecordDataExtensions.ToInsertAsync(UDContactLargeRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDContactLargeRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDContactLargeRecordData)
-    name: ToInsert
-    nameWithType: UDContactLargeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDContactLargeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: UDContactLargeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: UDContactLargeRecordData
     nameWithType: UDContactLargeRecordData
     fullName: SuperOffice.CRM.Rows.UDContactLargeRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDContactLargeRecordData)
-    name: ToInsert
-    nameWithType: UDContactLargeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.UDContactLargeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: UDContactLargeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.UDContactLargeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: UDContactLargeRecordData
     nameWithType: UDContactLargeRecordData
     fullName: SuperOffice.CRM.Rows.UDContactLargeRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

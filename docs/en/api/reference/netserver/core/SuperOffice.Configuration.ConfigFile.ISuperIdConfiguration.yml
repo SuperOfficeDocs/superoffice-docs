@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
+  id: ConfigFile.ISuperIdConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Environment
+  - SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantId
+  - SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantKey
+  - SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Url
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.ISuperIdConfiguration
+  nameWithType: ConfigFile.ISuperIdConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values for accessing SuperId\nCreated in Database scope\n"
+  syntax:
+    content: public interface ISuperIdConfiguration
+    content.vb: Public Interface ISuperIdConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Url
+  commentId: P:SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Url
+  id: Url
+  parent: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: ConfigFile.ISuperIdConfiguration.Url
+  fullName: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Url
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUrl to SuperId\n"
+  syntax:
+    content: string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Url As String
+  overload: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Url*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantKey
+  commentId: P:SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantKey
+  id: TenantKey
+  parent: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TenantKey
+  nameWithType: ConfigFile.ISuperIdConfiguration.TenantKey
+  fullName: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantKey
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nA shared secret between SuperId and netserver\n"
+  syntax:
+    content: string TenantKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TenantKey As String
+  overload: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantKey*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantId
+  commentId: P:SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantId
+  id: TenantId
+  parent: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TenantId
+  nameWithType: ConfigFile.ISuperIdConfiguration.TenantId
+  fullName: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nTenantId in SuperId\n"
+  syntax:
+    content: int TenantId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property TenantId As Integer
+  overload: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantId*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Environment
+  commentId: P:SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Environment
+  id: Environment
+  parent: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Environment
+  nameWithType: ConfigFile.ISuperIdConfiguration.Environment
+  fullName: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Environment
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nEnvironment in SuperId\n"
+  syntax:
+    content: string Environment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Environment As String
+  overload: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Environment*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.ISuperIdConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.ISuperIdConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.ISuperIdConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.ISuperIdConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.ISuperIdConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.ISuperIdConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.ISuperIdConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.ISuperIdConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.ISuperIdConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.ISuperIdConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.ISuperIdConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.ISuperIdConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.ISuperIdConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.ISuperIdConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.ISuperIdConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.ISuperIdConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Url*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Url
+  isExternal: true
+  name: Url
+  nameWithType: ConfigFile.ISuperIdConfiguration.Url
+  fullName: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantKey*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantKey
+  isExternal: true
+  name: TenantKey
+  nameWithType: ConfigFile.ISuperIdConfiguration.TenantKey
+  fullName: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantKey
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantId*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantId
+  isExternal: true
+  name: TenantId
+  nameWithType: ConfigFile.ISuperIdConfiguration.TenantId
+  fullName: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.TenantId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Environment*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Environment
+  isExternal: true
+  name: Environment
+  nameWithType: ConfigFile.ISuperIdConfiguration.Environment
+  fullName: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration.Environment

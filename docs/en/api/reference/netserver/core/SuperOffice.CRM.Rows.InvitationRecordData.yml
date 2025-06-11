@@ -47,7 +47,7 @@ items:
   - SuperOffice.CRM.Rows.InvitationRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.InvitationRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.InvitationRecordData)
   - SuperOffice.CRM.Rows.InvitationRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.InvitationRecordData.SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.InvitationRecordData.SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.InvitationRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -611,34 +611,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.InvitationRecordData.SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InvitationRecordData)
+- uid: SuperOffice.CRM.Rows.InvitationRecordData.SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.InvitationRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.InvitationRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InvitationRecordData)
-  name: ToInsert()
-  nameWithType: InvitationRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.InvitationRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: InvitationRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: InvitationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: InvitationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: InvitationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: InvitationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -824,17 +834,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InvitationRecordData)
-  commentId: M:SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InvitationRecordData)
+- uid: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.InvitationRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.InvitationRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(InvitationRecordData)
-  nameWithType: InvitationRecordDataExtensions.ToInsert(InvitationRecordData)
-  fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InvitationRecordData)
+  name: ToInsertAsync(InvitationRecordData, CancellationToken)
+  nameWithType: InvitationRecordDataExtensions.ToInsertAsync(InvitationRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.InvitationRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InvitationRecordData)
-    name: ToInsert
-    nameWithType: InvitationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.InvitationRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: InvitationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -843,15 +853,23 @@ references:
     name: InvitationRecordData
     nameWithType: InvitationRecordData
     fullName: SuperOffice.CRM.Rows.InvitationRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InvitationRecordData)
-    name: ToInsert
-    nameWithType: InvitationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.InvitationRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: InvitationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.InvitationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -860,6 +878,14 @@ references:
     name: InvitationRecordData
     nameWithType: InvitationRecordData
     fullName: SuperOffice.CRM.Rows.InvitationRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

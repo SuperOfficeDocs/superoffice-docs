@@ -20,7 +20,7 @@ items:
   - SuperOffice.CRM.Globalization.SystemTags.CurrentDiaryOwnerID
   - SuperOffice.CRM.Globalization.SystemTags.CurrentTicketID
   - SuperOffice.CRM.Globalization.SystemTags.FunctionRights
-  - SuperOffice.CRM.Globalization.SystemTags.Id
+  - SuperOffice.CRM.Globalization.SystemTags.GetIdAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Globalization.SystemTags.IsAdmin
   - SuperOffice.CRM.Globalization.SystemTags.LanguageIso2Code
   - SuperOffice.CRM.Globalization.SystemTags.LanguageIsoCode
@@ -76,13 +76,13 @@ items:
   - SuperOffice.IO.TagContainer.AddData(System.Object[])
   - SuperOffice.IO.TagContainer.GetData
   - SuperOffice.IO.TagContainer.ClearData
-  - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.GetTags
   - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
-  - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  - SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  - SuperOffice.IO.TagContainer.Init
+  - SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.CurrentUiCulture
   - SuperOffice.IO.TagContainer.Data
   extensionMethods:
@@ -122,17 +122,17 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Globalization.SystemTags.Id
-  commentId: P:SuperOffice.CRM.Globalization.SystemTags.Id
-  id: Id
+- uid: SuperOffice.CRM.Globalization.SystemTags.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.SystemTags.GetIdAsync(System.Threading.CancellationToken)
+  id: GetIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Globalization.SystemTags
   langs:
   - csharp
   - vb
-  name: Id
-  nameWithType: SystemTags.Id
-  fullName: SuperOffice.CRM.Globalization.SystemTags.Id
-  type: Property
+  name: GetIdAsync(CancellationToken)
+  nameWithType: SystemTags.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.SystemTags.GetIdAsync(System.Threading.CancellationToken)
+  type: Method
   source:
     path: SoDataBase
     isExternal: true
@@ -140,21 +140,21 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
   syntax:
-    content: public override int Id { get; }
-    parameters: []
+    content: public override Task<int> GetIdAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Overrides ReadOnly Property Id As Integer
-  overridden: SuperOffice.IO.TagContainer.Id
-  overload: SuperOffice.CRM.Globalization.SystemTags.Id*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Overrides Function GetIdAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overridden: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Globalization.SystemTags.GetIdAsync*
   modifiers.csharp:
   - public
   - override
-  - get
   modifiers.vb:
   - Public
   - Overrides
-  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.TodaysDate
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.TodaysDate
   id: TodaysDate
@@ -2109,18 +2109,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
+- uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: GetValue(String)
-  nameWithType: TagContainer.GetValue(String)
-  fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
+  name: GetValueAsync(String, CancellationToken)
+  nameWithType: TagContainer.GetValueAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetValueAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-    name: GetValue
-    nameWithType: TagContainer.GetValue
-    fullName: SuperOffice.IO.TagContainer.GetValue
+  - uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+    name: GetValueAsync
+    nameWithType: TagContainer.GetValueAsync
+    fullName: SuperOffice.IO.TagContainer.GetValueAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2129,15 +2129,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-    name: GetValue
-    nameWithType: TagContainer.GetValue
-    fullName: SuperOffice.IO.TagContainer.GetValue
+  - uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+    name: GetValueAsync
+    nameWithType: TagContainer.GetValueAsync
+    fullName: SuperOffice.IO.TagContainer.GetValueAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2146,6 +2154,14 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -2279,18 +2295,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: IsTagLegal(String)
-  nameWithType: TagContainer.IsTagLegal(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  name: IsTagLegalAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagLegalAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-    name: IsTagLegal
-    nameWithType: TagContainer.IsTagLegal
-    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+  - uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagLegalAsync
+    nameWithType: TagContainer.IsTagLegalAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2299,15 +2315,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-    name: IsTagLegal
-    nameWithType: TagContainer.IsTagLegal
-    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+  - uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagLegalAsync
+    nameWithType: TagContainer.IsTagLegalAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2316,22 +2340,30 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: IsTagInContext(String)
-  nameWithType: TagContainer.IsTagInContext(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  name: IsTagInContextAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagInContextAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-    name: IsTagInContext
-    nameWithType: TagContainer.IsTagInContext
-    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+  - uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagInContextAsync
+    nameWithType: TagContainer.IsTagInContextAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2340,15 +2372,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-    name: IsTagInContext
-    nameWithType: TagContainer.IsTagInContext
-    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+  - uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagInContextAsync
+    nameWithType: TagContainer.IsTagInContextAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2358,37 +2398,55 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.Init
-  commentId: M:SuperOffice.IO.TagContainer.Init
+- uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: Init()
-  nameWithType: TagContainer.Init()
-  fullName: SuperOffice.IO.TagContainer.Init()
+  name: InitAsync(CancellationToken)
+  nameWithType: TagContainer.InitAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.Init
-    name: Init
-    nameWithType: TagContainer.Init
-    fullName: SuperOffice.IO.TagContainer.Init
+  - uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
+    nameWithType: TagContainer.InitAsync
+    fullName: SuperOffice.IO.TagContainer.InitAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.Init
-    name: Init
-    nameWithType: TagContainer.Init
-    fullName: SuperOffice.IO.TagContainer.Init
+  - uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
+    nameWithType: TagContainer.InitAsync
+    fullName: SuperOffice.IO.TagContainer.InitAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2596,19 +2654,139 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.IO.TagContainer.Id
-  commentId: P:SuperOffice.IO.TagContainer.Id
+- uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: Id
-  nameWithType: TagContainer.Id
-  fullName: SuperOffice.IO.TagContainer.Id
-- uid: SuperOffice.CRM.Globalization.SystemTags.Id*
-  commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.Id
+  name: GetIdAsync(CancellationToken)
+  nameWithType: TagContainer.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+    name: GetIdAsync
+    nameWithType: TagContainer.GetIdAsync
+    fullName: SuperOffice.IO.TagContainer.GetIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+    name: GetIdAsync
+    nameWithType: TagContainer.GetIdAsync
+    fullName: SuperOffice.IO.TagContainer.GetIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.SystemTags.GetIdAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.GetIdAsync
   isExternal: true
-  name: Id
-  nameWithType: SystemTags.Id
-  fullName: SuperOffice.CRM.Globalization.SystemTags.Id
+  name: GetIdAsync
+  nameWithType: SystemTags.GetIdAsync
+  fullName: SuperOffice.CRM.Globalization.SystemTags.GetIdAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Globalization.SystemTags.TodaysDate*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.TodaysDate
   isExternal: true

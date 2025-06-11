@@ -5,6 +5,7 @@ items:
   id: ConfigDataHelper
   parent: SuperOffice.ErpSync.ConnectorWS
   children:
+  - SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.#ctor(System.IServiceProvider)
   - SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.DeleteData(System.Guid)
   - SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.DeleteData(System.String)
   - SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetData``1(System.Collections.Generic.Dictionary{System.String,System.String})
@@ -29,19 +30,21 @@ items:
   summary: "\nClass that translates between name/value data dictionaries and strongly typed config data classes,\nas well as handling in-memory caching and on-disk persistence\n"
   remarks: "\nThis class operates on a &apos;parameter class&apos;, which generally looks something like this:\n<pre><code>public class DummyArguments\n{\n	[ConfigField(&quot;A String&quot;, CRM.FieldMetadataTypeInfo.Text, DisplayDescription = &quot;This is just a string&quot;)]\n	public string AString;\n\n	[ConfigField(&quot;A Date&quot;, CRM.FieldMetadataTypeInfo.Datetime, DisplayDescription = &quot;This is just a date picker&quot;)]\n	public DateTime ADate;\n\n	[ConfigField(&quot;A Password&quot;, CRM.FieldMetadataTypeInfo.Password, DisplayDescription = &quot;This is just a password&quot;)]\n	public string APassword;\n\n	[ConfigField(&quot;Mandatory Int&quot;, CRM.FieldMetadataTypeInfo.Integer, DisplayDescription = &quot;This is just a number&quot;, Access = CRM.FieldAccessInfo.Mandatory)]\n	public int MandatoryInt;\n\n	[ConfigField(&quot;A Checkbox&quot;, CRM.FieldMetadataTypeInfo.Checkbox, DisplayDescription = &quot;This is just an option&quot;)]\n	public int ACheckbox;\n}</code></pre>\nData is cached in an in-memory cache, and persisted to Isolated Storage files for later retrieval. In general,\nname-value dictionaries with data passed in must conform <strong>exactly</strong> to the parameter class definition.\n<p></p>\nPasswords are persisted in an encrypted manner.\n<p></p>\nConnection GUID to config mappings are persisted using <xref href=\"SuperOffice.ErpSync.ConnectorWS.IConfigDataStore\" data-throw-if-not-resolved=\"false\"></xref>. The default implementation writes in isolated storage per-user, per-assembly, per-domain. This means that changing the identity of the app-pool or moving to a \ndifferent machine will reset all connection config values. You can create your own implementation of <xref href=\"SuperOffice.ErpSync.ConnectorWS.IConfigDataStore\" data-throw-if-not-resolved=\"false\"></xref> to replace the isolated storage with something else if you want.\n"
   syntax:
-    content: 'public static class ConfigDataHelper : Object'
+    content: 'public class ConfigDataHelper : Object'
     content.vb: >-
-      Public Module ConfigDataHelper
+      Public Class ConfigDataHelper
           Inherits Object
   inheritance:
   - System.Object
+  extensionMethods:
+  - SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.EnumUtil.MapEnums``2
+  - SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - static
   - class
   modifiers.vb:
   - Public
-  - Module
+  - Class
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetMetaData``1
   commentId: M:SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetMetaData``1
   id: GetMetaData``1
@@ -78,6 +81,34 @@ items:
   - Shared
   fullName.vb: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetMetaData(Of ArgClass)()
   name.vb: GetMetaData(Of ArgClass)()
+- uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.#ctor(System.IServiceProvider)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.#ctor(System.IServiceProvider)
+  id: '#ctor(System.IServiceProvider)'
+  parent: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper
+  langs:
+  - csharp
+  - vb
+  name: ConfigDataHelper(IServiceProvider)
+  nameWithType: ConfigDataHelper.ConfigDataHelper(IServiceProvider)
+  fullName: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.ConfigDataHelper(System.IServiceProvider)
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  syntax:
+    content: public ConfigDataHelper(IServiceProvider serviceProvider)
+    parameters:
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(serviceProvider As IServiceProvider)
+  overload: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.DeleteData(System.Guid)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.DeleteData(System.Guid)
   id: DeleteData(System.Guid)
@@ -97,19 +128,17 @@ items:
   namespace: SuperOffice.ErpSync.ConnectorWS
   summary: "\nDelete persisted &amp; cached data for a given Guid\n"
   syntax:
-    content: public static void DeleteData(Guid key)
+    content: public void DeleteData(Guid key)
     parameters:
     - id: key
       type: System.Guid
       description: Unique key
-    content.vb: Public Shared Sub DeleteData(key As Guid)
+    content.vb: Public Sub DeleteData(key As Guid)
   overload: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.DeleteData*
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.DeleteData(System.String)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.DeleteData(System.String)
   id: DeleteData(System.String)
@@ -129,19 +158,17 @@ items:
   namespace: SuperOffice.ErpSync.ConnectorWS
   summary: "\nDelete persisted &amp; cached data for a given Guid\n"
   syntax:
-    content: public static void DeleteData(string key)
+    content: public void DeleteData(string key)
     parameters:
     - id: key
       type: System.String
       description: Unique key
-    content.vb: Public Shared Sub DeleteData(key As String)
+    content.vb: Public Sub DeleteData(key As String)
   overload: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.DeleteData*
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.SaveData``1(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
   commentId: M:SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.SaveData``1(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
   id: SaveData``1(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
@@ -162,7 +189,7 @@ items:
   summary: "\nSave (perrsistent &amp; cached stores) data for a given Guid\n"
   syntax:
     content: >-
-      public static void SaveData<ArgClass>(Guid key, Dictionary<string, string> data)
+      public void SaveData<ArgClass>(Guid key, Dictionary<string, string> data)
           where ArgClass : new()
     parameters:
     - id: key
@@ -174,15 +201,13 @@ items:
     typeParameters:
     - id: ArgClass
       description: The class that contains your parameters, tagged with <xref href="SuperOffice.ErpSync.ConnectorWS.ConfigFieldAttribute" data-throw-if-not-resolved="false"></xref> attributes
-    content.vb: Public Shared Sub SaveData(Of ArgClass As New)(key As Guid, data As Dictionary(Of String, String))
+    content.vb: Public Sub SaveData(Of ArgClass As New)(key As Guid, data As Dictionary(Of String, String))
   overload: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.SaveData*
   nameWithType.vb: ConfigDataHelper.SaveData(Of ArgClass)(Guid, Dictionary(Of String, String))
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
   fullName.vb: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.SaveData(Of ArgClass)(System.Guid, System.Collections.Generic.Dictionary(Of System.String, System.String))
   name.vb: SaveData(Of ArgClass)(Guid, Dictionary(Of String, String))
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.SaveData``1(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
@@ -205,7 +230,7 @@ items:
   summary: "\nSave (perrsistent &amp; cached stores) data for a given Guid\n"
   syntax:
     content: >-
-      public static void SaveData<ArgClass>(string key, Dictionary<string, string> data)
+      public void SaveData<ArgClass>(string key, Dictionary<string, string> data)
           where ArgClass : new()
     parameters:
     - id: key
@@ -217,15 +242,13 @@ items:
     typeParameters:
     - id: ArgClass
       description: The class that contains your parameters, tagged with <xref href="SuperOffice.ErpSync.ConnectorWS.ConfigFieldAttribute" data-throw-if-not-resolved="false"></xref> attributes
-    content.vb: Public Shared Sub SaveData(Of ArgClass As New)(key As String, data As Dictionary(Of String, String))
+    content.vb: Public Sub SaveData(Of ArgClass As New)(key As String, data As Dictionary(Of String, String))
   overload: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.SaveData*
   nameWithType.vb: ConfigDataHelper.SaveData(Of ArgClass)(String, Dictionary(Of String, String))
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
   fullName.vb: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.SaveData(Of ArgClass)(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
   name.vb: SaveData(Of ArgClass)(String, Dictionary(Of String, String))
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetData``1(System.Guid)
@@ -248,7 +271,7 @@ items:
   summary: "\nRetrieve data for a given key; from cache if possible, otherwise from persistent, isolated storage\n"
   syntax:
     content: >-
-      public static ArgClass GetData<ArgClass>(Guid key)
+      public ArgClass GetData<ArgClass>(Guid key)
           where ArgClass : new()
     parameters:
     - id: key
@@ -259,15 +282,13 @@ items:
       description: The class that contains your parameters, tagged with <xref href="SuperOffice.ErpSync.ConnectorWS.ConfigFieldAttribute" data-throw-if-not-resolved="false"></xref> attributes
     return:
       type: '{ArgClass}'
-    content.vb: Public Shared Function GetData(Of ArgClass As New)(key As Guid) As ArgClass
+    content.vb: Public Function GetData(Of ArgClass As New)(key As Guid) As ArgClass
   overload: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetData*
   nameWithType.vb: ConfigDataHelper.GetData(Of ArgClass)(Guid)
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
   fullName.vb: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetData(Of ArgClass)(System.Guid)
   name.vb: GetData(Of ArgClass)(Guid)
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetData``1(System.String)
@@ -290,7 +311,7 @@ items:
   summary: "\nRetrieve data for a given key; from cache if possible, otherwise from persistent, isolated storage\n"
   syntax:
     content: >-
-      public static ArgClass GetData<ArgClass>(string key)
+      public ArgClass GetData<ArgClass>(string key)
           where ArgClass : new()
     parameters:
     - id: key
@@ -301,15 +322,13 @@ items:
       description: The class that contains your parameters, tagged with <xref href="SuperOffice.ErpSync.ConnectorWS.ConfigFieldAttribute" data-throw-if-not-resolved="false"></xref> attributes
     return:
       type: '{ArgClass}'
-    content.vb: Public Shared Function GetData(Of ArgClass As New)(key As String) As ArgClass
+    content.vb: Public Function GetData(Of ArgClass As New)(key As String) As ArgClass
   overload: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetData*
   nameWithType.vb: ConfigDataHelper.GetData(Of ArgClass)(String)
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
   fullName.vb: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetData(Of ArgClass)(System.String)
   name.vb: GetData(Of ArgClass)(String)
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetData``1(System.Collections.Generic.Dictionary{System.String,System.String})
@@ -332,7 +351,7 @@ items:
   summary: "\nTranslate data for a given key; from wire format (dictionary of name/value) to strongly typed class.\nDictionary must match class <strong>exactly</strong>.\nThis is called when Testing newly created connections.\n"
   syntax:
     content: >-
-      public static ArgClass GetData<ArgClass>(Dictionary<string, string> wireFormat)
+      public ArgClass GetData<ArgClass>(Dictionary<string, string> wireFormat)
           where ArgClass : new()
     parameters:
     - id: wireFormat
@@ -343,15 +362,13 @@ items:
       description: The class that contains your parameters, tagged with <xref href="SuperOffice.ErpSync.ConnectorWS.ConfigFieldAttribute" data-throw-if-not-resolved="false"></xref> attributes
     return:
       type: '{ArgClass}'
-    content.vb: Public Shared Function GetData(Of ArgClass As New)(wireFormat As Dictionary(Of String, String)) As ArgClass
+    content.vb: Public Function GetData(Of ArgClass As New)(wireFormat As Dictionary(Of String, String)) As ArgClass
   overload: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetData*
   nameWithType.vb: ConfigDataHelper.GetData(Of ArgClass)(Dictionary(Of String, String))
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
   fullName.vb: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetData(Of ArgClass)(System.Collections.Generic.Dictionary(Of System.String, System.String))
   name.vb: GetData(Of ArgClass)(Dictionary(Of String, String))
 references:
@@ -368,12 +385,171 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigDataHelper, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigDataHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigDataHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper, To)()
+  name.vb: MapEnums(Of ConfigDataHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigDataHelper, To>
+    nameWithType: EnumUtil.MapEnums<ConfigDataHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigDataHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigDataHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigDataHelper, To>()
+  nameWithType: Converters.MapEnums<ConfigDataHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigDataHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper, To)()
+  name.vb: MapEnums(Of ConfigDataHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigDataHelper, To>
+    nameWithType: Converters.MapEnums<ConfigDataHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigDataHelper, To)
+    nameWithType: Converters.MapEnums(Of ConfigDataHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetMetaData*
   commentId: Overload:SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.GetMetaData
   isExternal: true
@@ -406,6 +582,17 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.#ctor
+  isExternal: true
+  name: ConfigDataHelper
+  nameWithType: ConfigDataHelper.ConfigDataHelper
+  fullName: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.ConfigDataHelper
+- uid: System.IServiceProvider
+  isExternal: true
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
 - uid: SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.DeleteData*
   commentId: Overload:SuperOffice.ErpSync.ConnectorWS.ConfigDataHelper.DeleteData
   isExternal: true

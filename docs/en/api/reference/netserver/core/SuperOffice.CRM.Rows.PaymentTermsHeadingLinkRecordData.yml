@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData)
   - SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData.SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData.SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData.SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData.SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData)
-  name: ToInsert()
-  nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(PaymentTermsHeadingLinkRecordData)
-  nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsert(PaymentTermsHeadingLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData)
+  name: ToInsertAsync(PaymentTermsHeadingLinkRecordData, CancellationToken)
+  nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(PaymentTermsHeadingLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData)
-    name: ToInsert
-    nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: PaymentTermsHeadingLinkRecordData
     nameWithType: PaymentTermsHeadingLinkRecordData
     fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData)
-    name: ToInsert
-    nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: PaymentTermsHeadingLinkRecordData
     nameWithType: PaymentTermsHeadingLinkRecordData
     fullName: SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

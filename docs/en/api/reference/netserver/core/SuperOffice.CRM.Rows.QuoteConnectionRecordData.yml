@@ -47,7 +47,7 @@ items:
   - SuperOffice.CRM.Rows.QuoteConnectionRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.QuoteConnectionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.QuoteConnectionRecordData)
   - SuperOffice.CRM.Rows.QuoteConnectionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.QuoteConnectionRecordData.SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.QuoteConnectionRecordData.SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.QuoteConnectionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -611,34 +611,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.QuoteConnectionRecordData.SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteConnectionRecordData)
+- uid: SuperOffice.CRM.Rows.QuoteConnectionRecordData.SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteConnectionRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteConnectionRecordData)
-  name: ToInsert()
-  nameWithType: QuoteConnectionRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteConnectionRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: QuoteConnectionRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: QuoteConnectionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuoteConnectionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: QuoteConnectionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuoteConnectionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -824,17 +834,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteConnectionRecordData)
-  commentId: M:SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteConnectionRecordData)
+- uid: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteConnectionRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteConnectionRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(QuoteConnectionRecordData)
-  nameWithType: QuoteConnectionRecordDataExtensions.ToInsert(QuoteConnectionRecordData)
-  fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteConnectionRecordData)
+  name: ToInsertAsync(QuoteConnectionRecordData, CancellationToken)
+  nameWithType: QuoteConnectionRecordDataExtensions.ToInsertAsync(QuoteConnectionRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteConnectionRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteConnectionRecordData)
-    name: ToInsert
-    nameWithType: QuoteConnectionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteConnectionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuoteConnectionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -843,15 +853,23 @@ references:
     name: QuoteConnectionRecordData
     nameWithType: QuoteConnectionRecordData
     fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteConnectionRecordData)
-    name: ToInsert
-    nameWithType: QuoteConnectionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteConnectionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: QuoteConnectionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -860,6 +878,14 @@ references:
     name: QuoteConnectionRecordData
     nameWithType: QuoteConnectionRecordData
     fullName: SuperOffice.CRM.Rows.QuoteConnectionRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

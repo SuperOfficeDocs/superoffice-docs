@@ -51,7 +51,8 @@ items:
   - SuperOffice.Data.Dialect.Dialect.DataReaderGetOrdinal(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.String)
   - SuperOffice.Data.Dialect.Dialect.DataReaderGetString(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
   - SuperOffice.Data.Dialect.Dialect.DataReaderGetValue(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
-  - SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
+  - SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull(SuperOffice.Data.SoDataReader,System.Data.Common.DbDataReader,System.Int32)
+  - SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNullAsync(SuperOffice.Data.SoDataReader,System.Data.Common.DbDataReader,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.Dialect.DateTime2TimeTLocal(System.DateTime)
   - SuperOffice.Data.Dialect.Dialect.DateTime2TimeTUtc(System.DateTime)
   - SuperOffice.Data.Dialect.Dialect.DateToVarchar(System.String)
@@ -181,9 +182,6 @@ items:
           Inherits Object
   inheritance:
   - System.Object
-  derivedClasses:
-  - SuperOffice.Data.Dialect.OracleCommon
-  - SuperOffice.Data.Dialect.SqlServerCommon
   extensionMethods:
   - SuperOffice.Data.Dialect.Dialect.EnumUtil.MapEnums``2
   - SuperOffice.Data.Dialect.Dialect.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -4810,16 +4808,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
-  commentId: M:SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
-  id: DataReaderIsDBNull(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
+- uid: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNullAsync(SuperOffice.Data.SoDataReader,System.Data.Common.DbDataReader,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNullAsync(SuperOffice.Data.SoDataReader,System.Data.Common.DbDataReader,System.Int32,System.Threading.CancellationToken)
+  id: DataReaderIsDBNullAsync(SuperOffice.Data.SoDataReader,System.Data.Common.DbDataReader,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.Dialect.Dialect
   langs:
   - csharp
   - vb
-  name: DataReaderIsDBNull(SoDataReader, IDataReader, Int32)
-  nameWithType: Dialect.DataReaderIsDBNull(SoDataReader, IDataReader, Int32)
-  fullName: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull(SuperOffice.Data.SoDataReader, System.Data.IDataReader, System.Int32)
+  name: DataReaderIsDBNullAsync(SoDataReader, DbDataReader, Int32, CancellationToken)
+  nameWithType: Dialect.DataReaderIsDBNullAsync(SoDataReader, DbDataReader, Int32, CancellationToken)
+  fullName: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNullAsync(SuperOffice.Data.SoDataReader, System.Data.Common.DbDataReader, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -4829,19 +4827,35 @@ items:
   namespace: SuperOffice.Data.Dialect
   summary: "\n\n"
   syntax:
-    content: public bool DataReaderIsDBNull(SoDataReader soReader, IDataReader innerReader, int i)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<bool> DataReaderIsDBNullAsync(SoDataReader soReader, DbDataReader innerReader, int i, CancellationToken cancellationToken = null)
     parameters:
     - id: soReader
       type: SuperOffice.Data.SoDataReader
       description: DataReader to read from.
     - id: innerReader
-      type: System.Data.IDataReader
+      type: System.Data.Common.DbDataReader
     - id: i
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function DataReaderIsDBNullAsync(soReader As SoDataReader, innerReader As DbDataReader, i As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNullAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
       type: System.Boolean
-    content.vb: Public Function DataReaderIsDBNull(soReader As SoDataReader, innerReader As IDataReader, i As Integer) As Boolean
-  overload: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull*
+      value: true
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -5052,6 +5066,42 @@ items:
   modifiers.vb:
   - Protected
   - Overridable
+- uid: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull(SuperOffice.Data.SoDataReader,System.Data.Common.DbDataReader,System.Int32)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull(SuperOffice.Data.SoDataReader,System.Data.Common.DbDataReader,System.Int32)
+  id: DataReaderIsDBNull(SuperOffice.Data.SoDataReader,System.Data.Common.DbDataReader,System.Int32)
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: DataReaderIsDBNull(SoDataReader, DbDataReader, Int32)
+  nameWithType: Dialect.DataReaderIsDBNull(SoDataReader, DbDataReader, Int32)
+  fullName: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull(SuperOffice.Data.SoDataReader, System.Data.Common.DbDataReader, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\n\n"
+  syntax:
+    content: public bool DataReaderIsDBNull(SoDataReader soReader, DbDataReader innerReader, int i)
+    parameters:
+    - id: soReader
+      type: SuperOffice.Data.SoDataReader
+      description: DataReader to read from.
+    - id: innerReader
+      type: System.Data.Common.DbDataReader
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function DataReaderIsDBNull(soReader As SoDataReader, innerReader As DbDataReader, i As Integer) As Boolean
+  overload: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dialect.Dialect.CaseSensitiveDatabase
   commentId: P:SuperOffice.Data.Dialect.Dialect.CaseSensitiveDatabase
   id: CaseSensitiveDatabase
@@ -7114,12 +7164,103 @@ references:
   name: DataReaderGetData
   nameWithType: Dialect.DataReaderGetData
   fullName: SuperOffice.Data.Dialect.Dialect.DataReaderGetData
-- uid: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull*
-  commentId: Overload:SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull
+- uid: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNullAsync*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNullAsync
   isExternal: true
-  name: DataReaderIsDBNull
-  nameWithType: Dialect.DataReaderIsDBNull
-  fullName: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull
+  name: DataReaderIsDBNullAsync
+  nameWithType: Dialect.DataReaderIsDBNullAsync
+  fullName: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNullAsync
+- uid: System.Data.Common.DbDataReader
+  isExternal: true
+  name: DbDataReader
+  nameWithType: DbDataReader
+  fullName: System.Data.Common.DbDataReader
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dialect.Dialect.IntToSingleWord*
   commentId: Overload:SuperOffice.Data.Dialect.Dialect.IntToSingleWord
   isExternal: true
@@ -7175,6 +7316,12 @@ references:
   name: SoTransaction
   nameWithType: SoTransaction
   fullName: SuperOffice.Data.SoTransaction
+- uid: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull
+  isExternal: true
+  name: DataReaderIsDBNull
+  nameWithType: Dialect.DataReaderIsDBNull
+  fullName: SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNull
 - uid: SuperOffice.Data.Dialect.Dialect.CaseSensitiveDatabase*
   commentId: Overload:SuperOffice.Data.Dialect.Dialect.CaseSensitiveDatabase
   isExternal: true

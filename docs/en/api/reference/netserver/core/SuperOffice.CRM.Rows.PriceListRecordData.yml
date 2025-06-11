@@ -47,7 +47,7 @@ items:
   - SuperOffice.CRM.Rows.PriceListRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.PriceListRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PriceListRecordData)
   - SuperOffice.CRM.Rows.PriceListRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.PriceListRecordData.SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PriceListRecordData.SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PriceListRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -611,34 +611,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PriceListRecordData.SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceListRecordData)
+- uid: SuperOffice.CRM.Rows.PriceListRecordData.SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceListRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PriceListRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceListRecordData)
-  name: ToInsert()
-  nameWithType: PriceListRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceListRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: PriceListRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PriceListRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PriceListRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PriceListRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PriceListRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -824,17 +834,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceListRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceListRecordData)
+- uid: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceListRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceListRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(PriceListRecordData)
-  nameWithType: PriceListRecordDataExtensions.ToInsert(PriceListRecordData)
-  fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceListRecordData)
+  name: ToInsertAsync(PriceListRecordData, CancellationToken)
+  nameWithType: PriceListRecordDataExtensions.ToInsertAsync(PriceListRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceListRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceListRecordData)
-    name: ToInsert
-    nameWithType: PriceListRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceListRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PriceListRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -843,15 +853,23 @@ references:
     name: PriceListRecordData
     nameWithType: PriceListRecordData
     fullName: SuperOffice.CRM.Rows.PriceListRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceListRecordData)
-    name: ToInsert
-    nameWithType: PriceListRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceListRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PriceListRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PriceListRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -860,6 +878,14 @@ references:
     name: PriceListRecordData
     nameWithType: PriceListRecordData
     fullName: SuperOffice.CRM.Rows.PriceListRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

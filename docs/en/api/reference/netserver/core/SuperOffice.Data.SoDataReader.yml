@@ -85,6 +85,9 @@ items:
   - SuperOffice.Data.SoDataReader.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.Data.SoDataReader.IsDBNull(System.Int32)
   - SuperOffice.Data.SoDataReader.IsDBNull(System.String)
+  - SuperOffice.Data.SoDataReader.IsDBNullAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoDataReader.IsDBNullAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoDataReader.IsDBNullAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.Data.SoDataReader.IsGhostField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.Data.SoDataReader.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.Data.SoDataReader.IsSentryIgnored
@@ -92,7 +95,9 @@ items:
   - SuperOffice.Data.SoDataReader.Item(System.Int32)
   - SuperOffice.Data.SoDataReader.Item(System.String)
   - SuperOffice.Data.SoDataReader.NextResult
+  - SuperOffice.Data.SoDataReader.NextResultAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SoDataReader.Read
+  - SuperOffice.Data.SoDataReader.ReadAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SoDataReader.Reader
   - SuperOffice.Data.SoDataReader.RecordsAffected
   - SuperOffice.Data.SoDataReader.Sentries
@@ -235,16 +240,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.SoDataReader.NextResult
-  commentId: M:SuperOffice.Data.SoDataReader.NextResult
-  id: NextResult
+- uid: SuperOffice.Data.SoDataReader.NextResultAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoDataReader.NextResultAsync(System.Threading.CancellationToken)
+  id: NextResultAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoDataReader
   langs:
   - csharp
   - vb
-  name: NextResult()
-  nameWithType: SoDataReader.NextResult()
-  fullName: SuperOffice.Data.SoDataReader.NextResult()
+  name: NextResultAsync(CancellationToken)
+  nameWithType: SoDataReader.NextResultAsync(CancellationToken)
+  fullName: SuperOffice.Data.SoDataReader.NextResultAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -254,26 +259,43 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdvances the data reader to the next result, when reading the results of batch SQL statements.\n"
   syntax:
-    content: public bool NextResult()
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<bool> NextResultAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: "\ntrue if there are more rows; otherwise, false.\n"
-    content.vb: Public Function NextResult As Boolean
-  overload: SuperOffice.Data.SoDataReader.NextResult*
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function NextResultAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.SoDataReader.NextResultAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.SoDataReader.Read
-  commentId: M:SuperOffice.Data.SoDataReader.Read
-  id: Read
+- uid: SuperOffice.Data.SoDataReader.ReadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoDataReader.ReadAsync(System.Threading.CancellationToken)
+  id: ReadAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoDataReader
   langs:
   - csharp
   - vb
-  name: Read()
-  nameWithType: SoDataReader.Read()
-  fullName: SuperOffice.Data.SoDataReader.Read()
+  name: ReadAsync(CancellationToken)
+  nameWithType: SoDataReader.ReadAsync(CancellationToken)
+  fullName: SuperOffice.Data.SoDataReader.ReadAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -283,12 +305,29 @@ items:
   namespace: SuperOffice.Data
   summary: "\nReads the first/next row of data into the reader, discarding the previous row.\nThe values are accessible through the GetXxx methods on the reader object.\n<p></p>\nIf the Select query has specified a nonzero DbRowsToSkip, this skipping will either be\ndone by database (but so far only Sybase 9 has support for that), or done in a tight loop\nhere.\n"
   syntax:
-    content: public bool Read()
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<bool> ReadAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True if the read succeeded. If there is no more data, returns false
-    content.vb: Public Function Read As Boolean
-  overload: SuperOffice.Data.SoDataReader.Read*
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ReadAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.SoDataReader.ReadAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2727,16 +2766,16 @@ items:
   - Public
   fullName.vb: SuperOffice.Data.SoDataReader.TryGetValue(SuperOffice.Data.SQL.FieldInfo, ByRef System.Boolean)
   name.vb: TryGetValue(FieldInfo, ByRef Boolean)
-- uid: SuperOffice.Data.SoDataReader.IsDBNull(System.Int32)
-  commentId: M:SuperOffice.Data.SoDataReader.IsDBNull(System.Int32)
-  id: IsDBNull(System.Int32)
+- uid: SuperOffice.Data.SoDataReader.IsDBNullAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoDataReader.IsDBNullAsync(System.Int32,System.Threading.CancellationToken)
+  id: IsDBNullAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoDataReader
   langs:
   - csharp
   - vb
-  name: IsDBNull(Int32)
-  nameWithType: SoDataReader.IsDBNull(Int32)
-  fullName: SuperOffice.Data.SoDataReader.IsDBNull(System.Int32)
+  name: IsDBNullAsync(Int32, CancellationToken)
+  nameWithType: SoDataReader.IsDBNullAsync(Int32, CancellationToken)
+  fullName: SuperOffice.Data.SoDataReader.IsDBNullAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -2747,30 +2786,46 @@ items:
   summary: "\nReturns TRUE if the database column contains a NULL value (i.e not 0 or empty string, but no value at all).\nNULL values are not convertible to any value. Attempting to read a NULL as an integer or string will trigger\nan exception.\n"
   remarks: "\nReturns TRUE if the column is hidden by a sentry.\n"
   syntax:
-    content: public bool IsDBNull(int i)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<bool> IsDBNullAsync(int i, CancellationToken cancellationToken = null)
     parameters:
     - id: i
       type: System.Int32
       description: 0-based column index.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: "\ntrue if the specified field is set to null. Otherwise, false.\n"
-    content.vb: Public Function IsDBNull(i As Integer) As Boolean
-  overload: SuperOffice.Data.SoDataReader.IsDBNull*
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function IsDBNullAsync(i As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.SoDataReader.IsDBNullAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.SoDataReader.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.Data.SoDataReader.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
-  id: IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SoDataReader.IsDBNullAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoDataReader.IsDBNullAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  id: IsDBNullAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoDataReader
   langs:
   - csharp
   - vb
-  name: IsDBNull(FieldInfo)
-  nameWithType: SoDataReader.IsDBNull(FieldInfo)
-  fullName: SuperOffice.Data.SoDataReader.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  name: IsDBNullAsync(FieldInfo, CancellationToken)
+  nameWithType: SoDataReader.IsDBNullAsync(FieldInfo, CancellationToken)
+  fullName: SuperOffice.Data.SoDataReader.IsDBNullAsync(SuperOffice.Data.SQL.FieldInfo, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -2781,32 +2836,46 @@ items:
   summary: "\nReturns TRUE if the database column contains a NULL value (i.e not 0 or empty string, but no value at all).\nNULL values are not convertible to any value. Attempting to read a NULL as an integer or string will trigger\nan exception.\n"
   remarks: "\nReturns TRUE if the column is hidden by a sentry.\n"
   syntax:
-    content: public bool IsDBNull(FieldInfo fieldInfo)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<bool> IsDBNullAsync(FieldInfo fieldInfo, CancellationToken cancellationToken = null)
     parameters:
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
       description: Column definition
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: "\n<code>true</code> if the specified field info is DB null, otherwise, <code>false</code>.\n"
-    content.vb: Public Function IsDBNull(fieldInfo As FieldInfo) As Boolean
-  overload: SuperOffice.Data.SoDataReader.IsDBNull*
-  implements:
-  - SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function IsDBNullAsync(fieldInfo As FieldInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.SoDataReader.IsDBNullAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.SoDataReader.IsDBNull(System.String)
-  commentId: M:SuperOffice.Data.SoDataReader.IsDBNull(System.String)
-  id: IsDBNull(System.String)
+- uid: SuperOffice.Data.SoDataReader.IsDBNullAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoDataReader.IsDBNullAsync(System.String,System.Threading.CancellationToken)
+  id: IsDBNullAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoDataReader
   langs:
   - csharp
   - vb
-  name: IsDBNull(String)
-  nameWithType: SoDataReader.IsDBNull(String)
-  fullName: SuperOffice.Data.SoDataReader.IsDBNull(System.String)
+  name: IsDBNullAsync(String, CancellationToken)
+  nameWithType: SoDataReader.IsDBNullAsync(String, CancellationToken)
+  fullName: SuperOffice.Data.SoDataReader.IsDBNullAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -2817,16 +2886,32 @@ items:
   summary: "\nReturns TRUE if the database column contains a NULL value (i.e not 0 or empty string, but no value at all).\nNULL values are not convertible to any value. Attempting to read a NULL as an integer or string will trigger\nan exception.\n"
   remarks: "\nReturns TRUE if the column is hidden by a sentry.\n"
   syntax:
-    content: public bool IsDBNull(string name)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<bool> IsDBNullAsync(string name, CancellationToken cancellationToken = null)
     parameters:
     - id: name
       type: System.String
       description: Column name
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: "\n<code>true</code> if the specified name is DB null, otherwise, <code>false</code>.\n"
-    content.vb: Public Function IsDBNull(name As String) As Boolean
-  overload: SuperOffice.Data.SoDataReader.IsDBNull*
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function IsDBNullAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.SoDataReader.IsDBNullAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -3119,6 +3204,168 @@ items:
     description: Thrown if Sentry is not ignored.
   implements:
   - SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoDataReader.NextResult
+  commentId: M:SuperOffice.Data.SoDataReader.NextResult
+  id: NextResult
+  parent: SuperOffice.Data.SoDataReader
+  langs:
+  - csharp
+  - vb
+  name: NextResult()
+  nameWithType: SoDataReader.NextResult()
+  fullName: SuperOffice.Data.SoDataReader.NextResult()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAdvances the data reader to the next result, when reading the results of batch SQL statements.\n"
+  syntax:
+    content: public bool NextResult()
+    return:
+      type: System.Boolean
+      description: "\ntrue if there are more rows; otherwise, false.\n"
+    content.vb: Public Function NextResult As Boolean
+  overload: SuperOffice.Data.SoDataReader.NextResult*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoDataReader.Read
+  commentId: M:SuperOffice.Data.SoDataReader.Read
+  id: Read
+  parent: SuperOffice.Data.SoDataReader
+  langs:
+  - csharp
+  - vb
+  name: Read()
+  nameWithType: SoDataReader.Read()
+  fullName: SuperOffice.Data.SoDataReader.Read()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReads the first/next row of data into the reader, discarding the previous row.\nThe values are accessible through the GetXxx methods on the reader object.\n<p></p>\nIf the Select query has specified a nonzero DbRowsToSkip, this skipping will either be\ndone by database (but so far only Sybase 9 has support for that), or done in a tight loop\nhere.\n"
+  syntax:
+    content: public bool Read()
+    return:
+      type: System.Boolean
+      description: True if the read succeeded. If there is no more data, returns false
+    content.vb: Public Function Read As Boolean
+  overload: SuperOffice.Data.SoDataReader.Read*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoDataReader.IsDBNull(System.Int32)
+  commentId: M:SuperOffice.Data.SoDataReader.IsDBNull(System.Int32)
+  id: IsDBNull(System.Int32)
+  parent: SuperOffice.Data.SoDataReader
+  langs:
+  - csharp
+  - vb
+  name: IsDBNull(Int32)
+  nameWithType: SoDataReader.IsDBNull(Int32)
+  fullName: SuperOffice.Data.SoDataReader.IsDBNull(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns TRUE if the database column contains a NULL value (i.e not 0 or empty string, but no value at all).\nNULL values are not convertible to any value. Attempting to read a NULL as an integer or string will trigger\nan exception.\n"
+  remarks: "\nReturns TRUE if the column is hidden by a sentry.\n"
+  syntax:
+    content: public bool IsDBNull(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+      description: 0-based column index.
+    return:
+      type: System.Boolean
+      description: "\ntrue if the specified field is set to null. Otherwise, false.\n"
+    content.vb: Public Function IsDBNull(i As Integer) As Boolean
+  overload: SuperOffice.Data.SoDataReader.IsDBNull*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoDataReader.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SoDataReader.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  id: IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SoDataReader
+  langs:
+  - csharp
+  - vb
+  name: IsDBNull(FieldInfo)
+  nameWithType: SoDataReader.IsDBNull(FieldInfo)
+  fullName: SuperOffice.Data.SoDataReader.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns TRUE if the database column contains a NULL value (i.e not 0 or empty string, but no value at all).\nNULL values are not convertible to any value. Attempting to read a NULL as an integer or string will trigger\nan exception.\n"
+  remarks: "\nReturns TRUE if the column is hidden by a sentry.\n"
+  syntax:
+    content: public bool IsDBNull(FieldInfo fieldInfo)
+    parameters:
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: Column definition
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if the specified field info is DB null, otherwise, <code>false</code>.\n"
+    content.vb: Public Function IsDBNull(fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.Data.SoDataReader.IsDBNull*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoDataReader.IsDBNull(System.String)
+  commentId: M:SuperOffice.Data.SoDataReader.IsDBNull(System.String)
+  id: IsDBNull(System.String)
+  parent: SuperOffice.Data.SoDataReader
+  langs:
+  - csharp
+  - vb
+  name: IsDBNull(String)
+  nameWithType: SoDataReader.IsDBNull(String)
+  fullName: SuperOffice.Data.SoDataReader.IsDBNull(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns TRUE if the database column contains a NULL value (i.e not 0 or empty string, but no value at all).\nNULL values are not convertible to any value. Attempting to read a NULL as an integer or string will trigger\nan exception.\n"
+  remarks: "\nReturns TRUE if the column is hidden by a sentry.\n"
+  syntax:
+    content: public bool IsDBNull(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Column name
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if the specified name is DB null, otherwise, <code>false</code>.\n"
+    content.vb: Public Function IsDBNull(name As String) As Boolean
+  overload: SuperOffice.Data.SoDataReader.IsDBNull*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -3928,25 +4175,104 @@ references:
   name: Close
   nameWithType: SoDataReader.Close
   fullName: SuperOffice.Data.SoDataReader.Close
-- uid: SuperOffice.Data.SoDataReader.NextResult*
-  commentId: Overload:SuperOffice.Data.SoDataReader.NextResult
+- uid: SuperOffice.Data.SoDataReader.NextResultAsync*
+  commentId: Overload:SuperOffice.Data.SoDataReader.NextResultAsync
   isExternal: true
-  name: NextResult
-  nameWithType: SoDataReader.NextResult
-  fullName: SuperOffice.Data.SoDataReader.NextResult
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+  name: NextResultAsync
+  nameWithType: SoDataReader.NextResultAsync
+  fullName: SuperOffice.Data.SoDataReader.NextResultAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.Data.SoDataReader.Read*
-  commentId: Overload:SuperOffice.Data.SoDataReader.Read
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: Read
-  nameWithType: SoDataReader.Read
-  fullName: SuperOffice.Data.SoDataReader.Read
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoDataReader.ReadAsync*
+  commentId: Overload:SuperOffice.Data.SoDataReader.ReadAsync
+  isExternal: true
+  name: ReadAsync
+  nameWithType: SoDataReader.ReadAsync
+  fullName: SuperOffice.Data.SoDataReader.ReadAsync
 - uid: SuperOffice.Data.SoDataReader.GetSchemaTable*
   commentId: Overload:SuperOffice.Data.SoDataReader.GetSchemaTable
   isExternal: true
@@ -4275,6 +4601,13 @@ references:
   name: GetBoolean
   nameWithType: SoDataReader.GetBoolean
   fullName: SuperOffice.Data.SoDataReader.GetBoolean
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
   parent: SuperOffice.Data.ISoDataRecord
@@ -5080,53 +5413,12 @@ references:
   name: TryGetValue
   nameWithType: SoDataReader.TryGetValue
   fullName: SuperOffice.Data.SoDataReader.TryGetValue
-- uid: SuperOffice.Data.SoDataReader.IsDBNull*
-  commentId: Overload:SuperOffice.Data.SoDataReader.IsDBNull
+- uid: SuperOffice.Data.SoDataReader.IsDBNullAsync*
+  commentId: Overload:SuperOffice.Data.SoDataReader.IsDBNullAsync
   isExternal: true
-  name: IsDBNull
-  nameWithType: SoDataReader.IsDBNull
-  fullName: SuperOffice.Data.SoDataReader.IsDBNull
-- uid: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
-  parent: SuperOffice.Data.ISoDataRecord
-  isExternal: true
-  name: IsDBNull(FieldInfo)
-  nameWithType: ISoDataRecord.IsDBNull(FieldInfo)
-  fullName: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
-    name: IsDBNull
-    nameWithType: ISoDataRecord.IsDBNull
-    fullName: SuperOffice.Data.ISoDataRecord.IsDBNull
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SQL.FieldInfo
-    name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
-    name: IsDBNull
-    nameWithType: ISoDataRecord.IsDBNull
-    fullName: SuperOffice.Data.ISoDataRecord.IsDBNull
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SQL.FieldInfo
-    name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: IsDBNullAsync
+  nameWithType: SoDataReader.IsDBNullAsync
+  fullName: SuperOffice.Data.SoDataReader.IsDBNullAsync
 - uid: SuperOffice.Data.SoDataReader.Dispose*
   commentId: Overload:SuperOffice.Data.SoDataReader.Dispose
   isExternal: true
@@ -5539,6 +5831,65 @@ references:
   name: SuperOffice.Exceptions
   nameWithType: SuperOffice.Exceptions
   fullName: SuperOffice.Exceptions
+- uid: SuperOffice.Data.SoDataReader.NextResult*
+  commentId: Overload:SuperOffice.Data.SoDataReader.NextResult
+  isExternal: true
+  name: NextResult
+  nameWithType: SoDataReader.NextResult
+  fullName: SuperOffice.Data.SoDataReader.NextResult
+- uid: SuperOffice.Data.SoDataReader.Read*
+  commentId: Overload:SuperOffice.Data.SoDataReader.Read
+  isExternal: true
+  name: Read
+  nameWithType: SoDataReader.Read
+  fullName: SuperOffice.Data.SoDataReader.Read
+- uid: SuperOffice.Data.SoDataReader.IsDBNull*
+  commentId: Overload:SuperOffice.Data.SoDataReader.IsDBNull
+  isExternal: true
+  name: IsDBNull
+  nameWithType: SoDataReader.IsDBNull
+  fullName: SuperOffice.Data.SoDataReader.IsDBNull
+- uid: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: IsDBNull(FieldInfo)
+  nameWithType: ISoDataRecord.IsDBNull(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+    name: IsDBNull
+    nameWithType: ISoDataRecord.IsDBNull
+    fullName: SuperOffice.Data.ISoDataRecord.IsDBNull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+    name: IsDBNull
+    nameWithType: ISoDataRecord.IsDBNull
+    fullName: SuperOffice.Data.ISoDataRecord.IsDBNull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SoDataReader.IsAutoClose*
   commentId: Overload:SuperOffice.Data.SoDataReader.IsAutoClose
   isExternal: true

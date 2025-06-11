@@ -37,7 +37,7 @@ items:
   - SuperOffice.CRM.Rows.EabFolderRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.EabFolderRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EabFolderRecordData)
   - SuperOffice.CRM.Rows.EabFolderRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.EabFolderRecordData.SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.EabFolderRecordData.SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EabFolderRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -331,34 +331,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EabFolderRecordData.SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
+- uid: SuperOffice.CRM.Rows.EabFolderRecordData.SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
-  name: ToInsert()
-  nameWithType: EabFolderRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: EabFolderRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: EabFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EabFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: EabFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EabFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -544,17 +554,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
-  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
+- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(EabFolderRecordData)
-  nameWithType: EabFolderRecordDataExtensions.ToInsert(EabFolderRecordData)
-  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
+  name: ToInsertAsync(EabFolderRecordData, CancellationToken)
+  nameWithType: EabFolderRecordDataExtensions.ToInsertAsync(EabFolderRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
-    name: ToInsert
-    nameWithType: EabFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EabFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -563,15 +573,23 @@ references:
     name: EabFolderRecordData
     nameWithType: EabFolderRecordData
     fullName: SuperOffice.CRM.Rows.EabFolderRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
-    name: ToInsert
-    nameWithType: EabFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EabFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -580,6 +598,14 @@ references:
     name: EabFolderRecordData
     nameWithType: EabFolderRecordData
     fullName: SuperOffice.CRM.Rows.EabFolderRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

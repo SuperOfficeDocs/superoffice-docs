@@ -8,6 +8,7 @@ items:
   - SuperOffice.WebApi.PartnerAppRequestInfo.#ctor
   - SuperOffice.WebApi.PartnerAppRequestInfo.ClientId
   - SuperOffice.WebApi.PartnerAppRequestInfo.ClientName
+  - SuperOffice.WebApi.PartnerAppRequestInfo.ClientSecret
   - SuperOffice.WebApi.PartnerAppRequestInfo.DeveloperPortalId
   - SuperOffice.WebApi.PartnerAppRequestInfo.ExcludeFromInvoice
   - SuperOffice.WebApi.PartnerAppRequestInfo.IsCustomCRMScript
@@ -160,6 +161,37 @@ items:
       type: System.String
     content.vb: Public Property ClientId As String
   overload: SuperOffice.WebApi.PartnerAppRequestInfo.ClientId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.PartnerAppRequestInfo.ClientSecret
+  commentId: P:SuperOffice.WebApi.PartnerAppRequestInfo.ClientSecret
+  id: ClientSecret
+  parent: SuperOffice.WebApi.PartnerAppRequestInfo
+  langs:
+  - csharp
+  - vb
+  name: ClientSecret
+  nameWithType: PartnerAppRequestInfo.ClientSecret
+  fullName: SuperOffice.WebApi.PartnerAppRequestInfo.ClientSecret
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  summary: "\nFormerly also reffered to as ApplicationToken.  Used in WebHook configuration.\n"
+  syntax:
+    content: public string ClientSecret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClientSecret As String
+  overload: SuperOffice.WebApi.PartnerAppRequestInfo.ClientSecret*
   modifiers.csharp:
   - public
   - get
@@ -787,6 +819,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.WebApi.PartnerAppRequestInfo.ClientSecret*
+  commentId: Overload:SuperOffice.WebApi.PartnerAppRequestInfo.ClientSecret
+  isExternal: true
+  name: ClientSecret
+  nameWithType: PartnerAppRequestInfo.ClientSecret
+  fullName: SuperOffice.WebApi.PartnerAppRequestInfo.ClientSecret
 - uid: SuperOffice.WebApi.PartnerAppRequestInfo.ClientName*
   commentId: Overload:SuperOffice.WebApi.PartnerAppRequestInfo.ClientName
   isExternal: true

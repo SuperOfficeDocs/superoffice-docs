@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.InjectionHelper
+  commentId: T:SuperOffice.Util.InjectionHelper
+  id: InjectionHelper
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.InjectionHelper.ThrowIfInvalidForDatabaseScoped(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: InjectionHelper
+  nameWithType: InjectionHelper
+  fullName: SuperOffice.Util.InjectionHelper
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: 'public static class InjectionHelper : Object'
+    content.vb: >-
+      Public Module InjectionHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.InjectionHelper.ThrowIfInvalidForDatabaseScoped(System.Type)
+  commentId: M:SuperOffice.Util.InjectionHelper.ThrowIfInvalidForDatabaseScoped(System.Type)
+  id: ThrowIfInvalidForDatabaseScoped(System.Type)
+  parent: SuperOffice.Util.InjectionHelper
+  langs:
+  - csharp
+  - vb
+  name: ThrowIfInvalidForDatabaseScoped(Type)
+  nameWithType: InjectionHelper.ThrowIfInvalidForDatabaseScoped(Type)
+  fullName: SuperOffice.Util.InjectionHelper.ThrowIfInvalidForDatabaseScoped(System.Type)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nThrows an exception if any conditions for DatabaseScoped service are not met\n"
+  syntax:
+    content: public static void ThrowIfInvalidForDatabaseScoped(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    content.vb: Public Shared Sub ThrowIfInvalidForDatabaseScoped(type As Type)
+  overload: SuperOffice.Util.InjectionHelper.ThrowIfInvalidForDatabaseScoped*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.InjectionHelper.ThrowIfInvalidForDatabaseScoped*
+  commentId: Overload:SuperOffice.Util.InjectionHelper.ThrowIfInvalidForDatabaseScoped
+  isExternal: true
+  name: ThrowIfInvalidForDatabaseScoped
+  nameWithType: InjectionHelper.ThrowIfInvalidForDatabaseScoped
+  fullName: SuperOffice.Util.InjectionHelper.ThrowIfInvalidForDatabaseScoped
+- uid: System.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Type
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

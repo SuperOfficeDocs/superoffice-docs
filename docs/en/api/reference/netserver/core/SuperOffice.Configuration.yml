@@ -24,12 +24,60 @@ items:
   - SuperOffice.Configuration.ConfigFile.FeatureToggles
   - SuperOffice.Configuration.ConfigFile.Globalization
   - SuperOffice.Configuration.ConfigFile.GoogleRecaptcha
+  - SuperOffice.Configuration.ConfigFile.IAccessGatewayConfiguration
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  - SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  - SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  - SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  - SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  - SuperOffice.Configuration.ConfigFile.ICustomProxyConfiguration
+  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  - SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration
+  - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  - SuperOffice.Configuration.ConfigFile.IDownloadsConfiguration
+  - SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+  - SuperOffice.Configuration.ConfigFile.IFeatureTogglesConfiguration
+  - SuperOffice.Configuration.ConfigFile.IGlobalizationConfiguration
+  - SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
+  - SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+  - SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration
+  - SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
   - SuperOffice.Configuration.ConfigFile.Infrastructure
   - SuperOffice.Configuration.ConfigFile.IntellisyncConnector
+  - SuperOffice.Configuration.ConfigFile.IOidcLoginConfiguration
+  - SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  - SuperOffice.Configuration.ConfigFile.IPocketConfiguration
+  - SuperOffice.Configuration.ConfigFile.IReporterConfiguration
+  - SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISecuritySoPasswordCredentialPluginConfiguration
+  - SuperOffice.Configuration.ConfigFile.IServicesConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISmtpConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISoFormsAuthenticationConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISoJavaScriptConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISubClientsConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISuspendedSiteConfiguration
+  - SuperOffice.Configuration.ConfigFile.ISyncConfiguration
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  - SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
+  - SuperOffice.Configuration.ConfigFile.ITimeZoneConfiguration
+  - SuperOffice.Configuration.ConfigFile.IWebApiConfiguration
+  - SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  - SuperOffice.Configuration.ConfigFile.IWebServicesConfiguration
   - SuperOffice.Configuration.ConfigFile.Mail
   - SuperOffice.Configuration.ConfigFile.Mail.Component
   - SuperOffice.Configuration.ConfigFile.Messaging
   - SuperOffice.Configuration.ConfigFile.OidcLogin
+  - SuperOffice.Configuration.ConfigFile.Online
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment
   - SuperOffice.Configuration.ConfigFile.Pocket
   - SuperOffice.Configuration.ConfigFile.Reporter
   - SuperOffice.Configuration.ConfigFile.Scripting
@@ -46,13 +94,13 @@ items:
   - SuperOffice.Configuration.ConfigFile.SuperId
   - SuperOffice.Configuration.ConfigFile.SuspendedSite
   - SuperOffice.Configuration.ConfigFile.Sync
+  - SuperOffice.Configuration.ConfigFile.TelemetryRoleName
   - SuperOffice.Configuration.ConfigFile.TestEnvironment
   - SuperOffice.Configuration.ConfigFile.Threading
   - SuperOffice.Configuration.ConfigFile.TimeZone
   - SuperOffice.Configuration.ConfigFile.WebApi
   - SuperOffice.Configuration.ConfigFile.Webhooks
   - SuperOffice.Configuration.ConfigFile.WebServices
-  - SuperOffice.Configuration.Configuration
   - SuperOffice.Configuration.VersionProperties
   - SuperOffice.Configuration.VersionPropertyNames
   langs:
@@ -71,12 +119,31 @@ references:
   name: ConfigFile
   nameWithType: ConfigFile
   fullName: SuperOffice.Configuration.ConfigFile
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IClientConfiguration
+  isExternal: true
+  name: ConfigFile.IClientConfiguration
+  nameWithType: ConfigFile.IClientConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IAccessGatewayConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IAccessGatewayConfiguration
+  isExternal: true
+  name: ConfigFile.IAccessGatewayConfiguration
+  nameWithType: ConfigFile.IAccessGatewayConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IAccessGatewayConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.AccessGateway
   commentId: T:SuperOffice.Configuration.ConfigFile.AccessGateway
   isExternal: true
   name: ConfigFile.AccessGateway
   nameWithType: ConfigFile.AccessGateway
   fullName: SuperOffice.Configuration.ConfigFile.AccessGateway
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: ConfigFile.IBatchServiceConfiguration
+  nameWithType: ConfigFile.IBatchServiceConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.BatchService
   commentId: T:SuperOffice.Configuration.ConfigFile.BatchService
   isExternal: true
@@ -89,36 +156,72 @@ references:
   name: ConfigFile.Client
   nameWithType: ConfigFile.Client
   fullName: SuperOffice.Configuration.ConfigFile.Client
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  isExternal: true
+  name: ConfigFile.IClientConfigurationProviderConfiguration
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider
   commentId: T:SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider
   isExternal: true
   name: ConfigFile.ClientConfigurationProvider
   nameWithType: ConfigFile.ClientConfigurationProvider
   fullName: SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider
+- uid: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ICloudConfiguration
+  isExternal: true
+  name: ConfigFile.ICloudConfiguration
+  nameWithType: ConfigFile.ICloudConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ICloudConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Cloud
   commentId: T:SuperOffice.Configuration.ConfigFile.Cloud
   isExternal: true
   name: ConfigFile.Cloud
   nameWithType: ConfigFile.Cloud
   fullName: SuperOffice.Configuration.ConfigFile.Cloud
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  isExternal: true
+  name: ConfigFile.ICssSpriteConfiguration
+  nameWithType: ConfigFile.ICssSpriteConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.CssSprite
   commentId: T:SuperOffice.Configuration.ConfigFile.CssSprite
   isExternal: true
   name: ConfigFile.CssSprite
   nameWithType: ConfigFile.CssSprite
   fullName: SuperOffice.Configuration.ConfigFile.CssSprite
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  isExternal: true
+  name: ConfigFile.ICustomerServiceConfiguration
+  nameWithType: ConfigFile.ICustomerServiceConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.CustomerService
   commentId: T:SuperOffice.Configuration.ConfigFile.CustomerService
   isExternal: true
   name: ConfigFile.CustomerService
   nameWithType: ConfigFile.CustomerService
   fullName: SuperOffice.Configuration.ConfigFile.CustomerService
+- uid: SuperOffice.Configuration.ConfigFile.ICustomProxyConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ICustomProxyConfiguration
+  isExternal: true
+  name: ConfigFile.ICustomProxyConfiguration
+  nameWithType: ConfigFile.ICustomProxyConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomProxyConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.CustomProxy
   commentId: T:SuperOffice.Configuration.ConfigFile.CustomProxy
   isExternal: true
   name: ConfigFile.CustomProxy
   nameWithType: ConfigFile.CustomProxy
   fullName: SuperOffice.Configuration.ConfigFile.CustomProxy
+- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
+  isExternal: true
+  name: ConfigFile.IDataDatabaseConfiguration
+  nameWithType: ConfigFile.IDataDatabaseConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Data
   commentId: T:SuperOffice.Configuration.ConfigFile.Data
   isExternal: true
@@ -143,60 +246,132 @@ references:
   name: ConfigFile.Data.Session
   nameWithType: ConfigFile.Data.Session
   fullName: SuperOffice.Configuration.ConfigFile.Data.Session
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  isExternal: true
+  name: ConfigFile.IDataExplicitConfiguration
+  nameWithType: ConfigFile.IDataExplicitConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration
+  isExternal: true
+  name: ConfigFile.IDataSessionConfiguration
+  nameWithType: ConfigFile.IDataSessionConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
+  isExternal: true
+  name: ConfigFile.IDiagnosticsConfiguration
+  nameWithType: ConfigFile.IDiagnosticsConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Diagnostics
   commentId: T:SuperOffice.Configuration.ConfigFile.Diagnostics
   isExternal: true
   name: ConfigFile.Diagnostics
   nameWithType: ConfigFile.Diagnostics
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics
+- uid: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
+  isExternal: true
+  name: ConfigFile.IDocumentsConfiguration
+  nameWithType: ConfigFile.IDocumentsConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Documents
   commentId: T:SuperOffice.Configuration.ConfigFile.Documents
   isExternal: true
   name: ConfigFile.Documents
   nameWithType: ConfigFile.Documents
   fullName: SuperOffice.Configuration.ConfigFile.Documents
+- uid: SuperOffice.Configuration.ConfigFile.IDownloadsConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IDownloadsConfiguration
+  isExternal: true
+  name: ConfigFile.IDownloadsConfiguration
+  nameWithType: ConfigFile.IDownloadsConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IDownloadsConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Downloads
   commentId: T:SuperOffice.Configuration.ConfigFile.Downloads
   isExternal: true
   name: ConfigFile.Downloads
   nameWithType: ConfigFile.Downloads
   fullName: SuperOffice.Configuration.ConfigFile.Downloads
+- uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+  isExternal: true
+  name: ConfigFile.IFactoryConfiguration
+  nameWithType: ConfigFile.IFactoryConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Factory
   commentId: T:SuperOffice.Configuration.ConfigFile.Factory
   isExternal: true
   name: ConfigFile.Factory
   nameWithType: ConfigFile.Factory
   fullName: SuperOffice.Configuration.ConfigFile.Factory
+- uid: SuperOffice.Configuration.ConfigFile.IFeatureTogglesConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IFeatureTogglesConfiguration
+  isExternal: true
+  name: ConfigFile.IFeatureTogglesConfiguration
+  nameWithType: ConfigFile.IFeatureTogglesConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IFeatureTogglesConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.FeatureToggles
   commentId: T:SuperOffice.Configuration.ConfigFile.FeatureToggles
   isExternal: true
   name: ConfigFile.FeatureToggles
   nameWithType: ConfigFile.FeatureToggles
   fullName: SuperOffice.Configuration.ConfigFile.FeatureToggles
+- uid: SuperOffice.Configuration.ConfigFile.IGlobalizationConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IGlobalizationConfiguration
+  isExternal: true
+  name: ConfigFile.IGlobalizationConfiguration
+  nameWithType: ConfigFile.IGlobalizationConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IGlobalizationConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Globalization
   commentId: T:SuperOffice.Configuration.ConfigFile.Globalization
   isExternal: true
   name: ConfigFile.Globalization
   nameWithType: ConfigFile.Globalization
   fullName: SuperOffice.Configuration.ConfigFile.Globalization
+- uid: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
+  isExternal: true
+  name: ConfigFile.IGoogleRecaptchaConfiguration
+  nameWithType: ConfigFile.IGoogleRecaptchaConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.GoogleRecaptcha
   commentId: T:SuperOffice.Configuration.ConfigFile.GoogleRecaptcha
   isExternal: true
   name: ConfigFile.GoogleRecaptcha
   nameWithType: ConfigFile.GoogleRecaptcha
   fullName: SuperOffice.Configuration.ConfigFile.GoogleRecaptcha
+- uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
+  isExternal: true
+  name: ConfigFile.IInfrastructureConfiguration
+  nameWithType: ConfigFile.IInfrastructureConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Infrastructure
   commentId: T:SuperOffice.Configuration.ConfigFile.Infrastructure
   isExternal: true
   name: ConfigFile.Infrastructure
   nameWithType: ConfigFile.Infrastructure
   fullName: SuperOffice.Configuration.ConfigFile.Infrastructure
+- uid: SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration
+  isExternal: true
+  name: ConfigFile.IIntellisyncConnectorConfiguration
+  nameWithType: ConfigFile.IIntellisyncConnectorConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
   commentId: T:SuperOffice.Configuration.ConfigFile.IntellisyncConnector
   isExternal: true
   name: ConfigFile.IntellisyncConnector
   nameWithType: ConfigFile.IntellisyncConnector
   fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
+- uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+  isExternal: true
+  name: ConfigFile.IMailComponentConfiguration
+  nameWithType: ConfigFile.IMailComponentConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Mail
   commentId: T:SuperOffice.Configuration.ConfigFile.Mail
   isExternal: true
@@ -209,36 +384,90 @@ references:
   name: ConfigFile.Mail.Component
   nameWithType: ConfigFile.Mail.Component
   fullName: SuperOffice.Configuration.ConfigFile.Mail.Component
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  isExternal: true
+  name: ConfigFile.IMessagingConfiguration
+  nameWithType: ConfigFile.IMessagingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Messaging
   commentId: T:SuperOffice.Configuration.ConfigFile.Messaging
   isExternal: true
   name: ConfigFile.Messaging
   nameWithType: ConfigFile.Messaging
   fullName: SuperOffice.Configuration.ConfigFile.Messaging
+- uid: SuperOffice.Configuration.ConfigFile.IOidcLoginConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IOidcLoginConfiguration
+  isExternal: true
+  name: ConfigFile.IOidcLoginConfiguration
+  nameWithType: ConfigFile.IOidcLoginConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOidcLoginConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.OidcLogin
   commentId: T:SuperOffice.Configuration.ConfigFile.OidcLogin
   isExternal: true
   name: ConfigFile.OidcLogin
   nameWithType: ConfigFile.OidcLogin
   fullName: SuperOffice.Configuration.ConfigFile.OidcLogin
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: ConfigFile.IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  isExternal: true
+  name: ConfigFile.OnlineConfiguration
+  nameWithType: ConfigFile.OnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.Online
+  commentId: T:SuperOffice.Configuration.ConfigFile.Online
+  isExternal: true
+  name: ConfigFile.Online
+  nameWithType: ConfigFile.Online
+  fullName: SuperOffice.Configuration.ConfigFile.Online
+- uid: SuperOffice.Configuration.ConfigFile.IPocketConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IPocketConfiguration
+  isExternal: true
+  name: ConfigFile.IPocketConfiguration
+  nameWithType: ConfigFile.IPocketConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IPocketConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Pocket
   commentId: T:SuperOffice.Configuration.ConfigFile.Pocket
   isExternal: true
   name: ConfigFile.Pocket
   nameWithType: ConfigFile.Pocket
   fullName: SuperOffice.Configuration.ConfigFile.Pocket
+- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IReporterConfiguration
+  isExternal: true
+  name: ConfigFile.IReporterConfiguration
+  nameWithType: ConfigFile.IReporterConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Reporter
   commentId: T:SuperOffice.Configuration.ConfigFile.Reporter
   isExternal: true
   name: ConfigFile.Reporter
   nameWithType: ConfigFile.Reporter
   fullName: SuperOffice.Configuration.ConfigFile.Reporter
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: ConfigFile.IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Scripting
   commentId: T:SuperOffice.Configuration.ConfigFile.Scripting
   isExternal: true
   name: ConfigFile.Scripting
   nameWithType: ConfigFile.Scripting
   fullName: SuperOffice.Configuration.ConfigFile.Scripting
+- uid: SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
+  isExternal: true
+  name: ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
+  nameWithType: ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Security
   commentId: T:SuperOffice.Configuration.ConfigFile.Security
   isExternal: true
@@ -269,90 +498,206 @@ references:
   name: ConfigFile.Security.SoPasswordCredentialPlugin
   nameWithType: ConfigFile.Security.SoPasswordCredentialPlugin
   fullName: SuperOffice.Configuration.ConfigFile.Security.SoPasswordCredentialPlugin
+- uid: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
+  isExternal: true
+  name: ConfigFile.ISecurityCryptographyConfiguration
+  nameWithType: ConfigFile.ISecurityCryptographyConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+  isExternal: true
+  name: ConfigFile.ISecuritySentryConfiguration
+  nameWithType: ConfigFile.ISecuritySentryConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.ISecuritySoPasswordCredentialPluginConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISecuritySoPasswordCredentialPluginConfiguration
+  isExternal: true
+  name: ConfigFile.ISecuritySoPasswordCredentialPluginConfiguration
+  nameWithType: ConfigFile.ISecuritySoPasswordCredentialPluginConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISecuritySoPasswordCredentialPluginConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IServicesConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IServicesConfiguration
+  isExternal: true
+  name: ConfigFile.IServicesConfiguration
+  nameWithType: ConfigFile.IServicesConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IServicesConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Services
   commentId: T:SuperOffice.Configuration.ConfigFile.Services
   isExternal: true
   name: ConfigFile.Services
   nameWithType: ConfigFile.Services
   fullName: SuperOffice.Configuration.ConfigFile.Services
+- uid: SuperOffice.Configuration.ConfigFile.ISmtpConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISmtpConfiguration
+  isExternal: true
+  name: ConfigFile.ISmtpConfiguration
+  nameWithType: ConfigFile.ISmtpConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISmtpConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Smtp
   commentId: T:SuperOffice.Configuration.ConfigFile.Smtp
   isExternal: true
   name: ConfigFile.Smtp
   nameWithType: ConfigFile.Smtp
   fullName: SuperOffice.Configuration.ConfigFile.Smtp
+- uid: SuperOffice.Configuration.ConfigFile.ISoFormsAuthenticationConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISoFormsAuthenticationConfiguration
+  isExternal: true
+  name: ConfigFile.ISoFormsAuthenticationConfiguration
+  nameWithType: ConfigFile.ISoFormsAuthenticationConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISoFormsAuthenticationConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.SoFormsAuthentication
   commentId: T:SuperOffice.Configuration.ConfigFile.SoFormsAuthentication
   isExternal: true
   name: ConfigFile.SoFormsAuthentication
   nameWithType: ConfigFile.SoFormsAuthentication
   fullName: SuperOffice.Configuration.ConfigFile.SoFormsAuthentication
+- uid: SuperOffice.Configuration.ConfigFile.ISoJavaScriptConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISoJavaScriptConfiguration
+  isExternal: true
+  name: ConfigFile.ISoJavaScriptConfiguration
+  nameWithType: ConfigFile.ISoJavaScriptConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISoJavaScriptConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.SoJavaScript
   commentId: T:SuperOffice.Configuration.ConfigFile.SoJavaScript
   isExternal: true
   name: ConfigFile.SoJavaScript
   nameWithType: ConfigFile.SoJavaScript
   fullName: SuperOffice.Configuration.ConfigFile.SoJavaScript
+- uid: SuperOffice.Configuration.ConfigFile.ISubClientsConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISubClientsConfiguration
+  isExternal: true
+  name: ConfigFile.ISubClientsConfiguration
+  nameWithType: ConfigFile.ISubClientsConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISubClientsConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.SubClients
   commentId: T:SuperOffice.Configuration.ConfigFile.SubClients
   isExternal: true
   name: ConfigFile.SubClients
   nameWithType: ConfigFile.SubClients
   fullName: SuperOffice.Configuration.ConfigFile.SubClients
+- uid: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
+  isExternal: true
+  name: ConfigFile.ISuperIdConfiguration
+  nameWithType: ConfigFile.ISuperIdConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.SuperId
   commentId: T:SuperOffice.Configuration.ConfigFile.SuperId
   isExternal: true
   name: ConfigFile.SuperId
   nameWithType: ConfigFile.SuperId
   fullName: SuperOffice.Configuration.ConfigFile.SuperId
+- uid: SuperOffice.Configuration.ConfigFile.ISuspendedSiteConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISuspendedSiteConfiguration
+  isExternal: true
+  name: ConfigFile.ISuspendedSiteConfiguration
+  nameWithType: ConfigFile.ISuspendedSiteConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISuspendedSiteConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.SuspendedSite
   commentId: T:SuperOffice.Configuration.ConfigFile.SuspendedSite
   isExternal: true
   name: ConfigFile.SuspendedSite
   nameWithType: ConfigFile.SuspendedSite
   fullName: SuperOffice.Configuration.ConfigFile.SuspendedSite
+- uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISyncConfiguration
+  isExternal: true
+  name: ConfigFile.ISyncConfiguration
+  nameWithType: ConfigFile.ISyncConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISyncConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Sync
   commentId: T:SuperOffice.Configuration.ConfigFile.Sync
   isExternal: true
   name: ConfigFile.Sync
   nameWithType: ConfigFile.Sync
   fullName: SuperOffice.Configuration.ConfigFile.Sync
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  isExternal: true
+  name: ConfigFile.ITestEnvironmentConfiguration
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.TestEnvironment
   commentId: T:SuperOffice.Configuration.ConfigFile.TestEnvironment
   isExternal: true
   name: ConfigFile.TestEnvironment
   nameWithType: ConfigFile.TestEnvironment
   fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment
+- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
+  isExternal: true
+  name: ConfigFile.IThreadingConfiguration
+  nameWithType: ConfigFile.IThreadingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Threading
   commentId: T:SuperOffice.Configuration.ConfigFile.Threading
   isExternal: true
   name: ConfigFile.Threading
   nameWithType: ConfigFile.Threading
   fullName: SuperOffice.Configuration.ConfigFile.Threading
+- uid: SuperOffice.Configuration.ConfigFile.ITimeZoneConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ITimeZoneConfiguration
+  isExternal: true
+  name: ConfigFile.ITimeZoneConfiguration
+  nameWithType: ConfigFile.ITimeZoneConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ITimeZoneConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.TimeZone
   commentId: T:SuperOffice.Configuration.ConfigFile.TimeZone
   isExternal: true
   name: ConfigFile.TimeZone
   nameWithType: ConfigFile.TimeZone
   fullName: SuperOffice.Configuration.ConfigFile.TimeZone
+- uid: SuperOffice.Configuration.ConfigFile.IWebApiConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IWebApiConfiguration
+  isExternal: true
+  name: ConfigFile.IWebApiConfiguration
+  nameWithType: ConfigFile.IWebApiConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IWebApiConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.WebApi
   commentId: T:SuperOffice.Configuration.ConfigFile.WebApi
   isExternal: true
   name: ConfigFile.WebApi
   nameWithType: ConfigFile.WebApi
   fullName: SuperOffice.Configuration.ConfigFile.WebApi
+- uid: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
+  isExternal: true
+  name: ConfigFile.IWebhooksConfiguration
+  nameWithType: ConfigFile.IWebhooksConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.Webhooks
   commentId: T:SuperOffice.Configuration.ConfigFile.Webhooks
   isExternal: true
   name: ConfigFile.Webhooks
   nameWithType: ConfigFile.Webhooks
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks
+- uid: SuperOffice.Configuration.ConfigFile.IWebServicesConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IWebServicesConfiguration
+  isExternal: true
+  name: ConfigFile.IWebServicesConfiguration
+  nameWithType: ConfigFile.IWebServicesConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IWebServicesConfiguration
 - uid: SuperOffice.Configuration.ConfigFile.WebServices
   commentId: T:SuperOffice.Configuration.ConfigFile.WebServices
   isExternal: true
   name: ConfigFile.WebServices
   nameWithType: ConfigFile.WebServices
   fullName: SuperOffice.Configuration.ConfigFile.WebServices
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  commentId: T:SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: ConfigFile.OnlineEnvironment
+  nameWithType: ConfigFile.OnlineEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+- uid: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
+  commentId: T:SuperOffice.Configuration.ConfigFile.TelemetryRoleName
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: ConfigFile.TelemetryRoleName
+  nameWithType: ConfigFile.TelemetryRoleName
+  fullName: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
 - uid: SuperOffice.Configuration.VersionPropertyNames
   commentId: T:SuperOffice.Configuration.VersionPropertyNames
   isExternal: true
@@ -365,9 +710,9 @@ references:
   name: VersionProperties
   nameWithType: VersionProperties
   fullName: SuperOffice.Configuration.VersionProperties
-- uid: SuperOffice.Configuration.Configuration
-  commentId: T:SuperOffice.Configuration.Configuration
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
   isExternal: true
-  name: Configuration
-  nameWithType: Configuration
-  fullName: SuperOffice.Configuration.Configuration
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration

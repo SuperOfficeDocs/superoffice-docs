@@ -1,0 +1,648 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.AsyncLazy`1
+  commentId: T:SuperOffice.Threading.AsyncLazy`1
+  id: AsyncLazy`1
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.AsyncLazy`1.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{`0}})
+  - SuperOffice.Threading.AsyncLazy`1.#ctor(System.Func{System.Threading.Tasks.Task{`0}})
+  - SuperOffice.Threading.AsyncLazy`1.GetValueAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: AsyncLazy<T>
+  nameWithType: AsyncLazy<T>
+  fullName: SuperOffice.Threading.AsyncLazy<T>
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nAlternative to <xref href=\"System.Lazy%601\" data-throw-if-not-resolved=\"false\"></xref>. Simply wrapping our async tasks into a lazy value was\nnot satisfactory, because 1) if it threw an exception inside the task, it would be permanently\nfixed to the lazy instance, and 2) it didn&apos;t allow us to pass a <xref href=\"System.Threading.CancellationToken\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class AsyncLazy<T> : Object'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public Class AsyncLazy(Of T)
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Threading.AsyncLazy`1.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.AsyncLazy`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: AsyncLazy(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: SuperOffice.Threading.AsyncLazy(Of T)
+  name.vb: AsyncLazy(Of T)
+- uid: SuperOffice.Threading.AsyncLazy`1.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{`0}})
+  commentId: M:SuperOffice.Threading.AsyncLazy`1.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{`0}})
+  id: '#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{`0}})'
+  parent: SuperOffice.Threading.AsyncLazy`1
+  langs:
+  - csharp
+  - vb
+  name: AsyncLazy(Func<CancellationToken, Task<T>>)
+  nameWithType: AsyncLazy<T>.AsyncLazy(Func<CancellationToken, Task<T>>)
+  fullName: SuperOffice.Threading.AsyncLazy<T>.AsyncLazy(System.Func<System.Threading.CancellationToken, System.Threading.Tasks.Task<T>>)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public AsyncLazy(Func<CancellationToken, Task<T>> valueTask)
+    parameters:
+    - id: valueTask
+      type: System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{{T}}}
+    content.vb: Public Sub New(valueTask As Func(Of CancellationToken, Task(Of T)))
+  overload: SuperOffice.Threading.AsyncLazy`1.#ctor*
+  nameWithType.vb: AsyncLazy(Of T).AsyncLazy(Func(Of CancellationToken, Task(Of T)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.AsyncLazy(Of T).AsyncLazy(System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.Task(Of T)))
+  name.vb: AsyncLazy(Func(Of CancellationToken, Task(Of T)))
+- uid: SuperOffice.Threading.AsyncLazy`1.#ctor(System.Func{System.Threading.Tasks.Task{`0}})
+  commentId: M:SuperOffice.Threading.AsyncLazy`1.#ctor(System.Func{System.Threading.Tasks.Task{`0}})
+  id: '#ctor(System.Func{System.Threading.Tasks.Task{`0}})'
+  parent: SuperOffice.Threading.AsyncLazy`1
+  langs:
+  - csharp
+  - vb
+  name: AsyncLazy(Func<Task<T>>)
+  nameWithType: AsyncLazy<T>.AsyncLazy(Func<Task<T>>)
+  fullName: SuperOffice.Threading.AsyncLazy<T>.AsyncLazy(System.Func<System.Threading.Tasks.Task<T>>)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public AsyncLazy(Func<Task<T>> valueTask)
+    parameters:
+    - id: valueTask
+      type: System.Func{System.Threading.Tasks.Task{{T}}}
+    content.vb: Public Sub New(valueTask As Func(Of Task(Of T)))
+  overload: SuperOffice.Threading.AsyncLazy`1.#ctor*
+  nameWithType.vb: AsyncLazy(Of T).AsyncLazy(Func(Of Task(Of T)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.AsyncLazy(Of T).AsyncLazy(System.Func(Of System.Threading.Tasks.Task(Of T)))
+  name.vb: AsyncLazy(Func(Of Task(Of T)))
+- uid: SuperOffice.Threading.AsyncLazy`1.GetValueAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncLazy`1.GetValueAsync(System.Threading.CancellationToken)
+  id: GetValueAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncLazy`1
+  langs:
+  - csharp
+  - vb
+  name: GetValueAsync(CancellationToken)
+  nameWithType: AsyncLazy<T>.GetValueAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsyncLazy<T>.GetValueAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public Task<T> GetValueAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Public Function GetValueAsync(cancellationToken As CancellationToken = Nothing) As Task(Of T)
+  overload: SuperOffice.Threading.AsyncLazy`1.GetValueAsync*
+  nameWithType.vb: AsyncLazy(Of T).GetValueAsync(CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.AsyncLazy(Of T).GetValueAsync(System.Threading.CancellationToken)
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Threading.AsyncLazy`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AsyncLazy<T>, To>()
+  nameWithType: EnumUtil.MapEnums<AsyncLazy<T>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncLazy<T>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AsyncLazy(Of T), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncLazy(Of T), To)()
+  name.vb: MapEnums(Of AsyncLazy(Of T), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AsyncLazy<T>, To>
+    nameWithType: EnumUtil.MapEnums<AsyncLazy<T>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncLazy<T>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AsyncLazy(Of T), To)
+    nameWithType: EnumUtil.MapEnums(Of AsyncLazy(Of T), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncLazy(Of T), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncLazy`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AsyncLazy<T>, To>()
+  nameWithType: Converters.MapEnums<AsyncLazy<T>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncLazy<T>, To>()
+  nameWithType.vb: Converters.MapEnums(Of AsyncLazy(Of T), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncLazy(Of T), To)()
+  name.vb: MapEnums(Of AsyncLazy(Of T), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AsyncLazy<T>, To>
+    nameWithType: Converters.MapEnums<AsyncLazy<T>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncLazy<T>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AsyncLazy(Of T), To)
+    nameWithType: Converters.MapEnums(Of AsyncLazy(Of T), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncLazy(Of T), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.AsyncLazy`1.#ctor*
+  commentId: Overload:SuperOffice.Threading.AsyncLazy`1.#ctor
+  isExternal: true
+  name: AsyncLazy
+  nameWithType: AsyncLazy<T>.AsyncLazy
+  fullName: SuperOffice.Threading.AsyncLazy<T>.AsyncLazy
+  nameWithType.vb: AsyncLazy(Of T).AsyncLazy
+  fullName.vb: SuperOffice.Threading.AsyncLazy(Of T).AsyncLazy
+- uid: System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{{T}}}
+  commentId: '!:System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{`0}}'
+  definition: System.Func`2
+  name: Func<CancellationToken, Task<T>>
+  nameWithType: Func<CancellationToken, Task<T>>
+  fullName: System.Func<System.Threading.CancellationToken, System.Threading.Tasks.Task<T>>
+  nameWithType.vb: Func(Of CancellationToken, Task(Of T))
+  fullName.vb: System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.Task(Of T))
+  name.vb: Func(Of CancellationToken, Task(Of T))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{System.Threading.Tasks.Task{{T}}}
+  commentId: '!:System.Func{System.Threading.Tasks.Task{`0}}'
+  definition: System.Func`1
+  name: Func<Task<T>>
+  nameWithType: Func<Task<T>>
+  fullName: System.Func<System.Threading.Tasks.Task<T>>
+  nameWithType.vb: Func(Of Task(Of T))
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task(Of T))
+  name.vb: Func(Of Task(Of T))
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncLazy`1.GetValueAsync*
+  commentId: Overload:SuperOffice.Threading.AsyncLazy`1.GetValueAsync
+  isExternal: true
+  name: GetValueAsync
+  nameWithType: AsyncLazy<T>.GetValueAsync
+  fullName: SuperOffice.Threading.AsyncLazy<T>.GetValueAsync
+  nameWithType.vb: AsyncLazy(Of T).GetValueAsync
+  fullName.vb: SuperOffice.Threading.AsyncLazy(Of T).GetValueAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: '!:System.Threading.Tasks.Task{`0}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

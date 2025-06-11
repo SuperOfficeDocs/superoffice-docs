@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.ProductVersionRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ProductVersionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ProductVersionRecordData)
   - SuperOffice.CRM.Rows.ProductVersionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ProductVersionRecordData.SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ProductVersionRecordData.SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProductVersionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProductVersionRecordData.SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductVersionRecordData)
+- uid: SuperOffice.CRM.Rows.ProductVersionRecordData.SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProductVersionRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductVersionRecordData)
-  name: ToInsert()
-  nameWithType: ProductVersionRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProductVersionRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ProductVersionRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ProductVersionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProductVersionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ProductVersionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProductVersionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductVersionRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductVersionRecordData)
+- uid: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProductVersionRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProductVersionRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ProductVersionRecordData)
-  nameWithType: ProductVersionRecordDataExtensions.ToInsert(ProductVersionRecordData)
-  fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductVersionRecordData)
+  name: ToInsertAsync(ProductVersionRecordData, CancellationToken)
+  nameWithType: ProductVersionRecordDataExtensions.ToInsertAsync(ProductVersionRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProductVersionRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductVersionRecordData)
-    name: ToInsert
-    nameWithType: ProductVersionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProductVersionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProductVersionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: ProductVersionRecordData
     nameWithType: ProductVersionRecordData
     fullName: SuperOffice.CRM.Rows.ProductVersionRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductVersionRecordData)
-    name: ToInsert
-    nameWithType: ProductVersionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProductVersionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProductVersionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: ProductVersionRecordData
     nameWithType: ProductVersionRecordData
     fullName: SuperOffice.CRM.Rows.ProductVersionRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

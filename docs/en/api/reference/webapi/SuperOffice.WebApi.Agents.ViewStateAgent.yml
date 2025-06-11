@@ -66,7 +66,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.Dispose
@@ -416,6 +416,78 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryLengthPrefValueAsync(RequestOptions)
+  nameWithType: ViewStateAgent.GetHistoryLengthPrefValueAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the logged on user&apos;s preferred history list length. Will return the system preference if no user preferences are available.\n"
+  syntax:
+    content: public Task<int> GetHistoryLengthPrefValueAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The history list lenght
+    content.vb: Public Function GetHistoryLengthPrefValueAsync(requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
+  nameWithType: ViewStateAgent.SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the logged on user&apos;s preferred history list length.\n"
+  syntax:
+    content: public Task SetHistoryLengthPrefValueAsync(int length, RequestOptions requestOptions = null)
+    parameters:
+    - id: length
+      type: System.Int32
+      description: The new history list lenght
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetHistoryLengthPrefValueAsync(length As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
   id: GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
@@ -573,78 +645,6 @@ items:
   - Public
   fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.SaveHistoriesAsync(System.String, SuperOffice.WebApi.Data.History(), SuperOffice.WebApi.RequestOptions)
   name.vb: SaveHistoriesAsync(String, History(), RequestOptions)
-- uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  id: GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ViewStateAgent
-  langs:
-  - csharp
-  - vb
-  name: GetHistoryLengthPrefValueAsync(RequestOptions)
-  nameWithType: ViewStateAgent.GetHistoryLengthPrefValueAsync(RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet the logged on user&apos;s preferred history list length. Will return the system preference if no user preferences are available.\n"
-  syntax:
-    content: public Task<int> GetHistoryLengthPrefValueAsync(RequestOptions requestOptions = null)
-    parameters:
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{System.Int32}
-      description: The history list lenght
-    content.vb: Public Function GetHistoryLengthPrefValueAsync(requestOptions As RequestOptions = Nothing) As Task(Of Integer)
-  overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  id: SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ViewStateAgent
-  langs:
-  - csharp
-  - vb
-  name: SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
-  nameWithType: ViewStateAgent.SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet the logged on user&apos;s preferred history list length.\n"
-  syntax:
-    content: public Task SetHistoryLengthPrefValueAsync(int length, RequestOptions requestOptions = null)
-    parameters:
-    - id: length
-      type: System.Int32
-      description: The new history list lenght
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function SetHistoryLengthPrefValueAsync(length As Integer, requestOptions As RequestOptions = Nothing) As Task
-  overload: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   id: SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
@@ -1569,18 +1569,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  name: ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1602,10 +1602,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2450,6 +2450,159 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync
+  isExternal: true
+  name: GetHistoryLengthPrefValueAsync
+  nameWithType: ViewStateAgent.GetHistoryLengthPrefValueAsync
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync
+- uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IViewStateAgent
+  isExternal: true
+  name: GetHistoryLengthPrefValueAsync(RequestOptions)
+  nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetHistoryLengthPrefValueAsync
+    nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetHistoryLengthPrefValueAsync
+    nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync
+  isExternal: true
+  name: SetHistoryLengthPrefValueAsync
+  nameWithType: ViewStateAgent.SetHistoryLengthPrefValueAsync
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync
+- uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IViewStateAgent
+  isExternal: true
+  name: SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
+  nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: SetHistoryLengthPrefValueAsync
+    nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: SetHistoryLengthPrefValueAsync
+    nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync
   isExternal: true
@@ -2821,159 +2974,6 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync
-  isExternal: true
-  name: GetHistoryLengthPrefValueAsync
-  nameWithType: ViewStateAgent.GetHistoryLengthPrefValueAsync
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync
-- uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IViewStateAgent
-  isExternal: true
-  name: GetHistoryLengthPrefValueAsync(RequestOptions)
-  nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync(RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-    name: GetHistoryLengthPrefValueAsync
-    nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync
-    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
-    name: GetHistoryLengthPrefValueAsync
-    nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync
-    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Threading.Tasks.Task{System.Int32}
-  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
-  definition: System.Threading.Tasks.Task`1
-  name: Task<Int32>
-  nameWithType: Task<Int32>
-  fullName: System.Threading.Tasks.Task<System.Int32>
-  nameWithType.vb: Task(Of Int32)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
-  name.vb: Task(Of Int32)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync
-  isExternal: true
-  name: SetHistoryLengthPrefValueAsync
-  nameWithType: ViewStateAgent.SetHistoryLengthPrefValueAsync
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync
-- uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IViewStateAgent
-  isExternal: true
-  name: SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
-  nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-    name: SetHistoryLengthPrefValueAsync
-    nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync
-    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-    name: SetHistoryLengthPrefValueAsync
-    nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync
-    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync
   isExternal: true

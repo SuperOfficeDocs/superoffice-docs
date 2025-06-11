@@ -7,6 +7,8 @@ items:
   children:
   - SuperOffice.WebApi.HttpContextItem.#ctor
   - SuperOffice.WebApi.HttpContextItem.AccountId
+  - SuperOffice.WebApi.HttpContextItem.ContextIdentifier
+  - SuperOffice.WebApi.HttpContextItem.SoClaimsPrincipal
   - SuperOffice.WebApi.HttpContextItem.SuccessOverride
   - SuperOffice.WebApi.HttpContextItem.TelemetryOperationName
   langs:
@@ -121,6 +123,62 @@ items:
     return:
       type: System.String
     content.vb: Public Const TelemetryOperationName As String = "TelemetryOperationName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.HttpContextItem.ContextIdentifier
+  commentId: F:SuperOffice.WebApi.HttpContextItem.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.WebApi.HttpContextItem
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: HttpContextItem.ContextIdentifier
+  fullName: SuperOffice.WebApi.HttpContextItem.ContextIdentifier
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string ContextIdentifier = "ContextIdentifier"
+    return:
+      type: System.String
+    content.vb: Public Const ContextIdentifier As String = "ContextIdentifier"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.HttpContextItem.SoClaimsPrincipal
+  commentId: F:SuperOffice.WebApi.HttpContextItem.SoClaimsPrincipal
+  id: SoClaimsPrincipal
+  parent: SuperOffice.WebApi.HttpContextItem
+  langs:
+  - csharp
+  - vb
+  name: SoClaimsPrincipal
+  nameWithType: HttpContextItem.SoClaimsPrincipal
+  fullName: SuperOffice.WebApi.HttpContextItem.SoClaimsPrincipal
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SoClaimsPrincipal = "SoClaimsPrincipal"
+    return:
+      type: System.String
+    content.vb: Public Const SoClaimsPrincipal As String = "SoClaimsPrincipal"
   modifiers.csharp:
   - public
   - const

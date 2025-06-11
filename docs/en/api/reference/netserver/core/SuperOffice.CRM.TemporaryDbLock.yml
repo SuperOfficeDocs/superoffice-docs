@@ -5,12 +5,12 @@ items:
   id: TemporaryDbLock
   parent: SuperOffice.CRM
   children:
-  - SuperOffice.CRM.TemporaryDbLock.#ctor(System.Int32,System.Int32,System.Int32)
-  - SuperOffice.CRM.TemporaryDbLock.Dispose
-  - SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocks
+  - SuperOffice.CRM.TemporaryDbLock.CreateAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.TemporaryDbLock.DisposeAsync
+  - SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocksAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.TemporaryDbLock.IsLocked
-  - SuperOffice.CRM.TemporaryDbLock.TryUpdate
-  - SuperOffice.CRM.TemporaryDbLock.Update
+  - SuperOffice.CRM.TemporaryDbLock.TryUpdateAsync
+  - SuperOffice.CRM.TemporaryDbLock.UpdateAsync
   langs:
   - csharp
   - vb
@@ -26,15 +26,15 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nLocking class for implementing concurrency of relatively quick (within one request) run time operations.\nusing (var lock = new TemporaryDbLock(tableNumber, key)\n{\nif (!lock.IsValid)\nreturn; // You didn&apos;t get the lock, so return or continue. You _must_ check if you actually got the lock.\n\n// you have the lock, do stuff...\nlock.Update() // Will keep the lock alive, not timing out, while you work.\n....\n}\n"
   syntax:
-    content: 'public sealed class TemporaryDbLock : Object, IDisposable'
+    content: 'public sealed class TemporaryDbLock : Object, IAsyncDisposable'
     content.vb: >-
       Public NotInheritable Class TemporaryDbLock
           Inherits Object
-          Implements IDisposable
+          Implements IAsyncDisposable
   inheritance:
   - System.Object
   implements:
-  - System.IDisposable
+  - System.IAsyncDisposable
   extensionMethods:
   - SuperOffice.CRM.TemporaryDbLock.EnumUtil.MapEnums``2
   - SuperOffice.CRM.TemporaryDbLock.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -46,26 +46,25 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.CRM.TemporaryDbLock.#ctor(System.Int32,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.TemporaryDbLock.#ctor(System.Int32,System.Int32,System.Int32)
-  id: '#ctor(System.Int32,System.Int32,System.Int32)'
+- uid: SuperOffice.CRM.TemporaryDbLock.CreateAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TemporaryDbLock.CreateAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: CreateAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TemporaryDbLock
   langs:
   - csharp
   - vb
-  name: TemporaryDbLock(Int32, Int32, Int32)
-  nameWithType: TemporaryDbLock.TemporaryDbLock(Int32, Int32, Int32)
-  fullName: SuperOffice.CRM.TemporaryDbLock.TemporaryDbLock(System.Int32, System.Int32, System.Int32)
-  type: Constructor
+  name: CreateAsync(Int32, Int32, Int32, CancellationToken)
+  nameWithType: TemporaryDbLock.CreateAsync(Int32, Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.TemporaryDbLock.CreateAsync(System.Int32, System.Int32, System.Int32, System.Threading.CancellationToken)
+  type: Method
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nDefault constructor.\n"
   syntax:
-    content: public TemporaryDbLock(int tableNumber, int key, int seconds = 600)
+    content: public static Task<TemporaryDbLock> CreateAsync(int tableNumber, int key, int seconds = 600, CancellationToken cancellationToken = null)
     parameters:
     - id: tableNumber
       type: System.Int32
@@ -73,74 +72,28 @@ items:
       type: System.Int32
     - id: seconds
       type: System.Int32
-    content.vb: Public Sub New(tableNumber As Integer, key As Integer, seconds As Integer = 600)
-  overload: SuperOffice.CRM.TemporaryDbLock.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.TemporaryDbLock.Update
-  commentId: M:SuperOffice.CRM.TemporaryDbLock.Update
-  id: Update
-  parent: SuperOffice.CRM.TemporaryDbLock
-  langs:
-  - csharp
-  - vb
-  name: Update()
-  nameWithType: TemporaryDbLock.Update()
-  fullName: SuperOffice.CRM.TemporaryDbLock.Update()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM
-  syntax:
-    content: public void Update()
-    content.vb: Public Sub Update
-  overload: SuperOffice.CRM.TemporaryDbLock.Update*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.TemporaryDbLock.TryUpdate
-  commentId: M:SuperOffice.CRM.TemporaryDbLock.TryUpdate
-  id: TryUpdate
-  parent: SuperOffice.CRM.TemporaryDbLock
-  langs:
-  - csharp
-  - vb
-  name: TryUpdate()
-  nameWithType: TemporaryDbLock.TryUpdate()
-  fullName: SuperOffice.CRM.TemporaryDbLock.TryUpdate()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM
-  syntax:
-    content: public bool TryUpdate()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Function TryUpdate As Boolean
-  overload: SuperOffice.CRM.TemporaryDbLock.TryUpdate*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.TemporaryDbLock}
+    content.vb: Public Shared Function CreateAsync(tableNumber As Integer, key As Integer, seconds As Integer = 600, cancellationToken As CancellationToken = Nothing) As Task(Of TemporaryDbLock)
+  overload: SuperOffice.CRM.TemporaryDbLock.CreateAsync*
   modifiers.csharp:
   - public
+  - static
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.TemporaryDbLock.Dispose
-  commentId: M:SuperOffice.CRM.TemporaryDbLock.Dispose
-  id: Dispose
+  - Shared
+- uid: SuperOffice.CRM.TemporaryDbLock.UpdateAsync
+  commentId: M:SuperOffice.CRM.TemporaryDbLock.UpdateAsync
+  id: UpdateAsync
   parent: SuperOffice.CRM.TemporaryDbLock
   langs:
   - csharp
   - vb
-  name: Dispose()
-  nameWithType: TemporaryDbLock.Dispose()
-  fullName: SuperOffice.CRM.TemporaryDbLock.Dispose()
+  name: UpdateAsync()
+  nameWithType: TemporaryDbLock.UpdateAsync()
+  fullName: SuperOffice.CRM.TemporaryDbLock.UpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -149,36 +102,95 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public void Dispose()
-    content.vb: Public Sub Dispose
-  overload: SuperOffice.CRM.TemporaryDbLock.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocks
-  commentId: M:SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocks
-  id: FlushAllTempDbLocks
-  parent: SuperOffice.CRM.TemporaryDbLock
-  langs:
-  - csharp
-  - vb
-  name: FlushAllTempDbLocks()
-  nameWithType: TemporaryDbLock.FlushAllTempDbLocks()
-  fullName: SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocks()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM
-  syntax:
-    content: public static int FlushAllTempDbLocks()
+    content: public Task UpdateAsync()
     return:
-      type: System.Int32
-    content.vb: Public Shared Function FlushAllTempDbLocks As Integer
-  overload: SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocks*
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function UpdateAsync As Task
+  overload: SuperOffice.CRM.TemporaryDbLock.UpdateAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TemporaryDbLock.TryUpdateAsync
+  commentId: M:SuperOffice.CRM.TemporaryDbLock.TryUpdateAsync
+  id: TryUpdateAsync
+  parent: SuperOffice.CRM.TemporaryDbLock
+  langs:
+  - csharp
+  - vb
+  name: TryUpdateAsync()
+  nameWithType: TemporaryDbLock.TryUpdateAsync()
+  fullName: SuperOffice.CRM.TemporaryDbLock.TryUpdateAsync()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public Task<bool> TryUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function TryUpdateAsync As Task(Of Boolean)
+  overload: SuperOffice.CRM.TemporaryDbLock.TryUpdateAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TemporaryDbLock.DisposeAsync
+  commentId: M:SuperOffice.CRM.TemporaryDbLock.DisposeAsync
+  id: DisposeAsync
+  parent: SuperOffice.CRM.TemporaryDbLock
+  langs:
+  - csharp
+  - vb
+  name: DisposeAsync()
+  nameWithType: TemporaryDbLock.DisposeAsync()
+  fullName: SuperOffice.CRM.TemporaryDbLock.DisposeAsync()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public ValueTask DisposeAsync()
+    return:
+      type: System.Threading.Tasks.ValueTask
+    content.vb: Public Function DisposeAsync As ValueTask
+  overload: SuperOffice.CRM.TemporaryDbLock.DisposeAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocksAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocksAsync(System.Threading.CancellationToken)
+  id: FlushAllTempDbLocksAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.TemporaryDbLock
+  langs:
+  - csharp
+  - vb
+  name: FlushAllTempDbLocksAsync(CancellationToken)
+  nameWithType: TemporaryDbLock.FlushAllTempDbLocksAsync(CancellationToken)
+  fullName: SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocksAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static Task<int> FlushAllTempDbLocksAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function FlushAllTempDbLocksAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocksAsync*
   modifiers.csharp:
   - public
   - static
@@ -229,11 +241,11 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.IDisposable
+- uid: System.IAsyncDisposable
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  name: IAsyncDisposable
+  nameWithType: IAsyncDisposable
+  fullName: System.IAsyncDisposable
 - uid: SuperOffice.CRM.TemporaryDbLock.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -405,12 +417,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.TemporaryDbLock.#ctor*
-  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.#ctor
+- uid: SuperOffice.CRM.TemporaryDbLock.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.CreateAsync
   isExternal: true
-  name: TemporaryDbLock
-  nameWithType: TemporaryDbLock.TemporaryDbLock
-  fullName: SuperOffice.CRM.TemporaryDbLock.TemporaryDbLock
+  name: CreateAsync
+  nameWithType: TemporaryDbLock.CreateAsync
+  fullName: SuperOffice.CRM.TemporaryDbLock.CreateAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -418,18 +430,218 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.TemporaryDbLock.Update*
-  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.Update
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: Update
-  nameWithType: TemporaryDbLock.Update
-  fullName: SuperOffice.CRM.TemporaryDbLock.Update
-- uid: SuperOffice.CRM.TemporaryDbLock.TryUpdate*
-  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.TryUpdate
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.TemporaryDbLock}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.TemporaryDbLock}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TemporaryDbLock>
+  nameWithType: Task<TemporaryDbLock>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.TemporaryDbLock>
+  nameWithType.vb: Task(Of TemporaryDbLock)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.TemporaryDbLock)
+  name.vb: Task(Of TemporaryDbLock)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.TemporaryDbLock
+    name: TemporaryDbLock
+    nameWithType: TemporaryDbLock
+    fullName: SuperOffice.CRM.TemporaryDbLock
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.TemporaryDbLock
+    name: TemporaryDbLock
+    nameWithType: TemporaryDbLock
+    fullName: SuperOffice.CRM.TemporaryDbLock
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: TryUpdate
-  nameWithType: TemporaryDbLock.TryUpdate
-  fullName: SuperOffice.CRM.TemporaryDbLock.TryUpdate
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TemporaryDbLock.UpdateAsync*
+  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.UpdateAsync
+  isExternal: true
+  name: UpdateAsync
+  nameWithType: TemporaryDbLock.UpdateAsync
+  fullName: SuperOffice.CRM.TemporaryDbLock.UpdateAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.TemporaryDbLock.TryUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.TryUpdateAsync
+  isExternal: true
+  name: TryUpdateAsync
+  nameWithType: TemporaryDbLock.TryUpdateAsync
+  fullName: SuperOffice.CRM.TemporaryDbLock.TryUpdateAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TemporaryDbLock.DisposeAsync*
+  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.DisposeAsync
+  isExternal: true
+  name: DisposeAsync
+  nameWithType: TemporaryDbLock.DisposeAsync
+  fullName: SuperOffice.CRM.TemporaryDbLock.DisposeAsync
+- uid: System.Threading.Tasks.ValueTask
+  isExternal: true
+  name: ValueTask
+  nameWithType: ValueTask
+  fullName: System.Threading.Tasks.ValueTask
+- uid: SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocksAsync*
+  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocksAsync
+  isExternal: true
+  name: FlushAllTempDbLocksAsync
+  nameWithType: TemporaryDbLock.FlushAllTempDbLocksAsync
+  fullName: SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocksAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TemporaryDbLock.IsLocked*
+  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.IsLocked
+  isExternal: true
+  name: IsLocked
+  nameWithType: TemporaryDbLock.IsLocked
+  fullName: SuperOffice.CRM.TemporaryDbLock.IsLocked
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -437,21 +649,3 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.TemporaryDbLock.Dispose*
-  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.Dispose
-  isExternal: true
-  name: Dispose
-  nameWithType: TemporaryDbLock.Dispose
-  fullName: SuperOffice.CRM.TemporaryDbLock.Dispose
-- uid: SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocks*
-  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocks
-  isExternal: true
-  name: FlushAllTempDbLocks
-  nameWithType: TemporaryDbLock.FlushAllTempDbLocks
-  fullName: SuperOffice.CRM.TemporaryDbLock.FlushAllTempDbLocks
-- uid: SuperOffice.CRM.TemporaryDbLock.IsLocked*
-  commentId: Overload:SuperOffice.CRM.TemporaryDbLock.IsLocked
-  isExternal: true
-  name: IsLocked
-  nameWithType: TemporaryDbLock.IsLocked
-  fullName: SuperOffice.CRM.TemporaryDbLock.IsLocked

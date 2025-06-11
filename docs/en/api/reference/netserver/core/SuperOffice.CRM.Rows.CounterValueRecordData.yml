@@ -59,7 +59,7 @@ items:
   - SuperOffice.CRM.Rows.CounterValueRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CounterValueRecordData)
   - SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -947,34 +947,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CounterValueRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
-  name: ToInsert()
-  nameWithType: CounterValueRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CounterValueRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: CounterValueRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CounterValueRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CounterValueRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CounterValueRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CounterValueRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1160,17 +1170,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
-  commentId: M:SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
+- uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CounterValueRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CounterValueRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(CounterValueRecordData)
-  nameWithType: CounterValueRecordDataExtensions.ToInsert(CounterValueRecordData)
-  fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
+  name: ToInsertAsync(CounterValueRecordData, CancellationToken)
+  nameWithType: CounterValueRecordDataExtensions.ToInsertAsync(CounterValueRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CounterValueRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
-    name: ToInsert
-    nameWithType: CounterValueRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CounterValueRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CounterValueRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1179,15 +1189,23 @@ references:
     name: CounterValueRecordData
     nameWithType: CounterValueRecordData
     fullName: SuperOffice.CRM.Rows.CounterValueRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
-    name: ToInsert
-    nameWithType: CounterValueRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CounterValueRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CounterValueRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1196,6 +1214,14 @@ references:
     name: CounterValueRecordData
     nameWithType: CounterValueRecordData
     fullName: SuperOffice.CRM.Rows.CounterValueRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

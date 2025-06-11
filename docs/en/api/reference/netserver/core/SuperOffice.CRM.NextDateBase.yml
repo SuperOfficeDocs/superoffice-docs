@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM
   children:
   - SuperOffice.CRM.NextDateBase.#ctor
-  - SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
+  - SuperOffice.CRM.NextDateBase.GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction,System.Threading.CancellationToken)
   - SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
   - SuperOffice.CRM.NextDateBase.GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo)
   langs:
@@ -111,16 +111,16 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
-  commentId: M:SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
-  id: GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
+- uid: SuperOffice.CRM.NextDateBase.GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.NextDateBase.GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction,System.Threading.CancellationToken)
+  id: GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.NextDateBase
   langs:
   - csharp
   - vb
-  name: GetNextDate(AppointmentTableInfo, FieldInfo, Restriction)
-  nameWithType: NextDateBase.GetNextDate(AppointmentTableInfo, FieldInfo, Restriction)
-  fullName: SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Restriction)
+  name: GetNextDateAsync(AppointmentTableInfo, FieldInfo, Restriction, CancellationToken)
+  nameWithType: NextDateBase.GetNextDateAsync(AppointmentTableInfo, FieldInfo, Restriction, CancellationToken)
+  fullName: SuperOffice.CRM.NextDateBase.GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Restriction, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -129,7 +129,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: protected NextDateInfo GetNextDate(AppointmentTableInfo appInfo, FieldInfo orderBy, Restriction restriction)
+    content: protected Task<NextDateInfo> GetNextDateAsync(AppointmentTableInfo appInfo, FieldInfo orderBy, Restriction restriction, CancellationToken cancellationToken = null)
     parameters:
     - id: appInfo
       type: SuperOffice.CRM.Data.AppointmentTableInfo
@@ -137,10 +137,12 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     - id: restriction
       type: SuperOffice.Data.SQL.Restriction
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.NextDateInfo
-    content.vb: Protected Function GetNextDate(appInfo As AppointmentTableInfo, orderBy As FieldInfo, restriction As Restriction) As NextDateInfo
-  overload: SuperOffice.CRM.NextDateBase.GetNextDate*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+    content.vb: Protected Function GetNextDateAsync(appInfo As AppointmentTableInfo, orderBy As FieldInfo, restriction As Restriction, cancellationToken As CancellationToken = Nothing) As Task(Of NextDateInfo)
+  overload: SuperOffice.CRM.NextDateBase.GetNextDateAsync*
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -400,12 +402,12 @@ references:
   name: Select
   nameWithType: Select
   fullName: SuperOffice.Data.SQL.Select
-- uid: SuperOffice.CRM.NextDateBase.GetNextDate*
-  commentId: Overload:SuperOffice.CRM.NextDateBase.GetNextDate
+- uid: SuperOffice.CRM.NextDateBase.GetNextDateAsync*
+  commentId: Overload:SuperOffice.CRM.NextDateBase.GetNextDateAsync
   isExternal: true
-  name: GetNextDate
-  nameWithType: NextDateBase.GetNextDate
-  fullName: SuperOffice.CRM.NextDateBase.GetNextDate
+  name: GetNextDateAsync
+  nameWithType: NextDateBase.GetNextDateAsync
+  fullName: SuperOffice.CRM.NextDateBase.GetNextDateAsync
 - uid: SuperOffice.Data.SQL.Restriction
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
@@ -413,13 +415,92 @@ references:
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
-- uid: SuperOffice.CRM.NextDateInfo
-  commentId: T:SuperOffice.CRM.NextDateInfo
-  parent: SuperOffice.CRM
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: NextDateInfo
-  nameWithType: NextDateInfo
-  fullName: SuperOffice.CRM.NextDateInfo
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<NextDateInfo>
+  nameWithType: Task<NextDateInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.NextDateInfo>
+  nameWithType.vb: Task(Of NextDateInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.NextDateInfo)
+  name.vb: Task(Of NextDateInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.NextDateInfo
+    name: NextDateInfo
+    nameWithType: NextDateInfo
+    fullName: SuperOffice.CRM.NextDateInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.NextDateInfo
+    name: NextDateInfo
+    nameWithType: NextDateInfo
+    fullName: SuperOffice.CRM.NextDateInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.NextDateBase.#ctor*
   commentId: Overload:SuperOffice.CRM.NextDateBase.#ctor
   isExternal: true

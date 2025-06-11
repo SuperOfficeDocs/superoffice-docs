@@ -57,7 +57,7 @@ items:
   - SuperOffice.CRM.Rows.WorkflowRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowRecordData)
   - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -891,34 +891,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
+- uid: SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-  name: ToInsert()
-  nameWithType: WorkflowRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: WorkflowRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: WorkflowRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: WorkflowRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1104,17 +1114,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-  commentId: M:SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
+- uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(WorkflowRecordData)
-  nameWithType: WorkflowRecordDataExtensions.ToInsert(WorkflowRecordData)
-  fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
+  name: ToInsertAsync(WorkflowRecordData, CancellationToken)
+  nameWithType: WorkflowRecordDataExtensions.ToInsertAsync(WorkflowRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: ToInsert
-    nameWithType: WorkflowRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1123,15 +1133,23 @@ references:
     name: WorkflowRecordData
     nameWithType: WorkflowRecordData
     fullName: SuperOffice.CRM.Rows.WorkflowRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: ToInsert
-    nameWithType: WorkflowRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1140,6 +1158,14 @@ references:
     name: WorkflowRecordData
     nameWithType: WorkflowRecordData
     fullName: SuperOffice.CRM.Rows.WorkflowRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

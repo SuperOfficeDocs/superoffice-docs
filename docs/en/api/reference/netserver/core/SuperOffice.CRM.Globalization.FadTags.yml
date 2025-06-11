@@ -10,38 +10,38 @@ items:
   - SuperOffice.CRM.Globalization.FadTags._parentVariables
   - SuperOffice.CRM.Globalization.FadTags._personInfo
   - SuperOffice.CRM.Globalization.FadTags.DetermineFormat
-  - SuperOffice.CRM.Globalization.FadTags.Fad1
-  - SuperOffice.CRM.Globalization.FadTags.Fad2
-  - SuperOffice.CRM.Globalization.FadTags.Fad3
-  - SuperOffice.CRM.Globalization.FadTags.Fad4
-  - SuperOffice.CRM.Globalization.FadTags.Fad5
-  - SuperOffice.CRM.Globalization.FadTags.Fad6
-  - SuperOffice.CRM.Globalization.FadTags.Fad7
-  - SuperOffice.CRM.Globalization.FadTags.Fad8
-  - SuperOffice.CRM.Globalization.FadTags.Fad9
-  - SuperOffice.CRM.Globalization.FadTags.Fada
-  - SuperOffice.CRM.Globalization.FadTags.Fadb
-  - SuperOffice.CRM.Globalization.FadTags.Fadc
-  - SuperOffice.CRM.Globalization.FadTags.Fadd
-  - SuperOffice.CRM.Globalization.FadTags.Fade
-  - SuperOffice.CRM.Globalization.FadTags.Fadf
-  - SuperOffice.CRM.Globalization.FadTags.Fadg
-  - SuperOffice.CRM.Globalization.FadTags.Fadh
-  - SuperOffice.CRM.Globalization.FadTags.Fadi
-  - SuperOffice.CRM.Globalization.FadTags.Fadj
-  - SuperOffice.CRM.Globalization.FadTags.Fadk
-  - SuperOffice.CRM.Globalization.FadTags.Fadl
-  - SuperOffice.CRM.Globalization.FadTags.Fadm
-  - SuperOffice.CRM.Globalization.FadTags.Fadn
-  - SuperOffice.CRM.Globalization.FadTags.Fado
-  - SuperOffice.CRM.Globalization.FadTags.Fadp
-  - SuperOffice.CRM.Globalization.FadTags.Fadq
-  - SuperOffice.CRM.Globalization.FadTags.GenerateFads
+  - SuperOffice.CRM.Globalization.FadTags.Fad1(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fad2(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fad3(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fad4(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fad5(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fad6(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fad7(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fad8(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fad9(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fada(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadb(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadc(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadd(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fade(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadf(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadg(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadh(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadi(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadj(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadk(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadl(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadm(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadn(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fado(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadp(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.Fadq(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.FadTags.GenerateFadsAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Globalization.FadTags.GetAddressLayout(System.Int32)
   - SuperOffice.CRM.Globalization.FadTags.GetAddressType
+  - SuperOffice.CRM.Globalization.FadTags.GetIdAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Globalization.FadTags.GetRecipientCountryId(System.Int32)
-  - SuperOffice.CRM.Globalization.FadTags.Id
-  - SuperOffice.CRM.Globalization.FadTags.Init
+  - SuperOffice.CRM.Globalization.FadTags.InitAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Globalization.FadTags.IsValid
   - SuperOffice.CRM.Globalization.FadTags.UseForeign(System.Int32)
   langs:
@@ -72,12 +72,12 @@ items:
   - SuperOffice.IO.TagContainer.AddData(System.Object[])
   - SuperOffice.IO.TagContainer.GetData
   - SuperOffice.IO.TagContainer.ClearData
-  - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.GetTags
   - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
-  - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  - SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  - SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.CurrentUiCulture
   - SuperOffice.IO.TagContainer.Data
   extensionMethods:
@@ -203,16 +203,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Globalization.FadTags.Init
-  commentId: M:SuperOffice.CRM.Globalization.FadTags.Init
-  id: Init
+- uid: SuperOffice.CRM.Globalization.FadTags.InitAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.InitAsync(System.Threading.CancellationToken)
+  id: InitAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Globalization.FadTags
   langs:
   - csharp
   - vb
-  name: Init()
-  nameWithType: FadTags.Init()
-  fullName: SuperOffice.CRM.Globalization.FadTags.Init()
+  name: InitAsync(CancellationToken)
+  nameWithType: FadTags.InitAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.InitAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -221,10 +221,15 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
   syntax:
-    content: protected override void Init()
-    content.vb: Protected Overrides Sub Init
-  overridden: SuperOffice.IO.TagContainer.Init
-  overload: SuperOffice.CRM.Globalization.FadTags.Init*
+    content: protected override Task InitAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function InitAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overridden: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Globalization.FadTags.InitAsync*
   modifiers.csharp:
   - protected
   - override
@@ -384,16 +389,16 @@ items:
   modifiers.vb:
   - Protected
   - Overridable
-- uid: SuperOffice.CRM.Globalization.FadTags.GenerateFads
-  commentId: M:SuperOffice.CRM.Globalization.FadTags.GenerateFads
-  id: GenerateFads
+- uid: SuperOffice.CRM.Globalization.FadTags.GenerateFadsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.GenerateFadsAsync(System.Threading.CancellationToken)
+  id: GenerateFadsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Globalization.FadTags
   langs:
   - csharp
   - vb
-  name: GenerateFads()
-  nameWithType: FadTags.GenerateFads()
-  fullName: SuperOffice.CRM.Globalization.FadTags.GenerateFads()
+  name: GenerateFadsAsync(CancellationToken)
+  nameWithType: FadTags.GenerateFadsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.GenerateFadsAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -403,15 +408,1145 @@ items:
   namespace: SuperOffice.CRM.Globalization
   summary: "\nGenerate the FAD data block by doing a recursive tag substitution followed by parsing of conditional elements\n"
   syntax:
-    content: protected virtual void GenerateFads()
-    content.vb: Protected Overridable Sub GenerateFads
-  overload: SuperOffice.CRM.Globalization.FadTags.GenerateFads*
+    content: protected virtual Task GenerateFadsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overridable Function GenerateFadsAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Globalization.FadTags.GenerateFadsAsync*
   modifiers.csharp:
   - protected
   - virtual
   modifiers.vb:
   - Protected
   - Overridable
+- uid: SuperOffice.CRM.Globalization.FadTags.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.GetIdAsync(System.Threading.CancellationToken)
+  id: GetIdAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: GetIdAsync(CancellationToken)
+  nameWithType: FadTags.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.GetIdAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public override Task<int> GetIdAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Overrides Function GetIdAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overridden: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Globalization.FadTags.GetIdAsync*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad1(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fad1(System.Threading.CancellationToken)
+  id: Fad1(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad1(CancellationToken)
+  nameWithType: FadTags.Fad1(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad1(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad1")]
+
+      public Task<string> Fad1(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fad1")>
+
+      Public Function Fad1(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad1*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad2(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fad2(System.Threading.CancellationToken)
+  id: Fad2(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad2(CancellationToken)
+  nameWithType: FadTags.Fad2(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad2(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad2")]
+
+      public Task<string> Fad2(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fad2")>
+
+      Public Function Fad2(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad2*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad3(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fad3(System.Threading.CancellationToken)
+  id: Fad3(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad3(CancellationToken)
+  nameWithType: FadTags.Fad3(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad3(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad3")]
+
+      public Task<string> Fad3(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fad3")>
+
+      Public Function Fad3(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad3*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad4(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fad4(System.Threading.CancellationToken)
+  id: Fad4(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad4(CancellationToken)
+  nameWithType: FadTags.Fad4(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad4(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad4")]
+
+      public Task<string> Fad4(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fad4")>
+
+      Public Function Fad4(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad4*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad4
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad5(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fad5(System.Threading.CancellationToken)
+  id: Fad5(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad5(CancellationToken)
+  nameWithType: FadTags.Fad5(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad5(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad5")]
+
+      public Task<string> Fad5(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fad5")>
+
+      Public Function Fad5(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad5*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad5
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad6(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fad6(System.Threading.CancellationToken)
+  id: Fad6(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad6(CancellationToken)
+  nameWithType: FadTags.Fad6(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad6(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad6")]
+
+      public Task<string> Fad6(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fad6")>
+
+      Public Function Fad6(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad6*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad6
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad7(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fad7(System.Threading.CancellationToken)
+  id: Fad7(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad7(CancellationToken)
+  nameWithType: FadTags.Fad7(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad7(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad7")]
+
+      public Task<string> Fad7(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fad7")>
+
+      Public Function Fad7(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad7*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad7
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad8(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fad8(System.Threading.CancellationToken)
+  id: Fad8(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad8(CancellationToken)
+  nameWithType: FadTags.Fad8(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad8(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad8")]
+
+      public Task<string> Fad8(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fad8")>
+
+      Public Function Fad8(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad8*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad8
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad9(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fad9(System.Threading.CancellationToken)
+  id: Fad9(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad9(CancellationToken)
+  nameWithType: FadTags.Fad9(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad9(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad9")]
+
+      public Task<string> Fad9(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fad9")>
+
+      Public Function Fad9(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad9*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad9
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fada(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fada(System.Threading.CancellationToken)
+  id: Fada(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fada(CancellationToken)
+  nameWithType: FadTags.Fada(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fada(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fada")]
+
+      public Task<string> Fada(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fada")>
+
+      Public Function Fada(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fada*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fada
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadb(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadb(System.Threading.CancellationToken)
+  id: Fadb(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadb(CancellationToken)
+  nameWithType: FadTags.Fadb(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadb(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadb")]
+
+      public Task<string> Fadb(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadb")>
+
+      Public Function Fadb(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadb*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadb
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadc(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadc(System.Threading.CancellationToken)
+  id: Fadc(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadc(CancellationToken)
+  nameWithType: FadTags.Fadc(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadc(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadc")]
+
+      public Task<string> Fadc(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadc")>
+
+      Public Function Fadc(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadc*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadc
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadd(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadd(System.Threading.CancellationToken)
+  id: Fadd(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadd(CancellationToken)
+  nameWithType: FadTags.Fadd(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadd(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadd")]
+
+      public Task<string> Fadd(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadd")>
+
+      Public Function Fadd(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadd*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadd
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fade(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fade(System.Threading.CancellationToken)
+  id: Fade(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fade(CancellationToken)
+  nameWithType: FadTags.Fade(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fade(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fade")]
+
+      public Task<string> Fade(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fade")>
+
+      Public Function Fade(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fade*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fade
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadf(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadf(System.Threading.CancellationToken)
+  id: Fadf(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadf(CancellationToken)
+  nameWithType: FadTags.Fadf(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadf(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadf")]
+
+      public Task<string> Fadf(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadf")>
+
+      Public Function Fadf(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadf*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadf
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadg(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadg(System.Threading.CancellationToken)
+  id: Fadg(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadg(CancellationToken)
+  nameWithType: FadTags.Fadg(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadg(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadg")]
+
+      public Task<string> Fadg(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadg")>
+
+      Public Function Fadg(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadg*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadg
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadh(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadh(System.Threading.CancellationToken)
+  id: Fadh(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadh(CancellationToken)
+  nameWithType: FadTags.Fadh(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadh(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadh")]
+
+      public Task<string> Fadh(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadh")>
+
+      Public Function Fadh(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadh*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadh
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadi(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadi(System.Threading.CancellationToken)
+  id: Fadi(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadi(CancellationToken)
+  nameWithType: FadTags.Fadi(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadi(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadi")]
+
+      public Task<string> Fadi(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadi")>
+
+      Public Function Fadi(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadi*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadi
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadj(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadj(System.Threading.CancellationToken)
+  id: Fadj(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadj(CancellationToken)
+  nameWithType: FadTags.Fadj(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadj(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadj")]
+
+      public Task<string> Fadj(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadj")>
+
+      Public Function Fadj(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadj*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadj
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadk(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadk(System.Threading.CancellationToken)
+  id: Fadk(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadk(CancellationToken)
+  nameWithType: FadTags.Fadk(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadk(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadk")]
+
+      public Task<string> Fadk(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadk")>
+
+      Public Function Fadk(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadk*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadk
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadl(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadl(System.Threading.CancellationToken)
+  id: Fadl(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadl(CancellationToken)
+  nameWithType: FadTags.Fadl(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadl(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadl")]
+
+      public Task<string> Fadl(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadl")>
+
+      Public Function Fadl(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadl*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadm(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadm(System.Threading.CancellationToken)
+  id: Fadm(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadm(CancellationToken)
+  nameWithType: FadTags.Fadm(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadm(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadm")]
+
+      public Task<string> Fadm(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadm")>
+
+      Public Function Fadm(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadm*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadm
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadn(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadn(System.Threading.CancellationToken)
+  id: Fadn(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadn(CancellationToken)
+  nameWithType: FadTags.Fadn(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadn(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadn")]
+
+      public Task<string> Fadn(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadn")>
+
+      Public Function Fadn(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadn*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadn
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fado(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fado(System.Threading.CancellationToken)
+  id: Fado(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fado(CancellationToken)
+  nameWithType: FadTags.Fado(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fado(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fado")]
+
+      public Task<string> Fado(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fado")>
+
+      Public Function Fado(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fado*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fado
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadp(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadp(System.Threading.CancellationToken)
+  id: Fadp(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadp(CancellationToken)
+  nameWithType: FadTags.Fadp(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadp(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadp")]
+
+      public Task<string> Fadp(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadp")>
+
+      Public Function Fadp(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadp*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadp
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadq(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Fadq(System.Threading.CancellationToken)
+  id: Fadq(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadq(CancellationToken)
+  nameWithType: FadTags.Fadq(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadq(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadq")]
+
+      public Task<string> Fadq(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("fadq")>
+
+      Public Function Fadq(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadq*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadq
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Globalization.FadTags.IsValid
   commentId: P:SuperOffice.CRM.Globalization.FadTags.IsValid
   id: IsValid
@@ -443,1131 +1578,6 @@ items:
   modifiers.vb:
   - Protected
   - Overridable
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Id
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Id
-  id: Id
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Id
-  nameWithType: FadTags.Id
-  fullName: SuperOffice.CRM.Globalization.FadTags.Id
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: public override int Id { get; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overrides ReadOnly Property Id As Integer
-  overridden: SuperOffice.IO.TagContainer.Id
-  overload: SuperOffice.CRM.Globalization.FadTags.Id*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  modifiers.vb:
-  - Public
-  - Overrides
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fad1
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad1
-  id: Fad1
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fad1
-  nameWithType: FadTags.Fad1
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fad1
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fad1")]
-
-      public string Fad1 { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fad1")>
-
-      Public ReadOnly Property Fad1 As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fad1*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fad1
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fad2
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad2
-  id: Fad2
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fad2
-  nameWithType: FadTags.Fad2
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fad2
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fad2")]
-
-      public string Fad2 { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fad2")>
-
-      Public ReadOnly Property Fad2 As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fad2*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fad2
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fad3
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad3
-  id: Fad3
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fad3
-  nameWithType: FadTags.Fad3
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fad3
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fad3")]
-
-      public string Fad3 { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fad3")>
-
-      Public ReadOnly Property Fad3 As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fad3*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fad3
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fad4
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad4
-  id: Fad4
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fad4
-  nameWithType: FadTags.Fad4
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fad4
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fad4")]
-
-      public string Fad4 { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fad4")>
-
-      Public ReadOnly Property Fad4 As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fad4*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fad4
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fad5
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad5
-  id: Fad5
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fad5
-  nameWithType: FadTags.Fad5
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fad5
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fad5")]
-
-      public string Fad5 { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fad5")>
-
-      Public ReadOnly Property Fad5 As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fad5*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fad5
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fad6
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad6
-  id: Fad6
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fad6
-  nameWithType: FadTags.Fad6
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fad6
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fad6")]
-
-      public string Fad6 { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fad6")>
-
-      Public ReadOnly Property Fad6 As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fad6*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fad6
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fad7
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad7
-  id: Fad7
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fad7
-  nameWithType: FadTags.Fad7
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fad7
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fad7")]
-
-      public string Fad7 { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fad7")>
-
-      Public ReadOnly Property Fad7 As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fad7*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fad7
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fad8
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad8
-  id: Fad8
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fad8
-  nameWithType: FadTags.Fad8
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fad8
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fad8")]
-
-      public string Fad8 { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fad8")>
-
-      Public ReadOnly Property Fad8 As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fad8*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fad8
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fad9
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad9
-  id: Fad9
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fad9
-  nameWithType: FadTags.Fad9
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fad9
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fad9")]
-
-      public string Fad9 { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fad9")>
-
-      Public ReadOnly Property Fad9 As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fad9*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fad9
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fada
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fada
-  id: Fada
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fada
-  nameWithType: FadTags.Fada
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fada
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fada")]
-
-      public string Fada { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fada")>
-
-      Public ReadOnly Property Fada As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fada*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fada
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadb
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadb
-  id: Fadb
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadb
-  nameWithType: FadTags.Fadb
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadb
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadb")]
-
-      public string Fadb { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadb")>
-
-      Public ReadOnly Property Fadb As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadb*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadb
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadc
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadc
-  id: Fadc
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadc
-  nameWithType: FadTags.Fadc
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadc
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadc")]
-
-      public string Fadc { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadc")>
-
-      Public ReadOnly Property Fadc As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadc*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadc
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadd
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadd
-  id: Fadd
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadd
-  nameWithType: FadTags.Fadd
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadd
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadd")]
-
-      public string Fadd { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadd")>
-
-      Public ReadOnly Property Fadd As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadd*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadd
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fade
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fade
-  id: Fade
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fade
-  nameWithType: FadTags.Fade
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fade
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fade")]
-
-      public string Fade { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fade")>
-
-      Public ReadOnly Property Fade As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fade*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fade
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadf
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadf
-  id: Fadf
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadf
-  nameWithType: FadTags.Fadf
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadf
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadf")]
-
-      public string Fadf { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadf")>
-
-      Public ReadOnly Property Fadf As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadf*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadf
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadg
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadg
-  id: Fadg
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadg
-  nameWithType: FadTags.Fadg
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadg
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadg")]
-
-      public string Fadg { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadg")>
-
-      Public ReadOnly Property Fadg As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadg*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadg
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadh
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadh
-  id: Fadh
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadh
-  nameWithType: FadTags.Fadh
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadh
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadh")]
-
-      public string Fadh { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadh")>
-
-      Public ReadOnly Property Fadh As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadh*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadh
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadi
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadi
-  id: Fadi
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadi
-  nameWithType: FadTags.Fadi
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadi
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadi")]
-
-      public string Fadi { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadi")>
-
-      Public ReadOnly Property Fadi As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadi*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadi
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadj
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadj
-  id: Fadj
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadj
-  nameWithType: FadTags.Fadj
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadj
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadj")]
-
-      public string Fadj { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadj")>
-
-      Public ReadOnly Property Fadj As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadj*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadj
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadk
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadk
-  id: Fadk
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadk
-  nameWithType: FadTags.Fadk
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadk
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadk")]
-
-      public string Fadk { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadk")>
-
-      Public ReadOnly Property Fadk As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadk*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadk
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadl
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadl
-  id: Fadl
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadl
-  nameWithType: FadTags.Fadl
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadl
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadl")]
-
-      public string Fadl { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadl")>
-
-      Public ReadOnly Property Fadl As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadl*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadl
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadm
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadm
-  id: Fadm
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadm
-  nameWithType: FadTags.Fadm
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadm
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadm")]
-
-      public string Fadm { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadm")>
-
-      Public ReadOnly Property Fadm As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadm*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadm
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadn
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadn
-  id: Fadn
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadn
-  nameWithType: FadTags.Fadn
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadn
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadn")]
-
-      public string Fadn { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadn")>
-
-      Public ReadOnly Property Fadn As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadn*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadn
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fado
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fado
-  id: Fado
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fado
-  nameWithType: FadTags.Fado
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fado
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fado")]
-
-      public string Fado { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fado")>
-
-      Public ReadOnly Property Fado As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fado*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fado
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadp
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadp
-  id: Fadp
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadp
-  nameWithType: FadTags.Fadp
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadp
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadp")]
-
-      public string Fadp { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadp")>
-
-      Public ReadOnly Property Fadp As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadp*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadp
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.FadTags.Fadq
-  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadq
-  id: Fadq
-  parent: SuperOffice.CRM.Globalization.FadTags
-  langs:
-  - csharp
-  - vb
-  name: Fadq
-  nameWithType: FadTags.Fadq
-  fullName: SuperOffice.CRM.Globalization.FadTags.Fadq
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: >-
-      [TemplateTag("fadq")]
-
-      public string Fadq { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("fadq")>
-
-      Public ReadOnly Property Fadq As String
-  overload: SuperOffice.CRM.Globalization.FadTags.Fadq*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: fadq
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
   - ReadOnly
 references:
 - uid: SuperOffice.CRM.Globalization
@@ -1709,18 +1719,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
+- uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: GetValue(String)
-  nameWithType: TagContainer.GetValue(String)
-  fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
+  name: GetValueAsync(String, CancellationToken)
+  nameWithType: TagContainer.GetValueAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetValueAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-    name: GetValue
-    nameWithType: TagContainer.GetValue
-    fullName: SuperOffice.IO.TagContainer.GetValue
+  - uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+    name: GetValueAsync
+    nameWithType: TagContainer.GetValueAsync
+    fullName: SuperOffice.IO.TagContainer.GetValueAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1729,15 +1739,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-    name: GetValue
-    nameWithType: TagContainer.GetValue
-    fullName: SuperOffice.IO.TagContainer.GetValue
+  - uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+    name: GetValueAsync
+    nameWithType: TagContainer.GetValueAsync
+    fullName: SuperOffice.IO.TagContainer.GetValueAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1746,6 +1764,14 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -1879,18 +1905,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: IsTagLegal(String)
-  nameWithType: TagContainer.IsTagLegal(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  name: IsTagLegalAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagLegalAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-    name: IsTagLegal
-    nameWithType: TagContainer.IsTagLegal
-    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+  - uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagLegalAsync
+    nameWithType: TagContainer.IsTagLegalAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1899,15 +1925,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-    name: IsTagLegal
-    nameWithType: TagContainer.IsTagLegal
-    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+  - uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagLegalAsync
+    nameWithType: TagContainer.IsTagLegalAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1916,22 +1950,30 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: IsTagInContext(String)
-  nameWithType: TagContainer.IsTagInContext(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  name: IsTagInContextAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagInContextAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-    name: IsTagInContext
-    nameWithType: TagContainer.IsTagInContext
-    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+  - uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagInContextAsync
+    nameWithType: TagContainer.IsTagInContextAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1940,15 +1982,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-    name: IsTagInContext
-    nameWithType: TagContainer.IsTagInContext
-    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+  - uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagInContextAsync
+    nameWithType: TagContainer.IsTagInContextAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1957,6 +2007,14 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -2178,43 +2236,63 @@ references:
   name: FadTags
   nameWithType: FadTags.FadTags
   fullName: SuperOffice.CRM.Globalization.FadTags.FadTags
-- uid: SuperOffice.IO.TagContainer.Init
-  commentId: M:SuperOffice.IO.TagContainer.Init
+- uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: Init()
-  nameWithType: TagContainer.Init()
-  fullName: SuperOffice.IO.TagContainer.Init()
+  name: InitAsync(CancellationToken)
+  nameWithType: TagContainer.InitAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.Init
-    name: Init
-    nameWithType: TagContainer.Init
-    fullName: SuperOffice.IO.TagContainer.Init
+  - uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
+    nameWithType: TagContainer.InitAsync
+    fullName: SuperOffice.IO.TagContainer.InitAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.Init
-    name: Init
-    nameWithType: TagContainer.Init
-    fullName: SuperOffice.IO.TagContainer.Init
+  - uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
+    nameWithType: TagContainer.InitAsync
+    fullName: SuperOffice.IO.TagContainer.InitAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Globalization.FadTags.Init*
-  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Init
+- uid: SuperOffice.CRM.Globalization.FadTags.InitAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.InitAsync
   isExternal: true
-  name: Init
-  nameWithType: FadTags.Init
-  fullName: SuperOffice.CRM.Globalization.FadTags.Init
+  name: InitAsync
+  nameWithType: FadTags.InitAsync
+  fullName: SuperOffice.CRM.Globalization.FadTags.InitAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Globalization.FadTags.GetAddressType*
   commentId: Overload:SuperOffice.CRM.Globalization.FadTags.GetAddressType
   isExternal: true
@@ -2266,44 +2344,189 @@ references:
   name: DetermineFormat
   nameWithType: FadTags.DetermineFormat
   fullName: SuperOffice.CRM.Globalization.FadTags.DetermineFormat
-- uid: SuperOffice.CRM.Globalization.FadTags.GenerateFads*
-  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.GenerateFads
+- uid: SuperOffice.CRM.Globalization.FadTags.GenerateFadsAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.GenerateFadsAsync
   isExternal: true
-  name: GenerateFads
-  nameWithType: FadTags.GenerateFads
-  fullName: SuperOffice.CRM.Globalization.FadTags.GenerateFads
-- uid: SuperOffice.CRM.Globalization.FadTags.IsValid*
-  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.IsValid
-  isExternal: true
-  name: IsValid
-  nameWithType: FadTags.IsValid
-  fullName: SuperOffice.CRM.Globalization.FadTags.IsValid
-- uid: SuperOffice.IO.TagContainer.Id
-  commentId: P:SuperOffice.IO.TagContainer.Id
+  name: GenerateFadsAsync
+  nameWithType: FadTags.GenerateFadsAsync
+  fullName: SuperOffice.CRM.Globalization.FadTags.GenerateFadsAsync
+- uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: Id
-  nameWithType: TagContainer.Id
-  fullName: SuperOffice.IO.TagContainer.Id
-- uid: SuperOffice.CRM.Globalization.FadTags.Id*
-  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Id
+  name: GetIdAsync(CancellationToken)
+  nameWithType: TagContainer.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+    name: GetIdAsync
+    nameWithType: TagContainer.GetIdAsync
+    fullName: SuperOffice.IO.TagContainer.GetIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+    name: GetIdAsync
+    nameWithType: TagContainer.GetIdAsync
+    fullName: SuperOffice.IO.TagContainer.GetIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.FadTags.GetIdAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.GetIdAsync
   isExternal: true
-  name: Id
-  nameWithType: FadTags.Id
-  fullName: SuperOffice.CRM.Globalization.FadTags.Id
+  name: GetIdAsync
+  nameWithType: FadTags.GetIdAsync
+  fullName: SuperOffice.CRM.Globalization.FadTags.GetIdAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Globalization.FadTags.Fad1*
   commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad1
   isExternal: true
   name: Fad1
   nameWithType: FadTags.Fad1
   fullName: SuperOffice.CRM.Globalization.FadTags.Fad1
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Globalization.FadTags.Fad2*
   commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad2
   isExternal: true
@@ -2454,3 +2677,9 @@ references:
   name: Fadq
   nameWithType: FadTags.Fadq
   fullName: SuperOffice.CRM.Globalization.FadTags.Fadq
+- uid: SuperOffice.CRM.Globalization.FadTags.IsValid*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.IsValid
+  isExternal: true
+  name: IsValid
+  nameWithType: FadTags.IsValid
+  fullName: SuperOffice.CRM.Globalization.FadTags.IsValid

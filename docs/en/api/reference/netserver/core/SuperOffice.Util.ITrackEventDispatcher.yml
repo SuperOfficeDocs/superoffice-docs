@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Util
   children:
   - SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
+  - SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -55,6 +56,32 @@ items:
       type: System.String
     content.vb: Sub TrackEvent(trackEvent As String)
   overload: SuperOffice.Util.ITrackEventDispatcher.TrackEvent*
+- uid: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  id: WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Util.ITrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: WaitForTrackersToCompleteAsync(CancellationToken)
+  nameWithType: ITrackEventDispatcher.WaitForTrackersToCompleteAsync(CancellationToken)
+  fullName: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: Task WaitForTrackersToCompleteAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function WaitForTrackersToCompleteAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync*
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -246,3 +273,19 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync*
+  commentId: Overload:SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync
+  isExternal: true
+  name: WaitForTrackersToCompleteAsync
+  nameWithType: ITrackEventDispatcher.WaitForTrackersToCompleteAsync
+  fullName: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

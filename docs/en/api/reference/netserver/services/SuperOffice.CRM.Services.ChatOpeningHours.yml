@@ -53,8 +53,6 @@ items:
       Public Class ChatOpeningHours
           Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.ChatAgent
-    commentId: T:SuperOffice.CRM.Services.ChatAgent
   - linkId: SuperOffice.CRM.Services.IChatAgent
     commentId: T:SuperOffice.CRM.Services.IChatAgent
   inheritance:
@@ -987,15 +985,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ChatAgent
-  commentId: T:SuperOffice.CRM.Services.ChatAgent
-  isExternal: true
-  name: ChatAgent
-  nameWithType: ChatAgent
-  fullName: SuperOffice.CRM.Services.ChatAgent
 - uid: SuperOffice.CRM.Services.IChatAgent
   commentId: T:SuperOffice.CRM.Services.IChatAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IChatAgent
   nameWithType: IChatAgent

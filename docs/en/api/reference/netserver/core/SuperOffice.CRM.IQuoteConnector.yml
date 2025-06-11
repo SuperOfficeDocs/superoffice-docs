@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.CRM.IQuoteConnector.CanProvideCapability(System.String)
   - SuperOffice.CRM.IQuoteConnector.CRMConnectionId
-  - SuperOffice.CRM.IQuoteConnector.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+  - SuperOffice.CRM.IQuoteConnector.FindProductAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.IQuoteConnector.GetActivePriceLists(System.String)
   - SuperOffice.CRM.IQuoteConnector.GetAddresses(SuperOffice.CRM.QuoteAlternativeContextInfo)
   - SuperOffice.CRM.IQuoteConnector.GetAllPriceLists(System.String)
@@ -20,9 +20,9 @@ items:
   - SuperOffice.CRM.IQuoteConnector.GetProductImage(System.String,System.Int32)
   - SuperOffice.CRM.IQuoteConnector.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
   - SuperOffice.CRM.IQuoteConnector.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
-  - SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)
+  - SuperOffice.CRM.IQuoteConnector.GetQuoteListAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.IQuoteConnector.GetSearchableFields
-  - SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
+  - SuperOffice.CRM.IQuoteConnector.GetSearchResultsAsync(SuperOffice.CRM.SearchRestrictionInfo[],System.Threading.CancellationToken)
   - SuperOffice.CRM.IQuoteConnector.InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo,SuperOffice.CRM.UserInfo,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.IProductRegisterCache)
   - SuperOffice.CRM.IQuoteConnector.OnAfterSaveQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
   - SuperOffice.CRM.IQuoteConnector.OnAfterSentQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
@@ -30,12 +30,12 @@ items:
   - SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
   - SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
   - SuperOffice.CRM.IQuoteConnector.OnBeforeDeleteQuote(SuperOffice.CRM.QuoteInfo,SuperOffice.CRM.ISaleInfo,SuperOffice.CRM.IContactInfo)
-  - SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[])
+  - SuperOffice.CRM.IQuoteConnector.OnQuoteLineChangedAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.IQuoteConnector.PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
-  - SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  - SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.IQuoteConnector.TestConnection(System.Collections.Generic.Dictionary{System.String,System.String})
-  - SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
-  - SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction)
+  - SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPricesAsync(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
+  - SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -393,16 +393,16 @@ items:
       description: URL and/or modified quote version info.
     content.vb: Function OnAfterSentQuoteVersion(quoteContext As QuoteVersionContextInfo) As QuoteSentResponseInfo
   overload: SuperOffice.CRM.IQuoteConnector.OnAfterSentQuoteVersion*
-- uid: SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)
-  commentId: M:SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)
-  id: GetQuoteList(System.String)
+- uid: SuperOffice.CRM.IQuoteConnector.GetQuoteListAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetQuoteListAsync(System.String,System.Threading.CancellationToken)
+  id: GetQuoteListAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.IQuoteConnector
   langs:
   - csharp
   - vb
-  name: GetQuoteList(String)
-  nameWithType: IQuoteConnector.GetQuoteList(String)
-  fullName: SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)
+  name: GetQuoteListAsync(String, CancellationToken)
+  nameWithType: IQuoteConnector.GetQuoteListAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetQuoteListAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Plugins
@@ -412,16 +412,18 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nGets a named list from the connector.\n<p></p>\nThere are a few lists in the ERP system that we would like to show to the users: \npayment terms and types, delivery terms and types, and product classifications (product category, product family and product type).\nThese lists can be supplied by the ERP connector using this interface.\nSuperOffice will take these values and convert the simple flat list of values into a SuperOffice list that appears in the GUI.\nIf the ERP connector wants to supply a more complex nested list, then the ERP connector can implement a full MDO Provider.\n<p></p>\nThere are some lists in the system we would like the ERP system to provide data for, if it can:<p></p>\n•	ProductCategory<p></p>\n•	ProductFamily<p></p>\n•	ProductType<p></p>\n•	PaymentTerms<p></p>\n•	PaymentType<p></p>\n•	DeliveryTerms<p></p>\n•	DeliveryType <p></p>\nIf a quote list is NULL, then the GUI will fall back to a text input field, where the user can enter text. \nThis text is passed to the ERP plugin unchanged.<p></p>\nThe Quote configuration API may also refer to custom list names which will be filled in by asking here. \nI.e. you will be asked for more lists than just the ones mentioned here, if you have added custom lists to the configuration dialog.\n"
   syntax:
-    content: ListItemInfo[] GetQuoteList(string quoteListType)
+    content: Task<ListItemInfo[]> GetQuoteListAsync(string quoteListType, CancellationToken cancellationToken = null)
     parameters:
     - id: quoteListType
       type: System.String
       description: The quoteListType parameter is case insensitive.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.ListItemInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.ListItemInfo[]}
       description: "\nReturn array of QuoteListItems.\nReturn NULL if the given list is not supported.\n"
-    content.vb: Function GetQuoteList(quoteListType As String) As ListItemInfo()
-  overload: SuperOffice.CRM.IQuoteConnector.GetQuoteList*
+    content.vb: Function GetQuoteListAsync(quoteListType As String, cancellationToken As CancellationToken = Nothing) As Task(Of ListItemInfo())
+  overload: SuperOffice.CRM.IQuoteConnector.GetQuoteListAsync*
 - uid: SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists(System.String)
   commentId: M:SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists(System.String)
   id: GetNumberOfActivePriceLists(System.String)
@@ -509,16 +511,16 @@ items:
       description: "\nReturn empty array if there is no PriceList available.\nReturn all pricelists if isoCurrencyCode is empty.\n"
     content.vb: Function GetAllPriceLists(isoCurrencyCode As String) As PriceListInfo()
   overload: SuperOffice.CRM.IQuoteConnector.GetAllPriceLists*
-- uid: SuperOffice.CRM.IQuoteConnector.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.IQuoteConnector.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
-  id: FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+- uid: SuperOffice.CRM.IQuoteConnector.FindProductAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.FindProductAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: FindProductAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.IQuoteConnector
   langs:
   - csharp
   - vb
-  name: FindProduct(QuoteAlternativeContextInfo, String, String, String)
-  nameWithType: IQuoteConnector.FindProduct(QuoteAlternativeContextInfo, String, String, String)
-  fullName: SuperOffice.CRM.IQuoteConnector.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String, System.String, System.String)
+  name: FindProductAsync(QuoteAlternativeContextInfo, String, String, String, CancellationToken)
+  nameWithType: IQuoteConnector.FindProductAsync(QuoteAlternativeContextInfo, String, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.IQuoteConnector.FindProductAsync(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Plugins
@@ -528,7 +530,7 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nThe connector should treat this as a freetext search, the user might want to enter several words \nand expect the system to search for through several fields like name, description, product code, extrafields, etc. \n<p></p>\nSince the return list is a potentially large return value, the connector or the ERP system should \nlimit the number of matches returned to a few hundred.\n<p></p>\nThe dropdown fast searcher calls this function to populate the dropdown list.\n"
   syntax:
-    content: ProductInfo[] FindProduct(QuoteAlternativeContextInfo context, string currencyCode, string userinput, string priceListKey)
+    content: Task<ProductInfo[]> FindProductAsync(QuoteAlternativeContextInfo context, string currencyCode, string userinput, string priceListKey, CancellationToken cancellationToken = null)
     parameters:
     - id: context
       type: SuperOffice.CRM.QuoteAlternativeContextInfo
@@ -539,11 +541,13 @@ items:
     - id: priceListKey
       type: System.String
       description: If the pricelist is empty, the function will search in all active pricelists.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.ProductInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.ProductInfo[]}
       description: An array of products matching the search words
-    content.vb: Function FindProduct(context As QuoteAlternativeContextInfo, currencyCode As String, userinput As String, priceListKey As String) As ProductInfo()
-  overload: SuperOffice.CRM.IQuoteConnector.FindProduct*
+    content.vb: Function FindProductAsync(context As QuoteAlternativeContextInfo, currencyCode As String, userinput As String, priceListKey As String, cancellationToken As CancellationToken = Nothing) As Task(Of ProductInfo())
+  overload: SuperOffice.CRM.IQuoteConnector.FindProductAsync*
 - uid: SuperOffice.CRM.IQuoteConnector.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
   commentId: M:SuperOffice.CRM.IQuoteConnector.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
   id: GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
@@ -761,16 +765,16 @@ items:
       description: Metadata structures
     content.vb: Function GetSearchableFields As FieldMetadataInfo()
   overload: SuperOffice.CRM.IQuoteConnector.GetSearchableFields*
-- uid: SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
-  commentId: M:SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
-  id: GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
+- uid: SuperOffice.CRM.IQuoteConnector.GetSearchResultsAsync(SuperOffice.CRM.SearchRestrictionInfo[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetSearchResultsAsync(SuperOffice.CRM.SearchRestrictionInfo[],System.Threading.CancellationToken)
+  id: GetSearchResultsAsync(SuperOffice.CRM.SearchRestrictionInfo[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.IQuoteConnector
   langs:
   - csharp
   - vb
-  name: GetSearchResults(SearchRestrictionInfo[])
-  nameWithType: IQuoteConnector.GetSearchResults(SearchRestrictionInfo[])
-  fullName: SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
+  name: GetSearchResultsAsync(SearchRestrictionInfo[], CancellationToken)
+  nameWithType: IQuoteConnector.GetSearchResultsAsync(SearchRestrictionInfo[], CancellationToken)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetSearchResultsAsync(SuperOffice.CRM.SearchRestrictionInfo[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Plugins
@@ -780,29 +784,31 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nPerform the advanced search and return results\n"
   syntax:
-    content: ProductInfo[] GetSearchResults(SearchRestrictionInfo[] restrictions)
+    content: IAsyncEnumerable<ProductInfo> GetSearchResultsAsync(SearchRestrictionInfo[] restrictions, CancellationToken cancellationToken = null)
     parameters:
     - id: restrictions
       type: SuperOffice.CRM.SearchRestrictionInfo[]
       description: Array of restrictions chosen by the user; see <xref href="SuperOffice.CRM.SearchRestrictionInfo" data-throw-if-not-resolved="false"></xref> for details
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.ProductInfo[]
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.ProductInfo}
       description: Array (possibly empty) of hits, populated as fully as reasonably possible (should follow same policy as <see cref="!:IProductProvider.FindProducts"></see>
-    content.vb: Function GetSearchResults(restrictions As SearchRestrictionInfo()) As ProductInfo()
-  overload: SuperOffice.CRM.IQuoteConnector.GetSearchResults*
-  nameWithType.vb: IQuoteConnector.GetSearchResults(SearchRestrictionInfo())
-  fullName.vb: SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo())
-  name.vb: GetSearchResults(SearchRestrictionInfo())
-- uid: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[])
-  commentId: M:SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[])
-  id: OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[])
+    content.vb: Function GetSearchResultsAsync(restrictions As SearchRestrictionInfo(), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ProductInfo)
+  overload: SuperOffice.CRM.IQuoteConnector.GetSearchResultsAsync*
+  nameWithType.vb: IQuoteConnector.GetSearchResultsAsync(SearchRestrictionInfo(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.IQuoteConnector.GetSearchResultsAsync(SuperOffice.CRM.SearchRestrictionInfo(), System.Threading.CancellationToken)
+  name.vb: GetSearchResultsAsync(SearchRestrictionInfo(), CancellationToken)
+- uid: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChangedAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.OnQuoteLineChangedAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[],System.Threading.CancellationToken)
+  id: OnQuoteLineChangedAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.IQuoteConnector
   langs:
   - csharp
   - vb
-  name: OnQuoteLineChanged(QuoteAlternativeContextInfo, QuoteLineInfo, String[])
-  nameWithType: IQuoteConnector.OnQuoteLineChanged(QuoteAlternativeContextInfo, QuoteLineInfo, String[])
-  fullName: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo, SuperOffice.CRM.QuoteLineInfo, System.String[])
+  name: OnQuoteLineChangedAsync(QuoteAlternativeContextInfo, QuoteLineInfo, String[], CancellationToken)
+  nameWithType: IQuoteConnector.OnQuoteLineChangedAsync(QuoteAlternativeContextInfo, QuoteLineInfo, String[], CancellationToken)
+  fullName: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChangedAsync(SuperOffice.CRM.QuoteAlternativeContextInfo, SuperOffice.CRM.QuoteLineInfo, System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Plugins
@@ -813,7 +819,7 @@ items:
   summary: "\nCalled when the user has changed a field in the Quote Line.\nThe QuoteContext is readonly; QuoteLine may be changed in the return value. \nResponse time must be fast since this method is called often (every time a field is changed).\n"
   remarks: "\nThe connect can signal errors or warnings by setting the <xref href=\"SuperOffice.CRM.QuoteLineInfo.Status\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.QuoteLineInfo.Reason\" data-throw-if-not-resolved=\"false\"></xref> fields. \nThis information will be displayed in the Quote Line dialog and in the quote-line archive.\n"
   syntax:
-    content: QuoteLineInfo OnQuoteLineChanged(QuoteAlternativeContextInfo context, QuoteLineInfo ql, string[] changedFields)
+    content: Task<QuoteLineInfo> OnQuoteLineChangedAsync(QuoteAlternativeContextInfo context, QuoteLineInfo ql, string[] changedFields, CancellationToken cancellationToken = null)
     parameters:
     - id: context
       type: SuperOffice.CRM.QuoteAlternativeContextInfo
@@ -824,24 +830,26 @@ items:
     - id: changedFields
       type: System.String[]
       description: 'List of fields that were changed, in the format: &quot;TableName.FieldName&quot;'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.QuoteLineInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteLineInfo}
       description: The updated quote line
-    content.vb: Function OnQuoteLineChanged(context As QuoteAlternativeContextInfo, ql As QuoteLineInfo, changedFields As String()) As QuoteLineInfo
-  overload: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged*
-  nameWithType.vb: IQuoteConnector.OnQuoteLineChanged(QuoteAlternativeContextInfo, QuoteLineInfo, String())
-  fullName.vb: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo, SuperOffice.CRM.QuoteLineInfo, System.String())
-  name.vb: OnQuoteLineChanged(QuoteAlternativeContextInfo, QuoteLineInfo, String())
-- uid: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
-  commentId: M:SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
-  id: RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    content.vb: Function OnQuoteLineChangedAsync(context As QuoteAlternativeContextInfo, ql As QuoteLineInfo, changedFields As String(), cancellationToken As CancellationToken = Nothing) As Task(Of QuoteLineInfo)
+  overload: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChangedAsync*
+  nameWithType.vb: IQuoteConnector.OnQuoteLineChangedAsync(QuoteAlternativeContextInfo, QuoteLineInfo, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChangedAsync(SuperOffice.CRM.QuoteAlternativeContextInfo, SuperOffice.CRM.QuoteLineInfo, System.String(), System.Threading.CancellationToken)
+  name.vb: OnQuoteLineChangedAsync(QuoteAlternativeContextInfo, QuoteLineInfo, String(), CancellationToken)
+- uid: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
+  id: RecalculateQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeContextInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.IQuoteConnector
   langs:
   - csharp
   - vb
-  name: RecalculateQuoteAlternative(QuoteAlternativeContextInfo)
-  nameWithType: IQuoteConnector.RecalculateQuoteAlternative(QuoteAlternativeContextInfo)
-  fullName: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  name: RecalculateQuoteAlternativeAsync(QuoteAlternativeContextInfo, CancellationToken)
+  nameWithType: IQuoteConnector.RecalculateQuoteAlternativeAsync(QuoteAlternativeContextInfo, CancellationToken)
+  fullName: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternativeAsync(SuperOffice.CRM.QuoteAlternativeContextInfo, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Plugins
@@ -852,26 +860,28 @@ items:
   summary: "\nThe user is finished with entering the quotelines, and wants to calculate the order discount (alternative discount)\non this alternative.\nThis method is called whenever the quote lines are changed in the alternative, or when the user clicks the RECALCULATE button. \n"
   remarks: "\nThe connector may signal problems with the quote by setting the <xref href=\"SuperOffice.CRM.QuoteAlternativeInfo.Status\" data-throw-if-not-resolved=\"false\"></xref> \nto Error, Warning or OkWithInfo, and fill in the alternative&apos;s Reason field with an explanation.\n<p></p>\nUse <xref href=\"SuperOffice.CRM.QuoteCalculation.CalculateQuoteAlternativeWithLines(SuperOffice.CRM.QuoteAlternativeWithLinesInfo)\" data-throw-if-not-resolved=\"false\"></xref> to help you calculate amounts.\n"
   syntax:
-    content: QuoteAlternativeWithLinesInfo RecalculateQuoteAlternative(QuoteAlternativeContextInfo context)
+    content: Task<QuoteAlternativeWithLinesInfo> RecalculateQuoteAlternativeAsync(QuoteAlternativeContextInfo context, CancellationToken cancellationToken = null)
     parameters:
     - id: context
       type: SuperOffice.CRM.QuoteAlternativeContextInfo
       description: The context as it appears to the user
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteAlternativeWithLinesInfo}
       description: The updated alternative
-    content.vb: Function RecalculateQuoteAlternative(context As QuoteAlternativeContextInfo) As QuoteAlternativeWithLinesInfo
-  overload: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative*
-- uid: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction)
-  commentId: M:SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction)
-  id: ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction)
+    content.vb: Function RecalculateQuoteAlternativeAsync(context As QuoteAlternativeContextInfo, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternativeWithLinesInfo)
+  overload: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternativeAsync*
+- uid: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction,System.Threading.CancellationToken)
+  id: ValidateQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.IQuoteConnector
   langs:
   - csharp
   - vb
-  name: ValidateQuoteVersion(QuoteVersionContextInfo, QuoteAction)
-  nameWithType: IQuoteConnector.ValidateQuoteVersion(QuoteVersionContextInfo, QuoteAction)
-  fullName: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo, SuperOffice.CRM.QuoteAction)
+  name: ValidateQuoteVersionAsync(QuoteVersionContextInfo, QuoteAction, CancellationToken)
+  nameWithType: IQuoteConnector.ValidateQuoteVersionAsync(QuoteVersionContextInfo, QuoteAction, CancellationToken)
+  fullName: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo, SuperOffice.CRM.QuoteAction, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Plugins
@@ -880,9 +890,9 @@ items:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
   summary: "\nValidates the version, looks for problems. Will typically change the Status and Reason fields, possibly change the State to NeedsApproval.\nShould validate all the alternatives and their quote-lines.\nThe user is finished with entering the quote-lines, and wants to prepare the sending of the quote. \nThis method gives the ERP system a chance to enforce its business rules.\n<p></p>\nThis method is called whenever the user clicks the SEND button, the PLACE ORDER or closes the quote dialog. \nQuote Lines, Alternatives, Version and Quote fields can be changed in the return value. \nUse <xref href=\"SuperOffice.CRM.QuoteCalculation.CalculateVersionWithAlternatives(SuperOffice.CRM.QuoteVersionContextInfo)\" data-throw-if-not-resolved=\"false\"></xref> to help you calculate amounts.\n"
-  remarks: "\nValidation should not change the prices on quotelines - it should ensure conformance to business rules.\n<p></p>\nA draft quote version will have state = <xref href=\"QuoteVersionStateInfo.DraftNotCalculated\" data-throw-if-not-resolved=\"false\"></xref> when called. \nThe connector should set the version state to <see cref=\"!:QuoteVersionStateInfo.DraftCalculated\"></see>\nif the calculations were successful. Leave the state as DraftNotCalculated if the ERP system was not available or some other factor that made the calculation unsuccessful.\n<p></p>\nThe connector can trigger the approval workflow by setting the state to <xref href=\"QuoteVersionStateInfo.DraftNeedsApproval\" data-throw-if-not-resolved=\"false\"></xref>. When a user with the approval permission \nhas approved or rejected the quote, the quote version state will be <xref href=\"QuoteVersionStateInfo.DraftApproved\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"QuoteVersionStateInfo.DraftNotApproved\" data-throw-if-not-resolved=\"false\"></xref>.\n<p></p>\nNote that recalculate may also be called when the quote is Approved, or Archived.  In these cases, please leave the quote version state alone.\n<p></p>\nThe connector may signal problems with the quote by setting the <xref href=\"SuperOffice.CRM.QuoteVersionInfo.Status\" data-throw-if-not-resolved=\"false\"></xref> \nto Error, Warning or OkWithInfo, and fill in the version&apos;s Reason field with an explanation.\n<p></p>\nThe <xref href=\"SuperOffice.CRM.QuoteConnectorBase\" data-throw-if-not-resolved=\"false\"></xref> implementation of this method defines methods for validating <xref href=\"SuperOffice.CRM.QuoteConnectorBase.ValidateQuoteLine(SuperOffice.CRM.QuoteAlternativeContextInfo%2cSuperOffice.CRM.QuoteLineInfo%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  remarks: "\nValidation should not change the prices on quotelines - it should ensure conformance to business rules.\n<p></p>\nA draft quote version will have state = <xref href=\"QuoteVersionStateInfo.DraftNotCalculated\" data-throw-if-not-resolved=\"false\"></xref> when called. \nThe connector should set the version state to <see cref=\"!:QuoteVersionStateInfo.DraftCalculated\"></see>\nif the calculations were successful. Leave the state as DraftNotCalculated if the ERP system was not available or some other factor that made the calculation unsuccessful.\n<p></p>\nThe connector can trigger the approval workflow by setting the state to <xref href=\"QuoteVersionStateInfo.DraftNeedsApproval\" data-throw-if-not-resolved=\"false\"></xref>. When a user with the approval permission \nhas approved or rejected the quote, the quote version state will be <xref href=\"QuoteVersionStateInfo.DraftApproved\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"QuoteVersionStateInfo.DraftNotApproved\" data-throw-if-not-resolved=\"false\"></xref>.\n<p></p>\nNote that recalculate may also be called when the quote is Approved, or Archived.  In these cases, please leave the quote version state alone.\n<p></p>\nThe connector may signal problems with the quote by setting the <xref href=\"SuperOffice.CRM.QuoteVersionInfo.Status\" data-throw-if-not-resolved=\"false\"></xref> \nto Error, Warning or OkWithInfo, and fill in the version&apos;s Reason field with an explanation.\n<p></p>\nThe <xref href=\"SuperOffice.CRM.QuoteConnectorBase\" data-throw-if-not-resolved=\"false\"></xref> implementation of this method defines methods for validating <xref href=\"SuperOffice.CRM.QuoteConnectorBase.ValidateQuoteLineAsync(SuperOffice.CRM.QuoteAlternativeContextInfo%2cSuperOffice.CRM.QuoteLineInfo%2cSystem.Boolean%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
-    content: QuoteResponseInfo ValidateQuoteVersion(QuoteVersionContextInfo context, QuoteAction action)
+    content: Task<QuoteResponseInfo> ValidateQuoteVersionAsync(QuoteVersionContextInfo context, QuoteAction action, CancellationToken cancellationToken = null)
     parameters:
     - id: context
       type: SuperOffice.CRM.QuoteVersionContextInfo
@@ -890,21 +900,23 @@ items:
     - id: action
       type: SuperOffice.CRM.QuoteAction
       description: The action that started this call; the context it is called in, like place order or send quote
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.QuoteResponseInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteResponseInfo}
       description: The updated Context, with changes to State and UserExplanation if needed.
-    content.vb: Function ValidateQuoteVersion(context As QuoteVersionContextInfo, action As QuoteAction) As QuoteResponseInfo
-  overload: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion*
-- uid: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
-  commentId: M:SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
-  id: UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
+    content.vb: Function ValidateQuoteVersionAsync(context As QuoteVersionContextInfo, action As QuoteAction, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteResponseInfo)
+  overload: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersionAsync*
+- uid: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPricesAsync(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
+  commentId: M:SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPricesAsync(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
+  id: UpdateQuoteVersionPricesAsync(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
   parent: SuperOffice.CRM.IQuoteConnector
   langs:
   - csharp
   - vb
-  name: UpdateQuoteVersionPrices(QuoteVersionContextInfo, HashSet<String>)
-  nameWithType: IQuoteConnector.UpdateQuoteVersionPrices(QuoteVersionContextInfo, HashSet<String>)
-  fullName: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo, System.Collections.Generic.HashSet<System.String>)
+  name: UpdateQuoteVersionPricesAsync(QuoteVersionContextInfo, HashSet<String>)
+  nameWithType: IQuoteConnector.UpdateQuoteVersionPricesAsync(QuoteVersionContextInfo, HashSet<String>)
+  fullName: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPricesAsync(SuperOffice.CRM.QuoteVersionContextInfo, System.Collections.Generic.HashSet<System.String>)
   type: Method
   source:
     path: SuperOffice.Plugins
@@ -913,9 +925,9 @@ items:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
   summary: "\nFetch new prices from the pricelist for all the alternatives in the quote.\nThis method is explicitly triggered by the user clicking the UPDATE PRICES button in the quote dialog.\n<p></p>\nThe connector should update all the quotelines on all the alternatives with new list prices, minimum prices, cost prices, etc from the pricelist, and update the ERP discount suggestions.\n"
-  remarks: "\nThe system will call <xref href=\"SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo%2cSuperOffice.CRM.QuoteAction)\" data-throw-if-not-resolved=\"false\"></xref> after calling this method to determine the new version state.\n"
+  remarks: "\nThe system will call <xref href=\"SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersionAsync(SuperOffice.CRM.QuoteVersionContextInfo%2cSuperOffice.CRM.QuoteAction%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref> after calling this method to determine the new version state.\n"
   syntax:
-    content: QuoteVersionResponseInfo UpdateQuoteVersionPrices(QuoteVersionContextInfo context, HashSet<string> writeableFields)
+    content: Task<QuoteVersionResponseInfo> UpdateQuoteVersionPricesAsync(QuoteVersionContextInfo context, HashSet<string> writeableFields)
     parameters:
     - id: context
       type: SuperOffice.CRM.QuoteVersionContextInfo
@@ -924,13 +936,13 @@ items:
       type: System.Collections.Generic.HashSet{System.String}
       description: Collection of quoteline fieldnames that are writeable according to the QuotelineConfiguration table. Fieldnames are all lowercase.
     return:
-      type: SuperOffice.CRM.QuoteVersionResponseInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteVersionResponseInfo}
       description: Updated quote version, with alternatives and quote lines.
-    content.vb: Function UpdateQuoteVersionPrices(context As QuoteVersionContextInfo, writeableFields As HashSet(Of String)) As QuoteVersionResponseInfo
-  overload: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices*
-  nameWithType.vb: IQuoteConnector.UpdateQuoteVersionPrices(QuoteVersionContextInfo, HashSet(Of String))
-  fullName.vb: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo, System.Collections.Generic.HashSet(Of System.String))
-  name.vb: UpdateQuoteVersionPrices(QuoteVersionContextInfo, HashSet(Of String))
+    content.vb: Function UpdateQuoteVersionPricesAsync(context As QuoteVersionContextInfo, writeableFields As HashSet(Of String)) As Task(Of QuoteVersionResponseInfo)
+  overload: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPricesAsync*
+  nameWithType.vb: IQuoteConnector.UpdateQuoteVersionPricesAsync(QuoteVersionContextInfo, HashSet(Of String))
+  fullName.vb: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPricesAsync(SuperOffice.CRM.QuoteVersionContextInfo, System.Collections.Generic.HashSet(Of System.String))
+  name.vb: UpdateQuoteVersionPricesAsync(QuoteVersionContextInfo, HashSet(Of String))
 - uid: SuperOffice.CRM.IQuoteConnector.PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
   commentId: M:SuperOffice.CRM.IQuoteConnector.PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
   id: PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
@@ -1623,21 +1635,35 @@ references:
   name: QuoteSentResponseInfo
   nameWithType: QuoteSentResponseInfo
   fullName: SuperOffice.CRM.QuoteSentResponseInfo
-- uid: SuperOffice.CRM.IQuoteConnector.GetQuoteList*
-  commentId: Overload:SuperOffice.CRM.IQuoteConnector.GetQuoteList
+- uid: SuperOffice.CRM.IQuoteConnector.GetQuoteListAsync*
+  commentId: Overload:SuperOffice.CRM.IQuoteConnector.GetQuoteListAsync
   isExternal: true
-  name: GetQuoteList
-  nameWithType: IQuoteConnector.GetQuoteList
-  fullName: SuperOffice.CRM.IQuoteConnector.GetQuoteList
-- uid: SuperOffice.CRM.ListItemInfo[]
+  name: GetQuoteListAsync
+  nameWithType: IQuoteConnector.GetQuoteListAsync
+  fullName: SuperOffice.CRM.IQuoteConnector.GetQuoteListAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: ListItemInfo[]
-  nameWithType: ListItemInfo[]
-  fullName: SuperOffice.CRM.ListItemInfo[]
-  nameWithType.vb: ListItemInfo()
-  fullName.vb: SuperOffice.CRM.ListItemInfo()
-  name.vb: ListItemInfo()
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.ListItemInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.ListItemInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ListItemInfo[]>
+  nameWithType: Task<ListItemInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.ListItemInfo[]>
+  nameWithType.vb: Task(Of ListItemInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.ListItemInfo())
+  name.vb: Task(Of ListItemInfo())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ListItemInfo
     name: ListItemInfo
     nameWithType: ListItemInfo
@@ -1646,7 +1672,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ListItemInfo
     name: ListItemInfo
     nameWithType: ListItemInfo
@@ -1655,6 +1692,47 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists*
   commentId: Overload:SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists
   isExternal: true
@@ -1706,21 +1784,30 @@ references:
   name: GetAllPriceLists
   nameWithType: IQuoteConnector.GetAllPriceLists
   fullName: SuperOffice.CRM.IQuoteConnector.GetAllPriceLists
-- uid: SuperOffice.CRM.IQuoteConnector.FindProduct*
-  commentId: Overload:SuperOffice.CRM.IQuoteConnector.FindProduct
+- uid: SuperOffice.CRM.IQuoteConnector.FindProductAsync*
+  commentId: Overload:SuperOffice.CRM.IQuoteConnector.FindProductAsync
   isExternal: true
-  name: FindProduct
-  nameWithType: IQuoteConnector.FindProduct
-  fullName: SuperOffice.CRM.IQuoteConnector.FindProduct
-- uid: SuperOffice.CRM.ProductInfo[]
-  isExternal: true
-  name: ProductInfo[]
-  nameWithType: ProductInfo[]
-  fullName: SuperOffice.CRM.ProductInfo[]
-  nameWithType.vb: ProductInfo()
-  fullName.vb: SuperOffice.CRM.ProductInfo()
-  name.vb: ProductInfo()
+  name: FindProductAsync
+  nameWithType: IQuoteConnector.FindProductAsync
+  fullName: SuperOffice.CRM.IQuoteConnector.FindProductAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.ProductInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.ProductInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProductInfo[]>
+  nameWithType: Task<ProductInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.ProductInfo[]>
+  nameWithType.vb: Task(Of ProductInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.ProductInfo())
+  name.vb: Task(Of ProductInfo())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ProductInfo
     name: ProductInfo
     nameWithType: ProductInfo
@@ -1729,7 +1816,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ProductInfo
     name: ProductInfo
     nameWithType: ProductInfo
@@ -1738,6 +1836,9 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IQuoteConnector.GetProduct*
   commentId: Overload:SuperOffice.CRM.IQuoteConnector.GetProduct
   isExternal: true
@@ -1787,6 +1888,32 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ProductInfo[]
+  isExternal: true
+  name: ProductInfo[]
+  nameWithType: ProductInfo[]
+  fullName: SuperOffice.CRM.ProductInfo[]
+  nameWithType.vb: ProductInfo()
+  fullName.vb: SuperOffice.CRM.ProductInfo()
+  name.vb: ProductInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ProductInfo
+    name: ProductInfo
+    nameWithType: ProductInfo
+    fullName: SuperOffice.CRM.ProductInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ProductInfo
+    name: ProductInfo
+    nameWithType: ProductInfo
+    fullName: SuperOffice.CRM.ProductInfo
     isExternal: true
   - name: ()
     nameWithType: ()
@@ -1867,12 +1994,12 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.IQuoteConnector.GetSearchResults*
-  commentId: Overload:SuperOffice.CRM.IQuoteConnector.GetSearchResults
+- uid: SuperOffice.CRM.IQuoteConnector.GetSearchResultsAsync*
+  commentId: Overload:SuperOffice.CRM.IQuoteConnector.GetSearchResultsAsync
   isExternal: true
-  name: GetSearchResults
-  nameWithType: IQuoteConnector.GetSearchResults
-  fullName: SuperOffice.CRM.IQuoteConnector.GetSearchResults
+  name: GetSearchResultsAsync
+  nameWithType: IQuoteConnector.GetSearchResultsAsync
+  fullName: SuperOffice.CRM.IQuoteConnector.GetSearchResultsAsync
 - uid: SuperOffice.CRM.SearchRestrictionInfo[]
   isExternal: true
   name: SearchRestrictionInfo[]
@@ -1899,12 +2026,93 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged*
-  commentId: Overload:SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.ProductInfo}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.ProductInfo}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ProductInfo>
+  nameWithType: IAsyncEnumerable<ProductInfo>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.ProductInfo>
+  nameWithType.vb: IAsyncEnumerable(Of ProductInfo)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.ProductInfo)
+  name.vb: IAsyncEnumerable(Of ProductInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ProductInfo
+    name: ProductInfo
+    nameWithType: ProductInfo
+    fullName: SuperOffice.CRM.ProductInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ProductInfo
+    name: ProductInfo
+    nameWithType: ProductInfo
+    fullName: SuperOffice.CRM.ProductInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: OnQuoteLineChanged
-  nameWithType: IQuoteConnector.OnQuoteLineChanged
-  fullName: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChangedAsync*
+  commentId: Overload:SuperOffice.CRM.IQuoteConnector.OnQuoteLineChangedAsync
+  isExternal: true
+  name: OnQuoteLineChangedAsync
+  nameWithType: IQuoteConnector.OnQuoteLineChangedAsync
+  fullName: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChangedAsync
 - uid: SuperOffice.CRM.QuoteLineInfo
   commentId: T:SuperOffice.CRM.QuoteLineInfo
   parent: SuperOffice.CRM
@@ -1912,25 +2120,104 @@ references:
   name: QuoteLineInfo
   nameWithType: QuoteLineInfo
   fullName: SuperOffice.CRM.QuoteLineInfo
-- uid: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative*
-  commentId: Overload:SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteLineInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.QuoteLineInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<QuoteLineInfo>
+  nameWithType: Task<QuoteLineInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.QuoteLineInfo>
+  nameWithType.vb: Task(Of QuoteLineInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.QuoteLineInfo)
+  name.vb: Task(Of QuoteLineInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.QuoteLineInfo
+    name: QuoteLineInfo
+    nameWithType: QuoteLineInfo
+    fullName: SuperOffice.CRM.QuoteLineInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.QuoteLineInfo
+    name: QuoteLineInfo
+    nameWithType: QuoteLineInfo
+    fullName: SuperOffice.CRM.QuoteLineInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternativeAsync*
+  commentId: Overload:SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternativeAsync
   isExternal: true
-  name: RecalculateQuoteAlternative
-  nameWithType: IQuoteConnector.RecalculateQuoteAlternative
-  fullName: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative
-- uid: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
-  commentId: T:SuperOffice.CRM.QuoteAlternativeWithLinesInfo
-  parent: SuperOffice.CRM
+  name: RecalculateQuoteAlternativeAsync
+  nameWithType: IQuoteConnector.RecalculateQuoteAlternativeAsync
+  fullName: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternativeAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteAlternativeWithLinesInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.QuoteAlternativeWithLinesInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<QuoteAlternativeWithLinesInfo>
+  nameWithType: Task<QuoteAlternativeWithLinesInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.QuoteAlternativeWithLinesInfo>
+  nameWithType.vb: Task(Of QuoteAlternativeWithLinesInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.QuoteAlternativeWithLinesInfo)
+  name.vb: Task(Of QuoteAlternativeWithLinesInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
+    name: QuoteAlternativeWithLinesInfo
+    nameWithType: QuoteAlternativeWithLinesInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
+    name: QuoteAlternativeWithLinesInfo
+    nameWithType: QuoteAlternativeWithLinesInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersionAsync*
+  commentId: Overload:SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersionAsync
   isExternal: true
-  name: QuoteAlternativeWithLinesInfo
-  nameWithType: QuoteAlternativeWithLinesInfo
-  fullName: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
-- uid: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion*
-  commentId: Overload:SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion
-  isExternal: true
-  name: ValidateQuoteVersion
-  nameWithType: IQuoteConnector.ValidateQuoteVersion
-  fullName: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion
+  name: ValidateQuoteVersionAsync
+  nameWithType: IQuoteConnector.ValidateQuoteVersionAsync
+  fullName: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersionAsync
 - uid: SuperOffice.CRM.QuoteAction
   commentId: T:SuperOffice.CRM.QuoteAction
   parent: SuperOffice.CRM
@@ -1938,12 +2225,55 @@ references:
   name: QuoteAction
   nameWithType: QuoteAction
   fullName: SuperOffice.CRM.QuoteAction
-- uid: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices*
-  commentId: Overload:SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteResponseInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.QuoteResponseInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<QuoteResponseInfo>
+  nameWithType: Task<QuoteResponseInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.QuoteResponseInfo>
+  nameWithType.vb: Task(Of QuoteResponseInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.QuoteResponseInfo)
+  name.vb: Task(Of QuoteResponseInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.QuoteResponseInfo
+    name: QuoteResponseInfo
+    nameWithType: QuoteResponseInfo
+    fullName: SuperOffice.CRM.QuoteResponseInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.QuoteResponseInfo
+    name: QuoteResponseInfo
+    nameWithType: QuoteResponseInfo
+    fullName: SuperOffice.CRM.QuoteResponseInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPricesAsync*
+  commentId: Overload:SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPricesAsync
   isExternal: true
-  name: UpdateQuoteVersionPrices
-  nameWithType: IQuoteConnector.UpdateQuoteVersionPrices
-  fullName: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices
+  name: UpdateQuoteVersionPricesAsync
+  nameWithType: IQuoteConnector.UpdateQuoteVersionPricesAsync
+  fullName: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPricesAsync
 - uid: System.Collections.Generic.HashSet{System.String}
   commentId: '!:System.Collections.Generic.HashSet{System.String}'
   definition: System.Collections.Generic.HashSet`1
@@ -1983,6 +2313,49 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteVersionResponseInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.QuoteVersionResponseInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<QuoteVersionResponseInfo>
+  nameWithType: Task<QuoteVersionResponseInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.QuoteVersionResponseInfo>
+  nameWithType.vb: Task(Of QuoteVersionResponseInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.QuoteVersionResponseInfo)
+  name.vb: Task(Of QuoteVersionResponseInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.QuoteVersionResponseInfo
+    name: QuoteVersionResponseInfo
+    nameWithType: QuoteVersionResponseInfo
+    fullName: SuperOffice.CRM.QuoteVersionResponseInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.QuoteVersionResponseInfo
+    name: QuoteVersionResponseInfo
+    nameWithType: QuoteVersionResponseInfo
+    fullName: SuperOffice.CRM.QuoteVersionResponseInfo
     isExternal: true
   - name: )
     nameWithType: )

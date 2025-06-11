@@ -26,8 +26,8 @@ items:
       Public Interface IContactInfo3
           Inherits IContactInfo2, IContactInfo
   inheritedMembers:
+  - SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.IContactInfo2.SupportPersonId
-  - SuperOffice.CRM.IContactInfo2.SupportPersonName
   - SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
   - SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
   - SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
@@ -128,6 +128,47 @@ references:
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.IContactInfo2
+  isExternal: true
+  name: GetSupportPersonNameAsync(CancellationToken)
+  nameWithType: IContactInfo2.GetSupportPersonNameAsync(CancellationToken)
+  fullName: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+    name: GetSupportPersonNameAsync
+    nameWithType: IContactInfo2.GetSupportPersonNameAsync
+    fullName: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync(System.Threading.CancellationToken)
+    name: GetSupportPersonNameAsync
+    nameWithType: IContactInfo2.GetSupportPersonNameAsync
+    fullName: SuperOffice.CRM.IContactInfo2.GetSupportPersonNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IContactInfo2.SupportPersonId
   commentId: P:SuperOffice.CRM.IContactInfo2.SupportPersonId
   parent: SuperOffice.CRM.IContactInfo2
@@ -135,13 +176,6 @@ references:
   name: SupportPersonId
   nameWithType: IContactInfo2.SupportPersonId
   fullName: SuperOffice.CRM.IContactInfo2.SupportPersonId
-- uid: SuperOffice.CRM.IContactInfo2.SupportPersonName
-  commentId: P:SuperOffice.CRM.IContactInfo2.SupportPersonName
-  parent: SuperOffice.CRM.IContactInfo2
-  isExternal: true
-  name: SupportPersonName
-  nameWithType: IContactInfo2.SupportPersonName
-  fullName: SuperOffice.CRM.IContactInfo2.SupportPersonName
 - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
   commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
   parent: SuperOffice.CRM.IContactInfo

@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions
+  commentId: T:SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions
+  id: ISafeBlockingTaskInheritorExtensions
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions.InheritValues(System.Collections.Generic.IEnumerable{SuperOffice.Threading.ISafeBlockingTaskInheritor})
+  langs:
+  - csharp
+  - vb
+  name: ISafeBlockingTaskInheritorExtensions
+  nameWithType: ISafeBlockingTaskInheritorExtensions
+  fullName: SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: 'public static class ISafeBlockingTaskInheritorExtensions : Object'
+    content.vb: >-
+      Public Module ISafeBlockingTaskInheritorExtensions
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions.InheritValues(System.Collections.Generic.IEnumerable{SuperOffice.Threading.ISafeBlockingTaskInheritor})
+  commentId: M:SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions.InheritValues(System.Collections.Generic.IEnumerable{SuperOffice.Threading.ISafeBlockingTaskInheritor})
+  id: InheritValues(System.Collections.Generic.IEnumerable{SuperOffice.Threading.ISafeBlockingTaskInheritor})
+  isExtensionMethod: true
+  parent: SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions
+  langs:
+  - csharp
+  - vb
+  name: InheritValues(IEnumerable<ISafeBlockingTaskInheritor>)
+  nameWithType: ISafeBlockingTaskInheritorExtensions.InheritValues(IEnumerable<ISafeBlockingTaskInheritor>)
+  fullName: SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions.InheritValues(System.Collections.Generic.IEnumerable<SuperOffice.Threading.ISafeBlockingTaskInheritor>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nHelper method both collecting values from a aset of ISafeBlockingTaskInheritor and resets it,\nso a clean context can be applied to preseding code block.\n"
+  syntax:
+    content: public static List<IDisposable> InheritValues(this IEnumerable<ISafeBlockingTaskInheritor> inheritors)
+    parameters:
+    - id: inheritors
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Threading.ISafeBlockingTaskInheritor}
+    return:
+      type: System.Collections.Generic.List{System.IDisposable}
+      description: List of disposable objects, where disposing reverts state to state as of before values were inherited
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function InheritValues(inheritors As IEnumerable(Of ISafeBlockingTaskInheritor)) As List(Of IDisposable)
+  overload: SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions.InheritValues*
+  nameWithType.vb: ISafeBlockingTaskInheritorExtensions.InheritValues(IEnumerable(Of ISafeBlockingTaskInheritor))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions.InheritValues(System.Collections.Generic.IEnumerable(Of SuperOffice.Threading.ISafeBlockingTaskInheritor))
+  name.vb: InheritValues(IEnumerable(Of ISafeBlockingTaskInheritor))
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions.InheritValues*
+  commentId: Overload:SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions.InheritValues
+  isExternal: true
+  name: InheritValues
+  nameWithType: ISafeBlockingTaskInheritorExtensions.InheritValues
+  fullName: SuperOffice.Threading.ISafeBlockingTaskInheritorExtensions.InheritValues
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Threading.ISafeBlockingTaskInheritor}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Threading.ISafeBlockingTaskInheritor}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ISafeBlockingTaskInheritor>
+  nameWithType: IEnumerable<ISafeBlockingTaskInheritor>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Threading.ISafeBlockingTaskInheritor>
+  nameWithType.vb: IEnumerable(Of ISafeBlockingTaskInheritor)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Threading.ISafeBlockingTaskInheritor)
+  name.vb: IEnumerable(Of ISafeBlockingTaskInheritor)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Threading.ISafeBlockingTaskInheritor
+    name: ISafeBlockingTaskInheritor
+    nameWithType: ISafeBlockingTaskInheritor
+    fullName: SuperOffice.Threading.ISafeBlockingTaskInheritor
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Threading.ISafeBlockingTaskInheritor
+    name: ISafeBlockingTaskInheritor
+    nameWithType: ISafeBlockingTaskInheritor
+    fullName: SuperOffice.Threading.ISafeBlockingTaskInheritor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{System.IDisposable}
+  commentId: '!:System.Collections.Generic.List{System.IDisposable}'
+  definition: System.Collections.Generic.List`1
+  name: List<IDisposable>
+  nameWithType: List<IDisposable>
+  fullName: System.Collections.Generic.List<System.IDisposable>
+  nameWithType.vb: List(Of IDisposable)
+  fullName.vb: System.Collections.Generic.List(Of System.IDisposable)
+  name.vb: List(Of IDisposable)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IDisposable
+    name: IDisposable
+    nameWithType: IDisposable
+    fullName: System.IDisposable
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IDisposable
+    name: IDisposable
+    nameWithType: IDisposable
+    fullName: System.IDisposable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

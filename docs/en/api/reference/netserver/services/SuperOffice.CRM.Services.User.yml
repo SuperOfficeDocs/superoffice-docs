@@ -56,14 +56,8 @@ items:
           Inherits Carrier
           Implements IExtraFieldCarrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.UserAgent
-    commentId: T:SuperOffice.CRM.Services.UserAgent
   - linkId: SuperOffice.CRM.Services.IUserAgent
     commentId: T:SuperOffice.CRM.Services.IUserAgent
-  - linkId: SuperOffice.CRM.Services.ArchiveAgent
-    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
   inheritance:
   - System.Object
   implements:
@@ -1104,162 +1098,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.UserAgent
-  commentId: T:SuperOffice.CRM.Services.UserAgent
-  isExternal: true
-  name: UserAgent
-  nameWithType: UserAgent
-  fullName: SuperOffice.CRM.Services.UserAgent
 - uid: SuperOffice.CRM.Services.IUserAgent
   commentId: T:SuperOffice.CRM.Services.IUserAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.CRM.Services.IUserAgent
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  isExternal: true
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.CRM.Services.ArchiveAgent
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  parent: SuperOffice.CRM.Services.IArchiveAgent
-  isExternal: true
-  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String)
   commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String)
   isExternal: true
@@ -1395,13 +1239,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.IArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: IArchiveAgent
-  nameWithType: IArchiveAgent
-  fullName: SuperOffice.CRM.Services.IArchiveAgent
 - uid: SuperOffice.CRM.Services.User.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.User.#ctor
   isExternal: true

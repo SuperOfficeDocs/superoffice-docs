@@ -47,7 +47,7 @@ items:
   - SuperOffice.CRM.Rows.AssociateHistoryRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.AssociateHistoryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AssociateHistoryRecordData)
   - SuperOffice.CRM.Rows.AssociateHistoryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.AssociateHistoryRecordData.SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.AssociateHistoryRecordData.SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.AssociateHistoryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -611,34 +611,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AssociateHistoryRecordData.SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AssociateHistoryRecordData)
+- uid: SuperOffice.CRM.Rows.AssociateHistoryRecordData.SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AssociateHistoryRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AssociateHistoryRecordData)
-  name: ToInsert()
-  nameWithType: AssociateHistoryRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AssociateHistoryRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: AssociateHistoryRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AssociateHistoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AssociateHistoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AssociateHistoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AssociateHistoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -824,17 +834,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AssociateHistoryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AssociateHistoryRecordData)
+- uid: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AssociateHistoryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AssociateHistoryRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(AssociateHistoryRecordData)
-  nameWithType: AssociateHistoryRecordDataExtensions.ToInsert(AssociateHistoryRecordData)
-  fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AssociateHistoryRecordData)
+  name: ToInsertAsync(AssociateHistoryRecordData, CancellationToken)
+  nameWithType: AssociateHistoryRecordDataExtensions.ToInsertAsync(AssociateHistoryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AssociateHistoryRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AssociateHistoryRecordData)
-    name: ToInsert
-    nameWithType: AssociateHistoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AssociateHistoryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AssociateHistoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -843,15 +853,23 @@ references:
     name: AssociateHistoryRecordData
     nameWithType: AssociateHistoryRecordData
     fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AssociateHistoryRecordData)
-    name: ToInsert
-    nameWithType: AssociateHistoryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AssociateHistoryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AssociateHistoryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -860,6 +878,14 @@ references:
     name: AssociateHistoryRecordData
     nameWithType: AssociateHistoryRecordData
     fullName: SuperOffice.CRM.Rows.AssociateHistoryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

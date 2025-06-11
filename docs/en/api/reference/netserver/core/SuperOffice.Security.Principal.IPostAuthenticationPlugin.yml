@@ -5,8 +5,8 @@ items:
   id: IPostAuthenticationPlugin
   parent: SuperOffice.Security.Principal
   children:
-  - SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
-  - SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  - SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+  - SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
   langs:
   - csharp
   - vb
@@ -34,16 +34,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
-  commentId: M:SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
-  id: PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+  commentId: M:SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+  id: PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
   parent: SuperOffice.Security.Principal.IPostAuthenticationPlugin
   langs:
   - csharp
   - vb
-  name: PostAuthenticateFail(SoPrincipal, IEnumerable<ClaimsIdentity>, Exception)
-  nameWithType: IPostAuthenticationPlugin.PostAuthenticateFail(SoPrincipal, IEnumerable<ClaimsIdentity>, Exception)
-  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.Exception)
+  name: PostAuthenticateFail(ClaimsPrincipal, IEnumerable<ClaimsIdentity>, Exception)
+  nameWithType: IPostAuthenticationPlugin.PostAuthenticateFail(ClaimsPrincipal, IEnumerable<ClaimsIdentity>, Exception)
+  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.Exception)
   type: Method
   source:
     path: SoCore
@@ -53,10 +53,10 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nMethod called after authentication fails\n"
   syntax:
-    content: bool PostAuthenticateFail(SoPrincipal principal, IEnumerable<ClaimsIdentity> identites, Exception ex)
+    content: bool PostAuthenticateFail(ClaimsPrincipal principal, IEnumerable<ClaimsIdentity> identites, Exception ex)
     parameters:
     - id: principal
-      type: SuperOffice.Security.Principal.SoPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
       description: Principal successfully authenticated
     - id: identites
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
@@ -66,21 +66,21 @@ items:
     return:
       type: System.Boolean
       description: Return true to continue passing the failed autjhentication back to the user or return false to re-authenticate.
-    content.vb: Function PostAuthenticateFail(principal As SoPrincipal, identites As IEnumerable(Of ClaimsIdentity), ex As Exception) As Boolean
+    content.vb: Function PostAuthenticateFail(principal As ClaimsPrincipal, identites As IEnumerable(Of ClaimsIdentity), ex As Exception) As Boolean
   overload: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail*
-  nameWithType.vb: IPostAuthenticationPlugin.PostAuthenticateFail(SoPrincipal, IEnumerable(Of ClaimsIdentity), Exception)
-  fullName.vb: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.Exception)
-  name.vb: PostAuthenticateFail(SoPrincipal, IEnumerable(Of ClaimsIdentity), Exception)
-- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
-  commentId: M:SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
-  id: PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  nameWithType.vb: IPostAuthenticationPlugin.PostAuthenticateFail(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity), Exception)
+  fullName.vb: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.Exception)
+  name.vb: PostAuthenticateFail(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity), Exception)
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  commentId: M:SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  id: PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
   parent: SuperOffice.Security.Principal.IPostAuthenticationPlugin
   langs:
   - csharp
   - vb
-  name: PostAuthenticateSuccess(SoPrincipal, IEnumerable<ClaimsIdentity>)
-  nameWithType: IPostAuthenticationPlugin.PostAuthenticateSuccess(SoPrincipal, IEnumerable<ClaimsIdentity>)
-  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
+  name: PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable<ClaimsIdentity>)
+  nameWithType: IPostAuthenticationPlugin.PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable<ClaimsIdentity>)
+  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
   type: Method
   source:
     path: SoCore
@@ -89,19 +89,19 @@ items:
   - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: bool PostAuthenticateSuccess(SoPrincipal principal, IEnumerable<ClaimsIdentity> identites)
+    content: bool PostAuthenticateSuccess(ClaimsPrincipal principal, IEnumerable<ClaimsIdentity> identites)
     parameters:
     - id: principal
-      type: SuperOffice.Security.Principal.SoPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
     - id: identites
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
     return:
       type: System.Boolean
-    content.vb: Function PostAuthenticateSuccess(principal As SoPrincipal, identites As IEnumerable(Of ClaimsIdentity)) As Boolean
+    content.vb: Function PostAuthenticateSuccess(principal As ClaimsPrincipal, identites As IEnumerable(Of ClaimsIdentity)) As Boolean
   overload: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess*
-  nameWithType.vb: IPostAuthenticationPlugin.PostAuthenticateSuccess(SoPrincipal, IEnumerable(Of ClaimsIdentity))
-  fullName.vb: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
-  name.vb: PostAuthenticateSuccess(SoPrincipal, IEnumerable(Of ClaimsIdentity))
+  nameWithType.vb: IPostAuthenticationPlugin.PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity))
+  fullName.vb: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
+  name.vb: PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity))
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
@@ -280,13 +280,11 @@ references:
   name: PostAuthenticateFail
   nameWithType: IPostAuthenticationPlugin.PostAuthenticateFail
   fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail
-- uid: SuperOffice.Security.Principal.SoPrincipal
-  commentId: T:SuperOffice.Security.Principal.SoPrincipal
-  parent: SuperOffice.Security.Principal
+- uid: System.Security.Claims.ClaimsPrincipal
   isExternal: true
-  name: SoPrincipal
-  nameWithType: SoPrincipal
-  fullName: SuperOffice.Security.Principal.SoPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
 - uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
   commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}'
   definition: System.Collections.Generic.IEnumerable`1

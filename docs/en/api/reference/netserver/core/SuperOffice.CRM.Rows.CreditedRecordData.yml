@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.CreditedRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.CreditedRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CreditedRecordData)
   - SuperOffice.CRM.Rows.CreditedRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.CreditedRecordData.SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.CreditedRecordData.SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.CreditedRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.CreditedRecordData.SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CreditedRecordData)
+- uid: SuperOffice.CRM.Rows.CreditedRecordData.SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CreditedRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.CreditedRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CreditedRecordData)
-  name: ToInsert()
-  nameWithType: CreditedRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CreditedRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: CreditedRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CreditedRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CreditedRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CreditedRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CreditedRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CreditedRecordData)
-  commentId: M:SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CreditedRecordData)
+- uid: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CreditedRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CreditedRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(CreditedRecordData)
-  nameWithType: CreditedRecordDataExtensions.ToInsert(CreditedRecordData)
-  fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CreditedRecordData)
+  name: ToInsertAsync(CreditedRecordData, CancellationToken)
+  nameWithType: CreditedRecordDataExtensions.ToInsertAsync(CreditedRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CreditedRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CreditedRecordData)
-    name: ToInsert
-    nameWithType: CreditedRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CreditedRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CreditedRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: CreditedRecordData
     nameWithType: CreditedRecordData
     fullName: SuperOffice.CRM.Rows.CreditedRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CreditedRecordData)
-    name: ToInsert
-    nameWithType: CreditedRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CreditedRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: CreditedRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.CreditedRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: CreditedRecordData
     nameWithType: CreditedRecordData
     fullName: SuperOffice.CRM.Rows.CreditedRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

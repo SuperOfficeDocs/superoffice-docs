@@ -5,7 +5,7 @@ items:
   id: ISoListProvider
   parent: SuperOffice.CRM.Lists
   children:
-  - SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
   langs:
   - csharp
@@ -27,9 +27,10 @@ items:
       Public Interface ISoListProvider
           Inherits ISoList
   inheritedMembers:
-  - SuperOffice.CRM.Lists.ISoList.HistoryItems
-  - SuperOffice.CRM.Lists.ISoList.RootItems
-  - SuperOffice.CRM.Lists.ISoList.HeadingItems
+  - SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+  - SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
   extensionMethods:
   - SuperOffice.CRM.Lists.ISoListProvider.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.ISoListProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -39,16 +40,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-  id: Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+- uid: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ISoListProvider
   langs:
   - csharp
   - vb
-  name: Construct(String, String, Int32[], Boolean, String, Boolean)
-  nameWithType: ISoListProvider.Construct(String, String, Int32[], Boolean, String, Boolean)
-  fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  name: ConstructAsync(String, String, Int32[], Boolean, String, Boolean, CancellationToken)
+  nameWithType: ISoListProvider.ConstructAsync(String, String, Int32[], Boolean, String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -58,7 +59,7 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nPhase two of two-stage list construction. To be called right after the constructor, at which point\nall constructors have run, and the class hierarchy is initialized.\n"
   syntax:
-    content: void Construct(string listName, string additionalInfo, int[] historyIDs, bool onlyReadHistory, string searchValue, bool forceFlatList)
+    content: Task ConstructAsync(string listName, string additionalInfo, int[] historyIDs, bool onlyReadHistory, string searchValue, bool forceFlatList, CancellationToken cancellationToken = null)
     parameters:
     - id: listName
       type: System.String
@@ -91,11 +92,15 @@ items:
         If true, the returned list will be flat, though it will still be filtered
 
         if grouping/filtering has been set up for the list
-    content.vb: Sub Construct(listName As String, additionalInfo As String, historyIDs As Integer(), onlyReadHistory As Boolean, searchValue As String, forceFlatList As Boolean)
-  overload: SuperOffice.CRM.Lists.ISoListProvider.Construct*
-  nameWithType.vb: ISoListProvider.Construct(String, String, Int32(), Boolean, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
-  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ConstructAsync(listName As String, additionalInfo As String, historyIDs As Integer(), onlyReadHistory As Boolean, searchValue As String, forceFlatList As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync*
+  nameWithType.vb: ISoListProvider.ConstructAsync(String, String, Int32(), Boolean, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean, System.Threading.CancellationToken)
+  name.vb: ConstructAsync(String, String, Int32(), Boolean, String, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
   commentId: P:SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
   id: HistoryInfo
@@ -132,27 +137,160 @@ references:
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
-- uid: SuperOffice.CRM.Lists.ISoList.HistoryItems
-  commentId: P:SuperOffice.CRM.Lists.ISoList.HistoryItems
+- uid: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ISoList
   isExternal: true
-  name: HistoryItems
-  nameWithType: ISoList.HistoryItems
-  fullName: SuperOffice.CRM.Lists.ISoList.HistoryItems
-- uid: SuperOffice.CRM.Lists.ISoList.RootItems
-  commentId: P:SuperOffice.CRM.Lists.ISoList.RootItems
+  name: GetHistoryItemsAsync(CancellationToken)
+  nameWithType: ISoList.GetHistoryItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsAsync
+    nameWithType: ISoList.GetHistoryItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsAsync
+    nameWithType: ISoList.GetHistoryItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetHistoryItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+  commentId: M:SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
   parent: SuperOffice.CRM.Lists.ISoList
   isExternal: true
-  name: RootItems
-  nameWithType: ISoList.RootItems
-  fullName: SuperOffice.CRM.Lists.ISoList.RootItems
-- uid: SuperOffice.CRM.Lists.ISoList.HeadingItems
-  commentId: P:SuperOffice.CRM.Lists.ISoList.HeadingItems
+  name: ClearHistoryItems()
+  nameWithType: ISoList.ClearHistoryItems()
+  fullName: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+    name: ClearHistoryItems
+    nameWithType: ISoList.ClearHistoryItems
+    fullName: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+    name: ClearHistoryItems
+    nameWithType: ISoList.ClearHistoryItems
+    fullName: SuperOffice.CRM.Lists.ISoList.ClearHistoryItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ISoList
   isExternal: true
-  name: HeadingItems
-  nameWithType: ISoList.HeadingItems
-  fullName: SuperOffice.CRM.Lists.ISoList.HeadingItems
+  name: GetRootItemsAsync(CancellationToken)
+  nameWithType: ISoList.GetRootItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+    name: GetRootItemsAsync
+    nameWithType: ISoList.GetRootItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync(System.Threading.CancellationToken)
+    name: GetRootItemsAsync
+    nameWithType: ISoList.GetRootItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetRootItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: GetHeadingItemsAsync(CancellationToken)
+  nameWithType: ISoList.GetHeadingItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+    name: GetHeadingItemsAsync
+    nameWithType: ISoList.GetHeadingItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync(System.Threading.CancellationToken)
+    name: GetHeadingItemsAsync
+    nameWithType: ISoList.GetHeadingItemsAsync
+    fullName: SuperOffice.CRM.Lists.ISoList.GetHeadingItemsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ISoListProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -325,12 +463,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Lists.ISoListProvider.Construct*
-  commentId: Overload:SuperOffice.CRM.Lists.ISoListProvider.Construct
+- uid: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync
   isExternal: true
-  name: Construct
-  nameWithType: ISoListProvider.Construct
-  fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct
+  name: ConstructAsync
+  nameWithType: ISoListProvider.ConstructAsync
+  fullName: SuperOffice.CRM.Lists.ISoListProvider.ConstructAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -371,6 +509,16 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true

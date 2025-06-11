@@ -35,8 +35,6 @@ items:
       Public Class FreeText
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.FreeTextAgent
-    commentId: T:SuperOffice.CRM.Services.FreeTextAgent
   - linkId: SuperOffice.CRM.Services.IFreeTextAgent
     commentId: T:SuperOffice.CRM.Services.IFreeTextAgent
   inheritance:
@@ -375,15 +373,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.FreeTextAgent
-  commentId: T:SuperOffice.CRM.Services.FreeTextAgent
-  isExternal: true
-  name: FreeTextAgent
-  nameWithType: FreeTextAgent
-  fullName: SuperOffice.CRM.Services.FreeTextAgent
 - uid: SuperOffice.CRM.Services.IFreeTextAgent
   commentId: T:SuperOffice.CRM.Services.IFreeTextAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IFreeTextAgent
   nameWithType: IFreeTextAgent

@@ -5,7 +5,7 @@ items:
   id: FreetextStatusCache
   parent: SuperOffice.CRM.Cache
   children:
-  - SuperOffice.CRM.Cache.FreetextStatusCache.GetInstance
+  - SuperOffice.CRM.Cache.FreetextStatusCache.GetInstanceAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Cache.FreetextStatusCache.Refresh
   langs:
   - csharp
@@ -48,16 +48,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Cache.FreetextStatusCache.GetInstance
-  commentId: M:SuperOffice.CRM.Cache.FreetextStatusCache.GetInstance
-  id: GetInstance
+- uid: SuperOffice.CRM.Cache.FreetextStatusCache.GetInstanceAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Cache.FreetextStatusCache.GetInstanceAsync(System.Threading.CancellationToken)
+  id: GetInstanceAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Cache.FreetextStatusCache
   langs:
   - csharp
   - vb
-  name: GetInstance()
-  nameWithType: FreetextStatusCache.GetInstance()
-  fullName: SuperOffice.CRM.Cache.FreetextStatusCache.GetInstance()
+  name: GetInstanceAsync(CancellationToken)
+  nameWithType: FreetextStatusCache.GetInstanceAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Cache.FreetextStatusCache.GetInstanceAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -66,11 +66,14 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
   syntax:
-    content: public static FreetextStatus GetInstance()
+    content: public static Task<FreetextStatus> GetInstanceAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Cache.FreetextStatus
-    content.vb: Public Shared Function GetInstance As FreetextStatus
-  overload: SuperOffice.CRM.Cache.FreetextStatusCache.GetInstance*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Cache.FreetextStatus}
+    content.vb: Public Shared Function GetInstanceAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FreetextStatus)
+  overload: SuperOffice.CRM.Cache.FreetextStatusCache.GetInstanceAsync*
   modifiers.csharp:
   - public
   - static
@@ -289,19 +292,98 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Cache.FreetextStatusCache.GetInstance*
-  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatusCache.GetInstance
+- uid: SuperOffice.CRM.Cache.FreetextStatusCache.GetInstanceAsync*
+  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatusCache.GetInstanceAsync
   isExternal: true
-  name: GetInstance
-  nameWithType: FreetextStatusCache.GetInstance
-  fullName: SuperOffice.CRM.Cache.FreetextStatusCache.GetInstance
-- uid: SuperOffice.CRM.Cache.FreetextStatus
-  commentId: T:SuperOffice.CRM.Cache.FreetextStatus
-  parent: SuperOffice.CRM.Cache
+  name: GetInstanceAsync
+  nameWithType: FreetextStatusCache.GetInstanceAsync
+  fullName: SuperOffice.CRM.Cache.FreetextStatusCache.GetInstanceAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: FreetextStatus
-  nameWithType: FreetextStatus
-  fullName: SuperOffice.CRM.Cache.FreetextStatus
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Cache.FreetextStatus}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Cache.FreetextStatus}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<FreetextStatus>
+  nameWithType: Task<FreetextStatus>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Cache.FreetextStatus>
+  nameWithType.vb: Task(Of FreetextStatus)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Cache.FreetextStatus)
+  name.vb: Task(Of FreetextStatus)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Cache.FreetextStatus
+    name: FreetextStatus
+    nameWithType: FreetextStatus
+    fullName: SuperOffice.CRM.Cache.FreetextStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Cache.FreetextStatus
+    name: FreetextStatus
+    nameWithType: FreetextStatus
+    fullName: SuperOffice.CRM.Cache.FreetextStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Cache.FreetextStatusCache.Refresh*
   commentId: Overload:SuperOffice.CRM.Cache.FreetextStatusCache.Refresh
   isExternal: true

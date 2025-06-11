@@ -3306,8 +3306,6 @@ items:
   - SuperOffice.CRM.Rows.RowDefaulter
   - SuperOffice.CRM.Rows.RowValidator
   - SuperOffice.CRM.Rows.RowValidatorException
-  - SuperOffice.CRM.Rows.RowVisibleForHelper
-  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
   - SuperOffice.CRM.Rows.SaintConfigurationRecordData
   - SuperOffice.CRM.Rows.SaintConfigurationRecordDataExtensions
   - SuperOffice.CRM.Rows.SaintConfigurationRow
@@ -4726,7 +4724,6 @@ items:
   - SuperOffice.CRM.Rows.UDefFieldAdminCache
   - SuperOffice.CRM.Rows.UDefFieldCache
   - SuperOffice.CRM.Rows.UDefFieldCacheBase
-  - SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
   - SuperOffice.CRM.Rows.UDefFieldGLRecordData
   - SuperOffice.CRM.Rows.UDefFieldGLRecordDataExtensions
   - SuperOffice.CRM.Rows.UDefFieldGLRow
@@ -38969,19 +38966,6 @@ references:
   name: RowValidatorException
   nameWithType: RowValidatorException
   fullName: SuperOffice.CRM.Rows.RowValidatorException
-- uid: SuperOffice.CRM.Rows.RowVisibleForHelper
-  commentId: T:SuperOffice.CRM.Rows.RowVisibleForHelper
-  isExternal: true
-  name: RowVisibleForHelper
-  nameWithType: RowVisibleForHelper
-  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper
-- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-  commentId: T:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: RowVisibleForHelper.VisibleFor
-  nameWithType: RowVisibleForHelper.VisibleFor
-  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
 - uid: SuperOffice.CRM.Rows.OnRowLoad
   commentId: T:SuperOffice.CRM.Rows.OnRowLoad
   isExternal: true
@@ -39069,14 +39053,12 @@ references:
   fullName: SuperOffice.CRM.Rows.TableRowsBase
 - uid: SuperOffice.CRM.Rows.UDefFieldCache
   commentId: T:SuperOffice.CRM.Rows.UDefFieldCache
-  parent: SuperOffice.CRM.Rows
   isExternal: true
   name: UDefFieldCache
   nameWithType: UDefFieldCache
   fullName: SuperOffice.CRM.Rows.UDefFieldCache
 - uid: SuperOffice.CRM.Rows.UDefFieldAdminCache
   commentId: T:SuperOffice.CRM.Rows.UDefFieldAdminCache
-  parent: SuperOffice.CRM.Rows
   isExternal: true
   name: UDefFieldAdminCache
   nameWithType: UDefFieldAdminCache
@@ -39088,12 +39070,6 @@ references:
   name: UDefFieldCacheBase
   nameWithType: UDefFieldCacheBase
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase
-- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
-  commentId: T:SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
-  isExternal: true
-  name: UDefFieldCacheBase.PageOneFieldInfo
-  nameWithType: UDefFieldCacheBase.PageOneFieldInfo
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true

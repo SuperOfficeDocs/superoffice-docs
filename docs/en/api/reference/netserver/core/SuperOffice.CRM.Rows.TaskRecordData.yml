@@ -50,7 +50,7 @@ items:
   - SuperOffice.CRM.Rows.TaskRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TaskRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TaskRecordData)
   - SuperOffice.CRM.Rows.TaskRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.TaskRecordData.SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TaskRecordData.SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TaskRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -695,34 +695,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TaskRecordData.SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskRecordData)
+- uid: SuperOffice.CRM.Rows.TaskRecordData.SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TaskRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TaskRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskRecordData)
-  name: ToInsert()
-  nameWithType: TaskRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TaskRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: TaskRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TaskRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TaskRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TaskRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TaskRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -908,17 +918,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskRecordData)
+- uid: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TaskRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TaskRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(TaskRecordData)
-  nameWithType: TaskRecordDataExtensions.ToInsert(TaskRecordData)
-  fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskRecordData)
+  name: ToInsertAsync(TaskRecordData, CancellationToken)
+  nameWithType: TaskRecordDataExtensions.ToInsertAsync(TaskRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TaskRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskRecordData)
-    name: ToInsert
-    nameWithType: TaskRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TaskRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TaskRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -927,15 +937,23 @@ references:
     name: TaskRecordData
     nameWithType: TaskRecordData
     fullName: SuperOffice.CRM.Rows.TaskRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskRecordData)
-    name: ToInsert
-    nameWithType: TaskRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TaskRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TaskRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TaskRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -944,6 +962,14 @@ references:
     name: TaskRecordData
     nameWithType: TaskRecordData
     fullName: SuperOffice.CRM.Rows.TaskRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

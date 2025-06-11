@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Lists
   children:
   - SuperOffice.CRM.Lists.ListHelper.#ctor
-  - SuperOffice.CRM.Lists.ListHelper.GetFlattenedList(SuperOffice.CRM.Lists.ISoList)
+  - SuperOffice.CRM.Lists.ListHelper.GetFlattenedListAsync(SuperOffice.CRM.Lists.ISoList,System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.ListHelper.GetVisibleForListId(SuperOffice.Data.Visibility,System.Int32)
   - SuperOffice.CRM.Lists.ListHelper.GetVisibleForType(System.Int32)
   langs:
@@ -114,16 +114,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Lists.ListHelper.GetFlattenedList(SuperOffice.CRM.Lists.ISoList)
-  commentId: M:SuperOffice.CRM.Lists.ListHelper.GetFlattenedList(SuperOffice.CRM.Lists.ISoList)
-  id: GetFlattenedList(SuperOffice.CRM.Lists.ISoList)
+- uid: SuperOffice.CRM.Lists.ListHelper.GetFlattenedListAsync(SuperOffice.CRM.Lists.ISoList,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ListHelper.GetFlattenedListAsync(SuperOffice.CRM.Lists.ISoList,System.Threading.CancellationToken)
+  id: GetFlattenedListAsync(SuperOffice.CRM.Lists.ISoList,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ListHelper
   langs:
   - csharp
   - vb
-  name: GetFlattenedList(ISoList)
-  nameWithType: ListHelper.GetFlattenedList(ISoList)
-  fullName: SuperOffice.CRM.Lists.ListHelper.GetFlattenedList(SuperOffice.CRM.Lists.ISoList)
+  name: GetFlattenedListAsync(ISoList, CancellationToken)
+  nameWithType: ListHelper.GetFlattenedListAsync(ISoList, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ListHelper.GetFlattenedListAsync(SuperOffice.CRM.Lists.ISoList, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -132,14 +132,16 @@ items:
   - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
-    content: public static IEnumerable<ISoListItem> GetFlattenedList(ISoList listToFlatten)
+    content: public static IAsyncEnumerable<ISoListItem> GetFlattenedListAsync(ISoList listToFlatten, CancellationToken cancellationToken = null)
     parameters:
     - id: listToFlatten
       type: SuperOffice.CRM.Lists.ISoList
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}
-    content.vb: Public Shared Function GetFlattenedList(listToFlatten As ISoList) As IEnumerable(Of ISoListItem)
-  overload: SuperOffice.CRM.Lists.ListHelper.GetFlattenedList*
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Lists.ISoListItem}
+    content.vb: Public Shared Function GetFlattenedListAsync(listToFlatten As ISoList, cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ISoListItem)
+  overload: SuperOffice.CRM.Lists.ListHelper.GetFlattenedListAsync*
   modifiers.csharp:
   - public
   - static
@@ -569,12 +571,12 @@ references:
   name: GetVisibleForListId
   nameWithType: ListHelper.GetVisibleForListId
   fullName: SuperOffice.CRM.Lists.ListHelper.GetVisibleForListId
-- uid: SuperOffice.CRM.Lists.ListHelper.GetFlattenedList*
-  commentId: Overload:SuperOffice.CRM.Lists.ListHelper.GetFlattenedList
+- uid: SuperOffice.CRM.Lists.ListHelper.GetFlattenedListAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.ListHelper.GetFlattenedListAsync
   isExternal: true
-  name: GetFlattenedList
-  nameWithType: ListHelper.GetFlattenedList
-  fullName: SuperOffice.CRM.Lists.ListHelper.GetFlattenedList
+  name: GetFlattenedListAsync
+  nameWithType: ListHelper.GetFlattenedListAsync
+  fullName: SuperOffice.CRM.Lists.ListHelper.GetFlattenedListAsync
 - uid: SuperOffice.CRM.Lists.ISoList
   commentId: T:SuperOffice.CRM.Lists.ISoList
   parent: SuperOffice.CRM.Lists
@@ -582,20 +584,25 @@ references:
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<ISoListItem>
-  nameWithType: IEnumerable<ISoListItem>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>
-  nameWithType.vb: IEnumerable(Of ISoListItem)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Lists.ISoListItem)
-  name.vb: IEnumerable(Of ISoListItem)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Lists.ISoListItem}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Lists.ISoListItem}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ISoListItem>
+  nameWithType: IAsyncEnumerable<ISoListItem>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Lists.ISoListItem>
+  nameWithType.vb: IAsyncEnumerable(Of ISoListItem)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Lists.ISoListItem)
+  name.vb: IAsyncEnumerable(Of ISoListItem)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -609,10 +616,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -625,19 +632,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -649,10 +656,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '

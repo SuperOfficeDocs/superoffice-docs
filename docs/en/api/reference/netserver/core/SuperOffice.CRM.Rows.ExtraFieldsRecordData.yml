@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraFieldsRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
   - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraFieldsRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  name: ToInsert()
-  nameWithType: ExtraFieldsRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraFieldsRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ExtraFieldsRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ExtraFieldsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtraFieldsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ExtraFieldsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtraFieldsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraFieldsRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraFieldsRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ExtraFieldsRecordData)
-  nameWithType: ExtraFieldsRecordDataExtensions.ToInsert(ExtraFieldsRecordData)
-  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+  name: ToInsertAsync(ExtraFieldsRecordData, CancellationToken)
+  nameWithType: ExtraFieldsRecordDataExtensions.ToInsertAsync(ExtraFieldsRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraFieldsRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: ToInsert
-    nameWithType: ExtraFieldsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraFieldsRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtraFieldsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: ExtraFieldsRecordData
     nameWithType: ExtraFieldsRecordData
     fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: ToInsert
-    nameWithType: ExtraFieldsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ExtraFieldsRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ExtraFieldsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: ExtraFieldsRecordData
     nameWithType: ExtraFieldsRecordData
     fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -1,0 +1,1103 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.ParallelProcessor`1
+  commentId: T:SuperOffice.Threading.ParallelProcessor`1
+  id: ParallelProcessor`1
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.ParallelProcessor`1.#ctor(System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.ParallelProcessor{`0}})
+  - SuperOffice.Threading.ParallelProcessor`1.CurrentNumberOfProcessors
+  - SuperOffice.Threading.ParallelProcessor`1.DesiredNumberOfProcessors
+  - SuperOffice.Threading.ParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+  - SuperOffice.Threading.ParallelProcessor`1.StartAsync(System.Threading.CancellationToken)
+  - SuperOffice.Threading.ParallelProcessor`1.StopAsync(System.Threading.CancellationToken)
+  - SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  - SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+  - SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  langs:
+  - csharp
+  - vb
+  name: ParallelProcessor<TParallelizedProcessor>
+  nameWithType: ParallelProcessor<TParallelizedProcessor>
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nProcesser that can run multiple <xref href=\"SuperOffice.Threading.ParallelizedProcessor\" data-throw-if-not-resolved=\"false\"></xref> instances in parallel.\n"
+  remarks: "\nThis can either run as a hosted service or be manually controlled.  When running as a\nhosted service, an type inhetidet from the <xref href=\"SuperOffice.Threading.ParallelProcessor%601\" data-throw-if-not-resolved=\"false\"></xref>\nmust be added as a Hosted Service as a service collection.  When running manually, the instance\nshuould be obtained with DI, ClassFacotry or directly throug asn instance of <xref href=\"System.IServiceProvider\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ParallelProcessor<TParallelizedProcessor> : Object, IParallelizedProcessorControlPlane, IParallelProcessor<TParallelizedProcessor>, IHostedService where TParallelizedProcessor : ParallelizedProcessor'
+    typeParameters:
+    - id: TParallelizedProcessor
+      description: Processor responsible for processing in parallel.
+    content.vb: >-
+      Public Class ParallelProcessor(Of TParallelizedProcessor As ParallelizedProcessor)
+          Inherits Object
+          Implements IParallelizedProcessorControlPlane, IParallelProcessor(Of TParallelizedProcessor), IHostedService
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Threading.IParallelizedProcessorControlPlane
+  - SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}
+  - Microsoft.Extensions.Hosting.IHostedService
+  extensionMethods:
+  - SuperOffice.Threading.ParallelProcessor`1.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.ParallelProcessor`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor)
+  name.vb: ParallelProcessor(Of TParallelizedProcessor)
+- uid: SuperOffice.Threading.ParallelProcessor`1.#ctor(System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.ParallelProcessor{`0}})
+  commentId: M:SuperOffice.Threading.ParallelProcessor`1.#ctor(System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.ParallelProcessor{`0}})
+  id: '#ctor(System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.ParallelProcessor{`0}})'
+  parent: SuperOffice.Threading.ParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: ParallelProcessor(IServiceProvider, ILogger<ParallelProcessor<TParallelizedProcessor>>)
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.ParallelProcessor(IServiceProvider, ILogger<ParallelProcessor<TParallelizedProcessor>>)
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.ParallelProcessor(System.IServiceProvider, Microsoft.Extensions.Logging.ILogger<SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>>)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ParallelProcessor(IServiceProvider serviceProvider, ILogger<ParallelProcessor<TParallelizedProcessor>> logger)
+    parameters:
+    - id: serviceProvider
+      type: System.IServiceProvider
+      description: >-
+        Service provider instance used for creating <code data-dev-comment-type="typeparamref" class="typeparamref">TParallelizedProcessor</code>
+
+        using <xref href="Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance%60%601(System.IServiceProvider%2cSystem.Object%5b%5d)" data-throw-if-not-resolved="false"></xref>
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.ParallelProcessor`1}
+    content.vb: Public Sub New(serviceProvider As IServiceProvider, logger As ILogger(Of ParallelProcessor(Of TParallelizedProcessor)))
+  overload: SuperOffice.Threading.ParallelProcessor`1.#ctor*
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).ParallelProcessor(IServiceProvider, ILogger(Of ParallelProcessor(Of TParallelizedProcessor)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).ParallelProcessor(System.IServiceProvider, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor)))
+  name.vb: ParallelProcessor(IServiceProvider, ILogger(Of ParallelProcessor(Of TParallelizedProcessor)))
+- uid: SuperOffice.Threading.ParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+  commentId: M:SuperOffice.Threading.ParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+  id: SetDesiredNumberOfProcessors(System.Int32)
+  parent: SuperOffice.Threading.ParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredNumberOfProcessors(Int32)
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors(Int32)
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors(System.Int32)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public void SetDesiredNumberOfProcessors(int desiredNumberOfProcessors)
+    parameters:
+    - id: desiredNumberOfProcessors
+      type: System.Int32
+    content.vb: Public Sub SetDesiredNumberOfProcessors(desiredNumberOfProcessors As Integer)
+  overload: SuperOffice.Threading.ParallelProcessor`1.SetDesiredNumberOfProcessors*
+  implements:
+  - SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}.SetDesiredNumberOfProcessors(System.Int32)
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors(System.Int32)
+- uid: SuperOffice.Threading.ParallelProcessor`1.StartAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.ParallelProcessor`1.StartAsync(System.Threading.CancellationToken)
+  id: StartAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.ParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: StartAsync(CancellationToken)
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.StartAsync(CancellationToken)
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.StartAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public Task StartAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function StartAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Threading.ParallelProcessor`1.StartAsync*
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).StartAsync(CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).StartAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.Threading.ParallelProcessor`1.StopAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.ParallelProcessor`1.StopAsync(System.Threading.CancellationToken)
+  id: StopAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.ParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: StopAsync(CancellationToken)
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.StopAsync(CancellationToken)
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.StopAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public Task StopAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function StopAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Threading.ParallelProcessor`1.StopAsync*
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).StopAsync(CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).StopAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  commentId: M:SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  id: SuperOffice#Threading#IParallelizedProcessorControlPlane#ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  isEii: true
+  parent: SuperOffice.Threading.ParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: IParallelizedProcessorControlPlane.ShouldProcessorContinue(ParallelizedProcessor)
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.IParallelizedProcessorControlPlane.ShouldProcessorContinue(ParallelizedProcessor)
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: bool IParallelizedProcessorControlPlane.ShouldProcessorContinue(ParallelizedProcessor processor)
+    parameters:
+    - id: processor
+      type: SuperOffice.Threading.ParallelizedProcessor
+    return:
+      type: System.Boolean
+    content.vb: Function SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(processor As ParallelizedProcessor) As Boolean Implements IParallelizedProcessorControlPlane.ShouldProcessorContinue
+  overload: SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ShouldProcessorContinue*
+  implements:
+  - SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(ParallelizedProcessor)
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  name.vb: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(ParallelizedProcessor)
+- uid: SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+  commentId: M:SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+  id: SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+  isEii: true
+  parent: SuperOffice.Threading.ParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: IParallelizedProcessorControlPlane.ReportError(ParallelizedProcessor, Exception)
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.IParallelizedProcessorControlPlane.ReportError(ParallelizedProcessor, Exception)
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor, System.Exception)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: void IParallelizedProcessorControlPlane.ReportError(ParallelizedProcessor processor, Exception exception)
+    parameters:
+    - id: processor
+      type: SuperOffice.Threading.ParallelizedProcessor
+    - id: exception
+      type: System.Exception
+    content.vb: Sub SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(processor As ParallelizedProcessor, exception As Exception) Implements IParallelizedProcessorControlPlane.ReportError
+  overload: SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportError*
+  implements:
+  - SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(ParallelizedProcessor, Exception)
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor, System.Exception)
+  name.vb: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(ParallelizedProcessor, Exception)
+- uid: SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  commentId: M:SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  id: SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  isEii: true
+  parent: SuperOffice.Threading.ParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: IParallelizedProcessorControlPlane.ReportCompleted(ParallelizedProcessor)
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.IParallelizedProcessorControlPlane.ReportCompleted(ParallelizedProcessor)
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: void IParallelizedProcessorControlPlane.ReportCompleted(ParallelizedProcessor processor)
+    parameters:
+    - id: processor
+      type: SuperOffice.Threading.ParallelizedProcessor
+    content.vb: Sub SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(processor As ParallelizedProcessor) Implements IParallelizedProcessorControlPlane.ReportCompleted
+  overload: SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportCompleted*
+  implements:
+  - SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(ParallelizedProcessor)
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  name.vb: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(ParallelizedProcessor)
+- uid: SuperOffice.Threading.ParallelProcessor`1.DesiredNumberOfProcessors
+  commentId: P:SuperOffice.Threading.ParallelProcessor`1.DesiredNumberOfProcessors
+  id: DesiredNumberOfProcessors
+  parent: SuperOffice.Threading.ParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: DesiredNumberOfProcessors
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public int DesiredNumberOfProcessors { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DesiredNumberOfProcessors As Integer
+  overload: SuperOffice.Threading.ParallelProcessor`1.DesiredNumberOfProcessors*
+  implements:
+  - SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}.DesiredNumberOfProcessors
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+- uid: SuperOffice.Threading.ParallelProcessor`1.CurrentNumberOfProcessors
+  commentId: P:SuperOffice.Threading.ParallelProcessor`1.CurrentNumberOfProcessors
+  id: CurrentNumberOfProcessors
+  parent: SuperOffice.Threading.ParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: CurrentNumberOfProcessors
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public int CurrentNumberOfProcessors { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CurrentNumberOfProcessors As Integer
+  overload: SuperOffice.Threading.ParallelProcessor`1.CurrentNumberOfProcessors*
+  implements:
+  - SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}.CurrentNumberOfProcessors
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Threading.IParallelizedProcessorControlPlane
+  commentId: T:SuperOffice.Threading.IParallelizedProcessorControlPlane
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: IParallelizedProcessorControlPlane
+  nameWithType: IParallelizedProcessorControlPlane
+  fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane
+- uid: SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}
+  commentId: T:SuperOffice.Threading.IParallelProcessor{`0}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IParallelProcessor`1
+  name: IParallelProcessor<TParallelizedProcessor>
+  nameWithType: IParallelProcessor<TParallelizedProcessor>
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor)
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor)
+  name.vb: IParallelProcessor(Of TParallelizedProcessor)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    nameWithType: IParallelProcessor
+    fullName: SuperOffice.Threading.IParallelProcessor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParallelizedProcessor
+    nameWithType: TParallelizedProcessor
+    fullName: TParallelizedProcessor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    nameWithType: IParallelProcessor
+    fullName: SuperOffice.Threading.IParallelProcessor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParallelizedProcessor
+    nameWithType: TParallelizedProcessor
+    fullName: TParallelizedProcessor
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Hosting.IHostedService
+  isExternal: true
+  name: IHostedService
+  nameWithType: IHostedService
+  fullName: Microsoft.Extensions.Hosting.IHostedService
+- uid: SuperOffice.Threading.ParallelProcessor`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ParallelProcessor<TParallelizedProcessor>, To>()
+  nameWithType: EnumUtil.MapEnums<ParallelProcessor<TParallelizedProcessor>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ParallelProcessor(Of TParallelizedProcessor), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor), To)()
+  name.vb: MapEnums(Of ParallelProcessor(Of TParallelizedProcessor), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ParallelProcessor<TParallelizedProcessor>, To>
+    nameWithType: EnumUtil.MapEnums<ParallelProcessor<TParallelizedProcessor>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ParallelProcessor(Of TParallelizedProcessor), To)
+    nameWithType: EnumUtil.MapEnums(Of ParallelProcessor(Of TParallelizedProcessor), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelProcessor`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ParallelProcessor<TParallelizedProcessor>, To>()
+  nameWithType: Converters.MapEnums<ParallelProcessor<TParallelizedProcessor>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>, To>()
+  nameWithType.vb: Converters.MapEnums(Of ParallelProcessor(Of TParallelizedProcessor), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor), To)()
+  name.vb: MapEnums(Of ParallelProcessor(Of TParallelizedProcessor), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ParallelProcessor<TParallelizedProcessor>, To>
+    nameWithType: Converters.MapEnums<ParallelProcessor<TParallelizedProcessor>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ParallelProcessor(Of TParallelizedProcessor), To)
+    nameWithType: Converters.MapEnums(Of ParallelProcessor(Of TParallelizedProcessor), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Threading.IParallelProcessor`1
+  commentId: T:SuperOffice.Threading.IParallelProcessor`1
+  isExternal: true
+  name: IParallelProcessor<TParallelizedProcessor>
+  nameWithType: IParallelProcessor<TParallelizedProcessor>
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor)
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor)
+  name.vb: IParallelProcessor(Of TParallelizedProcessor)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    nameWithType: IParallelProcessor
+    fullName: SuperOffice.Threading.IParallelProcessor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParallelizedProcessor
+    nameWithType: TParallelizedProcessor
+    fullName: TParallelizedProcessor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    nameWithType: IParallelProcessor
+    fullName: SuperOffice.Threading.IParallelProcessor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParallelizedProcessor
+    nameWithType: TParallelizedProcessor
+    fullName: TParallelizedProcessor
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.ParallelProcessor`1.#ctor*
+  commentId: Overload:SuperOffice.Threading.ParallelProcessor`1.#ctor
+  isExternal: true
+  name: ParallelProcessor
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.ParallelProcessor
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.ParallelProcessor
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).ParallelProcessor
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).ParallelProcessor
+- uid: System.IServiceProvider
+  isExternal: true
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.ParallelProcessor`1}
+  commentId: '!:Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.ParallelProcessor`1}'
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  name: ILogger<ParallelProcessor<TParallelizedProcessor>>
+  nameWithType: ILogger<ParallelProcessor<TParallelizedProcessor>>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>>
+  nameWithType.vb: ILogger(Of ParallelProcessor(Of TParallelizedProcessor))
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor))
+  name.vb: ILogger(Of ParallelProcessor(Of TParallelizedProcessor))
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Threading.ParallelProcessor`1
+    name: ParallelProcessor
+    nameWithType: ParallelProcessor
+    fullName: SuperOffice.Threading.ParallelProcessor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParallelizedProcessor
+    nameWithType: TParallelizedProcessor
+    fullName: TParallelizedProcessor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Threading.ParallelProcessor`1
+    name: ParallelProcessor
+    nameWithType: ParallelProcessor
+    fullName: SuperOffice.Threading.ParallelProcessor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParallelizedProcessor
+    nameWithType: TParallelizedProcessor
+    fullName: TParallelizedProcessor
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  name: ILogger<>
+  nameWithType: ILogger<>
+  fullName: Microsoft.Extensions.Logging.ILogger<>
+  nameWithType.vb: ILogger(Of )
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of )
+  name.vb: ILogger(Of )
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelProcessor`1.SetDesiredNumberOfProcessors*
+  commentId: Overload:SuperOffice.Threading.ParallelProcessor`1.SetDesiredNumberOfProcessors
+  isExternal: true
+  name: SetDesiredNumberOfProcessors
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors
+- uid: SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}.SetDesiredNumberOfProcessors(System.Int32)
+  commentId: M:SuperOffice.Threading.IParallelProcessor{`0}.SetDesiredNumberOfProcessors(System.Int32)
+  parent: SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}
+  definition: SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+  name: SetDesiredNumberOfProcessors(Int32)
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors(Int32)
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors(System.Int32)
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors(Int32)
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+    name: SetDesiredNumberOfProcessors
+    nameWithType: IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors
+    fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+    name: SetDesiredNumberOfProcessors
+    nameWithType: IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors
+    fullName: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+  commentId: M:SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+  isExternal: true
+  name: SetDesiredNumberOfProcessors(Int32)
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors(Int32)
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors(System.Int32)
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors(Int32)
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+    name: SetDesiredNumberOfProcessors
+    nameWithType: IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors
+    fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+    name: SetDesiredNumberOfProcessors
+    nameWithType: IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors
+    fullName: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelProcessor`1.StartAsync*
+  commentId: Overload:SuperOffice.Threading.ParallelProcessor`1.StartAsync
+  isExternal: true
+  name: StartAsync
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.StartAsync
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.StartAsync
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).StartAsync
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).StartAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Threading.ParallelProcessor`1.StopAsync*
+  commentId: Overload:SuperOffice.Threading.ParallelProcessor`1.StopAsync
+  isExternal: true
+  name: StopAsync
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.StopAsync
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.StopAsync
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).StopAsync
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).StopAsync
+- uid: SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ShouldProcessorContinue*
+  commentId: Overload:SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ShouldProcessorContinue
+  isExternal: true
+  name: IParallelizedProcessorControlPlane.ShouldProcessorContinue
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.IParallelizedProcessorControlPlane.ShouldProcessorContinue
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue
+  name.vb: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue
+- uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  commentId: M:SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  parent: SuperOffice.Threading.IParallelizedProcessorControlPlane
+  isExternal: true
+  name: ShouldProcessorContinue(ParallelizedProcessor)
+  nameWithType: IParallelizedProcessorControlPlane.ShouldProcessorContinue(ParallelizedProcessor)
+  fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+    name: ShouldProcessorContinue
+    nameWithType: IParallelizedProcessorControlPlane.ShouldProcessorContinue
+    fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    nameWithType: ParallelizedProcessor
+    fullName: SuperOffice.Threading.ParallelizedProcessor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+    name: ShouldProcessorContinue
+    nameWithType: IParallelizedProcessorControlPlane.ShouldProcessorContinue
+    fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    nameWithType: ParallelizedProcessor
+    fullName: SuperOffice.Threading.ParallelizedProcessor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelizedProcessor
+  commentId: T:SuperOffice.Threading.ParallelizedProcessor
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: ParallelizedProcessor
+  nameWithType: ParallelizedProcessor
+  fullName: SuperOffice.Threading.ParallelizedProcessor
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportError*
+  commentId: Overload:SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportError
+  isExternal: true
+  name: IParallelizedProcessorControlPlane.ReportError
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.IParallelizedProcessorControlPlane.ReportError
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError
+  name.vb: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError
+- uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+  commentId: M:SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+  parent: SuperOffice.Threading.IParallelizedProcessorControlPlane
+  isExternal: true
+  name: ReportError(ParallelizedProcessor, Exception)
+  nameWithType: IParallelizedProcessorControlPlane.ReportError(ParallelizedProcessor, Exception)
+  fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor, System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+    name: ReportError
+    nameWithType: IParallelizedProcessorControlPlane.ReportError
+    fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    nameWithType: ParallelizedProcessor
+    fullName: SuperOffice.Threading.ParallelizedProcessor
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+    name: ReportError
+    nameWithType: IParallelizedProcessorControlPlane.ReportError
+    fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    nameWithType: ParallelizedProcessor
+    fullName: SuperOffice.Threading.ParallelizedProcessor
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportCompleted*
+  commentId: Overload:SuperOffice.Threading.ParallelProcessor`1.SuperOffice#Threading#IParallelizedProcessorControlPlane#ReportCompleted
+  isExternal: true
+  name: IParallelizedProcessorControlPlane.ReportCompleted
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.IParallelizedProcessorControlPlane.ReportCompleted
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted
+  name.vb: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted
+- uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  commentId: M:SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  parent: SuperOffice.Threading.IParallelizedProcessorControlPlane
+  isExternal: true
+  name: ReportCompleted(ParallelizedProcessor)
+  nameWithType: IParallelizedProcessorControlPlane.ReportCompleted(ParallelizedProcessor)
+  fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+    name: ReportCompleted
+    nameWithType: IParallelizedProcessorControlPlane.ReportCompleted
+    fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    nameWithType: ParallelizedProcessor
+    fullName: SuperOffice.Threading.ParallelizedProcessor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+    name: ReportCompleted
+    nameWithType: IParallelizedProcessorControlPlane.ReportCompleted
+    fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    nameWithType: ParallelizedProcessor
+    fullName: SuperOffice.Threading.ParallelizedProcessor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelProcessor`1.DesiredNumberOfProcessors*
+  commentId: Overload:SuperOffice.Threading.ParallelProcessor`1.DesiredNumberOfProcessors
+  isExternal: true
+  name: DesiredNumberOfProcessors
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+- uid: SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}.DesiredNumberOfProcessors
+  commentId: P:SuperOffice.Threading.IParallelProcessor{`0}.DesiredNumberOfProcessors
+  parent: SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}
+  definition: SuperOffice.Threading.IParallelProcessor`1.DesiredNumberOfProcessors
+  name: DesiredNumberOfProcessors
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+- uid: SuperOffice.Threading.IParallelProcessor`1.DesiredNumberOfProcessors
+  commentId: P:SuperOffice.Threading.IParallelProcessor`1.DesiredNumberOfProcessors
+  isExternal: true
+  name: DesiredNumberOfProcessors
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+- uid: SuperOffice.Threading.ParallelProcessor`1.CurrentNumberOfProcessors*
+  commentId: Overload:SuperOffice.Threading.ParallelProcessor`1.CurrentNumberOfProcessors
+  isExternal: true
+  name: CurrentNumberOfProcessors
+  nameWithType: ParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+- uid: SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}.CurrentNumberOfProcessors
+  commentId: P:SuperOffice.Threading.IParallelProcessor{`0}.CurrentNumberOfProcessors
+  parent: SuperOffice.Threading.IParallelProcessor{{TParallelizedProcessor}}
+  definition: SuperOffice.Threading.IParallelProcessor`1.CurrentNumberOfProcessors
+  name: CurrentNumberOfProcessors
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+- uid: SuperOffice.Threading.IParallelProcessor`1.CurrentNumberOfProcessors
+  commentId: P:SuperOffice.Threading.IParallelProcessor`1.CurrentNumberOfProcessors
+  isExternal: true
+  name: CurrentNumberOfProcessors
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors

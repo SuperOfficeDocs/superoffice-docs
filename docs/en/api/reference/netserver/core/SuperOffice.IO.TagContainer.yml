@@ -12,12 +12,12 @@ items:
   - SuperOffice.IO.TagContainer.CurrentUiCulture
   - SuperOffice.IO.TagContainer.Data
   - SuperOffice.IO.TagContainer.GetData
+  - SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.GetTags
-  - SuperOffice.IO.TagContainer.GetValue(System.String)
-  - SuperOffice.IO.TagContainer.Id
-  - SuperOffice.IO.TagContainer.Init
-  - SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  - SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
   - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   langs:
@@ -149,7 +149,7 @@ items:
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
-    description: "\nThrown if data is added after it has been used (e.g. through <xref href=\"SuperOffice.IO.TagContainer.GetValue(System.String)\" data-throw-if-not-resolved=\"false\"></xref>).\n"
+    description: "\nThrown if data is added after it has been used (e.g. through <xref href=\"SuperOffice.IO.TagContainer.GetValueAsync(System.String%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref>).\n"
   nameWithType.vb: TagContainer.AddData(Object())
   modifiers.csharp:
   - public
@@ -216,16 +216,49 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
-  id: GetValue(System.String)
+- uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  id: GetIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   langs:
   - csharp
   - vb
-  name: GetValue(String)
-  nameWithType: TagContainer.GetValue(String)
-  fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
+  name: GetIdAsync(CancellationToken)
+  nameWithType: TagContainer.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\nPrimary key of the\n"
+  syntax:
+    content: public abstract Task<int> GetIdAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public MustOverride Function GetIdAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.IO.TagContainer.GetIdAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+  id: GetValueAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.IO.TagContainer
+  langs:
+  - csharp
+  - vb
+  name: GetValueAsync(String, CancellationToken)
+  nameWithType: TagContainer.GetValueAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetValueAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -235,16 +268,18 @@ items:
   namespace: SuperOffice.IO
   summary: "\nGet a value for a tag.\n"
   syntax:
-    content: public virtual string GetValue(string tag)
+    content: public virtual Task<string> GetValueAsync(string tag, CancellationToken cancellationToken = null)
     parameters:
     - id: tag
       type: System.String
       description: Name of the tag.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Value of the tag.  An empty string (e.g. <xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref>) is returned if there is no valid value.
-    content.vb: Public Overridable Function GetValue(tag As String) As String
-  overload: SuperOffice.IO.TagContainer.GetValue*
+    content.vb: Public Overridable Function GetValueAsync(tag As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.IO.TagContainer.GetValueAsync*
   modifiers.csharp:
   - public
   - virtual
@@ -341,16 +376,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  id: IsTagLegal(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  id: IsTagLegalAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   langs:
   - csharp
   - vb
-  name: IsTagLegal(String)
-  nameWithType: TagContainer.IsTagLegal(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  name: IsTagLegalAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagLegalAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -360,32 +395,34 @@ items:
   namespace: SuperOffice.IO
   summary: "\nIs this a legal tag?\n"
   syntax:
-    content: public virtual bool IsTagLegal(string tag)
+    content: public virtual Task<bool> IsTagLegalAsync(string tag, CancellationToken cancellationToken = null)
     parameters:
     - id: tag
       type: System.String
       description: Name of the tag.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True is returned if this is a legal tag.
-    content.vb: Public Overridable Function IsTagLegal(tag As String) As Boolean
-  overload: SuperOffice.IO.TagContainer.IsTagLegal*
+    content.vb: Public Overridable Function IsTagLegalAsync(tag As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.IO.TagContainer.IsTagLegalAsync*
   modifiers.csharp:
   - public
   - virtual
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  id: IsTagInContext(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  id: IsTagInContextAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   langs:
   - csharp
   - vb
-  name: IsTagInContext(String)
-  nameWithType: TagContainer.IsTagInContext(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  name: IsTagInContextAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagInContextAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -395,32 +432,34 @@ items:
   namespace: SuperOffice.IO
   summary: "\nIs this a valid tag in the given context.  If there are no current sale,\nthere are no valid tags for sale.\n"
   syntax:
-    content: public virtual bool IsTagInContext(string tag)
+    content: public virtual Task<bool> IsTagInContextAsync(string tag, CancellationToken cancellationToken)
     parameters:
     - id: tag
       type: System.String
       description: theName of the tag.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True if  tag is valid in hte given context.
-    content.vb: Public Overridable Function IsTagInContext(tag As String) As Boolean
-  overload: SuperOffice.IO.TagContainer.IsTagInContext*
+    content.vb: Public Overridable Function IsTagInContextAsync(tag As String, cancellationToken As CancellationToken) As Task(Of Boolean)
+  overload: SuperOffice.IO.TagContainer.IsTagInContextAsync*
   modifiers.csharp:
   - public
   - virtual
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.IO.TagContainer.Init
-  commentId: M:SuperOffice.IO.TagContainer.Init
-  id: Init
+- uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+  id: InitAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   langs:
   - csharp
   - vb
-  name: Init()
-  nameWithType: TagContainer.Init()
-  fullName: SuperOffice.IO.TagContainer.Init()
+  name: InitAsync(CancellationToken)
+  nameWithType: TagContainer.InitAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -430,9 +469,14 @@ items:
   namespace: SuperOffice.IO
   summary: "\nSet the object in an initaited state.  This means that no data can be added\n(e.g. <xref href=\"SuperOffice.IO.TagContainer.AddData(System.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>) beyound this point.\n"
   syntax:
-    content: protected virtual void Init()
-    content.vb: Protected Overridable Sub Init
-  overload: SuperOffice.IO.TagContainer.Init*
+    content: protected virtual Task InitAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overridable Function InitAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.IO.TagContainer.InitAsync*
   modifiers.csharp:
   - protected
   - virtual
@@ -470,39 +514,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.IO.TagContainer.Id
-  commentId: P:SuperOffice.IO.TagContainer.Id
-  id: Id
-  parent: SuperOffice.IO.TagContainer
-  langs:
-  - csharp
-  - vb
-  name: Id
-  nameWithType: TagContainer.Id
-  fullName: SuperOffice.IO.TagContainer.Id
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO
-  summary: "\nPrimary key of the\n"
-  syntax:
-    content: public abstract int Id { get; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public MustOverride ReadOnly Property Id As Integer
-  overload: SuperOffice.IO.TagContainer.Id*
-  modifiers.csharp:
-  - public
-  - abstract
-  - get
-  modifiers.vb:
-  - Public
-  - MustOverride
-  - ReadOnly
 - uid: SuperOffice.IO.TagContainer.Data
   commentId: P:SuperOffice.IO.TagContainer.Data
   id: Data
@@ -782,12 +793,104 @@ references:
   name: ClearData
   nameWithType: TagContainer.ClearData
   fullName: SuperOffice.IO.TagContainer.ClearData
-- uid: SuperOffice.IO.TagContainer.GetValue*
-  commentId: Overload:SuperOffice.IO.TagContainer.GetValue
+- uid: SuperOffice.IO.TagContainer.GetIdAsync*
+  commentId: Overload:SuperOffice.IO.TagContainer.GetIdAsync
   isExternal: true
-  name: GetValue
-  nameWithType: TagContainer.GetValue
-  fullName: SuperOffice.IO.TagContainer.GetValue
+  name: GetIdAsync
+  nameWithType: TagContainer.GetIdAsync
+  fullName: SuperOffice.IO.TagContainer.GetIdAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.GetValueAsync*
+  commentId: Overload:SuperOffice.IO.TagContainer.GetValueAsync
+  isExternal: true
+  name: GetValueAsync
+  nameWithType: TagContainer.GetValueAsync
+  fullName: SuperOffice.IO.TagContainer.GetValueAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -795,6 +898,49 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.GetTags*
   commentId: Overload:SuperOffice.IO.TagContainer.GetTags
   isExternal: true
@@ -839,43 +985,78 @@ references:
   name: RemoveCustomValue
   nameWithType: TagContainer.RemoveCustomValue
   fullName: SuperOffice.IO.TagContainer.RemoveCustomValue
-- uid: SuperOffice.IO.TagContainer.IsTagLegal*
-  commentId: Overload:SuperOffice.IO.TagContainer.IsTagLegal
+- uid: SuperOffice.IO.TagContainer.IsTagLegalAsync*
+  commentId: Overload:SuperOffice.IO.TagContainer.IsTagLegalAsync
   isExternal: true
-  name: IsTagLegal
-  nameWithType: TagContainer.IsTagLegal
-  fullName: SuperOffice.IO.TagContainer.IsTagLegal
-- uid: SuperOffice.IO.TagContainer.IsTagInContext*
-  commentId: Overload:SuperOffice.IO.TagContainer.IsTagInContext
+  name: IsTagLegalAsync
+  nameWithType: TagContainer.IsTagLegalAsync
+  fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.IsTagInContextAsync*
+  commentId: Overload:SuperOffice.IO.TagContainer.IsTagInContextAsync
   isExternal: true
-  name: IsTagInContext
-  nameWithType: TagContainer.IsTagInContext
-  fullName: SuperOffice.IO.TagContainer.IsTagInContext
-- uid: SuperOffice.IO.TagContainer.Init*
-  commentId: Overload:SuperOffice.IO.TagContainer.Init
+  name: IsTagInContextAsync
+  nameWithType: TagContainer.IsTagInContextAsync
+  fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
+- uid: SuperOffice.IO.TagContainer.InitAsync*
+  commentId: Overload:SuperOffice.IO.TagContainer.InitAsync
   isExternal: true
-  name: Init
-  nameWithType: TagContainer.Init
-  fullName: SuperOffice.IO.TagContainer.Init
+  name: InitAsync
+  nameWithType: TagContainer.InitAsync
+  fullName: SuperOffice.IO.TagContainer.InitAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.IO.TagContainer.CurrentUiCulture*
   commentId: Overload:SuperOffice.IO.TagContainer.CurrentUiCulture
   isExternal: true
   name: CurrentUiCulture
   nameWithType: TagContainer.CurrentUiCulture
   fullName: SuperOffice.IO.TagContainer.CurrentUiCulture
-- uid: SuperOffice.IO.TagContainer.Id*
-  commentId: Overload:SuperOffice.IO.TagContainer.Id
-  isExternal: true
-  name: Id
-  nameWithType: TagContainer.Id
-  fullName: SuperOffice.IO.TagContainer.Id
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: SuperOffice.IO.TagContainer.Data*
   commentId: Overload:SuperOffice.IO.TagContainer.Data
   isExternal: true

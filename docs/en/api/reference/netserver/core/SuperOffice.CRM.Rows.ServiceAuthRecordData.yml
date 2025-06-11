@@ -46,7 +46,7 @@ items:
   - SuperOffice.CRM.Rows.ServiceAuthRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ServiceAuthRecordData)
   - SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -583,34 +583,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ServiceAuthRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
-  name: ToInsert()
-  nameWithType: ServiceAuthRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ServiceAuthRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ServiceAuthRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ServiceAuthRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ServiceAuthRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ServiceAuthRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ServiceAuthRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -796,17 +806,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ServiceAuthRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ServiceAuthRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ServiceAuthRecordData)
-  nameWithType: ServiceAuthRecordDataExtensions.ToInsert(ServiceAuthRecordData)
-  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+  name: ToInsertAsync(ServiceAuthRecordData, CancellationToken)
+  nameWithType: ServiceAuthRecordDataExtensions.ToInsertAsync(ServiceAuthRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ServiceAuthRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
-    name: ToInsert
-    nameWithType: ServiceAuthRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ServiceAuthRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ServiceAuthRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -815,15 +825,23 @@ references:
     name: ServiceAuthRecordData
     nameWithType: ServiceAuthRecordData
     fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
-    name: ToInsert
-    nameWithType: ServiceAuthRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ServiceAuthRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ServiceAuthRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -832,6 +850,14 @@ references:
     name: ServiceAuthRecordData
     nameWithType: ServiceAuthRecordData
     fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

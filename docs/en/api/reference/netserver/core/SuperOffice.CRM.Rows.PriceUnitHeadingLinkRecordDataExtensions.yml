@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
   - SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
-  - SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData)
-  - SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData})
+  - SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
+- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<PriceUnitHeadingLinkTableInfo>)
-  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect<PriceUnitHeadingLinkTableInfo>)
-  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo>)
+  name: FromSelectAsync(TargetedSelect<PriceUnitHeadingLinkTableInfo>, CancellationToken)
+  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync(TargetedSelect<PriceUnitHeadingLinkTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<PriceUnitHeadingLinkRecordData> FromSelect(this TargetedSelect<PriceUnitHeadingLinkTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<PriceUnitHeadingLinkRecordData> FromSelectAsync(this TargetedSelect<PriceUnitHeadingLinkTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of PriceUnitHeadingLinkTableInfo)) As IEnumerable(Of PriceUnitHeadingLinkRecordData)
-  overload: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect*
-  nameWithType.vb: PriceUnitHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect(Of PriceUnitHeadingLinkTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of PriceUnitHeadingLinkTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of PriceUnitHeadingLinkRecordData)
+  overload: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync(TargetedSelect(Of PriceUnitHeadingLinkTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of PriceUnitHeadingLinkTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of PriceUnitHeadingLinkTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
   commentId: M:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of PriceUnitHeadingLinkTableInfo))
-- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(PriceUnitHeadingLinkRecordData)
-  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.ToInsert(PriceUnitHeadingLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData)
+  name: ToInsertAsync(PriceUnitHeadingLinkRecordData, CancellationToken)
+  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.ToInsertAsync(PriceUnitHeadingLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this PriceUnitHeadingLinkRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this PriceUnitHeadingLinkRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As PriceUnitHeadingLinkRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As PriceUnitHeadingLinkRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData})
-  commentId: M:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData})
+- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<PriceUnitHeadingLinkRecordData>)
-  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.ToInserts(IEnumerable<PriceUnitHeadingLinkRecordData>)
-  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData>)
+  name: ToInsertsAsync(IEnumerable<PriceUnitHeadingLinkRecordData>, CancellationToken)
+  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync(IEnumerable<PriceUnitHeadingLinkRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<PriceUnitHeadingLinkRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<PriceUnitHeadingLinkRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of PriceUnitHeadingLinkRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInserts*
-  nameWithType.vb: PriceUnitHeadingLinkRecordDataExtensions.ToInserts(IEnumerable(Of PriceUnitHeadingLinkRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of PriceUnitHeadingLinkRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync(IEnumerable(Of PriceUnitHeadingLinkRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData))
-  name.vb: ToInserts(IEnumerable(Of PriceUnitHeadingLinkRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of PriceUnitHeadingLinkRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRow)
   commentId: M:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRow)
   id: ToRecordData(SuperOffice.CRM.Rows.PriceUnitHeadingLinkRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<PriceUnitHeadingLinkTableInfo>)
+  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect<PriceUnitHeadingLinkTableInfo>)
+  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;PriceUnitHeadingLinkTableInfo>, execute it and return an IEnumerable&lt;PriceUnitHeadingLinkRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<PriceUnitHeadingLinkRecordData> FromSelect(this TargetedSelect<PriceUnitHeadingLinkTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of PriceUnitHeadingLinkTableInfo)) As IEnumerable(Of PriceUnitHeadingLinkRecordData)
+  overload: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect*
+  nameWithType.vb: PriceUnitHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect(Of PriceUnitHeadingLinkTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of PriceUnitHeadingLinkTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<PriceUnitHeadingLinkRecordData>
-  nameWithType: IEnumerable<PriceUnitHeadingLinkRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData>
-  nameWithType.vb: IEnumerable(Of PriceUnitHeadingLinkRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData)
-  name.vb: IEnumerable(Of PriceUnitHeadingLinkRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<PriceUnitHeadingLinkRecordData>
+  nameWithType: IAsyncEnumerable<PriceUnitHeadingLinkRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of PriceUnitHeadingLinkRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData)
+  name.vb: IAsyncEnumerable(Of PriceUnitHeadingLinkRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<PriceUnitHeadingLinkRecordData>
+  nameWithType: IEnumerable<PriceUnitHeadingLinkRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData>
+  nameWithType.vb: IEnumerable(Of PriceUnitHeadingLinkRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData)
+  name.vb: IEnumerable(Of PriceUnitHeadingLinkRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData
+    name: PriceUnitHeadingLinkRecordData
+    nameWithType: PriceUnitHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData
+    name: PriceUnitHeadingLinkRecordData
+    nameWithType: PriceUnitHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: PriceUnitHeadingLinkRow
   nameWithType: PriceUnitHeadingLinkRow
   fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRow
+- uid: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: PriceUnitHeadingLinkRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.PriceUnitHeadingLinkRecordDataExtensions.FromSelect

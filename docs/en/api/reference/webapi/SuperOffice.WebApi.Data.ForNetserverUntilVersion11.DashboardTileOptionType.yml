@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  id: DashboardTileOptionType
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  children:
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.Boolean
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.Integer
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.List
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.None
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.String
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.value__
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileOptionType
+  nameWithType: DashboardTileOptionType
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: "\nDashboard tile option type\n"
+  syntax:
+    content: 'public sealed class DashboardTileOptionType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashboardTileOptionType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.value__
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashboardTileOptionType.value__
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.None
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashboardTileOptionType.None
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: "\n0: Unknown type\n"
+  syntax:
+    content: public const DashboardTileOptionType None
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+    content.vb: Public Const None As DashboardTileOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.String
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.String
+  id: String
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: DashboardTileOptionType.String
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.String
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: "\n1: String\n"
+  syntax:
+    content: public const DashboardTileOptionType String
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+    content.vb: Public Const String As DashboardTileOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.Integer
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.Integer
+  id: Integer
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  langs:
+  - csharp
+  - vb
+  name: Integer
+  nameWithType: DashboardTileOptionType.Integer
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.Integer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: "\n2: Integer\n"
+  syntax:
+    content: public const DashboardTileOptionType Integer
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+    content.vb: Public Const Integer As DashboardTileOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.Boolean
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.Boolean
+  id: Boolean
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: DashboardTileOptionType.Boolean
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.Boolean
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: "\n3: Boolean\n"
+  syntax:
+    content: public const DashboardTileOptionType Boolean
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+    content.vb: Public Const Boolean As DashboardTileOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.List
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.List
+  id: List
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: DashboardTileOptionType.List
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.List
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: "\n4: List\n"
+  syntax:
+    content: public const DashboardTileOptionType List
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+    content.vb: Public Const List As DashboardTileOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  commentId: N:SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  name: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  nameWithType: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  name: DashboardTileOptionType
+  nameWithType: DashboardTileOptionType
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType

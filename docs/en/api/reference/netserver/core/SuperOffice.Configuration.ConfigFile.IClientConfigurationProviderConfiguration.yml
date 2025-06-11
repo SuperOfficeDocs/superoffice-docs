@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  id: ConfigFile.IClientConfigurationProviderConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheConfigurations
+  - SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheUserPreferences
+  - SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CustomPaths
+  - SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.FilePath
+  - SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.ValidateConfigurations
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IClientConfigurationProviderConfiguration
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration for the Web Client configuration data provider\nCreated in Database scope\n"
+  syntax:
+    content: public interface IClientConfigurationProviderConfiguration
+    content.vb: Public Interface IClientConfigurationProviderConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.FilePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.FilePath
+  id: FilePath
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  langs:
+  - csharp
+  - vb
+  name: FilePath
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration.FilePath
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.FilePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nFile path for standard .config files\n"
+  syntax:
+    content: string FilePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property FilePath As String
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.FilePath*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheConfigurations
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheConfigurations
+  id: CacheConfigurations
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CacheConfigurations
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration.CacheConfigurations
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheConfigurations
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould GUI config data be cached?\n"
+  syntax:
+    content: bool CacheConfigurations { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CacheConfigurations As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheConfigurations*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheUserPreferences
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheUserPreferences
+  id: CacheUserPreferences
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CacheUserPreferences
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration.CacheUserPreferences
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheUserPreferences
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould GUI config data be cached?\n"
+  syntax:
+    content: bool CacheUserPreferences { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CacheUserPreferences As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheUserPreferences*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.ValidateConfigurations
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.ValidateConfigurations
+  id: ValidateConfigurations
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ValidateConfigurations
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration.ValidateConfigurations
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.ValidateConfigurations
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould GUI config data be validated runtime?\n"
+  syntax:
+    content: bool ValidateConfigurations { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ValidateConfigurations As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.ValidateConfigurations*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CustomPaths
+  commentId: P:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CustomPaths
+  id: CustomPaths
+  parent: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CustomPaths
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration.CustomPaths
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CustomPaths
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nList of alternate paths for GUI .config files\n"
+  syntax:
+    content: List<string> CustomPaths { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: ReadOnly Property CustomPaths As List(Of String)
+  overload: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CustomPaths*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IClientConfigurationProviderConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IClientConfigurationProviderConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IClientConfigurationProviderConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IClientConfigurationProviderConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IClientConfigurationProviderConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IClientConfigurationProviderConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IClientConfigurationProviderConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IClientConfigurationProviderConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IClientConfigurationProviderConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IClientConfigurationProviderConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IClientConfigurationProviderConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IClientConfigurationProviderConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IClientConfigurationProviderConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IClientConfigurationProviderConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IClientConfigurationProviderConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IClientConfigurationProviderConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.FilePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.FilePath
+  isExternal: true
+  name: FilePath
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration.FilePath
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.FilePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheConfigurations*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheConfigurations
+  isExternal: true
+  name: CacheConfigurations
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration.CacheConfigurations
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheConfigurations
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheUserPreferences*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheUserPreferences
+  isExternal: true
+  name: CacheUserPreferences
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration.CacheUserPreferences
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CacheUserPreferences
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.ValidateConfigurations*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.ValidateConfigurations
+  isExternal: true
+  name: ValidateConfigurations
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration.ValidateConfigurations
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.ValidateConfigurations
+- uid: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CustomPaths*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CustomPaths
+  isExternal: true
+  name: CustomPaths
+  nameWithType: ConfigFile.IClientConfigurationProviderConfiguration.CustomPaths
+  fullName: SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration.CustomPaths
+- uid: System.Collections.Generic.List{System.String}
+  commentId: '!:System.Collections.Generic.List{System.String}'
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

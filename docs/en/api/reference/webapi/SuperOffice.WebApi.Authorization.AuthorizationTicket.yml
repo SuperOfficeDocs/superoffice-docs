@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Authorization.AuthorizationTicket.#ctor(System.String)
   - SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
-  - SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+  - SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync
   - SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
   langs:
   - csharp
@@ -102,16 +102,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
-  commentId: P:SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
-  id: RefreshAuthorization
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync
+  commentId: P:SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync
+  id: RefreshAuthorizationAsync
   parent: SuperOffice.WebApi.Authorization.AuthorizationTicket
   langs:
   - csharp
   - vb
-  name: RefreshAuthorization
-  nameWithType: AuthorizationTicket.RefreshAuthorization
-  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+  name: RefreshAuthorizationAsync
+  nameWithType: AuthorizationTicket.RefreshAuthorizationAsync
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync
   type: Property
   source:
     path: SuperOffice.WebApi.Authorization
@@ -121,14 +121,14 @@ items:
   namespace: SuperOffice.WebApi.Authorization
   summary: "\nTry to refresh this <xref href=\"SuperOffice.WebApi.Authorization.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref> instance.\n"
   syntax:
-    content: public Func<ReAuthorizationArgs, IAuthorization> RefreshAuthorization { get; set; }
+    content: public Func<ReAuthorizationArgs, Task<IAuthorization>> RefreshAuthorizationAsync { get; set; }
     parameters: []
     return:
-      type: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}
-    content.vb: Public Property RefreshAuthorization As Func(Of ReAuthorizationArgs, IAuthorization)
-  overload: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization*
+      type: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,System.Threading.Tasks.Task{SuperOffice.WebApi.Authorization.IAuthorization}}
+    content.vb: Public Property RefreshAuthorizationAsync As Func(Of ReAuthorizationArgs, Task(Of IAuthorization))
+  overload: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync*
   implements:
-  - SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
+  - SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorizationAsync
   modifiers.csharp:
   - public
   - get
@@ -248,28 +248,28 @@ references:
   name: AuthenticationHeaderValue
   nameWithType: AuthenticationHeaderValue
   fullName: System.Net.Http.Headers.AuthenticationHeaderValue
-- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization*
-  commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync*
+  commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync
   isExternal: true
-  name: RefreshAuthorization
-  nameWithType: AuthorizationTicket.RefreshAuthorization
-  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
-- uid: SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
-  commentId: P:SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
+  name: RefreshAuthorizationAsync
+  nameWithType: AuthorizationTicket.RefreshAuthorizationAsync
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorizationAsync
+- uid: SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorizationAsync
+  commentId: P:SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorizationAsync
   parent: SuperOffice.WebApi.Authorization.IAuthorization
   isExternal: true
-  name: RefreshAuthorization
-  nameWithType: IAuthorization.RefreshAuthorization
-  fullName: SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
-- uid: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}
-  commentId: '!:System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}'
+  name: RefreshAuthorizationAsync
+  nameWithType: IAuthorization.RefreshAuthorizationAsync
+  fullName: SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorizationAsync
+- uid: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,System.Threading.Tasks.Task{SuperOffice.WebApi.Authorization.IAuthorization}}
+  commentId: '!:System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,System.Threading.Tasks.Task{SuperOffice.WebApi.Authorization.IAuthorization}}'
   definition: System.Func`2
-  name: Func<ReAuthorizationArgs, IAuthorization>
-  nameWithType: Func<ReAuthorizationArgs, IAuthorization>
-  fullName: System.Func<SuperOffice.WebApi.Authorization.ReAuthorizationArgs, SuperOffice.WebApi.Authorization.IAuthorization>
-  nameWithType.vb: Func(Of ReAuthorizationArgs, IAuthorization)
-  fullName.vb: System.Func(Of SuperOffice.WebApi.Authorization.ReAuthorizationArgs, SuperOffice.WebApi.Authorization.IAuthorization)
-  name.vb: Func(Of ReAuthorizationArgs, IAuthorization)
+  name: Func<ReAuthorizationArgs, Task<IAuthorization>>
+  nameWithType: Func<ReAuthorizationArgs, Task<IAuthorization>>
+  fullName: System.Func<SuperOffice.WebApi.Authorization.ReAuthorizationArgs, System.Threading.Tasks.Task<SuperOffice.WebApi.Authorization.IAuthorization>>
+  nameWithType.vb: Func(Of ReAuthorizationArgs, Task(Of IAuthorization))
+  fullName.vb: System.Func(Of SuperOffice.WebApi.Authorization.ReAuthorizationArgs, System.Threading.Tasks.Task(Of SuperOffice.WebApi.Authorization.IAuthorization))
+  name.vb: Func(Of ReAuthorizationArgs, Task(Of IAuthorization))
   spec.csharp:
   - uid: System.Func`2
     name: Func
@@ -287,11 +287,22 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
     fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -312,11 +323,22 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
     fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )

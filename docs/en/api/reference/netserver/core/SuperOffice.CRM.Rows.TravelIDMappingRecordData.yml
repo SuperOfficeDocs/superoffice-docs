@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.TravelIDMappingRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TravelIDMappingRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
   - SuperOffice.CRM.Rows.TravelIDMappingRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.TravelIDMappingRecordData.SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TravelIDMappingRecordData.SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TravelIDMappingRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordData.SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
+- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordData.SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
-  name: ToInsert()
-  nameWithType: TravelIDMappingRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: TravelIDMappingRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TravelIDMappingRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TravelIDMappingRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TravelIDMappingRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TravelIDMappingRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
+- uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(TravelIDMappingRecordData)
-  nameWithType: TravelIDMappingRecordDataExtensions.ToInsert(TravelIDMappingRecordData)
-  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
+  name: ToInsertAsync(TravelIDMappingRecordData, CancellationToken)
+  nameWithType: TravelIDMappingRecordDataExtensions.ToInsertAsync(TravelIDMappingRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
-    name: ToInsert
-    nameWithType: TravelIDMappingRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TravelIDMappingRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: TravelIDMappingRecordData
     nameWithType: TravelIDMappingRecordData
     fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelIDMappingRecordData)
-    name: ToInsert
-    nameWithType: TravelIDMappingRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelIDMappingRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TravelIDMappingRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: TravelIDMappingRecordData
     nameWithType: TravelIDMappingRecordData
     fullName: SuperOffice.CRM.Rows.TravelIDMappingRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.AccessScriptRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.AccessScriptRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AccessScriptRecordData)
   - SuperOffice.CRM.Rows.AccessScriptRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.AccessScriptRecordData.SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.AccessScriptRecordData.SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.AccessScriptRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AccessScriptRecordData.SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AccessScriptRecordData)
+- uid: SuperOffice.CRM.Rows.AccessScriptRecordData.SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AccessScriptRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AccessScriptRecordData)
-  name: ToInsert()
-  nameWithType: AccessScriptRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AccessScriptRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: AccessScriptRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AccessScriptRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AccessScriptRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AccessScriptRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AccessScriptRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AccessScriptRecordData)
-  commentId: M:SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AccessScriptRecordData)
+- uid: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AccessScriptRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AccessScriptRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(AccessScriptRecordData)
-  nameWithType: AccessScriptRecordDataExtensions.ToInsert(AccessScriptRecordData)
-  fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AccessScriptRecordData)
+  name: ToInsertAsync(AccessScriptRecordData, CancellationToken)
+  nameWithType: AccessScriptRecordDataExtensions.ToInsertAsync(AccessScriptRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AccessScriptRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AccessScriptRecordData)
-    name: ToInsert
-    nameWithType: AccessScriptRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AccessScriptRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AccessScriptRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: AccessScriptRecordData
     nameWithType: AccessScriptRecordData
     fullName: SuperOffice.CRM.Rows.AccessScriptRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AccessScriptRecordData)
-    name: ToInsert
-    nameWithType: AccessScriptRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AccessScriptRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AccessScriptRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AccessScriptRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: AccessScriptRecordData
     nameWithType: AccessScriptRecordData
     fullName: SuperOffice.CRM.Rows.AccessScriptRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

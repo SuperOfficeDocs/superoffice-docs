@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.ShortClaimNames
+  commentId: T:SuperOffice.Security.Principal.ShortClaimNames
+  id: ShortClaimNames
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.ShortClaimNames.Associate
+  - SuperOffice.Security.Principal.ShortClaimNames.AssociateId
+  - SuperOffice.Security.Principal.ShortClaimNames.ContextIdentifier
+  - SuperOffice.Security.Principal.ShortClaimNames.CredentialsId
+  - SuperOffice.Security.Principal.ShortClaimNames.ImpersonatingAssociate
+  - SuperOffice.Security.Principal.ShortClaimNames.SuperId
+  - SuperOffice.Security.Principal.ShortClaimNames.SuperIdUserCandidateIdentifier
+  - SuperOffice.Security.Principal.ShortClaimNames.Ticket
+  - SuperOffice.Security.Principal.ShortClaimNames.UserName
+  - SuperOffice.Security.Principal.ShortClaimNames.UserType
+  langs:
+  - csharp
+  - vb
+  name: ShortClaimNames
+  nameWithType: ShortClaimNames
+  fullName: SuperOffice.Security.Principal.ShortClaimNames
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nShort claim names used in the internal Identity of NetServer\n"
+  syntax:
+    content: 'public static class ShortClaimNames : Object'
+    content.vb: >-
+      Public Module ShortClaimNames
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Security.Principal.ShortClaimNames.Associate
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.Associate
+  id: Associate
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: ShortClaimNames.Associate
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.Associate
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nClaim type for the Associate.Name property\n"
+  syntax:
+    content: public const string Associate = "soassoc"
+    return:
+      type: System.String
+    content.vb: Public Const Associate As String = "soassoc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Principal.ShortClaimNames.AssociateId
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.AssociateId
+  id: AssociateId
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ShortClaimNames.AssociateId
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.AssociateId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nClaim type for the Associate.Id property\n"
+  syntax:
+    content: public const string AssociateId = "soaid"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "soaid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Principal.ShortClaimNames.ContextIdentifier
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: ShortClaimNames.ContextIdentifier
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.ContextIdentifier
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nClaim type fort the users Context Identifier.\n"
+  syntax:
+    content: public const string ContextIdentifier = "soctx"
+    return:
+      type: System.String
+    content.vb: Public Const ContextIdentifier As String = "soctx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Principal.ShortClaimNames.UserName
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.UserName
+  id: UserName
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: ShortClaimNames.UserName
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.UserName
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nClaim type for Assoiate.UserName\n"
+  syntax:
+    content: public const string UserName = "soupn"
+    return:
+      type: System.String
+    content.vb: Public Const UserName As String = "soupn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Principal.ShortClaimNames.UserType
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.UserType
+  id: UserType
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: ShortClaimNames.UserType
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.UserType
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nClaim type for the users <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public const string UserType = "sout"
+    return:
+      type: System.String
+    content.vb: Public Const UserType As String = "sout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Principal.ShortClaimNames.Ticket
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.Ticket
+  id: Ticket
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: ShortClaimNames.Ticket
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.Ticket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string Ticket = "soticket"
+    return:
+      type: System.String
+    content.vb: Public Const Ticket As String = "soticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Principal.ShortClaimNames.CredentialsId
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.CredentialsId
+  id: CredentialsId
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: CredentialsId
+  nameWithType: ShortClaimNames.CredentialsId
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.CredentialsId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string CredentialsId = "socrid"
+    return:
+      type: System.String
+    content.vb: Public Const CredentialsId As String = "socrid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Principal.ShortClaimNames.ImpersonatingAssociate
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.ImpersonatingAssociate
+  id: ImpersonatingAssociate
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: ImpersonatingAssociate
+  nameWithType: ShortClaimNames.ImpersonatingAssociate
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.ImpersonatingAssociate
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string ImpersonatingAssociate = "soimpassoc"
+    return:
+      type: System.String
+    content.vb: Public Const ImpersonatingAssociate As String = "soimpassoc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Principal.ShortClaimNames.SuperId
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.SuperId
+  id: SuperId
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: SuperId
+  nameWithType: ShortClaimNames.SuperId
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.SuperId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string SuperId = "soid"
+    return:
+      type: System.String
+    content.vb: Public Const SuperId As String = "soid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Principal.ShortClaimNames.SuperIdUserCandidateIdentifier
+  commentId: F:SuperOffice.Security.Principal.ShortClaimNames.SuperIdUserCandidateIdentifier
+  id: SuperIdUserCandidateIdentifier
+  parent: SuperOffice.Security.Principal.ShortClaimNames
+  langs:
+  - csharp
+  - vb
+  name: SuperIdUserCandidateIdentifier
+  nameWithType: ShortClaimNames.SuperIdUserCandidateIdentifier
+  fullName: SuperOffice.Security.Principal.ShortClaimNames.SuperIdUserCandidateIdentifier
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string SuperIdUserCandidateIdentifier = "soucid"
+    return:
+      type: System.String
+    content.vb: Public Const SuperIdUserCandidateIdentifier As String = "soucid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

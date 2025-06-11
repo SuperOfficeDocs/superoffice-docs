@@ -34,8 +34,6 @@ items:
       Public Class UserAndInstallationLicenceStatus
           Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.LicenseAgent
-    commentId: T:SuperOffice.CRM.Services.LicenseAgent
   - linkId: SuperOffice.CRM.Services.ILicenseAgent
     commentId: T:SuperOffice.CRM.Services.ILicenseAgent
   inheritance:
@@ -341,15 +339,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.LicenseAgent
-  commentId: T:SuperOffice.CRM.Services.LicenseAgent
-  isExternal: true
-  name: LicenseAgent
-  nameWithType: LicenseAgent
-  fullName: SuperOffice.CRM.Services.LicenseAgent
 - uid: SuperOffice.CRM.Services.ILicenseAgent
   commentId: T:SuperOffice.CRM.Services.ILicenseAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ILicenseAgent
   nameWithType: ILicenseAgent

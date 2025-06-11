@@ -8,7 +8,7 @@ items:
   - SuperOffice.CRM.Archives.ProjectListItem.#ctor(SuperOffice.CRM.Archives.ProjectList.ProjectListQuery,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Archives.ProjectListItem.AssociateFullName
   - SuperOffice.CRM.Archives.ProjectListItem.AssociateId
-  - SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItem(System.Int32)
+  - SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItemAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Archives.ProjectListItem.Initialize
   - SuperOffice.CRM.Archives.ProjectListItem.IsPublished
   - SuperOffice.CRM.Archives.ProjectListItem.Load(SuperOffice.CRM.Archives.ProjectList.ProjectListQuery,SuperOffice.Data.SoDataReader)
@@ -98,16 +98,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItem(System.Int32)
-  commentId: M:SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItem(System.Int32)
-  id: GetProjectListItem(System.Int32)
+- uid: SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItemAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetProjectListItemAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.ProjectListItem
   langs:
   - csharp
   - vb
-  name: GetProjectListItem(Int32)
-  nameWithType: ProjectListItem.GetProjectListItem(Int32)
-  fullName: SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItem(System.Int32)
+  name: GetProjectListItemAsync(Int32, CancellationToken)
+  nameWithType: ProjectListItem.GetProjectListItemAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItemAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -116,14 +116,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Archives
   syntax:
-    content: public static ProjectListItem GetProjectListItem(int projectId)
+    content: public static Task<ProjectListItem> GetProjectListItemAsync(int projectId, CancellationToken cancellationToken = null)
     parameters:
     - id: projectId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Archives.ProjectListItem
-    content.vb: Public Shared Function GetProjectListItem(projectId As Integer) As ProjectListItem
-  overload: SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItem*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ProjectListItem}
+    content.vb: Public Shared Function GetProjectListItemAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectListItem)
+  overload: SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItemAsync*
   modifiers.csharp:
   - public
   - static
@@ -1937,12 +1939,12 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItem*
-  commentId: Overload:SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItem
+- uid: SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItemAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItemAsync
   isExternal: true
-  name: GetProjectListItem
-  nameWithType: ProjectListItem.GetProjectListItem
-  fullName: SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItem
+  name: GetProjectListItemAsync
+  nameWithType: ProjectListItem.GetProjectListItemAsync
+  fullName: SuperOffice.CRM.Archives.ProjectListItem.GetProjectListItemAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1950,13 +1952,92 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Archives.ProjectListItem
-  commentId: T:SuperOffice.CRM.Archives.ProjectListItem
-  parent: SuperOffice.CRM.Archives
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: ProjectListItem
-  nameWithType: ProjectListItem
-  fullName: SuperOffice.CRM.Archives.ProjectListItem
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ProjectListItem}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ProjectListItem}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProjectListItem>
+  nameWithType: Task<ProjectListItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Archives.ProjectListItem>
+  nameWithType.vb: Task(Of ProjectListItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Archives.ProjectListItem)
+  name.vb: Task(Of ProjectListItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Archives.ProjectListItem
+    name: ProjectListItem
+    nameWithType: ProjectListItem
+    fullName: SuperOffice.CRM.Archives.ProjectListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Archives.ProjectListItem
+    name: ProjectListItem
+    nameWithType: ProjectListItem
+    fullName: SuperOffice.CRM.Archives.ProjectListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ProjectList.ProjectListQuery}.Initialize
   commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ProjectList.ProjectListQuery}.Initialize
   parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ProjectList.ProjectListQuery}

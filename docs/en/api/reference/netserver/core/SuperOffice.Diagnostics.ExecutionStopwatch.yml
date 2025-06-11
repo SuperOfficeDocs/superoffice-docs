@@ -25,14 +25,17 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nStopwathc to meassure CPU time.\n"
+  summary: "\nStopwatch to measure CPU time. Works only on Windows.\n"
   syntax:
-    content: 'public class ExecutionStopwatch : Object'
+    content: 'public class ExecutionStopwatch : Object, IExecutionStopwatch'
     content.vb: >-
       Public Class ExecutionStopwatch
           Inherits Object
+          Implements IExecutionStopwatch
   inheritance:
   - System.Object
+  implements:
+  - SuperOffice.Diagnostics.IExecutionStopwatch
   extensionMethods:
   - SuperOffice.Diagnostics.ExecutionStopwatch.EnumUtil.MapEnums``2
   - SuperOffice.Diagnostics.ExecutionStopwatch.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.ExecutionStopwatch)
@@ -61,11 +64,12 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nStart measuring\n"
   syntax:
     content: public void Start()
     content.vb: Public Sub Start
   overload: SuperOffice.Diagnostics.ExecutionStopwatch.Start*
+  implements:
+  - SuperOffice.Diagnostics.IExecutionStopwatch.Start
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -87,7 +91,6 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate a new stopwatch and start measuring\n"
   syntax:
     content: public static ExecutionStopwatch StartNew()
     return:
@@ -117,11 +120,12 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nStop measuring\n"
   syntax:
     content: public void Stop()
     content.vb: Public Sub Stop
   overload: SuperOffice.Diagnostics.ExecutionStopwatch.Stop*
+  implements:
+  - SuperOffice.Diagnostics.IExecutionStopwatch.Stop
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -143,7 +147,6 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nReset timers.\n"
   syntax:
     content: public void Reset()
     content.vb: Public Sub Reset
@@ -194,7 +197,6 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nElapsed time from start to stop\n"
   syntax:
     content: public TimeSpan Elapsed { get; }
     parameters: []
@@ -202,6 +204,8 @@ items:
       type: System.TimeSpan
     content.vb: Public ReadOnly Property Elapsed As TimeSpan
   overload: SuperOffice.Diagnostics.ExecutionStopwatch.Elapsed*
+  implements:
+  - SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
   modifiers.csharp:
   - public
   - get
@@ -225,7 +229,6 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nIs the timer running\n"
   syntax:
     content: public bool IsRunning { get; }
     parameters: []
@@ -253,6 +256,13 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch
+  commentId: T:SuperOffice.Diagnostics.IExecutionStopwatch
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: IExecutionStopwatch
+  nameWithType: IExecutionStopwatch
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch
 - uid: SuperOffice.Diagnostics.ExecutionStopwatch.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -611,6 +621,37 @@ references:
   name: Start
   nameWithType: ExecutionStopwatch.Start
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch.Start
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Start
+  commentId: M:SuperOffice.Diagnostics.IExecutionStopwatch.Start
+  parent: SuperOffice.Diagnostics.IExecutionStopwatch
+  isExternal: true
+  name: Start()
+  nameWithType: IExecutionStopwatch.Start()
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Start()
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.IExecutionStopwatch.Start
+    name: Start
+    nameWithType: IExecutionStopwatch.Start
+    fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Start
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.IExecutionStopwatch.Start
+    name: Start
+    nameWithType: IExecutionStopwatch.Start
+    fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Start
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Diagnostics.ExecutionStopwatch.StartNew*
   commentId: Overload:SuperOffice.Diagnostics.ExecutionStopwatch.StartNew
   isExternal: true
@@ -630,6 +671,37 @@ references:
   name: Stop
   nameWithType: ExecutionStopwatch.Stop
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch.Stop
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+  commentId: M:SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+  parent: SuperOffice.Diagnostics.IExecutionStopwatch
+  isExternal: true
+  name: Stop()
+  nameWithType: IExecutionStopwatch.Stop()
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Stop()
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+    name: Stop
+    nameWithType: IExecutionStopwatch.Stop
+    fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+    name: Stop
+    nameWithType: IExecutionStopwatch.Stop
+    fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Diagnostics.ExecutionStopwatch.Reset*
   commentId: Overload:SuperOffice.Diagnostics.ExecutionStopwatch.Reset
   isExternal: true
@@ -648,6 +720,13 @@ references:
   name: Elapsed
   nameWithType: ExecutionStopwatch.Elapsed
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch.Elapsed
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+  commentId: P:SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+  parent: SuperOffice.Diagnostics.IExecutionStopwatch
+  isExternal: true
+  name: Elapsed
+  nameWithType: IExecutionStopwatch.Elapsed
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
 - uid: System.TimeSpan
   isExternal: true
   name: TimeSpan

@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.WorkflowGoalRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
   - SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowGoalRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
-  name: ToInsert()
-  nameWithType: WorkflowGoalRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowGoalRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: WorkflowGoalRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: WorkflowGoalRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowGoalRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: WorkflowGoalRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowGoalRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
-  commentId: M:SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowGoalRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowGoalRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(WorkflowGoalRecordData)
-  nameWithType: WorkflowGoalRecordDataExtensions.ToInsert(WorkflowGoalRecordData)
-  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+  name: ToInsertAsync(WorkflowGoalRecordData, CancellationToken)
+  nameWithType: WorkflowGoalRecordDataExtensions.ToInsertAsync(WorkflowGoalRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowGoalRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
-    name: ToInsert
-    nameWithType: WorkflowGoalRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowGoalRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowGoalRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: WorkflowGoalRecordData
     nameWithType: WorkflowGoalRecordData
     fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
-    name: ToInsert
-    nameWithType: WorkflowGoalRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowGoalRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowGoalRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: WorkflowGoalRecordData
     nameWithType: WorkflowGoalRecordData
     fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

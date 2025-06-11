@@ -33,7 +33,7 @@ items:
   - SuperOffice.CRM.Rows.Obsolete2RecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.Obsolete2RecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.Obsolete2RecordData)
   - SuperOffice.CRM.Rows.Obsolete2RecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.Obsolete2RecordData.SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.Obsolete2RecordData.SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.Obsolete2RecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -219,34 +219,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.Obsolete2RecordData.SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordData.SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.Obsolete2RecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions
-  definition: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
-  name: ToInsert()
-  nameWithType: Obsolete2RecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.Obsolete2RecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: Obsolete2RecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: Obsolete2RecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: Obsolete2RecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: Obsolete2RecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: Obsolete2RecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -432,17 +442,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
-  commentId: M:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.Obsolete2RecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.Obsolete2RecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(Obsolete2RecordData)
-  nameWithType: Obsolete2RecordDataExtensions.ToInsert(Obsolete2RecordData)
-  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
+  name: ToInsertAsync(Obsolete2RecordData, CancellationToken)
+  nameWithType: Obsolete2RecordDataExtensions.ToInsertAsync(Obsolete2RecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.Obsolete2RecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
-    name: ToInsert
-    nameWithType: Obsolete2RecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.Obsolete2RecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: Obsolete2RecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -451,15 +461,23 @@ references:
     name: Obsolete2RecordData
     nameWithType: Obsolete2RecordData
     fullName: SuperOffice.CRM.Rows.Obsolete2RecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
-    name: ToInsert
-    nameWithType: Obsolete2RecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.Obsolete2RecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: Obsolete2RecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -468,6 +486,14 @@ references:
     name: Obsolete2RecordData
     nameWithType: Obsolete2RecordData
     fullName: SuperOffice.CRM.Rows.Obsolete2RecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

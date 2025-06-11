@@ -53,8 +53,6 @@ items:
       Public Class AppointmentInfo
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.AppointmentAgent
-    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   - linkId: SuperOffice.CRM.Services.IAppointmentAgent
     commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   inheritance:
@@ -987,15 +985,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AppointmentAgent
-  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
-  isExternal: true
-  name: AppointmentAgent
-  nameWithType: AppointmentAgent
-  fullName: SuperOffice.CRM.Services.AppointmentAgent
 - uid: SuperOffice.CRM.Services.IAppointmentAgent
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent

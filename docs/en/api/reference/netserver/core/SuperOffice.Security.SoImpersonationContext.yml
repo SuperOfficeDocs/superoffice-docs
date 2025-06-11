@@ -6,12 +6,11 @@ items:
   parent: SuperOffice.Security
   children:
   - SuperOffice.Security.SoImpersonationContext.CanImpersonate
-  - SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
+  - SuperOffice.Security.SoImpersonationContext.CanImpersonate(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.Security.SoImpersonationContext.Dispose
   - SuperOffice.Security.SoImpersonationContext.Impersonate(System.String)
   - SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
   - SuperOffice.Security.SoImpersonationContext.RealPrincipal
-  - SuperOffice.Security.SoImpersonationContext.Revert
   langs:
   - csharp
   - vb
@@ -78,16 +77,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
-  commentId: M:SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
-  id: CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
+- uid: SuperOffice.Security.SoImpersonationContext.CanImpersonate(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.Security.SoImpersonationContext.CanImpersonate(System.Security.Claims.ClaimsPrincipal)
+  id: CanImpersonate(System.Security.Claims.ClaimsPrincipal)
   parent: SuperOffice.Security.SoImpersonationContext
   langs:
   - csharp
   - vb
-  name: CanImpersonate(SoPrincipal)
-  nameWithType: SoImpersonationContext.CanImpersonate(SoPrincipal)
-  fullName: SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
+  name: CanImpersonate(ClaimsPrincipal)
+  nameWithType: SoImpersonationContext.CanImpersonate(ClaimsPrincipal)
+  fullName: SuperOffice.Security.SoImpersonationContext.CanImpersonate(System.Security.Claims.ClaimsPrincipal)
   type: Method
   source:
     path: SoCore
@@ -97,15 +96,15 @@ items:
   namespace: SuperOffice.Security
   summary: "\nCheck if the user represented by the provided principle is permitted to impersonate.\n"
   syntax:
-    content: public static bool CanImpersonate(SoPrincipal impersonator)
+    content: public static bool CanImpersonate(ClaimsPrincipal impersonator)
     parameters:
     - id: impersonator
-      type: SuperOffice.Security.Principal.SoPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
       description: The user to check if it has the permission to impersonate
     return:
       type: System.Boolean
       description: True if the user represented by the provided principle is permitted to impersonate.
-    content.vb: Public Shared Function CanImpersonate(impersonator As SoPrincipal) As Boolean
+    content.vb: Public Shared Function CanImpersonate(impersonator As ClaimsPrincipal) As Boolean
   overload: SuperOffice.Security.SoImpersonationContext.CanImpersonate*
   modifiers.csharp:
   - public
@@ -130,8 +129,8 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Security
-  summary: "\nImpersonate as the user with the provided user name.  Only users of type System logged in with \nusername and passwords are permitted to impersonate.  Call <xref href=\"SuperOffice.Security.SoImpersonationContext.Dispose\" data-throw-if-not-resolved=\"false\"></xref>\nor <xref href=\"SuperOffice.Security.SoImpersonationContext.Revert\" data-throw-if-not-resolved=\"false\"></xref>.  Impersonation is not supported with remote mode.\n"
-  remarks: "\nImpersonation lives in the thread scope.  Threads executed with the \n<xref href=\"SuperOffice.SoContext.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> or \n<xref href=\"SuperOffice.Threading.ThreadManager.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String%2cSystem.Boolean%2cSystem.Boolean%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref> \nwill also be executed inside the scope of the impersonated user.\nIt is not permitted to log out using <xref href=\"SuperOffice.SoSession.Close\" data-throw-if-not-resolved=\"false\"></xref> or\nin any other way end the current session like calling \n<xref href=\"SuperOffice.SoSession.Suspend\" data-throw-if-not-resolved=\"false\"></xref> while in a impersonated state.\n"
+  summary: "\nImpersonate as the user with the provided user name.  Only users of type System logged in with \nusername and passwords are permitted to impersonate.  Call <xref href=\"SuperOffice.Security.SoImpersonationContext.Dispose\" data-throw-if-not-resolved=\"false\"></xref>\nor <see cref=\"!:SoImpersonationContext.Revert\"></see>.  Impersonation is not supported with remote mode.\n"
+  remarks: "\nImpersonation lives in the thread scope.\nIt is not permitted to log out using <xref href=\"SuperOffice.SoSession.Close\" data-throw-if-not-resolved=\"false\"></xref> or\nin any other way end the current session like calling \n<see cref=\"!:SoSession.Suspend\"></see> while in a impersonated state.\n"
   syntax:
     content: public static SoImpersonationContext Impersonate(string user)
     parameters:
@@ -149,32 +148,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Security.SoImpersonationContext.Revert
-  commentId: M:SuperOffice.Security.SoImpersonationContext.Revert
-  id: Revert
-  parent: SuperOffice.Security.SoImpersonationContext
-  langs:
-  - csharp
-  - vb
-  name: Revert()
-  nameWithType: SoImpersonationContext.Revert()
-  fullName: SuperOffice.Security.SoImpersonationContext.Revert()
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Security
-  summary: "\nRevert impersonation.\n"
-  syntax:
-    content: public void Revert()
-    content.vb: Public Sub Revert
-  overload: SuperOffice.Security.SoImpersonationContext.Revert*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Security.SoImpersonationContext.Dispose
   commentId: M:SuperOffice.Security.SoImpersonationContext.Dispose
   id: Dispose
@@ -192,7 +165,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Security
-  summary: "\nDispose of the SoImpersonationContext and implcitly call <xref href=\"SuperOffice.Security.SoImpersonationContext.Revert\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nDispose of the temporary user context\n"
   syntax:
     content: public void Dispose()
     content.vb: Public Sub Dispose
@@ -220,11 +193,11 @@ items:
   namespace: SuperOffice.Security
   summary: "\nPrinciple of the impersonating user.\n"
   syntax:
-    content: public SoPrincipal RealPrincipal { get; }
+    content: public ClaimsPrincipal RealPrincipal { get; }
     parameters: []
     return:
-      type: SuperOffice.Security.Principal.SoPrincipal
-    content.vb: Public ReadOnly Property RealPrincipal As SoPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public ReadOnly Property RealPrincipal As ClaimsPrincipal
   overload: SuperOffice.Security.SoImpersonationContext.RealPrincipal*
   modifiers.csharp:
   - public
@@ -251,11 +224,11 @@ items:
   namespace: SuperOffice.Security
   summary: "\nPrincipal of the impersonated user.\n"
   syntax:
-    content: public SoPrincipal ImpersonatedPrincipal { get; }
+    content: public ClaimsPrincipal ImpersonatedPrincipal { get; }
     parameters: []
     return:
-      type: SuperOffice.Security.Principal.SoPrincipal
-    content.vb: Public ReadOnly Property ImpersonatedPrincipal As SoPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public ReadOnly Property ImpersonatedPrincipal As ClaimsPrincipal
   overload: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal*
   modifiers.csharp:
   - public
@@ -466,19 +439,11 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.Security.Principal.SoPrincipal
-  commentId: T:SuperOffice.Security.Principal.SoPrincipal
-  parent: SuperOffice.Security.Principal
+- uid: System.Security.Claims.ClaimsPrincipal
   isExternal: true
-  name: SoPrincipal
-  nameWithType: SoPrincipal
-  fullName: SuperOffice.Security.Principal.SoPrincipal
-- uid: SuperOffice.Security.Principal
-  commentId: N:SuperOffice.Security.Principal
-  isExternal: true
-  name: SuperOffice.Security.Principal
-  nameWithType: SuperOffice.Security.Principal
-  fullName: SuperOffice.Security.Principal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
 - uid: SuperOffice.Security.SoImpersonationContext.Impersonate*
   commentId: Overload:SuperOffice.Security.SoImpersonationContext.Impersonate
   isExternal: true
@@ -499,12 +464,6 @@ references:
   name: SoImpersonationContext
   nameWithType: SoImpersonationContext
   fullName: SuperOffice.Security.SoImpersonationContext
-- uid: SuperOffice.Security.SoImpersonationContext.Revert*
-  commentId: Overload:SuperOffice.Security.SoImpersonationContext.Revert
-  isExternal: true
-  name: Revert
-  nameWithType: SoImpersonationContext.Revert
-  fullName: SuperOffice.Security.SoImpersonationContext.Revert
 - uid: SuperOffice.Security.SoImpersonationContext.Dispose*
   commentId: Overload:SuperOffice.Security.SoImpersonationContext.Dispose
   isExternal: true

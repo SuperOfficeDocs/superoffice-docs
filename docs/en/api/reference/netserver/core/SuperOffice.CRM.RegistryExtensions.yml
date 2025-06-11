@@ -5,7 +5,7 @@ items:
   id: RegistryExtensions
   parent: SuperOffice.CRM
   children:
-  - SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
+  - SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -33,17 +33,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  id: GetRegistryRow(System.Enum,System.String)
+- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+  id: GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.RegistryExtensions
   langs:
   - csharp
   - vb
-  name: GetRegistryRow(Enum, String)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, System.String)
+  name: GetRegistryRowAsync(Enum, String, CancellationToken)
+  nameWithType: RegistryExtensions.GetRegistryRowAsync(Enum, String, CancellationToken)
+  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -52,19 +52,21 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static RegistryRow GetRegistryRow(this Enum regId, string defaultValue = null)
+    content: public static Task<RegistryRow> GetRegistryRowAsync(this Enum regId, string defaultValue = null, CancellationToken cancellationToken = null)
     parameters:
     - id: regId
       type: System.Enum
     - id: defaultValue
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.RegistryRow
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RegistryRow}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function GetRegistryRow(regId As  Enum, defaultValue As String = Nothing) As RegistryRow
-  overload: SuperOffice.CRM.RegistryExtensions.GetRegistryRow*
+      Public Shared Function GetRegistryRowAsync(regId As  Enum, defaultValue As String = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of RegistryRow)
+  overload: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync*
   modifiers.csharp:
   - public
   - static
@@ -91,12 +93,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow*
-  commentId: Overload:SuperOffice.CRM.RegistryExtensions.GetRegistryRow
+- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync*
+  commentId: Overload:SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync
   isExternal: true
-  name: GetRegistryRow
-  nameWithType: RegistryExtensions.GetRegistryRow
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow
+  name: GetRegistryRowAsync
+  nameWithType: RegistryExtensions.GetRegistryRowAsync
+  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync
 - uid: System.Enum
   commentId: '!:System.Enum'
   isExternal: true
@@ -110,16 +112,89 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.Rows.RegistryRow
-  commentId: T:SuperOffice.CRM.Rows.RegistryRow
-  parent: SuperOffice.CRM.Rows
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: RegistryRow
-  nameWithType: RegistryRow
-  fullName: SuperOffice.CRM.Rows.RegistryRow
-- uid: SuperOffice.CRM.Rows
-  commentId: N:SuperOffice.CRM.Rows
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RegistryRow}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RegistryRow}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RegistryRow>
+  nameWithType: Task<RegistryRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.RegistryRow>
+  nameWithType.vb: Task(Of RegistryRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.RegistryRow)
+  name.vb: Task(Of RegistryRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.RegistryRow
+    name: RegistryRow
+    nameWithType: RegistryRow
+    fullName: SuperOffice.CRM.Rows.RegistryRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.RegistryRow
+    name: RegistryRow
+    nameWithType: RegistryRow
+    fullName: SuperOffice.CRM.Rows.RegistryRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: SuperOffice.CRM.Rows
-  nameWithType: SuperOffice.CRM.Rows
-  fullName: SuperOffice.CRM.Rows
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

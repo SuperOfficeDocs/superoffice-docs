@@ -4,12 +4,10 @@ items:
   commentId: N:SuperOffice.CRM.Entities.Providers
   id: SuperOffice.CRM.Entities.Providers
   children:
-  - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider
   - SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   - SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
   - SuperOffice.CRM.Entities.Providers.InfoUdefDict
-  - SuperOffice.CRM.Entities.Providers.ISimpleAppointmentInfoPopulator
   - SuperOffice.CRM.Entities.Providers.ISimpleContactInfoPopulator
   - SuperOffice.CRM.Entities.Providers.ISimpleDocumentInfoPopulator
   - SuperOffice.CRM.Entities.Providers.ISimplePersonInfoPopulator
@@ -20,7 +18,6 @@ items:
   - SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
   - SuperOffice.CRM.Entities.Providers.SaleInfoProvider
   - SuperOffice.CRM.Entities.Providers.SelectionInfoProvider
-  - SuperOffice.CRM.Entities.Providers.SimpleAppointmentInfo
   - SuperOffice.CRM.Entities.Providers.SimpleContactInfo
   - SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
   - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
@@ -39,12 +36,6 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
-  commentId: T:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
-  isExternal: true
-  name: AppointmentInfoProvider
-  nameWithType: AppointmentInfoProvider
-  fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
   commentId: T:SuperOffice.CRM.Entities.Providers.ContactInfoProvider
   isExternal: true
@@ -95,19 +86,6 @@ references:
   name: InfoUdefDict
   nameWithType: InfoUdefDict
   fullName: SuperOffice.CRM.Entities.Providers.InfoUdefDict
-- uid: SuperOffice.CRM.Entities.Providers.SimpleAppointmentInfo
-  commentId: T:SuperOffice.CRM.Entities.Providers.SimpleAppointmentInfo
-  parent: SuperOffice.CRM.Entities.Providers
-  isExternal: true
-  name: SimpleAppointmentInfo
-  nameWithType: SimpleAppointmentInfo
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleAppointmentInfo
-- uid: SuperOffice.CRM.Entities.Providers.ISimpleAppointmentInfoPopulator
-  commentId: T:SuperOffice.CRM.Entities.Providers.ISimpleAppointmentInfoPopulator
-  isExternal: true
-  name: ISimpleAppointmentInfoPopulator
-  nameWithType: ISimpleAppointmentInfoPopulator
-  fullName: SuperOffice.CRM.Entities.Providers.ISimpleAppointmentInfoPopulator
 - uid: SuperOffice.CRM.Entities.Providers.SimpleContactInfo
   commentId: T:SuperOffice.CRM.Entities.Providers.SimpleContactInfo
   parent: SuperOffice.CRM.Entities.Providers

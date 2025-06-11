@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  id: ConfigFile.IOnlineConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.ContextIdentifier
+  - SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.EnableOnline
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration for SuperOffice CRM Cloud\nCreated in Process scope\n"
+  syntax:
+    content: public interface IOnlineConfiguration
+    content.vb: Public Interface IOnlineConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.EnableOnline
+  commentId: P:SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.EnableOnline
+  id: EnableOnline
+  parent: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableOnline
+  nameWithType: ConfigFile.IOnlineConfiguration.EnableOnline
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.EnableOnline
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nEnable SuperOffice CRM Cloud\n"
+  syntax:
+    content: bool EnableOnline { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property EnableOnline As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.EnableOnline*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.ContextIdentifier
+  commentId: P:SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: ConfigFile.IOnlineConfiguration.ContextIdentifier
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.ContextIdentifier
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUsed for hardcoding context identifier for debugging\n"
+  syntax:
+    content: string ContextIdentifier { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ContextIdentifier As String
+  overload: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.ContextIdentifier*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IOnlineConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IOnlineConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IOnlineConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IOnlineConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IOnlineConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IOnlineConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IOnlineConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IOnlineConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IOnlineConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IOnlineConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IOnlineConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IOnlineConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IOnlineConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IOnlineConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IOnlineConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IOnlineConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IOnlineConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IOnlineConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IOnlineConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IOnlineConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IOnlineConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IOnlineConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IOnlineConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IOnlineConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.EnableOnline*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.EnableOnline
+  isExternal: true
+  name: EnableOnline
+  nameWithType: ConfigFile.IOnlineConfiguration.EnableOnline
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.EnableOnline
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.ContextIdentifier*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.ContextIdentifier
+  isExternal: true
+  name: ContextIdentifier
+  nameWithType: ConfigFile.IOnlineConfiguration.ContextIdentifier
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration.ContextIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

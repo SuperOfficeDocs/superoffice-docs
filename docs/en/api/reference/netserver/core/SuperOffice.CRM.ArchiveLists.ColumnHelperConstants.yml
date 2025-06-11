@@ -1,0 +1,683 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  commentId: T:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  id: ColumnHelperConstants
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.#ctor
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultCheckboxWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDateTimeWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDateWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDecimalWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultIconWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultNumberWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultStringWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultTimeWidth
+  langs:
+  - csharp
+  - vb
+  name: ColumnHelperConstants
+  nameWithType: ColumnHelperConstants
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: 'public class ColumnHelperConstants : Object'
+    content.vb: >-
+      Public Class ColumnHelperConstants
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ColumnHelperConstants)
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultStringWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultStringWidth
+  id: DefaultStringWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  langs:
+  - csharp
+  - vb
+  name: DefaultStringWidth
+  nameWithType: ColumnHelperConstants.DefaultStringWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultStringWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type string\n"
+  syntax:
+    content: public const string DefaultStringWidth = "10%"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultStringWidth As String = "10%"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultNumberWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultNumberWidth
+  id: DefaultNumberWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  langs:
+  - csharp
+  - vb
+  name: DefaultNumberWidth
+  nameWithType: ColumnHelperConstants.DefaultNumberWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultNumberWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type number (integer)\n"
+  syntax:
+    content: public const string DefaultNumberWidth = "8c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultNumberWidth As String = "8c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDateWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDateWidth
+  id: DefaultDateWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  langs:
+  - csharp
+  - vb
+  name: DefaultDateWidth
+  nameWithType: ColumnHelperConstants.DefaultDateWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDateWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type date\n"
+  syntax:
+    content: public const string DefaultDateWidth = "10c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDateWidth As String = "10c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDateTimeWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDateTimeWidth
+  id: DefaultDateTimeWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  langs:
+  - csharp
+  - vb
+  name: DefaultDateTimeWidth
+  nameWithType: ColumnHelperConstants.DefaultDateTimeWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDateTimeWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type date\n"
+  syntax:
+    content: public const string DefaultDateTimeWidth = "16c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDateTimeWidth As String = "16c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultCheckboxWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultCheckboxWidth
+  id: DefaultCheckboxWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  langs:
+  - csharp
+  - vb
+  name: DefaultCheckboxWidth
+  nameWithType: ColumnHelperConstants.DefaultCheckboxWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultCheckboxWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type checkbox\n"
+  syntax:
+    content: public const string DefaultCheckboxWidth = "4c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultCheckboxWidth As String = "4c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultIconWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultIconWidth
+  id: DefaultIconWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  langs:
+  - csharp
+  - vb
+  name: DefaultIconWidth
+  nameWithType: ColumnHelperConstants.DefaultIconWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultIconWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type icon\n"
+  syntax:
+    content: public const string DefaultIconWidth = "3c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultIconWidth As String = "3c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDecimalWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDecimalWidth
+  id: DefaultDecimalWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  langs:
+  - csharp
+  - vb
+  name: DefaultDecimalWidth
+  nameWithType: ColumnHelperConstants.DefaultDecimalWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultDecimalWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type decimal (floating-point)\n"
+  syntax:
+    content: public const string DefaultDecimalWidth = "12c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDecimalWidth As String = "12c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultTimeWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultTimeWidth
+  id: DefaultTimeWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  langs:
+  - csharp
+  - vb
+  name: DefaultTimeWidth
+  nameWithType: ColumnHelperConstants.DefaultTimeWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.DefaultTimeWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type decimal (floating-point)\n"
+  syntax:
+    content: public const string DefaultTimeWidth = "5c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTimeWidth As String = "5c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+  langs:
+  - csharp
+  - vb
+  name: ColumnHelperConstants()
+  nameWithType: ColumnHelperConstants.ColumnHelperConstants()
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.ColumnHelperConstants()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ColumnHelperConstants()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ColumnHelperConstants, To>()
+  nameWithType: EnumUtil.MapEnums<ColumnHelperConstants, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ColumnHelperConstants, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ColumnHelperConstants, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ColumnHelperConstants, To)()
+  name.vb: MapEnums(Of ColumnHelperConstants, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ColumnHelperConstants, To>
+    nameWithType: EnumUtil.MapEnums<ColumnHelperConstants, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ColumnHelperConstants, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ColumnHelperConstants, To)
+    nameWithType: EnumUtil.MapEnums(Of ColumnHelperConstants, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ColumnHelperConstants, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ColumnHelperConstants)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ColumnHelperConstants>(ColumnHelperConstants)
+  nameWithType: ObjectExtensions.AssignByReflection<ColumnHelperConstants>(ColumnHelperConstants)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ColumnHelperConstants>(SuperOffice.CRM.ArchiveLists.ColumnHelperConstants)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ColumnHelperConstants)(ColumnHelperConstants)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ColumnHelperConstants)(SuperOffice.CRM.ArchiveLists.ColumnHelperConstants)
+  name.vb: AssignByReflection(Of ColumnHelperConstants)(ColumnHelperConstants)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ColumnHelperConstants>
+    nameWithType: ObjectExtensions.AssignByReflection<ColumnHelperConstants>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ColumnHelperConstants>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+    name: ColumnHelperConstants
+    nameWithType: ColumnHelperConstants
+    fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ColumnHelperConstants)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ColumnHelperConstants)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ColumnHelperConstants)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+    name: ColumnHelperConstants
+    nameWithType: ColumnHelperConstants
+    fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ColumnHelperConstants>()
+  nameWithType: ObjectExtensions.GraphCopy<ColumnHelperConstants>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ColumnHelperConstants>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ColumnHelperConstants)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ColumnHelperConstants)()
+  name.vb: GraphCopy(Of ColumnHelperConstants)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ColumnHelperConstants>
+    nameWithType: ObjectExtensions.GraphCopy<ColumnHelperConstants>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ColumnHelperConstants>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ColumnHelperConstants)
+    nameWithType: ObjectExtensions.GraphCopy(Of ColumnHelperConstants)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ColumnHelperConstants)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ColumnHelperConstants, To>()
+  nameWithType: Converters.MapEnums<ColumnHelperConstants, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ColumnHelperConstants, To>()
+  nameWithType.vb: Converters.MapEnums(Of ColumnHelperConstants, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ColumnHelperConstants, To)()
+  name.vb: MapEnums(Of ColumnHelperConstants, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ColumnHelperConstants, To>
+    nameWithType: Converters.MapEnums<ColumnHelperConstants, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ColumnHelperConstants, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ColumnHelperConstants, To)
+    nameWithType: Converters.MapEnums(Of ColumnHelperConstants, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ColumnHelperConstants, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.#ctor
+  isExternal: true
+  name: ColumnHelperConstants
+  nameWithType: ColumnHelperConstants.ColumnHelperConstants
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelperConstants.ColumnHelperConstants

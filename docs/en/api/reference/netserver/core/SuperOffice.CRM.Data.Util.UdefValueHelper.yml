@@ -41,7 +41,6 @@ items:
   - System.Object
   derivedClasses:
   - SuperOffice.CRM.Entities.EntityUdefHelper
-  - SuperOffice.CRM.Import.UdefImportHelper
   extensionMethods:
   - SuperOffice.CRM.Data.Util.UdefValueHelper.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.Util.UdefValueHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Data.Util.UdefValueHelper)

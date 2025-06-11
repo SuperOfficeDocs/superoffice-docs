@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache(System.String)
-  - SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference(System.String,System.String,System.String,System.Int32)
+  - SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync(System.String,System.String,System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.ServicePreferenceMapper.FetchIndividualValues
   - SuperOffice.Data.ServicePreferenceMapper.FetchSinglePreference(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
   - SuperOffice.Data.ServicePreferenceMapper.MappedSections
@@ -147,16 +147,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference(System.String,System.String,System.String,System.Int32)
-  commentId: M:SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference(System.String,System.String,System.String,System.Int32)
-  id: CheckForMappingAndSavePreference(System.String,System.String,System.String,System.Int32)
+- uid: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync(System.String,System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync(System.String,System.String,System.String,System.Int32,System.Threading.CancellationToken)
+  id: CheckForMappingAndSavePreferenceAsync(System.String,System.String,System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.ServicePreferenceMapper
   langs:
   - csharp
   - vb
-  name: CheckForMappingAndSavePreference(String, String, String, Int32)
-  nameWithType: ServicePreferenceMapper.CheckForMappingAndSavePreference(String, String, String, Int32)
-  fullName: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference(System.String, System.String, System.String, System.Int32)
+  name: CheckForMappingAndSavePreferenceAsync(String, String, String, Int32, CancellationToken)
+  nameWithType: ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync(String, String, String, Int32, CancellationToken)
+  fullName: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync(System.String, System.String, System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -165,7 +165,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public int CheckForMappingAndSavePreference(string section, string key, string value, int ownerId)
+    content: public Task<int> CheckForMappingAndSavePreferenceAsync(string section, string key, string value, int ownerId, CancellationToken cancellationToken = null)
     parameters:
     - id: section
       type: System.String
@@ -175,10 +175,12 @@ items:
       type: System.String
     - id: ownerId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Function CheckForMappingAndSavePreference(section As String, key As String, value As String, ownerId As Integer) As Integer
-  overload: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Function CheckForMappingAndSavePreferenceAsync(section As String, key As String, value As String, ownerId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -753,12 +755,98 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference*
-  commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference
+- uid: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync
   isExternal: true
-  name: CheckForMappingAndSavePreference
-  nameWithType: ServicePreferenceMapper.CheckForMappingAndSavePreference
-  fullName: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference
+  name: CheckForMappingAndSavePreferenceAsync
+  nameWithType: ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync
+  fullName: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ServicePreferenceMapper.MappedSections*
   commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.MappedSections
   isExternal: true

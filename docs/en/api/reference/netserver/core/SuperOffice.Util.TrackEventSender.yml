@@ -1,0 +1,1059 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TrackEventSender
+  commentId: T:SuperOffice.Util.TrackEventSender
+  id: TrackEventSender
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TrackEventSender.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})
+  - SuperOffice.Util.TrackEventSender.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: TrackEventSender
+  nameWithType: TrackEventSender
+  fullName: SuperOffice.Util.TrackEventSender
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: 'public class TrackEventSender : AsyncQueueProcessor<IAsyncQueue<TrackEvent>, TrackEvent>, IHostedService'
+    content.vb: >-
+      Public Class TrackEventSender
+          Inherits AsyncQueueProcessor(Of IAsyncQueue(Of TrackEvent), TrackEvent)
+          Implements IHostedService
+  inheritance:
+  - System.Object
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}
+  implements:
+  - Microsoft.Extensions.Hosting.IHostedService
+  inheritedMembers:
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}._queue
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.ExecuteAsync(System.Threading.CancellationToken)
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+  extensionMethods:
+  - SuperOffice.Util.TrackEventSender.EnumUtil.MapEnums``2
+  - SuperOffice.Util.TrackEventSender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.TrackEventSender.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})
+  commentId: M:SuperOffice.Util.TrackEventSender.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})'
+  parent: SuperOffice.Util.TrackEventSender
+  langs:
+  - csharp
+  - vb
+  name: TrackEventSender(IOptions<TrackEventConfiguration>, ILogger<TrackEventSender>, IAsyncQueue<TrackEvent>)
+  nameWithType: TrackEventSender.TrackEventSender(IOptions<TrackEventConfiguration>, ILogger<TrackEventSender>, IAsyncQueue<TrackEvent>)
+  fullName: SuperOffice.Util.TrackEventSender.TrackEventSender(Microsoft.Extensions.Options.IOptions<SuperOffice.Util.TrackEventConfiguration>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.TrackEventSender>, SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public TrackEventSender(IOptions<TrackEventConfiguration> options, ILogger<TrackEventSender> logger, IAsyncQueue<TrackEvent> queue)
+    parameters:
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender}
+    - id: queue
+      type: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+    content.vb: Public Sub New(options As IOptions(Of TrackEventConfiguration), logger As ILogger(Of TrackEventSender), queue As IAsyncQueue(Of TrackEvent))
+  overload: SuperOffice.Util.TrackEventSender.#ctor*
+  nameWithType.vb: TrackEventSender.TrackEventSender(IOptions(Of TrackEventConfiguration), ILogger(Of TrackEventSender), IAsyncQueue(Of TrackEvent))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TrackEventSender.TrackEventSender(Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.TrackEventConfiguration), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.TrackEventSender), SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent))
+  name.vb: TrackEventSender(IOptions(Of TrackEventConfiguration), ILogger(Of TrackEventSender), IAsyncQueue(Of TrackEvent))
+- uid: SuperOffice.Util.TrackEventSender.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.TrackEventSender.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+  id: ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+  parent: SuperOffice.Util.TrackEventSender
+  langs:
+  - csharp
+  - vb
+  name: ProcessItemAsync(IAsyncQueueProcessItemContext<TrackEvent>, CancellationToken)
+  nameWithType: TrackEventSender.ProcessItemAsync(IAsyncQueueProcessItemContext<TrackEvent>, CancellationToken)
+  fullName: SuperOffice.Util.TrackEventSender.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.Util.TrackEvent>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: protected override Task ProcessItemAsync(IAsyncQueueProcessItemContext<TrackEvent> context, CancellationToken cancellationToken)
+    parameters:
+    - id: context
+      type: SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function ProcessItemAsync(context As IAsyncQueueProcessItemContext(Of TrackEvent), cancellationToken As CancellationToken) As Task
+  overridden: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+  overload: SuperOffice.Util.TrackEventSender.ProcessItemAsync*
+  nameWithType.vb: TrackEventSender.ProcessItemAsync(IAsyncQueueProcessItemContext(Of TrackEvent), CancellationToken)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: SuperOffice.Util.TrackEventSender.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.Util.TrackEvent), System.Threading.CancellationToken)
+  name.vb: ProcessItemAsync(IAsyncQueueProcessItemContext(Of TrackEvent), CancellationToken)
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}
+  commentId: T:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2
+  name: AsyncQueueProcessor<IAsyncQueue<TrackEvent>, TrackEvent>
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<TrackEvent>, TrackEvent>
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>, SuperOffice.Util.TrackEvent>
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of TrackEvent), TrackEvent)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent), SuperOffice.Util.TrackEvent)
+  name.vb: AsyncQueueProcessor(Of IAsyncQueue(Of TrackEvent), TrackEvent)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2
+    name: AsyncQueueProcessor
+    nameWithType: AsyncQueueProcessor
+    fullName: SuperOffice.Threading.AsyncQueueProcessor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2
+    name: AsyncQueueProcessor
+    nameWithType: AsyncQueueProcessor
+    fullName: SuperOffice.Threading.AsyncQueueProcessor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Hosting.IHostedService
+  isExternal: true
+  name: IHostedService
+  nameWithType: IHostedService
+  fullName: Microsoft.Extensions.Hosting.IHostedService
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}._queue
+  commentId: F:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}._queue
+  parent: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2._queue
+  name: _queue
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<TrackEvent>, TrackEvent>._queue
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>, SuperOffice.Util.TrackEvent>._queue
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of TrackEvent), TrackEvent)._queue
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent), SuperOffice.Util.TrackEvent)._queue
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.ExecuteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.ExecuteAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<TrackEvent>, TrackEvent>.ExecuteAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>, SuperOffice.Util.TrackEvent>.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of TrackEvent), TrackEvent).ExecuteAsync(CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent), SuperOffice.Util.TrackEvent).ExecuteAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
+    nameWithType: AsyncQueueProcessor<IAsyncQueue<TrackEvent>, TrackEvent>.ExecuteAsync
+    fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>, SuperOffice.Util.TrackEvent>.ExecuteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
+    nameWithType: AsyncQueueProcessor(Of IAsyncQueue(Of TrackEvent), TrackEvent).ExecuteAsync
+    fullName: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent), SuperOffice.Util.TrackEvent).ExecuteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  name: ProcessItemAsync(IAsyncQueueProcessItemContext<TrackEvent>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<TrackEvent>, TrackEvent>.ProcessItemAsync(IAsyncQueueProcessItemContext<TrackEvent>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>, SuperOffice.Util.TrackEvent>.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.Util.TrackEvent>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of TrackEvent), TrackEvent).ProcessItemAsync(IAsyncQueueProcessItemContext(Of TrackEvent), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent), SuperOffice.Util.TrackEvent).ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.Util.TrackEvent), System.Threading.CancellationToken)
+  name.vb: ProcessItemAsync(IAsyncQueueProcessItemContext(Of TrackEvent), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    nameWithType: AsyncQueueProcessor<IAsyncQueue<TrackEvent>, TrackEvent>.ProcessItemAsync
+    fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>, SuperOffice.Util.TrackEvent>.ProcessItemAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    nameWithType: IAsyncQueueProcessItemContext
+    fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    nameWithType: AsyncQueueProcessor(Of IAsyncQueue(Of TrackEvent), TrackEvent).ProcessItemAsync
+    fullName: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent), SuperOffice.Util.TrackEvent).ProcessItemAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    nameWithType: IAsyncQueueProcessItemContext
+    fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TrackEventSender.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TrackEventSender, To>()
+  nameWithType: EnumUtil.MapEnums<TrackEventSender, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.TrackEventSender, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TrackEventSender, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TrackEventSender, To)()
+  name.vb: MapEnums(Of TrackEventSender, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TrackEventSender, To>
+    nameWithType: EnumUtil.MapEnums<TrackEventSender, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.TrackEventSender, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TrackEventSender, To)
+    nameWithType: EnumUtil.MapEnums(Of TrackEventSender, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.TrackEventSender, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TrackEventSender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TrackEventSender, To>()
+  nameWithType: Converters.MapEnums<TrackEventSender, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TrackEventSender, To>()
+  nameWithType.vb: Converters.MapEnums(Of TrackEventSender, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TrackEventSender, To)()
+  name.vb: MapEnums(Of TrackEventSender, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TrackEventSender, To>
+    nameWithType: Converters.MapEnums<TrackEventSender, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TrackEventSender, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TrackEventSender, To)
+    nameWithType: Converters.MapEnums(Of TrackEventSender, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TrackEventSender, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2
+  commentId: T:SuperOffice.Threading.AsyncQueueProcessor`2
+  isExternal: true
+  name: AsyncQueueProcessor<TQueue, TItem>
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem)
+  name.vb: AsyncQueueProcessor(Of TQueue, TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2
+    name: AsyncQueueProcessor
+    nameWithType: AsyncQueueProcessor
+    fullName: SuperOffice.Threading.AsyncQueueProcessor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TQueue
+    nameWithType: TQueue
+    fullName: TQueue
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2
+    name: AsyncQueueProcessor
+    nameWithType: AsyncQueueProcessor
+    fullName: SuperOffice.Threading.AsyncQueueProcessor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TQueue
+    nameWithType: TQueue
+    fullName: TQueue
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2._queue
+  commentId: F:SuperOffice.Threading.AsyncQueueProcessor`2._queue
+  isExternal: true
+  name: _queue
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>._queue
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>._queue
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem)._queue
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem)._queue
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+  isExternal: true
+  name: ExecuteAsync(CancellationToken)
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>.ExecuteAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).ExecuteAsync(CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).ExecuteAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
+    nameWithType: AsyncQueueProcessor<TQueue, TItem>.ExecuteAsync
+    fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ExecuteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
+    nameWithType: AsyncQueueProcessor(Of TQueue, TItem).ExecuteAsync
+    fullName: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).ExecuteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  isExternal: true
+  name: ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken)
+  name.vb: ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    nameWithType: AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync
+    fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    nameWithType: IAsyncQueueProcessItemContext
+    fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    nameWithType: AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync
+    fullName: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    nameWithType: IAsyncQueueProcessItemContext
+    fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.TrackEventSender.#ctor*
+  commentId: Overload:SuperOffice.Util.TrackEventSender.#ctor
+  isExternal: true
+  name: TrackEventSender
+  nameWithType: TrackEventSender.TrackEventSender
+  fullName: SuperOffice.Util.TrackEventSender.TrackEventSender
+- uid: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
+  commentId: '!:Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}'
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<TrackEventConfiguration>
+  nameWithType: IOptions<TrackEventConfiguration>
+  fullName: Microsoft.Extensions.Options.IOptions<SuperOffice.Util.TrackEventConfiguration>
+  nameWithType.vb: IOptions(Of TrackEventConfiguration)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.TrackEventConfiguration)
+  name.vb: IOptions(Of TrackEventConfiguration)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Util.TrackEventConfiguration
+    name: TrackEventConfiguration
+    nameWithType: TrackEventConfiguration
+    fullName: SuperOffice.Util.TrackEventConfiguration
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Util.TrackEventConfiguration
+    name: TrackEventConfiguration
+    nameWithType: TrackEventConfiguration
+    fullName: SuperOffice.Util.TrackEventConfiguration
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender}
+  commentId: '!:Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender}'
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  name: ILogger<TrackEventSender>
+  nameWithType: ILogger<TrackEventSender>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.TrackEventSender>
+  nameWithType.vb: ILogger(Of TrackEventSender)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.TrackEventSender)
+  name.vb: ILogger(Of TrackEventSender)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Util.TrackEventSender
+    name: TrackEventSender
+    nameWithType: TrackEventSender
+    fullName: SuperOffice.Util.TrackEventSender
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Util.TrackEventSender
+    name: TrackEventSender
+    nameWithType: TrackEventSender
+    fullName: SuperOffice.Util.TrackEventSender
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+  commentId: T:SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IAsyncQueue`1
+  name: IAsyncQueue<TrackEvent>
+  nameWithType: IAsyncQueue<TrackEvent>
+  fullName: SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>
+  nameWithType.vb: IAsyncQueue(Of TrackEvent)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent)
+  name.vb: IAsyncQueue(Of TrackEvent)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<>
+  nameWithType: IOptions<>
+  fullName: Microsoft.Extensions.Options.IOptions<>
+  nameWithType.vb: IOptions(Of )
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of )
+  name.vb: IOptions(Of )
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  name: ILogger<>
+  nameWithType: ILogger<>
+  fullName: Microsoft.Extensions.Logging.ILogger<>
+  nameWithType.vb: ILogger(Of )
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of )
+  name.vb: ILogger(Of )
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.IAsyncQueue`1
+  commentId: T:SuperOffice.Threading.IAsyncQueue`1
+  isExternal: true
+  name: IAsyncQueue<TItem>
+  nameWithType: IAsyncQueue<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueue<TItem>
+  nameWithType.vb: IAsyncQueue(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of TItem)
+  name.vb: IAsyncQueue(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TrackEventSender.ProcessItemAsync*
+  commentId: Overload:SuperOffice.Util.TrackEventSender.ProcessItemAsync
+  isExternal: true
+  name: ProcessItemAsync
+  nameWithType: TrackEventSender.ProcessItemAsync
+  fullName: SuperOffice.Util.TrackEventSender.ProcessItemAsync
+- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent}
+  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  name: IAsyncQueueProcessItemContext<TrackEvent>
+  nameWithType: IAsyncQueueProcessItemContext<TrackEvent>
+  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.Util.TrackEvent>
+  nameWithType.vb: IAsyncQueueProcessItemContext(Of TrackEvent)
+  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.Util.TrackEvent)
+  name.vb: IAsyncQueueProcessItemContext(Of TrackEvent)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    nameWithType: IAsyncQueueProcessItemContext
+    fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    nameWithType: IAsyncQueueProcessItemContext
+    fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  isExternal: true
+  name: IAsyncQueueProcessItemContext<TItem>
+  nameWithType: IAsyncQueueProcessItemContext<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>
+  nameWithType.vb: IAsyncQueueProcessItemContext(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem)
+  name.vb: IAsyncQueueProcessItemContext(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    nameWithType: IAsyncQueueProcessItemContext
+    fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    nameWithType: IAsyncQueueProcessItemContext
+    fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: )
+    nameWithType: )
+    fullName: )

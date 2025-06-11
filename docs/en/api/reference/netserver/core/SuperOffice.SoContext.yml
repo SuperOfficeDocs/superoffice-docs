@@ -9,12 +9,7 @@ items:
   - SuperOffice.SoContext.CloseCurrentSession
   - SuperOffice.SoContext.CurrentIdentity
   - SuperOffice.SoContext.CurrentPrincipal
-  - SuperOffice.SoContext.CurrentRealPrincipal
   - SuperOffice.SoContext.IsAuthenticated
-  - SuperOffice.SoContext.IsUdefAvailable
-  - SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0)
-  - SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  - SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean)
   - SuperOffice.SoContext.ToString
   langs:
   - csharp
@@ -31,7 +26,7 @@ items:
   namespace: SuperOffice
   summary: "\nClass holding context information about the currently logged on user.\n"
   example:
-  - "\nLog in and get the users home country:\n<pre><code>SoSession session = SoSession.Authenticate(&quot;user&quot;, &quot;password&quot;);\nint countryId = SoContext.CurrentPrincipal.HomeCountryId;\nsession.Close();</code></pre>\n"
+  - "\nLog in and get the users home country:\n<pre><code>SoSession session = SoSession.Authenticate(&quot;user&quot;, &quot;password&quot;);\nint countryId = SoContext.CurrentPrincipal.GetHomeCountryId();\nsession.Close();</code></pre>\n"
   syntax:
     content: 'public sealed class SoContext : Object'
     content.vb: >-
@@ -52,153 +47,6 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  commentId: M:SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  id: SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  parent: SuperOffice.SoContext
-  langs:
-  - csharp
-  - vb
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String)
-  nameWithType: SoContext.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String)
-  fullName: SuperOffice.SoContext.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
-  remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <xref href=\"SuperOffice.Configuration.ConfigFile.Threading.MaxParellalThreads\" data-throw-if-not-resolved=\"false\"></xref>\nproperty of the configuration file</p>\n"
-  example:
-  - "\nThe method implementing the asynchronous operation needs to implement the delegate <xref href=\"System.ComponentModel.AsyncOperation\" data-throw-if-not-resolved=\"false\"></xref>:\n<pre><code>private void MyAsyncOperation(AsyncContext context, object argument)\n{\n	// Do some stuff...\n}</code></pre>\nThe argument passed to the method is an optional argument selected when spawning off the asynchronous task:\n<pre><code>AsyncContext ctx = ThreadManager.SpawnThread(new AsyncOperation(MyAsyncOperation), argument, &quot;MyThread&quot;);</code></pre>\n"
-  syntax:
-    content: public static AsyncContext SpawnThread<TArgument>(AsyncOperation<TArgument> asyncOperation, TArgument argument, string threadName)
-    parameters:
-    - id: asyncOperation
-      type: SuperOffice.Threading.AsyncOperation{{TArgument}}
-      description: Operation executed in the new thread.
-    - id: argument
-      type: '{TArgument}'
-      description: Argument passed to the operation executing the thread.
-    - id: threadName
-      type: System.String
-      description: Thread name, for debugging purposes
-    typeParameters:
-    - id: TArgument
-    return:
-      type: SuperOffice.Threading.AsyncContext
-      description: Information about the async operation.
-    content.vb: Public Shared Function SpawnThread(Of TArgument)(asyncOperation As AsyncOperation(Of TArgument), argument As TArgument, threadName As String) As AsyncContext
-  overload: SuperOffice.SoContext.SpawnThread*
-  nameWithType.vb: SoContext.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.SoContext.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, System.String)
-  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String)
-- uid: SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0)
-  commentId: M:SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0)
-  id: SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0)
-  parent: SuperOffice.SoContext
-  langs:
-  - csharp
-  - vb
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument)
-  nameWithType: SoContext.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument)
-  fullName: SuperOffice.SoContext.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
-  remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <xref href=\"SuperOffice.Configuration.ConfigFile.Threading.MaxParellalThreads\" data-throw-if-not-resolved=\"false\"></xref>\nproperty of the configuration file</p>\n"
-  example:
-  - "\nThe method implementing the asynchronous operation needs to implement the delegate <xref href=\"System.ComponentModel.AsyncOperation\" data-throw-if-not-resolved=\"false\"></xref>:\n<pre><code>private void MyAsyncOperation(AsyncContext context, object argument)\n{\n	// Do some stuff...\n}</code></pre>\nThe argument passed to the method is an optional argument selected when spawning off the asynchronous task:\n<pre><code>AsyncContext ctx = ThreadManager.SpawnThread(new AsyncOperation(MyAsyncOperation), argument );</code></pre>\n"
-  syntax:
-    content: public static AsyncContext SpawnThread<TArgument>(AsyncOperation<TArgument> asyncOperation, TArgument argument)
-    parameters:
-    - id: asyncOperation
-      type: SuperOffice.Threading.AsyncOperation{{TArgument}}
-      description: Operation executed in the new thread.
-    - id: argument
-      type: '{TArgument}'
-      description: Argument passed to the operation executing the thread.
-    typeParameters:
-    - id: TArgument
-    return:
-      type: SuperOffice.Threading.AsyncContext
-      description: Information about the async operation.
-    content.vb: Public Shared Function SpawnThread(Of TArgument)(asyncOperation As AsyncOperation(Of TArgument), argument As TArgument) As AsyncContext
-  overload: SuperOffice.SoContext.SpawnThread*
-  nameWithType.vb: SoContext.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.SoContext.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument)
-  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument)
-- uid: SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean)
-  commentId: M:SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean)
-  id: SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean)
-  parent: SuperOffice.SoContext
-  langs:
-  - csharp
-  - vb
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String, Boolean)
-  nameWithType: SoContext.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String, Boolean)
-  fullName: SuperOffice.SoContext.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String, System.Boolean)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
-  remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <xref href=\"SuperOffice.Configuration.ConfigFile.Threading.MaxParellalThreads\" data-throw-if-not-resolved=\"false\"></xref>\nproperty of the configuration file</p>\n"
-  example:
-  - "\nThe method implementing the asynchronous operation needs to implement the delegate <xref href=\"System.ComponentModel.AsyncOperation\" data-throw-if-not-resolved=\"false\"></xref>:\n<pre><code>private void MyAsyncOperation(AsyncContext context, object argument)\n{\n	// Do some stuff...\n}</code></pre>\nThe argument passed to the method is an optional argument selected when spawning off the asynchronous task:\n<pre><code>AsyncContext ctx = ThreadManager.SpawnThread(new AsyncOperation(MyAsyncOperation), argument );</code></pre>\n"
-  syntax:
-    content: public static AsyncContext SpawnThread<TArgument>(AsyncOperation<TArgument> asyncOperation, TArgument argument, string threadName, bool breakOnError)
-    parameters:
-    - id: asyncOperation
-      type: SuperOffice.Threading.AsyncOperation{{TArgument}}
-      description: Operation executed in the new thread.
-    - id: argument
-      type: '{TArgument}'
-      description: Argument passed to the operation executing the thread.
-    - id: threadName
-      type: System.String
-      description: Thread name, for debugging purposes
-    - id: breakOnError
-      type: System.Boolean
-      description: Shall the attached debugger break on errors executing the thread.
-    typeParameters:
-    - id: TArgument
-    return:
-      type: SuperOffice.Threading.AsyncContext
-      description: Information about the async operation.
-    content.vb: Public Shared Function SpawnThread(Of TArgument)(asyncOperation As AsyncOperation(Of TArgument), argument As TArgument, threadName As String, breakOnError As Boolean) As AsyncContext
-  overload: SuperOffice.SoContext.SpawnThread*
-  nameWithType.vb: SoContext.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.SoContext.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, System.String, System.Boolean)
-  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean)
 - uid: SuperOffice.SoContext.CloseCurrentSession
   commentId: M:SuperOffice.SoContext.CloseCurrentSession
   id: CloseCurrentSession
@@ -250,7 +98,7 @@ items:
     content: public override string ToString()
     return:
       type: System.String
-      description: Current principal&apos;s ToString, or string.Empty if the current <xref href="SuperOffice.Security.Principal.SoPrincipal" data-throw-if-not-resolved="false"></xref> is null
+      description: Current principal&apos;s ToString, or string.Empty if the current <see cref="!:SoPrincipal"></see> is null
     content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.SoContext.ToString*
   modifiers.csharp:
@@ -303,45 +151,12 @@ items:
   namespace: SuperOffice
   summary: "\nObtain the current principal\n"
   syntax:
-    content: public static SoPrincipal CurrentPrincipal { get; }
+    content: public static ClaimsPrincipal CurrentPrincipal { get; }
     parameters: []
     return:
-      type: SuperOffice.Security.Principal.SoPrincipal
-    content.vb: Public Shared ReadOnly Property CurrentPrincipal As SoPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public Shared ReadOnly Property CurrentPrincipal As ClaimsPrincipal
   overload: SuperOffice.SoContext.CurrentPrincipal*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
-- uid: SuperOffice.SoContext.CurrentRealPrincipal
-  commentId: P:SuperOffice.SoContext.CurrentRealPrincipal
-  id: CurrentRealPrincipal
-  parent: SuperOffice.SoContext
-  langs:
-  - csharp
-  - vb
-  name: CurrentRealPrincipal
-  nameWithType: SoContext.CurrentRealPrincipal
-  fullName: SuperOffice.SoContext.CurrentRealPrincipal
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nRoot principal.  Impersonated users will yield the principal of the user impersonating.\n"
-  syntax:
-    content: public static SoPrincipal CurrentRealPrincipal { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Security.Principal.SoPrincipal
-    content.vb: Public Shared ReadOnly Property CurrentRealPrincipal As SoPrincipal
-  overload: SuperOffice.SoContext.CurrentRealPrincipal*
   modifiers.csharp:
   - public
   - static
@@ -369,45 +184,12 @@ items:
   namespace: SuperOffice
   summary: "\nObtain the current identity\n"
   syntax:
-    content: public static ISoIdentity CurrentIdentity { get; }
+    content: public static ClaimsIdentity CurrentIdentity { get; }
     parameters: []
     return:
-      type: SuperOffice.Security.Principal.ISoIdentity
-    content.vb: Public Shared ReadOnly Property CurrentIdentity As ISoIdentity
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Shared ReadOnly Property CurrentIdentity As ClaimsIdentity
   overload: SuperOffice.SoContext.CurrentIdentity*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
-- uid: SuperOffice.SoContext.IsUdefAvailable
-  commentId: P:SuperOffice.SoContext.IsUdefAvailable
-  id: IsUdefAvailable
-  parent: SuperOffice.SoContext
-  langs:
-  - csharp
-  - vb
-  name: IsUdefAvailable
-  nameWithType: SoContext.IsUdefAvailable
-  fullName: SuperOffice.SoContext.IsUdefAvailable
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nShould archive providers add Udefs\n"
-  syntax:
-    content: public static bool IsUdefAvailable { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Shared ReadOnly Property IsUdefAvailable As Boolean
-  overload: SuperOffice.SoContext.IsUdefAvailable*
   modifiers.csharp:
   - public
   - static
@@ -815,128 +597,6 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.SoContext.SpawnThread*
-  commentId: Overload:SuperOffice.SoContext.SpawnThread
-  isExternal: true
-  name: SpawnThread
-  nameWithType: SoContext.SpawnThread
-  fullName: SuperOffice.SoContext.SpawnThread
-- uid: SuperOffice.Threading.AsyncOperation{{TArgument}}
-  commentId: T:SuperOffice.Threading.AsyncOperation{``0}
-  parent: SuperOffice.Threading
-  definition: SuperOffice.Threading.AsyncOperation`1
-  name: AsyncOperation<TArgument>
-  nameWithType: AsyncOperation<TArgument>
-  fullName: SuperOffice.Threading.AsyncOperation<TArgument>
-  nameWithType.vb: AsyncOperation(Of TArgument)
-  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument)
-  name.vb: AsyncOperation(Of TArgument)
-  spec.csharp:
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    nameWithType: AsyncOperation
-    fullName: SuperOffice.Threading.AsyncOperation
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    nameWithType: AsyncOperation
-    fullName: SuperOffice.Threading.AsyncOperation
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: '{TArgument}'
-  commentId: '!:TArgument'
-  definition: TArgument
-  name: TArgument
-  nameWithType: TArgument
-  fullName: TArgument
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.Threading.AsyncContext
-  commentId: T:SuperOffice.Threading.AsyncContext
-  parent: SuperOffice.Threading
-  isExternal: true
-  name: AsyncContext
-  nameWithType: AsyncContext
-  fullName: SuperOffice.Threading.AsyncContext
-- uid: SuperOffice.Threading.AsyncOperation`1
-  commentId: T:SuperOffice.Threading.AsyncOperation`1
-  isExternal: true
-  name: AsyncOperation<TArgument>
-  nameWithType: AsyncOperation<TArgument>
-  fullName: SuperOffice.Threading.AsyncOperation<TArgument>
-  nameWithType.vb: AsyncOperation(Of TArgument)
-  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument)
-  name.vb: AsyncOperation(Of TArgument)
-  spec.csharp:
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    nameWithType: AsyncOperation
-    fullName: SuperOffice.Threading.AsyncOperation
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    nameWithType: AsyncOperation
-    fullName: SuperOffice.Threading.AsyncOperation
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading
-  commentId: N:SuperOffice.Threading
-  isExternal: true
-  name: SuperOffice.Threading
-  nameWithType: SuperOffice.Threading
-  fullName: SuperOffice.Threading
-- uid: TArgument
-  name: TArgument
-  nameWithType: TArgument
-  fullName: TArgument
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: SuperOffice.SoContext.CloseCurrentSession*
   commentId: Overload:SuperOffice.SoContext.CloseCurrentSession
   isExternal: true
@@ -949,6 +609,13 @@ references:
   name: ToString
   nameWithType: SoContext.ToString
   fullName: SuperOffice.SoContext.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.SoContext.#ctor*
   commentId: Overload:SuperOffice.SoContext.#ctor
   isExternal: true
@@ -961,47 +628,32 @@ references:
   name: CurrentPrincipal
   nameWithType: SoContext.CurrentPrincipal
   fullName: SuperOffice.SoContext.CurrentPrincipal
-- uid: SuperOffice.Security.Principal.SoPrincipal
-  commentId: T:SuperOffice.Security.Principal.SoPrincipal
-  parent: SuperOffice.Security.Principal
+- uid: System.Security.Claims.ClaimsPrincipal
   isExternal: true
-  name: SoPrincipal
-  nameWithType: SoPrincipal
-  fullName: SuperOffice.Security.Principal.SoPrincipal
-- uid: SuperOffice.Security.Principal
-  commentId: N:SuperOffice.Security.Principal
-  isExternal: true
-  name: SuperOffice.Security.Principal
-  nameWithType: SuperOffice.Security.Principal
-  fullName: SuperOffice.Security.Principal
-- uid: SuperOffice.SoContext.CurrentRealPrincipal*
-  commentId: Overload:SuperOffice.SoContext.CurrentRealPrincipal
-  isExternal: true
-  name: CurrentRealPrincipal
-  nameWithType: SoContext.CurrentRealPrincipal
-  fullName: SuperOffice.SoContext.CurrentRealPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
 - uid: SuperOffice.SoContext.CurrentIdentity*
   commentId: Overload:SuperOffice.SoContext.CurrentIdentity
   isExternal: true
   name: CurrentIdentity
   nameWithType: SoContext.CurrentIdentity
   fullName: SuperOffice.SoContext.CurrentIdentity
-- uid: SuperOffice.Security.Principal.ISoIdentity
-  commentId: T:SuperOffice.Security.Principal.ISoIdentity
-  parent: SuperOffice.Security.Principal
+- uid: System.Security.Claims.ClaimsIdentity
   isExternal: true
-  name: ISoIdentity
-  nameWithType: ISoIdentity
-  fullName: SuperOffice.Security.Principal.ISoIdentity
-- uid: SuperOffice.SoContext.IsUdefAvailable*
-  commentId: Overload:SuperOffice.SoContext.IsUdefAvailable
-  isExternal: true
-  name: IsUdefAvailable
-  nameWithType: SoContext.IsUdefAvailable
-  fullName: SuperOffice.SoContext.IsUdefAvailable
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity
 - uid: SuperOffice.SoContext.IsAuthenticated*
   commentId: Overload:SuperOffice.SoContext.IsAuthenticated
   isExternal: true
   name: IsAuthenticated
   nameWithType: SoContext.IsAuthenticated
   fullName: SuperOffice.SoContext.IsAuthenticated
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

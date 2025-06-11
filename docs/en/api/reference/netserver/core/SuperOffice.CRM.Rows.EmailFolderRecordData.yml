@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.EmailFolderRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.EmailFolderRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EmailFolderRecordData)
   - SuperOffice.CRM.Rows.EmailFolderRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.EmailFolderRecordData.SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.EmailFolderRecordData.SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EmailFolderRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EmailFolderRecordData.SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFolderRecordData)
+- uid: SuperOffice.CRM.Rows.EmailFolderRecordData.SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFolderRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFolderRecordData)
-  name: ToInsert()
-  nameWithType: EmailFolderRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFolderRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: EmailFolderRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: EmailFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EmailFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: EmailFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EmailFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFolderRecordData)
-  commentId: M:SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFolderRecordData)
+- uid: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFolderRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFolderRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(EmailFolderRecordData)
-  nameWithType: EmailFolderRecordDataExtensions.ToInsert(EmailFolderRecordData)
-  fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFolderRecordData)
+  name: ToInsertAsync(EmailFolderRecordData, CancellationToken)
+  nameWithType: EmailFolderRecordDataExtensions.ToInsertAsync(EmailFolderRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFolderRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFolderRecordData)
-    name: ToInsert
-    nameWithType: EmailFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFolderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EmailFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: EmailFolderRecordData
     nameWithType: EmailFolderRecordData
     fullName: SuperOffice.CRM.Rows.EmailFolderRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFolderRecordData)
-    name: ToInsert
-    nameWithType: EmailFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EmailFolderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EmailFolderRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EmailFolderRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: EmailFolderRecordData
     nameWithType: EmailFolderRecordData
     fullName: SuperOffice.CRM.Rows.EmailFolderRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  commentId: T:SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  id: ConfigFile.OnlineEnvironment
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Development
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.PreSod
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Production
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Stage
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.value__
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.OnlineEnvironment
+  nameWithType: ConfigFile.OnlineEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOnline Environment Name\n"
+  syntax:
+    content: 'public sealed class OnlineEnvironment : Enum'
+    content.vb: >-
+      Public NotInheritable Class OnlineEnvironment
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.OnlineEnvironment.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.value__
+  commentId: F:SuperOffice.Configuration.ConfigFile.OnlineEnvironment.value__
+  id: value__
+  parent: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ConfigFile.OnlineEnvironment.value__
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Development
+  commentId: F:SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Development
+  id: Development
+  parent: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  langs:
+  - csharp
+  - vb
+  name: Development
+  nameWithType: ConfigFile.OnlineEnvironment.Development
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Development
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSuperOffice Online Developemnt: SOD\n"
+  syntax:
+    content: public const ConfigFile.OnlineEnvironment Development
+    return:
+      type: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    content.vb: Public Const Development As ConfigFile.OnlineEnvironment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Stage
+  commentId: F:SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Stage
+  id: Stage
+  parent: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: ConfigFile.OnlineEnvironment.Stage
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Stage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSuperOffice Online Stage\n"
+  syntax:
+    content: public const ConfigFile.OnlineEnvironment Stage
+    return:
+      type: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    content.vb: Public Const Stage As ConfigFile.OnlineEnvironment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Production
+  commentId: F:SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Production
+  id: Production
+  parent: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  langs:
+  - csharp
+  - vb
+  name: Production
+  nameWithType: ConfigFile.OnlineEnvironment.Production
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.Production
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSuperOffice Online Production\n"
+  syntax:
+    content: public const ConfigFile.OnlineEnvironment Production
+    return:
+      type: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    content.vb: Public Const Production As ConfigFile.OnlineEnvironment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.PreSod
+  commentId: F:SuperOffice.Configuration.ConfigFile.OnlineEnvironment.PreSod
+  id: PreSod
+  parent: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  langs:
+  - csharp
+  - vb
+  name: PreSod
+  nameWithType: ConfigFile.OnlineEnvironment.PreSod
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.PreSod
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSuperOffice Test environment before SOD, located in South East Asia\n"
+  syntax:
+    content: public const ConfigFile.OnlineEnvironment PreSod
+    return:
+      type: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+    content.vb: Public Const PreSod As ConfigFile.OnlineEnvironment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.OnlineEnvironment, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.OnlineEnvironment, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.OnlineEnvironment, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To)()
+  name.vb: MapEnums(Of ConfigFile.OnlineEnvironment, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.OnlineEnvironment, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.OnlineEnvironment, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.OnlineEnvironment, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.OnlineEnvironment, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.OnlineEnvironment, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.OnlineEnvironment, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.OnlineEnvironment, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To)()
+  name.vb: MapEnums(Of ConfigFile.OnlineEnvironment, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.OnlineEnvironment, To>
+    nameWithType: Converters.MapEnums<ConfigFile.OnlineEnvironment, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.OnlineEnvironment, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.OnlineEnvironment, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.OnlineEnvironment, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  commentId: T:SuperOffice.Configuration.ConfigFile.OnlineEnvironment
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: ConfigFile.OnlineEnvironment
+  nameWithType: ConfigFile.OnlineEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineEnvironment

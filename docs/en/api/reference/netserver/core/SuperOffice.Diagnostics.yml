@@ -7,13 +7,18 @@ items:
   - SuperOffice.Diagnostics.DeferredToString
   - SuperOffice.Diagnostics.DiagnoseException
   - SuperOffice.Diagnostics.DiagnoseMethod
+  - SuperOffice.Diagnostics.DiagnoseMethodAsync
   - SuperOffice.Diagnostics.Diagnostic
   - SuperOffice.Diagnostics.ExceptionLoggingContextExtensions
   - SuperOffice.Diagnostics.ExecutionStopwatch
+  - SuperOffice.Diagnostics.ExecutionStopwatchNoop
+  - SuperOffice.Diagnostics.IDiagnosticSnapshot
   - SuperOffice.Diagnostics.IExceptionLoggingContext
+  - SuperOffice.Diagnostics.IExecutionStopwatch
+  - SuperOffice.Diagnostics.IResourceTraceWriter
   - SuperOffice.Diagnostics.IResourceUsageBucket
   - SuperOffice.Diagnostics.ISelfTest
-  - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  - SuperOffice.Diagnostics.IServiceCallsRepository
   - SuperOffice.Diagnostics.ISoTimeRecorderContext
   - SuperOffice.Diagnostics.ISoTimeRecorderPlugin
   - SuperOffice.Diagnostics.LogElement
@@ -25,8 +30,10 @@ items:
   - SuperOffice.Diagnostics.ResourceUsage
   - SuperOffice.Diagnostics.ResourceUsageBucket
   - SuperOffice.Diagnostics.SelfTestHelper
+  - SuperOffice.Diagnostics.ServiceCall
+  - SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLogger
+  - SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLoggerContext
   - SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
-  - SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
   - SuperOffice.Diagnostics.SoEventRecorder
   - SuperOffice.Diagnostics.SoEventRecorder.NetServerState
   - SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
@@ -39,6 +46,8 @@ items:
   - SuperOffice.Diagnostics.SqlCommandInfo
   - SuperOffice.Diagnostics.SqlCommandParameterInfo
   - SuperOffice.Diagnostics.SystemInfoSelfTest
+  - SuperOffice.Diagnostics.WorkList
+  - SuperOffice.Diagnostics.WorkRow
   langs:
   - csharp
   - vb
@@ -49,6 +58,24 @@ items:
   assemblies:
   - SoCore
 references:
+- uid: SuperOffice.Diagnostics.IDiagnosticSnapshot
+  commentId: T:SuperOffice.Diagnostics.IDiagnosticSnapshot
+  isExternal: true
+  name: IDiagnosticSnapshot
+  nameWithType: IDiagnosticSnapshot
+  fullName: SuperOffice.Diagnostics.IDiagnosticSnapshot
+- uid: SuperOffice.Diagnostics.WorkList
+  commentId: T:SuperOffice.Diagnostics.WorkList
+  isExternal: true
+  name: WorkList
+  nameWithType: WorkList
+  fullName: SuperOffice.Diagnostics.WorkList
+- uid: SuperOffice.Diagnostics.WorkRow
+  commentId: T:SuperOffice.Diagnostics.WorkRow
+  isExternal: true
+  name: WorkRow
+  nameWithType: WorkRow
+  fullName: SuperOffice.Diagnostics.WorkRow
 - uid: SuperOffice.Diagnostics.ExceptionLoggingContextExtensions
   commentId: T:SuperOffice.Diagnostics.ExceptionLoggingContextExtensions
   isExternal: true
@@ -62,6 +89,19 @@ references:
   name: IExceptionLoggingContext
   nameWithType: IExceptionLoggingContext
   fullName: SuperOffice.Diagnostics.IExceptionLoggingContext
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch
+  commentId: T:SuperOffice.Diagnostics.IExecutionStopwatch
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: IExecutionStopwatch
+  nameWithType: IExecutionStopwatch
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+  commentId: T:SuperOffice.Diagnostics.ExecutionStopwatchNoop
+  isExternal: true
+  name: ExecutionStopwatchNoop
+  nameWithType: ExecutionStopwatchNoop
+  fullName: SuperOffice.Diagnostics.ExecutionStopwatchNoop
 - uid: SuperOffice.Diagnostics.ExecutionStopwatch
   commentId: T:SuperOffice.Diagnostics.ExecutionStopwatch
   parent: SuperOffice.Diagnostics
@@ -83,20 +123,6 @@ references:
   name: IResourceUsageBucket
   nameWithType: IResourceUsageBucket
   fullName: SuperOffice.Diagnostics.IResourceUsageBucket
-- uid: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
-  commentId: T:SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: SoEnvironmentInfoPluginAttribute
-  nameWithType: SoEnvironmentInfoPluginAttribute
-  fullName: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
-- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
-  commentId: T:SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: ISoEnvironmentInfoPlugin
-  nameWithType: ISoEnvironmentInfoPlugin
-  fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
 - uid: SuperOffice.Diagnostics.LogEntryInfo
   commentId: T:SuperOffice.Diagnostics.LogEntryInfo
   parent: SuperOffice.Diagnostics
@@ -130,6 +156,13 @@ references:
   name: OperationResourcesUsage
   nameWithType: OperationResourcesUsage
   fullName: SuperOffice.Diagnostics.OperationResourcesUsage
+- uid: SuperOffice.Diagnostics.IResourceTraceWriter
+  commentId: T:SuperOffice.Diagnostics.IResourceTraceWriter
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: IResourceTraceWriter
+  nameWithType: IResourceTraceWriter
+  fullName: SuperOffice.Diagnostics.IResourceTraceWriter
 - uid: SuperOffice.Diagnostics.ResourceTraceWriter
   commentId: T:SuperOffice.Diagnostics.ResourceTraceWriter
   isExternal: true
@@ -149,6 +182,13 @@ references:
   name: DiagnoseMethod
   nameWithType: DiagnoseMethod
   fullName: SuperOffice.Diagnostics.DiagnoseMethod
+- uid: SuperOffice.Diagnostics.DiagnoseMethodAsync
+  commentId: T:SuperOffice.Diagnostics.DiagnoseMethodAsync
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: DiagnoseMethodAsync
+  nameWithType: DiagnoseMethodAsync
+  fullName: SuperOffice.Diagnostics.DiagnoseMethodAsync
 - uid: SuperOffice.Diagnostics.Diagnostic
   commentId: T:SuperOffice.Diagnostics.Diagnostic
   parent: SuperOffice.Diagnostics
@@ -175,6 +215,30 @@ references:
   name: SelfTestHelper
   nameWithType: SelfTestHelper
   fullName: SuperOffice.Diagnostics.SelfTestHelper
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  commentId: T:SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Diagnostics.ServiceCall
+  commentId: T:SuperOffice.Diagnostics.ServiceCall
+  isExternal: true
+  name: ServiceCall
+  nameWithType: ServiceCall
+  fullName: SuperOffice.Diagnostics.ServiceCall
+- uid: SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLogger
+  commentId: T:SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLogger
+  isExternal: true
+  name: ServiceCallsRepositoryResourceLogger
+  nameWithType: ServiceCallsRepositoryResourceLogger
+  fullName: SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLogger
+- uid: SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLoggerContext
+  commentId: T:SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLoggerContext
+  isExternal: true
+  name: ServiceCallsRepositoryResourceLoggerContext
+  nameWithType: ServiceCallsRepositoryResourceLoggerContext
+  fullName: SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLoggerContext
 - uid: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
   commentId: T:SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
   isExternal: true

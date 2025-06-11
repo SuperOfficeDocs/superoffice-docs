@@ -20,7 +20,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
-  summary: "\nInterface implemented by context resolvers.\n"
+  summary: "\nInterface implemented by context resolvers.  It is used by the <xref href=\"SuperOffice.ISoDatabaseContextFactory\" data-throw-if-not-resolved=\"false\"></xref> for resolving context from the underlying application\n"
   remarks: "\nA Context resolver is responsible for determine if a particular user belongs to a \nparticular context.  \n"
   syntax:
     content: public interface IContextResolver
@@ -51,7 +51,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
-  summary: "\nImplementation of this method is responsible for resolving the context\n"
+  summary: "\nBusiness logic should call <see cref=\"!:ISoDatabaseContextFactory.TryResolveContext(out string)\"></see> to resolve context.\nThis method should only be called by implementations of <xref href=\"SuperOffice.ISoDatabaseContextFactory\" data-throw-if-not-resolved=\"false\"></xref> \n"
   syntax:
     content: bool TryResolveContextFromClaims(IEnumerable<ClaimsIdentity> identities, out string context)
     parameters:
@@ -85,6 +85,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
+  summary: "\nBusiness logic should call <see cref=\"!:ISoDatabaseContextFactory.TryResolveContext(out string)\"></see> to resolve context.\nThis method should only be called by implementations of <xref href=\"SuperOffice.ISoDatabaseContextFactory\" data-throw-if-not-resolved=\"false\"></xref> \n"
   syntax:
     content: bool TryResolveContext(out string context)
     parameters:

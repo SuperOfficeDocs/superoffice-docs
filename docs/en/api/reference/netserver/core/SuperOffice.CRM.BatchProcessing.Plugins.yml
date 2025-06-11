@@ -13,8 +13,6 @@ items:
   - SuperOffice.CRM.BatchProcessing.Plugins.FreetextRegenBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.ImportBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
-  - SuperOffice.CRM.BatchProcessing.Plugins.MailMergeBatchPlugin
-  - SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
   - SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
@@ -82,18 +80,6 @@ references:
   name: ImportProductImageBatchPlugin
   nameWithType: ImportProductImageBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.MailMergeBatchPlugin
-  commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.MailMergeBatchPlugin
-  isExternal: true
-  name: MailMergeBatchPlugin
-  nameWithType: MailMergeBatchPlugin
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.MailMergeBatchPlugin
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin
-  commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin
-  isExternal: true
-  name: MaintenanceBatchPlugin
-  nameWithType: MaintenanceBatchPlugin
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   isExternal: true

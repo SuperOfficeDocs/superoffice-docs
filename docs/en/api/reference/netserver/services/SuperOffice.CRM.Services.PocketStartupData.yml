@@ -37,8 +37,6 @@ items:
       Public Class PocketStartupData
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.PocketAgent
-    commentId: T:SuperOffice.CRM.Services.PocketAgent
   - linkId: SuperOffice.CRM.Services.IPocketAgent
     commentId: T:SuperOffice.CRM.Services.IPocketAgent
   inheritance:
@@ -443,15 +441,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.PocketAgent
-  commentId: T:SuperOffice.CRM.Services.PocketAgent
-  isExternal: true
-  name: PocketAgent
-  nameWithType: PocketAgent
-  fullName: SuperOffice.CRM.Services.PocketAgent
 - uid: SuperOffice.CRM.Services.IPocketAgent
   commentId: T:SuperOffice.CRM.Services.IPocketAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IPocketAgent
   nameWithType: IPocketAgent

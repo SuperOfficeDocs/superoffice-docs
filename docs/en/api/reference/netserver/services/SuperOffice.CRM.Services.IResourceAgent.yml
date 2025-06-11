@@ -5,11 +5,11 @@ items:
   id: IResourceAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-  - SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-  - SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
-  - SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
-  - SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -50,16 +50,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
-  id: SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
+- uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IResourceAgent
   langs:
   - csharp
   - vb
-  name: SetResourceSubstitution(String, String, String, Boolean)
-  nameWithType: IResourceAgent.SetResourceSubstitution(String, String, String, Boolean)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String, System.String, System.String, System.Boolean)
+  name: SetResourceSubstitutionAsync(String, String, String, Boolean, CancellationToken)
+  nameWithType: IResourceAgent.SetResourceSubstitutionAsync(String, String, String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(System.String, System.String, System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -69,7 +69,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCreate or update a resource substitution\n"
   syntax:
-    content: void SetResourceSubstitution(string resourceName, string resourceValues, string culture, bool isActive)
+    content: Task SetResourceSubstitutionAsync(string resourceName, string resourceValues, string culture, bool isActive, CancellationToken cancellationToken = null)
     parameters:
     - id: resourceName
       type: System.String
@@ -83,18 +83,23 @@ items:
     - id: isActive
       type: System.Boolean
       description: Is the subsitution now active
-    content.vb: Sub SetResourceSubstitution(resourceName As String, resourceValues As String, culture As String, isActive As Boolean)
-  overload: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution*
-- uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-  id: DeleteResourceSubstitution(System.String,System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetResourceSubstitutionAsync(resourceName As String, resourceValues As String, culture As String, isActive As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync*
+- uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IResourceAgent
   langs:
   - csharp
   - vb
-  name: DeleteResourceSubstitution(String, String)
-  nameWithType: IResourceAgent.DeleteResourceSubstitution(String, String)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String, System.String)
+  name: DeleteResourceSubstitutionAsync(String, String, CancellationToken)
+  nameWithType: IResourceAgent.DeleteResourceSubstitutionAsync(String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -104,7 +109,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nPermanentely delete a resource substitution for one or more cultures\n"
   syntax:
-    content: void DeleteResourceSubstitution(string resourceName, string culture)
+    content: Task DeleteResourceSubstitutionAsync(string resourceName, string culture, CancellationToken cancellationToken = null)
     parameters:
     - id: resourceName
       type: System.String
@@ -112,18 +117,23 @@ items:
     - id: culture
       type: System.String
       description: The .NET culture string; if blank, then ALL substitutions for this resource will be dropped
-    content.vb: Sub DeleteResourceSubstitution(resourceName As String, culture As String)
-  overload: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution*
-- uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-  id: ActivateResourceSubstitution(System.String,System.String,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteResourceSubstitutionAsync(resourceName As String, culture As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync*
+- uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IResourceAgent
   langs:
   - csharp
   - vb
-  name: ActivateResourceSubstitution(String, String, Boolean)
-  nameWithType: IResourceAgent.ActivateResourceSubstitution(String, String, Boolean)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String, System.String, System.Boolean)
+  name: ActivateResourceSubstitutionAsync(String, String, Boolean, CancellationToken)
+  nameWithType: IResourceAgent.ActivateResourceSubstitutionAsync(String, String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(System.String, System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -133,7 +143,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nActivate or deactive a resource substitution for one or more cultures\n"
   syntax:
-    content: void ActivateResourceSubstitution(string resourceName, string culture, bool isActive)
+    content: Task ActivateResourceSubstitutionAsync(string resourceName, string culture, bool isActive, CancellationToken cancellationToken = null)
     parameters:
     - id: resourceName
       type: System.String
@@ -144,18 +154,23 @@ items:
     - id: isActive
       type: System.Boolean
       description: New status of override
-    content.vb: Sub ActivateResourceSubstitution(resourceName As String, culture As String, isActive As Boolean)
-  overload: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution*
-- uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
-  id: GetResourceSubstitutions(System.String[],System.String,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function ActivateResourceSubstitutionAsync(resourceName As String, culture As String, isActive As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync*
+- uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IResourceAgent
   langs:
   - csharp
   - vb
-  name: GetResourceSubstitutions(String[], String, Boolean)
-  nameWithType: IResourceAgent.GetResourceSubstitutions(String[], String, Boolean)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[], System.String, System.Boolean)
+  name: GetResourceSubstitutionsAsync(String[], String, Boolean, CancellationToken)
+  nameWithType: IResourceAgent.GetResourceSubstitutionsAsync(String[], String, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(System.String[], System.String, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -165,7 +180,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet substitutions for some or all resources for one culture\n"
   syntax:
-    content: ResourceOverride[] GetResourceSubstitutions(string[] resourceNames, string culture, bool activeOnly)
+    content: Task<ResourceOverride[]> GetResourceSubstitutionsAsync(string[] resourceNames, string culture, bool activeOnly, CancellationToken cancellationToken = null)
     parameters:
     - id: resourceNames
       type: System.String[]
@@ -176,24 +191,26 @@ items:
     - id: activeOnly
       type: System.Boolean
       description: If true, then only resources with active substitutions will be returned; if false then ALL existing overrides will be returned
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ResourceOverride[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ResourceOverride[]}
       description: Array of override objects, empty if there are none
-    content.vb: Function GetResourceSubstitutions(resourceNames As String(), culture As String, activeOnly As Boolean) As ResourceOverride()
-  overload: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions*
-  nameWithType.vb: IResourceAgent.GetResourceSubstitutions(String(), String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String(), System.String, System.Boolean)
-  name.vb: GetResourceSubstitutions(String(), String, Boolean)
-- uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
-  commentId: M:SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
-  id: IsResourceSubstitutionActive(System.String[],System.String)
+    content.vb: Function GetResourceSubstitutionsAsync(resourceNames As String(), culture As String, activeOnly As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ResourceOverride())
+  overload: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync*
+  nameWithType.vb: IResourceAgent.GetResourceSubstitutionsAsync(String(), String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(System.String(), System.String, System.Boolean, System.Threading.CancellationToken)
+  name.vb: GetResourceSubstitutionsAsync(String(), String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
+  id: IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IResourceAgent
   langs:
   - csharp
   - vb
-  name: IsResourceSubstitutionActive(String[], String)
-  nameWithType: IResourceAgent.IsResourceSubstitutionActive(String[], String)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[], System.String)
+  name: IsResourceSubstitutionActiveAsync(String[], String, CancellationToken)
+  nameWithType: IResourceAgent.IsResourceSubstitutionActiveAsync(String[], String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[], System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -203,7 +220,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDetermine if resource substitution/override is active, globally or for a subset of resources/cultures\n"
   syntax:
-    content: ResourceOverride[] IsResourceSubstitutionActive(string[] resourceNames, string culture)
+    content: Task<ResourceOverride[]> IsResourceSubstitutionActiveAsync(string[] resourceNames, string culture, CancellationToken cancellationToken = null)
     parameters:
     - id: resourceNames
       type: System.String[]
@@ -211,14 +228,16 @@ items:
     - id: culture
       type: System.String
       description: .NET culture string; if empty, then get for all cultures (unless resourceName
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ResourceOverride[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ResourceOverride[]}
       description: Array of override objects, empty if there are none; the ResourceValue member is not set by this call
-    content.vb: Function IsResourceSubstitutionActive(resourceNames As String(), culture As String) As ResourceOverride()
-  overload: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive*
-  nameWithType.vb: IResourceAgent.IsResourceSubstitutionActive(String(), String)
-  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String(), System.String)
-  name.vb: IsResourceSubstitutionActive(String(), String)
+    content.vb: Function IsResourceSubstitutionActiveAsync(resourceNames As String(), culture As String, cancellationToken As CancellationToken = Nothing) As Task(Of ResourceOverride())
+  overload: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync*
+  nameWithType.vb: IResourceAgent.IsResourceSubstitutionActiveAsync(String(), String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String(), System.String, System.Threading.CancellationToken)
+  name.vb: IsResourceSubstitutionActiveAsync(String(), String, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -226,12 +245,12 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution*
-  commentId: Overload:SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution
+- uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync
   isExternal: true
-  name: SetResourceSubstitution
-  nameWithType: IResourceAgent.SetResourceSubstitution
-  fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution
+  name: SetResourceSubstitutionAsync
+  nameWithType: IResourceAgent.SetResourceSubstitutionAsync
+  fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -246,30 +265,40 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution*
-  commentId: Overload:SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution
+- uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync
   isExternal: true
-  name: DeleteResourceSubstitution
-  nameWithType: IResourceAgent.DeleteResourceSubstitution
-  fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution
-- uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution*
-  commentId: Overload:SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution
+  name: DeleteResourceSubstitutionAsync
+  nameWithType: IResourceAgent.DeleteResourceSubstitutionAsync
+  fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync
+- uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync
   isExternal: true
-  name: ActivateResourceSubstitution
-  nameWithType: IResourceAgent.ActivateResourceSubstitution
-  fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution
-- uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions*
-  commentId: Overload:SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions
+  name: ActivateResourceSubstitutionAsync
+  nameWithType: IResourceAgent.ActivateResourceSubstitutionAsync
+  fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync
+- uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync
   isExternal: true
-  name: GetResourceSubstitutions
-  nameWithType: IResourceAgent.GetResourceSubstitutions
-  fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions
+  name: GetResourceSubstitutionsAsync
+  nameWithType: IResourceAgent.GetResourceSubstitutionsAsync
+  fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -296,15 +325,24 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.ResourceOverride[]
-  isExternal: true
-  name: ResourceOverride[]
-  nameWithType: ResourceOverride[]
-  fullName: SuperOffice.CRM.Services.ResourceOverride[]
-  nameWithType.vb: ResourceOverride()
-  fullName.vb: SuperOffice.CRM.Services.ResourceOverride()
-  name.vb: ResourceOverride()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ResourceOverride[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ResourceOverride[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ResourceOverride[]>
+  nameWithType: Task<ResourceOverride[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ResourceOverride[]>
+  nameWithType.vb: Task(Of ResourceOverride())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ResourceOverride())
+  name.vb: Task(Of ResourceOverride())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.ResourceOverride
     name: ResourceOverride
     nameWithType: ResourceOverride
@@ -313,7 +351,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.ResourceOverride
     name: ResourceOverride
     nameWithType: ResourceOverride
@@ -322,9 +371,50 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive*
-  commentId: Overload:SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: IsResourceSubstitutionActive
-  nameWithType: IResourceAgent.IsResourceSubstitutionActive
-  fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync
+  isExternal: true
+  name: IsResourceSubstitutionActiveAsync
+  nameWithType: IResourceAgent.IsResourceSubstitutionActiveAsync
+  fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync

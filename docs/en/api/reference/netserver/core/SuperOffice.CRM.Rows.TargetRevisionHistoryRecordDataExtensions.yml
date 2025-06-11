@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
-  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
-  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData})
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetRevisionHistoryRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<TargetRevisionHistoryTableInfo>)
-  nameWithType: TargetRevisionHistoryRecordDataExtensions.FromSelect(TargetedSelect<TargetRevisionHistoryTableInfo>)
-  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo>)
+  name: FromSelectAsync(TargetedSelect<TargetRevisionHistoryTableInfo>, CancellationToken)
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.FromSelectAsync(TargetedSelect<TargetRevisionHistoryTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<TargetRevisionHistoryRecordData> FromSelect(this TargetedSelect<TargetRevisionHistoryTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<TargetRevisionHistoryRecordData> FromSelectAsync(this TargetedSelect<TargetRevisionHistoryTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of TargetRevisionHistoryTableInfo)) As IEnumerable(Of TargetRevisionHistoryRecordData)
-  overload: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect*
-  nameWithType.vb: TargetRevisionHistoryRecordDataExtensions.FromSelect(TargetedSelect(Of TargetRevisionHistoryTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of TargetRevisionHistoryTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of TargetRevisionHistoryRecordData)
+  overload: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: TargetRevisionHistoryRecordDataExtensions.FromSelectAsync(TargetedSelect(Of TargetRevisionHistoryTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of TargetRevisionHistoryTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of TargetRevisionHistoryTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
   commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of TargetRevisionHistoryTableInfo))
-- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(TargetRevisionHistoryRecordData)
-  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert(TargetRevisionHistoryRecordData)
-  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  name: ToInsertAsync(TargetRevisionHistoryRecordData, CancellationToken)
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(TargetRevisionHistoryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this TargetRevisionHistoryRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this TargetRevisionHistoryRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As TargetRevisionHistoryRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As TargetRevisionHistoryRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData})
-  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData})
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<TargetRevisionHistoryRecordData>)
-  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInserts(IEnumerable<TargetRevisionHistoryRecordData>)
-  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData>)
+  name: ToInsertsAsync(IEnumerable<TargetRevisionHistoryRecordData>, CancellationToken)
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync(IEnumerable<TargetRevisionHistoryRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<TargetRevisionHistoryRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<TargetRevisionHistoryRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of TargetRevisionHistoryRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInserts*
-  nameWithType.vb: TargetRevisionHistoryRecordDataExtensions.ToInserts(IEnumerable(Of TargetRevisionHistoryRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of TargetRevisionHistoryRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync(IEnumerable(Of TargetRevisionHistoryRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData))
-  name.vb: ToInserts(IEnumerable(Of TargetRevisionHistoryRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of TargetRevisionHistoryRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetRevisionHistoryRow)
   commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetRevisionHistoryRow)
   id: ToRecordData(SuperOffice.CRM.Rows.TargetRevisionHistoryRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<TargetRevisionHistoryTableInfo>)
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.FromSelect(TargetedSelect<TargetRevisionHistoryTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;TargetRevisionHistoryTableInfo>, execute it and return an IEnumerable&lt;TargetRevisionHistoryRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<TargetRevisionHistoryRecordData> FromSelect(this TargetedSelect<TargetRevisionHistoryTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of TargetRevisionHistoryTableInfo)) As IEnumerable(Of TargetRevisionHistoryRecordData)
+  overload: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect*
+  nameWithType.vb: TargetRevisionHistoryRecordDataExtensions.FromSelect(TargetedSelect(Of TargetRevisionHistoryTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of TargetRevisionHistoryTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: TargetRevisionHistoryRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<TargetRevisionHistoryRecordData>
-  nameWithType: IEnumerable<TargetRevisionHistoryRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData>
-  nameWithType.vb: IEnumerable(Of TargetRevisionHistoryRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
-  name.vb: IEnumerable(Of TargetRevisionHistoryRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<TargetRevisionHistoryRecordData>
+  nameWithType: IAsyncEnumerable<TargetRevisionHistoryRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of TargetRevisionHistoryRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  name.vb: IAsyncEnumerable(Of TargetRevisionHistoryRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TargetRevisionHistoryRecordData>
+  nameWithType: IEnumerable<TargetRevisionHistoryRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData>
+  nameWithType.vb: IEnumerable(Of TargetRevisionHistoryRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  name.vb: IEnumerable(Of TargetRevisionHistoryRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    name: TargetRevisionHistoryRecordData
+    nameWithType: TargetRevisionHistoryRecordData
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    name: TargetRevisionHistoryRecordData
+    nameWithType: TargetRevisionHistoryRecordData
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: TargetRevisionHistoryRow
   nameWithType: TargetRevisionHistoryRow
   fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRow
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.FromSelect

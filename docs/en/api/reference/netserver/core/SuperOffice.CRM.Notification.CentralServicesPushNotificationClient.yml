@@ -6,8 +6,8 @@ items:
   parent: SuperOffice.CRM.Notification
   children:
   - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.#ctor
-  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage)
-  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage)
+  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessageAsync(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessagesAsync(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage,System.Threading.CancellationToken)
   - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.Timeout
   langs:
   - csharp
@@ -67,16 +67,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage)
-  commentId: M:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage)
-  id: SendMessage(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage)
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessageAsync(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessageAsync(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage,System.Threading.CancellationToken)
+  id: SendMessageAsync(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
   langs:
   - csharp
   - vb
-  name: SendMessage(PushNotificationRecipient, PushNotificationMessage)
-  nameWithType: CentralServicesPushNotificationClient.SendMessage(PushNotificationRecipient, PushNotificationMessage)
-  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage(CentralServices.Data.Pocket.PushNotificationRecipient, CentralServices.Data.Pocket.PushNotificationMessage)
+  name: SendMessageAsync(PushNotificationRecipient, PushNotificationMessage, CancellationToken)
+  nameWithType: CentralServicesPushNotificationClient.SendMessageAsync(PushNotificationRecipient, PushNotificationMessage, CancellationToken)
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessageAsync(CentralServices.Data.Pocket.PushNotificationRecipient, CentralServices.Data.Pocket.PushNotificationMessage, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -86,29 +86,33 @@ items:
   namespace: SuperOffice.CRM.Notification
   summary: "\nSend a message to a single device\n"
   syntax:
-    content: public void SendMessage(PushNotificationRecipient recipient, PushNotificationMessage message)
+    content: public Task SendMessageAsync(PushNotificationRecipient recipient, PushNotificationMessage message, CancellationToken cancellationToken = null)
     parameters:
     - id: recipient
       type: CentralServices.Data.Pocket.PushNotificationRecipient
     - id: message
       type: CentralServices.Data.Pocket.PushNotificationMessage
       description: The message to send
-    content.vb: Public Sub SendMessage(recipient As PushNotificationRecipient, message As PushNotificationMessage)
-  overload: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SendMessageAsync(recipient As PushNotificationRecipient, message As PushNotificationMessage, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessageAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage)
-  commentId: M:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage)
-  id: SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage)
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessagesAsync(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessagesAsync(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage,System.Threading.CancellationToken)
+  id: SendMessagesAsync(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
   langs:
   - csharp
   - vb
-  name: SendMessages(PushNotificationRecipient[], PushNotificationMessage)
-  nameWithType: CentralServicesPushNotificationClient.SendMessages(PushNotificationRecipient[], PushNotificationMessage)
-  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient[], CentralServices.Data.Pocket.PushNotificationMessage)
+  name: SendMessagesAsync(PushNotificationRecipient[], PushNotificationMessage, CancellationToken)
+  nameWithType: CentralServicesPushNotificationClient.SendMessagesAsync(PushNotificationRecipient[], PushNotificationMessage, CancellationToken)
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessagesAsync(CentralServices.Data.Pocket.PushNotificationRecipient[], CentralServices.Data.Pocket.PushNotificationMessage, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -117,21 +121,25 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
   syntax:
-    content: public void SendMessages(PushNotificationRecipient[] recipients, PushNotificationMessage message)
+    content: public Task SendMessagesAsync(PushNotificationRecipient[] recipients, PushNotificationMessage message, CancellationToken cancellationToken = null)
     parameters:
     - id: recipients
       type: CentralServices.Data.Pocket.PushNotificationRecipient[]
     - id: message
       type: CentralServices.Data.Pocket.PushNotificationMessage
-    content.vb: Public Sub SendMessages(recipients As PushNotificationRecipient(), message As PushNotificationMessage)
-  overload: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages*
-  nameWithType.vb: CentralServicesPushNotificationClient.SendMessages(PushNotificationRecipient(), PushNotificationMessage)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SendMessagesAsync(recipients As PushNotificationRecipient(), message As PushNotificationMessage, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessagesAsync*
+  nameWithType.vb: CentralServicesPushNotificationClient.SendMessagesAsync(PushNotificationRecipient(), PushNotificationMessage, CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient(), CentralServices.Data.Pocket.PushNotificationMessage)
-  name.vb: SendMessages(PushNotificationRecipient(), PushNotificationMessage)
+  fullName.vb: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessagesAsync(CentralServices.Data.Pocket.PushNotificationRecipient(), CentralServices.Data.Pocket.PushNotificationMessage, System.Threading.CancellationToken)
+  name.vb: SendMessagesAsync(PushNotificationRecipient(), PushNotificationMessage, CancellationToken)
 - uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.Timeout
   commentId: P:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.Timeout
   id: Timeout
@@ -534,12 +542,12 @@ references:
   name: CentralServicesPushNotificationClient
   nameWithType: CentralServicesPushNotificationClient.CentralServicesPushNotificationClient
   fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.CentralServicesPushNotificationClient
-- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage*
-  commentId: Overload:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessageAsync*
+  commentId: Overload:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessageAsync
   isExternal: true
-  name: SendMessage
-  nameWithType: CentralServicesPushNotificationClient.SendMessage
-  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage
+  name: SendMessageAsync
+  nameWithType: CentralServicesPushNotificationClient.SendMessageAsync
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessageAsync
 - uid: CentralServices.Data.Pocket.PushNotificationRecipient
   commentId: '!:CentralServices.Data.Pocket.PushNotificationRecipient'
   isExternal: true
@@ -551,12 +559,22 @@ references:
   name: PushNotificationMessage
   nameWithType: PushNotificationMessage
   fullName: CentralServices.Data.Pocket.PushNotificationMessage
-- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages*
-  commentId: Overload:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: SendMessages
-  nameWithType: CentralServicesPushNotificationClient.SendMessages
-  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessagesAsync*
+  commentId: Overload:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessagesAsync
+  isExternal: true
+  name: SendMessagesAsync
+  nameWithType: CentralServicesPushNotificationClient.SendMessagesAsync
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessagesAsync
 - uid: CentralServices.Data.Pocket.PushNotificationRecipient[]
   isExternal: true
   name: PushNotificationRecipient[]

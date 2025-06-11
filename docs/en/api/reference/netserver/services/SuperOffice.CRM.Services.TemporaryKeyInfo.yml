@@ -33,8 +33,6 @@ items:
       Public Class TemporaryKeyInfo
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.PersonAgent
-    commentId: T:SuperOffice.CRM.Services.PersonAgent
   - linkId: SuperOffice.CRM.Services.IPersonAgent
     commentId: T:SuperOffice.CRM.Services.IPersonAgent
   inheritance:
@@ -307,15 +305,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.PersonAgent
-  commentId: T:SuperOffice.CRM.Services.PersonAgent
-  isExternal: true
-  name: PersonAgent
-  nameWithType: PersonAgent
-  fullName: SuperOffice.CRM.Services.PersonAgent
 - uid: SuperOffice.CRM.Services.IPersonAgent
   commentId: T:SuperOffice.CRM.Services.IPersonAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IPersonAgent
   nameWithType: IPersonAgent

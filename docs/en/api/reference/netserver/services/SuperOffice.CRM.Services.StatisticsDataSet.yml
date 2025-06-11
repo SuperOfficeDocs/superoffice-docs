@@ -31,8 +31,6 @@ items:
       Public Class StatisticsDataSet
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
-    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
     commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   inheritance:
@@ -239,15 +237,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.CustomerServiceAgent
-  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
-  isExternal: true
-  name: CustomerServiceAgent
-  nameWithType: CustomerServiceAgent
-  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent

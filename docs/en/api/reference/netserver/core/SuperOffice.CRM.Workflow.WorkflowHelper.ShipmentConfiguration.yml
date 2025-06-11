@@ -1,0 +1,469 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  id: WorkflowHelper.ShipmentConfiguration
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.bothSmsAndEmail
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.flow
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.generateDocument
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.onlyEmail
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.onlySms
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.primarySms
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.value__
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.webForm
+  langs:
+  - csharp
+  - vb
+  name: WorkflowHelper.ShipmentConfiguration
+  nameWithType: WorkflowHelper.ShipmentConfiguration
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: 'public sealed class ShipmentConfiguration : Enum'
+    content.vb: >-
+      Public NotInheritable Class ShipmentConfiguration
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.value__
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.value__
+  id: value__
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowHelper.ShipmentConfiguration.value__
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.onlyEmail
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.onlyEmail
+  id: onlyEmail
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: onlyEmail
+  nameWithType: WorkflowHelper.ShipmentConfiguration.onlyEmail
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.onlyEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowHelper.ShipmentConfiguration onlyEmail
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+    content.vb: Public Const onlyEmail As WorkflowHelper.ShipmentConfiguration
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.onlySms
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.onlySms
+  id: onlySms
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: onlySms
+  nameWithType: WorkflowHelper.ShipmentConfiguration.onlySms
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.onlySms
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowHelper.ShipmentConfiguration onlySms
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+    content.vb: Public Const onlySms As WorkflowHelper.ShipmentConfiguration
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.primarySms
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.primarySms
+  id: primarySms
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: primarySms
+  nameWithType: WorkflowHelper.ShipmentConfiguration.primarySms
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.primarySms
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowHelper.ShipmentConfiguration primarySms
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+    content.vb: Public Const primarySms As WorkflowHelper.ShipmentConfiguration
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.bothSmsAndEmail
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.bothSmsAndEmail
+  id: bothSmsAndEmail
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: bothSmsAndEmail
+  nameWithType: WorkflowHelper.ShipmentConfiguration.bothSmsAndEmail
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.bothSmsAndEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowHelper.ShipmentConfiguration bothSmsAndEmail
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+    content.vb: Public Const bothSmsAndEmail As WorkflowHelper.ShipmentConfiguration
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.generateDocument
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.generateDocument
+  id: generateDocument
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: generateDocument
+  nameWithType: WorkflowHelper.ShipmentConfiguration.generateDocument
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.generateDocument
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowHelper.ShipmentConfiguration generateDocument
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+    content.vb: Public Const generateDocument As WorkflowHelper.ShipmentConfiguration
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.webForm
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.webForm
+  id: webForm
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: webForm
+  nameWithType: WorkflowHelper.ShipmentConfiguration.webForm
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.webForm
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowHelper.ShipmentConfiguration webForm
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+    content.vb: Public Const webForm As WorkflowHelper.ShipmentConfiguration
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.flow
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.flow
+  id: flow
+  parent: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: flow
+  nameWithType: WorkflowHelper.ShipmentConfiguration.flow
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.flow
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowHelper.ShipmentConfiguration flow
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+    content.vb: Public Const flow As WorkflowHelper.ShipmentConfiguration
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowHelper.ShipmentConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowHelper.ShipmentConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowHelper.ShipmentConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration, To)()
+  name.vb: MapEnums(Of WorkflowHelper.ShipmentConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowHelper.ShipmentConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowHelper.ShipmentConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowHelper.ShipmentConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowHelper.ShipmentConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowHelper.ShipmentConfiguration, To>()
+  nameWithType: Converters.MapEnums<WorkflowHelper.ShipmentConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowHelper.ShipmentConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration, To)()
+  name.vb: MapEnums(Of WorkflowHelper.ShipmentConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowHelper.ShipmentConfiguration, To>
+    nameWithType: Converters.MapEnums<WorkflowHelper.ShipmentConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowHelper.ShipmentConfiguration, To)
+    nameWithType: Converters.MapEnums(Of WorkflowHelper.ShipmentConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: WorkflowHelper.ShipmentConfiguration
+  nameWithType: WorkflowHelper.ShipmentConfiguration
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration

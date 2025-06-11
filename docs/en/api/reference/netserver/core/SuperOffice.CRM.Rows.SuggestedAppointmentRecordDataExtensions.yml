@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
   - SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
-  - SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
-  - SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData})
+  - SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SuggestedAppointmentRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
+- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<SuggestedAppointmentTableInfo>)
-  nameWithType: SuggestedAppointmentRecordDataExtensions.FromSelect(TargetedSelect<SuggestedAppointmentTableInfo>)
-  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SuggestedAppointmentTableInfo>)
+  name: FromSelectAsync(TargetedSelect<SuggestedAppointmentTableInfo>, CancellationToken)
+  nameWithType: SuggestedAppointmentRecordDataExtensions.FromSelectAsync(TargetedSelect<SuggestedAppointmentTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SuggestedAppointmentTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<SuggestedAppointmentRecordData> FromSelect(this TargetedSelect<SuggestedAppointmentTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<SuggestedAppointmentRecordData> FromSelectAsync(this TargetedSelect<SuggestedAppointmentTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of SuggestedAppointmentTableInfo)) As IEnumerable(Of SuggestedAppointmentRecordData)
-  overload: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect*
-  nameWithType.vb: SuggestedAppointmentRecordDataExtensions.FromSelect(TargetedSelect(Of SuggestedAppointmentTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of SuggestedAppointmentTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of SuggestedAppointmentRecordData)
+  overload: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: SuggestedAppointmentRecordDataExtensions.FromSelectAsync(TargetedSelect(Of SuggestedAppointmentTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SuggestedAppointmentTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of SuggestedAppointmentTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SuggestedAppointmentTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of SuggestedAppointmentTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
   commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.SuggestedAppointmentTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of SuggestedAppointmentTableInfo))
-- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
+- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(SuggestedAppointmentRecordData)
-  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsert(SuggestedAppointmentRecordData)
-  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
+  name: ToInsertAsync(SuggestedAppointmentRecordData, CancellationToken)
+  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuggestedAppointmentRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SuggestedAppointmentRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this SuggestedAppointmentRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this SuggestedAppointmentRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.SuggestedAppointmentRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As SuggestedAppointmentRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As SuggestedAppointmentRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData})
-  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData})
+- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<SuggestedAppointmentRecordData>)
-  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInserts(IEnumerable<SuggestedAppointmentRecordData>)
-  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SuggestedAppointmentRecordData>)
+  name: ToInsertsAsync(IEnumerable<SuggestedAppointmentRecordData>, CancellationToken)
+  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsertsAsync(IEnumerable<SuggestedAppointmentRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SuggestedAppointmentRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<SuggestedAppointmentRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<SuggestedAppointmentRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of SuggestedAppointmentRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInserts*
-  nameWithType.vb: SuggestedAppointmentRecordDataExtensions.ToInserts(IEnumerable(Of SuggestedAppointmentRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of SuggestedAppointmentRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: SuggestedAppointmentRecordDataExtensions.ToInsertsAsync(IEnumerable(Of SuggestedAppointmentRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SuggestedAppointmentRecordData))
-  name.vb: ToInserts(IEnumerable(Of SuggestedAppointmentRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SuggestedAppointmentRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of SuggestedAppointmentRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SuggestedAppointmentRow)
   commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SuggestedAppointmentRow)
   id: ToRecordData(SuperOffice.CRM.Rows.SuggestedAppointmentRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<SuggestedAppointmentTableInfo>)
+  nameWithType: SuggestedAppointmentRecordDataExtensions.FromSelect(TargetedSelect<SuggestedAppointmentTableInfo>)
+  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SuggestedAppointmentTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;SuggestedAppointmentTableInfo>, execute it and return an IEnumerable&lt;SuggestedAppointmentRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<SuggestedAppointmentRecordData> FromSelect(this TargetedSelect<SuggestedAppointmentTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of SuggestedAppointmentTableInfo)) As IEnumerable(Of SuggestedAppointmentRecordData)
+  overload: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect*
+  nameWithType.vb: SuggestedAppointmentRecordDataExtensions.FromSelect(TargetedSelect(Of SuggestedAppointmentTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SuggestedAppointmentTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of SuggestedAppointmentTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: SuggestedAppointmentRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: SuggestedAppointmentRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<SuggestedAppointmentRecordData>
-  nameWithType: IEnumerable<SuggestedAppointmentRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SuggestedAppointmentRecordData>
-  nameWithType.vb: IEnumerable(Of SuggestedAppointmentRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
-  name.vb: IEnumerable(Of SuggestedAppointmentRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<SuggestedAppointmentRecordData>
+  nameWithType: IAsyncEnumerable<SuggestedAppointmentRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.SuggestedAppointmentRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of SuggestedAppointmentRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
+  name.vb: IAsyncEnumerable(Of SuggestedAppointmentRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: SuggestedAppointmentRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SuggestedAppointmentRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SuggestedAppointmentRecordData>
+  nameWithType: IEnumerable<SuggestedAppointmentRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SuggestedAppointmentRecordData>
+  nameWithType.vb: IEnumerable(Of SuggestedAppointmentRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SuggestedAppointmentRecordData)
+  name.vb: IEnumerable(Of SuggestedAppointmentRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordData
+    name: SuggestedAppointmentRecordData
+    nameWithType: SuggestedAppointmentRecordData
+    fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordData
+    name: SuggestedAppointmentRecordData
+    nameWithType: SuggestedAppointmentRecordData
+    fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: SuggestedAppointmentRow
   nameWithType: SuggestedAppointmentRow
   fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRow
+- uid: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: SuggestedAppointmentRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.SuggestedAppointmentRecordDataExtensions.FromSelect

@@ -7,14 +7,9 @@ items:
   children:
   - SuperOffice.WebApi.Agents.FreeTextAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
   - SuperOffice.WebApi.Agents.FreeTextAgent.#ctor(System.Net.Http.HttpClient)
-  - SuperOffice.WebApi.Agents.FreeTextAgent.AddWordsAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.FreeTextAgent.DeleteStopWordsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FreeTextAgent.FreetextIndexRowsAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FreeTextAgent.GetStatusAsync(SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.FreeTextAgent.GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.FreeTextAgent.GetSuggestedStopWordsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FreeTextAgent.RegenerateIndexAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.FreeTextAgent.SetAutoEnableTravelAreasAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FreeTextAgent.SetEnabledAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.WebApi.Data.FreeTextOperator,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.WebApi.Data.FreeTextOperator,SuperOffice.WebApi.RequestOptions)
@@ -61,7 +56,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.Dispose
@@ -213,44 +208,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.WebApi.Agents.FreeTextAgent.SetAutoEnableTravelAreasAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.FreeTextAgent.SetAutoEnableTravelAreasAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
-  id: SetAutoEnableTravelAreasAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: SetAutoEnableTravelAreasAsync(Boolean, RequestOptions)
-  nameWithType: FreeTextAgent.SetAutoEnableTravelAreasAsync(Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.FreeTextAgent.SetAutoEnableTravelAreasAsync(System.Boolean, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nAutomatically enable freetext search for new travel areas? true or false\n"
-  syntax:
-    content: public Task SetAutoEnableTravelAreasAsync(bool autoEnable, RequestOptions requestOptions = null)
-    parameters:
-    - id: autoEnable
-      type: System.Boolean
-      description: If true, auto enable
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task
-      description: This method has no return value
-    content.vb: Public Function SetAutoEnableTravelAreasAsync(autoEnable As Boolean, requestOptions As RequestOptions = Nothing) As Task
-  overload: SuperOffice.WebApi.Agents.FreeTextAgent.SetAutoEnableTravelAreasAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IFreeTextAgent.SetAutoEnableTravelAreasAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.FreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.WebApi.Data.FreeTextOperator,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.FreeTextAgent.SetSingleWordOperatorAsync(SuperOffice.WebApi.Data.FreeTextOperator,SuperOffice.WebApi.RequestOptions)
   id: SetSingleWordOperatorAsync(SuperOffice.WebApi.Data.FreeTextOperator,SuperOffice.WebApi.RequestOptions)
@@ -323,158 +280,6 @@ items:
   overload: SuperOffice.WebApi.Agents.FreeTextAgent.SetMultiWordOperatorAsync*
   implements:
   - SuperOffice.WebApi.Agents.IFreeTextAgent.SetMultiWordOperatorAsync(SuperOffice.WebApi.Data.FreeTextOperator,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.WebApi.Agents.FreeTextAgent.GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.FreeTextAgent.GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-  id: GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: GetStopWordListAsync(RequestOptions)
-  nameWithType: FreeTextAgent.GetStopWordListAsync(RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.FreeTextAgent.GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns the list of stop words\n"
-  syntax:
-    content: public Task<string[]> GetStopWordListAsync(RequestOptions requestOptions = null)
-    parameters:
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{System.String[]}
-      description: The list of stop words
-    content.vb: Public Function GetStopWordListAsync(requestOptions As RequestOptions = Nothing) As Task(Of String())
-  overload: SuperOffice.WebApi.Agents.FreeTextAgent.GetStopWordListAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IFreeTextAgent.GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.WebApi.Agents.FreeTextAgent.AddWordsAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.FreeTextAgent.AddWordsAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  id: AddWordsAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: AddWordsAsync(String, RequestOptions)
-  nameWithType: FreeTextAgent.AddWordsAsync(String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.FreeTextAgent.AddWordsAsync(System.String, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nAdds the words in the string to the stop word list\n"
-  syntax:
-    content: public Task AddWordsAsync(string stopWords, RequestOptions requestOptions = null)
-    parameters:
-    - id: stopWords
-      type: System.String
-      description: The stop words to add
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task
-      description: This method has no return value
-    content.vb: Public Function AddWordsAsync(stopWords As String, requestOptions As RequestOptions = Nothing) As Task
-  overload: SuperOffice.WebApi.Agents.FreeTextAgent.AddWordsAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IFreeTextAgent.AddWordsAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.WebApi.Agents.FreeTextAgent.DeleteStopWordsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.FreeTextAgent.DeleteStopWordsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
-  id: DeleteStopWordsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteStopWordsByIdAsync(Int32[], RequestOptions)
-  nameWithType: FreeTextAgent.DeleteStopWordsByIdAsync(Int32[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.FreeTextAgent.DeleteStopWordsByIdAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nDelete the stop words with these ids\n"
-  syntax:
-    content: public Task DeleteStopWordsByIdAsync(int[] stopWordIds, RequestOptions requestOptions = null)
-    parameters:
-    - id: stopWordIds
-      type: System.Int32[]
-      description: The ids of the stopwords to delete
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task
-      description: This method has no return value
-    content.vb: Public Function DeleteStopWordsByIdAsync(stopWordIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
-  overload: SuperOffice.WebApi.Agents.FreeTextAgent.DeleteStopWordsByIdAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IFreeTextAgent.DeleteStopWordsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: FreeTextAgent.DeleteStopWordsByIdAsync(Int32(), RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.WebApi.Agents.FreeTextAgent.DeleteStopWordsByIdAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteStopWordsByIdAsync(Int32(), RequestOptions)
-- uid: SuperOffice.WebApi.Agents.FreeTextAgent.GetSuggestedStopWordsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.FreeTextAgent.GetSuggestedStopWordsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  id: GetSuggestedStopWordsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.FreeTextAgent
-  langs:
-  - csharp
-  - vb
-  name: GetSuggestedStopWordsAsync(Int32, RequestOptions)
-  nameWithType: FreeTextAgent.GetSuggestedStopWordsAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.FreeTextAgent.GetSuggestedStopWordsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns the top used words in the freetext index table, sorted as most used first\n"
-  syntax:
-    content: public Task<MDOListItem[]> GetSuggestedStopWordsAsync(int countWords, RequestOptions requestOptions = null)
-    parameters:
-    - id: countWords
-      type: System.Int32
-      description: The count of words that will be returned
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
-      description: The most used words
-    content.vb: Public Function GetSuggestedStopWordsAsync(countWords As Integer, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
-  overload: SuperOffice.WebApi.Agents.FreeTextAgent.GetSuggestedStopWordsAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IFreeTextAgent.GetSuggestedStopWordsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1356,18 +1161,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  name: ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1389,10 +1194,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1811,69 +1616,6 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.WebApi.Agents.FreeTextAgent.SetAutoEnableTravelAreasAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.FreeTextAgent.SetAutoEnableTravelAreasAsync
-  isExternal: true
-  name: SetAutoEnableTravelAreasAsync
-  nameWithType: FreeTextAgent.SetAutoEnableTravelAreasAsync
-  fullName: SuperOffice.WebApi.Agents.FreeTextAgent.SetAutoEnableTravelAreasAsync
-- uid: SuperOffice.WebApi.Agents.IFreeTextAgent.SetAutoEnableTravelAreasAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IFreeTextAgent.SetAutoEnableTravelAreasAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IFreeTextAgent
-  isExternal: true
-  name: SetAutoEnableTravelAreasAsync(Boolean, RequestOptions)
-  nameWithType: IFreeTextAgent.SetAutoEnableTravelAreasAsync(Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.SetAutoEnableTravelAreasAsync(System.Boolean, SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IFreeTextAgent.SetAutoEnableTravelAreasAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
-    name: SetAutoEnableTravelAreasAsync
-    nameWithType: IFreeTextAgent.SetAutoEnableTravelAreasAsync
-    fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.SetAutoEnableTravelAreasAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IFreeTextAgent.SetAutoEnableTravelAreasAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
-    name: SetAutoEnableTravelAreasAsync
-    nameWithType: IFreeTextAgent.SetAutoEnableTravelAreasAsync
-    fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.SetAutoEnableTravelAreasAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.FreeTextAgent.SetSingleWordOperatorAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.FreeTextAgent.SetSingleWordOperatorAsync
   isExternal: true
@@ -2010,389 +1752,6 @@ references:
     nameWithType: RequestOptions
     fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Agents.FreeTextAgent.GetStopWordListAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.FreeTextAgent.GetStopWordListAsync
-  isExternal: true
-  name: GetStopWordListAsync
-  nameWithType: FreeTextAgent.GetStopWordListAsync
-  fullName: SuperOffice.WebApi.Agents.FreeTextAgent.GetStopWordListAsync
-- uid: SuperOffice.WebApi.Agents.IFreeTextAgent.GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IFreeTextAgent.GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IFreeTextAgent
-  isExternal: true
-  name: GetStopWordListAsync(RequestOptions)
-  nameWithType: IFreeTextAgent.GetStopWordListAsync(RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IFreeTextAgent.GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-    name: GetStopWordListAsync
-    nameWithType: IFreeTextAgent.GetStopWordListAsync
-    fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.GetStopWordListAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IFreeTextAgent.GetStopWordListAsync(SuperOffice.WebApi.RequestOptions)
-    name: GetStopWordListAsync
-    nameWithType: IFreeTextAgent.GetStopWordListAsync
-    fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.GetStopWordListAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Threading.Tasks.Task{System.String[]}
-  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
-  definition: System.Threading.Tasks.Task`1
-  name: Task<String[]>
-  nameWithType: Task<String[]>
-  fullName: System.Threading.Tasks.Task<System.String[]>
-  nameWithType.vb: Task(Of String())
-  fullName.vb: System.Threading.Tasks.Task(Of System.String())
-  name.vb: Task(Of String())
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Agents.FreeTextAgent.AddWordsAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.FreeTextAgent.AddWordsAsync
-  isExternal: true
-  name: AddWordsAsync
-  nameWithType: FreeTextAgent.AddWordsAsync
-  fullName: SuperOffice.WebApi.Agents.FreeTextAgent.AddWordsAsync
-- uid: SuperOffice.WebApi.Agents.IFreeTextAgent.AddWordsAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IFreeTextAgent.AddWordsAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IFreeTextAgent
-  isExternal: true
-  name: AddWordsAsync(String, RequestOptions)
-  nameWithType: IFreeTextAgent.AddWordsAsync(String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.AddWordsAsync(System.String, SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IFreeTextAgent.AddWordsAsync(System.String,SuperOffice.WebApi.RequestOptions)
-    name: AddWordsAsync
-    nameWithType: IFreeTextAgent.AddWordsAsync
-    fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.AddWordsAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IFreeTextAgent.AddWordsAsync(System.String,SuperOffice.WebApi.RequestOptions)
-    name: AddWordsAsync
-    nameWithType: IFreeTextAgent.AddWordsAsync
-    fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.AddWordsAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.WebApi.Agents.FreeTextAgent.DeleteStopWordsByIdAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.FreeTextAgent.DeleteStopWordsByIdAsync
-  isExternal: true
-  name: DeleteStopWordsByIdAsync
-  nameWithType: FreeTextAgent.DeleteStopWordsByIdAsync
-  fullName: SuperOffice.WebApi.Agents.FreeTextAgent.DeleteStopWordsByIdAsync
-- uid: SuperOffice.WebApi.Agents.IFreeTextAgent.DeleteStopWordsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IFreeTextAgent.DeleteStopWordsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IFreeTextAgent
-  isExternal: true
-  name: DeleteStopWordsByIdAsync(Int32[], RequestOptions)
-  nameWithType: IFreeTextAgent.DeleteStopWordsByIdAsync(Int32[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.DeleteStopWordsByIdAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IFreeTextAgent.DeleteStopWordsByIdAsync(Int32(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IFreeTextAgent.DeleteStopWordsByIdAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteStopWordsByIdAsync(Int32(), RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IFreeTextAgent.DeleteStopWordsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
-    name: DeleteStopWordsByIdAsync
-    nameWithType: IFreeTextAgent.DeleteStopWordsByIdAsync
-    fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.DeleteStopWordsByIdAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IFreeTextAgent.DeleteStopWordsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
-    name: DeleteStopWordsByIdAsync
-    nameWithType: IFreeTextAgent.DeleteStopWordsByIdAsync
-    fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.DeleteStopWordsByIdAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Int32[]
-  isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
-  spec.csharp:
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.WebApi.Agents.FreeTextAgent.GetSuggestedStopWordsAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.FreeTextAgent.GetSuggestedStopWordsAsync
-  isExternal: true
-  name: GetSuggestedStopWordsAsync
-  nameWithType: FreeTextAgent.GetSuggestedStopWordsAsync
-  fullName: SuperOffice.WebApi.Agents.FreeTextAgent.GetSuggestedStopWordsAsync
-- uid: SuperOffice.WebApi.Agents.IFreeTextAgent.GetSuggestedStopWordsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IFreeTextAgent.GetSuggestedStopWordsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IFreeTextAgent
-  isExternal: true
-  name: GetSuggestedStopWordsAsync(Int32, RequestOptions)
-  nameWithType: IFreeTextAgent.GetSuggestedStopWordsAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.GetSuggestedStopWordsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IFreeTextAgent.GetSuggestedStopWordsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-    name: GetSuggestedStopWordsAsync
-    nameWithType: IFreeTextAgent.GetSuggestedStopWordsAsync
-    fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.GetSuggestedStopWordsAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IFreeTextAgent.GetSuggestedStopWordsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-    name: GetSuggestedStopWordsAsync
-    nameWithType: IFreeTextAgent.GetSuggestedStopWordsAsync
-    fullName: SuperOffice.WebApi.Agents.IFreeTextAgent.GetSuggestedStopWordsAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}'
-  definition: System.Threading.Tasks.Task`1
-  name: Task<MDOListItem[]>
-  nameWithType: Task<MDOListItem[]>
-  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MDOListItem[]>
-  nameWithType.vb: Task(Of MDOListItem())
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.MDOListItem())
-  name.vb: Task(Of MDOListItem())
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.MDOListItem
-    name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.WebApi.Data.MDOListItem
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.MDOListItem
-    name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.WebApi.Data.MDOListItem
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
   - name: )
     nameWithType: )
     fullName: )
@@ -2590,3 +1949,36 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -36,7 +36,7 @@ items:
   - SuperOffice.CRM.Rows.KbCategoryLogRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.KbCategoryLogRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.KbCategoryLogRecordData)
   - SuperOffice.CRM.Rows.KbCategoryLogRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.KbCategoryLogRecordData.SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.KbCategoryLogRecordData.SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.KbCategoryLogRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -303,34 +303,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.KbCategoryLogRecordData.SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbCategoryLogRecordData)
+- uid: SuperOffice.CRM.Rows.KbCategoryLogRecordData.SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbCategoryLogRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbCategoryLogRecordData)
-  name: ToInsert()
-  nameWithType: KbCategoryLogRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbCategoryLogRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: KbCategoryLogRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: KbCategoryLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbCategoryLogRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: KbCategoryLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbCategoryLogRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -516,17 +526,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbCategoryLogRecordData)
-  commentId: M:SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbCategoryLogRecordData)
+- uid: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbCategoryLogRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbCategoryLogRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(KbCategoryLogRecordData)
-  nameWithType: KbCategoryLogRecordDataExtensions.ToInsert(KbCategoryLogRecordData)
-  fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbCategoryLogRecordData)
+  name: ToInsertAsync(KbCategoryLogRecordData, CancellationToken)
+  nameWithType: KbCategoryLogRecordDataExtensions.ToInsertAsync(KbCategoryLogRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbCategoryLogRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbCategoryLogRecordData)
-    name: ToInsert
-    nameWithType: KbCategoryLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbCategoryLogRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbCategoryLogRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -535,15 +545,23 @@ references:
     name: KbCategoryLogRecordData
     nameWithType: KbCategoryLogRecordData
     fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbCategoryLogRecordData)
-    name: ToInsert
-    nameWithType: KbCategoryLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbCategoryLogRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbCategoryLogRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -552,6 +570,14 @@ references:
     name: KbCategoryLogRecordData
     nameWithType: KbCategoryLogRecordData
     fullName: SuperOffice.CRM.Rows.KbCategoryLogRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

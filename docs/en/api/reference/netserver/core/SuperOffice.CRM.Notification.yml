@@ -4,11 +4,11 @@ items:
   commentId: N:SuperOffice.CRM.Notification
   id: SuperOffice.CRM.Notification
   children:
-  - SuperOffice.CRM.Notification.AppointmentAlarmBroker
   - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
   - SuperOffice.CRM.Notification.DeviceInfo
+  - SuperOffice.CRM.Notification.IPushNotificationServiceManager
+  - SuperOffice.CRM.Notification.IPushNotificationServiceManagerFactory
   - SuperOffice.CRM.Notification.NotificationEventHandler
-  - SuperOffice.CRM.Notification.PushNotificationServiceManager
   langs:
   - csharp
   - vb
@@ -25,12 +25,6 @@ references:
   name: NotificationEventHandler
   nameWithType: NotificationEventHandler
   fullName: SuperOffice.CRM.Notification.NotificationEventHandler
-- uid: SuperOffice.CRM.Notification.AppointmentAlarmBroker
-  commentId: T:SuperOffice.CRM.Notification.AppointmentAlarmBroker
-  isExternal: true
-  name: AppointmentAlarmBroker
-  nameWithType: AppointmentAlarmBroker
-  fullName: SuperOffice.CRM.Notification.AppointmentAlarmBroker
 - uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
   commentId: T:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
   isExternal: true
@@ -44,12 +38,19 @@ references:
   name: DeviceInfo
   nameWithType: DeviceInfo
   fullName: SuperOffice.CRM.Notification.DeviceInfo
-- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager
-  commentId: T:SuperOffice.CRM.Notification.PushNotificationServiceManager
+- uid: SuperOffice.CRM.Notification.IPushNotificationServiceManager
+  commentId: T:SuperOffice.CRM.Notification.IPushNotificationServiceManager
+  parent: SuperOffice.CRM.Notification
   isExternal: true
-  name: PushNotificationServiceManager
-  nameWithType: PushNotificationServiceManager
-  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  name: IPushNotificationServiceManager
+  nameWithType: IPushNotificationServiceManager
+  fullName: SuperOffice.CRM.Notification.IPushNotificationServiceManager
+- uid: SuperOffice.CRM.Notification.IPushNotificationServiceManagerFactory
+  commentId: T:SuperOffice.CRM.Notification.IPushNotificationServiceManagerFactory
+  isExternal: true
+  name: IPushNotificationServiceManagerFactory
+  nameWithType: IPushNotificationServiceManagerFactory
+  fullName: SuperOffice.CRM.Notification.IPushNotificationServiceManagerFactory
 - uid: SuperOffice.CRM.Notification
   commentId: N:SuperOffice.CRM.Notification
   isExternal: true

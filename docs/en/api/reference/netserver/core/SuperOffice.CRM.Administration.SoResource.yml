@@ -5,17 +5,17 @@ items:
   id: SoResource
   parent: SuperOffice.CRM.Administration
   children:
-  - SuperOffice.CRM.Administration.SoResource.#ctor(System.Int32)
   - SuperOffice.CRM.Administration.SoResource._associateRow
+  - SuperOffice.CRM.Administration.SoResource.CreateAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.SoResource.CreateNew
   - SuperOffice.CRM.Administration.SoResource.Deleted
-  - SuperOffice.CRM.Administration.SoResource.GetFromId(System.Int32)
+  - SuperOffice.CRM.Administration.SoResource.GetFromIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.SoResource.IsLocation
   - SuperOffice.CRM.Administration.SoResource.LocationAddress
   - SuperOffice.CRM.Administration.SoResource.Name
   - SuperOffice.CRM.Administration.SoResource.Rank
   - SuperOffice.CRM.Administration.SoResource.ResourceId
-  - SuperOffice.CRM.Administration.SoResource.Save
+  - SuperOffice.CRM.Administration.SoResource.SaveAsync
   - SuperOffice.CRM.Administration.SoResource.Tooltip
   langs:
   - csharp
@@ -77,17 +77,17 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Administration.SoResource.#ctor(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.SoResource.#ctor(System.Int32)
-  id: '#ctor(System.Int32)'
+- uid: SuperOffice.CRM.Administration.SoResource.CreateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoResource.CreateAsync(System.Int32,System.Threading.CancellationToken)
+  id: CreateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoResource
   langs:
   - csharp
   - vb
-  name: SoResource(Int32)
-  nameWithType: SoResource.SoResource(Int32)
-  fullName: SuperOffice.CRM.Administration.SoResource.SoResource(System.Int32)
-  type: Constructor
+  name: CreateAsync(Int32, CancellationToken)
+  nameWithType: SoResource.CreateAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoResource.CreateAsync(System.Int32, System.Threading.CancellationToken)
+  type: Method
   source:
     path: SoDataBase
     isExternal: true
@@ -95,16 +95,22 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
-    content: public SoResource(int assId)
+    content: public static Task<SoResource> CreateAsync(int assId, CancellationToken cancellationToken = null)
     parameters:
     - id: assId
       type: System.Int32
-    content.vb: Public Sub New(assId As Integer)
-  overload: SuperOffice.CRM.Administration.SoResource.#ctor*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoResource}
+    content.vb: Public Shared Function CreateAsync(assId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SoResource)
+  overload: SuperOffice.CRM.Administration.SoResource.CreateAsync*
   modifiers.csharp:
   - public
+  - static
   modifiers.vb:
   - Public
+  - Shared
 - uid: SuperOffice.CRM.Administration.SoResource.CreateNew
   commentId: M:SuperOffice.CRM.Administration.SoResource.CreateNew
   id: CreateNew
@@ -137,16 +143,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Administration.SoResource.GetFromId(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.SoResource.GetFromId(System.Int32)
-  id: GetFromId(System.Int32)
+- uid: SuperOffice.CRM.Administration.SoResource.GetFromIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.SoResource.GetFromIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.SoResource
   langs:
   - csharp
   - vb
-  name: GetFromId(Int32)
-  nameWithType: SoResource.GetFromId(Int32)
-  fullName: SuperOffice.CRM.Administration.SoResource.GetFromId(System.Int32)
+  name: GetFromIdAsync(Int32, CancellationToken)
+  nameWithType: SoResource.GetFromIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.SoResource.GetFromIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -155,30 +161,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
-    content: public static SoResource GetFromId(int resourceId)
+    content: public static Task<SoResource> GetFromIdAsync(int resourceId, CancellationToken cancellationToken = null)
     parameters:
     - id: resourceId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Administration.SoResource
-    content.vb: Public Shared Function GetFromId(resourceId As Integer) As SoResource
-  overload: SuperOffice.CRM.Administration.SoResource.GetFromId*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoResource}
+    content.vb: Public Shared Function GetFromIdAsync(resourceId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SoResource)
+  overload: SuperOffice.CRM.Administration.SoResource.GetFromIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Administration.SoResource.Save
-  commentId: M:SuperOffice.CRM.Administration.SoResource.Save
-  id: Save
+- uid: SuperOffice.CRM.Administration.SoResource.SaveAsync
+  commentId: M:SuperOffice.CRM.Administration.SoResource.SaveAsync
+  id: SaveAsync
   parent: SuperOffice.CRM.Administration.SoResource
   langs:
   - csharp
   - vb
-  name: Save()
-  nameWithType: SoResource.Save()
-  fullName: SuperOffice.CRM.Administration.SoResource.Save()
+  name: SaveAsync()
+  nameWithType: SoResource.SaveAsync()
+  fullName: SuperOffice.CRM.Administration.SoResource.SaveAsync()
   type: Method
   source:
     path: SoDataBase
@@ -187,9 +195,11 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
-    content: public void Save()
-    content.vb: Public Sub Save
-  overload: SuperOffice.CRM.Administration.SoResource.Save*
+    content: public Task SaveAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SaveAsync As Task
+  overload: SuperOffice.CRM.Administration.SoResource.SaveAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -609,12 +619,12 @@ references:
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.CRM.Administration.SoResource.#ctor*
-  commentId: Overload:SuperOffice.CRM.Administration.SoResource.#ctor
+- uid: SuperOffice.CRM.Administration.SoResource.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.CreateAsync
   isExternal: true
-  name: SoResource
-  nameWithType: SoResource.SoResource
-  fullName: SuperOffice.CRM.Administration.SoResource.SoResource
+  name: CreateAsync
+  nameWithType: SoResource.CreateAsync
+  fullName: SuperOffice.CRM.Administration.SoResource.CreateAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -622,6 +632,92 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoResource}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Administration.SoResource}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SoResource>
+  nameWithType: Task<SoResource>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Administration.SoResource>
+  nameWithType.vb: Task(Of SoResource)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Administration.SoResource)
+  name.vb: Task(Of SoResource)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Administration.SoResource
+    name: SoResource
+    nameWithType: SoResource
+    fullName: SuperOffice.CRM.Administration.SoResource
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Administration.SoResource
+    name: SoResource
+    nameWithType: SoResource
+    fullName: SuperOffice.CRM.Administration.SoResource
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Administration.SoResource.CreateNew*
   commentId: Overload:SuperOffice.CRM.Administration.SoResource.CreateNew
   isExternal: true
@@ -635,18 +731,23 @@ references:
   name: SoResource
   nameWithType: SoResource
   fullName: SuperOffice.CRM.Administration.SoResource
-- uid: SuperOffice.CRM.Administration.SoResource.GetFromId*
-  commentId: Overload:SuperOffice.CRM.Administration.SoResource.GetFromId
+- uid: SuperOffice.CRM.Administration.SoResource.GetFromIdAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.GetFromIdAsync
   isExternal: true
-  name: GetFromId
-  nameWithType: SoResource.GetFromId
-  fullName: SuperOffice.CRM.Administration.SoResource.GetFromId
-- uid: SuperOffice.CRM.Administration.SoResource.Save*
-  commentId: Overload:SuperOffice.CRM.Administration.SoResource.Save
+  name: GetFromIdAsync
+  nameWithType: SoResource.GetFromIdAsync
+  fullName: SuperOffice.CRM.Administration.SoResource.GetFromIdAsync
+- uid: SuperOffice.CRM.Administration.SoResource.SaveAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.SaveAsync
   isExternal: true
-  name: Save
-  nameWithType: SoResource.Save
-  fullName: SuperOffice.CRM.Administration.SoResource.Save
+  name: SaveAsync
+  nameWithType: SoResource.SaveAsync
+  fullName: SuperOffice.CRM.Administration.SoResource.SaveAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Administration.SoResource.ResourceId*
   commentId: Overload:SuperOffice.CRM.Administration.SoResource.ResourceId
   isExternal: true

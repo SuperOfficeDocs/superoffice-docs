@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData)
   - SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData.SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData.SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData.SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData)
+- uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData.SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData)
-  name: ToInsert()
-  nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData)
+- uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ReplyTemplateAttachmentRecordData)
-  nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsert(ReplyTemplateAttachmentRecordData)
-  fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData)
+  name: ToInsertAsync(ReplyTemplateAttachmentRecordData, CancellationToken)
+  nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(ReplyTemplateAttachmentRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData)
-    name: ToInsert
-    nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: ReplyTemplateAttachmentRecordData
     nameWithType: ReplyTemplateAttachmentRecordData
     fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData)
-    name: ToInsert
-    nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: ReplyTemplateAttachmentRecordData
     nameWithType: ReplyTemplateAttachmentRecordData
     fullName: SuperOffice.CRM.Rows.ReplyTemplateAttachmentRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -55,7 +55,7 @@ items:
   - SuperOffice.CRM.Rows.MsFilterRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MsFilterRecordData)
   - SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -835,34 +835,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsFilterRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
-  name: ToInsert()
-  nameWithType: MsFilterRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsFilterRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: MsFilterRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: MsFilterRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MsFilterRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: MsFilterRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MsFilterRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1048,17 +1058,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
-  commentId: M:SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
+- uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsFilterRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsFilterRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(MsFilterRecordData)
-  nameWithType: MsFilterRecordDataExtensions.ToInsert(MsFilterRecordData)
-  fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
+  name: ToInsertAsync(MsFilterRecordData, CancellationToken)
+  nameWithType: MsFilterRecordDataExtensions.ToInsertAsync(MsFilterRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsFilterRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
-    name: ToInsert
-    nameWithType: MsFilterRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsFilterRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MsFilterRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1067,15 +1077,23 @@ references:
     name: MsFilterRecordData
     nameWithType: MsFilterRecordData
     fullName: SuperOffice.CRM.Rows.MsFilterRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
-    name: ToInsert
-    nameWithType: MsFilterRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MsFilterRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MsFilterRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1084,6 +1102,14 @@ references:
     name: MsFilterRecordData
     nameWithType: MsFilterRecordData
     fullName: SuperOffice.CRM.Rows.MsFilterRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

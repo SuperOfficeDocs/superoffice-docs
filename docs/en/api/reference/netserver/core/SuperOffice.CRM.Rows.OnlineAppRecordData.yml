@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.OnlineAppRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.OnlineAppRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.OnlineAppRecordData)
   - SuperOffice.CRM.Rows.OnlineAppRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.OnlineAppRecordData.SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.OnlineAppRecordData.SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.OnlineAppRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.OnlineAppRecordData.SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OnlineAppRecordData)
+- uid: SuperOffice.CRM.Rows.OnlineAppRecordData.SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OnlineAppRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OnlineAppRecordData)
-  name: ToInsert()
-  nameWithType: OnlineAppRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OnlineAppRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: OnlineAppRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: OnlineAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: OnlineAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: OnlineAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: OnlineAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OnlineAppRecordData)
-  commentId: M:SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OnlineAppRecordData)
+- uid: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OnlineAppRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OnlineAppRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(OnlineAppRecordData)
-  nameWithType: OnlineAppRecordDataExtensions.ToInsert(OnlineAppRecordData)
-  fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OnlineAppRecordData)
+  name: ToInsertAsync(OnlineAppRecordData, CancellationToken)
+  nameWithType: OnlineAppRecordDataExtensions.ToInsertAsync(OnlineAppRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OnlineAppRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OnlineAppRecordData)
-    name: ToInsert
-    nameWithType: OnlineAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OnlineAppRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: OnlineAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: OnlineAppRecordData
     nameWithType: OnlineAppRecordData
     fullName: SuperOffice.CRM.Rows.OnlineAppRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OnlineAppRecordData)
-    name: ToInsert
-    nameWithType: OnlineAppRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OnlineAppRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: OnlineAppRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.OnlineAppRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: OnlineAppRecordData
     nameWithType: OnlineAppRecordData
     fullName: SuperOffice.CRM.Rows.OnlineAppRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

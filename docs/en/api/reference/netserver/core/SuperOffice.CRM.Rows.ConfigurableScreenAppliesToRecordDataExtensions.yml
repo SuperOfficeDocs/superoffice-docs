@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
   - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
-  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
-  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData})
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<ConfigurableScreenAppliesToTableInfo>)
-  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(TargetedSelect<ConfigurableScreenAppliesToTableInfo>)
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo>)
+  name: FromSelectAsync(TargetedSelect<ConfigurableScreenAppliesToTableInfo>, CancellationToken)
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync(TargetedSelect<ConfigurableScreenAppliesToTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<ConfigurableScreenAppliesToRecordData> FromSelect(this TargetedSelect<ConfigurableScreenAppliesToTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<ConfigurableScreenAppliesToRecordData> FromSelectAsync(this TargetedSelect<ConfigurableScreenAppliesToTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of ConfigurableScreenAppliesToTableInfo)) As IEnumerable(Of ConfigurableScreenAppliesToRecordData)
-  overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect*
-  nameWithType.vb: ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(TargetedSelect(Of ConfigurableScreenAppliesToTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of ConfigurableScreenAppliesToTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ConfigurableScreenAppliesToRecordData)
+  overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync(TargetedSelect(Of ConfigurableScreenAppliesToTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of ConfigurableScreenAppliesToTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of ConfigurableScreenAppliesToTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
   commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of ConfigurableScreenAppliesToTableInfo))
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(ConfigurableScreenAppliesToRecordData)
-  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(ConfigurableScreenAppliesToRecordData)
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  name: ToInsertAsync(ConfigurableScreenAppliesToRecordData, CancellationToken)
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(ConfigurableScreenAppliesToRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this ConfigurableScreenAppliesToRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this ConfigurableScreenAppliesToRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As ConfigurableScreenAppliesToRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As ConfigurableScreenAppliesToRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData})
-  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData})
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<ConfigurableScreenAppliesToRecordData>)
-  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(IEnumerable<ConfigurableScreenAppliesToRecordData>)
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>)
+  name: ToInsertsAsync(IEnumerable<ConfigurableScreenAppliesToRecordData>, CancellationToken)
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync(IEnumerable<ConfigurableScreenAppliesToRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<ConfigurableScreenAppliesToRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<ConfigurableScreenAppliesToRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of ConfigurableScreenAppliesToRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts*
-  nameWithType.vb: ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(IEnumerable(Of ConfigurableScreenAppliesToRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of ConfigurableScreenAppliesToRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync(IEnumerable(Of ConfigurableScreenAppliesToRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData))
-  name.vb: ToInserts(IEnumerable(Of ConfigurableScreenAppliesToRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of ConfigurableScreenAppliesToRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow)
   commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow)
   id: ToRecordData(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<ConfigurableScreenAppliesToTableInfo>)
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(TargetedSelect<ConfigurableScreenAppliesToTableInfo>)
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;ConfigurableScreenAppliesToTableInfo>, execute it and return an IEnumerable&lt;ConfigurableScreenAppliesToRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<ConfigurableScreenAppliesToRecordData> FromSelect(this TargetedSelect<ConfigurableScreenAppliesToTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of ConfigurableScreenAppliesToTableInfo)) As IEnumerable(Of ConfigurableScreenAppliesToRecordData)
+  overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect*
+  nameWithType.vb: ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(TargetedSelect(Of ConfigurableScreenAppliesToTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of ConfigurableScreenAppliesToTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<ConfigurableScreenAppliesToRecordData>
-  nameWithType: IEnumerable<ConfigurableScreenAppliesToRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>
-  nameWithType.vb: IEnumerable(Of ConfigurableScreenAppliesToRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
-  name.vb: IEnumerable(Of ConfigurableScreenAppliesToRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ConfigurableScreenAppliesToRecordData>
+  nameWithType: IAsyncEnumerable<ConfigurableScreenAppliesToRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of ConfigurableScreenAppliesToRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  name.vb: IAsyncEnumerable(Of ConfigurableScreenAppliesToRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ConfigurableScreenAppliesToRecordData>
+  nameWithType: IEnumerable<ConfigurableScreenAppliesToRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>
+  nameWithType.vb: IEnumerable(Of ConfigurableScreenAppliesToRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  name.vb: IEnumerable(Of ConfigurableScreenAppliesToRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    name: ConfigurableScreenAppliesToRecordData
+    nameWithType: ConfigurableScreenAppliesToRecordData
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    name: ConfigurableScreenAppliesToRecordData
+    nameWithType: ConfigurableScreenAppliesToRecordData
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: ConfigurableScreenAppliesToRow
   nameWithType: ConfigurableScreenAppliesToRow
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect

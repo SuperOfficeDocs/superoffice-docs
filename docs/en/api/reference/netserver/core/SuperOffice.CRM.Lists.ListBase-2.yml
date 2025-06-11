@@ -16,7 +16,7 @@ items:
   - SuperOffice.CRM.Lists.ListBase`2.IsReadOnly
   - SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
   - SuperOffice.CRM.Lists.ListBase`2.ListCollection
-  - SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -52,7 +52,6 @@ items:
   - SuperOffice.CRM.Archives.ProjectMemberList
   - SuperOffice.CRM.Archives.RelationsList
   - SuperOffice.CRM.Archives.SaleList
-  - SuperOffice.CRM.Archives.UserList
   implements:
   - System.Collections.IEnumerable
   - System.Collections.Generic.IEnumerable{{TListItem}}
@@ -244,16 +243,16 @@ items:
   modifiers.vb:
   - Public
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).ListBase()
-- uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-  id: OnLoad(`0,SuperOffice.Data.SoDataReader)
+- uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
+  id: OnLoadAsync(`0,SuperOffice.Data.SoDataReader,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.ListBase`2
   langs:
   - csharp
   - vb
-  name: OnLoad(TListSelect, SoDataReader)
-  nameWithType: ListBase<TListSelect, TListItem>.OnLoad(TListSelect, SoDataReader)
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoad(TListSelect, SuperOffice.Data.SoDataReader)
+  name: OnLoadAsync(TListSelect, SoDataReader, CancellationToken)
+  nameWithType: ListBase<TListSelect, TListItem>.OnLoadAsync(TListSelect, SoDataReader, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoadAsync(TListSelect, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -263,23 +262,27 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nResponsible for reading each row with data from the SoDataReader and insert the object each row represents\ninto the class&apos; collection. \n"
   syntax:
-    content: protected virtual void OnLoad(TListSelect query, SoDataReader reader)
+    content: protected virtual Task OnLoadAsync(TListSelect query, SoDataReader reader, CancellationToken cancellationToken)
     parameters:
     - id: query
       type: '{TListSelect}'
     - id: reader
       type: SuperOffice.Data.SoDataReader
       description: The reader which contains all data in the list.
-    content.vb: Protected Overridable Sub OnLoad(query As TListSelect, reader As SoDataReader)
-  overload: SuperOffice.CRM.Lists.ListBase`2.OnLoad*
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).OnLoad(TListSelect, SoDataReader)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overridable Function OnLoadAsync(query As TListSelect, reader As SoDataReader, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync*
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).OnLoadAsync(TListSelect, SoDataReader, CancellationToken)
   modifiers.csharp:
   - protected
   - virtual
   modifiers.vb:
   - Protected
   - Overridable
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoad(TListSelect, SuperOffice.Data.SoDataReader)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoadAsync(TListSelect, SuperOffice.Data.SoDataReader, System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
   id: GetEnumerator
@@ -995,14 +998,14 @@ references:
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.ListBase
   nameWithType.vb: ListBase(Of TListSelect, TListItem).ListBase
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).ListBase
-- uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad*
-  commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.OnLoad
+- uid: SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.OnLoadAsync
   isExternal: true
-  name: OnLoad
-  nameWithType: ListBase<TListSelect, TListItem>.OnLoad
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoad
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).OnLoad
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoad
+  name: OnLoadAsync
+  nameWithType: ListBase<TListSelect, TListItem>.OnLoadAsync
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoadAsync
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).OnLoadAsync
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoadAsync
 - uid: '{TListSelect}'
   commentId: '!:TListSelect'
   definition: TListSelect
@@ -1016,6 +1019,16 @@ references:
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: TListSelect
   name: TListSelect
   nameWithType: TListSelect

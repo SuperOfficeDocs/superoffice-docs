@@ -78,7 +78,7 @@ items:
   - SuperOffice.CRM.Rows.SShipmentRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SShipmentRecordData)
   - SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -1479,34 +1479,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SShipmentRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
-  name: ToInsert()
-  nameWithType: SShipmentRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SShipmentRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SShipmentRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SShipmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SShipmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SShipmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SShipmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1692,17 +1702,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
+- uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SShipmentRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SShipmentRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SShipmentRecordData)
-  nameWithType: SShipmentRecordDataExtensions.ToInsert(SShipmentRecordData)
-  fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
+  name: ToInsertAsync(SShipmentRecordData, CancellationToken)
+  nameWithType: SShipmentRecordDataExtensions.ToInsertAsync(SShipmentRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SShipmentRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
-    name: ToInsert
-    nameWithType: SShipmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SShipmentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SShipmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1711,15 +1721,23 @@ references:
     name: SShipmentRecordData
     nameWithType: SShipmentRecordData
     fullName: SuperOffice.CRM.Rows.SShipmentRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
-    name: ToInsert
-    nameWithType: SShipmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SShipmentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SShipmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1728,6 +1746,14 @@ references:
     name: SShipmentRecordData
     nameWithType: SShipmentRecordData
     fullName: SuperOffice.CRM.Rows.SShipmentRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

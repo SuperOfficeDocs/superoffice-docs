@@ -57,6 +57,7 @@ items:
   - SuperOffice.WebApi.Agents.IPersonAgent.SaveConsentPersonAsync(SuperOffice.WebApi.Data.ConsentPerson,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPersonAgent.SavePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPersonAgent.SendConsentConfirmationEmailAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.SendCustomerCentrePasswordEmailAsync(System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPersonAgent.SendEmailWithEventNameAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPersonAgent.SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -1729,6 +1730,47 @@ items:
       description: A parsed Customer Centre password reply template.
     content.vb: Function GetCustomerCentrePasswordReplyTemplateAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ReplyTemplateParsed)
   overload: SuperOffice.WebApi.Agents.IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SendCustomerCentrePasswordEmailAsync(System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SendCustomerCentrePasswordEmailAsync(System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SendCustomerCentrePasswordEmailAsync(System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SendCustomerCentrePasswordEmailAsync(Int32, String, String, String, RequestOptions)
+  nameWithType: IPersonAgent.SendCustomerCentrePasswordEmailAsync(Int32, String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SendCustomerCentrePasswordEmailAsync(System.Int32, System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSends a Customer Centre password email based on the reply template.\n"
+  syntax:
+    content: Task SendCustomerCentrePasswordEmailAsync(int personId, string from, string to, string subject, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Person id associated to email&apos;s reply template.
+    - id: from
+      type: System.String
+      description: Sender&apos;s email address.
+    - id: to
+      type: System.String
+      description: Recipient&apos;s email address.
+    - id: subject
+      type: System.String
+      description: Email&apos;s subject.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SendCustomerCentrePasswordEmailAsync(personId As Integer, from As String, to As String, subject As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.SendCustomerCentrePasswordEmailAsync*
 - uid: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: SendEmailAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -3474,6 +3516,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SendCustomerCentrePasswordEmailAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.SendCustomerCentrePasswordEmailAsync
+  isExternal: true
+  name: SendCustomerCentrePasswordEmailAsync
+  nameWithType: IPersonAgent.SendCustomerCentrePasswordEmailAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SendCustomerCentrePasswordEmailAsync
 - uid: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync
   isExternal: true

@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.AreaUserAssignmentRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.AreaUserAssignmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData)
   - SuperOffice.CRM.Rows.AreaUserAssignmentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.AreaUserAssignmentRecordData.SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.AreaUserAssignmentRecordData.SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.AreaUserAssignmentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordData.SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData)
+- uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordData.SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData)
-  name: ToInsert()
-  nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData)
-  commentId: M:SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData)
+- uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(AreaUserAssignmentRecordData)
-  nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsert(AreaUserAssignmentRecordData)
-  fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData)
+  name: ToInsertAsync(AreaUserAssignmentRecordData, CancellationToken)
+  nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsertAsync(AreaUserAssignmentRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData)
-    name: ToInsert
-    nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: AreaUserAssignmentRecordData
     nameWithType: AreaUserAssignmentRecordData
     fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData)
-    name: ToInsert
-    nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AreaUserAssignmentRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AreaUserAssignmentRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: AreaUserAssignmentRecordData
     nameWithType: AreaUserAssignmentRecordData
     fullName: SuperOffice.CRM.Rows.AreaUserAssignmentRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

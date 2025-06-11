@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.PrefDescLineTableInfo})
   - SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo})
-  - SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
-  - SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData})
+  - SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.PrefDescLineRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo})
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<PrefDescLineTableInfo>)
-  nameWithType: PrefDescLineRecordDataExtensions.FromSelect(TargetedSelect<PrefDescLineTableInfo>)
-  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.PrefDescLineTableInfo>)
+  name: FromSelectAsync(TargetedSelect<PrefDescLineTableInfo>, CancellationToken)
+  nameWithType: PrefDescLineRecordDataExtensions.FromSelectAsync(TargetedSelect<PrefDescLineTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.PrefDescLineTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<PrefDescLineRecordData> FromSelect(this TargetedSelect<PrefDescLineTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<PrefDescLineRecordData> FromSelectAsync(this TargetedSelect<PrefDescLineTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of PrefDescLineTableInfo)) As IEnumerable(Of PrefDescLineRecordData)
-  overload: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect*
-  nameWithType.vb: PrefDescLineRecordDataExtensions.FromSelect(TargetedSelect(Of PrefDescLineTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of PrefDescLineTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of PrefDescLineRecordData)
+  overload: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: PrefDescLineRecordDataExtensions.FromSelectAsync(TargetedSelect(Of PrefDescLineTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.PrefDescLineTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of PrefDescLineTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.PrefDescLineTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of PrefDescLineTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.PrefDescLineTableInfo})
   commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.PrefDescLineTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.PrefDescLineTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.PrefDescLineTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of PrefDescLineTableInfo))
-- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(PrefDescLineRecordData)
-  nameWithType: PrefDescLineRecordDataExtensions.ToInsert(PrefDescLineRecordData)
-  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  name: ToInsertAsync(PrefDescLineRecordData, CancellationToken)
+  nameWithType: PrefDescLineRecordDataExtensions.ToInsertAsync(PrefDescLineRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PrefDescLineRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this PrefDescLineRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this PrefDescLineRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As PrefDescLineRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As PrefDescLineRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData})
-  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData})
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<PrefDescLineRecordData>)
-  nameWithType: PrefDescLineRecordDataExtensions.ToInserts(IEnumerable<PrefDescLineRecordData>)
-  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescLineRecordData>)
+  name: ToInsertsAsync(IEnumerable<PrefDescLineRecordData>, CancellationToken)
+  nameWithType: PrefDescLineRecordDataExtensions.ToInsertsAsync(IEnumerable<PrefDescLineRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescLineRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<PrefDescLineRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<PrefDescLineRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of PrefDescLineRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInserts*
-  nameWithType.vb: PrefDescLineRecordDataExtensions.ToInserts(IEnumerable(Of PrefDescLineRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of PrefDescLineRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: PrefDescLineRecordDataExtensions.ToInsertsAsync(IEnumerable(Of PrefDescLineRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescLineRecordData))
-  name.vb: ToInserts(IEnumerable(Of PrefDescLineRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescLineRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of PrefDescLineRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.PrefDescLineRow)
   commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.PrefDescLineRow)
   id: ToRecordData(SuperOffice.CRM.Rows.PrefDescLineRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<PrefDescLineTableInfo>)
+  nameWithType: PrefDescLineRecordDataExtensions.FromSelect(TargetedSelect<PrefDescLineTableInfo>)
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.PrefDescLineTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;PrefDescLineTableInfo>, execute it and return an IEnumerable&lt;PrefDescLineRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<PrefDescLineRecordData> FromSelect(this TargetedSelect<PrefDescLineTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of PrefDescLineTableInfo)) As IEnumerable(Of PrefDescLineRecordData)
+  overload: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect*
+  nameWithType.vb: PrefDescLineRecordDataExtensions.FromSelect(TargetedSelect(Of PrefDescLineTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.PrefDescLineTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of PrefDescLineTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: PrefDescLineRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: PrefDescLineRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.PrefDescLineTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<PrefDescLineRecordData>
-  nameWithType: IEnumerable<PrefDescLineRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescLineRecordData>
-  nameWithType.vb: IEnumerable(Of PrefDescLineRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescLineRecordData)
-  name.vb: IEnumerable(Of PrefDescLineRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<PrefDescLineRecordData>
+  nameWithType: IAsyncEnumerable<PrefDescLineRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.PrefDescLineRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of PrefDescLineRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  name.vb: IAsyncEnumerable(Of PrefDescLineRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: PrefDescLineRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: PrefDescLineRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: PrefDescLineRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: PrefDescLineRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescLineRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<PrefDescLineRecordData>
+  nameWithType: IEnumerable<PrefDescLineRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescLineRecordData>
+  nameWithType.vb: IEnumerable(Of PrefDescLineRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  name.vb: IEnumerable(Of PrefDescLineRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    name: PrefDescLineRecordData
+    nameWithType: PrefDescLineRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    name: PrefDescLineRecordData
+    nameWithType: PrefDescLineRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: PrefDescLineRow
   nameWithType: PrefDescLineRow
   fullName: SuperOffice.CRM.Rows.PrefDescLineRow
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: PrefDescLineRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.FromSelect

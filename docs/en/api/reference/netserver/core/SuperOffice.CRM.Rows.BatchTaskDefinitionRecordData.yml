@@ -46,7 +46,7 @@ items:
   - SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData)
   - SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData.SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData.SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -583,34 +583,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData.SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData)
+- uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData.SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData)
-  name: ToInsert()
-  nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -796,17 +806,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData)
-  commentId: M:SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData)
+- uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(BatchTaskDefinitionRecordData)
-  nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsert(BatchTaskDefinitionRecordData)
-  fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData)
+  name: ToInsertAsync(BatchTaskDefinitionRecordData, CancellationToken)
+  nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(BatchTaskDefinitionRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData)
-    name: ToInsert
-    nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -815,15 +825,23 @@ references:
     name: BatchTaskDefinitionRecordData
     nameWithType: BatchTaskDefinitionRecordData
     fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData)
-    name: ToInsert
-    nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: BatchTaskDefinitionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -832,6 +850,14 @@ references:
     name: BatchTaskDefinitionRecordData
     nameWithType: BatchTaskDefinitionRecordData
     fullName: SuperOffice.CRM.Rows.BatchTaskDefinitionRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

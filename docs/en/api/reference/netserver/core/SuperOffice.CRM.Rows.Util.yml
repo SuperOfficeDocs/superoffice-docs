@@ -6,7 +6,6 @@ items:
   children:
   - SuperOffice.CRM.Rows.Util.CurrencyConversionHelper
   - SuperOffice.CRM.Rows.Util.EUDefType
-  - SuperOffice.CRM.Rows.Util.PublishHelper
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   - SuperOffice.CRM.Rows.Util.RowHelper
   - SuperOffice.CRM.Rows.Util.UDefHelper
@@ -26,16 +25,8 @@ references:
   name: CurrencyConversionHelper
   nameWithType: CurrencyConversionHelper
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper
-- uid: SuperOffice.CRM.Rows.Util.PublishHelper
-  commentId: T:SuperOffice.CRM.Rows.Util.PublishHelper
-  parent: SuperOffice.CRM.Rows.Util
-  isExternal: true
-  name: PublishHelper
-  nameWithType: PublishHelper
-  fullName: SuperOffice.CRM.Rows.Util.PublishHelper
 - uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   commentId: T:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
-  parent: SuperOffice.CRM.Rows.Util
   isExternal: true
   name: RowForeignKeyHelper
   nameWithType: RowForeignKeyHelper

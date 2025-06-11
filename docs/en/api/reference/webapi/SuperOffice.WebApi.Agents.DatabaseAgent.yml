@@ -52,7 +52,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.Dispose
@@ -996,18 +996,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  name: ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1029,10 +1029,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (

@@ -18,7 +18,7 @@ items:
   - SuperOffice.CRM.Archives.DocumentListItem.DocumentTemplateId
   - SuperOffice.CRM.Archives.DocumentListItem.EventDate
   - SuperOffice.CRM.Archives.DocumentListItem.ForExternalPersons
-  - SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItem(System.Int32)
+  - SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItemAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Archives.DocumentListItem.Header
   - SuperOffice.CRM.Archives.DocumentListItem.Initialize
   - SuperOffice.CRM.Archives.DocumentListItem.IsPublished
@@ -107,16 +107,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItem(System.Int32)
-  commentId: M:SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItem(System.Int32)
-  id: GetDocumentListItem(System.Int32)
+- uid: SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItemAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDocumentListItemAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.DocumentListItem
   langs:
   - csharp
   - vb
-  name: GetDocumentListItem(Int32)
-  nameWithType: DocumentListItem.GetDocumentListItem(Int32)
-  fullName: SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItem(System.Int32)
+  name: GetDocumentListItemAsync(Int32, CancellationToken)
+  nameWithType: DocumentListItem.GetDocumentListItemAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItemAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -125,14 +125,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Archives
   syntax:
-    content: public static DocumentListItem GetDocumentListItem(int documentId)
+    content: public static Task<DocumentListItem> GetDocumentListItemAsync(int documentId, CancellationToken cancellationToken = null)
     parameters:
     - id: documentId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Archives.DocumentListItem
-    content.vb: Public Shared Function GetDocumentListItem(documentId As Integer) As DocumentListItem
-  overload: SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItem*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.DocumentListItem}
+    content.vb: Public Shared Function GetDocumentListItemAsync(documentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of DocumentListItem)
+  overload: SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItemAsync*
   modifiers.csharp:
   - public
   - static
@@ -2242,12 +2244,12 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItem*
-  commentId: Overload:SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItem
+- uid: SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItemAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItemAsync
   isExternal: true
-  name: GetDocumentListItem
-  nameWithType: DocumentListItem.GetDocumentListItem
-  fullName: SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItem
+  name: GetDocumentListItemAsync
+  nameWithType: DocumentListItem.GetDocumentListItemAsync
+  fullName: SuperOffice.CRM.Archives.DocumentListItem.GetDocumentListItemAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2255,13 +2257,92 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Archives.DocumentListItem
-  commentId: T:SuperOffice.CRM.Archives.DocumentListItem
-  parent: SuperOffice.CRM.Archives
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: DocumentListItem
-  nameWithType: DocumentListItem
-  fullName: SuperOffice.CRM.Archives.DocumentListItem
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.DocumentListItem}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Archives.DocumentListItem}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DocumentListItem>
+  nameWithType: Task<DocumentListItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Archives.DocumentListItem>
+  nameWithType.vb: Task(Of DocumentListItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Archives.DocumentListItem)
+  name.vb: Task(Of DocumentListItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Archives.DocumentListItem
+    name: DocumentListItem
+    nameWithType: DocumentListItem
+    fullName: SuperOffice.CRM.Archives.DocumentListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Archives.DocumentListItem
+    name: DocumentListItem
+    nameWithType: DocumentListItem
+    fullName: SuperOffice.CRM.Archives.DocumentListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.DocumentList.DocumentListQuery}.Initialize
   commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.DocumentList.DocumentListQuery}.Initialize
   parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.DocumentList.DocumentListQuery}

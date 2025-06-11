@@ -10,7 +10,6 @@ items:
   - SuperOffice.WebApi.Agents.AppointmentAgent
   - SuperOffice.WebApi.Agents.ArchiveAgent
   - SuperOffice.WebApi.Agents.AssociateAgent
-  - SuperOffice.WebApi.Agents.AudienceAgent
   - SuperOffice.WebApi.Agents.BatchAgent
   - SuperOffice.WebApi.Agents.BLOBAgent
   - SuperOffice.WebApi.Agents.BulkUpdateAgent
@@ -20,7 +19,6 @@ items:
   - SuperOffice.WebApi.Agents.CRMScriptAgent
   - SuperOffice.WebApi.Agents.CustomerServiceAgent
   - SuperOffice.WebApi.Agents.DashAgent
-  - SuperOffice.WebApi.Agents.DashboardAgent
   - SuperOffice.WebApi.Agents.DatabaseAgent
   - SuperOffice.WebApi.Agents.DatabaseTableAgent
   - SuperOffice.WebApi.Agents.DiagnosticsAgent
@@ -37,7 +35,6 @@ items:
   - SuperOffice.WebApi.Agents.IAppointmentAgent
   - SuperOffice.WebApi.Agents.IArchiveAgent
   - SuperOffice.WebApi.Agents.IAssociateAgent
-  - SuperOffice.WebApi.Agents.IAudienceAgent
   - SuperOffice.WebApi.Agents.IBatchAgent
   - SuperOffice.WebApi.Agents.IBLOBAgent
   - SuperOffice.WebApi.Agents.IBulkUpdateAgent
@@ -47,7 +44,6 @@ items:
   - SuperOffice.WebApi.Agents.ICRMScriptAgent
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent
   - SuperOffice.WebApi.Agents.IDashAgent
-  - SuperOffice.WebApi.Agents.IDashboardAgent
   - SuperOffice.WebApi.Agents.IDatabaseAgent
   - SuperOffice.WebApi.Agents.IDatabaseTableAgent
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent
@@ -76,7 +72,6 @@ items:
   - SuperOffice.WebApi.Agents.IProjectAgent
   - SuperOffice.WebApi.Agents.IQuoteAgent
   - SuperOffice.WebApi.Agents.IRelationAgent
-  - SuperOffice.WebApi.Agents.IReplicationAgent
   - SuperOffice.WebApi.Agents.IReportAgent
   - SuperOffice.WebApi.Agents.IResourceAgent
   - SuperOffice.WebApi.Agents.ISaintAgent
@@ -107,7 +102,6 @@ items:
   - SuperOffice.WebApi.Agents.ProjectAgent
   - SuperOffice.WebApi.Agents.QuoteAgent
   - SuperOffice.WebApi.Agents.RelationAgent
-  - SuperOffice.WebApi.Agents.ReplicationAgent
   - SuperOffice.WebApi.Agents.ReportAgent
   - SuperOffice.WebApi.Agents.ResourceAgent
   - SuperOffice.WebApi.Agents.SaintAgent
@@ -211,19 +205,6 @@ references:
   name: AssociateAgent
   nameWithType: AssociateAgent
   fullName: SuperOffice.WebApi.Agents.AssociateAgent
-- uid: SuperOffice.WebApi.Agents.IAudienceAgent
-  commentId: T:SuperOffice.WebApi.Agents.IAudienceAgent
-  parent: SuperOffice.WebApi.Agents
-  isExternal: true
-  name: IAudienceAgent
-  nameWithType: IAudienceAgent
-  fullName: SuperOffice.WebApi.Agents.IAudienceAgent
-- uid: SuperOffice.WebApi.Agents.AudienceAgent
-  commentId: T:SuperOffice.WebApi.Agents.AudienceAgent
-  isExternal: true
-  name: AudienceAgent
-  nameWithType: AudienceAgent
-  fullName: SuperOffice.WebApi.Agents.AudienceAgent
 - uid: SuperOffice.WebApi.Agents.IBatchAgent
   commentId: T:SuperOffice.WebApi.Agents.IBatchAgent
   parent: SuperOffice.WebApi.Agents
@@ -341,19 +322,6 @@ references:
   name: DashAgent
   nameWithType: DashAgent
   fullName: SuperOffice.WebApi.Agents.DashAgent
-- uid: SuperOffice.WebApi.Agents.IDashboardAgent
-  commentId: T:SuperOffice.WebApi.Agents.IDashboardAgent
-  parent: SuperOffice.WebApi.Agents
-  isExternal: true
-  name: IDashboardAgent
-  nameWithType: IDashboardAgent
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent
-- uid: SuperOffice.WebApi.Agents.DashboardAgent
-  commentId: T:SuperOffice.WebApi.Agents.DashboardAgent
-  isExternal: true
-  name: DashboardAgent
-  nameWithType: DashboardAgent
-  fullName: SuperOffice.WebApi.Agents.DashboardAgent
 - uid: SuperOffice.WebApi.Agents.IDatabaseAgent
   commentId: T:SuperOffice.WebApi.Agents.IDatabaseAgent
   parent: SuperOffice.WebApi.Agents
@@ -699,19 +667,6 @@ references:
   name: RelationAgent
   nameWithType: RelationAgent
   fullName: SuperOffice.WebApi.Agents.RelationAgent
-- uid: SuperOffice.WebApi.Agents.IReplicationAgent
-  commentId: T:SuperOffice.WebApi.Agents.IReplicationAgent
-  parent: SuperOffice.WebApi.Agents
-  isExternal: true
-  name: IReplicationAgent
-  nameWithType: IReplicationAgent
-  fullName: SuperOffice.WebApi.Agents.IReplicationAgent
-- uid: SuperOffice.WebApi.Agents.ReplicationAgent
-  commentId: T:SuperOffice.WebApi.Agents.ReplicationAgent
-  isExternal: true
-  name: ReplicationAgent
-  nameWithType: ReplicationAgent
-  fullName: SuperOffice.WebApi.Agents.ReplicationAgent
 - uid: SuperOffice.WebApi.Agents.IReportAgent
   commentId: T:SuperOffice.WebApi.Agents.IReportAgent
   parent: SuperOffice.WebApi.Agents

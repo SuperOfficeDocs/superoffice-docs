@@ -6,12 +6,10 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.CRM.Rows.RefCountsRow,SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.Data.RefCounts.CreateCounter(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  - SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo,System.Int32)
+  - SuperOffice.Data.RefCounts.AllowBlankAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  - SuperOffice.Data.RefCounts.GetNextAsync(SuperOffice.Data.SQL.FieldInfo,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.RefCounts.Unique(SuperOffice.CRM.Rows.RefCountsRow,SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.Data.RefCounts.Unique(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.RefCounts.UniqueAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -44,52 +42,16 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo)
-  id: GetNext(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.RefCounts.UniqueAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.RefCounts.UniqueAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  id: UniqueAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
   parent: SuperOffice.Data.RefCounts
   langs:
   - csharp
   - vb
-  name: GetNext(FieldInfo)
-  nameWithType: RefCounts.GetNext(FieldInfo)
-  fullName: SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nGet the next number from a <xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref> definition.\n"
-  remarks: '&apos;0&apos; is returned if there is no previous information about the row.'
-  syntax:
-    content: public static int GetNext(FieldInfo fieldInfo)
-    parameters:
-    - id: fieldInfo
-      type: SuperOffice.Data.SQL.FieldInfo
-      description: Field to get the next number for.
-    return:
-      type: System.Int32
-      description: The next number for the field.
-    content.vb: Public Shared Function GetNext(fieldInfo As FieldInfo) As Integer
-  overload: SuperOffice.Data.RefCounts.GetNext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.RefCounts.Unique(SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.Data.RefCounts.Unique(SuperOffice.Data.SQL.FieldInfo)
-  id: Unique(SuperOffice.Data.SQL.FieldInfo)
-  parent: SuperOffice.Data.RefCounts
-  langs:
-  - csharp
-  - vb
-  name: Unique(FieldInfo)
-  nameWithType: RefCounts.Unique(FieldInfo)
-  fullName: SuperOffice.Data.RefCounts.Unique(SuperOffice.Data.SQL.FieldInfo)
+  name: UniqueAsync(FieldInfo, CancellationToken)
+  nameWithType: RefCounts.UniqueAsync(FieldInfo, CancellationToken)
+  fullName: SuperOffice.Data.RefCounts.UniqueAsync(SuperOffice.Data.SQL.FieldInfo, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -99,14 +61,16 @@ items:
   namespace: SuperOffice.Data
   summary: "\nChecks if the unique flag is set for the field.\n"
   syntax:
-    content: public static bool Unique(FieldInfo fieldInfo)
+    content: public static Task<bool> UniqueAsync(FieldInfo fieldInfo, CancellationToken cancellationToken = null)
     parameters:
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function Unique(fieldInfo As FieldInfo) As Boolean
-  overload: SuperOffice.Data.RefCounts.Unique*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Shared Function UniqueAsync(fieldInfo As FieldInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.RefCounts.UniqueAsync*
   modifiers.csharp:
   - public
   - static
@@ -148,16 +112,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.Data.SQL.FieldInfo)
-  id: AllowBlank(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.RefCounts.AllowBlankAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.RefCounts.AllowBlankAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
+  id: AllowBlankAsync(SuperOffice.Data.SQL.FieldInfo,System.Threading.CancellationToken)
   parent: SuperOffice.Data.RefCounts
   langs:
   - csharp
   - vb
-  name: AllowBlank(FieldInfo)
-  nameWithType: RefCounts.AllowBlank(FieldInfo)
-  fullName: SuperOffice.Data.RefCounts.AllowBlank(SuperOffice.Data.SQL.FieldInfo)
+  name: AllowBlankAsync(FieldInfo, CancellationToken)
+  nameWithType: RefCounts.AllowBlankAsync(FieldInfo, CancellationToken)
+  fullName: SuperOffice.Data.RefCounts.AllowBlankAsync(SuperOffice.Data.SQL.FieldInfo, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -167,14 +131,16 @@ items:
   namespace: SuperOffice.Data
   summary: "\nChecks if the unique flag is set for the field.\n"
   syntax:
-    content: public static bool AllowBlank(FieldInfo fieldInfo)
+    content: public static Task<bool> AllowBlankAsync(FieldInfo fieldInfo, CancellationToken cancellationToken = null)
     parameters:
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function AllowBlank(fieldInfo As FieldInfo) As Boolean
-  overload: SuperOffice.Data.RefCounts.AllowBlank*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Shared Function AllowBlankAsync(fieldInfo As FieldInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Data.RefCounts.AllowBlankAsync*
   modifiers.csharp:
   - public
   - static
@@ -216,16 +182,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  commentId: M:SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  id: GetNext(SuperOffice.Data.SQL.FieldInfo,System.Int32)
+- uid: SuperOffice.Data.RefCounts.GetNextAsync(SuperOffice.Data.SQL.FieldInfo,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.RefCounts.GetNextAsync(SuperOffice.Data.SQL.FieldInfo,System.Int32,System.Threading.CancellationToken)
+  id: GetNextAsync(SuperOffice.Data.SQL.FieldInfo,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.RefCounts
   langs:
   - csharp
   - vb
-  name: GetNext(FieldInfo, Int32)
-  nameWithType: RefCounts.GetNext(FieldInfo, Int32)
-  fullName: SuperOffice.Data.RefCounts.GetNext(SuperOffice.Data.SQL.FieldInfo, System.Int32)
+  name: GetNextAsync(FieldInfo, Int32, CancellationToken)
+  nameWithType: RefCounts.GetNextAsync(FieldInfo, Int32, CancellationToken)
+  fullName: SuperOffice.Data.RefCounts.GetNextAsync(SuperOffice.Data.SQL.FieldInfo, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -236,7 +202,7 @@ items:
   summary: "\nGet the next number from a <xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref> definition.\n"
   remarks: '&apos;0&apos; is returned if there is no previous information about the row.'
   syntax:
-    content: public static int GetNext(FieldInfo fieldInfo, int recordId)
+    content: public static Task<int> GetNextAsync(FieldInfo fieldInfo, int recordId = 0, CancellationToken cancellationToken = null)
     parameters:
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
@@ -244,57 +210,19 @@ items:
     - id: recordId
       type: System.Int32
       description: The record id to get the number for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: The next number for the field.
-    content.vb: Public Shared Function GetNext(fieldInfo As FieldInfo, recordId As Integer) As Integer
-  overload: SuperOffice.Data.RefCounts.GetNext*
+    content.vb: Public Shared Function GetNextAsync(fieldInfo As FieldInfo, recordId As Integer = 0, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.RefCounts.GetNextAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.RefCounts.CreateCounter(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  commentId: M:SuperOffice.Data.RefCounts.CreateCounter(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  id: CreateCounter(SuperOffice.Data.SQL.FieldInfo,System.Int32)
-  parent: SuperOffice.Data.RefCounts
-  langs:
-  - csharp
-  - vb
-  name: CreateCounter(FieldInfo, Int32)
-  nameWithType: RefCounts.CreateCounter(FieldInfo, Int32)
-  fullName: SuperOffice.Data.RefCounts.CreateCounter(SuperOffice.Data.SQL.FieldInfo, System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nPrivate SuperOffice function for creating new counters.\n"
-  syntax:
-    content: public RefCountsRow CreateCounter(FieldInfo fieldInfo, int recordId)
-    parameters:
-    - id: fieldInfo
-      type: SuperOffice.Data.SQL.FieldInfo
-      description: Field to get the next number for.
-    - id: recordId
-      type: System.Int32
-      description: The record id to get the number for.
-    return:
-      type: SuperOffice.CRM.Rows.RefCountsRow
-      description: <xref href="SuperOffice.CRM.Rows.RefCountsRow" data-throw-if-not-resolved="false"></xref> representing the counter.
-    content.vb: Public Function CreateCounter(fieldInfo As FieldInfo, recordId As Integer) As RefCountsRow
-  overload: SuperOffice.Data.RefCounts.CreateCounter*
-  exceptions:
-  - type: System.Security.SecurityException
-    commentId: T:System.Security.SecurityException
-    description: Exception is thrown if code accessing this methid is not sigend with the SuperOffice strong name key.
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -480,12 +408,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Data.RefCounts.GetNext*
-  commentId: Overload:SuperOffice.Data.RefCounts.GetNext
+- uid: SuperOffice.Data.RefCounts.UniqueAsync*
+  commentId: Overload:SuperOffice.Data.RefCounts.UniqueAsync
   isExternal: true
-  name: GetNext
-  nameWithType: RefCounts.GetNext
-  fullName: SuperOffice.Data.RefCounts.GetNext
+  name: UniqueAsync
+  nameWithType: RefCounts.UniqueAsync
+  fullName: SuperOffice.Data.RefCounts.UniqueAsync
 - uid: SuperOffice.Data.SQL.FieldInfo
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
@@ -493,32 +421,104 @@ references:
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.RefCounts.Unique*
   commentId: Overload:SuperOffice.Data.RefCounts.Unique
   isExternal: true
   name: Unique
   nameWithType: RefCounts.Unique
   fullName: SuperOffice.Data.RefCounts.Unique
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: SuperOffice.CRM.Rows.RefCountsRow
   commentId: T:SuperOffice.CRM.Rows.RefCountsRow
   parent: SuperOffice.CRM.Rows
@@ -526,24 +526,84 @@ references:
   name: RefCountsRow
   nameWithType: RefCountsRow
   fullName: SuperOffice.CRM.Rows.RefCountsRow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.Data.RefCounts.AllowBlankAsync*
+  commentId: Overload:SuperOffice.Data.RefCounts.AllowBlankAsync
+  isExternal: true
+  name: AllowBlankAsync
+  nameWithType: RefCounts.AllowBlankAsync
+  fullName: SuperOffice.Data.RefCounts.AllowBlankAsync
 - uid: SuperOffice.Data.RefCounts.AllowBlank*
   commentId: Overload:SuperOffice.Data.RefCounts.AllowBlank
   isExternal: true
   name: AllowBlank
   nameWithType: RefCounts.AllowBlank
   fullName: SuperOffice.Data.RefCounts.AllowBlank
-- uid: SuperOffice.Data.RefCounts.CreateCounter*
-  commentId: Overload:SuperOffice.Data.RefCounts.CreateCounter
+- uid: SuperOffice.Data.RefCounts.GetNextAsync*
+  commentId: Overload:SuperOffice.Data.RefCounts.GetNextAsync
   isExternal: true
-  name: CreateCounter
-  nameWithType: RefCounts.CreateCounter
-  fullName: SuperOffice.Data.RefCounts.CreateCounter
-- uid: System.Security.SecurityException
-  commentId: T:System.Security.SecurityException
+  name: GetNextAsync
+  nameWithType: RefCounts.GetNextAsync
+  fullName: SuperOffice.Data.RefCounts.GetNextAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

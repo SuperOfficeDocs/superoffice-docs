@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute
+  commentId: T:SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute
+  id: BackgroundThreadCleanupPluginAttribute
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: BackgroundThreadCleanupPluginAttribute
+  nameWithType: BackgroundThreadCleanupPluginAttribute
+  fullName: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: 'public class BackgroundThreadCleanupPluginAttribute : PluginAttribute'
+    content.vb: >-
+      Public Class BackgroundThreadCleanupPluginAttribute
+          Inherits PluginAttribute
+  inheritance:
+  - System.Object
+  - SuperOffice.Factory.PluginAttribute
+  extensionMethods:
+  - SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.#ctor(System.String)
+  commentId: M:SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: BackgroundThreadCleanupPluginAttribute(String)
+  nameWithType: BackgroundThreadCleanupPluginAttribute.BackgroundThreadCleanupPluginAttribute(String)
+  fullName: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.BackgroundThreadCleanupPluginAttribute(System.String)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public BackgroundThreadCleanupPluginAttribute(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Factory.PluginAttribute
+  commentId: T:SuperOffice.Factory.PluginAttribute
+  parent: SuperOffice.Factory
+  isExternal: true
+  name: PluginAttribute
+  nameWithType: PluginAttribute
+  fullName: SuperOffice.Factory.PluginAttribute
+- uid: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BackgroundThreadCleanupPluginAttribute, To>()
+  nameWithType: EnumUtil.MapEnums<BackgroundThreadCleanupPluginAttribute, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BackgroundThreadCleanupPluginAttribute, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute, To)()
+  name.vb: MapEnums(Of BackgroundThreadCleanupPluginAttribute, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BackgroundThreadCleanupPluginAttribute, To>
+    nameWithType: EnumUtil.MapEnums<BackgroundThreadCleanupPluginAttribute, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BackgroundThreadCleanupPluginAttribute, To)
+    nameWithType: EnumUtil.MapEnums(Of BackgroundThreadCleanupPluginAttribute, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BackgroundThreadCleanupPluginAttribute, To>()
+  nameWithType: Converters.MapEnums<BackgroundThreadCleanupPluginAttribute, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute, To>()
+  nameWithType.vb: Converters.MapEnums(Of BackgroundThreadCleanupPluginAttribute, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute, To)()
+  name.vb: MapEnums(Of BackgroundThreadCleanupPluginAttribute, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BackgroundThreadCleanupPluginAttribute, To>
+    nameWithType: Converters.MapEnums<BackgroundThreadCleanupPluginAttribute, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BackgroundThreadCleanupPluginAttribute, To)
+    nameWithType: Converters.MapEnums(Of BackgroundThreadCleanupPluginAttribute, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Factory
+  commentId: N:SuperOffice.Factory
+  isExternal: true
+  name: SuperOffice.Factory
+  nameWithType: SuperOffice.Factory
+  fullName: SuperOffice.Factory
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.#ctor
+  isExternal: true
+  name: BackgroundThreadCleanupPluginAttribute
+  nameWithType: BackgroundThreadCleanupPluginAttribute.BackgroundThreadCleanupPluginAttribute
+  fullName: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute.BackgroundThreadCleanupPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

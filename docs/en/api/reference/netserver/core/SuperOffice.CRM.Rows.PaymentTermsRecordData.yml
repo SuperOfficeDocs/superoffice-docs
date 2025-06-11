@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.PaymentTermsRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.PaymentTermsRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PaymentTermsRecordData)
   - SuperOffice.CRM.Rows.PaymentTermsRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.PaymentTermsRecordData.SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PaymentTermsRecordData.SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PaymentTermsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PaymentTermsRecordData.SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsRecordData)
+- uid: SuperOffice.CRM.Rows.PaymentTermsRecordData.SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsRecordData)
-  name: ToInsert()
-  nameWithType: PaymentTermsRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: PaymentTermsRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PaymentTermsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PaymentTermsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsRecordData)
+- uid: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(PaymentTermsRecordData)
-  nameWithType: PaymentTermsRecordDataExtensions.ToInsert(PaymentTermsRecordData)
-  fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsRecordData)
+  name: ToInsertAsync(PaymentTermsRecordData, CancellationToken)
+  nameWithType: PaymentTermsRecordDataExtensions.ToInsertAsync(PaymentTermsRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsRecordData)
-    name: ToInsert
-    nameWithType: PaymentTermsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: PaymentTermsRecordData
     nameWithType: PaymentTermsRecordData
     fullName: SuperOffice.CRM.Rows.PaymentTermsRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsRecordData)
-    name: ToInsert
-    nameWithType: PaymentTermsRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: PaymentTermsRecordData
     nameWithType: PaymentTermsRecordData
     fullName: SuperOffice.CRM.Rows.PaymentTermsRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

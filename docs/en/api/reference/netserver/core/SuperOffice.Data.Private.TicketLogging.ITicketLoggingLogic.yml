@@ -5,7 +5,7 @@ items:
   id: ITicketLoggingLogic
   parent: SuperOffice.Data.Private.TicketLogging
   children:
-  - SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketData(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData)
+  - SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketDataAsync(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData)
   langs:
   - csharp
   - vb
@@ -32,16 +32,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketData(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData)
-  commentId: M:SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketData(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData)
-  id: LogFromTicketData(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData)
+- uid: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketDataAsync(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData)
+  commentId: M:SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketDataAsync(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData)
+  id: LogFromTicketDataAsync(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData)
   parent: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic
   langs:
   - csharp
   - vb
-  name: LogFromTicketData(TicketLoggerProcessor.QueryData)
-  nameWithType: ITicketLoggingLogic.LogFromTicketData(TicketLoggerProcessor.QueryData)
-  fullName: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketData(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData)
+  name: LogFromTicketDataAsync(TicketLoggerProcessor.QueryData)
+  nameWithType: ITicketLoggingLogic.LogFromTicketDataAsync(TicketLoggerProcessor.QueryData)
+  fullName: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketDataAsync(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData)
   type: Method
   source:
     path: SoDataBase
@@ -51,16 +51,16 @@ items:
   namespace: SuperOffice.Data.Private.TicketLogging
   summary: "\nLogs ticket changes if the supplied data suggests that event should be logged.\n"
   syntax:
-    content: Nullable<int> LogFromTicketData(TicketLoggerProcessor.QueryData queryData)
+    content: Task<Nullable<int>> LogFromTicketDataAsync(TicketLoggerProcessor.QueryData queryData)
     parameters:
     - id: queryData
       type: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData
       description: Contains information regarding query that changed the ticket
     return:
-      type: System.Nullable{System.Int32}
+      type: System.Threading.Tasks.Task{System.Nullable{System.Int32}}
       description: Returns PK of TicketLogAction row that was inserted. If logic inside the method decides that event does not need to be logged, returns null
-    content.vb: Function LogFromTicketData(queryData As TicketLoggerProcessor.QueryData) As Nullable(Of Integer)
-  overload: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketData*
+    content.vb: Function LogFromTicketDataAsync(queryData As TicketLoggerProcessor.QueryData) As Task(Of Nullable(Of Integer))
+  overload: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketDataAsync*
 references:
 - uid: SuperOffice.Data.Private.TicketLogging
   commentId: N:SuperOffice.Data.Private.TicketLogging
@@ -233,12 +233,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketData*
-  commentId: Overload:SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketData
+- uid: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketDataAsync*
+  commentId: Overload:SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketDataAsync
   isExternal: true
-  name: LogFromTicketData
-  nameWithType: ITicketLoggingLogic.LogFromTicketData
-  fullName: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketData
+  name: LogFromTicketDataAsync
+  nameWithType: ITicketLoggingLogic.LogFromTicketDataAsync
+  fullName: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic.LogFromTicketDataAsync
 - uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData
   commentId: T:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData
   parent: SuperOffice.Data.Private.TicketLogging
@@ -246,16 +246,24 @@ references:
   name: TicketLoggerProcessor.QueryData
   nameWithType: TicketLoggerProcessor.QueryData
   fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData
-- uid: System.Nullable{System.Int32}
-  commentId: '!:System.Nullable{System.Int32}'
-  definition: System.Nullable`1
-  name: Nullable<Int32>
-  nameWithType: Nullable<Int32>
-  fullName: System.Nullable<System.Int32>
-  nameWithType.vb: Nullable(Of Int32)
-  fullName.vb: System.Nullable(Of System.Int32)
-  name.vb: Nullable(Of Int32)
+- uid: System.Threading.Tasks.Task{System.Nullable{System.Int32}}
+  commentId: '!:System.Threading.Tasks.Task{System.Nullable{System.Int32}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Nullable<Int32>>
+  nameWithType: Task<Nullable<Int32>>
+  fullName: System.Threading.Tasks.Task<System.Nullable<System.Int32>>
+  nameWithType.vb: Task(Of Nullable(Of Int32))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Nullable(Of System.Int32))
+  name.vb: Task(Of Nullable(Of Int32))
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Nullable`1
     name: Nullable
     nameWithType: Nullable
@@ -272,7 +280,18 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Nullable`1
     name: Nullable
     nameWithType: Nullable
@@ -289,19 +308,22 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Nullable`1
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -313,10 +335,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '

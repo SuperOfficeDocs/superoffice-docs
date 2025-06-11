@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IPocketConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IPocketConfiguration
+  id: ConfigFile.IPocketConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubConnectionString
+  - SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubName
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IPocketConfiguration
+  nameWithType: ConfigFile.IPocketConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IPocketConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values for Pocket specific features\nCreated in Database scope\n"
+  syntax:
+    content: public interface IPocketConfiguration
+    content.vb: Public Interface IPocketConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IPocketConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IPocketConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubConnectionString
+  commentId: P:SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubConnectionString
+  id: AzureNotificationHubConnectionString
+  parent: SuperOffice.Configuration.ConfigFile.IPocketConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AzureNotificationHubConnectionString
+  nameWithType: ConfigFile.IPocketConfiguration.AzureNotificationHubConnectionString
+  fullName: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubConnectionString
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConnection string from Azure notification hub access policies\n"
+  syntax:
+    content: string AzureNotificationHubConnectionString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property AzureNotificationHubConnectionString As String
+  overload: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubConnectionString*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubName
+  commentId: P:SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubName
+  id: AzureNotificationHubName
+  parent: SuperOffice.Configuration.ConfigFile.IPocketConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AzureNotificationHubName
+  nameWithType: ConfigFile.IPocketConfiguration.AzureNotificationHubName
+  fullName: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubName
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe name of the Azure notification hub\n"
+  syntax:
+    content: string AzureNotificationHubName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property AzureNotificationHubName As String
+  overload: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubName*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IPocketConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IPocketConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IPocketConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IPocketConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IPocketConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IPocketConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IPocketConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IPocketConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IPocketConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IPocketConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IPocketConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IPocketConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IPocketConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IPocketConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IPocketConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IPocketConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IPocketConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IPocketConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IPocketConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IPocketConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IPocketConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IPocketConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IPocketConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IPocketConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubConnectionString*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubConnectionString
+  isExternal: true
+  name: AzureNotificationHubConnectionString
+  nameWithType: ConfigFile.IPocketConfiguration.AzureNotificationHubConnectionString
+  fullName: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubConnectionString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubName
+  isExternal: true
+  name: AzureNotificationHubName
+  nameWithType: ConfigFile.IPocketConfiguration.AzureNotificationHubName
+  fullName: SuperOffice.Configuration.ConfigFile.IPocketConfiguration.AzureNotificationHubName

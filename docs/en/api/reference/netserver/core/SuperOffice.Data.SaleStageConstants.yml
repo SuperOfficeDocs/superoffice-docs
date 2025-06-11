@@ -10,6 +10,7 @@ items:
   - SuperOffice.Data.SaleStageConstants.HideOptionalRows
   - SuperOffice.Data.SaleStageConstants.Probability
   - SuperOffice.Data.SaleStageConstants.SaleTypeID
+  - SuperOffice.Data.SaleStageConstants.SaleTypeIDs
   - SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkDeleted
   - SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkId
   langs:
@@ -89,6 +90,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const SaleTypeID As String = "SaleTypeID"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.SaleStageConstants.SaleTypeIDs
+  commentId: F:SuperOffice.Data.SaleStageConstants.SaleTypeIDs
+  id: SaleTypeIDs
+  parent: SuperOffice.Data.SaleStageConstants
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeIDs
+  nameWithType: SaleStageConstants.SaleTypeIDs
+  fullName: SuperOffice.Data.SaleStageConstants.SaleTypeIDs
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string SaleTypeIDs = "SaleTypeIDs"
+    return:
+      type: System.String
+    content.vb: Public Const SaleTypeIDs As String = "SaleTypeIDs"
   modifiers.csharp:
   - public
   - const

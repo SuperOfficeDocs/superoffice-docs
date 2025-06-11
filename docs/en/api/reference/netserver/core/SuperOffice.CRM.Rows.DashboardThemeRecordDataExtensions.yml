@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.DashboardThemeTableInfo})
   - SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo})
-  - SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
-  - SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData})
+  - SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardThemeRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo})
+- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<DashboardThemeTableInfo>)
-  nameWithType: DashboardThemeRecordDataExtensions.FromSelect(TargetedSelect<DashboardThemeTableInfo>)
-  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.DashboardThemeTableInfo>)
+  name: FromSelectAsync(TargetedSelect<DashboardThemeTableInfo>, CancellationToken)
+  nameWithType: DashboardThemeRecordDataExtensions.FromSelectAsync(TargetedSelect<DashboardThemeTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.DashboardThemeTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<DashboardThemeRecordData> FromSelect(this TargetedSelect<DashboardThemeTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<DashboardThemeRecordData> FromSelectAsync(this TargetedSelect<DashboardThemeTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of DashboardThemeTableInfo)) As IEnumerable(Of DashboardThemeRecordData)
-  overload: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect*
-  nameWithType.vb: DashboardThemeRecordDataExtensions.FromSelect(TargetedSelect(Of DashboardThemeTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of DashboardThemeTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of DashboardThemeRecordData)
+  overload: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: DashboardThemeRecordDataExtensions.FromSelectAsync(TargetedSelect(Of DashboardThemeTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.DashboardThemeTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of DashboardThemeTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.DashboardThemeTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of DashboardThemeTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.DashboardThemeTableInfo})
   commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.DashboardThemeTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.DashboardThemeTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.DashboardThemeTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of DashboardThemeTableInfo))
-- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
-  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
+- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(DashboardThemeRecordData)
-  nameWithType: DashboardThemeRecordDataExtensions.ToInsert(DashboardThemeRecordData)
-  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
+  name: ToInsertAsync(DashboardThemeRecordData, CancellationToken)
+  nameWithType: DashboardThemeRecordDataExtensions.ToInsertAsync(DashboardThemeRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this DashboardThemeRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this DashboardThemeRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.DashboardThemeRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As DashboardThemeRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As DashboardThemeRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData})
-  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData})
+- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<DashboardThemeRecordData>)
-  nameWithType: DashboardThemeRecordDataExtensions.ToInserts(IEnumerable<DashboardThemeRecordData>)
-  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.DashboardThemeRecordData>)
+  name: ToInsertsAsync(IEnumerable<DashboardThemeRecordData>, CancellationToken)
+  nameWithType: DashboardThemeRecordDataExtensions.ToInsertsAsync(IEnumerable<DashboardThemeRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.DashboardThemeRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<DashboardThemeRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<DashboardThemeRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of DashboardThemeRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInserts*
-  nameWithType.vb: DashboardThemeRecordDataExtensions.ToInserts(IEnumerable(Of DashboardThemeRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of DashboardThemeRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: DashboardThemeRecordDataExtensions.ToInsertsAsync(IEnumerable(Of DashboardThemeRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.DashboardThemeRecordData))
-  name.vb: ToInserts(IEnumerable(Of DashboardThemeRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.DashboardThemeRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of DashboardThemeRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardThemeRow)
   commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardThemeRow)
   id: ToRecordData(SuperOffice.CRM.Rows.DashboardThemeRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<DashboardThemeTableInfo>)
+  nameWithType: DashboardThemeRecordDataExtensions.FromSelect(TargetedSelect<DashboardThemeTableInfo>)
+  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.DashboardThemeTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;DashboardThemeTableInfo>, execute it and return an IEnumerable&lt;DashboardThemeRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<DashboardThemeRecordData> FromSelect(this TargetedSelect<DashboardThemeTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of DashboardThemeTableInfo)) As IEnumerable(Of DashboardThemeRecordData)
+  overload: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect*
+  nameWithType.vb: DashboardThemeRecordDataExtensions.FromSelect(TargetedSelect(Of DashboardThemeTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.DashboardThemeTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of DashboardThemeTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: DashboardThemeRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: DashboardThemeRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.DashboardThemeTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<DashboardThemeRecordData>
-  nameWithType: IEnumerable<DashboardThemeRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.DashboardThemeRecordData>
-  nameWithType.vb: IEnumerable(Of DashboardThemeRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.DashboardThemeRecordData)
-  name.vb: IEnumerable(Of DashboardThemeRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<DashboardThemeRecordData>
+  nameWithType: IAsyncEnumerable<DashboardThemeRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.DashboardThemeRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of DashboardThemeRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.DashboardThemeRecordData)
+  name.vb: IAsyncEnumerable(Of DashboardThemeRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: DashboardThemeRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: DashboardThemeRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: DashboardThemeRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: DashboardThemeRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.DashboardThemeRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<DashboardThemeRecordData>
+  nameWithType: IEnumerable<DashboardThemeRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.DashboardThemeRecordData>
+  nameWithType.vb: IEnumerable(Of DashboardThemeRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.DashboardThemeRecordData)
+  name.vb: IEnumerable(Of DashboardThemeRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.DashboardThemeRecordData
+    name: DashboardThemeRecordData
+    nameWithType: DashboardThemeRecordData
+    fullName: SuperOffice.CRM.Rows.DashboardThemeRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.DashboardThemeRecordData
+    name: DashboardThemeRecordData
+    nameWithType: DashboardThemeRecordData
+    fullName: SuperOffice.CRM.Rows.DashboardThemeRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: DashboardThemeRow
   nameWithType: DashboardThemeRow
   fullName: SuperOffice.CRM.Rows.DashboardThemeRow
+- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: DashboardThemeRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.FromSelect

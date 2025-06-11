@@ -8,7 +8,6 @@ items:
   - SuperOffice.CRM.Rows.Util.RowHelper.#ctor
   - SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsCount(SuperOffice.CRM.Entities.EntityCollectionBase,System.Int32)
   - SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsCount(SuperOffice.CRM.Rows.TableRowsBase,System.Int32)
-  - SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsLength(SuperOffice.Data.ISoCollection,System.Int32)
   langs:
   - csharp
   - vb
@@ -41,42 +40,6 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsLength(SuperOffice.Data.ISoCollection,System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsLength(SuperOffice.Data.ISoCollection,System.Int32)
-  id: ForceTableRowsLength(SuperOffice.Data.ISoCollection,System.Int32)
-  parent: SuperOffice.CRM.Rows.Util.RowHelper
-  langs:
-  - csharp
-  - vb
-  name: ForceTableRowsLength(ISoCollection, Int32)
-  nameWithType: RowHelper.ForceTableRowsLength(ISoCollection, Int32)
-  fullName: SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsLength(SuperOffice.Data.ISoCollection, System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows.Util
-  summary: "\nMake sure that the ISoCollection (HDB.Rows, CRM.Entities.Collection) has the exact number of items in it.\n"
-  remarks: "\nIf the ISoCollection collection is too long, items will be \nremoved from the end of the collection and deleted from the \ndatabase.  If the ISoCollection collection is too short, items \nwill be appended to the end of the collection.\n"
-  syntax:
-    content: public static void ForceTableRowsLength(ISoCollection rows, int length)
-    parameters:
-    - id: rows
-      type: SuperOffice.Data.ISoCollection
-      description: ISoCollection collection to force having the right number of items.
-    - id: length
-      type: System.Int32
-      description: The wanted amount of items in the ISoCollection.
-    content.vb: Public Shared Sub ForceTableRowsLength(rows As ISoCollection, length As Integer)
-  overload: SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsLength*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsCount(SuperOffice.CRM.Rows.TableRowsBase,System.Int32)
   commentId: M:SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsCount(SuperOffice.CRM.Rows.TableRowsBase,System.Int32)
   id: ForceTableRowsCount(SuperOffice.CRM.Rows.TableRowsBase,System.Int32)
@@ -540,32 +503,6 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsLength*
-  commentId: Overload:SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsLength
-  isExternal: true
-  name: ForceTableRowsLength
-  nameWithType: RowHelper.ForceTableRowsLength
-  fullName: SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsLength
-- uid: SuperOffice.Data.ISoCollection
-  commentId: T:SuperOffice.Data.ISoCollection
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ISoCollection
-  nameWithType: ISoCollection
-  fullName: SuperOffice.Data.ISoCollection
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
 - uid: SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsCount*
   commentId: Overload:SuperOffice.CRM.Rows.Util.RowHelper.ForceTableRowsCount
   isExternal: true
@@ -579,6 +516,13 @@ references:
   name: TableRowsBase
   nameWithType: TableRowsBase
   fullName: SuperOffice.CRM.Rows.TableRowsBase
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true

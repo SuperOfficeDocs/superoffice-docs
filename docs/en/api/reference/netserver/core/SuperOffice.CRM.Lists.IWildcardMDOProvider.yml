@@ -5,7 +5,7 @@ items:
   id: IWildcardMDOProvider
   parent: SuperOffice.CRM.Lists
   children:
-  - SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  - SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -33,16 +33,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
-  commentId: M:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
-  id: GetProvider(System.String)
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
+  id: GetProviderAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.IWildcardMDOProvider
   langs:
   - csharp
   - vb
-  name: GetProvider(String)
-  nameWithType: IWildcardMDOProvider.GetProvider(String)
-  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  name: GetProviderAsync(String, CancellationToken)
+  nameWithType: IWildcardMDOProvider.GetProviderAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -52,16 +52,18 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nGiven a list name, return a concrete provider for that list, if it is supported.\nOtherwise return null (no exceptions thrown)\n"
   syntax:
-    content: ISoListProvider GetProvider(string listName)
+    content: Task<ISoListProvider> GetProviderAsync(string listName, CancellationToken cancellationToken = null)
     parameters:
     - id: listName
       type: System.String
       description: Name of list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Lists.ISoListProvider
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
       description: A concrete provider that has the values required
-    content.vb: Function GetProvider(listName As String) As ISoListProvider
-  overload: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider*
+    content.vb: Function GetProviderAsync(listName As String, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync*
 references:
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
@@ -234,12 +236,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider*
-  commentId: Overload:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync
   isExternal: true
-  name: GetProvider
-  nameWithType: IWildcardMDOProvider.GetProvider
-  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider
+  name: GetProviderAsync
+  nameWithType: IWildcardMDOProvider.GetProviderAsync
+  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -247,16 +249,95 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.Lists.ISoListProvider
-  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
-  parent: SuperOffice.CRM.Lists
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: ISoListProvider
-  nameWithType: ISoListProvider
-  fullName: SuperOffice.CRM.Lists.ISoListProvider
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ISoListProvider>
+  nameWithType: Task<ISoListProvider>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Lists.ISoListProvider>
+  nameWithType.vb: Task(Of ISoListProvider)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Lists.ISoListProvider)
+  name.vb: Task(Of ISoListProvider)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListProvider
+    name: ISoListProvider
+    nameWithType: ISoListProvider
+    fullName: SuperOffice.CRM.Lists.ISoListProvider
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListProvider
+    name: ISoListProvider
+    nameWithType: ISoListProvider
+    fullName: SuperOffice.CRM.Lists.ISoListProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.HotlistRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.HotlistRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.HotlistRecordData)
   - SuperOffice.CRM.Rows.HotlistRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.HotlistRecordData.SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.HotlistRecordData.SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.HotlistRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.HotlistRecordData.SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HotlistRecordData)
+- uid: SuperOffice.CRM.Rows.HotlistRecordData.SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HotlistRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.HotlistRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HotlistRecordData)
-  name: ToInsert()
-  nameWithType: HotlistRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HotlistRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: HotlistRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: HotlistRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: HotlistRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: HotlistRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: HotlistRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HotlistRecordData)
-  commentId: M:SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HotlistRecordData)
+- uid: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HotlistRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HotlistRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(HotlistRecordData)
-  nameWithType: HotlistRecordDataExtensions.ToInsert(HotlistRecordData)
-  fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HotlistRecordData)
+  name: ToInsertAsync(HotlistRecordData, CancellationToken)
+  nameWithType: HotlistRecordDataExtensions.ToInsertAsync(HotlistRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HotlistRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HotlistRecordData)
-    name: ToInsert
-    nameWithType: HotlistRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HotlistRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: HotlistRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: HotlistRecordData
     nameWithType: HotlistRecordData
     fullName: SuperOffice.CRM.Rows.HotlistRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HotlistRecordData)
-    name: ToInsert
-    nameWithType: HotlistRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.HotlistRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: HotlistRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.HotlistRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: HotlistRecordData
     nameWithType: HotlistRecordData
     fullName: SuperOffice.CRM.Rows.HotlistRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

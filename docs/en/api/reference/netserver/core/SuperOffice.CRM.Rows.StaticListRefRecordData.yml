@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.StaticListRefRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.StaticListRefRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.StaticListRefRecordData)
   - SuperOffice.CRM.Rows.StaticListRefRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.StaticListRefRecordData.SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.StaticListRefRecordData.SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.StaticListRefRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.StaticListRefRecordData.SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StaticListRefRecordData)
+- uid: SuperOffice.CRM.Rows.StaticListRefRecordData.SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StaticListRefRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StaticListRefRecordData)
-  name: ToInsert()
-  nameWithType: StaticListRefRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StaticListRefRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: StaticListRefRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: StaticListRefRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: StaticListRefRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: StaticListRefRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: StaticListRefRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StaticListRefRecordData)
-  commentId: M:SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StaticListRefRecordData)
+- uid: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StaticListRefRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StaticListRefRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(StaticListRefRecordData)
-  nameWithType: StaticListRefRecordDataExtensions.ToInsert(StaticListRefRecordData)
-  fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StaticListRefRecordData)
+  name: ToInsertAsync(StaticListRefRecordData, CancellationToken)
+  nameWithType: StaticListRefRecordDataExtensions.ToInsertAsync(StaticListRefRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StaticListRefRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StaticListRefRecordData)
-    name: ToInsert
-    nameWithType: StaticListRefRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StaticListRefRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: StaticListRefRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: StaticListRefRecordData
     nameWithType: StaticListRefRecordData
     fullName: SuperOffice.CRM.Rows.StaticListRefRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StaticListRefRecordData)
-    name: ToInsert
-    nameWithType: StaticListRefRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StaticListRefRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: StaticListRefRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.StaticListRefRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: StaticListRefRecordData
     nameWithType: StaticListRefRecordData
     fullName: SuperOffice.CRM.Rows.StaticListRefRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

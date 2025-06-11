@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData)
   - SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData.SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData.SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData.SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData)
+- uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData.SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData)
-  name: ToInsert()
-  nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData)
+- uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SaleTypeStageLinkRecordData)
-  nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsert(SaleTypeStageLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData)
+  name: ToInsertAsync(SaleTypeStageLinkRecordData, CancellationToken)
+  nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(SaleTypeStageLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData)
-    name: ToInsert
-    nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: SaleTypeStageLinkRecordData
     nameWithType: SaleTypeStageLinkRecordData
     fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData)
-    name: ToInsert
-    nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SaleTypeStageLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: SaleTypeStageLinkRecordData
     nameWithType: SaleTypeStageLinkRecordData
     fullName: SuperOffice.CRM.Rows.SaleTypeStageLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

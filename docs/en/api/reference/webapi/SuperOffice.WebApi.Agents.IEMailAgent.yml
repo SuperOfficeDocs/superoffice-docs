@@ -3506,7 +3506,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets the list of SyncUserAccounts that should be synced.\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nGets the list of SyncUserAccounts that should be synced, from mail server to SuperOffice database cache.\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: Task<SyncUserAccount[]> GetReadySyncEmailAccountsAsync(RequestOptions requestOptions = null)
     parameters:
@@ -3535,7 +3535,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSync the given account\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nSync the given account, from mail server to SuperOffice database cache. This API has no throttling, so please be careful with multiple concurrent calls. Mail servers may become angry.\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: Task SyncEmailAccountAsync(SyncUserAccount syncUserAccount, RequestOptions requestOptions = null)
     parameters:
@@ -3567,7 +3567,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nStart syncing of the given accounts\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nStart syncing of the given accounts, from mail server to SuperOffice database cache. Only one of these API calls may run at a time. If one is already active, we return after 1 (one) second, with no indication that the sync was not really started. This is a way to throttle sync&apos;ing to avoid making the mail servers angry at us. &lt;br/> There is an &lt;b>additional&lt;/b> level of throttling within the implementation as well, limiting us to a maximum of 10 tasks, regardless of how many associates are to to be sync&apos;ed. The outer, API-level lock is released when all those tasks are done.\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: Task SyncEmailAccountsAsync(SyncUserAccount[] syncUserAccounts, RequestOptions requestOptions = null)
     parameters:

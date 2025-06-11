@@ -11,9 +11,7 @@ items:
   - SuperOffice.CRM.Administration.IUserCredentialPlugin
   - SuperOffice.CRM.Administration.IUserPlugin
   - SuperOffice.CRM.Administration.IUserValidatorPlugin
-  - SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
   - SuperOffice.CRM.Administration.SoResource
-  - SuperOffice.CRM.Administration.SoRole
   - SuperOffice.CRM.Administration.SoUser
   - SuperOffice.CRM.Administration.SoUser.PermissionType
   - SuperOffice.CRM.Administration.SoUserCredential
@@ -47,18 +45,6 @@ references:
   name: SoResource
   nameWithType: SoResource
   fullName: SuperOffice.CRM.Administration.SoResource
-- uid: SuperOffice.CRM.Administration.SoRole
-  commentId: T:SuperOffice.CRM.Administration.SoRole
-  isExternal: true
-  name: SoRole
-  nameWithType: SoRole
-  fullName: SuperOffice.CRM.Administration.SoRole
-- uid: SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
-  commentId: T:SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
-  isExternal: true
-  name: SoPasswordCredentialPlugin
-  nameWithType: SoPasswordCredentialPlugin
-  fullName: SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
 - uid: SuperOffice.CRM.Administration.SoUser
   commentId: T:SuperOffice.CRM.Administration.SoUser
   parent: SuperOffice.CRM.Administration
@@ -81,7 +67,6 @@ references:
   fullName: SuperOffice.CRM.Administration.SoUserCredential
 - uid: SuperOffice.CRM.Administration.UserCredentialPluginAttribute
   commentId: T:SuperOffice.CRM.Administration.UserCredentialPluginAttribute
-  parent: SuperOffice.CRM.Administration
   isExternal: true
   name: UserCredentialPluginAttribute
   nameWithType: UserCredentialPluginAttribute
@@ -101,7 +86,6 @@ references:
   fullName: SuperOffice.CRM.Administration.UserCredentialGroup
 - uid: SuperOffice.CRM.Administration.UserCredentialList
   commentId: T:SuperOffice.CRM.Administration.UserCredentialList
-  parent: SuperOffice.CRM.Administration
   isExternal: true
   name: UserCredentialList
   nameWithType: UserCredentialList

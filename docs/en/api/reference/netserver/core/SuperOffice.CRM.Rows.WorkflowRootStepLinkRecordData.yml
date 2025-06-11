@@ -41,7 +41,7 @@ items:
   - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
   - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -443,34 +443,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
-  name: ToInsert()
-  nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -656,17 +666,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(WorkflowRootStepLinkRecordData)
-  nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsert(WorkflowRootStepLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
+  name: ToInsertAsync(WorkflowRootStepLinkRecordData, CancellationToken)
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(WorkflowRootStepLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
-    name: ToInsert
-    nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -675,15 +685,23 @@ references:
     name: WorkflowRootStepLinkRecordData
     nameWithType: WorkflowRootStepLinkRecordData
     fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
-    name: ToInsert
-    nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -692,6 +710,14 @@ references:
     name: WorkflowRootStepLinkRecordData
     nameWithType: WorkflowRootStepLinkRecordData
     fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -55,7 +55,7 @@ items:
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData)
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -835,34 +835,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData)
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData)
-  name: ToInsert()
-  nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1048,17 +1058,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData)
-  commentId: M:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData)
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(DashboardTileDefinitionRecordData)
-  nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsert(DashboardTileDefinitionRecordData)
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData)
+  name: ToInsertAsync(DashboardTileDefinitionRecordData, CancellationToken)
+  nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(DashboardTileDefinitionRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData)
-    name: ToInsert
-    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1067,15 +1077,23 @@ references:
     name: DashboardTileDefinitionRecordData
     nameWithType: DashboardTileDefinitionRecordData
     fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData)
-    name: ToInsert
-    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1084,6 +1102,14 @@ references:
     name: DashboardTileDefinitionRecordData
     nameWithType: DashboardTileDefinitionRecordData
     fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

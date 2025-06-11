@@ -35,8 +35,6 @@ items:
       Public Class ControlInfo
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.BulkUpdateAgent
-    commentId: T:SuperOffice.CRM.Services.BulkUpdateAgent
   - linkId: SuperOffice.CRM.Services.IBulkUpdateAgent
     commentId: T:SuperOffice.CRM.Services.IBulkUpdateAgent
   inheritance:
@@ -375,15 +373,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent
-  commentId: T:SuperOffice.CRM.Services.BulkUpdateAgent
-  isExternal: true
-  name: BulkUpdateAgent
-  nameWithType: BulkUpdateAgent
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent
   commentId: T:SuperOffice.CRM.Services.IBulkUpdateAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IBulkUpdateAgent
   nameWithType: IBulkUpdateAgent

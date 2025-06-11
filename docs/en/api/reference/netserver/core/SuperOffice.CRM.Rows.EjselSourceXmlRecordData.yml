@@ -34,7 +34,7 @@ items:
   - SuperOffice.CRM.Rows.EjselSourceXmlRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.EjselSourceXmlRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EjselSourceXmlRecordData)
   - SuperOffice.CRM.Rows.EjselSourceXmlRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.EjselSourceXmlRecordData.SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.EjselSourceXmlRecordData.SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EjselSourceXmlRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -247,34 +247,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordData.SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceXmlRecordData)
+- uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordData.SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceXmlRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceXmlRecordData)
-  name: ToInsert()
-  nameWithType: EjselSourceXmlRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceXmlRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: EjselSourceXmlRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: EjselSourceXmlRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EjselSourceXmlRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: EjselSourceXmlRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EjselSourceXmlRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -460,17 +470,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceXmlRecordData)
-  commentId: M:SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceXmlRecordData)
+- uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceXmlRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceXmlRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(EjselSourceXmlRecordData)
-  nameWithType: EjselSourceXmlRecordDataExtensions.ToInsert(EjselSourceXmlRecordData)
-  fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceXmlRecordData)
+  name: ToInsertAsync(EjselSourceXmlRecordData, CancellationToken)
+  nameWithType: EjselSourceXmlRecordDataExtensions.ToInsertAsync(EjselSourceXmlRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceXmlRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceXmlRecordData)
-    name: ToInsert
-    nameWithType: EjselSourceXmlRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceXmlRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EjselSourceXmlRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -479,15 +489,23 @@ references:
     name: EjselSourceXmlRecordData
     nameWithType: EjselSourceXmlRecordData
     fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceXmlRecordData)
-    name: ToInsert
-    nameWithType: EjselSourceXmlRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceXmlRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: EjselSourceXmlRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -496,6 +514,14 @@ references:
     name: EjselSourceXmlRecordData
     nameWithType: EjselSourceXmlRecordData
     fullName: SuperOffice.CRM.Rows.EjselSourceXmlRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

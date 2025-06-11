@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.ScopedSystemEvent.#ctor(SuperOffice.CRM.Rows.SystemEventRow,System.Boolean)
-  - SuperOffice.Data.ScopedSystemEvent.Dispose
+  - SuperOffice.Data.ScopedSystemEvent.DisposeAsync
   - SuperOffice.Data.ScopedSystemEvent.IsNew
   - SuperOffice.Data.ScopedSystemEvent.OnDispose
   - SuperOffice.Data.ScopedSystemEvent.Row
@@ -24,15 +24,15 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: 'public class ScopedSystemEvent : Object, IDisposable'
+    content: 'public class ScopedSystemEvent : Object, IAsyncDisposable'
     content.vb: >-
       Public Class ScopedSystemEvent
           Inherits Object
-          Implements IDisposable
+          Implements IAsyncDisposable
   inheritance:
   - System.Object
   implements:
-  - System.IDisposable
+  - System.IAsyncDisposable
   extensionMethods:
   - SuperOffice.Data.ScopedSystemEvent.EnumUtil.MapEnums``2
   - SuperOffice.Data.ScopedSystemEvent.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -72,16 +72,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.ScopedSystemEvent.Dispose
-  commentId: M:SuperOffice.Data.ScopedSystemEvent.Dispose
-  id: Dispose
+- uid: SuperOffice.Data.ScopedSystemEvent.DisposeAsync
+  commentId: M:SuperOffice.Data.ScopedSystemEvent.DisposeAsync
+  id: DisposeAsync
   parent: SuperOffice.Data.ScopedSystemEvent
   langs:
   - csharp
   - vb
-  name: Dispose()
-  nameWithType: ScopedSystemEvent.Dispose()
-  fullName: SuperOffice.Data.ScopedSystemEvent.Dispose()
+  name: DisposeAsync()
+  nameWithType: ScopedSystemEvent.DisposeAsync()
+  fullName: SuperOffice.Data.ScopedSystemEvent.DisposeAsync()
   type: Method
   source:
     path: SoDataBase
@@ -90,9 +90,11 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public void Dispose()
-    content.vb: Public Sub Dispose
-  overload: SuperOffice.Data.ScopedSystemEvent.Dispose*
+    content: public ValueTask DisposeAsync()
+    return:
+      type: System.Threading.Tasks.ValueTask
+    content.vb: Public Function DisposeAsync As ValueTask
+  overload: SuperOffice.Data.ScopedSystemEvent.DisposeAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -203,11 +205,11 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.IDisposable
+- uid: System.IAsyncDisposable
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  name: IAsyncDisposable
+  nameWithType: IAsyncDisposable
+  fullName: System.IAsyncDisposable
 - uid: SuperOffice.Data.ScopedSystemEvent.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -405,12 +407,17 @@ references:
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.Data.ScopedSystemEvent.Dispose*
-  commentId: Overload:SuperOffice.Data.ScopedSystemEvent.Dispose
+- uid: SuperOffice.Data.ScopedSystemEvent.DisposeAsync*
+  commentId: Overload:SuperOffice.Data.ScopedSystemEvent.DisposeAsync
   isExternal: true
-  name: Dispose
-  nameWithType: ScopedSystemEvent.Dispose
-  fullName: SuperOffice.Data.ScopedSystemEvent.Dispose
+  name: DisposeAsync
+  nameWithType: ScopedSystemEvent.DisposeAsync
+  fullName: SuperOffice.Data.ScopedSystemEvent.DisposeAsync
+- uid: System.Threading.Tasks.ValueTask
+  isExternal: true
+  name: ValueTask
+  nameWithType: ValueTask
+  fullName: System.Threading.Tasks.ValueTask
 - uid: SuperOffice.Data.ScopedSystemEvent.Row*
   commentId: Overload:SuperOffice.Data.ScopedSystemEvent.Row
   isExternal: true

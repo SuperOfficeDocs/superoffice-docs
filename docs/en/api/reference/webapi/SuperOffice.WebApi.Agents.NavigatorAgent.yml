@@ -9,7 +9,6 @@ items:
   - SuperOffice.WebApi.Agents.NavigatorAgent.#ctor(System.Net.Http.HttpClient)
   - SuperOffice.WebApi.Agents.NavigatorAgent.GetAllNavigatorCompanyAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.NavigatorAgent.GetNavigatorCompaniesAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.NavigatorAgent.GetNavigatorCompanyAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.NavigatorAgent.GetNavigatorCompanyListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -54,7 +53,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.Dispose
@@ -129,44 +128,6 @@ items:
       description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.NavigatorAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.WebApi.Agents.NavigatorAgent.GetNavigatorCompanyAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.NavigatorAgent.GetNavigatorCompanyAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  id: GetNavigatorCompanyAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.NavigatorAgent
-  langs:
-  - csharp
-  - vb
-  name: GetNavigatorCompanyAsync(Int32, RequestOptions)
-  nameWithType: NavigatorAgent.GetNavigatorCompanyAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.NavigatorAgent.GetNavigatorCompanyAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a specific NavigatorCompany object.                        \n"
-  syntax:
-    content: public Task<NavigatorCompany> GetNavigatorCompanyAsync(int navigatorCompanyId, RequestOptions requestOptions = null)
-    parameters:
-    - id: navigatorCompanyId
-      type: System.Int32
-      description: The identifier of the NavigatorCompany object
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NavigatorCompany}
-      description: NavigatorCompany
-    content.vb: Public Function GetNavigatorCompanyAsync(navigatorCompanyId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of NavigatorCompany)
-  overload: SuperOffice.WebApi.Agents.NavigatorAgent.GetNavigatorCompanyAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.INavigatorAgent.GetNavigatorCompanyAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1078,18 +1039,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  name: ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1111,10 +1072,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1323,164 +1284,6 @@ references:
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-- uid: SuperOffice.WebApi.Agents.NavigatorAgent.GetNavigatorCompanyAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.NavigatorAgent.GetNavigatorCompanyAsync
-  isExternal: true
-  name: GetNavigatorCompanyAsync
-  nameWithType: NavigatorAgent.GetNavigatorCompanyAsync
-  fullName: SuperOffice.WebApi.Agents.NavigatorAgent.GetNavigatorCompanyAsync
-- uid: SuperOffice.WebApi.Agents.INavigatorAgent.GetNavigatorCompanyAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.INavigatorAgent.GetNavigatorCompanyAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.INavigatorAgent
-  isExternal: true
-  name: GetNavigatorCompanyAsync(Int32, RequestOptions)
-  nameWithType: INavigatorAgent.GetNavigatorCompanyAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.INavigatorAgent.GetNavigatorCompanyAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.INavigatorAgent.GetNavigatorCompanyAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-    name: GetNavigatorCompanyAsync
-    nameWithType: INavigatorAgent.GetNavigatorCompanyAsync
-    fullName: SuperOffice.WebApi.Agents.INavigatorAgent.GetNavigatorCompanyAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.INavigatorAgent.GetNavigatorCompanyAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-    name: GetNavigatorCompanyAsync
-    nameWithType: INavigatorAgent.GetNavigatorCompanyAsync
-    fullName: SuperOffice.WebApi.Agents.INavigatorAgent.GetNavigatorCompanyAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.WebApi.RequestOptions
-  commentId: T:SuperOffice.WebApi.RequestOptions
-  parent: SuperOffice.WebApi
-  isExternal: true
-  name: RequestOptions
-  nameWithType: RequestOptions
-  fullName: SuperOffice.WebApi.RequestOptions
-- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NavigatorCompany}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NavigatorCompany}'
-  definition: System.Threading.Tasks.Task`1
-  name: Task<NavigatorCompany>
-  nameWithType: Task<NavigatorCompany>
-  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.NavigatorCompany>
-  nameWithType.vb: Task(Of NavigatorCompany)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.NavigatorCompany)
-  name.vb: Task(Of NavigatorCompany)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.NavigatorCompany
-    name: NavigatorCompany
-    nameWithType: NavigatorCompany
-    fullName: SuperOffice.WebApi.Data.NavigatorCompany
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.NavigatorCompany
-    name: NavigatorCompany
-    nameWithType: NavigatorCompany
-    fullName: SuperOffice.WebApi.Data.NavigatorCompany
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Threading.Tasks.Task`1
-  isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.NavigatorAgent.GetAllNavigatorCompanyAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.NavigatorAgent.GetAllNavigatorCompanyAsync
   isExternal: true
@@ -1528,6 +1331,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NavigatorCompany[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NavigatorCompany[]}'
   definition: System.Threading.Tasks.Task`1
@@ -1574,6 +1384,44 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

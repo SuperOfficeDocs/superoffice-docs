@@ -1,26 +1,26 @@
 ### YamlMime:ManagedReference
 items:
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEventResult
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowEventResult
   id: WorkflowEventResult
-  parent: SuperOffice.CRM.WorkFlow
+  parent: SuperOffice.CRM.Workflow
   children:
-  - SuperOffice.CRM.WorkFlow.WorkflowEventResult.#ctor
-  - SuperOffice.CRM.WorkFlow.WorkflowEventResult.Attributes
-  - SuperOffice.CRM.WorkFlow.WorkflowEventResult.EventType
+  - SuperOffice.CRM.Workflow.WorkflowEventResult.#ctor
+  - SuperOffice.CRM.Workflow.WorkflowEventResult.Attributes
+  - SuperOffice.CRM.Workflow.WorkflowEventResult.EventType
   langs:
   - csharp
   - vb
   name: WorkflowEventResult
   nameWithType: WorkflowEventResult
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  fullName: SuperOffice.CRM.Workflow.WorkflowEventResult
   type: Class
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: 'public class WorkflowEventResult : Object'
     content.vb: >-
@@ -29,33 +29,33 @@ items:
   inheritance:
   - System.Object
   extensionMethods:
-  - SuperOffice.CRM.WorkFlow.WorkflowEventResult.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.WorkFlow.WorkflowEventResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.WorkFlow.WorkflowEventResult)
-  - SuperOffice.CRM.WorkFlow.WorkflowEventResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.WorkFlow.WorkflowEventResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowEventResult.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowEventResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowEventResult)
+  - SuperOffice.CRM.Workflow.WorkflowEventResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Workflow.WorkflowEventResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult.EventType
-  commentId: F:SuperOffice.CRM.WorkFlow.WorkflowEventResult.EventType
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult.EventType
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowEventResult.EventType
   id: EventType
-  parent: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  parent: SuperOffice.CRM.Workflow.WorkflowEventResult
   langs:
   - csharp
   - vb
   name: EventType
   nameWithType: WorkflowEventResult.EventType
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult.EventType
+  fullName: SuperOffice.CRM.Workflow.WorkflowEventResult.EventType
   type: Field
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: public WorkflowEventType EventType
     return:
@@ -65,23 +65,23 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult.Attributes
-  commentId: F:SuperOffice.CRM.WorkFlow.WorkflowEventResult.Attributes
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult.Attributes
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowEventResult.Attributes
   id: Attributes
-  parent: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  parent: SuperOffice.CRM.Workflow.WorkflowEventResult
   langs:
   - csharp
   - vb
   name: Attributes
   nameWithType: WorkflowEventResult.Attributes
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult.Attributes
+  fullName: SuperOffice.CRM.Workflow.WorkflowEventResult.Attributes
   type: Field
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: public string Attributes
     return:
@@ -91,38 +91,38 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult.#ctor
-  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEventResult.#ctor
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult.#ctor
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowEventResult.#ctor
   id: '#ctor'
-  parent: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  parent: SuperOffice.CRM.Workflow.WorkflowEventResult
   langs:
   - csharp
   - vb
   name: WorkflowEventResult()
   nameWithType: WorkflowEventResult.WorkflowEventResult()
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult.WorkflowEventResult()
+  fullName: SuperOffice.CRM.Workflow.WorkflowEventResult.WorkflowEventResult()
   type: Constructor
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: public WorkflowEventResult()
     content.vb: Public Sub New
-  overload: SuperOffice.CRM.WorkFlow.WorkflowEventResult.#ctor*
+  overload: SuperOffice.CRM.Workflow.WorkflowEventResult.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
 references:
-- uid: SuperOffice.CRM.WorkFlow
-  commentId: N:SuperOffice.CRM.WorkFlow
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
   isExternal: true
-  name: SuperOffice.CRM.WorkFlow
-  nameWithType: SuperOffice.CRM.WorkFlow
-  fullName: SuperOffice.CRM.WorkFlow
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -130,21 +130,21 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult.EnumUtil.MapEnums``2
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
   name: MapEnums<WorkflowEventResult, To>()
   nameWithType: EnumUtil.MapEnums<WorkflowEventResult, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowEventResult, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowEventResult, To>()
   nameWithType.vb: EnumUtil.MapEnums(Of WorkflowEventResult, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowEventResult, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowEventResult, To)()
   name.vb: MapEnums(Of WorkflowEventResult, To)()
   spec.csharp:
   - uid: EnumUtil.MapEnums``2
     name: MapEnums<WorkflowEventResult, To>
     nameWithType: EnumUtil.MapEnums<WorkflowEventResult, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowEventResult, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowEventResult, To>
     isExternal: true
   - name: (
     nameWithType: (
@@ -156,7 +156,7 @@ references:
   - uid: EnumUtil.MapEnums``2
     name: MapEnums(Of WorkflowEventResult, To)
     nameWithType: EnumUtil.MapEnums(Of WorkflowEventResult, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowEventResult, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowEventResult, To)
     isExternal: true
   - name: (
     nameWithType: (
@@ -164,29 +164,29 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.WorkFlow.WorkflowEventResult)
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowEventResult)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   name: AssignByReflection<WorkflowEventResult>(WorkflowEventResult)
   nameWithType: ObjectExtensions.AssignByReflection<WorkflowEventResult>(WorkflowEventResult)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.WorkFlow.WorkflowEventResult>(SuperOffice.CRM.WorkFlow.WorkflowEventResult)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.WorkflowEventResult>(SuperOffice.CRM.Workflow.WorkflowEventResult)
   nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowEventResult)(WorkflowEventResult)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.WorkFlow.WorkflowEventResult)(SuperOffice.CRM.WorkFlow.WorkflowEventResult)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.WorkflowEventResult)(SuperOffice.CRM.Workflow.WorkflowEventResult)
   name.vb: AssignByReflection(Of WorkflowEventResult)(WorkflowEventResult)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
     name: AssignByReflection<WorkflowEventResult>
     nameWithType: ObjectExtensions.AssignByReflection<WorkflowEventResult>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.WorkFlow.WorkflowEventResult>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.WorkflowEventResult>
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  - uid: SuperOffice.CRM.Workflow.WorkflowEventResult
     name: WorkflowEventResult
     nameWithType: WorkflowEventResult
-    fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+    fullName: SuperOffice.CRM.Workflow.WorkflowEventResult
     isExternal: true
   - name: )
     nameWithType: )
@@ -195,34 +195,34 @@ references:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
     name: AssignByReflection(Of WorkflowEventResult)
     nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowEventResult)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.WorkFlow.WorkflowEventResult)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.WorkflowEventResult)
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  - uid: SuperOffice.CRM.Workflow.WorkflowEventResult
     name: WorkflowEventResult
     nameWithType: WorkflowEventResult
-    fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+    fullName: SuperOffice.CRM.Workflow.WorkflowEventResult
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   name: GraphCopy<WorkflowEventResult>()
   nameWithType: ObjectExtensions.GraphCopy<WorkflowEventResult>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.WorkFlow.WorkflowEventResult>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.WorkflowEventResult>()
   nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowEventResult)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.WorkFlow.WorkflowEventResult)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.WorkflowEventResult)()
   name.vb: GraphCopy(Of WorkflowEventResult)()
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
     name: GraphCopy<WorkflowEventResult>
     nameWithType: ObjectExtensions.GraphCopy<WorkflowEventResult>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.WorkFlow.WorkflowEventResult>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.WorkflowEventResult>
     isExternal: true
   - name: (
     nameWithType: (
@@ -234,7 +234,7 @@ references:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
     name: GraphCopy(Of WorkflowEventResult)
     nameWithType: ObjectExtensions.GraphCopy(Of WorkflowEventResult)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.WorkFlow.WorkflowEventResult)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.WorkflowEventResult)
     isExternal: true
   - name: (
     nameWithType: (
@@ -242,21 +242,21 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   name: MapEnums<WorkflowEventResult, To>()
   nameWithType: Converters.MapEnums<WorkflowEventResult, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowEventResult, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowEventResult, To>()
   nameWithType.vb: Converters.MapEnums(Of WorkflowEventResult, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowEventResult, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowEventResult, To)()
   name.vb: MapEnums(Of WorkflowEventResult, To)()
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
     name: MapEnums<WorkflowEventResult, To>
     nameWithType: Converters.MapEnums<WorkflowEventResult, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowEventResult, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowEventResult, To>
     isExternal: true
   - name: (
     nameWithType: (
@@ -268,7 +268,7 @@ references:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
     name: MapEnums(Of WorkflowEventResult, To)
     nameWithType: Converters.MapEnums(Of WorkflowEventResult, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowEventResult, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowEventResult, To)
     isExternal: true
   - name: (
     nameWithType: (
@@ -502,9 +502,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult.#ctor*
-  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEventResult.#ctor
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowEventResult.#ctor
   isExternal: true
   name: WorkflowEventResult
   nameWithType: WorkflowEventResult.WorkflowEventResult
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult.WorkflowEventResult
+  fullName: SuperOffice.CRM.Workflow.WorkflowEventResult.WorkflowEventResult

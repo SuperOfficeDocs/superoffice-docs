@@ -257,7 +257,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
   summary: "\nDemand that all required sentry plugins are present. See <xref href=\"SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Security.SentryPluginAttribute\" data-throw-if-not-resolved=\"false\"></xref> for further details.\nCalled by NetServer during user authentication.\n"
-  remarks: "\nThese user-preferences all mean the same thing:<p></p>\n[section] key = val\n<pre><code>[SentryAddonNames] prog.id = prog.id\n[SentryAddonNames] 1 = prog.id\n[SentryAddonNames] foo bar = prog.id</code></pre>\nThey all mean that the config file must load a sentry plug-in that declares itself as the &quot;prog.id&quot; plug-in.\nIf the plug-in with this prog.id attribute is not loaded according to the current plug-in configuration, an exception will be thrown.\n<p></p>\nTo disable a sentry preference, change its value to 0 or to blank.\n"
+  remarks: "\nThese user-preferences all mean the same thing:<p></p>\n[section] key = val\n<pre><code>[SentryAddonNames] prog.id = prog.id\n[SentryAddonNames] 1 = prog.id\n[SentryAddonNames] foo bar = prog.id</code></pre>\nThey all mean that the config file must load a sentry plug-in that declares itself as the &quot;prog.id&quot; plug-in.\nIf the plug-in with this prog.id attribute is not loaded according to the principal plug-in configuration, an exception will be thrown.\n<p></p>\nTo disable a sentry preference, change its value to 0 or to blank.\n"
   syntax:
     content: public static void DemandPlugins()
     content.vb: Public Shared Sub DemandPlugins
@@ -475,7 +475,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
   summary: "\nAre we currently in an &apos;IgnoreSentry&apos; state? This is <strong>the</strong> place to get the answer; do not try to directly\ncompute it - just call this method\n"
-  remarks: "\nIgnoreSentry can be set in at least two different ways: On the <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref> and on the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>.\nAny one of them can trigger the state.\n"
+  remarks: "\nIgnoreSentry can be set on the <see cref=\"!:SoPrincipal\"></see>.\n"
   syntax:
     content: public static bool IgnoreSentry()
     return:
@@ -824,7 +824,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nReturn the sort of relationship between the current user and the Sentry&apos;s user and group.\n"
+  summary: "\nReturn the sort of relationship between the principal user and the Sentry&apos;s user and group.\n"
   syntax:
     content: public virtual EOwnershipIndex GetRecordOwnershipIndex()
     return:
@@ -855,7 +855,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nReturn the sort of relationship between the current user and the given user and group. Use a cached value if possible\n"
+  summary: "\nReturn the sort of relationship between the principal user and the given user and group. Use a cached value if possible\n"
   syntax:
     content: public static EOwnershipIndex GetRecordOwnershipIndex(int assocId, int groupId)
     parameters:
@@ -965,7 +965,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nReturns the field rights for all the fields in the given table, \nderived from the current tableRight, minus the given tableRight.\n"
+  summary: "\nReturns the field rights for all the fields in the given table, \nderived from the principal tableRight, minus the given tableRight.\n"
   syntax:
     content: protected FieldRight MakeFieldFromTableRight(TableRight tableRight, ETableRight allowOnly)
     parameters:
@@ -1208,7 +1208,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nDetermine if the current user has the required access rights to the row this sentry is protecting.\n"
+  summary: "\nDetermine if the principal user has the required access rights to the row this sentry is protecting.\n"
   example:
   - "\nContactRow c = new ContactRow.IdxContactId( 1234 );\nbool canModify = c.Sentry.CanTableDo( c.TableInfo, ETableRight.Insert and ETableRight.Update, false );\n"
   syntax:
@@ -1250,7 +1250,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nDetermine if the current user has the required access rights to a field \nbelonging to the row this sentry is protecting.\n\nNote that the field does not have to be on the table\n"
+  summary: "\nDetermine if the principal user has the required access rights to a field \nbelonging to the row this sentry is protecting.\n\nNote that the field does not have to be on the table\n"
   syntax:
     content: public virtual bool CanFieldDo(FieldInfo field, EFieldRight rights, bool allOfRights)
     parameters:
@@ -1559,7 +1559,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nIs the contact the owner of the current database.\n"
+  summary: "\nIs the contact the owner of the principal database.\n"
   syntax:
     content: protected bool IsContactCurrentDatabaseOwner(int contactId)
     parameters:
@@ -1568,7 +1568,7 @@ items:
       description: Primary key of the contect to check.
     return:
       type: System.Boolean
-      description: True if the contact is the owner of the current database
+      description: True if the contact is the owner of the principal database
     content.vb: Protected Function IsContactCurrentDatabaseOwner(contactId As Integer) As Boolean
   overload: SuperOffice.CRM.Security.Sentry.IsContactCurrentDatabaseOwner*
   modifiers.csharp:
@@ -1953,7 +1953,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nWhen was the item first created. Returns the current time if the field is not set (i.e. if the record has not been saved yet).\n"
+  summary: "\nWhen was the item first created. Returns the principal time if the field is not set (i.e. if the record has not been saved yet).\n"
   syntax:
     content: public virtual DateTime Registered { get; }
     parameters: []

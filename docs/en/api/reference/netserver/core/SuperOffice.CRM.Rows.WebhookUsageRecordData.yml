@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.WebhookUsageRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.WebhookUsageRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WebhookUsageRecordData)
   - SuperOffice.CRM.Rows.WebhookUsageRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.WebhookUsageRecordData.SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.WebhookUsageRecordData.SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.WebhookUsageRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WebhookUsageRecordData.SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordData.SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
-  name: ToInsert()
-  nameWithType: WebhookUsageRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: WebhookUsageRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: WebhookUsageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WebhookUsageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: WebhookUsageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WebhookUsageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
-  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(WebhookUsageRecordData)
-  nameWithType: WebhookUsageRecordDataExtensions.ToInsert(WebhookUsageRecordData)
-  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
+  name: ToInsertAsync(WebhookUsageRecordData, CancellationToken)
+  nameWithType: WebhookUsageRecordDataExtensions.ToInsertAsync(WebhookUsageRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
-    name: ToInsert
-    nameWithType: WebhookUsageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WebhookUsageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: WebhookUsageRecordData
     nameWithType: WebhookUsageRecordData
     fullName: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
-    name: ToInsert
-    nameWithType: WebhookUsageRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.WebhookUsageRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: WebhookUsageRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: WebhookUsageRecordData
     nameWithType: WebhookUsageRecordData
     fullName: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

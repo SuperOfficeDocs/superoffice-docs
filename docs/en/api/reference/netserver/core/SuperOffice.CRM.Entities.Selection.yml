@@ -24,14 +24,15 @@ items:
   - SuperOffice.CRM.Entities.Selection.CreatedAssociate
   - SuperOffice.CRM.Entities.Selection.CreateNew
   - SuperOffice.CRM.Entities.Selection.CreateNew(SuperOffice.CRM.Entities.Selection.SelectionIdxBase)
-  - SuperOffice.CRM.Entities.Selection.Delete
+  - SuperOffice.CRM.Entities.Selection.DeleteAsync
   - SuperOffice.CRM.Entities.Selection.ForceEntityUpdate
   - SuperOffice.CRM.Entities.Selection.FromSelectionRow(SuperOffice.CRM.Rows.SelectionRow)
   - SuperOffice.CRM.Entities.Selection.FromSelectionRow(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Entities.Selection.SelectionIdxBase)
-  - SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-  - SuperOffice.CRM.Entities.Selection.GetFromCustomSearch(SuperOffice.CRM.Entities.Selection.CustomSearch)
-  - SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionId(System.Int32)
-  - SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  - SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Selection.GetFromCustomSearchAsync(SuperOffice.CRM.Entities.Selection.CustomSearch,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Selection.GetSelectionMembersAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.Selection.IncludePerson
   - SuperOffice.CRM.Entities.Selection.IsDeleted
   - SuperOffice.CRM.Entities.Selection.IsMarkedForDelete
@@ -41,9 +42,9 @@ items:
   - SuperOffice.CRM.Entities.Selection.MainRow
   - SuperOffice.CRM.Entities.Selection.MemberCount
   - SuperOffice.CRM.Entities.Selection.Name
-  - SuperOffice.CRM.Entities.Selection.OnIdUpdate
+  - SuperOffice.CRM.Entities.Selection.OnIdUpdateAsync
   - SuperOffice.CRM.Entities.Selection.OnPostSaveMe
-  - SuperOffice.CRM.Entities.Selection.OnPreIdUpdate
+  - SuperOffice.CRM.Entities.Selection.OnPreIdUpdateAsync
   - SuperOffice.CRM.Entities.Selection.OnPreSaveMe
   - SuperOffice.CRM.Entities.Selection.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
   - SuperOffice.CRM.Entities.Selection.OnRowLoaded
@@ -53,11 +54,10 @@ items:
   - SuperOffice.CRM.Entities.Selection.SearchCategory
   - SuperOffice.CRM.Entities.Selection.SelectionId
   - SuperOffice.CRM.Entities.Selection.SelectionInfo
-  - SuperOffice.CRM.Entities.Selection.SelectionMembers
   - SuperOffice.CRM.Entities.Selection.SelectionText
   - SuperOffice.CRM.Entities.Selection.Seltype
-  - SuperOffice.CRM.Entities.Selection.SetDefaults
-  - SuperOffice.CRM.Entities.Selection.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Selection.SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Selection.SetDefaultsAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.Selection.SoundEx
   - SuperOffice.CRM.Entities.Selection.Source
   - SuperOffice.CRM.Entities.Selection.SystemType
@@ -66,7 +66,7 @@ items:
   - SuperOffice.CRM.Entities.Selection.UpdatedAssociate
   - SuperOffice.CRM.Entities.Selection.UpdatedCount
   - SuperOffice.CRM.Entities.Selection.UserGroup
-  - SuperOffice.CRM.Entities.Selection.Validate
+  - SuperOffice.CRM.Entities.Selection.ValidateAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.Selection.Visibility
   - SuperOffice.CRM.Entities.Selection.VisibleForHelper
   langs:
@@ -83,34 +83,33 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   summary: "\n<p>Selection tab  </p>\nEntity Object for table &apos;selection&apos;. Entity objects represent full entities with both the base table object and all\nrelated objects, such as visiblefor,  and things like\nowner associate and whatever else is logically related to the base object.\n"
-  remarks: "\nEntity objects can be created in several ways. \n<ul><li>Use the static <xref href=\"SuperOffice.CRM.Entities.Selection.CreateNew\" data-throw-if-not-resolved=\"false\"></xref> method to create a new, empty object. After populating it with values,\nyou call the <see cref=\"!:SuperOffice.CRM.Data.Selection.Save\"></see> method and corresponding row(s) in the database are created, and the objects&apos; primary key field updated.\nThis is the preferred way to <strong>insert new entities</strong> into the database.</li><li>You can create a (nested) Selection <xref href=\"SuperOffice.CRM.Entities.Selection.CustomSearch\" data-throw-if-not-resolved=\"false\"></xref> object to obtain a query pre-populated with\nthe correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <xref href=\"SuperOffice.CRM.Entities.Selection.GetFromCustomSearch(SuperOffice.CRM.Entities.Selection.CustomSearch)\" data-throw-if-not-resolved=\"false\"></xref> method\nto apply the query to the database and obtain the result as an Entity object. This is how you <strong>select existing entities</strong> from the database when\nyou have a query that does not correspond to any of the existing database indexes.</li><li>For each unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy. \nNote that if you try to fetch a row that does not exist (for instance, by using the primary key index and specifying a primary key that does\nnot exist in the database), you will get a Row object with the <see cref=\"!:SuperOffice.CRM.Data.Selection.IsNew\"></see> and \n<see cref=\"!:SuperOffice.CRM.Data.Selection.IsDirty\"></see> properties set to true. Such an Entity object is called a &apos;ghost&apos; and\ncannot be updated, saved or deleted. You can also get a ghost if the row does exist in the database, but the Sentry system denies Select\nrights to the row.</li></ul>\nNon-unique indexes are handled through the <xref href=\"SuperOffice.CRM.Entities.SelectionCollection\" data-throw-if-not-resolved=\"false\"></xref> collection,\nwhich has nested classes and GetFromIdx methods for each non-unique index. There are no &apos;GetFromReader&apos; methods, since that would be rather complex (multiple TableInfo objects required).\n<p></p>Unique indexes on Selection are: <table><thead><tr><th>Index fields</th><th>Nested index class name</th></tr></thead><tbody><tr><td>SelectionId</td><td>SelectionId: <p>Primary key  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.Selection.IdxSelectionId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr></tbody></table>Non-unique indexes on table Selection are: <table><thead><tr><th>Index fields</th><th>Nested index class name</th></tr></thead><tbody><tr><td>Name</td><td>Name: <p>Selection name, freetext indexed  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.IdxName\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.GetFromIdxName(System.String)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>AssociateId</td><td>AssociateId: <p>Can also represent other types of owner  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.IdxAssociateId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.GetFromIdxAssociateId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>SoundEx</td><td>SoundEx: <p>What the name sounds like, for duplicate detection  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.IdxSoundEx\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.GetFromIdxSoundEx(System.String)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>GroupIdx</td><td>GroupIdx: <p>Link to group  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.IdxGroupIdx\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.GetFromIdxGroupIdx(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>Source</td><td>Source: <p>How did we get this selection? For future integration needs  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.IdxSource\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.GetFromIdxSource(System.Int16)\" data-throw-if-not-resolved=\"false\"></xref></td></tr></tbody></table>\n<p></p>\n"
+  remarks: "\nEntity objects can be created in several ways. \n<ul><li>Use the static <xref href=\"SuperOffice.CRM.Entities.Selection.CreateNew\" data-throw-if-not-resolved=\"false\"></xref> method to create a new, empty object. After populating it with values,\nyou call the <see cref=\"!:SuperOffice.CRM.Data.Selection.Save\"></see> method and corresponding row(s) in the database are created, and the objects&apos; primary key field updated.\nThis is the preferred way to <strong>insert new entities</strong> into the database.</li><li>You can create a (nested) Selection <xref href=\"SuperOffice.CRM.Entities.Selection.CustomSearch\" data-throw-if-not-resolved=\"false\"></xref> object to obtain a query pre-populated with\nthe correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <xref href=\"SuperOffice.CRM.Entities.Selection.GetFromCustomSearchAsync(SuperOffice.CRM.Entities.Selection.CustomSearch%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref> method\nto apply the query to the database and obtain the result as an Entity object. This is how you <strong>select existing entities</strong> from the database when\nyou have a query that does not correspond to any of the existing database indexes.</li><li>For each unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy. \nNote that if you try to fetch a row that does not exist (for instance, by using the primary key index and specifying a primary key that does\nnot exist in the database), you will get a Row object with the <see cref=\"!:SuperOffice.CRM.Data.Selection.IsNew\"></see> and \n<see cref=\"!:SuperOffice.CRM.Data.Selection.IsDirty\"></see> properties set to true. Such an Entity object is called a &apos;ghost&apos; and\ncannot be updated, saved or deleted. You can also get a ghost if the row does exist in the database, but the Sentry system denies Select\nrights to the row.</li></ul>\nNon-unique indexes are handled through the <xref href=\"SuperOffice.CRM.Entities.SelectionCollection\" data-throw-if-not-resolved=\"false\"></xref> collection,\nwhich has nested classes and GetFromIdx methods for each non-unique index. There are no &apos;GetFromReader&apos; methods, since that would be rather complex (multiple TableInfo objects required).\n<p></p>Unique indexes on Selection are: <table><thead><tr><th>Index fields</th><th>Nested index class name</th></tr></thead><tbody><tr><td>SelectionId</td><td>SelectionId: <p>Primary key  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.Selection.IdxSelectionId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionIdAsync(System.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr></tbody></table>Non-unique indexes on table Selection are: <table><thead><tr><th>Index fields</th><th>Nested index class name</th></tr></thead><tbody><tr><td>Name</td><td>Name: <p>Selection name, freetext indexed  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.IdxName\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.SelectionCollection.GetFromIdxName\"></see></td></tr><tr><td>AssociateId</td><td>AssociateId: <p>Can also represent other types of owner  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.IdxAssociateId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.SelectionCollection.GetFromIdxAssociateId\"></see></td></tr><tr><td>SoundEx</td><td>SoundEx: <p>What the name sounds like, for duplicate detection  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.IdxSoundEx\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.SelectionCollection.GetFromIdxSoundEx\"></see></td></tr><tr><td>GroupIdx</td><td>GroupIdx: <p>Link to group  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.IdxGroupIdx\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.SelectionCollection.GetFromIdxGroupIdx\"></see></td></tr><tr><td>Source</td><td>Source: <p>How did we get this selection? For future integration needs  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.SelectionCollection.IdxSource\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.SelectionCollection.GetFromIdxSource\"></see></td></tr></tbody></table>\n<p></p>\n"
   syntax:
-    content: 'public class Selection : EntityBase, INestedPersist, ISoItem, ITableRowLoadHandler'
+    content: 'public class Selection : EntityBase, INestedPersist, ITableRowLoadHandler'
     content.vb: >-
       Public Class Selection
           Inherits EntityBase
-          Implements INestedPersist, ISoItem, ITableRowLoadHandler
+          Implements INestedPersist, ITableRowLoadHandler
   inheritance:
   - System.Object
   - SuperOffice.Data.NestedPersist
   - SuperOffice.CRM.Entities.EntityBase
   implements:
   - SuperOffice.Data.INestedPersist
-  - SuperOffice.Data.ISoItem
   - SuperOffice.CRM.Rows.ITableRowLoadHandler
   inheritedMembers:
   - SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
-  - SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  - SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
   - SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
-  - SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
+  - SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.CRM.Entities.EntityBase.OnSavedAsync(System.Boolean)
   - SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
   - SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
   - SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
-  - SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+  - SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementationAsync
   - SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
   - SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance``1(SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Entities.EntityBase.IsDirty
@@ -118,13 +117,13 @@ items:
   - SuperOffice.Data.NestedPersist._saveOwner
   - SuperOffice.Data.NestedPersist._isSaving
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
-  - SuperOffice.Data.NestedPersist.Save
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.SaveAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
@@ -591,16 +590,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Selection.GetFromCustomSearch(SuperOffice.CRM.Entities.Selection.CustomSearch)
-  commentId: M:SuperOffice.CRM.Entities.Selection.GetFromCustomSearch(SuperOffice.CRM.Entities.Selection.CustomSearch)
-  id: GetFromCustomSearch(SuperOffice.CRM.Entities.Selection.CustomSearch)
+- uid: SuperOffice.CRM.Entities.Selection.GetFromCustomSearchAsync(SuperOffice.CRM.Entities.Selection.CustomSearch,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Selection.GetFromCustomSearchAsync(SuperOffice.CRM.Entities.Selection.CustomSearch,System.Threading.CancellationToken)
+  id: GetFromCustomSearchAsync(SuperOffice.CRM.Entities.Selection.CustomSearch,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Selection
   langs:
   - csharp
   - vb
-  name: GetFromCustomSearch(Selection.CustomSearch)
-  nameWithType: Selection.GetFromCustomSearch(Selection.CustomSearch)
-  fullName: SuperOffice.CRM.Entities.Selection.GetFromCustomSearch(SuperOffice.CRM.Entities.Selection.CustomSearch)
+  name: GetFromCustomSearchAsync(Selection.CustomSearch, CancellationToken)
+  nameWithType: Selection.GetFromCustomSearchAsync(Selection.CustomSearch, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Selection.GetFromCustomSearchAsync(SuperOffice.CRM.Entities.Selection.CustomSearch, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -610,32 +609,34 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nCreate a new instance of the Selection object, and populate it with data from a custom search.\nIf the search returns no results, an empty entity will be returned; if the result contains\nrows, one Selection object representing the first row will be returned. Any\nfurther rows in the result will be ignored.\n"
   syntax:
-    content: public static Selection GetFromCustomSearch(Selection.CustomSearch query)
+    content: public static Task<Selection> GetFromCustomSearchAsync(Selection.CustomSearch query, CancellationToken cancellationToken = null)
     parameters:
     - id: query
       type: SuperOffice.CRM.Entities.Selection.CustomSearch
       description: The custom search to execute against the database
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.Selection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.Selection}
       description: A new instance of the Selection object, reflecting the result of the query.
-    content.vb: Public Shared Function GetFromCustomSearch(query As Selection.CustomSearch) As Selection
-  overload: SuperOffice.CRM.Entities.Selection.GetFromCustomSearch*
+    content.vb: Public Shared Function GetFromCustomSearchAsync(query As Selection.CustomSearch, cancellationToken As CancellationToken = Nothing) As Task(Of Selection)
+  overload: SuperOffice.CRM.Entities.Selection.GetFromCustomSearchAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionId(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionId(System.Int32)
-  id: GetFromIdxSelectionId(System.Int32)
+- uid: SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxSelectionIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Selection
   langs:
   - csharp
   - vb
-  name: GetFromIdxSelectionId(Int32)
-  nameWithType: Selection.GetFromIdxSelectionId(Int32)
-  fullName: SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionId(System.Int32)
+  name: GetFromIdxSelectionIdAsync(Int32, CancellationToken)
+  nameWithType: Selection.GetFromIdxSelectionIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -646,16 +647,18 @@ items:
   summary: "\nCreate a new instance of the Selection object, by querying the database table via the index &apos;IDXSelId&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the Selection table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Entities.SelectionCollection\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static Selection GetFromIdxSelectionId(int selectionId)
+    content: public static Task<Selection> GetFromIdxSelectionIdAsync(int selectionId, CancellationToken cancellationToken = null)
     parameters:
     - id: selectionId
       type: System.Int32
       description: <p>Primary key  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.Selection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.Selection}
       description: "Row object that represents the result of the search. <xref href=\"SuperOffice.CRM.Entities.Selection.IsNew\" data-throw-if-not-resolved=\"false\"></xref> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxSelectionId(selectionId As Integer) As Selection
-  overload: SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionId*
+    content.vb: Public Shared Function GetFromIdxSelectionIdAsync(selectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Selection)
+  overload: SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionIdAsync*
   modifiers.csharp:
   - public
   - static
@@ -725,16 +728,16 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Entities.Selection.SetDefaults
-  commentId: M:SuperOffice.CRM.Entities.Selection.SetDefaults
-  id: SetDefaults
+- uid: SuperOffice.CRM.Entities.Selection.SetDefaultsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Selection.SetDefaultsAsync(System.Threading.CancellationToken)
+  id: SetDefaultsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Selection
   langs:
   - csharp
   - vb
-  name: SetDefaults()
-  nameWithType: Selection.SetDefaults()
-  fullName: SuperOffice.CRM.Entities.Selection.SetDefaults()
+  name: SetDefaultsAsync(CancellationToken)
+  nameWithType: Selection.SetDefaultsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Selection.SetDefaultsAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -744,23 +747,28 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity.\n"
   syntax:
-    content: public void SetDefaults()
-    content.vb: Public Sub SetDefaults
-  overload: SuperOffice.CRM.Entities.Selection.SetDefaults*
+    content: public Task SetDefaultsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetDefaultsAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Selection.SetDefaultsAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.Selection.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Selection.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
+- uid: SuperOffice.CRM.Entities.Selection.SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Selection.SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Selection
   langs:
   - csharp
   - vb
-  name: SetDefaults(DefaulterStrategy)
-  nameWithType: Selection.SetDefaults(DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Selection.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(DefaulterStrategy, CancellationToken)
+  nameWithType: Selection.SetDefaultsAsync(DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Selection.SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -770,27 +778,62 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSet default values for the entity.\n"
   syntax:
-    content: public void SetDefaults(DefaulterStrategy strategy)
+    content: public Task SetDefaultsAsync(DefaulterStrategy strategy, CancellationToken cancellationToken = null)
     parameters:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Sub SetDefaults(strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Selection.SetDefaults*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetDefaultsAsync(strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Selection.SetDefaultsAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-  id: GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+- uid: SuperOffice.CRM.Entities.Selection.GetSelectionMembersAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Selection.GetSelectionMembersAsync(System.Threading.CancellationToken)
+  id: GetSelectionMembersAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Selection
   langs:
   - csharp
   - vb
-  name: GetRelatedNestedPersist(List<INestedPersist>, Boolean)
-  nameWithType: Selection.GetRelatedNestedPersist(List<INestedPersist>, Boolean)
-  fullName: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
+  name: GetSelectionMembersAsync(CancellationToken)
+  nameWithType: Selection.GetSelectionMembersAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Selection.GetSelectionMembersAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object SelectionMemberRows: Selection members\n"
+  syntax:
+    content: public Task<SelectionMemberRows> GetSelectionMembersAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SelectionMemberRows}
+    content.vb: Public Function GetSelectionMembersAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SelectionMemberRows)
+  overload: SuperOffice.CRM.Entities.Selection.GetSelectionMembersAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  id: GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.Selection
+  langs:
+  - csharp
+  - vb
+  name: GetRelatedNestedPersistAsync(List<INestedPersist>, Boolean, CancellationToken)
+  nameWithType: Selection.GetRelatedNestedPersistAsync(List<INestedPersist>, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersistAsync(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -800,35 +843,39 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nAppend all the related objects to a list of <xref href=\"SuperOffice.Data.INestedPersist\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: protected override void GetRelatedNestedPersist(List<INestedPersist> relatedObjects, bool lacyFetchIfNeeded)
+    content: protected override Task GetRelatedNestedPersistAsync(List<INestedPersist> relatedObjects, bool lacyFetchIfNeeded, CancellationToken cancellationToken = null)
     parameters:
     - id: relatedObjects
       type: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
       description: List to append related objects to.
     - id: lacyFetchIfNeeded
       type: System.Boolean
-    content.vb: Protected Overrides Sub GetRelatedNestedPersist(relatedObjects As List(Of INestedPersist), lacyFetchIfNeeded As Boolean)
-  overridden: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-  overload: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersist*
-  nameWithType.vb: Selection.GetRelatedNestedPersist(List(Of INestedPersist), Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function GetRelatedNestedPersistAsync(relatedObjects As List(Of INestedPersist), lacyFetchIfNeeded As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overridden: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersistAsync*
+  nameWithType.vb: Selection.GetRelatedNestedPersistAsync(List(Of INestedPersist), Boolean, CancellationToken)
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-  fullName.vb: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
-  name.vb: GetRelatedNestedPersist(List(Of INestedPersist), Boolean)
-- uid: SuperOffice.CRM.Entities.Selection.OnPreIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.Selection.OnPreIdUpdate
-  id: OnPreIdUpdate
+  fullName.vb: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersistAsync(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean, System.Threading.CancellationToken)
+  name.vb: GetRelatedNestedPersistAsync(List(Of INestedPersist), Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Entities.Selection.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.Selection.OnPreIdUpdateAsync
+  id: OnPreIdUpdateAsync
   parent: SuperOffice.CRM.Entities.Selection
   langs:
   - csharp
   - vb
-  name: OnPreIdUpdate()
-  nameWithType: Selection.OnPreIdUpdate()
-  fullName: SuperOffice.CRM.Entities.Selection.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: Selection.OnPreIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.Selection.OnPreIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -839,26 +886,28 @@ items:
   summary: "\nAllow for &quot;fake id&apos;s&quot; to be forced upon related objects.\n"
   remarks: "\nIn order to figure out which objects taking part of the nested save operation that \nactually needs to be saved, this method allows for &quot;fake id&apos;s&quot; to be \nforced upon related objects. Upon receiving the &quot;fake id&quot;, the \nobjects receiving such an id can determine if they needs to be persisted (e.g. \nsaved) to the database.  However, the fake id&apos;s forced upon related objects must \nbe set to correct id&apos;s in the OnIdUpdate method taking place later in the save \noperation.\n"
   syntax:
-    content: protected override void OnPreIdUpdate()
-    content.vb: Protected Overrides Sub OnPreIdUpdate
-  overridden: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
-  overload: SuperOffice.CRM.Entities.Selection.OnPreIdUpdate*
+    content: protected override Task OnPreIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnPreIdUpdateAsync As Task
+  overridden: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateAsync
+  overload: SuperOffice.CRM.Entities.Selection.OnPreIdUpdateAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Entities.Selection.OnIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.Selection.OnIdUpdate
-  id: OnIdUpdate
+- uid: SuperOffice.CRM.Entities.Selection.OnIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.Selection.OnIdUpdateAsync
+  id: OnIdUpdateAsync
   parent: SuperOffice.CRM.Entities.Selection
   langs:
   - csharp
   - vb
-  name: OnIdUpdate()
-  nameWithType: Selection.OnIdUpdate()
-  fullName: SuperOffice.CRM.Entities.Selection.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: Selection.OnIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.Selection.OnIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -868,26 +917,28 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nUpdate related objects with correct id&apos;s to make sure that relations are consistent \nbefore saving to the database.\n"
   syntax:
-    content: protected override void OnIdUpdate()
-    content.vb: Protected Overrides Sub OnIdUpdate
-  overridden: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
-  overload: SuperOffice.CRM.Entities.Selection.OnIdUpdate*
+    content: protected override Task OnIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnIdUpdateAsync As Task
+  overridden: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateAsync
+  overload: SuperOffice.CRM.Entities.Selection.OnIdUpdateAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Entities.Selection.Delete
-  commentId: M:SuperOffice.CRM.Entities.Selection.Delete
-  id: Delete
+- uid: SuperOffice.CRM.Entities.Selection.DeleteAsync
+  commentId: M:SuperOffice.CRM.Entities.Selection.DeleteAsync
+  id: DeleteAsync
   parent: SuperOffice.CRM.Entities.Selection
   langs:
   - csharp
   - vb
-  name: Delete()
-  nameWithType: Selection.Delete()
-  fullName: SuperOffice.CRM.Entities.Selection.Delete()
+  name: DeleteAsync()
+  nameWithType: Selection.DeleteAsync()
+  fullName: SuperOffice.CRM.Entities.Selection.DeleteAsync()
   type: Method
   source:
     path: SoDataBase
@@ -897,10 +948,12 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nDelete the row.\n"
   syntax:
-    content: public override void Delete()
-    content.vb: Public Overrides Sub Delete
-  overridden: SuperOffice.CRM.Entities.EntityBase.Delete
-  overload: SuperOffice.CRM.Entities.Selection.Delete*
+    content: public override Task DeleteAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function DeleteAsync As Task
+  overridden: SuperOffice.CRM.Entities.EntityBase.DeleteAsync
+  overload: SuperOffice.CRM.Entities.Selection.DeleteAsync*
   modifiers.csharp:
   - public
   - override
@@ -1070,16 +1123,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-  id: GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+- uid: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  id: GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Selection
   langs:
   - csharp
   - vb
-  name: GetAdditionalRelatedNestedPersist(List<INestedPersist>, Boolean)
-  nameWithType: Selection.GetAdditionalRelatedNestedPersist(List<INestedPersist>, Boolean)
-  fullName: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
+  name: GetAdditionalRelatedNestedPersistAsync(List<INestedPersist>, Boolean, CancellationToken)
+  nameWithType: Selection.GetAdditionalRelatedNestedPersistAsync(List<INestedPersist>, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -1088,24 +1141,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: protected override void GetAdditionalRelatedNestedPersist(List<INestedPersist> relatedObjects, bool lacyFetchIfNeeded)
+    content: protected override Task GetAdditionalRelatedNestedPersistAsync(List<INestedPersist> relatedObjects, bool lacyFetchIfNeeded, CancellationToken cancellationToken = null)
     parameters:
     - id: relatedObjects
       type: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
     - id: lacyFetchIfNeeded
       type: System.Boolean
-    content.vb: Protected Overrides Sub GetAdditionalRelatedNestedPersist(relatedObjects As List(Of INestedPersist), lacyFetchIfNeeded As Boolean)
-  overridden: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-  overload: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersist*
-  nameWithType.vb: Selection.GetAdditionalRelatedNestedPersist(List(Of INestedPersist), Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function GetAdditionalRelatedNestedPersistAsync(relatedObjects As List(Of INestedPersist), lacyFetchIfNeeded As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overridden: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersistAsync*
+  nameWithType.vb: Selection.GetAdditionalRelatedNestedPersistAsync(List(Of INestedPersist), Boolean, CancellationToken)
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-  fullName.vb: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
-  name.vb: GetAdditionalRelatedNestedPersist(List(Of INestedPersist), Boolean)
+  fullName.vb: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean, System.Threading.CancellationToken)
+  name.vb: GetAdditionalRelatedNestedPersistAsync(List(Of INestedPersist), Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Entities.Selection.ForceEntityUpdate
   commentId: M:SuperOffice.CRM.Entities.Selection.ForceEntityUpdate
   id: ForceEntityUpdate
@@ -1135,16 +1192,16 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Entities.Selection.Validate
-  commentId: M:SuperOffice.CRM.Entities.Selection.Validate
-  id: Validate
+- uid: SuperOffice.CRM.Entities.Selection.ValidateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Selection.ValidateAsync(System.Threading.CancellationToken)
+  id: ValidateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Selection
   langs:
   - csharp
   - vb
-  name: Validate()
-  nameWithType: Selection.Validate()
-  fullName: SuperOffice.CRM.Entities.Selection.Validate()
+  name: ValidateAsync(CancellationToken)
+  nameWithType: Selection.ValidateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Selection.ValidateAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -1154,13 +1211,16 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nCheck the entity and related objects for consistency and required fields, and return fields and error messages.\n"
   syntax:
-    content: public override Dictionary<string, string> Validate()
+    content: public override Task<Dictionary<string, string>> ValidateAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
       description: Field names and error messages
-    content.vb: Public Overrides Function Validate As Dictionary(Of String, String)
-  overridden: SuperOffice.CRM.Entities.EntityBase.Validate
-  overload: SuperOffice.CRM.Entities.Selection.Validate*
+    content.vb: Public Overrides Function ValidateAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Dictionary(Of String, String))
+  overridden: SuperOffice.CRM.Entities.EntityBase.ValidateAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Entities.Selection.ValidateAsync*
   modifiers.csharp:
   - public
   - override
@@ -1847,37 +1907,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.Selection.SelectionMembers
-  commentId: P:SuperOffice.CRM.Entities.Selection.SelectionMembers
-  id: SelectionMembers
-  parent: SuperOffice.CRM.Entities.Selection
-  langs:
-  - csharp
-  - vb
-  name: SelectionMembers
-  nameWithType: Selection.SelectionMembers
-  fullName: SuperOffice.CRM.Entities.Selection.SelectionMembers
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  summary: "\nRelated object SelectionMemberRows: Selection members\n"
-  syntax:
-    content: public SelectionMemberRows SelectionMembers { get; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Rows.SelectionMemberRows
-    content.vb: Public ReadOnly Property SelectionMembers As SelectionMemberRows
-  overload: SuperOffice.CRM.Entities.Selection.SelectionMembers*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Selection.CreatedAssociate
   commentId: P:SuperOffice.CRM.Entities.Selection.CreatedAssociate
   id: CreatedAssociate
@@ -2143,13 +2172,6 @@ references:
   name: INestedPersist
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
-- uid: SuperOffice.Data.ISoItem
-  commentId: T:SuperOffice.Data.ISoItem
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ISoItem
-  nameWithType: ISoItem
-  fullName: SuperOffice.Data.ISoItem
 - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler
   commentId: T:SuperOffice.CRM.Rows.ITableRowLoadHandler
   parent: SuperOffice.CRM.Rows
@@ -2164,21 +2186,21 @@ references:
   name: _onGetRelatedObjects
   nameWithType: EntityBase._onGetRelatedObjects
   fullName: SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
-- uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+- uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: GetAdditionalRelatedNestedPersistViaBaseClass(List<INestedPersist>, Boolean)
-  nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(List<INestedPersist>, Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
-  nameWithType.vb: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(List(Of INestedPersist), Boolean)
-  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
-  name.vb: GetAdditionalRelatedNestedPersistViaBaseClass(List(Of INestedPersist), Boolean)
+  name: GetAdditionalRelatedNestedPersistViaBaseClassAsync(List<INestedPersist>, Boolean, CancellationToken)
+  nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync(List<INestedPersist>, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean, System.Threading.CancellationToken)
+  nameWithType.vb: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync(List(Of INestedPersist), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean, System.Threading.CancellationToken)
+  name.vb: GetAdditionalRelatedNestedPersistViaBaseClassAsync(List(Of INestedPersist), Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-    name: GetAdditionalRelatedNestedPersistViaBaseClass
-    nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
-    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+    name: GetAdditionalRelatedNestedPersistViaBaseClassAsync
+    nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2207,14 +2229,22 @@ references:
     nameWithType: Boolean
     fullName: System.Boolean
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-    name: GetAdditionalRelatedNestedPersistViaBaseClass
-    nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
-    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+    name: GetAdditionalRelatedNestedPersistViaBaseClassAsync
+    nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2242,6 +2272,14 @@ references:
     name: Boolean
     nameWithType: Boolean
     fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -2328,18 +2366,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: OnPrimaryKeyRequest(PKContainer)
-  nameWithType: EntityBase.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: EntityBase.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: EntityBase.OnPrimaryKeyRequest
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: EntityBase.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2353,10 +2391,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: EntityBase.OnPrimaryKeyRequest
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: EntityBase.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2369,18 +2407,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: EntityBase.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: EntityBase.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: EntityBase.OnPrimaryKeyUpdate
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: EntityBase.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2394,10 +2432,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: EntityBase.OnPrimaryKeyUpdate
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: EntityBase.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2410,18 +2448,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: OnSave(BatchSave)
-  nameWithType: EntityBase.OnSave(BatchSave)
-  fullName: SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: OnSaveAsync(BatchSave)
+  nameWithType: EntityBase.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: EntityBase.OnSave
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnSave
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: EntityBase.OnSaveAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2435,10 +2473,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: EntityBase.OnSave
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnSave
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: EntityBase.OnSaveAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2451,18 +2489,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
+- uid: SuperOffice.CRM.Entities.EntityBase.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSavedAsync(System.Boolean)
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: OnSaved(Boolean)
-  nameWithType: EntityBase.OnSaved(Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: EntityBase.OnSavedAsync(Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnSavedAsync(System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: EntityBase.OnSaved
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnSaved
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: EntityBase.OnSavedAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2476,10 +2514,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: EntityBase.OnSaved
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnSaved
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: EntityBase.OnSavedAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2625,18 +2663,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+- uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementationAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementationAsync
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: OnPreIdUpdateImplementation()
-  nameWithType: EntityBase.OnPreIdUpdateImplementation()
-  fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation()
+  name: OnPreIdUpdateImplementationAsync()
+  nameWithType: EntityBase.OnPreIdUpdateImplementationAsync()
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementationAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
-    name: OnPreIdUpdateImplementation
-    nameWithType: EntityBase.OnPreIdUpdateImplementation
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementationAsync
+    name: OnPreIdUpdateImplementationAsync
+    nameWithType: EntityBase.OnPreIdUpdateImplementationAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementationAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2645,10 +2683,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
-    name: OnPreIdUpdateImplementation
-    nameWithType: EntityBase.OnPreIdUpdateImplementation
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementationAsync
+    name: OnPreIdUpdateImplementationAsync
+    nameWithType: EntityBase.OnPreIdUpdateImplementationAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementationAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2816,18 +2854,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.Save
-  commentId: M:SuperOffice.Data.NestedPersist.Save
+- uid: SuperOffice.Data.NestedPersist.SaveAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SaveAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: Save()
-  nameWithType: NestedPersist.Save()
-  fullName: SuperOffice.Data.NestedPersist.Save()
+  name: SaveAsync()
+  nameWithType: NestedPersist.SaveAsync()
+  fullName: SuperOffice.Data.NestedPersist.SaveAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2836,10 +2874,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2847,20 +2885,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPreIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name: INestedPersist.OnPreIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2869,10 +2907,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2880,20 +2918,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name: INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2907,10 +2945,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2923,20 +2961,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name: INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2950,10 +2988,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2966,20 +3004,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name: INestedPersist.OnIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2988,10 +3026,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2999,20 +3037,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSave(BatchSave)
-  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
-  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name: INestedPersist.OnSaveAsync(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: INestedPersist.OnSave
-    nameWithType: NestedPersist.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3026,10 +3064,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: SuperOffice.Data.INestedPersist.OnSave
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3042,20 +3080,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSaved(Boolean)
-  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
-  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name: INestedPersist.OnSavedAsync(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: INestedPersist.OnSaved
-    nameWithType: NestedPersist.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3069,10 +3107,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: SuperOffice.Data.INestedPersist.OnSaved
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3521,12 +3559,12 @@ references:
   name: Selection
   nameWithType: Selection
   fullName: SuperOffice.CRM.Entities.Selection
-- uid: SuperOffice.CRM.Entities.Selection.GetFromCustomSearch*
-  commentId: Overload:SuperOffice.CRM.Entities.Selection.GetFromCustomSearch
+- uid: SuperOffice.CRM.Entities.Selection.GetFromCustomSearchAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Selection.GetFromCustomSearchAsync
   isExternal: true
-  name: GetFromCustomSearch
-  nameWithType: Selection.GetFromCustomSearch
-  fullName: SuperOffice.CRM.Entities.Selection.GetFromCustomSearch
+  name: GetFromCustomSearchAsync
+  nameWithType: Selection.GetFromCustomSearchAsync
+  fullName: SuperOffice.CRM.Entities.Selection.GetFromCustomSearchAsync
 - uid: SuperOffice.CRM.Entities.Selection.CustomSearch
   commentId: T:SuperOffice.CRM.Entities.Selection.CustomSearch
   parent: SuperOffice.CRM.Entities
@@ -3534,12 +3572,98 @@ references:
   name: Selection.CustomSearch
   nameWithType: Selection.CustomSearch
   fullName: SuperOffice.CRM.Entities.Selection.CustomSearch
-- uid: SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionId*
-  commentId: Overload:SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionId
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: GetFromIdxSelectionId
-  nameWithType: Selection.GetFromIdxSelectionId
-  fullName: SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionId
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.Selection}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Entities.Selection}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Selection>
+  nameWithType: Task<Selection>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Entities.Selection>
+  nameWithType.vb: Task(Of Selection)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Entities.Selection)
+  name.vb: Task(Of Selection)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Entities.Selection
+    name: Selection
+    nameWithType: Selection
+    fullName: SuperOffice.CRM.Entities.Selection
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Entities.Selection
+    name: Selection
+    nameWithType: Selection
+    fullName: SuperOffice.CRM.Entities.Selection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionIdAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionIdAsync
+  isExternal: true
+  name: GetFromIdxSelectionIdAsync
+  nameWithType: Selection.GetFromIdxSelectionIdAsync
+  fullName: SuperOffice.CRM.Entities.Selection.GetFromIdxSelectionIdAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -3661,12 +3785,17 @@ references:
   name: OnRowLoaded
   nameWithType: Selection.OnRowLoaded
   fullName: SuperOffice.CRM.Entities.Selection.OnRowLoaded
-- uid: SuperOffice.CRM.Entities.Selection.SetDefaults*
-  commentId: Overload:SuperOffice.CRM.Entities.Selection.SetDefaults
+- uid: SuperOffice.CRM.Entities.Selection.SetDefaultsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Selection.SetDefaultsAsync
   isExternal: true
-  name: SetDefaults
-  nameWithType: Selection.SetDefaults
-  fullName: SuperOffice.CRM.Entities.Selection.SetDefaults
+  name: SetDefaultsAsync
+  nameWithType: Selection.SetDefaultsAsync
+  fullName: SuperOffice.CRM.Entities.Selection.SetDefaultsAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Rows.DefaulterStrategy
   commentId: T:SuperOffice.CRM.Rows.DefaulterStrategy
   parent: SuperOffice.CRM.Rows
@@ -3674,21 +3803,70 @@ references:
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
-- uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+- uid: SuperOffice.CRM.Entities.Selection.GetSelectionMembersAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Selection.GetSelectionMembersAsync
+  isExternal: true
+  name: GetSelectionMembersAsync
+  nameWithType: Selection.GetSelectionMembersAsync
+  fullName: SuperOffice.CRM.Entities.Selection.GetSelectionMembersAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SelectionMemberRows}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.SelectionMemberRows}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SelectionMemberRows>
+  nameWithType: Task<SelectionMemberRows>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.SelectionMemberRows>
+  nameWithType.vb: Task(Of SelectionMemberRows)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.SelectionMemberRows)
+  name.vb: Task(Of SelectionMemberRows)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SelectionMemberRows
+    name: SelectionMemberRows
+    nameWithType: SelectionMemberRows
+    fullName: SuperOffice.CRM.Rows.SelectionMemberRows
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SelectionMemberRows
+    name: SelectionMemberRows
+    nameWithType: SelectionMemberRows
+    fullName: SuperOffice.CRM.Rows.SelectionMemberRows
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: GetRelatedNestedPersist(List<INestedPersist>, Boolean)
-  nameWithType: EntityBase.GetRelatedNestedPersist(List<INestedPersist>, Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
-  nameWithType.vb: EntityBase.GetRelatedNestedPersist(List(Of INestedPersist), Boolean)
-  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
-  name.vb: GetRelatedNestedPersist(List(Of INestedPersist), Boolean)
+  name: GetRelatedNestedPersistAsync(List<INestedPersist>, Boolean, CancellationToken)
+  nameWithType: EntityBase.GetRelatedNestedPersistAsync(List<INestedPersist>, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean, System.Threading.CancellationToken)
+  nameWithType.vb: EntityBase.GetRelatedNestedPersistAsync(List(Of INestedPersist), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean, System.Threading.CancellationToken)
+  name.vb: GetRelatedNestedPersistAsync(List(Of INestedPersist), Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-    name: GetRelatedNestedPersist
-    nameWithType: EntityBase.GetRelatedNestedPersist
-    fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+    name: GetRelatedNestedPersistAsync
+    nameWithType: EntityBase.GetRelatedNestedPersistAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3717,14 +3895,22 @@ references:
     nameWithType: Boolean
     fullName: System.Boolean
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-    name: GetRelatedNestedPersist
-    nameWithType: EntityBase.GetRelatedNestedPersist
-    fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+    name: GetRelatedNestedPersistAsync
+    nameWithType: EntityBase.GetRelatedNestedPersistAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3753,15 +3939,23 @@ references:
     nameWithType: Boolean
     fullName: System.Boolean
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersist*
-  commentId: Overload:SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersist
+- uid: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersistAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersistAsync
   isExternal: true
-  name: GetRelatedNestedPersist
-  nameWithType: Selection.GetRelatedNestedPersist
-  fullName: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersist
+  name: GetRelatedNestedPersistAsync
+  nameWithType: Selection.GetRelatedNestedPersistAsync
+  fullName: SuperOffice.CRM.Entities.Selection.GetRelatedNestedPersistAsync
 - uid: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
   commentId: '!:System.Collections.Generic.List{SuperOffice.Data.INestedPersist}'
   definition: System.Collections.Generic.List`1
@@ -3850,18 +4044,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
+- uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateAsync
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: OnPreIdUpdate()
-  nameWithType: EntityBase.OnPreIdUpdate()
-  fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: EntityBase.OnPreIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: EntityBase.OnPreIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: EntityBase.OnPreIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3870,10 +4064,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: EntityBase.OnPreIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: EntityBase.OnPreIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3881,24 +4075,24 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.Selection.OnPreIdUpdate*
-  commentId: Overload:SuperOffice.CRM.Entities.Selection.OnPreIdUpdate
+- uid: SuperOffice.CRM.Entities.Selection.OnPreIdUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Selection.OnPreIdUpdateAsync
   isExternal: true
-  name: OnPreIdUpdate
-  nameWithType: Selection.OnPreIdUpdate
-  fullName: SuperOffice.CRM.Entities.Selection.OnPreIdUpdate
-- uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
+  name: OnPreIdUpdateAsync
+  nameWithType: Selection.OnPreIdUpdateAsync
+  fullName: SuperOffice.CRM.Entities.Selection.OnPreIdUpdateAsync
+- uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnIdUpdateAsync
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: OnIdUpdate()
-  nameWithType: EntityBase.OnIdUpdate()
-  fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: EntityBase.OnIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: EntityBase.OnIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: EntityBase.OnIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3907,10 +4101,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: EntityBase.OnIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: EntityBase.OnIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3918,24 +4112,24 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.Selection.OnIdUpdate*
-  commentId: Overload:SuperOffice.CRM.Entities.Selection.OnIdUpdate
+- uid: SuperOffice.CRM.Entities.Selection.OnIdUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Selection.OnIdUpdateAsync
   isExternal: true
-  name: OnIdUpdate
-  nameWithType: Selection.OnIdUpdate
-  fullName: SuperOffice.CRM.Entities.Selection.OnIdUpdate
-- uid: SuperOffice.CRM.Entities.EntityBase.Delete
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.Delete
+  name: OnIdUpdateAsync
+  nameWithType: Selection.OnIdUpdateAsync
+  fullName: SuperOffice.CRM.Entities.Selection.OnIdUpdateAsync
+- uid: SuperOffice.CRM.Entities.EntityBase.DeleteAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.DeleteAsync
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: Delete()
-  nameWithType: EntityBase.Delete()
-  fullName: SuperOffice.CRM.Entities.EntityBase.Delete()
+  name: DeleteAsync()
+  nameWithType: EntityBase.DeleteAsync()
+  fullName: SuperOffice.CRM.Entities.EntityBase.DeleteAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.Delete
-    name: Delete
-    nameWithType: EntityBase.Delete
-    fullName: SuperOffice.CRM.Entities.EntityBase.Delete
+  - uid: SuperOffice.CRM.Entities.EntityBase.DeleteAsync
+    name: DeleteAsync
+    nameWithType: EntityBase.DeleteAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.DeleteAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3944,10 +4138,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.Delete
-    name: Delete
-    nameWithType: EntityBase.Delete
-    fullName: SuperOffice.CRM.Entities.EntityBase.Delete
+  - uid: SuperOffice.CRM.Entities.EntityBase.DeleteAsync
+    name: DeleteAsync
+    nameWithType: EntityBase.DeleteAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.DeleteAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3955,12 +4149,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.Selection.Delete*
-  commentId: Overload:SuperOffice.CRM.Entities.Selection.Delete
+- uid: SuperOffice.CRM.Entities.Selection.DeleteAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Selection.DeleteAsync
   isExternal: true
-  name: Delete
-  nameWithType: Selection.Delete
-  fullName: SuperOffice.CRM.Entities.Selection.Delete
+  name: DeleteAsync
+  nameWithType: Selection.DeleteAsync
+  fullName: SuperOffice.CRM.Entities.Selection.DeleteAsync
 - uid: SuperOffice.CRM.Entities.Selection.OnPreSaveMe*
   commentId: Overload:SuperOffice.CRM.Entities.Selection.OnPreSaveMe
   isExternal: true
@@ -3988,21 +4182,21 @@ references:
   name: FromSelectionRow
   nameWithType: Selection.FromSelectionRow
   fullName: SuperOffice.CRM.Entities.Selection.FromSelectionRow
-- uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+- uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: GetAdditionalRelatedNestedPersist(List<INestedPersist>, Boolean)
-  nameWithType: EntityBase.GetAdditionalRelatedNestedPersist(List<INestedPersist>, Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
-  nameWithType.vb: EntityBase.GetAdditionalRelatedNestedPersist(List(Of INestedPersist), Boolean)
-  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
-  name.vb: GetAdditionalRelatedNestedPersist(List(Of INestedPersist), Boolean)
+  name: GetAdditionalRelatedNestedPersistAsync(List<INestedPersist>, Boolean, CancellationToken)
+  nameWithType: EntityBase.GetAdditionalRelatedNestedPersistAsync(List<INestedPersist>, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean, System.Threading.CancellationToken)
+  nameWithType.vb: EntityBase.GetAdditionalRelatedNestedPersistAsync(List(Of INestedPersist), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean, System.Threading.CancellationToken)
+  name.vb: GetAdditionalRelatedNestedPersistAsync(List(Of INestedPersist), Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-    name: GetAdditionalRelatedNestedPersist
-    nameWithType: EntityBase.GetAdditionalRelatedNestedPersist
-    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+    name: GetAdditionalRelatedNestedPersistAsync
+    nameWithType: EntityBase.GetAdditionalRelatedNestedPersistAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4031,14 +4225,22 @@ references:
     nameWithType: Boolean
     fullName: System.Boolean
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
-    name: GetAdditionalRelatedNestedPersist
-    nameWithType: EntityBase.GetAdditionalRelatedNestedPersist
-    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
+    name: GetAdditionalRelatedNestedPersistAsync
+    nameWithType: EntityBase.GetAdditionalRelatedNestedPersistAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4067,15 +4269,23 @@ references:
     nameWithType: Boolean
     fullName: System.Boolean
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersist*
-  commentId: Overload:SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersist
+- uid: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersistAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersistAsync
   isExternal: true
-  name: GetAdditionalRelatedNestedPersist
-  nameWithType: Selection.GetAdditionalRelatedNestedPersist
-  fullName: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersist
+  name: GetAdditionalRelatedNestedPersistAsync
+  nameWithType: Selection.GetAdditionalRelatedNestedPersistAsync
+  fullName: SuperOffice.CRM.Entities.Selection.GetAdditionalRelatedNestedPersistAsync
 - uid: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
   commentId: M:SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
   parent: SuperOffice.CRM.Entities.EntityBase
@@ -4113,53 +4323,71 @@ references:
   name: ForceEntityUpdate
   nameWithType: Selection.ForceEntityUpdate
   fullName: SuperOffice.CRM.Entities.Selection.ForceEntityUpdate
-- uid: SuperOffice.CRM.Entities.EntityBase.Validate
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.Validate
+- uid: SuperOffice.CRM.Entities.EntityBase.ValidateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.ValidateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityBase
   isExternal: true
-  name: Validate()
-  nameWithType: EntityBase.Validate()
-  fullName: SuperOffice.CRM.Entities.EntityBase.Validate()
+  name: ValidateAsync(CancellationToken)
+  nameWithType: EntityBase.ValidateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityBase.ValidateAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.Validate
-    name: Validate
-    nameWithType: EntityBase.Validate
-    fullName: SuperOffice.CRM.Entities.EntityBase.Validate
+  - uid: SuperOffice.CRM.Entities.EntityBase.ValidateAsync(System.Threading.CancellationToken)
+    name: ValidateAsync
+    nameWithType: EntityBase.ValidateAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.ValidateAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.Validate
-    name: Validate
-    nameWithType: EntityBase.Validate
-    fullName: SuperOffice.CRM.Entities.EntityBase.Validate
+  - uid: SuperOffice.CRM.Entities.EntityBase.ValidateAsync(System.Threading.CancellationToken)
+    name: ValidateAsync
+    nameWithType: EntityBase.ValidateAsync
+    fullName: SuperOffice.CRM.Entities.EntityBase.ValidateAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.Selection.Validate*
-  commentId: Overload:SuperOffice.CRM.Entities.Selection.Validate
+- uid: SuperOffice.CRM.Entities.Selection.ValidateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Selection.ValidateAsync
   isExternal: true
-  name: Validate
-  nameWithType: Selection.Validate
-  fullName: SuperOffice.CRM.Entities.Selection.Validate
-- uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
-  definition: System.Collections.Generic.Dictionary`2
-  name: Dictionary<String, String>
-  nameWithType: Dictionary<String, String>
-  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
-  nameWithType.vb: Dictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
-  name.vb: Dictionary(Of String, String)
+  name: ValidateAsync
+  nameWithType: Selection.ValidateAsync
+  fullName: SuperOffice.CRM.Entities.Selection.ValidateAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Dictionary<String, String>>
+  nameWithType: Task<Dictionary<String, String>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<System.String, System.String>>
+  nameWithType.vb: Task(Of Dictionary(Of String, String))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: Task(Of Dictionary(Of String, String))
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     nameWithType: Dictionary
@@ -4184,7 +4412,18 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     nameWithType: Dictionary
@@ -4209,53 +4448,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.Dictionary`2
-  isExternal: true
-  name: Dictionary<, >
-  nameWithType: Dictionary<, >
-  fullName: System.Collections.Generic.Dictionary<, >
-  nameWithType.vb: Dictionary(Of , )
-  fullName.vb: System.Collections.Generic.Dictionary(Of , )
-  name.vb: Dictionary(Of , )
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -4444,12 +4636,6 @@ references:
   name: Associate
   nameWithType: Selection.Associate
   fullName: SuperOffice.CRM.Entities.Selection.Associate
-- uid: SuperOffice.CRM.Entities.Selection.SelectionMembers*
-  commentId: Overload:SuperOffice.CRM.Entities.Selection.SelectionMembers
-  isExternal: true
-  name: SelectionMembers
-  nameWithType: Selection.SelectionMembers
-  fullName: SuperOffice.CRM.Entities.Selection.SelectionMembers
 - uid: SuperOffice.CRM.Entities.Selection.CreatedAssociate*
   commentId: Overload:SuperOffice.CRM.Entities.Selection.CreatedAssociate
   isExternal: true

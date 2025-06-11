@@ -38,8 +38,6 @@ items:
       Public Class EMailEnvelope
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.EMailAgent
-    commentId: T:SuperOffice.CRM.Services.EMailAgent
   - linkId: SuperOffice.CRM.Services.IEMailAgent
     commentId: T:SuperOffice.CRM.Services.IEMailAgent
   inheritance:
@@ -477,15 +475,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.EMailAgent
-  commentId: T:SuperOffice.CRM.Services.EMailAgent
-  isExternal: true
-  name: EMailAgent
-  nameWithType: EMailAgent
-  fullName: SuperOffice.CRM.Services.EMailAgent
 - uid: SuperOffice.CRM.Services.IEMailAgent
   commentId: T:SuperOffice.CRM.Services.IEMailAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IEMailAgent
   nameWithType: IEMailAgent

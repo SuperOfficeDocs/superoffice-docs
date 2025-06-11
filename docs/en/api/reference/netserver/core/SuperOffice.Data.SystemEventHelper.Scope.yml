@@ -23,6 +23,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
+  summary: "\nThis class only has static members\n"
   syntax:
     content: 'public sealed class Scope : Enum'
     content.vb: >-

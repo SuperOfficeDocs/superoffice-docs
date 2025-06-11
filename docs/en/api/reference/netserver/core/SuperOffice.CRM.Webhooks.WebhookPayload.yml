@@ -5,7 +5,7 @@ items:
   id: WebhookPayload
   parent: SuperOffice.CRM.Webhooks
   children:
-  - SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  - SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})
   - SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(System.String,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
   - SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId
   - SuperOffice.CRM.Webhooks.WebhookPayload.Changes
@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Webhooks.WebhookPayload.Entity
   - SuperOffice.CRM.Webhooks.WebhookPayload.Event
   - SuperOffice.CRM.Webhooks.WebhookPayload.EventId
+  - SuperOffice.CRM.Webhooks.WebhookPayload.FieldValues
   - SuperOffice.CRM.Webhooks.WebhookPayload.PrimaryKey
   - SuperOffice.CRM.Webhooks.WebhookPayload.Timestamp
   langs:
@@ -99,16 +100,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
-  commentId: M:SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
-  id: '#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)'
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})
+  id: '#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})'
   parent: SuperOffice.CRM.Webhooks.WebhookPayload
   langs:
   - csharp
   - vb
-  name: WebhookPayload(ChangeType, String, Int32, IDictionary<String, Object>, Int32)
-  nameWithType: WebhookPayload.WebhookPayload(ChangeType, String, Int32, IDictionary<String, Object>, Int32)
-  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.WebhookPayload(SuperOffice.CRM.Webhooks.ChangeType, System.String, System.Int32, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Int32)
+  name: WebhookPayload(ChangeType, String, Int32, IDictionary<String, Object>, Int32, IDictionary<String, Object>)
+  nameWithType: WebhookPayload.WebhookPayload(ChangeType, String, Int32, IDictionary<String, Object>, Int32, IDictionary<String, Object>)
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.WebhookPayload(SuperOffice.CRM.Webhooks.ChangeType, System.String, System.Int32, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Int32, System.Collections.Generic.IDictionary<System.String, System.Object>)
   type: Constructor
   source:
     path: SoDataBase
@@ -117,7 +118,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
   syntax:
-    content: public WebhookPayload(ChangeType change, string entity, int primaryKey, IDictionary<string, object> changes, int assocId)
+    content: public WebhookPayload(ChangeType change, string entity, int primaryKey, IDictionary<string, object> changes, int assocId, IDictionary<string, object> fieldValues)
     parameters:
     - id: change
       type: SuperOffice.CRM.Webhooks.ChangeType
@@ -129,15 +130,17 @@ items:
       type: System.Collections.Generic.IDictionary{System.String,System.Object}
     - id: assocId
       type: System.Int32
-    content.vb: Public Sub New(change As ChangeType, entity As String, primaryKey As Integer, changes As IDictionary(Of String, Object), assocId As Integer)
+    - id: fieldValues
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+    content.vb: Public Sub New(change As ChangeType, entity As String, primaryKey As Integer, changes As IDictionary(Of String, Object), assocId As Integer, fieldValues As IDictionary(Of String, Object))
   overload: SuperOffice.CRM.Webhooks.WebhookPayload.#ctor*
-  nameWithType.vb: WebhookPayload.WebhookPayload(ChangeType, String, Int32, IDictionary(Of String, Object), Int32)
+  nameWithType.vb: WebhookPayload.WebhookPayload(ChangeType, String, Int32, IDictionary(Of String, Object), Int32, IDictionary(Of String, Object))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.CRM.Webhooks.WebhookPayload.WebhookPayload(SuperOffice.CRM.Webhooks.ChangeType, System.String, System.Int32, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Int32)
-  name.vb: WebhookPayload(ChangeType, String, Int32, IDictionary(Of String, Object), Int32)
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookPayload.WebhookPayload(SuperOffice.CRM.Webhooks.ChangeType, System.String, System.Int32, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Int32, System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  name.vb: WebhookPayload(ChangeType, String, Int32, IDictionary(Of String, Object), Int32, IDictionary(Of String, Object))
 - uid: SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(System.String,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
   commentId: M:SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(System.String,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
   id: '#ctor(System.String,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)'
@@ -326,6 +329,37 @@ items:
       type: System.Collections.Generic.IDictionary{System.String,System.Object}
     content.vb: Public Property Changes As IDictionary(Of String, Object)
   overload: SuperOffice.CRM.Webhooks.WebhookPayload.Changes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.FieldValues
+  commentId: P:SuperOffice.CRM.Webhooks.WebhookPayload.FieldValues
+  id: FieldValues
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: FieldValues
+  nameWithType: WebhookPayload.FieldValues
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.FieldValues
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nField name to the field value dictionary. Values will only be Ids, Enums and DateTime/String.\n<p></p>\n&quot;contact_id&quot;: 123,<p></p>\n&quot;associate_id&quot;: 123\n&quot;Updated&quot;: &quot;2002-07-24T14:24:23&quot;\n"
+  syntax:
+    content: public IDictionary<string, object> FieldValues { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+    content.vb: Public Property FieldValues As IDictionary(Of String, Object)
+  overload: SuperOffice.CRM.Webhooks.WebhookPayload.FieldValues*
   modifiers.csharp:
   - public
   - get
@@ -724,6 +758,12 @@ references:
   name: Changes
   nameWithType: WebhookPayload.Changes
   fullName: SuperOffice.CRM.Webhooks.WebhookPayload.Changes
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.FieldValues*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookPayload.FieldValues
+  isExternal: true
+  name: FieldValues
+  nameWithType: WebhookPayload.FieldValues
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.FieldValues
 - uid: SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId
   isExternal: true

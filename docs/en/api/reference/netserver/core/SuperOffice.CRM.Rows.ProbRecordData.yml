@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.ProbRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ProbRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ProbRecordData)
   - SuperOffice.CRM.Rows.ProbRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ProbRecordData.SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ProbRecordData.SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProbRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProbRecordData.SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbRecordData)
+- uid: SuperOffice.CRM.Rows.ProbRecordData.SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ProbRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbRecordData)
-  name: ToInsert()
-  nameWithType: ProbRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ProbRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ProbRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProbRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ProbRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProbRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbRecordData)
+- uid: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ProbRecordData)
-  nameWithType: ProbRecordDataExtensions.ToInsert(ProbRecordData)
-  fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbRecordData)
+  name: ToInsertAsync(ProbRecordData, CancellationToken)
+  nameWithType: ProbRecordDataExtensions.ToInsertAsync(ProbRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbRecordData)
-    name: ToInsert
-    nameWithType: ProbRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProbRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: ProbRecordData
     nameWithType: ProbRecordData
     fullName: SuperOffice.CRM.Rows.ProbRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProbRecordData)
-    name: ToInsert
-    nameWithType: ProbRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProbRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProbRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProbRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: ProbRecordData
     nameWithType: ProbRecordData
     fullName: SuperOffice.CRM.Rows.ProbRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

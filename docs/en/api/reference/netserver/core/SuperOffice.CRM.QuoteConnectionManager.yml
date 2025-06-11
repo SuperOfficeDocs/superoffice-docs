@@ -7,23 +7,23 @@ items:
   children:
   - SuperOffice.CRM.QuoteConnectionManager.ConnectionStartupErrors
   - SuperOffice.CRM.QuoteConnectionManager.CreateConnection(System.String)
-  - SuperOffice.CRM.QuoteConnectionManager.DeleteConnection(System.Int32)
+  - SuperOffice.CRM.QuoteConnectionManager.DeleteConnectionAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.QuoteConnectionManager.Flush
   - SuperOffice.CRM.QuoteConnectionManager.GetAllAvailableQuoteConnections
   - SuperOffice.CRM.QuoteConnectionManager.GetAllInstalledQuoteConnections
-  - SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFields(System.Int32,System.String)
-  - SuperOffice.CRM.QuoteConnectionManager.GetConnection(System.Int32)
-  - SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFields(System.Int32)
+  - SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.QuoteConnectionManager.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFieldsAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.QuoteConnectionManager.GetConnectionsForAssociate(System.Int32)
-  - SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponse(System.Int32)
-  - SuperOffice.CRM.QuoteConnectionManager.GetCurrent
-  - SuperOffice.CRM.QuoteConnectionManager.GetProduct(System.Int32,System.String)
-  - SuperOffice.CRM.QuoteConnectionManager.GetProductImage(System.Int32,System.String,System.Int32)
+  - SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponseAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.QuoteConnectionManager.GetCurrentAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.QuoteConnectionManager.GetProductAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.QuoteConnectionManager.GetProductImageAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.QuoteConnectionManager.HasConnections
   - SuperOffice.CRM.QuoteConnectionManager.HasConnectionStartupErrors
-  - SuperOffice.CRM.QuoteConnectionManager.RestoreConnection(System.Int32)
-  - SuperOffice.CRM.QuoteConnectionManager.SaveConnection(SuperOffice.CRM.QuoteConnection)
-  - SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFields(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.CRM.QuoteConnectionManager.RestoreConnectionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.QuoteConnectionManager.SaveConnectionAsync(SuperOffice.CRM.QuoteConnection,System.Threading.CancellationToken)
+  - SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFieldsAsync(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken)
   - SuperOffice.CRM.QuoteConnectionManager.TestConnection(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
   langs:
   - csharp
@@ -55,16 +55,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetCurrent
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetCurrent
-  id: GetCurrent
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetCurrentAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetCurrentAsync(System.Threading.CancellationToken)
+  id: GetCurrentAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: GetCurrent()
-  nameWithType: QuoteConnectionManager.GetCurrent()
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetCurrent()
+  name: GetCurrentAsync(CancellationToken)
+  nameWithType: QuoteConnectionManager.GetCurrentAsync(CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetCurrentAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -74,11 +74,14 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nGet a per-user instance if possible, otherwise get a global instance\n"
   syntax:
-    content: public static QuoteConnectionManager GetCurrent()
+    content: public static Task<QuoteConnectionManager> GetCurrentAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.QuoteConnectionManager
-    content.vb: Public Shared Function GetCurrent As QuoteConnectionManager
-  overload: SuperOffice.CRM.QuoteConnectionManager.GetCurrent*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteConnectionManager}
+    content.vb: Public Shared Function GetCurrentAsync(cancellationToken As CancellationToken = Nothing) As Task(Of QuoteConnectionManager)
+  overload: SuperOffice.CRM.QuoteConnectionManager.GetCurrentAsync*
   modifiers.csharp:
   - public
   - static
@@ -200,16 +203,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponse(System.Int32)
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponse(System.Int32)
-  id: GetConnectionStartupResponse(System.Int32)
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponseAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponseAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetConnectionStartupResponseAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: GetConnectionStartupResponse(Int32)
-  nameWithType: QuoteConnectionManager.GetConnectionStartupResponse(Int32)
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponse(System.Int32)
+  name: GetConnectionStartupResponseAsync(Int32, CancellationToken)
+  nameWithType: QuoteConnectionManager.GetConnectionStartupResponseAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponseAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -219,28 +222,30 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nGet the PluginResponseInfo about failed connection initialization.\n"
   syntax:
-    content: public PluginResponseInfo GetConnectionStartupResponse(int connectionId)
+    content: public Task<PluginResponseInfo> GetConnectionStartupResponseAsync(int connectionId, CancellationToken cancellationToken = null)
     parameters:
     - id: connectionId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.PluginResponseInfo
-    content.vb: Public Function GetConnectionStartupResponse(connectionId As Integer) As PluginResponseInfo
-  overload: SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponse*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.PluginResponseInfo}
+    content.vb: Public Function GetConnectionStartupResponseAsync(connectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PluginResponseInfo)
+  overload: SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponseAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnection(System.Int32)
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetConnection(System.Int32)
-  id: GetConnection(System.Int32)
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: GetConnection(Int32)
-  nameWithType: QuoteConnectionManager.GetConnection(Int32)
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnection(System.Int32)
+  name: GetConnectionAsync(Int32, CancellationToken)
+  nameWithType: QuoteConnectionManager.GetConnectionAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -250,16 +255,18 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nGet a connection, creating and initializing it if needed. Initialization happens on the first use only.\n"
   syntax:
-    content: public QuoteConnection GetConnection(int quoteConnectionId)
+    content: public Task<QuoteConnection> GetConnectionAsync(int quoteConnectionId, CancellationToken cancellationToken = null)
     parameters:
     - id: quoteConnectionId
       type: System.Int32
       description: The connection id from the database (primary key)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.QuoteConnection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteConnection}
       description: QuoteConnection object that contains metadata about the connection, and the actual connection, wrapped inside a mediator. Return null if connector could not be found.
-    content.vb: Public Function GetConnection(quoteConnectionId As Integer) As QuoteConnection
-  overload: SuperOffice.CRM.QuoteConnectionManager.GetConnection*
+    content.vb: Public Function GetConnectionAsync(quoteConnectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteConnection)
+  overload: SuperOffice.CRM.QuoteConnectionManager.GetConnectionAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -297,16 +304,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.QuoteConnectionManager.SaveConnection(SuperOffice.CRM.QuoteConnection)
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.SaveConnection(SuperOffice.CRM.QuoteConnection)
-  id: SaveConnection(SuperOffice.CRM.QuoteConnection)
+- uid: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionAsync(SuperOffice.CRM.QuoteConnection,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.SaveConnectionAsync(SuperOffice.CRM.QuoteConnection,System.Threading.CancellationToken)
+  id: SaveConnectionAsync(SuperOffice.CRM.QuoteConnection,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: SaveConnection(QuoteConnection)
-  nameWithType: QuoteConnectionManager.SaveConnection(QuoteConnection)
-  fullName: SuperOffice.CRM.QuoteConnectionManager.SaveConnection(SuperOffice.CRM.QuoteConnection)
+  name: SaveConnectionAsync(QuoteConnection, CancellationToken)
+  nameWithType: QuoteConnectionManager.SaveConnectionAsync(QuoteConnection, CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionAsync(SuperOffice.CRM.QuoteConnection, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -316,28 +323,30 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nSave connection info to the database\n"
   syntax:
-    content: public QuoteConnection SaveConnection(QuoteConnection quoteConnection)
+    content: public Task<QuoteConnection> SaveConnectionAsync(QuoteConnection quoteConnection, CancellationToken cancellationToken = null)
     parameters:
     - id: quoteConnection
       type: SuperOffice.CRM.QuoteConnection
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.QuoteConnection
-    content.vb: Public Function SaveConnection(quoteConnection As QuoteConnection) As QuoteConnection
-  overload: SuperOffice.CRM.QuoteConnectionManager.SaveConnection*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteConnection}
+    content.vb: Public Function SaveConnectionAsync(quoteConnection As QuoteConnection, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteConnection)
+  overload: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.QuoteConnectionManager.DeleteConnection(System.Int32)
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.DeleteConnection(System.Int32)
-  id: DeleteConnection(System.Int32)
+- uid: SuperOffice.CRM.QuoteConnectionManager.DeleteConnectionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.DeleteConnectionAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteConnectionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: DeleteConnection(Int32)
-  nameWithType: QuoteConnectionManager.DeleteConnection(Int32)
-  fullName: SuperOffice.CRM.QuoteConnectionManager.DeleteConnection(System.Int32)
+  name: DeleteConnectionAsync(Int32, CancellationToken)
+  nameWithType: QuoteConnectionManager.DeleteConnectionAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.DeleteConnectionAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -347,27 +356,31 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nDeletes a connection - sets Deleted field to 1, does not delete the connection row from the database.\n"
   syntax:
-    content: public void DeleteConnection(int quoteConnectionId)
+    content: public Task DeleteConnectionAsync(int quoteConnectionId, CancellationToken cancellationToken = null)
     parameters:
     - id: quoteConnectionId
       type: System.Int32
       description: Primary key of the connection
-    content.vb: Public Sub DeleteConnection(quoteConnectionId As Integer)
-  overload: SuperOffice.CRM.QuoteConnectionManager.DeleteConnection*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteConnectionAsync(quoteConnectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.QuoteConnectionManager.DeleteConnectionAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.QuoteConnectionManager.RestoreConnection(System.Int32)
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.RestoreConnection(System.Int32)
-  id: RestoreConnection(System.Int32)
+- uid: SuperOffice.CRM.QuoteConnectionManager.RestoreConnectionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.RestoreConnectionAsync(System.Int32,System.Threading.CancellationToken)
+  id: RestoreConnectionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: RestoreConnection(Int32)
-  nameWithType: QuoteConnectionManager.RestoreConnection(Int32)
-  fullName: SuperOffice.CRM.QuoteConnectionManager.RestoreConnection(System.Int32)
+  name: RestoreConnectionAsync(Int32, CancellationToken)
+  nameWithType: QuoteConnectionManager.RestoreConnectionAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.RestoreConnectionAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -377,13 +390,18 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nRestore a connection marked as deleted. Undelete connection.\n"
   syntax:
-    content: public void RestoreConnection(int quoteConnectionId)
+    content: public Task RestoreConnectionAsync(int quoteConnectionId, CancellationToken cancellationToken = null)
     parameters:
     - id: quoteConnectionId
       type: System.Int32
       description: Primary key of the connection
-    content.vb: Public Sub RestoreConnection(quoteConnectionId As Integer)
-  overload: SuperOffice.CRM.QuoteConnectionManager.RestoreConnection*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: A void return
+    content.vb: Public Function RestoreConnectionAsync(quoteConnectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.QuoteConnectionManager.RestoreConnectionAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -421,16 +439,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFields(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFields(System.Int32,System.String)
-  id: GetConfigurationFields(System.Int32,System.String)
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: GetConfigurationFields(Int32, String)
-  nameWithType: QuoteConnectionManager.GetConfigurationFields(Int32, String)
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFields(System.Int32, System.String)
+  name: GetConfigurationFieldsAsync(Int32, String, CancellationToken)
+  nameWithType: QuoteConnectionManager.GetConfigurationFieldsAsync(Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFieldsAsync(System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -441,7 +459,7 @@ items:
   summary: "\nGet configuration fields from a connection\n"
   remarks: "\nIf the connectionId = 0, then the connectorName must be provided to get the configuration fields.\n"
   syntax:
-    content: public Dictionary<string, FieldMetadataInfo> GetConfigurationFields(int connectionId, string connectorName)
+    content: public Task<Dictionary<string, FieldMetadataInfo>> GetConfigurationFieldsAsync(int connectionId, string connectorName, CancellationToken cancellationToken = null)
     parameters:
     - id: connectionId
       type: System.Int32
@@ -449,11 +467,13 @@ items:
     - id: connectorName
       type: System.String
       description: Name of the connector. Used if the connectionId = 0
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}}
       description: Dictionary of <xref href="SuperOffice.CRM.FieldMetadataInfo" data-throw-if-not-resolved="false"></xref> with a string key
-    content.vb: Public Function GetConfigurationFields(connectionId As Integer, connectorName As String) As Dictionary(Of String, FieldMetadataInfo)
-  overload: SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFields*
+    content.vb: Public Function GetConfigurationFieldsAsync(connectionId As Integer, connectorName As String, cancellationToken As CancellationToken = Nothing) As Task(Of Dictionary(Of String, FieldMetadataInfo))
+  overload: SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFieldsAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -497,16 +517,16 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.QuoteConnectionManager.TestConnection(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
   name.vb: TestConnection(String, Dictionary(Of String, String))
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFields(System.Int32)
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFields(System.Int32)
-  id: GetConnectionConfigFields(System.Int32)
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFieldsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFieldsAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetConnectionConfigFieldsAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: GetConnectionConfigFields(Int32)
-  nameWithType: QuoteConnectionManager.GetConnectionConfigFields(Int32)
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFields(System.Int32)
+  name: GetConnectionConfigFieldsAsync(Int32, CancellationToken)
+  nameWithType: QuoteConnectionManager.GetConnectionConfigFieldsAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFieldsAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -516,29 +536,31 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nReturn the configuration values stored in the db for a given connection.\n"
   syntax:
-    content: public Dictionary<string, string> GetConnectionConfigFields(int quoteConnectionId)
+    content: public Task<Dictionary<string, string>> GetConnectionConfigFieldsAsync(int quoteConnectionId, CancellationToken cancellationToken = null)
     parameters:
     - id: quoteConnectionId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
       description: name=value pairs, or empty dictionary
-    content.vb: Public Function GetConnectionConfigFields(quoteConnectionId As Integer) As Dictionary(Of String, String)
-  overload: SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFields*
+    content.vb: Public Function GetConnectionConfigFieldsAsync(quoteConnectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Dictionary(Of String, String))
+  overload: SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFieldsAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFields(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFields(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})
-  id: SaveConnectionConfigFields(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})
+- uid: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFieldsAsync(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFieldsAsync(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken)
+  id: SaveConnectionConfigFieldsAsync(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: SaveConnectionConfigFields(Int32, Dictionary<String, String>)
-  nameWithType: QuoteConnectionManager.SaveConnectionConfigFields(Int32, Dictionary<String, String>)
-  fullName: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFields(System.Int32, System.Collections.Generic.Dictionary<System.String, System.String>)
+  name: SaveConnectionConfigFieldsAsync(Int32, Dictionary<String, String>, CancellationToken)
+  nameWithType: QuoteConnectionManager.SaveConnectionConfigFieldsAsync(Int32, Dictionary<String, String>, CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFieldsAsync(System.Int32, System.Collections.Generic.Dictionary<System.String, System.String>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -548,33 +570,35 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nSave connection config fields to the database, merging with old values as needed, and deleting any leftover rows\n"
   syntax:
-    content: public Dictionary<string, string> SaveConnectionConfigFields(int connectionId, Dictionary<string, string> connectionConfigFields)
+    content: public Task<Dictionary<string, string>> SaveConnectionConfigFieldsAsync(int connectionId, Dictionary<string, string> connectionConfigFields, CancellationToken cancellationToken = null)
     parameters:
     - id: connectionId
       type: System.Int32
     - id: connectionConfigFields
       type: System.Collections.Generic.Dictionary{System.String,System.String}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.Dictionary{System.String,System.String}
-    content.vb: Public Function SaveConnectionConfigFields(connectionId As Integer, connectionConfigFields As Dictionary(Of String, String)) As Dictionary(Of String, String)
-  overload: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFields*
-  nameWithType.vb: QuoteConnectionManager.SaveConnectionConfigFields(Int32, Dictionary(Of String, String))
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
+    content.vb: Public Function SaveConnectionConfigFieldsAsync(connectionId As Integer, connectionConfigFields As Dictionary(Of String, String), cancellationToken As CancellationToken = Nothing) As Task(Of Dictionary(Of String, String))
+  overload: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFieldsAsync*
+  nameWithType.vb: QuoteConnectionManager.SaveConnectionConfigFieldsAsync(Int32, Dictionary(Of String, String), CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFields(System.Int32, System.Collections.Generic.Dictionary(Of System.String, System.String))
-  name.vb: SaveConnectionConfigFields(Int32, Dictionary(Of String, String))
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetProductImage(System.Int32,System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetProductImage(System.Int32,System.String,System.Int32)
-  id: GetProductImage(System.Int32,System.String,System.Int32)
+  fullName.vb: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFieldsAsync(System.Int32, System.Collections.Generic.Dictionary(Of System.String, System.String), System.Threading.CancellationToken)
+  name.vb: SaveConnectionConfigFieldsAsync(Int32, Dictionary(Of String, String), CancellationToken)
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetProductImageAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetProductImageAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetProductImageAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: GetProductImage(Int32, String, Int32)
-  nameWithType: QuoteConnectionManager.GetProductImage(Int32, String, Int32)
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetProductImage(System.Int32, System.String, System.Int32)
+  name: GetProductImageAsync(Int32, String, Int32, CancellationToken)
+  nameWithType: QuoteConnectionManager.GetProductImageAsync(Int32, String, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetProductImageAsync(System.Int32, System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -584,7 +608,7 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nGet a base64 representation of a product image from an erp key in a quote connection.\n"
   syntax:
-    content: public string GetProductImage(int quoteConnectionId, string erpProductKey, int rank)
+    content: public Task<string> GetProductImageAsync(int quoteConnectionId, string erpProductKey, int rank, CancellationToken cancellationToken = null)
     parameters:
     - id: quoteConnectionId
       type: System.Int32
@@ -595,25 +619,27 @@ items:
     - id: rank
       type: System.Int32
       description: Which of the images to get.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Base64 string representing the image.
-    content.vb: Public Function GetProductImage(quoteConnectionId As Integer, erpProductKey As String, rank As Integer) As String
-  overload: SuperOffice.CRM.QuoteConnectionManager.GetProductImage*
+    content.vb: Public Function GetProductImageAsync(quoteConnectionId As Integer, erpProductKey As String, rank As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.QuoteConnectionManager.GetProductImageAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetProduct(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetProduct(System.Int32,System.String)
-  id: GetProduct(System.Int32,System.String)
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetProductAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.QuoteConnectionManager.GetProductAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetProductAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.QuoteConnectionManager
   langs:
   - csharp
   - vb
-  name: GetProduct(Int32, String)
-  nameWithType: QuoteConnectionManager.GetProduct(Int32, String)
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetProduct(System.Int32, System.String)
+  name: GetProductAsync(Int32, String, CancellationToken)
+  nameWithType: QuoteConnectionManager.GetProductAsync(Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetProductAsync(System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -623,7 +649,7 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nGet a product from a connection based on erp product key. \n"
   syntax:
-    content: public ProductInfo GetProduct(int quoteConnectionId, string erpProductKey)
+    content: public Task<ProductInfo> GetProductAsync(int quoteConnectionId, string erpProductKey, CancellationToken cancellationToken = null)
     parameters:
     - id: quoteConnectionId
       type: System.Int32
@@ -631,11 +657,13 @@ items:
     - id: erpProductKey
       type: System.String
       description: Erp product key to get the product for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.ProductInfo
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.ProductInfo}
       description: <xref href="SuperOffice.CRM.ProductInfo" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Function GetProduct(quoteConnectionId As Integer, erpProductKey As String) As ProductInfo
-  overload: SuperOffice.CRM.QuoteConnectionManager.GetProduct*
+    content.vb: Public Function GetProductAsync(quoteConnectionId As Integer, erpProductKey As String, cancellationToken As CancellationToken = Nothing) As Task(Of ProductInfo)
+  overload: SuperOffice.CRM.QuoteConnectionManager.GetProductAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -887,19 +915,98 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetCurrent*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetCurrent
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetCurrentAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetCurrentAsync
   isExternal: true
-  name: GetCurrent
-  nameWithType: QuoteConnectionManager.GetCurrent
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetCurrent
-- uid: SuperOffice.CRM.QuoteConnectionManager
-  commentId: T:SuperOffice.CRM.QuoteConnectionManager
-  parent: SuperOffice.CRM
+  name: GetCurrentAsync
+  nameWithType: QuoteConnectionManager.GetCurrentAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetCurrentAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: QuoteConnectionManager
-  nameWithType: QuoteConnectionManager
-  fullName: SuperOffice.CRM.QuoteConnectionManager
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteConnectionManager}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.QuoteConnectionManager}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<QuoteConnectionManager>
+  nameWithType: Task<QuoteConnectionManager>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.QuoteConnectionManager>
+  nameWithType.vb: Task(Of QuoteConnectionManager)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.QuoteConnectionManager)
+  name.vb: Task(Of QuoteConnectionManager)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.QuoteConnectionManager
+    name: QuoteConnectionManager
+    nameWithType: QuoteConnectionManager
+    fullName: SuperOffice.CRM.QuoteConnectionManager
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.QuoteConnectionManager
+    name: QuoteConnectionManager
+    nameWithType: QuoteConnectionManager
+    fullName: SuperOffice.CRM.QuoteConnectionManager
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.QuoteConnectionManager.Flush*
   commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.Flush
   isExternal: true
@@ -957,12 +1064,12 @@ references:
   name: PluginResponseInfo
   nameWithType: PluginResponseInfo
   fullName: SuperOffice.CRM.PluginResponseInfo
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponse*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponse
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponseAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponseAsync
   isExternal: true
-  name: GetConnectionStartupResponse
-  nameWithType: QuoteConnectionManager.GetConnectionStartupResponse
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponse
+  name: GetConnectionStartupResponseAsync
+  nameWithType: QuoteConnectionManager.GetConnectionStartupResponseAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionStartupResponseAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -970,19 +1077,98 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnection*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetConnection
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.PluginResponseInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.PluginResponseInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PluginResponseInfo>
+  nameWithType: Task<PluginResponseInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.PluginResponseInfo>
+  nameWithType.vb: Task(Of PluginResponseInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.PluginResponseInfo)
+  name.vb: Task(Of PluginResponseInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.PluginResponseInfo
+    name: PluginResponseInfo
+    nameWithType: PluginResponseInfo
+    fullName: SuperOffice.CRM.PluginResponseInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.PluginResponseInfo
+    name: PluginResponseInfo
+    nameWithType: PluginResponseInfo
+    fullName: SuperOffice.CRM.PluginResponseInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetConnectionAsync
   isExternal: true
-  name: GetConnection
-  nameWithType: QuoteConnectionManager.GetConnection
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnection
-- uid: SuperOffice.CRM.QuoteConnection
-  commentId: T:SuperOffice.CRM.QuoteConnection
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteConnection
-  nameWithType: QuoteConnection
-  fullName: SuperOffice.CRM.QuoteConnection
+  name: GetConnectionAsync
+  nameWithType: QuoteConnectionManager.GetConnectionAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.QuoteConnection}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.QuoteConnection}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<QuoteConnection>
+  nameWithType: Task<QuoteConnection>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.QuoteConnection>
+  nameWithType.vb: Task(Of QuoteConnection)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.QuoteConnection)
+  name.vb: Task(Of QuoteConnection)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.QuoteConnection
+    name: QuoteConnection
+    nameWithType: QuoteConnection
+    fullName: SuperOffice.CRM.QuoteConnection
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.QuoteConnection
+    name: QuoteConnection
+    nameWithType: QuoteConnection
+    fullName: SuperOffice.CRM.QuoteConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.QuoteConnectionManager.CreateConnection*
   commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.CreateConnection
   isExternal: true
@@ -996,46 +1182,66 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.QuoteConnectionManager.SaveConnection*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.SaveConnection
+- uid: SuperOffice.CRM.QuoteConnection
+  commentId: T:SuperOffice.CRM.QuoteConnection
+  parent: SuperOffice.CRM
   isExternal: true
-  name: SaveConnection
-  nameWithType: QuoteConnectionManager.SaveConnection
-  fullName: SuperOffice.CRM.QuoteConnectionManager.SaveConnection
-- uid: SuperOffice.CRM.QuoteConnectionManager.DeleteConnection*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.DeleteConnection
+  name: QuoteConnection
+  nameWithType: QuoteConnection
+  fullName: SuperOffice.CRM.QuoteConnection
+- uid: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.SaveConnectionAsync
   isExternal: true
-  name: DeleteConnection
-  nameWithType: QuoteConnectionManager.DeleteConnection
-  fullName: SuperOffice.CRM.QuoteConnectionManager.DeleteConnection
-- uid: SuperOffice.CRM.QuoteConnectionManager.RestoreConnection*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.RestoreConnection
+  name: SaveConnectionAsync
+  nameWithType: QuoteConnectionManager.SaveConnectionAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionAsync
+- uid: SuperOffice.CRM.QuoteConnectionManager.DeleteConnectionAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.DeleteConnectionAsync
   isExternal: true
-  name: RestoreConnection
-  nameWithType: QuoteConnectionManager.RestoreConnection
-  fullName: SuperOffice.CRM.QuoteConnectionManager.RestoreConnection
+  name: DeleteConnectionAsync
+  nameWithType: QuoteConnectionManager.DeleteConnectionAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.DeleteConnectionAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.QuoteConnectionManager.RestoreConnectionAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.RestoreConnectionAsync
+  isExternal: true
+  name: RestoreConnectionAsync
+  nameWithType: QuoteConnectionManager.RestoreConnectionAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.RestoreConnectionAsync
 - uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionsForAssociate*
   commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetConnectionsForAssociate
   isExternal: true
   name: GetConnectionsForAssociate
   nameWithType: QuoteConnectionManager.GetConnectionsForAssociate
   fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionsForAssociate
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFields*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFields
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFieldsAsync
   isExternal: true
-  name: GetConfigurationFields
-  nameWithType: QuoteConnectionManager.GetConfigurationFields
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFields
-- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}
-  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}'
-  definition: System.Collections.Generic.Dictionary`2
-  name: Dictionary<String, FieldMetadataInfo>
-  nameWithType: Dictionary<String, FieldMetadataInfo>
-  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.FieldMetadataInfo>
-  nameWithType.vb: Dictionary(Of String, FieldMetadataInfo)
-  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.FieldMetadataInfo)
-  name.vb: Dictionary(Of String, FieldMetadataInfo)
+  name: GetConfigurationFieldsAsync
+  nameWithType: QuoteConnectionManager.GetConfigurationFieldsAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConfigurationFieldsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Dictionary<String, FieldMetadataInfo>>
+  nameWithType: Task<Dictionary<String, FieldMetadataInfo>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.FieldMetadataInfo>>
+  nameWithType.vb: Task(Of Dictionary(Of String, FieldMetadataInfo))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.FieldMetadataInfo))
+  name.vb: Task(Of Dictionary(Of String, FieldMetadataInfo))
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     nameWithType: Dictionary
@@ -1060,7 +1266,18 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     nameWithType: Dictionary
@@ -1085,53 +1302,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.Dictionary`2
-  isExternal: true
-  name: Dictionary<, >
-  nameWithType: Dictionary<, >
-  fullName: System.Collections.Generic.Dictionary<, >
-  nameWithType.vb: Dictionary(Of , )
-  fullName.vb: System.Collections.Generic.Dictionary(Of , )
-  name.vb: Dictionary(Of , )
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -1200,37 +1370,247 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFields*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFields
+- uid: System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: GetConnectionConfigFields
-  nameWithType: QuoteConnectionManager.GetConnectionConfigFields
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFields
-- uid: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFields*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFields
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFieldsAsync
   isExternal: true
-  name: SaveConnectionConfigFields
-  nameWithType: QuoteConnectionManager.SaveConnectionConfigFields
-  fullName: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFields
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetProductImage*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetProductImage
+  name: GetConnectionConfigFieldsAsync
+  nameWithType: QuoteConnectionManager.GetConnectionConfigFieldsAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetConnectionConfigFieldsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Dictionary<String, String>>
+  nameWithType: Task<Dictionary<String, String>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<System.String, System.String>>
+  nameWithType.vb: Task(Of Dictionary(Of String, String))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: Task(Of Dictionary(Of String, String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFieldsAsync
   isExternal: true
-  name: GetProductImage
-  nameWithType: QuoteConnectionManager.GetProductImage
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetProductImage
-- uid: SuperOffice.CRM.QuoteConnectionManager.GetProduct*
-  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetProduct
+  name: SaveConnectionConfigFieldsAsync
+  nameWithType: QuoteConnectionManager.SaveConnectionConfigFieldsAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.SaveConnectionConfigFieldsAsync
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetProductImageAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetProductImageAsync
   isExternal: true
-  name: GetProduct
-  nameWithType: QuoteConnectionManager.GetProduct
-  fullName: SuperOffice.CRM.QuoteConnectionManager.GetProduct
-- uid: SuperOffice.CRM.ProductInfo
-  commentId: T:SuperOffice.CRM.ProductInfo
-  parent: SuperOffice.CRM
+  name: GetProductImageAsync
+  nameWithType: QuoteConnectionManager.GetProductImageAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetProductImageAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteConnectionManager.GetProductAsync*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.GetProductAsync
   isExternal: true
-  name: ProductInfo
-  nameWithType: ProductInfo
-  fullName: SuperOffice.CRM.ProductInfo
+  name: GetProductAsync
+  nameWithType: QuoteConnectionManager.GetProductAsync
+  fullName: SuperOffice.CRM.QuoteConnectionManager.GetProductAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.ProductInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.ProductInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProductInfo>
+  nameWithType: Task<ProductInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.ProductInfo>
+  nameWithType.vb: Task(Of ProductInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.ProductInfo)
+  name.vb: Task(Of ProductInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ProductInfo
+    name: ProductInfo
+    nameWithType: ProductInfo
+    fullName: SuperOffice.CRM.ProductInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ProductInfo
+    name: ProductInfo
+    nameWithType: ProductInfo
+    fullName: SuperOffice.CRM.ProductInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.QuoteConnectionManager.HasConnectionStartupErrors*
   commentId: Overload:SuperOffice.CRM.QuoteConnectionManager.HasConnectionStartupErrors
   isExternal: true

@@ -137,7 +137,6 @@ references:
   fullName: SuperOffice.CRM.Services.RecurrenceDate
 - uid: SuperOffice.CRM.Services.RecurrenceInfo
   commentId: T:SuperOffice.CRM.Services.RecurrenceInfo
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: RecurrenceInfo
   nameWithType: RecurrenceInfo

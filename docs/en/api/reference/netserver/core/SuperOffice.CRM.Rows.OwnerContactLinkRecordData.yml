@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.OwnerContactLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.OwnerContactLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.OwnerContactLinkRecordData)
   - SuperOffice.CRM.Rows.OwnerContactLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.OwnerContactLinkRecordData.SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.OwnerContactLinkRecordData.SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.OwnerContactLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordData.SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OwnerContactLinkRecordData)
+- uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordData.SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OwnerContactLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OwnerContactLinkRecordData)
-  name: ToInsert()
-  nameWithType: OwnerContactLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OwnerContactLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: OwnerContactLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: OwnerContactLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: OwnerContactLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: OwnerContactLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: OwnerContactLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OwnerContactLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OwnerContactLinkRecordData)
+- uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OwnerContactLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OwnerContactLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(OwnerContactLinkRecordData)
-  nameWithType: OwnerContactLinkRecordDataExtensions.ToInsert(OwnerContactLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OwnerContactLinkRecordData)
+  name: ToInsertAsync(OwnerContactLinkRecordData, CancellationToken)
+  nameWithType: OwnerContactLinkRecordDataExtensions.ToInsertAsync(OwnerContactLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OwnerContactLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OwnerContactLinkRecordData)
-    name: ToInsert
-    nameWithType: OwnerContactLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OwnerContactLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: OwnerContactLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: OwnerContactLinkRecordData
     nameWithType: OwnerContactLinkRecordData
     fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OwnerContactLinkRecordData)
-    name: ToInsert
-    nameWithType: OwnerContactLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.OwnerContactLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: OwnerContactLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: OwnerContactLinkRecordData
     nameWithType: OwnerContactLinkRecordData
     fullName: SuperOffice.CRM.Rows.OwnerContactLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

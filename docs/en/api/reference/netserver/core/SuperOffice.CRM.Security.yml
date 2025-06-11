@@ -349,7 +349,6 @@ references:
   fullName: SuperOffice.CRM.Security.Sentry
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
   commentId: T:SuperOffice.CRM.Security.Sentry.DataRightCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
   name: Sentry.DataRightCache
   nameWithType: Sentry.DataRightCache
@@ -446,21 +445,18 @@ references:
   fullName: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo
 - uid: SuperOffice.CRM.Security.EjCategoryCache
   commentId: T:SuperOffice.CRM.Security.EjCategoryCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
   name: EjCategoryCache
   nameWithType: EjCategoryCache
   fullName: SuperOffice.CRM.Security.EjCategoryCache
 - uid: SuperOffice.CRM.Security.ErpConnectionAccessCache
   commentId: T:SuperOffice.CRM.Security.ErpConnectionAccessCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
   name: ErpConnectionAccessCache
   nameWithType: ErpConnectionAccessCache
   fullName: SuperOffice.CRM.Security.ErpConnectionAccessCache
 - uid: SuperOffice.CRM.Security.FunctionRightCache
   commentId: T:SuperOffice.CRM.Security.FunctionRightCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
   name: FunctionRightCache
   nameWithType: FunctionRightCache
@@ -511,7 +507,6 @@ references:
   fullName: SuperOffice.CRM.Security.ISoDataLookup
 - uid: SuperOffice.CRM.Security.OwnerContactCache
   commentId: T:SuperOffice.CRM.Security.OwnerContactCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
   name: OwnerContactCache
   nameWithType: OwnerContactCache
@@ -579,7 +574,6 @@ references:
   fullName: SuperOffice.CRM.Security.QuoteAlternativeSentryQueryInfo
 - uid: SuperOffice.CRM.Security.QuoteLineConfigurationCache
   commentId: T:SuperOffice.CRM.Security.QuoteLineConfigurationCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
   name: QuoteLineConfigurationCache
   nameWithType: QuoteLineConfigurationCache
@@ -643,7 +637,6 @@ references:
   fullName: SuperOffice.CRM.Security.QuoteVersionSentryQueryInfo
 - uid: SuperOffice.CRM.Security.RefCountsPermissionCache
   commentId: T:SuperOffice.CRM.Security.RefCountsPermissionCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
   name: RefCountsPermissionCache
   nameWithType: RefCountsPermissionCache
@@ -849,7 +842,6 @@ references:
   fullName: SuperOffice.CRM.Security.SentryPluginQueryTableUpdaterAttribute
 - uid: SuperOffice.CRM.Security.SentryPreferenceCache
   commentId: T:SuperOffice.CRM.Security.SentryPreferenceCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
   name: SentryPreferenceCache
   nameWithType: SentryPreferenceCache
@@ -1039,7 +1031,6 @@ references:
   fullName: SuperOffice.CRM.Security.UDefFieldQueryInfo
 - uid: SuperOffice.CRM.Security.UserGroupCache
   commentId: T:SuperOffice.CRM.Security.UserGroupCache
-  parent: SuperOffice.CRM.Security
   isExternal: true
   name: UserGroupCache
   nameWithType: UserGroupCache

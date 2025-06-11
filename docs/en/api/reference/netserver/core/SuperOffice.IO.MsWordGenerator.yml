@@ -9,7 +9,7 @@ items:
   - SuperOffice.IO.MsWordGenerator.EndTag(System.Int32)
   - SuperOffice.IO.MsWordGenerator.IsValidTagData(System.Int32)
   - SuperOffice.IO.MsWordGenerator.OnEnd
-  - SuperOffice.IO.MsWordGenerator.OnProcessTag(System.Int64,System.Byte[])
+  - SuperOffice.IO.MsWordGenerator.OnProcessTagAsync(System.Int64,System.Byte[],System.Threading.CancellationToken)
   - SuperOffice.IO.MsWordGenerator.OnStart
   - SuperOffice.IO.MsWordGenerator.StartTag(System.Int32)
   langs:
@@ -36,9 +36,9 @@ items:
   - SuperOffice.IO.Generator
   - SuperOffice.IO.BinaryGenerator
   inheritedMembers:
-  - SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
-  - SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State)
-  - SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State,System.Int32)
+  - SuperOffice.IO.BinaryGenerator.GenerateAsync(System.IO.Stream,System.Threading.CancellationToken)
+  - SuperOffice.IO.BinaryGenerator.OnProcessDataAsync(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State,System.Threading.CancellationToken)
+  - SuperOffice.IO.BinaryGenerator.SetStateAsync(SuperOffice.IO.BinaryGenerator.State,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.IO.BinaryGenerator.AbortTag
   - SuperOffice.IO.BinaryGenerator.AbortTag(System.Int32)
   - SuperOffice.IO.BinaryGenerator.GeneratorState
@@ -56,9 +56,9 @@ items:
   - SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String,System.String)
   - SuperOffice.IO.Generator.AddExtensionMapping(System.String,System.String)
   - SuperOffice.IO.Generator.GetEncoding(System.String)
-  - SuperOffice.IO.Generator.Generate
+  - SuperOffice.IO.Generator.GenerateAsync(System.Threading.CancellationToken)
   - SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
-  - SuperOffice.IO.Generator.GetTagData(System.String)
+  - SuperOffice.IO.Generator.GetTagDataAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
   - SuperOffice.IO.Generator.UiCulture
   - SuperOffice.IO.Generator.Template
@@ -141,16 +141,16 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.IO.MsWordGenerator.OnProcessTag(System.Int64,System.Byte[])
-  commentId: M:SuperOffice.IO.MsWordGenerator.OnProcessTag(System.Int64,System.Byte[])
-  id: OnProcessTag(System.Int64,System.Byte[])
+- uid: SuperOffice.IO.MsWordGenerator.OnProcessTagAsync(System.Int64,System.Byte[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.MsWordGenerator.OnProcessTagAsync(System.Int64,System.Byte[],System.Threading.CancellationToken)
+  id: OnProcessTagAsync(System.Int64,System.Byte[],System.Threading.CancellationToken)
   parent: SuperOffice.IO.MsWordGenerator
   langs:
   - csharp
   - vb
-  name: OnProcessTag(Int64, Byte[])
-  nameWithType: MsWordGenerator.OnProcessTag(Int64, Byte[])
-  fullName: SuperOffice.IO.MsWordGenerator.OnProcessTag(System.Int64, System.Byte[])
+  name: OnProcessTagAsync(Int64, Byte[], CancellationToken)
+  nameWithType: MsWordGenerator.OnProcessTagAsync(Int64, Byte[], CancellationToken)
+  fullName: SuperOffice.IO.MsWordGenerator.OnProcessTagAsync(System.Int64, System.Byte[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -161,7 +161,7 @@ items:
   summary: "\nCalled when a tag has been estracted from the template file.\n"
   remarks: "\nStrings in word documents are either in Windows 1252 or UTF 16 Little endian encoding.  \nString data is held in blocks of 512 characters.  There might be one, but not more \nthan one, switch of encoding within a tag.\n"
   syntax:
-    content: protected override byte[] OnProcessTag(long position, byte[] tagBuffer)
+    content: protected override Task<byte[]> OnProcessTagAsync(long position, byte[] tagBuffer, CancellationToken cancellationToken = null)
     parameters:
     - id: position
       type: System.Int64
@@ -169,21 +169,23 @@ items:
     - id: tagBuffer
       type: System.Byte[]
       description: Buffer holding the tag, including tag start and stop bytes,
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Byte[]
+      type: System.Threading.Tasks.Task{System.Byte[]}
       description: Buffer holding data to be written to the document instead of the tag.
-    content.vb: Protected Overrides Function OnProcessTag(position As Long, tagBuffer As Byte()) As Byte()
-  overridden: SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64,System.Byte[])
-  overload: SuperOffice.IO.MsWordGenerator.OnProcessTag*
-  nameWithType.vb: MsWordGenerator.OnProcessTag(Int64, Byte())
+    content.vb: Protected Overrides Function OnProcessTagAsync(position As Long, tagBuffer As Byte(), cancellationToken As CancellationToken = Nothing) As Task(Of Byte())
+  overridden: SuperOffice.IO.BinaryGenerator.OnProcessTagAsync(System.Int64,System.Byte[],System.Threading.CancellationToken)
+  overload: SuperOffice.IO.MsWordGenerator.OnProcessTagAsync*
+  nameWithType.vb: MsWordGenerator.OnProcessTagAsync(Int64, Byte(), CancellationToken)
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-  fullName.vb: SuperOffice.IO.MsWordGenerator.OnProcessTag(System.Int64, System.Byte())
-  name.vb: OnProcessTag(Int64, Byte())
+  fullName.vb: SuperOffice.IO.MsWordGenerator.OnProcessTagAsync(System.Int64, System.Byte(), System.Threading.CancellationToken)
+  name.vb: OnProcessTagAsync(Int64, Byte(), CancellationToken)
 - uid: SuperOffice.IO.MsWordGenerator.OnEnd
   commentId: M:SuperOffice.IO.MsWordGenerator.OnEnd
   id: OnEnd
@@ -349,18 +351,18 @@ references:
   name: BinaryGenerator
   nameWithType: BinaryGenerator
   fullName: SuperOffice.IO.BinaryGenerator
-- uid: SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
-  commentId: M:SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
+- uid: SuperOffice.IO.BinaryGenerator.GenerateAsync(System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.BinaryGenerator.GenerateAsync(System.IO.Stream,System.Threading.CancellationToken)
   parent: SuperOffice.IO.BinaryGenerator
   isExternal: true
-  name: Generate(Stream)
-  nameWithType: BinaryGenerator.Generate(Stream)
-  fullName: SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
+  name: GenerateAsync(Stream, CancellationToken)
+  nameWithType: BinaryGenerator.GenerateAsync(Stream, CancellationToken)
+  fullName: SuperOffice.IO.BinaryGenerator.GenerateAsync(System.IO.Stream, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
-    name: Generate
-    nameWithType: BinaryGenerator.Generate
-    fullName: SuperOffice.IO.BinaryGenerator.Generate
+  - uid: SuperOffice.IO.BinaryGenerator.GenerateAsync(System.IO.Stream,System.Threading.CancellationToken)
+    name: GenerateAsync
+    nameWithType: BinaryGenerator.GenerateAsync
+    fullName: SuperOffice.IO.BinaryGenerator.GenerateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -369,15 +371,23 @@ references:
     name: Stream
     nameWithType: Stream
     fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
-    name: Generate
-    nameWithType: BinaryGenerator.Generate
-    fullName: SuperOffice.IO.BinaryGenerator.Generate
+  - uid: SuperOffice.IO.BinaryGenerator.GenerateAsync(System.IO.Stream,System.Threading.CancellationToken)
+    name: GenerateAsync
+    nameWithType: BinaryGenerator.GenerateAsync
+    fullName: SuperOffice.IO.BinaryGenerator.GenerateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -387,21 +397,29 @@ references:
     nameWithType: Stream
     fullName: System.IO.Stream
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State)
-  commentId: M:SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State)
+- uid: SuperOffice.IO.BinaryGenerator.OnProcessDataAsync(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.BinaryGenerator.OnProcessDataAsync(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State,System.Threading.CancellationToken)
   parent: SuperOffice.IO.BinaryGenerator
   isExternal: true
-  name: OnProcessData(Int64, Int32, BinaryGenerator.State)
-  nameWithType: BinaryGenerator.OnProcessData(Int64, Int32, BinaryGenerator.State)
-  fullName: SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64, System.Int32, SuperOffice.IO.BinaryGenerator.State)
+  name: OnProcessDataAsync(Int64, Int32, BinaryGenerator.State, CancellationToken)
+  nameWithType: BinaryGenerator.OnProcessDataAsync(Int64, Int32, BinaryGenerator.State, CancellationToken)
+  fullName: SuperOffice.IO.BinaryGenerator.OnProcessDataAsync(System.Int64, System.Int32, SuperOffice.IO.BinaryGenerator.State, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State)
-    name: OnProcessData
-    nameWithType: BinaryGenerator.OnProcessData
-    fullName: SuperOffice.IO.BinaryGenerator.OnProcessData
+  - uid: SuperOffice.IO.BinaryGenerator.OnProcessDataAsync(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State,System.Threading.CancellationToken)
+    name: OnProcessDataAsync
+    nameWithType: BinaryGenerator.OnProcessDataAsync
+    fullName: SuperOffice.IO.BinaryGenerator.OnProcessDataAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -427,14 +445,22 @@ references:
     nameWithType: BinaryGenerator.State
     fullName: SuperOffice.IO.BinaryGenerator.State
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State)
-    name: OnProcessData
-    nameWithType: BinaryGenerator.OnProcessData
-    fullName: SuperOffice.IO.BinaryGenerator.OnProcessData
+  - uid: SuperOffice.IO.BinaryGenerator.OnProcessDataAsync(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State,System.Threading.CancellationToken)
+    name: OnProcessDataAsync
+    nameWithType: BinaryGenerator.OnProcessDataAsync
+    fullName: SuperOffice.IO.BinaryGenerator.OnProcessDataAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -460,21 +486,29 @@ references:
     nameWithType: BinaryGenerator.State
     fullName: SuperOffice.IO.BinaryGenerator.State
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State,System.Int32)
-  commentId: M:SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State,System.Int32)
+- uid: SuperOffice.IO.BinaryGenerator.SetStateAsync(SuperOffice.IO.BinaryGenerator.State,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.BinaryGenerator.SetStateAsync(SuperOffice.IO.BinaryGenerator.State,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.IO.BinaryGenerator
   isExternal: true
-  name: SetState(BinaryGenerator.State, Int32)
-  nameWithType: BinaryGenerator.SetState(BinaryGenerator.State, Int32)
-  fullName: SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State, System.Int32)
+  name: SetStateAsync(BinaryGenerator.State, Int32, CancellationToken)
+  nameWithType: BinaryGenerator.SetStateAsync(BinaryGenerator.State, Int32, CancellationToken)
+  fullName: SuperOffice.IO.BinaryGenerator.SetStateAsync(SuperOffice.IO.BinaryGenerator.State, System.Int32, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State,System.Int32)
-    name: SetState
-    nameWithType: BinaryGenerator.SetState
-    fullName: SuperOffice.IO.BinaryGenerator.SetState
+  - uid: SuperOffice.IO.BinaryGenerator.SetStateAsync(SuperOffice.IO.BinaryGenerator.State,System.Int32,System.Threading.CancellationToken)
+    name: SetStateAsync
+    nameWithType: BinaryGenerator.SetStateAsync
+    fullName: SuperOffice.IO.BinaryGenerator.SetStateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -491,15 +525,23 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State,System.Int32)
-    name: SetState
-    nameWithType: BinaryGenerator.SetState
-    fullName: SuperOffice.IO.BinaryGenerator.SetState
+  - uid: SuperOffice.IO.BinaryGenerator.SetStateAsync(SuperOffice.IO.BinaryGenerator.State,System.Int32,System.Threading.CancellationToken)
+    name: SetStateAsync
+    nameWithType: BinaryGenerator.SetStateAsync
+    fullName: SuperOffice.IO.BinaryGenerator.SetStateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -516,6 +558,14 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -1293,34 +1343,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.Generator.Generate
-  commentId: M:SuperOffice.IO.Generator.Generate
+- uid: SuperOffice.IO.Generator.GenerateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Generator.GenerateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  name: Generate()
-  nameWithType: Generator.Generate()
-  fullName: SuperOffice.IO.Generator.Generate()
+  name: GenerateAsync(CancellationToken)
+  nameWithType: Generator.GenerateAsync(CancellationToken)
+  fullName: SuperOffice.IO.Generator.GenerateAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.Generator.Generate
-    name: Generate
-    nameWithType: Generator.Generate
-    fullName: SuperOffice.IO.Generator.Generate
+  - uid: SuperOffice.IO.Generator.GenerateAsync(System.Threading.CancellationToken)
+    name: GenerateAsync
+    nameWithType: Generator.GenerateAsync
+    fullName: SuperOffice.IO.Generator.GenerateAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.Generator.Generate
-    name: Generate
-    nameWithType: Generator.Generate
-    fullName: SuperOffice.IO.Generator.Generate
+  - uid: SuperOffice.IO.Generator.GenerateAsync(System.Threading.CancellationToken)
+    name: GenerateAsync
+    nameWithType: Generator.GenerateAsync
+    fullName: SuperOffice.IO.Generator.GenerateAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1365,18 +1425,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.Generator.GetTagData(System.String)
-  commentId: M:SuperOffice.IO.Generator.GetTagData(System.String)
+- uid: SuperOffice.IO.Generator.GetTagDataAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.Generator.GetTagDataAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  name: GetTagData(String)
-  nameWithType: Generator.GetTagData(String)
-  fullName: SuperOffice.IO.Generator.GetTagData(System.String)
+  name: GetTagDataAsync(String, CancellationToken)
+  nameWithType: Generator.GetTagDataAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.Generator.GetTagDataAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.Generator.GetTagData(System.String)
-    name: GetTagData
-    nameWithType: Generator.GetTagData
-    fullName: SuperOffice.IO.Generator.GetTagData
+  - uid: SuperOffice.IO.Generator.GetTagDataAsync(System.String,System.Threading.CancellationToken)
+    name: GetTagDataAsync
+    nameWithType: Generator.GetTagDataAsync
+    fullName: SuperOffice.IO.Generator.GetTagDataAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1385,15 +1445,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.Generator.GetTagData(System.String)
-    name: GetTagData
-    nameWithType: Generator.GetTagData
-    fullName: SuperOffice.IO.Generator.GetTagData
+  - uid: SuperOffice.IO.Generator.GetTagDataAsync(System.String,System.Threading.CancellationToken)
+    name: GetTagDataAsync
+    nameWithType: Generator.GetTagDataAsync
+    fullName: SuperOffice.IO.Generator.GetTagDataAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1402,6 +1470,14 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -1728,21 +1804,21 @@ references:
   name: OnStart
   nameWithType: MsWordGenerator.OnStart
   fullName: SuperOffice.IO.MsWordGenerator.OnStart
-- uid: SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64,System.Byte[])
-  commentId: M:SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64,System.Byte[])
+- uid: SuperOffice.IO.BinaryGenerator.OnProcessTagAsync(System.Int64,System.Byte[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.BinaryGenerator.OnProcessTagAsync(System.Int64,System.Byte[],System.Threading.CancellationToken)
   parent: SuperOffice.IO.BinaryGenerator
   isExternal: true
-  name: OnProcessTag(Int64, Byte[])
-  nameWithType: BinaryGenerator.OnProcessTag(Int64, Byte[])
-  fullName: SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64, System.Byte[])
-  nameWithType.vb: BinaryGenerator.OnProcessTag(Int64, Byte())
-  fullName.vb: SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64, System.Byte())
-  name.vb: OnProcessTag(Int64, Byte())
+  name: OnProcessTagAsync(Int64, Byte[], CancellationToken)
+  nameWithType: BinaryGenerator.OnProcessTagAsync(Int64, Byte[], CancellationToken)
+  fullName: SuperOffice.IO.BinaryGenerator.OnProcessTagAsync(System.Int64, System.Byte[], System.Threading.CancellationToken)
+  nameWithType.vb: BinaryGenerator.OnProcessTagAsync(Int64, Byte(), CancellationToken)
+  fullName.vb: SuperOffice.IO.BinaryGenerator.OnProcessTagAsync(System.Int64, System.Byte(), System.Threading.CancellationToken)
+  name.vb: OnProcessTagAsync(Int64, Byte(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64,System.Byte[])
-    name: OnProcessTag
-    nameWithType: BinaryGenerator.OnProcessTag
-    fullName: SuperOffice.IO.BinaryGenerator.OnProcessTag
+  - uid: SuperOffice.IO.BinaryGenerator.OnProcessTagAsync(System.Int64,System.Byte[],System.Threading.CancellationToken)
+    name: OnProcessTagAsync
+    nameWithType: BinaryGenerator.OnProcessTagAsync
+    fullName: SuperOffice.IO.BinaryGenerator.OnProcessTagAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1763,14 +1839,22 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64,System.Byte[])
-    name: OnProcessTag
-    nameWithType: BinaryGenerator.OnProcessTag
-    fullName: SuperOffice.IO.BinaryGenerator.OnProcessTag
+  - uid: SuperOffice.IO.BinaryGenerator.OnProcessTagAsync(System.Int64,System.Byte[],System.Threading.CancellationToken)
+    name: OnProcessTagAsync
+    nameWithType: BinaryGenerator.OnProcessTagAsync
+    fullName: SuperOffice.IO.BinaryGenerator.OnProcessTagAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1791,15 +1875,23 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.MsWordGenerator.OnProcessTag*
-  commentId: Overload:SuperOffice.IO.MsWordGenerator.OnProcessTag
+- uid: SuperOffice.IO.MsWordGenerator.OnProcessTagAsync*
+  commentId: Overload:SuperOffice.IO.MsWordGenerator.OnProcessTagAsync
   isExternal: true
-  name: OnProcessTag
-  nameWithType: MsWordGenerator.OnProcessTag
-  fullName: SuperOffice.IO.MsWordGenerator.OnProcessTag
+  name: OnProcessTagAsync
+  nameWithType: MsWordGenerator.OnProcessTagAsync
+  fullName: SuperOffice.IO.MsWordGenerator.OnProcessTagAsync
 - uid: System.Int64
   commentId: T:System.Int64
   parent: System
@@ -1833,6 +1925,98 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Byte[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Byte[]>
+  nameWithType: Task<Byte[]>
+  fullName: System.Threading.Tasks.Task<System.Byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.BinaryGenerator.OnEnd
   commentId: M:SuperOffice.IO.BinaryGenerator.OnEnd
   parent: SuperOffice.IO.BinaryGenerator

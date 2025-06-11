@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.DbiAgentFieldRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.DbiAgentFieldRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DbiAgentFieldRecordData)
   - SuperOffice.CRM.Rows.DbiAgentFieldRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.DbiAgentFieldRecordData.SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.DbiAgentFieldRecordData.SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.DbiAgentFieldRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordData.SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentFieldRecordData)
+- uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordData.SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DbiAgentFieldRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentFieldRecordData)
-  name: ToInsert()
-  nameWithType: DbiAgentFieldRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DbiAgentFieldRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: DbiAgentFieldRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: DbiAgentFieldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DbiAgentFieldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: DbiAgentFieldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DbiAgentFieldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentFieldRecordData)
-  commentId: M:SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentFieldRecordData)
+- uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DbiAgentFieldRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DbiAgentFieldRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(DbiAgentFieldRecordData)
-  nameWithType: DbiAgentFieldRecordDataExtensions.ToInsert(DbiAgentFieldRecordData)
-  fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentFieldRecordData)
+  name: ToInsertAsync(DbiAgentFieldRecordData, CancellationToken)
+  nameWithType: DbiAgentFieldRecordDataExtensions.ToInsertAsync(DbiAgentFieldRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DbiAgentFieldRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentFieldRecordData)
-    name: ToInsert
-    nameWithType: DbiAgentFieldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DbiAgentFieldRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DbiAgentFieldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: DbiAgentFieldRecordData
     nameWithType: DbiAgentFieldRecordData
     fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentFieldRecordData)
-    name: ToInsert
-    nameWithType: DbiAgentFieldRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DbiAgentFieldRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DbiAgentFieldRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: DbiAgentFieldRecordData
     nameWithType: DbiAgentFieldRecordData
     fullName: SuperOffice.CRM.Rows.DbiAgentFieldRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

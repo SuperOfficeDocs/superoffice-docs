@@ -1,0 +1,547 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  id: ConfigFile.IBatchServiceConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.CPUThreshold
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.MaxTasks
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.PollingInterval
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.RunTasksInProcess
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ServiceName
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IBatchServiceConfiguration
+  nameWithType: ConfigFile.IBatchServiceConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values for the Windows batch task service (SoBatchService)\nCreated in Database scope\n"
+  syntax:
+    content: public interface IBatchServiceConfiguration
+    content.vb: Public Interface IBatchServiceConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ServiceName
+  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ServiceName
+  id: ServiceName
+  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ServiceName
+  nameWithType: ConfigFile.IBatchServiceConfiguration.ServiceName
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ServiceName
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the name of the service. This name is the one used to install the service under the service control manager in windows. If you want more than one of this service installed on the same machine, this setting must be unique for each service.\n"
+  syntax:
+    content: string ServiceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ServiceName As String
+  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ServiceName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.MaxTasks
+  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.MaxTasks
+  id: MaxTasks
+  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MaxTasks
+  nameWithType: ConfigFile.IBatchServiceConfiguration.MaxTasks
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.MaxTasks
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nMaximum number of tasks to spawn simultaneously.\n"
+  syntax:
+    content: int MaxTasks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property MaxTasks As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.MaxTasks*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.CPUThreshold
+  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.CPUThreshold
+  id: CPUThreshold
+  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CPUThreshold
+  nameWithType: ConfigFile.IBatchServiceConfiguration.CPUThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.CPUThreshold
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCPU Threshold value in percentage. This value is used to check the computer&apos;s cpu load when spawning a new task. If the total cpu usage is above this value, no more tasks will be started even though max tasks has not been reached.\n"
+  syntax:
+    content: int CPUThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property CPUThreshold As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.CPUThreshold*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.PollingInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.PollingInterval
+  id: PollingInterval
+  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PollingInterval
+  nameWithType: ConfigFile.IBatchServiceConfiguration.PollingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.PollingInterval
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the number of seconds to sleep between each time the service checks for new tasks.\n"
+  syntax:
+    content: int PollingInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property PollingInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.PollingInterval*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
+  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
+  id: DiagnosticsWebUri
+  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DiagnosticsWebUri
+  nameWithType: ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the url that the machine should bind against when starting the http monitor utility that displays the current state and log in a browser.\n"
+  syntax:
+    content: string DiagnosticsWebUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DiagnosticsWebUri As String
+  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
+  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
+  id: ImpersonateReporterPlugin
+  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ImpersonateReporterPlugin
+  nameWithType: ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns true/false if the batch service should impersonate the reporter executor with the document identity.\n"
+  syntax:
+    content: bool ImpersonateReporterPlugin { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ImpersonateReporterPlugin As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
+  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
+  id: ReporterPath
+  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ReporterPath
+  nameWithType: ConfigFile.IBatchServiceConfiguration.ReporterPath
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the path to the reporter executer file. This can be left blank to try the default paths. If the batch service is located in the default location (same location as CRM.Web), there should be no need to change this value. Also note that CRM.Web has a similar field in it&apos;s configuration. This specific configuration field should only be used when CRM.Web and the Batch Service are located on different machines.\n"
+  syntax:
+    content: string ReporterPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ReporterPath As String
+  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout
+  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout
+  id: TaskTimeout
+  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TaskTimeout
+  nameWithType: ConfigFile.IBatchServiceConfiguration.TaskTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the timeout in seconds for spawned tasks. -1 is infinity.\n"
+  syntax:
+    content: int TaskTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property TaskTimeout As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.RunTasksInProcess
+  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.RunTasksInProcess
+  id: RunTasksInProcess
+  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: RunTasksInProcess
+  nameWithType: ConfigFile.IBatchServiceConfiguration.RunTasksInProcess
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.RunTasksInProcess
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSet this property to true if batch tasks should be run inprocess (as an asynchron operation) or if it should run under the batch service. Default value is false.\n"
+  syntax:
+    content: bool RunTasksInProcess { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property RunTasksInProcess As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.RunTasksInProcess*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IBatchServiceConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IBatchServiceConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IBatchServiceConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IBatchServiceConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IBatchServiceConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IBatchServiceConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IBatchServiceConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IBatchServiceConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IBatchServiceConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IBatchServiceConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IBatchServiceConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IBatchServiceConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IBatchServiceConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IBatchServiceConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IBatchServiceConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IBatchServiceConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ServiceName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ServiceName
+  isExternal: true
+  name: ServiceName
+  nameWithType: ConfigFile.IBatchServiceConfiguration.ServiceName
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ServiceName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.MaxTasks*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.MaxTasks
+  isExternal: true
+  name: MaxTasks
+  nameWithType: ConfigFile.IBatchServiceConfiguration.MaxTasks
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.MaxTasks
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.CPUThreshold*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.CPUThreshold
+  isExternal: true
+  name: CPUThreshold
+  nameWithType: ConfigFile.IBatchServiceConfiguration.CPUThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.CPUThreshold
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.PollingInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.PollingInterval
+  isExternal: true
+  name: PollingInterval
+  nameWithType: ConfigFile.IBatchServiceConfiguration.PollingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.PollingInterval
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
+  isExternal: true
+  name: DiagnosticsWebUri
+  nameWithType: ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
+  isExternal: true
+  name: ImpersonateReporterPlugin
+  nameWithType: ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
+  isExternal: true
+  name: ReporterPath
+  nameWithType: ConfigFile.IBatchServiceConfiguration.ReporterPath
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout
+  isExternal: true
+  name: TaskTimeout
+  nameWithType: ConfigFile.IBatchServiceConfiguration.TaskTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout
+- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.RunTasksInProcess*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.RunTasksInProcess
+  isExternal: true
+  name: RunTasksInProcess
+  nameWithType: ConfigFile.IBatchServiceConfiguration.RunTasksInProcess
+  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.RunTasksInProcess

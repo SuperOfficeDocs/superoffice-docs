@@ -6,11 +6,11 @@ items:
   parent: SuperOffice.CRM.Notification
   children:
   - SuperOffice.CRM.Notification.NotificationEventHandler.#ctor
-  - SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32,System.Collections.Generic.IEnumerable{System.Int32})
-  - SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32,System.Int32)
-  - SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUser(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Int32)
-  - SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
-  - SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUserAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Notification.NotificationEventHandler.SendMessageToOurself
   - SuperOffice.CRM.Notification.NotificationEventHandler.SilentExceptions
   langs:
@@ -70,16 +70,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32,System.Int32)
-  id: NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32,System.Int32)
+- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Notification.NotificationEventHandler
   langs:
   - csharp
   - vb
-  name: NotificationHandled(NotificationEventType, Int32, Int32)
-  nameWithType: NotificationEventHandler.NotificationHandled(NotificationEventType, Int32, Int32)
-  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled(SuperOffice.Data.NotificationEventType, System.Int32, System.Int32)
+  name: NotificationHandledAsync(NotificationEventType, Int32, Int32, CancellationToken)
+  nameWithType: NotificationEventHandler.NotificationHandledAsync(NotificationEventType, Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync(SuperOffice.Data.NotificationEventType, System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -88,7 +88,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
   syntax:
-    content: public void NotificationHandled(NotificationEventType eventType, int recordId, int associateId)
+    content: public Task NotificationHandledAsync(NotificationEventType eventType, int recordId, int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: eventType
       type: SuperOffice.Data.NotificationEventType
@@ -96,22 +96,26 @@ items:
       type: System.Int32
     - id: associateId
       type: System.Int32
-    content.vb: Public Sub NotificationHandled(eventType As NotificationEventType, recordId As Integer, associateId As Integer)
-  overload: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function NotificationHandledAsync(eventType As NotificationEventType, recordId As Integer, associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32,System.Collections.Generic.IEnumerable{System.Int32})
-  commentId: M:SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32,System.Collections.Generic.IEnumerable{System.Int32})
-  id: NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32,System.Collections.Generic.IEnumerable{System.Int32})
+- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  id: NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Notification.NotificationEventHandler
   langs:
   - csharp
   - vb
-  name: NotificationHandled(NotificationEventType, Int32, IEnumerable<Int32>)
-  nameWithType: NotificationEventHandler.NotificationHandled(NotificationEventType, Int32, IEnumerable<Int32>)
-  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled(SuperOffice.Data.NotificationEventType, System.Int32, System.Collections.Generic.IEnumerable<System.Int32>)
+  name: NotificationHandledAsync(NotificationEventType, Int32, IEnumerable<Int32>, CancellationToken)
+  nameWithType: NotificationEventHandler.NotificationHandledAsync(NotificationEventType, Int32, IEnumerable<Int32>, CancellationToken)
+  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync(SuperOffice.Data.NotificationEventType, System.Int32, System.Collections.Generic.IEnumerable<System.Int32>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -120,7 +124,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
   syntax:
-    content: public void NotificationHandled(NotificationEventType eventType, int recordId, IEnumerable<int> associateIds = null)
+    content: public Task NotificationHandledAsync(NotificationEventType eventType, int recordId, IEnumerable<int> associateIds = null, CancellationToken cancellationToken = null)
     parameters:
     - id: eventType
       type: SuperOffice.Data.NotificationEventType
@@ -128,25 +132,29 @@ items:
       type: System.Int32
     - id: associateIds
       type: System.Collections.Generic.IEnumerable{System.Int32}
-    content.vb: Public Sub NotificationHandled(eventType As NotificationEventType, recordId As Integer, associateIds As IEnumerable(Of Integer) = Nothing)
-  overload: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled*
-  nameWithType.vb: NotificationEventHandler.NotificationHandled(NotificationEventType, Int32, IEnumerable(Of Int32))
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function NotificationHandledAsync(eventType As NotificationEventType, recordId As Integer, associateIds As IEnumerable(Of Integer) = Nothing, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync*
+  nameWithType.vb: NotificationEventHandler.NotificationHandledAsync(NotificationEventType, Int32, IEnumerable(Of Int32), CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled(SuperOffice.Data.NotificationEventType, System.Int32, System.Collections.Generic.IEnumerable(Of System.Int32))
-  name.vb: NotificationHandled(NotificationEventType, Int32, IEnumerable(Of Int32))
-- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
-  commentId: M:SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
-  id: NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
+  fullName.vb: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync(SuperOffice.Data.NotificationEventType, System.Int32, System.Collections.Generic.IEnumerable(Of System.Int32), System.Threading.CancellationToken)
+  name.vb: NotificationHandledAsync(NotificationEventType, Int32, IEnumerable(Of Int32), CancellationToken)
+- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
+  id: NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Notification.NotificationEventHandler
   langs:
   - csharp
   - vb
-  name: NotifyUsers(NotificationEventType, Int32)
-  nameWithType: NotificationEventHandler.NotifyUsers(NotificationEventType, Int32)
-  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers(SuperOffice.Data.NotificationEventType, System.Int32)
+  name: NotifyUsersAsync(NotificationEventType, Int32, CancellationToken)
+  nameWithType: NotificationEventHandler.NotifyUsersAsync(NotificationEventType, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync(SuperOffice.Data.NotificationEventType, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -156,28 +164,32 @@ items:
   namespace: SuperOffice.CRM.Notification
   summary: "\nUsed for events where all meta data can be retrieved from the recordId\n"
   syntax:
-    content: public void NotifyUsers(NotificationEventType eventType, int recordId)
+    content: public Task NotifyUsersAsync(NotificationEventType eventType, int recordId, CancellationToken cancellationToken = null)
     parameters:
     - id: eventType
       type: SuperOffice.Data.NotificationEventType
     - id: recordId
       type: System.Int32
-    content.vb: Public Sub NotifyUsers(eventType As NotificationEventType, recordId As Integer)
-  overload: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function NotifyUsersAsync(eventType As NotificationEventType, recordId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUser(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Int32)
-  commentId: M:SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUser(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Int32)
-  id: NotifyUser(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Int32)
+- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUserAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUserAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Int32,System.Threading.CancellationToken)
+  id: NotifyUserAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Notification.NotificationEventHandler
   langs:
   - csharp
   - vb
-  name: NotifyUser(NotificationEventType, Int32, DateTime, Int32)
-  nameWithType: NotificationEventHandler.NotifyUser(NotificationEventType, Int32, DateTime, Int32)
-  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUser(SuperOffice.Data.NotificationEventType, System.Int32, System.DateTime, System.Int32)
+  name: NotifyUserAsync(NotificationEventType, Int32, DateTime, Int32, CancellationToken)
+  nameWithType: NotificationEventHandler.NotifyUserAsync(NotificationEventType, Int32, DateTime, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUserAsync(SuperOffice.Data.NotificationEventType, System.Int32, System.DateTime, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -187,7 +199,7 @@ items:
   namespace: SuperOffice.CRM.Notification
   summary: "\nNotify a single user about a specific event\n"
   syntax:
-    content: public void NotifyUser(NotificationEventType eventType, int recordId, DateTime eventDate, int associateId)
+    content: public Task NotifyUserAsync(NotificationEventType eventType, int recordId, DateTime eventDate, int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: eventType
       type: SuperOffice.Data.NotificationEventType
@@ -197,22 +209,26 @@ items:
       type: System.DateTime
     - id: associateId
       type: System.Int32
-    content.vb: Public Sub NotifyUser(eventType As NotificationEventType, recordId As Integer, eventDate As DateTime, associateId As Integer)
-  overload: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUser*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function NotifyUserAsync(eventType As NotificationEventType, recordId As Integer, eventDate As DateTime, associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUserAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.Dictionary{System.String,System.String})
-  commentId: M:SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.Dictionary{System.String,System.String})
-  id: NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.Dictionary{System.String,System.String})
+- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken)
+  id: NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.DateTime,System.Collections.Generic.IEnumerable{System.Int32},System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Notification.NotificationEventHandler
   langs:
   - csharp
   - vb
-  name: NotifyUsers(NotificationEventType, Int32, DateTime, IEnumerable<Int32>, Dictionary<String, String>)
-  nameWithType: NotificationEventHandler.NotifyUsers(NotificationEventType, Int32, DateTime, IEnumerable<Int32>, Dictionary<String, String>)
-  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers(SuperOffice.Data.NotificationEventType, System.Int32, System.DateTime, System.Collections.Generic.IEnumerable<System.Int32>, System.Collections.Generic.Dictionary<System.String, System.String>)
+  name: NotifyUsersAsync(NotificationEventType, Int32, DateTime, IEnumerable<Int32>, Dictionary<String, String>, CancellationToken)
+  nameWithType: NotificationEventHandler.NotifyUsersAsync(NotificationEventType, Int32, DateTime, IEnumerable<Int32>, Dictionary<String, String>, CancellationToken)
+  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync(SuperOffice.Data.NotificationEventType, System.Int32, System.DateTime, System.Collections.Generic.IEnumerable<System.Int32>, System.Collections.Generic.Dictionary<System.String, System.String>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -221,7 +237,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
   syntax:
-    content: public void NotifyUsers(NotificationEventType eventType, int recordId, DateTime eventDate, IEnumerable<int> associateIds = null, Dictionary<string, string> extraValues = null)
+    content: public Task NotifyUsersAsync(NotificationEventType eventType, int recordId, DateTime eventDate, IEnumerable<int> associateIds = null, Dictionary<string, string> extraValues = null, CancellationToken cancellationToken = null)
     parameters:
     - id: eventType
       type: SuperOffice.Data.NotificationEventType
@@ -233,15 +249,19 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Int32}
     - id: extraValues
       type: System.Collections.Generic.Dictionary{System.String,System.String}
-    content.vb: Public Sub NotifyUsers(eventType As NotificationEventType, recordId As Integer, eventDate As DateTime, associateIds As IEnumerable(Of Integer) = Nothing, extraValues As Dictionary(Of String, String) = Nothing)
-  overload: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers*
-  nameWithType.vb: NotificationEventHandler.NotifyUsers(NotificationEventType, Int32, DateTime, IEnumerable(Of Int32), Dictionary(Of String, String))
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function NotifyUsersAsync(eventType As NotificationEventType, recordId As Integer, eventDate As DateTime, associateIds As IEnumerable(Of Integer) = Nothing, extraValues As Dictionary(Of String, String) = Nothing, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync*
+  nameWithType.vb: NotificationEventHandler.NotifyUsersAsync(NotificationEventType, Int32, DateTime, IEnumerable(Of Int32), Dictionary(Of String, String), CancellationToken)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers(SuperOffice.Data.NotificationEventType, System.Int32, System.DateTime, System.Collections.Generic.IEnumerable(Of System.Int32), System.Collections.Generic.Dictionary(Of System.String, System.String))
-  name.vb: NotifyUsers(NotificationEventType, Int32, DateTime, IEnumerable(Of Int32), Dictionary(Of String, String))
+  fullName.vb: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync(SuperOffice.Data.NotificationEventType, System.Int32, System.DateTime, System.Collections.Generic.IEnumerable(Of System.Int32), System.Collections.Generic.Dictionary(Of System.String, System.String), System.Threading.CancellationToken)
+  name.vb: NotifyUsersAsync(NotificationEventType, Int32, DateTime, IEnumerable(Of Int32), Dictionary(Of String, String), CancellationToken)
 - uid: SuperOffice.CRM.Notification.NotificationEventHandler.SendMessageToOurself
   commentId: P:SuperOffice.CRM.Notification.NotificationEventHandler.SendMessageToOurself
   id: SendMessageToOurself
@@ -674,12 +694,12 @@ references:
   name: NotificationEventHandler
   nameWithType: NotificationEventHandler.NotificationEventHandler
   fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationEventHandler
-- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled*
-  commentId: Overload:SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled
+- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync*
+  commentId: Overload:SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync
   isExternal: true
-  name: NotificationHandled
-  nameWithType: NotificationEventHandler.NotificationHandled
-  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandled
+  name: NotificationHandledAsync
+  nameWithType: NotificationEventHandler.NotificationHandledAsync
+  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotificationHandledAsync
 - uid: SuperOffice.Data.NotificationEventType
   commentId: T:SuperOffice.Data.NotificationEventType
   parent: SuperOffice.Data
@@ -694,6 +714,16 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -781,18 +811,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers*
-  commentId: Overload:SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers
+- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync*
+  commentId: Overload:SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync
   isExternal: true
-  name: NotifyUsers
-  nameWithType: NotificationEventHandler.NotifyUsers
-  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsers
-- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUser*
-  commentId: Overload:SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUser
+  name: NotifyUsersAsync
+  nameWithType: NotificationEventHandler.NotifyUsersAsync
+  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUsersAsync
+- uid: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUserAsync*
+  commentId: Overload:SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUserAsync
   isExternal: true
-  name: NotifyUser
-  nameWithType: NotificationEventHandler.NotifyUser
-  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUser
+  name: NotifyUserAsync
+  nameWithType: NotificationEventHandler.NotifyUserAsync
+  fullName: SuperOffice.CRM.Notification.NotificationEventHandler.NotifyUserAsync
 - uid: System.DateTime
   isExternal: true
   name: DateTime

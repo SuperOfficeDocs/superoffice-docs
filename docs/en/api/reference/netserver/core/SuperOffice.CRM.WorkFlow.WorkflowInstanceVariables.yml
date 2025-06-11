@@ -1,26 +1,26 @@
 ### YamlMime:ManagedReference
 items:
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   id: WorkflowInstanceVariables
-  parent: SuperOffice.CRM.WorkFlow
+  parent: SuperOffice.CRM.Workflow
   children:
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil
   langs:
   - csharp
   - vb
   name: WorkflowInstanceVariables
   nameWithType: WorkflowInstanceVariables
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   type: Class
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: 'public class WorkflowInstanceVariables : Object'
     content.vb: >-
@@ -29,95 +29,95 @@ items:
   inheritance:
   - System.Object
   extensionMethods:
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
-  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor
   id: '#ctor'
-  parent: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  parent: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   langs:
   - csharp
   - vb
   name: WorkflowInstanceVariables()
   nameWithType: WorkflowInstanceVariables.WorkflowInstanceVariables()
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WorkflowInstanceVariables()
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WorkflowInstanceVariables()
   type: Constructor
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: public WorkflowInstanceVariables()
     content.vb: Public Sub New
-  overload: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor*
+  overload: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
-  commentId: P:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
+  commentId: P:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
   id: WaitingStarted
-  parent: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  parent: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   langs:
   - csharp
   - vb
   name: WaitingStarted
   nameWithType: WorkflowInstanceVariables.WaitingStarted
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
   type: Property
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: public DateTime WaitingStarted { get; set; }
     parameters: []
     return:
       type: System.DateTime
     content.vb: Public Property WaitingStarted As DateTime
-  overload: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted*
+  overload: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
-  commentId: P:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil
+  commentId: P:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil
   id: WaitingUntil
-  parent: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  parent: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   langs:
   - csharp
   - vb
   name: WaitingUntil
   nameWithType: WorkflowInstanceVariables.WaitingUntil
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil
   type: Property
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: public DateTime WaitingUntil { get; set; }
     parameters: []
     return:
       type: System.DateTime
     content.vb: Public Property WaitingUntil As DateTime
-  overload: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil*
+  overload: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil*
   modifiers.csharp:
   - public
   - get
@@ -125,12 +125,12 @@ items:
   modifiers.vb:
   - Public
 references:
-- uid: SuperOffice.CRM.WorkFlow
-  commentId: N:SuperOffice.CRM.WorkFlow
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
   isExternal: true
-  name: SuperOffice.CRM.WorkFlow
-  nameWithType: SuperOffice.CRM.WorkFlow
-  fullName: SuperOffice.CRM.WorkFlow
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -138,21 +138,21 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.EnumUtil.MapEnums``2
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
   name: MapEnums<WorkflowInstanceVariables, To>()
   nameWithType: EnumUtil.MapEnums<WorkflowInstanceVariables, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To>()
   nameWithType.vb: EnumUtil.MapEnums(Of WorkflowInstanceVariables, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To)()
   name.vb: MapEnums(Of WorkflowInstanceVariables, To)()
   spec.csharp:
   - uid: EnumUtil.MapEnums``2
     name: MapEnums<WorkflowInstanceVariables, To>
     nameWithType: EnumUtil.MapEnums<WorkflowInstanceVariables, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To>
     isExternal: true
   - name: (
     nameWithType: (
@@ -164,7 +164,7 @@ references:
   - uid: EnumUtil.MapEnums``2
     name: MapEnums(Of WorkflowInstanceVariables, To)
     nameWithType: EnumUtil.MapEnums(Of WorkflowInstanceVariables, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To)
     isExternal: true
   - name: (
     nameWithType: (
@@ -172,29 +172,29 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   name: AssignByReflection<WorkflowInstanceVariables>(WorkflowInstanceVariables)
   nameWithType: ObjectExtensions.AssignByReflection<WorkflowInstanceVariables>(WorkflowInstanceVariables)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.WorkflowInstanceVariables>(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
   nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowInstanceVariables)(WorkflowInstanceVariables)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables)(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
   name.vb: AssignByReflection(Of WorkflowInstanceVariables)(WorkflowInstanceVariables)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
     name: AssignByReflection<WorkflowInstanceVariables>
     nameWithType: ObjectExtensions.AssignByReflection<WorkflowInstanceVariables>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.WorkflowInstanceVariables>
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
     name: WorkflowInstanceVariables
     nameWithType: WorkflowInstanceVariables
-    fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+    fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
     isExternal: true
   - name: )
     nameWithType: )
@@ -203,34 +203,34 @@ references:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
     name: AssignByReflection(Of WorkflowInstanceVariables)
     nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowInstanceVariables)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
     name: WorkflowInstanceVariables
     nameWithType: WorkflowInstanceVariables
-    fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+    fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   name: GraphCopy<WorkflowInstanceVariables>()
   nameWithType: ObjectExtensions.GraphCopy<WorkflowInstanceVariables>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.WorkflowInstanceVariables>()
   nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowInstanceVariables)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables)()
   name.vb: GraphCopy(Of WorkflowInstanceVariables)()
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
     name: GraphCopy<WorkflowInstanceVariables>
     nameWithType: ObjectExtensions.GraphCopy<WorkflowInstanceVariables>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.WorkflowInstanceVariables>
     isExternal: true
   - name: (
     nameWithType: (
@@ -242,7 +242,7 @@ references:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
     name: GraphCopy(Of WorkflowInstanceVariables)
     nameWithType: ObjectExtensions.GraphCopy(Of WorkflowInstanceVariables)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
     isExternal: true
   - name: (
     nameWithType: (
@@ -250,21 +250,21 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   name: MapEnums<WorkflowInstanceVariables, To>()
   nameWithType: Converters.MapEnums<WorkflowInstanceVariables, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To>()
   nameWithType.vb: Converters.MapEnums(Of WorkflowInstanceVariables, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To)()
   name.vb: MapEnums(Of WorkflowInstanceVariables, To)()
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
     name: MapEnums<WorkflowInstanceVariables, To>
     nameWithType: Converters.MapEnums<WorkflowInstanceVariables, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To>
     isExternal: true
   - name: (
     nameWithType: (
@@ -276,7 +276,7 @@ references:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
     name: MapEnums(Of WorkflowInstanceVariables, To)
     nameWithType: Converters.MapEnums(Of WorkflowInstanceVariables, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To)
     isExternal: true
   - name: (
     nameWithType: (
@@ -490,26 +490,26 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor*
-  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor
   isExternal: true
   name: WorkflowInstanceVariables
   nameWithType: WorkflowInstanceVariables.WorkflowInstanceVariables
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WorkflowInstanceVariables
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted*
-  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WorkflowInstanceVariables
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
   isExternal: true
   name: WaitingStarted
   nameWithType: WorkflowInstanceVariables.WaitingStarted
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
 - uid: System.DateTime
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil*
-  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil
   isExternal: true
   name: WaitingUntil
   nameWithType: WorkflowInstanceVariables.WaitingUntil
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil

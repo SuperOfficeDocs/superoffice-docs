@@ -55,7 +55,7 @@ items:
   - SuperOffice.CRM.Rows.ModuleOwnerRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
   - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -835,34 +835,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
+- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ModuleOwnerRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  name: ToInsert()
-  nameWithType: ModuleOwnerRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ModuleOwnerRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ModuleOwnerRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ModuleOwnerRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ModuleOwnerRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ModuleOwnerRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ModuleOwnerRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1048,17 +1058,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
+- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ModuleOwnerRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ModuleOwnerRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ModuleOwnerRecordData)
-  nameWithType: ModuleOwnerRecordDataExtensions.ToInsert(ModuleOwnerRecordData)
-  fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
+  name: ToInsertAsync(ModuleOwnerRecordData, CancellationToken)
+  nameWithType: ModuleOwnerRecordDataExtensions.ToInsertAsync(ModuleOwnerRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ModuleOwnerRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: ToInsert
-    nameWithType: ModuleOwnerRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ModuleOwnerRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ModuleOwnerRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1067,15 +1077,23 @@ references:
     name: ModuleOwnerRecordData
     nameWithType: ModuleOwnerRecordData
     fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: ToInsert
-    nameWithType: ModuleOwnerRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ModuleOwnerRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ModuleOwnerRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1084,6 +1102,14 @@ references:
     name: ModuleOwnerRecordData
     nameWithType: ModuleOwnerRecordData
     fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

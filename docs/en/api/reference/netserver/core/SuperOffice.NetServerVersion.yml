@@ -68,10 +68,10 @@ items:
   namespace: SuperOffice
   summary: "\nDefault namespace for services based on this version of NetServer\n"
   syntax:
-    content: public const string ServiceNamespace = "http://www.superoffice.net/ws/crm/NetServer/10.5.0.0"
+    content: public const string ServiceNamespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0"
     return:
       type: System.String
-    content.vb: Public Const ServiceNamespace As String = "http://www.superoffice.net/ws/crm/NetServer/10.5.0.0"
+    content.vb: Public Const ServiceNamespace As String = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0"
   modifiers.csharp:
   - public
   - const
@@ -96,10 +96,10 @@ items:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public const string FriendlyName = "SuperOffice CRM Online 10.5 Build {1}"
+    content: public const string FriendlyName = "SuperOffice CRM Online 11.1 Build {1}"
     return:
       type: System.String
-    content.vb: Public Const FriendlyName As String = "SuperOffice CRM Online 10.5 Build {1}"
+    content.vb: Public Const FriendlyName As String = "SuperOffice CRM Online 11.1 Build {1}"
   modifiers.csharp:
   - public
   - const
@@ -124,10 +124,10 @@ items:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public const string MajorMinor = "10.5"
+    content: public const string MajorMinor = "11.1"
     return:
       type: System.String
-    content.vb: Public Const MajorMinor As String = "10.5"
+    content.vb: Public Const MajorMinor As String = "11.1"
   modifiers.csharp:
   - public
   - const

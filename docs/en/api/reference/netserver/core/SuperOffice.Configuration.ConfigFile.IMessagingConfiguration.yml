@@ -1,0 +1,902 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  id: ConfigFile.IMessagingConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessage
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessageInterval
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastAddress
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastPort
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningAddress
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningPort
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningAddress
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningPort
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessage
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessageInterval
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoCreateBroker
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastAddress
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastPort
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningAddress
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortEnd
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortStart
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoAuthentication
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoPassword
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoUser
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IMessagingConfiguration
+  nameWithType: ConfigFile.IMessagingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values for SuperOffice.CRM.Messaging and the SoMessaging.dll.\nCreated in Database scope\n"
+  syntax:
+    content: public interface IMessagingConfiguration
+    content.vb: Public Interface IMessagingConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoAuthentication
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoAuthentication
+  id: MessagingSoAuthentication
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MessagingSoAuthentication
+  nameWithType: ConfigFile.IMessagingConfiguration.MessagingSoAuthentication
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoAuthentication
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nFalse will indicate process being authenticated with NetServer or Anonymous user\n"
+  syntax:
+    content: bool MessagingSoAuthentication { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property MessagingSoAuthentication As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoAuthentication*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoUser
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoUser
+  id: MessagingSoUser
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MessagingSoUser
+  nameWithType: ConfigFile.IMessagingConfiguration.MessagingSoUser
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoUser
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSuperOffice user to authenticate with.\n"
+  syntax:
+    content: string MessagingSoUser { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property MessagingSoUser As String
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoUser*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoPassword
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoPassword
+  id: MessagingSoPassword
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MessagingSoPassword
+  nameWithType: ConfigFile.IMessagingConfiguration.MessagingSoPassword
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoPassword
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nPassword for <xref href=\"SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoUser\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: string MessagingSoPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property MessagingSoPassword As String
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoPassword*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastAddress
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastAddress
+  id: BrokerBroadcastAddress
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BrokerBroadcastAddress
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerBroadcastAddress
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastAddress
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBroadcast address for the message broker to send to other machines.  Default is broadcast address: 255.255.255.255\n"
+  syntax:
+    content: IPAddress BrokerBroadcastAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Property BrokerBroadcastAddress As IPAddress
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastAddress*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningAddress
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningAddress
+  id: BrokerExternalListeningAddress
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BrokerExternalListeningAddress
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerExternalListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningAddress
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAddress the message broker is listening on for external messages. Default value is Any IP address: 0.0.0.0\n"
+  syntax:
+    content: IPAddress BrokerExternalListeningAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Property BrokerExternalListeningAddress As IPAddress
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningAddress*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningAddress
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningAddress
+  id: BrokerInternalListeningAddress
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BrokerInternalListeningAddress
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerInternalListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningAddress
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAddress the message broker is listening on for internal messages.  Default value is Loopback adapter: 127.0.0.1\n"
+  syntax:
+    content: IPAddress BrokerInternalListeningAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Property BrokerInternalListeningAddress As IPAddress
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningAddress*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastAddress
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastAddress
+  id: ClientBroadcastAddress
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ClientBroadcastAddress
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientBroadcastAddress
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastAddress
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAddress ther message clients (normally sending messages through the message broker) is broadcasting on.  Default value is Loopback adapter: 127.0.0.1\n"
+  syntax:
+    content: IPAddress ClientBroadcastAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Property ClientBroadcastAddress As IPAddress
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastAddress*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningAddress
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningAddress
+  id: ClientListeningAddress
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ClientListeningAddress
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningAddress
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAddress the message clients (noirmally recieving messages from the message broker) is listening on.  Default value is Any IP address: 0.0.0.0\n"
+  syntax:
+    content: IPAddress ClientListeningAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Property ClientListeningAddress As IPAddress
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningAddress*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastPort
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastPort
+  id: BrokerBroadcastPort
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BrokerBroadcastPort
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerBroadcastPort
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastPort
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe port the message broker is sending messages on to other machines.  Default value is port 19107\n"
+  syntax:
+    content: int BrokerBroadcastPort { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property BrokerBroadcastPort As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastPort*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningPort
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningPort
+  id: BrokerExternalListeningPort
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BrokerExternalListeningPort
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerExternalListeningPort
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningPort
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe port the message broker is listening for messages from other machines.  Default value is port 19107\n"
+  syntax:
+    content: int BrokerExternalListeningPort { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property BrokerExternalListeningPort As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningPort*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningPort
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningPort
+  id: BrokerInternalListeningPort
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BrokerInternalListeningPort
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerInternalListeningPort
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningPort
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe port the message broker is listening for messages from internal clients.  Default value is port 19108\n"
+  syntax:
+    content: int BrokerInternalListeningPort { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property BrokerInternalListeningPort As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningPort*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastPort
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastPort
+  id: ClientBroadcastPort
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ClientBroadcastPort
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientBroadcastPort
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastPort
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe port the message client is broadcasting messages on (normally to the message broker).  Default value is port 19108\n"
+  syntax:
+    content: int ClientBroadcastPort { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ClientBroadcastPort As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastPort*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortStart
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortStart
+  id: ClientListeningPortStart
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ClientListeningPortStart
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientListeningPortStart
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortStart
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe start of the range clients listen to messages on (normally from the message broker).  Default value is 19109\n"
+  syntax:
+    content: int ClientListeningPortStart { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ClientListeningPortStart As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortStart*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortEnd
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortEnd
+  id: ClientListeningPortEnd
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ClientListeningPortEnd
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientListeningPortEnd
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortEnd
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe end of the range clients listen to messages on (normally from the message broker).  Default value is 19999\n"
+  syntax:
+    content: int ClientListeningPortEnd { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ClientListeningPortEnd As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortEnd*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoCreateBroker
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoCreateBroker
+  id: ClientAutoCreateBroker
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ClientAutoCreateBroker
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientAutoCreateBroker
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoCreateBroker
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould the message client automatically create a local message broker if one does not exsist?  Default value is true.\n"
+  syntax:
+    content: bool ClientAutoCreateBroker { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ClientAutoCreateBroker As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoCreateBroker*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessage
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessage
+  id: BrokerAutoAliveMessage
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BrokerAutoAliveMessage
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessage
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessage
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould the message broker autiomatically send alive messages?  Default value is true.\n"
+  syntax:
+    content: bool BrokerAutoAliveMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property BrokerAutoAliveMessage As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessage*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessage
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessage
+  id: ClientAutoAliveMessage
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ClientAutoAliveMessage
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientAutoAliveMessage
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessage
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSould the message client automatically send alive messages?  Default value is true.\n"
+  syntax:
+    content: bool ClientAutoAliveMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ClientAutoAliveMessage As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessage*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessageInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessageInterval
+  id: BrokerAutoAliveMessageInterval
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BrokerAutoAliveMessageInterval
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessageInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessageInterval
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nInterval for the mesage broker to send alive messages.  Default value is 60 (sec).\n"
+  syntax:
+    content: int BrokerAutoAliveMessageInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property BrokerAutoAliveMessageInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessageInterval*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessageInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessageInterval
+  id: ClientAutoAliveMessageInterval
+  parent: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ClientAutoAliveMessageInterval
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientAutoAliveMessageInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessageInterval
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nInterval for the mesage client to send alive messages.  Default value is 60 (sec).\n"
+  syntax:
+    content: int ClientAutoAliveMessageInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ClientAutoAliveMessageInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessageInterval*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IMessagingConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IMessagingConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IMessagingConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IMessagingConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IMessagingConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IMessagingConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigFile.IMessagingConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<ConfigFile.IMessagingConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IMessagingConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigFile.IMessagingConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigFile.IMessagingConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IMessagingConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigFile.IMessagingConfiguration, To>()
+  nameWithType: Converters.MapEnums<ConfigFile.IMessagingConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IMessagingConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IMessagingConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IMessagingConfiguration, To)()
+  name.vb: MapEnums(Of ConfigFile.IMessagingConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigFile.IMessagingConfiguration, To>
+    nameWithType: Converters.MapEnums<ConfigFile.IMessagingConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IMessagingConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigFile.IMessagingConfiguration, To)
+    nameWithType: Converters.MapEnums(Of ConfigFile.IMessagingConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IMessagingConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoAuthentication*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoAuthentication
+  isExternal: true
+  name: MessagingSoAuthentication
+  nameWithType: ConfigFile.IMessagingConfiguration.MessagingSoAuthentication
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoAuthentication
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoUser*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoUser
+  isExternal: true
+  name: MessagingSoUser
+  nameWithType: ConfigFile.IMessagingConfiguration.MessagingSoUser
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoUser
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoPassword*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoPassword
+  isExternal: true
+  name: MessagingSoPassword
+  nameWithType: ConfigFile.IMessagingConfiguration.MessagingSoPassword
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.MessagingSoPassword
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastAddress*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastAddress
+  isExternal: true
+  name: BrokerBroadcastAddress
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerBroadcastAddress
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastAddress
+- uid: System.Net.IPAddress
+  isExternal: true
+  name: IPAddress
+  nameWithType: IPAddress
+  fullName: System.Net.IPAddress
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningAddress*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningAddress
+  isExternal: true
+  name: BrokerExternalListeningAddress
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerExternalListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningAddress
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningAddress*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningAddress
+  isExternal: true
+  name: BrokerInternalListeningAddress
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerInternalListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningAddress
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastAddress*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastAddress
+  isExternal: true
+  name: ClientBroadcastAddress
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientBroadcastAddress
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastAddress
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningAddress*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningAddress
+  isExternal: true
+  name: ClientListeningAddress
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningAddress
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastPort*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastPort
+  isExternal: true
+  name: BrokerBroadcastPort
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerBroadcastPort
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerBroadcastPort
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningPort*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningPort
+  isExternal: true
+  name: BrokerExternalListeningPort
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerExternalListeningPort
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerExternalListeningPort
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningPort*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningPort
+  isExternal: true
+  name: BrokerInternalListeningPort
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerInternalListeningPort
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerInternalListeningPort
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastPort*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastPort
+  isExternal: true
+  name: ClientBroadcastPort
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientBroadcastPort
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientBroadcastPort
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortStart*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortStart
+  isExternal: true
+  name: ClientListeningPortStart
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientListeningPortStart
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortStart
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortEnd*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortEnd
+  isExternal: true
+  name: ClientListeningPortEnd
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientListeningPortEnd
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientListeningPortEnd
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoCreateBroker*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoCreateBroker
+  isExternal: true
+  name: ClientAutoCreateBroker
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientAutoCreateBroker
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoCreateBroker
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessage*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessage
+  isExternal: true
+  name: BrokerAutoAliveMessage
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessage
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessage
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessage*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessage
+  isExternal: true
+  name: ClientAutoAliveMessage
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientAutoAliveMessage
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessage
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessageInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessageInterval
+  isExternal: true
+  name: BrokerAutoAliveMessageInterval
+  nameWithType: ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessageInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.BrokerAutoAliveMessageInterval
+- uid: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessageInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessageInterval
+  isExternal: true
+  name: ClientAutoAliveMessageInterval
+  nameWithType: ConfigFile.IMessagingConfiguration.ClientAutoAliveMessageInterval
+  fullName: SuperOffice.Configuration.ConfigFile.IMessagingConfiguration.ClientAutoAliveMessageInterval

@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
   - SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
-  - SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SubscriptionUnitRecordData)
-  - SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData})
+  - SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SubscriptionUnitRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SubscriptionUnitRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
+- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<SubscriptionUnitTableInfo>)
-  nameWithType: SubscriptionUnitRecordDataExtensions.FromSelect(TargetedSelect<SubscriptionUnitTableInfo>)
-  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SubscriptionUnitTableInfo>)
+  name: FromSelectAsync(TargetedSelect<SubscriptionUnitTableInfo>, CancellationToken)
+  nameWithType: SubscriptionUnitRecordDataExtensions.FromSelectAsync(TargetedSelect<SubscriptionUnitTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SubscriptionUnitTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<SubscriptionUnitRecordData> FromSelect(this TargetedSelect<SubscriptionUnitTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<SubscriptionUnitRecordData> FromSelectAsync(this TargetedSelect<SubscriptionUnitTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of SubscriptionUnitTableInfo)) As IEnumerable(Of SubscriptionUnitRecordData)
-  overload: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect*
-  nameWithType.vb: SubscriptionUnitRecordDataExtensions.FromSelect(TargetedSelect(Of SubscriptionUnitTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of SubscriptionUnitTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of SubscriptionUnitRecordData)
+  overload: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: SubscriptionUnitRecordDataExtensions.FromSelectAsync(TargetedSelect(Of SubscriptionUnitTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SubscriptionUnitTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of SubscriptionUnitTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SubscriptionUnitTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of SubscriptionUnitTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
   commentId: M:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.SubscriptionUnitTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of SubscriptionUnitTableInfo))
-- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SubscriptionUnitRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SubscriptionUnitRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.SubscriptionUnitRecordData)
+- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SubscriptionUnitRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SubscriptionUnitRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.SubscriptionUnitRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(SubscriptionUnitRecordData)
-  nameWithType: SubscriptionUnitRecordDataExtensions.ToInsert(SubscriptionUnitRecordData)
-  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SubscriptionUnitRecordData)
+  name: ToInsertAsync(SubscriptionUnitRecordData, CancellationToken)
+  nameWithType: SubscriptionUnitRecordDataExtensions.ToInsertAsync(SubscriptionUnitRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SubscriptionUnitRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this SubscriptionUnitRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this SubscriptionUnitRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.SubscriptionUnitRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As SubscriptionUnitRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As SubscriptionUnitRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData})
-  commentId: M:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData})
+- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<SubscriptionUnitRecordData>)
-  nameWithType: SubscriptionUnitRecordDataExtensions.ToInserts(IEnumerable<SubscriptionUnitRecordData>)
-  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SubscriptionUnitRecordData>)
+  name: ToInsertsAsync(IEnumerable<SubscriptionUnitRecordData>, CancellationToken)
+  nameWithType: SubscriptionUnitRecordDataExtensions.ToInsertsAsync(IEnumerable<SubscriptionUnitRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SubscriptionUnitRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<SubscriptionUnitRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<SubscriptionUnitRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of SubscriptionUnitRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInserts*
-  nameWithType.vb: SubscriptionUnitRecordDataExtensions.ToInserts(IEnumerable(Of SubscriptionUnitRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of SubscriptionUnitRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: SubscriptionUnitRecordDataExtensions.ToInsertsAsync(IEnumerable(Of SubscriptionUnitRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SubscriptionUnitRecordData))
-  name.vb: ToInserts(IEnumerable(Of SubscriptionUnitRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SubscriptionUnitRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of SubscriptionUnitRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SubscriptionUnitRow)
   commentId: M:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SubscriptionUnitRow)
   id: ToRecordData(SuperOffice.CRM.Rows.SubscriptionUnitRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<SubscriptionUnitTableInfo>)
+  nameWithType: SubscriptionUnitRecordDataExtensions.FromSelect(TargetedSelect<SubscriptionUnitTableInfo>)
+  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SubscriptionUnitTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;SubscriptionUnitTableInfo>, execute it and return an IEnumerable&lt;SubscriptionUnitRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<SubscriptionUnitRecordData> FromSelect(this TargetedSelect<SubscriptionUnitTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of SubscriptionUnitTableInfo)) As IEnumerable(Of SubscriptionUnitRecordData)
+  overload: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect*
+  nameWithType.vb: SubscriptionUnitRecordDataExtensions.FromSelect(TargetedSelect(Of SubscriptionUnitTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SubscriptionUnitTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of SubscriptionUnitTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: SubscriptionUnitRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: SubscriptionUnitRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SubscriptionUnitTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<SubscriptionUnitRecordData>
-  nameWithType: IEnumerable<SubscriptionUnitRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SubscriptionUnitRecordData>
-  nameWithType.vb: IEnumerable(Of SubscriptionUnitRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SubscriptionUnitRecordData)
-  name.vb: IEnumerable(Of SubscriptionUnitRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<SubscriptionUnitRecordData>
+  nameWithType: IAsyncEnumerable<SubscriptionUnitRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.SubscriptionUnitRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of SubscriptionUnitRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.SubscriptionUnitRecordData)
+  name.vb: IAsyncEnumerable(Of SubscriptionUnitRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: SubscriptionUnitRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: SubscriptionUnitRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: SubscriptionUnitRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: SubscriptionUnitRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SubscriptionUnitRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SubscriptionUnitRecordData>
+  nameWithType: IEnumerable<SubscriptionUnitRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SubscriptionUnitRecordData>
+  nameWithType.vb: IEnumerable(Of SubscriptionUnitRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SubscriptionUnitRecordData)
+  name.vb: IEnumerable(Of SubscriptionUnitRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordData
+    name: SubscriptionUnitRecordData
+    nameWithType: SubscriptionUnitRecordData
+    fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordData
+    name: SubscriptionUnitRecordData
+    nameWithType: SubscriptionUnitRecordData
+    fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: SubscriptionUnitRow
   nameWithType: SubscriptionUnitRow
   fullName: SuperOffice.CRM.Rows.SubscriptionUnitRow
+- uid: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: SubscriptionUnitRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.SubscriptionUnitRecordDataExtensions.FromSelect

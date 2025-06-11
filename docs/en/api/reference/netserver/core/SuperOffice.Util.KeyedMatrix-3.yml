@@ -31,8 +31,8 @@ items:
   - SuperOffice.Util.KeyedMatrix`3.Height
   - SuperOffice.Util.KeyedMatrix`3.Item(`0,`1)
   - SuperOffice.Util.KeyedMatrix`3.Item(System.Int32,System.Int32)
-  - SuperOffice.Util.KeyedMatrix`3.MoveItems(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
-  - SuperOffice.Util.KeyedMatrix`3.MoveItems(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Action{SuperOffice.Util.MatrixItem{`0,`1,`2}})
+  - SuperOffice.Util.KeyedMatrix`3.MoveItemsAsync(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
+  - SuperOffice.Util.KeyedMatrix`3.MoveItemsAsync(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},System.Threading.Tasks.Task})
   - SuperOffice.Util.KeyedMatrix`3.RemoveColumn(`0)
   - SuperOffice.Util.KeyedMatrix`3.RemoveRow(`1)
   - SuperOffice.Util.KeyedMatrix`3.ToArray
@@ -780,16 +780,16 @@ items:
   modifiers.vb:
   - Public
   fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).GetRow(TKeyRow)
-- uid: SuperOffice.Util.KeyedMatrix`3.MoveItems(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
-  commentId: M:SuperOffice.Util.KeyedMatrix`3.MoveItems(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
-  id: MoveItems(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
+- uid: SuperOffice.Util.KeyedMatrix`3.MoveItemsAsync(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
+  commentId: M:SuperOffice.Util.KeyedMatrix`3.MoveItemsAsync(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
+  id: MoveItemsAsync(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
   parent: SuperOffice.Util.KeyedMatrix`3
   langs:
   - csharp
   - vb
-  name: MoveItems(KeyedMatrix<TKeyColumn, TKeyRow, TItem>, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>>)
-  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItems(KeyedMatrix<TKeyColumn, TKeyRow, TItem>, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>>)
-  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItems(SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>, System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Predicate<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>)
+  name: MoveItemsAsync(KeyedMatrix<TKeyColumn, TKeyRow, TItem>, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>>)
+  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItemsAsync(KeyedMatrix<TKeyColumn, TKeyRow, TItem>, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>>)
+  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItemsAsync(SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>, System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Predicate<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>)
   type: Method
   source:
     path: SoCore
@@ -799,7 +799,7 @@ items:
   namespace: SuperOffice.Util
   summary: "\nMovie items this instance of the KeyedMatrix to another instance.\n"
   syntax:
-    content: public void MoveItems(KeyedMatrix<TKeyColumn, TKeyRow, TItem> destination, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>> items, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>> condition)
+    content: public Task MoveItemsAsync(KeyedMatrix<TKeyColumn, TKeyRow, TItem> destination, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>> items, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>> condition)
     parameters:
     - id: destination
       type: SuperOffice.Util.KeyedMatrix`3
@@ -810,25 +810,27 @@ items:
     - id: condition
       type: System.Predicate{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
       description: Condition for the item to be moved.  Only items with positive conditions are moved.
-    content.vb: Public Sub MoveItems(destination As KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), items As IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), condition As Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-  overload: SuperOffice.Util.KeyedMatrix`3.MoveItems*
-  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItems(KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function MoveItemsAsync(destination As KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), items As IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), condition As Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))) As Task
+  overload: SuperOffice.Util.KeyedMatrix`3.MoveItemsAsync*
+  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItemsAsync(KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItems(SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)), System.Predicate(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-  name.vb: MoveItems(KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-- uid: SuperOffice.Util.KeyedMatrix`3.MoveItems(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Action{SuperOffice.Util.MatrixItem{`0,`1,`2}})
-  commentId: M:SuperOffice.Util.KeyedMatrix`3.MoveItems(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Action{SuperOffice.Util.MatrixItem{`0,`1,`2}})
-  id: MoveItems(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Action{SuperOffice.Util.MatrixItem{`0,`1,`2}})
+  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItemsAsync(SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)), System.Predicate(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
+  name.vb: MoveItemsAsync(KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
+- uid: SuperOffice.Util.KeyedMatrix`3.MoveItemsAsync(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},System.Threading.Tasks.Task})
+  commentId: M:SuperOffice.Util.KeyedMatrix`3.MoveItemsAsync(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},System.Threading.Tasks.Task})
+  id: MoveItemsAsync(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},System.Threading.Tasks.Task})
   parent: SuperOffice.Util.KeyedMatrix`3
   langs:
   - csharp
   - vb
-  name: MoveItems(KeyedMatrix<TKeyColumn, TKeyRow, TItem>, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Action<MatrixItem<TKeyColumn, TKeyRow, TItem>>)
-  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItems(KeyedMatrix<TKeyColumn, TKeyRow, TItem>, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Action<MatrixItem<TKeyColumn, TKeyRow, TItem>>)
-  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItems(SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>, System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Predicate<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Action<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>)
+  name: MoveItemsAsync(KeyedMatrix<TKeyColumn, TKeyRow, TItem>, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, Task>)
+  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItemsAsync(KeyedMatrix<TKeyColumn, TKeyRow, TItem>, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, Task>)
+  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItemsAsync(SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>, System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Predicate<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, System.Threading.Tasks.Task>)
   type: Method
   source:
     path: SoCore
@@ -838,7 +840,7 @@ items:
   namespace: SuperOffice.Util
   summary: "\nMovie items this instance of the KeyedMatrix to another instance.\n"
   syntax:
-    content: public void MoveItems(KeyedMatrix<TKeyColumn, TKeyRow, TItem> destination, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>> items, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>> condition, Action<MatrixItem<TKeyColumn, TKeyRow, TItem>> actionIfMoved)
+    content: public Task MoveItemsAsync(KeyedMatrix<TKeyColumn, TKeyRow, TItem> destination, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>> items, Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>> condition, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, Task> actionIfMoved)
     parameters:
     - id: destination
       type: SuperOffice.Util.KeyedMatrix`3
@@ -850,17 +852,19 @@ items:
       type: System.Predicate{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
       description: Condition for the item to be moved.  Only items with positive conditions are moved.
     - id: actionIfMoved
-      type: System.Action{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
+      type: System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},System.Threading.Tasks.Task}
       description: Action performed on the item if it is moved.
-    content.vb: Public Sub MoveItems(destination As KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), items As IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), condition As Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), actionIfMoved As Action(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-  overload: SuperOffice.Util.KeyedMatrix`3.MoveItems*
-  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItems(KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Action(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function MoveItemsAsync(destination As KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), items As IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), condition As Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), actionIfMoved As Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), Task)) As Task
+  overload: SuperOffice.Util.KeyedMatrix`3.MoveItemsAsync*
+  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItemsAsync(KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), Task))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItems(SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)), System.Predicate(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)), System.Action(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-  name.vb: MoveItems(KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Action(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
+  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItemsAsync(SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)), System.Predicate(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)), System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), System.Threading.Tasks.Task))
+  name.vb: MoveItemsAsync(KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Predicate(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), Task))
 - uid: SuperOffice.Util.KeyedMatrix`3.Exists(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
   commentId: M:SuperOffice.Util.KeyedMatrix`3.Exists(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
   id: Exists(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}})
@@ -2023,14 +2027,14 @@ references:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetRow
   nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).GetRow
   fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).GetRow
-- uid: SuperOffice.Util.KeyedMatrix`3.MoveItems*
-  commentId: Overload:SuperOffice.Util.KeyedMatrix`3.MoveItems
+- uid: SuperOffice.Util.KeyedMatrix`3.MoveItemsAsync*
+  commentId: Overload:SuperOffice.Util.KeyedMatrix`3.MoveItemsAsync
   isExternal: true
-  name: MoveItems
-  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItems
-  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItems
-  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItems
-  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItems
+  name: MoveItemsAsync
+  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItemsAsync
+  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItemsAsync
+  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItemsAsync
+  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).MoveItemsAsync
 - uid: SuperOffice.Util.KeyedMatrix`3
   commentId: T:SuperOffice.Util.KeyedMatrix`3
   parent: SuperOffice.Util
@@ -2180,6 +2184,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System.Predicate`1
   isExternal: true
   name: Predicate<>
@@ -2218,20 +2227,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Action{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
-  commentId: '!:System.Action{SuperOffice.Util.MatrixItem{`0,`1,`2}}'
-  definition: System.Action`1
-  name: Action<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-  nameWithType: Action<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-  fullName: System.Action<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>
-  nameWithType.vb: Action(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-  fullName.vb: System.Action(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-  name.vb: Action(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
+- uid: System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},System.Threading.Tasks.Task}
+  commentId: '!:System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},System.Threading.Tasks.Task}'
+  definition: System.Func`2
+  name: Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, Task>
+  nameWithType: Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, Task>
+  fullName: System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), Task)
+  fullName.vb: System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), System.Threading.Tasks.Task)
+  name.vb: Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), Task)
   spec.csharp:
-  - uid: System.Action`1
-    name: Action
-    nameWithType: Action
-    fullName: System.Action
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
   - name: <
     nameWithType: <
@@ -2262,14 +2271,22 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Action`1
-    name: Action
-    nameWithType: Action
-    fullName: System.Action
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -2300,22 +2317,30 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Action`1
+- uid: System.Func`2
   isExternal: true
-  name: Action<>
-  nameWithType: Action<>
-  fullName: System.Action<>
-  nameWithType.vb: Action(Of )
-  fullName.vb: System.Action(Of )
-  name.vb: Action(Of )
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
   spec.csharp:
-  - uid: System.Action`1
-    name: Action
-    nameWithType: Action
-    fullName: System.Action
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
   - name: <
     nameWithType: <
@@ -2323,18 +2348,30 @@ references:
   - name: ''
     nameWithType: ''
     fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Action`1
-    name: Action
-    nameWithType: Action
-    fullName: System.Action
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: ''
     nameWithType: ''
     fullName: ''

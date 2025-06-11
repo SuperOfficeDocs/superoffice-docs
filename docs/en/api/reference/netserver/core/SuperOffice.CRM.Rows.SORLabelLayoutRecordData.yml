@@ -51,7 +51,7 @@ items:
   - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
   - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -723,34 +723,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORLabelLayoutRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
-  name: ToInsert()
-  nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORLabelLayoutRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SORLabelLayoutRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -936,17 +946,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORLabelLayoutRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORLabelLayoutRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SORLabelLayoutRecordData)
-  nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert(SORLabelLayoutRecordData)
-  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+  name: ToInsertAsync(SORLabelLayoutRecordData, CancellationToken)
+  nameWithType: SORLabelLayoutRecordDataExtensions.ToInsertAsync(SORLabelLayoutRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORLabelLayoutRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
-    name: ToInsert
-    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORLabelLayoutRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -955,15 +965,23 @@ references:
     name: SORLabelLayoutRecordData
     nameWithType: SORLabelLayoutRecordData
     fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
-    name: ToInsert
-    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORLabelLayoutRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -972,6 +990,14 @@ references:
     name: SORLabelLayoutRecordData
     nameWithType: SORLabelLayoutRecordData
     fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

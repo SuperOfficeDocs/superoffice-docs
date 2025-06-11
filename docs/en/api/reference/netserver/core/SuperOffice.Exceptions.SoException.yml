@@ -37,7 +37,6 @@ items:
   - System.Object
   derivedClasses:
   - SuperOffice.CRM.Rows.RowValidatorException
-  - SuperOffice.CRM.Travel.TravelException
   - SuperOffice.Diagnostics.DiagnoseException
   - SuperOffice.Exceptions.SoConsentException
   - SuperOffice.Exceptions.SoDbAccessException

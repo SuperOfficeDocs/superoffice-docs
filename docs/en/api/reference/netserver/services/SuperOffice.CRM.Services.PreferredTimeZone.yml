@@ -34,8 +34,6 @@ items:
       Public Class PreferredTimeZone
           Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.TimeZoneAgent
-    commentId: T:SuperOffice.CRM.Services.TimeZoneAgent
   - linkId: SuperOffice.CRM.Services.ITimeZoneAgent
     commentId: T:SuperOffice.CRM.Services.ITimeZoneAgent
   inheritance:
@@ -341,15 +339,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.TimeZoneAgent
-  commentId: T:SuperOffice.CRM.Services.TimeZoneAgent
-  isExternal: true
-  name: TimeZoneAgent
-  nameWithType: TimeZoneAgent
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent
   commentId: T:SuperOffice.CRM.Services.ITimeZoneAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ITimeZoneAgent
   nameWithType: ITimeZoneAgent

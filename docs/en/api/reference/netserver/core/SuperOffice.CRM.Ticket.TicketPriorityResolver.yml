@@ -5,8 +5,8 @@ items:
   id: TicketPriorityResolver
   parent: SuperOffice.CRM.Ticket
   children:
-  - SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority(System.Int32)
-  - SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority(System.Int32,System.Int32)
+  - SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -34,16 +34,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority(System.Int32,System.Int32)
-  id: ResolvePriority(System.Int32,System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: ResolvePriorityAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketPriorityResolver
   langs:
   - csharp
   - vb
-  name: ResolvePriority(Int32, Int32)
-  nameWithType: TicketPriorityResolver.ResolvePriority(Int32, Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority(System.Int32, System.Int32)
+  name: ResolvePriorityAsync(Int32, Int32, CancellationToken)
+  nameWithType: TicketPriorityResolver.ResolvePriorityAsync(Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync(System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -52,32 +52,34 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static int ResolvePriority(int priorityId, int personId)
+    content: public static Task<int> ResolvePriorityAsync(int priorityId, int personId, CancellationToken cancellationToken = null)
     parameters:
     - id: priorityId
       type: System.Int32
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function ResolvePriority(priorityId As Integer, personId As Integer) As Integer
-  overload: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function ResolvePriorityAsync(priorityId As Integer, personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority(System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority(System.Int32)
-  id: GetPriority(System.Int32)
+- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPriorityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketPriorityResolver
   langs:
   - csharp
   - vb
-  name: GetPriority(Int32)
-  nameWithType: TicketPriorityResolver.GetPriority(Int32)
-  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority(System.Int32)
+  name: GetPriorityAsync(Int32, CancellationToken)
+  nameWithType: TicketPriorityResolver.GetPriorityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -86,14 +88,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static TicketPriorityRecordData GetPriority(int priorityId)
+    content: public static Task<TicketPriorityRecordData> GetPriorityAsync(int priorityId, CancellationToken cancellationToken = null)
     parameters:
     - id: priorityId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.TicketPriorityRecordData
-    content.vb: Public Shared Function GetPriority(priorityId As Integer) As TicketPriorityRecordData
-  overload: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketPriorityRecordData}
+    content.vb: Public Shared Function GetPriorityAsync(priorityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TicketPriorityRecordData)
+  overload: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync*
   modifiers.csharp:
   - public
   - static
@@ -120,12 +124,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority
+- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync
   isExternal: true
-  name: ResolvePriority
-  nameWithType: TicketPriorityResolver.ResolvePriority
-  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriority
+  name: ResolvePriorityAsync
+  nameWithType: TicketPriorityResolver.ResolvePriorityAsync
+  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.ResolvePriorityAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -133,22 +137,138 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: GetPriority
-  nameWithType: TicketPriorityResolver.GetPriority
-  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriority
-- uid: SuperOffice.CRM.Rows.TicketPriorityRecordData
-  commentId: T:SuperOffice.CRM.Rows.TicketPriorityRecordData
-  parent: SuperOffice.CRM.Rows
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: TicketPriorityRecordData
-  nameWithType: TicketPriorityRecordData
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRecordData
-- uid: SuperOffice.CRM.Rows
-  commentId: N:SuperOffice.CRM.Rows
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync
   isExternal: true
-  name: SuperOffice.CRM.Rows
-  nameWithType: SuperOffice.CRM.Rows
-  fullName: SuperOffice.CRM.Rows
+  name: GetPriorityAsync
+  nameWithType: TicketPriorityResolver.GetPriorityAsync
+  fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver.GetPriorityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketPriorityRecordData}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TicketPriorityRecordData}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketPriorityRecordData>
+  nameWithType: Task<TicketPriorityRecordData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.TicketPriorityRecordData>
+  nameWithType.vb: Task(Of TicketPriorityRecordData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.TicketPriorityRecordData)
+  name.vb: Task(Of TicketPriorityRecordData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TicketPriorityRecordData
+    name: TicketPriorityRecordData
+    nameWithType: TicketPriorityRecordData
+    fullName: SuperOffice.CRM.Rows.TicketPriorityRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TicketPriorityRecordData
+    name: TicketPriorityRecordData
+    nameWithType: TicketPriorityRecordData
+    fullName: SuperOffice.CRM.Rows.TicketPriorityRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

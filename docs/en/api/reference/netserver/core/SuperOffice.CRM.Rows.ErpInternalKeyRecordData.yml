@@ -41,7 +41,7 @@ items:
   - SuperOffice.CRM.Rows.ErpInternalKeyRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ErpInternalKeyRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
   - SuperOffice.CRM.Rows.ErpInternalKeyRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ErpInternalKeyRecordData.SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ErpInternalKeyRecordData.SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ErpInternalKeyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -443,34 +443,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordData.SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
+- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordData.SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
-  name: ToInsert()
-  nameWithType: ErpInternalKeyRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ErpInternalKeyRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ErpInternalKeyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ErpInternalKeyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ErpInternalKeyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ErpInternalKeyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -656,17 +666,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
+- uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ErpInternalKeyRecordData)
-  nameWithType: ErpInternalKeyRecordDataExtensions.ToInsert(ErpInternalKeyRecordData)
-  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
+  name: ToInsertAsync(ErpInternalKeyRecordData, CancellationToken)
+  nameWithType: ErpInternalKeyRecordDataExtensions.ToInsertAsync(ErpInternalKeyRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
-    name: ToInsert
-    nameWithType: ErpInternalKeyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ErpInternalKeyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -675,15 +685,23 @@ references:
     name: ErpInternalKeyRecordData
     nameWithType: ErpInternalKeyRecordData
     fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpInternalKeyRecordData)
-    name: ToInsert
-    nameWithType: ErpInternalKeyRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpInternalKeyRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ErpInternalKeyRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -692,6 +710,14 @@ references:
     name: ErpInternalKeyRecordData
     nameWithType: ErpInternalKeyRecordData
     fullName: SuperOffice.CRM.Rows.ErpInternalKeyRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

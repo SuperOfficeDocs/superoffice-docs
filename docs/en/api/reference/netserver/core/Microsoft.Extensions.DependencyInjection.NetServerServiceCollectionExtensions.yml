@@ -7,7 +7,9 @@ items:
   children:
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Func{System.IServiceProvider,``0})
   langs:
@@ -37,17 +39,103 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
-  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
-  id: AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  id: AddNetServerCoreForSingleSessionProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
   isExtensionMethod: true
   parent: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
   langs:
   - csharp
   - vb
-  name: AddNetServerCore<TSessionMode>(IServiceCollection, Action<NetServerCoreOptionsBuilder>)
-  nameWithType: NetServerServiceCollectionExtensions.AddNetServerCore<TSessionMode>(IServiceCollection, Action<NetServerCoreOptionsBuilder>)
-  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore<TSessionMode>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder>)
+  name: AddNetServerCoreForSingleSessionProcess(IServiceCollection, IConfiguration, Action<NetServerCoreOptionsBuilder>)
+  nameWithType: NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess(IServiceCollection, IConfiguration, Action<NetServerCoreOptionsBuilder>)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public static IServiceCollection AddNetServerCoreForSingleSessionProcess(this IServiceCollection services, IConfiguration configuration, Action<NetServerCoreOptionsBuilder> optionsAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    - id: optionsAction
+      type: System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddNetServerCoreForSingleSessionProcess(services As IServiceCollection, configuration As IConfiguration, optionsAction As Action(Of NetServerCoreOptionsBuilder) = Nothing) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess*
+  nameWithType.vb: NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess(IServiceCollection, IConfiguration, Action(Of NetServerCoreOptionsBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder))
+  name.vb: AddNetServerCoreForSingleSessionProcess(IServiceCollection, IConfiguration, Action(Of NetServerCoreOptionsBuilder))
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  id: AddNetServerCoreForAsyncLocalProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddNetServerCoreForAsyncLocalProcess(IServiceCollection, IConfiguration, Action<NetServerCoreOptionsBuilder>)
+  nameWithType: NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess(IServiceCollection, IConfiguration, Action<NetServerCoreOptionsBuilder>)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public static IServiceCollection AddNetServerCoreForAsyncLocalProcess(this IServiceCollection services, IConfiguration configuration, Action<NetServerCoreOptionsBuilder> optionsAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    - id: optionsAction
+      type: System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddNetServerCoreForAsyncLocalProcess(services As IServiceCollection, configuration As IConfiguration, optionsAction As Action(Of NetServerCoreOptionsBuilder) = Nothing) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess*
+  nameWithType.vb: NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess(IServiceCollection, IConfiguration, Action(Of NetServerCoreOptionsBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder))
+  name.vb: AddNetServerCoreForAsyncLocalProcess(IServiceCollection, IConfiguration, Action(Of NetServerCoreOptionsBuilder))
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  id: AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddNetServerCore<TNSPrincipalAccessor>(IServiceCollection, IConfiguration, Action<NetServerCoreOptionsBuilder>)
+  nameWithType: NetServerServiceCollectionExtensions.AddNetServerCore<TNSPrincipalAccessor>(IServiceCollection, IConfiguration, Action<NetServerCoreOptionsBuilder>)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore<TNSPrincipalAccessor>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder>)
   type: Method
   source:
     path: SoCore
@@ -59,32 +147,33 @@ items:
   remarks: "\nThis method calls <xref href=\"Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)\" data-throw-if-not-resolved=\"false\"></xref> to add logging, if it has need been added previously \n"
   syntax:
     content: >-
-      public static IServiceCollection AddNetServerCore<TSessionMode>(this IServiceCollection services, Action<NetServerCoreOptionsBuilder> optionsAction = null)
-          where TSessionMode : class, ISoContextProvider
+      public static IServiceCollection AddNetServerCore<TNSPrincipalAccessor>(this IServiceCollection services, IConfiguration configuration, Action<NetServerCoreOptionsBuilder> optionsAction = null)
+          where TNSPrincipalAccessor : class, INSPrincipalAccessor
     parameters:
     - id: services
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
     - id: optionsAction
       type: System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}
     typeParameters:
-    - id: TSessionMode
-      description: Type of Session handler, like <xref href="SuperOffice.Security.Principal.ThreadContextProvider" data-throw-if-not-resolved="false"></xref>, <xref href="SuperOffice.Security.Principal.ProcessContextProvider" data-throw-if-not-resolved="false"></xref> or <see cref="!:SuperOffice.Web.Security.HttpContextProvider"></see>
+    - id: TNSPrincipalAccessor
     return:
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function AddNetServerCore(Of TSessionMode As {Class, ISoContextProvider})(services As IServiceCollection, optionsAction As Action(Of NetServerCoreOptionsBuilder) = Nothing) As IServiceCollection
+      Public Shared Function AddNetServerCore(Of TNSPrincipalAccessor As {Class, INSPrincipalAccessor})(services As IServiceCollection, configuration As IConfiguration, optionsAction As Action(Of NetServerCoreOptionsBuilder) = Nothing) As IServiceCollection
   overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore*
-  nameWithType.vb: NetServerServiceCollectionExtensions.AddNetServerCore(Of TSessionMode)(IServiceCollection, Action(Of NetServerCoreOptionsBuilder))
+  nameWithType.vb: NetServerServiceCollectionExtensions.AddNetServerCore(Of TNSPrincipalAccessor)(IServiceCollection, IConfiguration, Action(Of NetServerCoreOptionsBuilder))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore(Of TSessionMode)(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder))
-  name.vb: AddNetServerCore(Of TSessionMode)(IServiceCollection, Action(Of NetServerCoreOptionsBuilder))
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore(Of TNSPrincipalAccessor)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder))
+  name.vb: AddNetServerCore(Of TNSPrincipalAccessor)(IServiceCollection, IConfiguration, Action(Of NetServerCoreOptionsBuilder))
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   id: AddDatabaseScoped``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
@@ -292,17 +381,22 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore*
-  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess
   isExternal: true
-  name: AddNetServerCore
-  nameWithType: NetServerServiceCollectionExtensions.AddNetServerCore
-  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore
+  name: AddNetServerCoreForSingleSessionProcess
+  nameWithType: NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForSingleSessionProcess
 - uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
   isExternal: true
   name: IServiceCollection
   nameWithType: IServiceCollection
   fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: Microsoft.Extensions.Configuration.IConfiguration
+  isExternal: true
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: Microsoft.Extensions.Configuration.IConfiguration
 - uid: System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}
   commentId: '!:System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}'
   definition: System.Action`1
@@ -384,6 +478,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess
+  isExternal: true
+  name: AddNetServerCoreForAsyncLocalProcess
+  nameWithType: NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCoreForAsyncLocalProcess
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore
+  isExternal: true
+  name: AddNetServerCore
+  nameWithType: NetServerServiceCollectionExtensions.AddNetServerCore
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped
   isExternal: true

@@ -56,8 +56,6 @@ items:
       Public Class SaleSummary
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.SaleAgent
-    commentId: T:SuperOffice.CRM.Services.SaleAgent
   - linkId: SuperOffice.CRM.Services.ISaleAgent
     commentId: T:SuperOffice.CRM.Services.ISaleAgent
   inheritance:
@@ -1089,15 +1087,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.SaleAgent
-  commentId: T:SuperOffice.CRM.Services.SaleAgent
-  isExternal: true
-  name: SaleAgent
-  nameWithType: SaleAgent
-  fullName: SuperOffice.CRM.Services.SaleAgent
 - uid: SuperOffice.CRM.Services.ISaleAgent
   commentId: T:SuperOffice.CRM.Services.ISaleAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ISaleAgent
   nameWithType: ISaleAgent

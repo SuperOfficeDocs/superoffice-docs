@@ -5,37 +5,37 @@ items:
   id: IArchiveAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult
-  - SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration(System.String,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2(System.String,System.String,System.String,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext(System.String,System.String,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns(System.String,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities(System.String,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32[])
-  - SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
-  - SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData(System.String,System.Int32,System.String[])
-  - SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2(System.String,System.Int32,System.String)
-  - SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
-  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String,System.String,System.String[])
-  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String,System.String,System.String,System.String,System.String[])
-  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities(System.String,System.String,System.String[])
-  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2(System.String,System.String,System.String,System.String,System.String[])
-  - SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths(System.String,System.String[])
-  - SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2(System.String,System.String,System.String,System.String,System.String[])
+  - SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.ExportArchiveAsync(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2Async(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContextAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListAsync(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContextAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContextAsync(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumnsAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntitiesAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetProviderNamesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2Async(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetRelatedDataAsync(System.String,System.Int32,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilterAsync(SuperOffice.CRM.Services.ActivityFilter,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsAsync(System.String,System.String,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesAsync(System.String,System.String,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsAsync(System.String,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -76,16 +76,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult
-  id: CreateDefaultArchiveListResult
+- uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  id: CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultArchiveListResult()
-  nameWithType: IArchiveAgent.CreateDefaultArchiveListResult()
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult()
+  name: CreateDefaultArchiveListResultAsync(CancellationToken)
+  nameWithType: IArchiveAgent.CreateDefaultArchiveListResultAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -95,22 +95,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLoading default values into a new ArchiveListResult.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: ArchiveListResult CreateDefaultArchiveListResult()
+    content: Task<ArchiveListResult> CreateDefaultArchiveListResultAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
       description: New ArchiveListResult with default values
-    content.vb: Function CreateDefaultArchiveListResult As ArchiveListResult
-  overload: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter
-  id: GetActivityFilter
+    content.vb: Function CreateDefaultArchiveListResultAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
+  id: GetActivityFilterAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetActivityFilter()
-  nameWithType: IArchiveAgent.GetActivityFilter()
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter()
+  name: GetActivityFilterAsync(CancellationToken)
+  nameWithType: IArchiveAgent.GetActivityFilterAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -120,22 +123,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet activity filter for the specified list.\n"
   syntax:
-    content: ActivityFilter GetActivityFilter()
+    content: Task<ActivityFilter> GetActivityFilterAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ActivityFilter
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ActivityFilter}
       description: The activity filter for the specified list
-    content.vb: Function GetActivityFilter As ActivityFilter
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
-  id: SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
+    content.vb: Function GetActivityFilterAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ActivityFilter)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilterAsync(SuperOffice.CRM.Services.ActivityFilter,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilterAsync(SuperOffice.CRM.Services.ActivityFilter,System.Threading.CancellationToken)
+  id: SetActivityFilterAsync(SuperOffice.CRM.Services.ActivityFilter,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: SetActivityFilter(ActivityFilter)
-  nameWithType: IArchiveAgent.SetActivityFilter(ActivityFilter)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
+  name: SetActivityFilterAsync(ActivityFilter, CancellationToken)
+  nameWithType: IArchiveAgent.SetActivityFilterAsync(ActivityFilter, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilterAsync(SuperOffice.CRM.Services.ActivityFilter, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -145,23 +151,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSet activity filter for the specified list.\n"
   syntax:
-    content: void SetActivityFilter(ActivityFilter activityFilter)
+    content: Task SetActivityFilterAsync(ActivityFilter activityFilter, CancellationToken cancellationToken = null)
     parameters:
     - id: activityFilter
       type: SuperOffice.CRM.Services.ActivityFilter
       description: New activity filter
-    content.vb: Sub SetActivityFilter(activityFilter As ActivityFilter)
-  overload: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32[])
-  id: GetGroupAssociateIds(System.Int32[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetActivityFilterAsync(activityFilter As ActivityFilter, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilterAsync*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetGroupAssociateIdsAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetGroupAssociateIds(Int32[])
-  nameWithType: IArchiveAgent.GetGroupAssociateIds(Int32[])
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32[])
+  name: GetGroupAssociateIdsAsync(Int32[], CancellationToken)
+  nameWithType: IArchiveAgent.GetGroupAssociateIdsAsync(Int32[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIdsAsync(System.Int32[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -171,29 +181,31 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturns the  associate ids that belongs to the given groups\n"
   syntax:
-    content: int[] GetGroupAssociateIds(int[] groupIds)
+    content: Task<int[]> GetGroupAssociateIdsAsync(int[] groupIds, CancellationToken cancellationToken = null)
     parameters:
     - id: groupIds
       type: System.Int32[]
       description: Array of group ids
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32[]
+      type: System.Threading.Tasks.Task{System.Int32[]}
       description: Array of associate ids
-    content.vb: Function GetGroupAssociateIds(groupIds As Integer()) As Integer()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds*
-  nameWithType.vb: IArchiveAgent.GetGroupAssociateIds(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32())
-  name.vb: GetGroupAssociateIds(Int32())
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration(System.String,System.String)
-  id: GetArchiveConfiguration(System.String,System.String)
+    content.vb: Function GetGroupAssociateIdsAsync(groupIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIdsAsync*
+  nameWithType.vb: IArchiveAgent.GetGroupAssociateIdsAsync(Int32(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIdsAsync(System.Int32(), System.Threading.CancellationToken)
+  name.vb: GetGroupAssociateIdsAsync(Int32(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetArchiveConfigurationAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveConfiguration(String, String)
-  nameWithType: IArchiveAgent.GetArchiveConfiguration(String, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration(System.String, System.String)
+  name: GetArchiveConfigurationAsync(String, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveConfigurationAsync(String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationAsync(System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -203,7 +215,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet the configuration for one archive. The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.\n"
   syntax:
-    content: ArchiveConfiguration GetArchiveConfiguration(string guiName, string providerName)
+    content: Task<ArchiveConfiguration> GetArchiveConfigurationAsync(string guiName, string providerName, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -211,21 +223,23 @@ items:
     - id: providerName
       type: System.String
       description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveConfiguration
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveConfiguration}
       description: Archive configuration consisting of column information, orderby information and entities
-    content.vb: Function GetArchiveConfiguration(guiName As String, providerName As String) As ArchiveConfiguration
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext(System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext(System.String,System.String,System.String)
-  id: GetArchiveConfigurationWithContext(System.String,System.String,System.String)
+    content.vb: Function GetArchiveConfigurationAsync(guiName As String, providerName As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveConfiguration)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationAsync*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContextAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContextAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: GetArchiveConfigurationWithContextAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveConfigurationWithContext(String, String, String)
-  nameWithType: IArchiveAgent.GetArchiveConfigurationWithContext(String, String, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext(System.String, System.String, System.String)
+  name: GetArchiveConfigurationWithContextAsync(String, String, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveConfigurationWithContextAsync(String, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContextAsync(System.String, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -235,7 +249,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet the configuration for one archive, with context parameter. The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.\n"
   syntax:
-    content: ArchiveConfiguration GetArchiveConfigurationWithContext(string guiName, string providerName, string context)
+    content: Task<ArchiveConfiguration> GetArchiveConfigurationWithContextAsync(string guiName, string providerName, string context, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -246,21 +260,23 @@ items:
     - id: context
       type: System.String
       description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveConfiguration
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveConfiguration}
       description: Archive configuration consisting of column information, orderby information and entities
-    content.vb: Function GetArchiveConfigurationWithContext(guiName As String, providerName As String, context As String) As ArchiveConfiguration
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths(System.String,System.String[])
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths(System.String,System.String[])
-  id: SetColumnWidths(System.String,System.String[])
+    content.vb: Function GetArchiveConfigurationWithContextAsync(guiName As String, providerName As String, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveConfiguration)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContextAsync*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsAsync(System.String,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsAsync(System.String,System.String[],System.Threading.CancellationToken)
+  id: SetColumnWidthsAsync(System.String,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: SetColumnWidths(String, String[])
-  nameWithType: IArchiveAgent.SetColumnWidths(String, String[])
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths(System.String, System.String[])
+  name: SetColumnWidthsAsync(String, String[], CancellationToken)
+  nameWithType: IArchiveAgent.SetColumnWidthsAsync(String, String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsAsync(System.String, System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -270,7 +286,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSet the column widths for the given set of columns and GUI name. \n"
   syntax:
-    content: void SetColumnWidths(string guiName, string[] columnWidths)
+    content: Task SetColumnWidthsAsync(string guiName, string[] columnWidths, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -278,21 +294,25 @@ items:
     - id: columnWidths
       type: System.String[]
       description: Array of column widths. A column width is specified either as a fixed number of character (10c) or as a percentage (10%). Percentages will be recalculated so that they add up to exactly 100 when the configuration is fetched again.
-    content.vb: Sub SetColumnWidths(guiName As String, columnWidths As String())
-  overload: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths*
-  nameWithType.vb: IArchiveAgent.SetColumnWidths(String, String())
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths(System.String, System.String())
-  name.vb: SetColumnWidths(String, String())
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities(System.String,System.String,System.String[])
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities(System.String,System.String,System.String[])
-  id: SetChosenEntities(System.String,System.String,System.String[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetColumnWidthsAsync(guiName As String, columnWidths As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsAsync*
+  nameWithType.vb: IArchiveAgent.SetColumnWidthsAsync(String, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsAsync(System.String, System.String(), System.Threading.CancellationToken)
+  name.vb: SetColumnWidthsAsync(String, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesAsync(System.String,System.String,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesAsync(System.String,System.String,System.String[],System.Threading.CancellationToken)
+  id: SetChosenEntitiesAsync(System.String,System.String,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: SetChosenEntities(String, String, String[])
-  nameWithType: IArchiveAgent.SetChosenEntities(String, String, String[])
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities(System.String, System.String, System.String[])
+  name: SetChosenEntitiesAsync(String, String, String[], CancellationToken)
+  nameWithType: IArchiveAgent.SetChosenEntitiesAsync(String, String, String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesAsync(System.String, System.String, System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -302,7 +322,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSet the currently chosen entities for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.\n"
   syntax:
-    content: void SetChosenEntities(string guiName, string providerName, string[] entities)
+    content: Task SetChosenEntitiesAsync(string guiName, string providerName, string[] entities, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -313,21 +333,25 @@ items:
     - id: entities
       type: System.String[]
       description: Array of entity names
-    content.vb: Sub SetChosenEntities(guiName As String, providerName As String, entities As String())
-  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities*
-  nameWithType.vb: IArchiveAgent.SetChosenEntities(String, String, String())
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities(System.String, System.String, System.String())
-  name.vb: SetChosenEntities(String, String, String())
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String,System.String,System.String[])
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String,System.String,System.String[])
-  id: SetChosenColumns(System.String,System.String,System.String[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetChosenEntitiesAsync(guiName As String, providerName As String, entities As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesAsync*
+  nameWithType.vb: IArchiveAgent.SetChosenEntitiesAsync(String, String, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesAsync(System.String, System.String, System.String(), System.Threading.CancellationToken)
+  name.vb: SetChosenEntitiesAsync(String, String, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsAsync(System.String,System.String,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsAsync(System.String,System.String,System.String[],System.Threading.CancellationToken)
+  id: SetChosenColumnsAsync(System.String,System.String,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: SetChosenColumns(String, String, String[])
-  nameWithType: IArchiveAgent.SetChosenColumns(String, String, String[])
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String, System.String, System.String[])
+  name: SetChosenColumnsAsync(String, String, String[], CancellationToken)
+  nameWithType: IArchiveAgent.SetChosenColumnsAsync(String, String, String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsAsync(System.String, System.String, System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -337,7 +361,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSet the currently chosen columns for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.\n"
   syntax:
-    content: void SetChosenColumns(string guiName, string providerName, string[] chosenColumns)
+    content: Task SetChosenColumnsAsync(string guiName, string providerName, string[] chosenColumns, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -348,21 +372,25 @@ items:
     - id: chosenColumns
       type: System.String[]
       description: Array of column names, where array order indicates left to right order in the archive.
-    content.vb: Sub SetChosenColumns(guiName As String, providerName As String, chosenColumns As String())
-  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns*
-  nameWithType.vb: IArchiveAgent.SetChosenColumns(String, String, String())
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String, System.String, System.String())
-  name.vb: SetChosenColumns(String, String, String())
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2(System.String,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2(System.String,System.String,System.String,System.String)
-  id: GetArchiveConfigurationV2(System.String,System.String,System.String,System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetChosenColumnsAsync(guiName As String, providerName As String, chosenColumns As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsAsync*
+  nameWithType.vb: IArchiveAgent.SetChosenColumnsAsync(String, String, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsAsync(System.String, System.String, System.String(), System.Threading.CancellationToken)
+  name.vb: SetChosenColumnsAsync(String, String, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2Async(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2Async(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: GetArchiveConfigurationV2Async(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveConfigurationV2(String, String, String, String)
-  nameWithType: IArchiveAgent.GetArchiveConfigurationV2(String, String, String, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2(System.String, System.String, System.String, System.String)
+  name: GetArchiveConfigurationV2Async(String, String, String, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveConfigurationV2Async(String, String, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2Async(System.String, System.String, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -372,7 +400,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet the configuration for one archive. The configuration is keyed by a combination of archive provider name (plus optional context), gui name, and optional table binding. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.\n"
   syntax:
-    content: ArchiveConfiguration GetArchiveConfigurationV2(string guiName, string providerName, string context, string ownerKeys)
+    content: Task<ArchiveConfiguration> GetArchiveConfigurationV2Async(string guiName, string providerName, string context, string ownerKeys, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -386,21 +414,23 @@ items:
     - id: ownerKeys
       type: System.String
       description: Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveConfiguration
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveConfiguration}
       description: Archive configuration consisting of column information, orderby information and entities
-    content.vb: Function GetArchiveConfigurationV2(guiName As String, providerName As String, context As String, ownerKeys As String) As ArchiveConfiguration
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2(System.String,System.String,System.String,System.String,System.String[])
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2(System.String,System.String,System.String,System.String,System.String[])
-  id: SetColumnWidthsV2(System.String,System.String,System.String,System.String,System.String[])
+    content.vb: Function GetArchiveConfigurationV2Async(guiName As String, providerName As String, context As String, ownerKeys As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveConfiguration)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2Async*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  id: SetColumnWidthsV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: SetColumnWidthsV2(String, String, String, String, String[])
-  nameWithType: IArchiveAgent.SetColumnWidthsV2(String, String, String, String, String[])
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2(System.String, System.String, System.String, System.String, System.String[])
+  name: SetColumnWidthsV2Async(String, String, String, String, String[], CancellationToken)
+  nameWithType: IArchiveAgent.SetColumnWidthsV2Async(String, String, String, String, String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2Async(System.String, System.String, System.String, System.String, System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -410,7 +440,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSet the column widths for the given set of columns and GUI name. \n"
   syntax:
-    content: void SetColumnWidthsV2(string guiName, string providerName, string context, string ownerKeys, string[] columnWidths)
+    content: Task SetColumnWidthsV2Async(string guiName, string providerName, string context, string ownerKeys, string[] columnWidths, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -427,21 +457,25 @@ items:
     - id: columnWidths
       type: System.String[]
       description: Array of column widths. A column width is specified either as a fixed number of character (10c) or as a percentage (10%). Percentages will be recalculated so that they add up to exactly 100 when the configuration is fetched again.
-    content.vb: Sub SetColumnWidthsV2(guiName As String, providerName As String, context As String, ownerKeys As String, columnWidths As String())
-  overload: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2*
-  nameWithType.vb: IArchiveAgent.SetColumnWidthsV2(String, String, String, String, String())
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2(System.String, System.String, System.String, System.String, System.String())
-  name.vb: SetColumnWidthsV2(String, String, String, String, String())
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2(System.String,System.String,System.String,System.String,System.String[])
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2(System.String,System.String,System.String,System.String,System.String[])
-  id: SetChosenEntitiesV2(System.String,System.String,System.String,System.String,System.String[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetColumnWidthsV2Async(guiName As String, providerName As String, context As String, ownerKeys As String, columnWidths As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2Async*
+  nameWithType.vb: IArchiveAgent.SetColumnWidthsV2Async(String, String, String, String, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2Async(System.String, System.String, System.String, System.String, System.String(), System.Threading.CancellationToken)
+  name.vb: SetColumnWidthsV2Async(String, String, String, String, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  id: SetChosenEntitiesV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: SetChosenEntitiesV2(String, String, String, String, String[])
-  nameWithType: IArchiveAgent.SetChosenEntitiesV2(String, String, String, String, String[])
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2(System.String, System.String, System.String, System.String, System.String[])
+  name: SetChosenEntitiesV2Async(String, String, String, String, String[], CancellationToken)
+  nameWithType: IArchiveAgent.SetChosenEntitiesV2Async(String, String, String, String, String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2Async(System.String, System.String, System.String, System.String, System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -451,7 +485,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSet the currently chosen entities for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.\n"
   syntax:
-    content: void SetChosenEntitiesV2(string guiName, string providerName, string context, string ownerKeys, string[] entities)
+    content: Task SetChosenEntitiesV2Async(string guiName, string providerName, string context, string ownerKeys, string[] entities, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -468,21 +502,25 @@ items:
     - id: entities
       type: System.String[]
       description: Array of entity names
-    content.vb: Sub SetChosenEntitiesV2(guiName As String, providerName As String, context As String, ownerKeys As String, entities As String())
-  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2*
-  nameWithType.vb: IArchiveAgent.SetChosenEntitiesV2(String, String, String, String, String())
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2(System.String, System.String, System.String, System.String, System.String())
-  name.vb: SetChosenEntitiesV2(String, String, String, String, String())
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String,System.String,System.String,System.String,System.String[])
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String,System.String,System.String,System.String,System.String[])
-  id: SetChosenColumnsV2(System.String,System.String,System.String,System.String,System.String[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetChosenEntitiesV2Async(guiName As String, providerName As String, context As String, ownerKeys As String, entities As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2Async*
+  nameWithType.vb: IArchiveAgent.SetChosenEntitiesV2Async(String, String, String, String, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2Async(System.String, System.String, System.String, System.String, System.String(), System.Threading.CancellationToken)
+  name.vb: SetChosenEntitiesV2Async(String, String, String, String, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  id: SetChosenColumnsV2Async(System.String,System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: SetChosenColumnsV2(String, String, String, String, String[])
-  nameWithType: IArchiveAgent.SetChosenColumnsV2(String, String, String, String, String[])
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String, System.String, System.String, System.String, System.String[])
+  name: SetChosenColumnsV2Async(String, String, String, String, String[], CancellationToken)
+  nameWithType: IArchiveAgent.SetChosenColumnsV2Async(String, String, String, String, String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2Async(System.String, System.String, System.String, System.String, System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -492,7 +530,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nSet the currently chosen columns for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.\n"
   syntax:
-    content: void SetChosenColumnsV2(string guiName, string providerName, string context, string ownerKeys, string[] chosenColumns)
+    content: Task SetChosenColumnsV2Async(string guiName, string providerName, string context, string ownerKeys, string[] chosenColumns, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -509,21 +547,25 @@ items:
     - id: chosenColumns
       type: System.String[]
       description: Array of column names, where array order indicates left to right order in the archive.
-    content.vb: Sub SetChosenColumnsV2(guiName As String, providerName As String, context As String, ownerKeys As String, chosenColumns As String())
-  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2*
-  nameWithType.vb: IArchiveAgent.SetChosenColumnsV2(String, String, String, String, String())
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String, System.String, System.String, System.String, System.String())
-  name.vb: SetChosenColumnsV2(String, String, String, String, String())
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
-  id: GetArchiveListByColumns(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetChosenColumnsV2Async(guiName As String, providerName As String, context As String, ownerKeys As String, chosenColumns As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2Async*
+  nameWithType.vb: IArchiveAgent.SetChosenColumnsV2Async(String, String, String, String, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2Async(System.String, System.String, System.String, System.String, System.String(), System.Threading.CancellationToken)
+  name.vb: SetChosenColumnsV2Async(String, String, String, String, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetArchiveListByColumnsAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveListByColumns(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32)
-  nameWithType: IArchiveAgent.GetArchiveListByColumns(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32)
+  name: GetArchiveListByColumnsAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsAsync(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -536,7 +578,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListItem[] GetArchiveListByColumns(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize)
+    content: Task<ArchiveListItem[]> GetArchiveListByColumnsAsync(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -559,24 +601,26 @@ items:
     - id: pageSize
       type: System.Int32
       description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListItem[]}
       description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveListByColumns(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer) As ArchiveListItem()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns*
-  nameWithType.vb: IArchiveAgent.GetArchiveListByColumns(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32)
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32)
-  name.vb: GetArchiveListByColumns(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32)
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
-  id: GetArchiveListByColumnsWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+    content.vb: Function GetArchiveListByColumnsAsync(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsAsync(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.Threading.CancellationToken)
+  name.vb: GetArchiveListByColumnsAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContextAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContextAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetArchiveListByColumnsWithContextAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveListByColumnsWithContext(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String)
+  name: GetArchiveListByColumnsWithContextAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContextAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContextAsync(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -589,7 +633,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListItem[] GetArchiveListByColumnsWithContext(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string context)
+    content: Task<ArchiveListItem[]> GetArchiveListByColumnsWithContextAsync(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string context, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -615,24 +659,26 @@ items:
     - id: context
       type: System.String
       description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListItem[]}
       description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveListByColumnsWithContext(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, context As String) As ArchiveListItem()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext*
-  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithContext(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String)
-  name.vb: GetArchiveListByColumnsWithContext(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
-  id: GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
+    content.vb: Function GetArchiveListByColumnsWithContextAsync(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContextAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithContextAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContextAsync(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
+  name.vb: GetArchiveListByColumnsWithContextAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListAsync(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListAsync(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetArchiveListAsync(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveList(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32)
-  nameWithType: IArchiveAgent.GetArchiveList(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32)
+  name: GetArchiveListAsync(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListAsync(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListAsync(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -645,7 +691,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListItem[] GetArchiveList(string guiName, string providerName, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize)
+    content: Task<ArchiveListItem[]> GetArchiveListAsync(string guiName, string providerName, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -668,24 +714,26 @@ items:
     - id: pageSize
       type: System.Int32
       description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListItem[]}
       description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveList(guiName As String, providerName As String, sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer) As ArchiveListItem()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList*
-  nameWithType.vb: IArchiveAgent.GetArchiveList(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32)
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32)
-  name.vb: GetArchiveList(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32)
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
-  id: GetArchiveListWithContext(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+    content.vb: Function GetArchiveListAsync(guiName As String, providerName As String, sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListAsync(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListAsync(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.Threading.CancellationToken)
+  name.vb: GetArchiveListAsync(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContextAsync(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContextAsync(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetArchiveListWithContextAsync(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveListWithContext(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
-  nameWithType: IArchiveAgent.GetArchiveListWithContext(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String)
+  name: GetArchiveListWithContextAsync(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListWithContextAsync(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContextAsync(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -698,7 +746,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListItem[] GetArchiveListWithContext(string guiName, string providerName, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string context)
+    content: Task<ArchiveListItem[]> GetArchiveListWithContextAsync(string guiName, string providerName, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string context, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -724,24 +772,26 @@ items:
     - id: context
       type: System.String
       description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListItem[]}
       description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveListWithContext(guiName As String, providerName As String, sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, context As String) As ArchiveListItem()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext*
-  nameWithType.vb: IArchiveAgent.GetArchiveListWithContext(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String)
-  name.vb: GetArchiveListWithContext(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
-  id: GetArchiveListByColumnsWithHeader(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+    content.vb: Function GetArchiveListWithContextAsync(guiName As String, providerName As String, sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContextAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListWithContextAsync(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContextAsync(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
+  name.vb: GetArchiveListWithContextAsync(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetArchiveListByColumnsWithHeaderAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveListByColumnsWithHeader(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String)
+  name: GetArchiveListByColumnsWithHeaderAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -754,7 +804,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListResult GetArchiveListByColumnsWithHeader(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string options)
+    content: Task<ArchiveListResult> GetArchiveListByColumnsWithHeaderAsync(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string options, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -780,24 +830,26 @@ items:
     - id: options
       type: System.String
       description: name=value&amp;amp;... formatted set of options. &quot;rowcount=true&quot; will cause the rowcount to be calculated and populated.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
       description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveListByColumnsWithHeader(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, options As String) As ArchiveListResult
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader*
-  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithHeader(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String)
-  name.vb: GetArchiveListByColumnsWithHeader(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
-  id: GetProviderNames
+    content.vb: Function GetArchiveListByColumnsWithHeaderAsync(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, options As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
+  name.vb: GetArchiveListByColumnsWithHeaderAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNamesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetProviderNamesAsync(System.Threading.CancellationToken)
+  id: GetProviderNamesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetProviderNames()
-  nameWithType: IArchiveAgent.GetProviderNames()
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames()
+  name: GetProviderNamesAsync(CancellationToken)
+  nameWithType: IArchiveAgent.GetProviderNamesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNamesAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -807,22 +859,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn list of all archive provider names\n"
   syntax:
-    content: string[] GetProviderNames()
+    content: Task<string[]> GetProviderNamesAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
+      type: System.Threading.Tasks.Task{System.String[]}
       description: 'Array of all archive provider names. '
-    content.vb: Function GetProviderNames As String()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String)
-  id: GetArchiveListByColumnsWithHeaderWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String)
+    content.vb: Function GetProviderNamesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNamesAsync*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  id: GetArchiveListByColumnsWithHeaderWithContextAsync(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveListByColumnsWithHeaderWithContext(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, String)
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String, System.String)
+  name: GetArchiveListByColumnsWithHeaderWithContextAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -835,7 +890,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListResult GetArchiveListByColumnsWithHeaderWithContext(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string options, string context)
+    content: Task<ArchiveListResult> GetArchiveListByColumnsWithHeaderWithContextAsync(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string options, string context, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -864,24 +919,26 @@ items:
     - id: context
       type: System.String
       description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
       description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveListByColumnsWithHeaderWithContext(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, options As String, context As String) As ArchiveListResult
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext*
-  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String, System.String)
-  name.vb: GetArchiveListByColumnsWithHeaderWithContext(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, String)
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns(System.String,System.String)
-  id: GetAvailableColumns(System.String,System.String)
+    content.vb: Function GetArchiveListByColumnsWithHeaderWithContextAsync(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, options As String, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String, System.String, System.Threading.CancellationToken)
+  name.vb: GetArchiveListByColumnsWithHeaderWithContextAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumnsAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumnsAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetAvailableColumnsAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetAvailableColumns(String, String)
-  nameWithType: IArchiveAgent.GetAvailableColumns(String, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns(System.String, System.String)
+  name: GetAvailableColumnsAsync(String, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetAvailableColumnsAsync(String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumnsAsync(System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -891,7 +948,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn list of all columns supported by an archive provider. See also GetArchiveConfiguration.\n"
   syntax:
-    content: ArchiveColumnInfo[] GetAvailableColumns(string providerName, string context)
+    content: Task<ArchiveColumnInfo[]> GetAvailableColumnsAsync(string providerName, string context, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -899,21 +956,23 @@ items:
     - id: context
       type: System.String
       description: Optional context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]}
       description: 'Array of all columns supported by the archive provider. '
-    content.vb: Function GetAvailableColumns(providerName As String, context As String) As ArchiveColumnInfo()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities(System.String,System.String)
-  id: GetAvailableEntities(System.String,System.String)
+    content.vb: Function GetAvailableColumnsAsync(providerName As String, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveColumnInfo())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumnsAsync*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntitiesAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntitiesAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetAvailableEntitiesAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetAvailableEntities(String, String)
-  nameWithType: IArchiveAgent.GetAvailableEntities(String, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities(System.String, System.String)
+  name: GetAvailableEntitiesAsync(String, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetAvailableEntitiesAsync(String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntitiesAsync(System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -926,7 +985,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
   syntax:
-    content: MDOListItem[] GetAvailableEntities(string providerName, string context)
+    content: Task<MDOListItem[]> GetAvailableEntitiesAsync(string providerName, string context, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -934,21 +993,23 @@ items:
     - id: context
       type: System.String
       description: Optional context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.MDOListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem[]}
       description: 'Array of all entity types supported by the archive provider. MDOListItem.Name = DisplayName, Tooltip = DisplayTooltip, Type = code name, StyleHint = optional/mandatory, IconHint=DefaultShow '
-    content.vb: Function GetAvailableEntities(providerName As String, context As String) As MDOListItem()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  id: GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    content.vb: Function GetAvailableEntitiesAsync(providerName As String, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of MDOListItem())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntitiesAsync*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetArchiveListByColumns2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  name: GetArchiveListByColumns2Async(String, String, String, String, String, Int32, Int32, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2Async(String, String, String, String, String, Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -961,7 +1022,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListItem[] GetArchiveListByColumns2(string providerName, string columns, string sortOrder, string restrictions, string entities, int page, int pageSize)
+    content: Task<ArchiveListItem[]> GetArchiveListByColumns2Async(string providerName, string columns, string sortOrder, string restrictions, string entities, int page, int pageSize, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -984,21 +1045,23 @@ items:
     - id: pageSize
       type: System.Int32
       description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListItem[]}
       description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveListByColumns2(providerName As String, columns As String, sortOrder As String, restrictions As String, entities As String, page As Integer, pageSize As Integer) As ArchiveListItem()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
-  id: GetArchiveListByColumnsWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+    content.vb: Function GetArchiveListByColumns2Async(providerName As String, columns As String, sortOrder As String, restrictions As String, entities As String, page As Integer, pageSize As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2Async*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetArchiveListByColumnsWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveListByColumnsWithContext2(String, String, String, String, String, Int32, Int32, String)
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext2(String, String, String, String, String, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String)
+  name: GetArchiveListByColumnsWithContext2Async(String, String, String, String, String, Int32, Int32, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext2Async(String, String, String, String, String, Int32, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1011,7 +1074,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListItem[] GetArchiveListByColumnsWithContext2(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string context)
+    content: Task<ArchiveListItem[]> GetArchiveListByColumnsWithContext2Async(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string context, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -1037,21 +1100,23 @@ items:
     - id: context
       type: System.String
       description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListItem[]}
       description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveListByColumnsWithContext2(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, context As String) As ArchiveListItem()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  id: GetArchiveList2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    content.vb: Function GetArchiveListByColumnsWithContext2Async(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2Async*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetArchiveList2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveList2(String, String, String, String, String, Int32, Int32)
-  nameWithType: IArchiveAgent.GetArchiveList2(String, String, String, String, String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  name: GetArchiveList2Async(String, String, String, String, String, Int32, Int32, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveList2Async(String, String, String, String, String, Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1064,7 +1129,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListItem[] GetArchiveList2(string guiName, string providerName, string sortOrder, string restriction, string entities, int page, int pageSize)
+    content: Task<ArchiveListItem[]> GetArchiveList2Async(string guiName, string providerName, string sortOrder, string restriction, string entities, int page, int pageSize, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -1087,21 +1152,23 @@ items:
     - id: pageSize
       type: System.Int32
       description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListItem[]}
       description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveList2(guiName As String, providerName As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer) As ArchiveListItem()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
-  id: GetArchiveListWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+    content.vb: Function GetArchiveList2Async(guiName As String, providerName As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2Async*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetArchiveListWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveListWithContext2(String, String, String, String, String, Int32, Int32, String)
-  nameWithType: IArchiveAgent.GetArchiveListWithContext2(String, String, String, String, String, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String)
+  name: GetArchiveListWithContext2Async(String, String, String, String, String, Int32, Int32, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListWithContext2Async(String, String, String, String, String, Int32, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1114,7 +1181,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListItem[] GetArchiveListWithContext2(string guiName, string providerName, string sortOrder, string restriction, string entities, int page, int pageSize, string context)
+    content: Task<ArchiveListItem[]> GetArchiveListWithContext2Async(string guiName, string providerName, string sortOrder, string restriction, string entities, int page, int pageSize, string context, CancellationToken cancellationToken = null)
     parameters:
     - id: guiName
       type: System.String
@@ -1140,21 +1207,23 @@ items:
     - id: context
       type: System.String
       description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListItem[]}
       description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveListWithContext2(guiName As String, providerName As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, context As String) As ArchiveListItem()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
-  id: GetArchiveListByColumnsWithHeader2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+    content.vb: Function GetArchiveListWithContext2Async(guiName As String, providerName As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2Async*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetArchiveListByColumnsWithHeader2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveListByColumnsWithHeader2(String, String, String, String, String, Int32, Int32, String)
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader2(String, String, String, String, String, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String)
+  name: GetArchiveListByColumnsWithHeader2Async(String, String, String, String, String, Int32, Int32, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader2Async(String, String, String, String, String, Int32, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1167,7 +1236,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListResult GetArchiveListByColumnsWithHeader2(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string options)
+    content: Task<ArchiveListResult> GetArchiveListByColumnsWithHeader2Async(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string options, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -1193,21 +1262,23 @@ items:
     - id: options
       type: System.String
       description: name=value&amp;amp;... formatted set of options. &quot;rowcount=true&quot; will cause the rowcount to be calculated and populated.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
       description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveListByColumnsWithHeader2(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, options As String) As ArchiveListResult
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)
-  id: GetArchiveListByColumnsWithHeaderWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)
+    content.vb: Function GetArchiveListByColumnsWithHeader2Async(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, options As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  id: GetArchiveListByColumnsWithHeaderWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetArchiveListByColumnsWithHeaderWithContext2(String, String, String, String, String, Int32, Int32, String, String)
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(String, String, String, String, String, Int32, Int32, String, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String, System.String)
+  name: GetArchiveListByColumnsWithHeaderWithContext2Async(String, String, String, String, String, Int32, Int32, String, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async(String, String, String, String, String, Int32, Int32, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1220,7 +1291,7 @@ items:
   example:
   - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
   syntax:
-    content: ArchiveListResult GetArchiveListByColumnsWithHeaderWithContext2(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string options, string context)
+    content: Task<ArchiveListResult> GetArchiveListByColumnsWithHeaderWithContext2Async(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string options, string context, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -1249,21 +1320,23 @@ items:
     - id: context
       type: System.String
       description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ArchiveListResult
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
       description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
-    content.vb: Function GetArchiveListByColumnsWithHeaderWithContext2(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, options As String, context As String) As ArchiveListResult
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2*
-- uid: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
-  id: ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
+    content.vb: Function GetArchiveListByColumnsWithHeaderWithContext2Async(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, options As String, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.ExportArchiveAsync(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.ExportArchiveAsync(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32,System.Threading.CancellationToken)
+  id: ExportArchiveAsync(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: ExportArchive(String, String, String[], String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String, String[], Int32)
-  nameWithType: IArchiveAgent.ExportArchive(String, String, String[], String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String, String[], Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String, System.String, System.String[], System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String, System.String[], System.Int32)
+  name: ExportArchiveAsync(String, String, String[], String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String, String[], Int32, CancellationToken)
+  nameWithType: IArchiveAgent.ExportArchiveAsync(String, String, String[], String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String, String[], Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.ExportArchiveAsync(System.String, System.String, System.String[], System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String, System.String[], System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1273,7 +1346,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nExports the target archive to a downloadable format.\n"
   syntax:
-    content: ExportArchiveResult ExportArchive(string providerName, string context, string[] desiredEntities, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restrictions, string exportType, string[] selectedRowIds, int estimatedRowCount)
+    content: Task<ExportArchiveResult> ExportArchiveAsync(string providerName, string context, string[] desiredEntities, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restrictions, string exportType, string[] selectedRowIds, int estimatedRowCount, CancellationToken cancellationToken = null)
     parameters:
     - id: providerName
       type: System.String
@@ -1299,23 +1372,25 @@ items:
     - id: estimatedRowCount
       type: System.Int32
       description: The estimated amount of rows to be exported. Used to determine if the operation should be run as a batch task or immediately.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ExportArchiveResult
-    content.vb: Function ExportArchive(providerName As String, context As String, desiredEntities As String(), columns As String(), sortOrder As ArchiveOrderByInfo(), restrictions As ArchiveRestrictionInfo(), exportType As String, selectedRowIds As String(), estimatedRowCount As Integer) As ExportArchiveResult
-  overload: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive*
-  nameWithType.vb: IArchiveAgent.ExportArchive(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32)
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String, System.String, System.String(), System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String, System.String(), System.Int32)
-  name.vb: ExportArchive(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32)
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData(System.String,System.Int32,System.String[])
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData(System.String,System.Int32,System.String[])
-  id: GetRelatedData(System.String,System.Int32,System.String[])
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ExportArchiveResult}
+    content.vb: Function ExportArchiveAsync(providerName As String, context As String, desiredEntities As String(), columns As String(), sortOrder As ArchiveOrderByInfo(), restrictions As ArchiveRestrictionInfo(), exportType As String, selectedRowIds As String(), estimatedRowCount As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ExportArchiveResult)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.ExportArchiveAsync*
+  nameWithType.vb: IArchiveAgent.ExportArchiveAsync(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.ExportArchiveAsync(System.String, System.String, System.String(), System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String, System.String(), System.Int32, System.Threading.CancellationToken)
+  name.vb: ExportArchiveAsync(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32, CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedDataAsync(System.String,System.Int32,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedDataAsync(System.String,System.Int32,System.String[],System.Threading.CancellationToken)
+  id: GetRelatedDataAsync(System.String,System.Int32,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetRelatedData(String, Int32, String[])
-  nameWithType: IArchiveAgent.GetRelatedData(String, Int32, String[])
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData(System.String, System.Int32, System.String[])
+  name: GetRelatedDataAsync(String, Int32, String[], CancellationToken)
+  nameWithType: IArchiveAgent.GetRelatedDataAsync(String, Int32, String[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedDataAsync(System.String, System.Int32, System.String[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1325,7 +1400,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet data for fields related to a table record. While this method /can/ be used to fetch plain fields, that is not the intended usage and it does not replace the Entity.Get methods available for that purpose. Nor does it replace the generic DotSyntax/Dynamic archive provider.\n"
   syntax:
-    content: RelatedData[] GetRelatedData(string table, int recordId, string[] fields)
+    content: Task<RelatedData[]> GetRelatedDataAsync(string table, int recordId, string[] fields, CancellationToken cancellationToken = null)
     parameters:
     - id: table
       type: System.String
@@ -1336,24 +1411,26 @@ items:
     - id: fields
       type: System.String[]
       description: 'Names of fields - these need to be valid in the DotSyntax for this table, and can be arbitrarily deep. Examples: &apos;title&apos;, &apos;created_by.associate_id.person.fullName&apos;, &apos;x_comment&apos;. Do not start with the root table name.'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.RelatedData[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RelatedData[]}
       description: Array of field => ArchiveColumnData objects
-    content.vb: Function GetRelatedData(table As String, recordId As Integer, fields As String()) As RelatedData()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData*
-  nameWithType.vb: IArchiveAgent.GetRelatedData(String, Int32, String())
-  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData(System.String, System.Int32, System.String())
-  name.vb: GetRelatedData(String, Int32, String())
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2(System.String,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2(System.String,System.Int32,System.String)
-  id: GetRelatedData2(System.String,System.Int32,System.String)
+    content.vb: Function GetRelatedDataAsync(table As String, recordId As Integer, fields As String(), cancellationToken As CancellationToken = Nothing) As Task(Of RelatedData())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedDataAsync*
+  nameWithType.vb: IArchiveAgent.GetRelatedDataAsync(String, Int32, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedDataAsync(System.String, System.Int32, System.String(), System.Threading.CancellationToken)
+  name.vb: GetRelatedDataAsync(String, Int32, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2Async(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2Async(System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetRelatedData2Async(System.String,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   langs:
   - csharp
   - vb
-  name: GetRelatedData2(String, Int32, String)
-  nameWithType: IArchiveAgent.GetRelatedData2(String, Int32, String)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2(System.String, System.Int32, System.String)
+  name: GetRelatedData2Async(String, Int32, String, CancellationToken)
+  nameWithType: IArchiveAgent.GetRelatedData2Async(String, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2Async(System.String, System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -1363,7 +1440,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet data for fields related to a table record. While this method /can/ be used to fetch plain fields, that is not the intended usage and it does not replace the Entity.Get methods available for that purpose. Nor does it replace the generic DotSyntax/Dynamic archive provider.\n"
   syntax:
-    content: RelatedData[] GetRelatedData2(string table, int recordId, string fields)
+    content: Task<RelatedData[]> GetRelatedData2Async(string table, int recordId, string fields, CancellationToken cancellationToken = null)
     parameters:
     - id: table
       type: System.String
@@ -1374,11 +1451,13 @@ items:
     - id: fields
       type: System.String
       description: 'Names of fields as a comma-separated list - these need to be valid in the DotSyntax for this table, and can be arbitrarily deep. Example: &apos;title,created_by.associate_id.person.fullName, x_comment&apos;. Do not start with the root table name.'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.RelatedData[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RelatedData[]}
       description: Array of field => ArchiveColumnData objects
-    content.vb: Function GetRelatedData2(table As String, recordId As Integer, fields As String) As RelatedData()
-  overload: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2*
+    content.vb: Function GetRelatedData2Async(table As String, recordId As Integer, fields As String, cancellationToken As CancellationToken = Nothing) As Task(Of RelatedData())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2Async*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1386,25 +1465,153 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult
+- uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync
   isExternal: true
-  name: CreateDefaultArchiveListResult
-  nameWithType: IArchiveAgent.CreateDefaultArchiveListResult
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult
-- uid: SuperOffice.CRM.Services.ArchiveListResult
-  commentId: T:SuperOffice.CRM.Services.ArchiveListResult
-  parent: SuperOffice.CRM.Services
+  name: CreateDefaultArchiveListResultAsync
+  nameWithType: IArchiveAgent.CreateDefaultArchiveListResultAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: ArchiveListResult
-  nameWithType: ArchiveListResult
-  fullName: SuperOffice.CRM.Services.ArchiveListResult
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveListResult>
+  nameWithType: Task<ArchiveListResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ArchiveListResult>
+  nameWithType.vb: Task(Of ArchiveListResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ArchiveListResult)
+  name.vb: Task(Of ArchiveListResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ArchiveListResult
+    name: ArchiveListResult
+    nameWithType: ArchiveListResult
+    fullName: SuperOffice.CRM.Services.ArchiveListResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ArchiveListResult
+    name: ArchiveListResult
+    nameWithType: ArchiveListResult
+    fullName: SuperOffice.CRM.Services.ArchiveListResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: GetActivityFilter
-  nameWithType: IArchiveAgent.GetActivityFilter
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync
+  isExternal: true
+  name: GetActivityFilterAsync
+  nameWithType: IArchiveAgent.GetActivityFilterAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ActivityFilter}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ActivityFilter}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ActivityFilter>
+  nameWithType: Task<ActivityFilter>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ActivityFilter>
+  nameWithType.vb: Task(Of ActivityFilter)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ActivityFilter)
+  name.vb: Task(Of ActivityFilter)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ActivityFilter
+    name: ActivityFilter
+    nameWithType: ActivityFilter
+    fullName: SuperOffice.CRM.Services.ActivityFilter
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ActivityFilter
+    name: ActivityFilter
+    nameWithType: ActivityFilter
+    fullName: SuperOffice.CRM.Services.ActivityFilter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilterAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilterAsync
+  isExternal: true
+  name: SetActivityFilterAsync
+  nameWithType: IArchiveAgent.SetActivityFilterAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilterAsync
 - uid: SuperOffice.CRM.Services.ActivityFilter
   commentId: T:SuperOffice.CRM.Services.ActivityFilter
   parent: SuperOffice.CRM.Services
@@ -1412,18 +1619,17 @@ references:
   name: ActivityFilter
   nameWithType: ActivityFilter
   fullName: SuperOffice.CRM.Services.ActivityFilter
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: SetActivityFilter
-  nameWithType: IArchiveAgent.SetActivityFilter
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIdsAsync
   isExternal: true
-  name: GetGroupAssociateIds
-  nameWithType: IArchiveAgent.GetGroupAssociateIds
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds
+  name: GetGroupAssociateIdsAsync
+  nameWithType: IArchiveAgent.GetGroupAssociateIdsAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIdsAsync
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -1450,12 +1656,61 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32[]>
+  nameWithType: Task<Int32[]>
+  fullName: System.Threading.Tasks.Task<System.Int32[]>
+  nameWithType.vb: Task(Of Int32())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32())
+  name.vb: Task(Of Int32())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationAsync
   isExternal: true
-  name: GetArchiveConfiguration
-  nameWithType: IArchiveAgent.GetArchiveConfiguration
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration
+  name: GetArchiveConfigurationAsync
+  nameWithType: IArchiveAgent.GetArchiveConfigurationAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1463,31 +1718,67 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.Services.ArchiveConfiguration
-  commentId: T:SuperOffice.CRM.Services.ArchiveConfiguration
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ArchiveConfiguration
-  nameWithType: ArchiveConfiguration
-  fullName: SuperOffice.CRM.Services.ArchiveConfiguration
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveConfiguration}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveConfiguration}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveConfiguration>
+  nameWithType: Task<ArchiveConfiguration>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ArchiveConfiguration>
+  nameWithType.vb: Task(Of ArchiveConfiguration)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ArchiveConfiguration)
+  name.vb: Task(Of ArchiveConfiguration)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ArchiveConfiguration
+    name: ArchiveConfiguration
+    nameWithType: ArchiveConfiguration
+    fullName: SuperOffice.CRM.Services.ArchiveConfiguration
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ArchiveConfiguration
+    name: ArchiveConfiguration
+    nameWithType: ArchiveConfiguration
+    fullName: SuperOffice.CRM.Services.ArchiveConfiguration
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContextAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContextAsync
   isExternal: true
-  name: GetArchiveConfigurationWithContext
-  nameWithType: IArchiveAgent.GetArchiveConfigurationWithContext
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths
+  name: GetArchiveConfigurationWithContextAsync
+  nameWithType: IArchiveAgent.GetArchiveConfigurationWithContextAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContextAsync
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsAsync
   isExternal: true
-  name: SetColumnWidths
-  nameWithType: IArchiveAgent.SetColumnWidths
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths
+  name: SetColumnWidthsAsync
+  nameWithType: IArchiveAgent.SetColumnWidthsAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsAsync
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -1514,48 +1805,48 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesAsync
   isExternal: true
-  name: SetChosenEntities
-  nameWithType: IArchiveAgent.SetChosenEntities
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns
+  name: SetChosenEntitiesAsync
+  nameWithType: IArchiveAgent.SetChosenEntitiesAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesAsync
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsAsync
   isExternal: true
-  name: SetChosenColumns
-  nameWithType: IArchiveAgent.SetChosenColumns
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2
+  name: SetChosenColumnsAsync
+  nameWithType: IArchiveAgent.SetChosenColumnsAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsAsync
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2Async
   isExternal: true
-  name: GetArchiveConfigurationV2
-  nameWithType: IArchiveAgent.GetArchiveConfigurationV2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2
+  name: GetArchiveConfigurationV2Async
+  nameWithType: IArchiveAgent.GetArchiveConfigurationV2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2Async
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2Async
   isExternal: true
-  name: SetColumnWidthsV2
-  nameWithType: IArchiveAgent.SetColumnWidthsV2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2
+  name: SetColumnWidthsV2Async
+  nameWithType: IArchiveAgent.SetColumnWidthsV2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2Async
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2Async
   isExternal: true
-  name: SetChosenEntitiesV2
-  nameWithType: IArchiveAgent.SetChosenEntitiesV2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2
-- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2
+  name: SetChosenEntitiesV2Async
+  nameWithType: IArchiveAgent.SetChosenEntitiesV2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2Async
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2Async
   isExternal: true
-  name: SetChosenColumnsV2
-  nameWithType: IArchiveAgent.SetChosenColumnsV2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns
+  name: SetChosenColumnsV2Async
+  nameWithType: IArchiveAgent.SetChosenColumnsV2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2Async
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsAsync
   isExternal: true
-  name: GetArchiveListByColumns
-  nameWithType: IArchiveAgent.GetArchiveListByColumns
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns
+  name: GetArchiveListByColumnsAsync
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsAsync
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
   isExternal: true
   name: ArchiveOrderByInfo[]
@@ -1615,15 +1906,24 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Services.ArchiveListItem[]
-  isExternal: true
-  name: ArchiveListItem[]
-  nameWithType: ArchiveListItem[]
-  fullName: SuperOffice.CRM.Services.ArchiveListItem[]
-  nameWithType.vb: ArchiveListItem()
-  fullName.vb: SuperOffice.CRM.Services.ArchiveListItem()
-  name.vb: ArchiveListItem()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListItem[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListItem[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveListItem[]>
+  nameWithType: Task<ArchiveListItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ArchiveListItem[]>
+  nameWithType.vb: Task(Of ArchiveListItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ArchiveListItem())
+  name.vb: Task(Of ArchiveListItem())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.ArchiveListItem
     name: ArchiveListItem
     nameWithType: ArchiveListItem
@@ -1632,7 +1932,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.ArchiveListItem
     name: ArchiveListItem
     nameWithType: ArchiveListItem
@@ -1641,57 +1952,118 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContextAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContextAsync
   isExternal: true
-  name: GetArchiveListByColumnsWithContext
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList
+  name: GetArchiveListByColumnsWithContextAsync
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContextAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContextAsync
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListAsync
   isExternal: true
-  name: GetArchiveList
-  nameWithType: IArchiveAgent.GetArchiveList
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext
+  name: GetArchiveListAsync
+  nameWithType: IArchiveAgent.GetArchiveListAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListAsync
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContextAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContextAsync
   isExternal: true
-  name: GetArchiveListWithContext
-  nameWithType: IArchiveAgent.GetArchiveListWithContext
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader
+  name: GetArchiveListWithContextAsync
+  nameWithType: IArchiveAgent.GetArchiveListWithContextAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContextAsync
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync
   isExternal: true
-  name: GetArchiveListByColumnsWithHeader
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
+  name: GetArchiveListByColumnsWithHeaderAsync
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNamesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetProviderNamesAsync
   isExternal: true
-  name: GetProviderNames
-  nameWithType: IArchiveAgent.GetProviderNames
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext
-  isExternal: true
-  name: GetArchiveListByColumnsWithHeaderWithContext
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns
-  isExternal: true
-  name: GetAvailableColumns
-  nameWithType: IArchiveAgent.GetAvailableColumns
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
-  isExternal: true
-  name: ArchiveColumnInfo[]
-  nameWithType: ArchiveColumnInfo[]
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
-  nameWithType.vb: ArchiveColumnInfo()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo()
-  name.vb: ArchiveColumnInfo()
+  name: GetProviderNamesAsync
+  nameWithType: IArchiveAgent.GetProviderNamesAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNamesAsync
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync
+  isExternal: true
+  name: GetArchiveListByColumnsWithHeaderWithContextAsync
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumnsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumnsAsync
+  isExternal: true
+  name: GetAvailableColumnsAsync
+  nameWithType: IArchiveAgent.GetAvailableColumnsAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumnsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveColumnInfo[]>
+  nameWithType: Task<ArchiveColumnInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]>
+  nameWithType.vb: Task(Of ArchiveColumnInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
+  name.vb: Task(Of ArchiveColumnInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     name: ArchiveColumnInfo
     nameWithType: ArchiveColumnInfo
@@ -1700,7 +2072,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     name: ArchiveColumnInfo
     nameWithType: ArchiveColumnInfo
@@ -1709,21 +2092,33 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntitiesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntitiesAsync
   isExternal: true
-  name: GetAvailableEntities
-  nameWithType: IArchiveAgent.GetAvailableEntities
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities
-- uid: SuperOffice.CRM.Services.MDOListItem[]
-  isExternal: true
-  name: MDOListItem[]
-  nameWithType: MDOListItem[]
-  fullName: SuperOffice.CRM.Services.MDOListItem[]
-  nameWithType.vb: MDOListItem()
-  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
-  name.vb: MDOListItem()
+  name: GetAvailableEntitiesAsync
+  nameWithType: IArchiveAgent.GetAvailableEntitiesAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntitiesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<MDOListItem[]>
+  nameWithType: Task<MDOListItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.MDOListItem[]>
+  nameWithType.vb: Task(Of MDOListItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.MDOListItem())
+  name.vb: Task(Of MDOListItem())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
     nameWithType: MDOListItem
@@ -1732,7 +2127,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
     nameWithType: MDOListItem
@@ -1741,70 +2147,118 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2Async
   isExternal: true
-  name: GetArchiveListByColumns2
-  nameWithType: IArchiveAgent.GetArchiveListByColumns2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2
+  name: GetArchiveListByColumns2Async
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2Async
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2Async
   isExternal: true
-  name: GetArchiveListByColumnsWithContext2
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2
+  name: GetArchiveListByColumnsWithContext2Async
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2Async
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2Async
   isExternal: true
-  name: GetArchiveList2
-  nameWithType: IArchiveAgent.GetArchiveList2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2
+  name: GetArchiveList2Async
+  nameWithType: IArchiveAgent.GetArchiveList2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2Async
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2Async
   isExternal: true
-  name: GetArchiveListWithContext2
-  nameWithType: IArchiveAgent.GetArchiveListWithContext2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2
+  name: GetArchiveListWithContext2Async
+  nameWithType: IArchiveAgent.GetArchiveListWithContext2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2Async
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async
   isExternal: true
-  name: GetArchiveListByColumnsWithHeader2
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2
+  name: GetArchiveListByColumnsWithHeader2Async
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async
   isExternal: true
-  name: GetArchiveListByColumnsWithHeaderWithContext2
-  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2
-- uid: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.ExportArchive
+  name: GetArchiveListByColumnsWithHeaderWithContext2Async
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async
+- uid: SuperOffice.CRM.Services.IArchiveAgent.ExportArchiveAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.ExportArchiveAsync
   isExternal: true
-  name: ExportArchive
-  nameWithType: IArchiveAgent.ExportArchive
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive
-- uid: SuperOffice.CRM.Services.ExportArchiveResult
-  commentId: T:SuperOffice.CRM.Services.ExportArchiveResult
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ExportArchiveResult
-  nameWithType: ExportArchiveResult
-  fullName: SuperOffice.CRM.Services.ExportArchiveResult
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData
-  isExternal: true
-  name: GetRelatedData
-  nameWithType: IArchiveAgent.GetRelatedData
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData
-- uid: SuperOffice.CRM.Services.RelatedData[]
-  isExternal: true
-  name: RelatedData[]
-  nameWithType: RelatedData[]
-  fullName: SuperOffice.CRM.Services.RelatedData[]
-  nameWithType.vb: RelatedData()
-  fullName.vb: SuperOffice.CRM.Services.RelatedData()
-  name.vb: RelatedData()
+  name: ExportArchiveAsync
+  nameWithType: IArchiveAgent.ExportArchiveAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.ExportArchiveAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ExportArchiveResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ExportArchiveResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ExportArchiveResult>
+  nameWithType: Task<ExportArchiveResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ExportArchiveResult>
+  nameWithType.vb: Task(Of ExportArchiveResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ExportArchiveResult)
+  name.vb: Task(Of ExportArchiveResult)
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ExportArchiveResult
+    name: ExportArchiveResult
+    nameWithType: ExportArchiveResult
+    fullName: SuperOffice.CRM.Services.ExportArchiveResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ExportArchiveResult
+    name: ExportArchiveResult
+    nameWithType: ExportArchiveResult
+    fullName: SuperOffice.CRM.Services.ExportArchiveResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedDataAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedDataAsync
+  isExternal: true
+  name: GetRelatedDataAsync
+  nameWithType: IArchiveAgent.GetRelatedDataAsync
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedDataAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RelatedData[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.RelatedData[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RelatedData[]>
+  nameWithType: Task<RelatedData[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.RelatedData[]>
+  nameWithType.vb: Task(Of RelatedData())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.RelatedData())
+  name.vb: Task(Of RelatedData())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.RelatedData
     name: RelatedData
     nameWithType: RelatedData
@@ -1813,7 +2267,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.RelatedData
     name: RelatedData
     nameWithType: RelatedData
@@ -1822,9 +2287,12 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2*
-  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2Async*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2Async
   isExternal: true
-  name: GetRelatedData2
-  nameWithType: IArchiveAgent.GetRelatedData2
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2
+  name: GetRelatedData2Async
+  nameWithType: IArchiveAgent.GetRelatedData2Async
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2Async

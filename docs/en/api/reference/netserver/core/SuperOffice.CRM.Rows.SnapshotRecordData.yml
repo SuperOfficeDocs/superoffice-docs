@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.SnapshotRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SnapshotRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SnapshotRecordData)
   - SuperOffice.CRM.Rows.SnapshotRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SnapshotRecordData.SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SnapshotRecordData.SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SnapshotRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SnapshotRecordData.SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SnapshotRecordData)
+- uid: SuperOffice.CRM.Rows.SnapshotRecordData.SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SnapshotRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SnapshotRecordData)
-  name: ToInsert()
-  nameWithType: SnapshotRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SnapshotRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SnapshotRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SnapshotRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SnapshotRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SnapshotRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SnapshotRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SnapshotRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SnapshotRecordData)
+- uid: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SnapshotRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SnapshotRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SnapshotRecordData)
-  nameWithType: SnapshotRecordDataExtensions.ToInsert(SnapshotRecordData)
-  fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SnapshotRecordData)
+  name: ToInsertAsync(SnapshotRecordData, CancellationToken)
+  nameWithType: SnapshotRecordDataExtensions.ToInsertAsync(SnapshotRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SnapshotRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SnapshotRecordData)
-    name: ToInsert
-    nameWithType: SnapshotRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SnapshotRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SnapshotRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: SnapshotRecordData
     nameWithType: SnapshotRecordData
     fullName: SuperOffice.CRM.Rows.SnapshotRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SnapshotRecordData)
-    name: ToInsert
-    nameWithType: SnapshotRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SnapshotRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SnapshotRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SnapshotRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: SnapshotRecordData
     nameWithType: SnapshotRecordData
     fullName: SuperOffice.CRM.Rows.SnapshotRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

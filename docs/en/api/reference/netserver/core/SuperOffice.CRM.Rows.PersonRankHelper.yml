@@ -6,9 +6,9 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.PersonRankHelper.#ctor
-  - SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank(System.Int32,System.Boolean)
-  - SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks(System.Int32)
-  - SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank(System.Int32,System.Int16)
+  - SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRankAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanksAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRankAsync(System.Int32,System.Int16,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -69,16 +69,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank(System.Int32,System.Boolean)
-  id: ChangePersonRank(System.Int32,System.Boolean)
+- uid: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRankAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRankAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: ChangePersonRankAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PersonRankHelper
   langs:
   - csharp
   - vb
-  name: ChangePersonRank(Int32, Boolean)
-  nameWithType: PersonRankHelper.ChangePersonRank(Int32, Boolean)
-  fullName: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank(System.Int32, System.Boolean)
+  name: ChangePersonRankAsync(Int32, Boolean, CancellationToken)
+  nameWithType: PersonRankHelper.ChangePersonRankAsync(Int32, Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRankAsync(System.Int32, System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -88,7 +88,7 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nMove one person up or down in the ranking in the Person Archive, if possible.<p></p>The person record that has rank = 1 is the primary contact for a company, and is the one used in situations where no person has been explicitly chosen (such as in selections).<p></p>This method corresponds to the move up/move down functions in the person archive in the contact panel.<p></p>This method always affects two records.\n"
   syntax:
-    content: public int ChangePersonRank(int personId, bool moveUp)
+    content: public Task<int> ChangePersonRankAsync(int personId, bool moveUp, CancellationToken cancellationToken)
     parameters:
     - id: personId
       type: System.Int32
@@ -96,25 +96,27 @@ items:
     - id: moveUp
       type: System.Boolean
       description: If true, the given person is moved to an earlier rank (lower numeric rank value, down to a limit of 1; up in the GUI if sorted by ascending rank). If false, movement is to later priority (higher numeric rank value).
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: If movement occurred, the return value will be the ID of the OTHER person that got moved. A GUI should switch the positions of the original person ID and this return value.<p></p>If no movement occurred, for any reason,  0 is returned.
-    content.vb: Public Function ChangePersonRank(personId As Integer, moveUp As Boolean) As Integer
-  overload: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank*
+    content.vb: Public Function ChangePersonRankAsync(personId As Integer, moveUp As Boolean, cancellationToken As CancellationToken) As Task(Of Integer)
+  overload: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRankAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank(System.Int32,System.Int16)
-  commentId: M:SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank(System.Int32,System.Int16)
-  id: SetPersonRank(System.Int32,System.Int16)
+- uid: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRankAsync(System.Int32,System.Int16,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRankAsync(System.Int32,System.Int16,System.Threading.CancellationToken)
+  id: SetPersonRankAsync(System.Int32,System.Int16,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PersonRankHelper
   langs:
   - csharp
   - vb
-  name: SetPersonRank(Int32, Int16)
-  nameWithType: PersonRankHelper.SetPersonRank(Int32, Int16)
-  fullName: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank(System.Int32, System.Int16)
+  name: SetPersonRankAsync(Int32, Int16, CancellationToken)
+  nameWithType: PersonRankHelper.SetPersonRankAsync(Int32, Int16, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRankAsync(System.Int32, System.Int16, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -124,7 +126,7 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nDirectly set the rank field of a person record, adjusting all other person records under the same contact as needed.<p></p>This call may affect multiple records, potentially all person records belonging to one contact.<p></p>You must have write access for to affected records for this method to succeed.\n"
   syntax:
-    content: public bool SetPersonRank(int personId, short desiredRank)
+    content: public Task<bool> SetPersonRankAsync(int personId, short desiredRank, CancellationToken cancellationToken)
     parameters:
     - id: personId
       type: System.Int32
@@ -132,25 +134,27 @@ items:
     - id: desiredRank
       type: System.Int16
       description: Desired rank to set, legal values are from 1 to the number of person records on this contact. Out of range values will be moved to the closest valid value and processed.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: 'If movement occurred, or the person already had exactly the desired rank value, then the return value will be true. If movement did not occur, for any other reason, the return value is false. '
-    content.vb: Public Function SetPersonRank(personId As Integer, desiredRank As Short) As Boolean
-  overload: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank*
+    content.vb: Public Function SetPersonRankAsync(personId As Integer, desiredRank As Short, cancellationToken As CancellationToken) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRankAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks(System.Int32)
-  id: NormalizeRanks(System.Int32)
+- uid: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanksAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanksAsync(System.Int32,System.Threading.CancellationToken)
+  id: NormalizeRanksAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PersonRankHelper
   langs:
   - csharp
   - vb
-  name: NormalizeRanks(Int32)
-  nameWithType: PersonRankHelper.NormalizeRanks(Int32)
-  fullName: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks(System.Int32)
+  name: NormalizeRanksAsync(Int32, CancellationToken)
+  nameWithType: PersonRankHelper.NormalizeRanksAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanksAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -160,16 +164,18 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nNomralize the ranks for all persons that belong to a contact. This means that the persons will be sorted according to their current rank values, and the ranks will be made monotonically increasing from 1.\n"
   syntax:
-    content: public bool NormalizeRanks(int contactId)
+    content: public Task<bool> NormalizeRanksAsync(int contactId, CancellationToken cancellationToken)
     parameters:
     - id: contactId
       type: System.Int32
       description: Id of contact whose persons are to be rank normalized
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: The reutrn value is true if the operation suceeded, either because all persons were already normalized, or because normalization was done. It is false if Sentry blocks any required changes.
-    content.vb: Public Function NormalizeRanks(contactId As Integer) As Boolean
-  overload: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks*
+    content.vb: Public Function NormalizeRanksAsync(contactId As Integer, cancellationToken As CancellationToken) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanksAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -546,12 +552,12 @@ references:
   name: PersonRankHelper
   nameWithType: PersonRankHelper.PersonRankHelper
   fullName: SuperOffice.CRM.Rows.PersonRankHelper.PersonRankHelper
-- uid: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank*
-  commentId: Overload:SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank
+- uid: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRankAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRankAsync
   isExternal: true
-  name: ChangePersonRank
-  nameWithType: PersonRankHelper.ChangePersonRank
-  fullName: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank
+  name: ChangePersonRankAsync
+  nameWithType: PersonRankHelper.ChangePersonRankAsync
+  fullName: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRankAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -566,12 +572,98 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank*
-  commentId: Overload:SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: SetPersonRank
-  nameWithType: PersonRankHelper.SetPersonRank
-  fullName: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRankAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRankAsync
+  isExternal: true
+  name: SetPersonRankAsync
+  nameWithType: PersonRankHelper.SetPersonRankAsync
+  fullName: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRankAsync
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
@@ -579,9 +671,52 @@ references:
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks*
-  commentId: Overload:SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanksAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanksAsync
   isExternal: true
-  name: NormalizeRanks
-  nameWithType: PersonRankHelper.NormalizeRanks
-  fullName: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks
+  name: NormalizeRanksAsync
+  nameWithType: PersonRankHelper.NormalizeRanksAsync
+  fullName: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanksAsync

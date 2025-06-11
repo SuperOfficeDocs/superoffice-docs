@@ -5,7 +5,7 @@ items:
   id: IErpConnectoUrlResolverPlugin
   parent: SuperOffice.ErpSync
   children:
-  - SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl(System.String,SuperOffice.CRM.IConfiguration)
+  - SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrlAsync(System.String,SuperOffice.CRM.IConfiguration,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -34,16 +34,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl(System.String,SuperOffice.CRM.IConfiguration)
-  commentId: M:SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl(System.String,SuperOffice.CRM.IConfiguration)
-  id: ResolveUrl(System.String,SuperOffice.CRM.IConfiguration)
+- uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrlAsync(System.String,SuperOffice.CRM.IConfiguration,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrlAsync(System.String,SuperOffice.CRM.IConfiguration,System.Threading.CancellationToken)
+  id: ResolveUrlAsync(System.String,SuperOffice.CRM.IConfiguration,System.Threading.CancellationToken)
   parent: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
   langs:
   - csharp
   - vb
-  name: ResolveUrl(String, IConfiguration)
-  nameWithType: IErpConnectoUrlResolverPlugin.ResolveUrl(String, IConfiguration)
-  fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl(System.String, SuperOffice.CRM.IConfiguration)
+  name: ResolveUrlAsync(String, IConfiguration, CancellationToken)
+  nameWithType: IErpConnectoUrlResolverPlugin.ResolveUrlAsync(String, IConfiguration, CancellationToken)
+  fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrlAsync(System.String, SuperOffice.CRM.IConfiguration, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Plugins
@@ -53,16 +53,18 @@ items:
   namespace: SuperOffice.ErpSync
   summary: "\nResolve the actual url to use.\n"
   syntax:
-    content: string ResolveUrl(string targetUrl, IConfiguration config)
+    content: Task<string> ResolveUrlAsync(string targetUrl, IConfiguration config, CancellationToken cancellationToken = null)
     parameters:
     - id: targetUrl
       type: System.String
     - id: config
       type: SuperOffice.CRM.IConfiguration
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Function ResolveUrl(targetUrl As String, config As IConfiguration) As String
-  overload: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function ResolveUrlAsync(targetUrl As String, config As IConfiguration, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrlAsync*
 references:
 - uid: SuperOffice.ErpSync
   commentId: N:SuperOffice.ErpSync
@@ -235,12 +237,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl*
-  commentId: Overload:SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl
+- uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrlAsync*
+  commentId: Overload:SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrlAsync
   isExternal: true
-  name: ResolveUrl
-  nameWithType: IErpConnectoUrlResolverPlugin.ResolveUrl
-  fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl
+  name: ResolveUrlAsync
+  nameWithType: IErpConnectoUrlResolverPlugin.ResolveUrlAsync
+  fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrlAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -255,6 +257,54 @@ references:
   name: IConfiguration
   nameWithType: IConfiguration
   fullName: SuperOffice.CRM.IConfiguration
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -267,3 +317,41 @@ references:
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

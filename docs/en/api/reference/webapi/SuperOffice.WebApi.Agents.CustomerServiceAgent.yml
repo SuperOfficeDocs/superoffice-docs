@@ -12,7 +12,6 @@ items:
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CheckSymmetricEncryptionAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultMailboxEntityAsync(SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateSessionAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -42,7 +41,6 @@ items:
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveAllCustomerCenterConfigsAsync(SuperOffice.WebApi.Data.CustomerCenterConfig[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.WebApi.Data.CustomerCenterConfig,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.WebApi.Data.MailboxEntity,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveSystemTemplateSettingsAsync(SuperOffice.WebApi.Data.SystemTemplateSettings,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.SessionIsValidAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.TestSmtpServerAsync(System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -90,7 +88,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.Dispose
@@ -348,79 +346,6 @@ items:
   overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveMailboxEntityAsync*
   implements:
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.WebApi.Data.MailboxEntity,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
-  id: CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.CustomerServiceAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultSmsConfigAsync(RequestOptions)
-  nameWithType: CustomerServiceAgent.CreateDefaultSmsConfigAsync(RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new SmsConfig.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: public Task<SmsConfig> CreateDefaultSmsConfigAsync(RequestOptions requestOptions = null)
-    parameters:
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SmsConfig}
-      description: A blank SmsConfig
-    content.vb: Public Function CreateDefaultSmsConfigAsync(requestOptions As RequestOptions = Nothing) As Task(Of SmsConfig)
-  overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig,SuperOffice.WebApi.RequestOptions)
-  id: SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.CustomerServiceAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveSmsConfigAsync(SmsConfig, RequestOptions)
-  nameWithType: CustomerServiceAgent.SaveSmsConfigAsync(SmsConfig, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdates the existing SmsConfig or creates a new SmsConfig if the id parameter is 0. \n"
-  syntax:
-    content: public Task<SmsConfig> SaveSmsConfigAsync(SmsConfig smsConfig, RequestOptions requestOptions = null)
-    parameters:
-    - id: smsConfig
-      type: SuperOffice.WebApi.Data.SmsConfig
-      description: The SmsConfig that is saved.
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SmsConfig}
-      description: New or updated SmsConfig
-    content.vb: Public Function SaveSmsConfigAsync(smsConfig As SmsConfig, requestOptions As RequestOptions = Nothing) As Task(Of SmsConfig)
-  overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveSmsConfigAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.ICustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2493,18 +2418,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  name: ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2526,10 +2451,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3184,166 +3109,6 @@ references:
   name: MailboxEntity
   nameWithType: MailboxEntity
   fullName: SuperOffice.WebApi.Data.MailboxEntity
-- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync
-  isExternal: true
-  name: CreateDefaultSmsConfigAsync
-  nameWithType: CustomerServiceAgent.CreateDefaultSmsConfigAsync
-  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync
-- uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ICustomerServiceAgent
-  isExternal: true
-  name: CreateDefaultSmsConfigAsync(RequestOptions)
-  nameWithType: ICustomerServiceAgent.CreateDefaultSmsConfigAsync(RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
-    name: CreateDefaultSmsConfigAsync
-    nameWithType: ICustomerServiceAgent.CreateDefaultSmsConfigAsync
-    fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateDefaultSmsConfigAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
-    name: CreateDefaultSmsConfigAsync
-    nameWithType: ICustomerServiceAgent.CreateDefaultSmsConfigAsync
-    fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateDefaultSmsConfigAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SmsConfig}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SmsConfig}'
-  definition: System.Threading.Tasks.Task`1
-  name: Task<SmsConfig>
-  nameWithType: Task<SmsConfig>
-  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SmsConfig>
-  nameWithType.vb: Task(Of SmsConfig)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SmsConfig)
-  name.vb: Task(Of SmsConfig)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.SmsConfig
-    name: SmsConfig
-    nameWithType: SmsConfig
-    fullName: SuperOffice.WebApi.Data.SmsConfig
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.SmsConfig
-    name: SmsConfig
-    nameWithType: SmsConfig
-    fullName: SuperOffice.WebApi.Data.SmsConfig
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveSmsConfigAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveSmsConfigAsync
-  isExternal: true
-  name: SaveSmsConfigAsync
-  nameWithType: CustomerServiceAgent.SaveSmsConfigAsync
-  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveSmsConfigAsync
-- uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ICustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ICustomerServiceAgent
-  isExternal: true
-  name: SaveSmsConfigAsync(SmsConfig, RequestOptions)
-  nameWithType: ICustomerServiceAgent.SaveSmsConfigAsync(SmsConfig, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig, SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig,SuperOffice.WebApi.RequestOptions)
-    name: SaveSmsConfigAsync
-    nameWithType: ICustomerServiceAgent.SaveSmsConfigAsync
-    fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.SaveSmsConfigAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.WebApi.Data.SmsConfig
-    name: SmsConfig
-    nameWithType: SmsConfig
-    fullName: SuperOffice.WebApi.Data.SmsConfig
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig,SuperOffice.WebApi.RequestOptions)
-    name: SaveSmsConfigAsync
-    nameWithType: ICustomerServiceAgent.SaveSmsConfigAsync
-    fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.SaveSmsConfigAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.WebApi.Data.SmsConfig
-    name: SmsConfig
-    nameWithType: SmsConfig
-    fullName: SuperOffice.WebApi.Data.SmsConfig
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Data.SmsConfig
-  commentId: T:SuperOffice.WebApi.Data.SmsConfig
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: SmsConfig
-  nameWithType: SmsConfig
-  fullName: SuperOffice.WebApi.Data.SmsConfig
 - uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.UpdateFeatureTogglesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.UpdateFeatureTogglesAsync
   isExternal: true
@@ -5672,6 +5437,49 @@ references:
     name: RequestOptions
     nameWithType: RequestOptions
     fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SmsConfig}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SmsConfig}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SmsConfig>
+  nameWithType: Task<SmsConfig>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SmsConfig>
+  nameWithType.vb: Task(Of SmsConfig)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SmsConfig)
+  name.vb: Task(Of SmsConfig)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.SmsConfig
+    name: SmsConfig
+    nameWithType: SmsConfig
+    fullName: SuperOffice.WebApi.Data.SmsConfig
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.SmsConfig
+    name: SmsConfig
+    nameWithType: SmsConfig
+    fullName: SuperOffice.WebApi.Data.SmsConfig
     isExternal: true
   - name: )
     nameWithType: )

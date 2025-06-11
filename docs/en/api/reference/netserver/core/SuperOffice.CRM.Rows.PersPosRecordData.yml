@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.PersPosRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.PersPosRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PersPosRecordData)
   - SuperOffice.CRM.Rows.PersPosRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.PersPosRecordData.SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PersPosRecordData.SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PersPosRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PersPosRecordData.SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersPosRecordData)
+- uid: SuperOffice.CRM.Rows.PersPosRecordData.SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PersPosRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PersPosRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersPosRecordData)
-  name: ToInsert()
-  nameWithType: PersPosRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PersPosRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: PersPosRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PersPosRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PersPosRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PersPosRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PersPosRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersPosRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersPosRecordData)
+- uid: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PersPosRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PersPosRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(PersPosRecordData)
-  nameWithType: PersPosRecordDataExtensions.ToInsert(PersPosRecordData)
-  fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersPosRecordData)
+  name: ToInsertAsync(PersPosRecordData, CancellationToken)
+  nameWithType: PersPosRecordDataExtensions.ToInsertAsync(PersPosRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PersPosRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersPosRecordData)
-    name: ToInsert
-    nameWithType: PersPosRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PersPosRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PersPosRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: PersPosRecordData
     nameWithType: PersPosRecordData
     fullName: SuperOffice.CRM.Rows.PersPosRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersPosRecordData)
-    name: ToInsert
-    nameWithType: PersPosRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PersPosRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PersPosRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PersPosRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: PersPosRecordData
     nameWithType: PersPosRecordData
     fullName: SuperOffice.CRM.Rows.PersPosRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

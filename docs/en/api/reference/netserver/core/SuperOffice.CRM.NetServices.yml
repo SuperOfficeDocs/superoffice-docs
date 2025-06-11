@@ -9,7 +9,7 @@ items:
   - SuperOffice.CRM.NetServices.GetNetServicesStatusUrl
   - SuperOffice.CRM.NetServices.GetPocketCentralServicesUrl
   - SuperOffice.CRM.NetServices.HasCentralPocketServicesPreference
-  - SuperOffice.CRM.NetServices.UpdateNetServicesStatus(System.String)
+  - SuperOffice.CRM.NetServices.UpdateNetServicesStatusAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -131,16 +131,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.NetServices.UpdateNetServicesStatus(System.String)
-  commentId: M:SuperOffice.CRM.NetServices.UpdateNetServicesStatus(System.String)
-  id: UpdateNetServicesStatus(System.String)
+- uid: SuperOffice.CRM.NetServices.UpdateNetServicesStatusAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.NetServices.UpdateNetServicesStatusAsync(System.String,System.Threading.CancellationToken)
+  id: UpdateNetServicesStatusAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.NetServices
   langs:
   - csharp
   - vb
-  name: UpdateNetServicesStatus(String)
-  nameWithType: NetServices.UpdateNetServicesStatus(String)
-  fullName: SuperOffice.CRM.NetServices.UpdateNetServicesStatus(System.String)
+  name: UpdateNetServicesStatusAsync(String, CancellationToken)
+  nameWithType: NetServices.UpdateNetServicesStatusAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.NetServices.UpdateNetServicesStatusAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -149,12 +149,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void UpdateNetServicesStatus(string json_or_xml)
+    content: public static Task UpdateNetServicesStatusAsync(string json_or_xml, CancellationToken cancellationToken = null)
     parameters:
     - id: json_or_xml
       type: System.String
-    content.vb: Public Shared Sub UpdateNetServicesStatus(json_or_xml As String)
-  overload: SuperOffice.CRM.NetServices.UpdateNetServicesStatus*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function UpdateNetServicesStatusAsync(json_or_xml As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.NetServices.UpdateNetServicesStatusAsync*
   modifiers.csharp:
   - public
   - static
@@ -584,12 +588,22 @@ references:
   name: GetPocketCentralServicesUrl
   nameWithType: NetServices.GetPocketCentralServicesUrl
   fullName: SuperOffice.CRM.NetServices.GetPocketCentralServicesUrl
-- uid: SuperOffice.CRM.NetServices.UpdateNetServicesStatus*
-  commentId: Overload:SuperOffice.CRM.NetServices.UpdateNetServicesStatus
+- uid: SuperOffice.CRM.NetServices.UpdateNetServicesStatusAsync*
+  commentId: Overload:SuperOffice.CRM.NetServices.UpdateNetServicesStatusAsync
   isExternal: true
-  name: UpdateNetServicesStatus
-  nameWithType: NetServices.UpdateNetServicesStatus
-  fullName: SuperOffice.CRM.NetServices.UpdateNetServicesStatus
+  name: UpdateNetServicesStatusAsync
+  nameWithType: NetServices.UpdateNetServicesStatusAsync
+  fullName: SuperOffice.CRM.NetServices.UpdateNetServicesStatusAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.NetServices.#ctor*
   commentId: Overload:SuperOffice.CRM.NetServices.#ctor
   isExternal: true

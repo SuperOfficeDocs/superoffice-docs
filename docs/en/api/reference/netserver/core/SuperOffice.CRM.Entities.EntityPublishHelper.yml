@@ -19,14 +19,14 @@ items:
   - SuperOffice.CRM.Entities.EntityPublishHelper.PublishStart
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#IsDirty
-  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
-  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
-  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#Save
+  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#SaveAsync
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
   langs:
   - csharp
@@ -197,17 +197,17 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  id: SuperOffice#Data#INestedPersist#OnPreIdUpdate
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  id: SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
   isEii: true
   parent: SuperOffice.CRM.Entities.EntityPublishHelper
   langs:
   - csharp
   - vb
-  name: INestedPersist.OnPreIdUpdate()
-  nameWithType: EntityPublishHelper.INestedPersist.OnPreIdUpdate()
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name: INestedPersist.OnPreIdUpdateAsync()
+  nameWithType: EntityPublishHelper.INestedPersist.OnPreIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -216,24 +216,26 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: void INestedPersist.OnPreIdUpdate()
-    content.vb: Sub SuperOffice.Data.INestedPersist.OnPreIdUpdate Implements INestedPersist.OnPreIdUpdate
-  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate*
+    content: Task INestedPersist.OnPreIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync As Task Implements INestedPersist.OnPreIdUpdateAsync
+  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync*
   implements:
-  - SuperOffice.Data.INestedPersist.OnPreIdUpdate
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
-  id: SuperOffice#Data#INestedPersist#OnIdUpdate
+  - SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  id: SuperOffice#Data#INestedPersist#OnIdUpdateAsync
   isEii: true
   parent: SuperOffice.CRM.Entities.EntityPublishHelper
   langs:
   - csharp
   - vb
-  name: INestedPersist.OnIdUpdate()
-  nameWithType: EntityPublishHelper.INestedPersist.OnIdUpdate()
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name: INestedPersist.OnIdUpdateAsync()
+  nameWithType: EntityPublishHelper.INestedPersist.OnIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -242,24 +244,26 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: void INestedPersist.OnIdUpdate()
-    content.vb: Sub SuperOffice.Data.INestedPersist.OnIdUpdate Implements INestedPersist.OnIdUpdate
-  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate*
+    content: Task INestedPersist.OnIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SuperOffice.Data.INestedPersist.OnIdUpdateAsync As Task Implements INestedPersist.OnIdUpdateAsync
+  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdateAsync*
   implements:
-  - SuperOffice.Data.INestedPersist.OnIdUpdate
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  id: SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  id: SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   isEii: true
   parent: SuperOffice.CRM.Entities.EntityPublishHelper
   langs:
   - csharp
   - vb
-  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  nameWithType: EntityPublishHelper.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: EntityPublishHelper.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   type: Method
   source:
     path: SoDataBase
@@ -268,27 +272,29 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: void INestedPersist.OnPrimaryKeyRequest(PKContainer pkContainer)
+    content: Task INestedPersist.OnPrimaryKeyRequestAsync(PKContainer pkContainer)
     parameters:
     - id: pkContainer
       type: SuperOffice.Data.PKContainer
-    content.vb: Sub SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(pkContainer As PKContainer) Implements INestedPersist.OnPrimaryKeyRequest
-  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(pkContainer As PKContainer) As Task Implements INestedPersist.OnPrimaryKeyRequestAsync
+  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync*
   implements:
-  - SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  id: SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  id: SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   isEii: true
   parent: SuperOffice.CRM.Entities.EntityPublishHelper
   langs:
   - csharp
   - vb
-  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: EntityPublishHelper.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: EntityPublishHelper.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   type: Method
   source:
     path: SoDataBase
@@ -297,27 +303,29 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: void INestedPersist.OnPrimaryKeyUpdate(PKContainer pkContainer)
+    content: Task INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer pkContainer)
     parameters:
     - id: pkContainer
       type: SuperOffice.Data.PKContainer
-    content.vb: Sub SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(pkContainer As PKContainer) Implements INestedPersist.OnPrimaryKeyUpdate
-  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(pkContainer As PKContainer) As Task Implements INestedPersist.OnPrimaryKeyUpdateAsync
+  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync*
   implements:
-  - SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  id: SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  id: SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   isEii: true
   parent: SuperOffice.CRM.Entities.EntityPublishHelper
   langs:
   - csharp
   - vb
-  name: INestedPersist.OnSave(BatchSave)
-  nameWithType: EntityPublishHelper.INestedPersist.OnSave(BatchSave)
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: INestedPersist.OnSaveAsync(BatchSave)
+  nameWithType: EntityPublishHelper.INestedPersist.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   type: Method
   source:
     path: SoDataBase
@@ -326,27 +334,29 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: void INestedPersist.OnSave(BatchSave batchSave)
+    content: Task INestedPersist.OnSaveAsync(BatchSave batchSave)
     parameters:
     - id: batchSave
       type: SuperOffice.Data.SQL.BatchSave
-    content.vb: Sub SuperOffice.Data.INestedPersist.OnSave(batchSave As BatchSave) Implements INestedPersist.OnSave
-  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSave*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SuperOffice.Data.INestedPersist.OnSaveAsync(batchSave As BatchSave) As Task Implements INestedPersist.OnSaveAsync
+  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaveAsync*
   implements:
-  - SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
-  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-  id: SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+  id: SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   isEii: true
   parent: SuperOffice.CRM.Entities.EntityPublishHelper
   langs:
   - csharp
   - vb
-  name: INestedPersist.OnSaved(Boolean)
-  nameWithType: EntityPublishHelper.INestedPersist.OnSaved(Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  name: INestedPersist.OnSavedAsync(Boolean)
+  nameWithType: EntityPublishHelper.INestedPersist.OnSavedAsync(Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -355,27 +365,29 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: void INestedPersist.OnSaved(bool bSucceeded)
+    content: Task INestedPersist.OnSavedAsync(bool bSucceeded)
     parameters:
     - id: bSucceeded
       type: System.Boolean
-    content.vb: Sub SuperOffice.Data.INestedPersist.OnSaved(bSucceeded As Boolean) Implements INestedPersist.OnSaved
-  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaved*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SuperOffice.Data.INestedPersist.OnSavedAsync(bSucceeded As Boolean) As Task Implements INestedPersist.OnSavedAsync
+  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSavedAsync*
   implements:
-  - SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
-  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#Save
-  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#Save
-  id: SuperOffice#Data#INestedPersist#Save
+  - SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#SaveAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#SaveAsync
+  id: SuperOffice#Data#INestedPersist#SaveAsync
   isEii: true
   parent: SuperOffice.CRM.Entities.EntityPublishHelper
   langs:
   - csharp
   - vb
-  name: INestedPersist.Save()
-  nameWithType: EntityPublishHelper.INestedPersist.Save()
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.Save()
+  name: INestedPersist.SaveAsync()
+  nameWithType: EntityPublishHelper.INestedPersist.SaveAsync()
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.SaveAsync()
   type: Method
   source:
     path: SoDataBase
@@ -384,13 +396,15 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: void INestedPersist.Save()
-    content.vb: Sub SuperOffice.Data.INestedPersist.Save Implements INestedPersist.Save
-  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#Save*
+    content: Task INestedPersist.SaveAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SuperOffice.Data.INestedPersist.SaveAsync As Task Implements INestedPersist.SaveAsync
+  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#SaveAsync*
   implements:
-  - SuperOffice.Data.INestedPersist.Save
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.Save()
-  name.vb: SuperOffice.Data.INestedPersist.Save()
+  - SuperOffice.Data.INestedPersist.SaveAsync
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.SaveAsync()
+  name.vb: SuperOffice.Data.INestedPersist.SaveAsync()
 - uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
   commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
   id: SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
@@ -1126,26 +1140,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
   isExternal: true
-  name: INestedPersist.OnPreIdUpdate
-  nameWithType: EntityPublishHelper.INestedPersist.OnPreIdUpdate
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate
-  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-- uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-  commentId: M:SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  name: INestedPersist.OnPreIdUpdateAsync
+  nameWithType: EntityPublishHelper.INestedPersist.OnPreIdUpdateAsync
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+- uid: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
   parent: SuperOffice.Data.INestedPersist
   isExternal: true
-  name: OnPreIdUpdate()
-  nameWithType: INestedPersist.OnPreIdUpdate()
-  fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: INestedPersist.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1154,10 +1168,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1165,26 +1179,31 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: INestedPersist.OnIdUpdate
-  nameWithType: EntityPublishHelper.INestedPersist.OnIdUpdate
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdate
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdate
-  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate
-- uid: SuperOffice.Data.INestedPersist.OnIdUpdate
-  commentId: M:SuperOffice.Data.INestedPersist.OnIdUpdate
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  isExternal: true
+  name: INestedPersist.OnIdUpdateAsync
+  nameWithType: EntityPublishHelper.INestedPersist.OnIdUpdateAsync
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+- uid: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.INestedPersist.OnIdUpdateAsync
   parent: SuperOffice.Data.INestedPersist
   isExternal: true
-  name: OnIdUpdate()
-  nameWithType: INestedPersist.OnIdUpdate()
-  fullName: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: INestedPersist.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.INestedPersist.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1193,10 +1212,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.INestedPersist.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1204,26 +1223,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyRequest
-  nameWithType: EntityPublishHelper.INestedPersist.OnPrimaryKeyRequest
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: INestedPersist.OnPrimaryKeyRequestAsync
+  nameWithType: EntityPublishHelper.INestedPersist.OnPrimaryKeyRequestAsync
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.INestedPersist
   isExternal: true
-  name: OnPrimaryKeyRequest(PKContainer)
-  nameWithType: INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1237,10 +1256,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1260,26 +1279,26 @@ references:
   name: PKContainer
   nameWithType: PKContainer
   fullName: SuperOffice.Data.PKContainer
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyUpdate
-  nameWithType: EntityPublishHelper.INestedPersist.OnPrimaryKeyUpdate
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: INestedPersist.OnPrimaryKeyUpdateAsync
+  nameWithType: EntityPublishHelper.INestedPersist.OnPrimaryKeyUpdateAsync
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.INestedPersist
   isExternal: true
-  name: OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1293,10 +1312,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1309,26 +1328,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSave*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSave
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaveAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaveAsync
   isExternal: true
-  name: INestedPersist.OnSave
-  nameWithType: EntityPublishHelper.INestedPersist.OnSave
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSave
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSave
-  name.vb: SuperOffice.Data.INestedPersist.OnSave
-- uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: INestedPersist.OnSaveAsync
+  nameWithType: EntityPublishHelper.INestedPersist.OnSaveAsync
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSaveAsync
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSaveAsync
+  name.vb: SuperOffice.Data.INestedPersist.OnSaveAsync
+- uid: SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.INestedPersist
   isExternal: true
-  name: OnSave(BatchSave)
-  nameWithType: INestedPersist.OnSave(BatchSave)
-  fullName: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: OnSaveAsync(BatchSave)
+  nameWithType: INestedPersist.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: INestedPersist.OnSave
-    fullName: SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1342,10 +1361,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: INestedPersist.OnSave
-    fullName: SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1371,26 +1390,26 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaved*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaved
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSavedAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSavedAsync
   isExternal: true
-  name: INestedPersist.OnSaved
-  nameWithType: EntityPublishHelper.INestedPersist.OnSaved
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSaved
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSaved
-  name.vb: SuperOffice.Data.INestedPersist.OnSaved
-- uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  name: INestedPersist.OnSavedAsync
+  nameWithType: EntityPublishHelper.INestedPersist.OnSavedAsync
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSavedAsync
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnSavedAsync
+  name.vb: SuperOffice.Data.INestedPersist.OnSavedAsync
+- uid: SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.INestedPersist
   isExternal: true
-  name: OnSaved(Boolean)
-  nameWithType: INestedPersist.OnSaved(Boolean)
-  fullName: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: INestedPersist.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: INestedPersist.OnSaved
-    fullName: SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1404,10 +1423,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: INestedPersist.OnSaved
-    fullName: SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1427,26 +1446,26 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#Save*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#Save
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#SaveAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#SaveAsync
   isExternal: true
-  name: INestedPersist.Save
-  nameWithType: EntityPublishHelper.INestedPersist.Save
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.Save
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.Save
-  name.vb: SuperOffice.Data.INestedPersist.Save
-- uid: SuperOffice.Data.INestedPersist.Save
-  commentId: M:SuperOffice.Data.INestedPersist.Save
+  name: INestedPersist.SaveAsync
+  nameWithType: EntityPublishHelper.INestedPersist.SaveAsync
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.SaveAsync
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.SaveAsync
+  name.vb: SuperOffice.Data.INestedPersist.SaveAsync
+- uid: SuperOffice.Data.INestedPersist.SaveAsync
+  commentId: M:SuperOffice.Data.INestedPersist.SaveAsync
   parent: SuperOffice.Data.INestedPersist
   isExternal: true
-  name: Save()
-  nameWithType: INestedPersist.Save()
-  fullName: SuperOffice.Data.INestedPersist.Save()
+  name: SaveAsync()
+  nameWithType: INestedPersist.SaveAsync()
+  fullName: SuperOffice.Data.INestedPersist.SaveAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.INestedPersist.Save
-    name: Save
-    nameWithType: INestedPersist.Save
-    fullName: SuperOffice.Data.INestedPersist.Save
+  - uid: SuperOffice.Data.INestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: INestedPersist.SaveAsync
+    fullName: SuperOffice.Data.INestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1455,10 +1474,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.INestedPersist.Save
-    name: Save
-    nameWithType: INestedPersist.Save
-    fullName: SuperOffice.Data.INestedPersist.Save
+  - uid: SuperOffice.Data.INestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: INestedPersist.SaveAsync
+    fullName: SuperOffice.Data.INestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (

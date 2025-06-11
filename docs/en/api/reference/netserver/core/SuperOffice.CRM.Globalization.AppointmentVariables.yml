@@ -6,7 +6,6 @@ items:
   parent: SuperOffice.CRM.Globalization
   children:
   - SuperOffice.CRM.Globalization.AppointmentVariables.#ctor(System.Int32)
-  - SuperOffice.CRM.Globalization.AppointmentVariables._appointment
   - SuperOffice.CRM.Globalization.AppointmentVariables.Appointment
   - SuperOffice.CRM.Globalization.AppointmentVariables.AppointmentId
   - SuperOffice.CRM.Globalization.AppointmentVariables.AssociateOwnerName
@@ -24,13 +23,13 @@ items:
   - SuperOffice.CRM.Globalization.AppointmentVariables.EndTimeLocalTime
   - SuperOffice.CRM.Globalization.AppointmentVariables.EndTimeUTC
   - SuperOffice.CRM.Globalization.AppointmentVariables.FreeBusy
+  - SuperOffice.CRM.Globalization.AppointmentVariables.GetIdAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitationFormattedListAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitedListAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Globalization.AppointmentVariables.ICalId
   - SuperOffice.CRM.Globalization.AppointmentVariables.ICalPriority
-  - SuperOffice.CRM.Globalization.AppointmentVariables.Id
   - SuperOffice.CRM.Globalization.AppointmentVariables.InvitationClickText
-  - SuperOffice.CRM.Globalization.AppointmentVariables.InvitationFormattedList
   - SuperOffice.CRM.Globalization.AppointmentVariables.InvitationUrl
-  - SuperOffice.CRM.Globalization.AppointmentVariables.InvitedList
   - SuperOffice.CRM.Globalization.AppointmentVariables.InviteeId
   - SuperOffice.CRM.Globalization.AppointmentVariables.InviteeName
   - SuperOffice.CRM.Globalization.AppointmentVariables.InviteePerson
@@ -228,13 +227,13 @@ items:
   - SuperOffice.IO.TagContainer.AddData(System.Object[])
   - SuperOffice.IO.TagContainer.GetData
   - SuperOffice.IO.TagContainer.ClearData
-  - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.GetTags
   - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
-  - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  - SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  - SuperOffice.IO.TagContainer.Init
+  - SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   - SuperOffice.IO.TagContainer.CurrentUiCulture
   - SuperOffice.IO.TagContainer.Data
   extensionMethods:
@@ -246,33 +245,6 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Globalization.AppointmentVariables._appointment
-  commentId: F:SuperOffice.CRM.Globalization.AppointmentVariables._appointment
-  id: _appointment
-  parent: SuperOffice.CRM.Globalization.AppointmentVariables
-  langs:
-  - csharp
-  - vb
-  name: _appointment
-  nameWithType: AppointmentVariables._appointment
-  fullName: SuperOffice.CRM.Globalization.AppointmentVariables._appointment
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nVariable holding <xref href=\"SuperOffice.CRM.IAppointmentInfo\" data-throw-if-not-resolved=\"false\"></xref>, use the <xref href=\"SuperOffice.CRM.Globalization.AppointmentVariables.Appointment\" data-throw-if-not-resolved=\"false\"></xref> property to access this variable.\n"
-  syntax:
-    content: protected IAppointmentInfo3 _appointment
-    return:
-      type: SuperOffice.CRM.IAppointmentInfo3
-    content.vb: Protected _appointment As IAppointmentInfo3
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.Globalization.AppointmentVariables.#ctor(System.Int32)
   commentId: M:SuperOffice.CRM.Globalization.AppointmentVariables.#ctor(System.Int32)
   id: '#ctor(System.Int32)'
@@ -301,17 +273,17 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Globalization.AppointmentVariables.Id
-  commentId: P:SuperOffice.CRM.Globalization.AppointmentVariables.Id
-  id: Id
+- uid: SuperOffice.CRM.Globalization.AppointmentVariables.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.AppointmentVariables.GetIdAsync(System.Threading.CancellationToken)
+  id: GetIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Globalization.AppointmentVariables
   langs:
   - csharp
   - vb
-  name: Id
-  nameWithType: AppointmentVariables.Id
-  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.Id
-  type: Property
+  name: GetIdAsync(CancellationToken)
+  nameWithType: AppointmentVariables.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.GetIdAsync(System.Threading.CancellationToken)
+  type: Method
   source:
     path: SoDataBase
     isExternal: true
@@ -319,21 +291,107 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
   syntax:
-    content: public override int Id { get; }
-    parameters: []
+    content: public override Task<int> GetIdAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Overrides ReadOnly Property Id As Integer
-  overridden: SuperOffice.IO.TagContainer.Id
-  overload: SuperOffice.CRM.Globalization.AppointmentVariables.Id*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Overrides Function GetIdAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overridden: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Globalization.AppointmentVariables.GetIdAsync*
   modifiers.csharp:
   - public
   - override
-  - get
   modifiers.vb:
   - Public
   - Overrides
-  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitedListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitedListAsync(System.Threading.CancellationToken)
+  id: GetInvitedListAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.AppointmentVariables
+  langs:
+  - csharp
+  - vb
+  name: GetInvitedListAsync(CancellationToken)
+  nameWithType: AppointmentVariables.GetInvitedListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitedListAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nFormatted list of invited persons, humanly readable\n"
+  syntax:
+    content: >-
+      [TemplateTag("bafp")]
+
+      public Task<string> GetInvitedListAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("bafp")>
+
+      Public Function GetInvitedListAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitedListAsync*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: bafp
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitationFormattedListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitationFormattedListAsync(System.Threading.CancellationToken)
+  id: GetInvitationFormattedListAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Globalization.AppointmentVariables
+  langs:
+  - csharp
+  - vb
+  name: GetInvitationFormattedListAsync(CancellationToken)
+  nameWithType: AppointmentVariables.GetInvitationFormattedListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitationFormattedListAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nFormatted list of invited ??, made for iCal\n"
+  syntax:
+    content: >-
+      [TemplateTag("bate")]
+
+      public Task<string> GetInvitationFormattedListAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <TemplateTag("bate")>
+
+      Public Function GetInvitationFormattedListAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitationFormattedListAsync*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: bate
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Globalization.AppointmentVariables.AppointmentId
   commentId: P:SuperOffice.CRM.Globalization.AppointmentVariables.AppointmentId
   id: AppointmentId
@@ -1145,92 +1203,6 @@ items:
     arguments:
     - type: System.String
       value: bdll
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.AppointmentVariables.InvitedList
-  commentId: P:SuperOffice.CRM.Globalization.AppointmentVariables.InvitedList
-  id: InvitedList
-  parent: SuperOffice.CRM.Globalization.AppointmentVariables
-  langs:
-  - csharp
-  - vb
-  name: InvitedList
-  nameWithType: AppointmentVariables.InvitedList
-  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.InvitedList
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormatted list of invited persons, humanly readable\n"
-  syntax:
-    content: >-
-      [TemplateTag("bafp")]
-
-      public string InvitedList { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("bafp")>
-
-      Public ReadOnly Property InvitedList As String
-  overload: SuperOffice.CRM.Globalization.AppointmentVariables.InvitedList*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: bafp
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.AppointmentVariables.InvitationFormattedList
-  commentId: P:SuperOffice.CRM.Globalization.AppointmentVariables.InvitationFormattedList
-  id: InvitationFormattedList
-  parent: SuperOffice.CRM.Globalization.AppointmentVariables
-  langs:
-  - csharp
-  - vb
-  name: InvitationFormattedList
-  nameWithType: AppointmentVariables.InvitationFormattedList
-  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.InvitationFormattedList
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormatted list of invited ??, made for iCal\n"
-  syntax:
-    content: >-
-      [TemplateTag("bate")]
-
-      public string InvitationFormattedList { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <TemplateTag("bate")>
-
-      Public ReadOnly Property InvitationFormattedList As String
-  overload: SuperOffice.CRM.Globalization.AppointmentVariables.InvitationFormattedList*
-  attributes:
-  - type: SuperOffice.IO.TemplateTagAttribute
-    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: bate
   modifiers.csharp:
   - public
   - get
@@ -8541,11 +8513,11 @@ items:
   namespace: SuperOffice.CRM.Globalization
   summary: "\nEncapsulation of the <xref href=\"SuperOffice.CRM.Globalization.AppointmentVariables._appointment\" data-throw-if-not-resolved=\"false\"></xref> member variable.  \nAccessing this property will make sure that the this variable is set.\n"
   syntax:
-    content: protected IAppointmentInfo3 Appointment { get; }
+    content: protected IAppointmentInfo Appointment { get; }
     parameters: []
     return:
-      type: SuperOffice.CRM.IAppointmentInfo3
-    content.vb: Protected ReadOnly Property Appointment As IAppointmentInfo3
+      type: SuperOffice.CRM.IAppointmentInfo
+    content.vb: Protected ReadOnly Property Appointment As IAppointmentInfo
   overload: SuperOffice.CRM.Globalization.AppointmentVariables.Appointment*
   modifiers.csharp:
   - protected
@@ -8693,18 +8665,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
+- uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: GetValue(String)
-  nameWithType: TagContainer.GetValue(String)
-  fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
+  name: GetValueAsync(String, CancellationToken)
+  nameWithType: TagContainer.GetValueAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetValueAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-    name: GetValue
-    nameWithType: TagContainer.GetValue
-    fullName: SuperOffice.IO.TagContainer.GetValue
+  - uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+    name: GetValueAsync
+    nameWithType: TagContainer.GetValueAsync
+    fullName: SuperOffice.IO.TagContainer.GetValueAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -8713,15 +8685,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
-    name: GetValue
-    nameWithType: TagContainer.GetValue
-    fullName: SuperOffice.IO.TagContainer.GetValue
+  - uid: SuperOffice.IO.TagContainer.GetValueAsync(System.String,System.Threading.CancellationToken)
+    name: GetValueAsync
+    nameWithType: TagContainer.GetValueAsync
+    fullName: SuperOffice.IO.TagContainer.GetValueAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -8730,6 +8710,14 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -8863,18 +8851,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: IsTagLegal(String)
-  nameWithType: TagContainer.IsTagLegal(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  name: IsTagLegalAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagLegalAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-    name: IsTagLegal
-    nameWithType: TagContainer.IsTagLegal
-    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+  - uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagLegalAsync
+    nameWithType: TagContainer.IsTagLegalAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -8883,15 +8871,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
-    name: IsTagLegal
-    nameWithType: TagContainer.IsTagLegal
-    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+  - uid: SuperOffice.IO.TagContainer.IsTagLegalAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagLegalAsync
+    nameWithType: TagContainer.IsTagLegalAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagLegalAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -8900,22 +8896,30 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-  commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+- uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: IsTagInContext(String)
-  nameWithType: TagContainer.IsTagInContext(String)
-  fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  name: IsTagInContextAsync(String, CancellationToken)
+  nameWithType: TagContainer.IsTagInContextAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-    name: IsTagInContext
-    nameWithType: TagContainer.IsTagInContext
-    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+  - uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagInContextAsync
+    nameWithType: TagContainer.IsTagInContextAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -8924,15 +8928,23 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
-    name: IsTagInContext
-    nameWithType: TagContainer.IsTagInContext
-    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+  - uid: SuperOffice.IO.TagContainer.IsTagInContextAsync(System.String,System.Threading.CancellationToken)
+    name: IsTagInContextAsync
+    nameWithType: TagContainer.IsTagInContextAsync
+    fullName: SuperOffice.IO.TagContainer.IsTagInContextAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -8942,37 +8954,55 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.IO.TagContainer.Init
-  commentId: M:SuperOffice.IO.TagContainer.Init
+- uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: Init()
-  nameWithType: TagContainer.Init()
-  fullName: SuperOffice.IO.TagContainer.Init()
+  name: InitAsync(CancellationToken)
+  nameWithType: TagContainer.InitAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.TagContainer.Init
-    name: Init
-    nameWithType: TagContainer.Init
-    fullName: SuperOffice.IO.TagContainer.Init
+  - uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
+    nameWithType: TagContainer.InitAsync
+    fullName: SuperOffice.IO.TagContainer.InitAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.TagContainer.Init
-    name: Init
-    nameWithType: TagContainer.Init
-    fullName: SuperOffice.IO.TagContainer.Init
+  - uid: SuperOffice.IO.TagContainer.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
+    nameWithType: TagContainer.InitAsync
+    fullName: SuperOffice.IO.TagContainer.InitAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -9167,19 +9197,6 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.IAppointmentInfo3
-  commentId: T:SuperOffice.CRM.IAppointmentInfo3
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: IAppointmentInfo3
-  nameWithType: IAppointmentInfo3
-  fullName: SuperOffice.CRM.IAppointmentInfo3
-- uid: SuperOffice.CRM
-  commentId: N:SuperOffice.CRM
-  isExternal: true
-  name: SuperOffice.CRM
-  nameWithType: SuperOffice.CRM
-  fullName: SuperOffice.CRM
 - uid: SuperOffice.CRM.Globalization.AppointmentVariables.#ctor*
   commentId: Overload:SuperOffice.CRM.Globalization.AppointmentVariables.#ctor
   isExternal: true
@@ -9193,19 +9210,194 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.IO.TagContainer.Id
-  commentId: P:SuperOffice.IO.TagContainer.Id
+- uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  name: Id
-  nameWithType: TagContainer.Id
-  fullName: SuperOffice.IO.TagContainer.Id
-- uid: SuperOffice.CRM.Globalization.AppointmentVariables.Id*
-  commentId: Overload:SuperOffice.CRM.Globalization.AppointmentVariables.Id
+  name: GetIdAsync(CancellationToken)
+  nameWithType: TagContainer.GetIdAsync(CancellationToken)
+  fullName: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+    name: GetIdAsync
+    nameWithType: TagContainer.GetIdAsync
+    fullName: SuperOffice.IO.TagContainer.GetIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetIdAsync(System.Threading.CancellationToken)
+    name: GetIdAsync
+    nameWithType: TagContainer.GetIdAsync
+    fullName: SuperOffice.IO.TagContainer.GetIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.AppointmentVariables.GetIdAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.AppointmentVariables.GetIdAsync
   isExternal: true
-  name: Id
-  nameWithType: AppointmentVariables.Id
-  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.Id
+  name: GetIdAsync
+  nameWithType: AppointmentVariables.GetIdAsync
+  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.GetIdAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitedListAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitedListAsync
+  isExternal: true
+  name: GetInvitedListAsync
+  nameWithType: AppointmentVariables.GetInvitedListAsync
+  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitedListAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitationFormattedListAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitationFormattedListAsync
+  isExternal: true
+  name: GetInvitationFormattedListAsync
+  nameWithType: AppointmentVariables.GetInvitationFormattedListAsync
+  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.GetInvitationFormattedListAsync
 - uid: SuperOffice.CRM.Globalization.AppointmentVariables.AppointmentId*
   commentId: Overload:SuperOffice.CRM.Globalization.AppointmentVariables.AppointmentId
   isExternal: true
@@ -9327,18 +9519,6 @@ references:
   name: InvitationClickText
   nameWithType: AppointmentVariables.InvitationClickText
   fullName: SuperOffice.CRM.Globalization.AppointmentVariables.InvitationClickText
-- uid: SuperOffice.CRM.Globalization.AppointmentVariables.InvitedList*
-  commentId: Overload:SuperOffice.CRM.Globalization.AppointmentVariables.InvitedList
-  isExternal: true
-  name: InvitedList
-  nameWithType: AppointmentVariables.InvitedList
-  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.InvitedList
-- uid: SuperOffice.CRM.Globalization.AppointmentVariables.InvitationFormattedList*
-  commentId: Overload:SuperOffice.CRM.Globalization.AppointmentVariables.InvitationFormattedList
-  isExternal: true
-  name: InvitationFormattedList
-  nameWithType: AppointmentVariables.InvitationFormattedList
-  fullName: SuperOffice.CRM.Globalization.AppointmentVariables.InvitationFormattedList
 - uid: SuperOffice.CRM.Globalization.AppointmentVariables.InvitationUrl*
   commentId: Overload:SuperOffice.CRM.Globalization.AppointmentVariables.InvitationUrl
   isExternal: true
@@ -10378,3 +10558,16 @@ references:
   name: Appointment
   nameWithType: AppointmentVariables.Appointment
   fullName: SuperOffice.CRM.Globalization.AppointmentVariables.Appointment
+- uid: SuperOffice.CRM.IAppointmentInfo
+  commentId: T:SuperOffice.CRM.IAppointmentInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IAppointmentInfo
+  nameWithType: IAppointmentInfo
+  fullName: SuperOffice.CRM.IAppointmentInfo
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM

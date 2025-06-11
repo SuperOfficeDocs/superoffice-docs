@@ -48,8 +48,6 @@ items:
       Public Class PreferenceDescription
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.PreferenceAgent
-    commentId: T:SuperOffice.CRM.Services.PreferenceAgent
   - linkId: SuperOffice.CRM.Services.IPreferenceAgent
     commentId: T:SuperOffice.CRM.Services.IPreferenceAgent
   inheritance:
@@ -751,15 +749,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.PreferenceAgent
-  commentId: T:SuperOffice.CRM.Services.PreferenceAgent
-  isExternal: true
-  name: PreferenceAgent
-  nameWithType: PreferenceAgent
-  fullName: SuperOffice.CRM.Services.PreferenceAgent
 - uid: SuperOffice.CRM.Services.IPreferenceAgent
   commentId: T:SuperOffice.CRM.Services.IPreferenceAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IPreferenceAgent
   nameWithType: IPreferenceAgent

@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.DisplayField
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Dynamic
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Entity
+  - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Hidden
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.HideDisplay
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.HideRestriction
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Icon
@@ -217,6 +218,36 @@ items:
     return:
       type: System.String
     content.vb: Public Shared ReadOnly HideDisplay As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Hidden
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Hidden
+  id: Hidden
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: Constants.ExtraFieldAttrib.Hidden
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Hidden
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static readonly string Hidden
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Hidden As String
   modifiers.csharp:
   - public
   - static

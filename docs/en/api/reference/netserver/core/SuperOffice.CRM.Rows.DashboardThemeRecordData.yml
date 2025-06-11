@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.DashboardThemeRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.DashboardThemeRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DashboardThemeRecordData)
   - SuperOffice.CRM.Rows.DashboardThemeRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.DashboardThemeRecordData.SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.DashboardThemeRecordData.SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.DashboardThemeRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DashboardThemeRecordData.SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
+- uid: SuperOffice.CRM.Rows.DashboardThemeRecordData.SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
-  name: ToInsert()
-  nameWithType: DashboardThemeRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: DashboardThemeRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: DashboardThemeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardThemeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: DashboardThemeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardThemeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
-  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
+- uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(DashboardThemeRecordData)
-  nameWithType: DashboardThemeRecordDataExtensions.ToInsert(DashboardThemeRecordData)
-  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
+  name: ToInsertAsync(DashboardThemeRecordData, CancellationToken)
+  nameWithType: DashboardThemeRecordDataExtensions.ToInsertAsync(DashboardThemeRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
-    name: ToInsert
-    nameWithType: DashboardThemeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardThemeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: DashboardThemeRecordData
     nameWithType: DashboardThemeRecordData
     fullName: SuperOffice.CRM.Rows.DashboardThemeRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardThemeRecordData)
-    name: ToInsert
-    nameWithType: DashboardThemeRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardThemeRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardThemeRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardThemeRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: DashboardThemeRecordData
     nameWithType: DashboardThemeRecordData
     fullName: SuperOffice.CRM.Rows.DashboardThemeRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

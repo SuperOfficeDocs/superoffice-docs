@@ -36,8 +36,6 @@ items:
       Public Class PhoneListPreferences
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.PhoneListAgent
-    commentId: T:SuperOffice.CRM.Services.PhoneListAgent
   - linkId: SuperOffice.CRM.Services.IPhoneListAgent
     commentId: T:SuperOffice.CRM.Services.IPhoneListAgent
   inheritance:
@@ -409,15 +407,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.PhoneListAgent
-  commentId: T:SuperOffice.CRM.Services.PhoneListAgent
-  isExternal: true
-  name: PhoneListAgent
-  nameWithType: PhoneListAgent
-  fullName: SuperOffice.CRM.Services.PhoneListAgent
 - uid: SuperOffice.CRM.Services.IPhoneListAgent
   commentId: T:SuperOffice.CRM.Services.IPhoneListAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IPhoneListAgent
   nameWithType: IPhoneListAgent

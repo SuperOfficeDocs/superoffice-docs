@@ -5,6 +5,8 @@ items:
   id: SuperOffice.CRM.Ticket
   children:
   - SuperOffice.CRM.Ticket.DaySchedule
+  - SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
+  - SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
   - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
   - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
   - SuperOffice.CRM.Ticket.TicketAlertHelper
@@ -14,7 +16,6 @@ items:
   - SuperOffice.CRM.Ticket.TicketHelper
   - SuperOffice.CRM.Ticket.TicketOwnerResolver
   - SuperOffice.CRM.Ticket.TicketPriorityResolver
-  - SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
   - SuperOffice.CRM.Ticket.WeekSchedule
   langs:
   - csharp
@@ -32,6 +33,18 @@ references:
   name: DaySchedule
   nameWithType: DaySchedule
   fullName: SuperOffice.CRM.Ticket.DaySchedule
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  commentId: T:SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  isExternal: true
+  name: ITicketStatusRegistryHelperFactory
+  nameWithType: ITicketStatusRegistryHelperFactory
+  fullName: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
+  commentId: T:SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
+  isExternal: true
+  name: ITicketStatusRegistryHelper
+  nameWithType: ITicketStatusRegistryHelper
+  fullName: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
 - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
   commentId: T:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
   isExternal: true
@@ -90,12 +103,6 @@ references:
   name: TicketPriorityResolver
   nameWithType: TicketPriorityResolver
   fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver
-- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
-  commentId: T:SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
-  isExternal: true
-  name: TicketStatusRegistryHelper
-  nameWithType: TicketStatusRegistryHelper
-  fullName: SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
 - uid: SuperOffice.CRM.Ticket.WeekSchedule
   commentId: T:SuperOffice.CRM.Ticket.WeekSchedule
   isExternal: true

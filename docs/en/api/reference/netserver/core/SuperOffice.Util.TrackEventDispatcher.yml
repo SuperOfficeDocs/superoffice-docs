@@ -5,9 +5,10 @@ items:
   id: TrackEventDispatcher
   parent: SuperOffice.Util
   children:
-  - SuperOffice.Util.TrackEventDispatcher.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})
+  - SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
   - SuperOffice.Util.TrackEventDispatcher.GetInstance
   - SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
+  - SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -41,16 +42,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.Util.TrackEventDispatcher.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})
-  commentId: M:SuperOffice.Util.TrackEventDispatcher.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})
-  id: '#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})'
+- uid: SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
+  commentId: M:SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
+  id: '#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})'
   parent: SuperOffice.Util.TrackEventDispatcher
   langs:
   - csharp
   - vb
-  name: TrackEventDispatcher(IOptions<TrackEventConfiguration>)
-  nameWithType: TrackEventDispatcher.TrackEventDispatcher(IOptions<TrackEventConfiguration>)
-  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(Microsoft.Extensions.Options.IOptions<SuperOffice.Util.TrackEventConfiguration>)
+  name: TrackEventDispatcher(IAsyncQueue<TrackEvent>, ILogger<TrackEventDispatcher>)
+  nameWithType: TrackEventDispatcher.TrackEventDispatcher(IAsyncQueue<TrackEvent>, ILogger<TrackEventDispatcher>)
+  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.TrackEventDispatcher>)
   type: Constructor
   source:
     path: SoDataBase
@@ -59,19 +60,21 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public TrackEventDispatcher(IOptions<TrackEventConfiguration> options)
+    content: public TrackEventDispatcher(IAsyncQueue<TrackEvent> queue, ILogger<TrackEventDispatcher> logger)
     parameters:
-    - id: options
-      type: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
-    content.vb: Public Sub New(options As IOptions(Of TrackEventConfiguration))
+    - id: queue
+      type: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher}
+    content.vb: Public Sub New(queue As IAsyncQueue(Of TrackEvent), logger As ILogger(Of TrackEventDispatcher))
   overload: SuperOffice.Util.TrackEventDispatcher.#ctor*
-  nameWithType.vb: TrackEventDispatcher.TrackEventDispatcher(IOptions(Of TrackEventConfiguration))
+  nameWithType.vb: TrackEventDispatcher.TrackEventDispatcher(IAsyncQueue(Of TrackEvent), ILogger(Of TrackEventDispatcher))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.TrackEventConfiguration))
-  name.vb: TrackEventDispatcher(IOptions(Of TrackEventConfiguration))
+  fullName.vb: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.TrackEventDispatcher))
+  name.vb: TrackEventDispatcher(IAsyncQueue(Of TrackEvent), ILogger(Of TrackEventDispatcher))
 - uid: SuperOffice.Util.TrackEventDispatcher.GetInstance
   commentId: M:SuperOffice.Util.TrackEventDispatcher.GetInstance
   id: GetInstance
@@ -103,6 +106,38 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  id: WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Util.TrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: WaitForTrackersToCompleteAsync(CancellationToken)
+  nameWithType: TrackEventDispatcher.WaitForTrackersToCompleteAsync(CancellationToken)
+  fullName: SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task WaitForTrackersToCompleteAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function WaitForTrackersToCompleteAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync*
+  implements:
+  - SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
   commentId: M:SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
   id: TrackEvent(System.String)
@@ -333,63 +368,151 @@ references:
   name: TrackEventDispatcher
   nameWithType: TrackEventDispatcher.TrackEventDispatcher
   fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher
-- uid: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
-  commentId: '!:Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}'
-  definition: Microsoft.Extensions.Options.IOptions`1
-  name: IOptions<TrackEventConfiguration>
-  nameWithType: IOptions<TrackEventConfiguration>
-  fullName: Microsoft.Extensions.Options.IOptions<SuperOffice.Util.TrackEventConfiguration>
-  nameWithType.vb: IOptions(Of TrackEventConfiguration)
-  fullName.vb: Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.TrackEventConfiguration)
-  name.vb: IOptions(Of TrackEventConfiguration)
+- uid: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+  commentId: T:SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IAsyncQueue`1
+  name: IAsyncQueue<TrackEvent>
+  nameWithType: IAsyncQueue<TrackEvent>
+  fullName: SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>
+  nameWithType.vb: IAsyncQueue(Of TrackEvent)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent)
+  name.vb: IAsyncQueue(Of TrackEvent)
   spec.csharp:
-  - uid: Microsoft.Extensions.Options.IOptions`1
-    name: IOptions
-    nameWithType: IOptions
-    fullName: Microsoft.Extensions.Options.IOptions
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - uid: SuperOffice.Util.TrackEventConfiguration
-    name: TrackEventConfiguration
-    nameWithType: TrackEventConfiguration
-    fullName: SuperOffice.Util.TrackEventConfiguration
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
     isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Microsoft.Extensions.Options.IOptions`1
-    name: IOptions
-    nameWithType: IOptions
-    fullName: Microsoft.Extensions.Options.IOptions
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: SuperOffice.Util.TrackEventConfiguration
-    name: TrackEventConfiguration
-    nameWithType: TrackEventConfiguration
-    fullName: SuperOffice.Util.TrackEventConfiguration
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    nameWithType: TrackEvent
+    fullName: SuperOffice.Util.TrackEvent
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: Microsoft.Extensions.Options.IOptions`1
-  commentId: '!:Microsoft.Extensions.Options.IOptions`1'
-  isExternal: true
-  name: IOptions<>
-  nameWithType: IOptions<>
-  fullName: Microsoft.Extensions.Options.IOptions<>
-  nameWithType.vb: IOptions(Of )
-  fullName.vb: Microsoft.Extensions.Options.IOptions(Of )
-  name.vb: IOptions(Of )
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher}
+  commentId: '!:Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher}'
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  name: ILogger<TrackEventDispatcher>
+  nameWithType: ILogger<TrackEventDispatcher>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.TrackEventDispatcher>
+  nameWithType.vb: ILogger(Of TrackEventDispatcher)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.TrackEventDispatcher)
+  name.vb: ILogger(Of TrackEventDispatcher)
   spec.csharp:
-  - uid: Microsoft.Extensions.Options.IOptions`1
-    name: IOptions
-    nameWithType: IOptions
-    fullName: Microsoft.Extensions.Options.IOptions
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    nameWithType: TrackEventDispatcher
+    fullName: SuperOffice.Util.TrackEventDispatcher
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    nameWithType: TrackEventDispatcher
+    fullName: SuperOffice.Util.TrackEventDispatcher
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.IAsyncQueue`1
+  commentId: T:SuperOffice.Threading.IAsyncQueue`1
+  isExternal: true
+  name: IAsyncQueue<TItem>
+  nameWithType: IAsyncQueue<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueue<TItem>
+  nameWithType.vb: IAsyncQueue(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of TItem)
+  name.vb: IAsyncQueue(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    nameWithType: IAsyncQueue
+    fullName: SuperOffice.Threading.IAsyncQueue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  name: ILogger<>
+  nameWithType: ILogger<>
+  fullName: Microsoft.Extensions.Logging.ILogger<>
+  nameWithType.vb: ILogger(Of )
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of )
+  name.vb: ILogger(Of )
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
     isExternal: true
   - name: <
     nameWithType: <
@@ -401,10 +524,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Microsoft.Extensions.Options.IOptions`1
-    name: IOptions
-    nameWithType: IOptions
-    fullName: Microsoft.Extensions.Options.IOptions
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -421,6 +544,63 @@ references:
   name: GetInstance
   nameWithType: TrackEventDispatcher.GetInstance
   fullName: SuperOffice.Util.TrackEventDispatcher.GetInstance
+- uid: SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync*
+  commentId: Overload:SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync
+  isExternal: true
+  name: WaitForTrackersToCompleteAsync
+  nameWithType: TrackEventDispatcher.WaitForTrackersToCompleteAsync
+  fullName: SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync
+- uid: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Util.ITrackEventDispatcher
+  isExternal: true
+  name: WaitForTrackersToCompleteAsync(CancellationToken)
+  nameWithType: ITrackEventDispatcher.WaitForTrackersToCompleteAsync(CancellationToken)
+  fullName: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+    name: WaitForTrackersToCompleteAsync
+    nameWithType: ITrackEventDispatcher.WaitForTrackersToCompleteAsync
+    fullName: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+    name: WaitForTrackersToCompleteAsync
+    nameWithType: ITrackEventDispatcher.WaitForTrackersToCompleteAsync
+    fullName: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.Util.TrackEventDispatcher.TrackEvent*
   commentId: Overload:SuperOffice.Util.TrackEventDispatcher.TrackEvent
   isExternal: true

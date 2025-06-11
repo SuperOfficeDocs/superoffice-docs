@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EabFolderTableInfo})
   - SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo})
-  - SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
-  - SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData})
+  - SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.EabFolderRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo})
+- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<EabFolderTableInfo>)
-  nameWithType: EabFolderRecordDataExtensions.FromSelect(TargetedSelect<EabFolderTableInfo>)
-  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.EabFolderTableInfo>)
+  name: FromSelectAsync(TargetedSelect<EabFolderTableInfo>, CancellationToken)
+  nameWithType: EabFolderRecordDataExtensions.FromSelectAsync(TargetedSelect<EabFolderTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.EabFolderTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<EabFolderRecordData> FromSelect(this TargetedSelect<EabFolderTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<EabFolderRecordData> FromSelectAsync(this TargetedSelect<EabFolderTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of EabFolderTableInfo)) As IEnumerable(Of EabFolderRecordData)
-  overload: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect*
-  nameWithType.vb: EabFolderRecordDataExtensions.FromSelect(TargetedSelect(Of EabFolderTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of EabFolderTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of EabFolderRecordData)
+  overload: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: EabFolderRecordDataExtensions.FromSelectAsync(TargetedSelect(Of EabFolderTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.EabFolderTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of EabFolderTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.EabFolderTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of EabFolderTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EabFolderTableInfo})
   commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EabFolderTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EabFolderTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.EabFolderTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of EabFolderTableInfo))
-- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
-  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
+- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(EabFolderRecordData)
-  nameWithType: EabFolderRecordDataExtensions.ToInsert(EabFolderRecordData)
-  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EabFolderRecordData)
+  name: ToInsertAsync(EabFolderRecordData, CancellationToken)
+  nameWithType: EabFolderRecordDataExtensions.ToInsertAsync(EabFolderRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EabFolderRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this EabFolderRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this EabFolderRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.EabFolderRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As EabFolderRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As EabFolderRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData})
-  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData})
+- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<EabFolderRecordData>)
-  nameWithType: EabFolderRecordDataExtensions.ToInserts(IEnumerable<EabFolderRecordData>)
-  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EabFolderRecordData>)
+  name: ToInsertsAsync(IEnumerable<EabFolderRecordData>, CancellationToken)
+  nameWithType: EabFolderRecordDataExtensions.ToInsertsAsync(IEnumerable<EabFolderRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EabFolderRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<EabFolderRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<EabFolderRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of EabFolderRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInserts*
-  nameWithType.vb: EabFolderRecordDataExtensions.ToInserts(IEnumerable(Of EabFolderRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of EabFolderRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: EabFolderRecordDataExtensions.ToInsertsAsync(IEnumerable(Of EabFolderRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EabFolderRecordData))
-  name.vb: ToInserts(IEnumerable(Of EabFolderRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EabFolderRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of EabFolderRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.EabFolderRow)
   commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.EabFolderRow)
   id: ToRecordData(SuperOffice.CRM.Rows.EabFolderRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<EabFolderTableInfo>)
+  nameWithType: EabFolderRecordDataExtensions.FromSelect(TargetedSelect<EabFolderTableInfo>)
+  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.EabFolderTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;EabFolderTableInfo>, execute it and return an IEnumerable&lt;EabFolderRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<EabFolderRecordData> FromSelect(this TargetedSelect<EabFolderTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of EabFolderTableInfo)) As IEnumerable(Of EabFolderRecordData)
+  overload: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect*
+  nameWithType.vb: EabFolderRecordDataExtensions.FromSelect(TargetedSelect(Of EabFolderTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.EabFolderTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of EabFolderTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: EabFolderRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: EabFolderRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EabFolderTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<EabFolderRecordData>
-  nameWithType: IEnumerable<EabFolderRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EabFolderRecordData>
-  nameWithType.vb: IEnumerable(Of EabFolderRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EabFolderRecordData)
-  name.vb: IEnumerable(Of EabFolderRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<EabFolderRecordData>
+  nameWithType: IAsyncEnumerable<EabFolderRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.EabFolderRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of EabFolderRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.EabFolderRecordData)
+  name.vb: IAsyncEnumerable(Of EabFolderRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: EabFolderRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: EabFolderRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: EabFolderRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: EabFolderRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EabFolderRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<EabFolderRecordData>
+  nameWithType: IEnumerable<EabFolderRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EabFolderRecordData>
+  nameWithType.vb: IEnumerable(Of EabFolderRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EabFolderRecordData)
+  name.vb: IEnumerable(Of EabFolderRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.EabFolderRecordData
+    name: EabFolderRecordData
+    nameWithType: EabFolderRecordData
+    fullName: SuperOffice.CRM.Rows.EabFolderRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.EabFolderRecordData
+    name: EabFolderRecordData
+    nameWithType: EabFolderRecordData
+    fullName: SuperOffice.CRM.Rows.EabFolderRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: EabFolderRow
   nameWithType: EabFolderRow
   fullName: SuperOffice.CRM.Rows.EabFolderRow
+- uid: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: EabFolderRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.EabFolderRecordDataExtensions.FromSelect

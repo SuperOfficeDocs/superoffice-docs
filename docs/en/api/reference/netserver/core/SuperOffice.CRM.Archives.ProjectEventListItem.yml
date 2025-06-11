@@ -12,8 +12,8 @@ items:
   - SuperOffice.CRM.Archives.ProjectEventListItem.Enabled
   - SuperOffice.CRM.Archives.ProjectEventListItem.EventDate
   - SuperOffice.CRM.Archives.ProjectEventListItem.EventName
-  - SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItem(System.Int32)
-  - SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPerson(System.Int32,System.Int32)
+  - SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Archives.ProjectEventListItem.Initialize
   - SuperOffice.CRM.Archives.ProjectEventListItem.IsSignedOn
   - SuperOffice.CRM.Archives.ProjectEventListItem.Load(SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery,SuperOffice.Data.SoDataReader)
@@ -104,16 +104,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItem(System.Int32)
-  commentId: M:SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItem(System.Int32)
-  id: GetProjectEventListItem(System.Int32)
+- uid: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetProjectEventListItemAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.ProjectEventListItem
   langs:
   - csharp
   - vb
-  name: GetProjectEventListItem(Int32)
-  nameWithType: ProjectEventListItem.GetProjectEventListItem(Int32)
-  fullName: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItem(System.Int32)
+  name: GetProjectEventListItemAsync(Int32, CancellationToken)
+  nameWithType: ProjectEventListItem.GetProjectEventListItemAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -122,30 +122,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Archives
   syntax:
-    content: public static ProjectEventListItem GetProjectEventListItem(int projectId)
+    content: public static Task<ProjectEventListItem> GetProjectEventListItemAsync(int projectId, CancellationToken cancellationToken = null)
     parameters:
     - id: projectId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Archives.ProjectEventListItem
-    content.vb: Public Shared Function GetProjectEventListItem(projectId As Integer) As ProjectEventListItem
-  overload: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItem*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ProjectEventListItem}
+    content.vb: Public Shared Function GetProjectEventListItemAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEventListItem)
+  overload: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPerson(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPerson(System.Int32,System.Int32)
-  id: GetProjectEventListItemOnPerson(System.Int32,System.Int32)
+- uid: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetProjectEventListItemOnPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Archives.ProjectEventListItem
   langs:
   - csharp
   - vb
-  name: GetProjectEventListItemOnPerson(Int32, Int32)
-  nameWithType: ProjectEventListItem.GetProjectEventListItemOnPerson(Int32, Int32)
-  fullName: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPerson(System.Int32, System.Int32)
+  name: GetProjectEventListItemOnPersonAsync(Int32, Int32, CancellationToken)
+  nameWithType: ProjectEventListItem.GetProjectEventListItemOnPersonAsync(Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPersonAsync(System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -154,16 +156,18 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Archives
   syntax:
-    content: public static ProjectEventListItem GetProjectEventListItemOnPerson(int projectId, int personId)
+    content: public static Task<ProjectEventListItem> GetProjectEventListItemOnPersonAsync(int projectId, int personId, CancellationToken cancellationToken = null)
     parameters:
     - id: projectId
       type: System.Int32
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Archives.ProjectEventListItem
-    content.vb: Public Shared Function GetProjectEventListItemOnPerson(projectId As Integer, personId As Integer) As ProjectEventListItem
-  overload: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPerson*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ProjectEventListItem}
+    content.vb: Public Shared Function GetProjectEventListItemOnPersonAsync(projectId As Integer, personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEventListItem)
+  overload: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPersonAsync*
   modifiers.csharp:
   - public
   - static
@@ -2149,12 +2153,12 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItem*
-  commentId: Overload:SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItem
+- uid: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemAsync
   isExternal: true
-  name: GetProjectEventListItem
-  nameWithType: ProjectEventListItem.GetProjectEventListItem
-  fullName: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItem
+  name: GetProjectEventListItemAsync
+  nameWithType: ProjectEventListItem.GetProjectEventListItemAsync
+  fullName: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2162,19 +2166,98 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Archives.ProjectEventListItem
-  commentId: T:SuperOffice.CRM.Archives.ProjectEventListItem
-  parent: SuperOffice.CRM.Archives
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: ProjectEventListItem
-  nameWithType: ProjectEventListItem
-  fullName: SuperOffice.CRM.Archives.ProjectEventListItem
-- uid: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPerson*
-  commentId: Overload:SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPerson
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ProjectEventListItem}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Archives.ProjectEventListItem}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProjectEventListItem>
+  nameWithType: Task<ProjectEventListItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Archives.ProjectEventListItem>
+  nameWithType.vb: Task(Of ProjectEventListItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Archives.ProjectEventListItem)
+  name.vb: Task(Of ProjectEventListItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Archives.ProjectEventListItem
+    name: ProjectEventListItem
+    nameWithType: ProjectEventListItem
+    fullName: SuperOffice.CRM.Archives.ProjectEventListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Archives.ProjectEventListItem
+    name: ProjectEventListItem
+    nameWithType: ProjectEventListItem
+    fullName: SuperOffice.CRM.Archives.ProjectEventListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: GetProjectEventListItemOnPerson
-  nameWithType: ProjectEventListItem.GetProjectEventListItemOnPerson
-  fullName: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPerson
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPersonAsync*
+  commentId: Overload:SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPersonAsync
+  isExternal: true
+  name: GetProjectEventListItemOnPersonAsync
+  nameWithType: ProjectEventListItem.GetProjectEventListItemOnPersonAsync
+  fullName: SuperOffice.CRM.Archives.ProjectEventListItem.GetProjectEventListItemOnPersonAsync
 - uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery}.Initialize
   commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery}.Initialize
   parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ProjectEventList.ProjectEventListQuery}

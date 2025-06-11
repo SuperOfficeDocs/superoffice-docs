@@ -5,13 +5,15 @@ items:
   id: IStreamProvider
   parent: SuperOffice.IO
   children:
-  - SuperOffice.IO.IStreamProvider.BeginRead
-  - SuperOffice.IO.IStreamProvider.BeginWrite
-  - SuperOffice.IO.IStreamProvider.EndRead
-  - SuperOffice.IO.IStreamProvider.EndWrite
+  - SuperOffice.IO.IStreamProvider.BeginReadAsync(System.Threading.CancellationToken)
+  - SuperOffice.IO.IStreamProvider.BeginWriteAsync(System.Threading.CancellationToken)
+  - SuperOffice.IO.IStreamProvider.EndReadAsync(System.Threading.CancellationToken)
+  - SuperOffice.IO.IStreamProvider.EndWriteAsync(System.Threading.CancellationToken)
   - SuperOffice.IO.IStreamProvider.Length
   - SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  - SuperOffice.IO.IStreamProvider.ReadAsync(System.Int64,System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  - SuperOffice.IO.IStreamProvider.WriteAsync(System.Int64,System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -38,16 +40,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.IO.IStreamProvider.BeginWrite
-  commentId: M:SuperOffice.IO.IStreamProvider.BeginWrite
-  id: BeginWrite
+- uid: SuperOffice.IO.IStreamProvider.BeginWriteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.IStreamProvider.BeginWriteAsync(System.Threading.CancellationToken)
+  id: BeginWriteAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.IStreamProvider
   langs:
   - csharp
   - vb
-  name: BeginWrite()
-  nameWithType: IStreamProvider.BeginWrite()
-  fullName: SuperOffice.IO.IStreamProvider.BeginWrite()
+  name: BeginWriteAsync(CancellationToken)
+  nameWithType: IStreamProvider.BeginWriteAsync(CancellationToken)
+  fullName: SuperOffice.IO.IStreamProvider.BeginWriteAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -56,11 +58,59 @@ items:
   - SoCore
   namespace: SuperOffice.IO
   summary: "\nStart writing the document file.\n"
-  remarks: "\nUse the <xref href=\"SuperOffice.IO.IStreamProvider.Write(System.Int64%2cSystem.Byte%5b%5d%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> method to write data to the file.  \nAs data might be written to a temporary location, the <xref href=\"SuperOffice.IO.IStreamProvider.EndWrite\" data-throw-if-not-resolved=\"false\"></xref> \nwill archive the document to the document archive.\n"
+  remarks: "\nUse the <xref href=\"SuperOffice.IO.IStreamProvider.Write(System.Int64%2cSystem.Byte%5b%5d%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> method to write data to the file.  \nAs data might be written to a temporary location, the <see cref=\"!:EndWrite\"></see> \nwill archive the document to the document archive.\n"
   syntax:
-    content: void BeginWrite()
-    content.vb: Sub BeginWrite
-  overload: SuperOffice.IO.IStreamProvider.BeginWrite*
+    content: Task BeginWriteAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function BeginWriteAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.IO.IStreamProvider.BeginWriteAsync*
+- uid: SuperOffice.IO.IStreamProvider.WriteAsync(System.Int64,System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.IStreamProvider.WriteAsync(System.Int64,System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: WriteAsync(System.Int64,System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.IO.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: WriteAsync(Int64, Byte[], Int32, Int32, CancellationToken)
+  nameWithType: IStreamProvider.WriteAsync(Int64, Byte[], Int32, Int32, CancellationToken)
+  fullName: SuperOffice.IO.IStreamProvider.WriteAsync(System.Int64, System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\nWrite a block of data to a file.\n"
+  remarks: "\n<see cref=\"!:BeginWrite\"></see> must be called before this method.  It is not \nrequred that <see cref=\"!:BeginWrite\"></see> is called within the scope of \nthis method.  It is required that it is called on bahalf of the same \nuser and on the same document and that either this method or \n<see cref=\"!:BeginWrite\"></see> is called during the last time period specified \nin the configuration.  Default time period is 24 hours.\n"
+  syntax:
+    content: Task WriteAsync(long filePosition, byte[] buffer, int bufferStartPosition, int lenght, CancellationToken cancellationToken)
+    parameters:
+    - id: filePosition
+      type: System.Int64
+      description: Position in the file to start writing
+    - id: buffer
+      type: System.Byte[]
+      description: Buffer to write
+    - id: bufferStartPosition
+      type: System.Int32
+      description: Position in the buffer to start writing from.
+    - id: lenght
+      type: System.Int32
+      description: Number of bytes to write from the buffer.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function WriteAsync(filePosition As Long, buffer As Byte(), bufferStartPosition As Integer, lenght As Integer, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.IO.IStreamProvider.WriteAsync*
+  nameWithType.vb: IStreamProvider.WriteAsync(Int64, Byte(), Int32, Int32, CancellationToken)
+  fullName.vb: SuperOffice.IO.IStreamProvider.WriteAsync(System.Int64, System.Byte(), System.Int32, System.Int32, System.Threading.CancellationToken)
+  name.vb: WriteAsync(Int64, Byte(), Int32, Int32, CancellationToken)
 - uid: SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
   commentId: M:SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
   id: Write(System.Int64,System.Byte[],System.Int32,System.Int32)
@@ -78,38 +128,33 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: "\nWrite a block of data to a file.\n"
-  remarks: "\n<xref href=\"SuperOffice.IO.IStreamProvider.BeginWrite\" data-throw-if-not-resolved=\"false\"></xref> must be called before this method.  It is not \nrequred that <xref href=\"SuperOffice.IO.IStreamProvider.BeginWrite\" data-throw-if-not-resolved=\"false\"></xref> is called within the scope of \nthis method.  It is required that it is called on bahalf of the same \nuser and on the same document and that either this method or \n<xref href=\"SuperOffice.IO.IStreamProvider.BeginWrite\" data-throw-if-not-resolved=\"false\"></xref> is called during the last time period specified \nin the configuration.  Default time period is 24 hours.\n"
+  summary: "\nSync version of Write, eternally required by the double sync/async contracts of the Stream class\n"
   syntax:
     content: void Write(long filePosition, byte[] buffer, int bufferStartPosition, int lenght)
     parameters:
     - id: filePosition
       type: System.Int64
-      description: Position in the file to start writing
     - id: buffer
       type: System.Byte[]
-      description: Buffer to write
     - id: bufferStartPosition
       type: System.Int32
-      description: Position in the buffer to start writing from.
     - id: lenght
       type: System.Int32
-      description: Number of bytes to write from the buffer.
     content.vb: Sub Write(filePosition As Long, buffer As Byte(), bufferStartPosition As Integer, lenght As Integer)
   overload: SuperOffice.IO.IStreamProvider.Write*
   nameWithType.vb: IStreamProvider.Write(Int64, Byte(), Int32, Int32)
   fullName.vb: SuperOffice.IO.IStreamProvider.Write(System.Int64, System.Byte(), System.Int32, System.Int32)
   name.vb: Write(Int64, Byte(), Int32, Int32)
-- uid: SuperOffice.IO.IStreamProvider.EndWrite
-  commentId: M:SuperOffice.IO.IStreamProvider.EndWrite
-  id: EndWrite
+- uid: SuperOffice.IO.IStreamProvider.EndWriteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.IStreamProvider.EndWriteAsync(System.Threading.CancellationToken)
+  id: EndWriteAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.IStreamProvider
   langs:
   - csharp
   - vb
-  name: EndWrite()
-  nameWithType: IStreamProvider.EndWrite()
-  fullName: SuperOffice.IO.IStreamProvider.EndWrite()
+  name: EndWriteAsync(CancellationToken)
+  nameWithType: IStreamProvider.EndWriteAsync(CancellationToken)
+  fullName: SuperOffice.IO.IStreamProvider.EndWriteAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -119,19 +164,24 @@ items:
   namespace: SuperOffice.IO
   summary: "\nSpecify that the writing of the document is completed and that \nthe document can be archived in the document archive.\n"
   syntax:
-    content: void EndWrite()
-    content.vb: Sub
-  overload: SuperOffice.IO.IStreamProvider.EndWrite*
-- uid: SuperOffice.IO.IStreamProvider.BeginRead
-  commentId: M:SuperOffice.IO.IStreamProvider.BeginRead
-  id: BeginRead
+    content: Task EndWriteAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function EndWriteAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.IO.IStreamProvider.EndWriteAsync*
+- uid: SuperOffice.IO.IStreamProvider.BeginReadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.IStreamProvider.BeginReadAsync(System.Threading.CancellationToken)
+  id: BeginReadAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.IStreamProvider
   langs:
   - csharp
   - vb
-  name: BeginRead()
-  nameWithType: IStreamProvider.BeginRead()
-  fullName: SuperOffice.IO.IStreamProvider.BeginRead()
+  name: BeginReadAsync(CancellationToken)
+  nameWithType: IStreamProvider.BeginReadAsync(CancellationToken)
+  fullName: SuperOffice.IO.IStreamProvider.BeginReadAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -140,11 +190,60 @@ items:
   - SoCore
   namespace: SuperOffice.IO
   summary: "\nStart reading the document.  \n"
-  remarks: "\nRead bytes from the document using the <xref href=\"SuperOffice.IO.IStreamProvider.Read(System.Int64%2cSystem.Byte%5b%5d%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> method.  \nCall the <xref href=\"SuperOffice.IO.IStreamProvider.EndRead\" data-throw-if-not-resolved=\"false\"></xref> method to specify that you are \nfinished reading the document.\n"
+  remarks: "\nRead bytes from the document using the <xref href=\"SuperOffice.IO.IStreamProvider.Read(System.Int64%2cSystem.Byte%5b%5d%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> method.  \nCall the <see cref=\"!:EndRead\"></see> method to specify that you are \nfinished reading the document.\n"
   syntax:
-    content: void BeginRead()
-    content.vb: Sub BeginRead
-  overload: SuperOffice.IO.IStreamProvider.BeginRead*
+    content: Task BeginReadAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function BeginReadAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.IO.IStreamProvider.BeginReadAsync*
+- uid: SuperOffice.IO.IStreamProvider.ReadAsync(System.Int64,System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.IStreamProvider.ReadAsync(System.Int64,System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: ReadAsync(System.Int64,System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.IO.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: ReadAsync(Int64, Byte[], Int32, Int32, CancellationToken)
+  nameWithType: IStreamProvider.ReadAsync(Int64, Byte[], Int32, Int32, CancellationToken)
+  fullName: SuperOffice.IO.IStreamProvider.ReadAsync(System.Int64, System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\nRead data from the document\n"
+  remarks: "\n<see cref=\"!:BeginRead\"></see> must be called before this method.  It is not \nrequred that <see cref=\"!:BeginRead\"></see> is called within the scope of \nthis method.  It is required that it is called on bahalf of the same \nuser and on the same document and that either this method or \n<see cref=\"!:BeginRead\"></see> is called during the last time period specified \nin the configuration.  Default time period is 24 hours.\n"
+  syntax:
+    content: Task<int> ReadAsync(long filePosition, byte[] buffer, int bufferStartPosition, int lenght, CancellationToken cancellationToken)
+    parameters:
+    - id: filePosition
+      type: System.Int64
+      description: Position in the file to start reading from.
+    - id: buffer
+      type: System.Byte[]
+      description: Buffer to put the data read.
+    - id: bufferStartPosition
+      type: System.Int32
+      description: Position in buffer to start filling it.
+    - id: lenght
+      type: System.Int32
+      description: Number of bytes to read from the file.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: "\nNumber of bytes actually read from the file.  This should only be \nless then the file when the end of file is reached.\n"
+    content.vb: Function ReadAsync(filePosition As Long, buffer As Byte(), bufferStartPosition As Integer, lenght As Integer, cancellationToken As CancellationToken) As Task(Of Integer)
+  overload: SuperOffice.IO.IStreamProvider.ReadAsync*
+  nameWithType.vb: IStreamProvider.ReadAsync(Int64, Byte(), Int32, Int32, CancellationToken)
+  fullName.vb: SuperOffice.IO.IStreamProvider.ReadAsync(System.Int64, System.Byte(), System.Int32, System.Int32, System.Threading.CancellationToken)
+  name.vb: ReadAsync(Int64, Byte(), Int32, Int32, CancellationToken)
 - uid: SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
   commentId: M:SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
   id: Read(System.Int64,System.Byte[],System.Int32,System.Int32)
@@ -162,41 +261,35 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: "\nRead data from the document\n"
-  remarks: "\n<xref href=\"SuperOffice.IO.IStreamProvider.BeginRead\" data-throw-if-not-resolved=\"false\"></xref> must be called before this method.  It is not \nrequred that <xref href=\"SuperOffice.IO.IStreamProvider.BeginRead\" data-throw-if-not-resolved=\"false\"></xref> is called within the scope of \nthis method.  It is required that it is called on bahalf of the same \nuser and on the same document and that either this method or \n<xref href=\"SuperOffice.IO.IStreamProvider.BeginRead\" data-throw-if-not-resolved=\"false\"></xref> is called during the last time period specified \nin the configuration.  Default time period is 24 hours.\n"
+  summary: "\nSync version of Read, eternally required by the double sync/async contracts of the Stream class\n"
   syntax:
     content: int Read(long filePosition, byte[] buffer, int bufferStartPosition, int lenght)
     parameters:
     - id: filePosition
       type: System.Int64
-      description: Position in the file to start reading from.
     - id: buffer
       type: System.Byte[]
-      description: Buffer to put the data read.
     - id: bufferStartPosition
       type: System.Int32
-      description: Position in buffer to start filling it.
     - id: lenght
       type: System.Int32
-      description: Number of bytes to read from the file.
     return:
       type: System.Int32
-      description: "\nNumber of bytes actually read from the file.  This should only be \nless then the file when the end of file is reached.\n"
     content.vb: Function Read(filePosition As Long, buffer As Byte(), bufferStartPosition As Integer, lenght As Integer) As Integer
   overload: SuperOffice.IO.IStreamProvider.Read*
   nameWithType.vb: IStreamProvider.Read(Int64, Byte(), Int32, Int32)
   fullName.vb: SuperOffice.IO.IStreamProvider.Read(System.Int64, System.Byte(), System.Int32, System.Int32)
   name.vb: Read(Int64, Byte(), Int32, Int32)
-- uid: SuperOffice.IO.IStreamProvider.EndRead
-  commentId: M:SuperOffice.IO.IStreamProvider.EndRead
-  id: EndRead
+- uid: SuperOffice.IO.IStreamProvider.EndReadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.IStreamProvider.EndReadAsync(System.Threading.CancellationToken)
+  id: EndReadAsync(System.Threading.CancellationToken)
   parent: SuperOffice.IO.IStreamProvider
   langs:
   - csharp
   - vb
-  name: EndRead()
-  nameWithType: IStreamProvider.EndRead()
-  fullName: SuperOffice.IO.IStreamProvider.EndRead()
+  name: EndReadAsync(CancellationToken)
+  nameWithType: IStreamProvider.EndReadAsync(CancellationToken)
+  fullName: SuperOffice.IO.IStreamProvider.EndReadAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -206,9 +299,14 @@ items:
   namespace: SuperOffice.IO
   summary: "\nExpress that you are finished reading the file.  If the file is read from \na temporary location, it will be removed from it.\n"
   syntax:
-    content: void EndRead()
-    content.vb: Sub
-  overload: SuperOffice.IO.IStreamProvider.EndRead*
+    content: Task EndReadAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function EndReadAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.IO.IStreamProvider.EndReadAsync*
 - uid: SuperOffice.IO.IStreamProvider.Length
   commentId: P:SuperOffice.IO.IStreamProvider.Length
   id: Length
@@ -410,18 +508,28 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.IO.IStreamProvider.BeginWrite*
-  commentId: Overload:SuperOffice.IO.IStreamProvider.BeginWrite
+- uid: SuperOffice.IO.IStreamProvider.BeginWriteAsync*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.BeginWriteAsync
   isExternal: true
-  name: BeginWrite
-  nameWithType: IStreamProvider.BeginWrite
-  fullName: SuperOffice.IO.IStreamProvider.BeginWrite
-- uid: SuperOffice.IO.IStreamProvider.Write*
-  commentId: Overload:SuperOffice.IO.IStreamProvider.Write
+  name: BeginWriteAsync
+  nameWithType: IStreamProvider.BeginWriteAsync
+  fullName: SuperOffice.IO.IStreamProvider.BeginWriteAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: Write
-  nameWithType: IStreamProvider.Write
-  fullName: SuperOffice.IO.IStreamProvider.Write
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.IO.IStreamProvider.WriteAsync*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.WriteAsync
+  isExternal: true
+  name: WriteAsync
+  nameWithType: IStreamProvider.WriteAsync
+  fullName: SuperOffice.IO.IStreamProvider.WriteAsync
 - uid: System.Int64
   commentId: T:System.Int64
   parent: System
@@ -468,30 +576,123 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.IO.IStreamProvider.EndWrite*
-  commentId: Overload:SuperOffice.IO.IStreamProvider.EndWrite
+- uid: SuperOffice.IO.IStreamProvider.Write*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.Write
   isExternal: true
-  name: EndWrite
-  nameWithType: IStreamProvider.EndWrite
-  fullName: SuperOffice.IO.IStreamProvider.EndWrite
-- uid: SuperOffice.IO.IStreamProvider.BeginRead*
-  commentId: Overload:SuperOffice.IO.IStreamProvider.BeginRead
+  name: Write
+  nameWithType: IStreamProvider.Write
+  fullName: SuperOffice.IO.IStreamProvider.Write
+- uid: SuperOffice.IO.IStreamProvider.EndWriteAsync*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.EndWriteAsync
   isExternal: true
-  name: BeginRead
-  nameWithType: IStreamProvider.BeginRead
-  fullName: SuperOffice.IO.IStreamProvider.BeginRead
+  name: EndWriteAsync
+  nameWithType: IStreamProvider.EndWriteAsync
+  fullName: SuperOffice.IO.IStreamProvider.EndWriteAsync
+- uid: SuperOffice.IO.IStreamProvider.BeginReadAsync*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.BeginReadAsync
+  isExternal: true
+  name: BeginReadAsync
+  nameWithType: IStreamProvider.BeginReadAsync
+  fullName: SuperOffice.IO.IStreamProvider.BeginReadAsync
+- uid: SuperOffice.IO.IStreamProvider.ReadAsync*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.ReadAsync
+  isExternal: true
+  name: ReadAsync
+  nameWithType: IStreamProvider.ReadAsync
+  fullName: SuperOffice.IO.IStreamProvider.ReadAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.IStreamProvider.Read*
   commentId: Overload:SuperOffice.IO.IStreamProvider.Read
   isExternal: true
   name: Read
   nameWithType: IStreamProvider.Read
   fullName: SuperOffice.IO.IStreamProvider.Read
-- uid: SuperOffice.IO.IStreamProvider.EndRead*
-  commentId: Overload:SuperOffice.IO.IStreamProvider.EndRead
+- uid: SuperOffice.IO.IStreamProvider.EndReadAsync*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.EndReadAsync
   isExternal: true
-  name: EndRead
-  nameWithType: IStreamProvider.EndRead
-  fullName: SuperOffice.IO.IStreamProvider.EndRead
+  name: EndReadAsync
+  nameWithType: IStreamProvider.EndReadAsync
+  fullName: SuperOffice.IO.IStreamProvider.EndReadAsync
 - uid: SuperOffice.IO.IStreamProvider.Length*
   commentId: Overload:SuperOffice.IO.IStreamProvider.Length
   isExternal: true

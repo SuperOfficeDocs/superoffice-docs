@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext
+  commentId: T:SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext
+  id: AsyncQueueBase`1.AsyncQueueItemContext
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,SuperOffice.Threading.AsyncQueueBase{`0}.AsyncQueueItem)
+  - SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.Dispose
+  langs:
+  - csharp
+  - vb
+  name: AsyncQueueBase<TItem>.AsyncQueueItemContext
+  nameWithType: AsyncQueueBase<TItem>.AsyncQueueItemContext
+  fullName: SuperOffice.Threading.AsyncQueueBase<TItem>.AsyncQueueItemContext
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: 'protected class AsyncQueueItemContext : Object, IDisposable'
+    content.vb: >-
+      Protected Class AsyncQueueItemContext
+          Inherits Object
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  extensionMethods:
+  - SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: AsyncQueueBase(Of TItem).AsyncQueueItemContext
+  modifiers.csharp:
+  - protected
+  - class
+  modifiers.vb:
+  - Protected
+  - Class
+  fullName.vb: SuperOffice.Threading.AsyncQueueBase(Of TItem).AsyncQueueItemContext
+  name.vb: AsyncQueueBase(Of TItem).AsyncQueueItemContext
+- uid: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,SuperOffice.Threading.AsyncQueueBase{`0}.AsyncQueueItem)
+  commentId: M:SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,SuperOffice.Threading.AsyncQueueBase{`0}.AsyncQueueItem)
+  id: '#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,SuperOffice.Threading.AsyncQueueBase{`0}.AsyncQueueItem)'
+  parent: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext
+  langs:
+  - csharp
+  - vb
+  name: AsyncQueueItemContext(INSPrincipalAccessor, AsyncQueueBase<TItem>.AsyncQueueItem)
+  nameWithType: AsyncQueueBase<TItem>.AsyncQueueItemContext.AsyncQueueItemContext(INSPrincipalAccessor, AsyncQueueBase<TItem>.AsyncQueueItem)
+  fullName: SuperOffice.Threading.AsyncQueueBase<TItem>.AsyncQueueItemContext.AsyncQueueItemContext(SuperOffice.Security.Principal.INSPrincipalAccessor, SuperOffice.Threading.AsyncQueueBase<TItem>.AsyncQueueItem)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public AsyncQueueItemContext(INSPrincipalAccessor principalAccessor, AsyncQueueBase<TItem>.AsyncQueueItem queueItem)
+    parameters:
+    - id: principalAccessor
+      type: SuperOffice.Security.Principal.INSPrincipalAccessor
+    - id: queueItem
+      type: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItem
+    content.vb: Public Sub New(principalAccessor As INSPrincipalAccessor, queueItem As AsyncQueueBase(Of TItem).AsyncQueueItem)
+  overload: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.#ctor*
+  nameWithType.vb: AsyncQueueBase(Of TItem).AsyncQueueItemContext.AsyncQueueItemContext(INSPrincipalAccessor, AsyncQueueBase(Of TItem).AsyncQueueItem)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.AsyncQueueBase(Of TItem).AsyncQueueItemContext.AsyncQueueItemContext(SuperOffice.Security.Principal.INSPrincipalAccessor, SuperOffice.Threading.AsyncQueueBase(Of TItem).AsyncQueueItem)
+  name.vb: AsyncQueueItemContext(INSPrincipalAccessor, AsyncQueueBase(Of TItem).AsyncQueueItem)
+- uid: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.Dispose
+  commentId: M:SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.Dispose
+  id: Dispose
+  parent: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AsyncQueueBase<TItem>.AsyncQueueItemContext.Dispose()
+  fullName: SuperOffice.Threading.AsyncQueueBase<TItem>.AsyncQueueItemContext.Dispose()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.Dispose*
+  nameWithType.vb: AsyncQueueBase(Of TItem).AsyncQueueItemContext.Dispose()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.AsyncQueueBase(Of TItem).AsyncQueueItemContext.Dispose()
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AsyncQueueBase<TItem>.AsyncQueueItemContext, To>()
+  nameWithType: EnumUtil.MapEnums<AsyncQueueBase<TItem>.AsyncQueueItemContext, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncQueueBase<TItem>.AsyncQueueItemContext, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)()
+  name.vb: MapEnums(Of AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AsyncQueueBase<TItem>.AsyncQueueItemContext, To>
+    nameWithType: EnumUtil.MapEnums<AsyncQueueBase<TItem>.AsyncQueueItemContext, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncQueueBase<TItem>.AsyncQueueItemContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)
+    nameWithType: EnumUtil.MapEnums(Of AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AsyncQueueBase<TItem>.AsyncQueueItemContext, To>()
+  nameWithType: Converters.MapEnums<AsyncQueueBase<TItem>.AsyncQueueItemContext, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncQueueBase<TItem>.AsyncQueueItemContext, To>()
+  nameWithType.vb: Converters.MapEnums(Of AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)()
+  name.vb: MapEnums(Of AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AsyncQueueBase<TItem>.AsyncQueueItemContext, To>
+    nameWithType: Converters.MapEnums<AsyncQueueBase<TItem>.AsyncQueueItemContext, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncQueueBase<TItem>.AsyncQueueItemContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)
+    nameWithType: Converters.MapEnums(Of AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncQueueBase(Of TItem).AsyncQueueItemContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.#ctor*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.#ctor
+  isExternal: true
+  name: AsyncQueueItemContext
+  nameWithType: AsyncQueueBase<TItem>.AsyncQueueItemContext.AsyncQueueItemContext
+  fullName: SuperOffice.Threading.AsyncQueueBase<TItem>.AsyncQueueItemContext.AsyncQueueItemContext
+  nameWithType.vb: AsyncQueueBase(Of TItem).AsyncQueueItemContext.AsyncQueueItemContext
+  fullName.vb: SuperOffice.Threading.AsyncQueueBase(Of TItem).AsyncQueueItemContext.AsyncQueueItemContext
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+  commentId: T:SuperOffice.Security.Principal.INSPrincipalAccessor
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: INSPrincipalAccessor
+  nameWithType: INSPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor
+- uid: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItem
+  commentId: T:SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItem
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncQueueBase.AsyncQueueItem<>
+  nameWithType: AsyncQueueBase.AsyncQueueItem<>
+  fullName: SuperOffice.Threading.AsyncQueueBase.AsyncQueueItem<>
+  nameWithType.vb: AsyncQueueBase.AsyncQueueItem(Of )
+  fullName.vb: SuperOffice.Threading.AsyncQueueBase.AsyncQueueItem(Of )
+  name.vb: AsyncQueueBase.AsyncQueueItem(Of )
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItem
+    name: AsyncQueueBase.AsyncQueueItem
+    nameWithType: AsyncQueueBase.AsyncQueueItem
+    fullName: SuperOffice.Threading.AsyncQueueBase.AsyncQueueItem
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItem
+    name: AsyncQueueBase.AsyncQueueItem
+    nameWithType: AsyncQueueBase.AsyncQueueItem
+    fullName: SuperOffice.Threading.AsyncQueueBase.AsyncQueueItem
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.Dispose*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueBase`1.AsyncQueueItemContext.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: AsyncQueueBase<TItem>.AsyncQueueItemContext.Dispose
+  fullName: SuperOffice.Threading.AsyncQueueBase<TItem>.AsyncQueueItemContext.Dispose
+  nameWithType.vb: AsyncQueueBase(Of TItem).AsyncQueueItemContext.Dispose
+  fullName.vb: SuperOffice.Threading.AsyncQueueBase(Of TItem).AsyncQueueItemContext.Dispose

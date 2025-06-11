@@ -113,6 +113,7 @@ references:
   nameWithType: Object
   fullName: System.Object
 - uid: System.Runtime.Serialization.ISerializable
+  commentId: '!:System.Runtime.Serialization.ISerializable'
   isExternal: true
   name: ISerializable
   nameWithType: ISerializable

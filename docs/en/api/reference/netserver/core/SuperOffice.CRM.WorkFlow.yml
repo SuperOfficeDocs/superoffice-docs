@@ -1,52 +1,89 @@
 ### YamlMime:ManagedReference
 items:
-- uid: SuperOffice.CRM.WorkFlow
-  commentId: N:SuperOffice.CRM.WorkFlow
-  id: SuperOffice.CRM.WorkFlow
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  id: SuperOffice.CRM.Workflow
   children:
-  - SuperOffice.CRM.WorkFlow.WorkflowEngine
-  - SuperOffice.CRM.WorkFlow.WorkflowEvent
-  - SuperOffice.CRM.WorkFlow.WorkflowEventResult
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  - SuperOffice.CRM.Workflow.FlowEngineState
+  - SuperOffice.CRM.Workflow.IWorkflowEngine
+  - SuperOffice.CRM.Workflow.WorkflowEvent
+  - SuperOffice.CRM.Workflow.WorkflowEventResult
+  - SuperOffice.CRM.Workflow.WorkflowHelper
+  - SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType
+  - SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   langs:
   - csharp
   - vb
-  name: SuperOffice.CRM.WorkFlow
-  nameWithType: SuperOffice.CRM.WorkFlow
-  fullName: SuperOffice.CRM.WorkFlow
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
   type: Namespace
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+- uid: SuperOffice.CRM.Workflow.FlowEngineState
+  commentId: T:SuperOffice.CRM.Workflow.FlowEngineState
+  isExternal: true
+  name: FlowEngineState
+  nameWithType: FlowEngineState
+  fullName: SuperOffice.CRM.Workflow.FlowEngineState
+- uid: SuperOffice.CRM.Workflow.IWorkflowEngine
+  commentId: T:SuperOffice.CRM.Workflow.IWorkflowEngine
+  isExternal: true
+  name: IWorkflowEngine
+  nameWithType: IWorkflowEngine
+  fullName: SuperOffice.CRM.Workflow.IWorkflowEngine
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper
+  isExternal: true
+  name: WorkflowHelper
+  nameWithType: WorkflowHelper
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: WorkflowHelper.ShipmentConfiguration
+  nameWithType: WorkflowHelper.ShipmentConfiguration
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentConfiguration
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: WorkflowHelper.ShipmentAddrType
+  nameWithType: WorkflowHelper.ShipmentAddrType
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.ShipmentAddrType
+- uid: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: WorkflowHelper.CSFolderType
+  nameWithType: WorkflowHelper.CSFolderType
+  fullName: SuperOffice.CRM.Workflow.WorkflowHelper.CSFolderType
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   isExternal: true
   name: WorkflowInstanceVariables
   nameWithType: WorkflowInstanceVariables
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEvent
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEvent
-  parent: SuperOffice.CRM.WorkFlow
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+- uid: SuperOffice.CRM.Workflow.WorkflowEvent
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowEvent
+  parent: SuperOffice.CRM.Workflow
   isExternal: true
   name: WorkflowEvent
   nameWithType: WorkflowEvent
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEvent
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEventResult
-  parent: SuperOffice.CRM.WorkFlow
+  fullName: SuperOffice.CRM.Workflow.WorkflowEvent
+- uid: SuperOffice.CRM.Workflow.WorkflowEventResult
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowEventResult
   isExternal: true
   name: WorkflowEventResult
   nameWithType: WorkflowEventResult
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult
-- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEngine
+  fullName: SuperOffice.CRM.Workflow.WorkflowEventResult
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
   isExternal: true
-  name: WorkflowEngine
-  nameWithType: WorkflowEngine
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine
-- uid: SuperOffice.CRM.WorkFlow
-  commentId: N:SuperOffice.CRM.WorkFlow
-  isExternal: true
-  name: SuperOffice.CRM.WorkFlow
-  nameWithType: SuperOffice.CRM.WorkFlow
-  fullName: SuperOffice.CRM.WorkFlow
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow

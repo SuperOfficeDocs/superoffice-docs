@@ -24,9 +24,9 @@ items:
   - SuperOffice.SoDatabaseContext.RemoveDatabaseContext(System.String)
   - SuperOffice.SoDatabaseContext.RemoveDatabaseContext(System.String,System.Boolean)
   - SuperOffice.SoDatabaseContext.TryGetCurrentContextIdentifier
-  - SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
-  - SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Security.Claims.ClaimsIdentity[])
-  - SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.String)
+  - SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  - SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Security.Claims.ClaimsIdentity[])
+  - SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.String)
   langs:
   - csharp
   - vb
@@ -202,11 +202,13 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nTry to see if we have a current, contextidentifier with the least possible amount of fuss and side effects.\nUsed in logging situations, to avoid triggering the whole lazyload avalanche\n"
+  summary: "\nTry to see if we have a current contextidentifier with the least possible amount of fuss and side effects.\nUsed in logging situations, to avoid triggering the whole lazyload avalanche\n"
+  remarks: "\nThis method very carefully avoids using <strong>CreateRequired</strong> and other potentially avalache-triggering constructs,\nwhich would throw exceptions if we are in a state where startup/wireup/applicationBuilder etc have not finished\n"
   syntax:
     content: public static string TryGetCurrentContextIdentifier()
     return:
       type: System.String
+      description: Blank if the system is not in a runnable state; <strong>Default</strong> for on-site installations; and <strong>CustXXXXX</strong> context id in Online
     content.vb: Public Shared Function TryGetCurrentContextIdentifier As String
   overload: SuperOffice.SoDatabaseContext.TryGetCurrentContextIdentifier*
   modifiers.csharp:
@@ -499,16 +501,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.String)
-  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.String)
-  id: TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.String)
+- uid: SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.String)
+  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.String)
+  id: TryResolveContext(System.String@,System.String)
   parent: SuperOffice.SoDatabaseContext
   langs:
   - csharp
   - vb
-  name: TryResolveContext(out IContextResolver, out String, String)
-  nameWithType: SoDatabaseContext.TryResolveContext(out IContextResolver, out String, String)
-  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out SuperOffice.Security.Principal.IContextResolver, out System.String, System.String)
+  name: TryResolveContext(out String, String)
+  nameWithType: SoDatabaseContext.TryResolveContext(out String, String)
+  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out System.String, System.String)
   type: Method
   source:
     path: SoCore
@@ -518,11 +520,8 @@ items:
   namespace: SuperOffice
   summary: "\nTry to resolve context from a ticket\n"
   syntax:
-    content: public static bool TryResolveContext(out IContextResolver contextResolver, out string context, string ticket)
+    content: public static bool TryResolveContext(out string context, string ticket)
     parameters:
-    - id: contextResolver
-      type: SuperOffice.Security.Principal.IContextResolver
-      description: Instance of plugin resolving context
     - id: context
       type: System.String
       description: Name of context
@@ -532,27 +531,27 @@ items:
     return:
       type: System.Boolean
       description: True if context is resolved
-    content.vb: Public Shared Function TryResolveContext(ByRef contextResolver As IContextResolver, ByRef context As String, ticket As String) As Boolean
+    content.vb: Public Shared Function TryResolveContext(ByRef context As String, ticket As String) As Boolean
   overload: SuperOffice.SoDatabaseContext.TryResolveContext*
-  nameWithType.vb: SoDatabaseContext.TryResolveContext(ByRef IContextResolver, ByRef String, String)
+  nameWithType.vb: SoDatabaseContext.TryResolveContext(ByRef String, String)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(ByRef SuperOffice.Security.Principal.IContextResolver, ByRef System.String, System.String)
-  name.vb: TryResolveContext(ByRef IContextResolver, ByRef String, String)
-- uid: SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Security.Claims.ClaimsIdentity[])
-  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Security.Claims.ClaimsIdentity[])
-  id: TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Security.Claims.ClaimsIdentity[])
+  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(ByRef System.String, System.String)
+  name.vb: TryResolveContext(ByRef String, String)
+- uid: SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Security.Claims.ClaimsIdentity[])
+  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Security.Claims.ClaimsIdentity[])
+  id: TryResolveContext(System.String@,System.Security.Claims.ClaimsIdentity[])
   parent: SuperOffice.SoDatabaseContext
   langs:
   - csharp
   - vb
-  name: TryResolveContext(out IContextResolver, out String, ClaimsIdentity[])
-  nameWithType: SoDatabaseContext.TryResolveContext(out IContextResolver, out String, ClaimsIdentity[])
-  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out SuperOffice.Security.Principal.IContextResolver, out System.String, System.Security.Claims.ClaimsIdentity[])
+  name: TryResolveContext(out String, ClaimsIdentity[])
+  nameWithType: SoDatabaseContext.TryResolveContext(out String, ClaimsIdentity[])
+  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out System.String, System.Security.Claims.ClaimsIdentity[])
   type: Method
   source:
     path: SoCore
@@ -562,11 +561,8 @@ items:
   namespace: SuperOffice
   summary: "\nTry to resolve context from a set of SecurityTokens\n"
   syntax:
-    content: public static bool TryResolveContext(out IContextResolver contextResolver, out string context, params ClaimsIdentity[] identites)
+    content: public static bool TryResolveContext(out string context, params ClaimsIdentity[] identites)
     parameters:
-    - id: contextResolver
-      type: SuperOffice.Security.Principal.IContextResolver
-      description: Instance of plugin resolving context
     - id: context
       type: System.String
       description: Name of context
@@ -575,27 +571,27 @@ items:
     return:
       type: System.Boolean
       description: True if context is resolved
-    content.vb: Public Shared Function TryResolveContext(ByRef contextResolver As IContextResolver, ByRef context As String, ParamArray identites As ClaimsIdentity()) As Boolean
+    content.vb: Public Shared Function TryResolveContext(ByRef context As String, ParamArray identites As ClaimsIdentity()) As Boolean
   overload: SuperOffice.SoDatabaseContext.TryResolveContext*
-  nameWithType.vb: SoDatabaseContext.TryResolveContext(ByRef IContextResolver, ByRef String, ClaimsIdentity())
+  nameWithType.vb: SoDatabaseContext.TryResolveContext(ByRef String, ClaimsIdentity())
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(ByRef SuperOffice.Security.Principal.IContextResolver, ByRef System.String, System.Security.Claims.ClaimsIdentity())
-  name.vb: TryResolveContext(ByRef IContextResolver, ByRef String, ClaimsIdentity())
-- uid: SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
-  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
-  id: TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(ByRef System.String, System.Security.Claims.ClaimsIdentity())
+  name.vb: TryResolveContext(ByRef String, ClaimsIdentity())
+- uid: SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  id: TryResolveContext(System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
   parent: SuperOffice.SoDatabaseContext
   langs:
   - csharp
   - vb
-  name: TryResolveContext(out IContextResolver, out String, IEnumerable<ClaimsIdentity>)
-  nameWithType: SoDatabaseContext.TryResolveContext(out IContextResolver, out String, IEnumerable<ClaimsIdentity>)
-  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out SuperOffice.Security.Principal.IContextResolver, out System.String, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
+  name: TryResolveContext(out String, IEnumerable<ClaimsIdentity>)
+  nameWithType: SoDatabaseContext.TryResolveContext(out String, IEnumerable<ClaimsIdentity>)
+  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out System.String, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
   type: Method
   source:
     path: SoCore
@@ -604,27 +600,25 @@ items:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public static bool TryResolveContext(out IContextResolver contextResolver, out string context, IEnumerable<ClaimsIdentity> identites)
+    content: public static bool TryResolveContext(out string context, IEnumerable<ClaimsIdentity> identites)
     parameters:
-    - id: contextResolver
-      type: SuperOffice.Security.Principal.IContextResolver
     - id: context
       type: System.String
     - id: identites
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
     return:
       type: System.Boolean
-    content.vb: Public Shared Function TryResolveContext(ByRef contextResolver As IContextResolver, ByRef context As String, identites As IEnumerable(Of ClaimsIdentity)) As Boolean
+    content.vb: Public Shared Function TryResolveContext(ByRef context As String, identites As IEnumerable(Of ClaimsIdentity)) As Boolean
   overload: SuperOffice.SoDatabaseContext.TryResolveContext*
-  nameWithType.vb: SoDatabaseContext.TryResolveContext(ByRef IContextResolver, ByRef String, IEnumerable(Of ClaimsIdentity))
+  nameWithType.vb: SoDatabaseContext.TryResolveContext(ByRef String, IEnumerable(Of ClaimsIdentity))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(ByRef SuperOffice.Security.Principal.IContextResolver, ByRef System.String, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
-  name.vb: TryResolveContext(ByRef IContextResolver, ByRef String, IEnumerable(Of ClaimsIdentity))
+  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(ByRef System.String, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
+  name.vb: TryResolveContext(ByRef String, IEnumerable(Of ClaimsIdentity))
 - uid: SuperOffice.SoDatabaseContext.EnterDatabaseContext(System.String)
   commentId: M:SuperOffice.SoDatabaseContext.EnterDatabaseContext(System.String)
   id: EnterDatabaseContext(System.String)
@@ -644,15 +638,15 @@ items:
   namespace: SuperOffice
   summary: "\nExplicitly enter a particular database context, before performing operations on this database.\n"
   syntax:
-    content: public static SoDatabaseContext.DatabaseContext EnterDatabaseContext(string contextIdentifier)
+    content: public static IDatabaseContext EnterDatabaseContext(string contextIdentifier)
     parameters:
     - id: contextIdentifier
       type: System.String
       description: Identifier of the context.
     return:
-      type: SuperOffice.SoDatabaseContext.DatabaseContext
+      type: SuperOffice.IDatabaseContext
       description: Disposable object leaving the database context on Dispose()
-    content.vb: Public Shared Function EnterDatabaseContext(contextIdentifier As String) As SoDatabaseContext.DatabaseContext
+    content.vb: Public Shared Function EnterDatabaseContext(contextIdentifier As String) As IDatabaseContext
   overload: SuperOffice.SoDatabaseContext.EnterDatabaseContext*
   modifiers.csharp:
   - public
@@ -1186,19 +1180,6 @@ references:
   name: TryResolveContext
   nameWithType: SoDatabaseContext.TryResolveContext
   fullName: SuperOffice.SoDatabaseContext.TryResolveContext
-- uid: SuperOffice.Security.Principal.IContextResolver
-  commentId: T:SuperOffice.Security.Principal.IContextResolver
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: IContextResolver
-  nameWithType: IContextResolver
-  fullName: SuperOffice.Security.Principal.IContextResolver
-- uid: SuperOffice.Security.Principal
-  commentId: N:SuperOffice.Security.Principal
-  isExternal: true
-  name: SuperOffice.Security.Principal
-  nameWithType: SuperOffice.Security.Principal
-  fullName: SuperOffice.Security.Principal
 - uid: System.Security.Claims.ClaimsIdentity[]
   isExternal: true
   name: ClaimsIdentity[]
@@ -1312,13 +1293,13 @@ references:
   name: EnterDatabaseContext
   nameWithType: SoDatabaseContext.EnterDatabaseContext
   fullName: SuperOffice.SoDatabaseContext.EnterDatabaseContext
-- uid: SuperOffice.SoDatabaseContext.DatabaseContext
-  commentId: T:SuperOffice.SoDatabaseContext.DatabaseContext
+- uid: SuperOffice.IDatabaseContext
+  commentId: T:SuperOffice.IDatabaseContext
   parent: SuperOffice
   isExternal: true
-  name: SoDatabaseContext.DatabaseContext
-  nameWithType: SoDatabaseContext.DatabaseContext
-  fullName: SuperOffice.SoDatabaseContext.DatabaseContext
+  name: IDatabaseContext
+  nameWithType: IDatabaseContext
+  fullName: SuperOffice.IDatabaseContext
 - uid: SuperOffice.SoDatabaseContext.CompareTo*
   commentId: Overload:SuperOffice.SoDatabaseContext.CompareTo
   isExternal: true

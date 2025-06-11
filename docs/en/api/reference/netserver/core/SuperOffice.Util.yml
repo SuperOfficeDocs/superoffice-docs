@@ -7,11 +7,10 @@ items:
   - SuperOffice.Util.AccessGateway
   - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
   - SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
+  - SuperOffice.Util.AccessGateway.RetrieveTokensResult
   - SuperOffice.Util.AccessGateway.TenantClientConfiguration
   - SuperOffice.Util.AccessGateway.TenantRegistrationInfo
   - SuperOffice.Util.AccessGateway.TokenManagementInfo
-  - SuperOffice.Util.AppointmentUtility
-  - SuperOffice.Util.AsyncListProviderWrapper
   - SuperOffice.Util.AttributeFetcher
   - SuperOffice.Util.ByteOrderMarkerEncodingDetector
   - SuperOffice.Util.CollectionOps
@@ -21,7 +20,6 @@ items:
   - SuperOffice.Util.DateTimeSearchType
   - SuperOffice.Util.DateTimeUtil
   - SuperOffice.Util.DateUtility
-  - SuperOffice.Util.DocumentSaveChangeAnalyzer
   - SuperOffice.Util.DomainHelper
   - SuperOffice.Util.doubleExtensions
   - SuperOffice.Util.DurationTimeHelper
@@ -31,17 +29,19 @@ items:
   - SuperOffice.Util.ExpressionUtil
   - SuperOffice.Util.FileExtensionValidator
   - SuperOffice.Util.FileNameHelper
+  - SuperOffice.Util.GlobalTestFlag
   - SuperOffice.Util.HtmlHelper
   - SuperOffice.Util.HttpHelper
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
   - SuperOffice.Util.HttpHelper.RequestType
-  - SuperOffice.Util.iCalendarUtility
+  - SuperOffice.Util.IAppointmentUtility
   - SuperOffice.Util.ImageUtilities
   - SuperOffice.Util.ImageUtilities.FallbackStrategy
   - SuperOffice.Util.ImageUtilities.ImageSize
   - SuperOffice.Util.ImageUtilities.ScaleStrategy
   - SuperOffice.Util.ImageUtilities.VerticalAlignment
   - SuperOffice.Util.ImportDefaults
+  - SuperOffice.Util.InjectionHelper
   - SuperOffice.Util.ITextEncodingDetector
   - SuperOffice.Util.ITrackEventDispatcher
   - SuperOffice.Util.JsonPairSerializer`2
@@ -55,9 +55,6 @@ items:
   - SuperOffice.Util.NameHelper
   - SuperOffice.Util.NameValueCollectionOps
   - SuperOffice.Util.NotUtf8EncodingDetector
-  - SuperOffice.Util.NSWinContactHelper
-  - SuperOffice.Util.NsWinHelper
-  - SuperOffice.Util.NSWinListProviderHelper
   - SuperOffice.Util.ObjectExtensions
   - SuperOffice.Util.OnlineConfigWaiter
   - SuperOffice.Util.OperationTracker
@@ -68,39 +65,32 @@ items:
   - SuperOffice.Util.RecurringSeries
   - SuperOffice.Util.RecurringSubSeries
   - SuperOffice.Util.ReversibleStringEncryption
+  - SuperOffice.Util.RowModification
   - SuperOffice.Util.shortAndboolExtensions
   - SuperOffice.Util.SJArray
   - SuperOffice.Util.SJElement
   - SuperOffice.Util.SoDocumentPlugin
-  - SuperOffice.Util.SoDocumentPluginPreferenceHelper
   - SuperOffice.Util.SoMapper
   - SuperOffice.Util.StackTracer
   - SuperOffice.Util.StringHelper
   - SuperOffice.Util.StructurePatchingHelper
   - SuperOffice.Util.StructurePatchingHelper.TypeAction
   - SuperOffice.Util.TargetHelper
-  - SuperOffice.Util.TemporaryConfigOverride
-  - SuperOffice.Util.TemporaryFeatureToggle
   - SuperOffice.Util.TextEncodingHelper
-  - SuperOffice.Util.ThreadedQueueProcessor`1
   - SuperOffice.Util.TimeConverter
   - SuperOffice.Util.TimeConverterData
   - SuperOffice.Util.TimeConverterHelper
-  - SuperOffice.Util.TimeZoneUtility
   - SuperOffice.Util.TrackEvent
   - SuperOffice.Util.TrackEventConfiguration
   - SuperOffice.Util.TrackEventDispatcher
+  - SuperOffice.Util.TrackEventSender
   - SuperOffice.Util.TSRandom
   - SuperOffice.Util.TwipsConverter
   - SuperOffice.Util.TwoWayDictionary`2
   - SuperOffice.Util.TypeHelper
   - SuperOffice.Util.UrlHelper
   - SuperOffice.Util.UsedPrefKeysUtils
-  - SuperOffice.Util.VideoMeetingHelper
-  - SuperOffice.Util.VideoMeetingHelper.SoAppointment
-  - SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
   - SuperOffice.Util.VisitorPatternHelper`1
-  - SuperOffice.Util.WebAppUsageRecorder
   - SuperOffice.Util.Wrapper`1
   - SuperOffice.Util.XmlObjectHelper
   - SuperOffice.Util.XmlSchemaUtil
@@ -329,7 +319,6 @@ references:
   fullName: SuperOffice.Util.ExpressionUtil
 - uid: SuperOffice.Util.FileExtensionValidator
   commentId: T:SuperOffice.Util.FileExtensionValidator
-  parent: SuperOffice.Util
   isExternal: true
   name: FileExtensionValidator
   nameWithType: FileExtensionValidator
@@ -340,6 +329,12 @@ references:
   name: FileNameHelper
   nameWithType: FileNameHelper
   fullName: SuperOffice.Util.FileNameHelper
+- uid: SuperOffice.Util.GlobalTestFlag
+  commentId: T:SuperOffice.Util.GlobalTestFlag
+  isExternal: true
+  name: GlobalTestFlag
+  nameWithType: GlobalTestFlag
+  fullName: SuperOffice.Util.GlobalTestFlag
 - uid: SuperOffice.Util.HtmlHelper
   commentId: T:SuperOffice.Util.HtmlHelper
   isExternal: true
@@ -406,6 +401,12 @@ references:
   name: ImportDefaults
   nameWithType: ImportDefaults
   fullName: SuperOffice.Util.ImportDefaults
+- uid: SuperOffice.Util.InjectionHelper
+  commentId: T:SuperOffice.Util.InjectionHelper
+  isExternal: true
+  name: InjectionHelper
+  nameWithType: InjectionHelper
+  fullName: SuperOffice.Util.InjectionHelper
 - uid: SuperOffice.Util.SJElement
   commentId: T:SuperOffice.Util.SJElement
   parent: SuperOffice.Util
@@ -759,45 +760,6 @@ references:
   name: NotUtf8EncodingDetector
   nameWithType: NotUtf8EncodingDetector
   fullName: SuperOffice.Util.NotUtf8EncodingDetector
-- uid: SuperOffice.Util.ThreadedQueueProcessor`1
-  commentId: T:SuperOffice.Util.ThreadedQueueProcessor`1
-  isExternal: true
-  name: ThreadedQueueProcessor<T>
-  nameWithType: ThreadedQueueProcessor<T>
-  fullName: SuperOffice.Util.ThreadedQueueProcessor<T>
-  nameWithType.vb: ThreadedQueueProcessor(Of T)
-  fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T)
-  name.vb: ThreadedQueueProcessor(Of T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    nameWithType: ThreadedQueueProcessor
-    fullName: SuperOffice.Util.ThreadedQueueProcessor
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    nameWithType: ThreadedQueueProcessor
-    fullName: SuperOffice.Util.ThreadedQueueProcessor
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.TSRandom
   commentId: T:SuperOffice.Util.TSRandom
   isExternal: true
@@ -1032,6 +994,12 @@ references:
   name: AccessGateway
   nameWithType: AccessGateway
   fullName: SuperOffice.Util.AccessGateway
+- uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  commentId: T:SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  isExternal: true
+  name: AccessGateway.RetrieveTokensResult
+  nameWithType: AccessGateway.RetrieveTokensResult
+  fullName: SuperOffice.Util.AccessGateway.RetrieveTokensResult
 - uid: SuperOffice.Util.AccessGateway.TokenManagementInfo
   commentId: T:SuperOffice.Util.AccessGateway.TokenManagementInfo
   parent: SuperOffice.Util
@@ -1063,9 +1031,27 @@ references:
   name: AccessGateway.TenantRegistrationInfo
   nameWithType: AccessGateway.TenantRegistrationInfo
   fullName: SuperOffice.Util.AccessGateway.TenantRegistrationInfo
+- uid: SuperOffice.Util.DurationTimeHelper
+  commentId: T:SuperOffice.Util.DurationTimeHelper
+  isExternal: true
+  name: DurationTimeHelper
+  nameWithType: DurationTimeHelper
+  fullName: SuperOffice.Util.DurationTimeHelper
+- uid: SuperOffice.Util.RowModification
+  commentId: T:SuperOffice.Util.RowModification
+  parent: SuperOffice.Util
+  isExternal: true
+  name: RowModification
+  nameWithType: RowModification
+  fullName: SuperOffice.Util.RowModification
+- uid: SuperOffice.Util.IAppointmentUtility
+  commentId: T:SuperOffice.Util.IAppointmentUtility
+  isExternal: true
+  name: IAppointmentUtility
+  nameWithType: IAppointmentUtility
+  fullName: SuperOffice.Util.IAppointmentUtility
 - uid: SuperOffice.Util.RecurringSeries
   commentId: T:SuperOffice.Util.RecurringSeries
-  parent: SuperOffice.Util
   isExternal: true
   name: RecurringSeries
   nameWithType: RecurringSeries
@@ -1077,87 +1063,12 @@ references:
   name: RecurringSubSeries
   nameWithType: RecurringSubSeries
   fullName: SuperOffice.Util.RecurringSubSeries
-- uid: SuperOffice.Util.AppointmentUtility
-  commentId: T:SuperOffice.Util.AppointmentUtility
-  parent: SuperOffice.Util
-  isExternal: true
-  name: AppointmentUtility
-  nameWithType: AppointmentUtility
-  fullName: SuperOffice.Util.AppointmentUtility
-- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer
-  commentId: T:SuperOffice.Util.DocumentSaveChangeAnalyzer
-  isExternal: true
-  name: DocumentSaveChangeAnalyzer
-  nameWithType: DocumentSaveChangeAnalyzer
-  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer
-- uid: SuperOffice.Util.DurationTimeHelper
-  commentId: T:SuperOffice.Util.DurationTimeHelper
-  isExternal: true
-  name: DurationTimeHelper
-  nameWithType: DurationTimeHelper
-  fullName: SuperOffice.Util.DurationTimeHelper
-- uid: SuperOffice.Util.iCalendarUtility
-  commentId: T:SuperOffice.Util.iCalendarUtility
-  parent: SuperOffice.Util
-  isExternal: true
-  name: iCalendarUtility
-  nameWithType: iCalendarUtility
-  fullName: SuperOffice.Util.iCalendarUtility
-- uid: SuperOffice.Util.NSWinContactHelper
-  commentId: T:SuperOffice.Util.NSWinContactHelper
-  isExternal: true
-  name: NSWinContactHelper
-  nameWithType: NSWinContactHelper
-  fullName: SuperOffice.Util.NSWinContactHelper
-- uid: SuperOffice.Util.NsWinHelper
-  commentId: T:SuperOffice.Util.NsWinHelper
-  isExternal: true
-  name: NsWinHelper
-  nameWithType: NsWinHelper
-  fullName: SuperOffice.Util.NsWinHelper
-- uid: SuperOffice.Util.AsyncListProviderWrapper
-  commentId: T:SuperOffice.Util.AsyncListProviderWrapper
-  parent: SuperOffice.Util
-  isExternal: true
-  name: AsyncListProviderWrapper
-  nameWithType: AsyncListProviderWrapper
-  fullName: SuperOffice.Util.AsyncListProviderWrapper
-- uid: SuperOffice.Util.NSWinListProviderHelper
-  commentId: T:SuperOffice.Util.NSWinListProviderHelper
-  isExternal: true
-  name: NSWinListProviderHelper
-  nameWithType: NSWinListProviderHelper
-  fullName: SuperOffice.Util.NSWinListProviderHelper
-- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper
-  commentId: T:SuperOffice.Util.SoDocumentPluginPreferenceHelper
-  isExternal: true
-  name: SoDocumentPluginPreferenceHelper
-  nameWithType: SoDocumentPluginPreferenceHelper
-  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper
 - uid: SuperOffice.Util.TargetHelper
   commentId: T:SuperOffice.Util.TargetHelper
   isExternal: true
   name: TargetHelper
   nameWithType: TargetHelper
   fullName: SuperOffice.Util.TargetHelper
-- uid: SuperOffice.Util.TemporaryConfigOverride
-  commentId: T:SuperOffice.Util.TemporaryConfigOverride
-  isExternal: true
-  name: TemporaryConfigOverride
-  nameWithType: TemporaryConfigOverride
-  fullName: SuperOffice.Util.TemporaryConfigOverride
-- uid: SuperOffice.Util.TemporaryFeatureToggle
-  commentId: T:SuperOffice.Util.TemporaryFeatureToggle
-  isExternal: true
-  name: TemporaryFeatureToggle
-  nameWithType: TemporaryFeatureToggle
-  fullName: SuperOffice.Util.TemporaryFeatureToggle
-- uid: SuperOffice.Util.TimeZoneUtility
-  commentId: T:SuperOffice.Util.TimeZoneUtility
-  isExternal: true
-  name: TimeZoneUtility
-  nameWithType: TimeZoneUtility
-  fullName: SuperOffice.Util.TimeZoneUtility
 - uid: SuperOffice.Util.TrackEvent
   commentId: T:SuperOffice.Util.TrackEvent
   isExternal: true
@@ -1183,37 +1094,18 @@ references:
   name: TrackEventDispatcher
   nameWithType: TrackEventDispatcher
   fullName: SuperOffice.Util.TrackEventDispatcher
+- uid: SuperOffice.Util.TrackEventSender
+  commentId: T:SuperOffice.Util.TrackEventSender
+  isExternal: true
+  name: TrackEventSender
+  nameWithType: TrackEventSender
+  fullName: SuperOffice.Util.TrackEventSender
 - uid: SuperOffice.Util.UsedPrefKeysUtils
   commentId: T:SuperOffice.Util.UsedPrefKeysUtils
   isExternal: true
   name: UsedPrefKeysUtils
   nameWithType: UsedPrefKeysUtils
   fullName: SuperOffice.Util.UsedPrefKeysUtils
-- uid: SuperOffice.Util.VideoMeetingHelper
-  commentId: T:SuperOffice.Util.VideoMeetingHelper
-  isExternal: true
-  name: VideoMeetingHelper
-  nameWithType: VideoMeetingHelper
-  fullName: SuperOffice.Util.VideoMeetingHelper
-- uid: SuperOffice.Util.VideoMeetingHelper.SoAppointment
-  commentId: T:SuperOffice.Util.VideoMeetingHelper.SoAppointment
-  isExternal: true
-  name: VideoMeetingHelper.SoAppointment
-  nameWithType: VideoMeetingHelper.SoAppointment
-  fullName: SuperOffice.Util.VideoMeetingHelper.SoAppointment
-- uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
-  commentId: T:SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
-  parent: SuperOffice.Util
-  isExternal: true
-  name: VideoMeetingHelper.VideoMeetingReservation
-  nameWithType: VideoMeetingHelper.VideoMeetingReservation
-  fullName: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
-- uid: SuperOffice.Util.WebAppUsageRecorder
-  commentId: T:SuperOffice.Util.WebAppUsageRecorder
-  isExternal: true
-  name: WebAppUsageRecorder
-  nameWithType: WebAppUsageRecorder
-  fullName: SuperOffice.Util.WebAppUsageRecorder
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true

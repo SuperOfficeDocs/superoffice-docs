@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData)
   - SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData.SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData.SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData.SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData.SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData)
-  name: ToInsert()
-  nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(PaymentTermsGroupLinkRecordData)
-  nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsert(PaymentTermsGroupLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData)
+  name: ToInsertAsync(PaymentTermsGroupLinkRecordData, CancellationToken)
+  nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(PaymentTermsGroupLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: PaymentTermsGroupLinkRecordData
     nameWithType: PaymentTermsGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: PaymentTermsGroupLinkRecordData
     nameWithType: PaymentTermsGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.PaymentTermsGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

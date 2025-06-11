@@ -34,7 +34,6 @@ items:
   - SuperOffice.CRM.Globalization.IQuoteInfoPopulator
   - SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
   - SuperOffice.CRM.Globalization.IQuoteVersionInfoPopulator
-  - SuperOffice.CRM.Globalization.LanguageIdHelper
   - SuperOffice.CRM.Globalization.Metaphone
   - SuperOffice.CRM.Globalization.OwnPersonVariables
   - SuperOffice.CRM.Globalization.PersonAddressData
@@ -128,7 +127,6 @@ references:
   fullName: SuperOffice.CRM.Globalization.AddressFormat
 - uid: SuperOffice.CRM.Globalization.AddressFormatCache
   commentId: T:SuperOffice.CRM.Globalization.AddressFormatCache
-  parent: SuperOffice.CRM.Globalization
   isExternal: true
   name: AddressFormatCache
   nameWithType: AddressFormatCache
@@ -182,7 +180,6 @@ references:
   fullName: SuperOffice.CRM.Globalization.Country
 - uid: SuperOffice.CRM.Globalization.CountryCache
   commentId: T:SuperOffice.CRM.Globalization.CountryCache
-  parent: SuperOffice.CRM.Globalization
   isExternal: true
   name: CountryCache
   nameWithType: CountryCache
@@ -193,12 +190,6 @@ references:
   name: EmailFormatter
   nameWithType: EmailFormatter
   fullName: SuperOffice.CRM.Globalization.EmailFormatter
-- uid: SuperOffice.CRM.Globalization.LanguageIdHelper
-  commentId: T:SuperOffice.CRM.Globalization.LanguageIdHelper
-  isExternal: true
-  name: LanguageIdHelper
-  nameWithType: LanguageIdHelper
-  fullName: SuperOffice.CRM.Globalization.LanguageIdHelper
 - uid: SuperOffice.CRM.Globalization.PersonAddressData
   commentId: T:SuperOffice.CRM.Globalization.PersonAddressData
   isExternal: true

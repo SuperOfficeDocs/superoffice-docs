@@ -187,7 +187,6 @@ items:
   - SuperOffice.WebApi.Data.ArchiveOrderByInfo
   - SuperOffice.WebApi.Data.ArchiveRestrictionGroup
   - SuperOffice.WebApi.Data.ArchiveRestrictionInfo
-  - SuperOffice.WebApi.Data.Area
   - SuperOffice.WebApi.Data.AssignmentStatus
   - SuperOffice.WebApi.Data.Associate
   - SuperOffice.WebApi.Data.Associate_GetAssociateByPersonIdRequest
@@ -200,30 +199,6 @@ items:
   - SuperOffice.WebApi.Data.AttachmentEntity
   - SuperOffice.WebApi.Data.AttachmentPreview
   - SuperOffice.WebApi.Data.AttachmentValidationResult
-  - SuperOffice.WebApi.Data.Audience_DeleteConfigParameterRequest
-  - SuperOffice.WebApi.Data.Audience_GetAudienceLayoutByNameRequest
-  - SuperOffice.WebApi.Data.Audience_GetAudienceLayoutOnPersonRequest
-  - SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest
-  - SuperOffice.WebApi.Data.Audience_GetConfigParameterRequest
-  - SuperOffice.WebApi.Data.Audience_GetConfigParametersByLayoutNameRequest
-  - SuperOffice.WebApi.Data.Audience_GetConfigParametersOnPersonRequest
-  - SuperOffice.WebApi.Data.Audience_GetConfigParameterValueOnPersonRequest
-  - SuperOffice.WebApi.Data.Audience_GetConfigParameterValueRequest
-  - SuperOffice.WebApi.Data.Audience_GetDefaultCountryFlagRequest
-  - SuperOffice.WebApi.Data.Audience_GetDefaultPersonImageRequest
-  - SuperOffice.WebApi.Data.Audience_GetDefaultProjectImageRequest
-  - SuperOffice.WebApi.Data.Audience_GetLogoImageRequest
-  - SuperOffice.WebApi.Data.Audience_GetMyAudienceLayoutRequest
-  - SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest
-  - SuperOffice.WebApi.Data.Audience_GetMyConfigParametersRequest
-  - SuperOffice.WebApi.Data.Audience_GetMyConfigParameterValueRequest
-  - SuperOffice.WebApi.Data.Audience_SaveConfigParameterRequest
-  - SuperOffice.WebApi.Data.Audience_SetDefaultCountryFlagRequest
-  - SuperOffice.WebApi.Data.Audience_SetDefaultPersonImageRequest
-  - SuperOffice.WebApi.Data.Audience_SetDefaultProjectImageRequest
-  - SuperOffice.WebApi.Data.Audience_SetLogoImageRequest
-  - SuperOffice.WebApi.Data.AudienceConfigParameter
-  - SuperOffice.WebApi.Data.AudienceLayoutEntity
   - SuperOffice.WebApi.Data.BadgeType
   - SuperOffice.WebApi.Data.Batch
   - SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest
@@ -249,7 +224,6 @@ items:
   - SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest
   - SuperOffice.WebApi.Data.BLOB_ChangeProjectImageRequest
   - SuperOffice.WebApi.Data.BLOB_CleanupBatchTaskRequest
-  - SuperOffice.WebApi.Data.BLOB_GetAppDataRequest
   - SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnContactRequest
   - SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest
   - SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnPersonRequest
@@ -269,7 +243,6 @@ items:
   - SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest
   - SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest
   - SuperOffice.WebApi.Data.BLOB_SaveProjectImageRequest
-  - SuperOffice.WebApi.Data.BLOB_SetAppDataRequest
   - SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest
   - SuperOffice.WebApi.Data.BLOB_SetContactImageRequest
   - SuperOffice.WebApi.Data.BLOB_SetPersonImageRequest
@@ -384,6 +357,8 @@ items:
   - SuperOffice.WebApi.Data.Configuration_GetWindowPosSizesOnPersonIdRequest
   - SuperOffice.WebApi.Data.Configuration_GetWwwUrlForSMWebRequest
   - SuperOffice.WebApi.Data.Configuration_GetWwwUrlRequest
+  - SuperOffice.WebApi.Data.Configuration_RebuildCustomObjectArchivePanelDeltasRequest
+  - SuperOffice.WebApi.Data.Configuration_RebuildTaskMenuDeltasRequest
   - SuperOffice.WebApi.Data.Configuration_RebuildUdefDeltasRequest
   - SuperOffice.WebApi.Data.Configuration_RebuildWebpanelDeltasRequest
   - SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
@@ -530,20 +505,6 @@ items:
   - SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
   - SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
   - SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
-  - SuperOffice.WebApi.Data.Dashboard
-  - SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
-  - SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
-  - SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
-  - SuperOffice.WebApi.Data.Dashboard_GetDataRequest
-  - SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
-  - SuperOffice.WebApi.Data.Dashboard_GetStandardDashboardTileFromChartIdRequest
-  - SuperOffice.WebApi.Data.Dashboard_SetTileRequest
-  - SuperOffice.WebApi.Data.DashboardLayout
-  - SuperOffice.WebApi.Data.DashboardTile
-  - SuperOffice.WebApi.Data.DashboardTileEntityType
-  - SuperOffice.WebApi.Data.DashboardTileOption
-  - SuperOffice.WebApi.Data.DashboardTileOptionType
-  - SuperOffice.WebApi.Data.DashboardTileType
   - SuperOffice.WebApi.Data.DashCollection
   - SuperOffice.WebApi.Data.DashTheme
   - SuperOffice.WebApi.Data.DashTile
@@ -804,7 +765,6 @@ items:
   - SuperOffice.WebApi.Data.EmailFlow
   - SuperOffice.WebApi.Data.EMailFolder
   - SuperOffice.WebApi.Data.EmailFromType
-  - SuperOffice.WebApi.Data.EMailMergeTargetType
   - SuperOffice.WebApi.Data.EMailPriority
   - SuperOffice.WebApi.Data.EmailReplyToType
   - SuperOffice.WebApi.Data.EMailSOInfo
@@ -991,14 +951,9 @@ items:
   - SuperOffice.WebApi.Data.FormType
   - SuperOffice.WebApi.Data.FreeBusy
   - SuperOffice.WebApi.Data.FreeText
-  - SuperOffice.WebApi.Data.FreeText_AddWordsRequest
-  - SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest
   - SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest
   - SuperOffice.WebApi.Data.FreeText_GetStatusRequest
-  - SuperOffice.WebApi.Data.FreeText_GetStopWordListRequest
-  - SuperOffice.WebApi.Data.FreeText_GetSuggestedStopWordsRequest
   - SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest
-  - SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest
   - SuperOffice.WebApi.Data.FreeText_SetEnabledRequest
   - SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest
   - SuperOffice.WebApi.Data.FreeText_SetSingleWordOperatorRequest
@@ -1033,6 +988,7 @@ items:
   - SuperOffice.WebApi.Data.License_AddLicenseFromFileRequest
   - SuperOffice.WebApi.Data.License_AssignThirdPartyLicensesRequest
   - SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest
+  - SuperOffice.WebApi.Data.License_GetCentralLicenseRequest
   - SuperOffice.WebApi.Data.License_GetLicenseForAllOwnersFromDBRequest
   - SuperOffice.WebApi.Data.License_GetLicenseFromDBRequest
   - SuperOffice.WebApi.Data.License_GetLicenseFromFileRequest
@@ -1047,6 +1003,7 @@ items:
   - SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest
   - SuperOffice.WebApi.Data.License_GetUserLicensesRequest
   - SuperOffice.WebApi.Data.License_RemoveLicenseFromDBRequest
+  - SuperOffice.WebApi.Data.License_SaveCentralLicenseRequest
   - SuperOffice.WebApi.Data.License_UnassignThirdPartyLicensesRequest
   - SuperOffice.WebApi.Data.License_ValidateLicenseInfoRequest
   - SuperOffice.WebApi.Data.LicenseInfo
@@ -1225,8 +1182,6 @@ items:
   - SuperOffice.WebApi.Data.MailboxEntity
   - SuperOffice.WebApi.Data.MailboxType
   - SuperOffice.WebApi.Data.MailingStatistics
-  - SuperOffice.WebApi.Data.MailMergeSettings
-  - SuperOffice.WebApi.Data.MailMergeTask
   - SuperOffice.WebApi.Data.Marketing_CalculateMailingStatisticsRequest
   - SuperOffice.WebApi.Data.Marketing_DeleteMessageAndShipmentRequest
   - SuperOffice.WebApi.Data.Marketing_GetFormSubmissionsCountRequest
@@ -1328,6 +1283,7 @@ items:
   - SuperOffice.WebApi.Data.Person_RemoveConsentRequest
   - SuperOffice.WebApi.Data.Person_ResolvePersonFromInfoRequest
   - SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest
+  - SuperOffice.WebApi.Data.Person_SendCustomerCentrePasswordEmailRequest
   - SuperOffice.WebApi.Data.Person_SendEmailRequest
   - SuperOffice.WebApi.Data.Person_SendEmailWithEventNameRequest
   - SuperOffice.WebApi.Data.Person_SetConsentRequest
@@ -1524,10 +1480,8 @@ items:
   - SuperOffice.WebApi.Data.Quote_GetQuoteFromSaleIdRequest
   - SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest
   - SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationRequest
-  - SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest
   - SuperOffice.WebApi.Data.Quote_GetQuoteLineRequest
   - SuperOffice.WebApi.Data.Quote_GetQuoteLinesRequest
-  - SuperOffice.WebApi.Data.Quote_GetQuoteListRequest
   - SuperOffice.WebApi.Data.Quote_GetQuoteRequest
   - SuperOffice.WebApi.Data.Quote_GetQuoteVersionRequest
   - SuperOffice.WebApi.Data.Quote_GetQuoteVersionsRequest
@@ -1550,7 +1504,6 @@ items:
   - SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest
   - SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationRequest
   - SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest
-  - SuperOffice.WebApi.Data.Quote_SaveQuoteLineImageRequest
   - SuperOffice.WebApi.Data.Quote_SaveQuoteLineRequest
   - SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest
   - SuperOffice.WebApi.Data.Quote_SaveQuoteRequest
@@ -1572,7 +1525,6 @@ items:
   - SuperOffice.WebApi.Data.QuoteEntity
   - SuperOffice.WebApi.Data.QuoteLine
   - SuperOffice.WebApi.Data.QuoteLineConfiguration
-  - SuperOffice.WebApi.Data.QuoteListItem
   - SuperOffice.WebApi.Data.QuotePublishDocuments
   - SuperOffice.WebApi.Data.QuoteStatus
   - SuperOffice.WebApi.Data.QuoteVersion
@@ -1613,21 +1565,9 @@ items:
   - SuperOffice.WebApi.Data.RelationTarget
   - SuperOffice.WebApi.Data.RelationToOwner
   - SuperOffice.WebApi.Data.RemoteTimeZoneMethods
-  - SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest
-  - SuperOffice.WebApi.Data.Replication_SaveCentralLicenseRequest
-  - SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest
   - SuperOffice.WebApi.Data.ReplyTemplate
   - SuperOffice.WebApi.Data.ReplyTemplateParsed
-  - SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
-  - SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest
-  - SuperOffice.WebApi.Data.Report_DeleteReportRequest
-  - SuperOffice.WebApi.Data.Report_GenerateReportRequest
-  - SuperOffice.WebApi.Data.Report_ImportReportRequest
-  - SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest
-  - SuperOffice.WebApi.Data.ReportCategory
-  - SuperOffice.WebApi.Data.ReportEntity
   - SuperOffice.WebApi.Data.ReportLabelLayoutEntity
-  - SuperOffice.WebApi.Data.ReportLayout
   - SuperOffice.WebApi.Data.ReportPaperOrientation
   - SuperOffice.WebApi.Data.ResolvedPerson
   - SuperOffice.WebApi.Data.ResolvedUser
@@ -1694,7 +1634,6 @@ items:
   - SuperOffice.WebApi.Data.SaleType
   - SuperOffice.WebApi.Data.SaleTypeEntity
   - SuperOffice.WebApi.Data.SaleTypeStageLink
-  - SuperOffice.WebApi.Data.Satellite
   - SuperOffice.WebApi.Data.Script
   - SuperOffice.WebApi.Data.ScriptType
   - SuperOffice.WebApi.Data.SelectableMDOListItem
@@ -1711,7 +1650,6 @@ items:
   - SuperOffice.WebApi.Data.Selection_CreateSelectionEntityRequest
   - SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
   - SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromContactPersonIdsRequest
-  - SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromProjectMembersRequest
   - SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
   - SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionRequest
   - SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest
@@ -1746,7 +1684,6 @@ items:
   - SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria3Request
   - SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteriaGroupsRequest
   - SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteriaRequest
-  - SuperOffice.WebApi.Data.Selection_StartMailMergeRequest
   - SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest
   - SuperOffice.WebApi.Data.SelectionCategory
   - SuperOffice.WebApi.Data.SelectionEntity
@@ -1783,6 +1720,7 @@ items:
   - SuperOffice.WebApi.Data.SoExtraInfo
   - SuperOffice.WebApi.Data.SoPrincipalCarrier
   - SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  - SuperOffice.WebApi.Data.SoTask
   - SuperOffice.WebApi.Data.Source
   - SuperOffice.WebApi.Data.StatisticsDataSet
   - SuperOffice.WebApi.Data.StatisticsDataValue
@@ -1833,7 +1771,6 @@ items:
   - SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest
   - SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest
   - SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest
-  - SuperOffice.WebApi.Data.Task
   - SuperOffice.WebApi.Data.TaskDirection
   - SuperOffice.WebApi.Data.TaskListItem
   - SuperOffice.WebApi.Data.TaskListItemType
@@ -1936,7 +1873,6 @@ items:
   - SuperOffice.WebApi.Data.TicketSummaryItem
   - SuperOffice.WebApi.Data.TicketType
   - SuperOffice.WebApi.Data.TicketTypeEntity
-  - SuperOffice.WebApi.Data.TileData
   - SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest
   - SuperOffice.WebApi.Data.TimeZone_DeleteTimeZonesRequest
   - SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest
@@ -2966,18 +2902,6 @@ references:
   name: Quote_RecalculateQuoteLineRequest
   nameWithType: Quote_RecalculateQuoteLineRequest
   fullName: SuperOffice.WebApi.Data.Quote_RecalculateQuoteLineRequest
-- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest
-  commentId: T:SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest
-  isExternal: true
-  name: Quote_GetQuoteLineImageRequest
-  nameWithType: Quote_GetQuoteLineImageRequest
-  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest
-- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLineImageRequest
-  commentId: T:SuperOffice.WebApi.Data.Quote_SaveQuoteLineImageRequest
-  isExternal: true
-  name: Quote_SaveQuoteLineImageRequest
-  nameWithType: Quote_SaveQuoteLineImageRequest
-  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLineImageRequest
 - uid: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest
   commentId: T:SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest
   isExternal: true
@@ -3033,18 +2957,6 @@ references:
   name: Quote_SaveQuoteLineConfigurationsRequest
   nameWithType: Quote_SaveQuoteLineConfigurationsRequest
   fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest
-- uid: SuperOffice.WebApi.Data.QuoteListItem
-  commentId: T:SuperOffice.WebApi.Data.QuoteListItem
-  isExternal: true
-  name: QuoteListItem
-  nameWithType: QuoteListItem
-  fullName: SuperOffice.WebApi.Data.QuoteListItem
-- uid: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest
-  commentId: T:SuperOffice.WebApi.Data.Quote_GetQuoteListRequest
-  isExternal: true
-  name: Quote_GetQuoteListRequest
-  nameWithType: Quote_GetQuoteListRequest
-  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest
 - uid: SuperOffice.WebApi.Data.QuotePublishDocuments
   commentId: T:SuperOffice.WebApi.Data.QuotePublishDocuments
   isExternal: true
@@ -4072,6 +3984,12 @@ references:
   name: Person_GetCustomerCentrePasswordReplyTemplateRequest
   nameWithType: Person_GetCustomerCentrePasswordReplyTemplateRequest
   fullName: SuperOffice.WebApi.Data.Person_GetCustomerCentrePasswordReplyTemplateRequest
+- uid: SuperOffice.WebApi.Data.Person_SendCustomerCentrePasswordEmailRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_SendCustomerCentrePasswordEmailRequest
+  isExternal: true
+  name: Person_SendCustomerCentrePasswordEmailRequest
+  nameWithType: Person_SendCustomerCentrePasswordEmailRequest
+  fullName: SuperOffice.WebApi.Data.Person_SendCustomerCentrePasswordEmailRequest
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest
   commentId: T:SuperOffice.WebApi.Data.Person_SendEmailRequest
   isExternal: true
@@ -7264,13 +7182,13 @@ references:
   name: Tag
   nameWithType: Tag
   fullName: SuperOffice.WebApi.Data.Tag
-- uid: SuperOffice.WebApi.Data.Task
-  commentId: T:SuperOffice.WebApi.Data.Task
+- uid: SuperOffice.WebApi.Data.SoTask
+  commentId: T:SuperOffice.WebApi.Data.SoTask
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  name: Task
-  nameWithType: Task
-  fullName: SuperOffice.WebApi.Data.Task
+  name: SoTask
+  nameWithType: SoTask
+  fullName: SuperOffice.WebApi.Data.SoTask
 - uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateTaskRequest
   commentId: T:SuperOffice.WebApi.Data.List_GetDocumentTemplateTaskRequest
   isExternal: true
@@ -7616,18 +7534,6 @@ references:
   name: BLOB_GetQuoteLineImageRequest
   nameWithType: BLOB_GetQuoteLineImageRequest
   fullName: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest
-- uid: SuperOffice.WebApi.Data.BLOB_GetAppDataRequest
-  commentId: T:SuperOffice.WebApi.Data.BLOB_GetAppDataRequest
-  isExternal: true
-  name: BLOB_GetAppDataRequest
-  nameWithType: BLOB_GetAppDataRequest
-  fullName: SuperOffice.WebApi.Data.BLOB_GetAppDataRequest
-- uid: SuperOffice.WebApi.Data.BLOB_SetAppDataRequest
-  commentId: T:SuperOffice.WebApi.Data.BLOB_SetAppDataRequest
-  isExternal: true
-  name: BLOB_SetAppDataRequest
-  nameWithType: BLOB_SetAppDataRequest
-  fullName: SuperOffice.WebApi.Data.BLOB_SetAppDataRequest
 - uid: SuperOffice.WebApi.Data.BLOB_GetPersonImageWithSizeRequest
   commentId: T:SuperOffice.WebApi.Data.BLOB_GetPersonImageWithSizeRequest
   isExternal: true
@@ -7846,6 +7752,18 @@ references:
   name: Configuration_GetRecipeAppliesToMappingsRequest
   nameWithType: Configuration_GetRecipeAppliesToMappingsRequest
   fullName: SuperOffice.WebApi.Data.Configuration_GetRecipeAppliesToMappingsRequest
+- uid: SuperOffice.WebApi.Data.Configuration_RebuildCustomObjectArchivePanelDeltasRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_RebuildCustomObjectArchivePanelDeltasRequest
+  isExternal: true
+  name: Configuration_RebuildCustomObjectArchivePanelDeltasRequest
+  nameWithType: Configuration_RebuildCustomObjectArchivePanelDeltasRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_RebuildCustomObjectArchivePanelDeltasRequest
+- uid: SuperOffice.WebApi.Data.Configuration_RebuildTaskMenuDeltasRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_RebuildTaskMenuDeltasRequest
+  isExternal: true
+  name: Configuration_RebuildTaskMenuDeltasRequest
+  nameWithType: Configuration_RebuildTaskMenuDeltasRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_RebuildTaskMenuDeltasRequest
 - uid: SuperOffice.WebApi.Data.Configuration
   commentId: T:SuperOffice.WebApi.Data.Configuration
   isExternal: true
@@ -8097,6 +8015,18 @@ references:
   name: ViewState_DeleteHistoryRequest
   nameWithType: ViewState_DeleteHistoryRequest
   fullName: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest
+- uid: SuperOffice.WebApi.Data.ViewState_GetHistoryLengthPrefValueRequest
+  commentId: T:SuperOffice.WebApi.Data.ViewState_GetHistoryLengthPrefValueRequest
+  isExternal: true
+  name: ViewState_GetHistoryLengthPrefValueRequest
+  nameWithType: ViewState_GetHistoryLengthPrefValueRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_GetHistoryLengthPrefValueRequest
+- uid: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
+  commentId: T:SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
+  isExternal: true
+  name: ViewState_SetHistoryLengthPrefValueRequest
+  nameWithType: ViewState_SetHistoryLengthPrefValueRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
 - uid: SuperOffice.WebApi.Data.ViewState_GetHistoriesRequest
   commentId: T:SuperOffice.WebApi.Data.ViewState_GetHistoriesRequest
   isExternal: true
@@ -8121,18 +8051,6 @@ references:
   name: ViewState_SaveHistoriesRequest
   nameWithType: ViewState_SaveHistoriesRequest
   fullName: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest
-- uid: SuperOffice.WebApi.Data.ViewState_GetHistoryLengthPrefValueRequest
-  commentId: T:SuperOffice.WebApi.Data.ViewState_GetHistoryLengthPrefValueRequest
-  isExternal: true
-  name: ViewState_GetHistoryLengthPrefValueRequest
-  nameWithType: ViewState_GetHistoryLengthPrefValueRequest
-  fullName: SuperOffice.WebApi.Data.ViewState_GetHistoryLengthPrefValueRequest
-- uid: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
-  commentId: T:SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
-  isExternal: true
-  name: ViewState_SetHistoryLengthPrefValueRequest
-  nameWithType: ViewState_SetHistoryLengthPrefValueRequest
-  fullName: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
 - uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest
   commentId: T:SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest
   isExternal: true
@@ -8422,20 +8340,6 @@ references:
   name: Previews_GetPreviewRequest
   nameWithType: Previews_GetPreviewRequest
   fullName: SuperOffice.WebApi.Data.Previews_GetPreviewRequest
-- uid: SuperOffice.WebApi.Data.MailMergeSettings
-  commentId: T:SuperOffice.WebApi.Data.MailMergeSettings
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: MailMergeSettings
-  nameWithType: MailMergeSettings
-  fullName: SuperOffice.WebApi.Data.MailMergeSettings
-- uid: SuperOffice.WebApi.Data.MailMergeTask
-  commentId: T:SuperOffice.WebApi.Data.MailMergeTask
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: MailMergeTask
-  nameWithType: MailMergeTask
-  fullName: SuperOffice.WebApi.Data.MailMergeTask
 - uid: SuperOffice.WebApi.Data.SelectionEntity
   commentId: T:SuperOffice.WebApi.Data.SelectionEntity
   parent: SuperOffice.WebApi.Data
@@ -8461,12 +8365,6 @@ references:
   name: Selection_CreateTemporaryContactSelectionFromContactPersonIdsRequest
   nameWithType: Selection_CreateTemporaryContactSelectionFromContactPersonIdsRequest
   fullName: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromContactPersonIdsRequest
-- uid: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromProjectMembersRequest
-  commentId: T:SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromProjectMembersRequest
-  isExternal: true
-  name: Selection_CreateTemporaryContactSelectionFromProjectMembersRequest
-  nameWithType: Selection_CreateTemporaryContactSelectionFromProjectMembersRequest
-  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromProjectMembersRequest
 - uid: SuperOffice.WebApi.Data.Selection_CopyContactSelectionMembersRequest
   commentId: T:SuperOffice.WebApi.Data.Selection_CopyContactSelectionMembersRequest
   isExternal: true
@@ -8563,12 +8461,6 @@ references:
   name: Selection_ExportSelectionMembersWithOrderByRequest
   nameWithType: Selection_ExportSelectionMembersWithOrderByRequest
   fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
-- uid: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest
-  commentId: T:SuperOffice.WebApi.Data.Selection_StartMailMergeRequest
-  isExternal: true
-  name: Selection_StartMailMergeRequest
-  nameWithType: Selection_StartMailMergeRequest
-  fullName: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest
 - uid: SuperOffice.WebApi.Data.Selection_SetDuplicateRulesStatusRequest
   commentId: T:SuperOffice.WebApi.Data.Selection_SetDuplicateRulesStatusRequest
   isExternal: true
@@ -9697,7 +9589,6 @@ references:
   fullName: SuperOffice.WebApi.Data.Sentry_GetTableRightByContactOwnershipRequest
 - uid: SuperOffice.WebApi.Data.VisibleFor
   commentId: T:SuperOffice.WebApi.Data.VisibleFor
-  parent: SuperOffice.WebApi.Data
   isExternal: true
   name: VisibleFor
   nameWithType: VisibleFor
@@ -9980,49 +9871,6 @@ references:
   name: UserDefinedFieldInfo_ClearCachesRequest
   nameWithType: UserDefinedFieldInfo_ClearCachesRequest
   fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_ClearCachesRequest
-- uid: SuperOffice.WebApi.Data.ReportEntity
-  commentId: T:SuperOffice.WebApi.Data.ReportEntity
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: ReportEntity
-  nameWithType: ReportEntity
-  fullName: SuperOffice.WebApi.Data.ReportEntity
-- uid: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
-  commentId: T:SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
-  isExternal: true
-  name: Report_CreateFavoriteRequest
-  nameWithType: Report_CreateFavoriteRequest
-  fullName: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
-- uid: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest
-  commentId: T:SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest
-  isExternal: true
-  name: Report_DeleteFavoriteRequest
-  nameWithType: Report_DeleteFavoriteRequest
-  fullName: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest
-- uid: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest
-  commentId: T:SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest
-  isExternal: true
-  name: Report_UpdateFavoriteRequest
-  nameWithType: Report_UpdateFavoriteRequest
-  fullName: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest
-- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest
-  commentId: T:SuperOffice.WebApi.Data.Report_GenerateReportRequest
-  isExternal: true
-  name: Report_GenerateReportRequest
-  nameWithType: Report_GenerateReportRequest
-  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest
-- uid: SuperOffice.WebApi.Data.Report_ImportReportRequest
-  commentId: T:SuperOffice.WebApi.Data.Report_ImportReportRequest
-  isExternal: true
-  name: Report_ImportReportRequest
-  nameWithType: Report_ImportReportRequest
-  fullName: SuperOffice.WebApi.Data.Report_ImportReportRequest
-- uid: SuperOffice.WebApi.Data.Report_DeleteReportRequest
-  commentId: T:SuperOffice.WebApi.Data.Report_DeleteReportRequest
-  isExternal: true
-  name: Report_DeleteReportRequest
-  nameWithType: Report_DeleteReportRequest
-  fullName: SuperOffice.WebApi.Data.Report_DeleteReportRequest
 - uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
   commentId: T:SuperOffice.WebApi.Data.ReportLabelLayoutEntity
   parent: SuperOffice.WebApi.Data
@@ -10472,152 +10320,6 @@ references:
   name: Archive_GetRelatedData2Request
   nameWithType: Archive_GetRelatedData2Request
   fullName: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request
-- uid: SuperOffice.WebApi.Data.AudienceConfigParameter
-  commentId: T:SuperOffice.WebApi.Data.AudienceConfigParameter
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: AudienceConfigParameter
-  nameWithType: AudienceConfigParameter
-  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter
-- uid: SuperOffice.WebApi.Data.Audience_SaveConfigParameterRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_SaveConfigParameterRequest
-  isExternal: true
-  name: Audience_SaveConfigParameterRequest
-  nameWithType: Audience_SaveConfigParameterRequest
-  fullName: SuperOffice.WebApi.Data.Audience_SaveConfigParameterRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterValueRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetConfigParameterValueRequest
-  isExternal: true
-  name: Audience_GetConfigParameterValueRequest
-  nameWithType: Audience_GetConfigParameterValueRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterValueRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetConfigParameterRequest
-  isExternal: true
-  name: Audience_GetConfigParameterRequest
-  nameWithType: Audience_GetConfigParameterRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterRequest
-- uid: SuperOffice.WebApi.Data.Audience_DeleteConfigParameterRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_DeleteConfigParameterRequest
-  isExternal: true
-  name: Audience_DeleteConfigParameterRequest
-  nameWithType: Audience_DeleteConfigParameterRequest
-  fullName: SuperOffice.WebApi.Data.Audience_DeleteConfigParameterRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest
-  isExternal: true
-  name: Audience_GetMyConfigParameterRequest
-  nameWithType: Audience_GetMyConfigParameterRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterValueRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetMyConfigParameterValueRequest
-  isExternal: true
-  name: Audience_GetMyConfigParameterValueRequest
-  nameWithType: Audience_GetMyConfigParameterValueRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterValueRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterValueOnPersonRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetConfigParameterValueOnPersonRequest
-  isExternal: true
-  name: Audience_GetConfigParameterValueOnPersonRequest
-  nameWithType: Audience_GetConfigParameterValueOnPersonRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterValueOnPersonRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest
-  isExternal: true
-  name: Audience_GetConfigParameterOnPersonRequest
-  nameWithType: Audience_GetConfigParameterOnPersonRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetConfigParametersByLayoutNameRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetConfigParametersByLayoutNameRequest
-  isExternal: true
-  name: Audience_GetConfigParametersByLayoutNameRequest
-  nameWithType: Audience_GetConfigParametersByLayoutNameRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParametersByLayoutNameRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetMyConfigParametersRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetMyConfigParametersRequest
-  isExternal: true
-  name: Audience_GetMyConfigParametersRequest
-  nameWithType: Audience_GetMyConfigParametersRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetMyConfigParametersRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetConfigParametersOnPersonRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetConfigParametersOnPersonRequest
-  isExternal: true
-  name: Audience_GetConfigParametersOnPersonRequest
-  nameWithType: Audience_GetConfigParametersOnPersonRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParametersOnPersonRequest
-- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity
-  commentId: T:SuperOffice.WebApi.Data.AudienceLayoutEntity
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: AudienceLayoutEntity
-  nameWithType: AudienceLayoutEntity
-  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity
-- uid: SuperOffice.WebApi.Data.Audience_GetAudienceLayoutByNameRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetAudienceLayoutByNameRequest
-  isExternal: true
-  name: Audience_GetAudienceLayoutByNameRequest
-  nameWithType: Audience_GetAudienceLayoutByNameRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetAudienceLayoutByNameRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetMyAudienceLayoutRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetMyAudienceLayoutRequest
-  isExternal: true
-  name: Audience_GetMyAudienceLayoutRequest
-  nameWithType: Audience_GetMyAudienceLayoutRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetMyAudienceLayoutRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetAudienceLayoutOnPersonRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetAudienceLayoutOnPersonRequest
-  isExternal: true
-  name: Audience_GetAudienceLayoutOnPersonRequest
-  nameWithType: Audience_GetAudienceLayoutOnPersonRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetAudienceLayoutOnPersonRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetDefaultProjectImageRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetDefaultProjectImageRequest
-  isExternal: true
-  name: Audience_GetDefaultProjectImageRequest
-  nameWithType: Audience_GetDefaultProjectImageRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetDefaultProjectImageRequest
-- uid: SuperOffice.WebApi.Data.Audience_SetDefaultProjectImageRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_SetDefaultProjectImageRequest
-  isExternal: true
-  name: Audience_SetDefaultProjectImageRequest
-  nameWithType: Audience_SetDefaultProjectImageRequest
-  fullName: SuperOffice.WebApi.Data.Audience_SetDefaultProjectImageRequest
-- uid: SuperOffice.WebApi.Data.Audience_SetDefaultPersonImageRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_SetDefaultPersonImageRequest
-  isExternal: true
-  name: Audience_SetDefaultPersonImageRequest
-  nameWithType: Audience_SetDefaultPersonImageRequest
-  fullName: SuperOffice.WebApi.Data.Audience_SetDefaultPersonImageRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetDefaultPersonImageRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetDefaultPersonImageRequest
-  isExternal: true
-  name: Audience_GetDefaultPersonImageRequest
-  nameWithType: Audience_GetDefaultPersonImageRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetDefaultPersonImageRequest
-- uid: SuperOffice.WebApi.Data.Audience_SetDefaultCountryFlagRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_SetDefaultCountryFlagRequest
-  isExternal: true
-  name: Audience_SetDefaultCountryFlagRequest
-  nameWithType: Audience_SetDefaultCountryFlagRequest
-  fullName: SuperOffice.WebApi.Data.Audience_SetDefaultCountryFlagRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetDefaultCountryFlagRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetDefaultCountryFlagRequest
-  isExternal: true
-  name: Audience_GetDefaultCountryFlagRequest
-  nameWithType: Audience_GetDefaultCountryFlagRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetDefaultCountryFlagRequest
-- uid: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_GetLogoImageRequest
-  isExternal: true
-  name: Audience_GetLogoImageRequest
-  nameWithType: Audience_GetLogoImageRequest
-  fullName: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest
-- uid: SuperOffice.WebApi.Data.Audience_SetLogoImageRequest
-  commentId: T:SuperOffice.WebApi.Data.Audience_SetLogoImageRequest
-  isExternal: true
-  name: Audience_SetLogoImageRequest
-  nameWithType: Audience_SetLogoImageRequest
-  fullName: SuperOffice.WebApi.Data.Audience_SetLogoImageRequest
 - uid: SuperOffice.WebApi.Data.Preference
   commentId: T:SuperOffice.WebApi.Data.Preference
   parent: SuperOffice.WebApi.Data
@@ -10979,6 +10681,18 @@ references:
   name: License_UnassignThirdPartyLicensesRequest
   nameWithType: License_UnassignThirdPartyLicensesRequest
   fullName: SuperOffice.WebApi.Data.License_UnassignThirdPartyLicensesRequest
+- uid: SuperOffice.WebApi.Data.License_GetCentralLicenseRequest
+  commentId: T:SuperOffice.WebApi.Data.License_GetCentralLicenseRequest
+  isExternal: true
+  name: License_GetCentralLicenseRequest
+  nameWithType: License_GetCentralLicenseRequest
+  fullName: SuperOffice.WebApi.Data.License_GetCentralLicenseRequest
+- uid: SuperOffice.WebApi.Data.License_SaveCentralLicenseRequest
+  commentId: T:SuperOffice.WebApi.Data.License_SaveCentralLicenseRequest
+  isExternal: true
+  name: License_SaveCentralLicenseRequest
+  nameWithType: License_SaveCentralLicenseRequest
+  fullName: SuperOffice.WebApi.Data.License_SaveCentralLicenseRequest
 - uid: SuperOffice.WebApi.Data.LicenseInfo
   commentId: T:SuperOffice.WebApi.Data.LicenseInfo
   parent: SuperOffice.WebApi.Data
@@ -11618,38 +11332,6 @@ references:
   name: UserValidationResult
   nameWithType: UserValidationResult
   fullName: SuperOffice.WebApi.Data.UserValidationResult
-- uid: SuperOffice.WebApi.Data.Area
-  commentId: T:SuperOffice.WebApi.Data.Area
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: Area
-  nameWithType: Area
-  fullName: SuperOffice.WebApi.Data.Area
-- uid: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest
-  commentId: T:SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest
-  isExternal: true
-  name: Replication_SetFreetextSearchEnabledOnAreaRequest
-  nameWithType: Replication_SetFreetextSearchEnabledOnAreaRequest
-  fullName: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest
-- uid: SuperOffice.WebApi.Data.Satellite
-  commentId: T:SuperOffice.WebApi.Data.Satellite
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: Satellite
-  nameWithType: Satellite
-  fullName: SuperOffice.WebApi.Data.Satellite
-- uid: SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest
-  commentId: T:SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest
-  isExternal: true
-  name: Replication_GetCentralLicenseRequest
-  nameWithType: Replication_GetCentralLicenseRequest
-  fullName: SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest
-- uid: SuperOffice.WebApi.Data.Replication_SaveCentralLicenseRequest
-  commentId: T:SuperOffice.WebApi.Data.Replication_SaveCentralLicenseRequest
-  isExternal: true
-  name: Replication_SaveCentralLicenseRequest
-  nameWithType: Replication_SaveCentralLicenseRequest
-  fullName: SuperOffice.WebApi.Data.Replication_SaveCentralLicenseRequest
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone
   commentId: T:SuperOffice.WebApi.Data.PreferredTimeZone
   isExternal: true
@@ -11875,12 +11557,6 @@ references:
   name: FreeText_SetEnabledRequest
   nameWithType: FreeText_SetEnabledRequest
   fullName: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest
-- uid: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest
-  commentId: T:SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest
-  isExternal: true
-  name: FreeText_SetAutoEnableTravelAreasRequest
-  nameWithType: FreeText_SetAutoEnableTravelAreasRequest
-  fullName: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest
 - uid: SuperOffice.WebApi.Data.FreeText_SetSingleWordOperatorRequest
   commentId: T:SuperOffice.WebApi.Data.FreeText_SetSingleWordOperatorRequest
   isExternal: true
@@ -11893,30 +11569,6 @@ references:
   name: FreeText_SetMultiWordOperatorRequest
   nameWithType: FreeText_SetMultiWordOperatorRequest
   fullName: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest
-- uid: SuperOffice.WebApi.Data.FreeText_GetStopWordListRequest
-  commentId: T:SuperOffice.WebApi.Data.FreeText_GetStopWordListRequest
-  isExternal: true
-  name: FreeText_GetStopWordListRequest
-  nameWithType: FreeText_GetStopWordListRequest
-  fullName: SuperOffice.WebApi.Data.FreeText_GetStopWordListRequest
-- uid: SuperOffice.WebApi.Data.FreeText_AddWordsRequest
-  commentId: T:SuperOffice.WebApi.Data.FreeText_AddWordsRequest
-  isExternal: true
-  name: FreeText_AddWordsRequest
-  nameWithType: FreeText_AddWordsRequest
-  fullName: SuperOffice.WebApi.Data.FreeText_AddWordsRequest
-- uid: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest
-  commentId: T:SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest
-  isExternal: true
-  name: FreeText_DeleteStopWordsByIdRequest
-  nameWithType: FreeText_DeleteStopWordsByIdRequest
-  fullName: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest
-- uid: SuperOffice.WebApi.Data.FreeText_GetSuggestedStopWordsRequest
-  commentId: T:SuperOffice.WebApi.Data.FreeText_GetSuggestedStopWordsRequest
-  isExternal: true
-  name: FreeText_GetSuggestedStopWordsRequest
-  nameWithType: FreeText_GetSuggestedStopWordsRequest
-  fullName: SuperOffice.WebApi.Data.FreeText_GetSuggestedStopWordsRequest
 - uid: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest
   commentId: T:SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest
   isExternal: true
@@ -12201,7 +11853,6 @@ references:
   fullName: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest
 - uid: SuperOffice.WebApi.Data.SmsConfig
   commentId: T:SuperOffice.WebApi.Data.SmsConfig
-  parent: SuperOffice.WebApi.Data
   isExternal: true
   name: SmsConfig
   nameWithType: SmsConfig
@@ -12401,74 +12052,6 @@ references:
   name: Pocket_NotificationsHandledRequest
   nameWithType: Pocket_NotificationsHandledRequest
   fullName: SuperOffice.WebApi.Data.Pocket_NotificationsHandledRequest
-- uid: SuperOffice.WebApi.Data.Dashboard
-  commentId: T:SuperOffice.WebApi.Data.Dashboard
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: Dashboard
-  nameWithType: Dashboard
-  fullName: SuperOffice.WebApi.Data.Dashboard
-- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
-  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
-  isExternal: true
-  name: Dashboard_GetDashboardsRequest
-  nameWithType: Dashboard_GetDashboardsRequest
-  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
-- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
-  commentId: T:SuperOffice.WebApi.Data.Dashboard_SetTileRequest
-  isExternal: true
-  name: Dashboard_SetTileRequest
-  nameWithType: Dashboard_SetTileRequest
-  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
-- uid: SuperOffice.WebApi.Data.DashboardTile
-  commentId: T:SuperOffice.WebApi.Data.DashboardTile
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: DashboardTile
-  nameWithType: DashboardTile
-  fullName: SuperOffice.WebApi.Data.DashboardTile
-- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
-  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
-  isExternal: true
-  name: Dashboard_GetDashboardTilesRequest
-  nameWithType: Dashboard_GetDashboardTilesRequest
-  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
-- uid: SuperOffice.WebApi.Data.Dashboard_GetStandardDashboardTileFromChartIdRequest
-  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetStandardDashboardTileFromChartIdRequest
-  isExternal: true
-  name: Dashboard_GetStandardDashboardTileFromChartIdRequest
-  nameWithType: Dashboard_GetStandardDashboardTileFromChartIdRequest
-  fullName: SuperOffice.WebApi.Data.Dashboard_GetStandardDashboardTileFromChartIdRequest
-- uid: SuperOffice.WebApi.Data.Dashboard_GetDataRequest
-  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDataRequest
-  isExternal: true
-  name: Dashboard_GetDataRequest
-  nameWithType: Dashboard_GetDataRequest
-  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataRequest
-- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
-  commentId: T:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
-  isExternal: true
-  name: Dashboard_CreateNewFromTemplateRequest
-  nameWithType: Dashboard_CreateNewFromTemplateRequest
-  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
-- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
-  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
-  isExternal: true
-  name: Dashboard_GetDataWithSelectionRequest
-  nameWithType: Dashboard_GetDataWithSelectionRequest
-  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
-- uid: SuperOffice.WebApi.Data.DashboardTileOption
-  commentId: T:SuperOffice.WebApi.Data.DashboardTileOption
-  isExternal: true
-  name: DashboardTileOption
-  nameWithType: DashboardTileOption
-  fullName: SuperOffice.WebApi.Data.DashboardTileOption
-- uid: SuperOffice.WebApi.Data.TileData
-  commentId: T:SuperOffice.WebApi.Data.TileData
-  isExternal: true
-  name: TileData
-  nameWithType: TileData
-  fullName: SuperOffice.WebApi.Data.TileData
 - uid: SuperOffice.WebApi.Data.Dash
   commentId: T:SuperOffice.WebApi.Data.Dash
   parent: SuperOffice.WebApi.Data
@@ -14633,13 +14216,6 @@ references:
   name: LicenseType
   nameWithType: LicenseType
   fullName: SuperOffice.WebApi.Data.LicenseType
-- uid: SuperOffice.WebApi.Data.EMailMergeTargetType
-  commentId: T:SuperOffice.WebApi.Data.EMailMergeTargetType
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: EMailMergeTargetType
-  nameWithType: EMailMergeTargetType
-  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType
 - uid: SuperOffice.WebApi.Data.AssignmentStatus
   commentId: T:SuperOffice.WebApi.Data.AssignmentStatus
   parent: SuperOffice.WebApi.Data
@@ -14731,13 +14307,6 @@ references:
   name: TicketBaseStatus
   nameWithType: TicketBaseStatus
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus
-- uid: SuperOffice.WebApi.Data.ReportCategory
-  commentId: T:SuperOffice.WebApi.Data.ReportCategory
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: ReportCategory
-  nameWithType: ReportCategory
-  fullName: SuperOffice.WebApi.Data.ReportCategory
 - uid: SuperOffice.WebApi.Data.EMailPriority
   commentId: T:SuperOffice.WebApi.Data.EMailPriority
   parent: SuperOffice.WebApi.Data
@@ -14773,13 +14342,6 @@ references:
   name: SelectionType
   nameWithType: SelectionType
   fullName: SuperOffice.WebApi.Data.SelectionType
-- uid: SuperOffice.WebApi.Data.ReportLayout
-  commentId: T:SuperOffice.WebApi.Data.ReportLayout
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: ReportLayout
-  nameWithType: ReportLayout
-  fullName: SuperOffice.WebApi.Data.ReportLayout
 - uid: SuperOffice.WebApi.Data.ReportPaperOrientation
   commentId: T:SuperOffice.WebApi.Data.ReportPaperOrientation
   parent: SuperOffice.WebApi.Data
@@ -14801,34 +14363,6 @@ references:
   name: GeneratorEncoding
   nameWithType: GeneratorEncoding
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding
-- uid: SuperOffice.WebApi.Data.DashboardLayout
-  commentId: T:SuperOffice.WebApi.Data.DashboardLayout
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: DashboardLayout
-  nameWithType: DashboardLayout
-  fullName: SuperOffice.WebApi.Data.DashboardLayout
-- uid: SuperOffice.WebApi.Data.DashboardTileType
-  commentId: T:SuperOffice.WebApi.Data.DashboardTileType
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: DashboardTileType
-  nameWithType: DashboardTileType
-  fullName: SuperOffice.WebApi.Data.DashboardTileType
-- uid: SuperOffice.WebApi.Data.DashboardTileEntityType
-  commentId: T:SuperOffice.WebApi.Data.DashboardTileEntityType
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: DashboardTileEntityType
-  nameWithType: DashboardTileEntityType
-  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType
-- uid: SuperOffice.WebApi.Data.DashboardTileOptionType
-  commentId: T:SuperOffice.WebApi.Data.DashboardTileOptionType
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: DashboardTileOptionType
-  nameWithType: DashboardTileOptionType
-  fullName: SuperOffice.WebApi.Data.DashboardTileOptionType
 - uid: SuperOffice.WebApi.Data.DashTileType
   commentId: T:SuperOffice.WebApi.Data.DashTileType
   parent: SuperOffice.WebApi.Data

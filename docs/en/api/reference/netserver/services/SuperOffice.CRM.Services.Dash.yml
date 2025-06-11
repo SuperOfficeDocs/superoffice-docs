@@ -43,8 +43,6 @@ items:
       Public Class Dash
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.DashAgent
-    commentId: T:SuperOffice.CRM.Services.DashAgent
   - linkId: SuperOffice.CRM.Services.IDashAgent
     commentId: T:SuperOffice.CRM.Services.IDashAgent
   inheritance:
@@ -581,15 +579,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.DashAgent
-  commentId: T:SuperOffice.CRM.Services.DashAgent
-  isExternal: true
-  name: DashAgent
-  nameWithType: DashAgent
-  fullName: SuperOffice.CRM.Services.DashAgent
 - uid: SuperOffice.CRM.Services.IDashAgent
   commentId: T:SuperOffice.CRM.Services.IDashAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IDashAgent
   nameWithType: IDashAgent

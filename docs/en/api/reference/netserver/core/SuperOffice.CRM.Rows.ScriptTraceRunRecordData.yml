@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.ScriptTraceRunRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ScriptTraceRunRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ScriptTraceRunRecordData)
   - SuperOffice.CRM.Rows.ScriptTraceRunRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ScriptTraceRunRecordData.SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ScriptTraceRunRecordData.SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ScriptTraceRunRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordData.SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRunRecordData)
+- uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordData.SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRunRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRunRecordData)
-  name: ToInsert()
-  nameWithType: ScriptTraceRunRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRunRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ScriptTraceRunRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ScriptTraceRunRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScriptTraceRunRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ScriptTraceRunRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScriptTraceRunRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRunRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRunRecordData)
+- uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRunRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRunRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ScriptTraceRunRecordData)
-  nameWithType: ScriptTraceRunRecordDataExtensions.ToInsert(ScriptTraceRunRecordData)
-  fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRunRecordData)
+  name: ToInsertAsync(ScriptTraceRunRecordData, CancellationToken)
+  nameWithType: ScriptTraceRunRecordDataExtensions.ToInsertAsync(ScriptTraceRunRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRunRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRunRecordData)
-    name: ToInsert
-    nameWithType: ScriptTraceRunRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRunRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScriptTraceRunRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: ScriptTraceRunRecordData
     nameWithType: ScriptTraceRunRecordData
     fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRunRecordData)
-    name: ToInsert
-    nameWithType: ScriptTraceRunRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRunRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScriptTraceRunRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: ScriptTraceRunRecordData
     nameWithType: ScriptTraceRunRecordData
     fullName: SuperOffice.CRM.Rows.ScriptTraceRunRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

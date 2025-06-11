@@ -118,7 +118,7 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ChatTopicRecordData)
   - SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -2599,34 +2599,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
-  name: ToInsert()
-  nameWithType: ChatTopicRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ChatTopicRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ChatTopicRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ChatTopicRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ChatTopicRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ChatTopicRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2812,17 +2822,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ChatTopicRecordData)
-  nameWithType: ChatTopicRecordDataExtensions.ToInsert(ChatTopicRecordData)
-  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  name: ToInsertAsync(ChatTopicRecordData, CancellationToken)
+  nameWithType: ChatTopicRecordDataExtensions.ToInsertAsync(ChatTopicRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
-    name: ToInsert
-    nameWithType: ChatTopicRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ChatTopicRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2831,15 +2841,23 @@ references:
     name: ChatTopicRecordData
     nameWithType: ChatTopicRecordData
     fullName: SuperOffice.CRM.Rows.ChatTopicRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
-    name: ToInsert
-    nameWithType: ChatTopicRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ChatTopicRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ChatTopicRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2848,6 +2866,14 @@ references:
     name: ChatTopicRecordData
     nameWithType: ChatTopicRecordData
     fullName: SuperOffice.CRM.Rows.ChatTopicRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

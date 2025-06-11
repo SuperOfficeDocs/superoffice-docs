@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
   - SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
-  - SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
-  - SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData})
+  - SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LicenseAssocLinkRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
+- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<LicenseAssocLinkTableInfo>)
-  nameWithType: LicenseAssocLinkRecordDataExtensions.FromSelect(TargetedSelect<LicenseAssocLinkTableInfo>)
-  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LicenseAssocLinkTableInfo>)
+  name: FromSelectAsync(TargetedSelect<LicenseAssocLinkTableInfo>, CancellationToken)
+  nameWithType: LicenseAssocLinkRecordDataExtensions.FromSelectAsync(TargetedSelect<LicenseAssocLinkTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LicenseAssocLinkTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<LicenseAssocLinkRecordData> FromSelect(this TargetedSelect<LicenseAssocLinkTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<LicenseAssocLinkRecordData> FromSelectAsync(this TargetedSelect<LicenseAssocLinkTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of LicenseAssocLinkTableInfo)) As IEnumerable(Of LicenseAssocLinkRecordData)
-  overload: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect*
-  nameWithType.vb: LicenseAssocLinkRecordDataExtensions.FromSelect(TargetedSelect(Of LicenseAssocLinkTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of LicenseAssocLinkTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of LicenseAssocLinkRecordData)
+  overload: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: LicenseAssocLinkRecordDataExtensions.FromSelectAsync(TargetedSelect(Of LicenseAssocLinkTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LicenseAssocLinkTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of LicenseAssocLinkTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LicenseAssocLinkTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of LicenseAssocLinkTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
   commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.LicenseAssocLinkTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of LicenseAssocLinkTableInfo))
-- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
+- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(LicenseAssocLinkRecordData)
-  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsert(LicenseAssocLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
+  name: ToInsertAsync(LicenseAssocLinkRecordData, CancellationToken)
+  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsertAsync(LicenseAssocLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseAssocLinkRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this LicenseAssocLinkRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this LicenseAssocLinkRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.LicenseAssocLinkRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As LicenseAssocLinkRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As LicenseAssocLinkRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData})
-  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData})
+- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<LicenseAssocLinkRecordData>)
-  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInserts(IEnumerable<LicenseAssocLinkRecordData>)
-  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LicenseAssocLinkRecordData>)
+  name: ToInsertsAsync(IEnumerable<LicenseAssocLinkRecordData>, CancellationToken)
+  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsertsAsync(IEnumerable<LicenseAssocLinkRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LicenseAssocLinkRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<LicenseAssocLinkRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<LicenseAssocLinkRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of LicenseAssocLinkRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInserts*
-  nameWithType.vb: LicenseAssocLinkRecordDataExtensions.ToInserts(IEnumerable(Of LicenseAssocLinkRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of LicenseAssocLinkRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: LicenseAssocLinkRecordDataExtensions.ToInsertsAsync(IEnumerable(Of LicenseAssocLinkRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LicenseAssocLinkRecordData))
-  name.vb: ToInserts(IEnumerable(Of LicenseAssocLinkRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LicenseAssocLinkRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of LicenseAssocLinkRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LicenseAssocLinkRow)
   commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LicenseAssocLinkRow)
   id: ToRecordData(SuperOffice.CRM.Rows.LicenseAssocLinkRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<LicenseAssocLinkTableInfo>)
+  nameWithType: LicenseAssocLinkRecordDataExtensions.FromSelect(TargetedSelect<LicenseAssocLinkTableInfo>)
+  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LicenseAssocLinkTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;LicenseAssocLinkTableInfo>, execute it and return an IEnumerable&lt;LicenseAssocLinkRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<LicenseAssocLinkRecordData> FromSelect(this TargetedSelect<LicenseAssocLinkTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of LicenseAssocLinkTableInfo)) As IEnumerable(Of LicenseAssocLinkRecordData)
+  overload: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect*
+  nameWithType.vb: LicenseAssocLinkRecordDataExtensions.FromSelect(TargetedSelect(Of LicenseAssocLinkTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LicenseAssocLinkTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of LicenseAssocLinkTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: LicenseAssocLinkRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: LicenseAssocLinkRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LicenseAssocLinkTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<LicenseAssocLinkRecordData>
-  nameWithType: IEnumerable<LicenseAssocLinkRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LicenseAssocLinkRecordData>
-  nameWithType.vb: IEnumerable(Of LicenseAssocLinkRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
-  name.vb: IEnumerable(Of LicenseAssocLinkRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<LicenseAssocLinkRecordData>
+  nameWithType: IAsyncEnumerable<LicenseAssocLinkRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.LicenseAssocLinkRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of LicenseAssocLinkRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
+  name.vb: IAsyncEnumerable(Of LicenseAssocLinkRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: LicenseAssocLinkRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LicenseAssocLinkRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<LicenseAssocLinkRecordData>
+  nameWithType: IEnumerable<LicenseAssocLinkRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LicenseAssocLinkRecordData>
+  nameWithType.vb: IEnumerable(Of LicenseAssocLinkRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LicenseAssocLinkRecordData)
+  name.vb: IEnumerable(Of LicenseAssocLinkRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordData
+    name: LicenseAssocLinkRecordData
+    nameWithType: LicenseAssocLinkRecordData
+    fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordData
+    name: LicenseAssocLinkRecordData
+    nameWithType: LicenseAssocLinkRecordData
+    fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: LicenseAssocLinkRow
   nameWithType: LicenseAssocLinkRow
   fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRow
+- uid: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: LicenseAssocLinkRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.LicenseAssocLinkRecordDataExtensions.FromSelect

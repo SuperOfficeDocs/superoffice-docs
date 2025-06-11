@@ -4,10 +4,11 @@ items:
   commentId: N:SuperOffice.Security
   id: SuperOffice.Security
   children:
-  - SuperOffice.Security.CredentialsManager
+  - SuperOffice.Security.ICredentialsManager
   - SuperOffice.Security.IImplicitIdentitySupplier
   - SuperOffice.Security.ImplicitIdentitySupplierAttribute
   - SuperOffice.Security.ISoIdentityResolver
+  - SuperOffice.Security.ISoImpersonationService
   - SuperOffice.Security.ISoSecurityTokenValidator
   - SuperOffice.Security.SoIdentityResolverAttribute
   - SuperOffice.Security.SoImpersonationContext
@@ -31,13 +32,18 @@ references:
   name: SoImpersonationContext
   nameWithType: SoImpersonationContext
   fullName: SuperOffice.Security.SoImpersonationContext
-- uid: SuperOffice.Security.CredentialsManager
-  commentId: T:SuperOffice.Security.CredentialsManager
-  parent: SuperOffice.Security
+- uid: SuperOffice.Security.ISoImpersonationService
+  commentId: T:SuperOffice.Security.ISoImpersonationService
   isExternal: true
-  name: CredentialsManager
-  nameWithType: CredentialsManager
-  fullName: SuperOffice.Security.CredentialsManager
+  name: ISoImpersonationService
+  nameWithType: ISoImpersonationService
+  fullName: SuperOffice.Security.ISoImpersonationService
+- uid: SuperOffice.Security.ICredentialsManager
+  commentId: T:SuperOffice.Security.ICredentialsManager
+  isExternal: true
+  name: ICredentialsManager
+  nameWithType: ICredentialsManager
+  fullName: SuperOffice.Security.ICredentialsManager
 - uid: SuperOffice.Security.ISoIdentityResolver
   commentId: T:SuperOffice.Security.ISoIdentityResolver
   parent: SuperOffice.Security

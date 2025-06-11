@@ -5,9 +5,9 @@ items:
   id: INextMilestonePlugin
   parent: SuperOffice.CRM
   children:
-  - SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  - SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
-  - SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
+  - SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  - SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -36,16 +36,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
-  commentId: M:SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
-  id: CalculateNextMilestoneDate(System.Int32)
+- uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  id: CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.INextMilestonePlugin
   langs:
   - csharp
   - vb
-  name: CalculateNextMilestoneDate(Int32)
-  nameWithType: INextMilestonePlugin.CalculateNextMilestoneDate(Int32)
-  fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
+  name: CalculateNextMilestoneDateAsync(Int32, CancellationToken)
+  nameWithType: INextMilestonePlugin.CalculateNextMilestoneDateAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -54,24 +54,26 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   syntax:
-    content: NextDateInfo CalculateNextMilestoneDate(int projectId)
+    content: Task<NextDateInfo> CalculateNextMilestoneDateAsync(int projectId, CancellationToken cancellationToken = null)
     parameters:
     - id: projectId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.NextDateInfo
-    content.vb: Function CalculateNextMilestoneDate(projectId As Integer) As NextDateInfo
-  overload: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate*
-- uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  id: BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+    content.vb: Function CalculateNextMilestoneDateAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NextDateInfo)
+  overload: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync*
+- uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  id: BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.INextMilestonePlugin
   langs:
   - csharp
   - vb
-  name: BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: INextMilestonePlugin.BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  name: BatchUpdateNextMilestoneAsync(ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  nameWithType: INextMilestonePlugin.BatchUpdateNextMilestoneAsync(ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -80,24 +82,28 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   syntax:
-    content: void BatchUpdateNextMilestone(ProgressEstimateCallback estimate, ProgressStepCallback step)
+    content: Task BatchUpdateNextMilestoneAsync(ProgressEstimateCallback estimate, ProgressStepCallback step, CancellationToken cancellationToken = null)
     parameters:
     - id: estimate
       type: SuperOffice.CRM.ProgressEstimateCallback
     - id: step
       type: SuperOffice.CRM.ProgressStepCallback
-    content.vb: Sub BatchUpdateNextMilestone(estimate As ProgressEstimateCallback, step As ProgressStepCallback)
-  overload: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone*
-- uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
-  commentId: M:SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
-  id: GetNextMilestoneDate(System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function BatchUpdateNextMilestoneAsync(estimate As ProgressEstimateCallback, step As ProgressStepCallback, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync*
+- uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.INextMilestonePlugin
   langs:
   - csharp
   - vb
-  name: GetNextMilestoneDate(Int32)
-  nameWithType: INextMilestonePlugin.GetNextMilestoneDate(Int32)
-  fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
+  name: GetNextMilestoneDateAsync(Int32, CancellationToken)
+  nameWithType: INextMilestonePlugin.GetNextMilestoneDateAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -106,14 +112,16 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   syntax:
-    content: NextDateInfo GetNextMilestoneDate(int projectId)
+    content: Task<NextDateInfo> GetNextMilestoneDateAsync(int projectId, CancellationToken cancellationToken = null)
     parameters:
     - id: projectId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.NextDateInfo
-    content.vb: Function GetNextMilestoneDate(projectId As Integer) As NextDateInfo
-  overload: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+    content.vb: Function GetNextMilestoneDateAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NextDateInfo)
+  overload: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync*
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
@@ -286,12 +294,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate*
-  commentId: Overload:SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate
+- uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync*
+  commentId: Overload:SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync
   isExternal: true
-  name: CalculateNextMilestoneDate
-  nameWithType: INextMilestonePlugin.CalculateNextMilestoneDate
-  fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate
+  name: CalculateNextMilestoneDateAsync
+  nameWithType: INextMilestonePlugin.CalculateNextMilestoneDateAsync
+  fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -299,25 +307,104 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.NextDateInfo
-  commentId: T:SuperOffice.CRM.NextDateInfo
-  parent: SuperOffice.CRM
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: NextDateInfo
-  nameWithType: NextDateInfo
-  fullName: SuperOffice.CRM.NextDateInfo
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<NextDateInfo>
+  nameWithType: Task<NextDateInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.NextDateInfo>
+  nameWithType.vb: Task(Of NextDateInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.NextDateInfo)
+  name.vb: Task(Of NextDateInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.NextDateInfo
+    name: NextDateInfo
+    nameWithType: NextDateInfo
+    fullName: SuperOffice.CRM.NextDateInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.NextDateInfo
+    name: NextDateInfo
+    nameWithType: NextDateInfo
+    fullName: SuperOffice.CRM.NextDateInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone*
-  commentId: Overload:SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: BatchUpdateNextMilestone
-  nameWithType: INextMilestonePlugin.BatchUpdateNextMilestone
-  fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync*
+  commentId: Overload:SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync
+  isExternal: true
+  name: BatchUpdateNextMilestoneAsync
+  nameWithType: INextMilestonePlugin.BatchUpdateNextMilestoneAsync
+  fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync
 - uid: SuperOffice.CRM.ProgressEstimateCallback
   commentId: T:SuperOffice.CRM.ProgressEstimateCallback
   parent: SuperOffice.CRM
@@ -332,9 +419,14 @@ references:
   name: ProgressStepCallback
   nameWithType: ProgressStepCallback
   fullName: SuperOffice.CRM.ProgressStepCallback
-- uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate*
-  commentId: Overload:SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: GetNextMilestoneDate
-  nameWithType: INextMilestonePlugin.GetNextMilestoneDate
-  fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync*
+  commentId: Overload:SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync
+  isExternal: true
+  name: GetNextMilestoneDateAsync
+  nameWithType: INextMilestonePlugin.GetNextMilestoneDateAsync
+  fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync

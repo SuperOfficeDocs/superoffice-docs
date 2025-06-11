@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.ElementProfileRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ElementProfileRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ElementProfileRecordData)
   - SuperOffice.CRM.Rows.ElementProfileRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ElementProfileRecordData.SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ElementProfileRecordData.SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ElementProfileRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ElementProfileRecordData.SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ElementProfileRecordData)
+- uid: SuperOffice.CRM.Rows.ElementProfileRecordData.SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ElementProfileRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ElementProfileRecordData)
-  name: ToInsert()
-  nameWithType: ElementProfileRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ElementProfileRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ElementProfileRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ElementProfileRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ElementProfileRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ElementProfileRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ElementProfileRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ElementProfileRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ElementProfileRecordData)
+- uid: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ElementProfileRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ElementProfileRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ElementProfileRecordData)
-  nameWithType: ElementProfileRecordDataExtensions.ToInsert(ElementProfileRecordData)
-  fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ElementProfileRecordData)
+  name: ToInsertAsync(ElementProfileRecordData, CancellationToken)
+  nameWithType: ElementProfileRecordDataExtensions.ToInsertAsync(ElementProfileRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ElementProfileRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ElementProfileRecordData)
-    name: ToInsert
-    nameWithType: ElementProfileRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ElementProfileRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ElementProfileRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: ElementProfileRecordData
     nameWithType: ElementProfileRecordData
     fullName: SuperOffice.CRM.Rows.ElementProfileRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ElementProfileRecordData)
-    name: ToInsert
-    nameWithType: ElementProfileRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ElementProfileRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ElementProfileRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ElementProfileRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: ElementProfileRecordData
     nameWithType: ElementProfileRecordData
     fullName: SuperOffice.CRM.Rows.ElementProfileRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

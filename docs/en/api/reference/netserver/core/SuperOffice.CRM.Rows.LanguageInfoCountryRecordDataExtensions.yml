@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
   - SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
-  - SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LanguageInfoCountryRecordData)
-  - SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData})
+  - SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LanguageInfoCountryRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LanguageInfoCountryRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
+- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<LanguageInfoCountryTableInfo>)
-  nameWithType: LanguageInfoCountryRecordDataExtensions.FromSelect(TargetedSelect<LanguageInfoCountryTableInfo>)
-  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LanguageInfoCountryTableInfo>)
+  name: FromSelectAsync(TargetedSelect<LanguageInfoCountryTableInfo>, CancellationToken)
+  nameWithType: LanguageInfoCountryRecordDataExtensions.FromSelectAsync(TargetedSelect<LanguageInfoCountryTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LanguageInfoCountryTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<LanguageInfoCountryRecordData> FromSelect(this TargetedSelect<LanguageInfoCountryTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<LanguageInfoCountryRecordData> FromSelectAsync(this TargetedSelect<LanguageInfoCountryTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of LanguageInfoCountryTableInfo)) As IEnumerable(Of LanguageInfoCountryRecordData)
-  overload: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect*
-  nameWithType.vb: LanguageInfoCountryRecordDataExtensions.FromSelect(TargetedSelect(Of LanguageInfoCountryTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of LanguageInfoCountryTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of LanguageInfoCountryRecordData)
+  overload: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: LanguageInfoCountryRecordDataExtensions.FromSelectAsync(TargetedSelect(Of LanguageInfoCountryTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LanguageInfoCountryTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of LanguageInfoCountryTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LanguageInfoCountryTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of LanguageInfoCountryTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
   commentId: M:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.LanguageInfoCountryTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of LanguageInfoCountryTableInfo))
-- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LanguageInfoCountryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LanguageInfoCountryRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.LanguageInfoCountryRecordData)
+- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LanguageInfoCountryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LanguageInfoCountryRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.LanguageInfoCountryRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(LanguageInfoCountryRecordData)
-  nameWithType: LanguageInfoCountryRecordDataExtensions.ToInsert(LanguageInfoCountryRecordData)
-  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LanguageInfoCountryRecordData)
+  name: ToInsertAsync(LanguageInfoCountryRecordData, CancellationToken)
+  nameWithType: LanguageInfoCountryRecordDataExtensions.ToInsertAsync(LanguageInfoCountryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LanguageInfoCountryRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this LanguageInfoCountryRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this LanguageInfoCountryRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.LanguageInfoCountryRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As LanguageInfoCountryRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As LanguageInfoCountryRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData})
-  commentId: M:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData})
+- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<LanguageInfoCountryRecordData>)
-  nameWithType: LanguageInfoCountryRecordDataExtensions.ToInserts(IEnumerable<LanguageInfoCountryRecordData>)
-  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LanguageInfoCountryRecordData>)
+  name: ToInsertsAsync(IEnumerable<LanguageInfoCountryRecordData>, CancellationToken)
+  nameWithType: LanguageInfoCountryRecordDataExtensions.ToInsertsAsync(IEnumerable<LanguageInfoCountryRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LanguageInfoCountryRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<LanguageInfoCountryRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<LanguageInfoCountryRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of LanguageInfoCountryRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInserts*
-  nameWithType.vb: LanguageInfoCountryRecordDataExtensions.ToInserts(IEnumerable(Of LanguageInfoCountryRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of LanguageInfoCountryRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: LanguageInfoCountryRecordDataExtensions.ToInsertsAsync(IEnumerable(Of LanguageInfoCountryRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LanguageInfoCountryRecordData))
-  name.vb: ToInserts(IEnumerable(Of LanguageInfoCountryRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LanguageInfoCountryRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of LanguageInfoCountryRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LanguageInfoCountryRow)
   commentId: M:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LanguageInfoCountryRow)
   id: ToRecordData(SuperOffice.CRM.Rows.LanguageInfoCountryRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<LanguageInfoCountryTableInfo>)
+  nameWithType: LanguageInfoCountryRecordDataExtensions.FromSelect(TargetedSelect<LanguageInfoCountryTableInfo>)
+  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LanguageInfoCountryTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;LanguageInfoCountryTableInfo>, execute it and return an IEnumerable&lt;LanguageInfoCountryRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<LanguageInfoCountryRecordData> FromSelect(this TargetedSelect<LanguageInfoCountryTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of LanguageInfoCountryTableInfo)) As IEnumerable(Of LanguageInfoCountryRecordData)
+  overload: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect*
+  nameWithType.vb: LanguageInfoCountryRecordDataExtensions.FromSelect(TargetedSelect(Of LanguageInfoCountryTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LanguageInfoCountryTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of LanguageInfoCountryTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: LanguageInfoCountryRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: LanguageInfoCountryRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<LanguageInfoCountryRecordData>
-  nameWithType: IEnumerable<LanguageInfoCountryRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LanguageInfoCountryRecordData>
-  nameWithType.vb: IEnumerable(Of LanguageInfoCountryRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LanguageInfoCountryRecordData)
-  name.vb: IEnumerable(Of LanguageInfoCountryRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<LanguageInfoCountryRecordData>
+  nameWithType: IAsyncEnumerable<LanguageInfoCountryRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.LanguageInfoCountryRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of LanguageInfoCountryRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.LanguageInfoCountryRecordData)
+  name.vb: IAsyncEnumerable(Of LanguageInfoCountryRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: LanguageInfoCountryRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: LanguageInfoCountryRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: LanguageInfoCountryRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: LanguageInfoCountryRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LanguageInfoCountryRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<LanguageInfoCountryRecordData>
+  nameWithType: IEnumerable<LanguageInfoCountryRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LanguageInfoCountryRecordData>
+  nameWithType.vb: IEnumerable(Of LanguageInfoCountryRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LanguageInfoCountryRecordData)
+  name.vb: IEnumerable(Of LanguageInfoCountryRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordData
+    name: LanguageInfoCountryRecordData
+    nameWithType: LanguageInfoCountryRecordData
+    fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordData
+    name: LanguageInfoCountryRecordData
+    nameWithType: LanguageInfoCountryRecordData
+    fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: LanguageInfoCountryRow
   nameWithType: LanguageInfoCountryRow
   fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRow
+- uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: LanguageInfoCountryRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions.FromSelect

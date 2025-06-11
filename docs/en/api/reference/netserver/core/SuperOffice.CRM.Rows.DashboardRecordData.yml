@@ -50,7 +50,7 @@ items:
   - SuperOffice.CRM.Rows.DashboardRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.DashboardRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DashboardRecordData)
   - SuperOffice.CRM.Rows.DashboardRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.DashboardRecordData.SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.DashboardRecordData.SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.DashboardRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -695,34 +695,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DashboardRecordData.SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardRecordData)
+- uid: SuperOffice.CRM.Rows.DashboardRecordData.SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.DashboardRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardRecordData)
-  name: ToInsert()
-  nameWithType: DashboardRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: DashboardRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: DashboardRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: DashboardRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -908,17 +918,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardRecordData)
-  commentId: M:SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardRecordData)
+- uid: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(DashboardRecordData)
-  nameWithType: DashboardRecordDataExtensions.ToInsert(DashboardRecordData)
-  fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardRecordData)
+  name: ToInsertAsync(DashboardRecordData, CancellationToken)
+  nameWithType: DashboardRecordDataExtensions.ToInsertAsync(DashboardRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardRecordData)
-    name: ToInsert
-    nameWithType: DashboardRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -927,15 +937,23 @@ references:
     name: DashboardRecordData
     nameWithType: DashboardRecordData
     fullName: SuperOffice.CRM.Rows.DashboardRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DashboardRecordData)
-    name: ToInsert
-    nameWithType: DashboardRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.DashboardRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: DashboardRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.DashboardRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -944,6 +962,14 @@ references:
     name: DashboardRecordData
     nameWithType: DashboardRecordData
     fullName: SuperOffice.CRM.Rows.DashboardRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

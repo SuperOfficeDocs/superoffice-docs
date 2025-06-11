@@ -6,13 +6,12 @@ items:
   parent: SuperOffice.CRM.Administration
   children:
   - SuperOffice.CRM.Administration.EjUserHelper.#ctor
-  - SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership(System.Int32,System.Int32)
+  - SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembershipAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.EjUserHelper.CategoryMasterCount(System.Int32)
-  - SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership(System.Int32)
-  - SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount(System.Int32)
-  - SuperOffice.CRM.Administration.EjUserHelper.LogoutUser(System.Int32)
-  - SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount(System.Int32)
-  - SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount(System.Int32)
+  - SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCountAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.EjUserHelper.LogoutUserAsync(System.Int32)
+  - SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCountAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCountAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -76,16 +75,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount(System.Int32)
-  id: MailFilterDependentCount(System.Int32)
+- uid: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCountAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCountAsync(System.Int32,System.Threading.CancellationToken)
+  id: MailFilterDependentCountAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.EjUserHelper
   langs:
   - csharp
   - vb
-  name: MailFilterDependentCount(Int32)
-  nameWithType: EjUserHelper.MailFilterDependentCount(Int32)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount(System.Int32)
+  name: MailFilterDependentCountAsync(Int32, CancellationToken)
+  nameWithType: EjUserHelper.MailFilterDependentCountAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCountAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -94,154 +93,132 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
-    content: public static int MailFilterDependentCount(int ejUserId)
+    content: public static Task<int> MailFilterDependentCountAsync(int ejUserId, CancellationToken cancellationToken = null)
+    parameters:
+    - id: ejUserId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function MailFilterDependentCountAsync(ejUserId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCountAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCountAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCountAsync(System.Int32,System.Threading.CancellationToken)
+  id: EscalationLevelDependentCountAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Administration.EjUserHelper
+  langs:
+  - csharp
+  - vb
+  name: EscalationLevelDependentCountAsync(Int32, CancellationToken)
+  nameWithType: EjUserHelper.EscalationLevelDependentCountAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCountAsync(System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public static Task<int> EscalationLevelDependentCountAsync(int ejUserId, CancellationToken cancellationToken = null)
+    parameters:
+    - id: ejUserId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function EscalationLevelDependentCountAsync(ejUserId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCountAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCountAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCountAsync(System.Int32,System.Threading.CancellationToken)
+  id: OpenRequestsCountAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Administration.EjUserHelper
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsCountAsync(Int32, CancellationToken)
+  nameWithType: EjUserHelper.OpenRequestsCountAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCountAsync(System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public static Task<int> OpenRequestsCountAsync(int ejUserId, CancellationToken cancellationToken = null)
+    parameters:
+    - id: ejUserId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function OpenRequestsCountAsync(ejUserId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCountAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Administration.EjUserHelper.LogoutUserAsync(System.Int32)
+  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.LogoutUserAsync(System.Int32)
+  id: LogoutUserAsync(System.Int32)
+  parent: SuperOffice.CRM.Administration.EjUserHelper
+  langs:
+  - csharp
+  - vb
+  name: LogoutUserAsync(Int32)
+  nameWithType: EjUserHelper.LogoutUserAsync(Int32)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.LogoutUserAsync(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public static Task LogoutUserAsync(int ejUserId)
     parameters:
     - id: ejUserId
       type: System.Int32
     return:
-      type: System.Int32
-    content.vb: Public Shared Function MailFilterDependentCount(ejUserId As Integer) As Integer
-  overload: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount*
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function LogoutUserAsync(ejUserId As Integer) As Task
+  overload: SuperOffice.CRM.Administration.EjUserHelper.LogoutUserAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount(System.Int32)
-  id: EscalationLevelDependentCount(System.Int32)
+- uid: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembershipAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembershipAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: CalculateCategoryMembershipAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.EjUserHelper
   langs:
   - csharp
   - vb
-  name: EscalationLevelDependentCount(Int32)
-  nameWithType: EjUserHelper.EscalationLevelDependentCount(Int32)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Administration
-  syntax:
-    content: public static int EscalationLevelDependentCount(int ejUserId)
-    parameters:
-    - id: ejUserId
-      type: System.Int32
-    return:
-      type: System.Int32
-    content.vb: Public Shared Function EscalationLevelDependentCount(ejUserId As Integer) As Integer
-  overload: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount(System.Int32)
-  id: OpenRequestsCount(System.Int32)
-  parent: SuperOffice.CRM.Administration.EjUserHelper
-  langs:
-  - csharp
-  - vb
-  name: OpenRequestsCount(Int32)
-  nameWithType: EjUserHelper.OpenRequestsCount(Int32)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Administration
-  syntax:
-    content: public static int OpenRequestsCount(int ejUserId)
-    parameters:
-    - id: ejUserId
-      type: System.Int32
-    return:
-      type: System.Int32
-    content.vb: Public Shared Function OpenRequestsCount(ejUserId As Integer) As Integer
-  overload: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership(System.Int32)
-  id: DeleteCategoryMembership(System.Int32)
-  parent: SuperOffice.CRM.Administration.EjUserHelper
-  langs:
-  - csharp
-  - vb
-  name: DeleteCategoryMembership(Int32)
-  nameWithType: EjUserHelper.DeleteCategoryMembership(Int32)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Administration
-  syntax:
-    content: public static void DeleteCategoryMembership(int ejUserId)
-    parameters:
-    - id: ejUserId
-      type: System.Int32
-    content.vb: Public Shared Sub DeleteCategoryMembership(ejUserId As Integer)
-  overload: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser(System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.LogoutUser(System.Int32)
-  id: LogoutUser(System.Int32)
-  parent: SuperOffice.CRM.Administration.EjUserHelper
-  langs:
-  - csharp
-  - vb
-  name: LogoutUser(Int32)
-  nameWithType: EjUserHelper.LogoutUser(Int32)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Administration
-  syntax:
-    content: public static void LogoutUser(int ejUserId)
-    parameters:
-    - id: ejUserId
-      type: System.Int32
-    content.vb: Public Shared Sub LogoutUser(ejUserId As Integer)
-  overload: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership(System.Int32,System.Int32)
-  id: CalculateCategoryMembership(System.Int32,System.Int32)
-  parent: SuperOffice.CRM.Administration.EjUserHelper
-  langs:
-  - csharp
-  - vb
-  name: CalculateCategoryMembership(Int32, Int32)
-  nameWithType: EjUserHelper.CalculateCategoryMembership(Int32, Int32)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership(System.Int32, System.Int32)
+  name: CalculateCategoryMembershipAsync(Int32, Int32, CancellationToken)
+  nameWithType: EjUserHelper.CalculateCategoryMembershipAsync(Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembershipAsync(System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -251,7 +228,7 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nCreates/Deletes category membership records for the given user to match user group memberships (primary and secondary).\n"
   syntax:
-    content: public static void CalculateCategoryMembership(int ejUserId, int associateId)
+    content: public static Task CalculateCategoryMembershipAsync(int ejUserId, int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: ejUserId
       type: System.Int32
@@ -259,8 +236,12 @@ items:
     - id: associateId
       type: System.Int32
       description: SM user id
-    content.vb: Public Shared Sub CalculateCategoryMembership(ejUserId As Integer, associateId As Integer)
-  overload: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function CalculateCategoryMembershipAsync(ejUserId As Integer, associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembershipAsync*
   modifiers.csharp:
   - public
   - static
@@ -671,42 +652,127 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount*
-  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount
+- uid: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCountAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCountAsync
   isExternal: true
-  name: MailFilterDependentCount
-  nameWithType: EjUserHelper.MailFilterDependentCount
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount
-- uid: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount*
-  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount
+  name: MailFilterDependentCountAsync
+  nameWithType: EjUserHelper.MailFilterDependentCountAsync
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCountAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: EscalationLevelDependentCount
-  nameWithType: EjUserHelper.EscalationLevelDependentCount
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount
-- uid: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount*
-  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: OpenRequestsCount
-  nameWithType: EjUserHelper.OpenRequestsCount
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount
-- uid: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership*
-  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCountAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCountAsync
   isExternal: true
-  name: DeleteCategoryMembership
-  nameWithType: EjUserHelper.DeleteCategoryMembership
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership
-- uid: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser*
-  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.LogoutUser
+  name: EscalationLevelDependentCountAsync
+  nameWithType: EjUserHelper.EscalationLevelDependentCountAsync
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCountAsync
+- uid: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCountAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCountAsync
   isExternal: true
-  name: LogoutUser
-  nameWithType: EjUserHelper.LogoutUser
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser
-- uid: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership*
-  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership
+  name: OpenRequestsCountAsync
+  nameWithType: EjUserHelper.OpenRequestsCountAsync
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCountAsync
+- uid: SuperOffice.CRM.Administration.EjUserHelper.LogoutUserAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.LogoutUserAsync
   isExternal: true
-  name: CalculateCategoryMembership
-  nameWithType: EjUserHelper.CalculateCategoryMembership
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership
+  name: LogoutUserAsync
+  nameWithType: EjUserHelper.LogoutUserAsync
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.LogoutUserAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembershipAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembershipAsync
+  isExternal: true
+  name: CalculateCategoryMembershipAsync
+  nameWithType: EjUserHelper.CalculateCategoryMembershipAsync
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembershipAsync
 - uid: SuperOffice.CRM.Administration.EjUserHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.#ctor
   isExternal: true

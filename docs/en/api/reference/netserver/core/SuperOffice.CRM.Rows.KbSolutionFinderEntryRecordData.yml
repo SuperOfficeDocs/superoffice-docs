@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData)
   - SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData.SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData.SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData.SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData)
+- uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData.SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData)
-  name: ToInsert()
-  nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData)
+- uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(KbSolutionFinderEntryRecordData)
-  nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsert(KbSolutionFinderEntryRecordData)
-  fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData)
+  name: ToInsertAsync(KbSolutionFinderEntryRecordData, CancellationToken)
+  nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(KbSolutionFinderEntryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData)
-    name: ToInsert
-    nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: KbSolutionFinderEntryRecordData
     nameWithType: KbSolutionFinderEntryRecordData
     fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData)
-    name: ToInsert
-    nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: KbSolutionFinderEntryRecordData
     nameWithType: KbSolutionFinderEntryRecordData
     fullName: SuperOffice.CRM.Rows.KbSolutionFinderEntryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

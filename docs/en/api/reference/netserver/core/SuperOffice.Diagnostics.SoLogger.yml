@@ -5,7 +5,7 @@ items:
   id: SoLogger
   parent: SuperOffice.Diagnostics
   children:
-  - SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
+  - SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)
   - SuperOffice.Diagnostics.SoLogger.BeginScope(System.String,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.BeginScope``1(System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Generic.Dictionary{System.String,System.Double})
@@ -380,16 +380,16 @@ items:
   - Shared
   fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary(Of System.String, System.Double))
   name.vb: Count(String, NameValueCollection, Dictionary(Of String, Double))
-- uid: SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
-  commentId: M:SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
-  id: '#ctor(Microsoft.Extensions.Logging.ILoggerFactory)'
+- uid: SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)
+  id: '#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)'
   parent: SuperOffice.Diagnostics.SoLogger
   langs:
   - csharp
   - vb
-  name: SoLogger(ILoggerFactory)
-  nameWithType: SoLogger.SoLogger(ILoggerFactory)
-  fullName: SuperOffice.Diagnostics.SoLogger.SoLogger(Microsoft.Extensions.Logging.ILoggerFactory)
+  name: SoLogger(ILoggerFactory, IServiceProvider)
+  nameWithType: SoLogger.SoLogger(ILoggerFactory, IServiceProvider)
+  fullName: SuperOffice.Diagnostics.SoLogger.SoLogger(Microsoft.Extensions.Logging.ILoggerFactory, System.IServiceProvider)
   type: Constructor
   source:
     path: SoCore
@@ -399,12 +399,14 @@ items:
   namespace: SuperOffice.Diagnostics
   summary: "\nDependency injection constructor. \n"
   syntax:
-    content: public SoLogger(ILoggerFactory loggerFactory)
+    content: public SoLogger(ILoggerFactory loggerFactory, IServiceProvider serviceProvider)
     parameters:
     - id: loggerFactory
       type: Microsoft.Extensions.Logging.ILoggerFactory
       description: Logger factory ready to make new loggers on demand
-    content.vb: Public Sub New(loggerFactory As ILoggerFactory)
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(loggerFactory As ILoggerFactory, serviceProvider As IServiceProvider)
   overload: SuperOffice.Diagnostics.SoLogger.#ctor*
   modifiers.csharp:
   - public
@@ -2222,6 +2224,11 @@ references:
   name: ILoggerFactory
   nameWithType: ILoggerFactory
   fullName: Microsoft.Extensions.Logging.ILoggerFactory
+- uid: System.IServiceProvider
+  isExternal: true
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
 - uid: SuperOffice.Diagnostics.SoLogger.GetLogger*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.GetLogger
   isExternal: true

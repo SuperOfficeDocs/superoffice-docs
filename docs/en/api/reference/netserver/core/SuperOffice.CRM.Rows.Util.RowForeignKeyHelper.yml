@@ -5,22 +5,22 @@ items:
   id: RowForeignKeyHelper
   parent: SuperOffice.CRM.Rows.Util
   children:
-  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.CreateAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.Get(System.Int32,System.String)
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetAll
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetAllKeys(System.Int32)
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetFacadingItems
-  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRow(System.String)
-  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRow(System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRowAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRowAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.IsDeleted
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.IsDirty
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.IsMarkedForDelete
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.MergeValue(System.String[])
-  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdate
-  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdate
-  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaved(System.Boolean)
+  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdateAsync
+  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdateAsync
+  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSavedAsync(System.Boolean)
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.Remove(System.Int32,System.String)
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.Set(System.Int32,System.String,System.String)
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.SplitValue(System.String)
@@ -50,17 +50,17 @@ items:
   implements:
   - SuperOffice.Data.INestedPersist
   inheritedMembers:
-  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   - SuperOffice.Data.NestedPersist._saveOwner
   - SuperOffice.Data.NestedPersist._isSaving
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
-  - SuperOffice.Data.NestedPersist.Save
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.SaveAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
@@ -77,36 +77,40 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase)
-  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase)
-  id: '#ctor(SuperOffice.CRM.Rows.TableRowBase)'
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.CreateAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.CreateAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+  id: CreateAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   langs:
   - csharp
   - vb
-  name: RowForeignKeyHelper(TableRowBase)
-  nameWithType: RowForeignKeyHelper.RowForeignKeyHelper(TableRowBase)
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.RowForeignKeyHelper(SuperOffice.CRM.Rows.TableRowBase)
-  type: Constructor
+  name: CreateAsync(TableRowBase, CancellationToken)
+  nameWithType: RowForeignKeyHelper.CreateAsync(TableRowBase, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.CreateAsync(SuperOffice.CRM.Rows.TableRowBase, System.Threading.CancellationToken)
+  type: Method
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: "\nConstructor\n"
   syntax:
-    content: public RowForeignKeyHelper(TableRowBase sourceEntityRow)
+    content: public static Task<RowForeignKeyHelper> CreateAsync(TableRowBase sourceEntityRow, CancellationToken cancellationToken = null)
     parameters:
     - id: sourceEntityRow
       type: SuperOffice.CRM.Rows.TableRowBase
-      description: Table to reflect foreignkeys from
-    content.vb: Public Sub New(sourceEntityRow As TableRowBase)
-  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.#ctor*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.Util.RowForeignKeyHelper}
+    content.vb: Public Shared Function CreateAsync(sourceEntityRow As TableRowBase, cancellationToken As CancellationToken = Nothing) As Task(Of RowForeignKeyHelper)
+  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.CreateAsync*
   modifiers.csharp:
   - public
+  - static
   modifiers.vb:
   - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetAll
   commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetAll
   id: GetAll
@@ -296,16 +300,16 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  id: OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  id: OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   langs:
   - csharp
   - vb
-  name: OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: RowForeignKeyHelper.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: RowForeignKeyHelper.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   type: Method
   source:
     path: SoDataBase
@@ -315,30 +319,32 @@ items:
   namespace: SuperOffice.CRM.Rows.Util
   summary: "\nUpdate primary key.\n"
   syntax:
-    content: protected override void OnPrimaryKeyUpdate(PKContainer pkContainer)
+    content: protected override Task OnPrimaryKeyUpdateAsync(PKContainer pkContainer)
     parameters:
     - id: pkContainer
       type: SuperOffice.Data.PKContainer
       description: Collection of objects getting a primary key.
-    content.vb: Protected Overrides Sub OnPrimaryKeyUpdate(pkContainer As PKContainer)
-  overridden: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdate*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnPrimaryKeyUpdateAsync(pkContainer As PKContainer) As Task
+  overridden: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdateAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdate
-  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdate
-  id: OnPreIdUpdate
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdateAsync
+  id: OnPreIdUpdateAsync
   parent: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   langs:
   - csharp
   - vb
-  name: OnPreIdUpdate()
-  nameWithType: RowForeignKeyHelper.OnPreIdUpdate()
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: RowForeignKeyHelper.OnPreIdUpdateAsync()
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -347,26 +353,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
   syntax:
-    content: protected override void OnPreIdUpdate()
-    content.vb: Protected Overrides Sub OnPreIdUpdate
-  overridden: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdate*
+    content: protected override Task OnPreIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnPreIdUpdateAsync As Task
+  overridden: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdateAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdate
-  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdate
-  id: OnIdUpdate
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdateAsync
+  id: OnIdUpdateAsync
   parent: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   langs:
   - csharp
   - vb
-  name: OnIdUpdate()
-  nameWithType: RowForeignKeyHelper.OnIdUpdate()
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: RowForeignKeyHelper.OnIdUpdateAsync()
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -375,26 +383,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
   syntax:
-    content: protected override void OnIdUpdate()
-    content.vb: Protected Overrides Sub OnIdUpdate
-  overridden: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdate*
+    content: protected override Task OnIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnIdUpdateAsync As Task
+  overridden: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdateAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSave(SuperOffice.Data.SQL.BatchSave)
-  id: OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  id: OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   langs:
   - csharp
   - vb
-  name: OnSave(BatchSave)
-  nameWithType: RowForeignKeyHelper.OnSave(BatchSave)
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: OnSaveAsync(BatchSave)
+  nameWithType: RowForeignKeyHelper.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   type: Method
   source:
     path: SoDataBase
@@ -403,29 +413,31 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
   syntax:
-    content: protected override void OnSave(BatchSave batchSave)
+    content: protected override Task OnSaveAsync(BatchSave batchSave)
     parameters:
     - id: batchSave
       type: SuperOffice.Data.SQL.BatchSave
-    content.vb: Protected Overrides Sub OnSave(batchSave As BatchSave)
-  overridden: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSave*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnSaveAsync(batchSave As BatchSave) As Task
+  overridden: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaveAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaved(System.Boolean)
-  id: OnSaved(System.Boolean)
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSavedAsync(System.Boolean)
+  id: OnSavedAsync(System.Boolean)
   parent: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   langs:
   - csharp
   - vb
-  name: OnSaved(Boolean)
-  nameWithType: RowForeignKeyHelper.OnSaved(Boolean)
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: RowForeignKeyHelper.OnSavedAsync(Boolean)
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSavedAsync(System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -434,29 +446,31 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
   syntax:
-    content: protected override void OnSaved(bool bSucceeded)
+    content: protected override Task OnSavedAsync(bool bSucceeded)
     parameters:
     - id: bSucceeded
       type: System.Boolean
-    content.vb: Protected Overrides Sub OnSaved(bSucceeded As Boolean)
-  overridden: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaved*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnSavedAsync(bSucceeded As Boolean) As Task
+  overridden: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSavedAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRow(System.String)
-  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRow(System.String)
-  id: GetForeignAppRow(System.String)
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRowAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRowAsync(System.String,System.Threading.CancellationToken)
+  id: GetForeignAppRowAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   langs:
   - csharp
   - vb
-  name: GetForeignAppRow(String)
-  nameWithType: RowForeignKeyHelper.GetForeignAppRow(String)
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRow(System.String)
+  name: GetForeignAppRowAsync(String, CancellationToken)
+  nameWithType: RowForeignKeyHelper.GetForeignAppRowAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRowAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -466,30 +480,32 @@ items:
   namespace: SuperOffice.CRM.Rows.Util
   summary: "\nGet a foreign app row from the database.  If the row is not found, one is created\n"
   syntax:
-    content: public static ForeignAppRow GetForeignAppRow(string appName)
+    content: public static Task<ForeignAppRow> GetForeignAppRowAsync(string appName, CancellationToken cancellationToken = null)
     parameters:
     - id: appName
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.ForeignAppRow
-    content.vb: Public Shared Function GetForeignAppRow(appName As String) As ForeignAppRow
-  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRow*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ForeignAppRow}
+    content.vb: Public Shared Function GetForeignAppRowAsync(appName As String, cancellationToken As CancellationToken = Nothing) As Task(Of ForeignAppRow)
+  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRowAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRow(System.Int32,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRow(System.Int32,System.String,System.String)
-  id: GetForeignDeviceRow(System.Int32,System.String,System.String)
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRowAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRowAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  id: GetForeignDeviceRowAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   langs:
   - csharp
   - vb
-  name: GetForeignDeviceRow(Int32, String, String)
-  nameWithType: RowForeignKeyHelper.GetForeignDeviceRow(Int32, String, String)
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRow(System.Int32, System.String, System.String)
+  name: GetForeignDeviceRowAsync(Int32, String, String, CancellationToken)
+  nameWithType: RowForeignKeyHelper.GetForeignDeviceRowAsync(Int32, String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRowAsync(System.Int32, System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -499,7 +515,7 @@ items:
   namespace: SuperOffice.CRM.Rows.Util
   summary: "\nGet a foreign device row from the database. If the row is not found, one is created\n"
   syntax:
-    content: public static ForeignDeviceRow GetForeignDeviceRow(int foreignAppId, string deviceName, string deviceId)
+    content: public static Task<ForeignDeviceRow> GetForeignDeviceRowAsync(int foreignAppId, string deviceName, string deviceId, CancellationToken cancellationToken = null)
     parameters:
     - id: foreignAppId
       type: System.Int32
@@ -510,10 +526,12 @@ items:
     - id: deviceId
       type: System.String
       description: Device id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.ForeignDeviceRow
-    content.vb: Public Shared Function GetForeignDeviceRow(foreignAppId As Integer, deviceName As String, deviceId As String) As ForeignDeviceRow
-  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRow*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ForeignDeviceRow}
+    content.vb: Public Shared Function GetForeignDeviceRowAsync(foreignAppId As Integer, deviceName As String, deviceId As String, cancellationToken As CancellationToken = Nothing) As Task(Of ForeignDeviceRow)
+  overload: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRowAsync*
   modifiers.csharp:
   - public
   - static
@@ -738,18 +756,18 @@ references:
   name: INestedPersist
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
-- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersistFacade.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -763,10 +781,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -834,18 +852,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.Save
-  commentId: M:SuperOffice.Data.NestedPersist.Save
+- uid: SuperOffice.Data.NestedPersist.SaveAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SaveAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: Save()
-  nameWithType: NestedPersist.Save()
-  fullName: SuperOffice.Data.NestedPersist.Save()
+  name: SaveAsync()
+  nameWithType: NestedPersist.SaveAsync()
+  fullName: SuperOffice.Data.NestedPersist.SaveAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -854,10 +872,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -865,20 +883,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPreIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name: INestedPersist.OnPreIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -887,10 +905,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -898,20 +916,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name: INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -925,10 +943,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -941,20 +959,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name: INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -968,10 +986,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -984,20 +1002,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name: INestedPersist.OnIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1006,10 +1024,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1017,20 +1035,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSave(BatchSave)
-  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
-  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name: INestedPersist.OnSaveAsync(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: INestedPersist.OnSave
-    nameWithType: NestedPersist.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1044,10 +1062,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: SuperOffice.Data.INestedPersist.OnSave
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1060,20 +1078,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSaved(Boolean)
-  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
-  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name: INestedPersist.OnSavedAsync(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: INestedPersist.OnSaved
-    nameWithType: NestedPersist.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1087,10 +1105,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: SuperOffice.Data.INestedPersist.OnSaved
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1465,12 +1483,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.#ctor*
-  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.#ctor
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.CreateAsync
   isExternal: true
-  name: RowForeignKeyHelper
-  nameWithType: RowForeignKeyHelper.RowForeignKeyHelper
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.RowForeignKeyHelper
+  name: CreateAsync
+  nameWithType: RowForeignKeyHelper.CreateAsync
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.CreateAsync
 - uid: SuperOffice.CRM.Rows.TableRowBase
   commentId: T:SuperOffice.CRM.Rows.TableRowBase
   parent: SuperOffice.CRM.Rows
@@ -1478,12 +1496,98 @@ references:
   name: TableRowBase
   nameWithType: TableRowBase
   fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.Util.RowForeignKeyHelper}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.Util.RowForeignKeyHelper}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RowForeignKeyHelper>
+  nameWithType: Task<RowForeignKeyHelper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.Util.RowForeignKeyHelper>
+  nameWithType.vb: Task(Of RowForeignKeyHelper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.Util.RowForeignKeyHelper)
+  name.vb: Task(Of RowForeignKeyHelper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
+    name: RowForeignKeyHelper
+    nameWithType: RowForeignKeyHelper
+    fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
+    name: RowForeignKeyHelper
+    nameWithType: RowForeignKeyHelper
+    fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetAll*
   commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetAll
   isExternal: true
@@ -1715,18 +1819,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1740,10 +1844,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1756,12 +1860,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdate*
-  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdate
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdateAsync
   isExternal: true
-  name: OnPrimaryKeyUpdate
-  nameWithType: RowForeignKeyHelper.OnPrimaryKeyUpdate
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdate
+  name: OnPrimaryKeyUpdateAsync
+  nameWithType: RowForeignKeyHelper.OnPrimaryKeyUpdateAsync
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPrimaryKeyUpdateAsync
 - uid: SuperOffice.Data.PKContainer
   commentId: T:SuperOffice.Data.PKContainer
   parent: SuperOffice.Data
@@ -1769,18 +1873,23 @@ references:
   name: PKContainer
   nameWithType: PKContainer
   fullName: SuperOffice.Data.PKContainer
-- uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPreIdUpdate()
-  nameWithType: NestedPersistFacade.OnPreIdUpdate()
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: NestedPersistFacade.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: NestedPersistFacade.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1789,10 +1898,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: NestedPersistFacade.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1800,24 +1909,24 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdate*
-  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdate
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdateAsync
   isExternal: true
-  name: OnPreIdUpdate
-  nameWithType: RowForeignKeyHelper.OnPreIdUpdate
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdate
-- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  name: OnPreIdUpdateAsync
+  nameWithType: RowForeignKeyHelper.OnPreIdUpdateAsync
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnPreIdUpdateAsync
+- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnIdUpdate()
-  nameWithType: NestedPersistFacade.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: NestedPersistFacade.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: NestedPersistFacade.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1826,10 +1935,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: NestedPersistFacade.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1837,24 +1946,24 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdate*
-  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdate
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdateAsync
   isExternal: true
-  name: OnIdUpdate
-  nameWithType: RowForeignKeyHelper.OnIdUpdate
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdate
-- uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: OnIdUpdateAsync
+  nameWithType: RowForeignKeyHelper.OnIdUpdateAsync
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnIdUpdateAsync
+- uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnSave(BatchSave)
-  nameWithType: NestedPersistFacade.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: OnSaveAsync(BatchSave)
+  nameWithType: NestedPersistFacade.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: NestedPersistFacade.OnSave
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: NestedPersistFacade.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1868,10 +1977,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: NestedPersistFacade.OnSave
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: NestedPersistFacade.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1884,12 +1993,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSave*
-  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSave
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaveAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaveAsync
   isExternal: true
-  name: OnSave
-  nameWithType: RowForeignKeyHelper.OnSave
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSave
+  name: OnSaveAsync
+  nameWithType: RowForeignKeyHelper.OnSaveAsync
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaveAsync
 - uid: SuperOffice.Data.SQL.BatchSave
   commentId: T:SuperOffice.Data.SQL.BatchSave
   parent: SuperOffice.Data.SQL
@@ -1903,18 +2012,18 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+- uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnSaved(Boolean)
-  nameWithType: NestedPersistFacade.OnSaved(Boolean)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: NestedPersistFacade.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: NestedPersistFacade.OnSaved
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: NestedPersistFacade.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1928,10 +2037,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: NestedPersistFacade.OnSaved
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: NestedPersistFacade.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1944,12 +2053,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaved*
-  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaved
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSavedAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSavedAsync
   isExternal: true
-  name: OnSaved
-  nameWithType: RowForeignKeyHelper.OnSaved
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSaved
+  name: OnSavedAsync
+  nameWithType: RowForeignKeyHelper.OnSavedAsync
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.OnSavedAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1957,32 +2066,104 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRow*
-  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRow
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRowAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRowAsync
   isExternal: true
-  name: GetForeignAppRow
-  nameWithType: RowForeignKeyHelper.GetForeignAppRow
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRow
-- uid: SuperOffice.CRM.Rows.ForeignAppRow
-  commentId: T:SuperOffice.CRM.Rows.ForeignAppRow
-  parent: SuperOffice.CRM.Rows
+  name: GetForeignAppRowAsync
+  nameWithType: RowForeignKeyHelper.GetForeignAppRowAsync
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignAppRowAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ForeignAppRow}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ForeignAppRow}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ForeignAppRow>
+  nameWithType: Task<ForeignAppRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.ForeignAppRow>
+  nameWithType.vb: Task(Of ForeignAppRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.ForeignAppRow)
+  name.vb: Task(Of ForeignAppRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ForeignAppRow
+    name: ForeignAppRow
+    nameWithType: ForeignAppRow
+    fullName: SuperOffice.CRM.Rows.ForeignAppRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ForeignAppRow
+    name: ForeignAppRow
+    nameWithType: ForeignAppRow
+    fullName: SuperOffice.CRM.Rows.ForeignAppRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRowAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRowAsync
   isExternal: true
-  name: ForeignAppRow
-  nameWithType: ForeignAppRow
-  fullName: SuperOffice.CRM.Rows.ForeignAppRow
-- uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRow*
-  commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRow
-  isExternal: true
-  name: GetForeignDeviceRow
-  nameWithType: RowForeignKeyHelper.GetForeignDeviceRow
-  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRow
-- uid: SuperOffice.CRM.Rows.ForeignDeviceRow
-  commentId: T:SuperOffice.CRM.Rows.ForeignDeviceRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: ForeignDeviceRow
-  nameWithType: ForeignDeviceRow
-  fullName: SuperOffice.CRM.Rows.ForeignDeviceRow
+  name: GetForeignDeviceRowAsync
+  nameWithType: RowForeignKeyHelper.GetForeignDeviceRowAsync
+  fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.GetForeignDeviceRowAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ForeignDeviceRow}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ForeignDeviceRow}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ForeignDeviceRow>
+  nameWithType: Task<ForeignDeviceRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.ForeignDeviceRow>
+  nameWithType.vb: Task(Of ForeignDeviceRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.ForeignDeviceRow)
+  name.vb: Task(Of ForeignDeviceRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ForeignDeviceRow
+    name: ForeignDeviceRow
+    nameWithType: ForeignDeviceRow
+    fullName: SuperOffice.CRM.Rows.ForeignDeviceRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ForeignDeviceRow
+    name: ForeignDeviceRow
+    nameWithType: ForeignDeviceRow
+    fullName: SuperOffice.CRM.Rows.ForeignDeviceRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.SplitValue*
   commentId: Overload:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.SplitValue
   isExternal: true

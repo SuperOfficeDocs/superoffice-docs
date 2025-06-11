@@ -31,8 +31,6 @@ items:
       Public Class TargetRevisionHistory
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.TargetsAgent
-    commentId: T:SuperOffice.CRM.Services.TargetsAgent
   - linkId: SuperOffice.CRM.Services.ITargetsAgent
     commentId: T:SuperOffice.CRM.Services.ITargetsAgent
   inheritance:
@@ -239,15 +237,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.TargetsAgent
-  commentId: T:SuperOffice.CRM.Services.TargetsAgent
-  isExternal: true
-  name: TargetsAgent
-  nameWithType: TargetsAgent
-  fullName: SuperOffice.CRM.Services.TargetsAgent
 - uid: SuperOffice.CRM.Services.ITargetsAgent
   commentId: T:SuperOffice.CRM.Services.ITargetsAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ITargetsAgent
   nameWithType: ITargetsAgent

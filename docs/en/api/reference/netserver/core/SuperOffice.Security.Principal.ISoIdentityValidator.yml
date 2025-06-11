@@ -5,7 +5,7 @@ items:
   id: ISoIdentityValidator
   parent: SuperOffice.Security.Principal
   children:
-  - SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+  - SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Security.Claims.ClaimsIdentity,SuperOffice.Data.SoConnection,System.String@)
   langs:
   - csharp
   - vb
@@ -34,16 +34,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
-  commentId: M:SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
-  id: TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+- uid: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Security.Claims.ClaimsIdentity,SuperOffice.Data.SoConnection,System.String@)
+  commentId: M:SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Security.Claims.ClaimsIdentity,SuperOffice.Data.SoConnection,System.String@)
+  id: TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Security.Claims.ClaimsIdentity,SuperOffice.Data.SoConnection,System.String@)
   parent: SuperOffice.Security.Principal.ISoIdentityValidator
   langs:
   - csharp
   - vb
-  name: TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, out String)
-  nameWithType: ISoIdentityValidator.TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, out String)
-  fullName: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Security.Principal.ISoIdentity, SuperOffice.Data.SoConnection, out System.String)
+  name: TryValidateIdentity(IEnumerable<ClaimsIdentity>, ClaimsIdentity, SoConnection, out String)
+  nameWithType: ISoIdentityValidator.TryValidateIdentity(IEnumerable<ClaimsIdentity>, ClaimsIdentity, SoConnection, out String)
+  fullName: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.Security.Claims.ClaimsIdentity, SuperOffice.Data.SoConnection, out System.String)
   type: Method
   source:
     path: SoDataBase
@@ -53,12 +53,13 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nValidate the tokens after they are resolved.  At least one of the \nvalidators must respond Valid for authentication to succeed. The \nAuthentication process fails if one of the validators return Rejected.\n"
   syntax:
-    content: TokenValidationResult TryValidateIdentity(IEnumerable<ClaimsIdentity> identities, ISoIdentity identity, SoConnection dbConnection, out string reason)
+    content: TokenValidationResult TryValidateIdentity(IEnumerable<ClaimsIdentity> identities, ClaimsIdentity resolvedIdentity, SoConnection dbConnection, out string reason)
     parameters:
     - id: identities
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
-    - id: identity
-      type: SuperOffice.Security.Principal.ISoIdentity
+      description: Tokens to validate
+    - id: resolvedIdentity
+      type: System.Security.Claims.ClaimsIdentity
       description: The Identity resolved to.
     - id: dbConnection
       type: SuperOffice.Data.SoConnection
@@ -68,11 +69,11 @@ items:
     return:
       type: SuperOffice.Security.TokenValidationResult
       description: Result of validation.
-    content.vb: Function TryValidateIdentity(identities As IEnumerable(Of ClaimsIdentity), identity As ISoIdentity, dbConnection As SoConnection, ByRef reason As String) As TokenValidationResult
+    content.vb: Function TryValidateIdentity(identities As IEnumerable(Of ClaimsIdentity), resolvedIdentity As ClaimsIdentity, dbConnection As SoConnection, ByRef reason As String) As TokenValidationResult
   overload: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity*
-  nameWithType.vb: ISoIdentityValidator.TryValidateIdentity(IEnumerable(Of ClaimsIdentity), ISoIdentity, SoConnection, ByRef String)
-  fullName.vb: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Security.Principal.ISoIdentity, SuperOffice.Data.SoConnection, ByRef System.String)
-  name.vb: TryValidateIdentity(IEnumerable(Of ClaimsIdentity), ISoIdentity, SoConnection, ByRef String)
+  nameWithType.vb: ISoIdentityValidator.TryValidateIdentity(IEnumerable(Of ClaimsIdentity), ClaimsIdentity, SoConnection, ByRef String)
+  fullName.vb: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.Security.Claims.ClaimsIdentity, SuperOffice.Data.SoConnection, ByRef System.String)
+  name.vb: TryValidateIdentity(IEnumerable(Of ClaimsIdentity), ClaimsIdentity, SoConnection, ByRef String)
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
@@ -294,13 +295,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Security.Principal.ISoIdentity
-  commentId: T:SuperOffice.Security.Principal.ISoIdentity
-  parent: SuperOffice.Security.Principal
+- uid: System.Security.Claims.ClaimsIdentity
   isExternal: true
-  name: ISoIdentity
-  nameWithType: ISoIdentity
-  fullName: SuperOffice.Security.Principal.ISoIdentity
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity
 - uid: SuperOffice.Data.SoConnection
   commentId: T:SuperOffice.Data.SoConnection
   parent: SuperOffice.Data

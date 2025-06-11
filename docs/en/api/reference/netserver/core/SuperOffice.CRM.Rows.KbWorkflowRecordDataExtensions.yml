@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbWorkflowTableInfo})
   - SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo})
-  - SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbWorkflowRecordData)
-  - SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData})
+  - SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbWorkflowRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.KbWorkflowRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo})
+- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<KbWorkflowTableInfo>)
-  nameWithType: KbWorkflowRecordDataExtensions.FromSelect(TargetedSelect<KbWorkflowTableInfo>)
-  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.KbWorkflowTableInfo>)
+  name: FromSelectAsync(TargetedSelect<KbWorkflowTableInfo>, CancellationToken)
+  nameWithType: KbWorkflowRecordDataExtensions.FromSelectAsync(TargetedSelect<KbWorkflowTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.KbWorkflowTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<KbWorkflowRecordData> FromSelect(this TargetedSelect<KbWorkflowTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<KbWorkflowRecordData> FromSelectAsync(this TargetedSelect<KbWorkflowTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of KbWorkflowTableInfo)) As IEnumerable(Of KbWorkflowRecordData)
-  overload: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect*
-  nameWithType.vb: KbWorkflowRecordDataExtensions.FromSelect(TargetedSelect(Of KbWorkflowTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of KbWorkflowTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of KbWorkflowRecordData)
+  overload: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: KbWorkflowRecordDataExtensions.FromSelectAsync(TargetedSelect(Of KbWorkflowTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.KbWorkflowTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of KbWorkflowTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.KbWorkflowTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of KbWorkflowTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbWorkflowTableInfo})
   commentId: M:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbWorkflowTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbWorkflowTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.KbWorkflowTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of KbWorkflowTableInfo))
-- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbWorkflowRecordData)
-  commentId: M:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbWorkflowRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.KbWorkflowRecordData)
+- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbWorkflowRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbWorkflowRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.KbWorkflowRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(KbWorkflowRecordData)
-  nameWithType: KbWorkflowRecordDataExtensions.ToInsert(KbWorkflowRecordData)
-  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbWorkflowRecordData)
+  name: ToInsertAsync(KbWorkflowRecordData, CancellationToken)
+  nameWithType: KbWorkflowRecordDataExtensions.ToInsertAsync(KbWorkflowRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbWorkflowRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this KbWorkflowRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this KbWorkflowRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.KbWorkflowRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As KbWorkflowRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As KbWorkflowRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData})
-  commentId: M:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData})
+- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<KbWorkflowRecordData>)
-  nameWithType: KbWorkflowRecordDataExtensions.ToInserts(IEnumerable<KbWorkflowRecordData>)
-  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.KbWorkflowRecordData>)
+  name: ToInsertsAsync(IEnumerable<KbWorkflowRecordData>, CancellationToken)
+  nameWithType: KbWorkflowRecordDataExtensions.ToInsertsAsync(IEnumerable<KbWorkflowRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.KbWorkflowRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<KbWorkflowRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<KbWorkflowRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of KbWorkflowRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInserts*
-  nameWithType.vb: KbWorkflowRecordDataExtensions.ToInserts(IEnumerable(Of KbWorkflowRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of KbWorkflowRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: KbWorkflowRecordDataExtensions.ToInsertsAsync(IEnumerable(Of KbWorkflowRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.KbWorkflowRecordData))
-  name.vb: ToInserts(IEnumerable(Of KbWorkflowRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.KbWorkflowRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of KbWorkflowRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.KbWorkflowRow)
   commentId: M:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.KbWorkflowRow)
   id: ToRecordData(SuperOffice.CRM.Rows.KbWorkflowRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<KbWorkflowTableInfo>)
+  nameWithType: KbWorkflowRecordDataExtensions.FromSelect(TargetedSelect<KbWorkflowTableInfo>)
+  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.KbWorkflowTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;KbWorkflowTableInfo>, execute it and return an IEnumerable&lt;KbWorkflowRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<KbWorkflowRecordData> FromSelect(this TargetedSelect<KbWorkflowTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of KbWorkflowTableInfo)) As IEnumerable(Of KbWorkflowRecordData)
+  overload: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect*
+  nameWithType.vb: KbWorkflowRecordDataExtensions.FromSelect(TargetedSelect(Of KbWorkflowTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.KbWorkflowTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of KbWorkflowTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: KbWorkflowRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: KbWorkflowRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbWorkflowTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<KbWorkflowRecordData>
-  nameWithType: IEnumerable<KbWorkflowRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.KbWorkflowRecordData>
-  nameWithType.vb: IEnumerable(Of KbWorkflowRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.KbWorkflowRecordData)
-  name.vb: IEnumerable(Of KbWorkflowRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<KbWorkflowRecordData>
+  nameWithType: IAsyncEnumerable<KbWorkflowRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.KbWorkflowRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of KbWorkflowRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.KbWorkflowRecordData)
+  name.vb: IAsyncEnumerable(Of KbWorkflowRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: KbWorkflowRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: KbWorkflowRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: KbWorkflowRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: KbWorkflowRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbWorkflowRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<KbWorkflowRecordData>
+  nameWithType: IEnumerable<KbWorkflowRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.KbWorkflowRecordData>
+  nameWithType.vb: IEnumerable(Of KbWorkflowRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.KbWorkflowRecordData)
+  name.vb: IEnumerable(Of KbWorkflowRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.KbWorkflowRecordData
+    name: KbWorkflowRecordData
+    nameWithType: KbWorkflowRecordData
+    fullName: SuperOffice.CRM.Rows.KbWorkflowRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.KbWorkflowRecordData
+    name: KbWorkflowRecordData
+    nameWithType: KbWorkflowRecordData
+    fullName: SuperOffice.CRM.Rows.KbWorkflowRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: KbWorkflowRow
   nameWithType: KbWorkflowRow
   fullName: SuperOffice.CRM.Rows.KbWorkflowRow
+- uid: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: KbWorkflowRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.KbWorkflowRecordDataExtensions.FromSelect

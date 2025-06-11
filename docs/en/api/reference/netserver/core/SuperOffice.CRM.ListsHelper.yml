@@ -7,28 +7,27 @@ items:
   children:
   - SuperOffice.CRM.ListsHelper.ContactWithoutPersonsRootItemType
   - SuperOffice.CRM.ListsHelper.FilterDuplicateId(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-  - SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement}}@,System.String)
-  - SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch(System.Int32)
+  - SuperOffice.CRM.ListsHelper.FindCreateListItemAsync(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement}},System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.GetHeadingCustomSearchAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.ListsHelper.GetLinkTableName(System.String)
   - SuperOffice.CRM.ListsHelper.GetMdoTableName(System.Int32,System.Int32)
-  - SuperOffice.CRM.ListsHelper.GetNextRank(System.Int32)
-  - SuperOffice.CRM.ListsHelper.GetNextRank(System.String)
-  - SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select)
-  - SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select,System.Int32@)
+  - SuperOffice.CRM.ListsHelper.GetNextRankAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.GetNextRankAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.GetQueryFromListDefinitionAsync(System.Int32,SuperOffice.Data.SQL.Select,System.Threading.CancellationToken)
   - SuperOffice.CRM.ListsHelper.GetQueryFromTableName(System.String,SuperOffice.Data.SQL.Select)
   - SuperOffice.CRM.ListsHelper.GetTableName(System.Int32,System.Boolean)
-  - SuperOffice.CRM.ListsHelper.GetUDListDefinition(System.Int32)
-  - SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName(System.String)
-  - SuperOffice.CRM.ListsHelper.LoadAllListItems(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.ListsHelper.GetUDListDefinitionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromNameAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.LoadAllListItemsAsync(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.ListsHelper.OrphanRootItemType
-  - SuperOffice.CRM.ListsHelper.RefreshListRank(System.Int32)
-  - SuperOffice.CRM.ListsHelper.RefreshListRank(System.String)
-  - SuperOffice.CRM.ListsHelper.SetHeadingRestrictions(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
-  - SuperOffice.CRM.ListsHelper.SetListItemsForHeading(System.Int32,System.String,System.Int32[],System.Boolean)
-  - SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
-  - SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
-  - SuperOffice.CRM.ListsHelper.UpdateListItemRank(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32)
-  - SuperOffice.CRM.ListsHelper.UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow})
+  - SuperOffice.CRM.ListsHelper.RefreshListRankAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.RefreshListRankAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.SetHeadingRestrictionsAsync(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
+  - SuperOffice.CRM.ListsHelper.SetListItemsForHeadingAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.SetListItemsForUserGroupAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.SetVisibleForUserGroupAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.UpdateListItemRankAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.UpdateRankOnListItemsAsync(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow},System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -113,16 +112,16 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement}}@,System.String)
-  commentId: M:SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement}}@,System.String)
-  id: FindCreateListItem(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement}}@,System.String)
+- uid: SuperOffice.CRM.ListsHelper.FindCreateListItemAsync(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement}},System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.FindCreateListItemAsync(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement}},System.String,System.Threading.CancellationToken)
+  id: FindCreateListItemAsync(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement}},System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: FindCreateListItem(String, String, Boolean, Boolean, ref Dictionary<String, Dictionary<String, MDOListTableCacheBase.MDOCacheElement>>, String)
-  nameWithType: ListsHelper.FindCreateListItem(String, String, Boolean, Boolean, ref Dictionary<String, Dictionary<String, MDOListTableCacheBase.MDOCacheElement>>, String)
-  fullName: SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String, System.String, System.Boolean, System.Boolean, ref System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement>>, System.String)
+  name: FindCreateListItemAsync(String, String, Boolean, Boolean, Dictionary<String, Dictionary<String, MDOListTableCacheBase.MDOCacheElement>>, String, CancellationToken)
+  nameWithType: ListsHelper.FindCreateListItemAsync(String, String, Boolean, Boolean, Dictionary<String, Dictionary<String, MDOListTableCacheBase.MDOCacheElement>>, String, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.FindCreateListItemAsync(System.String, System.String, System.Boolean, System.Boolean, System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement>>, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -131,7 +130,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static int FindCreateListItem(string tableName, string value, bool add, bool fakeAdd, ref Dictionary<string, Dictionary<string, MDOListTableCacheBase.MDOCacheElement>> cache, string culture)
+    content: public static Task<int> FindCreateListItemAsync(string tableName, string value, bool add, bool fakeAdd, Dictionary<string, Dictionary<string, MDOListTableCacheBase.MDOCacheElement>> cache, string culture, CancellationToken cancellationToken = null)
     parameters:
     - id: tableName
       type: System.String
@@ -145,19 +144,21 @@ items:
       type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement}}
     - id: culture
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function FindCreateListItem(tableName As String, value As String, add As Boolean, fakeAdd As Boolean, ByRef cache As Dictionary(Of String, Dictionary(Of String, MDOListTableCacheBase.MDOCacheElement)), culture As String) As Integer
-  overload: SuperOffice.CRM.ListsHelper.FindCreateListItem*
-  nameWithType.vb: ListsHelper.FindCreateListItem(String, String, Boolean, Boolean, ByRef Dictionary(Of String, Dictionary(Of String, MDOListTableCacheBase.MDOCacheElement)), String)
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function FindCreateListItemAsync(tableName As String, value As String, add As Boolean, fakeAdd As Boolean, cache As Dictionary(Of String, Dictionary(Of String, MDOListTableCacheBase.MDOCacheElement)), culture As String, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.ListsHelper.FindCreateListItemAsync*
+  nameWithType.vb: ListsHelper.FindCreateListItemAsync(String, String, Boolean, Boolean, Dictionary(Of String, Dictionary(Of String, MDOListTableCacheBase.MDOCacheElement)), String, CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String, System.String, System.Boolean, System.Boolean, ByRef System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement)), System.String)
-  name.vb: FindCreateListItem(String, String, Boolean, Boolean, ByRef Dictionary(Of String, Dictionary(Of String, MDOListTableCacheBase.MDOCacheElement)), String)
+  fullName.vb: SuperOffice.CRM.ListsHelper.FindCreateListItemAsync(System.String, System.String, System.Boolean, System.Boolean, System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement)), System.String, System.Threading.CancellationToken)
+  name.vb: FindCreateListItemAsync(String, String, Boolean, Boolean, Dictionary(Of String, Dictionary(Of String, MDOListTableCacheBase.MDOCacheElement)), String, CancellationToken)
 - uid: SuperOffice.CRM.ListsHelper.GetMdoTableName(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.ListsHelper.GetMdoTableName(System.Int32,System.Int32)
   id: GetMdoTableName(System.Int32,System.Int32)
@@ -230,16 +231,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select)
-  commentId: M:SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select)
-  id: GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select)
+- uid: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinitionAsync(System.Int32,SuperOffice.Data.SQL.Select,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetQueryFromListDefinitionAsync(System.Int32,SuperOffice.Data.SQL.Select,System.Threading.CancellationToken)
+  id: GetQueryFromListDefinitionAsync(System.Int32,SuperOffice.Data.SQL.Select,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: GetQueryFromListDefinition(Int32, Select)
-  nameWithType: ListsHelper.GetQueryFromListDefinition(Int32, Select)
-  fullName: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32, SuperOffice.Data.SQL.Select)
+  name: GetQueryFromListDefinitionAsync(Int32, Select, CancellationToken)
+  nameWithType: ListsHelper.GetQueryFromListDefinitionAsync(Int32, Select, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinitionAsync(System.Int32, SuperOffice.Data.SQL.Select, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -248,71 +249,34 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static TableInfo GetQueryFromListDefinition(int udListDefinitionId, Select select)
+    content: public static Task<ListsHelper.ListTableInfo> GetQueryFromListDefinitionAsync(int udListDefinitionId, Select select, CancellationToken cancellationToken = null)
     parameters:
     - id: udListDefinitionId
       type: System.Int32
     - id: select
       type: SuperOffice.Data.SQL.Select
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.TableInfo
-    content.vb: Public Shared Function GetQueryFromListDefinition(udListDefinitionId As Integer, select As  Select) As TableInfo
-  overload: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.ListsHelper.ListTableInfo}
+    content.vb: Public Shared Function GetQueryFromListDefinitionAsync(udListDefinitionId As Integer, select As  Select, cancellationToken As CancellationToken = Nothing) As Task(Of ListsHelper.ListTableInfo)
+  overload: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinitionAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select,System.Int32@)
-  commentId: M:SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select,System.Int32@)
-  id: GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select,System.Int32@)
+- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinitionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetUDListDefinitionAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetUDListDefinitionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: GetQueryFromListDefinition(Int32, Select, out Int32)
-  nameWithType: ListsHelper.GetQueryFromListDefinition(Int32, Select, out Int32)
-  fullName: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32, SuperOffice.Data.SQL.Select, out System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM
-  syntax:
-    content: public static TableInfo GetQueryFromListDefinition(int udListDefinitionId, Select select, out int retListTableId)
-    parameters:
-    - id: udListDefinitionId
-      type: System.Int32
-    - id: select
-      type: SuperOffice.Data.SQL.Select
-    - id: retListTableId
-      type: System.Int32
-    return:
-      type: SuperOffice.Data.SQL.TableInfo
-    content.vb: Public Shared Function GetQueryFromListDefinition(udListDefinitionId As Integer, select As  Select, ByRef retListTableId As Integer) As TableInfo
-  overload: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition*
-  nameWithType.vb: ListsHelper.GetQueryFromListDefinition(Int32, Select, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32, SuperOffice.Data.SQL.Select, ByRef System.Int32)
-  name.vb: GetQueryFromListDefinition(Int32, Select, ByRef Int32)
-- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinition(System.Int32)
-  commentId: M:SuperOffice.CRM.ListsHelper.GetUDListDefinition(System.Int32)
-  id: GetUDListDefinition(System.Int32)
-  parent: SuperOffice.CRM.ListsHelper
-  langs:
-  - csharp
-  - vb
-  name: GetUDListDefinition(Int32)
-  nameWithType: ListsHelper.GetUDListDefinition(Int32)
-  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinition(System.Int32)
+  name: GetUDListDefinitionAsync(Int32, CancellationToken)
+  nameWithType: ListsHelper.GetUDListDefinitionAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinitionAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -322,32 +286,34 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nGets the UDListDefintion by primary key or by list table id.\n"
   syntax:
-    content: public static UDListDefinitionRow GetUDListDefinition(int udListDefinitionId)
+    content: public static Task<UDListDefinitionRow> GetUDListDefinitionAsync(int udListDefinitionId, CancellationToken cancellationToken = null)
     parameters:
     - id: udListDefinitionId
       type: System.Int32
       description: Positive ints are the primary key. Negative ints are list table id.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.UDListDefinitionRow
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.UDListDefinitionRow}
       description: UDListDefinition that matches id from the database, if any. Returns NEW item if not found.
-    content.vb: Public Shared Function GetUDListDefinition(udListDefinitionId As Integer) As UDListDefinitionRow
-  overload: SuperOffice.CRM.ListsHelper.GetUDListDefinition*
+    content.vb: Public Shared Function GetUDListDefinitionAsync(udListDefinitionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of UDListDefinitionRow)
+  overload: SuperOffice.CRM.ListsHelper.GetUDListDefinitionAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName(System.String)
-  commentId: M:SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName(System.String)
-  id: GetUDListDefinitionFromName(System.String)
+- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromNameAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromNameAsync(System.String,System.Threading.CancellationToken)
+  id: GetUDListDefinitionFromNameAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: GetUDListDefinitionFromName(String)
-  nameWithType: ListsHelper.GetUDListDefinitionFromName(String)
-  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName(System.String)
+  name: GetUDListDefinitionFromNameAsync(String, CancellationToken)
+  nameWithType: ListsHelper.GetUDListDefinitionFromNameAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromNameAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -357,32 +323,34 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nGets the UDListDefintion by name. First looks for exact match, then tries exact match for \nlanguage specific name. (i.e. tries to handle multi-language strings properly).\nFinally looks for partial match if nothing else matches. Returns if there is exactly 1 match.\n"
   syntax:
-    content: public static UDListDefinitionRow GetUDListDefinitionFromName(string udListName)
+    content: public static Task<UDListDefinitionRow> GetUDListDefinitionFromNameAsync(string udListName, CancellationToken cancellationToken = null)
     parameters:
     - id: udListName
       type: System.String
       description: Name of list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.UDListDefinitionRow
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.UDListDefinitionRow}
       description: UDListDefinition row for match, or NULL if not found. SoAmbiguousException if more than 1 match
-    content.vb: Public Shared Function GetUDListDefinitionFromName(udListName As String) As UDListDefinitionRow
-  overload: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName*
+    content.vb: Public Shared Function GetUDListDefinitionFromNameAsync(udListName As String, cancellationToken As CancellationToken = Nothing) As Task(Of UDListDefinitionRow)
+  overload: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromNameAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch(System.Int32)
-  commentId: M:SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch(System.Int32)
-  id: GetHeadingCustomSearch(System.Int32)
+- uid: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearchAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetHeadingCustomSearchAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetHeadingCustomSearchAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: GetHeadingCustomSearch(Int32)
-  nameWithType: ListsHelper.GetHeadingCustomSearch(Int32)
-  fullName: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch(System.Int32)
+  name: GetHeadingCustomSearchAsync(Int32, CancellationToken)
+  nameWithType: ListsHelper.GetHeadingCustomSearchAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearchAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -391,30 +359,32 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static HeadingRows.CustomSearch GetHeadingCustomSearch(int udListDefinitionId)
+    content: public static Task<HeadingRows.CustomSearch> GetHeadingCustomSearchAsync(int udListDefinitionId, CancellationToken cancellationToken = null)
     parameters:
     - id: udListDefinitionId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.HeadingRows.CustomSearch
-    content.vb: Public Shared Function GetHeadingCustomSearch(udListDefinitionId As Integer) As HeadingRows.CustomSearch
-  overload: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.HeadingRows.CustomSearch}
+    content.vb: Public Shared Function GetHeadingCustomSearchAsync(udListDefinitionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of HeadingRows.CustomSearch)
+  overload: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearchAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.SetHeadingRestrictions(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
-  commentId: M:SuperOffice.CRM.ListsHelper.SetHeadingRestrictions(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
-  id: SetHeadingRestrictions(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
+- uid: SuperOffice.CRM.ListsHelper.SetHeadingRestrictionsAsync(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
+  commentId: M:SuperOffice.CRM.ListsHelper.SetHeadingRestrictionsAsync(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
+  id: SetHeadingRestrictionsAsync(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: SetHeadingRestrictions(Int32, Select, HeadingTableInfo)
-  nameWithType: ListsHelper.SetHeadingRestrictions(Int32, Select, HeadingTableInfo)
-  fullName: SuperOffice.CRM.ListsHelper.SetHeadingRestrictions(System.Int32, SuperOffice.Data.SQL.Select, SuperOffice.CRM.Data.HeadingTableInfo)
+  name: SetHeadingRestrictionsAsync(Int32, Select, HeadingTableInfo)
+  nameWithType: ListsHelper.SetHeadingRestrictionsAsync(Int32, Select, HeadingTableInfo)
+  fullName: SuperOffice.CRM.ListsHelper.SetHeadingRestrictionsAsync(System.Int32, SuperOffice.Data.SQL.Select, SuperOffice.CRM.Data.HeadingTableInfo)
   type: Method
   source:
     path: SoDataBase
@@ -423,7 +393,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void SetHeadingRestrictions(int udListDefinitionId, Select select, HeadingTableInfo headingTableInfo)
+    content: public static Task SetHeadingRestrictionsAsync(int udListDefinitionId, Select select, HeadingTableInfo headingTableInfo)
     parameters:
     - id: udListDefinitionId
       type: System.Int32
@@ -431,8 +401,10 @@ items:
       type: SuperOffice.Data.SQL.Select
     - id: headingTableInfo
       type: SuperOffice.CRM.Data.HeadingTableInfo
-    content.vb: Public Shared Sub SetHeadingRestrictions(udListDefinitionId As Integer, select As  Select, headingTableInfo As HeadingTableInfo)
-  overload: SuperOffice.CRM.ListsHelper.SetHeadingRestrictions*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetHeadingRestrictionsAsync(udListDefinitionId As Integer, select As  Select, headingTableInfo As HeadingTableInfo) As Task
+  overload: SuperOffice.CRM.ListsHelper.SetHeadingRestrictionsAsync*
   modifiers.csharp:
   - public
   - static
@@ -473,16 +445,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.RefreshListRank(System.String)
-  commentId: M:SuperOffice.CRM.ListsHelper.RefreshListRank(System.String)
-  id: RefreshListRank(System.String)
+- uid: SuperOffice.CRM.ListsHelper.RefreshListRankAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.RefreshListRankAsync(System.String,System.Threading.CancellationToken)
+  id: RefreshListRankAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: RefreshListRank(String)
-  nameWithType: ListsHelper.RefreshListRank(String)
-  fullName: SuperOffice.CRM.ListsHelper.RefreshListRank(System.String)
+  name: RefreshListRankAsync(String, CancellationToken)
+  nameWithType: ListsHelper.RefreshListRankAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.RefreshListRankAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -492,29 +464,34 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nMake unique ranks for all items in a table \n"
   syntax:
-    content: public static void RefreshListRank(string tableName)
+    content: public static Task RefreshListRankAsync(string tableName, CancellationToken cancellationToken = null)
     parameters:
     - id: tableName
       type: System.String
       description: Table name
-    content.vb: Public Shared Sub RefreshListRank(tableName As String)
-  overload: SuperOffice.CRM.ListsHelper.RefreshListRank*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: void
+    content.vb: Public Shared Function RefreshListRankAsync(tableName As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ListsHelper.RefreshListRankAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.RefreshListRank(System.Int32)
-  commentId: M:SuperOffice.CRM.ListsHelper.RefreshListRank(System.Int32)
-  id: RefreshListRank(System.Int32)
+- uid: SuperOffice.CRM.ListsHelper.RefreshListRankAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.RefreshListRankAsync(System.Int32,System.Threading.CancellationToken)
+  id: RefreshListRankAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: RefreshListRank(Int32)
-  nameWithType: ListsHelper.RefreshListRank(Int32)
-  fullName: SuperOffice.CRM.ListsHelper.RefreshListRank(System.Int32)
+  name: RefreshListRankAsync(Int32, CancellationToken)
+  nameWithType: ListsHelper.RefreshListRankAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.RefreshListRankAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -524,64 +501,34 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nMake unique ranks for all items in a list \n"
   syntax:
-    content: public static void RefreshListRank(int udListDefinitionId)
+    content: public static Task RefreshListRankAsync(int udListDefinitionId, CancellationToken cancellationToken = null)
     parameters:
     - id: udListDefinitionId
       type: System.Int32
       description: Id to the UDListDefinition list
-    content.vb: Public Shared Sub RefreshListRank(udListDefinitionId As Integer)
-  overload: SuperOffice.CRM.ListsHelper.RefreshListRank*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.ListsHelper.GetNextRank(System.Int32)
-  commentId: M:SuperOffice.CRM.ListsHelper.GetNextRank(System.Int32)
-  id: GetNextRank(System.Int32)
-  parent: SuperOffice.CRM.ListsHelper
-  langs:
-  - csharp
-  - vb
-  name: GetNextRank(Int32)
-  nameWithType: ListsHelper.GetNextRank(Int32)
-  fullName: SuperOffice.CRM.ListsHelper.GetNextRank(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM
-  summary: "\nFind the next rank (max + 1) in a list \n"
-  syntax:
-    content: public static int GetNextRank(int udListDefinitionId)
-    parameters:
-    - id: udListDefinitionId
-      type: System.Int32
-      description: Id to the UDListDefinition list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task
       description: void
-    content.vb: Public Shared Function GetNextRank(udListDefinitionId As Integer) As Integer
-  overload: SuperOffice.CRM.ListsHelper.GetNextRank*
+    content.vb: Public Shared Function RefreshListRankAsync(udListDefinitionId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ListsHelper.RefreshListRankAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.GetNextRank(System.String)
-  commentId: M:SuperOffice.CRM.ListsHelper.GetNextRank(System.String)
-  id: GetNextRank(System.String)
+- uid: SuperOffice.CRM.ListsHelper.GetNextRankAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetNextRankAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetNextRankAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: GetNextRank(String)
-  nameWithType: ListsHelper.GetNextRank(String)
-  fullName: SuperOffice.CRM.ListsHelper.GetNextRank(System.String)
+  name: GetNextRankAsync(Int32, CancellationToken)
+  nameWithType: ListsHelper.GetNextRankAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.GetNextRankAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -591,32 +538,71 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nFind the next rank (max + 1) in a list \n"
   syntax:
-    content: public static int GetNextRank(string tableName)
+    content: public static Task<int> GetNextRankAsync(int udListDefinitionId, CancellationToken cancellationToken = null)
+    parameters:
+    - id: udListDefinitionId
+      type: System.Int32
+      description: Id to the UDListDefinition list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: void
+    content.vb: Public Shared Function GetNextRankAsync(udListDefinitionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.ListsHelper.GetNextRankAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.GetNextRankAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetNextRankAsync(System.String,System.Threading.CancellationToken)
+  id: GetNextRankAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetNextRankAsync(String, CancellationToken)
+  nameWithType: ListsHelper.GetNextRankAsync(String, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.GetNextRankAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nFind the next rank (max + 1) in a list \n"
+  syntax:
+    content: public static Task<int> GetNextRankAsync(string tableName, CancellationToken cancellationToken = null)
     parameters:
     - id: tableName
       type: System.String
       description: Table name
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: void
-    content.vb: Public Shared Function GetNextRank(tableName As String) As Integer
-  overload: SuperOffice.CRM.ListsHelper.GetNextRank*
+    content.vb: Public Shared Function GetNextRankAsync(tableName As String, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.ListsHelper.GetNextRankAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow})
-  commentId: M:SuperOffice.CRM.ListsHelper.UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow})
-  id: UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow})
+- uid: SuperOffice.CRM.ListsHelper.UpdateRankOnListItemsAsync(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.UpdateRankOnListItemsAsync(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow},System.Threading.CancellationToken)
+  id: UpdateRankOnListItemsAsync(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow},System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: UpdateRankOnListItems(TableInfo, List<ListsHelper.ItemRow>)
-  nameWithType: ListsHelper.UpdateRankOnListItems(TableInfo, List<ListsHelper.ItemRow>)
-  fullName: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo, System.Collections.Generic.List<SuperOffice.CRM.ListsHelper.ItemRow>)
+  name: UpdateRankOnListItemsAsync(TableInfo, List<ListsHelper.ItemRow>, CancellationToken)
+  nameWithType: ListsHelper.UpdateRankOnListItemsAsync(TableInfo, List<ListsHelper.ItemRow>, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.UpdateRankOnListItemsAsync(SuperOffice.Data.SQL.TableInfo, System.Collections.Generic.List<SuperOffice.CRM.ListsHelper.ItemRow>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -625,33 +611,37 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void UpdateRankOnListItems(TableInfo tableInfo, List<ListsHelper.ItemRow> items)
+    content: public static Task UpdateRankOnListItemsAsync(TableInfo tableInfo, List<ListsHelper.ItemRow> items, CancellationToken cancellationToken = null)
     parameters:
     - id: tableInfo
       type: SuperOffice.Data.SQL.TableInfo
     - id: items
       type: System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}
-    content.vb: Public Shared Sub UpdateRankOnListItems(tableInfo As TableInfo, items As List(Of ListsHelper.ItemRow))
-  overload: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems*
-  nameWithType.vb: ListsHelper.UpdateRankOnListItems(TableInfo, List(Of ListsHelper.ItemRow))
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function UpdateRankOnListItemsAsync(tableInfo As TableInfo, items As List(Of ListsHelper.ItemRow), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ListsHelper.UpdateRankOnListItemsAsync*
+  nameWithType.vb: ListsHelper.UpdateRankOnListItemsAsync(TableInfo, List(Of ListsHelper.ItemRow), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo, System.Collections.Generic.List(Of SuperOffice.CRM.ListsHelper.ItemRow))
-  name.vb: UpdateRankOnListItems(TableInfo, List(Of ListsHelper.ItemRow))
-- uid: SuperOffice.CRM.ListsHelper.LoadAllListItems(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
-  commentId: M:SuperOffice.CRM.ListsHelper.LoadAllListItems(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
-  id: LoadAllListItems(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  fullName.vb: SuperOffice.CRM.ListsHelper.UpdateRankOnListItemsAsync(SuperOffice.Data.SQL.TableInfo, System.Collections.Generic.List(Of SuperOffice.CRM.ListsHelper.ItemRow), System.Threading.CancellationToken)
+  name.vb: UpdateRankOnListItemsAsync(TableInfo, List(Of ListsHelper.ItemRow), CancellationToken)
+- uid: SuperOffice.CRM.ListsHelper.LoadAllListItemsAsync(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.LoadAllListItemsAsync(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo,System.Threading.CancellationToken)
+  id: LoadAllListItemsAsync(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: LoadAllListItems(Select, TableInfo)
-  nameWithType: ListsHelper.LoadAllListItems(Select, TableInfo)
-  fullName: SuperOffice.CRM.ListsHelper.LoadAllListItems(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.TableInfo)
+  name: LoadAllListItemsAsync(Select, TableInfo, CancellationToken)
+  nameWithType: ListsHelper.LoadAllListItemsAsync(Select, TableInfo, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.LoadAllListItemsAsync(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.TableInfo, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -660,32 +650,34 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static List<ListsHelper.ItemRow> LoadAllListItems(Select query, TableInfo tableInfo)
+    content: public static Task<List<ListsHelper.ItemRow>> LoadAllListItemsAsync(Select query, TableInfo tableInfo, CancellationToken cancellationToken = null)
     parameters:
     - id: query
       type: SuperOffice.Data.SQL.Select
     - id: tableInfo
       type: SuperOffice.Data.SQL.TableInfo
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}
-    content.vb: Public Shared Function LoadAllListItems(query As  Select, tableInfo As TableInfo) As List(Of ListsHelper.ItemRow)
-  overload: SuperOffice.CRM.ListsHelper.LoadAllListItems*
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}}
+    content.vb: Public Shared Function LoadAllListItemsAsync(query As  Select, tableInfo As TableInfo, cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ListsHelper.ItemRow))
+  overload: SuperOffice.CRM.ListsHelper.LoadAllListItemsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.UpdateListItemRank(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.ListsHelper.UpdateListItemRank(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32)
-  id: UpdateListItemRank(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32)
+- uid: SuperOffice.CRM.ListsHelper.UpdateListItemRankAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.UpdateListItemRankAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: UpdateListItemRankAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: UpdateListItemRank(TableInfo, Int32, Int32)
-  nameWithType: ListsHelper.UpdateListItemRank(TableInfo, Int32, Int32)
-  fullName: SuperOffice.CRM.ListsHelper.UpdateListItemRank(SuperOffice.Data.SQL.TableInfo, System.Int32, System.Int32)
+  name: UpdateListItemRankAsync(TableInfo, Int32, Int32, CancellationToken)
+  nameWithType: ListsHelper.UpdateListItemRankAsync(TableInfo, Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.UpdateListItemRankAsync(SuperOffice.Data.SQL.TableInfo, System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -694,7 +686,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void UpdateListItemRank(TableInfo tableInfo, int primaryKey, int newRank)
+    content: public static Task UpdateListItemRankAsync(TableInfo tableInfo, int primaryKey, int newRank, CancellationToken cancellationToken = null)
     parameters:
     - id: tableInfo
       type: SuperOffice.Data.SQL.TableInfo
@@ -702,8 +694,12 @@ items:
       type: System.Int32
     - id: newRank
       type: System.Int32
-    content.vb: Public Shared Sub UpdateListItemRank(tableInfo As TableInfo, primaryKey As Integer, newRank As Integer)
-  overload: SuperOffice.CRM.ListsHelper.UpdateListItemRank*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function UpdateListItemRankAsync(tableInfo As TableInfo, primaryKey As Integer, newRank As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ListsHelper.UpdateListItemRankAsync*
   modifiers.csharp:
   - public
   - static
@@ -742,16 +738,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
-  commentId: M:SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
-  id: SetVisibleForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
+- uid: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroupAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.SetVisibleForUserGroupAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  id: SetVisibleForUserGroupAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: SetVisibleForUserGroup(Int32, String, Int32[], Boolean)
-  nameWithType: ListsHelper.SetVisibleForUserGroup(Int32, String, Int32[], Boolean)
-  fullName: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup(System.Int32, System.String, System.Int32[], System.Boolean)
+  name: SetVisibleForUserGroupAsync(Int32, String, Int32[], Boolean, CancellationToken)
+  nameWithType: ListsHelper.SetVisibleForUserGroupAsync(Int32, String, Int32[], Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroupAsync(System.Int32, System.String, System.Int32[], System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -760,7 +756,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void SetVisibleForUserGroup(int listItemId, string tablename, int[] userGroupId, bool enable)
+    content: public static Task SetVisibleForUserGroupAsync(int listItemId, string tablename, int[] userGroupId, bool enable, CancellationToken cancellationToken = null)
     parameters:
     - id: listItemId
       type: System.Int32
@@ -770,27 +766,31 @@ items:
       type: System.Int32[]
     - id: enable
       type: System.Boolean
-    content.vb: Public Shared Sub SetVisibleForUserGroup(listItemId As Integer, tablename As String, userGroupId As Integer(), enable As Boolean)
-  overload: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup*
-  nameWithType.vb: ListsHelper.SetVisibleForUserGroup(Int32, String, Int32(), Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetVisibleForUserGroupAsync(listItemId As Integer, tablename As String, userGroupId As Integer(), enable As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroupAsync*
+  nameWithType.vb: ListsHelper.SetVisibleForUserGroupAsync(Int32, String, Int32(), Boolean, CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup(System.Int32, System.String, System.Int32(), System.Boolean)
-  name.vb: SetVisibleForUserGroup(Int32, String, Int32(), Boolean)
-- uid: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
-  commentId: M:SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
-  id: SetListItemsForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
+  fullName.vb: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroupAsync(System.Int32, System.String, System.Int32(), System.Boolean, System.Threading.CancellationToken)
+  name.vb: SetVisibleForUserGroupAsync(Int32, String, Int32(), Boolean, CancellationToken)
+- uid: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroupAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.SetListItemsForUserGroupAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  id: SetListItemsForUserGroupAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: SetListItemsForUserGroup(Int32, String, Int32[], Boolean)
-  nameWithType: ListsHelper.SetListItemsForUserGroup(Int32, String, Int32[], Boolean)
-  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup(System.Int32, System.String, System.Int32[], System.Boolean)
+  name: SetListItemsForUserGroupAsync(Int32, String, Int32[], Boolean, CancellationToken)
+  nameWithType: ListsHelper.SetListItemsForUserGroupAsync(Int32, String, Int32[], Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroupAsync(System.Int32, System.String, System.Int32[], System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -799,7 +799,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void SetListItemsForUserGroup(int groupId, string tablename, int[] listItemIds, bool enable)
+    content: public static Task SetListItemsForUserGroupAsync(int groupId, string tablename, int[] listItemIds, bool enable, CancellationToken cancellationToken = null)
     parameters:
     - id: groupId
       type: System.Int32
@@ -809,27 +809,31 @@ items:
       type: System.Int32[]
     - id: enable
       type: System.Boolean
-    content.vb: Public Shared Sub SetListItemsForUserGroup(groupId As Integer, tablename As String, listItemIds As Integer(), enable As Boolean)
-  overload: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup*
-  nameWithType.vb: ListsHelper.SetListItemsForUserGroup(Int32, String, Int32(), Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetListItemsForUserGroupAsync(groupId As Integer, tablename As String, listItemIds As Integer(), enable As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroupAsync*
+  nameWithType.vb: ListsHelper.SetListItemsForUserGroupAsync(Int32, String, Int32(), Boolean, CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup(System.Int32, System.String, System.Int32(), System.Boolean)
-  name.vb: SetListItemsForUserGroup(Int32, String, Int32(), Boolean)
-- uid: SuperOffice.CRM.ListsHelper.SetListItemsForHeading(System.Int32,System.String,System.Int32[],System.Boolean)
-  commentId: M:SuperOffice.CRM.ListsHelper.SetListItemsForHeading(System.Int32,System.String,System.Int32[],System.Boolean)
-  id: SetListItemsForHeading(System.Int32,System.String,System.Int32[],System.Boolean)
+  fullName.vb: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroupAsync(System.Int32, System.String, System.Int32(), System.Boolean, System.Threading.CancellationToken)
+  name.vb: SetListItemsForUserGroupAsync(Int32, String, Int32(), Boolean, CancellationToken)
+- uid: SuperOffice.CRM.ListsHelper.SetListItemsForHeadingAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ListsHelper.SetListItemsForHeadingAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  id: SetListItemsForHeadingAsync(System.Int32,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ListsHelper
   langs:
   - csharp
   - vb
-  name: SetListItemsForHeading(Int32, String, Int32[], Boolean)
-  nameWithType: ListsHelper.SetListItemsForHeading(Int32, String, Int32[], Boolean)
-  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForHeading(System.Int32, System.String, System.Int32[], System.Boolean)
+  name: SetListItemsForHeadingAsync(Int32, String, Int32[], Boolean, CancellationToken)
+  nameWithType: ListsHelper.SetListItemsForHeadingAsync(Int32, String, Int32[], Boolean, CancellationToken)
+  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForHeadingAsync(System.Int32, System.String, System.Int32[], System.Boolean, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -838,7 +842,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static void SetListItemsForHeading(int headingId, string tablename, int[] listItemIds, bool enable)
+    content: public static Task SetListItemsForHeadingAsync(int headingId, string tablename, int[] listItemIds, bool enable, CancellationToken cancellationToken = null)
     parameters:
     - id: headingId
       type: System.Int32
@@ -848,17 +852,21 @@ items:
       type: System.Int32[]
     - id: enable
       type: System.Boolean
-    content.vb: Public Shared Sub SetListItemsForHeading(headingId As Integer, tablename As String, listItemIds As Integer(), enable As Boolean)
-  overload: SuperOffice.CRM.ListsHelper.SetListItemsForHeading*
-  nameWithType.vb: ListsHelper.SetListItemsForHeading(Int32, String, Int32(), Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetListItemsForHeadingAsync(headingId As Integer, tablename As String, listItemIds As Integer(), enable As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ListsHelper.SetListItemsForHeadingAsync*
+  nameWithType.vb: ListsHelper.SetListItemsForHeadingAsync(Int32, String, Int32(), Boolean, CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.ListsHelper.SetListItemsForHeading(System.Int32, System.String, System.Int32(), System.Boolean)
-  name.vb: SetListItemsForHeading(Int32, String, Int32(), Boolean)
+  fullName.vb: SuperOffice.CRM.ListsHelper.SetListItemsForHeadingAsync(System.Int32, System.String, System.Int32(), System.Boolean, System.Threading.CancellationToken)
+  name.vb: SetListItemsForHeadingAsync(Int32, String, Int32(), Boolean, CancellationToken)
 - uid: SuperOffice.CRM.ListsHelper.FilterDuplicateId(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   commentId: M:SuperOffice.CRM.ListsHelper.FilterDuplicateId(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   id: FilterDuplicateId(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
@@ -921,12 +929,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.ListsHelper.FindCreateListItem*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.FindCreateListItem
+- uid: SuperOffice.CRM.ListsHelper.FindCreateListItemAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.FindCreateListItemAsync
   isExternal: true
-  name: FindCreateListItem
-  nameWithType: ListsHelper.FindCreateListItem
-  fullName: SuperOffice.CRM.ListsHelper.FindCreateListItem
+  name: FindCreateListItemAsync
+  nameWithType: ListsHelper.FindCreateListItemAsync
+  fullName: SuperOffice.CRM.ListsHelper.FindCreateListItemAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1031,13 +1039,54 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
   isExternal: true
   name: Dictionary<, >
@@ -1088,24 +1137,69 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ListsHelper.GetMdoTableName*
   commentId: Overload:SuperOffice.CRM.ListsHelper.GetMdoTableName
   isExternal: true
   name: GetMdoTableName
   nameWithType: ListsHelper.GetMdoTableName
   fullName: SuperOffice.CRM.ListsHelper.GetMdoTableName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.ListsHelper.GetTableName*
   commentId: Overload:SuperOffice.CRM.ListsHelper.GetTableName
   isExternal: true
   name: GetTableName
   nameWithType: ListsHelper.GetTableName
   fullName: SuperOffice.CRM.ListsHelper.GetTableName
-- uid: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition
+- uid: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinitionAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetQueryFromListDefinitionAsync
   isExternal: true
-  name: GetQueryFromListDefinition
-  nameWithType: ListsHelper.GetQueryFromListDefinition
-  fullName: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition
+  name: GetQueryFromListDefinitionAsync
+  nameWithType: ListsHelper.GetQueryFromListDefinitionAsync
+  fullName: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinitionAsync
 - uid: SuperOffice.Data.SQL.Select
   commentId: T:SuperOffice.Data.SQL.Select
   parent: SuperOffice.Data.SQL
@@ -1113,63 +1207,165 @@ references:
   name: Select
   nameWithType: Select
   fullName: SuperOffice.Data.SQL.Select
-- uid: SuperOffice.Data.SQL.TableInfo
-  commentId: T:SuperOffice.Data.SQL.TableInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: TableInfo
-  nameWithType: TableInfo
-  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.ListsHelper.ListTableInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.ListsHelper.ListTableInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ListsHelper.ListTableInfo>
+  nameWithType: Task<ListsHelper.ListTableInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.ListsHelper.ListTableInfo>
+  nameWithType.vb: Task(Of ListsHelper.ListTableInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.ListsHelper.ListTableInfo)
+  name.vb: Task(Of ListsHelper.ListTableInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ListsHelper.ListTableInfo
+    name: ListsHelper.ListTableInfo
+    nameWithType: ListsHelper.ListTableInfo
+    fullName: SuperOffice.CRM.ListsHelper.ListTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ListsHelper.ListTableInfo
+    name: ListsHelper.ListTableInfo
+    nameWithType: ListsHelper.ListTableInfo
+    fullName: SuperOffice.CRM.ListsHelper.ListTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinition*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.GetUDListDefinition
+- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinitionAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetUDListDefinitionAsync
   isExternal: true
-  name: GetUDListDefinition
-  nameWithType: ListsHelper.GetUDListDefinition
-  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinition
-- uid: SuperOffice.CRM.Rows.UDListDefinitionRow
-  commentId: T:SuperOffice.CRM.Rows.UDListDefinitionRow
-  parent: SuperOffice.CRM.Rows
+  name: GetUDListDefinitionAsync
+  nameWithType: ListsHelper.GetUDListDefinitionAsync
+  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinitionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.UDListDefinitionRow}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.UDListDefinitionRow}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<UDListDefinitionRow>
+  nameWithType: Task<UDListDefinitionRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.UDListDefinitionRow>
+  nameWithType.vb: Task(Of UDListDefinitionRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.UDListDefinitionRow)
+  name.vb: Task(Of UDListDefinitionRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.UDListDefinitionRow
+    name: UDListDefinitionRow
+    nameWithType: UDListDefinitionRow
+    fullName: SuperOffice.CRM.Rows.UDListDefinitionRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.UDListDefinitionRow
+    name: UDListDefinitionRow
+    nameWithType: UDListDefinitionRow
+    fullName: SuperOffice.CRM.Rows.UDListDefinitionRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromNameAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromNameAsync
   isExternal: true
-  name: UDListDefinitionRow
-  nameWithType: UDListDefinitionRow
-  fullName: SuperOffice.CRM.Rows.UDListDefinitionRow
-- uid: SuperOffice.CRM.Rows
-  commentId: N:SuperOffice.CRM.Rows
+  name: GetUDListDefinitionFromNameAsync
+  nameWithType: ListsHelper.GetUDListDefinitionFromNameAsync
+  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromNameAsync
+- uid: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearchAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetHeadingCustomSearchAsync
   isExternal: true
-  name: SuperOffice.CRM.Rows
-  nameWithType: SuperOffice.CRM.Rows
-  fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName
+  name: GetHeadingCustomSearchAsync
+  nameWithType: ListsHelper.GetHeadingCustomSearchAsync
+  fullName: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearchAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.HeadingRows.CustomSearch}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.HeadingRows.CustomSearch}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<HeadingRows.CustomSearch>
+  nameWithType: Task<HeadingRows.CustomSearch>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.HeadingRows.CustomSearch>
+  nameWithType.vb: Task(Of HeadingRows.CustomSearch)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.HeadingRows.CustomSearch)
+  name.vb: Task(Of HeadingRows.CustomSearch)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.HeadingRows.CustomSearch
+    name: HeadingRows.CustomSearch
+    nameWithType: HeadingRows.CustomSearch
+    fullName: SuperOffice.CRM.Rows.HeadingRows.CustomSearch
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.HeadingRows.CustomSearch
+    name: HeadingRows.CustomSearch
+    nameWithType: HeadingRows.CustomSearch
+    fullName: SuperOffice.CRM.Rows.HeadingRows.CustomSearch
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ListsHelper.SetHeadingRestrictionsAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.SetHeadingRestrictionsAsync
   isExternal: true
-  name: GetUDListDefinitionFromName
-  nameWithType: ListsHelper.GetUDListDefinitionFromName
-  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName
-- uid: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch
-  isExternal: true
-  name: GetHeadingCustomSearch
-  nameWithType: ListsHelper.GetHeadingCustomSearch
-  fullName: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch
-- uid: SuperOffice.CRM.Rows.HeadingRows.CustomSearch
-  commentId: T:SuperOffice.CRM.Rows.HeadingRows.CustomSearch
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: HeadingRows.CustomSearch
-  nameWithType: HeadingRows.CustomSearch
-  fullName: SuperOffice.CRM.Rows.HeadingRows.CustomSearch
-- uid: SuperOffice.CRM.ListsHelper.SetHeadingRestrictions*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.SetHeadingRestrictions
-  isExternal: true
-  name: SetHeadingRestrictions
-  nameWithType: ListsHelper.SetHeadingRestrictions
-  fullName: SuperOffice.CRM.ListsHelper.SetHeadingRestrictions
+  name: SetHeadingRestrictionsAsync
+  nameWithType: ListsHelper.SetHeadingRestrictionsAsync
+  fullName: SuperOffice.CRM.ListsHelper.SetHeadingRestrictionsAsync
 - uid: SuperOffice.CRM.Data.HeadingTableInfo
   commentId: T:SuperOffice.CRM.Data.HeadingTableInfo
   parent: SuperOffice.CRM.Data
@@ -1177,6 +1373,11 @@ references:
   name: HeadingTableInfo
   nameWithType: HeadingTableInfo
   fullName: SuperOffice.CRM.Data.HeadingTableInfo
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
@@ -1189,24 +1390,31 @@ references:
   name: GetQueryFromTableName
   nameWithType: ListsHelper.GetQueryFromTableName
   fullName: SuperOffice.CRM.ListsHelper.GetQueryFromTableName
-- uid: SuperOffice.CRM.ListsHelper.RefreshListRank*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.RefreshListRank
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
   isExternal: true
-  name: RefreshListRank
-  nameWithType: ListsHelper.RefreshListRank
-  fullName: SuperOffice.CRM.ListsHelper.RefreshListRank
-- uid: SuperOffice.CRM.ListsHelper.GetNextRank*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.GetNextRank
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.CRM.ListsHelper.RefreshListRankAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.RefreshListRankAsync
   isExternal: true
-  name: GetNextRank
-  nameWithType: ListsHelper.GetNextRank
-  fullName: SuperOffice.CRM.ListsHelper.GetNextRank
-- uid: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.UpdateRankOnListItems
+  name: RefreshListRankAsync
+  nameWithType: ListsHelper.RefreshListRankAsync
+  fullName: SuperOffice.CRM.ListsHelper.RefreshListRankAsync
+- uid: SuperOffice.CRM.ListsHelper.GetNextRankAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetNextRankAsync
   isExternal: true
-  name: UpdateRankOnListItems
-  nameWithType: ListsHelper.UpdateRankOnListItems
-  fullName: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems
+  name: GetNextRankAsync
+  nameWithType: ListsHelper.GetNextRankAsync
+  fullName: SuperOffice.CRM.ListsHelper.GetNextRankAsync
+- uid: SuperOffice.CRM.ListsHelper.UpdateRankOnListItemsAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.UpdateRankOnListItemsAsync
+  isExternal: true
+  name: UpdateRankOnListItemsAsync
+  nameWithType: ListsHelper.UpdateRankOnListItemsAsync
+  fullName: SuperOffice.CRM.ListsHelper.UpdateRankOnListItemsAsync
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}
   commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}'
   definition: System.Collections.Generic.List`1
@@ -1288,30 +1496,95 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ListsHelper.LoadAllListItems*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.LoadAllListItems
+- uid: SuperOffice.CRM.ListsHelper.LoadAllListItemsAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.LoadAllListItemsAsync
   isExternal: true
-  name: LoadAllListItems
-  nameWithType: ListsHelper.LoadAllListItems
-  fullName: SuperOffice.CRM.ListsHelper.LoadAllListItems
-- uid: SuperOffice.CRM.ListsHelper.UpdateListItemRank*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.UpdateListItemRank
+  name: LoadAllListItemsAsync
+  nameWithType: ListsHelper.LoadAllListItemsAsync
+  fullName: SuperOffice.CRM.ListsHelper.LoadAllListItemsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<ListsHelper.ItemRow>>
+  nameWithType: Task<List<ListsHelper.ItemRow>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<SuperOffice.CRM.ListsHelper.ItemRow>>
+  nameWithType.vb: Task(Of List(Of ListsHelper.ItemRow))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of SuperOffice.CRM.ListsHelper.ItemRow))
+  name.vb: Task(Of List(Of ListsHelper.ItemRow))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ListsHelper.ItemRow
+    name: ListsHelper.ItemRow
+    nameWithType: ListsHelper.ItemRow
+    fullName: SuperOffice.CRM.ListsHelper.ItemRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ListsHelper.ItemRow
+    name: ListsHelper.ItemRow
+    nameWithType: ListsHelper.ItemRow
+    fullName: SuperOffice.CRM.ListsHelper.ItemRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ListsHelper.UpdateListItemRankAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.UpdateListItemRankAsync
   isExternal: true
-  name: UpdateListItemRank
-  nameWithType: ListsHelper.UpdateListItemRank
-  fullName: SuperOffice.CRM.ListsHelper.UpdateListItemRank
+  name: UpdateListItemRankAsync
+  nameWithType: ListsHelper.UpdateListItemRankAsync
+  fullName: SuperOffice.CRM.ListsHelper.UpdateListItemRankAsync
 - uid: SuperOffice.CRM.ListsHelper.GetLinkTableName*
   commentId: Overload:SuperOffice.CRM.ListsHelper.GetLinkTableName
   isExternal: true
   name: GetLinkTableName
   nameWithType: ListsHelper.GetLinkTableName
   fullName: SuperOffice.CRM.ListsHelper.GetLinkTableName
-- uid: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup
+- uid: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroupAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.SetVisibleForUserGroupAsync
   isExternal: true
-  name: SetVisibleForUserGroup
-  nameWithType: ListsHelper.SetVisibleForUserGroup
-  fullName: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup
+  name: SetVisibleForUserGroupAsync
+  nameWithType: ListsHelper.SetVisibleForUserGroupAsync
+  fullName: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroupAsync
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -1338,18 +1611,18 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup
+- uid: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroupAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.SetListItemsForUserGroupAsync
   isExternal: true
-  name: SetListItemsForUserGroup
-  nameWithType: ListsHelper.SetListItemsForUserGroup
-  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup
-- uid: SuperOffice.CRM.ListsHelper.SetListItemsForHeading*
-  commentId: Overload:SuperOffice.CRM.ListsHelper.SetListItemsForHeading
+  name: SetListItemsForUserGroupAsync
+  nameWithType: ListsHelper.SetListItemsForUserGroupAsync
+  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroupAsync
+- uid: SuperOffice.CRM.ListsHelper.SetListItemsForHeadingAsync*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.SetListItemsForHeadingAsync
   isExternal: true
-  name: SetListItemsForHeading
-  nameWithType: ListsHelper.SetListItemsForHeading
-  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForHeading
+  name: SetListItemsForHeadingAsync
+  nameWithType: ListsHelper.SetListItemsForHeadingAsync
+  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForHeadingAsync
 - uid: SuperOffice.CRM.ListsHelper.FilterDuplicateId*
   commentId: Overload:SuperOffice.CRM.ListsHelper.FilterDuplicateId
   isExternal: true

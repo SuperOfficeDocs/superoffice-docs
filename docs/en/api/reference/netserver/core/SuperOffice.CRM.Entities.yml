@@ -35,15 +35,7 @@ items:
   - SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdef2Id
   - SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdefId
   - SuperOffice.CRM.Entities.AppointmentDeleteAction
-  - SuperOffice.CRM.Entities.AppointmentMatrix
-  - SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
-  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
-  - SuperOffice.CRM.Entities.AppointmentMatrix.RowModification
-  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
-  - SuperOffice.CRM.Entities.BookingManager
   - SuperOffice.CRM.Entities.BookingManagerModified
-  - SuperOffice.CRM.Entities.ConflictDetector
-  - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
   - SuperOffice.CRM.Entities.ConsentInfo
   - SuperOffice.CRM.Entities.ConsentManagement
   - SuperOffice.CRM.Entities.ConsentManagementEmail
@@ -64,7 +56,6 @@ items:
   - SuperOffice.CRM.Entities.ContactCollection.IdxSource
   - SuperOffice.CRM.Entities.ContactCollection.IdxUserdef2Id
   - SuperOffice.CRM.Entities.ContactCollection.IdxUserdefId
-  - SuperOffice.CRM.Entities.ContactInterestHelper
   - SuperOffice.CRM.Entities.Defaulter
   - SuperOffice.CRM.Entities.Document
   - SuperOffice.CRM.Entities.Document.CustomSearch
@@ -87,17 +78,18 @@ items:
   - SuperOffice.CRM.Entities.EntityManagementFunctions
   - SuperOffice.CRM.Entities.EntityPublishHelper
   - SuperOffice.CRM.Entities.EntityPublishHelper.PublishSaveState
-  - SuperOffice.CRM.Entities.EntityRankOrderer
   - SuperOffice.CRM.Entities.EntityUdefHelper
   - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
   - SuperOffice.CRM.Entities.EntityVisibleForHelper
   - SuperOffice.CRM.Entities.FormValueCalculator
   - SuperOffice.CRM.Entities.GetRelatedObjects
+  - SuperOffice.CRM.Entities.IBookingManager
   - SuperOffice.CRM.Entities.IEntityUdefHelperContainer
-  - SuperOffice.CRM.Entities.InterestHelper
+  - SuperOffice.CRM.Entities.IInterestHelper
+  - SuperOffice.CRM.Entities.IInterestHelperFactory
+  - SuperOffice.CRM.Entities.IMailingStatistics
+  - SuperOffice.CRM.Entities.ISelectionTypeManager
   - SuperOffice.CRM.Entities.LinksHelper
-  - SuperOffice.CRM.Entities.MailingStatistics
-  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
   - SuperOffice.CRM.Entities.Person
   - SuperOffice.CRM.Entities.Person.CustomSearch
   - SuperOffice.CRM.Entities.Person.IdxPersonId
@@ -113,9 +105,8 @@ items:
   - SuperOffice.CRM.Entities.PersonCollection.IdxSource
   - SuperOffice.CRM.Entities.PersonCollection.IdxUserdef2Id
   - SuperOffice.CRM.Entities.PersonCollection.IdxUserdefId
-  - SuperOffice.CRM.Entities.PersonInterestHelper
   - SuperOffice.CRM.Entities.PersonPhoneSyncHelper
-  - SuperOffice.CRM.Entities.ProgressCallback
+  - SuperOffice.CRM.Entities.ProgressCallbackAsync
   - SuperOffice.CRM.Entities.Project
   - SuperOffice.CRM.Entities.Project.CustomSearch
   - SuperOffice.CRM.Entities.Project.IdxProjectId
@@ -134,7 +125,6 @@ items:
   - SuperOffice.CRM.Entities.ProjectMemberCollection.IdxContactId
   - SuperOffice.CRM.Entities.ProjectMemberCollection.IdxPersonId
   - SuperOffice.CRM.Entities.ProjectMemberCollection.IdxProjectIdRank
-  - SuperOffice.CRM.Entities.RecurrenceManager
   - SuperOffice.CRM.Entities.SaintConfigurationCache
   - SuperOffice.CRM.Entities.SaintRegenerator
   - SuperOffice.CRM.Entities.Sale
@@ -166,7 +156,6 @@ items:
   - SuperOffice.CRM.Entities.SelectionCollection.IdxSoundEx
   - SuperOffice.CRM.Entities.SelectionCollection.IdxSource
   - SuperOffice.CRM.Entities.SelectionTypeInfo
-  - SuperOffice.CRM.Entities.SelectionTypeManager
   - SuperOffice.CRM.Entities.ValidatorHelper
   langs:
   - csharp
@@ -350,72 +339,6 @@ references:
   name: Appointment.CustomSearch
   nameWithType: Appointment.CustomSearch
   fullName: SuperOffice.CRM.Entities.Appointment.CustomSearch
-- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction
-  commentId: T:SuperOffice.CRM.Entities.AppointmentDeleteAction
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: AppointmentDeleteAction
-  nameWithType: AppointmentDeleteAction
-  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction
-- uid: SuperOffice.CRM.Entities.AppointmentMatrix
-  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix
-  isExternal: true
-  name: AppointmentMatrix
-  nameWithType: AppointmentMatrix
-  fullName: SuperOffice.CRM.Entities.AppointmentMatrix
-- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RowModification
-  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.RowModification
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: AppointmentMatrix.RowModification
-  nameWithType: AppointmentMatrix.RowModification
-  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RowModification
-- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
-  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: AppointmentMatrix.SendMails
-  nameWithType: AppointmentMatrix.SendMails
-  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
-- uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
-  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: AppointmentMatrix.OwnershipIndex
-  nameWithType: AppointmentMatrix.OwnershipIndex
-  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
-- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
-  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: AppointmentMatrix.RecurrenceModification
-  nameWithType: AppointmentMatrix.RecurrenceModification
-  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
-- uid: SuperOffice.CRM.Entities.BookingManagerModified
-  commentId: T:SuperOffice.CRM.Entities.BookingManagerModified
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: BookingManagerModified
-  nameWithType: BookingManagerModified
-  fullName: SuperOffice.CRM.Entities.BookingManagerModified
-- uid: SuperOffice.CRM.Entities.BookingManager
-  commentId: T:SuperOffice.CRM.Entities.BookingManager
-  isExternal: true
-  name: BookingManager
-  nameWithType: BookingManager
-  fullName: SuperOffice.CRM.Entities.BookingManager
-- uid: SuperOffice.CRM.Entities.ConflictDetector
-  commentId: T:SuperOffice.CRM.Entities.ConflictDetector
-  isExternal: true
-  name: ConflictDetector
-  nameWithType: ConflictDetector
-  fullName: SuperOffice.CRM.Entities.ConflictDetector
-- uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
-  commentId: T:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
-  isExternal: true
-  name: ConflictDetector.ConflictTime
-  nameWithType: ConflictDetector.ConflictTime
-  fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
 - uid: SuperOffice.CRM.Entities.ConsentManagement
   commentId: T:SuperOffice.CRM.Entities.ConsentManagement
   isExternal: true
@@ -779,12 +702,6 @@ references:
   name: EntityPublishHelper.PublishSaveState
   nameWithType: EntityPublishHelper.PublishSaveState
   fullName: SuperOffice.CRM.Entities.EntityPublishHelper.PublishSaveState
-- uid: SuperOffice.CRM.Entities.EntityRankOrderer
-  commentId: T:SuperOffice.CRM.Entities.EntityRankOrderer
-  isExternal: true
-  name: EntityRankOrderer
-  nameWithType: EntityRankOrderer
-  fullName: SuperOffice.CRM.Entities.EntityRankOrderer
 - uid: SuperOffice.CRM.Entities.IEntityUdefHelperContainer
   commentId: T:SuperOffice.CRM.Entities.IEntityUdefHelperContainer
   parent: SuperOffice.CRM.Entities
@@ -1205,6 +1122,38 @@ references:
   name: Selection.CustomSearch
   nameWithType: Selection.CustomSearch
   fullName: SuperOffice.CRM.Entities.Selection.CustomSearch
+- uid: SuperOffice.CRM.Entities.BookingManagerModified
+  commentId: T:SuperOffice.CRM.Entities.BookingManagerModified
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: BookingManagerModified
+  nameWithType: BookingManagerModified
+  fullName: SuperOffice.CRM.Entities.BookingManagerModified
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  commentId: T:SuperOffice.CRM.Entities.AppointmentDeleteAction
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentDeleteAction
+  nameWithType: AppointmentDeleteAction
+  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction
+- uid: SuperOffice.CRM.Entities.IBookingManager
+  commentId: T:SuperOffice.CRM.Entities.IBookingManager
+  isExternal: true
+  name: IBookingManager
+  nameWithType: IBookingManager
+  fullName: SuperOffice.CRM.Entities.IBookingManager
+- uid: SuperOffice.CRM.Entities.IInterestHelper
+  commentId: T:SuperOffice.CRM.Entities.IInterestHelper
+  isExternal: true
+  name: IInterestHelper
+  nameWithType: IInterestHelper
+  fullName: SuperOffice.CRM.Entities.IInterestHelper
+- uid: SuperOffice.CRM.Entities.IInterestHelperFactory
+  commentId: T:SuperOffice.CRM.Entities.IInterestHelperFactory
+  isExternal: true
+  name: IInterestHelperFactory
+  nameWithType: IInterestHelperFactory
+  fullName: SuperOffice.CRM.Entities.IInterestHelperFactory
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
   commentId: T:SuperOffice.CRM.Entities.ActiveInterestsChanged
   parent: SuperOffice.CRM.Entities
@@ -1212,30 +1161,20 @@ references:
   name: ActiveInterestsChanged
   nameWithType: ActiveInterestsChanged
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged
-- uid: SuperOffice.CRM.Entities.InterestHelper
-  commentId: T:SuperOffice.CRM.Entities.InterestHelper
-  parent: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.IMailingStatistics
+  commentId: T:SuperOffice.CRM.Entities.IMailingStatistics
   isExternal: true
-  name: InterestHelper
-  nameWithType: InterestHelper
-  fullName: SuperOffice.CRM.Entities.InterestHelper
-- uid: SuperOffice.CRM.Entities.ContactInterestHelper
-  commentId: T:SuperOffice.CRM.Entities.ContactInterestHelper
-  parent: SuperOffice.CRM.Entities
+  name: IMailingStatistics
+  nameWithType: IMailingStatistics
+  fullName: SuperOffice.CRM.Entities.IMailingStatistics
+- uid: SuperOffice.CRM.Entities.ISelectionTypeManager
+  commentId: T:SuperOffice.CRM.Entities.ISelectionTypeManager
   isExternal: true
-  name: ContactInterestHelper
-  nameWithType: ContactInterestHelper
-  fullName: SuperOffice.CRM.Entities.ContactInterestHelper
-- uid: SuperOffice.CRM.Entities.PersonInterestHelper
-  commentId: T:SuperOffice.CRM.Entities.PersonInterestHelper
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: PersonInterestHelper
-  nameWithType: PersonInterestHelper
-  fullName: SuperOffice.CRM.Entities.PersonInterestHelper
+  name: ISelectionTypeManager
+  nameWithType: ISelectionTypeManager
+  fullName: SuperOffice.CRM.Entities.ISelectionTypeManager
 - uid: SuperOffice.CRM.Entities.ActivityLinksHelper
   commentId: T:SuperOffice.CRM.Entities.ActivityLinksHelper
-  parent: SuperOffice.CRM.Entities
   isExternal: true
   name: ActivityLinksHelper
   nameWithType: ActivityLinksHelper
@@ -1247,56 +1186,31 @@ references:
   name: LinksHelper
   nameWithType: LinksHelper
   fullName: SuperOffice.CRM.Entities.LinksHelper
-- uid: SuperOffice.CRM.Entities.MailingStatistics
-  commentId: T:SuperOffice.CRM.Entities.MailingStatistics
-  isExternal: true
-  name: MailingStatistics
-  nameWithType: MailingStatistics
-  fullName: SuperOffice.CRM.Entities.MailingStatistics
-- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
-  commentId: T:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
-  isExternal: true
-  name: MailingStatistics.SShipmentStatistics
-  nameWithType: MailingStatistics.SShipmentStatistics
-  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
 - uid: SuperOffice.CRM.Entities.PersonPhoneSyncHelper
   commentId: T:SuperOffice.CRM.Entities.PersonPhoneSyncHelper
   isExternal: true
   name: PersonPhoneSyncHelper
   nameWithType: PersonPhoneSyncHelper
   fullName: SuperOffice.CRM.Entities.PersonPhoneSyncHelper
-- uid: SuperOffice.CRM.Entities.RecurrenceManager
-  commentId: T:SuperOffice.CRM.Entities.RecurrenceManager
-  isExternal: true
-  name: RecurrenceManager
-  nameWithType: RecurrenceManager
-  fullName: SuperOffice.CRM.Entities.RecurrenceManager
 - uid: SuperOffice.CRM.Entities.SaintConfigurationCache
   commentId: T:SuperOffice.CRM.Entities.SaintConfigurationCache
-  parent: SuperOffice.CRM.Entities
   isExternal: true
   name: SaintConfigurationCache
   nameWithType: SaintConfigurationCache
   fullName: SuperOffice.CRM.Entities.SaintConfigurationCache
-- uid: SuperOffice.CRM.Entities.ProgressCallback
-  commentId: T:SuperOffice.CRM.Entities.ProgressCallback
+- uid: SuperOffice.CRM.Entities.ProgressCallbackAsync
+  commentId: T:SuperOffice.CRM.Entities.ProgressCallbackAsync
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  name: ProgressCallback
-  nameWithType: ProgressCallback
-  fullName: SuperOffice.CRM.Entities.ProgressCallback
+  name: ProgressCallbackAsync
+  nameWithType: ProgressCallbackAsync
+  fullName: SuperOffice.CRM.Entities.ProgressCallbackAsync
 - uid: SuperOffice.CRM.Entities.SaintRegenerator
   commentId: T:SuperOffice.CRM.Entities.SaintRegenerator
   isExternal: true
   name: SaintRegenerator
   nameWithType: SaintRegenerator
   fullName: SuperOffice.CRM.Entities.SaintRegenerator
-- uid: SuperOffice.CRM.Entities.SelectionTypeManager
-  commentId: T:SuperOffice.CRM.Entities.SelectionTypeManager
-  isExternal: true
-  name: SelectionTypeManager
-  nameWithType: SelectionTypeManager
-  fullName: SuperOffice.CRM.Entities.SelectionTypeManager
 - uid: SuperOffice.CRM.Entities.SelectionTypeInfo
   commentId: T:SuperOffice.CRM.Entities.SelectionTypeInfo
   parent: SuperOffice.CRM.Entities

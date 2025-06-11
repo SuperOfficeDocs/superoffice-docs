@@ -5,14 +5,14 @@ items:
   id: ITempFileProvider
   parent: SuperOffice.IO
   children:
-  - SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
-  - SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
-  - SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
-  - SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
-  - SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
-  - SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
-  - SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
-  - SuperOffice.IO.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  - SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.ITempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.ITempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  - SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  - SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -40,16 +40,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
-  commentId: M:SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
-  id: CreateFile(System.String)
+- uid: SuperOffice.IO.ITempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
+  id: CreateFileAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   langs:
   - csharp
   - vb
-  name: CreateFile(String)
-  nameWithType: ITempFileProvider.CreateFile(String)
-  fullName: SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
+  name: CreateFileAsync(String, CancellationToken)
+  nameWithType: ITempFileProvider.CreateFileAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.CreateFileAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -59,7 +59,7 @@ items:
   namespace: SuperOffice.IO
   summary: "\nCreate a temporary &apos;file&apos;\n"
   syntax:
-    content: string CreateFile(string name)
+    content: Task<string> CreateFileAsync(string name, CancellationToken cancellationToken = null)
     parameters:
     - id: name
       type: System.String
@@ -69,20 +69,22 @@ items:
         into account the associate ID, since multiple concurrent users may use the same name, and that does <strong>not</strong> mean
 
         file sharing between users.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Function CreateFile(name As String) As String
-  overload: SuperOffice.IO.ITempFileProvider.CreateFile*
-- uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
-  commentId: M:SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
-  id: CreateFileForAppending(System.String)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function CreateFileAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.IO.ITempFileProvider.CreateFileAsync*
+- uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
+  id: CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   langs:
   - csharp
   - vb
-  name: CreateFileForAppending(String)
-  nameWithType: ITempFileProvider.CreateFileForAppending(String)
-  fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
+  name: CreateFileForAppendingAsync(String, CancellationToken)
+  nameWithType: ITempFileProvider.CreateFileForAppendingAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -92,7 +94,7 @@ items:
   namespace: SuperOffice.IO
   summary: "\nCreate a temporary &apos;file&apos; for appending\n"
   syntax:
-    content: string CreateFileForAppending(string name)
+    content: Task<string> CreateFileForAppendingAsync(string name, CancellationToken cancellationToken = null)
     parameters:
     - id: name
       type: System.String
@@ -102,20 +104,22 @@ items:
         into account the associate ID, since multiple concurrent users may use the same name, and that does <strong>not</strong> mean
 
         file sharing between users.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Function CreateFileForAppending(name As String) As String
-  overload: SuperOffice.IO.ITempFileProvider.CreateFileForAppending*
-- uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
-  commentId: M:SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
-  id: CheckIfFileExists(System.String)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function CreateFileForAppendingAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync*
+- uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+  id: CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   langs:
   - csharp
   - vb
-  name: CheckIfFileExists(String)
-  nameWithType: ITempFileProvider.CheckIfFileExists(String)
-  fullName: SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
+  name: CheckIfFileExistsAsync(String, CancellationToken)
+  nameWithType: ITempFileProvider.CheckIfFileExistsAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -125,26 +129,28 @@ items:
   namespace: SuperOffice.IO
   summary: "\nCheck if a named temporary file/storage area exists\n"
   syntax:
-    content: bool CheckIfFileExists(string name)
+    content: Task<bool> CheckIfFileExistsAsync(string name, CancellationToken cancellationToken = null)
     parameters:
     - id: name
       type: System.String
       description: File name to check
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True if such a file exists
-    content.vb: Function CheckIfFileExists(name As String) As Boolean
-  overload: SuperOffice.IO.ITempFileProvider.CheckIfFileExists*
-- uid: SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
-  commentId: M:SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
-  id: ReadFileComplete(System.String)
+    content.vb: Function CheckIfFileExistsAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync*
+- uid: SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+  id: ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   langs:
   - csharp
   - vb
-  name: ReadFileComplete(String)
-  nameWithType: ITempFileProvider.ReadFileComplete(String)
-  fullName: SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
+  name: ReadFileCompleteAsync(String, CancellationToken)
+  nameWithType: ITempFileProvider.ReadFileCompleteAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -154,29 +160,31 @@ items:
   namespace: SuperOffice.IO
   summary: "\nMake the complete content of the file available as a stream (sequential read)\n"
   syntax:
-    content: Stream ReadFileComplete(string name)
+    content: Task<Stream> ReadFileCompleteAsync(string name, CancellationToken cancellationToken = null)
     parameters:
     - id: name
       type: System.String
       description: >-
-        Name identifying the file. See comments in the <xref href="SuperOffice.IO.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+        Name identifying the file. See comments in the <see cref="!:CreateFile"></see>
 
         method for more information on how file names are handled.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.IO.Stream
+      type: System.Threading.Tasks.Task{System.IO.Stream}
       description: Stream representing the entire current contents of the file
-    content.vb: Function ReadFileComplete(name As String) As Stream
-  overload: SuperOffice.IO.ITempFileProvider.ReadFileComplete*
-- uid: SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
-  commentId: M:SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
-  id: ReadFileChunk(System.String,System.Int64,System.Byte[])
+    content.vb: Function ReadFileCompleteAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync*
+- uid: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  id: ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   langs:
   - csharp
   - vb
-  name: ReadFileChunk(String, Int64, Byte[])
-  nameWithType: ITempFileProvider.ReadFileChunk(String, Int64, Byte[])
-  fullName: SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte[])
+  name: ReadFileChunkAsync(String, Int64, Byte[], CancellationToken)
+  nameWithType: ITempFileProvider.ReadFileChunkAsync(String, Int64, Byte[], CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(System.String, System.Int64, System.Byte[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -186,12 +194,12 @@ items:
   namespace: SuperOffice.IO
   summary: "\nRead a chunk of data from the file (random access read)\n"
   syntax:
-    content: int ReadFileChunk(string name, long filePosition, byte[] bufferToUpdate)
+    content: Task<int> ReadFileChunkAsync(string name, long filePosition, byte[] bufferToUpdate, CancellationToken cancellationToken = null)
     parameters:
     - id: name
       type: System.String
       description: >-
-        Name identifying the file. See comments in the <xref href="SuperOffice.IO.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+        Name identifying the file. See comments in the <see cref="!:CreateFile"></see>
 
         method for more information on how file names are handled.
     - id: filePosition
@@ -203,24 +211,26 @@ items:
         Data buffer to update. The length of this buffer is the maximum
 
         number of bytes that will be read
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Actual number of bytes read. If less than the length of the buffer, end-of-file is indicated
-    content.vb: Function ReadFileChunk(name As String, filePosition As Long, bufferToUpdate As Byte()) As Integer
-  overload: SuperOffice.IO.ITempFileProvider.ReadFileChunk*
-  nameWithType.vb: ITempFileProvider.ReadFileChunk(String, Int64, Byte())
-  fullName.vb: SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte())
-  name.vb: ReadFileChunk(String, Int64, Byte())
-- uid: SuperOffice.IO.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
-  commentId: M:SuperOffice.IO.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
-  id: WriteFileComplete(System.String,System.IO.Stream)
+    content.vb: Function ReadFileChunkAsync(name As String, filePosition As Long, bufferToUpdate As Byte(), cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync*
+  nameWithType.vb: ITempFileProvider.ReadFileChunkAsync(String, Int64, Byte(), CancellationToken)
+  fullName.vb: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(System.String, System.Int64, System.Byte(), System.Threading.CancellationToken)
+  name.vb: ReadFileChunkAsync(String, Int64, Byte(), CancellationToken)
+- uid: SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+  id: WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   langs:
   - csharp
   - vb
-  name: WriteFileComplete(String, Stream)
-  nameWithType: ITempFileProvider.WriteFileComplete(String, Stream)
-  fullName: SuperOffice.IO.ITempFileProvider.WriteFileComplete(System.String, System.IO.Stream)
+  name: WriteFileCompleteAsync(String, Stream, CancellationToken)
+  nameWithType: ITempFileProvider.WriteFileCompleteAsync(String, Stream, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(System.String, System.IO.Stream, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -230,29 +240,33 @@ items:
   namespace: SuperOffice.IO
   summary: "\n(Over)write - not append - the complete content of the file (sequential write). Any previous content is lost\n"
   syntax:
-    content: void WriteFileComplete(string name, Stream data)
+    content: Task WriteFileCompleteAsync(string name, Stream data, CancellationToken cancellationToken = null)
     parameters:
     - id: name
       type: System.String
       description: >-
-        Name identifying the file. See comments in the <xref href="SuperOffice.IO.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+        Name identifying the file. See comments in the <see cref="!:CreateFile"></see>
 
         method for more information on how file names are handled.
     - id: data
       type: System.IO.Stream
       description: Stream to read data from
-    content.vb: Sub WriteFileComplete(name As String, data As Stream)
-  overload: SuperOffice.IO.ITempFileProvider.WriteFileComplete*
-- uid: SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
-  commentId: M:SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
-  id: WriteFileChunk(System.String,System.Int64,System.Byte[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function WriteFileCompleteAsync(name As String, data As Stream, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync*
+- uid: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  id: WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   langs:
   - csharp
   - vb
-  name: WriteFileChunk(String, Int64, Byte[])
-  nameWithType: ITempFileProvider.WriteFileChunk(String, Int64, Byte[])
-  fullName: SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte[])
+  name: WriteFileChunkAsync(String, Int64, Byte[], CancellationToken)
+  nameWithType: ITempFileProvider.WriteFileChunkAsync(String, Int64, Byte[], CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(System.String, System.Int64, System.Byte[], System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -262,12 +276,12 @@ items:
   namespace: SuperOffice.IO
   summary: "\nWrite a chunk of data to the file (random access write)\n"
   syntax:
-    content: void WriteFileChunk(string name, long filePosition, byte[] bufferToWriteFrom)
+    content: Task WriteFileChunkAsync(string name, long filePosition, byte[] bufferToWriteFrom, CancellationToken cancellationToken = null)
     parameters:
     - id: name
       type: System.String
       description: >-
-        Name identifying the file. See comments in the <xref href="SuperOffice.IO.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+        Name identifying the file. See comments in the <see cref="!:CreateFile"></see>
 
         method for more information on how file names are handled.
     - id: filePosition
@@ -276,21 +290,25 @@ items:
     - id: bufferToWriteFrom
       type: System.Byte[]
       description: Buffer to write; buffer length determines the size of the write operation
-    content.vb: Sub WriteFileChunk(name As String, filePosition As Long, bufferToWriteFrom As Byte())
-  overload: SuperOffice.IO.ITempFileProvider.WriteFileChunk*
-  nameWithType.vb: ITempFileProvider.WriteFileChunk(String, Int64, Byte())
-  fullName.vb: SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte())
-  name.vb: WriteFileChunk(String, Int64, Byte())
-- uid: SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
-  commentId: M:SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
-  id: DeleteFile(System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function WriteFileChunkAsync(name As String, filePosition As Long, bufferToWriteFrom As Byte(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync*
+  nameWithType.vb: ITempFileProvider.WriteFileChunkAsync(String, Int64, Byte(), CancellationToken)
+  fullName.vb: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(System.String, System.Int64, System.Byte(), System.Threading.CancellationToken)
+  name.vb: WriteFileChunkAsync(String, Int64, Byte(), CancellationToken)
+- uid: SuperOffice.IO.ITempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
+  id: DeleteFileAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   langs:
   - csharp
   - vb
-  name: DeleteFile(String)
-  nameWithType: ITempFileProvider.DeleteFile(String)
-  fullName: SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
+  name: DeleteFileAsync(String, CancellationToken)
+  nameWithType: ITempFileProvider.DeleteFileAsync(String, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.DeleteFileAsync(System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -300,16 +318,20 @@ items:
   namespace: SuperOffice.IO
   summary: "\nDelete a temporary file\n"
   syntax:
-    content: void DeleteFile(string name)
+    content: Task DeleteFileAsync(string name, CancellationToken cancellationToken = null)
     parameters:
     - id: name
       type: System.String
       description: >-
-        Name identifying the file. See comments in the <xref href="SuperOffice.IO.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+        Name identifying the file. See comments in the <see cref="!:CreateFile"></see>
 
         method for more information on how file names are handled.
-    content.vb: Sub DeleteFile(name As String)
-  overload: SuperOffice.IO.ITempFileProvider.DeleteFile*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteFileAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.IO.ITempFileProvider.DeleteFileAsync*
 references:
 - uid: SuperOffice.IO
   commentId: N:SuperOffice.IO
@@ -482,12 +504,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.IO.ITempFileProvider.CreateFile*
-  commentId: Overload:SuperOffice.IO.ITempFileProvider.CreateFile
+- uid: SuperOffice.IO.ITempFileProvider.CreateFileAsync*
+  commentId: Overload:SuperOffice.IO.ITempFileProvider.CreateFileAsync
   isExternal: true
-  name: CreateFile
-  nameWithType: ITempFileProvider.CreateFile
-  fullName: SuperOffice.IO.ITempFileProvider.CreateFile
+  name: CreateFileAsync
+  nameWithType: ITempFileProvider.CreateFileAsync
+  fullName: SuperOffice.IO.ITempFileProvider.CreateFileAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -495,48 +517,208 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppending*
-  commentId: Overload:SuperOffice.IO.ITempFileProvider.CreateFileForAppending
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: CreateFileForAppending
-  nameWithType: ITempFileProvider.CreateFileForAppending
-  fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppending
-- uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExists*
-  commentId: Overload:SuperOffice.IO.ITempFileProvider.CheckIfFileExists
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync*
+  commentId: Overload:SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync
   isExternal: true
-  name: CheckIfFileExists
-  nameWithType: ITempFileProvider.CheckIfFileExists
-  fullName: SuperOffice.IO.ITempFileProvider.CheckIfFileExists
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+  name: CreateFileForAppendingAsync
+  nameWithType: ITempFileProvider.CreateFileForAppendingAsync
+  fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync
+- uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync*
+  commentId: Overload:SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.IO.ITempFileProvider.ReadFileComplete*
-  commentId: Overload:SuperOffice.IO.ITempFileProvider.ReadFileComplete
+  name: CheckIfFileExistsAsync
+  nameWithType: ITempFileProvider.CheckIfFileExistsAsync
+  fullName: SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync*
+  commentId: Overload:SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync
   isExternal: true
-  name: ReadFileComplete
-  nameWithType: ITempFileProvider.ReadFileComplete
-  fullName: SuperOffice.IO.ITempFileProvider.ReadFileComplete
-- uid: System.IO.Stream
+  name: ReadFileCompleteAsync
+  nameWithType: ITempFileProvider.ReadFileCompleteAsync
+  fullName: SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync
+- uid: System.Threading.Tasks.Task{System.IO.Stream}
+  commentId: '!:System.Threading.Tasks.Task{System.IO.Stream}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Stream>
+  nameWithType: Task<Stream>
+  fullName: System.Threading.Tasks.Task<System.IO.Stream>
+  nameWithType.vb: Task(Of Stream)
+  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
+  name.vb: Task(Of Stream)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync*
+  commentId: Overload:SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync
   isExternal: true
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: SuperOffice.IO.ITempFileProvider.ReadFileChunk*
-  commentId: Overload:SuperOffice.IO.ITempFileProvider.ReadFileChunk
-  isExternal: true
-  name: ReadFileChunk
-  nameWithType: ITempFileProvider.ReadFileChunk
-  fullName: SuperOffice.IO.ITempFileProvider.ReadFileChunk
+  name: ReadFileChunkAsync
+  nameWithType: ITempFileProvider.ReadFileChunkAsync
+  fullName: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync
 - uid: System.Int64
   commentId: T:System.Int64
   parent: System
@@ -570,28 +752,74 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync*
+  commentId: Overload:SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.IO.ITempFileProvider.WriteFileComplete*
-  commentId: Overload:SuperOffice.IO.ITempFileProvider.WriteFileComplete
+  name: WriteFileCompleteAsync
+  nameWithType: ITempFileProvider.WriteFileCompleteAsync
+  fullName: SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync
+- uid: System.IO.Stream
   isExternal: true
-  name: WriteFileComplete
-  nameWithType: ITempFileProvider.WriteFileComplete
-  fullName: SuperOffice.IO.ITempFileProvider.WriteFileComplete
-- uid: SuperOffice.IO.ITempFileProvider.WriteFileChunk*
-  commentId: Overload:SuperOffice.IO.ITempFileProvider.WriteFileChunk
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: WriteFileChunk
-  nameWithType: ITempFileProvider.WriteFileChunk
-  fullName: SuperOffice.IO.ITempFileProvider.WriteFileChunk
-- uid: SuperOffice.IO.ITempFileProvider.DeleteFile*
-  commentId: Overload:SuperOffice.IO.ITempFileProvider.DeleteFile
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync*
+  commentId: Overload:SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync
   isExternal: true
-  name: DeleteFile
-  nameWithType: ITempFileProvider.DeleteFile
-  fullName: SuperOffice.IO.ITempFileProvider.DeleteFile
+  name: WriteFileChunkAsync
+  nameWithType: ITempFileProvider.WriteFileChunkAsync
+  fullName: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync
+- uid: SuperOffice.IO.ITempFileProvider.DeleteFileAsync*
+  commentId: Overload:SuperOffice.IO.ITempFileProvider.DeleteFileAsync
+  isExternal: true
+  name: DeleteFileAsync
+  nameWithType: ITempFileProvider.DeleteFileAsync
+  fullName: SuperOffice.IO.ITempFileProvider.DeleteFileAsync

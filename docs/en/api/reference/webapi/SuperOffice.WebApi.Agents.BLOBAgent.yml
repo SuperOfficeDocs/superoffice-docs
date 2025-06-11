@@ -14,7 +14,6 @@ items:
   - SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnCountryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -36,7 +35,6 @@ items:
   - SuperOffice.WebApi.Agents.BLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType,System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.SaveProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.BLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.SetBlobStreamAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.SetContactImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
@@ -86,7 +84,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.Dispose
@@ -1132,85 +1130,6 @@ items:
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetQuoteLineImageAsync*
   implements:
   - SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  id: GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.BLOBAgent
-  langs:
-  - csharp
-  - vb
-  name: GetAppDataAsync(String, RequestOptions)
-  nameWithType: BLOBAgent.GetAppDataAsync(String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync(System.String, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any\n"
-  syntax:
-    content: public Task<string> GetAppDataAsync(string key, RequestOptions requestOptions = null)
-    parameters:
-    - id: key
-      type: System.String
-      description: The key string, less than 200 characters. Must be unique within each application.
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task{System.String}
-      description: The applications value, suggested to be a JSON, XML or other readable structure
-    content.vb: Public Function GetAppDataAsync(key As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
-  overload: SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.WebApi.Agents.BLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.BLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
-  id: SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.BLOBAgent
-  langs:
-  - csharp
-  - vb
-  name: SetAppDataAsync(String, String, RequestOptions)
-  nameWithType: BLOBAgent.SetAppDataAsync(String, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.BLOBAgent.SetAppDataAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any. Existing data, if any, will be overwritten. Overwrite with a blank value to delete.\n"
-  syntax:
-    content: public Task SetAppDataAsync(string key, string data, RequestOptions requestOptions = null)
-    parameters:
-    - id: key
-      type: System.String
-      description: The key string, less than 200 characters. Must be unique within each application.
-    - id: data
-      type: System.String
-      description: The applications value, suggested to be a JSON, XML or other readable structure
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task
-      description: This method has no return value
-    content.vb: Public Function SetAppDataAsync(key As String, data As String, requestOptions As RequestOptions = Nothing) As Task
-  overload: SuperOffice.WebApi.Agents.BLOBAgent.SetAppDataAsync*
-  implements:
-  - SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2438,18 +2357,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  name: ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2471,10 +2390,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
-    name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    nameWithType: AgentBase.ThrowOnResponseErrorAsync
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4739,191 +4658,6 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync
-  isExternal: true
-  name: GetAppDataAsync
-  nameWithType: BLOBAgent.GetAppDataAsync
-  fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync
-- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IBLOBAgent
-  isExternal: true
-  name: GetAppDataAsync(String, RequestOptions)
-  nameWithType: IBLOBAgent.GetAppDataAsync(String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String, SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
-    name: GetAppDataAsync
-    nameWithType: IBLOBAgent.GetAppDataAsync
-    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
-    name: GetAppDataAsync
-    nameWithType: IBLOBAgent.GetAppDataAsync
-    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Threading.Tasks.Task{System.String}
-  commentId: '!:System.Threading.Tasks.Task{System.String}'
-  definition: System.Threading.Tasks.Task`1
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
-  nameWithType.vb: Task(Of String)
-  fullName.vb: System.Threading.Tasks.Task(Of System.String)
-  name.vb: Task(Of String)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Agents.BLOBAgent.SetAppDataAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.SetAppDataAsync
-  isExternal: true
-  name: SetAppDataAsync
-  nameWithType: BLOBAgent.SetAppDataAsync
-  fullName: SuperOffice.WebApi.Agents.BLOBAgent.SetAppDataAsync
-- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.IBLOBAgent
-  isExternal: true
-  name: SetAppDataAsync(String, String, RequestOptions)
-  nameWithType: IBLOBAgent.SetAppDataAsync(String, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
-    name: SetAppDataAsync
-    nameWithType: IBLOBAgent.SetAppDataAsync
-    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.WebApi.RequestOptions
-    name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
-    name: SetAppDataAsync
-    nameWithType: IBLOBAgent.SetAppDataAsync
-    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
   - name: ', '
     nameWithType: ', '

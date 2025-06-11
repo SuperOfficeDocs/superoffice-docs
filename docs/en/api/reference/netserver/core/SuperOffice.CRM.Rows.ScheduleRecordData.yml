@@ -58,7 +58,7 @@ items:
   - SuperOffice.CRM.Rows.ScheduleRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ScheduleRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ScheduleRecordData)
   - SuperOffice.CRM.Rows.ScheduleRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ScheduleRecordData.SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ScheduleRecordData.SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ScheduleRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -919,34 +919,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ScheduleRecordData.SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScheduleRecordData)
+- uid: SuperOffice.CRM.Rows.ScheduleRecordData.SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScheduleRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScheduleRecordData)
-  name: ToInsert()
-  nameWithType: ScheduleRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScheduleRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ScheduleRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ScheduleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScheduleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ScheduleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScheduleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1132,17 +1142,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScheduleRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScheduleRecordData)
+- uid: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScheduleRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScheduleRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ScheduleRecordData)
-  nameWithType: ScheduleRecordDataExtensions.ToInsert(ScheduleRecordData)
-  fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScheduleRecordData)
+  name: ToInsertAsync(ScheduleRecordData, CancellationToken)
+  nameWithType: ScheduleRecordDataExtensions.ToInsertAsync(ScheduleRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScheduleRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScheduleRecordData)
-    name: ToInsert
-    nameWithType: ScheduleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScheduleRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScheduleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1151,15 +1161,23 @@ references:
     name: ScheduleRecordData
     nameWithType: ScheduleRecordData
     fullName: SuperOffice.CRM.Rows.ScheduleRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScheduleRecordData)
-    name: ToInsert
-    nameWithType: ScheduleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScheduleRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ScheduleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ScheduleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1168,6 +1186,14 @@ references:
     name: ScheduleRecordData
     nameWithType: ScheduleRecordData
     fullName: SuperOffice.CRM.Rows.ScheduleRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

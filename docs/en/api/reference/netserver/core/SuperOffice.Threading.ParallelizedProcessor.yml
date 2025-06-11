@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.ParallelizedProcessor
+  commentId: T:SuperOffice.Threading.ParallelizedProcessor
+  id: ParallelizedProcessor
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.ParallelizedProcessor.#ctor
+  - SuperOffice.Threading.ParallelizedProcessor._controlPlane
+  - SuperOffice.Threading.ParallelizedProcessor.Cleanup
+  - SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync(SuperOffice.Threading.IParallelizedProcessorControlPlane,System.Threading.CancellationToken)
+  - SuperOffice.Threading.ParallelizedProcessor.Id
+  - SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: ParallelizedProcessor
+  nameWithType: ParallelizedProcessor
+  fullName: SuperOffice.Threading.ParallelizedProcessor
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nBase class for processing that can be run in parallel and controlled by the\n<xref href=\"SuperOffice.Threading.IParallelizedProcessorControlPlane\" data-throw-if-not-resolved=\"false\"></xref>.  This is typically an instance of\n<xref href=\"SuperOffice.Threading.ParallelProcessor%601\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  remarks: "\nClass implementing this abstract classes are responsible for processing parts in parallel,\nby implementint the abstract method <xref href=\"SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: 'public abstract class ParallelizedProcessor : Object'
+    content.vb: >-
+      Public MustInherit Class ParallelizedProcessor
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Threading.ParallelizedProcessor.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.ParallelizedProcessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.Threading.ParallelizedProcessor._controlPlane
+  commentId: F:SuperOffice.Threading.ParallelizedProcessor._controlPlane
+  id: _controlPlane
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: _controlPlane
+  nameWithType: ParallelizedProcessor._controlPlane
+  fullName: SuperOffice.Threading.ParallelizedProcessor._controlPlane
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nControle plane for the processor.\n"
+  syntax:
+    content: protected IParallelizedProcessorControlPlane _controlPlane
+    return:
+      type: SuperOffice.Threading.IParallelizedProcessorControlPlane
+    content.vb: Protected _controlPlane As IParallelizedProcessorControlPlane
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Threading.ParallelizedProcessor.#ctor
+  commentId: M:SuperOffice.Threading.ParallelizedProcessor.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: ParallelizedProcessor()
+  nameWithType: ParallelizedProcessor.ParallelizedProcessor()
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ParallelizedProcessor()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: protected ParallelizedProcessor()
+    content.vb: Protected Sub New
+  overload: SuperOffice.Threading.ParallelizedProcessor.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync(SuperOffice.Threading.IParallelizedProcessorControlPlane,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync(SuperOffice.Threading.IParallelizedProcessorControlPlane,System.Threading.CancellationToken)
+  id: ExecuteAsync(SuperOffice.Threading.IParallelizedProcessorControlPlane,System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: ExecuteAsync(IParallelizedProcessorControlPlane, CancellationToken)
+  nameWithType: ParallelizedProcessor.ExecuteAsync(IParallelizedProcessorControlPlane, CancellationToken)
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync(SuperOffice.Threading.IParallelizedProcessorControlPlane, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nCalled by the <xref href=\"SuperOffice.Threading.ParallelProcessor%601\" data-throw-if-not-resolved=\"false\"></xref> to start processing.\n"
+  remarks: "\nProcessing should continue as long as cancellation is not requested or\n<xref href=\"SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)\" data-throw-if-not-resolved=\"false\"></xref> returns false.\nAny exception occuring while processing, shoudl be reported to the control plane using\n<xref href=\"SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor%2cSystem.Exception)\" data-throw-if-not-resolved=\"false\"></xref>.  When processing\nhas ended, for any reason, the control plane should be notified by calling\n<xref href=\"SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)\" data-throw-if-not-resolved=\"false\"></xref>.  This will alse ensure that\nNew tasks are started up as needed.\n"
+  syntax:
+    content: public Task ExecuteAsync(IParallelizedProcessorControlPlane controlPlane, CancellationToken cancellationToken)
+    parameters:
+    - id: controlPlane
+      type: SuperOffice.Threading.IParallelizedProcessorControlPlane
+      description: Control plane backing the processing.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ExecuteAsync(controlPlane As IParallelizedProcessorControlPlane, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Threading.ParallelizedProcessor.Cleanup
+  commentId: M:SuperOffice.Threading.ParallelizedProcessor.Cleanup
+  id: Cleanup
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: Cleanup()
+  nameWithType: ParallelizedProcessor.Cleanup()
+  fullName: SuperOffice.Threading.ParallelizedProcessor.Cleanup()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nVirtual method that can be overridden by the derived class to perform cleanup when processing is done.\n"
+  syntax:
+    content: protected virtual void Cleanup()
+    content.vb: Protected Overridable Sub Cleanup
+  overload: SuperOffice.Threading.ParallelizedProcessor.Cleanup*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  id: ProcessPartAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: ProcessPartAsync(CancellationToken)
+  nameWithType: ParallelizedProcessor.ProcessPartAsync(CancellationToken)
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nAbstract method that must be implemented by the derived class to process a part of the work.\n"
+  syntax:
+    content: public abstract Task ProcessPartAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Work should be safely terminated on cancellation.  This is typically set when service is instructed to stop.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public MustOverride Function ProcessPartAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.Threading.ParallelizedProcessor.Id
+  commentId: P:SuperOffice.Threading.ParallelizedProcessor.Id
+  id: Id
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ParallelizedProcessor.Id
+  fullName: SuperOffice.Threading.ParallelizedProcessor.Id
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nProcess-wide uniqe identifier. of the processor.  Counter starts at 0, and is incremented for each new instance.\n"
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: SuperOffice.Threading.ParallelizedProcessor.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Threading.ParallelizedProcessor.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ParallelizedProcessor, To>()
+  nameWithType: EnumUtil.MapEnums<ParallelizedProcessor, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.ParallelizedProcessor, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ParallelizedProcessor, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.ParallelizedProcessor, To)()
+  name.vb: MapEnums(Of ParallelizedProcessor, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ParallelizedProcessor, To>
+    nameWithType: EnumUtil.MapEnums<ParallelizedProcessor, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.ParallelizedProcessor, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ParallelizedProcessor, To)
+    nameWithType: EnumUtil.MapEnums(Of ParallelizedProcessor, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.ParallelizedProcessor, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelizedProcessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ParallelizedProcessor, To>()
+  nameWithType: Converters.MapEnums<ParallelizedProcessor, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ParallelizedProcessor, To>()
+  nameWithType.vb: Converters.MapEnums(Of ParallelizedProcessor, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ParallelizedProcessor, To)()
+  name.vb: MapEnums(Of ParallelizedProcessor, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ParallelizedProcessor, To>
+    nameWithType: Converters.MapEnums<ParallelizedProcessor, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ParallelizedProcessor, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ParallelizedProcessor, To)
+    nameWithType: Converters.MapEnums(Of ParallelizedProcessor, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ParallelizedProcessor, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.IParallelizedProcessorControlPlane
+  commentId: T:SuperOffice.Threading.IParallelizedProcessorControlPlane
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: IParallelizedProcessorControlPlane
+  nameWithType: IParallelizedProcessorControlPlane
+  fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane
+- uid: SuperOffice.Threading.ParallelizedProcessor.#ctor*
+  commentId: Overload:SuperOffice.Threading.ParallelizedProcessor.#ctor
+  isExternal: true
+  name: ParallelizedProcessor
+  nameWithType: ParallelizedProcessor.ParallelizedProcessor
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ParallelizedProcessor
+- uid: SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync*
+  commentId: Overload:SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync
+  isExternal: true
+  name: ExecuteAsync
+  nameWithType: ParallelizedProcessor.ExecuteAsync
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Threading.ParallelizedProcessor.Cleanup*
+  commentId: Overload:SuperOffice.Threading.ParallelizedProcessor.Cleanup
+  isExternal: true
+  name: Cleanup
+  nameWithType: ParallelizedProcessor.Cleanup
+  fullName: SuperOffice.Threading.ParallelizedProcessor.Cleanup
+- uid: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync*
+  commentId: Overload:SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync
+  isExternal: true
+  name: ProcessPartAsync
+  nameWithType: ParallelizedProcessor.ProcessPartAsync
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync
+- uid: SuperOffice.Threading.ParallelizedProcessor.Id*
+  commentId: Overload:SuperOffice.Threading.ParallelizedProcessor.Id
+  isExternal: true
+  name: Id
+  nameWithType: ParallelizedProcessor.Id
+  fullName: SuperOffice.Threading.ParallelizedProcessor.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

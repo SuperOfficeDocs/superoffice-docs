@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.AmountClassTableInfo})
   - SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo})
-  - SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
-  - SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData})
+  - SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.AmountClassRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo})
+- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<AmountClassTableInfo>)
-  nameWithType: AmountClassRecordDataExtensions.FromSelect(TargetedSelect<AmountClassTableInfo>)
-  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.AmountClassTableInfo>)
+  name: FromSelectAsync(TargetedSelect<AmountClassTableInfo>, CancellationToken)
+  nameWithType: AmountClassRecordDataExtensions.FromSelectAsync(TargetedSelect<AmountClassTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.AmountClassTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<AmountClassRecordData> FromSelect(this TargetedSelect<AmountClassTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<AmountClassRecordData> FromSelectAsync(this TargetedSelect<AmountClassTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of AmountClassTableInfo)) As IEnumerable(Of AmountClassRecordData)
-  overload: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect*
-  nameWithType.vb: AmountClassRecordDataExtensions.FromSelect(TargetedSelect(Of AmountClassTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of AmountClassTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of AmountClassRecordData)
+  overload: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: AmountClassRecordDataExtensions.FromSelectAsync(TargetedSelect(Of AmountClassTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.AmountClassTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of AmountClassTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.AmountClassTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of AmountClassTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.AmountClassTableInfo})
   commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.AmountClassTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.AmountClassTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.AmountClassTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of AmountClassTableInfo))
-- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
-  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
+- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(AmountClassRecordData)
-  nameWithType: AmountClassRecordDataExtensions.ToInsert(AmountClassRecordData)
-  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AmountClassRecordData)
+  name: ToInsertAsync(AmountClassRecordData, CancellationToken)
+  nameWithType: AmountClassRecordDataExtensions.ToInsertAsync(AmountClassRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AmountClassRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this AmountClassRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this AmountClassRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.AmountClassRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As AmountClassRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As AmountClassRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData})
-  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData})
+- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<AmountClassRecordData>)
-  nameWithType: AmountClassRecordDataExtensions.ToInserts(IEnumerable<AmountClassRecordData>)
-  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.AmountClassRecordData>)
+  name: ToInsertsAsync(IEnumerable<AmountClassRecordData>, CancellationToken)
+  nameWithType: AmountClassRecordDataExtensions.ToInsertsAsync(IEnumerable<AmountClassRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.AmountClassRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<AmountClassRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<AmountClassRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of AmountClassRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInserts*
-  nameWithType.vb: AmountClassRecordDataExtensions.ToInserts(IEnumerable(Of AmountClassRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of AmountClassRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: AmountClassRecordDataExtensions.ToInsertsAsync(IEnumerable(Of AmountClassRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.AmountClassRecordData))
-  name.vb: ToInserts(IEnumerable(Of AmountClassRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.AmountClassRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of AmountClassRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.AmountClassRow)
   commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.AmountClassRow)
   id: ToRecordData(SuperOffice.CRM.Rows.AmountClassRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<AmountClassTableInfo>)
+  nameWithType: AmountClassRecordDataExtensions.FromSelect(TargetedSelect<AmountClassTableInfo>)
+  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.AmountClassTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;AmountClassTableInfo>, execute it and return an IEnumerable&lt;AmountClassRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<AmountClassRecordData> FromSelect(this TargetedSelect<AmountClassTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of AmountClassTableInfo)) As IEnumerable(Of AmountClassRecordData)
+  overload: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect*
+  nameWithType.vb: AmountClassRecordDataExtensions.FromSelect(TargetedSelect(Of AmountClassTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.AmountClassTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of AmountClassTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: AmountClassRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: AmountClassRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.AmountClassTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<AmountClassRecordData>
-  nameWithType: IEnumerable<AmountClassRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.AmountClassRecordData>
-  nameWithType.vb: IEnumerable(Of AmountClassRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.AmountClassRecordData)
-  name.vb: IEnumerable(Of AmountClassRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<AmountClassRecordData>
+  nameWithType: IAsyncEnumerable<AmountClassRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.AmountClassRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of AmountClassRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.AmountClassRecordData)
+  name.vb: IAsyncEnumerable(Of AmountClassRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: AmountClassRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: AmountClassRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: AmountClassRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: AmountClassRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AmountClassRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<AmountClassRecordData>
+  nameWithType: IEnumerable<AmountClassRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.AmountClassRecordData>
+  nameWithType.vb: IEnumerable(Of AmountClassRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.AmountClassRecordData)
+  name.vb: IEnumerable(Of AmountClassRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.AmountClassRecordData
+    name: AmountClassRecordData
+    nameWithType: AmountClassRecordData
+    fullName: SuperOffice.CRM.Rows.AmountClassRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.AmountClassRecordData
+    name: AmountClassRecordData
+    nameWithType: AmountClassRecordData
+    fullName: SuperOffice.CRM.Rows.AmountClassRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: AmountClassRow
   nameWithType: AmountClassRow
   fullName: SuperOffice.CRM.Rows.AmountClassRow
+- uid: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: AmountClassRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.AmountClassRecordDataExtensions.FromSelect

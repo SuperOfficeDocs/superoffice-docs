@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
   - SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
-  - SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData)
-  - SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData})
+  - SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
+- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<StakeholderRoleHeadingLinkTableInfo>)
-  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect<StakeholderRoleHeadingLinkTableInfo>)
-  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo>)
+  name: FromSelectAsync(TargetedSelect<StakeholderRoleHeadingLinkTableInfo>, CancellationToken)
+  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync(TargetedSelect<StakeholderRoleHeadingLinkTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<StakeholderRoleHeadingLinkRecordData> FromSelect(this TargetedSelect<StakeholderRoleHeadingLinkTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<StakeholderRoleHeadingLinkRecordData> FromSelectAsync(this TargetedSelect<StakeholderRoleHeadingLinkTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of StakeholderRoleHeadingLinkTableInfo)) As IEnumerable(Of StakeholderRoleHeadingLinkRecordData)
-  overload: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect*
-  nameWithType.vb: StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect(Of StakeholderRoleHeadingLinkTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of StakeholderRoleHeadingLinkTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of StakeholderRoleHeadingLinkRecordData)
+  overload: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync(TargetedSelect(Of StakeholderRoleHeadingLinkTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of StakeholderRoleHeadingLinkTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of StakeholderRoleHeadingLinkTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
   commentId: M:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of StakeholderRoleHeadingLinkTableInfo))
-- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData)
+- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(StakeholderRoleHeadingLinkRecordData)
-  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.ToInsert(StakeholderRoleHeadingLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData)
+  name: ToInsertAsync(StakeholderRoleHeadingLinkRecordData, CancellationToken)
+  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertAsync(StakeholderRoleHeadingLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this StakeholderRoleHeadingLinkRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this StakeholderRoleHeadingLinkRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As StakeholderRoleHeadingLinkRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As StakeholderRoleHeadingLinkRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData})
-  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData})
+- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<StakeholderRoleHeadingLinkRecordData>)
-  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts(IEnumerable<StakeholderRoleHeadingLinkRecordData>)
-  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData>)
+  name: ToInsertsAsync(IEnumerable<StakeholderRoleHeadingLinkRecordData>, CancellationToken)
+  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync(IEnumerable<StakeholderRoleHeadingLinkRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<StakeholderRoleHeadingLinkRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<StakeholderRoleHeadingLinkRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of StakeholderRoleHeadingLinkRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts*
-  nameWithType.vb: StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts(IEnumerable(Of StakeholderRoleHeadingLinkRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of StakeholderRoleHeadingLinkRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync(IEnumerable(Of StakeholderRoleHeadingLinkRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData))
-  name.vb: ToInserts(IEnumerable(Of StakeholderRoleHeadingLinkRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of StakeholderRoleHeadingLinkRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRow)
   commentId: M:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRow)
   id: ToRecordData(SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<StakeholderRoleHeadingLinkTableInfo>)
+  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect<StakeholderRoleHeadingLinkTableInfo>)
+  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;StakeholderRoleHeadingLinkTableInfo>, execute it and return an IEnumerable&lt;StakeholderRoleHeadingLinkRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<StakeholderRoleHeadingLinkRecordData> FromSelect(this TargetedSelect<StakeholderRoleHeadingLinkTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of StakeholderRoleHeadingLinkTableInfo)) As IEnumerable(Of StakeholderRoleHeadingLinkRecordData)
+  overload: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect*
+  nameWithType.vb: StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(TargetedSelect(Of StakeholderRoleHeadingLinkTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of StakeholderRoleHeadingLinkTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<StakeholderRoleHeadingLinkRecordData>
-  nameWithType: IEnumerable<StakeholderRoleHeadingLinkRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData>
-  nameWithType.vb: IEnumerable(Of StakeholderRoleHeadingLinkRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData)
-  name.vb: IEnumerable(Of StakeholderRoleHeadingLinkRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<StakeholderRoleHeadingLinkRecordData>
+  nameWithType: IAsyncEnumerable<StakeholderRoleHeadingLinkRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of StakeholderRoleHeadingLinkRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData)
+  name.vb: IAsyncEnumerable(Of StakeholderRoleHeadingLinkRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<StakeholderRoleHeadingLinkRecordData>
+  nameWithType: IEnumerable<StakeholderRoleHeadingLinkRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData>
+  nameWithType.vb: IEnumerable(Of StakeholderRoleHeadingLinkRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData)
+  name.vb: IEnumerable(Of StakeholderRoleHeadingLinkRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData
+    name: StakeholderRoleHeadingLinkRecordData
+    nameWithType: StakeholderRoleHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData
+    name: StakeholderRoleHeadingLinkRecordData
+    nameWithType: StakeholderRoleHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: StakeholderRoleHeadingLinkRow
   nameWithType: StakeholderRoleHeadingLinkRow
   fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRow
+- uid: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRecordDataExtensions.FromSelect

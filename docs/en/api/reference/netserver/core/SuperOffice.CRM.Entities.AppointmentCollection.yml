@@ -12,28 +12,28 @@ items:
   - SuperOffice.CRM.Entities.AppointmentCollection.AddNew
   - SuperOffice.CRM.Entities.AppointmentCollection.CreateChild
   - SuperOffice.CRM.Entities.AppointmentCollection.CreateNew
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearch(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate(System.DateTime)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime,System.Int32,System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId(System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(System.Int32,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32,System.Int32,System.DateTime)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,SuperOffice.Data.AppointmentType)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId(System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdType(System.Int32,SuperOffice.Data.AppointmentType)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy(System.DateTime)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId(System.DateTime,SuperOffice.Data.AppointmentType,System.DateTime,System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId(System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone(System.DateTime)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx(System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherId(System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId(System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId(System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdType(System.Int32,SuperOffice.Data.AppointmentType)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource(System.Int16)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId(System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id(System.Int32)
-  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId(System.Int32)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearchAsync(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate(System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateIdAsync(System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(System.Int32,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32,System.Int32,System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdTypeAsync(System.Int32,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy(System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateIdAsync(System.DateTime,SuperOffice.Data.AppointmentType,System.DateTime,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone(System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdTypeAsync(System.Int32,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource(System.Int16,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.AppointmentCollection.Index
   - SuperOffice.CRM.Entities.AppointmentCollection.Item(System.Int32)
   - SuperOffice.CRM.Entities.AppointmentCollection.Remove(SuperOffice.CRM.Entities.Appointment)
@@ -55,13 +55,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   summary: "\n<p>Appointments, documents (document_id != 0).  </p>\nCollection of Appointment. Each element of the collection represents one entity based on Appointment.\n"
-  remarks: "\nEntity collections can be created in several ways. \n<ul><li>Use the static <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.CreateNew\" data-throw-if-not-resolved=\"false\"></xref> method to create a new, empty collection. You can then add objects of type\n<see cref=\"!:SuperOffice.CRM.Rows.Appointment\"></see> to it, and use methods like <see cref=\"!:Save\"></see> to operate on the whole collection.</li><li>You can create a (nested) AppointmentCollection <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch\" data-throw-if-not-resolved=\"false\"></xref> object to obtain a query pre-populated with\nthe correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearch(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch)\" data-throw-if-not-resolved=\"false\"></xref> method\nto apply the query to the database and obtain the result as an EntityCollection object, with one item for each table row that matched your query.</li><li>For each non-unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy.</li></ul>\nUnique indexes are handled through the <xref href=\"SuperOffice.CRM.Entities.Appointment\" data-throw-if-not-resolved=\"false\"></xref> object directly,\nwhich has nested classes and GetFromIdx methods for each unique index. \n<p></p>Unique indexes on table Appointment are: <table><thead><tr><th>Index fields</th><th>Nested index class name</th></tr></thead><tbody><tr><td>AppointmentId</td><td>AppointmentId: <p>Primary key  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.Appointment.IdxAppointmentId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.Appointment.GetFromIdxAppointmentId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ActiveDate, MotherId, Type, DocumentId, AppointmentId, AssignedBy, AssociateId, ProjectId, GroupIdx, Registered, RegisteredAssociateId</td><td>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>MotherId: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>Type: <p>See note.  </p>DocumentId: <p>Points to document record; 0 for non-document appointments!  </p>AppointmentId: <p>Primary key  </p>AssignedBy: <p>Who (last) assigned this appointment to associate_id?  </p>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>ProjectId: <p>ID of project referred to, may be 0  </p>GroupIdx: <p>Group of owning associate at the time the appnt was created  </p>Registered: <p>Registered on  </p>RegisteredAssociateId: <p>Registered by  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.Appointment.IdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.Appointment.GetFromIdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId(System.DateTime%2cSystem.Int32%2cSuperOffice.Data.AppointmentType%2cSystem.Int32%2cSystem.Int32%2cSystem.Int32%2cSystem.Int32%2cSystem.Int32%2cSystem.Int32%2cSystem.DateTime%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ActiveDate, AssociateId, AppointmentId, MotherId</td><td>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>AppointmentId: <p>Primary key  </p>MotherId: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.Appointment.IdxActiveDateAssociateIdAppointmentIdMotherId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.Appointment.GetFromIdxActiveDateAssociateIdAppointmentIdMotherId(System.DateTime%2cSystem.Int32%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>AssociateId, GroupIdx, ActiveDate, Type, Registered, MotherId, AppointmentId, AssignedBy, Status, RegisteredAssociateId</td><td>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>GroupIdx: <p>Group of owning associate at the time the appnt was created  </p>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>Type: <p>See note.  </p>Registered: <p>Registered on  </p>MotherId: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>AppointmentId: <p>Primary key  </p>AssignedBy: <p>Who (last) assigned this appointment to associate_id?  </p>Status: <p>See note.  </p>RegisteredAssociateId: <p>Registered by  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.Appointment.IdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.Appointment.GetFromIdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId(System.Int32%2cSystem.Int32%2cSystem.DateTime%2cSuperOffice.Data.AppointmentType%2cSystem.DateTime%2cSystem.Int32%2cSystem.Int32%2cSystem.Int32%2cSuperOffice.Data.AppointmentStatus%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr></tbody></table>Non-unique indexes on table Appointment are: <table><thead><tr><th>Index fields</th><th>Nested index class name</th></tr></thead><tbody><tr><td>ActiveDate, Status, Type, AssociateId</td><td>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>Status: <p>See note.  </p>Type: <p>See note.  </p>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateStatusTypeAssociateId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId(System.DateTime%2cSuperOffice.Data.AppointmentStatus%2cSuperOffice.Data.AppointmentType%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ContactId, Type</td><td>ContactId: <p>Contact ID of owning contact, may be 0  </p>Type: <p>See note.  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxContactIdType\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdType(System.Int32%2cSuperOffice.Data.AppointmentType)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ProjectId, Type</td><td>ProjectId: <p>ID of project referred to, may be 0  </p>Type: <p>See note.  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectIdType\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdType(System.Int32%2cSuperOffice.Data.AppointmentType)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>MotherId</td><td>MotherId: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxMotherId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>DoBy, Type, EndDate, AssociateId</td><td>DoBy: <p>Date + start time planned  </p>Type: <p>See note.  </p>EndDate: <p>Date + end time planned  </p>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxDoByTypeEndDateAssociateId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId(System.DateTime%2cSuperOffice.Data.AppointmentType%2cSystem.DateTime%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ActiveDate</td><td>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDate\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>AssociateId, DoBy, Status, Type</td><td>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>DoBy: <p>Date + start time planned  </p>Status: <p>See note.  </p>Type: <p>See note.  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdDoByStatusType\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(System.Int32%2cSystem.DateTime%2cSuperOffice.Data.AppointmentStatus%2cSuperOffice.Data.AppointmentType)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ActiveDate, MotherId, RecurrenceRuleId</td><td>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>MotherId: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>RecurrenceRuleId: <p>Pointer to recurrence rule, for recurring appointments, otherwise 0  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateMotherIdRecurrenceRuleId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>Source</td><td>Source: <p>For future integration use; source of record  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxSource\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource(System.Int16)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ContactId</td><td>ContactId: <p>Contact ID of owning contact, may be 0  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxContactId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ProjectId</td><td>ProjectId: <p>ID of project referred to, may be 0  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>DocumentId</td><td>DocumentId: <p>Points to document record; 0 for non-document appointments!  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxDocumentId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>AssociateId, Status, Done, Type</td><td>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>Status: <p>See note.  </p>Done: <p>Date + start time this task was actually performed  </p>Type: <p>See note.  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdStatusDoneType\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(System.Int32%2cSuperOffice.Data.AppointmentStatus%2cSystem.DateTime%2cSuperOffice.Data.AppointmentType)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>PersonId</td><td>PersonId: <p>Person ID of person the appointment is with, may be 0; if nonzero, must match the contact_id (which must then also be nonzero).  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxPersonId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>AssociateId, RecurrenceRuleId, ActiveDate</td><td>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>RecurrenceRuleId: <p>Pointer to recurrence rule, for recurring appointments, otherwise 0  </p>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdRecurrenceRuleIdActiveDate\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32%2cSystem.Int32%2cSystem.DateTime)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>GroupIdx</td><td>GroupIdx: <p>Group of owning associate at the time the appnt was created  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxGroupIdx\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>UserdefId</td><td>UserdefId: <p>User-defined table record 1 (for future use)  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdefId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>DoBy</td><td>DoBy: <p>Date + start time planned  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxDoBy\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>TextId</td><td>TextId: <p>ID of record containing appointment text, may be 0 for no text; note that bookings share a common text record  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxTextId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>Userdef2Id</td><td>Userdef2Id: <p>User-defined table record 2 (for future use)  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdef2Id\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>Done</td><td>Done: <p>Date + start time this task was actually performed  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxDone\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref></td></tr></tbody></table>\n<p></p>\n"
+  remarks: "\nEntity collections can be created in several ways. \n<ul><li>Use the static <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.CreateNew\" data-throw-if-not-resolved=\"false\"></xref> method to create a new, empty collection. You can then add objects of type\n<see cref=\"!:SuperOffice.CRM.Rows.Appointment\"></see> to it, and use methods like <see cref=\"!:Save\"></see> to operate on the whole collection.</li><li>You can create a (nested) AppointmentCollection <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch\" data-throw-if-not-resolved=\"false\"></xref> object to obtain a query pre-populated with\nthe correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <see cref=\"!:GetFromCustomSearch\"></see> method\nto apply the query to the database and obtain the result as an EntityCollection object, with one item for each table row that matched your query.</li><li>For each non-unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy.</li></ul>\nUnique indexes are handled through the <xref href=\"SuperOffice.CRM.Entities.Appointment\" data-throw-if-not-resolved=\"false\"></xref> object directly,\nwhich has nested classes and GetFromIdx methods for each unique index. \n<p></p>Unique indexes on table Appointment are: <table><thead><tr><th>Index fields</th><th>Nested index class name</th></tr></thead><tbody><tr><td>AppointmentId</td><td>AppointmentId: <p>Primary key  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.Appointment.IdxAppointmentId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.Appointment.GetFromIdxAppointmentIdAsync(System.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ActiveDate, MotherId, Type, DocumentId, AppointmentId, AssignedBy, AssociateId, ProjectId, GroupIdx, Registered, RegisteredAssociateId</td><td>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>MotherId: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>Type: <p>See note.  </p>DocumentId: <p>Points to document record; 0 for non-document appointments!  </p>AppointmentId: <p>Primary key  </p>AssignedBy: <p>Who (last) assigned this appointment to associate_id?  </p>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>ProjectId: <p>ID of project referred to, may be 0  </p>GroupIdx: <p>Group of owning associate at the time the appnt was created  </p>Registered: <p>Registered on  </p>RegisteredAssociateId: <p>Registered by  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.Appointment.IdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.Appointment.GetFromIdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId\"></see></td></tr><tr><td>ActiveDate, AssociateId, AppointmentId, MotherId</td><td>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>AppointmentId: <p>Primary key  </p>MotherId: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.Appointment.IdxActiveDateAssociateIdAppointmentIdMotherId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.Appointment.GetFromIdxActiveDateAssociateIdAppointmentIdMotherId\"></see></td></tr><tr><td>AssociateId, GroupIdx, ActiveDate, Type, Registered, MotherId, AppointmentId, AssignedBy, Status, RegisteredAssociateId</td><td>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>GroupIdx: <p>Group of owning associate at the time the appnt was created  </p>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>Type: <p>See note.  </p>Registered: <p>Registered on  </p>MotherId: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>AppointmentId: <p>Primary key  </p>AssignedBy: <p>Who (last) assigned this appointment to associate_id?  </p>Status: <p>See note.  </p>RegisteredAssociateId: <p>Registered by  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.Appointment.IdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.Appointment.GetFromIdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId\"></see></td></tr></tbody></table>Non-unique indexes on table Appointment are: <table><thead><tr><th>Index fields</th><th>Nested index class name</th></tr></thead><tbody><tr><td>ActiveDate, Status, Type, AssociateId</td><td>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>Status: <p>See note.  </p>Type: <p>See note.  </p>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateStatusTypeAssociateId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId\"></see></td></tr><tr><td>ContactId, Type</td><td>ContactId: <p>Contact ID of owning contact, may be 0  </p>Type: <p>See note.  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxContactIdType\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdType\"></see></td></tr><tr><td>ProjectId, Type</td><td>ProjectId: <p>ID of project referred to, may be 0  </p>Type: <p>See note.  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectIdType\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdType\"></see></td></tr><tr><td>MotherId</td><td>MotherId: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxMotherId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherId\"></see></td></tr><tr><td>DoBy, Type, EndDate, AssociateId</td><td>DoBy: <p>Date + start time planned  </p>Type: <p>See note.  </p>EndDate: <p>Date + end time planned  </p>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxDoByTypeEndDateAssociateId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <see cref=\"!:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId\"></see></td></tr><tr><td>ActiveDate</td><td>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDate\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate(System.DateTime%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>AssociateId, DoBy, Status, Type</td><td>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>DoBy: <p>Date + start time planned  </p>Status: <p>See note.  </p>Type: <p>See note.  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdDoByStatusType\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(System.Int32%2cSystem.DateTime%2cSuperOffice.Data.AppointmentStatus%2cSuperOffice.Data.AppointmentType%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ActiveDate, MotherId, RecurrenceRuleId</td><td>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>MotherId: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>RecurrenceRuleId: <p>Pointer to recurrence rule, for recurring appointments, otherwise 0  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateMotherIdRecurrenceRuleId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime%2cSystem.Int32%2cSystem.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>Source</td><td>Source: <p>For future integration use; source of record  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxSource\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource(System.Int16%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ContactId</td><td>ContactId: <p>Contact ID of owning contact, may be 0  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxContactId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId(System.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ProjectId</td><td>ProjectId: <p>ID of project referred to, may be 0  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId(System.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>DocumentId</td><td>DocumentId: <p>Points to document record; 0 for non-document appointments!  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxDocumentId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId(System.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>AssociateId, Status, Done, Type</td><td>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>Status: <p>See note.  </p>Done: <p>Date + start time this task was actually performed  </p>Type: <p>See note.  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdStatusDoneType\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(System.Int32%2cSuperOffice.Data.AppointmentStatus%2cSystem.DateTime%2cSuperOffice.Data.AppointmentType%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>PersonId</td><td>PersonId: <p>Person ID of person the appointment is with, may be 0; if nonzero, must match the contact_id (which must then also be nonzero).  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxPersonId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId(System.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>AssociateId, RecurrenceRuleId, ActiveDate</td><td>AssociateId: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>RecurrenceRuleId: <p>Pointer to recurrence rule, for recurring appointments, otherwise 0  </p>ActiveDate: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdRecurrenceRuleIdActiveDate\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32%2cSystem.Int32%2cSystem.DateTime%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>GroupIdx</td><td>GroupIdx: <p>Group of owning associate at the time the appnt was created  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxGroupIdx\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx(System.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>UserdefId</td><td>UserdefId: <p>User-defined table record 1 (for future use)  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdefId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId(System.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>DoBy</td><td>DoBy: <p>Date + start time planned  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxDoBy\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy(System.DateTime%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>TextId</td><td>TextId: <p>ID of record containing appointment text, may be 0 for no text; note that bookings share a common text record  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxTextId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId(System.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>Userdef2Id</td><td>Userdef2Id: <p>User-defined table record 2 (for future use)  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdef2Id\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id(System.Int32%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>Done</td><td>Done: <p>Date + start time this task was actually performed  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.IdxDone\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone(System.DateTime%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref></td></tr></tbody></table>\n<p></p>\n"
   syntax:
-    content: 'public class AppointmentCollection : EntityCollectionBase, INestedPersist, IEnumerable<INestedPersist>, ISoCollection, IEnumerable, IList, ICollection, ITableRowLoadHandlerFactory, INotifyCollectionChanged, IBindingList'
+    content: 'public class AppointmentCollection : EntityCollectionBase, INestedPersist, IEnumerable<INestedPersist>, IList, ICollection, IEnumerable, ITableRowLoadHandlerFactory, INotifyCollectionChanged, IBindingList'
     content.vb: >-
       Public Class AppointmentCollection
           Inherits EntityCollectionBase
-          Implements INestedPersist, IEnumerable(Of INestedPersist), ISoCollection, IEnumerable, IList, ICollection, ITableRowLoadHandlerFactory, INotifyCollectionChanged, IBindingList
+          Implements INestedPersist, IEnumerable(Of INestedPersist), IList, ICollection, IEnumerable, ITableRowLoadHandlerFactory, INotifyCollectionChanged, IBindingList
   inheritance:
   - System.Object
   - SuperOffice.Data.NestedPersist
@@ -71,19 +71,16 @@ items:
   implements:
   - SuperOffice.Data.INestedPersist
   - System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  - SuperOffice.Data.ISoCollection
-  - System.Collections.IEnumerable
   - System.Collections.IList
   - System.Collections.ICollection
+  - System.Collections.IEnumerable
   - System.Collections.Specialized.INotifyCollectionChanged
   - System.ComponentModel.IBindingList
   inheritedMembers:
   - SuperOffice.CRM.Entities.EntityCollectionBase._innerList
-  - SuperOffice.CRM.Entities.EntityCollectionBase.Delete
+  - SuperOffice.CRM.Entities.EntityCollectionBase.DeleteAsync
   - SuperOffice.CRM.Entities.EntityCollectionBase.GetEnumerator
   - SuperOffice.CRM.Entities.EntityCollectionBase.Add(SuperOffice.CRM.Entities.EntityBase)
-  - SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
-  - SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice#Data#ISoCollection#AddNew
   - SuperOffice.CRM.Entities.EntityCollectionBase.Remove(SuperOffice.CRM.Entities.EntityBase)
   - SuperOffice.CRM.Entities.EntityCollectionBase.CopyTo(System.Array,System.Int32)
   - SuperOffice.CRM.Entities.EntityCollectionBase.IndexOf(System.Object)
@@ -110,22 +107,22 @@ items:
   - SuperOffice.CRM.Entities.EntityCollectionBase.ListChanged
   - SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
   - SuperOffice.Data.NestedCollectionPersist.IsDeleted
-  - SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-  - SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+  - SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
   - SuperOffice.Data.NestedPersist._saveOwner
   - SuperOffice.Data.NestedPersist._isSaving
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
-  - SuperOffice.Data.NestedPersist.Save
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.SaveAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
@@ -287,16 +284,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearch(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearch(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch)
-  id: GetFromCustomSearch(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearchAsync(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearchAsync(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch,System.Threading.CancellationToken)
+  id: GetFromCustomSearchAsync(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromCustomSearch(AppointmentCollection.CustomSearch)
-  nameWithType: AppointmentCollection.GetFromCustomSearch(AppointmentCollection.CustomSearch)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearch(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch)
+  name: GetFromCustomSearchAsync(AppointmentCollection.CustomSearch, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromCustomSearchAsync(AppointmentCollection.CustomSearch, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearchAsync(SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -306,32 +303,34 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nCreate a new instance of the AppointmentCollection object, and populate it with data from a custom search.\nIf the search returns no results, an empty collection will be returned; if the result contains\nrows, a collection of AppointmentRow objects representing each row will be returned. \n"
   syntax:
-    content: public static AppointmentCollection GetFromCustomSearch(AppointmentCollection.CustomSearch query)
+    content: public static Task<AppointmentCollection> GetFromCustomSearchAsync(AppointmentCollection.CustomSearch query, CancellationToken cancellationToken = null)
     parameters:
     - id: query
       type: SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch
       description: The custom search to execute against the database
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: A new instance of the AppointmentCollection object, reflecting the result of the query.
-    content.vb: Public Shared Function GetFromCustomSearch(query As AppointmentCollection.CustomSearch) As AppointmentCollection
-  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearch*
+    content.vb: Public Shared Function GetFromCustomSearchAsync(query As AppointmentCollection.CustomSearch, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
+  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearchAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId(System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId(System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32)
-  id: GetFromIdxActiveDateStatusTypeAssociateId(System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateIdAsync(System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateIdAsync(System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxActiveDateStatusTypeAssociateIdAsync(System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxActiveDateStatusTypeAssociateId(DateTime, AppointmentStatus, AppointmentType, Int32)
-  nameWithType: AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId(DateTime, AppointmentStatus, AppointmentType, Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId(System.DateTime, SuperOffice.Data.AppointmentStatus, SuperOffice.Data.AppointmentType, System.Int32)
+  name: GetFromIdxActiveDateStatusTypeAssociateIdAsync(DateTime, AppointmentStatus, AppointmentType, Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateIdAsync(DateTime, AppointmentStatus, AppointmentType, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateIdAsync(System.DateTime, SuperOffice.Data.AppointmentStatus, SuperOffice.Data.AppointmentType, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -342,7 +341,7 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IAssoc_idTypeStatusActiveDate. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxActiveDateStatusTypeAssociateId(DateTime activeDate, AppointmentStatus status, AppointmentType type, int associateId)
+    content: public static Task<AppointmentCollection> GetFromIdxActiveDateStatusTypeAssociateIdAsync(DateTime activeDate, AppointmentStatus status, AppointmentType type, int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: activeDate
       type: System.DateTime
@@ -356,27 +355,29 @@ items:
     - id: associateId
       type: System.Int32
       description: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxActiveDateStatusTypeAssociateId(activeDate As DateTime, status As AppointmentStatus, type As AppointmentType, associateId As Integer) As AppointmentCollection
-  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId*
+    content.vb: Public Shared Function GetFromIdxActiveDateStatusTypeAssociateIdAsync(activeDate As DateTime, status As AppointmentStatus, type As AppointmentType, associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
+  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdType(System.Int32,SuperOffice.Data.AppointmentType)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdType(System.Int32,SuperOffice.Data.AppointmentType)
-  id: GetFromIdxContactIdType(System.Int32,SuperOffice.Data.AppointmentType)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdTypeAsync(System.Int32,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdTypeAsync(System.Int32,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  id: GetFromIdxContactIdTypeAsync(System.Int32,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxContactIdType(Int32, AppointmentType)
-  nameWithType: AppointmentCollection.GetFromIdxContactIdType(Int32, AppointmentType)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdType(System.Int32, SuperOffice.Data.AppointmentType)
+  name: GetFromIdxContactIdTypeAsync(Int32, AppointmentType, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxContactIdTypeAsync(Int32, AppointmentType, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdTypeAsync(System.Int32, SuperOffice.Data.AppointmentType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -387,7 +388,7 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index ICont_idType. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxContactIdType(int contactId, AppointmentType type)
+    content: public static Task<AppointmentCollection> GetFromIdxContactIdTypeAsync(int contactId, AppointmentType type, CancellationToken cancellationToken)
     parameters:
     - id: contactId
       type: System.Int32
@@ -395,27 +396,29 @@ items:
     - id: type
       type: SuperOffice.Data.AppointmentType
       description: <p>See note.  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxContactIdType(contactId As Integer, type As AppointmentType) As AppointmentCollection
-  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdType*
+    content.vb: Public Shared Function GetFromIdxContactIdTypeAsync(contactId As Integer, type As AppointmentType, cancellationToken As CancellationToken) As Task(Of AppointmentCollection)
+  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdTypeAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdType(System.Int32,SuperOffice.Data.AppointmentType)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdType(System.Int32,SuperOffice.Data.AppointmentType)
-  id: GetFromIdxProjectIdType(System.Int32,SuperOffice.Data.AppointmentType)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdTypeAsync(System.Int32,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdTypeAsync(System.Int32,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  id: GetFromIdxProjectIdTypeAsync(System.Int32,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxProjectIdType(Int32, AppointmentType)
-  nameWithType: AppointmentCollection.GetFromIdxProjectIdType(Int32, AppointmentType)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdType(System.Int32, SuperOffice.Data.AppointmentType)
+  name: GetFromIdxProjectIdTypeAsync(Int32, AppointmentType, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxProjectIdTypeAsync(Int32, AppointmentType, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdTypeAsync(System.Int32, SuperOffice.Data.AppointmentType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -426,7 +429,7 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IProj_idType. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxProjectIdType(int projectId, AppointmentType type)
+    content: public static Task<AppointmentCollection> GetFromIdxProjectIdTypeAsync(int projectId, AppointmentType type, CancellationToken cancellationToken)
     parameters:
     - id: projectId
       type: System.Int32
@@ -434,27 +437,29 @@ items:
     - id: type
       type: SuperOffice.Data.AppointmentType
       description: <p>See note.  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxProjectIdType(projectId As Integer, type As AppointmentType) As AppointmentCollection
-  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdType*
+    content.vb: Public Shared Function GetFromIdxProjectIdTypeAsync(projectId As Integer, type As AppointmentType, cancellationToken As CancellationToken) As Task(Of AppointmentCollection)
+  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdTypeAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherId(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherId(System.Int32)
-  id: GetFromIdxMotherId(System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxMotherIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxMotherId(Int32)
-  nameWithType: AppointmentCollection.GetFromIdxMotherId(Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherId(System.Int32)
+  name: GetFromIdxMotherIdAsync(Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxMotherIdAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherIdAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -465,32 +470,34 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntMother_id. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxMotherId(int motherId)
+    content: public static Task<AppointmentCollection> GetFromIdxMotherIdAsync(int motherId, CancellationToken cancellationToken = null)
     parameters:
     - id: motherId
       type: System.Int32
       description: <p>ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxMotherId(motherId As Integer) As AppointmentCollection
-  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherId*
+    content.vb: Public Shared Function GetFromIdxMotherIdAsync(motherId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
+  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId(System.DateTime,SuperOffice.Data.AppointmentType,System.DateTime,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId(System.DateTime,SuperOffice.Data.AppointmentType,System.DateTime,System.Int32)
-  id: GetFromIdxDoByTypeEndDateAssociateId(System.DateTime,SuperOffice.Data.AppointmentType,System.DateTime,System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateIdAsync(System.DateTime,SuperOffice.Data.AppointmentType,System.DateTime,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateIdAsync(System.DateTime,SuperOffice.Data.AppointmentType,System.DateTime,System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxDoByTypeEndDateAssociateIdAsync(System.DateTime,SuperOffice.Data.AppointmentType,System.DateTime,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxDoByTypeEndDateAssociateId(DateTime, AppointmentType, DateTime, Int32)
-  nameWithType: AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId(DateTime, AppointmentType, DateTime, Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId(System.DateTime, SuperOffice.Data.AppointmentType, System.DateTime, System.Int32)
+  name: GetFromIdxDoByTypeEndDateAssociateIdAsync(DateTime, AppointmentType, DateTime, Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateIdAsync(DateTime, AppointmentType, DateTime, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateIdAsync(System.DateTime, SuperOffice.Data.AppointmentType, System.DateTime, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -501,7 +508,7 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IAssoc_idTypeEndDateDo_by. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxDoByTypeEndDateAssociateId(DateTime doBy, AppointmentType type, DateTime endDate, int associateId)
+    content: public static Task<AppointmentCollection> GetFromIdxDoByTypeEndDateAssociateIdAsync(DateTime doBy, AppointmentType type, DateTime endDate, int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: doBy
       type: System.DateTime
@@ -515,27 +522,29 @@ items:
     - id: associateId
       type: System.Int32
       description: <p>ID of associate whose diary the appointment is in, REQUIRED  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxDoByTypeEndDateAssociateId(doBy As DateTime, type As AppointmentType, endDate As DateTime, associateId As Integer) As AppointmentCollection
-  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId*
+    content.vb: Public Shared Function GetFromIdxDoByTypeEndDateAssociateIdAsync(doBy As DateTime, type As AppointmentType, endDate As DateTime, associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
+  overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateIdAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate(System.DateTime)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate(System.DateTime)
-  id: GetFromIdxActiveDate(System.DateTime)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate(System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate(System.DateTime,System.Threading.CancellationToken)
+  id: GetFromIdxActiveDate(System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxActiveDate(DateTime)
-  nameWithType: AppointmentCollection.GetFromIdxActiveDate(DateTime)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate(System.DateTime)
+  name: GetFromIdxActiveDate(DateTime, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxActiveDate(DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate(System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -546,15 +555,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntActiveDate. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxActiveDate(DateTime activeDate)
+    content: public static Task<AppointmentCollection> GetFromIdxActiveDate(DateTime activeDate, CancellationToken cancellationToken = null)
     parameters:
     - id: activeDate
       type: System.DateTime
       description: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxActiveDate(activeDate As DateTime) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxActiveDate(activeDate As DateTime, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate*
   modifiers.csharp:
   - public
@@ -562,16 +573,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(System.Int32,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(System.Int32,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType)
-  id: GetFromIdxAssociateIdDoByStatusType(System.Int32,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(System.Int32,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(System.Int32,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  id: GetFromIdxAssociateIdDoByStatusType(System.Int32,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxAssociateIdDoByStatusType(Int32, DateTime, AppointmentStatus, AppointmentType)
-  nameWithType: AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(Int32, DateTime, AppointmentStatus, AppointmentType)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(System.Int32, System.DateTime, SuperOffice.Data.AppointmentStatus, SuperOffice.Data.AppointmentType)
+  name: GetFromIdxAssociateIdDoByStatusType(Int32, DateTime, AppointmentStatus, AppointmentType, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(Int32, DateTime, AppointmentStatus, AppointmentType, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType(System.Int32, System.DateTime, SuperOffice.Data.AppointmentStatus, SuperOffice.Data.AppointmentType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -582,7 +593,7 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IAssoc_idTypeStatusDo_by. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxAssociateIdDoByStatusType(int associateId, DateTime doBy, AppointmentStatus status, AppointmentType type)
+    content: public static Task<AppointmentCollection> GetFromIdxAssociateIdDoByStatusType(int associateId, DateTime doBy, AppointmentStatus status, AppointmentType type, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
@@ -596,10 +607,12 @@ items:
     - id: type
       type: SuperOffice.Data.AppointmentType
       description: <p>See note.  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxAssociateIdDoByStatusType(associateId As Integer, doBy As DateTime, status As AppointmentStatus, type As AppointmentType) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxAssociateIdDoByStatusType(associateId As Integer, doBy As DateTime, status As AppointmentStatus, type As AppointmentType, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdDoByStatusType*
   modifiers.csharp:
   - public
@@ -607,16 +620,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime,System.Int32,System.Int32)
-  id: GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime,System.Int32,System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxActiveDateMotherIdRecurrenceRuleId(DateTime, Int32, Int32)
-  nameWithType: AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(DateTime, Int32, Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime, System.Int32, System.Int32)
+  name: GetFromIdxActiveDateMotherIdRecurrenceRuleId(DateTime, Int32, Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(DateTime, Int32, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId(System.DateTime, System.Int32, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -627,7 +640,7 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IRecurrenceRuleIdActiveDateMother_id. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxActiveDateMotherIdRecurrenceRuleId(DateTime activeDate, int motherId, int recurrenceRuleId)
+    content: public static Task<AppointmentCollection> GetFromIdxActiveDateMotherIdRecurrenceRuleId(DateTime activeDate, int motherId, int recurrenceRuleId, CancellationToken cancellationToken = null)
     parameters:
     - id: activeDate
       type: System.DateTime
@@ -638,10 +651,12 @@ items:
     - id: recurrenceRuleId
       type: System.Int32
       description: <p>Pointer to recurrence rule, for recurring appointments, otherwise 0  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxActiveDateMotherIdRecurrenceRuleId(activeDate As DateTime, motherId As Integer, recurrenceRuleId As Integer) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxActiveDateMotherIdRecurrenceRuleId(activeDate As DateTime, motherId As Integer, recurrenceRuleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateMotherIdRecurrenceRuleId*
   modifiers.csharp:
   - public
@@ -649,16 +664,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource(System.Int16)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource(System.Int16)
-  id: GetFromIdxSource(System.Int16)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource(System.Int16,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource(System.Int16,System.Threading.CancellationToken)
+  id: GetFromIdxSource(System.Int16,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxSource(Int16)
-  nameWithType: AppointmentCollection.GetFromIdxSource(Int16)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource(System.Int16)
+  name: GetFromIdxSource(Int16, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxSource(Int16, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource(System.Int16, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -669,15 +684,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntSource. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxSource(short source)
+    content: public static Task<AppointmentCollection> GetFromIdxSource(short source, CancellationToken cancellationToken = null)
     parameters:
     - id: source
       type: System.Int16
       description: <p>For future integration use; source of record  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxSource(source As Short) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxSource(source As Short, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxSource*
   modifiers.csharp:
   - public
@@ -685,16 +702,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId(System.Int32)
-  id: GetFromIdxContactId(System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxContactId(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxContactId(Int32)
-  nameWithType: AppointmentCollection.GetFromIdxContactId(Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId(System.Int32)
+  name: GetFromIdxContactId(Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxContactId(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -705,15 +722,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntCont_id. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxContactId(int contactId)
+    content: public static Task<AppointmentCollection> GetFromIdxContactId(int contactId, CancellationToken cancellationToken = null)
     parameters:
     - id: contactId
       type: System.Int32
       description: <p>Contact ID of owning contact, may be 0  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxContactId(contactId As Integer) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxContactId(contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactId*
   modifiers.csharp:
   - public
@@ -721,16 +740,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId(System.Int32)
-  id: GetFromIdxProjectId(System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxProjectId(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxProjectId(Int32)
-  nameWithType: AppointmentCollection.GetFromIdxProjectId(Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId(System.Int32)
+  name: GetFromIdxProjectId(Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxProjectId(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -741,15 +760,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntProj_id. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxProjectId(int projectId)
+    content: public static Task<AppointmentCollection> GetFromIdxProjectId(int projectId, CancellationToken cancellationToken = null)
     parameters:
     - id: projectId
       type: System.Int32
       description: <p>ID of project referred to, may be 0  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxProjectId(projectId As Integer) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxProjectId(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectId*
   modifiers.csharp:
   - public
@@ -757,16 +778,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId(System.Int32)
-  id: GetFromIdxDocumentId(System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxDocumentId(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxDocumentId(Int32)
-  nameWithType: AppointmentCollection.GetFromIdxDocumentId(Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId(System.Int32)
+  name: GetFromIdxDocumentId(Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxDocumentId(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -777,15 +798,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntDoc_id. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxDocumentId(int documentId)
+    content: public static Task<AppointmentCollection> GetFromIdxDocumentId(int documentId, CancellationToken cancellationToken = null)
     parameters:
     - id: documentId
       type: System.Int32
       description: <p>Points to document record; 0 for non-document appointments!  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxDocumentId(documentId As Integer) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxDocumentId(documentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDocumentId*
   modifiers.csharp:
   - public
@@ -793,16 +816,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,SuperOffice.Data.AppointmentType)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,SuperOffice.Data.AppointmentType)
-  id: GetFromIdxAssociateIdStatusDoneType(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,SuperOffice.Data.AppointmentType)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
+  id: GetFromIdxAssociateIdStatusDoneType(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,SuperOffice.Data.AppointmentType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxAssociateIdStatusDoneType(Int32, AppointmentStatus, DateTime, AppointmentType)
-  nameWithType: AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(Int32, AppointmentStatus, DateTime, AppointmentType)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(System.Int32, SuperOffice.Data.AppointmentStatus, System.DateTime, SuperOffice.Data.AppointmentType)
+  name: GetFromIdxAssociateIdStatusDoneType(Int32, AppointmentStatus, DateTime, AppointmentType, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(Int32, AppointmentStatus, DateTime, AppointmentType, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType(System.Int32, SuperOffice.Data.AppointmentStatus, System.DateTime, SuperOffice.Data.AppointmentType, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -813,7 +836,7 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IAssoc_idTypeStatusDone. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxAssociateIdStatusDoneType(int associateId, AppointmentStatus status, DateTime done, AppointmentType type)
+    content: public static Task<AppointmentCollection> GetFromIdxAssociateIdStatusDoneType(int associateId, AppointmentStatus status, DateTime done, AppointmentType type, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
@@ -827,10 +850,12 @@ items:
     - id: type
       type: SuperOffice.Data.AppointmentType
       description: <p>See note.  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxAssociateIdStatusDoneType(associateId As Integer, status As AppointmentStatus, done As DateTime, type As AppointmentType) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxAssociateIdStatusDoneType(associateId As Integer, status As AppointmentStatus, done As DateTime, type As AppointmentType, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdStatusDoneType*
   modifiers.csharp:
   - public
@@ -838,16 +863,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId(System.Int32)
-  id: GetFromIdxPersonId(System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxPersonId(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxPersonId(Int32)
-  nameWithType: AppointmentCollection.GetFromIdxPersonId(Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId(System.Int32)
+  name: GetFromIdxPersonId(Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxPersonId(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -858,15 +883,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntPers_id. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxPersonId(int personId)
+    content: public static Task<AppointmentCollection> GetFromIdxPersonId(int personId, CancellationToken cancellationToken = null)
     parameters:
     - id: personId
       type: System.Int32
       description: <p>Person ID of person the appointment is with, may be 0; if nonzero, must match the contact_id (which must then also be nonzero).  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxPersonId(personId As Integer) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxPersonId(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxPersonId*
   modifiers.csharp:
   - public
@@ -874,16 +901,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32,System.Int32,System.DateTime)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32,System.Int32,System.DateTime)
-  id: GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32,System.Int32,System.DateTime)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32,System.Int32,System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32,System.Int32,System.DateTime,System.Threading.CancellationToken)
+  id: GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32,System.Int32,System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(Int32, Int32, DateTime)
-  nameWithType: AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(Int32, Int32, DateTime)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32, System.Int32, System.DateTime)
+  name: GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(Int32, Int32, DateTime, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(Int32, Int32, DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(System.Int32, System.Int32, System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -894,7 +921,7 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IRecurrenceRuleIdActiveDateAssoc_id. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(int associateId, int recurrenceRuleId, DateTime activeDate)
+    content: public static Task<AppointmentCollection> GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(int associateId, int recurrenceRuleId, DateTime activeDate, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
@@ -905,10 +932,12 @@ items:
     - id: activeDate
       type: System.DateTime
       description: <p>The date to be used for searching &amp; showing, is either the same as the done or do_by dates depending on type and status  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(associateId As Integer, recurrenceRuleId As Integer, activeDate As DateTime) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxAssociateIdRecurrenceRuleIdActiveDate(associateId As Integer, recurrenceRuleId As Integer, activeDate As DateTime, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxAssociateIdRecurrenceRuleIdActiveDate*
   modifiers.csharp:
   - public
@@ -916,16 +945,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx(System.Int32)
-  id: GetFromIdxGroupIdx(System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxGroupIdx(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxGroupIdx(Int32)
-  nameWithType: AppointmentCollection.GetFromIdxGroupIdx(Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx(System.Int32)
+  name: GetFromIdxGroupIdx(Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxGroupIdx(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -936,15 +965,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntGrp_idx. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxGroupIdx(int groupIdx)
+    content: public static Task<AppointmentCollection> GetFromIdxGroupIdx(int groupIdx, CancellationToken cancellationToken = null)
     parameters:
     - id: groupIdx
       type: System.Int32
       description: <p>Group of owning associate at the time the appnt was created  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxGroupIdx(groupIdx As Integer) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxGroupIdx(groupIdx As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxGroupIdx*
   modifiers.csharp:
   - public
@@ -952,16 +983,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId(System.Int32)
-  id: GetFromIdxUserdefId(System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxUserdefId(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxUserdefId(Int32)
-  nameWithType: AppointmentCollection.GetFromIdxUserdefId(Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId(System.Int32)
+  name: GetFromIdxUserdefId(Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxUserdefId(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -972,15 +1003,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntUdef_id. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxUserdefId(int userdefId)
+    content: public static Task<AppointmentCollection> GetFromIdxUserdefId(int userdefId, CancellationToken cancellationToken = null)
     parameters:
     - id: userdefId
       type: System.Int32
       description: <p>User-defined table record 1 (for future use)  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxUserdefId(userdefId As Integer) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxUserdefId(userdefId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdefId*
   modifiers.csharp:
   - public
@@ -988,16 +1021,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy(System.DateTime)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy(System.DateTime)
-  id: GetFromIdxDoBy(System.DateTime)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy(System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy(System.DateTime,System.Threading.CancellationToken)
+  id: GetFromIdxDoBy(System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxDoBy(DateTime)
-  nameWithType: AppointmentCollection.GetFromIdxDoBy(DateTime)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy(System.DateTime)
+  name: GetFromIdxDoBy(DateTime, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxDoBy(DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy(System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -1008,15 +1041,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntDo_by. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxDoBy(DateTime doBy)
+    content: public static Task<AppointmentCollection> GetFromIdxDoBy(DateTime doBy, CancellationToken cancellationToken = null)
     parameters:
     - id: doBy
       type: System.DateTime
       description: <p>Date + start time planned  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxDoBy(doBy As DateTime) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxDoBy(doBy As DateTime, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoBy*
   modifiers.csharp:
   - public
@@ -1024,16 +1059,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId(System.Int32)
-  id: GetFromIdxTextId(System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxTextId(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxTextId(Int32)
-  nameWithType: AppointmentCollection.GetFromIdxTextId(Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId(System.Int32)
+  name: GetFromIdxTextId(Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxTextId(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -1044,15 +1079,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntText_id. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxTextId(int textId)
+    content: public static Task<AppointmentCollection> GetFromIdxTextId(int textId, CancellationToken cancellationToken = null)
     parameters:
     - id: textId
       type: System.Int32
       description: <p>ID of record containing appointment text, may be 0 for no text; note that bookings share a common text record  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxTextId(textId As Integer) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxTextId(textId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxTextId*
   modifiers.csharp:
   - public
@@ -1060,16 +1097,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id(System.Int32)
-  id: GetFromIdxUserdef2Id(System.Int32)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxUserdef2Id(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxUserdef2Id(Int32)
-  nameWithType: AppointmentCollection.GetFromIdxUserdef2Id(Int32)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id(System.Int32)
+  name: GetFromIdxUserdef2Id(Int32, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxUserdef2Id(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -1080,15 +1117,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntUdef2_id. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxUserdef2Id(int userdef2Id)
+    content: public static Task<AppointmentCollection> GetFromIdxUserdef2Id(int userdef2Id, CancellationToken cancellationToken = null)
     parameters:
     - id: userdef2Id
       type: System.Int32
       description: <p>User-defined table record 2 (for future use)  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxUserdef2Id(userdef2Id As Integer) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxUserdef2Id(userdef2Id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxUserdef2Id*
   modifiers.csharp:
   - public
@@ -1096,16 +1135,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone(System.DateTime)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone(System.DateTime)
-  id: GetFromIdxDone(System.DateTime)
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone(System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone(System.DateTime,System.Threading.CancellationToken)
+  id: GetFromIdxDone(System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.AppointmentCollection
   langs:
   - csharp
   - vb
-  name: GetFromIdxDone(DateTime)
-  nameWithType: AppointmentCollection.GetFromIdxDone(DateTime)
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone(System.DateTime)
+  name: GetFromIdxDone(DateTime, CancellationToken)
+  nameWithType: AppointmentCollection.GetFromIdxDone(DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone(System.DateTime, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -1116,15 +1155,17 @@ items:
   summary: "\nCreate a new instance of the AppointmentRows object, and populate it with <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref>\nobjects based on the result of a query on the table Appointment. \nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThe query matches the fields on the\nnon-unique index IDXAppntDone. Unique indexes have corresponding Create methods directly on the\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object, since such indexes always return zero or one rows.\n"
   syntax:
-    content: public static AppointmentCollection GetFromIdxDone(DateTime done)
+    content: public static Task<AppointmentCollection> GetFromIdxDone(DateTime done, CancellationToken cancellationToken = null)
     parameters:
     - id: done
       type: System.DateTime
       description: <p>Date + start time this task was actually performed  </p>
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Entities.AppointmentCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
       description: New AppointmentRows collection containing the result of the index query. If no rows matched, the collection will be empty.
-    content.vb: Public Shared Function GetFromIdxDone(done As DateTime) As AppointmentCollection
+    content.vb: Public Shared Function GetFromIdxDone(done As DateTime, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentCollection)
   overload: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDone*
   modifiers.csharp:
   - public
@@ -1508,18 +1549,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.ISoCollection
-  commentId: T:SuperOffice.Data.ISoCollection
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ISoCollection
-  nameWithType: ISoCollection
-  fullName: SuperOffice.Data.ISoCollection
-- uid: System.Collections.IEnumerable
-  isExternal: true
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
 - uid: System.Collections.IList
   isExternal: true
   name: IList
@@ -1530,6 +1559,11 @@ references:
   name: ICollection
   nameWithType: ICollection
   fullName: System.Collections.ICollection
+- uid: System.Collections.IEnumerable
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
 - uid: System.Collections.Specialized.INotifyCollectionChanged
   isExternal: true
   name: INotifyCollectionChanged
@@ -1547,18 +1581,18 @@ references:
   name: _innerList
   nameWithType: EntityCollectionBase._innerList
   fullName: SuperOffice.CRM.Entities.EntityCollectionBase._innerList
-- uid: SuperOffice.CRM.Entities.EntityCollectionBase.Delete
-  commentId: M:SuperOffice.CRM.Entities.EntityCollectionBase.Delete
+- uid: SuperOffice.CRM.Entities.EntityCollectionBase.DeleteAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityCollectionBase.DeleteAsync
   parent: SuperOffice.CRM.Entities.EntityCollectionBase
   isExternal: true
-  name: Delete()
-  nameWithType: EntityCollectionBase.Delete()
-  fullName: SuperOffice.CRM.Entities.EntityCollectionBase.Delete()
+  name: DeleteAsync()
+  nameWithType: EntityCollectionBase.DeleteAsync()
+  fullName: SuperOffice.CRM.Entities.EntityCollectionBase.DeleteAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityCollectionBase.Delete
-    name: Delete
-    nameWithType: EntityCollectionBase.Delete
-    fullName: SuperOffice.CRM.Entities.EntityCollectionBase.Delete
+  - uid: SuperOffice.CRM.Entities.EntityCollectionBase.DeleteAsync
+    name: DeleteAsync
+    nameWithType: EntityCollectionBase.DeleteAsync
+    fullName: SuperOffice.CRM.Entities.EntityCollectionBase.DeleteAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1567,10 +1601,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityCollectionBase.Delete
-    name: Delete
-    nameWithType: EntityCollectionBase.Delete
-    fullName: SuperOffice.CRM.Entities.EntityCollectionBase.Delete
+  - uid: SuperOffice.CRM.Entities.EntityCollectionBase.DeleteAsync
+    name: DeleteAsync
+    nameWithType: EntityCollectionBase.DeleteAsync
+    fullName: SuperOffice.CRM.Entities.EntityCollectionBase.DeleteAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1647,82 +1681,6 @@ references:
     nameWithType: EntityBase
     fullName: SuperOffice.CRM.Entities.EntityBase
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
-  commentId: M:SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
-  parent: SuperOffice.CRM.Entities.EntityCollectionBase
-  isExternal: true
-  name: ISoCollection.Add(ISoItem)
-  nameWithType: EntityCollectionBase.ISoCollection.Add(ISoItem)
-  fullName: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
-  nameWithType.vb: EntityCollectionBase.SuperOffice.Data.ISoCollection.Add(ISoItem)
-  name.vb: SuperOffice.Data.ISoCollection.Add(ISoItem)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
-    name: ISoCollection.Add
-    nameWithType: EntityCollectionBase.ISoCollection.Add
-    fullName: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice.Data.ISoCollection.Add
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ISoItem
-    name: ISoItem
-    nameWithType: ISoItem
-    fullName: SuperOffice.Data.ISoItem
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
-    name: SuperOffice.Data.ISoCollection.Add
-    nameWithType: EntityCollectionBase.SuperOffice.Data.ISoCollection.Add
-    fullName: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice.Data.ISoCollection.Add
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ISoItem
-    name: ISoItem
-    nameWithType: ISoItem
-    fullName: SuperOffice.Data.ISoItem
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice#Data#ISoCollection#AddNew
-  commentId: M:SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice#Data#ISoCollection#AddNew
-  parent: SuperOffice.CRM.Entities.EntityCollectionBase
-  isExternal: true
-  name: ISoCollection.AddNew()
-  nameWithType: EntityCollectionBase.ISoCollection.AddNew()
-  fullName: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice.Data.ISoCollection.AddNew()
-  nameWithType.vb: EntityCollectionBase.SuperOffice.Data.ISoCollection.AddNew()
-  name.vb: SuperOffice.Data.ISoCollection.AddNew()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice#Data#ISoCollection#AddNew
-    name: ISoCollection.AddNew
-    nameWithType: EntityCollectionBase.ISoCollection.AddNew
-    fullName: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice.Data.ISoCollection.AddNew
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice#Data#ISoCollection#AddNew
-    name: SuperOffice.Data.ISoCollection.AddNew
-    nameWithType: EntityCollectionBase.SuperOffice.Data.ISoCollection.AddNew
-    fullName: SuperOffice.CRM.Entities.EntityCollectionBase.SuperOffice.Data.ISoCollection.AddNew
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )
@@ -2276,18 +2234,18 @@ references:
   name: IsDeleted
   nameWithType: NestedCollectionPersist.IsDeleted
   fullName: SuperOffice.Data.NestedCollectionPersist.IsDeleted
-- uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+- uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPreIdUpdate()
-  nameWithType: NestedPersistFacade.OnPreIdUpdate()
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: NestedPersistFacade.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: NestedPersistFacade.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2296,10 +2254,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: NestedPersistFacade.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2307,18 +2265,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersistFacade.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2332,10 +2290,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2348,18 +2306,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2373,10 +2331,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2389,18 +2347,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnIdUpdate()
-  nameWithType: NestedPersistFacade.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: NestedPersistFacade.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: NestedPersistFacade.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2409,10 +2367,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: NestedPersistFacade.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2420,18 +2378,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnSave(BatchSave)
-  nameWithType: NestedPersistFacade.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: OnSaveAsync(BatchSave)
+  nameWithType: NestedPersistFacade.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: NestedPersistFacade.OnSave
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: NestedPersistFacade.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2445,10 +2403,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: NestedPersistFacade.OnSave
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: NestedPersistFacade.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2461,18 +2419,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+- uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnSaved(Boolean)
-  nameWithType: NestedPersistFacade.OnSaved(Boolean)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: NestedPersistFacade.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: NestedPersistFacade.OnSaved
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: NestedPersistFacade.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2486,10 +2444,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: NestedPersistFacade.OnSaved
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: NestedPersistFacade.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2557,18 +2515,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.Save
-  commentId: M:SuperOffice.Data.NestedPersist.Save
+- uid: SuperOffice.Data.NestedPersist.SaveAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SaveAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: Save()
-  nameWithType: NestedPersist.Save()
-  fullName: SuperOffice.Data.NestedPersist.Save()
+  name: SaveAsync()
+  nameWithType: NestedPersist.SaveAsync()
+  fullName: SuperOffice.Data.NestedPersist.SaveAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2577,10 +2535,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2588,20 +2546,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPreIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name: INestedPersist.OnPreIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2610,10 +2568,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2621,20 +2579,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name: INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2648,10 +2606,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2664,20 +2622,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name: INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2691,10 +2649,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2707,20 +2665,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name: INestedPersist.OnIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2729,10 +2687,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2740,20 +2698,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSave(BatchSave)
-  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
-  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name: INestedPersist.OnSaveAsync(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: INestedPersist.OnSave
-    nameWithType: NestedPersist.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2767,10 +2725,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: SuperOffice.Data.INestedPersist.OnSave
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2783,20 +2741,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSaved(Boolean)
-  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
-  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name: INestedPersist.OnSavedAsync(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: INestedPersist.OnSaved
-    nameWithType: NestedPersist.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2810,10 +2768,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: SuperOffice.Data.INestedPersist.OnSaved
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3285,12 +3243,12 @@ references:
   name: AppointmentCollection
   nameWithType: AppointmentCollection
   fullName: SuperOffice.CRM.Entities.AppointmentCollection
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearch*
-  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearch
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearchAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearchAsync
   isExternal: true
-  name: GetFromCustomSearch
-  nameWithType: AppointmentCollection.GetFromCustomSearch
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearch
+  name: GetFromCustomSearchAsync
+  nameWithType: AppointmentCollection.GetFromCustomSearchAsync
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromCustomSearchAsync
 - uid: SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch
   commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch
   parent: SuperOffice.CRM.Entities
@@ -3298,12 +3256,98 @@ references:
   name: AppointmentCollection.CustomSearch
   nameWithType: AppointmentCollection.CustomSearch
   fullName: SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId*
-  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: GetFromIdxActiveDateStatusTypeAssociateId
-  nameWithType: AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateId
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Entities.AppointmentCollection}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AppointmentCollection>
+  nameWithType: Task<AppointmentCollection>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Entities.AppointmentCollection>
+  nameWithType.vb: Task(Of AppointmentCollection)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Entities.AppointmentCollection)
+  name.vb: Task(Of AppointmentCollection)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Entities.AppointmentCollection
+    name: AppointmentCollection
+    nameWithType: AppointmentCollection
+    fullName: SuperOffice.CRM.Entities.AppointmentCollection
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Entities.AppointmentCollection
+    name: AppointmentCollection
+    nameWithType: AppointmentCollection
+    fullName: SuperOffice.CRM.Entities.AppointmentCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateIdAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateIdAsync
+  isExternal: true
+  name: GetFromIdxActiveDateStatusTypeAssociateIdAsync
+  nameWithType: AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateIdAsync
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDateStatusTypeAssociateIdAsync
 - uid: System.DateTime
   isExternal: true
   name: DateTime
@@ -3330,30 +3374,30 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdType*
-  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdType
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdTypeAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdTypeAsync
   isExternal: true
-  name: GetFromIdxContactIdType
-  nameWithType: AppointmentCollection.GetFromIdxContactIdType
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdType
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdType*
-  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdType
+  name: GetFromIdxContactIdTypeAsync
+  nameWithType: AppointmentCollection.GetFromIdxContactIdTypeAsync
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxContactIdTypeAsync
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdTypeAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdTypeAsync
   isExternal: true
-  name: GetFromIdxProjectIdType
-  nameWithType: AppointmentCollection.GetFromIdxProjectIdType
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdType
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherId*
-  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherId
+  name: GetFromIdxProjectIdTypeAsync
+  nameWithType: AppointmentCollection.GetFromIdxProjectIdTypeAsync
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxProjectIdTypeAsync
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherIdAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherIdAsync
   isExternal: true
-  name: GetFromIdxMotherId
-  nameWithType: AppointmentCollection.GetFromIdxMotherId
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherId
-- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId*
-  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId
+  name: GetFromIdxMotherIdAsync
+  nameWithType: AppointmentCollection.GetFromIdxMotherIdAsync
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxMotherIdAsync
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateIdAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateIdAsync
   isExternal: true
-  name: GetFromIdxDoByTypeEndDateAssociateId
-  nameWithType: AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId
-  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateId
+  name: GetFromIdxDoByTypeEndDateAssociateIdAsync
+  nameWithType: AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateIdAsync
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxDoByTypeEndDateAssociateIdAsync
 - uid: SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate*
   commentId: Overload:SuperOffice.CRM.Entities.AppointmentCollection.GetFromIdxActiveDate
   isExternal: true

@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.ConsentSourceRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ConsentSourceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ConsentSourceRecordData)
   - SuperOffice.CRM.Rows.ConsentSourceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ConsentSourceRecordData.SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ConsentSourceRecordData.SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ConsentSourceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ConsentSourceRecordData.SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
+- uid: SuperOffice.CRM.Rows.ConsentSourceRecordData.SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
-  name: ToInsert()
-  nameWithType: ConsentSourceRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ConsentSourceRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ConsentSourceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConsentSourceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ConsentSourceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConsentSourceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
+- uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ConsentSourceRecordData)
-  nameWithType: ConsentSourceRecordDataExtensions.ToInsert(ConsentSourceRecordData)
-  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
+  name: ToInsertAsync(ConsentSourceRecordData, CancellationToken)
+  nameWithType: ConsentSourceRecordDataExtensions.ToInsertAsync(ConsentSourceRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
-    name: ToInsert
-    nameWithType: ConsentSourceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConsentSourceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: ConsentSourceRecordData
     nameWithType: ConsentSourceRecordData
     fullName: SuperOffice.CRM.Rows.ConsentSourceRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConsentSourceRecordData)
-    name: ToInsert
-    nameWithType: ConsentSourceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ConsentSourceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ConsentSourceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ConsentSourceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: ConsentSourceRecordData
     nameWithType: ConsentSourceRecordData
     fullName: SuperOffice.CRM.Rows.ConsentSourceRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

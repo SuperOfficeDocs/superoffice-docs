@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
   - SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
-  - SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData)
-  - SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData})
+  - SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<QuoteDenyReasonGroupLinkTableInfo>)
-  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(TargetedSelect<QuoteDenyReasonGroupLinkTableInfo>)
-  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo>)
+  name: FromSelectAsync(TargetedSelect<QuoteDenyReasonGroupLinkTableInfo>, CancellationToken)
+  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync(TargetedSelect<QuoteDenyReasonGroupLinkTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<QuoteDenyReasonGroupLinkRecordData> FromSelect(this TargetedSelect<QuoteDenyReasonGroupLinkTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<QuoteDenyReasonGroupLinkRecordData> FromSelectAsync(this TargetedSelect<QuoteDenyReasonGroupLinkTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of QuoteDenyReasonGroupLinkTableInfo)) As IEnumerable(Of QuoteDenyReasonGroupLinkRecordData)
-  overload: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect*
-  nameWithType.vb: QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(TargetedSelect(Of QuoteDenyReasonGroupLinkTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of QuoteDenyReasonGroupLinkTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of QuoteDenyReasonGroupLinkRecordData)
+  overload: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync(TargetedSelect(Of QuoteDenyReasonGroupLinkTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of QuoteDenyReasonGroupLinkTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of QuoteDenyReasonGroupLinkTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
   commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of QuoteDenyReasonGroupLinkTableInfo))
-- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(QuoteDenyReasonGroupLinkRecordData)
-  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsert(QuoteDenyReasonGroupLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData)
+  name: ToInsertAsync(QuoteDenyReasonGroupLinkRecordData, CancellationToken)
+  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertAsync(QuoteDenyReasonGroupLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this QuoteDenyReasonGroupLinkRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this QuoteDenyReasonGroupLinkRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As QuoteDenyReasonGroupLinkRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As QuoteDenyReasonGroupLinkRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData})
-  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData})
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<QuoteDenyReasonGroupLinkRecordData>)
-  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts(IEnumerable<QuoteDenyReasonGroupLinkRecordData>)
-  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData>)
+  name: ToInsertsAsync(IEnumerable<QuoteDenyReasonGroupLinkRecordData>, CancellationToken)
+  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync(IEnumerable<QuoteDenyReasonGroupLinkRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<QuoteDenyReasonGroupLinkRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<QuoteDenyReasonGroupLinkRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of QuoteDenyReasonGroupLinkRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts*
-  nameWithType.vb: QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts(IEnumerable(Of QuoteDenyReasonGroupLinkRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of QuoteDenyReasonGroupLinkRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync(IEnumerable(Of QuoteDenyReasonGroupLinkRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData))
-  name.vb: ToInserts(IEnumerable(Of QuoteDenyReasonGroupLinkRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of QuoteDenyReasonGroupLinkRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRow)
   commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRow)
   id: ToRecordData(SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<QuoteDenyReasonGroupLinkTableInfo>)
+  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(TargetedSelect<QuoteDenyReasonGroupLinkTableInfo>)
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;QuoteDenyReasonGroupLinkTableInfo>, execute it and return an IEnumerable&lt;QuoteDenyReasonGroupLinkRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<QuoteDenyReasonGroupLinkRecordData> FromSelect(this TargetedSelect<QuoteDenyReasonGroupLinkTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of QuoteDenyReasonGroupLinkTableInfo)) As IEnumerable(Of QuoteDenyReasonGroupLinkRecordData)
+  overload: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect*
+  nameWithType.vb: QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(TargetedSelect(Of QuoteDenyReasonGroupLinkTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of QuoteDenyReasonGroupLinkTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<QuoteDenyReasonGroupLinkRecordData>
-  nameWithType: IEnumerable<QuoteDenyReasonGroupLinkRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData>
-  nameWithType.vb: IEnumerable(Of QuoteDenyReasonGroupLinkRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData)
-  name.vb: IEnumerable(Of QuoteDenyReasonGroupLinkRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<QuoteDenyReasonGroupLinkRecordData>
+  nameWithType: IAsyncEnumerable<QuoteDenyReasonGroupLinkRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of QuoteDenyReasonGroupLinkRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData)
+  name.vb: IAsyncEnumerable(Of QuoteDenyReasonGroupLinkRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<QuoteDenyReasonGroupLinkRecordData>
+  nameWithType: IEnumerable<QuoteDenyReasonGroupLinkRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData>
+  nameWithType.vb: IEnumerable(Of QuoteDenyReasonGroupLinkRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData)
+  name.vb: IEnumerable(Of QuoteDenyReasonGroupLinkRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData
+    name: QuoteDenyReasonGroupLinkRecordData
+    nameWithType: QuoteDenyReasonGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData
+    name: QuoteDenyReasonGroupLinkRecordData
+    nameWithType: QuoteDenyReasonGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: QuoteDenyReasonGroupLinkRow
   nameWithType: QuoteDenyReasonGroupLinkRow
   fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRow
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonGroupLinkRecordDataExtensions.FromSelect

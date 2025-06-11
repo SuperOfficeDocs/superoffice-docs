@@ -8,13 +8,12 @@ items:
   - SuperOffice.Security.Principal.AssociateResolver.#ctor
   - SuperOffice.Security.Principal.AssociateResolver.GetInfoAboutUser
   - SuperOffice.Security.Principal.AssociateResolver.IsPasswordValid(System.Int32,System.String,System.String)
-  - SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
-  - SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
-  - SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
+  - SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromNameAsync(System.String,SuperOffice.Data.SoConnection)
+  - SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePasswordAsync(System.String,System.String,SuperOffice.Data.SoConnection,System.String)
+  - SuperOffice.Security.Principal.AssociateResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection)
   - SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String)
   - SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String,System.String)
-  - SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
-  - SuperOffice.Security.Principal.AssociateResolver.UpdateRoleId(System.Int32,System.Int32)
+  - SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsedAsync(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
   langs:
   - csharp
   - vb
@@ -38,7 +37,6 @@ items:
   - System.Object
   derivedClasses:
   - SuperOffice.Security.Principal.SoCredentialsIdentityResolver
-  - SuperOffice.Security.Principal.SoImpersonationIdentityResolver
   - SuperOffice.Security.Principal.UserNameIdentityResolver
   implements:
   - SuperOffice.Security.ISoIdentityResolver
@@ -84,16 +82,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
-  commentId: M:SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
-  id: UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+- uid: SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsedAsync(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsedAsync(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+  id: UpdateCredentialsLastUsedAsync(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
   parent: SuperOffice.Security.Principal.AssociateResolver
   langs:
   - csharp
   - vb
-  name: UpdateCredentialsLastUsed(CredentialsTableInfo, Int32, SoConnection, DateTime)
-  nameWithType: AssociateResolver.UpdateCredentialsLastUsed(CredentialsTableInfo, Int32, SoConnection, DateTime)
-  fullName: SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo, System.Int32, SuperOffice.Data.SoConnection, System.DateTime)
+  name: UpdateCredentialsLastUsedAsync(CredentialsTableInfo, Int32, SoConnection, DateTime)
+  nameWithType: AssociateResolver.UpdateCredentialsLastUsedAsync(CredentialsTableInfo, Int32, SoConnection, DateTime)
+  fullName: SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsedAsync(SuperOffice.CRM.Data.CredentialsTableInfo, System.Int32, SuperOffice.Data.SoConnection, System.DateTime)
   type: Method
   source:
     path: SoDataBase
@@ -102,7 +100,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: protected static void UpdateCredentialsLastUsed(CredentialsTableInfo cti, int credId, SoConnection dbConnection, DateTime validTo)
+    content: protected static Task UpdateCredentialsLastUsedAsync(CredentialsTableInfo cti, int credId, SoConnection dbConnection, DateTime validTo)
     parameters:
     - id: cti
       type: SuperOffice.CRM.Data.CredentialsTableInfo
@@ -112,59 +110,26 @@ items:
       type: SuperOffice.Data.SoConnection
     - id: validTo
       type: System.DateTime
-    content.vb: Protected Shared Sub UpdateCredentialsLastUsed(cti As CredentialsTableInfo, credId As Integer, dbConnection As SoConnection, validTo As DateTime)
-  overload: SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsed*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Shared Function UpdateCredentialsLastUsedAsync(cti As CredentialsTableInfo, credId As Integer, dbConnection As SoConnection, validTo As DateTime) As Task
+  overload: SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsedAsync*
   modifiers.csharp:
   - protected
   - static
   modifiers.vb:
   - Protected
   - Shared
-- uid: SuperOffice.Security.Principal.AssociateResolver.UpdateRoleId(System.Int32,System.Int32)
-  commentId: M:SuperOffice.Security.Principal.AssociateResolver.UpdateRoleId(System.Int32,System.Int32)
-  id: UpdateRoleId(System.Int32,System.Int32)
+- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePasswordAsync(System.String,System.String,SuperOffice.Data.SoConnection,System.String)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePasswordAsync(System.String,System.String,SuperOffice.Data.SoConnection,System.String)
+  id: ResolveFromUsernamePasswordAsync(System.String,System.String,SuperOffice.Data.SoConnection,System.String)
   parent: SuperOffice.Security.Principal.AssociateResolver
   langs:
   - csharp
   - vb
-  name: UpdateRoleId(Int32, Int32)
-  nameWithType: AssociateResolver.UpdateRoleId(Int32, Int32)
-  fullName: SuperOffice.Security.Principal.AssociateResolver.UpdateRoleId(System.Int32, System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Security.Principal
-  summary: "\nUpdate the role id (as part of authentication)\n"
-  syntax:
-    content: protected static void UpdateRoleId(int associateId, int roleIdx)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: AssociateId being authenticated.
-    - id: roleIdx
-      type: System.Int32
-      description: New roleId of the associate.
-    content.vb: Protected Shared Sub UpdateRoleId(associateId As Integer, roleIdx As Integer)
-  overload: SuperOffice.Security.Principal.AssociateResolver.UpdateRoleId*
-  modifiers.csharp:
-  - protected
-  - static
-  modifiers.vb:
-  - Protected
-  - Shared
-- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
-  commentId: M:SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
-  id: ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
-  parent: SuperOffice.Security.Principal.AssociateResolver
-  langs:
-  - csharp
-  - vb
-  name: ResolveFromUsernamePassword(ref String, String, SoConnection, String, out Int32)
-  nameWithType: AssociateResolver.ResolveFromUsernamePassword(ref String, String, SoConnection, String, out Int32)
-  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePassword(ref System.String, System.String, SuperOffice.Data.SoConnection, System.String, out System.Int32)
+  name: ResolveFromUsernamePasswordAsync(String, String, SoConnection, String)
+  nameWithType: AssociateResolver.ResolveFromUsernamePasswordAsync(String, String, SoConnection, String)
+  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePasswordAsync(System.String, System.String, SuperOffice.Data.SoConnection, System.String)
   type: Method
   source:
     path: SoDataBase
@@ -173,7 +138,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: protected int ResolveFromUsernamePassword(ref string associate, string password, SoConnection dbConnection, string credentialType, out int credId)
+    content: protected Task<ValueTuple<string, int, int>> ResolveFromUsernamePasswordAsync(string associate, string password, SoConnection dbConnection, string credentialType)
     parameters:
     - id: associate
       type: System.String
@@ -183,29 +148,24 @@ items:
       type: SuperOffice.Data.SoConnection
     - id: credentialType
       type: System.String
-    - id: credId
-      type: System.Int32
     return:
-      type: System.Int32
-    content.vb: Protected Function ResolveFromUsernamePassword(ByRef associate As String, password As String, dbConnection As SoConnection, credentialType As String, ByRef credId As Integer) As Integer
-  overload: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePassword*
-  nameWithType.vb: AssociateResolver.ResolveFromUsernamePassword(ByRef String, String, SoConnection, String, ByRef Int32)
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.Int32,System.Int32}}
+    content.vb: Protected Function ResolveFromUsernamePasswordAsync(associate As String, password As String, dbConnection As SoConnection, credentialType As String) As Task(Of ValueTuple(Of String, Integer, Integer))
+  overload: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePasswordAsync*
   modifiers.csharp:
   - protected
   modifiers.vb:
   - Protected
-  fullName.vb: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePassword(ByRef System.String, System.String, SuperOffice.Data.SoConnection, System.String, ByRef System.Int32)
-  name.vb: ResolveFromUsernamePassword(ByRef String, String, SoConnection, String, ByRef Int32)
-- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
-  commentId: M:SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
-  id: ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromNameAsync(System.String,SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromNameAsync(System.String,SuperOffice.Data.SoConnection)
+  id: ResolveAssociateFromNameAsync(System.String,SuperOffice.Data.SoConnection)
   parent: SuperOffice.Security.Principal.AssociateResolver
   langs:
   - csharp
   - vb
-  name: ResolveAssociateFromName(ref String, out AssociateType, SoConnection)
-  nameWithType: AssociateResolver.ResolveAssociateFromName(ref String, out AssociateType, SoConnection)
-  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromName(ref System.String, out SuperOffice.Data.AssociateType, SuperOffice.Data.SoConnection)
+  name: ResolveAssociateFromNameAsync(String, SoConnection)
+  nameWithType: AssociateResolver.ResolveAssociateFromNameAsync(String, SoConnection)
+  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromNameAsync(System.String, SuperOffice.Data.SoConnection)
   type: Method
   source:
     path: SoDataBase
@@ -214,25 +174,20 @@ items:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: protected int ResolveAssociateFromName(ref string associate, out AssociateType associateType, SoConnection dbConnection)
+    content: protected Task<ValueTuple<int, string, AssociateType>> ResolveAssociateFromNameAsync(string associateName, SoConnection dbConnection)
     parameters:
-    - id: associate
+    - id: associateName
       type: System.String
-    - id: associateType
-      type: SuperOffice.Data.AssociateType
     - id: dbConnection
       type: SuperOffice.Data.SoConnection
     return:
-      type: System.Int32
-    content.vb: Protected Function ResolveAssociateFromName(ByRef associate As String, ByRef associateType As AssociateType, dbConnection As SoConnection) As Integer
-  overload: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromName*
-  nameWithType.vb: AssociateResolver.ResolveAssociateFromName(ByRef String, ByRef AssociateType, SoConnection)
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.String,SuperOffice.Data.AssociateType}}
+    content.vb: Protected Function ResolveAssociateFromNameAsync(associateName As String, dbConnection As SoConnection) As Task(Of ValueTuple(Of Integer, String, AssociateType))
+  overload: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromNameAsync*
   modifiers.csharp:
   - protected
   modifiers.vb:
   - Protected
-  fullName.vb: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromName(ByRef System.String, ByRef SuperOffice.Data.AssociateType, SuperOffice.Data.SoConnection)
-  name.vb: ResolveAssociateFromName(ByRef String, ByRef AssociateType, SoConnection)
 - uid: SuperOffice.Security.Principal.AssociateResolver.IsPasswordValid(System.Int32,System.String,System.String)
   commentId: M:SuperOffice.Security.Principal.AssociateResolver.IsPasswordValid(System.Int32,System.String,System.String)
   id: IsPasswordValid(System.Int32,System.String,System.String)
@@ -345,16 +300,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
-  commentId: M:SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
-  id: ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
+- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection)
+  id: ResolveIdentityAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection)
   parent: SuperOffice.Security.Principal.AssociateResolver
   langs:
   - csharp
   - vb
-  name: ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, out String)
-  nameWithType: AssociateResolver.ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, out String)
-  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Data.SoConnection, out System.String)
+  name: ResolveIdentityAsync(IEnumerable<ClaimsIdentity>, SoConnection)
+  nameWithType: AssociateResolver.ResolveIdentityAsync(IEnumerable<ClaimsIdentity>, SoConnection)
+  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Data.SoConnection)
   type: Method
   source:
     path: SoDataBase
@@ -363,29 +318,27 @@ items:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: public abstract ISoIdentity ResolveIdentity(IEnumerable<ClaimsIdentity> identities, SoConnection dbConnection, out string reason)
+    content: public abstract Task<ValueTuple<ClaimsIdentity, string>> ResolveIdentityAsync(IEnumerable<ClaimsIdentity> identities, SoConnection dbConnection)
     parameters:
     - id: identities
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
     - id: dbConnection
       type: SuperOffice.Data.SoConnection
-    - id: reason
-      type: System.String
     return:
-      type: SuperOffice.Security.Principal.ISoIdentity
-    content.vb: Public MustOverride Function ResolveIdentity(identities As IEnumerable(Of ClaimsIdentity), dbConnection As SoConnection, ByRef reason As String) As ISoIdentity
-  overload: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity*
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Security.Claims.ClaimsIdentity,System.String}}
+    content.vb: Public MustOverride Function ResolveIdentityAsync(identities As IEnumerable(Of ClaimsIdentity), dbConnection As SoConnection) As Task(Of ValueTuple(Of ClaimsIdentity, String))
+  overload: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentityAsync*
   implements:
-  - SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
-  nameWithType.vb: AssociateResolver.ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, ByRef String)
+  - SuperOffice.Security.ISoIdentityResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection)
+  nameWithType.vb: AssociateResolver.ResolveIdentityAsync(IEnumerable(Of ClaimsIdentity), SoConnection)
   modifiers.csharp:
   - public
   - abstract
   modifiers.vb:
   - Public
   - MustOverride
-  fullName.vb: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Data.SoConnection, ByRef System.String)
-  name.vb: ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, ByRef String)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Data.SoConnection)
+  name.vb: ResolveIdentityAsync(IEnumerable(Of ClaimsIdentity), SoConnection)
 - uid: SuperOffice.Security.Principal.AssociateResolver.#ctor
   commentId: M:SuperOffice.Security.Principal.AssociateResolver.#ctor
   id: '#ctor'
@@ -622,12 +575,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsed*
-  commentId: Overload:SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsed
+- uid: SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsedAsync*
+  commentId: Overload:SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsedAsync
   isExternal: true
-  name: UpdateCredentialsLastUsed
-  nameWithType: AssociateResolver.UpdateCredentialsLastUsed
-  fullName: SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsed
+  name: UpdateCredentialsLastUsedAsync
+  nameWithType: AssociateResolver.UpdateCredentialsLastUsedAsync
+  fullName: SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsedAsync
 - uid: SuperOffice.CRM.Data.CredentialsTableInfo
   commentId: T:SuperOffice.CRM.Data.CredentialsTableInfo
   parent: SuperOffice.CRM.Data
@@ -654,6 +607,11 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
@@ -666,31 +624,250 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.Security.Principal.AssociateResolver.UpdateRoleId*
-  commentId: Overload:SuperOffice.Security.Principal.AssociateResolver.UpdateRoleId
+- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePasswordAsync*
+  commentId: Overload:SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePasswordAsync
   isExternal: true
-  name: UpdateRoleId
-  nameWithType: AssociateResolver.UpdateRoleId
-  fullName: SuperOffice.Security.Principal.AssociateResolver.UpdateRoleId
-- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePassword*
-  commentId: Overload:SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePassword
+  name: ResolveFromUsernamePasswordAsync
+  nameWithType: AssociateResolver.ResolveFromUsernamePasswordAsync
+  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePasswordAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.Int32,System.Int32}}
+  commentId: '!:System.Threading.Tasks.Task{System.ValueTuple{System.String,System.Int32,System.Int32}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ValueTuple<String, Int32, Int32>>
+  nameWithType: Task<ValueTuple<String, Int32, Int32>>
+  fullName: System.Threading.Tasks.Task<System.ValueTuple<System.String, System.Int32, System.Int32>>
+  nameWithType.vb: Task(Of ValueTuple(Of String, Int32, Int32))
+  fullName.vb: System.Threading.Tasks.Task(Of System.ValueTuple(Of System.String, System.Int32, System.Int32))
+  name.vb: Task(Of ValueTuple(Of String, Int32, Int32))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`3
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`3
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: ResolveFromUsernamePassword
-  nameWithType: AssociateResolver.ResolveFromUsernamePassword
-  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePassword
-- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromName*
-  commentId: Overload:SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromName
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromNameAsync*
+  commentId: Overload:SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromNameAsync
   isExternal: true
-  name: ResolveAssociateFromName
-  nameWithType: AssociateResolver.ResolveAssociateFromName
-  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromName
-- uid: SuperOffice.Data.AssociateType
-  commentId: T:SuperOffice.Data.AssociateType
-  parent: SuperOffice.Data
-  isExternal: true
-  name: AssociateType
-  nameWithType: AssociateType
-  fullName: SuperOffice.Data.AssociateType
+  name: ResolveAssociateFromNameAsync
+  nameWithType: AssociateResolver.ResolveAssociateFromNameAsync
+  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveAssociateFromNameAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.String,SuperOffice.Data.AssociateType}}
+  commentId: '!:System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.String,SuperOffice.Data.AssociateType}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ValueTuple<Int32, String, AssociateType>>
+  nameWithType: Task<ValueTuple<Int32, String, AssociateType>>
+  fullName: System.Threading.Tasks.Task<System.ValueTuple<System.Int32, System.String, SuperOffice.Data.AssociateType>>
+  nameWithType.vb: Task(Of ValueTuple(Of Int32, String, AssociateType))
+  fullName.vb: System.Threading.Tasks.Task(Of System.ValueTuple(Of System.Int32, System.String, SuperOffice.Data.AssociateType))
+  name.vb: Task(Of ValueTuple(Of Int32, String, AssociateType))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`3
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`3
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Principal.AssociateResolver.IsPasswordValid*
   commentId: Overload:SuperOffice.Security.Principal.AssociateResolver.IsPasswordValid
   isExternal: true
@@ -710,27 +887,27 @@ references:
   name: SecretFromPassword
   nameWithType: AssociateResolver.SecretFromPassword
   fullName: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword
-- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity*
-  commentId: Overload:SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity
+- uid: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentityAsync*
+  commentId: Overload:SuperOffice.Security.Principal.AssociateResolver.ResolveIdentityAsync
   isExternal: true
-  name: ResolveIdentity
-  nameWithType: AssociateResolver.ResolveIdentity
-  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity
-- uid: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
-  commentId: M:SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
+  name: ResolveIdentityAsync
+  nameWithType: AssociateResolver.ResolveIdentityAsync
+  fullName: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentityAsync
+- uid: SuperOffice.Security.ISoIdentityResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Security.ISoIdentityResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection)
   parent: SuperOffice.Security.ISoIdentityResolver
   isExternal: true
-  name: ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String)
-  nameWithType: ISoIdentityResolver.ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String)
-  fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Data.SoConnection, System.String)
-  nameWithType.vb: ISoIdentityResolver.ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, String)
-  fullName.vb: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Data.SoConnection, System.String)
-  name.vb: ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, String)
+  name: ResolveIdentityAsync(IEnumerable<ClaimsIdentity>, SoConnection)
+  nameWithType: ISoIdentityResolver.ResolveIdentityAsync(IEnumerable<ClaimsIdentity>, SoConnection)
+  fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Data.SoConnection)
+  nameWithType.vb: ISoIdentityResolver.ResolveIdentityAsync(IEnumerable(Of ClaimsIdentity), SoConnection)
+  fullName.vb: SuperOffice.Security.ISoIdentityResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Data.SoConnection)
+  name.vb: ResolveIdentityAsync(IEnumerable(Of ClaimsIdentity), SoConnection)
   spec.csharp:
-  - uid: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
-    name: ResolveIdentity
-    nameWithType: ISoIdentityResolver.ResolveIdentity
-    fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity
+  - uid: SuperOffice.Security.ISoIdentityResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection)
+    name: ResolveIdentityAsync
+    nameWithType: ISoIdentityResolver.ResolveIdentityAsync
+    fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentityAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,22 +936,14 @@ references:
     nameWithType: SoConnection
     fullName: SuperOffice.Data.SoConnection
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
-    name: ResolveIdentity
-    nameWithType: ISoIdentityResolver.ResolveIdentity
-    fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity
+  - uid: SuperOffice.Security.ISoIdentityResolver.ResolveIdentityAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection)
+    name: ResolveIdentityAsync
+    nameWithType: ISoIdentityResolver.ResolveIdentityAsync
+    fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentityAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -802,14 +971,6 @@ references:
     name: SoConnection
     nameWithType: SoConnection
     fullName: SuperOffice.Data.SoConnection
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
@@ -857,13 +1018,87 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Security.Principal.ISoIdentity
-  commentId: T:SuperOffice.Security.Principal.ISoIdentity
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: ISoIdentity
-  nameWithType: ISoIdentity
-  fullName: SuperOffice.Security.Principal.ISoIdentity
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Security.Claims.ClaimsIdentity,System.String}}
+  commentId: '!:System.Threading.Tasks.Task{System.ValueTuple{System.Security.Claims.ClaimsIdentity,System.String}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ValueTuple<ClaimsIdentity, String>>
+  nameWithType: Task<ValueTuple<ClaimsIdentity, String>>
+  fullName: System.Threading.Tasks.Task<System.ValueTuple<System.Security.Claims.ClaimsIdentity, System.String>>
+  nameWithType.vb: Task(Of ValueTuple(Of ClaimsIdentity, String))
+  fullName.vb: System.Threading.Tasks.Task(Of System.ValueTuple(Of System.Security.Claims.ClaimsIdentity, System.String))
+  name.vb: Task(Of ValueTuple(Of ClaimsIdentity, String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
   isExternal: true
   name: IEnumerable<>

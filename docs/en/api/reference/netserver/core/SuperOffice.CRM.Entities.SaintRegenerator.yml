@@ -5,9 +5,9 @@ items:
   id: SaintRegenerator
   parent: SuperOffice.CRM.Entities
   children:
-  - SuperOffice.CRM.Entities.SaintRegenerator.#ctor(SuperOffice.CRM.Entities.ProgressCallback)
-  - SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs
-  - SuperOffice.CRM.Entities.SaintRegenerator.Regenerate
+  - SuperOffice.CRM.Entities.SaintRegenerator.#ctor(SuperOffice.CRM.Entities.ProgressCallbackAsync)
+  - SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.SaintRegenerator.RegenerateAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -37,16 +37,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Entities.SaintRegenerator.#ctor(SuperOffice.CRM.Entities.ProgressCallback)
-  commentId: M:SuperOffice.CRM.Entities.SaintRegenerator.#ctor(SuperOffice.CRM.Entities.ProgressCallback)
-  id: '#ctor(SuperOffice.CRM.Entities.ProgressCallback)'
+- uid: SuperOffice.CRM.Entities.SaintRegenerator.#ctor(SuperOffice.CRM.Entities.ProgressCallbackAsync)
+  commentId: M:SuperOffice.CRM.Entities.SaintRegenerator.#ctor(SuperOffice.CRM.Entities.ProgressCallbackAsync)
+  id: '#ctor(SuperOffice.CRM.Entities.ProgressCallbackAsync)'
   parent: SuperOffice.CRM.Entities.SaintRegenerator
   langs:
   - csharp
   - vb
-  name: SaintRegenerator(ProgressCallback)
-  nameWithType: SaintRegenerator.SaintRegenerator(ProgressCallback)
-  fullName: SuperOffice.CRM.Entities.SaintRegenerator.SaintRegenerator(SuperOffice.CRM.Entities.ProgressCallback)
+  name: SaintRegenerator(ProgressCallbackAsync)
+  nameWithType: SaintRegenerator.SaintRegenerator(ProgressCallbackAsync)
+  fullName: SuperOffice.CRM.Entities.SaintRegenerator.SaintRegenerator(SuperOffice.CRM.Entities.ProgressCallbackAsync)
   type: Constructor
   source:
     path: SoDataBase
@@ -55,26 +55,26 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public SaintRegenerator(ProgressCallback progressCallback)
+    content: public SaintRegenerator(ProgressCallbackAsync progressCallbackAsync)
     parameters:
-    - id: progressCallback
-      type: SuperOffice.CRM.Entities.ProgressCallback
-    content.vb: Public Sub New(progressCallback As ProgressCallback)
+    - id: progressCallbackAsync
+      type: SuperOffice.CRM.Entities.ProgressCallbackAsync
+    content.vb: Public Sub New(progressCallbackAsync As ProgressCallbackAsync)
   overload: SuperOffice.CRM.Entities.SaintRegenerator.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs
-  commentId: M:SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs
-  id: EnsureUdefs
+- uid: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefsAsync(System.Threading.CancellationToken)
+  id: EnsureUdefsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.SaintRegenerator
   langs:
   - csharp
   - vb
-  name: EnsureUdefs()
-  nameWithType: SaintRegenerator.EnsureUdefs()
-  fullName: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs()
+  name: EnsureUdefsAsync(CancellationToken)
+  nameWithType: SaintRegenerator.EnsureUdefsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefsAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -83,25 +83,30 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static void EnsureUdefs()
-    content.vb: Public Shared Sub EnsureUdefs
-  overload: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs*
+    content: public static Task EnsureUdefsAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function EnsureUdefsAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefsAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Entities.SaintRegenerator.Regenerate
-  commentId: M:SuperOffice.CRM.Entities.SaintRegenerator.Regenerate
-  id: Regenerate
+- uid: SuperOffice.CRM.Entities.SaintRegenerator.RegenerateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.SaintRegenerator.RegenerateAsync(System.Threading.CancellationToken)
+  id: RegenerateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.SaintRegenerator
   langs:
   - csharp
   - vb
-  name: Regenerate()
-  nameWithType: SaintRegenerator.Regenerate()
-  fullName: SuperOffice.CRM.Entities.SaintRegenerator.Regenerate()
+  name: RegenerateAsync(CancellationToken)
+  nameWithType: SaintRegenerator.RegenerateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.SaintRegenerator.RegenerateAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -110,11 +115,14 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public bool Regenerate()
+    content: public Task<bool> RegenerateAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Function Regenerate As Boolean
-  overload: SuperOffice.CRM.Entities.SaintRegenerator.Regenerate*
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function RegenerateAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Entities.SaintRegenerator.RegenerateAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -310,29 +318,113 @@ references:
   name: SaintRegenerator
   nameWithType: SaintRegenerator.SaintRegenerator
   fullName: SuperOffice.CRM.Entities.SaintRegenerator.SaintRegenerator
-- uid: SuperOffice.CRM.Entities.ProgressCallback
-  commentId: T:SuperOffice.CRM.Entities.ProgressCallback
+- uid: SuperOffice.CRM.Entities.ProgressCallbackAsync
+  commentId: T:SuperOffice.CRM.Entities.ProgressCallbackAsync
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  name: ProgressCallback
-  nameWithType: ProgressCallback
-  fullName: SuperOffice.CRM.Entities.ProgressCallback
-- uid: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs*
-  commentId: Overload:SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs
+  name: ProgressCallbackAsync
+  nameWithType: ProgressCallbackAsync
+  fullName: SuperOffice.CRM.Entities.ProgressCallbackAsync
+- uid: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefsAsync
   isExternal: true
-  name: EnsureUdefs
-  nameWithType: SaintRegenerator.EnsureUdefs
-  fullName: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs
-- uid: SuperOffice.CRM.Entities.SaintRegenerator.Regenerate*
-  commentId: Overload:SuperOffice.CRM.Entities.SaintRegenerator.Regenerate
+  name: EnsureUdefsAsync
+  nameWithType: SaintRegenerator.EnsureUdefsAsync
+  fullName: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefsAsync
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: Regenerate
-  nameWithType: SaintRegenerator.Regenerate
-  fullName: SuperOffice.CRM.Entities.SaintRegenerator.Regenerate
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Entities.SaintRegenerator.RegenerateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.SaintRegenerator.RegenerateAsync
+  isExternal: true
+  name: RegenerateAsync
+  nameWithType: SaintRegenerator.RegenerateAsync
+  fullName: SuperOffice.CRM.Entities.SaintRegenerator.RegenerateAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

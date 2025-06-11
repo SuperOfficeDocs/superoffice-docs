@@ -4,29 +4,14 @@ items:
   commentId: N:SuperOffice.Data.Dialect
   id: SuperOffice.Data.Dialect
   children:
-  - SuperOffice.Data.Dialect.DatabaseOperations
-  - SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-  - SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-  - SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
   - SuperOffice.Data.Dialect.Dialect
   - SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
   - SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
-  - SuperOffice.Data.Dialect.FieldValueParser
-  - SuperOffice.Data.Dialect.MassOperations
-  - SuperOffice.Data.Dialect.MassResult
-  - SuperOffice.Data.Dialect.Oracle12
-  - SuperOffice.Data.Dialect.OracleCommon
-  - SuperOffice.Data.Dialect.OracleMassOperations
-  - SuperOffice.Data.Dialect.OracleOperations
-  - SuperOffice.Data.Dialect.PrivateMassOperationsFactory
-  - SuperOffice.Data.Dialect.RowStatus
+  - SuperOffice.Data.Dialect.IDatabaseOperations
+  - SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+  - SuperOffice.Data.Dialect.ITempTableManager
   - SuperOffice.Data.Dialect.SqlCommandXml
-  - SuperOffice.Data.Dialect.SqlServer8Operations
-  - SuperOffice.Data.Dialect.SqlServerCollationMapping
-  - SuperOffice.Data.Dialect.SqlServerCommon
-  - SuperOffice.Data.Dialect.SqlServerMassOperations
-  - SuperOffice.Data.Dialect.SqlServerOperations
-  - SuperOffice.Data.Dialect.TempTableManager
+  - SuperOffice.Data.Dialect.TruncateOptions
   langs:
   - csharp
   - vb
@@ -37,37 +22,8 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.Data.Dialect.DatabaseOperations
-  commentId: T:SuperOffice.Data.Dialect.DatabaseOperations
-  parent: SuperOffice.Data.Dialect
-  isExternal: true
-  name: DatabaseOperations
-  nameWithType: DatabaseOperations
-  fullName: SuperOffice.Data.Dialect.DatabaseOperations
-- uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-  commentId: T:SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-  parent: SuperOffice.Data.Dialect
-  isExternal: true
-  name: DatabaseOperations.TruncateOptions
-  nameWithType: DatabaseOperations.TruncateOptions
-  fullName: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-- uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-  commentId: T:SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-  parent: SuperOffice.Data.Dialect
-  isExternal: true
-  name: DatabaseOperations.BulkImportInfo
-  nameWithType: DatabaseOperations.BulkImportInfo
-  fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-- uid: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
-  commentId: T:SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
-  parent: SuperOffice.Data.Dialect
-  isExternal: true
-  name: DatabaseOperations.UserInfo
-  nameWithType: DatabaseOperations.UserInfo
-  fullName: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
 - uid: SuperOffice.Data.Dialect.Dialect
   commentId: T:SuperOffice.Data.Dialect.Dialect
-  parent: SuperOffice.Data.Dialect
   isExternal: true
   name: Dialect
   nameWithType: Dialect
@@ -86,106 +42,38 @@ references:
   name: Dialect.FulltextEncodedSearch
   nameWithType: Dialect.FulltextEncodedSearch
   fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
-- uid: SuperOffice.Data.Dialect.FieldValueParser
-  commentId: T:SuperOffice.Data.Dialect.FieldValueParser
-  isExternal: true
-  name: FieldValueParser
-  nameWithType: FieldValueParser
-  fullName: SuperOffice.Data.Dialect.FieldValueParser
-- uid: SuperOffice.Data.Dialect.MassOperations
-  commentId: T:SuperOffice.Data.Dialect.MassOperations
+- uid: SuperOffice.Data.Dialect.IDatabaseOperations
+  commentId: T:SuperOffice.Data.Dialect.IDatabaseOperations
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  name: MassOperations
-  nameWithType: MassOperations
-  fullName: SuperOffice.Data.Dialect.MassOperations
-- uid: SuperOffice.Data.Dialect.MassResult
-  commentId: T:SuperOffice.Data.Dialect.MassResult
+  name: IDatabaseOperations
+  nameWithType: IDatabaseOperations
+  fullName: SuperOffice.Data.Dialect.IDatabaseOperations
+- uid: SuperOffice.Data.Dialect.TruncateOptions
+  commentId: T:SuperOffice.Data.Dialect.TruncateOptions
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  name: MassResult
-  nameWithType: MassResult
-  fullName: SuperOffice.Data.Dialect.MassResult
-- uid: SuperOffice.Data.Dialect.RowStatus
-  commentId: T:SuperOffice.Data.Dialect.RowStatus
+  name: TruncateOptions
+  nameWithType: TruncateOptions
+  fullName: SuperOffice.Data.Dialect.TruncateOptions
+- uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+  commentId: T:SuperOffice.Data.Dialect.IDatabaseOperationsFactory
   isExternal: true
-  name: RowStatus
-  nameWithType: RowStatus
-  fullName: SuperOffice.Data.Dialect.RowStatus
-- uid: SuperOffice.Data.Dialect.Oracle12
-  commentId: T:SuperOffice.Data.Dialect.Oracle12
+  name: IDatabaseOperationsFactory
+  nameWithType: IDatabaseOperationsFactory
+  fullName: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+- uid: SuperOffice.Data.Dialect.ITempTableManager
+  commentId: T:SuperOffice.Data.Dialect.ITempTableManager
   isExternal: true
-  name: Oracle12
-  nameWithType: Oracle12
-  fullName: SuperOffice.Data.Dialect.Oracle12
-- uid: SuperOffice.Data.Dialect.OracleCommon
-  commentId: T:SuperOffice.Data.Dialect.OracleCommon
-  parent: SuperOffice.Data.Dialect
-  isExternal: true
-  name: OracleCommon
-  nameWithType: OracleCommon
-  fullName: SuperOffice.Data.Dialect.OracleCommon
-- uid: SuperOffice.Data.Dialect.OracleMassOperations
-  commentId: T:SuperOffice.Data.Dialect.OracleMassOperations
-  isExternal: true
-  name: OracleMassOperations
-  nameWithType: OracleMassOperations
-  fullName: SuperOffice.Data.Dialect.OracleMassOperations
-- uid: SuperOffice.Data.Dialect.OracleOperations
-  commentId: T:SuperOffice.Data.Dialect.OracleOperations
-  isExternal: true
-  name: OracleOperations
-  nameWithType: OracleOperations
-  fullName: SuperOffice.Data.Dialect.OracleOperations
-- uid: SuperOffice.Data.Dialect.PrivateMassOperationsFactory
-  commentId: T:SuperOffice.Data.Dialect.PrivateMassOperationsFactory
-  isExternal: true
-  name: PrivateMassOperationsFactory
-  nameWithType: PrivateMassOperationsFactory
-  fullName: SuperOffice.Data.Dialect.PrivateMassOperationsFactory
+  name: ITempTableManager
+  nameWithType: ITempTableManager
+  fullName: SuperOffice.Data.Dialect.ITempTableManager
 - uid: SuperOffice.Data.Dialect.SqlCommandXml
   commentId: T:SuperOffice.Data.Dialect.SqlCommandXml
   isExternal: true
   name: SqlCommandXml
   nameWithType: SqlCommandXml
   fullName: SuperOffice.Data.Dialect.SqlCommandXml
-- uid: SuperOffice.Data.Dialect.SqlServerCollationMapping
-  commentId: T:SuperOffice.Data.Dialect.SqlServerCollationMapping
-  isExternal: true
-  name: SqlServerCollationMapping
-  nameWithType: SqlServerCollationMapping
-  fullName: SuperOffice.Data.Dialect.SqlServerCollationMapping
-- uid: SuperOffice.Data.Dialect.SqlServerCommon
-  commentId: T:SuperOffice.Data.Dialect.SqlServerCommon
-  isExternal: true
-  name: SqlServerCommon
-  nameWithType: SqlServerCommon
-  fullName: SuperOffice.Data.Dialect.SqlServerCommon
-- uid: SuperOffice.Data.Dialect.SqlServerMassOperations
-  commentId: T:SuperOffice.Data.Dialect.SqlServerMassOperations
-  isExternal: true
-  name: SqlServerMassOperations
-  nameWithType: SqlServerMassOperations
-  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations
-- uid: SuperOffice.Data.Dialect.SqlServerOperations
-  commentId: T:SuperOffice.Data.Dialect.SqlServerOperations
-  parent: SuperOffice.Data.Dialect
-  isExternal: true
-  name: SqlServerOperations
-  nameWithType: SqlServerOperations
-  fullName: SuperOffice.Data.Dialect.SqlServerOperations
-- uid: SuperOffice.Data.Dialect.SqlServer8Operations
-  commentId: T:SuperOffice.Data.Dialect.SqlServer8Operations
-  isExternal: true
-  name: SqlServer8Operations
-  nameWithType: SqlServer8Operations
-  fullName: SuperOffice.Data.Dialect.SqlServer8Operations
-- uid: SuperOffice.Data.Dialect.TempTableManager
-  commentId: T:SuperOffice.Data.Dialect.TempTableManager
-  isExternal: true
-  name: TempTableManager
-  nameWithType: TempTableManager
-  fullName: SuperOffice.Data.Dialect.TempTableManager
 - uid: SuperOffice.Data.Dialect
   commentId: N:SuperOffice.Data.Dialect
   isExternal: true

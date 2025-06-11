@@ -5,7 +5,7 @@ items:
   id: ServiceFacade
   parent: SuperOffice.CRM.Services.Implementation.ServiceFacades
   children:
-  - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallService(System.String,System.String)
+  - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.FireServiceCall(System.String,System.Object)
   langs:
   - csharp
@@ -34,16 +34,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallService(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallService(System.String,System.String)
-  id: CallService(System.String,System.String)
+- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
   langs:
   - csharp
   - vb
-  name: CallService(String, String)
-  nameWithType: ServiceFacade.CallService(String, String)
-  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallService(System.String, System.String)
+  name: CallServiceAsync(String, String, CancellationToken)
+  nameWithType: ServiceFacade.CallServiceAsync(String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -52,16 +52,18 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Services.Implementation.ServiceFacades
   syntax:
-    content: public static string CallService(string methodName, string arguments)
+    content: public static Task<string> CallServiceAsync(string methodName, string arguments, CancellationToken cancellationToken = null)
     parameters:
     - id: methodName
       type: System.String
     - id: arguments
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function CallService(methodName As String, arguments As String) As String
-  overload: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallService*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function CallServiceAsync(methodName As String, arguments As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync*
   modifiers.csharp:
   - public
   - static
@@ -85,7 +87,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Services.Implementation.ServiceFacades
-  summary: "\nFire and forget version for <xref href=\"SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallService(System.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: "\nFire and forget version for <xref href=\"SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String%2cSystem.String%2cSystem.Threading.CancellationToken)\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public static void FireServiceCall(string methodName, object argument)
     parameters:
@@ -122,12 +124,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallService*
-  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallService
+- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync
   isExternal: true
-  name: CallService
-  nameWithType: ServiceFacade.CallService
-  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallService
+  name: CallServiceAsync
+  nameWithType: ServiceFacade.CallServiceAsync
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -135,6 +137,92 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.FireServiceCall*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.FireServiceCall
   isExternal: true

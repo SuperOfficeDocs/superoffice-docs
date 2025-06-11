@@ -5,17 +5,17 @@ items:
   id: ActivityLinksHelper
   parent: SuperOffice.CRM.Entities
   children:
-  - SuperOffice.CRM.Entities.ActivityLinksHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.TableRowBase)
-  - SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLink(SuperOffice.CRM.Rows.AppointmentRow)
-  - SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLink(SuperOffice.CRM.Rows.DocumentRow)
-  - SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinks(SuperOffice.CRM.Rows.RelationsRows)
-  - SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLink(SuperOffice.CRM.Rows.SaleRow)
+  - SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLinkAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLinkAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLinkAsync(SuperOffice.CRM.Rows.SaleRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.ActivityLinksHelper.CreateAsync(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.ActivityLinksHelper.DeleteLinks(System.Int32[])
   - SuperOffice.CRM.Entities.ActivityLinksHelper.GetFacadingItems
-  - SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdate
-  - SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.CRM.Entities.ActivityLinksHelper.OnSaved(System.Boolean)
-  - SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinks(SuperOffice.CRM.Rows.RelationsRows)
+  - SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdateAsync
+  - SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Entities.ActivityLinksHelper.OnSavedAsync(System.Boolean)
+  - SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -45,17 +45,18 @@ items:
   implements:
   - SuperOffice.Data.INestedPersist
   inheritedMembers:
-  - SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.CRM.Rows.TableRowBase,System.String)
-  - SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.Data.SQL.TableInfo,System.Int32,System.String)
-  - SuperOffice.CRM.Entities.LinksHelper.AddLink(System.Int16,System.Int32,System.String)
-  - SuperOffice.CRM.Entities.LinksHelper.AddSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-  - SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-  - SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  - SuperOffice.CRM.Entities.LinksHelper.InitializeAsync(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.CRM.Rows.TableRowBase,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(System.Int16,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.LinksHelper.AddSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.LinksHelper.EditSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.LinksHelper.GetLinks
-  - SuperOffice.CRM.Entities.LinksHelper.CopyTo(SuperOffice.CRM.Entities.LinksHelper)
+  - SuperOffice.CRM.Entities.LinksHelper.CopyToAsync(SuperOffice.CRM.Entities.LinksHelper,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.LinksHelper.OnChildPreIdUpdate(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow,System.Boolean)
   - SuperOffice.CRM.Entities.LinksHelper.OnChildIdUpdate(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow,System.Boolean)
-  - SuperOffice.CRM.Entities.LinksHelper.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Entities.LinksHelper.LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.LinksHelper.IsSameChild(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.LinksHelper.hasChanged(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.LinksHelper.SourceTableId
@@ -74,14 +75,14 @@ items:
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.IsSameChild(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.hasChanged(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.GetFacadingItems
-  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnPreIdUpdate
-  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnIdUpdate
-  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnSaved(System.Boolean)
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnPreIdUpdateAsync
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnIdUpdateAsync
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnSavedAsync(System.Boolean)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnParentPreIdUpdate(SuperOffice.CRM.Rows.TableRowBase)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnChildPreIdUpdate(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow,System.Boolean)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnParentIdUpdate(SuperOffice.CRM.Rows.TableRowBase)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnChildIdUpdate(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow,System.Boolean)
-  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Items
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.RemovedItems
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Parent
@@ -90,20 +91,20 @@ items:
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperAdded
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperRemoved
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperEdited
-  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-  - SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+  - SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.NestedPersistFacade.IsDirty
   - SuperOffice.Data.NestedPersist._saveOwner
   - SuperOffice.Data.NestedPersist._isSaving
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
-  - SuperOffice.Data.NestedPersist.Save
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.SaveAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
   - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
@@ -123,48 +124,52 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.TableRowBase)
-  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.TableRowBase)
-  id: '#ctor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.TableRowBase)'
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.CreateAsync(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.CreateAsync(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+  id: CreateAsync(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ActivityLinksHelper
   langs:
   - csharp
   - vb
-  name: ActivityLinksHelper(TableRowBase, TableRowBase)
-  nameWithType: ActivityLinksHelper.ActivityLinksHelper(TableRowBase, TableRowBase)
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.ActivityLinksHelper(SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.TableRowBase)
-  type: Constructor
+  name: CreateAsync(TableRowBase, TableRowBase, CancellationToken)
+  nameWithType: ActivityLinksHelper.CreateAsync(TableRowBase, TableRowBase, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.CreateAsync(SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.TableRowBase, System.Threading.CancellationToken)
+  type: Method
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nDefault constructor setting the activity link source info\n"
   syntax:
-    content: public ActivityLinksHelper(TableRowBase sourceEntityRow, TableRowBase activeLinksRow)
+    content: public static Task<ActivityLinksHelper> CreateAsync(TableRowBase sourceEntityRow, TableRowBase activeLinksRow, CancellationToken cancellationToken = null)
     parameters:
     - id: sourceEntityRow
       type: SuperOffice.CRM.Rows.TableRowBase
-      description: The row object of the source entity
     - id: activeLinksRow
       type: SuperOffice.CRM.Rows.TableRowBase
-    content.vb: Public Sub New(sourceEntityRow As TableRowBase, activeLinksRow As TableRowBase)
-  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.#ctor*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ActivityLinksHelper}
+    content.vb: Public Shared Function CreateAsync(sourceEntityRow As TableRowBase, activeLinksRow As TableRowBase, cancellationToken As CancellationToken = Nothing) As Task(Of ActivityLinksHelper)
+  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.CreateAsync*
   modifiers.csharp:
   - public
+  - static
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLink(SuperOffice.CRM.Rows.DocumentRow)
-  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLink(SuperOffice.CRM.Rows.DocumentRow)
-  id: AddDocumentLink(SuperOffice.CRM.Rows.DocumentRow)
+  - Shared
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLinkAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLinkAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  id: AddDocumentLinkAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ActivityLinksHelper
   langs:
   - csharp
   - vb
-  name: AddDocumentLink(DocumentRow)
-  nameWithType: ActivityLinksHelper.AddDocumentLink(DocumentRow)
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLink(SuperOffice.CRM.Rows.DocumentRow)
+  name: AddDocumentLinkAsync(DocumentRow, CancellationToken)
+  nameWithType: ActivityLinksHelper.AddDocumentLinkAsync(DocumentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLinkAsync(SuperOffice.CRM.Rows.DocumentRow, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -174,30 +179,32 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nAdds a link to an existing document\n"
   syntax:
-    content: public RelationsRow AddDocumentLink(DocumentRow row)
+    content: public Task<RelationsRow> AddDocumentLinkAsync(DocumentRow row, CancellationToken cancellationToken = null)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.DocumentRow
       description: The document that is linked to
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.RelationsRow
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRow}
       description: The new link
-    content.vb: Public Function AddDocumentLink(row As DocumentRow) As RelationsRow
-  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLink*
+    content.vb: Public Function AddDocumentLinkAsync(row As DocumentRow, cancellationToken As CancellationToken = Nothing) As Task(Of RelationsRow)
+  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLinkAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLink(SuperOffice.CRM.Rows.SaleRow)
-  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLink(SuperOffice.CRM.Rows.SaleRow)
-  id: AddSaleLink(SuperOffice.CRM.Rows.SaleRow)
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLinkAsync(SuperOffice.CRM.Rows.SaleRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLinkAsync(SuperOffice.CRM.Rows.SaleRow,System.Threading.CancellationToken)
+  id: AddSaleLinkAsync(SuperOffice.CRM.Rows.SaleRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ActivityLinksHelper
   langs:
   - csharp
   - vb
-  name: AddSaleLink(SaleRow)
-  nameWithType: ActivityLinksHelper.AddSaleLink(SaleRow)
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLink(SuperOffice.CRM.Rows.SaleRow)
+  name: AddSaleLinkAsync(SaleRow, CancellationToken)
+  nameWithType: ActivityLinksHelper.AddSaleLinkAsync(SaleRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLinkAsync(SuperOffice.CRM.Rows.SaleRow, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -207,30 +214,32 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nAdds a link to an existing sale\n"
   syntax:
-    content: public RelationsRow AddSaleLink(SaleRow row)
+    content: public Task<RelationsRow> AddSaleLinkAsync(SaleRow row, CancellationToken cancellationToken = null)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.SaleRow
       description: The sale that is linked to
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.RelationsRow
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRow}
       description: The new link
-    content.vb: Public Function AddSaleLink(row As SaleRow) As RelationsRow
-  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLink*
+    content.vb: Public Function AddSaleLinkAsync(row As SaleRow, cancellationToken As CancellationToken = Nothing) As Task(Of RelationsRow)
+  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLinkAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLink(SuperOffice.CRM.Rows.AppointmentRow)
-  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLink(SuperOffice.CRM.Rows.AppointmentRow)
-  id: AddAppointmentLink(SuperOffice.CRM.Rows.AppointmentRow)
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLinkAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLinkAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  id: AddAppointmentLinkAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ActivityLinksHelper
   langs:
   - csharp
   - vb
-  name: AddAppointmentLink(AppointmentRow)
-  nameWithType: ActivityLinksHelper.AddAppointmentLink(AppointmentRow)
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLink(SuperOffice.CRM.Rows.AppointmentRow)
+  name: AddAppointmentLinkAsync(AppointmentRow, CancellationToken)
+  nameWithType: ActivityLinksHelper.AddAppointmentLinkAsync(AppointmentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLinkAsync(SuperOffice.CRM.Rows.AppointmentRow, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -240,30 +249,32 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nAdds a link to an existing appointment\n"
   syntax:
-    content: public RelationsRow AddAppointmentLink(AppointmentRow row)
+    content: public Task<RelationsRow> AddAppointmentLinkAsync(AppointmentRow row, CancellationToken cancellationToken = null)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.AppointmentRow
       description: The appointment that is linked to
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.RelationsRow
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRow}
       description: The new link
-    content.vb: Public Function AddAppointmentLink(row As AppointmentRow) As RelationsRow
-  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLink*
+    content.vb: Public Function AddAppointmentLinkAsync(row As AppointmentRow, cancellationToken As CancellationToken = Nothing) As Task(Of RelationsRow)
+  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLinkAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinks(SuperOffice.CRM.Rows.RelationsRows)
-  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinks(SuperOffice.CRM.Rows.RelationsRows)
-  id: AddLinks(SuperOffice.CRM.Rows.RelationsRows)
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+  id: AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ActivityLinksHelper
   langs:
   - csharp
   - vb
-  name: AddLinks(RelationsRows)
-  nameWithType: ActivityLinksHelper.AddLinks(RelationsRows)
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinks(SuperOffice.CRM.Rows.RelationsRows)
+  name: AddLinksAsync(RelationsRows, CancellationToken)
+  nameWithType: ActivityLinksHelper.AddLinksAsync(RelationsRows, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -273,33 +284,35 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nAdds link relations to the entity. If the source does not match the LinkHelper source an exception is thrown.\n"
   syntax:
-    content: public override RelationsRows AddLinks(RelationsRows relationsRows)
+    content: public override Task<RelationsRows> AddLinksAsync(RelationsRows relationsRows, CancellationToken cancellationToken = null)
     parameters:
     - id: relationsRows
       type: SuperOffice.CRM.Rows.RelationsRows
       description: Collection Relations Rows to save
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Rows.RelationsRows
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRows}
       description: The saved RelationsRows
-    content.vb: Public Overrides Function AddLinks(relationsRows As RelationsRows) As RelationsRows
-  overridden: SuperOffice.CRM.Entities.LinksHelper.AddLinks(SuperOffice.CRM.Rows.RelationsRows)
-  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinks*
+    content.vb: Public Overrides Function AddLinksAsync(relationsRows As RelationsRows, cancellationToken As CancellationToken = Nothing) As Task(Of RelationsRows)
+  overridden: SuperOffice.CRM.Entities.LinksHelper.AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinksAsync*
   modifiers.csharp:
   - public
   - override
   modifiers.vb:
   - Public
   - Overrides
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinks(SuperOffice.CRM.Rows.RelationsRows)
-  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinks(SuperOffice.CRM.Rows.RelationsRows)
-  id: SetLinks(SuperOffice.CRM.Rows.RelationsRows)
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+  id: SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.ActivityLinksHelper
   langs:
   - csharp
   - vb
-  name: SetLinks(RelationsRows)
-  nameWithType: ActivityLinksHelper.SetLinks(RelationsRows)
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinks(SuperOffice.CRM.Rows.RelationsRows)
+  name: SetLinksAsync(RelationsRows, CancellationToken)
+  nameWithType: ActivityLinksHelper.SetLinksAsync(RelationsRows, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -309,14 +322,19 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nSets link relations to the entity. Existing relations are deleted or updated\nIf the source does not match the LinkHelper source an exception is thrown.\n"
   syntax:
-    content: public override void SetLinks(RelationsRows relationsRows)
+    content: public override Task SetLinksAsync(RelationsRows relationsRows, CancellationToken cancellationToken = null)
     parameters:
     - id: relationsRows
       type: SuperOffice.CRM.Rows.RelationsRows
       description: Collection of Relation Rows to save
-    content.vb: Public Overrides Sub SetLinks(relationsRows As RelationsRows)
-  overridden: SuperOffice.CRM.Entities.LinksHelper.SetLinks(SuperOffice.CRM.Rows.RelationsRows)
-  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinks*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: The saved RelationsRows
+    content.vb: Public Overrides Function SetLinksAsync(relationsRows As RelationsRows, cancellationToken As CancellationToken = Nothing) As Task
+  overridden: SuperOffice.CRM.Entities.LinksHelper.SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinksAsync*
   modifiers.csharp:
   - public
   - override
@@ -358,16 +376,16 @@ items:
   - Overrides
   fullName.vb: SuperOffice.CRM.Entities.ActivityLinksHelper.DeleteLinks(System.Int32())
   name.vb: DeleteLinks(Int32())
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  id: OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  id: OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.CRM.Entities.ActivityLinksHelper
   langs:
   - csharp
   - vb
-  name: OnPrimaryKeyRequest(PKContainer)
-  nameWithType: ActivityLinksHelper.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: ActivityLinksHelper.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   type: Method
   source:
     path: SoDataBase
@@ -377,29 +395,31 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nForce a primary key request to set the sqltype of the target row, even\nif it is not actually a full member of our nestedpersist tree\n"
   syntax:
-    content: protected override void OnPrimaryKeyRequest(PKContainer pkContainer)
+    content: protected override Task OnPrimaryKeyRequestAsync(PKContainer pkContainer)
     parameters:
     - id: pkContainer
       type: SuperOffice.Data.PKContainer
-    content.vb: Protected Overrides Sub OnPrimaryKeyRequest(pkContainer As PKContainer)
-  overridden: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequest*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnPrimaryKeyRequestAsync(pkContainer As PKContainer) As Task
+  overridden: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequestAsync*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdate
-  id: OnPreIdUpdate
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdateAsync
+  id: OnPreIdUpdateAsync
   parent: SuperOffice.CRM.Entities.ActivityLinksHelper
   langs:
   - csharp
   - vb
-  name: OnPreIdUpdate()
-  nameWithType: ActivityLinksHelper.OnPreIdUpdate()
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: ActivityLinksHelper.OnPreIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdateAsync()
   type: Method
   source:
     path: SoDataBase
@@ -408,10 +428,12 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: protected override void OnPreIdUpdate()
-    content.vb: Protected Overrides Sub OnPreIdUpdate
-  overridden: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnPreIdUpdate
-  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdate*
+    content: protected override Task OnPreIdUpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnPreIdUpdateAsync As Task
+  overridden: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnPreIdUpdateAsync
+  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdateAsync*
   modifiers.csharp:
   - protected
   - override
@@ -448,16 +470,16 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.OnSaved(System.Boolean)
-  id: OnSaved(System.Boolean)
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.ActivityLinksHelper.OnSavedAsync(System.Boolean)
+  id: OnSavedAsync(System.Boolean)
   parent: SuperOffice.CRM.Entities.ActivityLinksHelper
   langs:
   - csharp
   - vb
-  name: OnSaved(Boolean)
-  nameWithType: ActivityLinksHelper.OnSaved(Boolean)
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: ActivityLinksHelper.OnSavedAsync(Boolean)
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSavedAsync(System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -466,13 +488,15 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: protected override void OnSaved(bool bSucceeded)
+    content: protected override Task OnSavedAsync(bool bSucceeded)
     parameters:
     - id: bSucceeded
       type: System.Boolean
-    content.vb: Protected Overrides Sub OnSaved(bSucceeded As Boolean)
-  overridden: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnSaved(System.Boolean)
-  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSaved*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnSavedAsync(bSucceeded As Boolean) As Task
+  overridden: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnSavedAsync(System.Boolean)
+  overload: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSavedAsync*
   modifiers.csharp:
   - protected
   - override
@@ -581,18 +605,18 @@ references:
   name: INestedPersist
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
-- uid: SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.CRM.Rows.TableRowBase,System.String)
-  commentId: M:SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.CRM.Rows.TableRowBase,System.String)
+- uid: SuperOffice.CRM.Entities.LinksHelper.InitializeAsync(SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.InitializeAsync(SuperOffice.CRM.Rows.TableRowBase)
   parent: SuperOffice.CRM.Entities.LinksHelper
   isExternal: true
-  name: AddLink(TableRowBase, String)
-  nameWithType: LinksHelper.AddLink(TableRowBase, String)
-  fullName: SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.CRM.Rows.TableRowBase, System.String)
+  name: InitializeAsync(TableRowBase)
+  nameWithType: LinksHelper.InitializeAsync(TableRowBase)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.InitializeAsync(SuperOffice.CRM.Rows.TableRowBase)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.CRM.Rows.TableRowBase,System.String)
-    name: AddLink
-    nameWithType: LinksHelper.AddLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.InitializeAsync(SuperOffice.CRM.Rows.TableRowBase)
+    name: InitializeAsync
+    nameWithType: LinksHelper.InitializeAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.InitializeAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -601,23 +625,39 @@ references:
     name: TableRowBase
     nameWithType: TableRowBase
     fullName: SuperOffice.CRM.Rows.TableRowBase
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.CRM.Rows.TableRowBase,System.String)
-    name: AddLink
-    nameWithType: LinksHelper.AddLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.InitializeAsync(SuperOffice.CRM.Rows.TableRowBase)
+    name: InitializeAsync
+    nameWithType: LinksHelper.InitializeAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.InitializeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.CRM.Rows.TableRowBase,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.CRM.Rows.TableRowBase,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.LinksHelper
+  isExternal: true
+  name: AddLinkAsync(TableRowBase, String, CancellationToken)
+  nameWithType: LinksHelper.AddLinkAsync(TableRowBase, String, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.CRM.Rows.TableRowBase, System.String, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.CRM.Rows.TableRowBase,System.String,System.Threading.CancellationToken)
+    name: AddLinkAsync
+    nameWithType: LinksHelper.AddLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -635,21 +675,62 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.Data.SQL.TableInfo,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.Data.SQL.TableInfo,System.Int32,System.String)
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.CRM.Rows.TableRowBase,System.String,System.Threading.CancellationToken)
+    name: AddLinkAsync
+    nameWithType: LinksHelper.AddLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.LinksHelper
   isExternal: true
-  name: AddLink(TableInfo, Int32, String)
-  nameWithType: LinksHelper.AddLink(TableInfo, Int32, String)
-  fullName: SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.Data.SQL.TableInfo, System.Int32, System.String)
+  name: AddLinkAsync(TableInfo, Int32, String, CancellationToken)
+  nameWithType: LinksHelper.AddLinkAsync(TableInfo, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.Data.SQL.TableInfo, System.Int32, System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.Data.SQL.TableInfo,System.Int32,System.String)
-    name: AddLink
-    nameWithType: LinksHelper.AddLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.String,System.Threading.CancellationToken)
+    name: AddLinkAsync
+    nameWithType: LinksHelper.AddLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -675,14 +756,22 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLink(SuperOffice.Data.SQL.TableInfo,System.Int32,System.String)
-    name: AddLink
-    nameWithType: LinksHelper.AddLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.String,System.Threading.CancellationToken)
+    name: AddLinkAsync
+    nameWithType: LinksHelper.AddLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -708,21 +797,29 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.LinksHelper.AddLink(System.Int16,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Entities.LinksHelper.AddLink(System.Int16,System.Int32,System.String)
+- uid: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(System.Int16,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(System.Int16,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.LinksHelper
   isExternal: true
-  name: AddLink(Int16, Int32, String)
-  nameWithType: LinksHelper.AddLink(Int16, Int32, String)
-  fullName: SuperOffice.CRM.Entities.LinksHelper.AddLink(System.Int16, System.Int32, System.String)
+  name: AddLinkAsync(Int16, Int32, String, CancellationToken)
+  nameWithType: LinksHelper.AddLinkAsync(Int16, Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(System.Int16, System.Int32, System.String, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLink(System.Int16,System.Int32,System.String)
-    name: AddLink
-    nameWithType: LinksHelper.AddLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(System.Int16,System.Int32,System.String,System.Threading.CancellationToken)
+    name: AddLinkAsync
+    nameWithType: LinksHelper.AddLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,14 +845,22 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLink(System.Int16,System.Int32,System.String)
-    name: AddLink
-    nameWithType: LinksHelper.AddLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync(System.Int16,System.Int32,System.String,System.Threading.CancellationToken)
+    name: AddLinkAsync
+    nameWithType: LinksHelper.AddLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -781,21 +886,29 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-  commentId: M:SuperOffice.CRM.Entities.LinksHelper.AddSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+- uid: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.AddSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.LinksHelper
   isExternal: true
-  name: AddSimilarLink(RelationsRow)
-  nameWithType: LinksHelper.AddSimilarLink(RelationsRow)
-  fullName: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  name: AddSimilarLinkAsync(RelationsRow, CancellationToken)
+  nameWithType: LinksHelper.AddSimilarLinkAsync(RelationsRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-    name: AddSimilarLink
-    nameWithType: LinksHelper.AddSimilarLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+    name: AddSimilarLinkAsync
+    nameWithType: LinksHelper.AddSimilarLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -804,15 +917,23 @@ references:
     name: RelationsRow
     nameWithType: RelationsRow
     fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-    name: AddSimilarLink
-    nameWithType: LinksHelper.AddSimilarLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+    name: AddSimilarLinkAsync
+    nameWithType: LinksHelper.AddSimilarLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.AddSimilarLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -821,22 +942,30 @@ references:
     name: RelationsRow
     nameWithType: RelationsRow
     fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-  commentId: M:SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+- uid: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.LinksHelper
   isExternal: true
-  name: DeleteSimilarLink(RelationsRow)
-  nameWithType: LinksHelper.DeleteSimilarLink(RelationsRow)
-  fullName: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  name: DeleteSimilarLinkAsync(RelationsRow, CancellationToken)
+  nameWithType: LinksHelper.DeleteSimilarLinkAsync(RelationsRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-    name: DeleteSimilarLink
-    nameWithType: LinksHelper.DeleteSimilarLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+    name: DeleteSimilarLinkAsync
+    nameWithType: LinksHelper.DeleteSimilarLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -845,15 +974,23 @@ references:
     name: RelationsRow
     nameWithType: RelationsRow
     fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-    name: DeleteSimilarLink
-    nameWithType: LinksHelper.DeleteSimilarLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+    name: DeleteSimilarLinkAsync
+    nameWithType: LinksHelper.DeleteSimilarLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -862,22 +999,30 @@ references:
     name: RelationsRow
     nameWithType: RelationsRow
     fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-  commentId: M:SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+- uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.EditSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.LinksHelper
   isExternal: true
-  name: EditSimilarLink(RelationsRow)
-  nameWithType: LinksHelper.EditSimilarLink(RelationsRow)
-  fullName: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  name: EditSimilarLinkAsync(RelationsRow, CancellationToken)
+  nameWithType: LinksHelper.EditSimilarLinkAsync(RelationsRow, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-    name: EditSimilarLink
-    nameWithType: LinksHelper.EditSimilarLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+    name: EditSimilarLinkAsync
+    nameWithType: LinksHelper.EditSimilarLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -886,15 +1031,23 @@ references:
     name: RelationsRow
     nameWithType: RelationsRow
     fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
-    name: EditSimilarLink
-    nameWithType: LinksHelper.EditSimilarLink
-    fullName: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink
+  - uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLinkAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+    name: EditSimilarLinkAsync
+    nameWithType: LinksHelper.EditSimilarLinkAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLinkAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -903,6 +1056,14 @@ references:
     name: RelationsRow
     nameWithType: RelationsRow
     fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -938,18 +1099,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.LinksHelper.CopyTo(SuperOffice.CRM.Entities.LinksHelper)
-  commentId: M:SuperOffice.CRM.Entities.LinksHelper.CopyTo(SuperOffice.CRM.Entities.LinksHelper)
+- uid: SuperOffice.CRM.Entities.LinksHelper.CopyToAsync(SuperOffice.CRM.Entities.LinksHelper,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.CopyToAsync(SuperOffice.CRM.Entities.LinksHelper,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.LinksHelper
   isExternal: true
-  name: CopyTo(LinksHelper)
-  nameWithType: LinksHelper.CopyTo(LinksHelper)
-  fullName: SuperOffice.CRM.Entities.LinksHelper.CopyTo(SuperOffice.CRM.Entities.LinksHelper)
+  name: CopyToAsync(LinksHelper, CancellationToken)
+  nameWithType: LinksHelper.CopyToAsync(LinksHelper, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.CopyToAsync(SuperOffice.CRM.Entities.LinksHelper, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.CopyTo(SuperOffice.CRM.Entities.LinksHelper)
-    name: CopyTo
-    nameWithType: LinksHelper.CopyTo
-    fullName: SuperOffice.CRM.Entities.LinksHelper.CopyTo
+  - uid: SuperOffice.CRM.Entities.LinksHelper.CopyToAsync(SuperOffice.CRM.Entities.LinksHelper,System.Threading.CancellationToken)
+    name: CopyToAsync
+    nameWithType: LinksHelper.CopyToAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.CopyToAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -958,15 +1119,23 @@ references:
     name: LinksHelper
     nameWithType: LinksHelper
     fullName: SuperOffice.CRM.Entities.LinksHelper
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.CopyTo(SuperOffice.CRM.Entities.LinksHelper)
-    name: CopyTo
-    nameWithType: LinksHelper.CopyTo
-    fullName: SuperOffice.CRM.Entities.LinksHelper.CopyTo
+  - uid: SuperOffice.CRM.Entities.LinksHelper.CopyToAsync(SuperOffice.CRM.Entities.LinksHelper,System.Threading.CancellationToken)
+    name: CopyToAsync
+    nameWithType: LinksHelper.CopyToAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.CopyToAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -975,6 +1144,14 @@ references:
     name: LinksHelper
     nameWithType: LinksHelper
     fullName: SuperOffice.CRM.Entities.LinksHelper
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -1125,18 +1302,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.LinksHelper.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
-  commentId: M:SuperOffice.CRM.Entities.LinksHelper.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
+- uid: SuperOffice.CRM.Entities.LinksHelper.LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.LinksHelper
   isExternal: true
-  name: LoadChildItems(TableRowBase)
-  nameWithType: LinksHelper.LoadChildItems(TableRowBase)
-  fullName: SuperOffice.CRM.Entities.LinksHelper.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
+  name: LoadChildItemsAsync(TableRowBase, CancellationToken)
+  nameWithType: LinksHelper.LoadChildItemsAsync(TableRowBase, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
-    name: LoadChildItems
-    nameWithType: LinksHelper.LoadChildItems
-    fullName: SuperOffice.CRM.Entities.LinksHelper.LoadChildItems
+  - uid: SuperOffice.CRM.Entities.LinksHelper.LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+    name: LoadChildItemsAsync
+    nameWithType: LinksHelper.LoadChildItemsAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.LoadChildItemsAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1145,15 +1322,23 @@ references:
     name: TableRowBase
     nameWithType: TableRowBase
     fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
-    name: LoadChildItems
-    nameWithType: LinksHelper.LoadChildItems
-    fullName: SuperOffice.CRM.Entities.LinksHelper.LoadChildItems
+  - uid: SuperOffice.CRM.Entities.LinksHelper.LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+    name: LoadChildItemsAsync
+    nameWithType: LinksHelper.LoadChildItemsAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.LoadChildItemsAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -1162,6 +1347,14 @@ references:
     name: TableRowBase
     nameWithType: TableRowBase
     fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -2159,20 +2352,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnPreIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnPreIdUpdate
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnPreIdUpdateAsync
   parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
-  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdate
-  name: OnPreIdUpdate()
-  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnPreIdUpdate()
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnPreIdUpdate()
-  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnPreIdUpdate()
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnPreIdUpdate()
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdateAsync
+  name: OnPreIdUpdateAsync()
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnPreIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnPreIdUpdateAsync()
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnPreIdUpdateAsync()
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnPreIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnPreIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnPreIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2181,10 +2374,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnPreIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnPreIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnPreIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2192,20 +2385,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnIdUpdate
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnIdUpdateAsync
   parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
-  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdate
-  name: OnIdUpdate()
-  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnIdUpdate()
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnIdUpdate()
-  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnIdUpdate()
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnIdUpdate()
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdateAsync
+  name: OnIdUpdateAsync()
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnIdUpdateAsync()
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnIdUpdateAsync()
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2214,10 +2407,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2225,20 +2418,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnSaved(System.Boolean)
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnSavedAsync(System.Boolean)
   parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
-  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSaved(System.Boolean)
-  name: OnSaved(Boolean)
-  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnSaved(Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnSaved(System.Boolean)
-  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnSaved(Boolean)
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnSaved(System.Boolean)
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSavedAsync(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnSavedAsync(Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnSavedAsync(System.Boolean)
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnSavedAsync(Boolean)
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnSavedAsync(System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnSaved
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnSaved
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnSavedAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2252,10 +2445,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnSaved
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnSaved
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnSavedAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2504,20 +2697,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
-  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
-  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItems(`0)
-  name: LoadChildItems(TableRowBase)
-  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.LoadChildItems(TableRowBase)
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
-  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).LoadChildItems(TableRowBase)
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItemsAsync(`0,System.Threading.CancellationToken)
+  name: LoadChildItemsAsync(TableRowBase, CancellationToken)
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.LoadChildItemsAsync(TableRowBase, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase, System.Threading.CancellationToken)
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).LoadChildItemsAsync(TableRowBase, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).LoadChildItemsAsync(SuperOffice.CRM.Rows.TableRowBase, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItems(`0)
-    name: LoadChildItems
-    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.LoadChildItems
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.LoadChildItems
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItemsAsync(`0,System.Threading.CancellationToken)
+    name: LoadChildItemsAsync
+    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.LoadChildItemsAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.LoadChildItemsAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2526,15 +2719,23 @@ references:
     name: TableRowBase
     nameWithType: TableRowBase
     fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItems(`0)
-    name: LoadChildItems
-    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).LoadChildItems
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).LoadChildItems
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItemsAsync(`0,System.Threading.CancellationToken)
+    name: LoadChildItemsAsync
+    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).LoadChildItemsAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).LoadChildItemsAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2543,6 +2744,14 @@ references:
     name: TableRowBase
     nameWithType: TableRowBase
     fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
@@ -2619,18 +2828,18 @@ references:
   fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnEntityDetailsHelperEdited
   nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnEntityDetailsHelperEdited
   fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnEntityDetailsHelperEdited
-- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2644,10 +2853,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyUpdate
-    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2660,18 +2869,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnIdUpdate()
-  nameWithType: NestedPersistFacade.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: NestedPersistFacade.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: NestedPersistFacade.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2680,10 +2889,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: NestedPersistFacade.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: NestedPersistFacade.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2691,18 +2900,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnSave(BatchSave)
-  nameWithType: NestedPersistFacade.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  name: OnSaveAsync(BatchSave)
+  nameWithType: NestedPersistFacade.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: NestedPersistFacade.OnSave
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: NestedPersistFacade.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2716,10 +2925,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: OnSave
-    nameWithType: NestedPersistFacade.OnSave
-    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    nameWithType: NestedPersistFacade.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2794,18 +3003,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.Save
-  commentId: M:SuperOffice.Data.NestedPersist.Save
+- uid: SuperOffice.Data.NestedPersist.SaveAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SaveAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: Save()
-  nameWithType: NestedPersist.Save()
-  fullName: SuperOffice.Data.NestedPersist.Save()
+  name: SaveAsync()
+  nameWithType: NestedPersist.SaveAsync()
+  fullName: SuperOffice.Data.NestedPersist.SaveAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2814,10 +3023,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.Save
-    name: Save
-    nameWithType: NestedPersist.Save
-    fullName: SuperOffice.Data.NestedPersist.Save
+  - uid: SuperOffice.Data.NestedPersist.SaveAsync
+    name: SaveAsync
+    nameWithType: NestedPersist.SaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2825,20 +3034,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPreIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name: INestedPersist.OnPreIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2847,10 +3056,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2858,20 +3067,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name: INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2885,10 +3094,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2901,20 +3110,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
-  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name: INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync(PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2928,10 +3137,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
-    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2944,20 +3153,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnIdUpdate()
-  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
-  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name: INestedPersist.OnIdUpdateAsync()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2966,10 +3175,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
-    name: SuperOffice.Data.INestedPersist.OnIdUpdate
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdateAsync
+    name: SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -2977,20 +3186,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSave(BatchSave)
-  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
-  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name: INestedPersist.OnSaveAsync(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaveAsync(BatchSave)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: INestedPersist.OnSave
-    nameWithType: NestedPersist.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3004,10 +3213,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
-    name: SuperOffice.Data.INestedPersist.OnSave
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSaveAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaveAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3020,20 +3229,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  name: INestedPersist.OnSaved(Boolean)
-  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
-  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
-  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
-  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name: INestedPersist.OnSavedAsync(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSavedAsync(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSavedAsync(Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: INestedPersist.OnSaved
-    nameWithType: NestedPersist.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -3047,10 +3256,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
-    name: SuperOffice.Data.INestedPersist.OnSaved
-    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
-    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSavedAsync(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSavedAsync
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4153,19 +4362,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdate
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdateAsync
   isExternal: true
-  name: OnPreIdUpdate()
-  nameWithType: EntityDetailsHelper<TParent, TChild>.OnPreIdUpdate()
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnPreIdUpdate()
-  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnPreIdUpdate()
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnPreIdUpdate()
+  name: OnPreIdUpdateAsync()
+  nameWithType: EntityDetailsHelper<TParent, TChild>.OnPreIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnPreIdUpdateAsync()
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnPreIdUpdateAsync()
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnPreIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: EntityDetailsHelper<TParent, TChild>.OnPreIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnPreIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: EntityDetailsHelper<TParent, TChild>.OnPreIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4174,10 +4383,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdate
-    name: OnPreIdUpdate
-    nameWithType: EntityDetailsHelper(Of TParent, TChild).OnPreIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnPreIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnPreIdUpdateAsync
+    name: OnPreIdUpdateAsync
+    nameWithType: EntityDetailsHelper(Of TParent, TChild).OnPreIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnPreIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4185,19 +4394,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdate
-  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdate
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdateAsync
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdateAsync
   isExternal: true
-  name: OnIdUpdate()
-  nameWithType: EntityDetailsHelper<TParent, TChild>.OnIdUpdate()
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnIdUpdate()
-  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnIdUpdate()
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnIdUpdate()
+  name: OnIdUpdateAsync()
+  nameWithType: EntityDetailsHelper<TParent, TChild>.OnIdUpdateAsync()
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnIdUpdateAsync()
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnIdUpdateAsync()
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnIdUpdateAsync()
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: EntityDetailsHelper<TParent, TChild>.OnIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: EntityDetailsHelper<TParent, TChild>.OnIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4206,10 +4415,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdate
-    name: OnIdUpdate
-    nameWithType: EntityDetailsHelper(Of TParent, TChild).OnIdUpdate
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnIdUpdate
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdateAsync
+    name: OnIdUpdateAsync
+    nameWithType: EntityDetailsHelper(Of TParent, TChild).OnIdUpdateAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnIdUpdateAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4217,19 +4426,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSaved(System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSaved(System.Boolean)
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSavedAsync(System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSavedAsync(System.Boolean)
   isExternal: true
-  name: OnSaved(Boolean)
-  nameWithType: EntityDetailsHelper<TParent, TChild>.OnSaved(Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnSaved(System.Boolean)
-  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnSaved(Boolean)
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnSaved(System.Boolean)
+  name: OnSavedAsync(Boolean)
+  nameWithType: EntityDetailsHelper<TParent, TChild>.OnSavedAsync(Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnSavedAsync(System.Boolean)
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnSavedAsync(Boolean)
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnSavedAsync(System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: EntityDetailsHelper<TParent, TChild>.OnSaved
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnSaved
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: EntityDetailsHelper<TParent, TChild>.OnSavedAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4243,10 +4452,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSaved(System.Boolean)
-    name: OnSaved
-    nameWithType: EntityDetailsHelper(Of TParent, TChild).OnSaved
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnSaved
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnSavedAsync(System.Boolean)
+    name: OnSavedAsync
+    nameWithType: EntityDetailsHelper(Of TParent, TChild).OnSavedAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnSavedAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4467,19 +4676,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItems(`0)
-  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItems(`0)
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItemsAsync(`0,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItemsAsync(`0,System.Threading.CancellationToken)
   isExternal: true
-  name: LoadChildItems(TParent)
-  nameWithType: EntityDetailsHelper<TParent, TChild>.LoadChildItems(TParent)
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.LoadChildItems(TParent)
-  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).LoadChildItems(TParent)
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).LoadChildItems(TParent)
+  name: LoadChildItemsAsync(TParent, CancellationToken)
+  nameWithType: EntityDetailsHelper<TParent, TChild>.LoadChildItemsAsync(TParent, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.LoadChildItemsAsync(TParent, System.Threading.CancellationToken)
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).LoadChildItemsAsync(TParent, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).LoadChildItemsAsync(TParent, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItems(`0)
-    name: LoadChildItems
-    nameWithType: EntityDetailsHelper<TParent, TChild>.LoadChildItems
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.LoadChildItems
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItemsAsync(`0,System.Threading.CancellationToken)
+    name: LoadChildItemsAsync
+    nameWithType: EntityDetailsHelper<TParent, TChild>.LoadChildItemsAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.LoadChildItemsAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4487,14 +4696,22 @@ references:
   - name: TParent
     nameWithType: TParent
     fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItems(`0)
-    name: LoadChildItems
-    nameWithType: EntityDetailsHelper(Of TParent, TChild).LoadChildItems
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).LoadChildItems
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.LoadChildItemsAsync(`0,System.Threading.CancellationToken)
+    name: LoadChildItemsAsync
+    nameWithType: EntityDetailsHelper(Of TParent, TChild).LoadChildItemsAsync
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).LoadChildItemsAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4502,6 +4719,14 @@ references:
   - name: TParent
     nameWithType: TParent
     fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -4666,12 +4891,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.#ctor*
-  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.#ctor
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.CreateAsync
   isExternal: true
-  name: ActivityLinksHelper
-  nameWithType: ActivityLinksHelper.ActivityLinksHelper
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.ActivityLinksHelper
+  name: CreateAsync
+  nameWithType: ActivityLinksHelper.CreateAsync
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.CreateAsync
 - uid: SuperOffice.CRM.Rows.TableRowBase
   commentId: T:SuperOffice.CRM.Rows.TableRowBase
   parent: SuperOffice.CRM.Rows
@@ -4679,18 +4904,104 @@ references:
   name: TableRowBase
   nameWithType: TableRowBase
   fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ActivityLinksHelper}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Entities.ActivityLinksHelper}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ActivityLinksHelper>
+  nameWithType: Task<ActivityLinksHelper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Entities.ActivityLinksHelper>
+  nameWithType.vb: Task(Of ActivityLinksHelper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Entities.ActivityLinksHelper)
+  name.vb: Task(Of ActivityLinksHelper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Entities.ActivityLinksHelper
+    name: ActivityLinksHelper
+    nameWithType: ActivityLinksHelper
+    fullName: SuperOffice.CRM.Entities.ActivityLinksHelper
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Entities.ActivityLinksHelper
+    name: ActivityLinksHelper
+    nameWithType: ActivityLinksHelper
+    fullName: SuperOffice.CRM.Entities.ActivityLinksHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLink*
-  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLink
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: AddDocumentLink
-  nameWithType: ActivityLinksHelper.AddDocumentLink
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLink
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLinkAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLinkAsync
+  isExternal: true
+  name: AddDocumentLinkAsync
+  nameWithType: ActivityLinksHelper.AddDocumentLinkAsync
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddDocumentLinkAsync
 - uid: SuperOffice.CRM.Rows.DocumentRow
   commentId: T:SuperOffice.CRM.Rows.DocumentRow
   parent: SuperOffice.CRM.Rows
@@ -4698,19 +5009,55 @@ references:
   name: DocumentRow
   nameWithType: DocumentRow
   fullName: SuperOffice.CRM.Rows.DocumentRow
-- uid: SuperOffice.CRM.Rows.RelationsRow
-  commentId: T:SuperOffice.CRM.Rows.RelationsRow
-  parent: SuperOffice.CRM.Rows
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRow}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRow}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RelationsRow>
+  nameWithType: Task<RelationsRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.RelationsRow>
+  nameWithType.vb: Task(Of RelationsRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.RelationsRow)
+  name.vb: Task(Of RelationsRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    nameWithType: RelationsRow
+    fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    nameWithType: RelationsRow
+    fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLinkAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLinkAsync
   isExternal: true
-  name: RelationsRow
-  nameWithType: RelationsRow
-  fullName: SuperOffice.CRM.Rows.RelationsRow
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLink*
-  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLink
-  isExternal: true
-  name: AddSaleLink
-  nameWithType: ActivityLinksHelper.AddSaleLink
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLink
+  name: AddSaleLinkAsync
+  nameWithType: ActivityLinksHelper.AddSaleLinkAsync
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddSaleLinkAsync
 - uid: SuperOffice.CRM.Rows.SaleRow
   commentId: T:SuperOffice.CRM.Rows.SaleRow
   parent: SuperOffice.CRM.Rows
@@ -4718,12 +5065,12 @@ references:
   name: SaleRow
   nameWithType: SaleRow
   fullName: SuperOffice.CRM.Rows.SaleRow
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLink*
-  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLink
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLinkAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLinkAsync
   isExternal: true
-  name: AddAppointmentLink
-  nameWithType: ActivityLinksHelper.AddAppointmentLink
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLink
+  name: AddAppointmentLinkAsync
+  nameWithType: ActivityLinksHelper.AddAppointmentLinkAsync
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddAppointmentLinkAsync
 - uid: SuperOffice.CRM.Rows.AppointmentRow
   commentId: T:SuperOffice.CRM.Rows.AppointmentRow
   parent: SuperOffice.CRM.Rows
@@ -4731,18 +5078,18 @@ references:
   name: AppointmentRow
   nameWithType: AppointmentRow
   fullName: SuperOffice.CRM.Rows.AppointmentRow
-- uid: SuperOffice.CRM.Entities.LinksHelper.AddLinks(SuperOffice.CRM.Rows.RelationsRows)
-  commentId: M:SuperOffice.CRM.Entities.LinksHelper.AddLinks(SuperOffice.CRM.Rows.RelationsRows)
+- uid: SuperOffice.CRM.Entities.LinksHelper.AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.LinksHelper
   isExternal: true
-  name: AddLinks(RelationsRows)
-  nameWithType: LinksHelper.AddLinks(RelationsRows)
-  fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinks(SuperOffice.CRM.Rows.RelationsRows)
+  name: AddLinksAsync(RelationsRows, CancellationToken)
+  nameWithType: LinksHelper.AddLinksAsync(RelationsRows, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLinks(SuperOffice.CRM.Rows.RelationsRows)
-    name: AddLinks
-    nameWithType: LinksHelper.AddLinks
-    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinks
+  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+    name: AddLinksAsync
+    nameWithType: LinksHelper.AddLinksAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinksAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4751,15 +5098,23 @@ references:
     name: RelationsRows
     nameWithType: RelationsRows
     fullName: SuperOffice.CRM.Rows.RelationsRows
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLinks(SuperOffice.CRM.Rows.RelationsRows)
-    name: AddLinks
-    nameWithType: LinksHelper.AddLinks
-    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinks
+  - uid: SuperOffice.CRM.Entities.LinksHelper.AddLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+    name: AddLinksAsync
+    nameWithType: LinksHelper.AddLinksAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.AddLinksAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4769,15 +5124,23 @@ references:
     nameWithType: RelationsRows
     fullName: SuperOffice.CRM.Rows.RelationsRows
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinks*
-  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinks
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinksAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinksAsync
   isExternal: true
-  name: AddLinks
-  nameWithType: ActivityLinksHelper.AddLinks
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinks
+  name: AddLinksAsync
+  nameWithType: ActivityLinksHelper.AddLinksAsync
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.AddLinksAsync
 - uid: SuperOffice.CRM.Rows.RelationsRows
   commentId: T:SuperOffice.CRM.Rows.RelationsRows
   parent: SuperOffice.CRM.Rows
@@ -4785,18 +5148,61 @@ references:
   name: RelationsRows
   nameWithType: RelationsRows
   fullName: SuperOffice.CRM.Rows.RelationsRows
-- uid: SuperOffice.CRM.Entities.LinksHelper.SetLinks(SuperOffice.CRM.Rows.RelationsRows)
-  commentId: M:SuperOffice.CRM.Entities.LinksHelper.SetLinks(SuperOffice.CRM.Rows.RelationsRows)
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRows}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.RelationsRows}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RelationsRows>
+  nameWithType: Task<RelationsRows>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.RelationsRows>
+  nameWithType.vb: Task(Of RelationsRows)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.RelationsRows)
+  name.vb: Task(Of RelationsRows)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.RelationsRows
+    name: RelationsRows
+    nameWithType: RelationsRows
+    fullName: SuperOffice.CRM.Rows.RelationsRows
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.RelationsRows
+    name: RelationsRows
+    nameWithType: RelationsRows
+    fullName: SuperOffice.CRM.Rows.RelationsRows
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.LinksHelper.SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.LinksHelper
   isExternal: true
-  name: SetLinks(RelationsRows)
-  nameWithType: LinksHelper.SetLinks(RelationsRows)
-  fullName: SuperOffice.CRM.Entities.LinksHelper.SetLinks(SuperOffice.CRM.Rows.RelationsRows)
+  name: SetLinksAsync(RelationsRows, CancellationToken)
+  nameWithType: LinksHelper.SetLinksAsync(RelationsRows, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.SetLinks(SuperOffice.CRM.Rows.RelationsRows)
-    name: SetLinks
-    nameWithType: LinksHelper.SetLinks
-    fullName: SuperOffice.CRM.Entities.LinksHelper.SetLinks
+  - uid: SuperOffice.CRM.Entities.LinksHelper.SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+    name: SetLinksAsync
+    nameWithType: LinksHelper.SetLinksAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.SetLinksAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4805,15 +5211,23 @@ references:
     name: RelationsRows
     nameWithType: RelationsRows
     fullName: SuperOffice.CRM.Rows.RelationsRows
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.LinksHelper.SetLinks(SuperOffice.CRM.Rows.RelationsRows)
-    name: SetLinks
-    nameWithType: LinksHelper.SetLinks
-    fullName: SuperOffice.CRM.Entities.LinksHelper.SetLinks
+  - uid: SuperOffice.CRM.Entities.LinksHelper.SetLinksAsync(SuperOffice.CRM.Rows.RelationsRows,System.Threading.CancellationToken)
+    name: SetLinksAsync
+    nameWithType: LinksHelper.SetLinksAsync
+    fullName: SuperOffice.CRM.Entities.LinksHelper.SetLinksAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4823,15 +5237,28 @@ references:
     nameWithType: RelationsRows
     fullName: SuperOffice.CRM.Rows.RelationsRows
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinks*
-  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinks
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinksAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinksAsync
   isExternal: true
-  name: SetLinks
-  nameWithType: ActivityLinksHelper.SetLinks
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinks
+  name: SetLinksAsync
+  nameWithType: ActivityLinksHelper.SetLinksAsync
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.SetLinksAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Entities.LinksHelper.DeleteLinks(System.Int32[])
   commentId: M:SuperOffice.CRM.Entities.LinksHelper.DeleteLinks(System.Int32[])
   parent: SuperOffice.CRM.Entities.LinksHelper
@@ -4914,18 +5341,18 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  name: OnPrimaryKeyRequest(PKContainer)
-  nameWithType: NestedPersistFacade.OnPrimaryKeyRequest(PKContainer)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  name: OnPrimaryKeyRequestAsync(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   spec.csharp:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4939,10 +5366,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
-    name: OnPrimaryKeyRequest
-    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
-    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequestAsync
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequestAsync
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequestAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -4955,12 +5382,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequest*
-  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequest
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequestAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequestAsync
   isExternal: true
-  name: OnPrimaryKeyRequest
-  nameWithType: ActivityLinksHelper.OnPrimaryKeyRequest
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequest
+  name: OnPrimaryKeyRequestAsync
+  nameWithType: ActivityLinksHelper.OnPrimaryKeyRequestAsync
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPrimaryKeyRequestAsync
 - uid: SuperOffice.Data.PKContainer
   commentId: T:SuperOffice.Data.PKContainer
   parent: SuperOffice.Data
@@ -4968,12 +5395,12 @@ references:
   name: PKContainer
   nameWithType: PKContainer
   fullName: SuperOffice.Data.PKContainer
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdate*
-  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdate
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdateAsync
   isExternal: true
-  name: OnPreIdUpdate
-  nameWithType: ActivityLinksHelper.OnPreIdUpdate
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdate
+  name: OnPreIdUpdateAsync
+  nameWithType: ActivityLinksHelper.OnPreIdUpdateAsync
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnPreIdUpdateAsync
 - uid: SuperOffice.CRM.Entities.ActivityLinksHelper.GetFacadingItems*
   commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.GetFacadingItems
   isExternal: true
@@ -5061,12 +5488,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSaved*
-  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.OnSaved
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSavedAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.OnSavedAsync
   isExternal: true
-  name: OnSaved
-  nameWithType: ActivityLinksHelper.OnSaved
-  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSaved
+  name: OnSavedAsync
+  nameWithType: ActivityLinksHelper.OnSavedAsync
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSavedAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System

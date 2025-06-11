@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.ISafeBlockingTaskInheritor
+  commentId: T:SuperOffice.Threading.ISafeBlockingTaskInheritor
+  id: ISafeBlockingTaskInheritor
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.ISafeBlockingTaskInheritor.GetSourceTaskValue
+  - SuperOffice.Threading.ISafeBlockingTaskInheritor.SetChildTaskValue(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ISafeBlockingTaskInheritor
+  nameWithType: ISafeBlockingTaskInheritor
+  fullName: SuperOffice.Threading.ISafeBlockingTaskInheritor
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nInterface implemented to support transponding values from a parent task/context onto a child task/context. \n"
+  remarks: "\nUsed by <see cref=\"!:SafeBlockingTask&lt;T>\"></see> to transpond values from a parent task to a child task,\nas well as to move state in wcf requests into async local - as System.Web.HttpContext.Current\nseam to dissabear without reason during these requests.\n"
+  syntax:
+    content: public interface ISafeBlockingTaskInheritor
+    content.vb: Public Interface ISafeBlockingTaskInheritor
+  extensionMethods:
+  - SuperOffice.Threading.ISafeBlockingTaskInheritor.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.ISafeBlockingTaskInheritor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Threading.ISafeBlockingTaskInheritor.GetSourceTaskValue
+  commentId: M:SuperOffice.Threading.ISafeBlockingTaskInheritor.GetSourceTaskValue
+  id: GetSourceTaskValue
+  parent: SuperOffice.Threading.ISafeBlockingTaskInheritor
+  langs:
+  - csharp
+  - vb
+  name: GetSourceTaskValue()
+  nameWithType: ISafeBlockingTaskInheritor.GetSourceTaskValue()
+  fullName: SuperOffice.Threading.ISafeBlockingTaskInheritor.GetSourceTaskValue()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nGet values from the parent task/context\n"
+  syntax:
+    content: object GetSourceTaskValue()
+    return:
+      type: System.Object
+    content.vb: Function GetSourceTaskValue As Object
+  overload: SuperOffice.Threading.ISafeBlockingTaskInheritor.GetSourceTaskValue*
+- uid: SuperOffice.Threading.ISafeBlockingTaskInheritor.SetChildTaskValue(System.Object)
+  commentId: M:SuperOffice.Threading.ISafeBlockingTaskInheritor.SetChildTaskValue(System.Object)
+  id: SetChildTaskValue(System.Object)
+  parent: SuperOffice.Threading.ISafeBlockingTaskInheritor
+  langs:
+  - csharp
+  - vb
+  name: SetChildTaskValue(Object)
+  nameWithType: ISafeBlockingTaskInheritor.SetChildTaskValue(Object)
+  fullName: SuperOffice.Threading.ISafeBlockingTaskInheritor.SetChildTaskValue(System.Object)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\nApply the values into new task/context - preferebly using an AsyncLocal construct that\ndoes not interfer with parant task/context values\n"
+  syntax:
+    content: IDisposable SetChildTaskValue(object value)
+    parameters:
+    - id: value
+      type: System.Object
+      description: Value obtained by <xref href="SuperOffice.Threading.ISafeBlockingTaskInheritor.GetSourceTaskValue" data-throw-if-not-resolved="false"></xref> to assign
+    return:
+      type: System.IDisposable
+      description: Disposable object, where disposing reverts state to state as of before calling <xref href="SuperOffice.Threading.ISafeBlockingTaskInheritor.SetChildTaskValue(System.Object)" data-throw-if-not-resolved="false"></xref>
+    content.vb: Function SetChildTaskValue(value As Object) As IDisposable
+  overload: SuperOffice.Threading.ISafeBlockingTaskInheritor.SetChildTaskValue*
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: SuperOffice.Threading.ISafeBlockingTaskInheritor.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISafeBlockingTaskInheritor, To>()
+  nameWithType: EnumUtil.MapEnums<ISafeBlockingTaskInheritor, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.ISafeBlockingTaskInheritor, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISafeBlockingTaskInheritor, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.ISafeBlockingTaskInheritor, To)()
+  name.vb: MapEnums(Of ISafeBlockingTaskInheritor, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISafeBlockingTaskInheritor, To>
+    nameWithType: EnumUtil.MapEnums<ISafeBlockingTaskInheritor, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.ISafeBlockingTaskInheritor, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISafeBlockingTaskInheritor, To)
+    nameWithType: EnumUtil.MapEnums(Of ISafeBlockingTaskInheritor, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.ISafeBlockingTaskInheritor, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ISafeBlockingTaskInheritor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISafeBlockingTaskInheritor, To>()
+  nameWithType: Converters.MapEnums<ISafeBlockingTaskInheritor, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ISafeBlockingTaskInheritor, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISafeBlockingTaskInheritor, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ISafeBlockingTaskInheritor, To)()
+  name.vb: MapEnums(Of ISafeBlockingTaskInheritor, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISafeBlockingTaskInheritor, To>
+    nameWithType: Converters.MapEnums<ISafeBlockingTaskInheritor, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ISafeBlockingTaskInheritor, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISafeBlockingTaskInheritor, To)
+    nameWithType: Converters.MapEnums(Of ISafeBlockingTaskInheritor, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ISafeBlockingTaskInheritor, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.ISafeBlockingTaskInheritor.GetSourceTaskValue*
+  commentId: Overload:SuperOffice.Threading.ISafeBlockingTaskInheritor.GetSourceTaskValue
+  isExternal: true
+  name: GetSourceTaskValue
+  nameWithType: ISafeBlockingTaskInheritor.GetSourceTaskValue
+  fullName: SuperOffice.Threading.ISafeBlockingTaskInheritor.GetSourceTaskValue
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Threading.ISafeBlockingTaskInheritor.SetChildTaskValue*
+  commentId: Overload:SuperOffice.Threading.ISafeBlockingTaskInheritor.SetChildTaskValue
+  isExternal: true
+  name: SetChildTaskValue
+  nameWithType: ISafeBlockingTaskInheritor.SetChildTaskValue
+  fullName: SuperOffice.Threading.ISafeBlockingTaskInheritor.SetChildTaskValue
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable

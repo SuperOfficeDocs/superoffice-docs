@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.SWashingListRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SWashingListRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SWashingListRecordData)
   - SuperOffice.CRM.Rows.SWashingListRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SWashingListRecordData.SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SWashingListRecordData.SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SWashingListRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SWashingListRecordData.SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SWashingListRecordData)
+- uid: SuperOffice.CRM.Rows.SWashingListRecordData.SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SWashingListRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SWashingListRecordData)
-  name: ToInsert()
-  nameWithType: SWashingListRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SWashingListRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SWashingListRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SWashingListRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SWashingListRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SWashingListRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SWashingListRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SWashingListRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SWashingListRecordData)
+- uid: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SWashingListRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SWashingListRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SWashingListRecordData)
-  nameWithType: SWashingListRecordDataExtensions.ToInsert(SWashingListRecordData)
-  fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SWashingListRecordData)
+  name: ToInsertAsync(SWashingListRecordData, CancellationToken)
+  nameWithType: SWashingListRecordDataExtensions.ToInsertAsync(SWashingListRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SWashingListRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SWashingListRecordData)
-    name: ToInsert
-    nameWithType: SWashingListRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SWashingListRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SWashingListRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: SWashingListRecordData
     nameWithType: SWashingListRecordData
     fullName: SuperOffice.CRM.Rows.SWashingListRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SWashingListRecordData)
-    name: ToInsert
-    nameWithType: SWashingListRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SWashingListRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SWashingListRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SWashingListRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: SWashingListRecordData
     nameWithType: SWashingListRecordData
     fullName: SuperOffice.CRM.Rows.SWashingListRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
   - SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
-  - SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceScriptRecordData)
-  - SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData})
+  - SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceScriptRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.EjselSourceScriptRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
+- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<EjselSourceScriptTableInfo>)
-  nameWithType: EjselSourceScriptRecordDataExtensions.FromSelect(TargetedSelect<EjselSourceScriptTableInfo>)
-  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.EjselSourceScriptTableInfo>)
+  name: FromSelectAsync(TargetedSelect<EjselSourceScriptTableInfo>, CancellationToken)
+  nameWithType: EjselSourceScriptRecordDataExtensions.FromSelectAsync(TargetedSelect<EjselSourceScriptTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.EjselSourceScriptTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<EjselSourceScriptRecordData> FromSelect(this TargetedSelect<EjselSourceScriptTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<EjselSourceScriptRecordData> FromSelectAsync(this TargetedSelect<EjselSourceScriptTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of EjselSourceScriptTableInfo)) As IEnumerable(Of EjselSourceScriptRecordData)
-  overload: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect*
-  nameWithType.vb: EjselSourceScriptRecordDataExtensions.FromSelect(TargetedSelect(Of EjselSourceScriptTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of EjselSourceScriptTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of EjselSourceScriptRecordData)
+  overload: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: EjselSourceScriptRecordDataExtensions.FromSelectAsync(TargetedSelect(Of EjselSourceScriptTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.EjselSourceScriptTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of EjselSourceScriptTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.EjselSourceScriptTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of EjselSourceScriptTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
   commentId: M:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.EjselSourceScriptTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of EjselSourceScriptTableInfo))
-- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceScriptRecordData)
-  commentId: M:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceScriptRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.EjselSourceScriptRecordData)
+- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceScriptRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceScriptRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceScriptRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(EjselSourceScriptRecordData)
-  nameWithType: EjselSourceScriptRecordDataExtensions.ToInsert(EjselSourceScriptRecordData)
-  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjselSourceScriptRecordData)
+  name: ToInsertAsync(EjselSourceScriptRecordData, CancellationToken)
+  nameWithType: EjselSourceScriptRecordDataExtensions.ToInsertAsync(EjselSourceScriptRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.EjselSourceScriptRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this EjselSourceScriptRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this EjselSourceScriptRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.EjselSourceScriptRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As EjselSourceScriptRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As EjselSourceScriptRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData})
-  commentId: M:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData})
+- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<EjselSourceScriptRecordData>)
-  nameWithType: EjselSourceScriptRecordDataExtensions.ToInserts(IEnumerable<EjselSourceScriptRecordData>)
-  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EjselSourceScriptRecordData>)
+  name: ToInsertsAsync(IEnumerable<EjselSourceScriptRecordData>, CancellationToken)
+  nameWithType: EjselSourceScriptRecordDataExtensions.ToInsertsAsync(IEnumerable<EjselSourceScriptRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EjselSourceScriptRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<EjselSourceScriptRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<EjselSourceScriptRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of EjselSourceScriptRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInserts*
-  nameWithType.vb: EjselSourceScriptRecordDataExtensions.ToInserts(IEnumerable(Of EjselSourceScriptRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of EjselSourceScriptRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: EjselSourceScriptRecordDataExtensions.ToInsertsAsync(IEnumerable(Of EjselSourceScriptRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EjselSourceScriptRecordData))
-  name.vb: ToInserts(IEnumerable(Of EjselSourceScriptRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EjselSourceScriptRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of EjselSourceScriptRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.EjselSourceScriptRow)
   commentId: M:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.EjselSourceScriptRow)
   id: ToRecordData(SuperOffice.CRM.Rows.EjselSourceScriptRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<EjselSourceScriptTableInfo>)
+  nameWithType: EjselSourceScriptRecordDataExtensions.FromSelect(TargetedSelect<EjselSourceScriptTableInfo>)
+  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.EjselSourceScriptTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;EjselSourceScriptTableInfo>, execute it and return an IEnumerable&lt;EjselSourceScriptRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<EjselSourceScriptRecordData> FromSelect(this TargetedSelect<EjselSourceScriptTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of EjselSourceScriptTableInfo)) As IEnumerable(Of EjselSourceScriptRecordData)
+  overload: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect*
+  nameWithType.vb: EjselSourceScriptRecordDataExtensions.FromSelect(TargetedSelect(Of EjselSourceScriptTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.EjselSourceScriptTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of EjselSourceScriptTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: EjselSourceScriptRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: EjselSourceScriptRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.EjselSourceScriptTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<EjselSourceScriptRecordData>
-  nameWithType: IEnumerable<EjselSourceScriptRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EjselSourceScriptRecordData>
-  nameWithType.vb: IEnumerable(Of EjselSourceScriptRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EjselSourceScriptRecordData)
-  name.vb: IEnumerable(Of EjselSourceScriptRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<EjselSourceScriptRecordData>
+  nameWithType: IAsyncEnumerable<EjselSourceScriptRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.EjselSourceScriptRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of EjselSourceScriptRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.EjselSourceScriptRecordData)
+  name.vb: IAsyncEnumerable(Of EjselSourceScriptRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: EjselSourceScriptRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: EjselSourceScriptRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: EjselSourceScriptRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: EjselSourceScriptRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.EjselSourceScriptRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<EjselSourceScriptRecordData>
+  nameWithType: IEnumerable<EjselSourceScriptRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.EjselSourceScriptRecordData>
+  nameWithType.vb: IEnumerable(Of EjselSourceScriptRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.EjselSourceScriptRecordData)
+  name.vb: IEnumerable(Of EjselSourceScriptRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordData
+    name: EjselSourceScriptRecordData
+    nameWithType: EjselSourceScriptRecordData
+    fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordData
+    name: EjselSourceScriptRecordData
+    nameWithType: EjselSourceScriptRecordData
+    fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: EjselSourceScriptRow
   nameWithType: EjselSourceScriptRow
   fullName: SuperOffice.CRM.Rows.EjselSourceScriptRow
+- uid: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: EjselSourceScriptRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.EjselSourceScriptRecordDataExtensions.FromSelect

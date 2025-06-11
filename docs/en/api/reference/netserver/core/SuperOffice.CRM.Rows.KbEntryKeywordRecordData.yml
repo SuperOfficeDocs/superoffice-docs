@@ -35,7 +35,7 @@ items:
   - SuperOffice.CRM.Rows.KbEntryKeywordRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.KbEntryKeywordRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.KbEntryKeywordRecordData)
   - SuperOffice.CRM.Rows.KbEntryKeywordRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.KbEntryKeywordRecordData.SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.KbEntryKeywordRecordData.SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.KbEntryKeywordRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -275,34 +275,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordData.SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryKeywordRecordData)
+- uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordData.SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbEntryKeywordRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryKeywordRecordData)
-  name: ToInsert()
-  nameWithType: KbEntryKeywordRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbEntryKeywordRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: KbEntryKeywordRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: KbEntryKeywordRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbEntryKeywordRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: KbEntryKeywordRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbEntryKeywordRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -488,17 +498,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryKeywordRecordData)
-  commentId: M:SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryKeywordRecordData)
+- uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbEntryKeywordRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbEntryKeywordRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(KbEntryKeywordRecordData)
-  nameWithType: KbEntryKeywordRecordDataExtensions.ToInsert(KbEntryKeywordRecordData)
-  fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryKeywordRecordData)
+  name: ToInsertAsync(KbEntryKeywordRecordData, CancellationToken)
+  nameWithType: KbEntryKeywordRecordDataExtensions.ToInsertAsync(KbEntryKeywordRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbEntryKeywordRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryKeywordRecordData)
-    name: ToInsert
-    nameWithType: KbEntryKeywordRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbEntryKeywordRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbEntryKeywordRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -507,15 +517,23 @@ references:
     name: KbEntryKeywordRecordData
     nameWithType: KbEntryKeywordRecordData
     fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryKeywordRecordData)
-    name: ToInsert
-    nameWithType: KbEntryKeywordRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.KbEntryKeywordRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: KbEntryKeywordRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -524,6 +542,14 @@ references:
     name: KbEntryKeywordRecordData
     nameWithType: KbEntryKeywordRecordData
     fullName: SuperOffice.CRM.Rows.KbEntryKeywordRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

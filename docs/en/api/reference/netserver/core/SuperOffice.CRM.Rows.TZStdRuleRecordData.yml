@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.TZStdRuleRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TZStdRuleRecordData)
   - SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZStdRuleRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
-  name: ToInsert()
-  nameWithType: TZStdRuleRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZStdRuleRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: TZStdRuleRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TZStdRuleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TZStdRuleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TZStdRuleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TZStdRuleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZStdRuleRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZStdRuleRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(TZStdRuleRecordData)
-  nameWithType: TZStdRuleRecordDataExtensions.ToInsert(TZStdRuleRecordData)
-  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+  name: ToInsertAsync(TZStdRuleRecordData, CancellationToken)
+  nameWithType: TZStdRuleRecordDataExtensions.ToInsertAsync(TZStdRuleRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZStdRuleRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
-    name: ToInsert
-    nameWithType: TZStdRuleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZStdRuleRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TZStdRuleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: TZStdRuleRecordData
     nameWithType: TZStdRuleRecordData
     fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
-    name: ToInsert
-    nameWithType: TZStdRuleRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TZStdRuleRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TZStdRuleRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: TZStdRuleRecordData
     nameWithType: TZStdRuleRecordData
     fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

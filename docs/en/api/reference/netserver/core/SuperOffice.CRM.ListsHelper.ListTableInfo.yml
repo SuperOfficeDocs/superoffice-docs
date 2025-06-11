@@ -1,0 +1,352 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ListsHelper.ListTableInfo
+  commentId: T:SuperOffice.CRM.ListsHelper.ListTableInfo
+  id: ListsHelper.ListTableInfo
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.ListsHelper.ListTableInfo.#ctor(SuperOffice.Data.SQL.TableInfo,System.Int32)
+  - SuperOffice.CRM.ListsHelper.ListTableInfo.ListTableId
+  - SuperOffice.CRM.ListsHelper.ListTableInfo.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: ListsHelper.ListTableInfo
+  nameWithType: ListsHelper.ListTableInfo
+  fullName: SuperOffice.CRM.ListsHelper.ListTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: 'public class ListTableInfo : Object'
+    content.vb: >-
+      Public Class ListTableInfo
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.ListsHelper.ListTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ListsHelper.ListTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ListsHelper.ListTableInfo.#ctor(SuperOffice.Data.SQL.TableInfo,System.Int32)
+  commentId: M:SuperOffice.CRM.ListsHelper.ListTableInfo.#ctor(SuperOffice.Data.SQL.TableInfo,System.Int32)
+  id: '#ctor(SuperOffice.Data.SQL.TableInfo,System.Int32)'
+  parent: SuperOffice.CRM.ListsHelper.ListTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ListTableInfo(TableInfo, Int32)
+  nameWithType: ListsHelper.ListTableInfo.ListTableInfo(TableInfo, Int32)
+  fullName: SuperOffice.CRM.ListsHelper.ListTableInfo.ListTableInfo(SuperOffice.Data.SQL.TableInfo, System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public ListTableInfo(TableInfo tableInfo, int listTableId)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+    - id: listTableId
+      type: System.Int32
+    content.vb: Public Sub New(tableInfo As TableInfo, listTableId As Integer)
+  overload: SuperOffice.CRM.ListsHelper.ListTableInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ListsHelper.ListTableInfo.TableInfo
+  commentId: P:SuperOffice.CRM.ListsHelper.ListTableInfo.TableInfo
+  id: TableInfo
+  parent: SuperOffice.CRM.ListsHelper.ListTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TableInfo
+  nameWithType: ListsHelper.ListTableInfo.TableInfo
+  fullName: SuperOffice.CRM.ListsHelper.ListTableInfo.TableInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public TableInfo TableInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public Property TableInfo As TableInfo
+  overload: SuperOffice.CRM.ListsHelper.ListTableInfo.TableInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ListsHelper.ListTableInfo.ListTableId
+  commentId: P:SuperOffice.CRM.ListsHelper.ListTableInfo.ListTableId
+  id: ListTableId
+  parent: SuperOffice.CRM.ListsHelper.ListTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ListTableId
+  nameWithType: ListsHelper.ListTableInfo.ListTableId
+  fullName: SuperOffice.CRM.ListsHelper.ListTableInfo.ListTableId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public int ListTableId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ListTableId As Integer
+  overload: SuperOffice.CRM.ListsHelper.ListTableInfo.ListTableId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ListsHelper.ListTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ListsHelper.ListTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ListsHelper.ListTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ListsHelper.ListTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ListsHelper.ListTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ListsHelper.ListTableInfo, To)()
+  name.vb: MapEnums(Of ListsHelper.ListTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ListsHelper.ListTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<ListsHelper.ListTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ListsHelper.ListTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ListsHelper.ListTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ListsHelper.ListTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ListsHelper.ListTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ListsHelper.ListTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ListsHelper.ListTableInfo, To>()
+  nameWithType: Converters.MapEnums<ListsHelper.ListTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ListsHelper.ListTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ListsHelper.ListTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ListsHelper.ListTableInfo, To)()
+  name.vb: MapEnums(Of ListsHelper.ListTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ListsHelper.ListTableInfo, To>
+    nameWithType: Converters.MapEnums<ListsHelper.ListTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ListsHelper.ListTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ListsHelper.ListTableInfo, To)
+    nameWithType: Converters.MapEnums(Of ListsHelper.ListTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ListsHelper.ListTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ListsHelper.ListTableInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.ListTableInfo.#ctor
+  isExternal: true
+  name: ListTableInfo
+  nameWithType: ListsHelper.ListTableInfo.ListTableInfo
+  fullName: SuperOffice.CRM.ListsHelper.ListTableInfo.ListTableInfo
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.ListsHelper.ListTableInfo.TableInfo*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.ListTableInfo.TableInfo
+  isExternal: true
+  name: TableInfo
+  nameWithType: ListsHelper.ListTableInfo.TableInfo
+  fullName: SuperOffice.CRM.ListsHelper.ListTableInfo.TableInfo
+- uid: SuperOffice.CRM.ListsHelper.ListTableInfo.ListTableId*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.ListTableInfo.ListTableId
+  isExternal: true
+  name: ListTableId
+  nameWithType: ListsHelper.ListTableInfo.ListTableId
+  fullName: SuperOffice.CRM.ListsHelper.ListTableInfo.ListTableId

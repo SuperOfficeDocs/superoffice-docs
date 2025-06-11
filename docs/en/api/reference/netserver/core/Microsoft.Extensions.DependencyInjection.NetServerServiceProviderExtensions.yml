@@ -51,7 +51,7 @@ items:
   assemblies:
   - SoCore
   namespace: Microsoft.Extensions.DependencyInjection
-  summary: "\nRegister the service provider with NetServer.  NetServer Core must be registered in the underlying IOC container using\n<xref href=\"Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore%60%601(Microsoft.Extensions.DependencyInjection.IServiceCollection%2cSystem.Action%7bMicrosoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder%7d)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: "\nRegister the service provider with NetServer.  NetServer Core must be registered in the underlying IOC container using\n<see cref=\"!:NetServerServiceCollectionExtensions.AddNetServerCore(IServiceCollection, Action&lt;NetServerCoreOptionsBuilder>)\"></see>\n"
   syntax:
     content: public static IServiceProvider RegisterWithNetServer(this IServiceProvider serviceProvider, Action<NetServerOptions> configureOptions = null)
     parameters:

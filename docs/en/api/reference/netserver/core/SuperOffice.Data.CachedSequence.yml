@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.Data.CachedSequence.Flush
   - SuperOffice.Data.CachedSequence.Flush(System.String)
-  - SuperOffice.Data.CachedSequence.GetNext(System.String,System.Int32)
+  - SuperOffice.Data.CachedSequence.GetNextAsync(System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.CachedSequence.ToString
   langs:
   - csharp
@@ -80,16 +80,16 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: SuperOffice.Data.CachedSequence.GetNext(System.String,System.Int32)
-  commentId: M:SuperOffice.Data.CachedSequence.GetNext(System.String,System.Int32)
-  id: GetNext(System.String,System.Int32)
+- uid: SuperOffice.Data.CachedSequence.GetNextAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.CachedSequence.GetNextAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetNextAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.Data.CachedSequence
   langs:
   - csharp
   - vb
-  name: GetNext(String, Int32)
-  nameWithType: CachedSequence.GetNext(String, Int32)
-  fullName: SuperOffice.Data.CachedSequence.GetNext(System.String, System.Int32)
+  name: GetNextAsync(String, Int32, CancellationToken)
+  nameWithType: CachedSequence.GetNextAsync(String, Int32, CancellationToken)
+  fullName: SuperOffice.Data.CachedSequence.GetNextAsync(System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -98,16 +98,18 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public int GetNext(string tableName, int physicalBatchSize = 100)
+    content: public Task<int> GetNextAsync(string tableName, int physicalBatchSize = 100, CancellationToken cancellationToken = null)
     parameters:
     - id: tableName
       type: System.String
     - id: physicalBatchSize
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Function GetNext(tableName As String, physicalBatchSize As Integer = 100) As Integer
-  overload: SuperOffice.Data.CachedSequence.GetNext*
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Function GetNextAsync(tableName As String, physicalBatchSize As Integer = 100, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.CachedSequence.GetNextAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -365,12 +367,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.Data.CachedSequence.GetNext*
-  commentId: Overload:SuperOffice.Data.CachedSequence.GetNext
+- uid: SuperOffice.Data.CachedSequence.GetNextAsync*
+  commentId: Overload:SuperOffice.Data.CachedSequence.GetNextAsync
   isExternal: true
-  name: GetNext
-  nameWithType: CachedSequence.GetNext
-  fullName: SuperOffice.Data.CachedSequence.GetNext
+  name: GetNextAsync
+  nameWithType: CachedSequence.GetNextAsync
+  fullName: SuperOffice.Data.CachedSequence.GetNextAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -378,6 +380,92 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.CachedSequence.Flush*
   commentId: Overload:SuperOffice.Data.CachedSequence.Flush
   isExternal: true

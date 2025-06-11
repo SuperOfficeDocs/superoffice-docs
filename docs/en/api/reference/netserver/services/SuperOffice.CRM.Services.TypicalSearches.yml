@@ -32,8 +32,6 @@ items:
       Public Class TypicalSearches
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.SelectionAgent
-    commentId: T:SuperOffice.CRM.Services.SelectionAgent
   - linkId: SuperOffice.CRM.Services.ISelectionAgent
     commentId: T:SuperOffice.CRM.Services.ISelectionAgent
   inheritance:
@@ -273,15 +271,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.SelectionAgent
-  commentId: T:SuperOffice.CRM.Services.SelectionAgent
-  isExternal: true
-  name: SelectionAgent
-  nameWithType: SelectionAgent
-  fullName: SuperOffice.CRM.Services.SelectionAgent
 - uid: SuperOffice.CRM.Services.ISelectionAgent
   commentId: T:SuperOffice.CRM.Services.ISelectionAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ISelectionAgent
   nameWithType: ISelectionAgent

@@ -40,7 +40,7 @@ items:
   - SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData)
   - SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData.SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData.SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -415,34 +415,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData.SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData.SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData)
-  name: ToInsert()
-  nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -628,17 +638,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData)
+- uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SORPublishGroupLinkRecordData)
-  nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsert(SORPublishGroupLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData)
+  name: ToInsertAsync(SORPublishGroupLinkRecordData, CancellationToken)
+  nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(SORPublishGroupLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -647,15 +657,23 @@ references:
     name: SORPublishGroupLinkRecordData
     nameWithType: SORPublishGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData)
-    name: ToInsert
-    nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SORPublishGroupLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -664,6 +682,14 @@ references:
     name: SORPublishGroupLinkRecordData
     nameWithType: SORPublishGroupLinkRecordData
     fullName: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

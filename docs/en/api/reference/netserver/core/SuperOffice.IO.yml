@@ -49,7 +49,6 @@ references:
   fullName: SuperOffice.IO.IStreamProvider
 - uid: SuperOffice.IO.ProviderStream
   commentId: T:SuperOffice.IO.ProviderStream
-  parent: SuperOffice.IO
   isExternal: true
   name: ProviderStream
   nameWithType: ProviderStream

@@ -39,7 +39,7 @@ items:
   - SuperOffice.CRM.Rows.AttachmentLocationRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
   - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -387,34 +387,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
+- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AttachmentLocationRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  name: ToInsert()
-  nameWithType: AttachmentLocationRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AttachmentLocationRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: AttachmentLocationRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AttachmentLocationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AttachmentLocationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AttachmentLocationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AttachmentLocationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -600,17 +610,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  commentId: M:SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
+- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AttachmentLocationRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AttachmentLocationRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(AttachmentLocationRecordData)
-  nameWithType: AttachmentLocationRecordDataExtensions.ToInsert(AttachmentLocationRecordData)
-  fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
+  name: ToInsertAsync(AttachmentLocationRecordData, CancellationToken)
+  nameWithType: AttachmentLocationRecordDataExtensions.ToInsertAsync(AttachmentLocationRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AttachmentLocationRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: ToInsert
-    nameWithType: AttachmentLocationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AttachmentLocationRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AttachmentLocationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -619,15 +629,23 @@ references:
     name: AttachmentLocationRecordData
     nameWithType: AttachmentLocationRecordData
     fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: ToInsert
-    nameWithType: AttachmentLocationRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AttachmentLocationRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AttachmentLocationRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -636,6 +654,14 @@ references:
     name: AttachmentLocationRecordData
     nameWithType: AttachmentLocationRecordData
     fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

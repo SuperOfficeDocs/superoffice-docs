@@ -5,30 +5,30 @@ items:
   id: IMarketingAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
-  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
-  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
-  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
-  - SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
-  - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
-  - SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(System.Int32,System.String)
-  - SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
-  - SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
-  - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
-  - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
-  - SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
+  - SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatisticsAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipmentAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCountAsync(System.Int32,SuperOffice.Data.FormSubmissionStatus,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeaderAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocksAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageIdAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync(SuperOffice.CRM.Services.FormEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.CRM.Services.FormSubmissionEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.CRM.Services.ShipmentMessageBlockEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.CRM.Services.ShipmentMessageEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -69,16 +69,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
-  id: CreateDefaultFormEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultFormEntity()
-  nameWithType: IMarketingAgent.CreateDefaultFormEntity()
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity()
+  name: CreateDefaultFormEntityAsync(CancellationToken)
+  nameWithType: IMarketingAgent.CreateDefaultFormEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -88,22 +88,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLoading default values into a new FormEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: FormEntity CreateDefaultFormEntity()
+    content: Task<FormEntity> CreateDefaultFormEntityAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.FormEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
       description: New FormEntity with default values
-    content.vb: Function CreateDefaultFormEntity As FormEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
-  id: SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
+    content.vb: Function CreateDefaultFormEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FormEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync(SuperOffice.CRM.Services.FormEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync(SuperOffice.CRM.Services.FormEntity,System.Threading.CancellationToken)
+  id: SaveFormEntityAsync(SuperOffice.CRM.Services.FormEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: SaveFormEntity(FormEntity)
-  nameWithType: IMarketingAgent.SaveFormEntity(FormEntity)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
+  name: SaveFormEntityAsync(FormEntity, CancellationToken)
+  nameWithType: IMarketingAgent.SaveFormEntityAsync(FormEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync(SuperOffice.CRM.Services.FormEntity, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -113,26 +116,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nUpdates the existing FormEntity or creates a new FormEntity if the id parameter is empty\n"
   syntax:
-    content: FormEntity SaveFormEntity(FormEntity formEntity)
+    content: Task<FormEntity> SaveFormEntityAsync(FormEntity formEntity, CancellationToken cancellationToken = null)
     parameters:
     - id: formEntity
       type: SuperOffice.CRM.Services.FormEntity
       description: The FormEntity that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.FormEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
       description: New or updated FormEntity
-    content.vb: Function SaveFormEntity(formEntity As FormEntity) As FormEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
-  id: DeleteFormEntity(System.Int32)
+    content.vb: Function SaveFormEntityAsync(formEntity As FormEntity, cancellationToken As CancellationToken = Nothing) As Task(Of FormEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteFormEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: DeleteFormEntity(Int32)
-  nameWithType: IMarketingAgent.DeleteFormEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
+  name: DeleteFormEntityAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.DeleteFormEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -142,23 +147,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDeletes the FormEntity\n"
   syntax:
-    content: void DeleteFormEntity(int formEntityId)
+    content: Task DeleteFormEntityAsync(int formEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: formEntityId
       type: System.Int32
       description: The identity of the FormEntity
-    content.vb: Sub DeleteFormEntity(formEntityId As Integer)
-  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
-  id: CreateDefaultFormSubmissionEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteFormEntityAsync(formEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultFormSubmissionEntityAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultFormSubmissionEntity()
-  nameWithType: IMarketingAgent.CreateDefaultFormSubmissionEntity()
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity()
+  name: CreateDefaultFormSubmissionEntityAsync(CancellationToken)
+  nameWithType: IMarketingAgent.CreateDefaultFormSubmissionEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -168,22 +177,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLoading default values into a new FormSubmissionEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: FormSubmissionEntity CreateDefaultFormSubmissionEntity()
+    content: Task<FormSubmissionEntity> CreateDefaultFormSubmissionEntityAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.FormSubmissionEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormSubmissionEntity}
       description: New FormSubmissionEntity with default values
-    content.vb: Function CreateDefaultFormSubmissionEntity As FormSubmissionEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
-  id: SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
+    content.vb: Function CreateDefaultFormSubmissionEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FormSubmissionEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.CRM.Services.FormSubmissionEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.CRM.Services.FormSubmissionEntity,System.Threading.CancellationToken)
+  id: SaveFormSubmissionEntityAsync(SuperOffice.CRM.Services.FormSubmissionEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: SaveFormSubmissionEntity(FormSubmissionEntity)
-  nameWithType: IMarketingAgent.SaveFormSubmissionEntity(FormSubmissionEntity)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
+  name: SaveFormSubmissionEntityAsync(FormSubmissionEntity, CancellationToken)
+  nameWithType: IMarketingAgent.SaveFormSubmissionEntityAsync(FormSubmissionEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.CRM.Services.FormSubmissionEntity, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -193,26 +205,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nUpdates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty\n"
   syntax:
-    content: FormSubmissionEntity SaveFormSubmissionEntity(FormSubmissionEntity formSubmissionEntity)
+    content: Task<FormSubmissionEntity> SaveFormSubmissionEntityAsync(FormSubmissionEntity formSubmissionEntity, CancellationToken cancellationToken = null)
     parameters:
     - id: formSubmissionEntity
       type: SuperOffice.CRM.Services.FormSubmissionEntity
       description: The FormSubmissionEntity that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.FormSubmissionEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormSubmissionEntity}
       description: New or updated FormSubmissionEntity
-    content.vb: Function SaveFormSubmissionEntity(formSubmissionEntity As FormSubmissionEntity) As FormSubmissionEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
-  id: DeleteFormSubmissionEntity(System.Int32)
+    content.vb: Function SaveFormSubmissionEntityAsync(formSubmissionEntity As FormSubmissionEntity, cancellationToken As CancellationToken = Nothing) As Task(Of FormSubmissionEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: DeleteFormSubmissionEntity(Int32)
-  nameWithType: IMarketingAgent.DeleteFormSubmissionEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
+  name: DeleteFormSubmissionEntityAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.DeleteFormSubmissionEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -222,23 +236,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDeletes the FormSubmissionEntity\n"
   syntax:
-    content: void DeleteFormSubmissionEntity(int formSubmissionEntityId)
+    content: Task DeleteFormSubmissionEntityAsync(int formSubmissionEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: formSubmissionEntityId
       type: System.Int32
       description: The identity of the FormSubmissionEntity
-    content.vb: Sub DeleteFormSubmissionEntity(formSubmissionEntityId As Integer)
-  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
-  id: CreateDefaultShipmentMessageBlockEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteFormSubmissionEntityAsync(formSubmissionEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultShipmentMessageBlockEntityAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultShipmentMessageBlockEntity()
-  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageBlockEntity()
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity()
+  name: CreateDefaultShipmentMessageBlockEntityAsync(CancellationToken)
+  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -248,22 +266,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLoading default values into a new ShipmentMessageBlockEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: ShipmentMessageBlockEntity CreateDefaultShipmentMessageBlockEntity()
+    content: Task<ShipmentMessageBlockEntity> CreateDefaultShipmentMessageBlockEntityAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageBlockEntity}
       description: New ShipmentMessageBlockEntity with default values
-    content.vb: Function CreateDefaultShipmentMessageBlockEntity As ShipmentMessageBlockEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
-  id: SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
+    content.vb: Function CreateDefaultShipmentMessageBlockEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ShipmentMessageBlockEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.CRM.Services.ShipmentMessageBlockEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.CRM.Services.ShipmentMessageBlockEntity,System.Threading.CancellationToken)
+  id: SaveShipmentMessageBlockEntityAsync(SuperOffice.CRM.Services.ShipmentMessageBlockEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: SaveShipmentMessageBlockEntity(ShipmentMessageBlockEntity)
-  nameWithType: IMarketingAgent.SaveShipmentMessageBlockEntity(ShipmentMessageBlockEntity)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
+  name: SaveShipmentMessageBlockEntityAsync(ShipmentMessageBlockEntity, CancellationToken)
+  nameWithType: IMarketingAgent.SaveShipmentMessageBlockEntityAsync(ShipmentMessageBlockEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.CRM.Services.ShipmentMessageBlockEntity, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -273,26 +294,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nUpdates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is empty\n"
   syntax:
-    content: ShipmentMessageBlockEntity SaveShipmentMessageBlockEntity(ShipmentMessageBlockEntity shipmentMessageBlockEntity)
+    content: Task<ShipmentMessageBlockEntity> SaveShipmentMessageBlockEntityAsync(ShipmentMessageBlockEntity shipmentMessageBlockEntity, CancellationToken cancellationToken = null)
     parameters:
     - id: shipmentMessageBlockEntity
       type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
       description: The ShipmentMessageBlockEntity that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageBlockEntity}
       description: New or updated ShipmentMessageBlockEntity
-    content.vb: Function SaveShipmentMessageBlockEntity(shipmentMessageBlockEntity As ShipmentMessageBlockEntity) As ShipmentMessageBlockEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
-  id: DeleteShipmentMessageBlockEntity(System.Int32)
+    content.vb: Function SaveShipmentMessageBlockEntityAsync(shipmentMessageBlockEntity As ShipmentMessageBlockEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ShipmentMessageBlockEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteShipmentMessageBlockEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: DeleteShipmentMessageBlockEntity(Int32)
-  nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
+  name: DeleteShipmentMessageBlockEntityAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -302,23 +325,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDeletes the ShipmentMessageBlockEntity\n"
   syntax:
-    content: void DeleteShipmentMessageBlockEntity(int shipmentMessageBlockEntityId)
+    content: Task DeleteShipmentMessageBlockEntityAsync(int shipmentMessageBlockEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: shipmentMessageBlockEntityId
       type: System.Int32
       description: The identity of the ShipmentMessageBlockEntity
-    content.vb: Sub DeleteShipmentMessageBlockEntity(shipmentMessageBlockEntityId As Integer)
-  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
-  id: CreateDefaultShipmentMessageEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteShipmentMessageBlockEntityAsync(shipmentMessageBlockEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultShipmentMessageEntityAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultShipmentMessageEntity()
-  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity()
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity()
+  name: CreateDefaultShipmentMessageEntityAsync(CancellationToken)
+  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntityAsync(System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -328,22 +355,25 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLoading default values into a new ShipmentMessageEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: ShipmentMessageEntity CreateDefaultShipmentMessageEntity()
+    content: Task<ShipmentMessageEntity> CreateDefaultShipmentMessageEntityAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageEntity}
       description: New ShipmentMessageEntity with default values
-    content.vb: Function CreateDefaultShipmentMessageEntity As ShipmentMessageEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
-  id: SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+    content.vb: Function CreateDefaultShipmentMessageEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ShipmentMessageEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.CRM.Services.ShipmentMessageEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.CRM.Services.ShipmentMessageEntity,System.Threading.CancellationToken)
+  id: SaveShipmentMessageEntityAsync(SuperOffice.CRM.Services.ShipmentMessageEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: SaveShipmentMessageEntity(ShipmentMessageEntity)
-  nameWithType: IMarketingAgent.SaveShipmentMessageEntity(ShipmentMessageEntity)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  name: SaveShipmentMessageEntityAsync(ShipmentMessageEntity, CancellationToken)
+  nameWithType: IMarketingAgent.SaveShipmentMessageEntityAsync(ShipmentMessageEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.CRM.Services.ShipmentMessageEntity, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -353,26 +383,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nUpdates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is empty\n"
   syntax:
-    content: ShipmentMessageEntity SaveShipmentMessageEntity(ShipmentMessageEntity shipmentMessageEntity)
+    content: Task<ShipmentMessageEntity> SaveShipmentMessageEntityAsync(ShipmentMessageEntity shipmentMessageEntity, CancellationToken cancellationToken = null)
     parameters:
     - id: shipmentMessageEntity
       type: SuperOffice.CRM.Services.ShipmentMessageEntity
       description: The ShipmentMessageEntity that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageEntity}
       description: New or updated ShipmentMessageEntity
-    content.vb: Function SaveShipmentMessageEntity(shipmentMessageEntity As ShipmentMessageEntity) As ShipmentMessageEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
-  id: DeleteShipmentMessageEntity(System.Int32)
+    content.vb: Function SaveShipmentMessageEntityAsync(shipmentMessageEntity As ShipmentMessageEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ShipmentMessageEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: DeleteShipmentMessageEntity(Int32)
-  nameWithType: IMarketingAgent.DeleteShipmentMessageEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
+  name: DeleteShipmentMessageEntityAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.DeleteShipmentMessageEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -382,23 +414,27 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDeletes the ShipmentMessageEntity\n"
   syntax:
-    content: void DeleteShipmentMessageEntity(int shipmentMessageEntityId)
+    content: Task DeleteShipmentMessageEntityAsync(int shipmentMessageEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: shipmentMessageEntityId
       type: System.Int32
       description: The identity of the ShipmentMessageEntity
-    content.vb: Sub DeleteShipmentMessageEntity(shipmentMessageEntityId As Integer)
-  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
-  id: GetFormEntity(System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteShipmentMessageEntityAsync(shipmentMessageEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFormEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: GetFormEntity(Int32)
-  nameWithType: IMarketingAgent.GetFormEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
+  name: GetFormEntityAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.GetFormEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -408,26 +444,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets a FormEntity object.                        \n"
   syntax:
-    content: FormEntity GetFormEntity(int formEntityId)
+    content: Task<FormEntity> GetFormEntityAsync(int formEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: formEntityId
       type: System.Int32
       description: The identifier of the FormEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.FormEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
       description: FormEntity
-    content.vb: Function GetFormEntity(formEntityId As Integer) As FormEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
-  id: VerifyGoogleRecaptcha(System.String,System.String)
+    content.vb: Function GetFormEntityAsync(formEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of FormEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: VerifyGoogleRecaptchaAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: VerifyGoogleRecaptcha(String, String)
-  nameWithType: IMarketingAgent.VerifyGoogleRecaptcha(String, String)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String, System.String)
+  name: VerifyGoogleRecaptchaAsync(String, String, CancellationToken)
+  nameWithType: IMarketingAgent.VerifyGoogleRecaptchaAsync(String, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync(System.String, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -437,7 +475,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nThis method will try to verify a Google recaptcha token. The token is gained from the recaptcha frontend component\n"
   syntax:
-    content: bool VerifyGoogleRecaptcha(string token, string optionalSecretKey)
+    content: Task<bool> VerifyGoogleRecaptchaAsync(string token, string optionalSecretKey, CancellationToken cancellationToken = null)
     parameters:
     - id: token
       type: System.String
@@ -445,21 +483,23 @@ items:
     - id: optionalSecretKey
       type: System.String
       description: Use an optional secret key instead of the system wide
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if the recaptcha token verified successfully
-    content.vb: Function VerifyGoogleRecaptcha(token As String, optionalSecretKey As String) As Boolean
-  overload: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
-  id: GetFormSubmissionEntity(System.Int32)
+    content.vb: Function VerifyGoogleRecaptchaAsync(token As String, optionalSecretKey As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: GetFormSubmissionEntity(Int32)
-  nameWithType: IMarketingAgent.GetFormSubmissionEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
+  name: GetFormSubmissionEntityAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.GetFormSubmissionEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -469,26 +509,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets a FormSubmissionEntity object.                        \n"
   syntax:
-    content: FormSubmissionEntity GetFormSubmissionEntity(int formSubmissionEntityId)
+    content: Task<FormSubmissionEntity> GetFormSubmissionEntityAsync(int formSubmissionEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: formSubmissionEntityId
       type: System.Int32
       description: The identifier of the FormSubmissionEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.FormSubmissionEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormSubmissionEntity}
       description: FormSubmissionEntity
-    content.vb: Function GetFormSubmissionEntity(formSubmissionEntityId As Integer) As FormSubmissionEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
-  id: CalculateMailingStatistics(System.Int32)
+    content.vb: Function GetFormSubmissionEntityAsync(formSubmissionEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of FormSubmissionEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatisticsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatisticsAsync(System.Int32,System.Threading.CancellationToken)
+  id: CalculateMailingStatisticsAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: CalculateMailingStatistics(Int32)
-  nameWithType: IMarketingAgent.CalculateMailingStatistics(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
+  name: CalculateMailingStatisticsAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.CalculateMailingStatisticsAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatisticsAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -498,26 +540,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nCalculate open and click rates for one or more mailings\n"
   syntax:
-    content: int CalculateMailingStatistics(int shipmentId)
+    content: Task<int> CalculateMailingStatisticsAsync(int shipmentId, CancellationToken cancellationToken = null)
     parameters:
     - id: shipmentId
       type: System.Int32
       description: If 0, calculate rates for all dirty (are_statistics_dirty) shipments
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Number of shipments updated with calculated statistics
-    content.vb: Function CalculateMailingStatistics(shipmentId As Integer) As Integer
-  overload: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
-  id: GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
+    content.vb: Function CalculateMailingStatisticsAsync(shipmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatisticsAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCountAsync(System.Int32,SuperOffice.Data.FormSubmissionStatus,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCountAsync(System.Int32,SuperOffice.Data.FormSubmissionStatus,System.Threading.CancellationToken)
+  id: GetFormSubmissionsCountAsync(System.Int32,SuperOffice.Data.FormSubmissionStatus,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: GetFormSubmissionsCount(Int32, FormSubmissionStatus)
-  nameWithType: IMarketingAgent.GetFormSubmissionsCount(Int32, FormSubmissionStatus)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32, SuperOffice.Data.FormSubmissionStatus)
+  name: GetFormSubmissionsCountAsync(Int32, FormSubmissionStatus, CancellationToken)
+  nameWithType: IMarketingAgent.GetFormSubmissionsCountAsync(Int32, FormSubmissionStatus, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCountAsync(System.Int32, SuperOffice.Data.FormSubmissionStatus, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -527,7 +571,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet counnt of submissions for given form and status. Count for all forms is returned if negative formId is given\n"
   syntax:
-    content: int GetFormSubmissionsCount(int formId, FormSubmissionStatus status)
+    content: Task<int> GetFormSubmissionsCountAsync(int formId, FormSubmissionStatus status, CancellationToken cancellationToken = null)
     parameters:
     - id: formId
       type: System.Int32
@@ -535,21 +579,23 @@ items:
     - id: status
       type: SuperOffice.Data.FormSubmissionStatus
       description: Which status the submissions should have. If Unknown, return count of all statuses
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Number of formsubmissions
-    content.vb: Function GetFormSubmissionsCount(formId As Integer, status As FormSubmissionStatus) As Integer
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
-  id: GetPreviewMailing(System.Int32)
+    content.vb: Function GetFormSubmissionsCountAsync(formId As Integer, status As FormSubmissionStatus, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCountAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPreviewMailingAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: GetPreviewMailing(Int32)
-  nameWithType: IMarketingAgent.GetPreviewMailing(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
+  name: GetPreviewMailingAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.GetPreviewMailingAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -559,26 +605,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a shipment message from its shipment address id\n"
   syntax:
-    content: PreviewMailing GetPreviewMailing(int shipmentAddrId)
+    content: Task<PreviewMailing> GetPreviewMailingAsync(int shipmentAddrId, CancellationToken cancellationToken = null)
     parameters:
     - id: shipmentAddrId
       type: System.Int32
       description: Shipment address id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreviewMailing
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewMailing}
       description: PreviewMailing
-    content.vb: Function GetPreviewMailing(shipmentAddrId As Integer) As PreviewMailing
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
-  id: GetPreviewMailingHeader(System.Int32)
+    content.vb: Function GetPreviewMailingAsync(shipmentAddrId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PreviewMailing)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeaderAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeaderAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPreviewMailingHeaderAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: GetPreviewMailingHeader(Int32)
-  nameWithType: IMarketingAgent.GetPreviewMailingHeader(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
+  name: GetPreviewMailingHeaderAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.GetPreviewMailingHeaderAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeaderAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -588,26 +636,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a shipment from its shipment id\n"
   syntax:
-    content: PreviewMailingHeader GetPreviewMailingHeader(int shipmentId)
+    content: Task<PreviewMailingHeader> GetPreviewMailingHeaderAsync(int shipmentId, CancellationToken cancellationToken = null)
     parameters:
     - id: shipmentId
       type: System.Int32
       description: Shipment id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreviewMailingHeader
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewMailingHeader}
       description: PreviewMailingHeader
-    content.vb: Function GetPreviewMailingHeader(shipmentId As Integer) As PreviewMailingHeader
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
-  id: GetShipmentMessageBlockEntity(System.Int32)
+    content.vb: Function GetPreviewMailingHeaderAsync(shipmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PreviewMailingHeader)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeaderAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetShipmentMessageBlockEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: GetShipmentMessageBlockEntity(Int32)
-  nameWithType: IMarketingAgent.GetShipmentMessageBlockEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
+  name: GetShipmentMessageBlockEntityAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.GetShipmentMessageBlockEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -617,26 +667,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets a ShipmentMessageBlockEntity object.                        \n"
   syntax:
-    content: ShipmentMessageBlockEntity GetShipmentMessageBlockEntity(int shipmentMessageBlockEntityId)
+    content: Task<ShipmentMessageBlockEntity> GetShipmentMessageBlockEntityAsync(int shipmentMessageBlockEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: shipmentMessageBlockEntityId
       type: System.Int32
       description: The identifier of the ShipmentMessageBlockEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageBlockEntity}
       description: ShipmentMessageBlockEntity
-    content.vb: Function GetShipmentMessageBlockEntity(shipmentMessageBlockEntityId As Integer) As ShipmentMessageBlockEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
-  id: GetUserBlocks(System.Int32)
+    content.vb: Function GetShipmentMessageBlockEntityAsync(shipmentMessageBlockEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ShipmentMessageBlockEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocksAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocksAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetUserBlocksAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: GetUserBlocks(Int32)
-  nameWithType: IMarketingAgent.GetUserBlocks(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
+  name: GetUserBlocksAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.GetUserBlocksAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocksAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -646,26 +698,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGet the saved user blocks to be used in a shipment/mailing message\n"
   syntax:
-    content: ShipmentMessageBlockEntity[] GetUserBlocks(int associateId)
+    content: Task<ShipmentMessageBlockEntity[]> GetUserBlocksAsync(int associateId, CancellationToken cancellationToken = null)
     parameters:
     - id: associateId
       type: System.Int32
       description: The associate id to get the user blocks. 0 will get all saved blocks
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]}
       description: An array of user blocks
-    content.vb: Function GetUserBlocks(associateId As Integer) As ShipmentMessageBlockEntity()
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
-  id: GetShipmentMessageEntity(System.Int32)
+    content.vb: Function GetUserBlocksAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ShipmentMessageBlockEntity())
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocksAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: GetShipmentMessageEntity(Int32)
-  nameWithType: IMarketingAgent.GetShipmentMessageEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
+  name: GetShipmentMessageEntityAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.GetShipmentMessageEntityAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntityAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -675,26 +729,28 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nGets a ShipmentMessageEntity object.                        \n"
   syntax:
-    content: ShipmentMessageEntity GetShipmentMessageEntity(int shipmentMessageEntityId)
+    content: Task<ShipmentMessageEntity> GetShipmentMessageEntityAsync(int shipmentMessageEntityId, CancellationToken cancellationToken = null)
     parameters:
     - id: shipmentMessageEntityId
       type: System.Int32
       description: The identifier of the ShipmentMessageEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageEntity}
       description: ShipmentMessageEntity
-    content.vb: Function GetShipmentMessageEntity(shipmentMessageEntityId As Integer) As ShipmentMessageEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(System.Int32,System.String)
-  id: RenameMailingByMessageId(System.Int32,System.String)
+    content.vb: Function GetShipmentMessageEntityAsync(shipmentMessageEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ShipmentMessageEntity)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntityAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageIdAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageIdAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: RenameMailingByMessageIdAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: RenameMailingByMessageId(Int32, String)
-  nameWithType: IMarketingAgent.RenameMailingByMessageId(Int32, String)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(System.Int32, System.String)
+  name: RenameMailingByMessageIdAsync(Int32, String, CancellationToken)
+  nameWithType: IMarketingAgent.RenameMailingByMessageIdAsync(Int32, String, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageIdAsync(System.Int32, System.String, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -704,7 +760,7 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nChange the mailing name (shipment description) that the given message (MessageId) belongs to\n"
   syntax:
-    content: void RenameMailingByMessageId(int messageId, string name)
+    content: Task RenameMailingByMessageIdAsync(int messageId, string name, CancellationToken cancellationToken = null)
     parameters:
     - id: messageId
       type: System.Int32
@@ -712,18 +768,22 @@ items:
     - id: name
       type: System.String
       description: The new name
-    content.vb: Sub RenameMailingByMessageId(messageId As Integer, name As String)
-  overload: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(System.Int32)
-  id: DeleteMessageAndShipment(System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RenameMailingByMessageIdAsync(messageId As Integer, name As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageIdAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipmentAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipmentAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteMessageAndShipmentAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: DeleteMessageAndShipment(Int32)
-  nameWithType: IMarketingAgent.DeleteMessageAndShipment(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(System.Int32)
+  name: DeleteMessageAndShipmentAsync(Int32, CancellationToken)
+  nameWithType: IMarketingAgent.DeleteMessageAndShipmentAsync(Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipmentAsync(System.Int32, System.Threading.CancellationToken)
   type: Method
   source:
     path: SuperOffice.Services
@@ -733,13 +793,17 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDelete the message and the shipment the message (MessageId) belongs to\n"
   syntax:
-    content: void DeleteMessageAndShipment(int messageId)
+    content: Task DeleteMessageAndShipmentAsync(int messageId, CancellationToken cancellationToken = null)
     parameters:
     - id: messageId
       type: System.Int32
       description: Message id
-    content.vb: Sub DeleteMessageAndShipment(messageId As Integer)
-  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteMessageAndShipmentAsync(messageId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipmentAsync*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -747,12 +811,104 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync
   isExternal: true
-  name: CreateDefaultFormEntity
-  nameWithType: IMarketingAgent.CreateDefaultFormEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
+  name: CreateDefaultFormEntityAsync
+  nameWithType: IMarketingAgent.CreateDefaultFormEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<FormEntity>
+  nameWithType: Task<FormEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FormEntity>
+  nameWithType.vb: Task(Of FormEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FormEntity)
+  name.vb: Task(Of FormEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.FormEntity
+    name: FormEntity
+    nameWithType: FormEntity
+    fullName: SuperOffice.CRM.Services.FormEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.FormEntity
+    name: FormEntity
+    nameWithType: FormEntity
+    fullName: SuperOffice.CRM.Services.FormEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync
+  isExternal: true
+  name: SaveFormEntityAsync
+  nameWithType: IMarketingAgent.SaveFormEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync
 - uid: SuperOffice.CRM.Services.FormEntity
   commentId: T:SuperOffice.CRM.Services.FormEntity
   parent: SuperOffice.CRM.Services
@@ -760,18 +916,12 @@ references:
   name: FormEntity
   nameWithType: FormEntity
   fullName: SuperOffice.CRM.Services.FormEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync
   isExternal: true
-  name: SaveFormEntity
-  nameWithType: IMarketingAgent.SaveFormEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity
-  isExternal: true
-  name: DeleteFormEntity
-  nameWithType: IMarketingAgent.DeleteFormEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity
+  name: DeleteFormEntityAsync
+  nameWithType: IMarketingAgent.DeleteFormEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -779,18 +929,72 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync
   isExternal: true
-  name: CreateDefaultFormSubmissionEntity
-  nameWithType: IMarketingAgent.CreateDefaultFormSubmissionEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
+  name: CreateDefaultFormSubmissionEntityAsync
+  nameWithType: IMarketingAgent.CreateDefaultFormSubmissionEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormSubmissionEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormSubmissionEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<FormSubmissionEntity>
+  nameWithType: Task<FormSubmissionEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FormSubmissionEntity>
+  nameWithType.vb: Task(Of FormSubmissionEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FormSubmissionEntity)
+  name.vb: Task(Of FormSubmissionEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.FormSubmissionEntity
+    name: FormSubmissionEntity
+    nameWithType: FormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.FormSubmissionEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.FormSubmissionEntity
+    name: FormSubmissionEntity
+    nameWithType: FormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.FormSubmissionEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntityAsync
+  isExternal: true
+  name: SaveFormSubmissionEntityAsync
+  nameWithType: IMarketingAgent.SaveFormSubmissionEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntityAsync
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity
   commentId: T:SuperOffice.CRM.Services.FormSubmissionEntity
   parent: SuperOffice.CRM.Services
@@ -798,24 +1002,67 @@ references:
   name: FormSubmissionEntity
   nameWithType: FormSubmissionEntity
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntityAsync
   isExternal: true
-  name: SaveFormSubmissionEntity
-  nameWithType: IMarketingAgent.SaveFormSubmissionEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity
+  name: DeleteFormSubmissionEntityAsync
+  nameWithType: IMarketingAgent.DeleteFormSubmissionEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync
   isExternal: true
-  name: DeleteFormSubmissionEntity
-  nameWithType: IMarketingAgent.DeleteFormSubmissionEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+  name: CreateDefaultShipmentMessageBlockEntityAsync
+  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageBlockEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageBlockEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ShipmentMessageBlockEntity>
+  nameWithType: Task<ShipmentMessageBlockEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ShipmentMessageBlockEntity>
+  nameWithType.vb: Task(Of ShipmentMessageBlockEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
+  name.vb: Task(Of ShipmentMessageBlockEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+    name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+    name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntityAsync
   isExternal: true
-  name: CreateDefaultShipmentMessageBlockEntity
-  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+  name: SaveShipmentMessageBlockEntityAsync
+  nameWithType: IMarketingAgent.SaveShipmentMessageBlockEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntityAsync
 - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
   commentId: T:SuperOffice.CRM.Services.ShipmentMessageBlockEntity
   parent: SuperOffice.CRM.Services
@@ -823,24 +1070,67 @@ references:
   name: ShipmentMessageBlockEntity
   nameWithType: ShipmentMessageBlockEntity
   fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntityAsync
   isExternal: true
-  name: SaveShipmentMessageBlockEntity
-  nameWithType: IMarketingAgent.SaveShipmentMessageBlockEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity
+  name: DeleteShipmentMessageBlockEntityAsync
+  nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntityAsync
   isExternal: true
-  name: DeleteShipmentMessageBlockEntity
-  nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+  name: CreateDefaultShipmentMessageEntityAsync
+  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ShipmentMessageEntity>
+  nameWithType: Task<ShipmentMessageEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ShipmentMessageEntity>
+  nameWithType.vb: Task(Of ShipmentMessageEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ShipmentMessageEntity)
+  name.vb: Task(Of ShipmentMessageEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ShipmentMessageEntity
+    name: ShipmentMessageEntity
+    nameWithType: ShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ShipmentMessageEntity
+    name: ShipmentMessageEntity
+    nameWithType: ShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntityAsync
   isExternal: true
-  name: CreateDefaultShipmentMessageEntity
-  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+  name: SaveShipmentMessageEntityAsync
+  nameWithType: IMarketingAgent.SaveShipmentMessageEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntityAsync
 - uid: SuperOffice.CRM.Services.ShipmentMessageEntity
   commentId: T:SuperOffice.CRM.Services.ShipmentMessageEntity
   parent: SuperOffice.CRM.Services
@@ -848,30 +1138,24 @@ references:
   name: ShipmentMessageEntity
   nameWithType: ShipmentMessageEntity
   fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntityAsync
   isExternal: true
-  name: SaveShipmentMessageEntity
-  nameWithType: IMarketingAgent.SaveShipmentMessageEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity
+  name: DeleteShipmentMessageEntityAsync
+  nameWithType: IMarketingAgent.DeleteShipmentMessageEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync
   isExternal: true
-  name: DeleteShipmentMessageEntity
-  nameWithType: IMarketingAgent.DeleteShipmentMessageEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity
+  name: GetFormEntityAsync
+  nameWithType: IMarketingAgent.GetFormEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync
   isExternal: true
-  name: GetFormEntity
-  nameWithType: IMarketingAgent.GetFormEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha
-  isExternal: true
-  name: VerifyGoogleRecaptcha
-  nameWithType: IMarketingAgent.VerifyGoogleRecaptcha
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha
+  name: VerifyGoogleRecaptchaAsync
+  nameWithType: IMarketingAgent.VerifyGoogleRecaptchaAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -879,83 +1163,243 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntityAsync
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity
+  name: GetFormSubmissionEntityAsync
+  nameWithType: IMarketingAgent.GetFormSubmissionEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatisticsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatisticsAsync
   isExternal: true
-  name: GetFormSubmissionEntity
-  nameWithType: IMarketingAgent.GetFormSubmissionEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics
+  name: CalculateMailingStatisticsAsync
+  nameWithType: IMarketingAgent.CalculateMailingStatisticsAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatisticsAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCountAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCountAsync
   isExternal: true
-  name: CalculateMailingStatistics
-  nameWithType: IMarketingAgent.CalculateMailingStatistics
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount
-  isExternal: true
-  name: GetFormSubmissionsCount
-  nameWithType: IMarketingAgent.GetFormSubmissionsCount
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount
+  name: GetFormSubmissionsCountAsync
+  nameWithType: IMarketingAgent.GetFormSubmissionsCountAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCountAsync
 - uid: SuperOffice.Data.FormSubmissionStatus
   isExternal: true
   name: FormSubmissionStatus
   nameWithType: FormSubmissionStatus
   fullName: SuperOffice.Data.FormSubmissionStatus
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingAsync
   isExternal: true
-  name: GetPreviewMailing
-  nameWithType: IMarketingAgent.GetPreviewMailing
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing
-- uid: SuperOffice.CRM.Services.PreviewMailing
-  commentId: T:SuperOffice.CRM.Services.PreviewMailing
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: PreviewMailing
-  nameWithType: PreviewMailing
-  fullName: SuperOffice.CRM.Services.PreviewMailing
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader
-  isExternal: true
-  name: GetPreviewMailingHeader
-  nameWithType: IMarketingAgent.GetPreviewMailingHeader
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader
-- uid: SuperOffice.CRM.Services.PreviewMailingHeader
-  commentId: T:SuperOffice.CRM.Services.PreviewMailingHeader
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: PreviewMailingHeader
-  nameWithType: PreviewMailingHeader
-  fullName: SuperOffice.CRM.Services.PreviewMailingHeader
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity
-  isExternal: true
-  name: GetShipmentMessageBlockEntity
-  nameWithType: IMarketingAgent.GetShipmentMessageBlockEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks
-  isExternal: true
-  name: GetUserBlocks
-  nameWithType: IMarketingAgent.GetUserBlocks
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks
-- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]
-  isExternal: true
-  name: ShipmentMessageBlockEntity[]
-  nameWithType: ShipmentMessageBlockEntity[]
-  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]
-  nameWithType.vb: ShipmentMessageBlockEntity()
-  fullName.vb: SuperOffice.CRM.Services.ShipmentMessageBlockEntity()
-  name.vb: ShipmentMessageBlockEntity()
+  name: GetPreviewMailingAsync
+  nameWithType: IMarketingAgent.GetPreviewMailingAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewMailing}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewMailing}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PreviewMailing>
+  nameWithType: Task<PreviewMailing>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreviewMailing>
+  nameWithType.vb: Task(Of PreviewMailing)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreviewMailing)
+  name.vb: Task(Of PreviewMailing)
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.PreviewMailing
+    name: PreviewMailing
+    nameWithType: PreviewMailing
+    fullName: SuperOffice.CRM.Services.PreviewMailing
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.PreviewMailing
+    name: PreviewMailing
+    nameWithType: PreviewMailing
+    fullName: SuperOffice.CRM.Services.PreviewMailing
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeaderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeaderAsync
+  isExternal: true
+  name: GetPreviewMailingHeaderAsync
+  nameWithType: IMarketingAgent.GetPreviewMailingHeaderAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeaderAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewMailingHeader}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewMailingHeader}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PreviewMailingHeader>
+  nameWithType: Task<PreviewMailingHeader>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreviewMailingHeader>
+  nameWithType.vb: Task(Of PreviewMailingHeader)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreviewMailingHeader)
+  name.vb: Task(Of PreviewMailingHeader)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.PreviewMailingHeader
+    name: PreviewMailingHeader
+    nameWithType: PreviewMailingHeader
+    fullName: SuperOffice.CRM.Services.PreviewMailingHeader
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.PreviewMailingHeader
+    name: PreviewMailingHeader
+    nameWithType: PreviewMailingHeader
+    fullName: SuperOffice.CRM.Services.PreviewMailingHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntityAsync
+  isExternal: true
+  name: GetShipmentMessageBlockEntityAsync
+  nameWithType: IMarketingAgent.GetShipmentMessageBlockEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocksAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocksAsync
+  isExternal: true
+  name: GetUserBlocksAsync
+  nameWithType: IMarketingAgent.GetUserBlocksAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocksAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ShipmentMessageBlockEntity[]>
+  nameWithType: Task<ShipmentMessageBlockEntity[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]>
+  nameWithType.vb: Task(Of ShipmentMessageBlockEntity())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ShipmentMessageBlockEntity())
+  name.vb: Task(Of ShipmentMessageBlockEntity())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
     name: ShipmentMessageBlockEntity
     nameWithType: ShipmentMessageBlockEntity
@@ -964,7 +1408,18 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
     name: ShipmentMessageBlockEntity
     nameWithType: ShipmentMessageBlockEntity
@@ -973,21 +1428,24 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntityAsync
   isExternal: true
-  name: GetShipmentMessageEntity
-  nameWithType: IMarketingAgent.GetShipmentMessageEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId
+  name: GetShipmentMessageEntityAsync
+  nameWithType: IMarketingAgent.GetShipmentMessageEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageIdAsync
   isExternal: true
-  name: RenameMailingByMessageId
-  nameWithType: IMarketingAgent.RenameMailingByMessageId
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment
+  name: RenameMailingByMessageIdAsync
+  nameWithType: IMarketingAgent.RenameMailingByMessageIdAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageIdAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipmentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipmentAsync
   isExternal: true
-  name: DeleteMessageAndShipment
-  nameWithType: IMarketingAgent.DeleteMessageAndShipment
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment
+  name: DeleteMessageAndShipmentAsync
+  nameWithType: IMarketingAgent.DeleteMessageAndShipmentAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipmentAsync

@@ -43,7 +43,7 @@ items:
   - SuperOffice.CRM.Rows.MergeMoveLogRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.MergeMoveLogRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MergeMoveLogRecordData)
   - SuperOffice.CRM.Rows.MergeMoveLogRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.MergeMoveLogRecordData.SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.MergeMoveLogRecordData.SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.MergeMoveLogRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -499,34 +499,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MergeMoveLogRecordData.SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MergeMoveLogRecordData)
+- uid: SuperOffice.CRM.Rows.MergeMoveLogRecordData.SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MergeMoveLogRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MergeMoveLogRecordData)
-  name: ToInsert()
-  nameWithType: MergeMoveLogRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MergeMoveLogRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: MergeMoveLogRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: MergeMoveLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MergeMoveLogRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: MergeMoveLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MergeMoveLogRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -712,17 +722,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MergeMoveLogRecordData)
-  commentId: M:SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MergeMoveLogRecordData)
+- uid: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MergeMoveLogRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MergeMoveLogRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(MergeMoveLogRecordData)
-  nameWithType: MergeMoveLogRecordDataExtensions.ToInsert(MergeMoveLogRecordData)
-  fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MergeMoveLogRecordData)
+  name: ToInsertAsync(MergeMoveLogRecordData, CancellationToken)
+  nameWithType: MergeMoveLogRecordDataExtensions.ToInsertAsync(MergeMoveLogRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MergeMoveLogRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MergeMoveLogRecordData)
-    name: ToInsert
-    nameWithType: MergeMoveLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MergeMoveLogRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MergeMoveLogRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -731,15 +741,23 @@ references:
     name: MergeMoveLogRecordData
     nameWithType: MergeMoveLogRecordData
     fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MergeMoveLogRecordData)
-    name: ToInsert
-    nameWithType: MergeMoveLogRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.MergeMoveLogRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: MergeMoveLogRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -748,6 +766,14 @@ references:
     name: MergeMoveLogRecordData
     nameWithType: MergeMoveLogRecordData
     fullName: SuperOffice.CRM.Rows.MergeMoveLogRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

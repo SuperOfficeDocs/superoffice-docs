@@ -9,11 +9,15 @@ items:
   - SuperOffice.Data.SoCommand.Connection
   - SuperOffice.Data.SoCommand.Dispose
   - SuperOffice.Data.SoCommand.ExecuteNonQuery
+  - SuperOffice.Data.SoCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SoCommand.ExecuteReader
   - SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior)
-  - SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior,System.Int32,System.Int32)
   - SuperOffice.Data.SoCommand.ExecuteReader(System.Int32,System.Int32)
+  - SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SoCommand.ExecuteScalar
+  - SuperOffice.Data.SoCommand.ExecuteScalarAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SoCommand.IsAutoSentry
   - SuperOffice.Data.SoCommand.IsDefaultTransaction
   - SuperOffice.Data.SoCommand.LogNonQuery(System.TimeSpan,System.Int32,System.String)
@@ -208,6 +212,279 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.Data.SoCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)
+  id: ExecuteNonQueryAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: ExecuteNonQueryAsync(CancellationToken)
+  nameWithType: SoCommand.ExecuteNonQueryAsync(CancellationToken)
+  fullName: SuperOffice.Data.SoCommand.ExecuteNonQueryAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecutes an SQL statement against the Connection object of a .NET Framework data provider, and returns the number of rows affected.\n"
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<int> ExecuteNonQueryAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The number of rows affected.
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ExecuteNonQueryAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.SoCommand.ExecuteNonQueryAsync*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: 'The connection does not exist.-or- The connection is not open. '
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Threading.CancellationToken)
+  id: ExecuteReaderAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: ExecuteReaderAsync(CancellationToken)
+  nameWithType: SoCommand.ExecuteReaderAsync(CancellationToken)
+  fullName: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute the <xref href=\"System.Data.IDbCommand.CommandText\" data-throw-if-not-resolved=\"false\"></xref> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will start on row 1 and go\nthrough the whole result set.\n"
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<SoDataReader> ExecuteReaderAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SoDataReader}
+      description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ExecuteReaderAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SoDataReader)
+  overload: SuperOffice.Data.SoCommand.ExecuteReaderAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)
+  id: ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: ExecuteReaderAsync(CommandBehavior, CancellationToken)
+  nameWithType: SoCommand.ExecuteReaderAsync(CommandBehavior, CancellationToken)
+  fullName: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Data.CommandBehavior, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute the <xref href=\"System.Data.IDbCommand.CommandText\" data-throw-if-not-resolved=\"false\"></xref> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will start on row 1 and go\nthrough the whole result set.\n"
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<SoDataReader> ExecuteReaderAsync(CommandBehavior behaviour, CancellationToken cancellationToken = null)
+    parameters:
+    - id: behaviour
+      type: System.Data.CommandBehavior
+      description: Command behaviour, passed through to the underlying ADO.NET provider
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SoDataReader}
+      description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ExecuteReaderAsync(behaviour As CommandBehavior, cancellationToken As CancellationToken = Nothing) As Task(Of SoDataReader)
+  overload: SuperOffice.Data.SoCommand.ExecuteReaderAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: ExecuteReaderAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: ExecuteReaderAsync(Int32, Int32, CancellationToken)
+  nameWithType: SoCommand.ExecuteReaderAsync(Int32, Int32, CancellationToken)
+  fullName: SuperOffice.Data.SoCommand.ExecuteReaderAsync(System.Int32, System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute the <xref href=\"System.Data.IDbCommand.CommandText\" data-throw-if-not-resolved=\"false\"></xref> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will return one page of records,\nas defined by the page size and starting point.\n"
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<SoDataReader> ExecuteReaderAsync(int pageSize, int pageWanted, CancellationToken cancellationToken = null)
+    parameters:
+    - id: pageSize
+      type: System.Int32
+      description: Number of records per page; only one page will be returned by the reader
+    - id: pageWanted
+      type: System.Int32
+      description: Desired page, starting at 0.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SoDataReader}
+      description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ExecuteReaderAsync(pageSize As Integer, pageWanted As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SoDataReader)
+  overload: SuperOffice.Data.SoCommand.ExecuteReaderAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoCommand.ExecuteScalarAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoCommand.ExecuteScalarAsync(System.Threading.CancellationToken)
+  id: ExecuteScalarAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScalarAsync(CancellationToken)
+  nameWithType: SoCommand.ExecuteScalarAsync(CancellationToken)
+  fullName: SuperOffice.Data.SoCommand.ExecuteScalarAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecutes the query, and returns the first column of the first row in the resultset returned by the query.\nExtra columns or rows are ignored.\n"
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task<object> ExecuteScalarAsync(CancellationToken cancellationToken = null)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Object}
+      description: "\nThe first column of the first row in the resultset.\n"
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function ExecuteScalarAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Object)
+  overload: SuperOffice.Data.SoCommand.ExecuteScalarAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoCommand.Prepare
+  commentId: M:SuperOffice.Data.SoCommand.Prepare
+  id: Prepare
+  parent: SuperOffice.Data.SoCommand
+  langs:
+  - csharp
+  - vb
+  name: Prepare()
+  nameWithType: SoCommand.Prepare()
+  fullName: SuperOffice.Data.SoCommand.Prepare()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCreates a prepared (or compiled) version of the command on the data source.\n"
+  syntax:
+    content: public void Prepare()
+    content.vb: Public Sub Prepare
+  overload: SuperOffice.Data.SoCommand.Prepare*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: 'The <xref href="System.Data.OleDb.OleDbCommand.Connection" data-throw-if-not-resolved="false"></xref> is not set.-or- The <xref href="System.Data.OleDb.OleDbCommand.Connection" data-throw-if-not-resolved="false"></xref> is not <see cref="!:System.Data.OleDb.OleDbConnection.Open"></see>. '
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoCommand.ExecuteNonQuery
   commentId: M:SuperOffice.Data.SoCommand.ExecuteNonQuery
   id: ExecuteNonQuery
@@ -258,7 +535,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute the <see cref=\"!:CommandText\"></see> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will start on row 1 and go\nthrough the whole result set.\n"
+  summary: "\nExecute the <xref href=\"System.Data.IDbCommand.CommandText\" data-throw-if-not-resolved=\"false\"></xref> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will start on row 1 and go\nthrough the whole result set.\n"
   syntax:
     content: public SoDataReader ExecuteReader()
     return:
@@ -287,7 +564,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute the <see cref=\"!:CommandText\"></see> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will start on row 1 and go\nthrough the whole result set.\n"
+  summary: "\nExecute the <xref href=\"System.Data.IDbCommand.CommandText\" data-throw-if-not-resolved=\"false\"></xref> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will start on row 1 and go\nthrough the whole result set.\n"
   syntax:
     content: public SoDataReader ExecuteReader(CommandBehavior behaviour)
     parameters:
@@ -298,45 +575,6 @@ items:
       type: SuperOffice.Data.SoDataReader
       description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
     content.vb: Public Function ExecuteReader(behaviour As CommandBehavior) As SoDataReader
-  overload: SuperOffice.Data.SoCommand.ExecuteReader*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior,System.Int32,System.Int32)
-  commentId: M:SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior,System.Int32,System.Int32)
-  id: ExecuteReader(System.Data.CommandBehavior,System.Int32,System.Int32)
-  parent: SuperOffice.Data.SoCommand
-  langs:
-  - csharp
-  - vb
-  name: ExecuteReader(CommandBehavior, Int32, Int32)
-  nameWithType: SoCommand.ExecuteReader(CommandBehavior, Int32, Int32)
-  fullName: SuperOffice.Data.SoCommand.ExecuteReader(System.Data.CommandBehavior, System.Int32, System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nExecute the <see cref=\"!:CommandText\"></see> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will return one page of records,\nas defined by the page size and starting point.\n"
-  syntax:
-    content: public SoDataReader ExecuteReader(CommandBehavior behaviour, int pageSize, int pageWanted)
-    parameters:
-    - id: behaviour
-      type: System.Data.CommandBehavior
-      description: Command behaviour, passed through to the underlying ADO.NET provider
-    - id: pageSize
-      type: System.Int32
-      description: Number of records per page; only one page will be returned by the reader
-    - id: pageWanted
-      type: System.Int32
-      description: Desired page, starting at 0.
-    return:
-      type: SuperOffice.Data.SoDataReader
-      description: SoDataReader, which implements the IDataReader interface as well as SuperOffice functionality
-    content.vb: Public Function ExecuteReader(behaviour As CommandBehavior, pageSize As Integer, pageWanted As Integer) As SoDataReader
   overload: SuperOffice.Data.SoCommand.ExecuteReader*
   modifiers.csharp:
   - public
@@ -359,7 +597,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute the <see cref=\"!:CommandText\"></see> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will return one page of records,\nas defined by the page size and starting point.\n"
+  summary: "\nExecute the <xref href=\"System.Data.IDbCommand.CommandText\" data-throw-if-not-resolved=\"false\"></xref> on the <xref href=\"SuperOffice.Data.SoCommand.Connection\" data-throw-if-not-resolved=\"false\"></xref>, create an\nSoDataReader to read the results, and return it. The reader will return one page of records,\nas defined by the page size and starting point.\n"
   syntax:
     content: public SoDataReader ExecuteReader(int pageSize, int pageWanted)
     parameters:
@@ -403,36 +641,6 @@ items:
       description: "\nThe first column of the first row in the resultset.\n"
     content.vb: Public Function ExecuteScalar As Object
   overload: SuperOffice.Data.SoCommand.ExecuteScalar*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Data.SoCommand.Prepare
-  commentId: M:SuperOffice.Data.SoCommand.Prepare
-  id: Prepare
-  parent: SuperOffice.Data.SoCommand
-  langs:
-  - csharp
-  - vb
-  name: Prepare()
-  nameWithType: SoCommand.Prepare()
-  fullName: SuperOffice.Data.SoCommand.Prepare()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nCreates a prepared (or compiled) version of the command on the data source.\n"
-  syntax:
-    content: public void Prepare()
-    content.vb: Public Sub Prepare
-  overload: SuperOffice.Data.SoCommand.Prepare*
-  exceptions:
-  - type: System.InvalidOperationException
-    commentId: T:System.InvalidOperationException
-    description: 'The <xref href="System.Data.OleDb.OleDbCommand.Connection" data-throw-if-not-resolved="false"></xref> is not set.-or- The <xref href="System.Data.OleDb.OleDbCommand.Connection" data-throw-if-not-resolved="false"></xref> is not <see cref="!:System.Data.OleDb.OleDbConnection.Open"></see>. '
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -898,15 +1106,216 @@ references:
   name: Cancel
   nameWithType: SoCommand.Cancel
   fullName: SuperOffice.Data.SoCommand.Cancel
+- uid: SuperOffice.Data.SoCommand.ExecuteNonQueryAsync*
+  commentId: Overload:SuperOffice.Data.SoCommand.ExecuteNonQueryAsync
+  isExternal: true
+  name: ExecuteNonQueryAsync
+  nameWithType: SoCommand.ExecuteNonQueryAsync
+  fullName: SuperOffice.Data.SoCommand.ExecuteNonQueryAsync
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoCommand.ExecuteReaderAsync*
+  commentId: Overload:SuperOffice.Data.SoCommand.ExecuteReaderAsync
+  isExternal: true
+  name: ExecuteReaderAsync
+  nameWithType: SoCommand.ExecuteReaderAsync
+  fullName: SuperOffice.Data.SoCommand.ExecuteReaderAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SoDataReader}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SoDataReader}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SoDataReader>
+  nameWithType: Task<SoDataReader>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SoDataReader>
+  nameWithType.vb: Task(Of SoDataReader)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SoDataReader)
+  name.vb: Task(Of SoDataReader)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.CommandBehavior
+  isExternal: true
+  name: CommandBehavior
+  nameWithType: CommandBehavior
+  fullName: System.Data.CommandBehavior
+- uid: SuperOffice.Data.SoCommand.ExecuteScalarAsync*
+  commentId: Overload:SuperOffice.Data.SoCommand.ExecuteScalarAsync
+  isExternal: true
+  name: ExecuteScalarAsync
+  nameWithType: SoCommand.ExecuteScalarAsync
+  fullName: SuperOffice.Data.SoCommand.ExecuteScalarAsync
+- uid: System.Threading.Tasks.Task{System.Object}
+  commentId: '!:System.Threading.Tasks.Task{System.Object}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Object>
+  nameWithType: Task<Object>
+  fullName: System.Threading.Tasks.Task<System.Object>
+  nameWithType.vb: Task(Of Object)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Object)
+  name.vb: Task(Of Object)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoCommand.Prepare*
+  commentId: Overload:SuperOffice.Data.SoCommand.Prepare
+  isExternal: true
+  name: Prepare
+  nameWithType: SoCommand.Prepare
+  fullName: SuperOffice.Data.SoCommand.Prepare
 - uid: SuperOffice.Data.SoCommand.ExecuteNonQuery*
   commentId: Overload:SuperOffice.Data.SoCommand.ExecuteNonQuery
   isExternal: true
   name: ExecuteNonQuery
   nameWithType: SoCommand.ExecuteNonQuery
   fullName: SuperOffice.Data.SoCommand.ExecuteNonQuery
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
-  isExternal: true
 - uid: SuperOffice.Data.SoCommand.ExecuteReader*
   commentId: Overload:SuperOffice.Data.SoCommand.ExecuteReader
   isExternal: true
@@ -920,23 +1329,12 @@ references:
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
-- uid: System.Data.CommandBehavior
-  isExternal: true
-  name: CommandBehavior
-  nameWithType: CommandBehavior
-  fullName: System.Data.CommandBehavior
 - uid: SuperOffice.Data.SoCommand.ExecuteScalar*
   commentId: Overload:SuperOffice.Data.SoCommand.ExecuteScalar
   isExternal: true
   name: ExecuteScalar
   nameWithType: SoCommand.ExecuteScalar
   fullName: SuperOffice.Data.SoCommand.ExecuteScalar
-- uid: SuperOffice.Data.SoCommand.Prepare*
-  commentId: Overload:SuperOffice.Data.SoCommand.Prepare
-  isExternal: true
-  name: Prepare
-  nameWithType: SoCommand.Prepare
-  fullName: SuperOffice.Data.SoCommand.Prepare
 - uid: SuperOffice.Data.SoCommand.SqlCommand*
   commentId: Overload:SuperOffice.Data.SoCommand.SqlCommand
   isExternal: true

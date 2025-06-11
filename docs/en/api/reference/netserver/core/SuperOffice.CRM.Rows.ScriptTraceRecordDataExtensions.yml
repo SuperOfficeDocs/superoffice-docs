@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScriptTraceTableInfo})
   - SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo})
-  - SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
-  - SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData})
+  - SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ScriptTraceRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo})
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<ScriptTraceTableInfo>)
-  nameWithType: ScriptTraceRecordDataExtensions.FromSelect(TargetedSelect<ScriptTraceTableInfo>)
-  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ScriptTraceTableInfo>)
+  name: FromSelectAsync(TargetedSelect<ScriptTraceTableInfo>, CancellationToken)
+  nameWithType: ScriptTraceRecordDataExtensions.FromSelectAsync(TargetedSelect<ScriptTraceTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ScriptTraceTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<ScriptTraceRecordData> FromSelect(this TargetedSelect<ScriptTraceTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<ScriptTraceRecordData> FromSelectAsync(this TargetedSelect<ScriptTraceTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of ScriptTraceTableInfo)) As IEnumerable(Of ScriptTraceRecordData)
-  overload: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect*
-  nameWithType.vb: ScriptTraceRecordDataExtensions.FromSelect(TargetedSelect(Of ScriptTraceTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of ScriptTraceTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ScriptTraceRecordData)
+  overload: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: ScriptTraceRecordDataExtensions.FromSelectAsync(TargetedSelect(Of ScriptTraceTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ScriptTraceTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of ScriptTraceTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ScriptTraceTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of ScriptTraceTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScriptTraceTableInfo})
   commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScriptTraceTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScriptTraceTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ScriptTraceTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of ScriptTraceTableInfo))
-- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(ScriptTraceRecordData)
-  nameWithType: ScriptTraceRecordDataExtensions.ToInsert(ScriptTraceRecordData)
-  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  name: ToInsertAsync(ScriptTraceRecordData, CancellationToken)
+  nameWithType: ScriptTraceRecordDataExtensions.ToInsertAsync(ScriptTraceRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ScriptTraceRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this ScriptTraceRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this ScriptTraceRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As ScriptTraceRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As ScriptTraceRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData})
-  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData})
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<ScriptTraceRecordData>)
-  nameWithType: ScriptTraceRecordDataExtensions.ToInserts(IEnumerable<ScriptTraceRecordData>)
-  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ScriptTraceRecordData>)
+  name: ToInsertsAsync(IEnumerable<ScriptTraceRecordData>, CancellationToken)
+  nameWithType: ScriptTraceRecordDataExtensions.ToInsertsAsync(IEnumerable<ScriptTraceRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ScriptTraceRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<ScriptTraceRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<ScriptTraceRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of ScriptTraceRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInserts*
-  nameWithType.vb: ScriptTraceRecordDataExtensions.ToInserts(IEnumerable(Of ScriptTraceRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of ScriptTraceRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: ScriptTraceRecordDataExtensions.ToInsertsAsync(IEnumerable(Of ScriptTraceRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ScriptTraceRecordData))
-  name.vb: ToInserts(IEnumerable(Of ScriptTraceRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ScriptTraceRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of ScriptTraceRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ScriptTraceRow)
   commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ScriptTraceRow)
   id: ToRecordData(SuperOffice.CRM.Rows.ScriptTraceRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<ScriptTraceTableInfo>)
+  nameWithType: ScriptTraceRecordDataExtensions.FromSelect(TargetedSelect<ScriptTraceTableInfo>)
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ScriptTraceTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;ScriptTraceTableInfo>, execute it and return an IEnumerable&lt;ScriptTraceRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<ScriptTraceRecordData> FromSelect(this TargetedSelect<ScriptTraceTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of ScriptTraceTableInfo)) As IEnumerable(Of ScriptTraceRecordData)
+  overload: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect*
+  nameWithType.vb: ScriptTraceRecordDataExtensions.FromSelect(TargetedSelect(Of ScriptTraceTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ScriptTraceTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of ScriptTraceTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: ScriptTraceRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: ScriptTraceRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScriptTraceTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<ScriptTraceRecordData>
-  nameWithType: IEnumerable<ScriptTraceRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ScriptTraceRecordData>
-  nameWithType.vb: IEnumerable(Of ScriptTraceRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ScriptTraceRecordData)
-  name.vb: IEnumerable(Of ScriptTraceRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<ScriptTraceRecordData>
+  nameWithType: IAsyncEnumerable<ScriptTraceRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.ScriptTraceRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of ScriptTraceRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  name.vb: IAsyncEnumerable(Of ScriptTraceRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: ScriptTraceRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: ScriptTraceRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: ScriptTraceRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: ScriptTraceRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScriptTraceRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ScriptTraceRecordData>
+  nameWithType: IEnumerable<ScriptTraceRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ScriptTraceRecordData>
+  nameWithType.vb: IEnumerable(Of ScriptTraceRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  name.vb: IEnumerable(Of ScriptTraceRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    name: ScriptTraceRecordData
+    nameWithType: ScriptTraceRecordData
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    name: ScriptTraceRecordData
+    nameWithType: ScriptTraceRecordData
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: ScriptTraceRow
   nameWithType: ScriptTraceRow
   fullName: SuperOffice.CRM.Rows.ScriptTraceRow
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: ScriptTraceRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.FromSelect

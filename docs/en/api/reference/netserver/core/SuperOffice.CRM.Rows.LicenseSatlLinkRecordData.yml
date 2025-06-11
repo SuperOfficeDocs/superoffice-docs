@@ -45,7 +45,7 @@ items:
   - SuperOffice.CRM.Rows.LicenseSatlLinkRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.LicenseSatlLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData)
   - SuperOffice.CRM.Rows.LicenseSatlLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.LicenseSatlLinkRecordData.SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.LicenseSatlLinkRecordData.SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.LicenseSatlLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -555,34 +555,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordData.SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData)
+- uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordData.SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData)
-  name: ToInsert()
-  nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -768,17 +778,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData)
+- uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(LicenseSatlLinkRecordData)
-  nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsert(LicenseSatlLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData)
+  name: ToInsertAsync(LicenseSatlLinkRecordData, CancellationToken)
+  nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsertAsync(LicenseSatlLinkRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData)
-    name: ToInsert
-    nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -787,15 +797,23 @@ references:
     name: LicenseSatlLinkRecordData
     nameWithType: LicenseSatlLinkRecordData
     fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData)
-    name: ToInsert
-    nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LicenseSatlLinkRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: LicenseSatlLinkRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -804,6 +822,14 @@ references:
     name: LicenseSatlLinkRecordData
     nameWithType: LicenseSatlLinkRecordData
     fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

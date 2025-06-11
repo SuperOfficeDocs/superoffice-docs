@@ -44,7 +44,7 @@ items:
   - SuperOffice.CRM.Rows.ForeignDeviceRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ForeignDeviceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ForeignDeviceRecordData)
   - SuperOffice.CRM.Rows.ForeignDeviceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ForeignDeviceRecordData.SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ForeignDeviceRecordData.SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ForeignDeviceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -527,34 +527,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ForeignDeviceRecordData.SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignDeviceRecordData)
+- uid: SuperOffice.CRM.Rows.ForeignDeviceRecordData.SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignDeviceRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignDeviceRecordData)
-  name: ToInsert()
-  nameWithType: ForeignDeviceRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignDeviceRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ForeignDeviceRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ForeignDeviceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ForeignDeviceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ForeignDeviceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ForeignDeviceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -740,17 +750,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignDeviceRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignDeviceRecordData)
+- uid: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignDeviceRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignDeviceRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ForeignDeviceRecordData)
-  nameWithType: ForeignDeviceRecordDataExtensions.ToInsert(ForeignDeviceRecordData)
-  fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignDeviceRecordData)
+  name: ToInsertAsync(ForeignDeviceRecordData, CancellationToken)
+  nameWithType: ForeignDeviceRecordDataExtensions.ToInsertAsync(ForeignDeviceRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignDeviceRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignDeviceRecordData)
-    name: ToInsert
-    nameWithType: ForeignDeviceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignDeviceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ForeignDeviceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -759,15 +769,23 @@ references:
     name: ForeignDeviceRecordData
     nameWithType: ForeignDeviceRecordData
     fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ForeignDeviceRecordData)
-    name: ToInsert
-    nameWithType: ForeignDeviceRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ForeignDeviceRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ForeignDeviceRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +794,14 @@ references:
     name: ForeignDeviceRecordData
     nameWithType: ForeignDeviceRecordData
     fullName: SuperOffice.CRM.Rows.ForeignDeviceRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

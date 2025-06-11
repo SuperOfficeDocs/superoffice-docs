@@ -51,7 +51,7 @@ items:
   - SuperOffice.CRM.Rows.AddressRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.AddressRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AddressRecordData)
   - SuperOffice.CRM.Rows.AddressRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.AddressRecordData.SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.AddressRecordData.SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.AddressRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -723,34 +723,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AddressRecordData.SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressRecordData)
+- uid: SuperOffice.CRM.Rows.AddressRecordData.SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AddressRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.AddressRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressRecordData)
-  name: ToInsert()
-  nameWithType: AddressRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AddressRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: AddressRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AddressRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AddressRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: AddressRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AddressRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -936,17 +946,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressRecordData)
-  commentId: M:SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressRecordData)
+- uid: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AddressRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AddressRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(AddressRecordData)
-  nameWithType: AddressRecordDataExtensions.ToInsert(AddressRecordData)
-  fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressRecordData)
+  name: ToInsertAsync(AddressRecordData, CancellationToken)
+  nameWithType: AddressRecordDataExtensions.ToInsertAsync(AddressRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AddressRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressRecordData)
-    name: ToInsert
-    nameWithType: AddressRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AddressRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AddressRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -955,15 +965,23 @@ references:
     name: AddressRecordData
     nameWithType: AddressRecordData
     fullName: SuperOffice.CRM.Rows.AddressRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressRecordData)
-    name: ToInsert
-    nameWithType: AddressRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.AddressRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: AddressRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.AddressRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -972,6 +990,14 @@ references:
     name: AddressRecordData
     nameWithType: AddressRecordData
     fullName: SuperOffice.CRM.Rows.AddressRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

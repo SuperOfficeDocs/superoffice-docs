@@ -1,0 +1,710 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+  commentId: T:SuperOffice.Security.Principal.ProcessPrincipalAccessor
+  id: ProcessPrincipalAccessor
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.ProcessPrincipalAccessor.#ctor
+  - SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignOut
+  - SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
+  langs:
+  - csharp
+  - vb
+  name: ProcessPrincipalAccessor
+  nameWithType: ProcessPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: 'public class ProcessPrincipalAccessor : NSPrincipalAccessorBase, INSPrincipalAccessor'
+    content.vb: >-
+      Public Class ProcessPrincipalAccessor
+          Inherits NSPrincipalAccessorBase
+          Implements INSPrincipalAccessor
+  inheritance:
+  - System.Object
+  - SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  implements:
+  - SuperOffice.Security.Principal.INSPrincipalAccessor
+  inheritedMembers:
+  - SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  extensionMethods:
+  - SuperOffice.Security.Principal.ProcessPrincipalAccessor.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.ProcessPrincipalAccessor.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.ProcessPrincipalAccessor)
+  - SuperOffice.Security.Principal.ProcessPrincipalAccessor.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Security.Principal.ProcessPrincipalAccessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  id: SignIn(System.Security.Claims.ClaimsPrincipal)
+  parent: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: SignIn(ClaimsPrincipal)
+  nameWithType: ProcessPrincipalAccessor.SignIn(ClaimsPrincipal)
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override void SignIn(ClaimsPrincipal user)
+    parameters:
+    - id: user
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public Overrides Sub SignIn(user As ClaimsPrincipal)
+  overridden: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+  overload: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignIn*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignOut
+  commentId: M:SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignOut
+  id: SignOut
+  parent: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: SignOut()
+  nameWithType: ProcessPrincipalAccessor.SignOut()
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignOut()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override void SignOut()
+    content.vb: Public Overrides Sub SignOut
+  overridden: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+  overload: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignOut*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.#ctor
+  commentId: M:SuperOffice.Security.Principal.ProcessPrincipalAccessor.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: ProcessPrincipalAccessor()
+  nameWithType: ProcessPrincipalAccessor.ProcessPrincipalAccessor()
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.ProcessPrincipalAccessor()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public ProcessPrincipalAccessor()
+    content.vb: Public Sub New
+  overload: SuperOffice.Security.Principal.ProcessPrincipalAccessor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
+  commentId: P:SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
+  id: User
+  parent: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: ProcessPrincipalAccessor.User
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override ClaimsPrincipal User { get; }
+    parameters: []
+    return:
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public Overrides ReadOnly Property User As ClaimsPrincipal
+  overridden: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+  overload: SuperOffice.Security.Principal.ProcessPrincipalAccessor.User*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  commentId: T:SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: NSPrincipalAccessorBase
+  nameWithType: NSPrincipalAccessorBase
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+  commentId: T:SuperOffice.Security.Principal.INSPrincipalAccessor
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: INSPrincipalAccessor
+  nameWithType: INSPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  commentId: M:SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  isExternal: true
+  name: SignInWithTemporaryUser(ClaimsPrincipal, Boolean)
+  nameWithType: NSPrincipalAccessorBase.SignInWithTemporaryUser(ClaimsPrincipal, Boolean)
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+    name: SignInWithTemporaryUser
+    nameWithType: NSPrincipalAccessorBase.SignInWithTemporaryUser
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    nameWithType: ClaimsPrincipal
+    fullName: System.Security.Claims.ClaimsPrincipal
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+    name: SignInWithTemporaryUser
+    nameWithType: NSPrincipalAccessorBase.SignInWithTemporaryUser
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    nameWithType: ClaimsPrincipal
+    fullName: System.Security.Claims.ClaimsPrincipal
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ProcessPrincipalAccessor, To>()
+  nameWithType: EnumUtil.MapEnums<ProcessPrincipalAccessor, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ProcessPrincipalAccessor, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProcessPrincipalAccessor, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ProcessPrincipalAccessor, To)()
+  name.vb: MapEnums(Of ProcessPrincipalAccessor, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProcessPrincipalAccessor, To>
+    nameWithType: EnumUtil.MapEnums<ProcessPrincipalAccessor, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ProcessPrincipalAccessor, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProcessPrincipalAccessor, To)
+    nameWithType: EnumUtil.MapEnums(Of ProcessPrincipalAccessor, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ProcessPrincipalAccessor, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.ProcessPrincipalAccessor)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ProcessPrincipalAccessor>(ProcessPrincipalAccessor)
+  nameWithType: ObjectExtensions.AssignByReflection<ProcessPrincipalAccessor>(ProcessPrincipalAccessor)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.ProcessPrincipalAccessor>(SuperOffice.Security.Principal.ProcessPrincipalAccessor)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ProcessPrincipalAccessor)(ProcessPrincipalAccessor)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.ProcessPrincipalAccessor)(SuperOffice.Security.Principal.ProcessPrincipalAccessor)
+  name.vb: AssignByReflection(Of ProcessPrincipalAccessor)(ProcessPrincipalAccessor)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ProcessPrincipalAccessor>
+    nameWithType: ObjectExtensions.AssignByReflection<ProcessPrincipalAccessor>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.ProcessPrincipalAccessor>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+    name: ProcessPrincipalAccessor
+    nameWithType: ProcessPrincipalAccessor
+    fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ProcessPrincipalAccessor)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ProcessPrincipalAccessor)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.ProcessPrincipalAccessor)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+    name: ProcessPrincipalAccessor
+    nameWithType: ProcessPrincipalAccessor
+    fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ProcessPrincipalAccessor>()
+  nameWithType: ObjectExtensions.GraphCopy<ProcessPrincipalAccessor>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.ProcessPrincipalAccessor>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ProcessPrincipalAccessor)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.ProcessPrincipalAccessor)()
+  name.vb: GraphCopy(Of ProcessPrincipalAccessor)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ProcessPrincipalAccessor>
+    nameWithType: ObjectExtensions.GraphCopy<ProcessPrincipalAccessor>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.ProcessPrincipalAccessor>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ProcessPrincipalAccessor)
+    nameWithType: ObjectExtensions.GraphCopy(Of ProcessPrincipalAccessor)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.ProcessPrincipalAccessor)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProcessPrincipalAccessor, To>()
+  nameWithType: Converters.MapEnums<ProcessPrincipalAccessor, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ProcessPrincipalAccessor, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProcessPrincipalAccessor, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ProcessPrincipalAccessor, To)()
+  name.vb: MapEnums(Of ProcessPrincipalAccessor, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProcessPrincipalAccessor, To>
+    nameWithType: Converters.MapEnums<ProcessPrincipalAccessor, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ProcessPrincipalAccessor, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProcessPrincipalAccessor, To)
+    nameWithType: Converters.MapEnums(Of ProcessPrincipalAccessor, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ProcessPrincipalAccessor, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+  parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  isExternal: true
+  name: SignIn(ClaimsPrincipal)
+  nameWithType: NSPrincipalAccessorBase.SignIn(ClaimsPrincipal)
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+    name: SignIn
+    nameWithType: NSPrincipalAccessorBase.SignIn
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    nameWithType: ClaimsPrincipal
+    fullName: System.Security.Claims.ClaimsPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
+    name: SignIn
+    nameWithType: NSPrincipalAccessorBase.SignIn
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    nameWithType: ClaimsPrincipal
+    fullName: System.Security.Claims.ClaimsPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignIn*
+  commentId: Overload:SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignIn
+  isExternal: true
+  name: SignIn
+  nameWithType: ProcessPrincipalAccessor.SignIn
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignIn
+- uid: System.Security.Claims.ClaimsPrincipal
+  isExternal: true
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+  commentId: M:SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+  parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  isExternal: true
+  name: SignOut()
+  nameWithType: NSPrincipalAccessorBase.SignOut()
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+    name: SignOut
+    nameWithType: NSPrincipalAccessorBase.SignOut
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+    name: SignOut
+    nameWithType: NSPrincipalAccessorBase.SignOut
+    fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignOut*
+  commentId: Overload:SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignOut
+  isExternal: true
+  name: SignOut
+  nameWithType: ProcessPrincipalAccessor.SignOut
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignOut
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.ProcessPrincipalAccessor.#ctor
+  isExternal: true
+  name: ProcessPrincipalAccessor
+  nameWithType: ProcessPrincipalAccessor.ProcessPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.ProcessPrincipalAccessor
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+  commentId: P:SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+  parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  isExternal: true
+  name: User
+  nameWithType: NSPrincipalAccessorBase.User
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.User*
+  commentId: Overload:SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
+  isExternal: true
+  name: User
+  nameWithType: ProcessPrincipalAccessor.User
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.User

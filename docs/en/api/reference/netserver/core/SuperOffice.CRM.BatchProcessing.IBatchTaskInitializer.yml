@@ -5,7 +5,7 @@ items:
   id: IBatchTaskInitializer
   parent: SuperOffice.CRM.BatchProcessing
   children:
-  - SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
   langs:
   - csharp
   - vb
@@ -31,16 +31,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
-  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
-  id: SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+  commentId: M:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
+  id: SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
   parent: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
   langs:
   - csharp
   - vb
-  name: SaveAndInit(BatchTaskRow)
-  nameWithType: IBatchTaskInitializer.SaveAndInit(BatchTaskRow)
-  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit(SuperOffice.CRM.Rows.BatchTaskRow)
+  name: SaveAndInitAsync(BatchTaskRow)
+  nameWithType: IBatchTaskInitializer.SaveAndInitAsync(BatchTaskRow)
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync(SuperOffice.CRM.Rows.BatchTaskRow)
   type: Method
   source:
     path: SoBatchProcessing
@@ -49,12 +49,14 @@ items:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
   syntax:
-    content: void SaveAndInit(BatchTaskRow row)
+    content: Task SaveAndInitAsync(BatchTaskRow row)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.BatchTaskRow
-    content.vb: Sub SaveAndInit(row As BatchTaskRow)
-  overload: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit*
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveAndInitAsync(row As BatchTaskRow) As Task
+  overload: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync*
 references:
 - uid: SuperOffice.CRM.BatchProcessing
   commentId: N:SuperOffice.CRM.BatchProcessing
@@ -227,12 +229,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit*
-  commentId: Overload:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync
   isExternal: true
-  name: SaveAndInit
-  nameWithType: IBatchTaskInitializer.SaveAndInit
-  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInit
+  name: SaveAndInitAsync
+  nameWithType: IBatchTaskInitializer.SaveAndInitAsync
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.SaveAndInitAsync
 - uid: SuperOffice.CRM.Rows.BatchTaskRow
   commentId: T:SuperOffice.CRM.Rows.BatchTaskRow
   parent: SuperOffice.CRM.Rows
@@ -240,6 +242,11 @@ references:
   name: BatchTaskRow
   nameWithType: BatchTaskRow
   fullName: SuperOffice.CRM.Rows.BatchTaskRow
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true

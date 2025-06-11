@@ -42,7 +42,7 @@ items:
   - SuperOffice.CRM.Rows.ProfileRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ProfileRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ProfileRecordData)
   - SuperOffice.CRM.Rows.ProfileRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ProfileRecordData.SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ProfileRecordData.SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProfileRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -471,34 +471,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProfileRecordData.SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProfileRecordData)
+- uid: SuperOffice.CRM.Rows.ProfileRecordData.SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProfileRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ProfileRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProfileRecordData)
-  name: ToInsert()
-  nameWithType: ProfileRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProfileRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ProfileRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ProfileRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProfileRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ProfileRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProfileRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -684,17 +694,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProfileRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProfileRecordData)
+- uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProfileRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProfileRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ProfileRecordData)
-  nameWithType: ProfileRecordDataExtensions.ToInsert(ProfileRecordData)
-  fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProfileRecordData)
+  name: ToInsertAsync(ProfileRecordData, CancellationToken)
+  nameWithType: ProfileRecordDataExtensions.ToInsertAsync(ProfileRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProfileRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProfileRecordData)
-    name: ToInsert
-    nameWithType: ProfileRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProfileRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProfileRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -703,15 +713,23 @@ references:
     name: ProfileRecordData
     nameWithType: ProfileRecordData
     fullName: SuperOffice.CRM.Rows.ProfileRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProfileRecordData)
-    name: ToInsert
-    nameWithType: ProfileRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ProfileRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ProfileRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ProfileRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -720,6 +738,14 @@ references:
     name: ProfileRecordData
     nameWithType: ProfileRecordData
     fullName: SuperOffice.CRM.Rows.ProfileRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

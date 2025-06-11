@@ -5,14 +5,15 @@ items:
   id: SuperOffice.CRM.BatchProcessing
   children:
   - SuperOffice.CRM.BatchProcessing.BatchData
-  - SuperOffice.CRM.BatchProcessing.BatchProcessor
   - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
   - SuperOffice.CRM.BatchProcessing.BatchTaskFacade
   - SuperOffice.CRM.BatchProcessing.BatchTaskFactory
-  - SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
+  - SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
   - SuperOffice.CRM.BatchProcessing.BatchTaskUtility
   - SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
+  - SuperOffice.CRM.BatchProcessing.IBatchData
   - SuperOffice.CRM.BatchProcessing.IBatchTask
+  - SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
   - SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
   langs:
   - csharp
@@ -24,12 +25,6 @@ items:
   assemblies:
   - SoBatchProcessing
 references:
-- uid: SuperOffice.CRM.BatchProcessing.BatchProcessor
-  commentId: T:SuperOffice.CRM.BatchProcessing.BatchProcessor
-  isExternal: true
-  name: BatchProcessor
-  nameWithType: BatchProcessor
-  fullName: SuperOffice.CRM.BatchProcessing.BatchProcessor
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade
   commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskFacade
   isExternal: true
@@ -38,7 +33,6 @@ references:
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskFactory
   commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskFactory
-  parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
   name: BatchTaskFactory
   nameWithType: BatchTaskFactory
@@ -62,19 +56,26 @@ references:
   name: BatchData
   nameWithType: BatchData
   fullName: SuperOffice.CRM.BatchProcessing.BatchData
+- uid: SuperOffice.CRM.BatchProcessing.IBatchData
+  commentId: T:SuperOffice.CRM.BatchProcessing.IBatchData
+  parent: SuperOffice.CRM.BatchProcessing
+  isExternal: true
+  name: IBatchData
+  nameWithType: IBatchData
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchData
 - uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
   commentId: T:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
   isExternal: true
   name: DefaultBatchTaskInitializer
   nameWithType: DefaultBatchTaskInitializer
   fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
-  commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
+  commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
   parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
-  name: BatchTaskStatusChanged
-  nameWithType: BatchTaskStatusChanged
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
+  name: BatchTaskStatusChangedAsync
+  nameWithType: BatchTaskStatusChangedAsync
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChangedAsync
 - uid: SuperOffice.CRM.BatchProcessing.IBatchTask
   commentId: T:SuperOffice.CRM.BatchProcessing.IBatchTask
   parent: SuperOffice.CRM.BatchProcessing
@@ -82,6 +83,13 @@ references:
   name: IBatchTask
   nameWithType: IBatchTask
   fullName: SuperOffice.CRM.BatchProcessing.IBatchTask
+- uid: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  commentId: T:SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
+  parent: SuperOffice.CRM.BatchProcessing
+  isExternal: true
+  name: IBatchTaskFactory
+  nameWithType: IBatchTaskFactory
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskFactory
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
   commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
   parent: SuperOffice.CRM.BatchProcessing

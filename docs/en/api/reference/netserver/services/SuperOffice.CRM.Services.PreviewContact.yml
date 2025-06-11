@@ -40,8 +40,6 @@ items:
       Public Class PreviewContact
           Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.ContactAgent
-    commentId: T:SuperOffice.CRM.Services.ContactAgent
   - linkId: SuperOffice.CRM.Services.IContactAgent
     commentId: T:SuperOffice.CRM.Services.IContactAgent
   inheritance:
@@ -545,15 +543,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ContactAgent
-  commentId: T:SuperOffice.CRM.Services.ContactAgent
-  isExternal: true
-  name: ContactAgent
-  nameWithType: ContactAgent
-  fullName: SuperOffice.CRM.Services.ContactAgent
 - uid: SuperOffice.CRM.Services.IContactAgent
   commentId: T:SuperOffice.CRM.Services.IContactAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: IContactAgent
   nameWithType: IContactAgent

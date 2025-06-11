@@ -36,7 +36,7 @@ items:
   - SuperOffice.CRM.Rows.SoapAccessRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SoapAccessRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SoapAccessRecordData)
   - SuperOffice.CRM.Rows.SoapAccessRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SoapAccessRecordData.SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SoapAccessRecordData.SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SoapAccessRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -303,34 +303,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SoapAccessRecordData.SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SoapAccessRecordData)
+- uid: SuperOffice.CRM.Rows.SoapAccessRecordData.SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SoapAccessRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SoapAccessRecordData)
-  name: ToInsert()
-  nameWithType: SoapAccessRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SoapAccessRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: SoapAccessRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SoapAccessRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SoapAccessRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SoapAccessRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SoapAccessRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -516,17 +526,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SoapAccessRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SoapAccessRecordData)
+- uid: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SoapAccessRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SoapAccessRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(SoapAccessRecordData)
-  nameWithType: SoapAccessRecordDataExtensions.ToInsert(SoapAccessRecordData)
-  fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SoapAccessRecordData)
+  name: ToInsertAsync(SoapAccessRecordData, CancellationToken)
+  nameWithType: SoapAccessRecordDataExtensions.ToInsertAsync(SoapAccessRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SoapAccessRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SoapAccessRecordData)
-    name: ToInsert
-    nameWithType: SoapAccessRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SoapAccessRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SoapAccessRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -535,15 +545,23 @@ references:
     name: SoapAccessRecordData
     nameWithType: SoapAccessRecordData
     fullName: SuperOffice.CRM.Rows.SoapAccessRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SoapAccessRecordData)
-    name: ToInsert
-    nameWithType: SoapAccessRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SoapAccessRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: SoapAccessRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.SoapAccessRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -552,6 +570,14 @@ references:
     name: SoapAccessRecordData
     nameWithType: SoapAccessRecordData
     fullName: SuperOffice.CRM.Rows.SoapAccessRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

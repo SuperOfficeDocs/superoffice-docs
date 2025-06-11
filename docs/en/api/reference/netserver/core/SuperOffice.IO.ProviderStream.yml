@@ -11,13 +11,16 @@ items:
   - SuperOffice.IO.ProviderStream.Close
   - SuperOffice.IO.ProviderStream.Dispose
   - SuperOffice.IO.ProviderStream.Flush
-  - SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
+  - SuperOffice.IO.ProviderStream.FlushAsync(System.Threading.CancellationToken)
+  - SuperOffice.IO.ProviderStream.GetProviderStreamAsync(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode,System.Threading.CancellationToken)
   - SuperOffice.IO.ProviderStream.Length
   - SuperOffice.IO.ProviderStream.Position
   - SuperOffice.IO.ProviderStream.Read(System.Byte[],System.Int32,System.Int32)
+  - SuperOffice.IO.ProviderStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.IO.ProviderStream.Seek(System.Int64,System.IO.SeekOrigin)
   - SuperOffice.IO.ProviderStream.SetLength(System.Int64)
   - SuperOffice.IO.ProviderStream.Write(System.Byte[],System.Int32,System.Int32)
+  - SuperOffice.IO.ProviderStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -51,16 +54,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
-  commentId: M:SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
-  id: GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
+- uid: SuperOffice.IO.ProviderStream.GetProviderStreamAsync(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ProviderStream.GetProviderStreamAsync(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode,System.Threading.CancellationToken)
+  id: GetProviderStreamAsync(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ProviderStream
   langs:
   - csharp
   - vb
-  name: GetProviderStream(IStreamProvider, ProviderStream.AccessMode)
-  nameWithType: ProviderStream.GetProviderStream(IStreamProvider, ProviderStream.AccessMode)
-  fullName: SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider, SuperOffice.IO.ProviderStream.AccessMode)
+  name: GetProviderStreamAsync(IStreamProvider, ProviderStream.AccessMode, CancellationToken)
+  nameWithType: ProviderStream.GetProviderStreamAsync(IStreamProvider, ProviderStream.AccessMode, CancellationToken)
+  fullName: SuperOffice.IO.ProviderStream.GetProviderStreamAsync(SuperOffice.IO.IStreamProvider, SuperOffice.IO.ProviderStream.AccessMode, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoCore
@@ -70,7 +73,7 @@ items:
   namespace: SuperOffice.IO
   summary: "\nGet a new instance of the <xref href=\"SuperOffice.IO.ProviderStream\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
-    content: public static ProviderStream GetProviderStream(IStreamProvider provider, ProviderStream.AccessMode accessMode)
+    content: public static Task<ProviderStream> GetProviderStreamAsync(IStreamProvider provider, ProviderStream.AccessMode accessMode, CancellationToken cancellationToken)
     parameters:
     - id: provider
       type: SuperOffice.IO.IStreamProvider
@@ -78,17 +81,307 @@ items:
     - id: accessMode
       type: SuperOffice.IO.ProviderStream.AccessMode
       description: 'Mode in which the <see cref="!:DocumentStream"></see>is accessed. '
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.IO.ProviderStream
+      type: System.Threading.Tasks.Task{SuperOffice.IO.ProviderStream}
       description: New instance of the <see cref="!:DocumentStream"></see>.
-    content.vb: Public Shared Function GetProviderStream(provider As IStreamProvider, accessMode As ProviderStream.AccessMode) As ProviderStream
-  overload: SuperOffice.IO.ProviderStream.GetProviderStream*
+    content.vb: Public Shared Function GetProviderStreamAsync(provider As IStreamProvider, accessMode As ProviderStream.AccessMode, cancellationToken As CancellationToken) As Task(Of ProviderStream)
+  overload: SuperOffice.IO.ProviderStream.GetProviderStreamAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.IO.ProviderStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ProviderStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: ReadAsync(Byte[], Int32, Int32, CancellationToken)
+  nameWithType: ProviderStream.ReadAsync(Byte[], Int32, Int32, CancellationToken)
+  fullName: SuperOffice.IO.ProviderStream.ReadAsync(System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\nRead a block of bytes from a stream, and insert them into the given position in the\ncallers buffer array\n"
+  remarks: "\nNote that the actual remote stream or file may be read using other chunk sizes than what is\nuse in the incoming &apos;count&apos; parameter. The <xref href=\"SuperOffice.IO.ProviderStream.Position\" data-throw-if-not-resolved=\"false\"></xref> property will report the\nposition as seen by the caller, not the position as read from the file.\n"
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public override Task<int> ReadAsync(byte[] buffer, int offsetIntoDestination, int count, CancellationToken cancellationToken)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+      description: Destination buffer
+    - id: offsetIntoDestination
+      type: System.Int32
+      description: Where to start in the destination
+    - id: count
+      type: System.Int32
+      description: Number of bytes to read
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Number of bytes actually read
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Overrides Function ReadAsync(buffer As Byte(), offsetIntoDestination As Integer, count As Integer, cancellationToken As CancellationToken) As Task(Of Integer)
+  overload: SuperOffice.IO.ProviderStream.ReadAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: ProviderStream.ReadAsync(Byte(), Int32, Int32, CancellationToken)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.IO.ProviderStream.ReadAsync(System.Byte(), System.Int32, System.Int32, System.Threading.CancellationToken)
+  name.vb: ReadAsync(Byte(), Int32, Int32, CancellationToken)
+- uid: SuperOffice.IO.ProviderStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ProviderStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: WriteAsync(Byte[], Int32, Int32, CancellationToken)
+  nameWithType: ProviderStream.WriteAsync(Byte[], Int32, Int32, CancellationToken)
+  fullName: SuperOffice.IO.ProviderStream.WriteAsync(System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\nWrite a chunk of bytes to a stream, potentially triggering a write to the\nunderlying file or remote stream\n"
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public override Task WriteAsync(byte[] buffer, int sourceOffset, int count, CancellationToken cancellationToken)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+      description: Source buffer containing data
+    - id: sourceOffset
+      type: System.Int32
+      description: Where to start getting data from the source buffer
+    - id: count
+      type: System.Int32
+      description: Number of bytes to get from offset
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Overrides Function WriteAsync(buffer As Byte(), sourceOffset As Integer, count As Integer, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.IO.ProviderStream.WriteAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: ProviderStream.WriteAsync(Byte(), Int32, Int32, CancellationToken)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.IO.ProviderStream.WriteAsync(System.Byte(), System.Int32, System.Int32, System.Threading.CancellationToken)
+  name.vb: WriteAsync(Byte(), Int32, Int32, CancellationToken)
+- uid: SuperOffice.IO.ProviderStream.FlushAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ProviderStream.FlushAsync(System.Threading.CancellationToken)
+  id: FlushAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: FlushAsync(CancellationToken)
+  nameWithType: ProviderStream.FlushAsync(CancellationToken)
+  fullName: SuperOffice.IO.ProviderStream.FlushAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\n\n"
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public override Task FlushAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Overrides Function FlushAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.IO.ProviderStream.FlushAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.ProviderStream.Close
+  commentId: M:SuperOffice.IO.ProviderStream.Close
+  id: Close
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: ProviderStream.Close()
+  fullName: SuperOffice.IO.ProviderStream.Close()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\nClose the stream. Note that this method has no CloseAsync equivalent in the base class.\n"
+  remarks: "\nI think we&apos;re trapped into using SafeBlock here, since the base class does not support async Close.\nAnyway, we shouldn&apos;t even be here: https://learn.microsoft.com/en-us/dotnet/api/system.io.stream.close?view=net-8.0#notes-to-inheritors\nOn the other hand, NET Framework does not have a DisposeAsync so we&apos;d end up with a SafeBlock here anyway...\n<br />As Microsoft says about the <strong>Dispose</strong> method on <xref href=\"System.IO.Stream\" data-throw-if-not-resolved=\"false\"></xref>:<br />\nPlace all cleanup logic for your stream object in Dispose(Boolean). Do not override Close().\nNote that because of backward compatibility requirements, this method&apos;s implementation differs from the recommended guidance for the Dispose pattern. This method calls Close(), which then calls Dispose(Boolean).\n<br />\nWe do not respect this advice, but this code is super-old and we&apos;re not going to change it now.\n"
+  syntax:
+    content: public override void Close()
+    content.vb: Public Overrides Sub Close
+  overload: SuperOffice.IO.ProviderStream.Close*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.ProviderStream.SetLength(System.Int64)
+  commentId: M:SuperOffice.IO.ProviderStream.SetLength(System.Int64)
+  id: SetLength(System.Int64)
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: SetLength(Int64)
+  nameWithType: ProviderStream.SetLength(Int64)
+  fullName: SuperOffice.IO.ProviderStream.SetLength(System.Int64)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\n\n"
+  syntax:
+    content: public override void SetLength(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+    content.vb: Public Overrides Sub SetLength(value As Long)
+  overload: SuperOffice.IO.ProviderStream.SetLength*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.ProviderStream.Seek(System.Int64,System.IO.SeekOrigin)
+  commentId: M:SuperOffice.IO.ProviderStream.Seek(System.Int64,System.IO.SeekOrigin)
+  id: Seek(System.Int64,System.IO.SeekOrigin)
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Seek(Int64, SeekOrigin)
+  nameWithType: ProviderStream.Seek(Int64, SeekOrigin)
+  fullName: SuperOffice.IO.ProviderStream.Seek(System.Int64, System.IO.SeekOrigin)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\n\n"
+  syntax:
+    content: public override long Seek(long offset, SeekOrigin origin)
+    parameters:
+    - id: offset
+      type: System.Int64
+    - id: origin
+      type: System.IO.SeekOrigin
+    return:
+      type: System.Int64
+    content.vb: Public Overrides Function Seek(offset As Long, origin As SeekOrigin) As Long
+  overload: SuperOffice.IO.ProviderStream.Seek*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.ProviderStream.Dispose
+  commentId: M:SuperOffice.IO.ProviderStream.Dispose
+  id: Dispose
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ProviderStream.Dispose()
+  fullName: SuperOffice.IO.ProviderStream.Dispose()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\nDispose of the document stream\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.IO.ProviderStream.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.IO.ProviderStream.Read(System.Byte[],System.Int32,System.Int32)
   commentId: M:SuperOffice.IO.ProviderStream.Read(System.Byte[],System.Int32,System.Int32)
   id: Read(System.Byte[],System.Int32,System.Int32)
@@ -203,126 +496,6 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: SuperOffice.IO.ProviderStream.Close
-  commentId: M:SuperOffice.IO.ProviderStream.Close
-  id: Close
-  parent: SuperOffice.IO.ProviderStream
-  langs:
-  - csharp
-  - vb
-  name: Close()
-  nameWithType: ProviderStream.Close()
-  fullName: SuperOffice.IO.ProviderStream.Close()
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO
-  summary: "\n\n"
-  syntax:
-    content: public override void Close()
-    content.vb: Public Overrides Sub Close
-  overload: SuperOffice.IO.ProviderStream.Close*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
-- uid: SuperOffice.IO.ProviderStream.SetLength(System.Int64)
-  commentId: M:SuperOffice.IO.ProviderStream.SetLength(System.Int64)
-  id: SetLength(System.Int64)
-  parent: SuperOffice.IO.ProviderStream
-  langs:
-  - csharp
-  - vb
-  name: SetLength(Int64)
-  nameWithType: ProviderStream.SetLength(Int64)
-  fullName: SuperOffice.IO.ProviderStream.SetLength(System.Int64)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO
-  summary: "\n\n"
-  syntax:
-    content: public override void SetLength(long value)
-    parameters:
-    - id: value
-      type: System.Int64
-    content.vb: Public Overrides Sub SetLength(value As Long)
-  overload: SuperOffice.IO.ProviderStream.SetLength*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
-- uid: SuperOffice.IO.ProviderStream.Seek(System.Int64,System.IO.SeekOrigin)
-  commentId: M:SuperOffice.IO.ProviderStream.Seek(System.Int64,System.IO.SeekOrigin)
-  id: Seek(System.Int64,System.IO.SeekOrigin)
-  parent: SuperOffice.IO.ProviderStream
-  langs:
-  - csharp
-  - vb
-  name: Seek(Int64, SeekOrigin)
-  nameWithType: ProviderStream.Seek(Int64, SeekOrigin)
-  fullName: SuperOffice.IO.ProviderStream.Seek(System.Int64, System.IO.SeekOrigin)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO
-  summary: "\n\n"
-  syntax:
-    content: public override long Seek(long offset, SeekOrigin origin)
-    parameters:
-    - id: offset
-      type: System.Int64
-    - id: origin
-      type: System.IO.SeekOrigin
-    return:
-      type: System.Int64
-    content.vb: Public Overrides Function Seek(offset As Long, origin As SeekOrigin) As Long
-  overload: SuperOffice.IO.ProviderStream.Seek*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
-- uid: SuperOffice.IO.ProviderStream.Dispose
-  commentId: M:SuperOffice.IO.ProviderStream.Dispose
-  id: Dispose
-  parent: SuperOffice.IO.ProviderStream
-  langs:
-  - csharp
-  - vb
-  name: Dispose()
-  nameWithType: ProviderStream.Dispose()
-  fullName: SuperOffice.IO.ProviderStream.Dispose()
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO
-  summary: "\nDispose of the document stream\n"
-  syntax:
-    content: public void Dispose()
-    content.vb: Public Sub Dispose
-  overload: SuperOffice.IO.ProviderStream.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.IO.ProviderStream.CanSeek
   commentId: P:SuperOffice.IO.ProviderStream.CanSeek
   id: CanSeek
@@ -678,12 +851,12 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.IO.ProviderStream.GetProviderStream*
-  commentId: Overload:SuperOffice.IO.ProviderStream.GetProviderStream
+- uid: SuperOffice.IO.ProviderStream.GetProviderStreamAsync*
+  commentId: Overload:SuperOffice.IO.ProviderStream.GetProviderStreamAsync
   isExternal: true
-  name: GetProviderStream
-  nameWithType: ProviderStream.GetProviderStream
-  fullName: SuperOffice.IO.ProviderStream.GetProviderStream
+  name: GetProviderStreamAsync
+  nameWithType: ProviderStream.GetProviderStreamAsync
+  fullName: SuperOffice.IO.ProviderStream.GetProviderStreamAsync
 - uid: SuperOffice.IO.IStreamProvider
   commentId: T:SuperOffice.IO.IStreamProvider
   parent: SuperOffice.IO
@@ -698,19 +871,98 @@ references:
   name: ProviderStream.AccessMode
   nameWithType: ProviderStream.AccessMode
   fullName: SuperOffice.IO.ProviderStream.AccessMode
-- uid: SuperOffice.IO.ProviderStream
-  commentId: T:SuperOffice.IO.ProviderStream
-  parent: SuperOffice.IO
+- uid: System.Threading.CancellationToken
   isExternal: true
-  name: ProviderStream
-  nameWithType: ProviderStream
-  fullName: SuperOffice.IO.ProviderStream
-- uid: SuperOffice.IO.ProviderStream.Read*
-  commentId: Overload:SuperOffice.IO.ProviderStream.Read
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.IO.ProviderStream}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.IO.ProviderStream}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProviderStream>
+  nameWithType: Task<ProviderStream>
+  fullName: System.Threading.Tasks.Task<SuperOffice.IO.ProviderStream>
+  nameWithType.vb: Task(Of ProviderStream)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.IO.ProviderStream)
+  name.vb: Task(Of ProviderStream)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.IO.ProviderStream
+    name: ProviderStream
+    nameWithType: ProviderStream
+    fullName: SuperOffice.IO.ProviderStream
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.IO.ProviderStream
+    name: ProviderStream
+    nameWithType: ProviderStream
+    fullName: SuperOffice.IO.ProviderStream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: Read
-  nameWithType: ProviderStream.Read
-  fullName: SuperOffice.IO.ProviderStream.Read
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ProviderStream.ReadAsync*
+  commentId: Overload:SuperOffice.IO.ProviderStream.ReadAsync
+  isExternal: true
+  name: ReadAsync
+  nameWithType: ProviderStream.ReadAsync
+  fullName: SuperOffice.IO.ProviderStream.ReadAsync
 - uid: System.Byte[]
   isExternal: true
   name: Byte[]
@@ -744,18 +996,66 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.IO.ProviderStream.Write*
-  commentId: Overload:SuperOffice.IO.ProviderStream.Write
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ProviderStream.WriteAsync*
+  commentId: Overload:SuperOffice.IO.ProviderStream.WriteAsync
   isExternal: true
-  name: Write
-  nameWithType: ProviderStream.Write
-  fullName: SuperOffice.IO.ProviderStream.Write
-- uid: SuperOffice.IO.ProviderStream.Flush*
-  commentId: Overload:SuperOffice.IO.ProviderStream.Flush
+  name: WriteAsync
+  nameWithType: ProviderStream.WriteAsync
+  fullName: SuperOffice.IO.ProviderStream.WriteAsync
+- uid: System.Threading.Tasks.Task
   isExternal: true
-  name: Flush
-  nameWithType: ProviderStream.Flush
-  fullName: SuperOffice.IO.ProviderStream.Flush
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.IO.ProviderStream.FlushAsync*
+  commentId: Overload:SuperOffice.IO.ProviderStream.FlushAsync
+  isExternal: true
+  name: FlushAsync
+  nameWithType: ProviderStream.FlushAsync
+  fullName: SuperOffice.IO.ProviderStream.FlushAsync
 - uid: SuperOffice.IO.ProviderStream.Close*
   commentId: Overload:SuperOffice.IO.ProviderStream.Close
   isExternal: true
@@ -793,6 +1093,24 @@ references:
   name: Dispose
   nameWithType: ProviderStream.Dispose
   fullName: SuperOffice.IO.ProviderStream.Dispose
+- uid: SuperOffice.IO.ProviderStream.Read*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Read
+  isExternal: true
+  name: Read
+  nameWithType: ProviderStream.Read
+  fullName: SuperOffice.IO.ProviderStream.Read
+- uid: SuperOffice.IO.ProviderStream.Write*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Write
+  isExternal: true
+  name: Write
+  nameWithType: ProviderStream.Write
+  fullName: SuperOffice.IO.ProviderStream.Write
+- uid: SuperOffice.IO.ProviderStream.Flush*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Flush
+  isExternal: true
+  name: Flush
+  nameWithType: ProviderStream.Flush
+  fullName: SuperOffice.IO.ProviderStream.Flush
 - uid: SuperOffice.IO.ProviderStream.CanSeek*
   commentId: Overload:SuperOffice.IO.ProviderStream.CanSeek
   isExternal: true

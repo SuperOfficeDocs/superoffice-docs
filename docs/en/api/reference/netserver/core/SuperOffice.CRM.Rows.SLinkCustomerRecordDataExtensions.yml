@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
   - SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
-  - SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerRecordData)
-  - SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData})
+  - SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData},System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SLinkCustomerRow)
   langs:
   - csharp
@@ -38,17 +39,17 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
-  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
-  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
+- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: FromSelect(TargetedSelect<SLinkCustomerTableInfo>)
-  nameWithType: SLinkCustomerRecordDataExtensions.FromSelect(TargetedSelect<SLinkCustomerTableInfo>)
-  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SLinkCustomerTableInfo>)
+  name: FromSelectAsync(TargetedSelect<SLinkCustomerTableInfo>, CancellationToken)
+  nameWithType: SLinkCustomerRecordDataExtensions.FromSelectAsync(TargetedSelect<SLinkCustomerTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SLinkCustomerTableInfo>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -62,26 +63,41 @@ items:
     <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
                 var result = s.FromSelect();</code></pre>
   syntax:
-    content: public static IEnumerable<SLinkCustomerRecordData> FromSelect(this TargetedSelect<SLinkCustomerTableInfo> select)
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<SLinkCustomerRecordData> FromSelectAsync(this TargetedSelect<SLinkCustomerTableInfo> select, CancellationToken cancellationToken = null)
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData}
     content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
       <ExtensionAttribute>
 
-      Public Shared Function FromSelect(select As TargetedSelect(Of SLinkCustomerTableInfo)) As IEnumerable(Of SLinkCustomerRecordData)
-  overload: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect*
-  nameWithType.vb: SLinkCustomerRecordDataExtensions.FromSelect(TargetedSelect(Of SLinkCustomerTableInfo))
+      Public Shared Function FromSelectAsync(select As TargetedSelect(Of SLinkCustomerTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of SLinkCustomerRecordData)
+  overload: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: SLinkCustomerRecordDataExtensions.FromSelectAsync(TargetedSelect(Of SLinkCustomerTableInfo), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SLinkCustomerTableInfo))
-  name.vb: FromSelect(TargetedSelect(Of SLinkCustomerTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SLinkCustomerTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of SLinkCustomerTableInfo), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
   commentId: M:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
   id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
@@ -128,17 +144,17 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.SLinkCustomerTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of SLinkCustomerTableInfo))
-- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerRecordData)
-  id: ToInsert(SuperOffice.CRM.Rows.SLinkCustomerRecordData)
+- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerRecordData,System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInsert(SLinkCustomerRecordData)
-  nameWithType: SLinkCustomerRecordDataExtensions.ToInsert(SLinkCustomerRecordData)
-  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerRecordData)
+  name: ToInsertAsync(SLinkCustomerRecordData, CancellationToken)
+  nameWithType: SLinkCustomerRecordDataExtensions.ToInsertAsync(SLinkCustomerRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerRecordData, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -147,34 +163,36 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static Insert ToInsert(this SLinkCustomerRecordData record)
+    content: public static Task<Insert> ToInsertAsync(this SLinkCustomerRecordData record, CancellationToken cancellationToken = null)
     parameters:
     - id: record
       type: SuperOffice.CRM.Rows.SLinkCustomerRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Insert
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInsert(record As SLinkCustomerRecordData) As Insert
-  overload: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsert*
+      Public Shared Function ToInsertAsync(record As SLinkCustomerRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertAsync*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData})
-  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData})
-  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData})
+- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData},System.Threading.CancellationToken)
   isExtensionMethod: true
   parent: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions
   langs:
   - csharp
   - vb
-  name: ToInserts(IEnumerable<SLinkCustomerRecordData>)
-  nameWithType: SLinkCustomerRecordDataExtensions.ToInserts(IEnumerable<SLinkCustomerRecordData>)
-  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SLinkCustomerRecordData>)
+  name: ToInsertsAsync(IEnumerable<SLinkCustomerRecordData>, CancellationToken)
+  nameWithType: SLinkCustomerRecordDataExtensions.ToInsertsAsync(IEnumerable<SLinkCustomerRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SLinkCustomerRecordData>, System.Threading.CancellationToken)
   type: Method
   source:
     path: SoDataBase
@@ -183,26 +201,28 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<SLinkCustomerRecordData> records)
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<SLinkCustomerRecordData> records, CancellationToken cancellationToken = null)
     parameters:
     - id: records
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function ToInserts(records As IEnumerable(Of SLinkCustomerRecordData)) As IEnumerable(Of Insert)
-  overload: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInserts*
-  nameWithType.vb: SLinkCustomerRecordDataExtensions.ToInserts(IEnumerable(Of SLinkCustomerRecordData))
+      Public Shared Function ToInsertsAsync(records As IEnumerable(Of SLinkCustomerRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: SLinkCustomerRecordDataExtensions.ToInsertsAsync(IEnumerable(Of SLinkCustomerRecordData), CancellationToken)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SLinkCustomerRecordData))
-  name.vb: ToInserts(IEnumerable(Of SLinkCustomerRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SLinkCustomerRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of SLinkCustomerRecordData), CancellationToken)
 - uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SLinkCustomerRow)
   commentId: M:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.SLinkCustomerRow)
   id: ToRecordData(SuperOffice.CRM.Rows.SLinkCustomerRow)
@@ -239,6 +259,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<SLinkCustomerTableInfo>)
+  nameWithType: SLinkCustomerRecordDataExtensions.FromSelect(TargetedSelect<SLinkCustomerTableInfo>)
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SLinkCustomerTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;SLinkCustomerTableInfo>, execute it and return an IEnumerable&lt;SLinkCustomerRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<SLinkCustomerRecordData> FromSelect(this TargetedSelect<SLinkCustomerTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of SLinkCustomerTableInfo)) As IEnumerable(Of SLinkCustomerRecordData)
+  overload: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect*
+  nameWithType.vb: SLinkCustomerRecordDataExtensions.FromSelect(TargetedSelect(Of SLinkCustomerTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SLinkCustomerTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of SLinkCustomerTableInfo))
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -259,12 +323,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect*
-  commentId: Overload:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect
+- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelectAsync
   isExternal: true
-  name: FromSelect
-  nameWithType: SLinkCustomerRecordDataExtensions.FromSelect
-  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect
+  name: FromSelectAsync
+  nameWithType: SLinkCustomerRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelectAsync
 - uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo}
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SLinkCustomerTableInfo}
   parent: SuperOffice.Data.SQL
@@ -309,20 +373,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<SLinkCustomerRecordData>
-  nameWithType: IEnumerable<SLinkCustomerRecordData>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SLinkCustomerRecordData>
-  nameWithType.vb: IEnumerable(Of SLinkCustomerRecordData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SLinkCustomerRecordData)
-  name.vb: IEnumerable(Of SLinkCustomerRecordData)
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<SLinkCustomerRecordData>
+  nameWithType: IAsyncEnumerable<SLinkCustomerRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.SLinkCustomerRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of SLinkCustomerRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.SLinkCustomerRecordData)
+  name.vb: IAsyncEnumerable(Of SLinkCustomerRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -336,10 +405,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -398,19 +467,19 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.Collections.Generic.IEnumerable`1
+- uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -422,10 +491,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -532,39 +601,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsert*
-  commentId: Overload:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsert
+- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertAsync
   isExternal: true
-  name: ToInsert
-  nameWithType: SLinkCustomerRecordDataExtensions.ToInsert
-  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsert
-- uid: SuperOffice.Data.SQL.Insert
-  commentId: T:SuperOffice.Data.SQL.Insert
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Insert
-  nameWithType: Insert
-  fullName: SuperOffice.Data.SQL.Insert
-- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInserts*
-  commentId: Overload:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInserts
-  isExternal: true
-  name: ToInserts
-  nameWithType: SLinkCustomerRecordDataExtensions.ToInserts
-  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInserts
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<Insert>
-  nameWithType: IEnumerable<Insert>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
-  nameWithType.vb: IEnumerable(Of Insert)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
-  name.vb: IEnumerable(Of Insert)
+  name: ToInsertAsync
+  nameWithType: SLinkCustomerRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +634,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -591,6 +647,174 @@ references:
     nameWithType: Insert
     fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  name: ToInsertsAsync
+  nameWithType: SLinkCustomerRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SLinkCustomerRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SLinkCustomerRecordData>
+  nameWithType: IEnumerable<SLinkCustomerRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SLinkCustomerRecordData>
+  nameWithType.vb: IEnumerable(Of SLinkCustomerRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SLinkCustomerRecordData)
+  name.vb: IEnumerable(Of SLinkCustomerRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerRecordData
+    name: SLinkCustomerRecordData
+    nameWithType: SLinkCustomerRecordData
+    fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerRecordData
+    name: SLinkCustomerRecordData
+    nameWithType: SLinkCustomerRecordData
+    fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    nameWithType: IAsyncEnumerable
+    fullName: System.Collections.Generic.IAsyncEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -607,3 +831,9 @@ references:
   name: SLinkCustomerRow
   nameWithType: SLinkCustomerRow
   fullName: SuperOffice.CRM.Rows.SLinkCustomerRow
+- uid: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: SLinkCustomerRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerRecordDataExtensions.FromSelect

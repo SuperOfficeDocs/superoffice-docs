@@ -5,12 +5,10 @@ items:
   id: SuperOffice.Data.Private.TicketLogging
   children:
   - SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic
-  - SuperOffice.Data.Private.TicketLogging.LogDetail
   - SuperOffice.Data.Private.TicketLogging.TicketLogger
   - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
   - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
   - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData
-  - SuperOffice.Data.Private.TicketLogging.TicketLoggingLogic
   langs:
   - csharp
   - vb
@@ -23,17 +21,10 @@ items:
 references:
 - uid: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic
   commentId: T:SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic
-  parent: SuperOffice.Data.Private.TicketLogging
   isExternal: true
   name: ITicketLoggingLogic
   nameWithType: ITicketLoggingLogic
   fullName: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic
-- uid: SuperOffice.Data.Private.TicketLogging.LogDetail
-  commentId: T:SuperOffice.Data.Private.TicketLogging.LogDetail
-  isExternal: true
-  name: LogDetail
-  nameWithType: LogDetail
-  fullName: SuperOffice.Data.Private.TicketLogging.LogDetail
 - uid: SuperOffice.Data.Private.TicketLogging.TicketLogger
   commentId: T:SuperOffice.Data.Private.TicketLogging.TicketLogger
   isExternal: true
@@ -59,12 +50,6 @@ references:
   name: TicketLoggerProcessor.QueryData
   nameWithType: TicketLoggerProcessor.QueryData
   fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData
-- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggingLogic
-  commentId: T:SuperOffice.Data.Private.TicketLogging.TicketLoggingLogic
-  isExternal: true
-  name: TicketLoggingLogic
-  nameWithType: TicketLoggingLogic
-  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggingLogic
 - uid: SuperOffice.Data.Private.TicketLogging
   commentId: N:SuperOffice.Data.Private.TicketLogging
   isExternal: true

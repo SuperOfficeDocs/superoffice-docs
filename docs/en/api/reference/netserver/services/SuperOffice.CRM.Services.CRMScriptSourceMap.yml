@@ -33,8 +33,6 @@ items:
       Public Class CRMScriptSourceMap
           Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.CRMScriptAgent
-    commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
   - linkId: SuperOffice.CRM.Services.ICRMScriptAgent
     commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
   inheritance:
@@ -307,15 +305,8 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.CRMScriptAgent
-  commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
-  isExternal: true
-  name: CRMScriptAgent
-  nameWithType: CRMScriptAgent
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent
   commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ICRMScriptAgent
   nameWithType: ICRMScriptAgent

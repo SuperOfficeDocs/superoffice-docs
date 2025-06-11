@@ -37,7 +37,7 @@ items:
   - SuperOffice.CRM.Rows.ZipToCityRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ZipToCityRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ZipToCityRecordData)
   - SuperOffice.CRM.Rows.ZipToCityRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ZipToCityRecordData.SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ZipToCityRecordData.SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ZipToCityRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -331,34 +331,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ZipToCityRecordData.SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ZipToCityRecordData)
+- uid: SuperOffice.CRM.Rows.ZipToCityRecordData.SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ZipToCityRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ZipToCityRecordData)
-  name: ToInsert()
-  nameWithType: ZipToCityRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ZipToCityRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: ZipToCityRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ZipToCityRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ZipToCityRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ZipToCityRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ZipToCityRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -544,17 +554,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ZipToCityRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ZipToCityRecordData)
+- uid: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ZipToCityRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ZipToCityRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(ZipToCityRecordData)
-  nameWithType: ZipToCityRecordDataExtensions.ToInsert(ZipToCityRecordData)
-  fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ZipToCityRecordData)
+  name: ToInsertAsync(ZipToCityRecordData, CancellationToken)
+  nameWithType: ZipToCityRecordDataExtensions.ToInsertAsync(ZipToCityRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ZipToCityRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ZipToCityRecordData)
-    name: ToInsert
-    nameWithType: ZipToCityRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ZipToCityRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ZipToCityRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -563,15 +573,23 @@ references:
     name: ZipToCityRecordData
     nameWithType: ZipToCityRecordData
     fullName: SuperOffice.CRM.Rows.ZipToCityRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ZipToCityRecordData)
-    name: ToInsert
-    nameWithType: ZipToCityRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ZipToCityRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: ZipToCityRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.ZipToCityRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -580,6 +598,14 @@ references:
     name: ZipToCityRecordData
     nameWithType: ZipToCityRecordData
     fullName: SuperOffice.CRM.Rows.ZipToCityRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

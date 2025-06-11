@@ -47,7 +47,7 @@ items:
   - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
   - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -611,34 +611,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
-  name: ToInsert()
-  nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData,System.Threading.CancellationToken)
+  name: ToInsertAsync(CancellationToken)
+  nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsertAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -824,17 +834,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: ToInsert(TreeExplorerEntryRecordData)
-  nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert(TreeExplorerEntryRecordData)
-  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+  name: ToInsertAsync(TreeExplorerEntryRecordData, CancellationToken)
+  nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsertAsync(TreeExplorerEntryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
-    name: ToInsert
-    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -843,15 +853,23 @@ references:
     name: TreeExplorerEntryRecordData
     nameWithType: TreeExplorerEntryRecordData
     fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
-    name: ToInsert
-    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsertAsync
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsertAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -860,6 +878,14 @@ references:
     name: TreeExplorerEntryRecordData
     nameWithType: TreeExplorerEntryRecordData
     fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
     isExternal: true
   - name: )
     nameWithType: )

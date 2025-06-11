@@ -441,6 +441,7 @@ references:
   nameWithType: SerializationHelper.EnterReadXml
   fullName: SuperOffice.CRM.Services.Util.SerializationHelper.EnterReadXml
 - uid: System.Xml.XmlReader
+  commentId: '!:System.Xml.XmlReader'
   isExternal: true
   name: XmlReader
   nameWithType: XmlReader
@@ -471,6 +472,7 @@ references:
   nameWithType: Type
   fullName: System.Type
 - uid: System.Xml.Serialization.XmlSerializer
+  commentId: '!:System.Xml.Serialization.XmlSerializer'
   isExternal: true
   name: XmlSerializer
   nameWithType: XmlSerializer
