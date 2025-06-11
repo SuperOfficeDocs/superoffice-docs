@@ -86,14 +86,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sint",
-  "ProviderName": "Rempel, Kilback and Christiansen",
-  "StorageKey": "aut",
+  "StorageType": "facere",
+  "ProviderName": "Satterfield, Schiller and Braun",
+  "StorageKey": "molestiae",
   "StaticColumns": [
-    "beatae",
-    "nemo"
+    "iure",
+    "rerum"
   ],
-  "Context": "non"
+  "Context": "quia"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Carter Inc and Sons",
-      "Operator": "et",
+      "Name": "Langosh-Hettinger",
+      "Operator": "molestiae",
       "Values": [
-        "aut",
-        "qui"
+        "nesciunt",
+        "nihil"
       ],
       "DisplayValues": [
-        "accusantium",
-        "et"
+        "aliquid",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 180,
+      "InterParenthesis": 999,
       "InterOperator": "And",
-      "UniqueHash": 929
+      "UniqueHash": 567
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Yost-Kassulke",
-      "DisplayTooltip": "deleniti",
-      "DisplayType": "vel",
+      "DisplayName": "Kreiger Group",
+      "DisplayTooltip": "quis",
+      "DisplayType": "magnam",
       "CanOrderBy": false,
-      "Name": "Kutch Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "reiciendis",
-      "RestrictionListName": "Wehner Group",
-      "IsVisible": true,
-      "ExtraInfo": "illum",
-      "Width": "laborum",
-      "IconHint": "minima",
-      "HeadingIconHint": "voluptas"
+      "Name": "Monahan, Wintheiser and Jenkins",
+      "CanRestrictBy": false,
+      "RestrictionType": "sequi",
+      "RestrictionListName": "Cronin-Kuhn",
+      "IsVisible": false,
+      "ExtraInfo": "debitis",
+      "Width": "ex",
+      "IconHint": "rerum",
+      "HeadingIconHint": "reprehenderit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Koelpin Inc and Sons",
-      "PrimaryKey": 910,
+      "EntityName": "O'Hara-Hudson",
+      "PrimaryKey": 414,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "at",
-          "TooltipHint": "tempore",
-          "LinkHint": "aperiam"
+          "DisplayValue": "quisquam",
+          "TooltipHint": "est",
+          "LinkHint": "ea"
         }
       },
-      "LinkHint": "fugiat",
-      "StyleHint": "fugiat",
+      "LinkHint": "qui",
+      "StyleHint": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 713
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Wisoky-Wolff",
-      "Description": "Networked global projection",
-      "Rank": 40,
+      "Name": "Rowe, Fadel and Gaylord",
+      "Description": "Configurable background middleware",
+      "Rank": 250,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wisoky-Wolff",
-      "Description": "Networked global projection",
-      "Rank": 40,
+      "Name": "Rowe, Fadel and Gaylord",
+      "Description": "Configurable background middleware",
+      "Rank": 250,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 81
     }
   }
 }

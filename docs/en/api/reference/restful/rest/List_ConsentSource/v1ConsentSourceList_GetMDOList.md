@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=sit
+GET /api/v1/List/ConsentSource/MDOItems?flat=True
+GET /api/v1/List/ConsentSource/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 951,
-    "Name": "Koch, Spinka and Ward",
-    "ToolTip": "Velit omnis sit.",
-    "Deleted": false,
-    "Rank": 789,
-    "Type": "laboriosam",
+    "Id": 855,
+    "Name": "Feest-Gislason",
+    "ToolTip": "Voluptate doloremque.",
+    "Deleted": true,
+    "Rank": 374,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 117,
-        "Name": "Corkery Inc and Sons",
-        "ToolTip": "Quo consequatur.",
-        "Deleted": false,
-        "Rank": 581,
-        "Type": "maiores",
+        "Id": 229,
+        "Name": "West, Mueller and Schamberger",
+        "ToolTip": "Et et doloribus.",
+        "Deleted": true,
+        "Rank": 195,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptate",
-        "ColorBlock": 55,
-        "ExtraInfo": "officiis",
-        "StyleHint": "eaque",
-        "FullName": "Sister Cummings",
+        "IconHint": "numquam",
+        "ColorBlock": 276,
+        "ExtraInfo": "porro",
+        "StyleHint": "omnis",
+        "FullName": "Ms. Tristin Kirlin DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 892
+            "FieldLength": 460
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 340,
-    "ExtraInfo": "quis",
-    "StyleHint": "reiciendis",
-    "FullName": "Katlyn Cronin",
+    "IconHint": "ut",
+    "ColorBlock": 900,
+    "ExtraInfo": "natus",
+    "StyleHint": "cupiditate",
+    "FullName": "Chadrick Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldType": "System.String",
+        "FieldLength": 798
       }
     }
   }

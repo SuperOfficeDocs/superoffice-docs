@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 616,
-    "Name": "Jacobi, Greenholt and Bogan",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 597,
-    "UdListDefinitionId": 222
+    "HeadingId": 502,
+    "Name": "Witting-Zboncak",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 156,
+    "UdListDefinitionId": 996
   },
   {
-    "HeadingId": 616,
-    "Name": "Jacobi, Greenholt and Bogan",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 597,
-    "UdListDefinitionId": 222
+    "HeadingId": 502,
+    "Name": "Witting-Zboncak",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 156,
+    "UdListDefinitionId": 996
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 171,
-    "Name": "Lakin Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 395,
+    "Name": "Harris, Carter and Torphy",
+    "Tooltip": "cum",
     "Deleted": true,
-    "Rank": 181,
-    "UdListDefinitionId": 983,
+    "Rank": 299,
+    "UdListDefinitionId": 58,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldLength": 876
       }
     }
   }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Steuber, Huels and Gerhold",
-  "IncludeDeleted": true
+  "UdListDefinitionName": "Walsh LLC",
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Kohler Group",
-    "Tooltip": "a",
-    "Deleted": false,
-    "UdListDefinitionId": 835,
-    "Rank": 257,
+    "Id": 262,
+    "Name": "Carroll Inc and Sons",
+    "Tooltip": "ad",
+    "Deleted": true,
+    "UdListDefinitionId": 776,
+    "Rank": 683,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 467
+        "FieldLength": 871
       }
     }
   }

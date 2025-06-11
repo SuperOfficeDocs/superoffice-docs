@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 20 Dec 2000 16:32:48 G12T
+Last-Modified: Sat, 12 Feb 2000 17:54:08 G2T
 
 {
-  "BlobId": 819,
-  "BlobSize": 476,
-  "Description": "Inverse fresh-thinking superstructure",
-  "ExtraInfo": "nisi",
+  "BlobId": 587,
+  "BlobSize": 809,
+  "Description": "Function-based neutral matrix",
+  "ExtraInfo": "rem",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "non",
-  "OriginalSize": 695,
-  "CreatedDate": "2017-03-08T16:32:48.3527308+01:00",
-  "UpdatedDate": "2000-12-20T16:32:48.3527308+01:00",
+  "MimeType": "ipsa",
+  "OriginalSize": 69,
+  "CreatedDate": "2024-09-09T17:54:08.7105588+02:00",
+  "UpdatedDate": "2000-02-12T17:54:08.7105588+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quam",
+  "ConceptualType": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 935
     }
   }
 }

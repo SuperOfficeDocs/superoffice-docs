@@ -12,12 +12,12 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IAssociateAgent'>AssociateAgent</see> that can trigger server-side event scripts.
 
-* [GetAssociate](getassociate.md)
-* [GetAssociateByPersonId](getassociatebypersonid.md)
-* [GetAssociateList](getassociatelist.md)
-* [GetAssociatesByGroup](getassociatesbygroup.md)
-* [GetEncryptionKey](getencryptionkey.md)
-* [GetNote](getnote.md)
-* [LogOffWindowsUsers](logoffwindowsusers.md)
-* [SaveNote](savenote.md)
+* [GetAssociateAsync](getassociateasync.md)
+* [GetAssociateByPersonIdAsync](getassociatebypersonidasync.md)
+* [GetAssociateListAsync](getassociatelistasync.md)
+* [GetAssociatesByGroupAsync](getassociatesbygroupasync.md)
+* [GetEncryptionKeyAsync](getencryptionkeyasync.md)
+* [GetNoteAsync](getnoteasync.md)
+* [LogOffWindowsUsersAsync](logoffwindowsusersasync.md)
+* [SaveNoteAsync](savenoteasync.md)
 

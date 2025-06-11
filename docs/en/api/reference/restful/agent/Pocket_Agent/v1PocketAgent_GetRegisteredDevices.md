@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 419
+  "AssociateId": 504
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Pagac LLC",
+    "DeviceName": "Raynor-Brekke",
     "DeviceIdentifier": "est",
-    "PocketVersion": "aperiam",
-    "Language": "ea",
-    "PNSHandle": "sunt",
+    "PocketVersion": "quis",
+    "Language": "omnis",
+    "PNSHandle": "odit",
     "Platform": "Apple",
-    "OSVersion": "cupiditate",
-    "TimeZoneId": 910
+    "OSVersion": "voluptas",
+    "TimeZoneId": 710
   }
 ]
 ```

@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "explicabo",
-  "Active": false
+  "Filter": "qui",
+  "Active": true
 }
 ```
 

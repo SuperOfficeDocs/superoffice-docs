@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 518,
-    "Section": "saepe",
-    "Key": "itaque",
-    "Name": "Kuhlman Group",
+    "PrefDescId": 484,
+    "Section": "qui",
+    "Key": "soluta",
+    "Name": "Pouros-Mann",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Organic bottom-line strategy",
+    "Description": "Configurable dynamic knowledge user",
     "IsBuiltin": false,
-    "TableName": "Stamm-Rice",
-    "UserDefinedListId": 436,
-    "Rank": 109,
-    "SubGroup": "distinctio",
-    "MinLevel": 995,
-    "MaxValue": 214,
-    "MinValue": 916,
-    "RequiredLicense": "accusantium",
+    "TableName": "Heidenreich-Powlowski",
+    "UserDefinedListId": 171,
+    "Rank": 47,
+    "SubGroup": "tenetur",
+    "MinLevel": 89,
+    "MaxValue": 212,
+    "MinValue": 177,
+    "RequiredLicense": "nulla",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 835
       }
     }
   }

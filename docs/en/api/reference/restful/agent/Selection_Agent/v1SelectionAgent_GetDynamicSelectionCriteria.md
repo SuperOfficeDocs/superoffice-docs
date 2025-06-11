@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 424
+  "SelectionId": 589
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cole-Gerlach",
-    "Operator": "dolorem",
+    "Name": "Considine, Marquardt and Tremblay",
+    "Operator": "porro",
     "Values": [
-      "voluptatum",
-      "qui"
+      "aut",
+      "distinctio"
     ],
     "DisplayValues": [
-      "sit",
-      "molestiae"
+      "asperiores",
+      "ratione"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Grant-Cassin",
-        "Operator": "quaerat",
+        "Name": "Hilpert-Brakus",
+        "Operator": "voluptas",
         "Values": [
-          "voluptatibus",
-          "est"
+          "dolorem",
+          "qui"
         ],
         "DisplayValues": [
-          "eos",
-          "magnam"
+          "ad",
+          "itaque"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 494,
+        "InterParenthesis": 769,
         "InterOperator": "And",
-        "UniqueHash": 773
+        "UniqueHash": 64
       }
     ],
-    "InterParenthesis": 32,
+    "InterParenthesis": 386,
     "InterOperator": "And",
-    "UniqueHash": 781
+    "UniqueHash": 91
   }
 ]
 ```

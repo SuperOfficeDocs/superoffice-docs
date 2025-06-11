@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "natus",
-  "ProviderName": "Monahan, Gottlieb and Weber",
-  "DesiredColumns": "culpa",
-  "PageSize": 876,
-  "PageNumber": 148
+  "Restrictions": "deleniti",
+  "ProviderName": "Howe Inc and Sons",
+  "DesiredColumns": "rem",
+  "PageSize": 318,
+  "PageNumber": 877
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Glover-Howe",
-      "DisplayTooltip": "sed",
-      "DisplayType": "et",
-      "CanOrderBy": false,
-      "Name": "Beer Group",
+      "DisplayName": "Keeling-Quitzon",
+      "DisplayTooltip": "voluptatem",
+      "DisplayType": "quidem",
+      "CanOrderBy": true,
+      "Name": "Pfeffer, Lockman and Schmidt",
       "CanRestrictBy": true,
-      "RestrictionType": "rem",
-      "RestrictionListName": "Walter, Rolfson and Fisher",
+      "RestrictionType": "facilis",
+      "RestrictionListName": "Abshire LLC",
       "IsVisible": true,
-      "ExtraInfo": "voluptatum",
-      "Width": "non",
-      "IconHint": "quasi",
-      "HeadingIconHint": "fugiat"
+      "ExtraInfo": "optio",
+      "Width": "quisquam",
+      "IconHint": "laborum",
+      "HeadingIconHint": "ipsum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Okuneva Group",
-      "PrimaryKey": 809,
+      "EntityName": "Bashirian Group",
+      "PrimaryKey": 538,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "impedit",
-          "TooltipHint": "aperiam",
-          "LinkHint": "qui"
+          "DisplayValue": "est",
+          "TooltipHint": "eveniet",
+          "LinkHint": "doloribus"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "itaque",
+      "LinkHint": "sint",
+      "StyleHint": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 848
+          "FieldType": "System.Int32",
+          "FieldLength": 807
         }
       }
     }
   ],
-  "RowCount": 114,
+  "RowCount": 895,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 186
     }
   }
 }

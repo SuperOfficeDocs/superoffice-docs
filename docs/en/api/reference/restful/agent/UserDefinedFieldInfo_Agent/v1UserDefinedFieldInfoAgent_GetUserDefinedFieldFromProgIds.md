@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "consequatur",
-    "dolores"
+    "debitis",
+    "tempora"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 279,
-    "ColumnId": 412,
-    "FieldDefault": "aut",
-    "FieldHeight": 222,
-    "FieldLabel": "quia",
-    "FieldLeft": 60,
-    "FieldTop": 553,
+    "UDefFieldId": 115,
+    "ColumnId": 207,
+    "FieldDefault": "et",
+    "FieldHeight": 724,
+    "FieldLabel": "voluptatum",
+    "FieldLeft": 278,
+    "FieldTop": 384,
     "FieldType": "Checkbox",
-    "FieldWidth": 845,
-    "FormatMask": "voluptatem",
+    "FieldWidth": 946,
+    "FormatMask": "et",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 604,
-    "LabelLeft": 228,
-    "LabelTop": 535,
-    "LabelWidth": 706,
-    "LastVersionId": 643,
-    "ListTableId": 509,
+    "IsIndexed": false,
+    "LabelHeight": 533,
+    "LabelLeft": 956,
+    "LabelTop": 851,
+    "LabelWidth": 672,
+    "LastVersionId": 180,
+    "ListTableId": 952,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 762,
-    "ProgId": "laudantium",
+    "Page1LineNo": 184,
+    "ProgId": "voluptates",
     "IsReadOnly": false,
-    "ShortLabel": "sapiente",
-    "TabOrder": 486,
-    "TextLength": 304,
-    "Tooltip": "eum",
-    "UdefIdentity": 400,
-    "UDListDefinitionId": 775,
+    "ShortLabel": "necessitatibus",
+    "TabOrder": 382,
+    "TextLength": 330,
+    "Tooltip": "quae",
+    "UdefIdentity": 10,
+    "UDListDefinitionId": 302,
     "Justification": "Center",
-    "Version": 961,
-    "TemplateVariableName": "Runte-Boyle",
-    "HasBeenPublished": true,
-    "MdoListName": "Schmidt-Wisozk",
+    "Version": 453,
+    "TemplateVariableName": "Wintheiser, Medhurst and Lowe",
+    "HasBeenPublished": false,
+    "MdoListName": "Schuster-Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 83
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   }

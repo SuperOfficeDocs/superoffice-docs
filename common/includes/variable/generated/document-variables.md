@@ -9,12 +9,10 @@
 | Description | desc | Description of the created document |
 | FileName | file | Name of the document, without the path (e.g. SUPER001.DOC) |
 | Header | head | The heading for the created document |
-| Id | doid | Document ID (hidden, unique ID) |
 | OurReference | oref | Our reference |
 | PublishActiveDate | dopa | Publish active date            Not supported |
 | PublishEndDate | dope | End date for publishing            Not supported |
 | PublishStartDate | dops | Start date for publishing            Not supported |
-| Salutation | salu | Salutation as entered, or created automatically from the contact (Mr/Ms and last name) |
 | SerialNumber | snum | Ascending serial number (different for every template) |
 | SuggestedDocumentId | dsug | The document's SuggestedDocument Id. 0 if document is not part of a sale/project guide. |
 | Time | time | Time in short format, e.g. 12:10 |

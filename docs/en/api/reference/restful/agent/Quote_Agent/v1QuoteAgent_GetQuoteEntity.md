@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 619
+  "QuoteId": 58
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 46,
-  "SaleId": 248,
-  "QuoteConnectionId": 189,
-  "ERPQuoteKey": "et",
-  "ERPOrderKey": "beatae",
-  "ActiveQuoteVersionId": 373,
-  "AcceptedQuoteAlternativeId": 738,
-  "UseValuesFromQuote": 361,
-  "DocumentId": 674,
-  "PoNumber": "285200",
-  "OrderComment": "exercitationem",
-  "PreferredEmailCulture": "giovani@moen.com",
+  "QuoteId": 851,
+  "SaleId": 493,
+  "QuoteConnectionId": 983,
+  "ERPQuoteKey": "aut",
+  "ERPOrderKey": "non",
+  "ActiveQuoteVersionId": 740,
+  "AcceptedQuoteAlternativeId": 983,
+  "UseValuesFromQuote": 662,
+  "DocumentId": 942,
+  "PoNumber": "844248",
+  "OrderComment": "in",
+  "PreferredEmailCulture": "charlie.gaylord@cremin.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 966,
-      "ERPQuoteVersionKey": "eveniet",
-      "QuoteId": 151,
-      "Description": "Cloned incremental artificial intelligence",
-      "Number": "666279",
+      "QuoteVersionId": 400,
+      "ERPQuoteVersionKey": "est",
+      "QuoteId": 330,
+      "Description": "Fundamental web-enabled local area network",
+      "Number": "979858",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 233,
-      "SentDate": "2025-03-16T16:32:39.74275+01:00",
-      "FollowupId": 703,
-      "ExpirationDate": "2022-12-04T16:32:39.74275+01:00",
-      "DeliveryCountryId": 955,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 69,
+      "LikelyQuoteAlternativeId": 816,
+      "SentDate": "2006-12-19T17:54:03.5389365+01:00",
+      "FollowupId": 747,
+      "ExpirationDate": "2002-06-25T17:54:03.5389365+02:00",
+      "DeliveryCountryId": 823,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 717,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "officiis",
-      "ERPPaymentTypeKey": "sit",
-      "ERPDeliveryTermsKey": "quam",
-      "ERPDeliveryTypeKey": "quia",
-      "Rank": 743,
-      "ApprovedBy": 174,
-      "ApprovedText": "laborum",
-      "ApprovedRegisteredBy": 261,
-      "ApprovedRegisteredDate": "2012-11-29T16:32:39.74275+01:00",
-      "ExtraField1": "iste",
-      "ExtraField2": "ducimus",
-      "ExtraField3": "est",
-      "ExtraField4": "qui",
-      "ExtraField5": "necessitatibus",
-      "LastRecalculated": "2005-06-09T16:32:39.74275+02:00",
-      "Updated": "2018-02-22T16:32:39.74275+01:00",
-      "UpdatedAssociateId": 696,
-      "Registered": "2022-10-18T16:32:39.74275+02:00",
-      "RegisteredAssociateId": 196,
-      "RequestAssociateId": 63,
-      "RequestComment": "aperiam",
+      "ERPPaymentTermsKey": "modi",
+      "ERPPaymentTypeKey": "optio",
+      "ERPDeliveryTermsKey": "et",
+      "ERPDeliveryTypeKey": "omnis",
+      "Rank": 800,
+      "ApprovedBy": 923,
+      "ApprovedText": "blanditiis",
+      "ApprovedRegisteredBy": 298,
+      "ApprovedRegisteredDate": "2007-08-03T17:54:03.5389365+02:00",
+      "ExtraField1": "laudantium",
+      "ExtraField2": "et",
+      "ExtraField3": "molestias",
+      "ExtraField4": "officia",
+      "ExtraField5": "suscipit",
+      "LastRecalculated": "2021-01-26T17:54:03.5389365+01:00",
+      "Updated": "2010-07-16T17:54:03.5389365+02:00",
+      "UpdatedAssociateId": 205,
+      "Registered": "2001-02-18T17:54:03.5389365+01:00",
+      "RegisteredAssociateId": 37,
+      "RequestAssociateId": 741,
+      "RequestComment": "eveniet",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldType": "System.Int32",
+          "FieldLength": 458
         }
       }
     }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldLength": 364
     }
   }
 }

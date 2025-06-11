@@ -60,6 +60,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 |workflowAssociate/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
 |workflowAssociate/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
 |workflowAssociate/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
+|workflowAssociate/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
 |workflowAssociate/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
 |workflowAssociate/contactCategory| *None* |Owner - Category: Category|  |
 |workflowAssociate/role| *None* |Owner - Role: Role|  |
@@ -89,7 +90,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=updatedBy,workflowAssociate/mrMrs
+GET /api/v1/archive/EmailFlowsAndFolders?$select=updatedBy,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 966,
-  "SourcePersonId": 706,
-  "DestinationContactId": 893,
-  "DestinationPersonId": 972,
-  "RelationId": 840,
-  "Comment": "a",
-  "RelationDefinitionId": 824,
-  "Reversed": 849,
-  "UpdatedDate": "2023-11-27T16:32:47.3996115+01:00",
-  "CreatedDate": "2014-09-05T16:32:47.3996115+02:00",
+  "SourceContactId": 393,
+  "SourcePersonId": 130,
+  "DestinationContactId": 146,
+  "DestinationPersonId": 541,
+  "RelationId": 466,
+  "Comment": "qui",
+  "RelationDefinitionId": 702,
+  "Reversed": 879,
+  "UpdatedDate": "2011-03-09T17:54:08.1324619+01:00",
+  "CreatedDate": "2003-08-27T17:54:08.1324619+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Huels-Sporer",
-  "SourcePersonName": "Konopelski, Bahringer and Purdy",
-  "DestinationContactName": "Nienow Inc and Sons",
-  "DestinationPersonName": "Champlin LLC",
-  "ActiveText": "cum",
-  "PassiveText": "dicta"
+  "SourceContactName": "Conn-Hyatt",
+  "SourcePersonName": "DuBuque Group",
+  "DestinationContactName": "Senger-Ullrich",
+  "DestinationPersonName": "Harvey-Wisozk",
+  "ActiveText": "ducimus",
+  "PassiveText": "eum"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 930,
-  "SourcePersonId": 520,
-  "DestinationContactId": 1000,
-  "DestinationPersonId": 253,
-  "RelationId": 936,
-  "Comment": "illum",
-  "RelationDefinitionId": 742,
-  "Reversed": 436,
-  "UpdatedDate": "2024-02-24T16:32:47.3996115+01:00",
-  "CreatedDate": "2020-07-14T16:32:47.3996115+02:00",
+  "SourceContactId": 190,
+  "SourcePersonId": 212,
+  "DestinationContactId": 413,
+  "DestinationPersonId": 767,
+  "RelationId": 942,
+  "Comment": "et",
+  "RelationDefinitionId": 457,
+  "Reversed": 567,
+  "UpdatedDate": "2022-10-07T17:54:08.1324619+02:00",
+  "CreatedDate": "2013-05-21T17:54:08.1324619+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kunde, Grant and Runolfsdottir",
-  "SourcePersonName": "Fritsch, Feil and Grant",
-  "DestinationContactName": "McLaughlin, Gottlieb and Jacobs",
-  "DestinationPersonName": "Cormier, Aufderhar and Waelchi",
-  "ActiveText": "a",
-  "PassiveText": "iusto",
+  "SourceContactName": "Dicki, Gorczany and Reichel",
+  "SourcePersonName": "Thiel, Bosco and Raynor",
+  "DestinationContactName": "Douglas Inc and Sons",
+  "DestinationPersonName": "Kunze Inc and Sons",
+  "ActiveText": "nihil",
+  "PassiveText": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 403
     }
   },
   "_Links": {

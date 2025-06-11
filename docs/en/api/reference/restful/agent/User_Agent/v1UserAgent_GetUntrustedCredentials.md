@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "illum"
+  "Type": "temporibus"
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2009-10-25T16:32:40.4769548+01:00",
-    "ValidTo": "2017-12-13T16:32:40.4769548+01:00",
-    "Comment": "non",
-    "SecretValue": "harum",
-    "PublicValue": "autem",
+    "ValidFrom": "2021-07-05T17:54:03.8982941+02:00",
+    "ValidTo": "2007-12-15T17:54:03.8982941+01:00",
+    "Comment": "sunt",
+    "SecretValue": "atque",
+    "PublicValue": "repudiandae",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 628
+        "FieldType": "System.Int32",
+        "FieldLength": 711
       }
     }
   }

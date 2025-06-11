@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 714,
-  "Name": "Emmerich Inc and Sons",
-  "Description": "Streamlined encompassing groupware",
-  "DefaultHeight": 159,
-  "DefaultWidth": 302,
+  "DashboardTileDefinitionId": 144,
+  "Name": "Davis, Buckridge and Sanford",
+  "Description": "Mandatory stable challenge",
+  "DefaultHeight": 97,
+  "DefaultWidth": 448,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Effertz-Carter",
-  "SelectionId": 697,
+  "EntityName": "Jakubowski LLC",
+  "SelectionId": 375,
   "CurrencyMode": "Base",
-  "CurrencyCode": "omnis",
+  "CurrencyCode": "quo",
   "Measure": "Average",
-  "MeasureField": "quasi",
-  "SortBy": "omnis",
-  "LayoutConfig": "quas",
-  "SecondarySelectionId": 784,
-  "MeasureByField": "quibusdam",
+  "MeasureField": "quis",
+  "SortBy": "sapiente",
+  "LayoutConfig": "non",
+  "SecondarySelectionId": 314,
+  "MeasureByField": "quia",
   "Usage": "Dashboard",
-  "ProviderName": "Ziemann-Cole",
+  "ProviderName": "Lubowitz Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldLength": 695
     }
   }
 }

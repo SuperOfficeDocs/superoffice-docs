@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Grady-Daugherty",
+  "ProviderName": "Becker, Hilll and Volkman",
   "Restrictions": [
     {
-      "Name": "Kuphal Group",
-      "Operator": "voluptas",
+      "Name": "Osinski LLC",
+      "Operator": "et",
       "Values": [
-        "odit",
-        "nihil"
+        "soluta",
+        "officia"
       ],
       "DisplayValues": [
-        "quia",
-        "facere"
+        "in",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 277,
+      "InterParenthesis": 931,
       "InterOperator": "And",
-      "UniqueHash": 873
+      "UniqueHash": 246
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Rippin-Schuster",
-    "DisplayTooltip": "aliquam",
-    "DisplayType": "voluptatum",
-    "CanOrderBy": false,
-    "Name": "Schamberger, Rowe and Walter",
-    "CanRestrictBy": true,
-    "RestrictionType": "est",
-    "RestrictionListName": "Schulist, Schneider and Nitzsche",
-    "IsVisible": false,
-    "ExtraInfo": "possimus",
-    "Width": "quod",
-    "IconHint": "aut",
-    "HeadingIconHint": "dolorem"
+    "DisplayName": "Fahey, Heidenreich and Pfeffer",
+    "DisplayTooltip": "quis",
+    "DisplayType": "illum",
+    "CanOrderBy": true,
+    "Name": "Kuvalis, Toy and Tremblay",
+    "CanRestrictBy": false,
+    "RestrictionType": "quae",
+    "RestrictionListName": "Greenholt-Schamberger",
+    "IsVisible": true,
+    "ExtraInfo": "repellat",
+    "Width": "fuga",
+    "IconHint": "eveniet",
+    "HeadingIconHint": "aperiam"
   }
 ]
 ```

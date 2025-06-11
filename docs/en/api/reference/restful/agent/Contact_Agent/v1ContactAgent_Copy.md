@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Contact/Copy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 21,
-  "DestinationContactName": "Watsica, Hansen and Ullrich",
-  "DestinationContactDepartment": "architect sticky schemas",
+  "SourceContactId": 515,
+  "DestinationContactName": "Reinger LLC",
+  "DestinationContactDepartment": "",
   "CopyPersons": false
 }
 ```
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-599
+303
 ```

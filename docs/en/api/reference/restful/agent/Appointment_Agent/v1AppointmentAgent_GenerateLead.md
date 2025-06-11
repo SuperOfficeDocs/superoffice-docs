@@ -92,18 +92,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 5,
-  "LeadDescription": "Balanced solution-oriented circuit",
-  "Relation": "officiis",
-  "RelationId": 174,
-  "LeadContact": "iure",
-  "LeadPersonFirstname": "Ralph",
-  "LeadPersonLastname": "Boehm",
-  "LeadPersonEmail": "rachael_koch@littlerempel.name",
-  "LeadPhoneNumber": "1677338",
-  "CreatorsContact": "ullam",
-  "CreatorsFirstname": "Scotty",
-  "CreatorsLastname": "Feest"
+  "AssociateIdForNewContact": 850,
+  "LeadDescription": "Operative heuristic parallelism",
+  "Relation": "et",
+  "RelationId": 480,
+  "LeadContact": "porro",
+  "LeadPersonFirstname": "Viva",
+  "LeadPersonLastname": "Howe",
+  "LeadPersonEmail": "kimberly@schinner.name",
+  "LeadPhoneNumber": "913486",
+  "CreatorsContact": "officia",
+  "CreatorsFirstname": "Brock",
+  "CreatorsLastname": "Rippin"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 581,
-      "Name": "Hansen, Gleason and Conn",
-      "OrgNr": "856391",
-      "Department": "",
+      "ContactId": 964,
+      "Name": "Altenwerth, Senger and Klein",
+      "OrgNr": "950026",
+      "Department": "incubate one-to-one infomediaries",
       "URL": "http://www.example.com/",
-      "City": "fugiat",
-      "DirectPhone": "634.818.0817",
-      "AssociateId": 100,
-      "CountryId": 509,
-      "EmailAddress": "vivienne.schultz@zulaufborer.co.uk",
-      "Kananame": "quasi",
-      "EmailAddressName": "conor@pfannerstill.biz",
+      "City": "doloribus",
+      "DirectPhone": "890-639-2788",
+      "AssociateId": 157,
+      "CountryId": 724,
+      "EmailAddress": "malachi@borer.name",
+      "Kananame": "sapiente",
+      "EmailAddressName": "brandi@rowe.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Abbie Sporer",
+      "AssociateFullName": "Lisa Renner",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "harum",
-      "FullName": "Devon O'Kon DVM",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 608,
-      "Number1": "966744",
-      "Number2": "553622",
+      "FormattedAddress": "dolor",
+      "FullName": "Kristoffer Donnelly",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 35,
+      "Number1": "1169543",
+      "Number2": "749325",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 676
+          "FieldLength": 577
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldLength": 215
     }
   }
 }

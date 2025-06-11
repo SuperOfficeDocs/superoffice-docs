@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 356,
-  "ColumnId": 885,
-  "FieldDefault": "omnis",
-  "FieldHeight": 269,
-  "FieldLabel": "hic",
-  "FieldLeft": 380,
-  "FieldTop": 555,
+  "UDefFieldId": 29,
+  "ColumnId": 240,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 215,
+  "FieldLabel": "distinctio",
+  "FieldLeft": 723,
+  "FieldTop": 614,
   "FieldType": "Checkbox",
-  "FieldWidth": 142,
-  "FormatMask": "suscipit",
+  "FieldWidth": 199,
+  "FormatMask": "sint",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 347,
-  "LabelLeft": 966,
-  "LabelTop": 63,
-  "LabelWidth": 769,
-  "LastVersionId": 153,
-  "ListTableId": 326,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 147,
+  "LabelLeft": 81,
+  "LabelTop": 677,
+  "LabelWidth": 719,
+  "LastVersionId": 364,
+  "ListTableId": 628,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 433,
-  "ProgId": "commodi",
+  "Page1LineNo": 967,
+  "ProgId": "voluptas",
   "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 824,
-  "TextLength": 842,
-  "Tooltip": "et",
-  "UdefIdentity": 494,
-  "UDListDefinitionId": 829,
+  "ShortLabel": "atque",
+  "TabOrder": 709,
+  "TextLength": 524,
+  "Tooltip": "sapiente",
+  "UdefIdentity": 606,
+  "UDListDefinitionId": 609,
   "Justification": "Center",
-  "Version": 666,
-  "TemplateVariableName": "Blick, Olson and Simonis",
-  "HasBeenPublished": true,
-  "MdoListName": "O'Keefe, Yost and Rolfson",
+  "Version": 369,
+  "TemplateVariableName": "Aufderhar Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Emmerich-Bailey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 576
+      "FieldType": "System.Int32",
+      "FieldLength": 162
     }
   }
 }

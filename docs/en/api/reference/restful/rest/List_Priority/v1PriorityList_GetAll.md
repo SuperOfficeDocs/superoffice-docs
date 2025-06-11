@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 531,
-    "Name": "Welch-Kunze",
-    "Tooltip": "eum",
-    "Deleted": true,
-    "UdListDefinitionId": 130,
-    "Rank": 37,
+    "Id": 923,
+    "Name": "Greenholt LLC",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 619,
+    "Rank": 286,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 981
+        "FieldLength": 301
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 287,
-  "Currency": "et"
+  "QuoteConnectionId": 392,
+  "Currency": "minus"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 287,
-    "ERPPriceListKey": "amet",
-    "QuoteConnectionId": 339,
-    "Name": "Collins-Walter",
-    "Description": "Phased attitude-oriented open architecture",
-    "Currency": "sunt",
-    "CurrencyName": "McGlynn-O'Reilly",
-    "ValidFrom": "2005-09-17T16:32:39.7271263+02:00",
-    "ValidTo": "1998-12-17T16:32:39.7271263+01:00",
-    "IsActive": false,
+    "PriceListId": 142,
+    "ERPPriceListKey": "architecto",
+    "QuoteConnectionId": 136,
+    "Name": "Moen, Wyman and Rolfson",
+    "Description": "Team-oriented client-server adapter",
+    "Currency": "atque",
+    "CurrencyName": "O'Connell, Kreiger and Bashirian",
+    "ValidFrom": "2001-01-30T17:54:03.5233118+01:00",
+    "ValidTo": "2015-05-10T17:54:03.5233118+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldType": "System.String",
+        "FieldLength": 845
       }
     }
   }

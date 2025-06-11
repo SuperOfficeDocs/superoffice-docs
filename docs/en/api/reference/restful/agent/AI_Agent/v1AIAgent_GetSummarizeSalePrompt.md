@@ -85,10 +85,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 925,
-  "NumSentences": 732,
-  "Summary": "est",
-  "IsoLangCode": "repellendus"
+  "SaleId": 540,
+  "NumSentences": 361,
+  "Summary": "animi",
+  "IsoLangCode": "eum"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "1999-05-25T16:32:37.5709257+02:00",
-  "UserPrompt": "excepturi",
+  "Timestamp": "2013-07-19T17:54:02.3514942+02:00",
+  "UserPrompt": "dicta",
   "UserDisplayText": "qui",
-  "BotResponse": "sed",
+  "BotResponse": "sint",
   "BotActions": {
-    "BotActions1": "voluptatem",
-    "BotActions2": "nemo"
+    "BotActions1": "incidunt",
+    "BotActions2": "quia"
   },
   "Attachments": [
-    "aut",
-    "facere"
+    "minima",
+    "voluptatum"
   ]
 }
 ```

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "ullam",
+  "SearchString": "fugiat",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "847-066-1283 x6858",
-    "PersonCellPhone": "304.221.0251 x34301",
-    "PersonPrivatePhone": "1-383-589-2545",
-    "PersonFaxNumber": "1446701",
-    "PersonPagerNumber": "1085728",
-    "PersonEmail": "rebeca@wildermanlarson.ca",
-    "Id": 279,
-    "Name": "Barton LLC",
-    "Tooltip": "ut",
-    "UniqueId": "occaecati",
+    "PersonDirectPhone": "233.809.5910 x2835",
+    "PersonCellPhone": "1-104-257-2258",
+    "PersonPrivatePhone": "1-825-034-9562 x69483",
+    "PersonFaxNumber": "433010",
+    "PersonPagerNumber": "408475",
+    "PersonEmail": "virginia_crona@gorczanyryan.co.uk",
+    "Id": 849,
+    "Name": "Boyle-Jerde",
+    "Tooltip": "repellendus",
+    "UniqueId": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldLength": 26
       }
     }
   }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kuhic-Torp",
-    "DisplayName": "Ledner LLC",
-    "Description": "Re-contextualized contextually-based pricing structure",
-    "ShortLabel": "et",
+    "FieldName": "Abbott, Torphy and Herman",
+    "DisplayName": "Torphy Group",
+    "Description": "Cross-group needs-based capability",
+    "ShortLabel": "qui",
     "HideLabel": true,
     "HideField": false,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 349,
-    "TemplateVariableName": "Runte-Rutherford"
+    "IsDisplayField": true,
+    "Rank": 309,
+    "TemplateVariableName": "Haag, Kuphal and Erdman"
   }
 ]
 ```

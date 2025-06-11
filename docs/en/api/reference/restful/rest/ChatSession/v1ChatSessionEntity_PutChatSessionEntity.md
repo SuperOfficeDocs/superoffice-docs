@@ -139,33 +139,33 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 446,
-  "TopicId": 918,
+  "ChatSessionId": 316,
+  "TopicId": 812,
   "User": null,
   "Person": null,
-  "CustomerAlias": "accusamus",
-  "CustomerHost": "voluptates",
-  "CustomerName": "Nolan-Lubowitz",
-  "CustomerEmail": "sophie@williamsonglover.uk",
-  "CustomerPhone": "1-233-953-9004",
+  "CustomerAlias": "omnis",
+  "CustomerHost": "dolor",
+  "CustomerName": "Dickinson, Johnston and Willms",
+  "CustomerEmail": "chelsie@rippin.info",
+  "CustomerPhone": "(792)195-1311 x70110",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bruen, Torp and Kautzer",
+  "CustomerCompanyName": "Hamill Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "consectetur",
-  "LastMessage": "vero",
-  "WhenRequested": "2018-11-21T16:32:47.1492785+01:00",
-  "WhenStarted": "2002-01-24T16:32:47.1492785+01:00",
-  "WhenEnded": "2016-05-08T16:32:47.1492785+02:00",
-  "WhenIdle": "2024-03-22T16:32:47.1492785+01:00",
-  "WhenFetched": "2009-08-21T16:32:47.1492785+02:00",
-  "SessionKey": "aliquam",
-  "InitialQueuePos": 161,
-  "AlertLevel": 504,
-  "Rank": 992,
+  "FirstMessage": "fugiat",
+  "LastMessage": "ex",
+  "WhenRequested": "2009-03-20T17:54:07.9918437+01:00",
+  "WhenStarted": "2020-11-16T17:54:07.9918437+01:00",
+  "WhenEnded": "1999-05-31T17:54:07.9918437+02:00",
+  "WhenIdle": "2005-10-22T17:54:07.9918437+02:00",
+  "WhenFetched": "2012-06-21T17:54:07.9918437+02:00",
+  "SessionKey": "repellat",
+  "InitialQueuePos": 470,
+  "AlertLevel": 761,
+  "Rank": 543,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 751
+  "Rating": 141
 }
 ```
 
@@ -184,29 +184,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 807,
-  "TopicId": 978,
+  "ChatSessionId": 44,
+  "TopicId": 476,
   "User": null,
   "Person": null,
-  "CustomerAlias": "tenetur",
-  "CustomerHost": "qui",
-  "CustomerName": "Streich, Renner and Moore",
-  "CustomerEmail": "araceli@deckow.biz",
-  "CustomerPhone": "435.238.3167 x18203",
+  "CustomerAlias": "explicabo",
+  "CustomerHost": "aperiam",
+  "CustomerName": "Tillman Inc and Sons",
+  "CustomerEmail": "elliott.oberbrunner@jaskolskihaag.com",
+  "CustomerPhone": "175-277-2089 x217",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hamill-Veum",
+  "CustomerCompanyName": "Greenfelder-Olson",
   "Status": "Closed",
-  "FirstMessage": "id",
-  "LastMessage": "corrupti",
-  "WhenRequested": "2019-05-24T16:32:47.1492785+02:00",
-  "WhenStarted": "2020-05-19T16:32:47.1492785+02:00",
-  "WhenEnded": "2018-12-28T16:32:47.1492785+01:00",
-  "WhenIdle": "2008-01-28T16:32:47.1492785+01:00",
-  "WhenFetched": "2016-07-05T16:32:47.1492785+02:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 156,
-  "AlertLevel": 478,
-  "Rank": 772,
+  "FirstMessage": "error",
+  "LastMessage": "culpa",
+  "WhenRequested": "2017-07-22T17:54:08.0074687+02:00",
+  "WhenStarted": "1999-06-05T17:54:08.0074687+02:00",
+  "WhenEnded": "2015-08-07T17:54:08.0074687+02:00",
+  "WhenIdle": "2014-06-19T17:54:08.0074687+02:00",
+  "WhenFetched": "2012-11-27T17:54:08.0074687+01:00",
+  "SessionKey": "eius",
+  "InitialQueuePos": 746,
+  "AlertLevel": 905,
+  "Rank": 672,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -214,13 +214,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 96,
+  "Rating": 438,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldType": "System.String",
+      "FieldLength": 920
     }
   },
   "_Links": {

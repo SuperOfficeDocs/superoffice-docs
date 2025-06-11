@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 19,
-  "PrefDescId": 123,
-  "PrefValue": "rerum",
-  "PrefShowValue": "quod",
-  "Description": "Distributed impactful pricing structure",
+  "PrefDescLineId": 39,
+  "PrefDescId": 545,
+  "PrefValue": "iste",
+  "PrefShowValue": "voluptates",
+  "Description": "Reduced zero administration core",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 211
     }
   }
 }

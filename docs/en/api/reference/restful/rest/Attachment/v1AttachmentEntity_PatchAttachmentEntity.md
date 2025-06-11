@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "adipisci",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "adipisci",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 698,
-  "Name": "Gutkowski, Boehm and Denesik",
-  "ContentType": "vero",
-  "AttSize": 26,
+  "AttachmentId": 618,
+  "Name": "Gibson LLC",
+  "ContentType": "adipisci",
+  "AttSize": 239,
   "InlineImage": false,
-  "ContentId": "cupiditate",
-  "AuthKey": "dolorum",
-  "IsSafeFileExtension": true,
+  "ContentId": "quibusdam",
+  "AuthKey": "et",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 410
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

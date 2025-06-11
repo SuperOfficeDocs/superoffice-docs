@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 275,
-  "SourcePersonId": 800,
-  "DestinationContactId": 362,
-  "DestinationPersonId": 637,
-  "RelationId": 699,
-  "Comment": "aut",
-  "RelationDefinitionId": 872,
-  "Reversed": 441,
-  "UpdatedDate": "2013-10-01T16:32:39.7583671+02:00",
-  "CreatedDate": "2021-02-09T16:32:39.7583671+01:00",
+  "SourceContactId": 27,
+  "SourcePersonId": 189,
+  "DestinationContactId": 962,
+  "DestinationPersonId": 753,
+  "RelationId": 279,
+  "Comment": "quam",
+  "RelationDefinitionId": 178,
+  "Reversed": 842,
+  "UpdatedDate": "2015-10-17T17:54:03.5389365+02:00",
+  "CreatedDate": "2010-12-30T17:54:03.5389365+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mayer Group",
-  "SourcePersonName": "Wolff Inc and Sons",
-  "DestinationContactName": "Goodwin LLC",
-  "DestinationPersonName": "Erdman, Hand and King",
-  "ActiveText": "magni",
-  "PassiveText": "dolorum",
+  "SourceContactName": "Leuschke, Renner and Hudson",
+  "SourcePersonName": "Towne, VonRueden and Wilderman",
+  "DestinationContactName": "Dare-Beatty",
+  "DestinationPersonName": "Swaniawski, Schneider and Stamm",
+  "ActiveText": "laboriosam",
+  "PassiveText": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldLength": 344
     }
   }
 }

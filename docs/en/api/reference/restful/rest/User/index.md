@@ -22,9 +22,9 @@ generated: true
 
 * [PATCH User/{id}](v1User_PatchUser.md)
 
-* [GET User/{id}/CustomCommand](v1User_GetUserCommands.md)
+* [GET User/{id}/CustomCommand](v1User_GetUserCommandsAsync.md)
 
-* [POST User/{id}/CustomCommand/{commandName}](v1User_ExecuteUserCommand.md)
+* [POST User/{id}/CustomCommand/{commandName}](v1User_ExecuteUserCommandAsync.md)
 
 * [GET User/{userName}](v1User_GetUserFromName.md)
 

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 963,
-    "Name": "Ebert, Mraz and Deckow",
-    "Tooltip": "illum",
+    "HeadingId": 91,
+    "Name": "Wunsch-Mann",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "Rank": 285,
-    "UdListDefinitionId": 941
+    "Rank": 624,
+    "UdListDefinitionId": 390
   },
   {
-    "HeadingId": 963,
-    "Name": "Ebert, Mraz and Deckow",
-    "Tooltip": "illum",
+    "HeadingId": 91,
+    "Name": "Wunsch-Mann",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "Rank": 285,
-    "UdListDefinitionId": 941
+    "Rank": 624,
+    "UdListDefinitionId": 390
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 48,
-    "Name": "Wunsch, Gutmann and Daugherty",
-    "Tooltip": "officia",
+    "HeadingId": 187,
+    "Name": "Okuneva-Muller",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 55,
-    "UdListDefinitionId": 425,
+    "Rank": 117,
+    "UdListDefinitionId": 971,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldLength": 94
       }
     }
   }

@@ -87,22 +87,22 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 270,
-  "EMailAddress": "non",
-  "AssociateId": 244,
+  "EMailAccountId": 450,
+  "EMailAddress": "amet",
+  "AssociateId": 849,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 546,
-  "ErrorCount": 416,
+  "AccountStatus": 347,
+  "ErrorCount": 946,
   "ErrorReason": "",
-  "InboxFolder": "dolorum",
-  "SentFolder": "ex",
-  "SimpleMode": 264,
-  "LastFetch": "2008-08-06T16:32:38.9926739+02:00"
+  "InboxFolder": "quod",
+  "SentFolder": "iusto",
+  "SimpleMode": 606,
+  "LastFetch": "2015-01-16T17:54:03.0702097+01:00"
 }
 ```
 
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 789,
-  "EMailAddress": "veritatis",
-  "AssociateId": 752,
+  "EMailAccountId": 321,
+  "EMailAddress": "ratione",
+  "AssociateId": 564,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 604,
-  "ErrorCount": 696,
+  "AccountStatus": 386,
+  "ErrorCount": 405,
   "ErrorReason": "",
-  "InboxFolder": "hic",
-  "SentFolder": "et",
-  "SimpleMode": 601,
-  "LastFetch": "2021-07-18T16:32:38.9926739+02:00",
+  "InboxFolder": "est",
+  "SentFolder": "saepe",
+  "SimpleMode": 417,
+  "LastFetch": "1999-10-05T17:54:03.0858331+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 554
     }
   }
 }

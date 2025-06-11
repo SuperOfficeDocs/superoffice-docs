@@ -130,6 +130,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
@@ -162,6 +163,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportAssociate/contactName|string|Our service contact - Owning company: Name of the company the user belongs to| x |
 |contactSupportAssociate/contactDepartment|string|Our service contact - Owning department: Name of the department at the company the user belongs to| x |
 |contactSupportAssociate/usergroup|userGroup|Our service contact - Primary group: The user's primary user group| x |
+|contactSupportAssociate/usergroupId|int|Our service contact - Group ID: The user's primary user group| x |
 |contactSupportAssociate/contactFullName|string|Our service contact - Owner: Name and department of the company the user belongs to| x |
 |contactSupportAssociate/contactCategory|listAny|Our service contact - Category: Category| x |
 |contactSupportAssociate/role|listAny|Our service contact - Role: Role| x |
@@ -221,12 +223,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportPerson/supportLanguage|listAny|User support contact - Preferred language: Preferred language used for reply templates and more| x |
 |contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
 |contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
-|contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
-|contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
+|contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
 |contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
@@ -251,6 +253,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportPerson/personUdef/SuperOffice:10|string|User support contact - page1marketingonly| x |
 |contactSupportPerson/personUdef/SuperOffice:11|string|User support contact - page1adminonly| x |
 |contactSupportPerson/personExtra/x\_person\_integer|int|User support contact - Extra Integer: Custom person integer| x |
+|contactSupportPerson/personExtra/x\_person\_hidden\_integer|int|User support contact - Extra hidden integer: Custom integer field that is hidden| x |
 |contactSupportPerson/personExtra/x\_person\_float|decimal|User support contact - Extra float: Custom float field| x |
 |contactSupportPerson/personExtra/x\_person\_longtext|string|User support contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |contactSupportPerson/personExtra/x\_person\_date|date|User support contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -298,6 +301,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -323,14 +327,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |NumberOfSales|int|Number of sales|  |
 |NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |NumberOfNotCompletedSales|int|Number of non-completed sales|  |
-|NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
-|LastSale|date|Date of last sale|  |
-|LastCompletedSale|date|Date of last completed sale|  |
-|LastDoBySale|date|Date of last non-completed sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
+|LastSale|date|Date of last sale|  |
+|LastCompletedSale|date|Date of last completed sale|  |
+|LastDoBySale|date|Date of last non-completed sale|  |
 |NumberOfTickets|int|Number of requests|  |
 |NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
@@ -353,7 +357,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleContact?$select=email/emailLastSent,contactSupportPerson/hasEmarketingConsent,NumberOfTickets
+GET /api/v1/archive/SimpleContact?$select=contactSupportPerson/personAssociateFullName,contactSupportPerson/personExtra/y_rental/x_start,contactAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

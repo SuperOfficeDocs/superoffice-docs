@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Morar Group",
-  "IncludeStandard": true
+  "TableName": "Schumm-Schulist",
+  "IncludeStandard": false
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Sporer, Boehm and Fay",
-    "DisplayName": "Bernhard-Doyle",
-    "Description": "Cloned incremental protocol",
-    "ShortLabel": "qui",
+    "FieldName": "Oberbrunner LLC",
+    "DisplayName": "Rohan-Macejkovic",
+    "Description": "Public-key motivating matrix",
+    "ShortLabel": "et",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 110,
-    "TemplateVariableName": "Ortiz LLC"
+    "IsDisplayField": true,
+    "Rank": 42,
+    "TemplateVariableName": "Blanda LLC"
   }
 ]
 ```

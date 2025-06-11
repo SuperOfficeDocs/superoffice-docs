@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "sed",
+  "FieldLabel": "molestias",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 690,
-  "ColumnId": 267,
-  "FieldDefault": "iusto",
-  "FieldHeight": 611,
-  "FieldLabel": "et",
-  "FieldLeft": 219,
-  "FieldTop": 70,
+  "UDefFieldId": 613,
+  "ColumnId": 686,
+  "FieldDefault": "reiciendis",
+  "FieldHeight": 727,
+  "FieldLabel": "consequuntur",
+  "FieldLeft": 399,
+  "FieldTop": 975,
   "FieldType": "Checkbox",
-  "FieldWidth": 832,
-  "FormatMask": "reprehenderit",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 774,
-  "LabelLeft": 613,
-  "LabelTop": 448,
-  "LabelWidth": 782,
-  "LastVersionId": 203,
-  "ListTableId": 663,
+  "FieldWidth": 554,
+  "FormatMask": "quaerat",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 118,
+  "LabelLeft": 165,
+  "LabelTop": 450,
+  "LabelWidth": 958,
+  "LastVersionId": 464,
+  "ListTableId": 982,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 91,
-  "ProgId": "vel",
+  "Page1LineNo": 214,
+  "ProgId": "qui",
   "IsReadOnly": true,
-  "ShortLabel": "reiciendis",
-  "TabOrder": 153,
-  "TextLength": 788,
-  "Tooltip": "voluptates",
-  "UdefIdentity": 906,
-  "UDListDefinitionId": 376,
+  "ShortLabel": "ducimus",
+  "TabOrder": 749,
+  "TextLength": 315,
+  "Tooltip": "velit",
+  "UdefIdentity": 267,
+  "UDListDefinitionId": 530,
   "Justification": "Center",
-  "Version": 833,
-  "TemplateVariableName": "Douglas-Gusikowski",
+  "Version": 823,
+  "TemplateVariableName": "Zulauf, Rau and Jacobi",
   "HasBeenPublished": false,
-  "MdoListName": "Ernser, Walker and Feil",
+  "MdoListName": "Prosacco Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldType": "System.String",
+      "FieldLength": 571
     }
   }
 }

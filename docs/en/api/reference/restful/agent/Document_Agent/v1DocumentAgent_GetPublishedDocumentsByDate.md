@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 977,
+  "PersonId": 384,
   "IncludeProjectDocuments": false,
-  "StartTime": "2002-08-03T16:32:38.6333805+02:00",
-  "EndTime": "1999-12-28T16:32:38.6333805+01:00",
-  "Count": 405
+  "StartTime": "2006-08-21T17:54:02.9452152+02:00",
+  "EndTime": "2000-08-13T17:54:02.9452152+02:00",
+  "Count": 569
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 790,
-    "Attention": "id",
-    "Header": "iure",
-    "Name": "Baumbach-Schamberger",
-    "OurRef": "quas",
-    "YourRef": "qui",
-    "Description": "Proactive encompassing circuit",
-    "DocumentTemplate": "ipsa",
+    "DocumentId": 630,
+    "Attention": "cupiditate",
+    "Header": "laudantium",
+    "Name": "Greenfelder LLC",
+    "OurRef": "sunt",
+    "YourRef": "sint",
+    "Description": "Reduced actuating extranet",
+    "DocumentTemplate": "dolor",
     "IsPublished": false,
-    "PersonId": 564,
-    "PersonFullName": "Macie Torphy",
-    "AssociateFullName": "Ottis Legros I",
-    "ContactId": 679,
-    "ContactName": "Smitham, Jacobi and Abshire",
-    "ProjectId": 309,
-    "ProjectName": "Daugherty, Collins and Champlin",
-    "AssociateId": 838,
-    "Snum": 284,
-    "SaleId": 754,
-    "SaleName": "Russel Inc and Sons",
+    "PersonId": 888,
+    "PersonFullName": "Camille Sporer",
+    "AssociateFullName": "Brian Wiegand",
+    "ContactId": 330,
+    "ContactName": "Tremblay, Kunde and Kuhn",
+    "ProjectId": 794,
+    "ProjectName": "Block, Schoen and Gleichner",
+    "AssociateId": 305,
+    "Snum": 384,
+    "SaleId": 911,
+    "SaleName": "Johnson Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 228
       }
     }
   }

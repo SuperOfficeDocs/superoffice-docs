@@ -167,10 +167,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "a",
-  "ProviderName": "Quitzon LLC",
-  "PageSize": 717,
-  "PageNumber": 970
+  "Restrictions": "ea",
+  "ProviderName": "Johns, Fay and Littel",
+  "PageSize": 706,
+  "PageNumber": 240
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kuvalis-Goodwin",
-      "DisplayTooltip": "in",
-      "DisplayType": "voluptas",
-      "CanOrderBy": true,
-      "Name": "Cummings, Ruecker and Blanda",
+      "DisplayName": "Zulauf Inc and Sons",
+      "DisplayTooltip": "sit",
+      "DisplayType": "error",
+      "CanOrderBy": false,
+      "Name": "Kuhic, Bosco and Beatty",
       "CanRestrictBy": true,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Abernathy-Mertz",
-      "IsVisible": true,
-      "ExtraInfo": "adipisci",
-      "Width": "id",
-      "IconHint": "ipsum",
-      "HeadingIconHint": "veniam"
+      "RestrictionType": "sequi",
+      "RestrictionListName": "King-Gorczany",
+      "IsVisible": false,
+      "ExtraInfo": "sed",
+      "Width": "sed",
+      "IconHint": "harum",
+      "HeadingIconHint": "vitae"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "O'Kon LLC",
-      "PrimaryKey": 89,
+      "EntityName": "Russel-White",
+      "PrimaryKey": 954,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "commodi",
-          "TooltipHint": "nisi",
-          "LinkHint": "mollitia"
+          "DisplayValue": "praesentium",
+          "TooltipHint": "atque",
+          "LinkHint": "culpa"
         }
       },
-      "LinkHint": "cumque",
-      "StyleHint": "est",
+      "LinkHint": "fuga",
+      "StyleHint": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldType": "System.String",
+          "FieldLength": 461
         }
       }
     }
   ],
-  "RowCount": 957,
+  "RowCount": 402,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 717
+      "FieldType": "System.Int32",
+      "FieldLength": 987
     }
   }
 }

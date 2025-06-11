@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 624
+  "DocumentId": 865
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "et",
-    "DocumentId": 149,
-    "VersionId": "harum",
-    "CheckedInDate": "2003-02-01T16:32:38.8989463+01:00",
-    "CheckedInByName": "Becker-Olson",
-    "CheckedInByAssociateId": 841,
-    "Description": "Secured tertiary strategy",
-    "DisplayText": "sit",
+    "ExternalReference": "dolorem",
+    "DocumentId": 681,
+    "VersionId": "enim",
+    "CheckedInDate": "2018-08-24T17:54:03.0233364+02:00",
+    "CheckedInByName": "McCullough Inc and Sons",
+    "CheckedInByAssociateId": 334,
+    "Description": "Object-based incremental capacity",
+    "DisplayText": "repudiandae",
     "ExtraFields": [
-      "sed",
-      "voluptatum"
+      "ea",
+      "omnis"
     ]
   }
 ]

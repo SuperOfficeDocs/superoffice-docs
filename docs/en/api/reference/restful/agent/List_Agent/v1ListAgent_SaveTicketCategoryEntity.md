@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 918,
-  "ParentId": 569,
-  "Name": "Treutel-Ziemann",
-  "Fullname": "nulla",
-  "CategoryMaster": 376,
+  "TicketCategoryId": 197,
+  "ParentId": 636,
+  "Name": "Johnston Inc and Sons",
+  "Fullname": "maiores",
+  "CategoryMaster": 724,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Windler Inc and Sons",
+  "ExternalName": "Block-Schamberger",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 786,
-  "ReplyTemplate": 187,
-  "NotificationEmail": "destany.gleason@walter.name",
+  "AssignmentLag": 798,
+  "ReplyTemplate": 579,
+  "NotificationEmail": "francesco@mrazboehm.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 164,
+  "EffectiveReplyTemplateId": 940,
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "tempora"
+    "CustomFields1": "fuga",
+    "CustomFields2": "ut"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 640,
-  "ParentId": 265,
-  "Name": "Lubowitz LLC",
-  "Fullname": "facere",
-  "CategoryMaster": 931,
+  "TicketCategoryId": 823,
+  "ParentId": 581,
+  "Name": "Hettinger-Schimmel",
+  "Fullname": "natus",
+  "CategoryMaster": 244,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Pfeffer-O'Kon",
+  "ExternalName": "Jenkins, Hoeger and Kuhlman",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 144,
-  "ReplyTemplate": 158,
-  "NotificationEmail": "miles_leffler@braun.uk",
+  "AssignmentLag": 441,
+  "ReplyTemplate": 842,
+  "NotificationEmail": "cullen@howell.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 499,
+  "EffectiveReplyTemplateId": 235,
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "voluptate"
+    "ExtraFields1": "et",
+    "ExtraFields2": "nemo"
   },
   "CustomFields": {
-    "CustomFields1": "animi",
-    "CustomFields2": "quis"
+    "CustomFields1": "quos",
+    "CustomFields2": "rerum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldType": "System.Int32",
+      "FieldLength": 727
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 100,
-  "Name": "Watsica-Herzog",
-  "Tooltip": "perferendis",
+  "HeadingId": 323,
+  "Name": "Ratke, Treutel and Grady",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 398,
-  "UdListDefinitionId": 264
+  "Rank": 132,
+  "UdListDefinitionId": 58
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 194,
-  "Name": "Powlowski Group",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 336,
-  "UdListDefinitionId": 684,
+  "HeadingId": 92,
+  "Name": "Hartmann Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 363,
+  "UdListDefinitionId": 12,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldType": "System.String",
+      "FieldLength": 275
     }
   }
 }

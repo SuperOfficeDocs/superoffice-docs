@@ -51,16 +51,16 @@ The SystemEventEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | Integer | Primary key |
-| Scope | String | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | String | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | String | Event key, predefined in code |
-| Eventmess | String | Message to be shown, entered by administrator |
-| ExtraInfo | Integer | Extra information (area id for prototype rebuild, etc) |
-| Owner | Integer | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | Integer | Number of updates made to this record |
-| Registered | String | Registered when  in UTC. |
-| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| SystemEventId | Integer |  |
+| Scope | String |  |
+| Eta | String |  |
+| Eventkey | String |  |
+| Eventmess | String |  |
+| ExtraInfo | Integer |  |
+| Owner | Integer |  |
+| UpdatedCount | Integer |  |
+| Registered | String |  |
+| ActivatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 
 ## Response:
 
@@ -74,16 +74,16 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | int32 | Primary key |
-| Scope | string | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | date-time | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | string | Event key, predefined in code |
-| Eventmess | string | Message to be shown, entered by administrator |
-| ExtraInfo | int32 | Extra information (area id for prototype rebuild, etc) |
-| Owner | int32 | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | int32 | Number of updates made to this record |
-| Registered | date-time | Registered when  in UTC. |
-| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| SystemEventId | int32 |  |
+| Scope | string |  |
+| Eta | date-time |  |
+| Eventkey | string |  |
+| Eventmess | string |  |
+| ExtraInfo | int32 |  |
+| Owner | int32 |  |
+| UpdatedCount | int32 |  |
+| Registered | date-time |  |
+| ActivatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -98,15 +98,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 570,
+  "SystemEventId": 27,
   "Scope": "Database",
-  "Eta": "2004-09-20T16:32:48.1025764+02:00",
-  "Eventkey": "suscipit",
-  "Eventmess": "perferendis",
-  "ExtraInfo": 382,
-  "Owner": 637,
-  "UpdatedCount": 934,
-  "Registered": "2001-10-28T16:32:48.1025764+01:00",
+  "Eta": "2022-12-26T17:54:08.5543174+01:00",
+  "Eventkey": "praesentium",
+  "Eventmess": "cupiditate",
+  "ExtraInfo": 604,
+  "Owner": 791,
+  "UpdatedCount": 907,
+  "Registered": "2001-10-26T17:54:08.5543174+02:00",
   "ActivatedBy": null
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 359,
+  "SystemEventId": 809,
   "Scope": "Database",
-  "Eta": "2002-06-05T16:32:48.1025764+02:00",
-  "Eventkey": "quos",
-  "Eventmess": "quia",
-  "ExtraInfo": 22,
-  "Owner": 727,
-  "UpdatedCount": 573,
-  "Registered": "2002-07-18T16:32:48.1025764+02:00",
+  "Eta": "2012-08-15T17:54:08.5543174+02:00",
+  "Eventkey": "voluptas",
+  "Eventmess": "perspiciatis",
+  "ExtraInfo": 768,
+  "Owner": 592,
+  "UpdatedCount": 410,
+  "Registered": "2021-07-28T17:54:08.5543174+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldLength": 567
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

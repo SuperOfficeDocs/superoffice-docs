@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 24 Sep 2002 16:32:47 G9T
+Last-Modified: Fri, 20 Jun 2003 17:54:08 G6T
 
 [
   {
-    "ForeignDeviceId": 696,
-    "Name": "Heaney, Wolff and Dach",
-    "CreatedDate": "2013-02-11T16:32:47.5402031+01:00",
-    "UpdatedDate": "2002-09-24T16:32:47.5402031+02:00",
-    "AssociateFullName": "Muhammad Boyle",
-    "CreatedBy": "voluptatum",
-    "UpdatedBy": "ut",
-    "DeviceIdentifier": "culpa",
-    "ForeignAppId": 618,
+    "ForeignDeviceId": 707,
+    "Name": "Kessler-Jerde",
+    "CreatedDate": "2009-09-03T17:54:08.2574567+02:00",
+    "UpdatedDate": "2003-06-20T17:54:08.2574567+02:00",
+    "AssociateFullName": "Michelle Watsica",
+    "CreatedBy": "est",
+    "UpdatedBy": "voluptatem",
+    "DeviceIdentifier": "sapiente",
+    "ForeignAppId": 921,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldLength": 841
       }
     }
   }

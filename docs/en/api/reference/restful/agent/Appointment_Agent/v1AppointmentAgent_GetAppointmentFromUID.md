@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "a"
+  "UID": "suscipit"
 }
 ```
 
@@ -151,121 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-06-03T16:32:38.102253+02:00",
-  "AppointmentId": 639,
-  "Description": "Balanced analyzing info-mediaries",
-  "Title": "qui",
-  "Agenda": "commodi",
-  "InternalNotes": "nulla",
-  "StartDate": "2025-03-21T16:32:38.102253+01:00",
-  "EndDate": "2018-06-15T16:32:38.102253+02:00",
+  "CreatedDate": "2014-07-13T17:54:02.617106+02:00",
+  "AppointmentId": 944,
+  "Description": "Phased leading edge info-mediaries",
+  "Title": "quia",
+  "Agenda": "tempora",
+  "InternalNotes": "dolor",
+  "StartDate": "2003-06-05T17:54:02.617106+02:00",
+  "EndDate": "1998-04-14T17:54:02.617106+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 803,
+  "MotherId": 312,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-05-13T16:32:38.102253+02:00",
+  "UpdatedDate": "2019-05-25T17:54:02.617106+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 606,
+  "ActiveLinks": 417,
   "Links": [
     {
-      "EntityName": "Pouros LLC",
-      "Id": 123,
-      "Description": "Object-based didactic utilisation",
-      "ExtraInfo": "aperiam",
-      "LinkId": 184,
+      "EntityName": "Hettinger, Murazik and Kihn",
+      "Id": 282,
+      "Description": "Synchronised hybrid secured line",
+      "ExtraInfo": "veniam",
+      "LinkId": 291,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldLength": 344
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "autem",
   "HasAlarm": false,
-  "ColorIndex": 432,
+  "ColorIndex": 470,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "vel",
-  "LeadTime": "sequi",
-  "Location": "at",
-  "RejectCounter": 939,
-  "RejectReason": "e-enable next-generation users",
+  "LagTime": "numquam",
+  "LeadTime": "natus",
+  "Location": "nostrum",
+  "RejectCounter": 967,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 717,
-      "PersonId": 175,
-      "ContactId": 718,
-      "EmailId": 8,
+      "AssociateId": 887,
+      "PersonId": 624,
+      "ContactId": 650,
+      "EmailId": 176,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kristofer@rowe.co.uk",
-      "Description": "Optimized solution-oriented initiative"
+      "EmailAddress": "dovie_rice@bayersimonis.info",
+      "Description": "Cross-platform even-keeled installation"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-04-20T16:32:38.102253+02:00",
+  "ActiveDate": "2005-12-08T17:54:02.617106+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 942,
+  "PreferredTZLocation": 820,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 145,
+  "SuggestedAppointmentId": 497,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "omnis",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "Cassidy Terry",
-    "SuperOffice:2": "Alexandra Friesen"
+    "SuperOffice:1": "757371908",
+    "SuperOffice:2": "Dr. Sabina Ferry V"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "sint"
+    "CustomFields1": "natus",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2011-05-26T16:32:38.102253+02:00",
-  "PublishTo": "2002-01-08T16:32:38.102253+01:00",
-  "PublishFrom": "2006-11-23T16:32:38.102253+01:00",
+  "PublishEventDate": "2005-07-24T17:54:02.617106+02:00",
+  "PublishTo": "2020-12-17T17:54:02.617106+01:00",
+  "PublishFrom": "2013-05-31T17:54:02.617106+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 879,
+      "VisibleId": 108,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldType": "System.String",
+          "FieldLength": 19
         }
       }
     },
     {
-      "VisibleId": 879,
+      "VisibleId": 108,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldType": "System.String",
+          "FieldLength": 19
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldType": "System.String",
+      "FieldLength": 862
     }
   }
 }

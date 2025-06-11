@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Reilly, Stracke and Lemke",
-    "ToolTip": "Magni eius quia fuga.",
+    "Id": 614,
+    "Name": "Bergnaum-McGlynn",
+    "ToolTip": "Est blanditiis et voluptatum pariatur.",
     "Deleted": true,
-    "Rank": 906,
-    "Type": "laborum",
-    "ColorBlock": 636,
-    "IconHint": "et",
+    "Rank": 141,
+    "Type": "veniam",
+    "ColorBlock": 711,
+    "IconHint": "fuga",
     "Selected": true,
-    "LastChanged": "2015-03-06T16:32:48.5089404+01:00",
+    "LastChanged": "2020-03-15T17:54:08.7886801+01:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Weimann-Hoeger",
-        "ToolTip": "Nobis dignissimos.",
+        "Id": 110,
+        "Name": "Welch Group",
+        "ToolTip": "Iusto quis dignissimos in sit.",
         "Deleted": false,
-        "Rank": 141,
-        "Type": "ipsa",
-        "ColorBlock": 902,
-        "IconHint": "hic",
+        "Rank": 680,
+        "Type": "dolores",
+        "ColorBlock": 827,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2015-07-16T16:32:48.5089404+02:00",
+        "LastChanged": "2018-10-22T17:54:08.7886801+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "aut",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Fiona Schultz"
+        "FullName": "Lolita Shany Russel Jr."
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Breana Ondricka"
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Miss Tatum Edison Bernhard MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "DuBuque-Collins",
-    "ToolTip": "Nisi nisi quibusdam rerum quaerat non.",
+    "Id": 593,
+    "Name": "Hagenes Group",
+    "ToolTip": "Sit corporis.",
     "Deleted": true,
-    "Rank": 642,
-    "Type": "aut",
-    "ColorBlock": 96,
-    "IconHint": "quisquam",
-    "Selected": true,
-    "LastChanged": "2013-04-16T16:32:48.5089404+02:00",
+    "Rank": 932,
+    "Type": "debitis",
+    "ColorBlock": 419,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2013-01-23T17:54:08.7886801+01:00",
     "ChildItems": [
       {
-        "Id": 266,
-        "Name": "Zemlak Inc and Sons",
-        "ToolTip": "Voluptatum molestias vitae at iste officiis assumenda.",
-        "Deleted": true,
-        "Rank": 937,
-        "Type": "voluptas",
-        "ColorBlock": 716,
-        "IconHint": "consequatur",
+        "Id": 254,
+        "Name": "Schaefer LLC",
+        "ToolTip": "Explicabo sint necessitatibus aut suscipit.",
+        "Deleted": false,
+        "Rank": 512,
+        "Type": "dignissimos",
+        "ColorBlock": 1001,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2015-07-28T16:32:48.5089404+02:00",
+        "LastChanged": "2000-12-24T17:54:08.7886801+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "ad",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Lilyan Ramon Hackett II",
+        "FullName": "Irma Ross Harris V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldLength": 746
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "aut",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Mr. Sandra Beulah Altenwerth",
+    "FullName": "Connie Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 924
       }
     }
   }

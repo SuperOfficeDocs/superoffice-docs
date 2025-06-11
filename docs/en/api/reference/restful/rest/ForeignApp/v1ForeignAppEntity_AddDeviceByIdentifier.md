@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 220,
-  "Name": "Halvorson, Oberbrunner and Kuhlman",
-  "CreatedDate": "2004-10-02T16:32:47.5558268+02:00",
-  "UpdatedDate": "2001-08-30T16:32:47.5558268+02:00",
-  "AssociateFullName": "Agustina Wuckert",
-  "CreatedBy": "qui",
-  "UpdatedBy": "enim",
-  "DeviceIdentifier": "optio",
-  "ForeignAppId": 359,
+  "ForeignDeviceId": 664,
+  "Name": "Hills Group",
+  "CreatedDate": "2011-01-04T17:54:08.2574567+01:00",
+  "UpdatedDate": "2011-05-29T17:54:08.2574567+02:00",
+  "AssociateFullName": "Dr. Lynn Kertzmann DDS",
+  "CreatedBy": "praesentium",
+  "UpdatedBy": "nostrum",
+  "DeviceIdentifier": "deserunt",
+  "ForeignAppId": 480,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldType": "System.Int32",
+      "FieldLength": 361
     }
   }
 }

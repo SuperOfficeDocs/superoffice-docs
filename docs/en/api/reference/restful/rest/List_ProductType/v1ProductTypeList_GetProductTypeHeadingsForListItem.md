@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Name": "Willms Inc and Sons",
-    "ToolTip": "Maxime autem consequatur.",
-    "Deleted": false,
-    "Rank": 223,
-    "Type": "reprehenderit",
-    "ColorBlock": 705,
-    "IconHint": "aut",
+    "Id": 598,
+    "Name": "Sipes LLC",
+    "ToolTip": "Et rem qui quo.",
+    "Deleted": true,
+    "Rank": 644,
+    "Type": "beatae",
+    "ColorBlock": 128,
+    "IconHint": "error",
     "Selected": false,
-    "LastChanged": "2011-05-23T16:32:48.8213663+02:00",
+    "LastChanged": "2004-06-23T17:54:08.9917951+02:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Ernser Inc and Sons",
-        "ToolTip": "Consequatur et.",
+        "Id": 334,
+        "Name": "Bailey LLC",
+        "ToolTip": "Et pariatur.",
         "Deleted": false,
-        "Rank": 570,
-        "Type": "repellat",
-        "ColorBlock": 477,
-        "IconHint": "maxime",
+        "Rank": 720,
+        "Type": "rerum",
+        "ColorBlock": 796,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2017-06-13T16:32:48.8213663+02:00",
+        "LastChanged": "2014-09-17T17:54:08.9917951+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "totam",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Marcelina Runte",
+        "FullName": "Miss Georgiana Dina Jakubowski Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 315
+            "FieldLength": 663
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "accusantium",
-    "Hidden": false,
-    "FullName": "Prof. Omari Esperanza Maggio Sr.",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "pariatur",
+    "Hidden": true,
+    "FullName": "Loraine Abshire",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldType": "System.String",
+        "FieldLength": 230
       }
     }
   }

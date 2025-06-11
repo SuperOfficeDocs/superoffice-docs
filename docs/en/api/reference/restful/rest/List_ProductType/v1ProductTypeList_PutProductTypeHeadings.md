@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 666,
-    "Name": "D'Amore, Carter and Stehr",
-    "Tooltip": "soluta",
+    "HeadingId": 779,
+    "Name": "Hessel, Wilderman and McCullough",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 546,
-    "UdListDefinitionId": 760
+    "Rank": 183,
+    "UdListDefinitionId": 398
   },
   {
-    "HeadingId": 666,
-    "Name": "D'Amore, Carter and Stehr",
-    "Tooltip": "soluta",
+    "HeadingId": 779,
+    "Name": "Hessel, Wilderman and McCullough",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 546,
-    "UdListDefinitionId": 760
+    "Rank": 183,
+    "UdListDefinitionId": 398
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 163,
-    "Name": "Carroll, Rath and Halvorson",
-    "Tooltip": "quia",
+    "HeadingId": 745,
+    "Name": "Franecki Inc and Sons",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 951,
-    "UdListDefinitionId": 190,
+    "Rank": 763,
+    "UdListDefinitionId": 189,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldType": "System.String",
+        "FieldLength": 162
       }
     }
   }

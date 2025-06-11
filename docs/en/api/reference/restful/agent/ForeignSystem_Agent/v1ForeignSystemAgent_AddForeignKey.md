@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Wintheiser LLC",
-  "DeviceName": "Schoen, Bergnaum and Hane",
-  "DeviceIdentifier": "repellat"
+  "ApplicationName": "Bechtelar Group",
+  "DeviceName": "Orn-Gerhold",
+  "DeviceIdentifier": "distinctio"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sapiente",
-  "Value": "ea",
-  "RecordId": 414,
-  "CreatedDate": "2007-06-16T16:32:39.1645096+02:00",
-  "UpdatedDate": "2023-10-04T16:32:39.1645096+02:00",
-  "UpdatedBy": "eligendi",
-  "CreatedBy": "voluptatem",
-  "TableName": "Koch Inc and Sons",
+  "Key": "rerum",
+  "Value": "facilis",
+  "RecordId": 511,
+  "CreatedDate": "2018-05-23T17:54:03.1639551+02:00",
+  "UpdatedDate": "2000-07-31T17:54:03.1639551+02:00",
+  "UpdatedBy": "voluptatibus",
+  "CreatedBy": "ipsum",
+  "TableName": "Satterfield-Gutkowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

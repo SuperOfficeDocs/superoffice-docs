@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=perferendis
+GET /api/v1/List/Credited/MDOItems?query=cum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Herman LLC",
-    "ToolTip": "Non qui hic suscipit quisquam nulla eaque.",
-    "Deleted": false,
-    "Rank": 732,
-    "Type": "ut",
+    "Id": 412,
+    "Name": "Sawayn, Bayer and Hansen",
+    "ToolTip": "Iusto qui nisi quas ex numquam ipsam officia.",
+    "Deleted": true,
+    "Rank": 326,
+    "Type": "explicabo",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Heaney, McClure and Schultz",
-        "ToolTip": "Fugit enim veritatis beatae omnis.",
+        "Id": 734,
+        "Name": "Hilll-Huels",
+        "ToolTip": "Voluptatem voluptas inventore maxime necessitatibus totam est.",
         "Deleted": false,
-        "Rank": 812,
-        "Type": "voluptas",
+        "Rank": 74,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "distinctio",
-        "ColorBlock": 83,
-        "ExtraInfo": "modi",
-        "StyleHint": "consequatur",
-        "FullName": "Jaylan Lehner",
+        "IconHint": "eos",
+        "ColorBlock": 689,
+        "ExtraInfo": "quos",
+        "StyleHint": "ducimus",
+        "FullName": "Mrs. Lola Baumbach I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 889
+            "FieldLength": 270
           }
         }
       }
     ],
-    "IconHint": "cupiditate",
-    "ColorBlock": 234,
-    "ExtraInfo": "quis",
-    "StyleHint": "labore",
-    "FullName": "Jacques Lelah Ledner I",
+    "IconHint": "tempora",
+    "ColorBlock": 381,
+    "ExtraInfo": "sed",
+    "StyleHint": "placeat",
+    "FullName": "Dr. Abdullah Jesus Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldType": "System.String",
+        "FieldLength": 735
       }
     }
   }

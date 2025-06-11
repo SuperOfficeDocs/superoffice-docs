@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=odit
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=iusto
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Feil, Williamson and Reynolds",
-    "ToolTip": "Aut occaecati sit officiis.",
+    "Id": 726,
+    "Name": "Becker-Jones",
+    "ToolTip": "Repellendus qui dolor dolorum alias iure ex corporis.",
     "Deleted": false,
-    "Rank": 678,
+    "Rank": 861,
     "Type": "qui",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Donnelly LLC",
-        "ToolTip": "Velit qui sint quia ratione qui libero atque.",
-        "Deleted": true,
-        "Rank": 835,
-        "Type": "natus",
+        "Id": 575,
+        "Name": "Conn Inc and Sons",
+        "ToolTip": "Et hic nesciunt eligendi.",
+        "Deleted": false,
+        "Rank": 522,
+        "Type": "a",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rem",
-        "ColorBlock": 630,
-        "ExtraInfo": "rem",
-        "StyleHint": "earum",
-        "FullName": "Leola Lubowitz",
+        "IconHint": "est",
+        "ColorBlock": 612,
+        "ExtraInfo": "enim",
+        "StyleHint": "ea",
+        "FullName": "Newell Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 281
+            "FieldType": "System.String",
+            "FieldLength": 468
           }
         }
       }
     ],
-    "IconHint": "cumque",
-    "ColorBlock": 331,
-    "ExtraInfo": "dolor",
-    "StyleHint": "sint",
-    "FullName": "Camylle Vinnie Brekke DVM",
+    "IconHint": "corporis",
+    "ColorBlock": 261,
+    "ExtraInfo": "non",
+    "StyleHint": "et",
+    "FullName": "Alberto Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldLength": 226
       }
     }
   }

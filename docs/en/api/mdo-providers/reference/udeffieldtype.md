@@ -50,7 +50,7 @@ Accept-Language: *
 
 ## Sample Code
 ```cs
-var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("udeffieldtype", forceFlatList: true);
+var listProvider = ClassFactory.CreateRequired<SuperOffice.CRM.Lists.ISoListProviderFactory>().Create("udeffieldtype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
     Console.WriteLine("{0} {1} {2} {3}", 
          item.Id, ResourceManager.ParseInlineResources(item.Name), item.StyleHint, item.ExtraInfo);
@@ -61,7 +61,14 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-| 2 | Example | | |
+|1|Number|||
+|2|Short text|||
+|3|Long text|||
+|4|Date|||
+|5|Unlimited date|||
+|6|Checkbox|||
+|7|List|||
+|8|Decimal|||
 
 
 ## Related MDO Lists

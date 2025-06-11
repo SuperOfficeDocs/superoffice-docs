@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 702,
-  "ColumnId": 28,
-  "FieldDefault": "omnis",
-  "FieldHeight": 780,
-  "FieldLabel": "similique",
-  "FieldLeft": 163,
-  "FieldTop": 158,
+  "UDefFieldId": 974,
+  "ColumnId": 180,
+  "FieldDefault": "distinctio",
+  "FieldHeight": 928,
+  "FieldLabel": "aliquid",
+  "FieldLeft": 188,
+  "FieldTop": 630,
   "FieldType": "Checkbox",
-  "FieldWidth": 228,
-  "FormatMask": "distinctio",
+  "FieldWidth": 28,
+  "FormatMask": "neque",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 849,
-  "LabelLeft": 657,
-  "LabelTop": 743,
-  "LabelWidth": 97,
-  "LastVersionId": 199,
-  "ListTableId": 742,
+  "IsIndexed": true,
+  "LabelHeight": 917,
+  "LabelLeft": 128,
+  "LabelTop": 6,
+  "LabelWidth": 487,
+  "LastVersionId": 224,
+  "ListTableId": 432,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 776,
-  "ProgId": "molestiae",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptate",
-  "TabOrder": 380,
-  "TextLength": 247,
-  "Tooltip": "atque",
-  "UdefIdentity": 100,
-  "UDListDefinitionId": 167,
+  "Page1LineNo": 387,
+  "ProgId": "ea",
+  "IsReadOnly": false,
+  "ShortLabel": "vel",
+  "TabOrder": 818,
+  "TextLength": 155,
+  "Tooltip": "expedita",
+  "UdefIdentity": 244,
+  "UDListDefinitionId": 253,
   "Justification": "Center",
-  "Version": 788,
-  "TemplateVariableName": "Ebert Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Cummerata Group",
+  "Version": 217,
+  "TemplateVariableName": "Tillman Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Muller Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 461
     }
   }
 }

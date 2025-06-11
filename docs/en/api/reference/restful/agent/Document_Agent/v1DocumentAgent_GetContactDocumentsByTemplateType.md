@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 670,
-  "StartTime": "1999-04-27T16:32:38.6333805+02:00",
-  "EndTime": "1999-01-16T16:32:38.6333805+01:00",
-  "Count": 575,
-  "DocumentTemplateId": 755
+  "ContactId": 721,
+  "StartTime": "2006-11-15T17:54:02.9452152+01:00",
+  "EndTime": "2005-01-16T17:54:02.9452152+01:00",
+  "Count": 813,
+  "DocumentTemplateId": 356
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 559,
-    "Attention": "nihil",
-    "Header": "deserunt",
-    "Name": "Jacobson LLC",
-    "OurRef": "sed",
-    "YourRef": "in",
-    "Description": "Business-focused real-time groupware",
-    "DocumentTemplate": "exercitationem",
+    "DocumentId": 18,
+    "Attention": "illo",
+    "Header": "nihil",
+    "Name": "Crona Group",
+    "OurRef": "voluptatum",
+    "YourRef": "eveniet",
+    "Description": "Optional empowering time-frame",
+    "DocumentTemplate": "ab",
     "IsPublished": true,
-    "PersonId": 742,
-    "PersonFullName": "Janae Mann",
-    "AssociateFullName": "Maiya Kaleb Barrows DDS",
-    "ContactId": 221,
-    "ContactName": "Watsica-Hessel",
-    "ProjectId": 382,
-    "ProjectName": "Watsica Group",
-    "AssociateId": 499,
-    "Snum": 494,
-    "SaleId": 335,
-    "SaleName": "Kilback Group",
+    "PersonId": 290,
+    "PersonFullName": "Flavie Herzog",
+    "AssociateFullName": "Lavina Rau III",
+    "ContactId": 851,
+    "ContactName": "White, Simonis and Orn",
+    "ProjectId": 658,
+    "ProjectName": "Bernhard, Johnson and Sauer",
+    "AssociateId": 823,
+    "Snum": 97,
+    "SaleId": 201,
+    "SaleName": "Wintheiser, Reichel and Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldLength": 47
       }
     }
   }

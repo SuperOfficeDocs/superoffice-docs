@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 462,
-  "Name": "Feil, Marks and Bednar",
-  "Tooltip": "accusantium",
-  "VisibleColumns": 607,
-  "Rank": 687,
-  "AssocId": 98,
+  "DiaryViewId": 618,
+  "Name": "Schiller LLC",
+  "Tooltip": "temporibus",
+  "VisibleColumns": 165,
+  "Rank": 445,
+  "AssocId": 971,
   "AssociateList": [
     {
-      "Id": 930,
-      "Name": "DuBuque, Howe and Veum",
-      "ToolTip": "Sit explicabo totam vel atque voluptatum consectetur.",
-      "Deleted": false,
-      "Rank": 639,
-      "Type": "illum",
-      "ColorBlock": 397,
-      "IconHint": "itaque",
+      "Id": 55,
+      "Name": "Krajcik, Konopelski and Ward",
+      "ToolTip": "Perferendis reprehenderit odit magni nostrum dolores voluptates.",
+      "Deleted": true,
+      "Rank": 584,
+      "Type": "repudiandae",
+      "ColorBlock": 70,
+      "IconHint": "unde",
       "Selected": false,
-      "LastChanged": "2012-10-26T16:32:38.3678168+02:00",
+      "LastChanged": "2022-05-13T17:54:02.7889727+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repellendus",
-      "StyleHint": "possimus",
+      "ExtraInfo": "velit",
+      "StyleHint": "ut",
       "Hidden": false,
-      "FullName": "Jan Heaney PhD",
+      "FullName": "Ms. Isai Sauer V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldLength": 657
         }
       }
     }
   ],
-  "TzLocationId": 230,
+  "TzLocationId": 536,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldLength": 150
     }
   }
 }

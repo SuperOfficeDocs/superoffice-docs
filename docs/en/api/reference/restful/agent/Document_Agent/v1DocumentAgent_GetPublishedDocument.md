@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 15
+  "DocumentId": 840
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 767,
-  "Attention": "occaecati",
-  "Header": "aut",
-  "Name": "Stroman, Rau and Rolfson",
-  "OurRef": "autem",
-  "YourRef": "corporis",
-  "Description": "Horizontal zero tolerance open architecture",
-  "DocumentTemplate": "est",
+  "DocumentId": 952,
+  "Attention": "rerum",
+  "Header": "facere",
+  "Name": "Hessel, Pollich and Miller",
+  "OurRef": "ullam",
+  "YourRef": "odit",
+  "Description": "Enhanced content-based approach",
+  "DocumentTemplate": "sed",
   "IsPublished": true,
-  "PersonId": 113,
-  "PersonFullName": "Annette Ledner",
-  "AssociateFullName": "Wellington Conroy",
-  "ContactId": 787,
-  "ContactName": "Schmeler-Stoltenberg",
-  "ProjectId": 672,
-  "ProjectName": "Tremblay LLC",
-  "AssociateId": 263,
-  "Snum": 370,
-  "SaleId": 280,
-  "SaleName": "Pfannerstill LLC",
+  "PersonId": 944,
+  "PersonFullName": "Prof. Furman Haley MD",
+  "AssociateFullName": "Mrs. Dylan Zemlak",
+  "ContactId": 946,
+  "ContactName": "Emmerich, Bashirian and Beer",
+  "ProjectId": 222,
+  "ProjectName": "Glover, Kris and Cartwright",
+  "AssociateId": 761,
+  "Snum": 345,
+  "SaleId": 203,
+  "SaleName": "Raynor, Mitchell and Blick",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldLength": 669
     }
   }
 }

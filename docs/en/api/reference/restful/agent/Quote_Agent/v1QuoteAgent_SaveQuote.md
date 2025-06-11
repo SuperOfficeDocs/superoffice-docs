@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 459,
-  "SaleId": 992,
-  "QuoteConnectionId": 575,
-  "ERPQuoteKey": "sint",
-  "ERPOrderKey": "consequuntur",
-  "ActiveQuoteVersionId": 514,
-  "AcceptedQuoteAlternativeId": 617,
-  "UseValuesFromQuote": 211,
-  "DocumentId": 314,
-  "PoNumber": "881631",
-  "OrderComment": "at",
-  "PreferredEmailCulture": "freddie@larson.us",
+  "QuoteId": 143,
+  "SaleId": 196,
+  "QuoteConnectionId": 481,
+  "ERPQuoteKey": "occaecati",
+  "ERPOrderKey": "repudiandae",
+  "ActiveQuoteVersionId": 720,
+  "AcceptedQuoteAlternativeId": 361,
+  "UseValuesFromQuote": 529,
+  "DocumentId": 837,
+  "PoNumber": "438634",
+  "OrderComment": "qui",
+  "PreferredEmailCulture": "rodger_lowe@mann.biz",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldLength": 957
     }
   }
 }

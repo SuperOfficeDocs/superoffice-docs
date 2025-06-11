@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 589,
-  "Name": "Conn-Leffler",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 214,
-  "Rank": 750,
+  "Id": 242,
+  "Name": "Roberts-Gutmann",
+  "Tooltip": "fuga",
+  "Deleted": true,
+  "UdListDefinitionId": 633,
+  "Rank": 939,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 26
+      "FieldType": "System.Int32",
+      "FieldLength": 599
     }
   }
 }

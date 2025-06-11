@@ -328,7 +328,7 @@ title: Services88.ListAgent WSDL
       <xs:element name="GetTaskList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TaskIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="SoTaskIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

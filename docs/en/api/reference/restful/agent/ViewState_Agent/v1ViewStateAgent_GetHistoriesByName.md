@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Barton, Schowalter and Gutkowski"
+  "HistoryName": "Stark Group"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 622,
-    "Id": 369,
-    "HistoryName": "Kautzer LLC",
-    "HistoryId": 107,
-    "AssociateId": 507,
-    "Name": "Kuvalis, Bernhard and O'Conner",
-    "ItemInfo": "vel",
+    "Rank": 999,
+    "Id": 747,
+    "HistoryName": "Morar-Lockman",
+    "HistoryId": 723,
+    "AssociateId": 76,
+    "Name": "Schamberger, Walsh and McLaughlin",
+    "ItemInfo": "tempora",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 358
       }
     }
   }

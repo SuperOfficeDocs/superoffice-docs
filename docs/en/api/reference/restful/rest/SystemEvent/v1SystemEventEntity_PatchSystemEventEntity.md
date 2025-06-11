@@ -97,16 +97,16 @@ SystemEventEntity  updated.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | int32 | Primary key |
-| Scope | string | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | date-time | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | string | Event key, predefined in code |
-| Eventmess | string | Message to be shown, entered by administrator |
-| ExtraInfo | int32 | Extra information (area id for prototype rebuild, etc) |
-| Owner | int32 | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | int32 | Number of updates made to this record |
-| Registered | date-time | Registered when  in UTC. |
-| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| SystemEventId | int32 |  |
+| Scope | string |  |
+| Eta | date-time |  |
+| Eventkey | string |  |
+| Eventmess | string |  |
+| ExtraInfo | int32 |  |
+| Owner | int32 |  |
+| UpdatedCount | int32 |  |
+| Registered | date-time |  |
+| ActivatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nihil",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nihil",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 550,
+  "SystemEventId": 326,
   "Scope": "Database",
-  "Eta": "2022-11-20T16:32:48.118198+01:00",
-  "Eventkey": "laudantium",
-  "Eventmess": "impedit",
-  "ExtraInfo": 67,
-  "Owner": 313,
-  "UpdatedCount": 245,
-  "Registered": "2010-05-16T16:32:48.118198+02:00",
+  "Eta": "2009-09-05T17:54:08.5543174+02:00",
+  "Eventkey": "voluptas",
+  "Eventmess": "sint",
+  "ExtraInfo": 243,
+  "Owner": 614,
+  "UpdatedCount": 70,
+  "Registered": "2015-08-17T17:54:08.5543174+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldLength": 818
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

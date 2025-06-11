@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 882,
-  "Name": "Sauer-Heidenreich",
-  "Tooltip": "et",
-  "VisibleColumns": 393,
-  "Rank": 763,
-  "AssocId": 308,
+  "DiaryViewId": 208,
+  "Name": "Schulist, Klein and Marquardt",
+  "Tooltip": "recusandae",
+  "VisibleColumns": 363,
+  "Rank": 119,
+  "AssocId": 196,
   "AssociateList": [
     {
-      "Id": 334,
-      "Name": "Pagac-Murphy",
-      "ToolTip": "Consequatur totam eos.",
+      "Id": 426,
+      "Name": "Weimann-Cremin",
+      "ToolTip": "Ipsum ut.",
       "Deleted": true,
-      "Rank": 903,
-      "Type": "rem",
-      "ColorBlock": 738,
-      "IconHint": "debitis",
+      "Rank": 760,
+      "Type": "adipisci",
+      "ColorBlock": 96,
+      "IconHint": "similique",
       "Selected": false,
-      "LastChanged": "2008-09-07T16:32:38.3678168+02:00",
+      "LastChanged": "2004-07-22T17:54:02.8045994+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "nostrum",
-      "Hidden": true,
-      "FullName": "Dahlia McLaughlin III"
+      "ExtraInfo": "vel",
+      "StyleHint": "in",
+      "Hidden": false,
+      "FullName": "Ms. Cynthia Rohan III"
     }
   ],
-  "TzLocationId": 457
+  "TzLocationId": 743
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 557,
-  "Name": "Lind-Little",
-  "Tooltip": "quia",
-  "VisibleColumns": 421,
-  "Rank": 515,
-  "AssocId": 156,
+  "DiaryViewId": 798,
+  "Name": "Rau Inc and Sons",
+  "Tooltip": "cumque",
+  "VisibleColumns": 791,
+  "Rank": 541,
+  "AssocId": 956,
   "AssociateList": [
     {
-      "Id": 515,
-      "Name": "Larson, Schuster and Schinner",
-      "ToolTip": "Sit dolores perspiciatis.",
+      "Id": 858,
+      "Name": "Kutch Inc and Sons",
+      "ToolTip": "Sunt dolor sed aperiam.",
       "Deleted": false,
-      "Rank": 81,
-      "Type": "qui",
-      "ColorBlock": 462,
-      "IconHint": "veniam",
-      "Selected": false,
-      "LastChanged": "2019-01-25T16:32:38.3678168+01:00",
+      "Rank": 8,
+      "Type": "ut",
+      "ColorBlock": 901,
+      "IconHint": "ea",
+      "Selected": true,
+      "LastChanged": "2006-02-06T17:54:02.8202276+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "enim",
-      "StyleHint": "fuga",
-      "Hidden": false,
-      "FullName": "Prof. Beverly Cornelius Fahey",
+      "ExtraInfo": "sed",
+      "StyleHint": "ut",
+      "Hidden": true,
+      "FullName": "Nils Waelchi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 757
+          "FieldLength": 975
         }
       }
     }
   ],
-  "TzLocationId": 579,
+  "TzLocationId": 832,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 503
+      "FieldType": "System.Int32",
+      "FieldLength": 35
     }
   }
 }

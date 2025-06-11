@@ -27,7 +27,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=amet
+GET /api/v1/List/ReasonSold/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 489,
-    "Name": "Stehr, Rosenbaum and McLaughlin",
-    "ToolTip": "Explicabo voluptas rem nesciunt id consequatur sed laudantium.",
+    "Id": 223,
+    "Name": "Heller, Kautzer and Russel",
+    "ToolTip": "Laborum quas eaque accusantium dolorem nulla ea.",
     "Deleted": false,
-    "Rank": 803,
-    "Type": "ullam",
+    "Rank": 800,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Keebler-Becker",
-        "ToolTip": "Corporis doloremque quaerat veniam molestiae ipsum.",
-        "Deleted": false,
-        "Rank": 74,
-        "Type": "beatae",
+        "Id": 533,
+        "Name": "Beatty-Baumbach",
+        "ToolTip": "Qui expedita id in non aliquid.",
+        "Deleted": true,
+        "Rank": 677,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorum",
-        "ColorBlock": 178,
-        "ExtraInfo": "esse",
-        "StyleHint": "enim",
-        "FullName": "Aniya Beatrice Doyle III",
+        "IconHint": "explicabo",
+        "ColorBlock": 488,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "repellendus",
+        "FullName": "Mr. Humberto Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldLength": 333
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 940,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "quis",
-    "FullName": "Mabel Dibbert",
+    "IconHint": "voluptatibus",
+    "ColorBlock": 555,
+    "ExtraInfo": "fugit",
+    "StyleHint": "veniam",
+    "FullName": "Mr. Seamus Lebsack I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldType": "System.String",
+        "FieldLength": 959
       }
     }
   }

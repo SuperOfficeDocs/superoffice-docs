@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Kuhic LLC",
-  "ResourceValues": "veritatis",
-  "Culture": "sint",
-  "IsActive": false
+  "ResourceName": "Cronin Inc and Sons",
+  "ResourceValues": "magni",
+  "Culture": "et",
+  "IsActive": true
 }
 ```
 

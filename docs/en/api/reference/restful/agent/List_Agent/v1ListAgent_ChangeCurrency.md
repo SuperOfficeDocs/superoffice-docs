@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 14228.359999999999,
-  "FromCurrency": "aut",
-  "ToCurrency": "animi"
+  "Amount": 26287.992,
+  "FromCurrency": "illo",
+  "ToCurrency": "est"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-4867.102
+3886.16
 ```

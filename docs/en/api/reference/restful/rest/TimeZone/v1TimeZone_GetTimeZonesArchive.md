@@ -39,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=aut
-GET /api/v1/TimeZone?$top=444
-GET /api/v1/TimeZone?$skip=476
+GET /api/v1/TimeZone?$entities=nulla
+GET /api/v1/TimeZone?$top=89
+GET /api/v1/TimeZone?$skip=431
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=ut
+GET /api/v1/TimeZone?$context=doloremque
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -96,19 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "vitae",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 5688,
-      "EntityName": "person",
-      "personId": 5688,
-      "fullName": "Colin Leannon"
+      "PrimaryKey": 4050,
+      "EntityName": "sale",
+      "saleId": 4050,
+      "contactId": 7998,
+      "name": "Gorczany Group"
     },
     {
-      "PrimaryKey": 9090,
-      "EntityName": "person",
-      "personId": 9090,
-      "fullName": "Baylee Khalid McClure V"
+      "PrimaryKey": 8094,
+      "EntityName": "sale",
+      "saleId": 8094,
+      "contactId": 2630,
+      "name": "Dare-Hand"
     }
   ]
 }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Value": "quas",
+    "Id": 865,
+    "Value": "ipsam",
     "Tooltip": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 344
+        "FieldType": "System.Int32",
+        "FieldLength": 382
       }
     }
   },
   {
-    "Id": 926,
-    "Value": "quas",
+    "Id": 865,
+    "Value": "ipsam",
     "Tooltip": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 344
+        "FieldType": "System.Int32",
+        "FieldLength": 382
       }
     }
   }

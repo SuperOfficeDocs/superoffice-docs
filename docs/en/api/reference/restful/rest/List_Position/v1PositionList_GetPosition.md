@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 518,
-  "Name": "Collins Group",
-  "Tooltip": "vitae",
-  "Deleted": true,
-  "UdListDefinitionId": 437,
-  "Rank": 459,
+  "Id": 675,
+  "Name": "Dickinson LLC",
+  "Tooltip": "magni",
+  "Deleted": false,
+  "UdListDefinitionId": 37,
+  "Rank": 494,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 523
+      "FieldType": "System.Int32",
+      "FieldLength": 400
     }
   }
 }

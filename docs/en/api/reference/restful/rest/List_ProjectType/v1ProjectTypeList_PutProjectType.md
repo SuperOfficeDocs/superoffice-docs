@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Gaylord-Cruickshank",
-  "Tooltip": "aspernatur",
-  "Deleted": false,
-  "UdListDefinitionId": 614,
-  "Rank": 377
+  "Id": 709,
+  "Name": "Hettinger-Bednar",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "UdListDefinitionId": 907,
+  "Rank": 746
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 551,
-  "Name": "Cummerata Group",
-  "Tooltip": "dicta",
-  "Deleted": true,
-  "UdListDefinitionId": 292,
-  "Rank": 96,
+  "Id": 732,
+  "Name": "McLaughlin, Lindgren and Schumm",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "UdListDefinitionId": 430,
+  "Rank": 6,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 397
     }
   }
 }

@@ -70,6 +70,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectAssociate/contactCategory|listAny|Category: Category| x |
 |projectAssociate/role|listAny|Role : Role| x |
@@ -120,11 +121,11 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |saintActivityType|listAny|SAINT type|  |
 |saintDirection|listAny|Direction|  |
 |saintIntention|listAny|Intention|  |
-|saintTicketStatus|listAny|Status|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |sale/icon|listAny|Category: Displays the icon for an activity type| x |
@@ -199,6 +200,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |sale/associate/contactCategory|listAny|Category: Category| x |
 |sale/associate/role|listAny|Role : Role| x |
@@ -223,12 +225,12 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
-|sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
-|sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
+|sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
 |sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |appointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
@@ -299,6 +301,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointment/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |appointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointment/associate/contactCategory|listAny|Category: Category| x |
 |appointment/associate/role|listAny|Role : Role| x |
@@ -326,13 +329,13 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/appointment/textId|int|Text ID| x |
-|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
-|appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
-|document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
+|document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |document/time| *None* |Time: Time|  |
@@ -382,6 +385,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|document/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |document/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |document/associate/contactCategory|listAny|Category: Category| x |
 |document/associate/role|listAny|Role : Role| x |
@@ -429,14 +433,14 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/position|listAny|Position| x |
 |projectMember/personNumber|string|Number: Displays the contact's number| x |
-|projectMember/title|string|Title: Displays the contact's job title| x |
-|projectMember/personCountry|listAny|Country: Country| x |
-|projectMember/personCountryId|int|Country ID: Country ID| x |
-|projectMember/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/title|string|Title: Displays the contact's job title| x |
+|projectMember/personCountry|listAny|Country: Country| x |
+|projectMember/personCountryId|int|Country ID: Country ID| x |
+|projectMember/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
 |projectMember/rank|int|Rank: Displays a contact's current rank| x |
 |projectMember/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
 |projectMember/associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
@@ -533,14 +537,15 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |projectMember/personUdef/SuperOffice:11|string|page1adminonly| x |
 |projectMember/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
-|projectMember/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
-|projectMember/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
-|projectMember/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
-|projectMember/personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
+|projectMember/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
+|projectMember/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|projectMember/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|projectMember/personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
 |projectMember/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
 |projectMember/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
 |projectMember/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
@@ -571,6 +576,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMember/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMember/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectMember/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |projectMember/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMember/personAssociate/contactCategory|listAny|Category: Category| x |
 |projectMember/personAssociate/role|listAny|Role : Role| x |
@@ -603,6 +609,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMember/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMember/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectMember/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |projectMember/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMember/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |projectMember/correspondingAssociate/role|listAny|Role : Role| x |
@@ -634,6 +641,10 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/consentSourceStore|listAny|Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |projectMember/consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |projectMember/name|stringorPK|Company name| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/department|string|Department| x |
 |projectMember/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
 |projectMember/associateId|associate|Our contact: Displays our contact| x |
@@ -641,10 +652,6 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/business|listAny|Business| x |
 |projectMember/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |projectMember/countryId|int|Country ID: Country ID| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/number|string|Number| x |
 |projectMember/code|string|Code| x |
 |projectMember/orgnr|string|VAT No.| x |
@@ -711,6 +718,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMember/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMember/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectMember/contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |projectMember/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMember/contactAssociate/contactCategory|listAny|Category: Category| x |
 |projectMember/contactAssociate/role|listAny|Role : Role| x |
@@ -737,6 +745,10 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/contactUdef/SuperOffice:3|int|companynumber| x |
 |projectMember/contactUdef/SuperOffice:4|date|companydate| x |
 |projectMember/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |projectMember/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
 |projectMember/contactUdef/SuperOffice:8|decimal|companydecimal| x |
@@ -745,11 +757,8 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |projectMember/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |projectMember/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|projectMember/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |projectMember/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |projectMember/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |projectMember/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -801,7 +810,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintProject?$select=projectEvent/eventDate,saintDirection,saintTicketCategory,appointment/appointmentPublish/isPublished,appointment/associate/credentialDisplayValue
+GET /api/v1/archive/SaintProject?$select=sale/associate/contactFullName,sale/associate/ejDisplayName,document/subject,projectMember/personCountryId,projectMember/personUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

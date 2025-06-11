@@ -166,7 +166,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "veniam",
+  "SaleText": "in",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-06-13T16:32:47.9932265+02:00",
-  "Amount": 6929.2739999999994,
-  "SaleId": 83,
-  "Earning": 19628.242,
-  "EarningPercent": 16387.685999999998,
-  "Heading": "quo",
-  "Number": "1151806",
-  "Probability": 52,
-  "CreatedDate": "2021-01-23T16:32:47.9932265+01:00",
-  "UpdatedDate": "2023-08-19T16:32:47.9932265+02:00",
+  "Saledate": "1999-08-29T17:54:08.5076972+02:00",
+  "Amount": 4600.7119999999995,
+  "SaleId": 313,
+  "Earning": 14055.99,
+  "EarningPercent": 21408.354,
+  "Heading": "numquam",
+  "Number": "439093",
+  "Probability": 386,
+  "CreatedDate": "1999-12-21T17:54:08.5076972+01:00",
+  "UpdatedDate": "2010-10-07T17:54:08.5076972+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 468,
+  "ActiveLinks": 550,
   "Links": [
     {
-      "EntityName": "Kautzer-Hirthe",
-      "Id": 533,
-      "Description": "Upgradable analyzing monitoring",
-      "ExtraInfo": "ut",
-      "LinkId": 155
+      "EntityName": "Kerluke Inc and Sons",
+      "Id": 183,
+      "Description": "Profit-focused assymetric budgetary management",
+      "ExtraInfo": "voluptatibus",
+      "LinkId": 686
     },
     {
-      "EntityName": "Kautzer-Hirthe",
-      "Id": 533,
-      "Description": "Upgradable analyzing monitoring",
-      "ExtraInfo": "ut",
-      "LinkId": 155
+      "EntityName": "Kerluke Inc and Sons",
+      "Id": 183,
+      "Description": "Profit-focused assymetric budgetary management",
+      "ExtraInfo": "voluptatibus",
+      "LinkId": 686
     }
   ],
-  "NextDueDate": "2006-09-05T16:32:47.9932265+02:00",
-  "Postit": "ut",
+  "NextDueDate": "2001-02-05T17:54:08.5076972+01:00",
+  "Postit": "nulla",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2016-05-14T16:32:47.9932265+02:00",
+  "ReopenDate": "2011-05-23T17:54:08.5076972+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Bergnaum-Pacocha",
-      "Comment": "deleniti",
-      "StakeholderRoleId": 982,
-      "CountryId": 433,
-      "PersonId": 792,
-      "EmailDescription": "mona@collins.ca",
-      "EmailId": 348,
-      "EmailAddress": "arnulfo@barrows.biz",
-      "PhoneId": 544,
-      "ContactName": "Beatty Group",
-      "ContactId": 135,
-      "SaleId": 779,
-      "Mrmrs": "dolorum",
-      "Firstname": "Fred",
-      "MiddleName": "Ruecker, West and Reynolds",
-      "Lastname": "Schuster",
-      "SaleStakeholderId": 881,
-      "Rank": 513,
-      "Phone": "1-676-878-0720 x8921"
+      "StakeholderRoleName": "Quitzon Inc and Sons",
+      "Comment": "aut",
+      "StakeholderRoleId": 211,
+      "CountryId": 450,
+      "PersonId": 594,
+      "EmailDescription": "karen_kerluke@dach.ca",
+      "EmailId": 639,
+      "EmailAddress": "jaden@bosco.biz",
+      "PhoneId": 143,
+      "ContactName": "Dare Group",
+      "ContactId": 905,
+      "SaleId": 951,
+      "Mrmrs": "possimus",
+      "Firstname": "Leon",
+      "MiddleName": "Auer-Ryan",
+      "Lastname": "Oberbrunner",
+      "SaleStakeholderId": 778,
+      "Rank": 43,
+      "Phone": "(876)431-1126"
     }
   ],
-  "ActiveErpLinks": 837,
+  "ActiveErpLinks": 260,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alejandrin Kirlin I",
-    "SuperOffice:2": "272788478"
+    "SuperOffice:1": "Ms. Randal West DDS",
+    "SuperOffice:2": "Mr. Korbin Nikolaus"
   },
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "eius",
-    "CustomFields2": "sed"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "sequi"
   },
-  "PublishEventDate": "2001-04-22T16:32:47.9932265+02:00",
-  "PublishTo": "2005-09-14T16:32:47.9932265+02:00",
-  "PublishFrom": "2007-10-15T16:32:47.9932265+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-01-23T17:54:08.5076972+01:00",
+  "PublishTo": "2025-03-20T17:54:08.5076972+01:00",
+  "PublishFrom": "2002-09-12T17:54:08.5076972+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 398,
+      "VisibleId": 31,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "quos"
     },
     {
-      "VisibleId": 398,
+      "VisibleId": 31,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "quos"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "repellendus",
+  "SaleText": "qui",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-08-26T16:32:48.008849+02:00",
-  "Amount": 5152.296,
-  "SaleId": 395,
-  "Earning": 18155.262,
-  "EarningPercent": 27616.808,
-  "Heading": "molestias",
-  "Number": "466190",
-  "Probability": 352,
-  "CreatedDate": "2001-05-05T16:32:48.008849+02:00",
-  "UpdatedDate": "2003-11-29T16:32:48.008849+01:00",
+  "Saledate": "2004-11-17T17:54:08.5076972+01:00",
+  "Amount": 8013.638,
+  "SaleId": 975,
+  "Earning": 11918.601999999999,
+  "EarningPercent": 29979.843999999997,
+  "Heading": "vitae",
+  "Number": "1346310",
+  "Probability": 928,
+  "CreatedDate": "1999-05-06T17:54:08.5076972+02:00",
+  "UpdatedDate": "2010-02-22T17:54:08.5076972+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 370,
+  "ActiveLinks": 989,
   "Links": [
     {
-      "EntityName": "Kunze Inc and Sons",
-      "Id": 540,
-      "Description": "Profound homogeneous website",
-      "ExtraInfo": "optio",
-      "LinkId": 717,
+      "EntityName": "Lynch-Prosacco",
+      "Id": 907,
+      "Description": "Cross-group homogeneous data-warehouse",
+      "ExtraInfo": "impedit",
+      "LinkId": 695,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 980
+          "FieldLength": 330
         }
       }
     }
   ],
-  "NextDueDate": "2019-07-20T16:32:48.008849+02:00",
-  "Postit": "illo",
+  "NextDueDate": "2011-06-10T17:54:08.5076972+02:00",
+  "Postit": "et",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-07-19T16:32:48.008849+02:00",
+  "ReopenDate": "2015-09-04T17:54:08.5076972+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Jenkins LLC",
-      "Comment": "possimus",
-      "StakeholderRoleId": 567,
-      "CountryId": 127,
-      "PersonId": 523,
-      "EmailDescription": "madalyn@schamberger.name",
-      "EmailId": 829,
-      "EmailAddress": "edgardo@rolfson.ca",
-      "PhoneId": 805,
-      "ContactName": "Mraz-Hansen",
-      "ContactId": 383,
-      "SaleId": 676,
-      "Mrmrs": "omnis",
-      "Firstname": "Leonard",
-      "MiddleName": "Block LLC",
-      "Lastname": "Volkman",
-      "SaleStakeholderId": 73,
-      "Rank": 533,
-      "Phone": "1-964-146-0182",
+      "StakeholderRoleName": "Gutkowski-Barton",
+      "Comment": "earum",
+      "StakeholderRoleId": 978,
+      "CountryId": 231,
+      "PersonId": 392,
+      "EmailDescription": "dortha@wisozk.name",
+      "EmailId": 11,
+      "EmailAddress": "favian_anderson@dubuque.uk",
+      "PhoneId": 202,
+      "ContactName": "Ortiz, Lesch and Trantow",
+      "ContactId": 969,
+      "SaleId": 76,
+      "Mrmrs": "at",
+      "Firstname": "Hardy",
+      "MiddleName": "Douglas, Jast and Hodkiewicz",
+      "Lastname": "Daugherty",
+      "SaleStakeholderId": 743,
+      "Rank": 817,
+      "Phone": "199.595.1923 x0990",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 463
+          "FieldLength": 940
         }
       }
     }
   ],
-  "ActiveErpLinks": 943,
+  "ActiveErpLinks": 327,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1056146116"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Bridie Romaguera"
   },
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "mollitia"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "cumque",
-    "CustomFields2": "ipsum"
+    "CustomFields1": "aut",
+    "CustomFields2": "corporis"
   },
-  "PublishEventDate": "2020-10-12T16:32:48.008849+02:00",
-  "PublishTo": "2015-03-02T16:32:48.008849+01:00",
-  "PublishFrom": "2006-11-29T16:32:48.008849+01:00",
+  "PublishEventDate": "2014-11-30T17:54:08.5076972+01:00",
+  "PublishTo": "2018-05-18T17:54:08.5076972+02:00",
+  "PublishFrom": "2013-04-23T17:54:08.5076972+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 123,
+      "VisibleId": 811,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 297
         }
       }
     },
     {
-      "VisibleId": 123,
+      "VisibleId": 811,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 297
         }
       }
     }
@@ -411,13 +411,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 472
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

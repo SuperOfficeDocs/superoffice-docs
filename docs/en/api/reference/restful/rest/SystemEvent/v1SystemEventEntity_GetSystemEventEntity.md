@@ -62,16 +62,16 @@ SystemEventEntity found.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | int32 | Primary key |
-| Scope | string | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | date-time | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | string | Event key, predefined in code |
-| Eventmess | string | Message to be shown, entered by administrator |
-| ExtraInfo | int32 | Extra information (area id for prototype rebuild, etc) |
-| Owner | int32 | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | int32 | Number of updates made to this record |
-| Registered | date-time | Registered when  in UTC. |
-| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| SystemEventId | int32 |  |
+| Scope | string |  |
+| Eta | date-time |  |
+| Eventkey | string |  |
+| Eventmess | string |  |
+| ExtraInfo | int32 |  |
+| Owner | int32 |  |
+| UpdatedCount | int32 |  |
+| Registered | date-time |  |
+| ActivatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -82,7 +82,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,27 +92,27 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 973,
+  "SystemEventId": 479,
   "Scope": "Database",
-  "Eta": "2008-10-18T16:32:48.118198+02:00",
-  "Eventkey": "qui",
-  "Eventmess": "velit",
-  "ExtraInfo": 719,
-  "Owner": 765,
-  "UpdatedCount": 694,
-  "Registered": "2010-05-14T16:32:48.118198+02:00",
+  "Eta": "2007-01-05T17:54:08.5543174+01:00",
+  "Eventkey": "inventore",
+  "Eventmess": "aut",
+  "ExtraInfo": 551,
+  "Owner": 207,
+  "UpdatedCount": 960,
+  "Registered": "2011-07-16T17:54:08.5543174+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 128
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

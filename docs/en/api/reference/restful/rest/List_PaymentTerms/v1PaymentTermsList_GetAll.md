@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Hamill, Flatley and McKenzie",
-    "Tooltip": "praesentium",
+    "Id": 651,
+    "Name": "Gusikowski-Hagenes",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "UdListDefinitionId": 439,
-    "Rank": 766,
+    "UdListDefinitionId": 24,
+    "Rank": 505,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldType": "System.String",
+        "FieldLength": 459
       }
     }
   }

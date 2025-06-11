@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Sale/SetAsSoldWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    981,
-    219
+    701,
+    536
   ],
-  "ReasonId": 30
+  "ReasonId": 325
 }
 ```
 

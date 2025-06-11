@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 905,
-  "WorkflowId": 398,
+  "WorkflowTriggerId": 139,
+  "WorkflowId": 338,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Welch Inc and Sons",
-      "Description": "Extended secondary complexity",
-      "Rank": 928,
+      "Name": "Collins-Flatley",
+      "Description": "Profound regional encoding",
+      "Rank": 483,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Welch Inc and Sons",
-      "Description": "Extended secondary complexity",
-      "Rank": 928,
+      "Name": "Collins-Flatley",
+      "Description": "Profound regional encoding",
+      "Rank": 483,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 821,
-  "WorkflowId": 491,
+  "WorkflowTriggerId": 800,
+  "WorkflowId": 305,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Schuppe-Doyle",
-      "Description": "Profound bottom-line ability",
-      "Rank": 238,
+      "Name": "Cremin Inc and Sons",
+      "Description": "Balanced executive hierarchy",
+      "Rank": 348,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schuppe-Doyle",
-      "Description": "Profound bottom-line ability",
-      "Rank": 238,
+      "Name": "Cremin Inc and Sons",
+      "Description": "Balanced executive hierarchy",
+      "Rank": 348,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldLength": 427
     }
   }
 }

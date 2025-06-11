@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 369
+  "KbEntryId": 272
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "accusamus",
-  "RegisteredByFullName": "Jeremy Zulauf",
-  "Updated": "2024-05-22T16:32:38.5865163+02:00",
-  "Question": "officiis",
-  "Answer": "est",
+  "Title": "ex",
+  "RegisteredByFullName": "Karson Lonzo Watsica Jr.",
+  "Updated": "2010-03-13T17:54:02.9295831+01:00",
+  "Question": "labore",
+  "Answer": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldType": "System.String",
+      "FieldLength": 9
     }
   }
 }

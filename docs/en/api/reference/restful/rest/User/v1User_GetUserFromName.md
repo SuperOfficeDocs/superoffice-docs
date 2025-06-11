@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 97,
-  "Name": "Homenick-Kunze",
-  "Rank": 62,
-  "Tooltip": "et",
+  "AssociateId": 186,
+  "Name": "Brown, Welch and Jakubowski",
+  "Rank": 932,
+  "Tooltip": "quia",
   "LicenseOwners": [
     {
-      "Name": "Grady-Fadel",
-      "Description": "Open-source mission-critical hierarchy",
+      "Name": "Wunsch, Labadie and Kris",
+      "Description": "Horizontal clear-thinking synergy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 646
         }
       }
     },
     {
-      "Name": "Grady-Fadel",
-      "Description": "Open-source mission-critical hierarchy",
+      "Name": "Wunsch, Labadie and Kris",
+      "Description": "Horizontal clear-thinking synergy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 646
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nisi",
-      "Tooltip": "velit",
-      "Id": 528,
-      "Rank": 912,
+      "Value": "dolorem",
+      "Tooltip": "impedit",
+      "Id": 445,
+      "Rank": 88,
       "Deleted": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 769
-        }
-      }
-    }
-  ],
-  "Person": null,
-  "Deleted": true,
-  "Lastlogin": "1998-06-18T16:32:48.4308337+02:00",
-  "Lastlogout": "2019-01-04T16:32:48.4308337+01:00",
-  "EjUserId": 557,
-  "RequestSignature": "quam",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
-  "Credentials": [
-    {
-      "Type": null,
-      "Value": "dolore",
-      "DisplayValue": "nostrum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 435
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "dolore",
-      "DisplayValue": "nostrum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 435
-        }
-      }
-    }
-  ],
-  "UserName": "Koelpin Group",
-  "TicketCategories": [
-    {
-      "Id": 330,
-      "Name": "Jacobson-Bartoletti",
-      "ToolTip": "Consequuntur esse dolore tempore ut nam cumque cum.",
-      "Deleted": false,
-      "Rank": 56,
-      "Type": "atque",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "aliquid",
-      "ColorBlock": 662,
-      "ExtraInfo": "eos",
-      "StyleHint": "voluptas",
-      "FullName": "Ms. Daniela Wyman III",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 448
-        }
-      }
-    }
-  ],
-  "NickName": "Kub-Hayes",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "totam"
-  },
-  "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "magnam"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Hodkiewicz Group",
-      "DisplayName": "Heller Group",
-      "Description": "Compatible coherent intranet",
-      "ToolTip": "Quaerat error sed placeat saepe debitis aut corporis.",
-      "Actions": "Implicit",
-      "ActionData": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 761
+        }
+      }
+    }
+  ],
+  "Person": null,
+  "Deleted": false,
+  "Lastlogin": "2011-08-19T17:54:08.7574316+02:00",
+  "Lastlogout": "2023-05-19T17:54:08.7574316+02:00",
+  "EjUserId": 470,
+  "RequestSignature": "dignissimos",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
+  "Credentials": [
+    {
+      "Type": null,
+      "Value": "corporis",
+      "DisplayValue": "enim",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 89
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "corporis",
+      "DisplayValue": "enim",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 89
+        }
+      }
+    }
+  ],
+  "UserName": "Schultz, Casper and Kovacek",
+  "TicketCategories": [
+    {
+      "Id": 360,
+      "Name": "Schuppe-Bailey",
+      "ToolTip": "Voluptas non eos aliquam harum.",
+      "Deleted": true,
+      "Rank": 842,
+      "Type": "amet",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "voluptates",
+      "ColorBlock": 25,
+      "ExtraInfo": "iste",
+      "StyleHint": "et",
+      "FullName": "Dovie Cormier",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 216
+        }
+      }
+    }
+  ],
+  "NickName": "White, Graham and Bayer",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "est"
+  },
+  "CustomFields": {
+    "CustomFields1": "explicabo",
+    "CustomFields2": "aut"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Cremin, Prosacco and Funk",
+      "DisplayName": "Luettgen LLC",
+      "Description": "Object-based clear-thinking groupware",
+      "ToolTip": "Culpa alias ipsum et et aut deleniti laboriosam.",
+      "Actions": "Implicit",
+      "ActionData": "sed",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 434
         }
       }
     }
@@ -257,8 +257,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldType": "System.String",
+      "FieldLength": 963
     }
   }
 }

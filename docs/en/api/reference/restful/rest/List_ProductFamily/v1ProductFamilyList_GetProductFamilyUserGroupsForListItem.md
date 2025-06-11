@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Collins-Ankunding",
-    "ToolTip": "Id saepe est eius adipisci totam voluptatem.",
+    "Id": 693,
+    "Name": "Quigley, Parker and Boyer",
+    "ToolTip": "Cupiditate laboriosam consectetur repudiandae.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "praesentium",
-    "ColorBlock": 571,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2002-06-24T16:32:48.8057473+02:00",
+    "Rank": 557,
+    "Type": "quo",
+    "ColorBlock": 997,
+    "IconHint": "soluta",
+    "Selected": true,
+    "LastChanged": "2016-10-08T17:54:08.9761714+02:00",
     "ChildItems": [
       {
-        "Id": 863,
-        "Name": "Marquardt, Block and Cremin",
-        "ToolTip": "Cumque aperiam vitae quo rem et aut et.",
-        "Deleted": true,
-        "Rank": 233,
-        "Type": "fuga",
-        "ColorBlock": 919,
-        "IconHint": "et",
+        "Id": 368,
+        "Name": "Hauck Group",
+        "ToolTip": "Ut fuga.",
+        "Deleted": false,
+        "Rank": 47,
+        "Type": "quam",
+        "ColorBlock": 124,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2012-05-02T16:32:48.8057473+02:00",
+        "LastChanged": "2024-06-13T17:54:08.9761714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "qui",
+        "ExtraInfo": "id",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Mr. Jeromy Mose Hoeger I",
+        "FullName": "Maya Gordon Aufderhar Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 560
+            "FieldType": "System.Int32",
+            "FieldLength": 658
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "hic",
+    "ExtraInfo": "quis",
+    "StyleHint": "corporis",
     "Hidden": false,
-    "FullName": "Jakayla Schultz",
+    "FullName": "Gunnar Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldType": "System.String",
+        "FieldLength": 421
       }
     }
   }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 467,
+    "TargetDimensionId": 419,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "facere",
-    "DimensionListName": "Denesik, Breitenberg and Swaniawski",
-    "DimensionListId": 32,
-    "DimensionListLabel": "modi",
+    "DimensionListField": "ad",
+    "DimensionListName": "Cummerata Inc and Sons",
+    "DimensionListId": 315,
+    "DimensionListLabel": "incidunt",
     "SelectedDimensions": [
-      707,
-      817
+      806,
+      87
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 540
+        "FieldType": "System.Int32",
+        "FieldLength": 126
       }
     }
   }

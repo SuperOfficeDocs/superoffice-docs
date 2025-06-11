@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 34,
-    "Comment": "deserunt",
-    "Registered": "2002-08-14T16:32:47.6651766+02:00",
-    "RegisteredAssociateId": 461,
-    "Updated": "2011-05-14T16:32:47.6651766+02:00",
-    "UpdatedAssociateId": 272,
-    "LegalBaseId": 234,
-    "LegalBaseKey": "voluptatem",
-    "LegalBaseName": "Hickle, Grant and Mitchell",
-    "ConsentPurposeId": 622,
-    "ConsentPurposeKey": "dolorem",
-    "ConsentPurposeName": "Raynor-Gleichner",
-    "ConsentSourceId": 931,
-    "ConsentSourceKey": "neque",
-    "ConsentSourceName": "Jaskolski-Leuschke",
+    "ConsentPersonId": 358,
+    "Comment": "velit",
+    "Registered": "2012-08-02T17:54:08.3668296+02:00",
+    "RegisteredAssociateId": 979,
+    "Updated": "2002-02-12T17:54:08.3668296+01:00",
+    "UpdatedAssociateId": 146,
+    "LegalBaseId": 754,
+    "LegalBaseKey": "omnis",
+    "LegalBaseName": "Eichmann-Hansen",
+    "ConsentPurposeId": 459,
+    "ConsentPurposeKey": "quaerat",
+    "ConsentPurposeName": "Dach LLC",
+    "ConsentSourceId": 825,
+    "ConsentSourceKey": "qui",
+    "ConsentSourceName": "Rippin Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldType": "System.String",
+        "FieldLength": 338
       }
     }
   }

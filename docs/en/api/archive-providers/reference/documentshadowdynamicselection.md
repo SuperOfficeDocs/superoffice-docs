@@ -180,6 +180,7 @@ Shadow contact provider for the dynamic document provider.
 |person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -214,6 +215,7 @@ Shadow contact provider for the dynamic document provider.
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/personAssociate/contactCategory|listAny|Category: Category| x |
 |person/personAssociate/role|listAny|Role : Role| x |
@@ -223,12 +225,12 @@ Shadow contact provider for the dynamic document provider.
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
@@ -250,6 +252,7 @@ Shadow contact provider for the dynamic document provider.
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |person/correspondingAssociate/role|listAny|Role : Role| x |
@@ -326,13 +329,13 @@ Shadow contact provider for the dynamic document provider.
 |contact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |contact/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
 |contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
-|contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
-|contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
+|contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
+|contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
@@ -376,6 +379,7 @@ Shadow contact provider for the dynamic document provider.
 |contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contact/contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contact/contactAssociate/contactCategory|listAny|Category: Category| x |
 |contact/contactAssociate/role|listAny|Role : Role| x |
@@ -411,6 +415,7 @@ Shadow contact provider for the dynamic document provider.
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -428,15 +433,15 @@ Shadow contact provider for the dynamic document provider.
 |contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |contact/LastActivity|date|Date of last activity|  |
 |contact/LastCompletedActivity|date|Date of last completed activity|  |
 |contact/LastDoByActivity|date|Date of last non-completed activity|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/NumberOfSales|int|Number of sales|  |
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
@@ -505,6 +510,7 @@ Shadow contact provider for the dynamic document provider.
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
@@ -531,16 +537,16 @@ Shadow contact provider for the dynamic document provider.
 |project/projectUdef/SuperOffice:4|date|projectdate| x |
 |project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |project/NumberOfActivities|int|Number of activities|  |
 |project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |project/LastActivity|date|Date of last activity|  |
@@ -575,6 +581,7 @@ Shadow contact provider for the dynamic document provider.
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|associate/usergroupId|int|Group ID: The user's primary user group| x |
 |associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |associate/contactCategory|listAny|Category: Category| x |
 |associate/role|listAny|Role : Role| x |
@@ -634,6 +641,10 @@ Shadow contact provider for the dynamic document provider.
 |sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
@@ -641,10 +652,6 @@ Shadow contact provider for the dynamic document provider.
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
 |sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
@@ -680,6 +687,7 @@ Shadow contact provider for the dynamic document provider.
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |sale/associate/contactCategory|listAny|Category: Category| x |
 |sale/associate/role|listAny|Role : Role| x |
@@ -714,7 +722,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelection?$select=person/searchPhone/description,person/correspondingAssociate/ejUserId,person/correspondingAssociate/portraitThumbnail,contact/stop,contact/email/emailProtocol
+GET /api/v1/archive/DocumentShadowDynamicSelection?$select=person/personUdef/SuperOffice:5,person/personUdef/SuperOffice:8,contact/email/emailHasBounced,contact/contactExtra/x_contact_short_dropdown,project/projectPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

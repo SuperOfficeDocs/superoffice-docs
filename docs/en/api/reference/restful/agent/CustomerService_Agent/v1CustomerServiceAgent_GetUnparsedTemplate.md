@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 753,
-  "LanguageId": 189
+  "ReplyTemplateId": 308,
+  "LanguageId": 195
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 930,
-  "PlainParsed": "at",
-  "HtmlParsed": "fugiat",
+  "ReplyTemplateId": 642,
+  "PlainParsed": "aut",
+  "HtmlParsed": "possimus",
   "Attachments": [
     {
-      "AttachmentId": 554,
-      "Name": "Runolfsdottir, Corwin and Jacobson",
-      "ContentType": "libero",
-      "AttSize": 910,
+      "AttachmentId": 938,
+      "Name": "Schuppe Inc and Sons",
+      "ContentType": "sit",
+      "AttSize": 678,
       "InlineImage": false,
-      "ContentId": "repellendus",
-      "AuthKey": "consectetur",
+      "ContentId": "culpa",
+      "AuthKey": "facilis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldLength": 928
         }
       }
     }
   ],
-  "Subject": "modi",
+  "Subject": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 170
     }
   }
 }

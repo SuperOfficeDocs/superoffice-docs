@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 387
+  "DepartmentId": 55
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "058.280.5255 x455",
-    "PersonCellPhone": "1-497-241-9661 x17606",
-    "PersonPrivatePhone": "389-028-4830",
-    "PersonFaxNumber": "67889",
-    "PersonPagerNumber": "930386",
-    "PersonEmail": "susan.dickens@hilpert.name",
-    "Id": 965,
-    "Name": "Hane, Fay and Ward",
-    "Tooltip": "pariatur",
-    "UniqueId": "nesciunt",
+    "PersonDirectPhone": "975.400.3487 x39350",
+    "PersonCellPhone": "482.074.3947 x1521",
+    "PersonPrivatePhone": "(891)331-2830 x3815",
+    "PersonFaxNumber": "352589",
+    "PersonPagerNumber": "1395094",
+    "PersonEmail": "chelsie_bernier@sipes.info",
+    "Id": 147,
+    "Name": "Eichmann, Stokes and Hartmann",
+    "Tooltip": "soluta",
+    "UniqueId": "veritatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 161
+        "FieldType": "System.Int32",
+        "FieldLength": 734
       }
     }
   }

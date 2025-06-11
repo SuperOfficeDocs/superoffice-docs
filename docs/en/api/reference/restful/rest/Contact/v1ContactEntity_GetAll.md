@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=ratione
-GET /api/v1/Contact?$top=710
-GET /api/v1/Contact?$skip=107
+GET /api/v1/Contact?$entities=a
+GET /api/v1/Contact?$top=39
+GET /api/v1/Contact?$skip=891
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=fuga
+GET /api/v1/Contact?$context=quas
 GET /api/v1/Contact?$format=JSON
 GET /api/v1/Contact?$jsonSafe=False
 GET /api/v1/Contact?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "reiciendis",
+  "odata.nextLink": "cum",
   "value": [
     {
-      "PrimaryKey": 8047,
-      "EntityName": "person",
-      "personId": 8047,
-      "fullName": "Glenna Stracke"
+      "PrimaryKey": 9077,
+      "EntityName": "sale",
+      "saleId": 9077,
+      "contactId": 1926,
+      "name": "Kemmer-Hyatt"
     },
     {
-      "PrimaryKey": 6818,
-      "EntityName": "person",
-      "personId": 6818,
-      "fullName": "Tanya Turcotte"
+      "PrimaryKey": 7659,
+      "EntityName": "sale",
+      "saleId": 7659,
+      "contactId": 6250,
+      "name": "Johnston LLC"
     }
   ]
 }

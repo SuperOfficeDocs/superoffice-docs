@@ -126,6 +126,7 @@ Lists all email flow message content
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/emailFlow/workflowAssociate/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |shipment/emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |shipment/emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
 |shipment/emailFlow/workflowAssociate/role|listAny|Owner - Role: Role| x |
@@ -196,6 +197,7 @@ Lists all email flow message content
 |shipment/project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |shipment/project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |shipment/project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|shipment/project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |shipment/project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |shipment/project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |shipment/project/projectAssociate/role|listAny|Role : Role| x |
@@ -224,12 +226,12 @@ Lists all email flow message content
 |shipment/project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |shipment/project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |shipment/project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
-|shipment/project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
-|shipment/project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
+|shipment/project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |shipment/project/NumberOfActivities|int|Number of activities|  |
 |shipment/project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |shipment/project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -258,7 +260,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowAssociate/associateDbId,shipment/project/project/textId,shipment/emailFlow/workflowDefinitionStatus
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowDefinitionStatusId,shipment/emailFlow/workflowAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

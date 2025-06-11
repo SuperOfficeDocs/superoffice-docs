@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vel",
-  "ProviderName": "Kozey Group",
-  "StorageKey": "natus",
+  "StorageType": "molestiae",
+  "ProviderName": "Corwin, Price and Streich",
+  "StorageKey": "velit",
   "DesiredColumnNames": [
-    "Howell-Runolfsson",
-    "Cartwright, Bruen and Becker"
+    "Dickinson, Davis and Stracke",
+    "Reynolds Group"
   ],
   "StaticColumns": [
-    "odio",
-    "placeat"
+    "nostrum",
+    "consequatur"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Stark-Armstrong",
-      "Operator": "non",
+      "Name": "Runolfsson Inc and Sons",
+      "Operator": "distinctio",
       "Values": [
-        "maxime",
-        "eos"
+        "est",
+        "quam"
       ],
       "DisplayValues": [
-        "earum",
-        "neque"
+        "at",
+        "doloremque"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 826,
+      "InterParenthesis": 709,
       "InterOperator": "And",
-      "UniqueHash": 485
+      "UniqueHash": 301
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "D'Amore LLC",
-      "DisplayTooltip": "alias",
-      "DisplayType": "est",
-      "CanOrderBy": true,
-      "Name": "Schultz-Fahey",
+      "DisplayName": "Rowe Group",
+      "DisplayTooltip": "debitis",
+      "DisplayType": "quia",
+      "CanOrderBy": false,
+      "Name": "Yost Group",
       "CanRestrictBy": false,
-      "RestrictionType": "nulla",
-      "RestrictionListName": "Fisher-Hammes",
+      "RestrictionType": "asperiores",
+      "RestrictionListName": "Shanahan LLC",
       "IsVisible": false,
-      "ExtraInfo": "velit",
-      "Width": "numquam",
-      "IconHint": "sit",
-      "HeadingIconHint": "est"
+      "ExtraInfo": "consequatur",
+      "Width": "molestias",
+      "IconHint": "ut",
+      "HeadingIconHint": "quia"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Lang Group",
-      "PrimaryKey": 602,
+      "EntityName": "Gerhold, Runolfsson and Murphy",
+      "PrimaryKey": 401,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "provident",
-          "TooltipHint": "reiciendis",
-          "LinkHint": "repellat"
+          "DisplayValue": "ratione",
+          "TooltipHint": "numquam",
+          "LinkHint": "molestiae"
         }
       },
-      "LinkHint": "cumque",
-      "StyleHint": "alias",
+      "LinkHint": "accusantium",
+      "StyleHint": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 497
+          "FieldType": "System.Int32",
+          "FieldLength": 485
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Beatty, Nitzsche and Mraz",
-      "Description": "Pre-emptive logistical portal",
-      "Rank": 744,
+      "Name": "Hauck, Hoeger and Jast",
+      "Description": "Extended user-facing extranet",
+      "Rank": 737,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Beatty, Nitzsche and Mraz",
-      "Description": "Pre-emptive logistical portal",
-      "Rank": 744,
+      "Name": "Hauck, Hoeger and Jast",
+      "Description": "Extended user-facing extranet",
+      "Rank": 737,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 637
     }
   }
 }

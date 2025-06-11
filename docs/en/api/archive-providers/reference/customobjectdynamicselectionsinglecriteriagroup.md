@@ -14,19 +14,4 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 
 CustomObject selection archive using the selectionId as criterionmapping.
 
-## Supported Columns
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
-
-## Sample
-
-```http!
-GET /api/v1/archive/CustomObjectDynamicSelectionSingleCriteriaGroup:y_car?$select=x_name
-Authorization: Basic dGplMDpUamUw
-Accept: application/json; charset=utf-8
-Accept-Language: sv
-
-```
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+There is no generated sample for this provider.

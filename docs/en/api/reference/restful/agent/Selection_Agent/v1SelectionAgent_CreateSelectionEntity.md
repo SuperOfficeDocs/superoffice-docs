@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Kreiger-Gutmann"
+  "TargetTableName": "Ritchie, Witting and Moore"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Sharable 24 hour Graphical User Interface",
-  "Postit": "iure",
+  "Description": "Seamless empowering alliance",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 937,
-  "IncludePerson": 611,
+  "GroupIdx": 11,
+  "IncludePerson": 614,
   "MemberCount": 99.99,
-  "Name": "Stamm-Gorczany",
-  "PostitTextId": 527,
-  "CreatedDate": "2008-01-27T16:32:39.8989674+01:00",
-  "SelectionId": 688,
-  "SoundEx": "quia",
-  "Source": 930,
-  "TextId": 589,
-  "UpdatedDate": "2007-10-10T16:32:39.8989674+02:00",
-  "UpdatedCount": 1000,
-  "Visibility": 181,
+  "Name": "Kreiger Inc and Sons",
+  "PostitTextId": 437,
+  "CreatedDate": "1998-12-20T17:54:03.6014331+01:00",
+  "SelectionId": 749,
+  "SoundEx": "quae",
+  "Source": 181,
+  "TextId": 384,
+  "UpdatedDate": "2013-07-07T17:54:03.6014331+02:00",
+  "UpdatedCount": 988,
+  "Visibility": 994,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 337,
-  "TargetTableName": "Toy-Pouros",
+  "CompanyUnique": true,
+  "TargetTableNumber": 274,
+  "TargetTableName": "Gibson, Miller and Ruecker",
   "Completed": true,
-  "LeftSelectionId": 868,
-  "RightSelectionId": 697,
+  "LeftSelectionId": 316,
+  "RightSelectionId": 559,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zemlak-Gutmann",
-  "ShadowProviderName": "Wolf-Toy",
-  "ChartKey": "sequi",
-  "LastLoaded": "2008-03-08T16:32:39.8989674+01:00",
-  "LastLoadedBy": 639,
+  "MainProviderName": "Goodwin, Hoppe and Corwin",
+  "ShadowProviderName": "Pagac-Senger",
+  "ChartKey": "sunt",
+  "LastLoaded": "2024-02-23T17:54:03.6014331+01:00",
+  "LastLoadedBy": 866,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-05-30T16:32:39.8989674+02:00",
-  "LastMembershipChangeBy": 53,
+  "LastMembershipChange": "2020-12-09T17:54:03.6014331+01:00",
+  "LastMembershipChangeBy": 372,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "cum",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Hauck Inc and Sons",
-  "DashboardTileDefinitionId": 677,
+  "MainHeading": "dolorum",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Rempel-Haley",
+  "DashboardTileDefinitionId": 463,
   "VisibleFor": [
     {
-      "VisibleId": 584,
+      "VisibleId": 585,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldType": "System.String",
+          "FieldLength": 57
         }
       }
     },
     {
-      "VisibleId": 584,
+      "VisibleId": 585,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldType": "System.String",
+          "FieldLength": 57
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldType": "System.Int32",
+      "FieldLength": 623
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Hilpert, Ullrich and Keeling",
-  "Tooltip": "officia",
-  "Deleted": true,
-  "Rank": 715,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "Id": 567,
+  "Name": "Bashirian, Walsh and Ebert",
+  "Tooltip": "culpa",
+  "Deleted": false,
+  "Rank": 641,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldType": "System.String",
+      "FieldLength": 830
     }
   },
   "_Links": {

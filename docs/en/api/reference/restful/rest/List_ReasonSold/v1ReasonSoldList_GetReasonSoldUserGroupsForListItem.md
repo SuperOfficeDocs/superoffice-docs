@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "West-Kerluke",
-    "ToolTip": "Reprehenderit hic debitis ea assumenda vero ex nobis.",
-    "Deleted": true,
-    "Rank": 793,
-    "Type": "harum",
-    "ColorBlock": 264,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2016-06-05T16:32:48.9151006+02:00",
+    "Id": 142,
+    "Name": "Dietrich-Cassin",
+    "ToolTip": "Quia mollitia quo dignissimos.",
+    "Deleted": false,
+    "Rank": 707,
+    "Type": "asperiores",
+    "ColorBlock": 920,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "1998-08-04T17:54:09.0858036+02:00",
     "ChildItems": [
       {
-        "Id": 524,
-        "Name": "Lang-Morar",
-        "ToolTip": "Sequi necessitatibus dicta perspiciatis debitis.",
-        "Deleted": false,
-        "Rank": 287,
-        "Type": "eum",
-        "ColorBlock": 822,
-        "IconHint": "mollitia",
-        "Selected": false,
-        "LastChanged": "2010-03-28T16:32:48.9151006+02:00",
+        "Id": 328,
+        "Name": "Conn Inc and Sons",
+        "ToolTip": "Voluptatem qui sit aut.",
+        "Deleted": true,
+        "Rank": 599,
+        "Type": "dolor",
+        "ColorBlock": 905,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "1998-12-04T17:54:09.0858036+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Oran Rodriguez Sr.",
+        "ExtraInfo": "sed",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Dr. Soledad Lauretta Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 478
+            "FieldType": "System.Int32",
+            "FieldLength": 14
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "qui",
+    "ExtraInfo": "et",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Ena Mante",
+    "FullName": "Alexandra Mertz I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldLength": 219
       }
     }
   }

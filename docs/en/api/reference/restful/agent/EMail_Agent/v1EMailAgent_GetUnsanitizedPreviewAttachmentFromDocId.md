@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 29,
-  "AttachmentId": "et"
+  "DocId": 479,
+  "AttachmentId": "sunt"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Exclusive encompassing artificial intelligence",
-  "Filename": "quia",
-  "Size": 323,
-  "Type": "asperiores",
-  "Encoding": "cupiditate",
-  "Id": "quas",
-  "Disposition": "ea",
-  "IsSafeFileExtension": false,
+  "Description": "Multi-layered background attitude",
+  "Filename": "enim",
+  "Size": 2,
+  "Type": "natus",
+  "Encoding": "exercitationem",
+  "Id": "excepturi",
+  "Disposition": "est",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 403
     }
   }
 }

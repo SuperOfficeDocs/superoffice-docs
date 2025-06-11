@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 810,
-  "Name": "Koch-Schiller",
-  "Description": "Ameliorated demand-driven contingency",
-  "DeltaJson": "minima",
+  "ConfigurableScreenDeltaId": 402,
+  "Name": "Walsh Group",
+  "Description": "Public-key non-volatile local area network",
+  "DeltaJson": "assumenda",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "eum",
-  "UpdatedDate": "2007-10-11T16:32:38.3678168+02:00",
-  "CreatedDate": "2005-09-14T16:32:38.3678168+02:00",
+  "RecipeId": "itaque",
+  "UpdatedDate": "2017-07-11T17:54:02.7577242+02:00",
+  "CreatedDate": "2006-03-07T17:54:02.7577242+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    566,
-    397
+    2,
+    50
   ],
-  "AppliesToKey": "nihil",
+  "AppliesToKey": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 829
     }
   }
 }

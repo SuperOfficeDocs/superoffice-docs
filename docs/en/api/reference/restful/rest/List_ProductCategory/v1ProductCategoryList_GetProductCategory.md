@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 368,
-  "Name": "Bergnaum, Kirlin and Cole",
-  "Tooltip": "nostrum",
+  "Id": 398,
+  "Name": "Hahn Group",
+  "Tooltip": "explicabo",
   "Deleted": true,
-  "UdListDefinitionId": 30,
-  "Rank": 678,
+  "UdListDefinitionId": 266,
+  "Rank": 187,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

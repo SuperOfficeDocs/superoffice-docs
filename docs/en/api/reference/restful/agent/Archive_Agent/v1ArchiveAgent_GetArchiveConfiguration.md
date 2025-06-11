@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wiza-O'Hara",
-  "ProviderName": "Ferry Inc and Sons"
+  "GuiName": "Purdy Group",
+  "ProviderName": "Roberts Group"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hayes LLC",
-      "DisplayTooltip": "doloribus",
-      "DisplayType": "dolor",
-      "CanOrderBy": false,
-      "Name": "Gerhold, Schmidt and Fisher",
-      "CanRestrictBy": true,
-      "RestrictionType": "nobis",
-      "RestrictionListName": "Feeney Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "atque",
-      "Width": "libero",
-      "IconHint": "id",
-      "HeadingIconHint": "dignissimos"
+      "DisplayName": "Johnson LLC",
+      "DisplayTooltip": "necessitatibus",
+      "DisplayType": "eum",
+      "CanOrderBy": true,
+      "Name": "Nader, Wintheiser and Bergstrom",
+      "CanRestrictBy": false,
+      "RestrictionType": "dolor",
+      "RestrictionListName": "Bogan-Corwin",
+      "IsVisible": false,
+      "ExtraInfo": "eveniet",
+      "Width": "nesciunt",
+      "IconHint": "eos",
+      "HeadingIconHint": "asperiores"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 934,
-      "Name": "Prosacco-Purdy",
-      "ToolTip": "Qui dolorem odio repellat cupiditate tempora.",
+      "Id": 304,
+      "Name": "Sporer Inc and Sons",
+      "ToolTip": "Vero necessitatibus aut nesciunt omnis.",
       "Deleted": false,
-      "Rank": 331,
-      "Type": "id",
-      "ColorBlock": 454,
-      "IconHint": "molestiae",
+      "Rank": 202,
+      "Type": "sit",
+      "ColorBlock": 184,
+      "IconHint": "laboriosam",
       "Selected": false,
-      "LastChanged": "2010-02-07T16:32:38.1491165+01:00",
+      "LastChanged": "2023-05-22T17:54:02.6483551+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "libero",
-      "StyleHint": "excepturi",
+      "ExtraInfo": "sequi",
+      "StyleHint": "unde",
       "Hidden": false,
-      "FullName": "Travis Hilpert",
+      "FullName": "Veronica Funk DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 522
+          "FieldLength": 853
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Farrell-Kovacek",
+      "Name": "Fritsch Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Farrell-Kovacek",
+      "Name": "Fritsch Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "eum",
+  "OwnerKeys": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 968
     }
   }
 }

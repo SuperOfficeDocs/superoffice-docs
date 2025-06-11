@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 431,
-  "Name": "Kuhic LLC",
-  "CreatedDate": "2023-12-29T16:32:47.5558268+01:00",
-  "UpdatedDate": "2013-07-30T16:32:47.5558268+02:00",
-  "AssociateFullName": "Kayley Pfannerstill",
+  "ForeignDeviceId": 17,
+  "Name": "Durgan, Nikolaus and Robel",
+  "CreatedDate": "2000-11-22T17:54:08.2574567+01:00",
+  "UpdatedDate": "2009-03-29T17:54:08.2574567+02:00",
+  "AssociateFullName": "Dedrick Lindgren Sr.",
   "CreatedBy": "harum",
-  "UpdatedBy": "nemo",
-  "DeviceIdentifier": "non",
-  "ForeignAppId": 935
+  "UpdatedBy": "voluptatum",
+  "DeviceIdentifier": "aliquam",
+  "ForeignAppId": 299
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 941,
-  "Name": "Fritsch Group",
-  "CreatedDate": "2007-04-12T16:32:47.5558268+02:00",
-  "UpdatedDate": "2015-05-07T16:32:47.5558268+02:00",
-  "AssociateFullName": "Nikko Halvorson I",
-  "CreatedBy": "quia",
-  "UpdatedBy": "labore",
-  "DeviceIdentifier": "velit",
-  "ForeignAppId": 7,
+  "ForeignDeviceId": 824,
+  "Name": "Emmerich-Koch",
+  "CreatedDate": "2004-03-25T17:54:08.2574567+01:00",
+  "UpdatedDate": "2004-07-26T17:54:08.2574567+02:00",
+  "AssociateFullName": "Orlo Stanton",
+  "CreatedBy": "explicabo",
+  "UpdatedBy": "ipsum",
+  "DeviceIdentifier": "neque",
+  "ForeignAppId": 649,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldType": "System.String",
+      "FieldLength": 56
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 914,
-    "Name": "Bode LLC",
-    "Tooltip": "mollitia",
-    "Deleted": false,
-    "Rank": 338,
-    "UdListDefinitionId": 668,
+    "HeadingId": 54,
+    "Name": "Greenfelder, Crona and Veum",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 877,
+    "UdListDefinitionId": 774,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldType": "System.Int32",
+        "FieldLength": 744
       }
     }
   }

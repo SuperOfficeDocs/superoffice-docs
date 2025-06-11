@@ -72,15 +72,15 @@ OK
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 124,
-  "AssociateId": 377,
+  "DocumentId": 34,
+  "AssociateId": 69,
   "CustomTags": {
-    "CustomTags1": "esse",
-    "CustomTags2": "ducimus"
+    "CustomTags1": "explicabo",
+    "CustomTags2": "voluptatem"
   }
 }
 ```

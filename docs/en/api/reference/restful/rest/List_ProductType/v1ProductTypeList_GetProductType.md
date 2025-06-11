@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "Nitzsche, Greenholt and Wuckert",
-  "Tooltip": "quia",
+  "Id": 814,
+  "Name": "Stroman-Wolf",
+  "Tooltip": "ea",
   "Deleted": true,
-  "UdListDefinitionId": 517,
-  "Rank": 505,
+  "UdListDefinitionId": 556,
+  "Rank": 154,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldType": "System.String",
+      "FieldLength": 736
     }
   }
 }

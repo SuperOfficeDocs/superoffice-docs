@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 547
+  "DashboardId": 931
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 704,
-  "Name": "McLaughlin, Borer and O'Kon",
-  "Description": "Robust homogeneous portal",
-  "OwnedByFullName": "Miss Rosendo Bruen",
-  "Registered": "2001-10-08T16:32:38.6177589+02:00",
+  "DashboardId": 613,
+  "Name": "Larkin, White and Ullrich",
+  "Description": "Compatible 4th generation circuit",
+  "OwnedByFullName": "Miss Norbert Brielle Murphy",
+  "Registered": "2017-09-05T17:54:02.9452152+02:00",
   "Tiles": [
     {
-      "Name": "Harber Group",
+      "Name": "O'Conner-Auer",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 807
+          "FieldType": "System.Int32",
+          "FieldLength": 671
         }
       }
     },
     {
-      "Name": "Harber Group",
+      "Name": "O'Conner-Auer",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 807
+          "FieldType": "System.Int32",
+          "FieldLength": 671
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 249
     }
   }
 }

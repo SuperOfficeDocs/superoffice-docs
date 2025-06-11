@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 417,
-  "Name": "Feil-Donnelly",
-  "Description": "Synergistic uniform forecast",
-  "DeltaJson": "perspiciatis",
+  "ConfigurableScreenDeltaId": 110,
+  "Name": "Aufderhar-Dickinson",
+  "Description": "Proactive cohesive policy",
+  "DeltaJson": "aperiam",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "velit",
-  "UpdatedDate": "2012-02-11T16:32:38.3834375+01:00",
-  "CreatedDate": "2011-07-25T16:32:38.3834375+02:00",
+  "RecipeId": "quia",
+  "UpdatedDate": "2000-05-27T17:54:02.8202276+02:00",
+  "CreatedDate": "2024-08-26T17:54:02.8202276+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    97,
-    576
+    861,
+    852
   ],
-  "AppliesToKey": "cumque",
+  "AppliesToKey": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 544
     }
   }
 }

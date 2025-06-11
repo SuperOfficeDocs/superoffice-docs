@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 812,
-  "Name": "Kuhic Group",
-  "Tooltip": "non",
+  "HeadingId": 778,
+  "Name": "Mayert, Effertz and Shields",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 245,
-  "UdListDefinitionId": 437
+  "Rank": 547,
+  "UdListDefinitionId": 985
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 65,
-  "Name": "Emard, Kling and Legros",
-  "Tooltip": "iusto",
+  "HeadingId": 874,
+  "Name": "McCullough-Considine",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 158,
-  "UdListDefinitionId": 520,
+  "Rank": 790,
+  "UdListDefinitionId": 151,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 955
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

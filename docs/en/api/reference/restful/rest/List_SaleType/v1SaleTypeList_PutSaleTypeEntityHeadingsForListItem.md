@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Price, Feeney and Lehner",
-    "ToolTip": "Ducimus quis molestiae.",
+    "Id": 417,
+    "Name": "Rodriguez, Dibbert and Shanahan",
+    "ToolTip": "Rerum iste aspernatur officiis reiciendis.",
     "Deleted": false,
-    "Rank": 763,
-    "Type": "consequuntur",
-    "ColorBlock": 570,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "1998-11-12T16:32:48.9619631+01:00",
+    "Rank": 361,
+    "Type": "quod",
+    "ColorBlock": 515,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2009-11-11T17:54:09.1168029+01:00",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Dibbert, Cormier and Tillman",
-        "ToolTip": "Modi rerum at ea.",
+        "Id": 62,
+        "Name": "Wiza, Connelly and Bogan",
+        "ToolTip": "Quia sed quos.",
         "Deleted": true,
-        "Rank": 563,
-        "Type": "aperiam",
-        "ColorBlock": 471,
-        "IconHint": "itaque",
+        "Rank": 218,
+        "Type": "dolorem",
+        "ColorBlock": 525,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2001-04-18T16:32:48.9619631+02:00",
+        "LastChanged": "2016-04-11T17:54:09.1168029+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "amet",
-        "Hidden": false,
-        "FullName": "Braulio Ferry"
+        "ExtraInfo": "qui",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Mikel Fritsch"
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "et",
+    "ExtraInfo": "nobis",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Marvin Romaguera"
+    "FullName": "Ms. Stewart Josie Ebert V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 764,
-    "Name": "Gutkowski-Ruecker",
-    "ToolTip": "Quas voluptatem et commodi voluptatibus inventore ea.",
+    "Id": 463,
+    "Name": "Stanton Inc and Sons",
+    "ToolTip": "Quia impedit soluta a nulla quibusdam vero et.",
     "Deleted": true,
-    "Rank": 7,
-    "Type": "assumenda",
-    "ColorBlock": 616,
-    "IconHint": "provident",
+    "Rank": 825,
+    "Type": "velit",
+    "ColorBlock": 809,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "2014-12-01T16:32:48.9619631+01:00",
+    "LastChanged": "2006-11-27T17:54:09.1168029+01:00",
     "ChildItems": [
       {
-        "Id": 735,
-        "Name": "Leannon Group",
-        "ToolTip": "Repellendus et delectus et eum cum esse.",
+        "Id": 116,
+        "Name": "DuBuque, Zemlak and Kub",
+        "ToolTip": "Et possimus totam consequatur nihil soluta.",
         "Deleted": true,
-        "Rank": 365,
-        "Type": "et",
-        "ColorBlock": 494,
-        "IconHint": "illum",
+        "Rank": 165,
+        "Type": "enim",
+        "ColorBlock": 616,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2017-09-08T16:32:48.9619631+02:00",
+        "LastChanged": "2004-09-12T17:54:09.1168029+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "error",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Nora Lind",
+        "FullName": "Keyon Selmer Spencer PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 987
+            "FieldLength": 804
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "perferendis",
-    "Hidden": false,
-    "FullName": "Harley Jacobi",
+    "ExtraInfo": "est",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Olen Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldType": "System.String",
+        "FieldLength": 205
       }
     }
   }

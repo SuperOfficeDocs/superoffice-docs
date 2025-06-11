@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 459,
-    "ERPName": "Stroman Group",
-    "DisplayName": "Runte-Smitham",
-    "DisplayDescription": "Progressive contextually-based archive",
-    "Rank": 140,
-    "ConnectorName": "Kilback, Langosh and Bauch",
-    "ErpConnectionId": 420,
-    "ExtraData": "numquam",
+    "QuoteConnectionId": 740,
+    "ERPName": "Stracke Inc and Sons",
+    "DisplayName": "Bartell Group",
+    "DisplayDescription": "Synergistic encompassing projection",
+    "Rank": 536,
+    "ConnectorName": "Mueller, Dooley and Haley",
+    "ErpConnectionId": 493,
+    "ExtraData": "esse",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 808,
-        "ERPPriceListKey": "delectus",
-        "QuoteConnectionId": 55,
-        "Name": "Stanton, Gorczany and Toy",
-        "Description": "Optional directional function",
-        "Currency": "voluptatibus",
-        "CurrencyName": "Waters LLC",
-        "ValidFrom": "2014-12-02T16:32:39.7271263+01:00",
-        "ValidTo": "2007-12-08T16:32:39.7271263+01:00",
-        "IsActive": false,
+        "PriceListId": 229,
+        "ERPPriceListKey": "quia",
+        "QuoteConnectionId": 826,
+        "Name": "Hammes-Ziemann",
+        "Description": "Business-focused grid-enabled definition",
+        "Currency": "architecto",
+        "CurrencyName": "Cremin, Blanda and Torphy",
+        "ValidFrom": "2022-03-18T17:54:03.5233118+01:00",
+        "ValidTo": "1998-04-25T17:54:03.5233118+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 103
+            "FieldLength": 155
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      363,
-      473
+      750,
+      514
     ],
     "AssociateAccessIds": [
-      458,
-      409
+      925,
+      86
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 542
       }
     }
   }

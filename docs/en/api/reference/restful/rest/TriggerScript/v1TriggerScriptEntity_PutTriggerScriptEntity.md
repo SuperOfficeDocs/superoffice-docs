@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 668,
-  "Name": "Kautzer-Fisher",
+  "ScreenChooserId": 64,
+  "Name": "Effertz-Huels",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "non",
-  "Source": "et",
-  "Registered": "2022-04-21T16:32:48.2745849+02:00",
-  "RegisteredAssociateId": 450,
-  "Updated": "1999-06-03T16:32:48.2745849+02:00",
-  "UpdatedAssociateId": 498
+  "UniqueIdentifier": "rerum",
+  "Source": "deserunt",
+  "Registered": "2012-12-08T17:54:08.6793184+01:00",
+  "RegisteredAssociateId": 988,
+  "Updated": "2006-06-17T17:54:08.6793184+02:00",
+  "UpdatedAssociateId": 659
 }
 ```
 
@@ -123,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 143,
-  "Name": "Nolan-Nikolaus",
+  "ScreenChooserId": 679,
+  "Name": "Steuber LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "corrupti",
-  "Source": "dolorem",
-  "Registered": "2001-05-03T16:32:48.2745849+02:00",
-  "RegisteredAssociateId": 328,
-  "Updated": "2002-04-24T16:32:48.2745849+02:00",
-  "UpdatedAssociateId": 99,
+  "Enabled": true,
+  "UniqueIdentifier": "fugit",
+  "Source": "ut",
+  "Registered": "2006-05-28T17:54:08.6793184+02:00",
+  "RegisteredAssociateId": 585,
+  "Updated": "2007-05-01T17:54:08.6793184+02:00",
+  "UpdatedAssociateId": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldLength": 609
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

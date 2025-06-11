@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 181,
-    "Name": "Ernser, Schumm and Terry",
-    "ToolTip": "Perferendis praesentium quasi provident nisi esse nesciunt.",
+    "Id": 530,
+    "Name": "Bergnaum-Abernathy",
+    "ToolTip": "Est sit voluptatem et voluptatem aut quidem.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "quia",
-    "ColorBlock": 67,
-    "IconHint": "et",
+    "Rank": 243,
+    "Type": "nemo",
+    "ColorBlock": 692,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2019-02-28T16:32:47.7745258+01:00",
+    "LastChanged": "2003-04-24T17:54:08.4136991+02:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Schulist Group",
-        "ToolTip": "Voluptates et quidem dolores voluptas.",
-        "Deleted": true,
-        "Rank": 176,
-        "Type": "quod",
-        "ColorBlock": 113,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2024-11-09T16:32:47.7745258+01:00",
+        "Id": 900,
+        "Name": "Metz, Hessel and Herman",
+        "ToolTip": "Voluptatem et repudiandae commodi et.",
+        "Deleted": false,
+        "Rank": 34,
+        "Type": "vel",
+        "ColorBlock": 290,
+        "IconHint": "perspiciatis",
+        "Selected": true,
+        "LastChanged": "2000-05-12T17:54:08.4136991+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "neque",
-        "Hidden": false,
-        "FullName": "Eino Brakus",
+        "ExtraInfo": "enim",
+        "StyleHint": "voluptate",
+        "Hidden": true,
+        "FullName": "Mr. Dave Clay Hudson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 141
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Mrs. Milan Von",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "iure",
+    "Hidden": false,
+    "FullName": "Jorge O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldType": "System.String",
+        "FieldLength": 280
       }
     }
   }

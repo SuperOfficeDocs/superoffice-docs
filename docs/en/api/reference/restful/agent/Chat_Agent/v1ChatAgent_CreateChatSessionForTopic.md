@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 44
+  "ChatTopicId": 129
 }
 ```
 
@@ -118,43 +118,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 469,
-  "TopicId": 199,
+  "ChatSessionId": 322,
+  "TopicId": 460,
   "User": null,
   "Person": null,
-  "CustomerAlias": "perspiciatis",
-  "CustomerHost": "provident",
-  "CustomerName": "Greenholt LLC",
-  "CustomerEmail": "tiffany@waters.co.uk",
-  "CustomerPhone": "1-670-241-6145 x01448",
+  "CustomerAlias": "et",
+  "CustomerHost": "sunt",
+  "CustomerName": "Buckridge LLC",
+  "CustomerEmail": "kianna.jaskolski@morar.name",
+  "CustomerPhone": "1-361-203-4815",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Abshire Inc and Sons",
+  "CustomerCompanyName": "Braun-Waelchi",
   "Status": "Closed",
-  "FirstMessage": "consectetur",
-  "LastMessage": "quia",
-  "WhenRequested": "2010-01-14T16:32:38.3678168+01:00",
-  "WhenStarted": "2014-01-27T16:32:38.3678168+01:00",
-  "WhenEnded": "2024-12-14T16:32:38.3678168+01:00",
-  "WhenIdle": "1998-08-28T16:32:38.3678168+02:00",
-  "WhenFetched": "1999-10-31T16:32:38.3678168+01:00",
-  "SessionKey": "omnis",
-  "InitialQueuePos": 618,
-  "AlertLevel": 136,
-  "Rank": 646,
+  "FirstMessage": "et",
+  "LastMessage": "consequuntur",
+  "WhenRequested": "2020-08-05T17:54:02.7577242+02:00",
+  "WhenStarted": "2015-07-24T17:54:02.7577242+02:00",
+  "WhenEnded": "2011-07-15T17:54:02.7577242+02:00",
+  "WhenIdle": "1998-01-14T17:54:02.7577242+01:00",
+  "WhenFetched": "2003-08-24T17:54:02.7577242+02:00",
+  "SessionKey": "repellendus",
+  "InitialQueuePos": 341,
+  "AlertLevel": 566,
+  "Rank": 102,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 157,
+  "ChatbotIsActive": true,
+  "Rating": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldLength": 170
     }
   }
 }

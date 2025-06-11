@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 942,
-  "QuoteAlternativeId": 882,
-  "QuoteAlternativeName": "Willms-Skiles"
+  "QuoteVersionId": 162,
+  "QuoteAlternativeId": 929,
+  "QuoteAlternativeName": "Larkin-Jerde"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 528,
-  "ERPQuoteAlternativeKey": "hic",
-  "QuoteVersionId": 322,
-  "Name": "Kassulke-Olson",
-  "Description": "Horizontal cohesive flexibility",
+  "QuoteAlternativeId": 282,
+  "ERPQuoteAlternativeKey": "autem",
+  "QuoteVersionId": 565,
+  "Name": "Grady-Batz",
+  "Description": "Operative discrete orchestration",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 24526.683999999997,
-  "ERPDiscountAmount": 23160.26,
-  "DiscountPercent": 8010.504,
-  "DiscountAmount": 23564.546,
+  "ERPDiscountPercent": 213.112,
+  "ERPDiscountAmount": 21126.293999999998,
+  "DiscountPercent": 13968.238,
+  "DiscountAmount": 14792.48,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "sit",
-  "VAT": 23968.832,
-  "EarningPercent": 26729.886,
-  "EarningAmount": 2294.0879999999997,
-  "SubTotal": 8411.655999999999,
-  "TotalPrice": 5287.058,
-  "ExtraField1": "hic",
-  "ExtraField2": "magni",
-  "ExtraField3": "ullam",
-  "ExtraField4": "non",
-  "ExtraField5": "corrupti",
+  "VATInfo": "et",
+  "VAT": 14037.186,
+  "EarningPercent": 5609.86,
+  "EarningAmount": 4494.156,
+  "SubTotal": 28745.048,
+  "TotalPrice": 3406.658,
+  "ExtraField1": "eaque",
+  "ExtraField2": "omnis",
+  "ExtraField3": "corporis",
+  "ExtraField4": "odio",
+  "ExtraField5": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 963
     }
   }
 }

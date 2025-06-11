@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "in",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-05-08T16:32:39.8052322+02:00",
-  "Amount": 5092.75,
-  "SaleId": 152,
-  "Earning": 5390.48,
-  "EarningPercent": 13548.282,
-  "Heading": "pariatur",
-  "Number": "1009398",
-  "Probability": 25,
-  "CreatedDate": "2010-07-06T16:32:39.8052322+02:00",
-  "UpdatedDate": "2021-10-26T16:32:39.8052322+02:00",
+  "Saledate": "2009-11-19T17:54:03.5545604+01:00",
+  "Amount": 27610.54,
+  "SaleId": 64,
+  "Earning": 5268.254,
+  "EarningPercent": 24771.136,
+  "Heading": "rerum",
+  "Number": "315215",
+  "Probability": 494,
+  "CreatedDate": "1999-05-19T17:54:03.5545604+02:00",
+  "UpdatedDate": "2015-01-02T17:54:03.5545604+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 750,
+  "ActiveLinks": 579,
   "Links": [
     {
-      "EntityName": "Waters-Satterfield",
-      "Id": 185,
-      "Description": "Visionary methodical matrices",
-      "ExtraInfo": "omnis",
-      "LinkId": 60,
+      "EntityName": "Reichel LLC",
+      "Id": 896,
+      "Description": "Centralized well-modulated task-force",
+      "ExtraInfo": "dolorum",
+      "LinkId": 573,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 890
+          "FieldLength": 875
         }
       }
     }
   ],
-  "NextDueDate": "1999-11-21T16:32:39.8052322+01:00",
-  "Postit": "animi",
+  "NextDueDate": "2023-08-03T17:54:03.5545604+02:00",
+  "Postit": "dolore",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-06-19T16:32:39.8052322+02:00",
+  "ReopenDate": "2002-02-19T17:54:03.5545604+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Blick LLC",
-      "Comment": "et",
-      "StakeholderRoleId": 634,
-      "CountryId": 554,
-      "PersonId": 249,
-      "EmailDescription": "shawna_schowalter@kemmer.us",
-      "EmailId": 20,
-      "EmailAddress": "payton.langosh@osinski.ca",
-      "PhoneId": 340,
-      "ContactName": "Hilll Inc and Sons",
-      "ContactId": 455,
-      "SaleId": 719,
-      "Mrmrs": "neque",
-      "Firstname": "Kassandra",
-      "MiddleName": "Kuhlman Group",
-      "Lastname": "Wolff",
-      "SaleStakeholderId": 236,
-      "Rank": 133,
-      "Phone": "1-322-131-9248 x6421",
+      "StakeholderRoleName": "McKenzie, Lowe and O'Connell",
+      "Comment": "labore",
+      "StakeholderRoleId": 887,
+      "CountryId": 792,
+      "PersonId": 346,
+      "EmailDescription": "damaris@welchgulgowski.uk",
+      "EmailId": 504,
+      "EmailAddress": "elbert.mcdermott@sawayn.us",
+      "PhoneId": 565,
+      "ContactName": "McKenzie LLC",
+      "ContactId": 955,
+      "SaleId": 570,
+      "Mrmrs": "alias",
+      "Firstname": "Lawrence",
+      "MiddleName": "Cole, Rau and Walsh",
+      "Lastname": "Kuhn",
+      "SaleStakeholderId": 804,
+      "Rank": 282,
+      "Phone": "(338)744-3434",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 349
         }
       }
     }
   ],
-  "ActiveErpLinks": 595,
+  "ActiveErpLinks": 757,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jailyn Kuvalis",
-    "SuperOffice:2": "1185461141"
+    "SuperOffice:1": "Alexandra Gottlieb",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "tempora"
+    "CustomFields1": "nemo",
+    "CustomFields2": "nemo"
   },
-  "PublishEventDate": "2009-03-27T16:32:39.8052322+01:00",
-  "PublishTo": "2007-06-10T16:32:39.8052322+02:00",
-  "PublishFrom": "2019-09-29T16:32:39.8052322+02:00",
+  "PublishEventDate": "2011-09-27T17:54:03.5545604+02:00",
+  "PublishTo": "2013-04-01T17:54:03.5545604+02:00",
+  "PublishFrom": "2006-07-05T17:54:03.5545604+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 175,
+      "VisibleId": 765,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 585
+          "FieldType": "System.Int32",
+          "FieldLength": 280
         }
       }
     },
     {
-      "VisibleId": 175,
+      "VisibleId": 765,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 585
+          "FieldType": "System.Int32",
+          "FieldLength": 280
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldType": "System.String",
+      "FieldLength": 35
     }
   }
 }

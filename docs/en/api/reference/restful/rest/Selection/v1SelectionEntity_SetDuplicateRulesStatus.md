@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Barton-Mayert",
-    "DisplayName": "Hagenes, Champlin and Cassin",
-    "DisplayTooltip": "nihil",
+    "Name": "Stiedemann, Bartell and Koepp",
+    "DisplayName": "Ullrich, Christiansen and Langosh",
+    "DisplayTooltip": "doloribus",
     "IsActive": false
   },
   {
-    "Name": "Barton-Mayert",
-    "DisplayName": "Hagenes, Champlin and Cassin",
-    "DisplayTooltip": "nihil",
+    "Name": "Stiedemann, Bartell and Koepp",
+    "DisplayName": "Ullrich, Christiansen and Langosh",
+    "DisplayTooltip": "doloribus",
     "IsActive": false
   }
 ]

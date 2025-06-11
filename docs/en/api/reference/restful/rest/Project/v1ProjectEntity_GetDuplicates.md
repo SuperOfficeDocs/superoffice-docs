@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Reynolds, Ryan and Cronin",
-    "SoPrimaryKey": 131,
-    "EntryName": "Jones, Conroy and Pouros",
-    "EntryIdentifier": "est",
-    "RuleDisplayName": "Carter-Goldner",
+    "RuleName": "Yost LLC",
+    "SoPrimaryKey": 715,
+    "EntryName": "Crona, Runolfsdottir and Rath",
+    "EntryIdentifier": "nemo",
+    "RuleDisplayName": "Littel-Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldType": "System.String",
+        "FieldLength": 557
       }
     }
   }

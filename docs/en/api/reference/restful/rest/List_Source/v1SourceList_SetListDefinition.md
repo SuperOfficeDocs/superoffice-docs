@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 131,
-  "Name": "Waelchi, Beier and Hansen",
-  "Tooltip": "tenetur",
+  "Id": 762,
+  "Name": "Veum, Auer and Wisoky",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 562,
+  "Rank": 329,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Lueilwitz Group",
-  "Tooltip": "harum",
-  "Deleted": true,
-  "Rank": 1002,
-  "IsCustomList": false,
+  "Id": 30,
+  "Name": "Kshlerin Inc and Sons",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "Rank": 668,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "distinctio",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 690
     }
   }
 }

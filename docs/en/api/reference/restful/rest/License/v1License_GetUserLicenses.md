@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Witting Inc and Sons",
-    "Description": "Phased static framework",
+    "Name": "Kunze-Hagenes",
+    "Description": "Seamless asynchronous Graphic Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 801,
-        "Tooltip": "dolor",
+        "Total": 354,
+        "Tooltip": "cum",
         "CanAssign": false,
-        "Free": 241,
-        "InUse": 72,
+        "Free": 488,
+        "InUse": 983,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 820,
-        "Name": "Larson, Shields and Homenick",
-        "Description": "Organized impactful challenge",
-        "PrerequisiteModuleName": "Lowe LLC",
-        "SortOrder": 939,
-        "ExtraFlags": 38,
+        "Assigned": false,
+        "ModuleLicenseId": 842,
+        "Name": "Auer LLC",
+        "Description": "Managed systematic array",
+        "PrerequisiteModuleName": "Beier-Bauch",
+        "SortOrder": 812,
+        "ExtraFlags": 395,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 774
+            "FieldType": "System.String",
+            "FieldLength": 468
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 452,
-        "Tooltip": "facilis",
+        "Unrestricted": false,
+        "Total": 632,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 318,
-        "InUse": 794,
+        "Free": 738,
+        "InUse": 467,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 495,
-        "Name": "Stokes-Schmeler",
-        "Description": "Streamlined hybrid leverage",
-        "PrerequisiteModuleName": "Abbott-O'Keefe",
-        "SortOrder": 711,
-        "ExtraFlags": 976,
+        "ModuleLicenseId": 669,
+        "Name": "Carter, Turner and Heaney",
+        "Description": "Multi-channelled client-driven monitoring",
+        "PrerequisiteModuleName": "Wuckert-McClure",
+        "SortOrder": 267,
+        "ExtraFlags": 695,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 274
+            "FieldLength": 877
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 775
+        "FieldLength": 878
       }
     }
   },
   {
-    "Name": "Witting Inc and Sons",
-    "Description": "Phased static framework",
+    "Name": "Kunze-Hagenes",
+    "Description": "Seamless asynchronous Graphic Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 801,
-        "Tooltip": "dolor",
+        "Total": 354,
+        "Tooltip": "cum",
         "CanAssign": false,
-        "Free": 241,
-        "InUse": 72,
+        "Free": 488,
+        "InUse": 983,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 820,
-        "Name": "Larson, Shields and Homenick",
-        "Description": "Organized impactful challenge",
-        "PrerequisiteModuleName": "Lowe LLC",
-        "SortOrder": 939,
-        "ExtraFlags": 38,
+        "Assigned": false,
+        "ModuleLicenseId": 842,
+        "Name": "Auer LLC",
+        "Description": "Managed systematic array",
+        "PrerequisiteModuleName": "Beier-Bauch",
+        "SortOrder": 812,
+        "ExtraFlags": 395,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 774
+            "FieldType": "System.String",
+            "FieldLength": 468
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 452,
-        "Tooltip": "facilis",
+        "Unrestricted": false,
+        "Total": 632,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 318,
-        "InUse": 794,
+        "Free": 738,
+        "InUse": 467,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 495,
-        "Name": "Stokes-Schmeler",
-        "Description": "Streamlined hybrid leverage",
-        "PrerequisiteModuleName": "Abbott-O'Keefe",
-        "SortOrder": 711,
-        "ExtraFlags": 976,
+        "ModuleLicenseId": 669,
+        "Name": "Carter, Turner and Heaney",
+        "Description": "Multi-channelled client-driven monitoring",
+        "PrerequisiteModuleName": "Wuckert-McClure",
+        "SortOrder": 267,
+        "ExtraFlags": 695,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 274
+            "FieldLength": 877
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 775
+        "FieldLength": 878
       }
     }
   }

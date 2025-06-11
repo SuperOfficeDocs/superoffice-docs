@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=accusantium
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=molestiae
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 07 Oct 2019 16:32:47 G10T
+Last-Modified: Fri, 05 Aug 2005 17:54:08 G8T
 
 {
-  "Key": "esse",
-  "Value": "excepturi",
-  "RecordId": 510,
-  "CreatedDate": "2001-08-01T16:32:47.5558268+02:00",
-  "UpdatedDate": "2019-10-07T16:32:47.5558268+02:00",
-  "UpdatedBy": "odit",
-  "CreatedBy": "aut",
-  "TableName": "Lakin, Shanahan and Berge",
+  "Key": "rerum",
+  "Value": "reprehenderit",
+  "RecordId": 438,
+  "CreatedDate": "1999-10-24T17:54:08.2574567+02:00",
+  "UpdatedDate": "2005-08-05T17:54:08.2574567+02:00",
+  "UpdatedBy": "alias",
+  "CreatedBy": "quia",
+  "TableName": "Wuckert-Hane",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 916
     }
   }
 }

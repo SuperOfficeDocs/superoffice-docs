@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Lubowitz-Walter",
-    "ToolTip": "A et magnam qui consequatur qui neque.",
+    "Id": 477,
+    "Name": "Collins Inc and Sons",
+    "ToolTip": "Voluptatibus magnam cum dolor eius tenetur.",
     "Deleted": true,
-    "Rank": 325,
-    "Type": "excepturi",
+    "Rank": 647,
+    "Type": "repellat",
     "ChildItems": [
       {
-        "Id": 533,
-        "Name": "Waters LLC",
-        "ToolTip": "Dolores deleniti quis quaerat perspiciatis dignissimos facere odio.",
+        "Id": 554,
+        "Name": "Krajcik, Kovacek and Rutherford",
+        "ToolTip": "Consequatur reprehenderit.",
         "Deleted": false,
-        "Rank": 705,
-        "Type": "modi",
+        "Rank": 91,
+        "Type": "ab",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "provident",
-        "ColorBlock": 160,
-        "ExtraInfo": "accusamus",
-        "StyleHint": "et",
-        "FullName": "Adriana O'Conner",
+        "IconHint": "modi",
+        "ColorBlock": 552,
+        "ExtraInfo": "aliquid",
+        "StyleHint": "qui",
+        "FullName": "Prof. Nestor Kelly McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 351
+            "FieldType": "System.String",
+            "FieldLength": 515
           }
         }
       }
     ],
-    "IconHint": "ad",
-    "ColorBlock": 321,
-    "ExtraInfo": "sunt",
-    "StyleHint": "modi",
-    "FullName": "Abigale Upton V",
+    "IconHint": "rerum",
+    "ColorBlock": 400,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "quia",
+    "FullName": "Maxwell Hamill Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldLength": 46
       }
     }
   }

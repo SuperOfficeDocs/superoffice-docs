@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 746,
-  "Name": "Williamson Group",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "Rank": 185,
-  "UdListDefinitionId": 409
+  "HeadingId": 431,
+  "Name": "Pfeffer, Rath and Weber",
+  "Tooltip": "veritatis",
+  "Deleted": false,
+  "Rank": 139,
+  "UdListDefinitionId": 376
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 622,
-  "Name": "Wilkinson Group",
-  "Tooltip": "eius",
-  "Deleted": true,
-  "Rank": 662,
-  "UdListDefinitionId": 818,
+  "HeadingId": 237,
+  "Name": "Christiansen-Medhurst",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 513,
+  "UdListDefinitionId": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldLength": 348
     }
   }
 }

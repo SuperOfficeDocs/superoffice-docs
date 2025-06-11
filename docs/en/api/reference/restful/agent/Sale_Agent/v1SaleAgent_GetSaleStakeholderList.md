@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Steuber Group",
-    "Comment": "rem",
-    "StakeholderRoleId": 102,
-    "CountryId": 827,
-    "PersonId": 583,
-    "EmailDescription": "pierre.hegmann@rohan.com",
-    "EmailId": 144,
-    "EmailAddress": "hershel@kesslerkohler.us",
-    "PhoneId": 481,
-    "ContactName": "Hauck, Gutmann and Russel",
-    "ContactId": 11,
-    "SaleId": 425,
-    "Mrmrs": "repudiandae",
-    "Firstname": "Jade",
-    "MiddleName": "Haag, Grady and Mertz",
-    "Lastname": "Wiza",
-    "SaleStakeholderId": 877,
-    "Rank": 656,
-    "Phone": "1-249-838-5487 x74879",
+    "StakeholderRoleName": "Grant, Pagac and Abernathy",
+    "Comment": "velit",
+    "StakeholderRoleId": 287,
+    "CountryId": 139,
+    "PersonId": 814,
+    "EmailDescription": "reuben.stiedemann@pfefferkoch.info",
+    "EmailId": 585,
+    "EmailAddress": "petra_blick@hicklecrooks.uk",
+    "PhoneId": 488,
+    "ContactName": "Bogisich Inc and Sons",
+    "ContactId": 126,
+    "SaleId": 726,
+    "Mrmrs": "distinctio",
+    "Firstname": "Shaun",
+    "MiddleName": "Breitenberg-Volkman",
+    "Lastname": "Schoen",
+    "SaleStakeholderId": 175,
+    "Rank": 485,
+    "Phone": "924.315.6867",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 860
+        "FieldLength": 436
       }
     }
   }

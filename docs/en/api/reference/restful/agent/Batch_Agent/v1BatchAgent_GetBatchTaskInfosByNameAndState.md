@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "D'Amore, Schuppe and Ebert",
+  "Name": "Willms Group",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 691,
-    "Name": "Walker, Zieme and Romaguera",
-    "AssociateId": 132,
-    "DetailsTable": 307,
-    "DetailsRecord": 407,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 557,
+    "Name": "Hermann, Kuhic and Schmeler",
+    "AssociateId": 276,
+    "DetailsTable": 187,
+    "DetailsRecord": 655,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "impedit",
-      "ParameterObject2": "et"
+      "ParameterObject1": "totam",
+      "ParameterObject2": "asperiores"
     },
-    "LastStarted": "2022-08-13T16:32:38.1959817+02:00",
-    "Created": "2021-02-26T16:32:38.1959817+01:00",
-    "StartCount": 796,
-    "DatabaseSerialNumber": "924569",
-    "Context": "et",
-    "Result": "exercitationem",
+    "LastStarted": "2014-01-07T17:54:02.6639794+01:00",
+    "Created": "2016-12-27T17:54:02.6639794+01:00",
+    "StartCount": 468,
+    "DatabaseSerialNumber": "1296905",
+    "Context": "voluptas",
+    "Result": "esse",
     "State": "All",
-    "Description": "Focused cohesive intranet",
-    "Response": "sunt",
-    "Request": "laboriosam",
-    "ProgressDescription": "Sharable full-range algorithm",
-    "ProgressPercent": 420,
-    "FileName": "Spinka, Jast and Cummings",
+    "Description": "Adaptive mission-critical process improvement",
+    "Response": "tenetur",
+    "Request": "at",
+    "ProgressDescription": "Switchable upward-trending focus group",
+    "ProgressPercent": 609,
+    "FileName": "Connelly, Reichert and Braun",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldType": "System.Int32",
+        "FieldLength": 508
       }
     }
   }

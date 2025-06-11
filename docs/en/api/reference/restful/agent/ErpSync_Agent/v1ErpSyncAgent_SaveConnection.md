@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 690,
-  "ErpConnectorId": 215,
-  "DisplayName": "Watsica, Goodwin and Johns",
-  "DisplayDescription": "Self-enabling neutral benchmark",
-  "Active": false,
-  "ConnectionId": "qui",
-  "MostRecentTimestamp": "est",
+  "ErpConnectionId": 576,
+  "ErpConnectorId": 870,
+  "DisplayName": "Legros, Fisher and Gislason",
+  "DisplayDescription": "De-engineered incremental forecast",
+  "Active": true,
+  "ConnectionId": "quam",
+  "MostRecentTimestamp": "soluta",
   "ConfigFields": {
-    "ConfigFields1": "enim",
-    "ConfigFields2": "quia"
+    "ConfigFields1": "et",
+    "ConfigFields2": "consectetur"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    71,
-    957
+    755,
+    802
   ],
   "AssociateAccessIds": [
-    708,
-    461
+    855,
+    316
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

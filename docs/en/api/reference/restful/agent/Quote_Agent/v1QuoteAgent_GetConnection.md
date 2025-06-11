@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 449
+  "QuoteConnectionId": 11
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 690,
-  "ERPName": "Becker, Torphy and Jast",
-  "DisplayName": "Quigley, McGlynn and Gutkowski",
-  "DisplayDescription": "Monitored client-server pricing structure",
-  "Rank": 355,
-  "ConnectorName": "Kiehn, Schaefer and Marquardt",
-  "ErpConnectionId": 760,
-  "ExtraData": "vel",
+  "QuoteConnectionId": 949,
+  "ERPName": "Connelly LLC",
+  "DisplayName": "Smith-Muller",
+  "DisplayDescription": "Future-proofed global methodology",
+  "Rank": 485,
+  "ConnectorName": "Johns, Bayer and Hamill",
+  "ErpConnectionId": 397,
+  "ExtraData": "nulla",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 447,
-      "ERPPriceListKey": "reiciendis",
-      "QuoteConnectionId": 548,
-      "Name": "Mohr Group",
-      "Description": "Team-oriented even-keeled matrices",
-      "Currency": "fuga",
-      "CurrencyName": "Fadel-Bailey",
-      "ValidFrom": "2014-04-13T16:32:39.7271263+02:00",
-      "ValidTo": "2012-12-24T16:32:39.7271263+01:00",
-      "IsActive": true,
+      "PriceListId": 231,
+      "ERPPriceListKey": "amet",
+      "QuoteConnectionId": 160,
+      "Name": "Kling, Smith and Wilkinson",
+      "Description": "Public-key uniform help-desk",
+      "Currency": "ea",
+      "CurrencyName": "Bednar, Goodwin and Mueller",
+      "ValidFrom": "2024-09-18T17:54:03.5233118+02:00",
+      "ValidTo": "2020-08-03T17:54:03.5233118+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 308
+          "FieldType": "System.Int32",
+          "FieldLength": 641
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    403,
-    611
+    374,
+    133
   ],
   "AssociateAccessIds": [
-    289,
-    757
+    870,
+    373
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   }
 }

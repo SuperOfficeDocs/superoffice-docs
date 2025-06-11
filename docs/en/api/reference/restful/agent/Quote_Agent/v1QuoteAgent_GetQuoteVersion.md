@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 570
+  "QuoteVersionId": 335
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 745,
-  "ERPQuoteVersionKey": "perspiciatis",
-  "QuoteId": 410,
-  "Description": "Object-based content-based initiative",
-  "Number": "1323093",
+  "QuoteVersionId": 767,
+  "ERPQuoteVersionKey": "laudantium",
+  "QuoteId": 936,
+  "Description": "Synergistic zero administration focus group",
+  "Number": "557895",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 487,
-  "SentDate": "1999-06-09T16:32:39.680262+02:00",
-  "FollowupId": 154,
-  "ExpirationDate": "2009-12-05T16:32:39.680262+01:00",
-  "DeliveryCountryId": 321,
+  "LikelyQuoteAlternativeId": 176,
+  "SentDate": "2019-03-22T17:54:03.5076876+01:00",
+  "FollowupId": 866,
+  "ExpirationDate": "2000-09-19T17:54:03.5076876+02:00",
+  "DeliveryCountryId": 442,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 269,
+  "InvoiceCountryId": 616,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "non",
-  "ERPPaymentTypeKey": "officia",
-  "ERPDeliveryTermsKey": "consequatur",
-  "ERPDeliveryTypeKey": "eligendi",
-  "Rank": 271,
-  "ApprovedBy": 190,
-  "ApprovedText": "sit",
-  "ApprovedRegisteredBy": 579,
-  "ApprovedRegisteredDate": "2012-11-24T16:32:39.680262+01:00",
-  "ExtraField1": "vel",
-  "ExtraField2": "quas",
-  "ExtraField3": "ea",
-  "ExtraField4": "velit",
-  "ExtraField5": "possimus",
-  "LastRecalculated": "2008-05-27T16:32:39.680262+02:00",
-  "Updated": "2003-05-14T16:32:39.680262+02:00",
-  "UpdatedAssociateId": 29,
-  "Registered": "2004-08-17T16:32:39.680262+02:00",
-  "RegisteredAssociateId": 6,
-  "RequestAssociateId": 162,
-  "RequestComment": "suscipit",
+  "ERPPaymentTermsKey": "similique",
+  "ERPPaymentTypeKey": "aut",
+  "ERPDeliveryTermsKey": "vel",
+  "ERPDeliveryTypeKey": "laborum",
+  "Rank": 241,
+  "ApprovedBy": 943,
+  "ApprovedText": "ad",
+  "ApprovedRegisteredBy": 244,
+  "ApprovedRegisteredDate": "2019-01-05T17:54:03.5076876+01:00",
+  "ExtraField1": "at",
+  "ExtraField2": "perferendis",
+  "ExtraField3": "ad",
+  "ExtraField4": "optio",
+  "ExtraField5": "soluta",
+  "LastRecalculated": "2006-12-12T17:54:03.5076876+01:00",
+  "Updated": "2019-10-23T17:54:03.5076876+02:00",
+  "UpdatedAssociateId": 831,
+  "Registered": "2004-05-28T17:54:03.5076876+02:00",
+  "RegisteredAssociateId": 242,
+  "RequestAssociateId": 276,
+  "RequestComment": "officia",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 501,
-      "ERPQuoteAlternativeKey": "dolorum",
-      "QuoteVersionId": 981,
-      "Name": "Harber, Dietrich and Jenkins",
-      "Description": "Multi-channelled even-keeled adapter",
+      "QuoteAlternativeId": 36,
+      "ERPQuoteAlternativeKey": "corporis",
+      "QuoteVersionId": 804,
+      "Name": "Morissette, Crona and Murazik",
+      "Description": "Streamlined heuristic methodology",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 28892.345999999998,
-      "ERPDiscountAmount": 9405.134,
-      "DiscountPercent": 7502.7959999999994,
-      "DiscountAmount": 13231.748,
+      "ERPDiscountPercent": 11931.137999999999,
+      "ERPDiscountAmount": 29725.989999999998,
+      "DiscountPercent": 28137.052,
+      "DiscountAmount": 18941.896,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "sed",
-      "VAT": 14939.778,
-      "EarningPercent": 11138.235999999999,
-      "EarningAmount": 228.78199999999998,
-      "SubTotal": 14899.036,
-      "TotalPrice": 26121.89,
-      "ExtraField1": "illo",
-      "ExtraField2": "sit",
-      "ExtraField3": "nemo",
-      "ExtraField4": "eligendi",
-      "ExtraField5": "dolor",
+      "VATInfo": "quos",
+      "VAT": 8831.612,
+      "EarningPercent": 23185.332,
+      "EarningAmount": 27641.879999999997,
+      "SubTotal": 9025.92,
+      "TotalPrice": 22762.242,
+      "ExtraField1": "et",
+      "ExtraField2": "esse",
+      "ExtraField3": "non",
+      "ExtraField4": "quos",
+      "ExtraField5": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 561
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 303
     }
   }
 }

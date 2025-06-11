@@ -160,6 +160,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -222,11 +223,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personSourceRelation/supportAssociate|associate|Source - Our service contact: Default service contact for this contact| x |
 |personSourceRelation/supportAssociateFullName|associate|Source - Our service contact - Full name: Default service contact for this contact| x |
 |personSourceRelation/personAssociateId|associate|Source - Our contact: Displays our contact| x |
-|personSourceRelation/personAssociateFullName|associate|Source - Our contact - Full name: Displays our contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personSourceRelation/personAssociateFullName|associate|Source - Our contact - Full name: Displays our contact| x |
 |personSourceRelation/personCategory|listAny|Source - Category| x |
 |personSourceRelation/personBusiness|listAny|Source - Business| x |
 |personSourceRelation/personDeletedDate|datetime|Source - Deleted date: Deleted date|  |
@@ -308,6 +309,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAssociate/contactCategory|listAny|Category: Category| x |
 |personAssociate/role|listAny|Role : Role| x |
@@ -325,12 +327,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |personAssociate/userName|string|User name: User name| x |
-|personAssociate/personEmail|string|E-mail| x |
-|personAssociate/locationAddress|string|Location: Location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAssociate/personEmail|string|E-mail| x |
+|personAssociate/locationAddress|string|Location: Location| x |
 |personAssociate/isLocation|bool|Is a location: Is a location| x |
 |correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
@@ -344,6 +346,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |correspondingAssociate/role|listAny|Role : Role| x |
@@ -416,6 +419,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
@@ -427,14 +431,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |contactAssociate/userName|string|User name: User name| x |
 |contactAssociate/personEmail|string|E-mail| x |
@@ -455,6 +459,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -530,15 +535,15 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |request/suggestedCategory|listAny|Suggested category: Suggested service category|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |request/createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
 |request/createdBy/fullName|string|Created by - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/createdBy/contactId|int|Created by - Company ID: Database ID of the company the user belongs to|  |
 |request/createdBy/personId|int|Created by - Contact ID: Database ID of the contact row|  |
 |request/createdBy/mrMrs|string|Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -547,6 +552,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
 |request/createdBy/contactDepartment|string|Created by - Owning department: Name of the department at the company the user belongs to| x |
 |request/createdBy/usergroup|userGroup|Created by - Primary group: The user's primary user group| x |
+|request/createdBy/usergroupId|int|Created by - Group ID: The user's primary user group| x |
 |request/createdBy/contactFullName|string|Created by - Owner: Name and department of the company the user belongs to| x |
 |request/createdBy/contactCategory|listAny|Created by - Category: Category| x |
 |request/createdBy/role|listAny|Created by - Role: Role| x |
@@ -579,6 +585,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|request/ownedBy/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |request/ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |request/ownedBy/role|listAny|Owner - Role: Role| x |
@@ -609,6 +616,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
 |request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
+|request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
@@ -631,6 +639,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |projectMembers/registeredBy|associate|Registered by: The user who registered the data| x |
 |projectMembers/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |projectMembers/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |projectMembers/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
@@ -639,10 +651,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |projectMembers/projectPublish/publishedBy| *None* |Published by: Published by|  |
@@ -664,6 +672,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectMembers/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactCategory|listAny|Category: Category| x |
 |projectMembers/projectAssociate/role|listAny|Role : Role| x |
@@ -734,6 +743,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/who| *None* |Who: Contact and/or company|  |
 |personAppointment/updatedBy|associate|Updated by: The user who last updated the data| x |
 |personAppointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |personAppointment/registeredBy|associate|Registered by: The user who registered the data| x |
 |personAppointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
@@ -743,10 +756,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |personAppointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
 |personAppointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |personAppointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |personAppointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -790,6 +799,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |personAppointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |personAppointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|personAppointment/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |personAppointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAppointment/associate/contactCategory|listAny|Category: Category| x |
 |personAppointment/associate/role|listAny|Role : Role| x |
@@ -823,7 +833,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personSourceRelation/personCountryId,personTargetRelation/personActiveErpLinks,personTargetRelation/who,contactAssociate/simultaneousEjUser,request/ownedBy/contactCategory
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=email/emailLastSent,personUdef/SuperOffice:1,personSourceRelation/birthdate,contactAssociate/isActiveText,request/createdBy/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

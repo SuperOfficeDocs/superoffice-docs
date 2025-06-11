@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 848,
-  "Name": "Lubowitz LLC",
-  "Tooltip": "vitae",
-  "SaveInDb": 941,
-  "Filename": "expedita",
-  "DefaultOref": "consectetur",
+  "DocumentTemplateId": 600,
+  "Name": "Yundt, Buckridge and Ratke",
+  "Tooltip": "aut",
+  "SaveInDb": 488,
+  "Filename": "molestiae",
+  "DefaultOref": "asperiores",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 411,
-  "IntentId": 454,
+  "AutoeventId": 883,
+  "IntentId": 156,
   "IsDefaultPublished": false,
-  "Rank": 170,
-  "LoadTemplateFromPlugin": 226,
-  "MimeType": "ut",
+  "Rank": 467,
+  "LoadTemplateFromPlugin": 653,
+  "MimeType": "ipsa",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 108,
+  "DocumentTypeKey": 638,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "geo_maggio@daniel.biz",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "carli.jacobs@schowalter.us",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "stanley_becker@trantow.uk",
+  "SenderEmailAddress": "ryann.considine@kirlin.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 500
     }
   }
 }

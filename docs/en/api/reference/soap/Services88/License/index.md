@@ -18,6 +18,7 @@ Download [WSDL file for Services88/License](../Services88-License.md) if you nee
 * [AddLicenseFromFile](AddLicenseFromFile.md)
 * [AssignThirdPartyLicenses](AssignThirdPartyLicenses.md)
 * [ChangeSerialNumber](ChangeSerialNumber.md)
+* [GetCentralLicense](GetCentralLicense.md)
 * [GetLicenseForAllOwnersFromDB](GetLicenseForAllOwnersFromDB.md)
 * [GetLicenseFromDB](GetLicenseFromDB.md)
 * [GetLicenseFromFile](GetLicenseFromFile.md)
@@ -32,6 +33,7 @@ Download [WSDL file for Services88/License](../Services88-License.md) if you nee
 * [GetUserLicenses](GetUserLicenses.md)
 * [GetUserLicensesMDOList](GetUserLicensesMDOList.md)
 * [RemoveLicenseFromDB](RemoveLicenseFromDB.md)
+* [SaveCentralLicense](SaveCentralLicense.md)
 * [UnassignThirdPartyLicenses](UnassignThirdPartyLicenses.md)
 * [ValidateLicenseInfo](ValidateLicenseInfo.md)
 

@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 279,
-  "Name": "Sawayn Inc and Sons",
-  "Tooltip": "facere",
+  "Id": 42,
+  "Name": "Purdy LLC",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 435,
+  "Rank": 28,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "repudiandae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 208,
-  "Name": "Schultz-Yost",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "Rank": 400,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 783,
+  "Name": "Stokes, Greenholt and Reichert",
+  "Tooltip": "voluptate",
+  "Deleted": false,
+  "Rank": 350,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "id",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 84
     }
   }
 }

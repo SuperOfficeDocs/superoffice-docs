@@ -191,6 +191,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointmentInstance/contact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointmentInstance/contact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointmentInstance/contact/contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |appointmentInstance/contact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointmentInstance/contact/contactAssociate/contactCategory|listAny|Category: Category| x |
 |appointmentInstance/contact/contactAssociate/role|listAny|Role : Role| x |
@@ -226,15 +227,16 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |appointmentInstance/contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
-|appointmentInstance/contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
-|appointmentInstance/contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
@@ -333,12 +335,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personPrivate/formattedNumber|string|Private - Phone: Displays phone number|  |
 |appointmentInstance/person/personPrivate/description|string|Private - Description: Phone number description| x |
 |appointmentInstance/person/personPager/formattedNumber|string|Other - Phone: Displays phone number|  |
-|appointmentInstance/person/personPager/description|string|Other - Description: Phone number description| x |
-|appointmentInstance/person/personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/person/personPager/description|string|Other - Description: Phone number description| x |
+|appointmentInstance/person/personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |appointmentInstance/person/personDirectFax/description|string|Fax - Description: Phone number description| x |
 |appointmentInstance/person/searchPhone/formattedNumber|string|Phone : Displays phone number|  |
 |appointmentInstance/person/searchPhone/description|string|Description: Phone number description| x |
@@ -391,6 +393,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |appointmentInstance/person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |appointmentInstance/person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|appointmentInstance/person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |appointmentInstance/person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |appointmentInstance/person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |appointmentInstance/person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -425,6 +428,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointmentInstance/person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointmentInstance/person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointmentInstance/person/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |appointmentInstance/person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointmentInstance/person/personAssociate/contactCategory|listAny|Category: Category| x |
 |appointmentInstance/person/personAssociate/role|listAny|Role : Role| x |
@@ -435,14 +439,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |appointmentInstance/person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |appointmentInstance/person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|appointmentInstance/person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|appointmentInstance/person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|appointmentInstance/person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|appointmentInstance/person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|appointmentInstance/person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|appointmentInstance/person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|appointmentInstance/person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |appointmentInstance/person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |appointmentInstance/person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/person/personAssociate/userName|string|User name: User name| x |
@@ -461,6 +465,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointmentInstance/person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointmentInstance/person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointmentInstance/person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |appointmentInstance/person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointmentInstance/person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |appointmentInstance/person/correspondingAssociate/role|listAny|Role : Role| x |
@@ -538,16 +543,17 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |appointmentInstance/project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |appointmentInstance/project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |appointmentInstance/project/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |appointmentInstance/project/projectAssociate/associateDbId|associate|ID| x |
 |appointmentInstance/project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointmentInstance/project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |appointmentInstance/project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointmentInstance/project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |appointmentInstance/project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointmentInstance/project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |appointmentInstance/project/projectAssociate/role|listAny|Role : Role| x |
@@ -641,16 +647,16 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |appointmentInstance/sale/saleType|listAny|Sale type: Sale type, from list| x |
 |appointmentInstance/sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |appointmentInstance/sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |appointmentInstance/sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |appointmentInstance/sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
 |appointmentInstance/sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |appointmentInstance/sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |appointmentInstance/sale/saleNumber|string|Number: Number| x |
 |appointmentInstance/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
 |appointmentInstance/sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
@@ -679,6 +685,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointmentInstance/sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointmentInstance/sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointmentInstance/sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |appointmentInstance/sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointmentInstance/sale/associate/contactCategory|listAny|Category: Category| x |
 |appointmentInstance/sale/associate/role|listAny|Role : Role| x |
@@ -719,6 +726,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointmentInstance/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointmentInstance/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointmentInstance/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |appointmentInstance/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointmentInstance/associate/contactCategory|listAny|Category: Category| x |
 |appointmentInstance/associate/role|listAny|Role : Role| x |
@@ -743,6 +751,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/appointment/title|positiveString|Title| x |
 |appointmentInstance/appointment/titleHtml| *None* |!!Title Html| x |
 |appointmentInstance/appointment/agenda|positiveString|Agenda| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentInstance/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointmentInstance/appointment/isConverted| *None* |!!Is Converted|  |
 |appointmentInstance/appointment/textId|int|Text ID| x |
@@ -752,7 +764,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/invitedPersonId,appointmentInstance/contact/email/emailLastSent,appointmentInstance/contact/postAddress/line2,appointmentInstance/contact/contactAssociate/credentialType,appointmentInstance/person/middleName
+GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/contact/postAddress/county,appointmentInstance/contact/postAddress/wgs84longitude,appointmentInstance/contact/contactAssociate/isLocation,appointmentInstance/person/searchPhone/description,appointmentInstance/person/personExtra/x_person_boolean
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

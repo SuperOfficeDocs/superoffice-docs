@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 801,
-    "Name": "Moore, Hoppe and Osinski",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 783
+    "Id": 67,
+    "Name": "McDermott, Berge and Adams",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 532,
+    "Rank": 216
   },
   {
-    "Id": 801,
-    "Name": "Moore, Hoppe and Osinski",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 783
+    "Id": 67,
+    "Name": "McDermott, Berge and Adams",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 532,
+    "Rank": 216
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "Stroman Inc and Sons",
-    "Tooltip": "aliquam",
+    "Id": 808,
+    "Name": "Rau Inc and Sons",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "UdListDefinitionId": 82,
-    "Rank": 888,
+    "UdListDefinitionId": 52,
+    "Rank": 505,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   }

@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,23 +98,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "id",
-  "PersonId": 122,
-  "AssociateId": 27,
-  "ExtraId": 245,
-  "ExtraInfo": "neque",
-  "Height": 812,
-  "LeftX": 288,
+  "OwnerWindow": "culpa",
+  "PersonId": 552,
+  "AssociateId": 237,
+  "ExtraId": 306,
+  "ExtraInfo": "cupiditate",
+  "Height": 780,
+  "LeftX": 422,
   "State": "Maximized",
-  "UpperY": 620,
-  "Width": 202,
-  "WindowPosSizeId": 829,
+  "UpperY": 479,
+  "Width": 139,
+  "WindowPosSizeId": 162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

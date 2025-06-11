@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 547,
-    "Name": "Borer-Schamberger",
-    "ToolTip": "Cupiditate modi commodi provident tenetur.",
-    "Deleted": false,
-    "Rank": 336,
-    "Type": "iusto",
-    "ColorBlock": 179,
-    "IconHint": "necessitatibus",
+    "Id": 84,
+    "Name": "Hoppe Inc and Sons",
+    "ToolTip": "Laboriosam qui iusto autem.",
+    "Deleted": true,
+    "Rank": 758,
+    "Type": "non",
+    "ColorBlock": 973,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "1999-06-09T16:32:48.5401806+02:00",
+    "LastChanged": "1998-05-18T17:54:08.8043048+02:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Altenwerth, Borer and Morar",
-        "ToolTip": "Unde et qui velit sint.",
+        "Id": 337,
+        "Name": "Larkin Group",
+        "ToolTip": "Quaerat rerum excepturi vitae quidem molestias nisi.",
         "Deleted": true,
-        "Rank": 872,
-        "Type": "quis",
-        "ColorBlock": 105,
-        "IconHint": "quis",
+        "Rank": 44,
+        "Type": "vitae",
+        "ColorBlock": 610,
+        "IconHint": "enim",
         "Selected": true,
-        "LastChanged": "2025-03-10T16:32:48.5401806+01:00",
+        "LastChanged": "2013-05-30T17:54:08.8043048+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "impedit",
-        "Hidden": false,
-        "FullName": "Natasha Mann",
+        "ExtraInfo": "rerum",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Theron Bailey IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 955
+            "FieldType": "System.String",
+            "FieldLength": 189
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "expedita",
+    "ExtraInfo": "sit",
+    "StyleHint": "dicta",
     "Hidden": false,
-    "FullName": "Keshaun Ziemann",
+    "FullName": "Ressie Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldType": "System.String",
+        "FieldLength": 327
       }
     }
   }

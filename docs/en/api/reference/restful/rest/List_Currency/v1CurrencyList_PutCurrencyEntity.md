@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 410,
-  "Name": "Morissette, Gottlieb and Farrell",
-  "Tooltip": "ea",
-  "Rank": 377,
-  "Rate": 9988.0579999999991,
-  "Units": 2419.448,
+  "CurrencyId": 544,
+  "Name": "Kihn, Bernier and Schowalter",
+  "Tooltip": "accusamus",
+  "Rank": 459,
+  "Rate": 2999.238,
+  "Units": 21326.87,
   "Deleted": true
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 732,
-  "Name": "Weimann LLC",
-  "Tooltip": "sit",
-  "Rank": 185,
-  "Rate": 22035.154,
-  "Units": 8377.1819999999989,
+  "CurrencyId": 5,
+  "Name": "Conroy Inc and Sons",
+  "Tooltip": "quo",
+  "Rank": 416,
+  "Rate": 20640.523999999998,
+  "Units": 27854.992,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldType": "System.String",
+      "FieldLength": 718
     }
   }
 }

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 369,
-  "TopicId": 610,
+  "ChatSessionId": 760,
+  "TopicId": 165,
   "User": null,
   "Person": null,
-  "CustomerAlias": "id",
-  "CustomerHost": "delectus",
-  "CustomerName": "Hane, Grimes and Hahn",
-  "CustomerEmail": "ladarius@ohara.ca",
-  "CustomerPhone": "(228)457-1940 x893",
+  "CustomerAlias": "sunt",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Powlowski, McGlynn and Harvey",
+  "CustomerEmail": "alysson@nienow.name",
+  "CustomerPhone": "1-570-884-5886 x00686",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Cronin, Pouros and Krajcik",
+  "CustomerCompanyName": "Graham-Douglas",
   "Status": "Closed",
-  "FirstMessage": "mollitia",
-  "LastMessage": "recusandae",
-  "WhenRequested": "2005-04-26T16:32:38.336574+02:00",
-  "WhenStarted": "2015-12-08T16:32:38.336574+01:00",
-  "WhenEnded": "1998-09-20T16:32:38.336574+02:00",
-  "WhenIdle": "2002-11-23T16:32:38.336574+01:00",
-  "WhenFetched": "2018-12-27T16:32:38.336574+01:00",
-  "SessionKey": "error",
-  "InitialQueuePos": 183,
-  "AlertLevel": 178,
-  "Rank": 47,
+  "FirstMessage": "eum",
+  "LastMessage": "et",
+  "WhenRequested": "2001-11-20T17:54:02.7421006+01:00",
+  "WhenStarted": "2020-12-29T17:54:02.7421006+01:00",
+  "WhenEnded": "2023-03-04T17:54:02.7421006+01:00",
+  "WhenIdle": "2000-04-12T17:54:02.7421006+02:00",
+  "WhenFetched": "2002-09-01T17:54:02.7421006+02:00",
+  "SessionKey": "omnis",
+  "InitialQueuePos": 187,
+  "AlertLevel": 944,
+  "Rank": 586,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 114,
+  "Rating": 599,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 443
     }
   }
 }

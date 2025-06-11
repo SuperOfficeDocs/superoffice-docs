@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Rosenbaum-Lakin",
-      "Description": "Right-sized transitional capability",
-      "Rank": 117,
+      "Name": "Haag, Hagenes and Feeney",
+      "Description": "Cloned client-driven archive",
+      "Rank": 916,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rosenbaum-Lakin",
-      "Description": "Right-sized transitional capability",
-      "Rank": 117,
+      "Name": "Haag, Hagenes and Feeney",
+      "Description": "Cloned client-driven archive",
+      "Rank": 916,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldLength": 747
     }
   }
 }

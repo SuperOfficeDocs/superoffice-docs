@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 303,
-  "Name": "Botsford-Davis",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "Rank": 211,
-  "UdListDefinitionId": 587
+  "HeadingId": 594,
+  "Name": "Padberg, Erdman and Blick",
+  "Tooltip": "repellat",
+  "Deleted": true,
+  "Rank": 458,
+  "UdListDefinitionId": 403
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 615,
-  "Name": "Renner Group",
-  "Tooltip": "eveniet",
+  "HeadingId": 721,
+  "Name": "Kilback, Goyette and Macejkovic",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 837,
-  "UdListDefinitionId": 789,
+  "Rank": 263,
+  "UdListDefinitionId": 589,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldLength": 70
     }
   }
 }

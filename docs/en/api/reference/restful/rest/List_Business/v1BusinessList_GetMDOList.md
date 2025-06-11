@@ -27,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=in
+GET /api/v1/List/Business/MDOItems?query=alias
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Witting LLC",
-    "ToolTip": "Veritatis explicabo sit omnis.",
-    "Deleted": false,
-    "Rank": 753,
-    "Type": "est",
+    "Id": 582,
+    "Name": "Mayert, Will and Bode",
+    "ToolTip": "Ducimus beatae est harum pariatur voluptatibus magni.",
+    "Deleted": true,
+    "Rank": 33,
+    "Type": "possimus",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Parisian, Smith and Spencer",
-        "ToolTip": "Cum voluptatibus qui.",
-        "Deleted": true,
-        "Rank": 850,
-        "Type": "eaque",
+        "Id": 89,
+        "Name": "Dare, Balistreri and Jacobi",
+        "ToolTip": "Ut sit vero.",
+        "Deleted": false,
+        "Rank": 621,
+        "Type": "adipisci",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "error",
-        "ColorBlock": 631,
-        "ExtraInfo": "placeat",
-        "StyleHint": "perspiciatis",
-        "FullName": "Isidro Hermiston",
+        "IconHint": "maxime",
+        "ColorBlock": 505,
+        "ExtraInfo": "ea",
+        "StyleHint": "voluptate",
+        "FullName": "Prof. Kristoffer Bogan Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 489
+            "FieldLength": 355
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 291,
-    "ExtraInfo": "et",
-    "StyleHint": "doloremque",
-    "FullName": "Blake Keeling",
+    "IconHint": "qui",
+    "ColorBlock": 649,
+    "ExtraInfo": "quod",
+    "StyleHint": "a",
+    "FullName": "Dr. Valentine Ritchie V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 421
       }
     }
   }

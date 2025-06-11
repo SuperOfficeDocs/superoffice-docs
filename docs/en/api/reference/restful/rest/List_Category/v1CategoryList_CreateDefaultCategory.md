@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 69,
-  "Name": "Rempel-Fadel",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "UdListDefinitionId": 958,
-  "Rank": 695,
+  "Id": 728,
+  "Name": "Schimmel-Schuster",
+  "Tooltip": "quo",
+  "Deleted": true,
+  "UdListDefinitionId": 855,
+  "Rank": 863,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldType": "System.String",
+      "FieldLength": 4
     }
   }
 }

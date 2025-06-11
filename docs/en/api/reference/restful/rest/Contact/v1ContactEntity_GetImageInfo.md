@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 23 May 2019 16:32:47 G5T
+Last-Modified: Wed, 08 Jul 2015 17:54:08 G7T
 
 {
-  "BlobId": 858,
-  "BlobSize": 279,
-  "Description": "Organized explicit capacity",
-  "ExtraInfo": "expedita",
+  "BlobId": 916,
+  "BlobSize": 292,
+  "Description": "Streamlined solution-oriented Graphical User Interface",
+  "ExtraInfo": "necessitatibus",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "architecto",
-  "OriginalSize": 849,
-  "CreatedDate": "2018-05-16T16:32:47.2746087+02:00",
-  "UpdatedDate": "2019-05-23T16:32:47.2746087+02:00",
+  "MimeType": "ipsam",
+  "OriginalSize": 25,
+  "CreatedDate": "1998-12-04T17:54:08.0699594+01:00",
+  "UpdatedDate": "2015-07-08T17:54:08.0699594+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldLength": 383
     }
   }
 }

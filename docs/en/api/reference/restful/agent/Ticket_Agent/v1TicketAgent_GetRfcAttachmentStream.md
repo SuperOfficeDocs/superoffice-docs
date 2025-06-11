@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Ticket/GetRfcAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 373,
-  "Position": 456
+  "AttachmentId": 590,
+  "Position": 661
 }
 ```
 

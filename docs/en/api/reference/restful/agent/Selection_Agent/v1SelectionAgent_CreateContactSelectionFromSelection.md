@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 368,
-  "Name": "Heller, Brown and McGlynn",
+  "SelectionId": 976,
+  "Name": "Ullrich LLC",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based cohesive policy",
-  "Postit": "iste",
+  "Description": "Streamlined multi-state flexibility",
+  "Postit": "omnis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 533,
-  "IncludePerson": 597,
+  "GroupIdx": 813,
+  "IncludePerson": 977,
   "MemberCount": 99.99,
-  "Name": "Haley LLC",
-  "PostitTextId": 582,
-  "CreatedDate": "2018-09-23T16:32:39.8989674+02:00",
-  "SelectionId": 907,
-  "SoundEx": "qui",
-  "Source": 736,
-  "TextId": 903,
-  "UpdatedDate": "2013-08-09T16:32:39.8989674+02:00",
-  "UpdatedCount": 61,
-  "Visibility": 749,
+  "Name": "Effertz, Schroeder and Bednar",
+  "PostitTextId": 307,
+  "CreatedDate": "2017-09-19T17:54:03.6014331+02:00",
+  "SelectionId": 164,
+  "SoundEx": "corrupti",
+  "Source": 916,
+  "TextId": 874,
+  "UpdatedDate": "1999-03-10T17:54:03.6014331+01:00",
+  "UpdatedCount": 661,
+  "Visibility": 564,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 32,
-  "TargetTableName": "Murazik-Upton",
-  "Completed": true,
-  "LeftSelectionId": 477,
-  "RightSelectionId": 692,
+  "CompanyUnique": false,
+  "TargetTableNumber": 296,
+  "TargetTableName": "Von, Bednar and Johns",
+  "Completed": false,
+  "LeftSelectionId": 309,
+  "RightSelectionId": 222,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wiegand LLC",
-  "ShadowProviderName": "Little LLC",
-  "ChartKey": "tenetur",
-  "LastLoaded": "2019-11-29T16:32:39.8989674+01:00",
-  "LastLoadedBy": 753,
+  "MainProviderName": "Rolfson-Jacobs",
+  "ShadowProviderName": "Rolfson, Marks and Bayer",
+  "ChartKey": "commodi",
+  "LastLoaded": "1998-12-27T17:54:03.6014331+01:00",
+  "LastLoadedBy": 890,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-03-20T16:32:39.8989674+01:00",
-  "LastMembershipChangeBy": 487,
+  "LastMembershipChange": "2021-11-25T17:54:03.6014331+01:00",
+  "LastMembershipChangeBy": 383,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "deserunt",
-  "MemberTabHeading": "molestiae",
-  "MailingsProviderName": "Veum Inc and Sons",
-  "DashboardTileDefinitionId": 829,
+  "MainHeading": "quia",
+  "MemberTabHeading": "accusamus",
+  "MailingsProviderName": "Welch Inc and Sons",
+  "DashboardTileDefinitionId": 360,
   "VisibleFor": [
     {
-      "VisibleId": 615,
+      "VisibleId": 688,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldType": "System.String",
+          "FieldLength": 756
         }
       }
     },
     {
-      "VisibleId": 615,
+      "VisibleId": 688,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldType": "System.String",
+          "FieldLength": 756
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 869
     }
   }
 }

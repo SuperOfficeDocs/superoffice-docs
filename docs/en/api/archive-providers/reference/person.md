@@ -144,6 +144,7 @@ table data; this will also pull in contact udef and related fields.
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -227,11 +228,11 @@ table data; this will also pull in contact udef and related fields.
 |personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
 |personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |personTargetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
-|personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personTargetRelation/personHasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personTargetRelation/mrMrs|string|Target - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personTargetRelation/position|listAny|Target - Position| x |
@@ -292,6 +293,7 @@ table data; this will also pull in contact udef and related fields.
 |personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAssociate/contactCategory|listAny|Category: Category| x |
 |personAssociate/role|listAny|Role : Role| x |
@@ -324,18 +326,19 @@ table data; this will also pull in contact udef and related fields.
 |correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |correspondingAssociate/role|listAny|Role : Role| x |
 |correspondingAssociate/assocName|associate|User ID : User ID| x |
 |correspondingAssociate/assocTooltip|string|Description : Description|  |
-|correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
@@ -433,13 +436,14 @@ table data; this will also pull in contact udef and related fields.
 |personContact/contactAssociate/associateDbId|associate|ID| x |
 |personContact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |personContact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|personContact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|personContact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|personContact/contactAssociate/contactCategory|listAny|Category: Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|personContact/contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
+|personContact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|personContact/contactAssociate/contactCategory|listAny|Category: Category| x |
 |personContact/contactAssociate/role|listAny|Role : Role| x |
 |personContact/contactAssociate/assocName|associate|User ID : User ID| x |
 |personContact/contactAssociate/assocTooltip|string|Description : Description|  |
@@ -532,18 +536,19 @@ table data; this will also pull in contact udef and related fields.
 |request/createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
 |request/createdBy/contactDepartment|string|Created by - Owning department: Name of the department at the company the user belongs to| x |
 |request/createdBy/usergroup|userGroup|Created by - Primary group: The user's primary user group| x |
+|request/createdBy/usergroupId|int|Created by - Group ID: The user's primary user group| x |
 |request/createdBy/contactFullName|string|Created by - Owner: Name and department of the company the user belongs to| x |
 |request/createdBy/contactCategory|listAny|Created by - Category: Category| x |
 |request/createdBy/role|listAny|Created by - Role: Role| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/createdBy/assocName|associate|Created by - User ID: User ID| x |
 |request/createdBy/assocTooltip|string|Created by - Description: Description|  |
 |request/createdBy/assocType|listAny|Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
 |request/createdBy/ejUserId|int|Created by - Service user ID: The database ID of a Service user|  |
 |request/createdBy/simultaneousEjUser|bool|Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/createdBy/ejDisplayName|string|Created by - Nick name: User's nick name in Service| x |
 |request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
@@ -568,6 +573,7 @@ table data; this will also pull in contact udef and related fields.
 |request/ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|request/ownedBy/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |request/ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |request/ownedBy/role|listAny|Owner - Role: Role| x |
@@ -598,6 +604,7 @@ table data; this will also pull in contact udef and related fields.
 |request/extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
 |request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
+|request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
@@ -637,6 +644,10 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
 |projectMembers/projectUrl/URLAddress|string|URL| x |
 |projectMembers/projectUrl/URLDescription|string|Description| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMembers/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMembers/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -644,15 +655,12 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |projectMembers/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMembers/projectAssociate/associateDbId|associate|ID| x |
 |projectMembers/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectMembers/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactCategory|listAny|Category: Category| x |
 |projectMembers/projectAssociate/role|listAny|Role : Role| x |
@@ -740,6 +748,10 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/rawType|int|Type: Type field for appointment, not decoded or formatted| x |
 |personAppointment/rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
 |personAppointment/cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
 |personAppointment/endTime| *None* |End time: End time of an activity|  |
 |personAppointment/suggestedAppointmentId|int|Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
@@ -748,10 +760,6 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/duration|timeSpan|Duration: The duration of the chat session|  |
 |personAppointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |personAppointment/visibleFor|listAny|Visible for|  |
@@ -779,6 +787,7 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |personAppointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |personAppointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|personAppointment/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |personAppointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAppointment/associate/contactCategory|listAny|Category: Category| x |
 |personAppointment/associate/role|listAny|Role : Role| x |
@@ -812,7 +821,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=ticketPriority,personSourceRelation/personUpdatedBy,personSourceRelation/personAssociateFullName,projectMembers/projectAssociate/isActive
+GET /api/v1/archive/Person?$select=personUrl/URLAddress,personSourceRelation/rank,request/ownedBy/usergroupId,request/ownedBy/assocTooltip,projectMembers/projectPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

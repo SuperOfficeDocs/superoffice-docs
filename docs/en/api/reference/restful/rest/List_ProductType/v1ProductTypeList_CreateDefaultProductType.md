@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 724,
-  "Name": "Rolfson, O'Connell and Hamill",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 946,
-  "Rank": 69,
+  "Id": 448,
+  "Name": "Haley-Grant",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 253,
+  "Rank": 347,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldType": "System.String",
+      "FieldLength": 489
     }
   }
 }

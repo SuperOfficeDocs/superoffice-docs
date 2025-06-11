@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 496,
-  "Name": "Maggio-Gaylord",
-  "Tooltip": "ratione",
+  "HeadingId": 109,
+  "Name": "Gaylord Inc and Sons",
+  "Tooltip": "deleniti",
   "Deleted": false,
-  "Rank": 705,
-  "UdListDefinitionId": 463
+  "Rank": 240,
+  "UdListDefinitionId": 681
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 6,
-  "Name": "Gleason, Steuber and Gerhold",
-  "Tooltip": "quibusdam",
-  "Deleted": true,
-  "Rank": 350,
-  "UdListDefinitionId": 581,
+  "HeadingId": 892,
+  "Name": "Kuhn, McKenzie and Barrows",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 365,
+  "UdListDefinitionId": 91,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

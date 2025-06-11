@@ -94,19 +94,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924,
-  "Name": "Kunze-Jast",
-  "Tooltip": "ab",
+  "Id": 774,
+  "Name": "Wisoky, Cartwright and Larson",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 779,
+  "Rank": 498,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 87,
-  "Name": "Koss LLC",
-  "Tooltip": "est",
+  "Id": 481,
+  "Name": "Langworth Inc and Sons",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 295,
+  "Rank": 829,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": true,
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 393
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

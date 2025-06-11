@@ -20,10 +20,6 @@ generated: true
 
 * [POST Agents/CustomerService/SaveMailboxEntity](v1CustomerServiceAgent_SaveMailboxEntity.md)
 
-* [POST Agents/CustomerService/CreateDefaultSmsConfig](v1CustomerServiceAgent_CreateDefaultSmsConfig.md)
-
-* [POST Agents/CustomerService/SaveSmsConfig](v1CustomerServiceAgent_SaveSmsConfig.md)
-
 * [POST Agents/CustomerService/UpdateFeatureToggles](v1CustomerServiceAgent_UpdateFeatureToggles.md)
 
 * [POST Agents/CustomerService/EventHandlerExists](v1CustomerServiceAgent_EventHandlerExists.md)

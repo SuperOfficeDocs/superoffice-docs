@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    539,
-    840
+    606,
+    436
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 749,
-    "MessageId": "quam",
-    "Subject": "porro",
+    "ServerId": 542,
+    "MessageId": "possimus",
+    "Subject": "tempora",
     "From": null,
     "To": [
       {
-        "ContactId": 403,
-        "ContactName": "Raynor-Bednar",
-        "PersonId": 64,
-        "PersonName": "Thompson-Zboncak",
-        "AssociateId": 27,
-        "Address": "corporis",
-        "EmailId": 276,
+        "ContactId": 585,
+        "ContactName": "Goldner-Hyatt",
+        "PersonId": 85,
+        "PersonName": "Deckow-Kuhn",
+        "AssociateId": 153,
+        "Address": "tenetur",
+        "EmailId": 838,
         "DuplicatePersonIds": [
-          272,
-          762
+          820,
+          441
         ],
-        "Name": "Parisian Group",
+        "Name": "Kassulke, Reichel and Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 895
+            "FieldType": "System.Int32",
+            "FieldLength": 496
           }
         }
       }
     ],
-    "Sent": "2006-10-11T16:32:38.9458092+02:00",
+    "Sent": "2001-01-30T17:54:03.054585+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 27,
+    "Size": 463,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 49
       }
     }
   }

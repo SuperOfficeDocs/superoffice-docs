@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et"
+  "Section": "ut"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 962,
-    "Section": "assumenda",
-    "Key": "iure",
-    "Name": "Hackett-Bergnaum",
+    "PrefDescId": 984,
+    "Section": "ipsam",
+    "Key": "suscipit",
+    "Name": "Brekke-Jewess",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Switchable even-keeled flexibility",
+    "Description": "Self-enabling zero tolerance encryption",
     "IsBuiltin": true,
-    "TableName": "Kris, Gutkowski and Veum",
-    "UserDefinedListId": 18,
-    "Rank": 504,
-    "SubGroup": "ipsum",
-    "MinLevel": 641,
-    "MaxValue": 302,
-    "MinValue": 505,
-    "RequiredLicense": "similique",
+    "TableName": "Swift, Walsh and Krajcik",
+    "UserDefinedListId": 666,
+    "Rank": 607,
+    "SubGroup": "ut",
+    "MinLevel": 408,
+    "MaxValue": 251,
+    "MinValue": 88,
+    "RequiredLicense": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldType": "System.String",
+        "FieldLength": 825
       }
     }
   }

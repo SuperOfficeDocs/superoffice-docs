@@ -90,9 +90,9 @@ generated: true
 
 * [POST Agents/User/SaveUser](v1UserAgent_SaveUser.md)
 
-* [POST Agents/User/GetUserCommands](v1UserAgent_GetUserCommands.md)
+* [POST Agents/User/GetUserCommandsAsync](v1UserAgent_GetUserCommandsAsync.md)
 
-* [POST Agents/User/ExecuteUserCommand](v1UserAgent_ExecuteUserCommand.md)
+* [POST Agents/User/ExecuteUserCommandAsync](v1UserAgent_ExecuteUserCommandAsync.md)
 
 * [POST Agents/User/DeleteUser](v1UserAgent_DeleteUser.md)
 

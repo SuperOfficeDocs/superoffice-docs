@@ -105,33 +105,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Cronin-Sauer",
-  "ProviderName": "Kuhic LLC",
+  "GuiName": "Bednar, Schamberger and Rippin",
+  "ProviderName": "Kuhic, Bernhard and Reichel",
   "SortOrder": [
     {
-      "Name": "Marvin Group",
+      "Name": "Koelpin-Rolfson",
       "Direction": "ASC"
     },
     {
-      "Name": "Marvin Group",
+      "Name": "Koelpin-Rolfson",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Greenholt Group",
-      "Operator": "delectus",
+      "Name": "Kub, Bosco and Gleichner",
+      "Operator": "maiores",
       "Values": [
-        "fugit",
-        "quam"
+        "ipsam",
+        "ut"
       ],
       "DisplayValues": [
-        "quo",
-        "beatae"
+        "sit",
+        "ea"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 867,
+      "InterParenthesis": 714,
       "InterOperator": "And",
-      "UniqueHash": 926
+      "UniqueHash": 347
     }
   ],
   "Entities": [
-    "adipisci",
-    "ipsa"
+    "reiciendis",
+    "beatae"
   ],
-  "Page": 944,
-  "PageSize": 465,
-  "Context": "molestias"
+  "Page": 465,
+  "PageSize": 576,
+  "Context": "corporis"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Sporer-Wolff",
-    "PrimaryKey": 390,
+    "EntityName": "Farrell Inc and Sons",
+    "PrimaryKey": 832,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "saepe",
-        "TooltipHint": "tenetur",
-        "LinkHint": "exercitationem"
+        "DisplayValue": "vero",
+        "TooltipHint": "ipsum",
+        "LinkHint": "praesentium"
       }
     },
-    "LinkHint": "cupiditate",
-    "StyleHint": "quia",
+    "LinkHint": "aliquid",
+    "StyleHint": "doloremque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldType": "System.String",
+        "FieldLength": 726
       }
     }
   }

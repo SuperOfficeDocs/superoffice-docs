@@ -146,6 +146,7 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personUdef/SuperOffice:10|string|Contact - page1marketingonly| x |
 |consentPerson/person/personUdef/SuperOffice:11|string|Contact - page1adminonly| x |
 |consentPerson/person/personExtra/x\_person\_integer|int|Contact - Extra Integer: Custom person integer| x |
+|consentPerson/person/personExtra/x\_person\_hidden\_integer|int|Contact - Extra hidden integer: Custom integer field that is hidden| x |
 |consentPerson/person/personExtra/x\_person\_float|decimal|Contact - Extra float: Custom float field| x |
 |consentPerson/person/personExtra/x\_person\_longtext|string|Contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |consentPerson/person/personExtra/x\_person\_date|date|Contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -182,7 +183,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personExtra/x_person_time,consentPerson/person/personExtra/x_person_shorttext_list,consentPerson/person/personUpdatedDate
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personUpdatedDate,consentPerson/person/personMobilePhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

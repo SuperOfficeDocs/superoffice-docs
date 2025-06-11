@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 405,
-  "Name": "Nader LLC",
-  "CurrencyId": 949,
-  "EnglishName": "Kuvalis, Littel and Swaniawski",
+  "CountryId": 741,
+  "Name": "Gorczany, Crist and Hickle",
+  "CurrencyId": 355,
+  "EnglishName": "Welch Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Visionary maximized core",
-  "OrgNrText": "1964942",
-  "InterAreaPrefix": "odio",
-  "DialInPrefix": "animi",
-  "ZipPrefix": "voluptas",
-  "DomainName": "Abernathy, King and Smith",
-  "AddressLayoutId": 587,
-  "DomesticAddressLayoutId": 38,
-  "ForeignAddressLayoutId": 1002,
-  "Rank": 410,
-  "Tooltip": "et",
+  "ImageDescription": "Function-based executive hardware",
+  "OrgNrText": "1083385",
+  "InterAreaPrefix": "voluptate",
+  "DialInPrefix": "non",
+  "ZipPrefix": "eos",
+  "DomainName": "Conroy Group",
+  "AddressLayoutId": 848,
+  "DomesticAddressLayoutId": 763,
+  "ForeignAddressLayoutId": 50,
+  "Rank": 474,
+  "Tooltip": "nobis",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 776,
-  "Name": "Greenholt Inc and Sons",
-  "CurrencyId": 645,
-  "EnglishName": "Gerlach, Wisozk and Collins",
+  "CountryId": 935,
+  "Name": "Gibson-Cummings",
+  "CurrencyId": 850,
+  "EnglishName": "Schoen LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Mandatory neutral support",
-  "OrgNrText": "606894",
-  "InterAreaPrefix": "omnis",
-  "DialInPrefix": "vel",
-  "ZipPrefix": "non",
-  "DomainName": "Jewess Inc and Sons",
-  "AddressLayoutId": 954,
-  "DomesticAddressLayoutId": 478,
-  "ForeignAddressLayoutId": 126,
-  "Rank": 130,
-  "Tooltip": "earum",
-  "Deleted": false,
+  "ImageDescription": "Multi-lateral 3rd generation alliance",
+  "OrgNrText": "1380483",
+  "InterAreaPrefix": "sint",
+  "DialInPrefix": "optio",
+  "ZipPrefix": "magni",
+  "DomainName": "Weimann Inc and Sons",
+  "AddressLayoutId": 750,
+  "DomesticAddressLayoutId": 964,
+  "ForeignAddressLayoutId": 93,
+  "Rank": 86,
+  "Tooltip": "delectus",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 738
+      "FieldLength": 255
     }
   }
 }

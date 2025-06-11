@@ -26,7 +26,7 @@ Gets a SuggestedDocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=214
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=609
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,13 +87,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 580,
-  "Name": "Gorczany, Beier and Littel",
-  "Tooltip": "fuga",
-  "Rank": 294,
-  "DoctmplId": 707,
-  "Header": "expedita",
-  "OurRef": "iure",
+  "SuggestedDocumentId": 282,
+  "Name": "Hudson, Thiel and Senger",
+  "Tooltip": "quisquam",
+  "Rank": 67,
+  "DoctmplId": 667,
+  "Header": "delectus",
+  "OurRef": "ea",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 482
+      "FieldLength": 775
     }
   }
 }

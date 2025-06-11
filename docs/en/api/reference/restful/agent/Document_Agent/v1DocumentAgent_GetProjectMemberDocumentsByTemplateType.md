@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 263,
-  "StartTime": "2010-06-02T16:32:38.6490035+02:00",
-  "EndTime": "2021-03-07T16:32:38.6490035+01:00",
-  "Count": 530,
-  "DocumentTemplateId": 377
+  "PersonId": 672,
+  "StartTime": "2008-03-31T17:54:02.9608392+02:00",
+  "EndTime": "2017-04-06T17:54:02.9608392+02:00",
+  "Count": 38,
+  "DocumentTemplateId": 342
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 647,
-    "Attention": "nesciunt",
-    "Header": "magnam",
-    "Name": "Turcotte Group",
-    "OurRef": "fugit",
-    "YourRef": "cum",
-    "Description": "Digitized neutral service-desk",
-    "DocumentTemplate": "et",
-    "IsPublished": true,
-    "PersonId": 270,
-    "PersonFullName": "Cristopher Schmitt",
-    "AssociateFullName": "Doris Torphy Sr.",
-    "ContactId": 792,
-    "ContactName": "Treutel-Emard",
-    "ProjectId": 285,
-    "ProjectName": "Walsh, Boyer and Streich",
-    "AssociateId": 912,
-    "Snum": 939,
-    "SaleId": 176,
-    "SaleName": "Zboncak, Gibson and Hackett",
+    "DocumentId": 726,
+    "Attention": "dolorem",
+    "Header": "nihil",
+    "Name": "Carroll, Bernhard and Kuhic",
+    "OurRef": "vel",
+    "YourRef": "perferendis",
+    "Description": "Compatible well-modulated portal",
+    "DocumentTemplate": "consequuntur",
+    "IsPublished": false,
+    "PersonId": 872,
+    "PersonFullName": "Ms. Carlie Brandyn O'Keefe DVM",
+    "AssociateFullName": "Vance Reichert",
+    "ContactId": 546,
+    "ContactName": "Romaguera Inc and Sons",
+    "ProjectId": 730,
+    "ProjectName": "Wisoky Inc and Sons",
+    "AssociateId": 265,
+    "Snum": 661,
+    "SaleId": 933,
+    "SaleName": "Quitzon, Schumm and Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldType": "System.String",
+        "FieldLength": 313
       }
     }
   }

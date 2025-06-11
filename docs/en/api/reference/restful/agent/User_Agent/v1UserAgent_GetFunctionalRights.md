@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 728
+  "RoleId": 721
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Rice Group",
-    "ToolTip": "Sit distinctio magni voluptas quas quia.",
+    "Id": 696,
+    "Name": "Cormier-Rolfson",
+    "ToolTip": "Fuga omnis ut distinctio omnis.",
     "Deleted": false,
-    "Rank": 993,
-    "Type": "nisi",
-    "ColorBlock": 959,
-    "IconHint": "dolorem",
+    "Rank": 16,
+    "Type": "rerum",
+    "ColorBlock": 234,
+    "IconHint": "ratione",
     "Selected": true,
-    "LastChanged": "2011-11-06T16:32:40.4457108+01:00",
+    "LastChanged": "2004-11-07T17:54:03.8826694+01:00",
     "ChildItems": [
       {
-        "Id": 551,
-        "Name": "Trantow-Price",
-        "ToolTip": "Earum eligendi voluptatem rerum maiores dolore.",
+        "Id": 537,
+        "Name": "Bradtke, Schamberger and Paucek",
+        "ToolTip": "Omnis quia sunt.",
         "Deleted": false,
-        "Rank": 834,
-        "Type": "ut",
-        "ColorBlock": 60,
-        "IconHint": "dicta",
-        "Selected": true,
-        "LastChanged": "2021-04-12T16:32:40.4457108+02:00",
+        "Rank": 214,
+        "Type": "explicabo",
+        "ColorBlock": 152,
+        "IconHint": "hic",
+        "Selected": false,
+        "LastChanged": "2012-07-07T17:54:03.8826694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "tempora",
+        "ExtraInfo": "ullam",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Vivien Stamm",
+        "FullName": "Bianka Hagenes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 655
+            "FieldLength": 809
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "dolores",
+    "ExtraInfo": "qui",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Edison Walter",
+    "FullName": "Haley Zieme",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldType": "System.String",
+        "FieldLength": 962
       }
     }
   }

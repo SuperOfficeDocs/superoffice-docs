@@ -106,7 +106,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 233
+  "ProjectId": 27
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "velit",
-  "SignOffText": "quos",
-  "SignOnConfirmationText": "voluptatem",
-  "SignOnText": "eum",
-  "EventDate": "2020-01-12T16:32:39.6490177+01:00",
+  "SignOffConfirmationText": "ipsum",
+  "SignOffText": "est",
+  "SignOnConfirmationText": "veritatis",
+  "SignOnText": "iusto",
+  "EventDate": "2005-01-19T17:54:03.4920634+01:00",
   "Enabled": false,
-  "CreatedDate": "2021-08-09T16:32:39.6490177+02:00",
-  "SignOff": false,
+  "CreatedDate": "2012-09-16T17:54:03.4920634+02:00",
+  "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 392,
+  "SignOffTaskId": 263,
   "SignOffTriggersAssign": false,
-  "SignOn": true,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 152,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2006-02-26T16:32:39.6490177+01:00",
+  "SignOn": false,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 860,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2018-08-09T17:54:03.4920634+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 741,
-  "Id": 599,
-  "PublishFrom": "2000-10-28T16:32:39.6490177+02:00",
+  "ProjectId": 168,
+  "Id": 477,
+  "PublishFrom": "2010-05-02T17:54:03.4920634+02:00",
   "PublishType": "External",
-  "PublishTo": "2019-06-16T16:32:39.6490177+02:00",
+  "PublishTo": "2004-09-08T17:54:03.4920634+02:00",
   "VisibleForCategories": [
     {
-      "Id": 220,
-      "Name": "Treutel-Pfeffer",
-      "ToolTip": "Dolores omnis totam.",
+      "Id": 57,
+      "Name": "Halvorson-Kuhlman",
+      "ToolTip": "Quia omnis magni.",
       "Deleted": false,
-      "Rank": 900,
-      "Type": "laborum",
+      "Rank": 935,
+      "Type": "commodi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aliquam",
-      "ColorBlock": 512,
-      "ExtraInfo": "error",
-      "StyleHint": "et",
-      "FullName": "Columbus Kautzer",
+      "IconHint": "quo",
+      "ColorBlock": 684,
+      "ExtraInfo": "neque",
+      "StyleHint": "molestiae",
+      "FullName": "Raymond Wehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldLength": 738
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 77,
-      "Name": "Lind-Jewess",
-      "ToolTip": "Autem omnis eaque.",
-      "Deleted": false,
-      "Rank": 741,
-      "Type": "aut",
+      "Id": 501,
+      "Name": "Gleichner Group",
+      "ToolTip": "Impedit consequatur nisi quia.",
+      "Deleted": true,
+      "Rank": 556,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 804,
-      "ExtraInfo": "molestias",
-      "StyleHint": "nobis",
-      "FullName": "Mckenna Kerluke",
+      "IconHint": "nostrum",
+      "ColorBlock": 624,
+      "ExtraInfo": "a",
+      "StyleHint": "eos",
+      "FullName": "Maximilian Kreiger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 529
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 878,
+  "ProjectEventId": 616,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 527
     }
   }
 }

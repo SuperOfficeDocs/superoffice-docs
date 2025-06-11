@@ -39,16 +39,16 @@ The SystemEventEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | Integer | Primary key |
-| Scope | String | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | String | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | String | Event key, predefined in code |
-| Eventmess | String | Message to be shown, entered by administrator |
-| ExtraInfo | Integer | Extra information (area id for prototype rebuild, etc) |
-| Owner | Integer | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | Integer | Number of updates made to this record |
-| Registered | String | Registered when  in UTC. |
-| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| SystemEventId | Integer |  |
+| Scope | String |  |
+| Eta | String |  |
+| Eventkey | String |  |
+| Eventmess | String |  |
+| ExtraInfo | Integer |  |
+| Owner | Integer |  |
+| UpdatedCount | Integer |  |
+| Registered | String |  |
+| ActivatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 
 ## Response:
 
@@ -58,20 +58,20 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: SystemEventEntity
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | int32 | Primary key |
-| Scope | string | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | date-time | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | string | Event key, predefined in code |
-| Eventmess | string | Message to be shown, entered by administrator |
-| ExtraInfo | int32 | Extra information (area id for prototype rebuild, etc) |
-| Owner | int32 | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | int32 | Number of updates made to this record |
-| Registered | date-time | Registered when  in UTC. |
-| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| SystemEventId | int32 |  |
+| Scope | string |  |
+| Eta | date-time |  |
+| Eventkey | string |  |
+| Eventmess | string |  |
+| ExtraInfo | int32 |  |
+| Owner | int32 |  |
+| UpdatedCount | int32 |  |
+| Registered | date-time |  |
+| ActivatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 535,
+  "SystemEventId": 372,
   "Scope": "Database",
-  "Eta": "2014-06-03T16:32:38.3678168+02:00",
-  "Eventkey": "iste",
-  "Eventmess": "a",
-  "ExtraInfo": 504,
-  "Owner": 475,
-  "UpdatedCount": 328,
-  "Registered": "2023-12-23T16:32:38.3678168+01:00",
+  "Eta": "2008-10-24T17:54:02.8202276+02:00",
+  "Eventkey": "rerum",
+  "Eventmess": "eius",
+  "ExtraInfo": 399,
+  "Owner": 926,
+  "UpdatedCount": 351,
+  "Registered": "2012-07-12T17:54:02.8202276+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 55,
+  "SystemEventId": 701,
   "Scope": "Database",
-  "Eta": "2007-05-18T16:32:38.3678168+02:00",
-  "Eventkey": "odio",
-  "Eventmess": "natus",
-  "ExtraInfo": 562,
-  "Owner": 699,
-  "UpdatedCount": 889,
-  "Registered": "2018-04-09T16:32:38.3678168+02:00",
+  "Eta": "2001-11-28T17:54:02.8202276+01:00",
+  "Eventkey": "quisquam",
+  "Eventmess": "earum",
+  "ExtraInfo": 198,
+  "Owner": 694,
+  "UpdatedCount": 684,
+  "Registered": "2015-01-07T17:54:02.8202276+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldType": "System.String",
+      "FieldLength": 59
     }
   }
 }

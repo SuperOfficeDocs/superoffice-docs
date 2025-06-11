@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Abernathy, Kunze and Bauch",
-  "Id": 372
+  "ListName": "Gorczany, Heaney and Hackett",
+  "Id": 368
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 105,
-  "Name": "Ratke-Harber",
-  "ToolTip": "Laudantium tempore repellendus quia et repudiandae sed.",
-  "Deleted": true,
-  "Rank": 286,
-  "Type": "perferendis",
+  "Id": 679,
+  "Name": "Kerluke, Ankunding and Rau",
+  "ToolTip": "Est natus.",
+  "Deleted": false,
+  "Rank": 965,
+  "Type": "suscipit",
   "ChildItems": [
     {
-      "Id": 462,
-      "Name": "Borer LLC",
-      "ToolTip": "Voluptatem nesciunt.",
-      "Deleted": false,
-      "Rank": 170,
-      "Type": "placeat",
+      "Id": 18,
+      "Name": "Klein, Stiedemann and Johnston",
+      "ToolTip": "Ut odit ad maiores.",
+      "Deleted": true,
+      "Rank": 41,
+      "Type": "sit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloribus",
-      "ColorBlock": 181,
+      "IconHint": "laudantium",
+      "ColorBlock": 160,
       "ExtraInfo": "et",
       "StyleHint": "est",
-      "FullName": "Jo Thompson",
+      "FullName": "Clara Nolan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 499
+          "FieldLength": 543
         }
       }
     }
   ],
-  "IconHint": "quaerat",
-  "ColorBlock": 745,
-  "ExtraInfo": "voluptatem",
-  "StyleHint": "enim",
-  "FullName": "Ms. Meda Dorothea Collier",
+  "IconHint": "repellendus",
+  "ColorBlock": 237,
+  "ExtraInfo": "eius",
+  "StyleHint": "laboriosam",
+  "FullName": "Onie Zboncak",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldType": "System.Int32",
+      "FieldLength": 438
     }
   }
 }

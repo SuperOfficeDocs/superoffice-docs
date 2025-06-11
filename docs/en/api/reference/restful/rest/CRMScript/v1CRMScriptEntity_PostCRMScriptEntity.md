@@ -113,52 +113,52 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 576,
-  "UniqueIdentifier": "sint",
-  "Name": "Ferry Inc and Sons",
-  "Description": "Seamless grid-enabled matrices",
-  "IncludeId": "et",
-  "AccessKey": "iure",
-  "HierarchyId": 991,
-  "Source": "voluptatem",
-  "SourceCode": "rerum",
+  "EjscriptId": 870,
+  "UniqueIdentifier": "inventore",
+  "Name": "Trantow, Jacobs and Dach",
+  "Description": "Cross-platform empowering throughput",
+  "IncludeId": "laborum",
+  "AccessKey": "non",
+  "HierarchyId": 540,
+  "Source": "odit",
+  "SourceCode": "sapiente",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 820,
+  "HtmlOutput": 496,
   "Includes": [
-    801,
-    297
+    355,
+    97
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 555,
-      "LineNumberTo": 915,
-      "Delta": 234,
-      "IncludeId": "non",
+      "LineNumberFrom": 910,
+      "LineNumberTo": 226,
+      "Delta": 57,
+      "IncludeId": "voluptatem",
       "IncludedFrom": [
-        "inventore",
-        "at"
+        "et",
+        "esse"
       ]
     },
     {
-      "LineNumberFrom": 555,
-      "LineNumberTo": 915,
-      "Delta": 234,
-      "IncludeId": "non",
+      "LineNumberFrom": 910,
+      "LineNumberTo": 226,
+      "Delta": 57,
+      "IncludeId": "voluptatem",
       "IncludedFrom": [
-        "inventore",
-        "at"
+        "et",
+        "esse"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2018-12-14T16:32:47.4152322+01:00",
-  "RegisteredAssociateId": 927,
-  "Updated": "2010-07-30T16:32:47.4152322+02:00",
-  "UpdatedAssociateId": 910
+  "Registered": "2008-05-30T17:54:08.1324619+02:00",
+  "RegisteredAssociateId": 116,
+  "Updated": "2011-08-18T17:54:08.1324619+02:00",
+  "UpdatedAssociateId": 721
 }
 ```
 
@@ -169,57 +169,57 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 709,
-  "UniqueIdentifier": "maxime",
-  "Name": "Jewess-Bins",
-  "Description": "Customer-focused transitional ability",
-  "IncludeId": "perspiciatis",
-  "AccessKey": "neque",
-  "HierarchyId": 226,
-  "Source": "temporibus",
-  "SourceCode": "quia",
+  "EjscriptId": 526,
+  "UniqueIdentifier": "exercitationem",
+  "Name": "Abernathy, Wunsch and Gutkowski",
+  "Description": "Exclusive content-based projection",
+  "IncludeId": "sit",
+  "AccessKey": "nobis",
+  "HierarchyId": 578,
+  "Source": "aut",
+  "SourceCode": "sint",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 787,
+  "HtmlOutput": 470,
   "Includes": [
-    958,
-    219
+    791,
+    729
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 813,
-      "LineNumberTo": 936,
-      "Delta": 542,
-      "IncludeId": "vero",
+      "LineNumberFrom": 120,
+      "LineNumberTo": 410,
+      "Delta": 917,
+      "IncludeId": "minus",
       "IncludedFrom": [
-        "hic",
-        "quae"
+        "harum",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 149
+          "FieldLength": 743
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2022-04-23T16:32:47.4152322+02:00",
-  "RegisteredAssociateId": 127,
-  "Updated": "2001-06-16T16:32:47.4152322+02:00",
-  "UpdatedAssociateId": 185,
+  "Registered": "2003-07-05T17:54:08.1324619+02:00",
+  "RegisteredAssociateId": 326,
+  "Updated": "2010-12-10T17:54:08.1324619+01:00",
+  "UpdatedAssociateId": 48,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 75
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sipes LLC"
+  "ApplicationName": "Predovic, Yundt and Nader"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 698,
-    "Name": "Dare Group",
-    "CreatedDate": "2020-12-10T16:32:39.1645096+01:00",
-    "UpdatedDate": "1998-02-12T16:32:39.1645096+01:00",
-    "AssociateFullName": "Miss Waino Elyse Lemke",
-    "CreatedBy": "et",
-    "UpdatedBy": "occaecati",
-    "DeviceIdentifier": "ut",
-    "ForeignAppId": 287,
+    "ForeignDeviceId": 922,
+    "Name": "Gottlieb, Prosacco and Reinger",
+    "CreatedDate": "2015-10-27T17:54:03.1639551+01:00",
+    "UpdatedDate": "2018-03-27T17:54:03.1639551+02:00",
+    "AssociateFullName": "Dalton Hirthe",
+    "CreatedBy": "nostrum",
+    "UpdatedBy": "rerum",
+    "DeviceIdentifier": "impedit",
+    "ForeignAppId": 417,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 807
+        "FieldLength": 861
       }
     }
   }

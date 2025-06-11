@@ -301,6 +301,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/personUdef/SuperOffice:10|string|Sale - page1marketingonly| x |
 |alternative/version/quote/sale/person/personUdef/SuperOffice:11|string|Sale - page1adminonly| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_integer|int|Sale - Extra Integer: Custom person integer| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field that is hidden| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_float|decimal|Sale - Extra float: Custom float field| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_longtext|string|Sale - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_date|date|Sale - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -328,17 +329,18 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/personAssociate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
 |alternative/version/quote/sale/person/personAssociate/fullName|string|Sale - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |alternative/version/quote/sale/person/personAssociate/contactId|int|Sale - Company ID: Database ID of the company the user belongs to|  |
-|alternative/version/quote/sale/person/personAssociate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
 |alternative/version/quote/sale/person/personAssociate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/title|string|Sale - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/associateDbId|associate|Sale - ID| x |
 |alternative/version/quote/sale/person/personAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/person/personAssociate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
 |alternative/version/quote/sale/person/personAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/person/personAssociate/role|listAny|Sale - Role: Role| x |
@@ -371,6 +373,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/correspondingAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/person/correspondingAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/person/correspondingAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/person/correspondingAssociate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
 |alternative/version/quote/sale/person/correspondingAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/person/correspondingAssociate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/person/correspondingAssociate/role|listAny|Sale - Role: Role| x |
@@ -430,13 +433,13 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/deletedDate|datetime|Sale - Deleted date: Deleted date|  |
 |alternative/version/quote/sale/contact/mainContact| *None* |Sale - Main contact: Main contact for this company| x |
 |alternative/version/quote/sale/contact/contactPhone/formattedNumber|string|Sale - Telephone - Phone: Displays phone number|  |
-|alternative/version/quote/sale/contact/contactPhone/description|string|Sale - Telephone - Description: Phone number description| x |
-|alternative/version/quote/sale/contact/contactFax/formattedNumber|string|Sale - Fax - Phone: Displays phone number|  |
-|alternative/version/quote/sale/contact/contactFax/description|string|Sale - Fax - Description: Phone number description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/contactPhone/description|string|Sale - Telephone - Description: Phone number description| x |
+|alternative/version/quote/sale/contact/contactFax/formattedNumber|string|Sale - Fax - Phone: Displays phone number|  |
+|alternative/version/quote/sale/contact/contactFax/description|string|Sale - Fax - Description: Phone number description| x |
 |alternative/version/quote/sale/contact/searchPhone/formattedNumber|string|Sale - Searchphone - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/searchPhone/description|string|Sale - Searchphone - Description: Phone number description| x |
 |alternative/version/quote/sale/contact/email/emailProtocol|string|Sale - Protocol: E-mail protocol, such as SMTP| x |
@@ -497,6 +500,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/contactAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/contact/contactAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/contact/contactAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/contact/contactAssociate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
 |alternative/version/quote/sale/contact/contactAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/contact/contactAssociate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/contact/contactAssociate/role|listAny|Sale - Role: Role| x |
@@ -532,15 +536,16 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:12|listAny|Sale - Udlist one: Static tooltip for udlist one| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:13|listAny|Sale - Udlist two: Static tooltip for udlist two| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_integer|int|Sale - Extra Integer: Custom integer field| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field - hidden| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_default\_integer|int|Sale - Extra Default Integer: Custom integer field with default value 123.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_float|decimal|Sale - Extra Float: Custom float field with 3 decimals| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_longtext|string|Sale - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_dropdown|listAny|Sale - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_date|date|Sale - Extra date: Custom date field. User current as default.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_datetime|datetime|Sale - Extra DateTime: Custom Date Time field. No default value. External| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_time| *None* |Sale - Extra time: Custom time field.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_boolean|bool|Sale - Extra boolean: Custom boolean field.| x |
@@ -593,6 +598,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/associate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/associate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/associate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/associate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
 |alternative/version/quote/sale/associate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/associate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/associate/role|listAny|Sale - Role: Role| x |
@@ -635,16 +641,16 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/project/description|string|Sale - Project - Description: Description| x |
 |alternative/version/quote/sale/project/updatedBy|associate|Sale - Project - Updated by: The user who last updated the data| x |
 |alternative/version/quote/sale/project/updatedByFullName|associate|Sale - Project - Updated by - Full name: The user who last updated the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/updatedDate|date|Sale - Project - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/sale/project/registeredBy|associate|Sale - Project - Registered by: The user who registered the data| x |
 |alternative/version/quote/sale/project/registeredByFullName|associate|Sale - Project - Registered by - Full name: The user who registered the data| x |
 |alternative/version/quote/sale/project/registeredDate|date|Sale - Project - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/sale/project/hasGuide|bool|Sale - Project - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/project/nextMilestone|date|Sale - Project - Next milestone: Date of next non-completed activity that is marked as a milestone| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
@@ -670,6 +676,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/project/projectAssociate/contactName|string|Sale - Project - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/project/projectAssociate/contactDepartment|string|Sale - Project - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/project/projectAssociate/usergroup|userGroup|Sale - Project - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/project/projectAssociate/usergroupId|int|Sale - Project - Group ID: The user's primary user group| x |
 |alternative/version/quote/sale/project/projectAssociate/contactFullName|string|Sale - Project - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/project/projectAssociate/contactCategory|listAny|Sale - Project - Category: Category| x |
 |alternative/version/quote/sale/project/projectAssociate/role|listAny|Sale - Project - Role: Role| x |
@@ -738,6 +745,10 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
 |alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/connection/erpConnection/description|string|ERP connection - ERP connections - Description: The description of the ERP connection in the CRM system|  |
 |alternative/version/quote/connection/erpConnection/active|bool|ERP connection - ERP connections - Active: Is the ERP connection currently active?|  |
 |alternative/version/quote/connection/erpConnection/erpId|string|ERP connection - ERP connections - ERP ID: The global unique ID of this ERP connection, as used by the Sync Connector|  |
@@ -745,10 +756,6 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/connection/erpConnection/allAccess|bool|ERP connection - ERP connections - Unrestricted: There are no access restrictions on this ERP connection|  |
 |alternative/version/quote/connection/erpConnection/deleted|bool|ERP connection - ERP connections - Deleted: Column showing if the ERP connection has been marked as deleted|  |
 |alternative/version/quote/connection/erpConnection/updatedBy|associate|ERP connection - ERP connections - Updated by: The user who last updated the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/connection/erpConnection/updatedDate|date|ERP connection - ERP connections - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/connection/erpConnection/registeredBy|associate|ERP connection - ERP connections - Registered by: The user who registered the data| x |
 |alternative/version/quote/connection/erpConnection/registeredDate|date|ERP connection - ERP connections - Registered date: The date/time the data was registered in UTC.| x |
@@ -763,7 +770,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=alternative/extraField5,alternative/version/quote/sale/visibleFor,alternative/version/quote/sale/person/personNumber,alternative/version/quote/sale/person/restrictionAddress/wgs84latitude,alternative/version/quote/sale/person/personAssociate/userName
+GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=alternative/version/quote/sale/person/personExtra/y_rental/y_equipment/x_name,alternative/version/quote/sale/contact/streetAddress/line2,alternative/version/quote/sale/contact/streetAddress/city,alternative/version/quote/sale/contact/contactExtra/x_contact_shorttext,alternative/version/quote/sale/project/projectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

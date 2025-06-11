@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=est
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=aperiam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Runolfsson Group",
-    "ToolTip": "Aperiam autem odit earum doloremque.",
-    "Deleted": true,
-    "Rank": 841,
-    "Type": "alias",
+    "Id": 174,
+    "Name": "Torphy, Conroy and Grant",
+    "ToolTip": "Optio adipisci dicta.",
+    "Deleted": false,
+    "Rank": 281,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 289,
-        "Name": "Bednar Group",
-        "ToolTip": "Dolorem voluptas quidem veniam minima.",
-        "Deleted": true,
-        "Rank": 78,
-        "Type": "sed",
+        "Id": 71,
+        "Name": "Barton-Bechtelar",
+        "ToolTip": "Sint esse minus et architecto ex voluptatem ea.",
+        "Deleted": false,
+        "Rank": 260,
+        "Type": "ipsa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 831,
-        "ExtraInfo": "maxime",
-        "StyleHint": "voluptas",
-        "FullName": "Eliezer Hackett",
+        "IconHint": "consequatur",
+        "ColorBlock": 5,
+        "ExtraInfo": "ut",
+        "StyleHint": "sed",
+        "FullName": "Mr. Nicolette Candace Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 536
+            "FieldLength": 489
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 896,
-    "ExtraInfo": "ut",
-    "StyleHint": "asperiores",
-    "FullName": "Prof. Lesly Waylon Considine",
+    "IconHint": "excepturi",
+    "ColorBlock": 256,
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "nam",
+    "FullName": "Ms. Fae Marisol Botsford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldType": "System.String",
+        "FieldLength": 242
       }
     }
   }

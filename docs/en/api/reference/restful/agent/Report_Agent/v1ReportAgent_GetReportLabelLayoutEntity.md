@@ -26,7 +26,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=140
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=407
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 326,
-  "Name": "Kozey, Thiel and Konopelski",
-  "Description": "Multi-lateral client-driven knowledge user",
+  "ReportLabelLayoutId": 229,
+  "Name": "Feeney-Bernhard",
+  "Description": "Mandatory system-worthy moderator",
   "Orientation": "Landscape",
-  "PaperWidth": 177,
-  "PaperHeight": 143,
-  "LeftMargin": 936,
-  "RightMargin": 986,
-  "TopMargin": 695,
-  "BottomMargin": 939,
-  "CountColumns": 975,
-  "CountRows": 187,
+  "PaperWidth": 866,
+  "PaperHeight": 256,
+  "LeftMargin": 225,
+  "RightMargin": 939,
+  "TopMargin": 57,
+  "BottomMargin": 948,
+  "CountColumns": 948,
+  "CountRows": 576,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 963
     }
   }
 }

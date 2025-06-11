@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 112,
-  "Name": "Pacocha-Mante",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "Rank": 145,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 804,
+  "Name": "King Group",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "Rank": 834,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "neque",
-  "InUseByUserDefinedFields": false,
+  "ListType": "suscipit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 262
     }
   },
   "_Links": {

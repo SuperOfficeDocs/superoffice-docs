@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 120,
-  "ParentId": 407,
-  "Name": "Little-Runte",
-  "Fullname": "ut",
-  "CategoryMaster": 988,
+  "TicketCategoryId": 292,
+  "ParentId": 353,
+  "Name": "Jewess-Hamill",
+  "Fullname": "voluptate",
+  "CategoryMaster": 732,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Treutel-Hoppe",
+  "ExternalName": "Stehr Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 207,
-  "ReplyTemplate": 511,
-  "NotificationEmail": "charley@mosciski.name",
+  "AssignmentLag": 961,
+  "ReplyTemplate": 878,
+  "NotificationEmail": "hank.murazik@danielhessel.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 409,
+  "EffectiveReplyTemplateId": 263,
   "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "pariatur"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "quidem"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 594,
-  "ParentId": 711,
-  "Name": "Kohler LLC",
-  "Fullname": "dolores",
-  "CategoryMaster": 762,
+  "TicketCategoryId": 82,
+  "ParentId": 403,
+  "Name": "Johns, Dare and Hermann",
+  "Fullname": "totam",
+  "CategoryMaster": 446,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kunze, Volkman and Carter",
+  "ExternalName": "Kuphal Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 396,
-  "ReplyTemplate": 364,
-  "NotificationEmail": "eldridge.kris@reinger.ca",
+  "AssignmentLag": 1001,
+  "ReplyTemplate": 129,
+  "NotificationEmail": "nicholas_treutel@von.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 724,
+  "EffectiveReplyTemplateId": 270,
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "error"
+    "CustomFields1": "architecto",
+    "CustomFields2": "quae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 551
     }
   }
 }

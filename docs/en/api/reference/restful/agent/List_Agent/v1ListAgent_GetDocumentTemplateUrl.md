@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 339,
-  "WritableUrl": true,
-  "LanguageCode": "nam"
+  "DocumentTemplateId": 349,
+  "WritableUrl": false,
+  "LanguageCode": "ipsum"
 }
 ```
 

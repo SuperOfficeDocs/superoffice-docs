@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "qui",
-    "eius"
+    "vel",
+    "quod"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 531,
-  "ERPQuoteLineKey": "totam",
-  "QuoteAlternativeId": 110,
-  "ERPProductKey": "ab",
+  "QuoteLineId": 514,
+  "ERPQuoteLineKey": "vel",
+  "QuoteAlternativeId": 719,
+  "ERPProductKey": "voluptatem",
   "Status": "Error",
-  "Reason": "target front-end models",
-  "Quantity": 24605.034,
-  "DeliveredQuantity": 12799.256,
-  "Rank": 748,
-  "Name": "Kessler-Volkman",
-  "Description": "Inverse regional model",
-  "Code": "sed",
-  "QuantityUnit": "fuga",
-  "PriceUnit": "eaque",
-  "ItemNumber": "192439",
+  "Reason": "seize B2C platforms",
+  "Quantity": 18904.288,
+  "DeliveredQuantity": 13046.841999999999,
+  "Rank": 779,
+  "Name": "Erdman-Toy",
+  "Description": "Open-source global circuit",
+  "Code": "qui",
+  "QuantityUnit": "minus",
+  "PriceUnit": "minima",
+  "ItemNumber": "1494374",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "magni",
-  "ProductTypeKey": "deserunt",
-  "Supplier": "nam",
-  "SupplierCode": "consequatur",
-  "Thumbnail": "voluptatem",
-  "VATInfo": "mollitia",
-  "VAT": 15723.278,
-  "UnitCost": 24642.642,
-  "UnitMinimumPrice": 14635.779999999999,
-  "UnitListPrice": 1463.578,
+  "ProductFamilyKey": "possimus",
+  "ProductTypeKey": "praesentium",
+  "Supplier": "omnis",
+  "SupplierCode": "voluptatem",
+  "Thumbnail": "qui",
+  "VATInfo": "quisquam",
+  "VAT": 10138.49,
+  "UnitCost": 26344.404,
+  "UnitMinimumPrice": 14601.305999999999,
+  "UnitListPrice": 26429.022,
   "ExtraInfo": [
     {
-      "Name": "Schaden Inc and Sons",
-      "Value": "quos",
+      "Name": "Feil Inc and Sons",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldType": "System.String",
+          "FieldLength": 856
         }
       }
     },
     {
-      "Name": "Schaden Inc and Sons",
-      "Value": "quos",
+      "Name": "Feil Inc and Sons",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldType": "System.String",
+          "FieldLength": 856
         }
       }
     }
   ],
-  "RawExtraInfo": "saepe",
+  "RawExtraInfo": "sed",
   "IsSubscription": false,
-  "SubscriptionUnit": "dolorum",
-  "SubscriptionQuantity": 30145.946,
-  "SubscriptionStart": "2021-12-27T16:32:39.680262+01:00",
-  "ERPDiscountPercent": 15428.681999999999,
-  "ERPDiscountAmount": 1209.724,
-  "DiscountPercent": 19430.8,
-  "DiscountAmount": 5913.858,
+  "SubscriptionUnit": "libero",
+  "SubscriptionQuantity": 9160.6819999999989,
+  "SubscriptionStart": "2020-01-25T17:54:03.5076876+01:00",
+  "ERPDiscountPercent": 14723.532,
+  "ERPDiscountAmount": 27137.306,
+  "DiscountPercent": 8590.294,
+  "DiscountAmount": 27688.89,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 26573.185999999998,
-  "EarningAmount": 27030.75,
-  "SubTotal": 20828.564,
-  "TotalPrice": 23523.804,
-  "Rights": "et",
-  "Rule": "reiciendis",
-  "ExtraField1": "deleniti",
-  "ExtraField2": "qui",
-  "ExtraField3": "officia",
-  "ExtraField4": "commodi",
-  "ExtraField5": "voluptatem",
+  "EarningPercent": 1375.826,
+  "EarningAmount": 15720.144,
+  "SubTotal": 16014.74,
+  "TotalPrice": 22524.058,
+  "Rights": "ea",
+  "Rule": "assumenda",
+  "ExtraField1": "eum",
+  "ExtraField2": "aut",
+  "ExtraField3": "laboriosam",
+  "ExtraField4": "eaque",
+  "ExtraField5": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldLength": 659
     }
   }
 }

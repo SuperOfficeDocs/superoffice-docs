@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 639,
-  "ERPProductKey": "optio"
+  "QuoteConnectionId": 949,
+  "ERPProductKey": "beatae"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 498,
-  "ERPProductKey": "magni",
-  "ERPPriceListKey": "aliquam",
-  "Name": "Borer-Abernathy",
-  "Description": "Inverse content-based model",
-  "Code": "at",
-  "PriceUnit": "odit",
-  "QuantityUnit": "vitae",
-  "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 4042.8599999999997,
-  "ItemNumber": "1883932",
+  "ProductId": 502,
+  "ERPProductKey": "quas",
+  "ERPPriceListKey": "occaecati",
+  "Name": "Monahan, Maggio and Breitenberg",
+  "Description": "Inverse asynchronous capability",
+  "Code": "tempora",
+  "PriceUnit": "ea",
+  "QuantityUnit": "praesentium",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quidem",
+  "DefaultSubscriptionQuantity": 11326.276,
+  "ItemNumber": "692921",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "eos",
-  "VAT": 28701.172,
-  "VATInfo": "corrupti",
-  "UnitCost": 9915.976,
-  "UnitMinimumPrice": 18644.166,
-  "UnitListPrice": 14588.769999999999,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "quod",
+  "VAT": 14522.956,
+  "VATInfo": "soluta",
+  "UnitCost": 2400.644,
+  "UnitMinimumPrice": 366.678,
+  "UnitListPrice": 13767.662,
   "InAssortment": false,
-  "Supplier": "quasi",
-  "SupplierCode": "exercitationem",
-  "Rights": "consequatur",
-  "Rule": "nemo",
+  "Supplier": "ad",
+  "SupplierCode": "placeat",
+  "Rights": "error",
+  "Rule": "distinctio",
   "ExtraInfo": [
     {
-      "Name": "Quitzon, Prohaska and Trantow",
-      "Value": "eum",
+      "Name": "Eichmann-Connelly",
+      "Value": "quis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 881
+          "FieldType": "System.Int32",
+          "FieldLength": 74
         }
       }
     },
     {
-      "Name": "Quitzon, Prohaska and Trantow",
-      "Value": "eum",
+      "Name": "Eichmann-Connelly",
+      "Value": "quis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 881
+          "FieldType": "System.Int32",
+          "FieldLength": 74
         }
       }
     }
   ],
-  "RawExtraInfo": "autem",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "aperiam",
-  "ExtraField3": "quos",
-  "ExtraField4": "adipisci",
-  "ExtraField5": "minima",
-  "InStock": 17246.402,
+  "RawExtraInfo": "beatae",
+  "ExtraField1": "ipsa",
+  "ExtraField2": "et",
+  "ExtraField3": "recusandae",
+  "ExtraField4": "neque",
+  "ExtraField5": "aliquid",
+  "InStock": 22386.162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

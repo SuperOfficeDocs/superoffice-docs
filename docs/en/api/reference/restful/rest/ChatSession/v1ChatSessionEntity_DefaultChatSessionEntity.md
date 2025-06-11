@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 824,
-  "TopicId": 736,
+  "ChatSessionId": 84,
+  "TopicId": 349,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rerum",
-  "CustomerHost": "ut",
-  "CustomerName": "Goodwin-Nitzsche",
-  "CustomerEmail": "tamara@heathcoteklocko.ca",
-  "CustomerPhone": "678.065.1234 x77074",
+  "CustomerAlias": "veritatis",
+  "CustomerHost": "corporis",
+  "CustomerName": "O'Reilly Inc and Sons",
+  "CustomerEmail": "hubert.cronin@cummings.co.uk",
+  "CustomerPhone": "362-363-6885 x13107",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Spencer, Prohaska and Brown",
+  "CustomerCompanyName": "Kris Group",
   "Status": "Closed",
-  "FirstMessage": "sed",
-  "LastMessage": "et",
-  "WhenRequested": "2014-06-07T16:32:47.1180368+02:00",
-  "WhenStarted": "2006-02-07T16:32:47.1180368+01:00",
-  "WhenEnded": "2007-09-30T16:32:47.1180368+02:00",
-  "WhenIdle": "2011-10-28T16:32:47.1180368+02:00",
-  "WhenFetched": "2004-07-20T16:32:47.1180368+02:00",
-  "SessionKey": "esse",
-  "InitialQueuePos": 571,
-  "AlertLevel": 69,
-  "Rank": 122,
+  "FirstMessage": "animi",
+  "LastMessage": "porro",
+  "WhenRequested": "1999-09-29T17:54:07.9762203+02:00",
+  "WhenStarted": "2000-05-04T17:54:07.9762203+02:00",
+  "WhenEnded": "2005-12-01T17:54:07.9762203+01:00",
+  "WhenIdle": "1999-10-06T17:54:07.9762203+02:00",
+  "WhenFetched": "2012-05-11T17:54:07.9762203+02:00",
+  "SessionKey": "impedit",
+  "InitialQueuePos": 332,
+  "AlertLevel": 174,
+  "Rank": 630,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 294,
+  "Rating": 221,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 175
+      "FieldLength": 86
     }
   }
 }

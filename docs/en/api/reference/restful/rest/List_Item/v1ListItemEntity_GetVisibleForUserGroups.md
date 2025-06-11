@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "D'Amore Group",
-    "ToolTip": "Saepe veniam ut et et.",
+    "Id": 312,
+    "Name": "Keebler Inc and Sons",
+    "ToolTip": "Voluptas corporis ipsam quam.",
     "Deleted": true,
-    "Rank": 788,
-    "Type": "cupiditate",
-    "ColorBlock": 761,
-    "IconHint": "deleniti",
-    "Selected": false,
-    "LastChanged": "2022-03-08T16:32:48.4933163+01:00",
+    "Rank": 585,
+    "Type": "tenetur",
+    "ColorBlock": 121,
+    "IconHint": "culpa",
+    "Selected": true,
+    "LastChanged": "2023-04-28T17:54:08.7730557+02:00",
     "ChildItems": [
       {
-        "Id": 823,
-        "Name": "Dicki, Cummerata and Pfannerstill",
-        "ToolTip": "Minus reprehenderit.",
-        "Deleted": false,
-        "Rank": 812,
-        "Type": "qui",
-        "ColorBlock": 895,
-        "IconHint": "corporis",
+        "Id": 122,
+        "Name": "Larkin, Douglas and Crist",
+        "ToolTip": "Maiores eos itaque alias nam qui nulla.",
+        "Deleted": true,
+        "Rank": 326,
+        "Type": "distinctio",
+        "ColorBlock": 490,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2024-12-23T16:32:48.4933163+01:00",
+        "LastChanged": "2024-03-20T17:54:08.7730557+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "quo",
+        "StyleHint": "voluptatibus",
         "Hidden": true,
-        "FullName": "Arely Douglas",
+        "FullName": "Hal Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 942
+            "FieldLength": 540
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "ad",
+    "StyleHint": "officia",
     "Hidden": true,
-    "FullName": "Mr. Dovie Sporer",
+    "FullName": "Shane Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 661
+        "FieldType": "System.Int32",
+        "FieldLength": 917
       }
     }
   }

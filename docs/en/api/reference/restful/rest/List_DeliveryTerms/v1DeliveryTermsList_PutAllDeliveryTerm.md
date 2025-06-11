@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Lakin, Hansen and Spinka",
-    "Tooltip": "nemo",
+    "Id": 994,
+    "Name": "Moore, O'Reilly and Halvorson",
+    "Tooltip": "non",
     "Deleted": true,
-    "UdListDefinitionId": 68,
-    "Rank": 422
+    "UdListDefinitionId": 938,
+    "Rank": 756
   },
   {
-    "Id": 478,
-    "Name": "Lakin, Hansen and Spinka",
-    "Tooltip": "nemo",
+    "Id": 994,
+    "Name": "Moore, O'Reilly and Halvorson",
+    "Tooltip": "non",
     "Deleted": true,
-    "UdListDefinitionId": 68,
-    "Rank": 422
+    "UdListDefinitionId": 938,
+    "Rank": 756
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 715,
-    "Name": "Turner-Grimes",
-    "Tooltip": "eum",
+    "Id": 83,
+    "Name": "Farrell Inc and Sons",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "UdListDefinitionId": 494,
-    "Rank": 897,
+    "UdListDefinitionId": 243,
+    "Rank": 905,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 469
+        "FieldType": "System.Int32",
+        "FieldLength": 829
       }
     }
   }

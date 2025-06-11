@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 155,
-  "TopicId": 142,
+  "ChatSessionId": 587,
+  "TopicId": 60,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "iure",
-  "CustomerName": "Steuber-Rempel",
-  "CustomerEmail": "timothy.mcclure@okondickinson.info",
-  "CustomerPhone": "006.165.0304",
+  "CustomerAlias": "quia",
+  "CustomerHost": "tempore",
+  "CustomerName": "Kuhlman, Rempel and Dare",
+  "CustomerEmail": "ruthie@towne.info",
+  "CustomerPhone": "340-414-2020 x5879",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Carter-McClure",
+  "CustomerCompanyName": "Maggio-O'Reilly",
   "Status": "Closed",
-  "FirstMessage": "reiciendis",
-  "LastMessage": "id",
-  "WhenRequested": "2005-10-30T16:32:47.2746087+01:00",
-  "WhenStarted": "2006-02-02T16:32:47.2746087+01:00",
-  "WhenEnded": "2004-10-06T16:32:47.2746087+02:00",
-  "WhenIdle": "2007-12-30T16:32:47.2746087+01:00",
-  "WhenFetched": "2011-08-21T16:32:47.2746087+02:00",
-  "SessionKey": "soluta",
-  "InitialQueuePos": 231,
-  "AlertLevel": 465,
-  "Rank": 644,
+  "FirstMessage": "et",
+  "LastMessage": "incidunt",
+  "WhenRequested": "2012-11-30T17:54:08.0699594+01:00",
+  "WhenStarted": "2013-02-03T17:54:08.0699594+01:00",
+  "WhenEnded": "2022-02-19T17:54:08.0699594+01:00",
+  "WhenIdle": "2014-08-05T17:54:08.0699594+02:00",
+  "WhenFetched": "2017-01-06T17:54:08.0699594+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 617,
+  "AlertLevel": 512,
+  "Rank": 104,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 912,
+  "ChatbotIsActive": false,
+  "Rating": 812,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldType": "System.String",
+      "FieldLength": 826
     }
   }
 }

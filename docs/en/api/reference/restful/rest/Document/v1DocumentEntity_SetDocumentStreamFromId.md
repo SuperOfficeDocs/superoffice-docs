@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 236,
+  "DocumentId": 202,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "autem",
-  "Header": "eveniet",
-  "Name": "Buckridge, Kerluke and Fahey",
-  "OurRef": "neque",
-  "YourRef": "nesciunt",
-  "CreatedDate": "2010-09-25T16:32:47.4933393+02:00",
-  "UpdatedDate": "2012-05-11T16:32:47.4933393+02:00",
-  "Description": "Customer-focused coherent collaboration",
+  "Attention": "unde",
+  "Header": "rem",
+  "Name": "Kuvalis-Nolan",
+  "OurRef": "dolorem",
+  "YourRef": "reiciendis",
+  "CreatedDate": "2012-01-01T17:54:08.2262257+01:00",
+  "UpdatedDate": "2002-09-28T17:54:08.2262257+02:00",
+  "Description": "Reduced non-volatile framework",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-06-24T16:32:47.4933393+02:00",
-  "ExternalRef": "ex",
+  "Date": "1999-06-09T17:54:08.2262257+02:00",
+  "ExternalRef": "tempore",
   "Completed": "Completed",
-  "ActiveLinks": 507,
+  "ActiveLinks": 699,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Maggio-Cassin",
-      "Id": 782,
-      "Description": "Virtual maximized algorithm",
-      "ExtraInfo": "laborum",
-      "LinkId": 438,
+      "EntityName": "Hintz-Leffler",
+      "Id": 55,
+      "Description": "Secured object-oriented open system",
+      "ExtraInfo": "minus",
+      "LinkId": 121,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 690
+          "FieldType": "System.String",
+          "FieldLength": 419
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 356,
-  "Snum": 98,
+  "SuggestedDocumentId": 923,
+  "Snum": 546,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Elisha Wava Kerluke II",
-    "SuperOffice:2": "709402661"
+    "SuperOffice:1": "2123507628",
+    "SuperOffice:2": "Prof. Chelsey Schulist IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "odit"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "reprehenderit",
+    "CustomFields2": "assumenda"
   },
-  "PublishEventDate": "2012-04-10T16:32:47.4933393+02:00",
-  "PublishTo": "2004-10-25T16:32:47.4933393+02:00",
-  "PublishFrom": "2015-10-01T16:32:47.4933393+02:00",
+  "PublishEventDate": "2018-11-02T17:54:08.2262257+01:00",
+  "PublishTo": "2019-11-24T17:54:08.2262257+01:00",
+  "PublishFrom": "2012-09-16T17:54:08.2262257+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
       "VisibleId": 558,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 445
+          "FieldLength": 86
         }
       }
     },
     {
       "VisibleId": 558,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 445
+          "FieldLength": 86
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 296
     }
   }
 }

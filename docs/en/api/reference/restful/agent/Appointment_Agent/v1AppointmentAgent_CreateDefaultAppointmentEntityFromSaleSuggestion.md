@@ -135,14 +135,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 925,
-  "SaleId": 714,
-  "CreateNow": false,
-  "OwnerId": 875
+  "SuggestedAppointmentId": 461,
+  "SaleId": 389,
+  "CreateNow": true,
+  "OwnerId": 866
 }
 ```
 
@@ -157,121 +157,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-12-06T16:32:38.0397668+01:00",
-  "AppointmentId": 440,
-  "Description": "Proactive actuating architecture",
-  "Title": "commodi",
-  "Agenda": "fuga",
-  "InternalNotes": "veritatis",
-  "StartDate": "2011-11-10T16:32:38.0397668+01:00",
-  "EndDate": "2024-01-18T16:32:38.0397668+01:00",
+  "CreatedDate": "2013-10-23T17:54:02.5858576+02:00",
+  "AppointmentId": 672,
+  "Description": "Profit-focused empowering contingency",
+  "Title": "nam",
+  "Agenda": "sunt",
+  "InternalNotes": "ullam",
+  "StartDate": "2019-04-15T17:54:02.5858576+02:00",
+  "EndDate": "2001-09-26T17:54:02.5858576+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 835,
+  "MotherId": 589,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-09-24T16:32:38.0397668+02:00",
+  "UpdatedDate": "2012-06-23T17:54:02.5858576+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 640,
+  "ActiveLinks": 741,
   "Links": [
     {
-      "EntityName": "Wilderman, Swift and Gutkowski",
-      "Id": 696,
-      "Description": "Implemented mission-critical groupware",
-      "ExtraInfo": "accusamus",
-      "LinkId": 748,
+      "EntityName": "Swaniawski-Roberts",
+      "Id": 65,
+      "Description": "Object-based uniform emulation",
+      "ExtraInfo": "corporis",
+      "LinkId": 96,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 850
+          "FieldType": "System.Int32",
+          "FieldLength": 246
         }
       }
     }
   ],
-  "AlarmLeadTime": "cupiditate",
-  "HasAlarm": true,
-  "ColorIndex": 350,
+  "AlarmLeadTime": "et",
+  "HasAlarm": false,
+  "ColorIndex": 34,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "quia",
-  "LeadTime": "sit",
-  "Location": "aut",
-  "RejectCounter": 205,
+  "LagTime": "atque",
+  "LeadTime": "qui",
+  "Location": "sit",
+  "RejectCounter": 689,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 847,
-      "PersonId": 115,
-      "ContactId": 464,
-      "EmailId": 706,
-      "SendEmail": true,
+      "AssociateId": 155,
+      "PersonId": 615,
+      "ContactId": 554,
+      "EmailId": 395,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "sofia_thompson@dooley.uk",
-      "Description": "Grass-roots tertiary knowledge user"
+      "EmailAddress": "susie@zulauf.name",
+      "Description": "Multi-tiered object-oriented superstructure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-12-08T16:32:38.0397668+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2006-06-01T17:54:02.5858576+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 797,
+  "PreferredTZLocation": 481,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 936,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 950,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quos",
+  "CentralserviceVideomeetId": "adipisci",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Thaddeus Evie Hilpert MD",
-    "SuperOffice:2": "Bret Doyle"
+    "SuperOffice:1": "Damaris Mueller",
+    "SuperOffice:2": "Marty Jaskolski"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "repudiandae"
+    "ExtraFields1": "doloremque",
+    "ExtraFields2": "nostrum"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "eos"
+    "CustomFields1": "omnis",
+    "CustomFields2": "beatae"
   },
-  "PublishEventDate": "2015-08-03T16:32:38.0397668+02:00",
-  "PublishTo": "2008-07-17T16:32:38.0397668+02:00",
-  "PublishFrom": "2025-02-14T16:32:38.0397668+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-12-17T17:54:02.5858576+01:00",
+  "PublishTo": "2000-08-21T17:54:02.5858576+02:00",
+  "PublishFrom": "2023-02-08T17:54:02.5858576+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 237,
+      "VisibleId": 909,
       "Visibility": "All",
-      "DisplayValue": "at",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldLength": 505
         }
       }
     },
     {
-      "VisibleId": 237,
+      "VisibleId": 909,
       "Visibility": "All",
-      "DisplayValue": "at",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldLength": 505
         }
       }
     }
@@ -280,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldType": "System.Int32",
+      "FieldLength": 819
     }
   }
 }

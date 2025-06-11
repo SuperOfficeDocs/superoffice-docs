@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 635,
-  "UniqueIdentifier": "quia",
-  "Name": "Hackett, Gusikowski and Williamson",
-  "Description": "Sharable grid-enabled methodology",
+  "EjscriptId": 935,
+  "UniqueIdentifier": "maxime",
+  "Name": "Durgan, Shields and Corwin",
+  "Description": "Switchable analyzing middleware",
   "IncludeId": "voluptas",
-  "AccessKey": "eos",
-  "HierarchyId": 478,
-  "Source": "facilis",
-  "SourceCode": "eos",
+  "AccessKey": "dignissimos",
+  "HierarchyId": 345,
+  "Source": "qui",
+  "SourceCode": "quo",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 387,
+  "HtmlOutput": 471,
   "Includes": [
-    639,
-    990
+    76,
+    777
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 362,
-      "LineNumberTo": 593,
-      "Delta": 289,
-      "IncludeId": "perspiciatis",
+      "LineNumberFrom": 495,
+      "LineNumberTo": 706,
+      "Delta": 331,
+      "IncludeId": "quae",
       "IncludedFrom": [
-        "ullam",
-        "dicta"
+        "voluptatem",
+        "quibusdam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldLength": 303
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2002-08-22T16:32:38.5552758+02:00",
-  "RegisteredAssociateId": 850,
-  "Updated": "2023-09-12T16:32:38.5552758+02:00",
-  "UpdatedAssociateId": 246,
+  "Registered": "2006-12-23T17:54:02.9139671+01:00",
+  "RegisteredAssociateId": 188,
+  "Updated": "2004-12-12T17:54:02.9139671+01:00",
+  "UpdatedAssociateId": 467,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldType": "System.String",
+      "FieldLength": 958
     }
   }
 }

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Boyle-Gibson",
+  "UserName": "Flatley-Ondricka",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 888,
-  "Name": "Parker Inc and Sons",
-  "Rank": 911,
-  "Tooltip": "quod",
+  "AssociateId": 977,
+  "Name": "Mayert LLC",
+  "Rank": 190,
+  "Tooltip": "distinctio",
   "LicenseOwners": [
     {
-      "Name": "McClure-Yost",
-      "Description": "Self-enabling 24/7 framework",
+      "Name": "Thompson, Walker and Hills",
+      "Description": "Right-sized intermediate task-force",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldLength": 384
         }
       }
     },
     {
-      "Name": "McClure-Yost",
-      "Description": "Self-enabling 24/7 framework",
+      "Name": "Thompson, Walker and Hills",
+      "Description": "Right-sized intermediate task-force",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldLength": 384
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "enim",
-      "Tooltip": "qui",
-      "Id": 685,
-      "Rank": 665,
-      "Deleted": false,
+      "Value": "sed",
+      "Tooltip": "eveniet",
+      "Id": 608,
+      "Rank": 111,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 516
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2005-12-13T16:32:40.4769548+01:00",
-  "Lastlogout": "2021-06-28T16:32:40.4769548+02:00",
-  "EjUserId": 475,
-  "RequestSignature": "nisi",
+  "Lastlogin": "2013-03-27T17:54:03.8982941+01:00",
+  "Lastlogout": "2019-12-03T17:54:03.8982941+01:00",
+  "EjUserId": 613,
+  "RequestSignature": "laboriosam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolor",
-      "DisplayValue": "fugit",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 882
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "dolor",
-      "DisplayValue": "fugit",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 882
-        }
-      }
-    }
-  ],
-  "UserName": "Carroll Inc and Sons",
-  "TicketCategories": [
-    {
-      "Id": 339,
-      "Name": "Fritsch Group",
-      "ToolTip": "Suscipit id qui.",
-      "Deleted": false,
-      "Rank": 506,
-      "Type": "dolor",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "deserunt",
-      "ColorBlock": 597,
-      "ExtraInfo": "possimus",
-      "StyleHint": "est",
-      "FullName": "Emelia Denesik",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 934
-        }
-      }
-    }
-  ],
-  "NickName": "Schmitt Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "explicabo"
-  },
-  "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "architecto"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Wolf-Schmitt",
-      "DisplayName": "Huel Inc and Sons",
-      "Description": "Object-based bifurcated migration",
-      "ToolTip": "Eos optio qui.",
-      "Actions": "Implicit",
-      "ActionData": "placeat",
+      "Value": "ab",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldLength": 65
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ab",
+      "DisplayValue": "impedit",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 65
+        }
+      }
+    }
+  ],
+  "UserName": "Ankunding LLC",
+  "TicketCategories": [
+    {
+      "Id": 968,
+      "Name": "Senger-Frami",
+      "ToolTip": "Natus beatae cumque quis.",
+      "Deleted": false,
+      "Rank": 662,
+      "Type": "ab",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "itaque",
+      "ColorBlock": 929,
+      "ExtraInfo": "possimus",
+      "StyleHint": "tempore",
+      "FullName": "Dr. Kathryne Waelchi",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 250
+        }
+      }
+    }
+  ],
+  "NickName": "Friesen LLC",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "incidunt"
+  },
+  "CustomFields": {
+    "CustomFields1": "id",
+    "CustomFields2": "deserunt"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Cartwright, Bartoletti and Pollich",
+      "DisplayName": "Osinski LLC",
+      "Description": "Customizable content-based projection",
+      "ToolTip": "Eius alias ut maiores incidunt nihil ut.",
+      "Actions": "Implicit",
+      "ActionData": "iste",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 654
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldLength": 801
     }
   }
 }

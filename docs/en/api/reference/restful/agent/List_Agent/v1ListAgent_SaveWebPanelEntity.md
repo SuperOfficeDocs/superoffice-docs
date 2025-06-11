@@ -109,26 +109,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 564,
-  "Name": "Dibbert Group",
-  "Tooltip": "quibusdam",
-  "Deleted": false,
-  "Rank": 310,
+  "WebPanelId": 420,
+  "Name": "Erdman, Weber and Quitzon",
+  "Tooltip": "odit",
+  "Deleted": true,
+  "Rank": 683,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Erdman, Hahn and Johnson",
+  "WindowName": "Torp-Oberbrunner",
   "Url": "http://www.example.com/",
-  "ProgId": "dolor",
-  "Icon": 432,
+  "ProgId": "voluptas",
+  "Icon": 763,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 779,
-  "Name": "Lesch Group",
-  "Tooltip": "minus",
+  "WebPanelId": 19,
+  "Name": "Ward LLC",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "Rank": 636,
+  "Rank": 790,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Mertz Group",
+  "ShowInStatusBar": true,
+  "WindowName": "McDermott-Dietrich",
   "Url": "http://www.example.com/",
-  "ProgId": "molestias",
-  "Icon": 323,
+  "ProgId": "et",
+  "Icon": 424,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 349
     }
   }
 }

@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 22 Apr 2011 16:32:47 G4T
+Last-Modified: Tue, 30 Oct 2001 17:54:08 G10T
 
 {
-  "ForeignAppId": 108,
-  "Name": "Rosenbaum-Stiedemann",
-  "CreatedDate": "2013-01-31T16:32:47.5245817+01:00",
-  "UpdatedDate": "2011-04-22T16:32:47.5245817+02:00",
+  "ForeignAppId": 165,
+  "Name": "Watsica-Smitham",
+  "CreatedDate": "2020-11-05T17:54:08.2574567+01:00",
+  "UpdatedDate": "2001-10-30T17:54:08.2574567+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 627,
-      "Name": "Jones, Lang and Russel",
-      "CreatedDate": "1998-08-23T16:32:47.5402031+02:00",
-      "UpdatedDate": "2019-07-10T16:32:47.5402031+02:00",
-      "AssociateFullName": "Isaac Bruen",
-      "CreatedBy": "officia",
-      "UpdatedBy": "culpa",
-      "DeviceIdentifier": "vitae",
-      "ForeignAppId": 567,
+      "ForeignDeviceId": 717,
+      "Name": "Adams, Bartell and Marvin",
+      "CreatedDate": "2006-02-01T17:54:08.2574567+01:00",
+      "UpdatedDate": "2016-02-23T17:54:08.2574567+01:00",
+      "AssociateFullName": "Liliane Emmerich",
+      "CreatedBy": "sequi",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "omnis",
+      "ForeignAppId": 143,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldType": "System.String",
+          "FieldLength": 956
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Fri, 22 Apr 2011 16:32:47 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 694
     }
   }
 }

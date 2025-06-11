@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harber-Rippin",
-  "Context": "explicabo"
+  "TableName": "Schuster-Rath",
+  "Context": "impedit"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "facilis",
-    "ValueType": "in",
+    "Key": "velit",
+    "ValueType": "repellendus",
     "Mandatory": true,
-    "EncodedDisplayName": "Raynor-Little",
-    "EncodedDisplayDescription": "Future-proofed fault-tolerant website",
-    "IconHint": "laborum",
+    "EncodedDisplayName": "Bogan-Trantow",
+    "EncodedDisplayDescription": "Programmable demand-driven synergy",
+    "IconHint": "eius",
     "ControlInfos": [
       {
-        "Type": "laudantium",
-        "Label": "et",
-        "Dimension": 702,
-        "ListProviderName": "D'Amore-Corwin",
-        "ListProviderExtraInfo": "est",
-        "ListProviderPrimaryKeyName": "Oberbrunner, Pacocha and Dicki",
-        "ListLeadText": "saepe",
+        "Type": "sunt",
+        "Label": "consequatur",
+        "Dimension": 204,
+        "ListProviderName": "Stark Inc and Sons",
+        "ListProviderExtraInfo": "a",
+        "ListProviderPrimaryKeyName": "Donnelly Inc and Sons",
+        "ListLeadText": "nesciunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 988
+            "FieldLength": 896
           }
         }
       }
     ],
-    "EncodedDataCaption": "autem",
-    "EncodedDataCaptionDescription": "Upgradable holistic extranet",
-    "CurrentOperationType": "non",
+    "EncodedDataCaption": "necessitatibus",
+    "EncodedDataCaptionDescription": "Upgradable executive synergy",
+    "CurrentOperationType": "voluptatem",
     "Values": [
-      "repellendus",
-      "amet"
+      "enim",
+      "iusto"
     ],
     "DisplayValues": [
-      "labore",
-      "nam"
+      "dolorum",
+      "cumque"
     ],
     "OperationInfos": [
       {
-        "Key": "totam",
-        "EncodedDisplayName": "Padberg Inc and Sons",
+        "Key": "nam",
+        "EncodedDisplayName": "Pfeffer-Satterfield",
         "EncodedLeadTexts": [
-          "numquam",
-          "nihil"
+          "est",
+          "sequi"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 674
+            "FieldType": "System.String",
+            "FieldLength": 317
           }
         }
       },
       {
-        "Key": "totam",
-        "EncodedDisplayName": "Padberg Inc and Sons",
+        "Key": "nam",
+        "EncodedDisplayName": "Pfeffer-Satterfield",
         "EncodedLeadTexts": [
-          "numquam",
-          "nihil"
+          "est",
+          "sequi"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 674
+            "FieldType": "System.String",
+            "FieldLength": 317
           }
         }
       }

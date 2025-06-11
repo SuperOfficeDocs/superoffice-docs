@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 979
+  "ProductId": 25
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 425,
-  "ERPProductKey": "itaque",
-  "ERPPriceListKey": "atque",
-  "Name": "Mosciski, Wiegand and Muller",
-  "Description": "Networked modular adapter",
-  "Code": "ipsum",
-  "PriceUnit": "quisquam",
-  "QuantityUnit": "sint",
+  "ProductId": 779,
+  "ERPProductKey": "accusamus",
+  "ERPPriceListKey": "inventore",
+  "Name": "Koch Inc and Sons",
+  "Description": "Balanced zero administration approach",
+  "Code": "veritatis",
+  "PriceUnit": "animi",
+  "QuantityUnit": "delectus",
   "IsSubscription": true,
-  "SubscriptionUnit": "unde",
-  "DefaultSubscriptionQuantity": 22075.896,
-  "ItemNumber": "1370695",
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 14225.225999999999,
+  "ItemNumber": "1320010",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolor",
-  "ProductTypeKey": "aut",
-  "VAT": 13748.858,
-  "VATInfo": "quas",
-  "UnitCost": 20831.698,
-  "UnitMinimumPrice": 28763.852,
-  "UnitListPrice": 22580.469999999998,
-  "InAssortment": false,
-  "Supplier": "sed",
-  "SupplierCode": "sit",
-  "Rights": "quae",
-  "Rule": "enim",
+  "ProductFamilyKey": "rem",
+  "ProductTypeKey": "eaque",
+  "VAT": 24680.25,
+  "VATInfo": "perferendis",
+  "UnitCost": 22044.556,
+  "UnitMinimumPrice": 30766.478,
+  "UnitListPrice": 2861.342,
+  "InAssortment": true,
+  "Supplier": "fugit",
+  "SupplierCode": "laborum",
+  "Rights": "nemo",
+  "Rule": "perspiciatis",
   "ExtraInfo": [
     {
-      "Name": "Brakus-Keebler",
-      "Value": "error",
+      "Name": "Bayer-Schiller",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 662
+          "FieldLength": 743
         }
       }
     },
     {
-      "Name": "Brakus-Keebler",
-      "Value": "error",
+      "Name": "Bayer-Schiller",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 662
+          "FieldLength": 743
         }
       }
     }
   ],
-  "RawExtraInfo": "explicabo",
-  "ExtraField1": "maxime",
-  "ExtraField2": "porro",
-  "ExtraField3": "possimus",
-  "ExtraField4": "cum",
-  "ExtraField5": "aut",
-  "InStock": 8646.706,
+  "RawExtraInfo": "autem",
+  "ExtraField1": "minus",
+  "ExtraField2": "nisi",
+  "ExtraField3": "sit",
+  "ExtraField4": "quis",
+  "ExtraField5": "ut",
+  "InStock": 30258.77,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldType": "System.Int32",
+      "FieldLength": 460
     }
   }
 }

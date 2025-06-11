@@ -94,19 +94,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 88,
-  "ERPPriceListKey": "non",
-  "QuoteConnectionId": 559,
-  "Name": "Waters, Monahan and Nader",
-  "Description": "Open-architected next generation architecture",
-  "Currency": "consequuntur",
-  "CurrencyName": "Schinner-Gaylord",
-  "ValidFrom": "2019-02-19T16:32:48.7588803+01:00",
-  "ValidTo": "2023-09-09T16:32:48.7588803+02:00",
+  "PriceListId": 951,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 355,
+  "Name": "Wilderman, Greenfelder and Keeling",
+  "Description": "Open-source client-server monitoring",
+  "Currency": "quasi",
+  "CurrencyName": "Turcotte, Kovacek and Gulgowski",
+  "ValidFrom": "2004-12-14T17:54:08.9605465+01:00",
+  "ValidTo": "2020-06-23T17:54:08.9605465+02:00",
   "IsActive": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 910,
-  "ERPPriceListKey": "quia",
-  "QuoteConnectionId": 789,
-  "Name": "Dibbert, Tillman and Quigley",
-  "Description": "Advanced systematic emulation",
-  "Currency": "rerum",
-  "CurrencyName": "Bernier, Abshire and Dickinson",
-  "ValidFrom": "2020-10-15T16:32:48.7588803+02:00",
-  "ValidTo": "2014-08-13T16:32:48.7588803+02:00",
+  "PriceListId": 223,
+  "ERPPriceListKey": "quis",
+  "QuoteConnectionId": 972,
+  "Name": "Heller-Hammes",
+  "Description": "Adaptive tertiary ability",
+  "Currency": "non",
+  "CurrencyName": "Herman Group",
+  "ValidFrom": "1999-01-30T17:54:08.9605465+01:00",
+  "ValidTo": "2017-04-28T17:54:08.9605465+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 872
     }
   },
   "_Links": {

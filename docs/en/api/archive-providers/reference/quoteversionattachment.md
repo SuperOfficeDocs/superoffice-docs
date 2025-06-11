@@ -77,6 +77,7 @@ This is the archive Provider for quote version attachments.
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|associate/usergroupId|int|Group ID: The user's primary user group| x |
 |associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |associate/contactCategory|listAny|Category: Category| x |
 |associate/role|listAny|Role : Role| x |
@@ -111,7 +112,7 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=documentUdef/SuperOffice:3,name,documentPublish/publishedBy
+GET /api/v1/archive/QuoteVersionAttachment?$select=associate/middleName,name,associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

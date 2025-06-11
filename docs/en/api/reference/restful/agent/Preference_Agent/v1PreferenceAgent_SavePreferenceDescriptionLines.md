@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 954,
-      "PrefDescId": 795,
-      "PrefValue": "beatae",
-      "PrefShowValue": "tempore",
-      "Description": "Diverse bandwidth-monitored approach",
-      "IsBuiltin": true
+      "PrefDescLineId": 665,
+      "PrefDescId": 830,
+      "PrefValue": "sunt",
+      "PrefShowValue": "sint",
+      "Description": "Object-based actuating implementation",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 954,
-      "PrefDescId": 795,
-      "PrefValue": "beatae",
-      "PrefShowValue": "tempore",
-      "Description": "Diverse bandwidth-monitored approach",
-      "IsBuiltin": true
+      "PrefDescLineId": 665,
+      "PrefDescId": 830,
+      "PrefValue": "sunt",
+      "PrefShowValue": "sint",
+      "Description": "Object-based actuating implementation",
+      "IsBuiltin": false
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 149,
-    "PrefDescId": 286,
-    "PrefValue": "et",
-    "PrefShowValue": "molestiae",
-    "Description": "Optional disintermediate encryption",
-    "IsBuiltin": true,
+    "PrefDescLineId": 196,
+    "PrefDescId": 458,
+    "PrefValue": "voluptas",
+    "PrefShowValue": "qui",
+    "Description": "Intuitive analyzing knowledge base",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldType": "System.String",
+        "FieldLength": 536
       }
     }
   }

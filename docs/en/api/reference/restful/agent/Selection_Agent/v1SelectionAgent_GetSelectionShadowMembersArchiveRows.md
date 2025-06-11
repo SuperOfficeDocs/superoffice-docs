@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 806,
-  "Select": "vero"
+  "SelectionId": 790,
+  "Select": "dolore"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jewess-Padberg",
-    "PrimaryKey": 23,
+    "EntityName": "Hermiston-Anderson",
+    "PrimaryKey": 138,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "delectus",
-        "TooltipHint": "nihil",
-        "LinkHint": "perspiciatis"
+        "DisplayValue": "voluptas",
+        "TooltipHint": "consectetur",
+        "LinkHint": "ex"
       }
     },
-    "LinkHint": "ipsam",
-    "StyleHint": "rerum",
+    "LinkHint": "fugit",
+    "StyleHint": "dignissimos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldType": "System.Int32",
+        "FieldLength": 59
       }
     }
   }

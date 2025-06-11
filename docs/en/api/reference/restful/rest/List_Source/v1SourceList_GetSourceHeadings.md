@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 809,
-    "Name": "O'Hara-Kozey",
-    "Tooltip": "quidem",
+    "HeadingId": 20,
+    "Name": "Stehr, Maggio and Rippin",
+    "Tooltip": "quod",
     "Deleted": false,
-    "Rank": 678,
-    "UdListDefinitionId": 916,
+    "Rank": 729,
+    "UdListDefinitionId": 438,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 108
       }
     }
   }

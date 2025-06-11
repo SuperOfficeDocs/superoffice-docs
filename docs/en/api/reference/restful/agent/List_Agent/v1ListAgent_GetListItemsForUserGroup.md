@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 358,
-  "GroupId": 636
+  "UdListDefinitionId": 138,
+  "GroupId": 377
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Wintheiser-Cole",
-    "ToolTip": "Inventore asperiores quis ipsam minima consequuntur.",
+    "Id": 348,
+    "Name": "Gaylord Inc and Sons",
+    "ToolTip": "Nesciunt veritatis voluptatibus doloremque tempora nam libero vel.",
     "Deleted": true,
-    "Rank": 189,
-    "Type": "veritatis",
-    "ColorBlock": 109,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2010-01-01T16:32:39.2426162+01:00",
+    "Rank": 387,
+    "Type": "sed",
+    "ColorBlock": 22,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "2002-08-02T17:54:03.2108272+02:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Kiehn Inc and Sons",
-        "ToolTip": "Sit quas et porro dolorem nihil.",
-        "Deleted": true,
-        "Rank": 440,
-        "Type": "totam",
-        "ColorBlock": 992,
-        "IconHint": "error",
+        "Id": 374,
+        "Name": "Stamm, Balistreri and Stehr",
+        "ToolTip": "Libero ipsum ex aut.",
+        "Deleted": false,
+        "Rank": 395,
+        "Type": "laboriosam",
+        "ColorBlock": 469,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2017-12-18T16:32:39.2426162+01:00",
+        "LastChanged": "2014-05-21T17:54:03.2108272+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "vitae",
-        "Hidden": false,
-        "FullName": "Fannie Sanford",
+        "ExtraInfo": "nemo",
+        "StyleHint": "ipsa",
+        "Hidden": true,
+        "FullName": "Kristin Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 198
+            "FieldLength": 645
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
+    "ExtraInfo": "dolorum",
     "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Manley Liza Hickle I",
+    "FullName": "Mrs. Therese Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldLength": 611
       }
     }
   }

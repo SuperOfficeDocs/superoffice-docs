@@ -39,9 +39,9 @@ Application tokens must be specified if calling an Online installation. Applicat
   </List:Credentials>
  <SOAP-ENV:Body>
    <List:GetTaskList>
-    <List:TaskIds xsi:type="NetServerServices882:ArrayOfint">
+    <List:SoTaskIds xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
-    </List:TaskIds>
+    </List:SoTaskIds>
    </List:GetTaskList>
 
  </SOAP-ENV:Body>

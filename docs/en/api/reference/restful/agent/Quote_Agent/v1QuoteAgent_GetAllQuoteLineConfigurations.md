@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 105,
-    "FieldName": "Harvey-Greenfelder",
-    "Label": "distinctio",
-    "Tooltip": "ipsam",
+    "QuoteLineConfigurationId": 42,
+    "FieldName": "Little Group",
+    "Label": "temporibus",
+    "Tooltip": "pariatur",
     "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 287,
-    "RestrictEdit": false,
+    "Mandatory": false,
+    "Rank": 557,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldLength": 39
       }
     }
   }

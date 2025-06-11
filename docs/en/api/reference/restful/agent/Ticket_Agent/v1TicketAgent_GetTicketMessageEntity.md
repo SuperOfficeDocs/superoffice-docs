@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=976
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=744
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -102,79 +102,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 354,
+  "EjMessageId": 492,
   "Ticket": null,
-  "CreatedAt": "2021-11-08T16:32:40.3676056+01:00",
+  "CreatedAt": "2013-02-18T17:54:03.8357967+01:00",
   "CreatedBy": null,
-  "Author": "iure",
+  "Author": "consequuntur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eum",
-  "TimeSpent": 841,
-  "Body": "tenetur",
-  "HtmlBody": "ut",
-  "EmailHeader": "mose_vandervort@champlin.name",
-  "DebugInfo": "non",
-  "MailSorter": "autem",
+  "MessageId": "quia",
+  "TimeSpent": 950,
+  "Body": "at",
+  "HtmlBody": "pariatur",
+  "EmailHeader": "casimer@doyle.ca",
+  "DebugInfo": "voluptas",
+  "MailSorter": "possimus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reprehenderit",
+  "SearchTitle": "neque",
   "MessageHeaders": [
     {
-      "Id": 880,
-      "Name": "Buckridge, Hilll and McLaughlin",
-      "Value": "magnam",
+      "Id": 46,
+      "Name": "Schulist Group",
+      "Value": "consectetur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 317
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "sunt",
-  "Sentiment": 136,
-  "SentimentConfidence": 383,
+  "Important": false,
+  "Language": "voluptas",
+  "Sentiment": 841,
+  "SentimentConfidence": 871,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 146,
-      "Name": "Flatley Group",
-      "ContentType": "a",
-      "AttSize": 782,
+      "AttachmentId": 887,
+      "Name": "Lakin-Metz",
+      "ContentType": "omnis",
+      "AttSize": 987,
       "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "nostrum",
+      "ContentId": "cupiditate",
+      "AuthKey": "ab",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 309
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "non"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "veniam",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 6
     }
   }
 }

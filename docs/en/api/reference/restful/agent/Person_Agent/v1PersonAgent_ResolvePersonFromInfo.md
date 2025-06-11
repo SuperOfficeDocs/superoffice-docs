@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 452,
-  "PersonName": "Lebsack-Pollich",
+  "ContactId": 186,
+  "PersonName": "Marvin, O'Hara and Bechtelar",
   "PhoneNumbers": [
-    "1325891",
-    "678760"
+    "768242",
+    "935468"
   ],
   "Emails": [
-    "minerva@lehnerterry.uk",
-    "sage@rowegoldner.biz"
+    "kristina@schoenstokes.ca",
+    "adelia@cremin.biz"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldType": "System.String",
+      "FieldLength": 323
     }
   }
 }

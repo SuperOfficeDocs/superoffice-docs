@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 564,
+  "EjMessageId": 381,
   "Ticket": null,
-  "CreatedAt": "2019-05-03T16:32:48.2275494+02:00",
+  "CreatedAt": "2003-02-03T17:54:08.6011891+01:00",
   "CreatedBy": null,
-  "Author": "distinctio",
+  "Author": "mollitia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quidem",
-  "TimeSpent": 887,
-  "Body": "corporis",
-  "HtmlBody": "incidunt",
-  "EmailHeader": "electa.gutmann@batz.us",
-  "DebugInfo": "non",
-  "MailSorter": "perspiciatis",
+  "MessageId": "recusandae",
+  "TimeSpent": 752,
+  "Body": "consequatur",
+  "HtmlBody": "debitis",
+  "EmailHeader": "desmond@waelchi.com",
+  "DebugInfo": "sed",
+  "MailSorter": "aut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptas",
+  "SearchTitle": "doloribus",
   "MessageHeaders": [
     {
-      "Id": 552,
-      "Name": "Bernier, Gleichner and Gislason",
-      "Value": "ipsa",
+      "Id": 863,
+      "Name": "Streich-Crist",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 670
+          "FieldLength": 24
         }
       }
     }
   ],
   "Important": true,
-  "Language": "voluptatem",
-  "Sentiment": 453,
-  "SentimentConfidence": 571,
+  "Language": "recusandae",
+  "Sentiment": 118,
+  "SentimentConfidence": 550,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 641,
-      "Name": "Luettgen, Mohr and Stiedemann",
-      "ContentType": "praesentium",
-      "AttSize": 622,
+      "AttachmentId": 820,
+      "Name": "Bogan, Kovacek and Bins",
+      "ContentType": "voluptates",
+      "AttSize": 612,
       "InlineImage": false,
-      "ContentId": "doloremque",
-      "AuthKey": "qui",
+      "ContentId": "corrupti",
+      "AuthKey": "voluptas",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldType": "System.String",
+          "FieldLength": 637
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "saepe"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "iure"
+    "CustomFields1": "officiis",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldType": "System.Int32",
+      "FieldLength": 131
     }
   }
 }

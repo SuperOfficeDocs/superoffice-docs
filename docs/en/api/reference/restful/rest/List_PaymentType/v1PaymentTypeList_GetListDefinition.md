@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 144,
-  "Name": "Daniel, Sanford and Williamson",
-  "Tooltip": "molestias",
-  "Deleted": true,
-  "Rank": 867,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
+  "Id": 543,
+  "Name": "Keebler Group",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 568,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "fuga",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldType": "System.String",
+      "FieldLength": 388
     }
   },
   "_Links": {

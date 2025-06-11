@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 490,
-    "Name": "Goyette, Green and Hettinger",
-    "ToolTip": "Inventore velit voluptatibus molestias quasi.",
+    "Id": 934,
+    "Name": "Schumm, Schmidt and Bernhard",
+    "ToolTip": "Laudantium in natus quo.",
     "Deleted": false,
-    "Rank": 232,
-    "Type": "minima",
-    "ColorBlock": 89,
-    "IconHint": "minima",
+    "Rank": 1001,
+    "Type": "ea",
+    "ColorBlock": 638,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2010-11-04T16:32:48.7745027+01:00",
+    "LastChanged": "1999-02-08T17:54:08.9605465+01:00",
     "ChildItems": [
       {
-        "Id": 315,
-        "Name": "Roob, Hickle and Kris",
-        "ToolTip": "Error quia saepe eius beatae molestias.",
-        "Deleted": true,
-        "Rank": 441,
-        "Type": "omnis",
-        "ColorBlock": 926,
-        "IconHint": "consequatur",
+        "Id": 874,
+        "Name": "Lang Inc and Sons",
+        "ToolTip": "Quia inventore deleniti qui unde distinctio.",
+        "Deleted": false,
+        "Rank": 162,
+        "Type": "est",
+        "ColorBlock": 191,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "1998-07-19T16:32:48.7745027+02:00",
+        "LastChanged": "2006-12-20T17:54:08.9605465+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "itaque",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Grayson Hermiston"
+        "FullName": "Grace Delpha Leffler DVM"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mina Satterfield"
+    "ExtraInfo": "rerum",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Miss Rosie Nola Reichert DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Beahan-Wuckert",
-    "ToolTip": "Neque atque accusamus culpa.",
+    "Id": 426,
+    "Name": "Parisian-Emard",
+    "ToolTip": "Consequatur provident magni et ut iste occaecati.",
     "Deleted": false,
-    "Rank": 708,
-    "Type": "officia",
-    "ColorBlock": 326,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2017-06-21T16:32:48.7745027+02:00",
+    "Rank": 604,
+    "Type": "assumenda",
+    "ColorBlock": 810,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2005-11-04T17:54:08.9605465+01:00",
     "ChildItems": [
       {
-        "Id": 345,
-        "Name": "Ankunding Group",
-        "ToolTip": "Et sunt nihil omnis non sint suscipit.",
+        "Id": 177,
+        "Name": "Kutch-Oberbrunner",
+        "ToolTip": "Quasi similique quia quia ut dolore reprehenderit veniam.",
         "Deleted": false,
-        "Rank": 58,
-        "Type": "consequatur",
-        "ColorBlock": 525,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "2014-12-07T16:32:48.7745027+01:00",
+        "Rank": 536,
+        "Type": "et",
+        "ColorBlock": 834,
+        "IconHint": "necessitatibus",
+        "Selected": false,
+        "LastChanged": "2001-10-28T17:54:08.9605465+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ut",
+        "ExtraInfo": "itaque",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Mrs. Gisselle Eichmann DDS",
+        "FullName": "Mr. Sarah Mauricio Daugherty V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 434
+            "FieldType": "System.Int32",
+            "FieldLength": 824
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "provident",
-    "Hidden": true,
-    "FullName": "Manuel Wilderman",
+    "ExtraInfo": "a",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Lawrence Nelda Rempel DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 582
+        "FieldType": "System.Int32",
+        "FieldLength": 434
       }
     }
   }

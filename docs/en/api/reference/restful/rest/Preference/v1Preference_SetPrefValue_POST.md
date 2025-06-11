@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "omnis",
+  "RawValue": "consequatur",
   "Specification": null,
-  "DisplayValue": "repudiandae",
-  "DisplayTooltip": "rerum",
+  "DisplayValue": "hic",
+  "DisplayTooltip": "nisi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 733,
-  "PrefDescId": 652,
-  "TableName": "Stoltenberg-Russel",
-  "UserPreferenceId": 44
+  "TargetId": 98,
+  "PrefDescId": 803,
+  "TableName": "Cole, Bauch and Metz",
+  "UserPreferenceId": 395
 }
 ```
 

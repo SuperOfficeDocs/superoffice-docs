@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 272,
-  "ColumnId": 283,
-  "FieldDefault": "delectus",
-  "FieldHeight": 1000,
-  "FieldLabel": "consequuntur",
-  "FieldLeft": 439,
-  "FieldTop": 369,
+  "UDefFieldId": 484,
+  "ColumnId": 482,
+  "FieldDefault": "at",
+  "FieldHeight": 31,
+  "FieldLabel": "rerum",
+  "FieldLeft": 85,
+  "FieldTop": 136,
   "FieldType": "Checkbox",
-  "FieldWidth": 64,
-  "FormatMask": "et",
+  "FieldWidth": 68,
+  "FormatMask": "quidem",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 409,
-  "LabelLeft": 488,
-  "LabelTop": 209,
-  "LabelWidth": 405,
-  "LastVersionId": 735,
-  "ListTableId": 913,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 614,
+  "LabelLeft": 681,
+  "LabelTop": 885,
+  "LabelWidth": 296,
+  "LastVersionId": 342,
+  "ListTableId": 617,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 941,
-  "ProgId": "itaque",
-  "IsReadOnly": false,
-  "ShortLabel": "ullam",
-  "TabOrder": 559,
-  "TextLength": 244,
-  "Tooltip": "reprehenderit",
-  "UdefIdentity": 67,
-  "UDListDefinitionId": 652,
+  "Page1LineNo": 532,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "eaque",
+  "TabOrder": 872,
+  "TextLength": 198,
+  "Tooltip": "repudiandae",
+  "UdefIdentity": 832,
+  "UDListDefinitionId": 614,
   "Justification": "Center",
-  "Version": 273,
-  "TemplateVariableName": "Mraz, Senger and Kuvalis",
+  "Version": 535,
+  "TemplateVariableName": "Pouros, Considine and Sauer",
   "HasBeenPublished": true,
-  "MdoListName": "Kunze, Sanford and Gerhold",
+  "MdoListName": "Predovic-Lind",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldLength": 573
     }
   }
 }

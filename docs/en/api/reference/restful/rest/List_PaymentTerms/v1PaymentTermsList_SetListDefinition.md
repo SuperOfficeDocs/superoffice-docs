@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 372,
-  "Name": "Schowalter-King",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 771,
+  "Id": 230,
+  "Name": "West Inc and Sons",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 1000,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "odit",
-  "InUseByUserDefinedFields": false
+  "ListType": "iusto",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 7,
-  "Name": "Jewess, Miller and Fay",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 707,
+  "Id": 454,
+  "Name": "White, Durgan and Macejkovic",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "Rank": 129,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "eos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldLength": 642
     }
   }
 }

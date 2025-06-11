@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "odio",
-    "harum"
+    "id",
+    "quia"
   ],
-  "CurrentClientTime": "2020-03-27T16:32:39.5709105+01:00"
+  "CurrentClientTime": "2019-07-23T17:54:03.445191+02:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "porro",
-    "deleniti"
+    "labore",
+    "labore"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 240,
-  "NotificationsCount": 162,
+  "OverdueSalesCount": 90,
+  "NotificationsCount": 340,
   "SystemWebPanels": [
     {
-      "WebPanelId": 8,
-      "Name": "Cole, Stanton and Krajcik",
-      "Tooltip": "eum",
+      "WebPanelId": 959,
+      "Name": "Moen-Mraz",
+      "Tooltip": "recusandae",
       "Deleted": true,
-      "Rank": 375,
+      "Rank": 99,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
-      "OnTravel": false,
+      "OnTravel": true,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
-      "ShowInMenuBar": true,
+      "ShowInMenuBar": false,
       "ShowInToolBar": true,
-      "ShowInAddressBar": false,
-      "ShowInStatusBar": true,
-      "WindowName": "Borer-Aufderhar",
+      "ShowInAddressBar": true,
+      "ShowInStatusBar": false,
+      "WindowName": "Torp, Littel and Keebler",
       "Url": "http://www.example.com/",
-      "ProgId": "ad",
-      "Icon": 761,
-      "AlwaysReloadOnShow": false,
-      "NeverReloadOnCurrentChange": true,
+      "ProgId": "ratione",
+      "Icon": 974,
+      "AlwaysReloadOnShow": true,
+      "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldType": "System.String",
+          "FieldLength": 891
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "aut",
+      "RawValue": "dignissimos",
       "Specification": null,
-      "DisplayValue": "modi",
-      "DisplayTooltip": "ut",
+      "DisplayValue": "consectetur",
+      "DisplayTooltip": "perferendis",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 79,
-      "PrefDescId": 920,
-      "TableName": "Rau, Johns and Cummerata",
-      "UserPreferenceId": 520,
+      "TargetId": 240,
+      "PrefDescId": 659,
+      "TableName": "Schulist, Heidenreich and Herzog",
+      "UserPreferenceId": 731,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldType": "System.String",
+          "FieldLength": 958
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "esse",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldType": "System.String",
+      "FieldLength": 244
     }
   }
 }

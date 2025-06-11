@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 59,
-    "Name": "Lubowitz Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 878,
-    "UdListDefinitionId": 815,
+    "HeadingId": 280,
+    "Name": "Denesik Group",
+    "Tooltip": "excepturi",
+    "Deleted": false,
+    "Rank": 800,
+    "UdListDefinitionId": 463,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldLength": 682
       }
     }
   }

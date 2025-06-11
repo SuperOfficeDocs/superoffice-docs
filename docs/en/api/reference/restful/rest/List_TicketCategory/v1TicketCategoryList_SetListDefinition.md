@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Will, Lubowitz and Cronin",
-  "Tooltip": "nihil",
+  "Id": 379,
+  "Name": "Brown LLC",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 216,
+  "Rank": 968,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "UseGroupsAndHeadings": true,
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 840,
-  "Name": "Steuber, Treutel and Wunsch",
-  "Tooltip": "adipisci",
+  "Id": 967,
+  "Name": "Gleichner-Fisher",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 24,
+  "Rank": 626,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "molestiae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldType": "System.String",
+      "FieldLength": 103
     }
   }
 }

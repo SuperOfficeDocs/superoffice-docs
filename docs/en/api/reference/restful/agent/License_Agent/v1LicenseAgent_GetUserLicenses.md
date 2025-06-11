@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 565
+  "AssociateId": 433
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Senger Group",
-    "Description": "Extended well-modulated array",
+    "Name": "Collins-Senger",
+    "Description": "Devolved executive Graphical User Interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 918,
-        "Tooltip": "voluptatem",
+        "Unrestricted": true,
+        "Total": 912,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 821,
-        "InUse": 988,
-        "IsHidden": true,
+        "Free": 742,
+        "InUse": 11,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 795,
-        "Name": "Will, King and Jones",
-        "Description": "Inverse value-added time-frame",
-        "PrerequisiteModuleName": "Ernser-Yost",
-        "SortOrder": 721,
-        "ExtraFlags": 326,
+        "ModuleLicenseId": 826,
+        "Name": "Schneider-Kub",
+        "Description": "Extended intangible software",
+        "PrerequisiteModuleName": "Torp Group",
+        "SortOrder": 577,
+        "ExtraFlags": 631,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldLength": 208
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 95,
-        "Tooltip": "qui",
+        "Unrestricted": true,
+        "Total": 111,
+        "Tooltip": "reprehenderit",
         "CanAssign": false,
-        "Free": 336,
-        "InUse": 600,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 231,
-        "Name": "Wilkinson, Pacocha and Rolfson",
-        "Description": "Innovative background leverage",
-        "PrerequisiteModuleName": "Kshlerin-Hegmann",
-        "SortOrder": 411,
-        "ExtraFlags": 433,
+        "Free": 792,
+        "InUse": 713,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 310,
+        "Name": "McDermott, Kautzer and Rowe",
+        "Description": "Function-based mobile workforce",
+        "PrerequisiteModuleName": "Dooley, Konopelski and Kemmer",
+        "SortOrder": 911,
+        "ExtraFlags": 984,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 798
+            "FieldLength": 127
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldType": "System.String",
+        "FieldLength": 484
       }
     }
   },
   {
-    "Name": "Senger Group",
-    "Description": "Extended well-modulated array",
+    "Name": "Collins-Senger",
+    "Description": "Devolved executive Graphical User Interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 918,
-        "Tooltip": "voluptatem",
+        "Unrestricted": true,
+        "Total": 912,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 821,
-        "InUse": 988,
-        "IsHidden": true,
+        "Free": 742,
+        "InUse": 11,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 795,
-        "Name": "Will, King and Jones",
-        "Description": "Inverse value-added time-frame",
-        "PrerequisiteModuleName": "Ernser-Yost",
-        "SortOrder": 721,
-        "ExtraFlags": 326,
+        "ModuleLicenseId": 826,
+        "Name": "Schneider-Kub",
+        "Description": "Extended intangible software",
+        "PrerequisiteModuleName": "Torp Group",
+        "SortOrder": 577,
+        "ExtraFlags": 631,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldLength": 208
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 95,
-        "Tooltip": "qui",
+        "Unrestricted": true,
+        "Total": 111,
+        "Tooltip": "reprehenderit",
         "CanAssign": false,
-        "Free": 336,
-        "InUse": 600,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 231,
-        "Name": "Wilkinson, Pacocha and Rolfson",
-        "Description": "Innovative background leverage",
-        "PrerequisiteModuleName": "Kshlerin-Hegmann",
-        "SortOrder": 411,
-        "ExtraFlags": 433,
+        "Free": 792,
+        "InUse": 713,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 310,
+        "Name": "McDermott, Kautzer and Rowe",
+        "Description": "Function-based mobile workforce",
+        "PrerequisiteModuleName": "Dooley, Konopelski and Kemmer",
+        "SortOrder": 911,
+        "ExtraFlags": 984,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 798
+            "FieldLength": 127
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldType": "System.String",
+        "FieldLength": 484
       }
     }
   }

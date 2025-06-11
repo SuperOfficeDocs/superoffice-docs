@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 733,
-  "PersonName": "Hessel-Ebert",
+  "ContactId": 603,
+  "PersonName": "Rutherford Group",
   "PhoneNumbers": [
-    "1172179",
-    "1045276"
+    "856047",
+    "935516"
   ],
   "Emails": [
-    "randy.towne@wolfstokes.uk",
-    "jeanie.gorczany@sauer.uk"
+    "jeremy_sawayn@miller.biz",
+    "bradford@keeling.info"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   }
 }

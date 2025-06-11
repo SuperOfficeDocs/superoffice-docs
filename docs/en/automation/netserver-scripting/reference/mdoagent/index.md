@@ -12,16 +12,16 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IMDOAgent'>MDOAgent</see> that can trigger server-side event scripts.
 
-* [GetList](getlist.md)
-* [GetListIdByListName](getlistidbylistname.md)
-* [GetListItem](getlistitem.md)
-* [GetListNames](getlistnames.md)
-* [GetListWithHistory](getlistwithhistory.md)
-* [GetListWithRestriction](getlistwithrestriction.md)
-* [GetSelectableList](getselectablelist.md)
-* [GetSelectableListWithHistory](getselectablelistwithhistory.md)
-* [GetSelectableListWithRestriction](getselectablelistwithrestriction.md)
-* [GetSelectableSimpleList](getselectablesimplelist.md)
-* [GetSimpleList](getsimplelist.md)
-* [SetSelected](setselected.md)
+* [GetListAsync](getlistasync.md)
+* [GetListIdByListNameAsync](getlistidbylistnameasync.md)
+* [GetListItemAsync](getlistitemasync.md)
+* [GetListNamesAsync](getlistnamesasync.md)
+* [GetListWithHistoryAsync](getlistwithhistoryasync.md)
+* [GetListWithRestrictionAsync](getlistwithrestrictionasync.md)
+* [GetSelectableListAsync](getselectablelistasync.md)
+* [GetSelectableListWithHistoryAsync](getselectablelistwithhistoryasync.md)
+* [GetSelectableListWithRestrictionAsync](getselectablelistwithrestrictionasync.md)
+* [GetSelectableSimpleListAsync](getselectablesimplelistasync.md)
+* [GetSimpleListAsync](getsimplelistasync.md)
+* [SetSelectedAsync](setselectedasync.md)
 

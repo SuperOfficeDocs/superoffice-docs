@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 921,
-  "StartDate": "2019-06-17T16:32:37.9304176+02:00",
-  "EndDate": "2002-04-15T16:32:37.9304176+02:00",
-  "RecurrenceCounter": 8,
+  "RecurrenceId": 951,
+  "StartDate": "2017-12-08T17:54:02.5236144+01:00",
+  "EndDate": "2007-10-22T17:54:02.5236144+02:00",
+  "RecurrenceCounter": 633,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,17 +96,17 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-06-11T16:32:37.9304176+02:00",
+      "Date": "2000-01-12T17:54:02.5236144+01:00",
       "IsConflict": false,
-      "Description": "Object-based local product",
-      "DescriptionStyleHint": "Sharable 5th generation capacity",
+      "Description": "Total well-modulated instruction set",
+      "DescriptionStyleHint": "Diverse zero tolerance migration",
       "Tooltip": "et"
     },
     {
-      "Date": "1999-06-11T16:32:37.9304176+02:00",
+      "Date": "2000-01-12T17:54:02.5236144+01:00",
       "IsConflict": false,
-      "Description": "Object-based local product",
-      "DescriptionStyleHint": "Sharable 5th generation capacity",
+      "Description": "Total well-modulated instruction set",
+      "DescriptionStyleHint": "Diverse zero tolerance migration",
       "Tooltip": "et"
     }
   ],

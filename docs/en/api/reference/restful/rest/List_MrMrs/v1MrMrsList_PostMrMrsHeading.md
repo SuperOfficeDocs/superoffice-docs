@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 83,
-  "Name": "Steuber Inc and Sons",
-  "Tooltip": "saepe",
-  "Deleted": false,
-  "Rank": 460,
-  "UdListDefinitionId": 451
+  "HeadingId": 21,
+  "Name": "O'Keefe Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 257,
+  "UdListDefinitionId": 28
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 708,
-  "Name": "Kautzer, Windler and Yundt",
-  "Tooltip": "vitae",
+  "HeadingId": 310,
+  "Name": "Rosenbaum, Krajcik and Dach",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 175,
-  "UdListDefinitionId": 87,
+  "Rank": 11,
+  "UdListDefinitionId": 437,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 639
     }
   }
 }

@@ -63,6 +63,7 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|associate/usergroupId|int|Group ID: The user's primary user group| x |
 |associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |associate/contactCategory|listAny|Category: Category| x |
 |associate/role|listAny|Role : Role| x |
@@ -120,11 +121,11 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 |person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
-|person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
@@ -199,6 +200,7 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 |person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -223,12 +225,12 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 |person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -237,6 +239,7 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/personAssociate/contactCategory|listAny|Category: Category| x |
 |person/personAssociate/role|listAny|Role : Role| x |
@@ -269,6 +272,7 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |person/correspondingAssociate/role|listAny|Role : Role| x |
@@ -325,14 +329,14 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 |contact/contactDeleted|bool|Deleted: Deleted| x |
 |contact/phone/formattedNumber|string|Phone : Displays phone number|  |
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|contact/deletedDate|datetime|Deleted date: Deleted date|  |
-|contact/mainContact| *None* |Main contact: Main contact for this company| x |
-|contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
-|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/deletedDate|datetime|Deleted date: Deleted date|  |
+|contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
+|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |contact/contactFax/description|string|Fax - Description: Phone number description| x |
 |contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
@@ -395,6 +399,7 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 |contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contact/contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contact/contactAssociate/contactCategory|listAny|Category: Category| x |
 |contact/contactAssociate/role|listAny|Role : Role| x |
@@ -428,15 +433,16 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 |contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
 |contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
-|contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
-|contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
-|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
-|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
+|contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
+|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
@@ -483,7 +489,7 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowDynamicSelectionV2?$select=chatTopic/chatTopicId,person/supportAssociateFullName,person/email/emailLastBounce,person/personExtra/x_person_appointment_relation,contact/email/emailLastSent
+GET /api/v1/archive/ChatConversationShadowDynamicSelectionV2?$select=person/firstName,person/email/emailProtocol,contact/postAddress/wgs84longitude,contact/contactAssociate/userName,contact/contactExtra/x_contact_boolean
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

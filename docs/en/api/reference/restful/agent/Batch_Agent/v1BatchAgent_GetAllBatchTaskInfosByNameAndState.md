@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Sawayn Group",
+  "TaskName": "Schroeder-Satterfield",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Goyette, Balistreri and Abbott",
-    "AssociateId": 940,
-    "DetailsTable": 537,
-    "DetailsRecord": 948,
-    "IsSystemTask": false,
+    "Id": 146,
+    "Name": "Nader, Monahan and Ryan",
+    "AssociateId": 666,
+    "DetailsTable": 633,
+    "DetailsRecord": 919,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "facere",
-      "ParameterObject2": "maiores"
+      "ParameterObject1": "exercitationem",
+      "ParameterObject2": "voluptas"
     },
-    "LastStarted": "2012-02-23T16:32:38.1959817+01:00",
-    "Created": "1998-03-26T16:32:38.1959817+01:00",
-    "StartCount": 473,
-    "DatabaseSerialNumber": "1022205",
-    "Context": "vel",
-    "Result": "velit",
+    "LastStarted": "2001-02-02T17:54:02.6639794+01:00",
+    "Created": "2003-10-03T17:54:02.6639794+02:00",
+    "StartCount": 505,
+    "DatabaseSerialNumber": "1023219",
+    "Context": "iure",
+    "Result": "quae",
     "State": "All",
-    "Description": "Programmable secondary middleware",
-    "Response": "ea",
-    "Request": "laborum",
-    "ProgressDescription": "Re-contextualized logistical process improvement",
-    "ProgressPercent": 437,
-    "FileName": "Konopelski Group",
+    "Description": "Team-oriented cohesive service-desk",
+    "Response": "atque",
+    "Request": "dolor",
+    "ProgressDescription": "Networked needs-based capacity",
+    "ProgressPercent": 950,
+    "FileName": "Boyle Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 79
       }
     }
   }

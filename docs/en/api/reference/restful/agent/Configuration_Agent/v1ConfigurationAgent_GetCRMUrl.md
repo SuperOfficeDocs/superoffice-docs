@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "quisquam",
-  "Currents": "reprehenderit",
+  "SoProtocol": "quam",
+  "Currents": "laudantium",
   "Frameless": false
 }
 ```

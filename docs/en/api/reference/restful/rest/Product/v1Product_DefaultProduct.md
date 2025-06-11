@@ -100,35 +100,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 710,
-  "ERPProductKey": "at",
-  "ERPPriceListKey": "aspernatur",
-  "Name": "D'Amore-Daniel",
-  "Description": "Distributed stable functionalities",
-  "Code": "possimus",
-  "PriceUnit": "aliquam",
-  "QuantityUnit": "consequatur",
-  "IsSubscription": false,
-  "SubscriptionUnit": "repudiandae",
-  "DefaultSubscriptionQuantity": 1331.95,
-  "ItemNumber": "1050395",
+  "ProductId": 394,
+  "ERPProductKey": "dolorum",
+  "ERPPriceListKey": "iure",
+  "Name": "Wisozk-Beier",
+  "Description": "Innovative dynamic array",
+  "Code": "quos",
+  "PriceUnit": "a",
+  "QuantityUnit": "quod",
+  "IsSubscription": true,
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 9232.764,
+  "ItemNumber": "972798",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "impedit",
-  "ProductTypeKey": "voluptatibus",
-  "VAT": 1770.71,
-  "VATInfo": "fugit",
-  "UnitCost": 28074.372,
-  "UnitMinimumPrice": 25109.608,
-  "UnitListPrice": 14244.029999999999,
+  "ProductFamilyKey": "illum",
+  "ProductTypeKey": "quisquam",
+  "VAT": 25987.128,
+  "VATInfo": "nesciunt",
+  "UnitCost": 24257.16,
+  "UnitMinimumPrice": 4067.932,
+  "UnitListPrice": 28933.088,
   "InAssortment": false,
-  "Supplier": "atque",
-  "SupplierCode": "qui",
-  "Rights": "voluptas",
-  "Rule": "saepe",
+  "Supplier": "neque",
+  "SupplierCode": "dicta",
+  "Rights": "et",
+  "Rule": "vero",
   "ExtraInfo": [
     {
-      "Name": "Lemke, Breitenberg and Bayer",
+      "Name": "Bartell, Reichert and Anderson",
       "Value": "et",
       "Type": "Image",
       "TableRight": null,
@@ -136,12 +136,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 291
+          "FieldLength": 807
         }
       }
     },
     {
-      "Name": "Lemke, Breitenberg and Bayer",
+      "Name": "Bartell, Reichert and Anderson",
       "Value": "et",
       "Type": "Image",
       "TableRight": null,
@@ -149,24 +149,24 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 291
+          "FieldLength": 807
         }
       }
     }
   ],
-  "RawExtraInfo": "omnis",
-  "ExtraField1": "atque",
-  "ExtraField2": "maiores",
-  "ExtraField3": "et",
-  "ExtraField4": "doloremque",
-  "ExtraField5": "soluta",
-  "InStock": 22141.71,
+  "RawExtraInfo": "qui",
+  "ExtraField1": "dolor",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "veritatis",
+  "ExtraField4": "commodi",
+  "ExtraField5": "et",
+  "InStock": 3632.306,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   }
 }

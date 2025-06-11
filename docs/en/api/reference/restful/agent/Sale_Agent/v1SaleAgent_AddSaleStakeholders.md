@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 947,
+  "SaleId": 485,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Beier LLC",
-      "Comment": "eum",
-      "StakeholderRoleId": 254,
-      "CountryId": 892,
-      "PersonId": 565,
-      "EmailDescription": "loyal_kerluke@bauch.co.uk",
-      "EmailId": 764,
-      "EmailAddress": "ova.cronin@bailey.com",
-      "PhoneId": 818,
-      "ContactName": "Muller, Blick and Zulauf",
-      "ContactId": 736,
-      "SaleId": 798,
-      "Mrmrs": "quo",
-      "Firstname": "Ethel",
-      "MiddleName": "Bergnaum, Ruecker and Littel",
-      "Lastname": "Crooks",
-      "SaleStakeholderId": 529,
-      "Rank": 996,
-      "Phone": "(752)104-9204"
+      "StakeholderRoleName": "Satterfield, Pagac and Osinski",
+      "Comment": "cum",
+      "StakeholderRoleId": 292,
+      "CountryId": 474,
+      "PersonId": 931,
+      "EmailDescription": "kianna_upton@kuhlman.com",
+      "EmailId": 307,
+      "EmailAddress": "torrey@klockobashirian.biz",
+      "PhoneId": 226,
+      "ContactName": "Langworth LLC",
+      "ContactId": 893,
+      "SaleId": 36,
+      "Mrmrs": "iure",
+      "Firstname": "Davin",
+      "MiddleName": "Moore, Bode and Mosciski",
+      "Lastname": "Haley",
+      "SaleStakeholderId": 305,
+      "Rank": 260,
+      "Phone": "708-338-3550 x8723"
     }
   ]
 }

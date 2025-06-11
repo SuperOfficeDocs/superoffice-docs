@@ -179,6 +179,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -213,6 +214,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/personAssociate/contactCategory|listAny|Category: Category| x |
 |person/personAssociate/role|listAny|Role : Role| x |
@@ -224,12 +226,12 @@ Activity archive provider that performs no filtering. This archive is not presen
 |person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
@@ -249,6 +251,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |person/correspondingAssociate/role|listAny|Role : Role| x |
@@ -327,13 +330,13 @@ Activity archive provider that performs no filtering. This archive is not presen
 |contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
 |contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
-|contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
+|contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+|contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
@@ -375,6 +378,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contact/contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contact/contactAssociate/contactCategory|listAny|Category: Category| x |
 |contact/contactAssociate/role|listAny|Role : Role| x |
@@ -410,6 +414,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -429,15 +434,15 @@ Activity archive provider that performs no filtering. This archive is not presen
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/LastActivity|date|Date of last activity|  |
 |contact/LastCompletedActivity|date|Date of last completed activity|  |
 |contact/LastDoByActivity|date|Date of last non-completed activity|  |
 |contact/NumberOfSales|int|Number of sales|  |
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |contact/LastSale|date|Date of last sale|  |
@@ -504,6 +509,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
@@ -532,16 +538,16 @@ Activity archive provider that performs no filtering. This archive is not presen
 |project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |project/NumberOfActivities|int|Number of activities|  |
 |project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/LastActivity|date|Date of last activity|  |
 |project/LastCompletedActivity|date|Date of last completed activity|  |
 |project/LastDoByActivity|date|Date of last non-completed activity|  |
@@ -574,6 +580,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|associate/usergroupId|int|Group ID: The user's primary user group| x |
 |associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |associate/contactCategory|listAny|Category: Category| x |
 |associate/role|listAny|Role : Role| x |
@@ -635,6 +642,10 @@ Activity archive provider that performs no filtering. This archive is not presen
 |sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -642,10 +653,6 @@ Activity archive provider that performs no filtering. This archive is not presen
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
 |sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
 |sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -679,6 +686,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |sale/associate/contactCategory|listAny|Category: Category| x |
 |sale/associate/role|listAny|Role : Role| x |
@@ -738,6 +746,10 @@ Activity archive provider that performs no filtering. This archive is not presen
 |appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |appointmentUdef/SuperOffice:2|string|followuplongtext| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentUdef/SuperOffice:3|int|followupnumber| x |
 |appointmentUdef/SuperOffice:4|date|followupdate| x |
 |appointmentUdef/SuperOffice:5|unlimitedDate|followupunlimiteddate| x |
@@ -746,10 +758,6 @@ Activity archive provider that performs no filtering. This archive is not presen
 |appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/title|positiveString|Title| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |appointment/titleHtml| *None* |!!Title Html| x |
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
@@ -761,7 +769,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/correspondingAssociate/contactDepartment,person/correspondingAssociate/portraitThumbnail,contact/restrictionAddress/wgs84longitude,project/projectPublish/publishedBy,project/projectAssociate/role
+GET /api/v1/archive/Activity?$select=getNoRows,person/personInterestIds,person/correspondingAssociate/credentialType,contact/updatedBy,contact/contactAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

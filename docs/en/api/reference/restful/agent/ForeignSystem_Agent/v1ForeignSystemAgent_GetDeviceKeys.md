@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Pollich, Lind and West",
-  "DeviceName": "Mayert Group"
+  "ApplicationName": "Heaney Inc and Sons",
+  "DeviceName": "Renner LLC"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "natus",
-    "Value": "repellat",
-    "RecordId": 142,
-    "CreatedDate": "2020-03-04T16:32:39.1645096+01:00",
-    "UpdatedDate": "1999-02-06T16:32:39.1645096+01:00",
-    "UpdatedBy": "necessitatibus",
-    "CreatedBy": "numquam",
-    "TableName": "Wilkinson, Casper and Armstrong",
+    "Key": "ad",
+    "Value": "blanditiis",
+    "RecordId": 810,
+    "CreatedDate": "2019-05-05T17:54:03.1795788+02:00",
+    "UpdatedDate": "2018-04-29T17:54:03.1795788+02:00",
+    "UpdatedBy": "magnam",
+    "CreatedBy": "ratione",
+    "TableName": "Boyer, Reichel and Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 98
+        "FieldLength": 579
       }
     }
   }

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 483
+  "QuoteVersionId": 224
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 764,
-    "ERPQuoteAlternativeKey": "dolores",
-    "QuoteVersionId": 573,
-    "Name": "Lind, Rath and Rodriguez",
-    "Description": "Enhanced optimal array",
+    "QuoteAlternativeId": 924,
+    "ERPQuoteAlternativeKey": "rerum",
+    "QuoteVersionId": 101,
+    "Name": "Blick-Dibbert",
+    "Description": "Devolved 24/7 standardization",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 19574.964,
-    "ERPDiscountAmount": 13219.212,
-    "DiscountPercent": 19725.396,
-    "DiscountAmount": 12341.692,
+    "ERPDiscountPercent": 2851.94,
+    "ERPDiscountAmount": 27795.446,
+    "DiscountPercent": 1228.528,
+    "DiscountAmount": 12379.3,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "maiores",
-    "VAT": 13002.966,
-    "EarningPercent": 15184.23,
-    "EarningAmount": 3369.0499999999997,
-    "SubTotal": 21853.381999999998,
-    "TotalPrice": 6506.184,
-    "ExtraField1": "iste",
-    "ExtraField2": "molestiae",
-    "ExtraField3": "perferendis",
-    "ExtraField4": "quia",
-    "ExtraField5": "exercitationem",
+    "VATInfo": "sed",
+    "VAT": 22477.048,
+    "EarningPercent": 28111.98,
+    "EarningAmount": 21176.438,
+    "SubTotal": 10047.604,
+    "TotalPrice": 15842.369999999999,
+    "ExtraField1": "qui",
+    "ExtraField2": "consequatur",
+    "ExtraField3": "sint",
+    "ExtraField4": "porro",
+    "ExtraField5": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldLength": 319
       }
     }
   }

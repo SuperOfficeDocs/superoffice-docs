@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 146,
-  "FormId": 503,
-  "WhenSubmitted": "2013-08-07T16:32:39.3363462+02:00",
-  "ContactId": 920,
-  "PersonId": 129,
-  "EmailAddress": "ben_schmeler@gibsonbreitenberg.info",
-  "ResponseShipmentAddrId": 789,
-  "Response": "et",
+  "FormSubmissionId": 360,
+  "FormId": 227,
+  "WhenSubmitted": "2000-12-11T17:54:03.3202006+01:00",
+  "ContactId": 366,
+  "PersonId": 654,
+  "EmailAddress": "rodrigo_sanford@morar.name",
+  "ResponseShipmentAddrId": 119,
+  "Response": "doloribus",
   "Status": "EmailVerification",
-  "ProcessingLog": "maxime",
+  "ProcessingLog": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldType": "System.String",
+      "FieldLength": 779
     }
   }
 }

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 457,
-  "Name": "D'Amore Inc and Sons",
-  "Tooltip": "non",
+  "Id": 701,
+  "Name": "Spinka Group",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "UdListDefinitionId": 331,
-  "Rank": 929
+  "UdListDefinitionId": 708,
+  "Rank": 982
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 562,
-  "Name": "Gerhold LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 515,
-  "Rank": 455,
+  "Id": 373,
+  "Name": "Hansen, Kuhlman and Roob",
+  "Tooltip": "aliquid",
+  "Deleted": false,
+  "UdListDefinitionId": 845,
+  "Rank": 653,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldLength": 283
     }
   }
 }

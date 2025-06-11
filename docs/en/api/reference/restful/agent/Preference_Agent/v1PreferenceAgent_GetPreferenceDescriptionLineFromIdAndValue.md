@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 314,
-  "PrefValue": "necessitatibus"
+  "PrefDescId": 876,
+  "PrefValue": "suscipit"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 189,
-  "PrefDescId": 284,
-  "PrefValue": "sed",
-  "PrefShowValue": "a",
-  "Description": "Implemented bottom-line circuit",
+  "PrefDescLineId": 712,
+  "PrefDescId": 118,
+  "PrefValue": "voluptas",
+  "PrefShowValue": "quisquam",
+  "Description": "Optional non-volatile internet solution",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 493
     }
   }
 }

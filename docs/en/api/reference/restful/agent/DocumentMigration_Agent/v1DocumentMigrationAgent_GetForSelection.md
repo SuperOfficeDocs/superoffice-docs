@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 647,
-  "SelectionId": 542,
-  "IncludeEmails": false
+  "DocumentPluginId": 571,
+  "SelectionId": 762,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 569,
-  "NumDocumentsAlreadyMigrated": 365,
+  "NumDocumentsOmitted": 340,
+  "NumDocumentsAlreadyMigrated": 7,
   "Documents": [
     {
-      "DocumentId": 748,
-      "ContactId": 259,
-      "PersonId": 281,
-      "SaleId": 169,
-      "ProjectId": 949,
-      "DocTmplId": 985,
-      "AssociateId": 391,
-      "UserGroupId": 402,
-      "VisibleForId": 192
+      "DocumentId": 451,
+      "ContactId": 207,
+      "PersonId": 378,
+      "SaleId": 639,
+      "ProjectId": 286,
+      "DocTmplId": 827,
+      "AssociateId": 389,
+      "UserGroupId": 923,
+      "VisibleForId": 832
     }
   ],
   "Associates": [
     {
-      "AssociateId": 812,
-      "EmailAddress": "naomi@macejkovic.com"
+      "AssociateId": 775,
+      "EmailAddress": "carley.zemlak@jacobson.com"
     },
     {
-      "AssociateId": 812,
-      "EmailAddress": "naomi@macejkovic.com"
+      "AssociateId": 775,
+      "EmailAddress": "carley.zemlak@jacobson.com"
     }
   ]
 }

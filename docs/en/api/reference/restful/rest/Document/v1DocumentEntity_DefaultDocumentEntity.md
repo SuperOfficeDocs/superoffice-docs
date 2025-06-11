@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 12 May 2015 16:32:47 G5T
+Last-Modified: Wed, 26 Mar 2003 17:54:08 G3T
 
 {
-  "DocumentId": 751,
+  "DocumentId": 404,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "esse",
-  "Header": "voluptas",
-  "Name": "Price-Kohler",
-  "OurRef": "quos",
-  "YourRef": "dolorem",
-  "CreatedDate": "2005-05-18T16:32:47.4308602+02:00",
-  "UpdatedDate": "2015-05-12T16:32:47.4308602+02:00",
-  "Description": "Function-based uniform conglomeration",
+  "Attention": "perferendis",
+  "Header": "neque",
+  "Name": "Lubowitz Inc and Sons",
+  "OurRef": "quisquam",
+  "YourRef": "quae",
+  "CreatedDate": "2015-04-04T17:54:08.1480862+02:00",
+  "UpdatedDate": "2003-03-26T17:54:08.1480862+01:00",
+  "Description": "Optimized holistic model",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-05-02T16:32:47.4308602+02:00",
-  "ExternalRef": "est",
+  "Date": "2014-07-09T17:54:08.1480862+02:00",
+  "ExternalRef": "neque",
   "Completed": "Completed",
-  "ActiveLinks": 392,
+  "ActiveLinks": 668,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Erdman LLC",
-      "Id": 679,
-      "Description": "Optimized local service-desk",
-      "ExtraInfo": "saepe",
-      "LinkId": 201,
+      "EntityName": "Hills, Muller and Schoen",
+      "Id": 364,
+      "Description": "Progressive secondary initiative",
+      "ExtraInfo": "officia",
+      "LinkId": 615,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldType": "System.String",
+          "FieldLength": 185
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 211,
-  "Snum": 732,
+  "SuggestedDocumentId": 427,
+  "Snum": 46,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Lawson Adrianna Simonis Jr.",
-    "SuperOffice:2": "Deja Kessler"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "729798265"
   },
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "magnam"
+    "ExtraFields1": "quibusdam",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "quia"
+    "CustomFields1": "dicta",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "2013-08-30T16:32:47.4308602+02:00",
-  "PublishTo": "2008-07-29T16:32:47.4308602+02:00",
-  "PublishFrom": "2000-09-12T16:32:47.4308602+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-04-03T17:54:08.1637105+02:00",
+  "PublishTo": "2012-10-21T17:54:08.1637105+02:00",
+  "PublishFrom": "2010-10-27T17:54:08.1637105+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 293,
+      "VisibleId": 614,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 789
+          "FieldLength": 271
         }
       }
     },
     {
-      "VisibleId": 293,
+      "VisibleId": 614,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 789
+          "FieldLength": 271
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Tue, 12 May 2015 16:32:47 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 661
     }
   }
 }

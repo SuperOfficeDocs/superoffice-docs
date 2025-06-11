@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Homenick-Schroeder",
-  "Comment": "nemo",
-  "StakeholderRoleId": 376,
-  "CountryId": 369,
-  "PersonId": 981,
-  "EmailDescription": "jaime.hyatt@jewessgerhold.biz",
-  "EmailId": 878,
-  "EmailAddress": "harry_okon@jones.biz",
-  "PhoneId": 601,
-  "ContactName": "Kreiger-Zemlak",
-  "ContactId": 364,
-  "SaleId": 782,
-  "Mrmrs": "cupiditate",
-  "Firstname": "Brody",
-  "MiddleName": "McClure Inc and Sons",
-  "Lastname": "Klein",
-  "SaleStakeholderId": 351,
-  "Rank": 310,
-  "Phone": "918.116.4012 x4829"
+  "StakeholderRoleName": "Spencer LLC",
+  "Comment": "ullam",
+  "StakeholderRoleId": 559,
+  "CountryId": 205,
+  "PersonId": 141,
+  "EmailDescription": "maria@kuvalis.info",
+  "EmailId": 492,
+  "EmailAddress": "coleman.heathcote@heidenreichkemmer.name",
+  "PhoneId": 699,
+  "ContactName": "Wunsch Group",
+  "ContactId": 880,
+  "SaleId": 207,
+  "Mrmrs": "rerum",
+  "Firstname": "Donald",
+  "MiddleName": "Mann Inc and Sons",
+  "Lastname": "Johns",
+  "SaleStakeholderId": 67,
+  "Rank": 254,
+  "Phone": "(354)928-6577 x78431"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Lynch, Romaguera and Armstrong",
-  "Comment": "consequatur",
-  "StakeholderRoleId": 866,
-  "CountryId": 988,
-  "PersonId": 224,
-  "EmailDescription": "darlene.gutmann@rippingutmann.info",
-  "EmailId": 520,
-  "EmailAddress": "rey_anderson@pagachackett.uk",
-  "PhoneId": 398,
-  "ContactName": "Kozey-Bogan",
-  "ContactId": 435,
-  "SaleId": 312,
-  "Mrmrs": "porro",
-  "Firstname": "Judd",
-  "MiddleName": "Wiza LLC",
-  "Lastname": "Harris",
-  "SaleStakeholderId": 207,
-  "Rank": 713,
-  "Phone": "358-220-8578 x89681",
+  "StakeholderRoleName": "Walsh, Goyette and Bashirian",
+  "Comment": "omnis",
+  "StakeholderRoleId": 828,
+  "CountryId": 520,
+  "PersonId": 647,
+  "EmailDescription": "karlee.pollich@purdy.name",
+  "EmailId": 321,
+  "EmailAddress": "dereck@oconnell.info",
+  "PhoneId": 558,
+  "ContactName": "Fay Group",
+  "ContactId": 346,
+  "SaleId": 956,
+  "Mrmrs": "facere",
+  "Firstname": "Spencer",
+  "MiddleName": "Leannon LLC",
+  "Lastname": "Conn",
+  "SaleStakeholderId": 786,
+  "Rank": 587,
+  "Phone": "1-272-221-2647 x939",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldType": "System.String",
+      "FieldLength": 481
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

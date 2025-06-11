@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 955,
-  "AttachmentId": "reprehenderit"
+  "MessageServerId": 342,
+  "AttachmentId": "voluptatem"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Horizontal eco-centric instruction set",
-  "Filename": "maiores",
-  "Size": 40,
-  "Type": "id",
-  "Encoding": "quia",
-  "Id": "ut",
-  "Disposition": "consequuntur",
-  "IsSafeFileExtension": true,
+  "Description": "Pre-emptive clear-thinking algorithm",
+  "Filename": "iste",
+  "Size": 609,
+  "Type": "aut",
+  "Encoding": "sed",
+  "Id": "doloremque",
+  "Disposition": "expedita",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldType": "System.String",
+      "FieldLength": 365
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Legros, Champlin and Fay",
-    "ToolTip": "Debitis quia nemo.",
-    "Deleted": true,
-    "Rank": 516,
-    "Type": "sit",
-    "ColorBlock": 955,
-    "IconHint": "eligendi",
+    "Id": 576,
+    "Name": "Corkery, Lehner and Jones",
+    "ToolTip": "Quibusdam expedita nostrum qui.",
+    "Deleted": false,
+    "Rank": 206,
+    "Type": "itaque",
+    "ColorBlock": 680,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "2012-07-30T16:32:48.7432593+02:00",
+    "LastChanged": "2015-09-10T17:54:08.9449229+02:00",
     "ChildItems": [
       {
-        "Id": 188,
-        "Name": "Spencer-O'Connell",
-        "ToolTip": "Qui nihil quas harum nulla sit dolorem.",
+        "Id": 329,
+        "Name": "Beahan, Lueilwitz and Boyle",
+        "ToolTip": "Eius mollitia quia alias ea laudantium.",
         "Deleted": false,
-        "Rank": 626,
-        "Type": "aut",
-        "ColorBlock": 157,
-        "IconHint": "totam",
+        "Rank": 652,
+        "Type": "est",
+        "ColorBlock": 568,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2012-10-18T16:32:48.7432593+02:00",
+        "LastChanged": "2006-08-10T17:54:08.9449229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eaque",
+        "ExtraInfo": "quidem",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Verona Greenfelder",
+        "FullName": "Eduardo Larkin DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 495
+            "FieldLength": 389
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Mortimer Lubowitz",
+    "ExtraInfo": "in",
+    "StyleHint": "pariatur",
+    "Hidden": false,
+    "FullName": "Gardner Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 267
+        "FieldType": "System.Int32",
+        "FieldLength": 411
       }
     }
   }

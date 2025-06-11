@@ -140,16 +140,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=vero
-GET /api/v1/Archive/{archiveProviderName}?$top=819
-GET /api/v1/Archive/{archiveProviderName}?$skip=811
+GET /api/v1/Archive/{archiveProviderName}?$entities=doloremque
+GET /api/v1/Archive/{archiveProviderName}?$top=974
+GET /api/v1/Archive/{archiveProviderName}?$skip=101
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=qui
+GET /api/v1/Archive/{archiveProviderName}?$context=iusto
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=fugiat
+GET /api/v1/Archive/{archiveProviderName}?$metadata=dolores
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
@@ -201,19 +201,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "repudiandae",
+  "odata.nextLink": "modi",
   "value": [
     {
-      "PrimaryKey": 1558,
-      "EntityName": "person",
-      "personId": 1558,
-      "fullName": "Shayna Denesik"
+      "PrimaryKey": 9052,
+      "EntityName": "sale",
+      "saleId": 9052,
+      "contactId": 7416,
+      "name": "Jaskolski, Walker and Pollich"
     },
     {
-      "PrimaryKey": 6400,
-      "EntityName": "person",
-      "personId": 6400,
-      "fullName": "Chad Zboncak"
+      "PrimaryKey": 6192,
+      "EntityName": "sale",
+      "saleId": 6192,
+      "contactId": 5014,
+      "name": "Mueller, Conroy and Ritchie"
     }
   ]
 }

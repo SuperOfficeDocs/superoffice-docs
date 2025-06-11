@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Farrell-Rogahn",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "Rank": 872,
+  "Id": 71,
+  "Name": "Streich Group",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 427,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quod",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 322
     }
   },
   "_Links": {

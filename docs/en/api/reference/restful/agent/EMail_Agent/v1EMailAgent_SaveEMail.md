@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 479,
-      "ContactName": "Lemke, Gottlieb and Trantow",
-      "PersonId": 444,
-      "PersonName": "McKenzie-Fadel",
-      "AssociateId": 77,
-      "Address": "sit",
-      "EmailId": 82,
+      "ContactId": 684,
+      "ContactName": "Reinger Group",
+      "PersonId": 960,
+      "PersonName": "Crist, McClure and Bernier",
+      "AssociateId": 689,
+      "Address": "quam",
+      "EmailId": 436,
       "DuplicatePersonIds": [
-        396,
-        994
+        45,
+        30
       ],
-      "Name": "Hand Group",
+      "Name": "Adams, Mayert and Flatley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 170
+          "FieldType": "System.Int32",
+          "FieldLength": 985
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 44,
-      "ContactName": "Okuneva-Wilderman",
-      "PersonId": 878,
-      "PersonName": "Balistreri Inc and Sons",
-      "AssociateId": 191,
-      "Address": "dolore",
-      "EmailId": 874,
+      "ContactId": 519,
+      "ContactName": "Emard, Schulist and Marquardt",
+      "PersonId": 328,
+      "PersonName": "Durgan-Kautzer",
+      "AssociateId": 470,
+      "Address": "impedit",
+      "EmailId": 531,
       "DuplicatePersonIds": [
-        973,
-        793
+        763,
+        804
       ],
-      "Name": "Harber Inc and Sons",
+      "Name": "Ledner-Lehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldLength": 100
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 889,
-      "ContactName": "McKenzie, Mitchell and McClure",
-      "PersonId": 589,
-      "PersonName": "Wolff LLC",
-      "AssociateId": 942,
-      "Address": "et",
-      "EmailId": 199,
+      "ContactId": 276,
+      "ContactName": "Volkman LLC",
+      "PersonId": 107,
+      "PersonName": "Ankunding Group",
+      "AssociateId": 84,
+      "Address": "perspiciatis",
+      "EmailId": 529,
       "DuplicatePersonIds": [
-        571,
-        510
+        130,
+        602
       ],
-      "Name": "Schoen, Flatley and Kuhlman",
+      "Name": "Boyle LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldLength": 355
         }
       }
     }
   ],
-  "Subject": "sint",
-  "HTMLBody": "fuga",
+  "Subject": "quia",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "1998-02-04T16:32:39.0395385+01:00",
-  "Size": 129,
+  "Sent": "2004-02-07T17:54:03.1014579+01:00",
+  "Size": 466,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sed",
-  "PlainBody": "et",
-  "IsSent": true,
+  "MessageID": "blanditiis",
+  "PlainBody": "sapiente",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 61,
+  "ServerId": 695,
   "Attachments": [
     {
-      "Description": "Synchronised leading edge capacity",
-      "Filename": "animi",
-      "Size": 660,
-      "Type": "aperiam",
-      "Encoding": "repudiandae",
-      "Id": "eaque",
-      "Disposition": "et",
+      "Description": "Object-based context-sensitive definition",
+      "Filename": "rerum",
+      "Size": 874,
+      "Type": "ipsam",
+      "Encoding": "tempore",
+      "Id": "enim",
+      "Disposition": "labore",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 834
+          "FieldType": "System.Int32",
+          "FieldLength": 477
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bartoletti-Feil",
+      "Name": "Wisozk-Langosh",
       "Values": [
-        "rem",
-        "dolor"
+        "consequatur",
+        "ducimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 357
         }
       }
     },
     {
-      "Name": "Bartoletti-Feil",
+      "Name": "Wisozk-Langosh",
       "Values": [
-        "rem",
-        "dolor"
+        "consequatur",
+        "ducimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 357
         }
       }
     }
   ],
-  "FolderName": "Botsford-Wunsch",
-  "EmailItemId": 973,
-  "AccountId": 642,
-  "ReceivedAt": "2013-03-21T16:32:39.0395385+01:00",
+  "FolderName": "Labadie-Littel",
+  "EmailItemId": 618,
+  "AccountId": 485,
+  "ReceivedAt": "2002-04-09T17:54:03.1014579+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-04-19T16:32:39.0395385+02:00",
+  "RepliedAt": "2000-11-03T17:54:03.1014579+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 98
+      "FieldType": "System.Int32",
+      "FieldLength": 749
     }
   }
 }

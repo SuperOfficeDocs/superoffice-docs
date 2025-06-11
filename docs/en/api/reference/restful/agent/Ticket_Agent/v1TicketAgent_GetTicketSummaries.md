@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    608,
-    667
+    729,
+    816
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 512,
-    "TicketStatus": 192,
-    "Title": "vitae",
-    "Registered": "1998-06-22T16:32:40.1801475+02:00",
-    "IconHint": "laboriosam"
+    "TicketId": 44,
+    "TicketStatus": 939,
+    "Title": "distinctio",
+    "Registered": "2011-12-05T17:54:03.7264456+01:00",
+    "IconHint": "amet"
   },
   {
-    "TicketId": 512,
-    "TicketStatus": 192,
-    "Title": "vitae",
-    "Registered": "1998-06-22T16:32:40.1801475+02:00",
-    "IconHint": "laboriosam"
+    "TicketId": 44,
+    "TicketStatus": 939,
+    "Title": "distinctio",
+    "Registered": "2011-12-05T17:54:03.7264456+01:00",
+    "IconHint": "amet"
   }
 ]
 ```

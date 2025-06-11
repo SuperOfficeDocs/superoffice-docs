@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Nader-Ward",
-    "ToolTip": "Qui optio vero veritatis nemo omnis.",
-    "Deleted": true,
-    "Rank": 210,
-    "Type": "voluptatem",
-    "ColorBlock": 763,
-    "IconHint": "dolor",
+    "Id": 20,
+    "Name": "Kuhlman, Beatty and Brekke",
+    "ToolTip": "Dolores iste in assumenda dolorem maxime eos.",
+    "Deleted": false,
+    "Rank": 132,
+    "Type": "aliquam",
+    "ColorBlock": 662,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "2007-10-02T16:32:48.6807732+02:00",
+    "LastChanged": "2025-04-19T17:54:08.9136741+02:00",
     "ChildItems": [
       {
-        "Id": 992,
-        "Name": "Deckow-Hermann",
-        "ToolTip": "Quae similique commodi.",
-        "Deleted": false,
-        "Rank": 260,
-        "Type": "itaque",
-        "ColorBlock": 912,
-        "IconHint": "voluptas",
+        "Id": 853,
+        "Name": "Auer Inc and Sons",
+        "ToolTip": "Vero excepturi culpa qui temporibus voluptatem magnam et.",
+        "Deleted": true,
+        "Rank": 150,
+        "Type": "earum",
+        "ColorBlock": 844,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2023-01-19T16:32:48.6807732+01:00",
+        "LastChanged": "2024-10-28T17:54:08.9136741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "quia",
+        "ExtraInfo": "autem",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Sabina Hamill",
+        "FullName": "Jewel Yost IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 348
+            "FieldType": "System.Int32",
+            "FieldLength": 995
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "laborum",
-    "Hidden": false,
-    "FullName": "Dr. Tevin Donnie Rolfson",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "nihil",
+    "Hidden": true,
+    "FullName": "Prof. Audie Kreiger IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldType": "System.String",
+        "FieldLength": 905
       }
     }
   }

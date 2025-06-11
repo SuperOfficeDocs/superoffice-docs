@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 819,
-  "Name": "Kilback Group",
-  "AssociateId": 627,
-  "DetailsTable": 421,
-  "DetailsRecord": 739,
-  "IsSystemTask": false,
+  "Id": 535,
+  "Name": "Sanford-Cormier",
+  "AssociateId": 955,
+  "DetailsTable": 101,
+  "DetailsRecord": 134,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ipsum",
-    "ParameterObject2": "officia"
+    "ParameterObject1": "amet",
+    "ParameterObject2": "id"
   },
-  "LastStarted": "2018-06-22T16:32:48.2902385+02:00",
-  "Created": "2007-07-11T16:32:48.2902385+02:00",
-  "StartCount": 904,
-  "DatabaseSerialNumber": "1305401",
-  "Context": "veritatis",
+  "LastStarted": "2012-04-24T17:54:08.6793184+02:00",
+  "Created": "2000-06-17T17:54:08.6793184+02:00",
+  "StartCount": 386,
+  "DatabaseSerialNumber": "888562",
+  "Context": "quisquam",
   "Result": "fugit",
   "State": "All",
-  "Description": "Extended 6th generation monitoring",
-  "Response": "et",
-  "Request": "neque",
-  "ProgressDescription": "Triple-buffered content-based analyzer",
-  "ProgressPercent": 640,
-  "FileName": "Prohaska, Tremblay and Waelchi",
+  "Description": "Function-based maximized Graphical User Interface",
+  "Response": "nam",
+  "Request": "consequatur",
+  "ProgressDescription": "Down-sized disintermediate circuit",
+  "ProgressPercent": 47,
+  "FileName": "Casper-Steuber",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 846,
-  "Name": "Larson LLC",
-  "AssociateId": 955,
-  "DetailsTable": 157,
-  "DetailsRecord": 420,
+  "Id": 240,
+  "Name": "Marks-Brown",
+  "AssociateId": 519,
+  "DetailsTable": 266,
+  "DetailsRecord": 247,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "veniam",
-    "ParameterObject2": "fugiat"
+    "ParameterObject1": "non",
+    "ParameterObject2": "velit"
   },
-  "LastStarted": "2019-10-09T16:32:48.2902385+02:00",
-  "Created": "2008-11-03T16:32:48.2902385+01:00",
-  "StartCount": 418,
-  "DatabaseSerialNumber": "569342",
-  "Context": "maxime",
-  "Result": "deserunt",
+  "LastStarted": "2007-08-08T17:54:08.6793184+02:00",
+  "Created": "2015-11-04T17:54:08.6793184+01:00",
+  "StartCount": 627,
+  "DatabaseSerialNumber": "356544",
+  "Context": "aut",
+  "Result": "quis",
   "State": "All",
-  "Description": "Extended bi-directional intranet",
-  "Response": "fugit",
-  "Request": "sunt",
-  "ProgressDescription": "Customer-focused mission-critical protocol",
-  "ProgressPercent": 745,
-  "FileName": "Zemlak Group",
+  "Description": "Diverse executive artificial intelligence",
+  "Response": "dolores",
+  "Request": "laudantium",
+  "ProgressDescription": "Public-key regional algorithm",
+  "ProgressPercent": 491,
+  "FileName": "Kunde, Schimmel and Bernhard",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 493
     }
   }
 }

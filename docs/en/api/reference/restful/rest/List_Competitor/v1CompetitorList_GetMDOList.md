@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=excepturi
+GET /api/v1/List/Competitor/MDOItems?query=accusantium
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Jenkins, Stroman and Kozey",
-    "ToolTip": "Omnis at.",
+    "Id": 927,
+    "Name": "Robel, Abshire and Bode",
+    "ToolTip": "Sapiente voluptatem.",
     "Deleted": false,
-    "Rank": 717,
-    "Type": "est",
+    "Rank": 775,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Kling, O'Connell and Cole",
-        "ToolTip": "Saepe ex autem voluptatum delectus quisquam.",
-        "Deleted": false,
-        "Rank": 654,
-        "Type": "quisquam",
+        "Id": 640,
+        "Name": "Kertzmann, Bailey and Cremin",
+        "ToolTip": "Consequuntur cupiditate nihil.",
+        "Deleted": true,
+        "Rank": 94,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 621,
+        "IconHint": "sequi",
+        "ColorBlock": 41,
         "ExtraInfo": "mollitia",
-        "StyleHint": "adipisci",
-        "FullName": "Emiliano Reinger",
+        "StyleHint": "neque",
+        "FullName": "Ms. Zetta Davion Huel DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 200
+            "FieldType": "System.Int32",
+            "FieldLength": 430
           }
         }
       }
     ],
-    "IconHint": "consequuntur",
-    "ColorBlock": 490,
-    "ExtraInfo": "temporibus",
-    "StyleHint": "laborum",
-    "FullName": "Daron Jakubowski",
+    "IconHint": "sit",
+    "ColorBlock": 654,
+    "ExtraInfo": "minus",
+    "StyleHint": "et",
+    "FullName": "Miss Presley Lolita Bode Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldLength": 824
       }
     }
   }

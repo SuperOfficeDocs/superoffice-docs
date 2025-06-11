@@ -56,6 +56,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |selectionAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |selectionAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |selectionAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|selectionAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |selectionAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |selectionAssociate/contactCategory|listAny|Category: Category| x |
 |selectionAssociate/role|listAny|Role : Role| x |
@@ -80,7 +81,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindSelection?$select=selectionAssociate/isLocation,lastLoadedByFullName,selectionAssociate/contactId
+GET /api/v1/archive/FindSelection?$select=lastMembershipChange,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

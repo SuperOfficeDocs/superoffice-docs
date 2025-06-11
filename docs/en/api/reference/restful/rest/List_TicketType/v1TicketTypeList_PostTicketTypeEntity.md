@@ -105,34 +105,34 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 428,
-  "Name": "Schmeler Group",
-  "Rank": 584,
-  "Tooltip": "impedit",
-  "Icon": "dignissimos",
-  "DefaultTicketStatus": 564,
+  "TicketTypeId": 407,
+  "Name": "Jaskolski Group",
+  "Rank": 182,
+  "Tooltip": "quis",
+  "Icon": "nisi",
+  "DefaultTicketStatus": 605,
   "TicketStatuses": [
-    130,
-    334
+    933,
+    437
   ],
-  "DefaultTicketPriority": 310,
+  "DefaultTicketPriority": 407,
   "TicketPriorities": [
-    725,
-    364
+    333,
+    514
   ],
-  "ReplyTemplate": 287,
+  "ReplyTemplate": 658,
   "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
+  "IsDefault": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    870,
-    289
+    932,
+    54
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -143,40 +143,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 505,
-  "Name": "Hammes, Greenfelder and Gusikowski",
-  "Rank": 964,
-  "Tooltip": "architecto",
-  "Icon": "reprehenderit",
-  "DefaultTicketStatus": 36,
+  "TicketTypeId": 584,
+  "Name": "Gorczany, Stroman and Hermiston",
+  "Rank": 936,
+  "Tooltip": "incidunt",
+  "Icon": "repellendus",
+  "DefaultTicketStatus": 524,
   "TicketStatuses": [
-    508,
-    273
+    487,
+    677
   ],
-  "DefaultTicketPriority": 147,
+  "DefaultTicketPriority": 928,
   "TicketPriorities": [
-    976,
-    436
+    947,
+    246
   ],
-  "ReplyTemplate": 81,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 806,
+  "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    746,
-    962
+    317,
+    322
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 19
     }
   }
 }

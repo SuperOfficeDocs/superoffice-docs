@@ -123,25 +123,25 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 279,
-  "Name": "Rempel-Medhurst",
-  "Description": "Networked directional model",
-  "WelcomeMessage": "reiciendis",
+  "ChatTopicId": 349,
+  "Name": "Zboncak-Lindgren",
+  "Description": "Devolved systematic system engine",
+  "WelcomeMessage": "harum",
   "Language": null,
-  "LastAccept": "2023-01-26T16:32:38.2584672+01:00",
-  "SecondsPrAccept": 546,
-  "AlertRecipient": "et",
+  "LastAccept": "2000-10-24T17:54:02.6952273+02:00",
+  "SecondsPrAccept": 255,
+  "AlertRecipient": "ratione",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "sunt",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ducimus",
-  "WarnNewChatMinutes": 483,
-  "WarnManagerNewChatMinutes": 592,
+  "CollectConsent": false,
+  "BadgeHeader": "voluptatum",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "ut",
+  "WarnNewChatMinutes": 765,
+  "WarnManagerNewChatMinutes": 295,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -151,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 754,
-  "WarnManagerChatMessageMinutes": 102,
+  "WarnChatMessageMinutes": 102,
+  "WarnManagerChatMessageMinutes": 965,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 243,
-  "OfflineFormQueueLength": 578,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "tenetur"
+  "OfflineFormTimeLimit": 717,
+  "OfflineFormQueueLength": 436,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "quo"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 291,
-  "Name": "Renner Group",
-  "Description": "Customizable needs-based service-desk",
-  "WelcomeMessage": "in",
+  "ChatTopicId": 959,
+  "Name": "Kassulke-Ryan",
+  "Description": "Reactive scalable open architecture",
+  "WelcomeMessage": "perspiciatis",
   "Language": null,
-  "LastAccept": "2009-12-11T16:32:38.2584672+01:00",
-  "SecondsPrAccept": 430,
-  "AlertRecipient": "adipisci",
+  "LastAccept": "2008-06-23T17:54:02.6952273+02:00",
+  "SecondsPrAccept": 160,
+  "AlertRecipient": "eveniet",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "earum",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "itaque",
-  "WarnNewChatMinutes": 593,
-  "WarnManagerNewChatMinutes": 850,
-  "TicketEnabled": false,
+  "CollectConsent": true,
+  "BadgeHeader": "et",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "consequuntur",
+  "WarnNewChatMinutes": 167,
+  "WarnManagerNewChatMinutes": 599,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 642,
-  "WarnManagerChatMessageMinutes": 856,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 95,
-  "OfflineFormQueueLength": 164,
+  "WarnChatMessageMinutes": 631,
+  "WarnManagerChatMessageMinutes": 556,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 640,
+  "OfflineFormQueueLength": 290,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "natus",
+  "WidgetRatingText": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldType": "System.String",
+      "FieldLength": 720
     }
   }
 }

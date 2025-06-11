@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Marquardt Group",
-    "ToolTip": "Sit quia quas beatae.",
+    "Id": 766,
+    "Name": "Barton, Roob and Kshlerin",
+    "ToolTip": "Quod perspiciatis assumenda exercitationem illo reprehenderit natus ullam.",
     "Deleted": false,
-    "Rank": 962,
-    "Type": "eligendi",
-    "ColorBlock": 2,
-    "IconHint": "odio",
+    "Rank": 572,
+    "Type": "quibusdam",
+    "ColorBlock": 581,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "2016-04-18T16:32:48.5558051+02:00",
+    "LastChanged": "2006-07-07T17:54:08.8043048+02:00",
     "ChildItems": [
       {
-        "Id": 534,
-        "Name": "Strosin-Hammes",
-        "ToolTip": "Magnam atque magni et eveniet et.",
-        "Deleted": true,
-        "Rank": 710,
-        "Type": "reiciendis",
-        "ColorBlock": 682,
-        "IconHint": "aspernatur",
+        "Id": 32,
+        "Name": "Batz Inc and Sons",
+        "ToolTip": "Molestias fuga animi aut atque veniam et.",
+        "Deleted": false,
+        "Rank": 562,
+        "Type": "cum",
+        "ColorBlock": 638,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2017-12-20T16:32:48.5558051+01:00",
+        "LastChanged": "2021-06-20T17:54:08.8043048+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Mrs. Jerrell Haley I"
+        "ExtraInfo": "sapiente",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Dangelo King"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "dignissimos",
     "Hidden": true,
-    "FullName": "Patrick Hessel DDS"
+    "FullName": "Madisen Hilpert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Bernhard LLC",
-    "ToolTip": "Quae blanditiis aut.",
-    "Deleted": false,
-    "Rank": 677,
-    "Type": "facilis",
-    "ColorBlock": 810,
-    "IconHint": "officia",
+    "Id": 817,
+    "Name": "Barton, Mills and Gulgowski",
+    "ToolTip": "Voluptas optio harum vitae rem perferendis.",
+    "Deleted": true,
+    "Rank": 613,
+    "Type": "autem",
+    "ColorBlock": 507,
+    "IconHint": "quae",
     "Selected": true,
-    "LastChanged": "2014-11-27T16:32:48.5558051+01:00",
+    "LastChanged": "2023-07-26T17:54:08.8043048+02:00",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Fisher Group",
-        "ToolTip": "Enim ducimus ea sunt atque nemo est.",
+        "Id": 649,
+        "Name": "Larkin Group",
+        "ToolTip": "Aliquam sit optio esse et ullam occaecati omnis.",
         "Deleted": false,
-        "Rank": 720,
-        "Type": "iusto",
-        "ColorBlock": 274,
-        "IconHint": "nihil",
+        "Rank": 933,
+        "Type": "omnis",
+        "ColorBlock": 616,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2011-12-14T16:32:48.5558051+01:00",
+        "LastChanged": "2012-09-04T17:54:08.8043048+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Estrella Johnson",
+        "ExtraInfo": "libero",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Destany Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 502
+            "FieldLength": 651
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "error",
+    "ExtraInfo": "alias",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Yasmin Smith",
+    "FullName": "Adrian Jaskolski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldType": "System.String",
+        "FieldLength": 588
       }
     }
   }

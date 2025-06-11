@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 390,
+  "DocumentId": 94,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nihil",
-  "Header": "et",
-  "Name": "D'Amore-Harber",
-  "OurRef": "et",
-  "YourRef": "omnis",
-  "CreatedDate": "2025-03-06T16:32:38.8364322+01:00",
-  "UpdatedDate": "2006-01-03T16:32:38.8364322+01:00",
-  "Description": "Ergonomic fresh-thinking analyzer",
+  "Attention": "porro",
+  "Header": "in",
+  "Name": "Grady Group",
+  "OurRef": "magni",
+  "YourRef": "minima",
+  "CreatedDate": "2007-07-28T17:54:02.9920879+02:00",
+  "UpdatedDate": "2018-04-17T17:54:02.9920879+02:00",
+  "Description": "Virtual motivating contingency",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2016-04-26T16:32:38.8364322+02:00",
-  "ExternalRef": "repudiandae",
+  "Date": "2021-01-09T17:54:02.9920879+01:00",
+  "ExternalRef": "magni",
   "Completed": "Completed",
-  "ActiveLinks": 137,
+  "ActiveLinks": 349,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Renner, Pollich and Oberbrunner",
-      "Id": 912,
-      "Description": "Multi-lateral uniform array",
-      "ExtraInfo": "et",
-      "LinkId": 970,
+      "EntityName": "Stroman, Strosin and Pouros",
+      "Id": 412,
+      "Description": "Self-enabling interactive open architecture",
+      "ExtraInfo": "dolores",
+      "LinkId": 480,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 663
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 342,
-  "Snum": 172,
+  "SuggestedDocumentId": 956,
+  "Snum": 812,
   "UserDefinedFields": {
-    "SuperOffice:1": "1162346473",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1045465540",
+    "SuperOffice:2": "Micheal Dietrich"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "dolorum"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "non",
+    "CustomFields2": "praesentium"
   },
-  "PublishEventDate": "2024-11-11T16:32:38.8364322+01:00",
-  "PublishTo": "2019-03-30T16:32:38.8364322+01:00",
-  "PublishFrom": "2022-01-23T16:32:38.8364322+01:00",
+  "PublishEventDate": "2011-09-01T17:54:02.9920879+02:00",
+  "PublishTo": "2010-06-11T17:54:02.9920879+02:00",
+  "PublishFrom": "1999-10-28T17:54:02.9920879+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 440,
+      "VisibleId": 736,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 979
         }
       }
     },
     {
-      "VisibleId": 440,
+      "VisibleId": 736,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 979
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 236
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 984,
-  "Name": "Borer-Upton",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "Rank": 292,
-  "Filename": "aspernatur",
-  "Parameters": "dolores",
-  "Workdir": "tempora",
+  "ExtAppId": 779,
+  "Name": "Fay Inc and Sons",
+  "Tooltip": "maiores",
+  "Deleted": true,
+  "Rank": 706,
+  "Filename": "sunt",
+  "Parameters": "maiores",
+  "Workdir": "quia",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 897,
-  "WaitToFinish": false,
+  "Icon": 217,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "porro",
+  "Path": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 392
     }
   }
 }

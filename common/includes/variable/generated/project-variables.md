@@ -2,7 +2,6 @@
 | Property Name | Tag | Description |
 |---------------|-----|-------------|
 | EventDate | popa | Project, event date |
-| Id | prid | Project ID (hidden, unique ID) |
 | InfoText | pinf | Project info text |
 | IsGuided | pgui | Is the project guided? "Yes" or "No". |
 | Manager | plea | Project manager, full name |

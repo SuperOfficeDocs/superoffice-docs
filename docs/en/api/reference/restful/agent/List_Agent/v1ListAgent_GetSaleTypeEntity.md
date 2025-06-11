@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=1000
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=433
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 932,
-  "Name": "Thompson, Fahey and Bradtke",
-  "Tooltip": "mollitia",
-  "Rank": 346,
+  "SaleTypeId": 727,
+  "Name": "Schaden, Von and Wilderman",
+  "Tooltip": "delectus",
+  "Rank": 291,
   "DurationUnit": "Century",
-  "SaleDuration": 878,
-  "SaleTypeCatId": 737,
+  "SaleDuration": 42,
+  "SaleTypeCatId": 410,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 126,
-  "QuoteLinesTemplate": 175,
-  "ConfirmationLinesTemplate": 50,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 874,
+  "QuoteLinesTemplate": 686,
+  "ConfirmationLinesTemplate": 691,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 660,
-  "MinEarningPercent": 604,
-  "GroupQuoteLinesBy": 776,
-  "SortGroupLinesBy": 821,
+  "MaxDiscountPercent": 510,
+  "MinEarningPercent": 175,
+  "GroupQuoteLinesBy": 83,
+  "SortGroupLinesBy": 238,
   "Stages": [
     {
-      "Id": 399,
-      "Name": "O'Reilly, Corkery and Thompson",
-      "ToolTip": "Voluptatem dolores.",
+      "Id": 122,
+      "Name": "Powlowski-Romaguera",
+      "ToolTip": "Eum facilis quia.",
       "Deleted": false,
-      "Rank": 152,
-      "Type": "quaerat",
-      "ColorBlock": 40,
-      "IconHint": "dolore",
+      "Rank": 183,
+      "Type": "harum",
+      "ColorBlock": 682,
+      "IconHint": "autem",
       "Selected": false,
-      "LastChanged": "2024-03-13T16:32:39.226996+01:00",
+      "LastChanged": "2020-02-26T17:54:03.2108272+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "architecto",
-      "StyleHint": "quo",
-      "Hidden": false,
-      "FullName": "June Hegmann",
+      "ExtraInfo": "suscipit",
+      "StyleHint": "voluptas",
+      "Hidden": true,
+      "FullName": "Mrs. Jasen Devonte Rodriguez V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 186
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldLength": 637
     }
   }
 }

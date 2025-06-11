@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 293,
-  "UniqueId": "nobis",
-  "Name": "Kutch-Gerlach",
-  "Description": "Upgradable client-driven architecture",
-  "AssociateId": 142,
-  "Columns": 562,
+  "DashboardId": 610,
+  "UniqueId": "asperiores",
+  "Name": "Marquardt-Treutel",
+  "Description": "Compatible clear-thinking leverage",
+  "AssociateId": 793,
+  "Columns": 778,
   "Theme": null,
-  "VisibleForAll": 111,
+  "VisibleForAll": 670,
   "VisibleForAssociates": [
-    884,
-    46
+    298,
+    203
   ],
   "VisibleForGroups": [
-    710,
-    50
+    385,
+    905
   ],
-  "PinForAll": 260,
+  "PinForAll": 954,
   "PinForAssociates": [
-    289,
-    827
+    257,
+    372
   ],
   "PinForGroups": [
-    415,
-    167
+    334,
+    806
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 513,
-  "UniqueId": "et",
-  "Name": "Predovic Group",
-  "Description": "Face to face holistic encoding",
-  "AssociateId": 601,
-  "Columns": 262,
+  "DashboardId": 958,
+  "UniqueId": "perspiciatis",
+  "Name": "Feest Group",
+  "Description": "Polarised static flexibility",
+  "AssociateId": 585,
+  "Columns": 766,
   "Theme": null,
-  "VisibleForAll": 587,
+  "VisibleForAll": 951,
   "VisibleForAssociates": [
-    54,
-    717
+    486,
+    526
   ],
   "VisibleForGroups": [
-    675,
-    156
+    174,
+    23
   ],
-  "PinForAll": 442,
+  "PinForAll": 28,
   "PinForAssociates": [
-    276,
-    112
+    982,
+    742
   ],
   "PinForGroups": [
-    815,
-    419
+    305,
+    688
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldType": "System.Int32",
+      "FieldLength": 860
     }
   }
 }

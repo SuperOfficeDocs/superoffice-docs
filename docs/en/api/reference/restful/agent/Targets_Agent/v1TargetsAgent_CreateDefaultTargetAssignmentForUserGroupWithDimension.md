@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 446,
-  "TargetDimensionId": 994
+  "UserGroupId": 357,
+  "TargetDimensionId": 584
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 456,
+    "TargetAssignmentInfoId": 9,
     "Values": [
-      587,
-      721
+      645,
+      210
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 998,
-    "DimensionListItemDisplayName": "Daugherty LLC",
+    "DimensionListItem": 618,
+    "DimensionListItemDisplayName": "Weber-Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 338
+        "FieldLength": 694
       }
     }
   }

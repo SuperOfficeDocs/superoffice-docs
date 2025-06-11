@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mayer Group",
-  "AdditionalInfo": "quia",
+  "Name": "Willms-Bradtke",
+  "AdditionalInfo": "sed",
   "SelectableMDOList": [
     {
-      "Id": 30,
-      "Name": "Botsford, Pollich and Johns",
-      "ToolTip": "Similique reiciendis optio qui perspiciatis perspiciatis.",
+      "Id": 283,
+      "Name": "Kozey-Nienow",
+      "ToolTip": "Est rerum.",
       "Deleted": false,
-      "Rank": 593,
-      "Type": "veniam",
-      "ColorBlock": 371,
-      "IconHint": "repellat",
-      "Selected": true,
-      "LastChanged": "2014-01-31T16:32:39.3675885+01:00",
+      "Rank": 222,
+      "Type": "et",
+      "ColorBlock": 855,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2017-08-30T17:54:03.3358211+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "saepe",
-      "StyleHint": "similique",
+      "ExtraInfo": "unde",
+      "StyleHint": "delectus",
       "Hidden": false,
-      "FullName": "Prof. Elsie Rhett Purdy"
+      "FullName": "Darrick Eldridge Rolfson I"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 519,
-    "Name": "Jacobi Group",
-    "ToolTip": "Sed sunt non sed sed dolore.",
-    "Deleted": false,
-    "Rank": 491,
-    "Type": "quisquam",
-    "ColorBlock": 894,
-    "IconHint": "quasi",
+    "Id": 708,
+    "Name": "Stracke, Skiles and Hirthe",
+    "ToolTip": "Minus vitae vel veritatis mollitia molestiae.",
+    "Deleted": true,
+    "Rank": 689,
+    "Type": "similique",
+    "ColorBlock": 102,
+    "IconHint": "iste",
     "Selected": false,
-    "LastChanged": "2001-04-20T16:32:39.3675885+02:00",
+    "LastChanged": "2017-05-19T17:54:03.3358211+02:00",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Buckridge-Krajcik",
-        "ToolTip": "Voluptatem sapiente eveniet.",
+        "Id": 261,
+        "Name": "Hickle-Schinner",
+        "ToolTip": "Tempora consequuntur ut velit.",
         "Deleted": false,
-        "Rank": 337,
-        "Type": "aut",
-        "ColorBlock": 125,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "2017-07-28T16:32:39.3675885+02:00",
+        "Rank": 314,
+        "Type": "suscipit",
+        "ColorBlock": 441,
+        "IconHint": "quasi",
+        "Selected": true,
+        "LastChanged": "2003-07-15T17:54:03.3358211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "est",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Helga Hayes",
+        "FullName": "Prof. Verlie Willms PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 533
+            "FieldLength": 653
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "placeat",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Shemar Mayert",
+    "FullName": "Jovani Becker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldType": "System.Int32",
+        "FieldLength": 231
       }
     }
   }

@@ -83,6 +83,7 @@ as well as before any ORDER BY, are applied.
 |projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectAssociate/contactCategory|listAny|Category: Category| x |
 |projectAssociate/role|listAny|Role : Role| x |
@@ -133,11 +134,11 @@ as well as before any ORDER BY, are applied.
 |saintActivityType|listAny|SAINT type|  |
 |saintDirection|listAny|Direction|  |
 |saintIntention|listAny|Intention|  |
-|saintTicketStatus|listAny|Status|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |project/textId|int|Text ID| x |
 |project/infoText|positiveString|Information: Displays the text entered in the description field| x |
@@ -145,7 +146,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextProject?$select=projectAssociate/assocTooltip,projectUrl/URLAddress,projectAssociate/assocName
+GET /api/v1/archive/FreetextProject?$select=imageThumbnail,projectUrl/URLAddress,projectAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

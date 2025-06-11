@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 716,
-  "Name": "Mohr, Kirlin and Hansen",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "UdListDefinitionId": 400,
-  "Rank": 356,
+  "Id": 39,
+  "Name": "Heaney-Fahey",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 601,
+  "Rank": 109,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 46
     }
   }
 }

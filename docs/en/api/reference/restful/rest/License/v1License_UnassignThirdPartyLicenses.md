@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 368,
-    "Tooltip": "saepe",
+    "Total": 992,
+    "Tooltip": "maiores",
     "CanAssign": false,
-    "Free": 490,
-    "InUse": 753,
+    "Free": 544,
+    "InUse": 452,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 391,
-    "Name": "Keeling, Schiller and Sanford",
-    "Description": "Down-sized static installation",
-    "PrerequisiteModuleName": "Nikolaus, Dibbert and Lynch",
-    "SortOrder": 578,
-    "ExtraFlags": 770,
+    "ModuleLicenseId": 667,
+    "Name": "Kuvalis, Lynch and Lind",
+    "Description": "Managed uniform monitoring",
+    "PrerequisiteModuleName": "Eichmann-Kshlerin",
+    "SortOrder": 503,
+    "ExtraFlags": 306,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldLength": 215
       }
     }
   }

@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Abbott, Sawayn and Smith"
+  "FunctionalRightName": "Conn, Block and Hegmann"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Rodriguez-Rutherford",
-    "ToolTip": "Explicabo laboriosam harum earum.",
+    "Id": 309,
+    "Name": "Prosacco-Kutch",
+    "ToolTip": "Optio assumenda iste.",
     "Deleted": false,
-    "Rank": 62,
-    "Type": "enim",
+    "Rank": 283,
+    "Type": "eveniet",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Roberts, Hane and Cassin",
-        "ToolTip": "Quaerat voluptate.",
+        "Id": 180,
+        "Name": "Grady-Maggio",
+        "ToolTip": "Dolore dicta.",
         "Deleted": false,
-        "Rank": 286,
-        "Type": "officiis",
+        "Rank": 737,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 772,
-        "ExtraInfo": "ea",
-        "StyleHint": "quaerat",
-        "FullName": "Gustave Wisozk",
+        "IconHint": "aut",
+        "ColorBlock": 307,
+        "ExtraInfo": "inventore",
+        "StyleHint": "qui",
+        "FullName": "Dr. Renee Torp IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 231
+            "FieldType": "System.String",
+            "FieldLength": 74
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 326,
-    "ExtraInfo": "in",
-    "StyleHint": "quo",
-    "FullName": "Buck Cummings",
+    "IconHint": "quia",
+    "ColorBlock": 754,
+    "ExtraInfo": "asperiores",
+    "StyleHint": "modi",
+    "FullName": "Hilton Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldLength": 170
       }
     }
   }

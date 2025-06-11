@@ -112,38 +112,38 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 992,
-  "Name": "Schaden, Welch and Lueilwitz",
-  "Rank": 359,
-  "Tooltip": "et",
-  "Icon": "accusamus",
-  "DefaultTicketStatus": 111,
+  "TicketTypeId": 259,
+  "Name": "Spencer LLC",
+  "Rank": 158,
+  "Tooltip": "quis",
+  "Icon": "error",
+  "DefaultTicketStatus": 724,
   "TicketStatuses": [
-    965,
-    967
+    58,
+    189
   ],
-  "DefaultTicketPriority": 94,
+  "DefaultTicketPriority": 959,
   "TicketPriorities": [
-    906,
-    535
+    387,
+    758
   ],
-  "ReplyTemplate": 53,
+  "ReplyTemplate": 749,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    349,
-    680
+    582,
+    847
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -154,40 +154,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 767,
-  "Name": "Ziemann, Armstrong and Sanford",
-  "Rank": 777,
-  "Tooltip": "voluptatum",
+  "TicketTypeId": 985,
+  "Name": "Pouros-Hamill",
+  "Rank": 600,
+  "Tooltip": "omnis",
   "Icon": "et",
-  "DefaultTicketStatus": 56,
+  "DefaultTicketStatus": 328,
   "TicketStatuses": [
-    424,
-    220
+    664,
+    125
   ],
-  "DefaultTicketPriority": 83,
+  "DefaultTicketPriority": 983,
   "TicketPriorities": [
-    779,
-    291
+    107,
+    947
   ],
-  "ReplyTemplate": 753,
-  "IsExternalVisible": false,
-  "IsDefault": false,
+  "ReplyTemplate": 643,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "ShowInNew": true,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    676,
-    470
+    582,
+    43
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 62
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   },
   "_Links": {

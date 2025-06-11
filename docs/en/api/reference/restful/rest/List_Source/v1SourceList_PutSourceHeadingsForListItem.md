@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 390,
-    "Name": "McKenzie Inc and Sons",
-    "ToolTip": "Esse voluptas.",
-    "Deleted": true,
-    "Rank": 454,
-    "Type": "dolorem",
-    "ColorBlock": 178,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2012-08-03T16:32:48.9932021+02:00",
+    "Id": 395,
+    "Name": "Monahan LLC",
+    "ToolTip": "Inventore ipsa illo ut et culpa asperiores et.",
+    "Deleted": false,
+    "Rank": 20,
+    "Type": "facere",
+    "ColorBlock": 311,
+    "IconHint": "numquam",
+    "Selected": true,
+    "LastChanged": "2009-03-19T17:54:09.1324271+01:00",
     "ChildItems": [
       {
-        "Id": 66,
-        "Name": "Welch, Kozey and O'Kon",
-        "ToolTip": "Aut cumque aliquid provident facilis ratione.",
+        "Id": 898,
+        "Name": "Hoppe-McDermott",
+        "ToolTip": "Consequuntur harum quia culpa.",
         "Deleted": false,
-        "Rank": 253,
-        "Type": "ratione",
-        "ColorBlock": 578,
-        "IconHint": "ut",
+        "Rank": 230,
+        "Type": "nam",
+        "ColorBlock": 569,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2001-04-15T16:32:48.9932021+02:00",
+        "LastChanged": "2024-03-04T17:54:09.1324271+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "possimus",
-        "Hidden": true,
-        "FullName": "Rodrigo Littel"
+        "ExtraInfo": "est",
+        "StyleHint": "nostrum",
+        "Hidden": false,
+        "FullName": "Genevieve Shaylee Jewess Sr."
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "provident",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Ms. Anika Hayes"
+    "FullName": "Prof. Myriam Will Grant V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 916,
-    "Name": "Robel-Jaskolski",
-    "ToolTip": "Dolorem sit magni assumenda ipsa quod quidem et.",
-    "Deleted": true,
-    "Rank": 571,
-    "Type": "molestiae",
-    "ColorBlock": 638,
-    "IconHint": "eos",
+    "Id": 795,
+    "Name": "Koss-Hessel",
+    "ToolTip": "Impedit est dolorem.",
+    "Deleted": false,
+    "Rank": 163,
+    "Type": "quisquam",
+    "ColorBlock": 892,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2012-01-22T16:32:48.9932021+01:00",
+    "LastChanged": "2015-09-20T17:54:09.1324271+02:00",
     "ChildItems": [
       {
-        "Id": 713,
-        "Name": "Robel, Marks and Wilderman",
-        "ToolTip": "Qui rerum voluptatem soluta natus debitis dolor.",
-        "Deleted": true,
-        "Rank": 268,
-        "Type": "maxime",
-        "ColorBlock": 620,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2022-01-18T16:32:48.9932021+01:00",
+        "Id": 666,
+        "Name": "Pfeffer LLC",
+        "ToolTip": "Itaque quia necessitatibus occaecati sapiente adipisci omnis.",
+        "Deleted": false,
+        "Rank": 684,
+        "Type": "sed",
+        "ColorBlock": 982,
+        "IconHint": "hic",
+        "Selected": false,
+        "LastChanged": "2018-02-10T17:54:09.1324271+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "et",
+        "ExtraInfo": "in",
+        "StyleHint": "eligendi",
         "Hidden": true,
-        "FullName": "Jermain Stracke",
+        "FullName": "Ms. Hillary Cristopher Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldLength": 769
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "occaecati",
-    "Hidden": false,
-    "FullName": "Deshaun Nikolaus",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quod",
+    "Hidden": true,
+    "FullName": "Georgette Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 357
       }
     }
   }

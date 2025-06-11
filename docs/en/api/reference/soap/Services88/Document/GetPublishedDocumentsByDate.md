@@ -41,8 +41,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Document:GetPublishedDocumentsByDate>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
     <Document:IncludeProjectDocuments xsi:type="xsd:boolean">false</Document:IncludeProjectDocuments>
-    <Document:StartTime xsi:type="xsd:dateTime">2025-05-07T14:30:56Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2025-05-07T14:30:56Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2025-05-28T15:52:23Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2025-05-28T15:52:23Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
    </Document:GetPublishedDocumentsByDate>
 

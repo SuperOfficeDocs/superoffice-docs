@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Schuppe, Feil and Bailey",
-    "ToolTip": "Maxime est.",
-    "Deleted": false,
-    "Rank": 898,
-    "Type": "quod",
-    "ColorBlock": 264,
-    "IconHint": "fugiat",
+    "Id": 139,
+    "Name": "Corwin, Grant and Lindgren",
+    "ToolTip": "Ea velit rerum optio sunt sequi cumque.",
+    "Deleted": true,
+    "Rank": 523,
+    "Type": "corrupti",
+    "ColorBlock": 266,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2019-12-21T16:32:48.8838567+01:00",
+    "LastChanged": "2006-10-23T17:54:09.0230434+02:00",
     "ChildItems": [
       {
-        "Id": 714,
-        "Name": "Franecki LLC",
-        "ToolTip": "Aperiam expedita et repudiandae.",
-        "Deleted": true,
-        "Rank": 254,
-        "Type": "voluptas",
-        "ColorBlock": 126,
-        "IconHint": "debitis",
+        "Id": 111,
+        "Name": "Abbott-Robel",
+        "ToolTip": "Minus soluta consequatur molestiae quasi quam libero.",
+        "Deleted": false,
+        "Rank": 468,
+        "Type": "cum",
+        "ColorBlock": 288,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2004-10-21T16:32:48.8838567+02:00",
+        "LastChanged": "2020-06-07T17:54:09.0230434+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "totam",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Josiah Kuhn Sr.",
+        "FullName": "Mr. Vern McKenzie Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 32
+            "FieldType": "System.Int32",
+            "FieldLength": 179
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "numquam",
+    "ExtraInfo": "unde",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Prof. Lauren Rodriguez I",
+    "FullName": "Ms. Buck Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldType": "System.String",
+        "FieldLength": 873
       }
     }
   }

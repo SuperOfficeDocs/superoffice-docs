@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 781,
-  "Name": "Kautzer, Daniel and Howell",
-  "Tooltip": "omnis",
-  "SaveInDb": 891,
-  "Filename": "sunt",
-  "DefaultOref": "reprehenderit",
+  "DocumentTemplateId": 33,
+  "Name": "Rowe-Kunde",
+  "Tooltip": "distinctio",
+  "SaveInDb": 337,
+  "Filename": "reiciendis",
+  "DefaultOref": "illo",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 832,
-  "IntentId": 964,
-  "IsDefaultPublished": false,
-  "Rank": 51,
-  "LoadTemplateFromPlugin": 134,
-  "MimeType": "iusto",
+  "AutoeventId": 215,
+  "IntentId": 283,
+  "IsDefaultPublished": true,
+  "Rank": 173,
+  "LoadTemplateFromPlugin": 583,
+  "MimeType": "omnis",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 886,
+  "DocumentTypeKey": 711,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "krista@danielgulgowski.co.uk",
+  "EmailSubject": "chad@heller.info",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "cleve@weber.uk",
+  "SenderEmailAddress": "earlene@hackett.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 552,
-  "Name": "Larson, Berge and Lowe",
-  "Tooltip": "sed",
-  "SaveInDb": 129,
-  "Filename": "est",
-  "DefaultOref": "beatae",
+  "DocumentTemplateId": 283,
+  "Name": "Ruecker Inc and Sons",
+  "Tooltip": "autem",
+  "SaveInDb": 99,
+  "Filename": "minus",
+  "DefaultOref": "minima",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 861,
-  "IntentId": 416,
+  "AutoeventId": 264,
+  "IntentId": 294,
   "IsDefaultPublished": false,
-  "Rank": 582,
-  "LoadTemplateFromPlugin": 628,
-  "MimeType": "rerum",
+  "Rank": 742,
+  "LoadTemplateFromPlugin": 533,
+  "MimeType": "aut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 581,
+  "DocumentTypeKey": 569,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "clotilde_white@sporer.name",
+  "EmailSubject": "javonte@hegmann.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ashtyn@hagenes.us",
+  "SenderEmailAddress": "mose@lubowitz.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 233
     }
   }
 }

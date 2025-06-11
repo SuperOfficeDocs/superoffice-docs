@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "provident"
+  "ProgId": "recusandae"
 }
 ```
 
@@ -109,26 +109,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 57,
-  "Name": "Rippin LLC",
-  "Tooltip": "asperiores",
-  "Deleted": false,
-  "Rank": 591,
+  "WebPanelId": 426,
+  "Name": "Bogisich LLC",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 359,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Hane LLC",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Gleason LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "consequuntur",
-  "Icon": 513,
+  "ProgId": "qui",
+  "Icon": 782,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 437
     }
   }
 }

@@ -77,6 +77,7 @@ Sale histories. Contains all changes to the sale records over time.
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|associate/usergroupId|int|Group ID: The user's primary user group| x |
 |associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |associate/contactCategory|listAny|Category: Category| x |
 |associate/role|listAny|Role : Role| x |
@@ -120,11 +121,11 @@ Sale histories. Contains all changes to the sale records over time.
 |person/personSource|listAny|Source: Source (Contact)| x |
 |person/retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
 |person/birthYear|int|Birth year: Displays contact's birth year| x |
-|person/birthMonth|int|Birth month: Displays contact's birth month| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/birthMonth|int|Birth month: Displays contact's birth month| x |
 |person/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
 |person/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
@@ -207,7 +208,7 @@ Sale histories. Contains all changes to the sale records over time.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleHistory?$select=associate/assocTooltip,person/personCountry
+GET /api/v1/archive/SaleHistory?$select=associate/ejStatus,person/personRegisteredByFullName,project/hasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

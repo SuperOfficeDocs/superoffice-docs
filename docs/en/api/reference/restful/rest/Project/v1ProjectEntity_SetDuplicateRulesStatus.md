@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Champlin Inc and Sons",
-    "DisplayName": "Robel-Grimes",
-    "DisplayTooltip": "autem",
-    "IsActive": true
+    "Name": "Marvin-Walter",
+    "DisplayName": "Fritsch Inc and Sons",
+    "DisplayTooltip": "asperiores",
+    "IsActive": false
   },
   {
-    "Name": "Champlin Inc and Sons",
-    "DisplayName": "Robel-Grimes",
-    "DisplayTooltip": "autem",
-    "IsActive": true
+    "Name": "Marvin-Walter",
+    "DisplayName": "Fritsch Inc and Sons",
+    "DisplayTooltip": "asperiores",
+    "IsActive": false
   }
 ]
 ```

@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 130,
-    "Name": "Labadie-Spencer",
-    "Tooltip": "occaecati",
-    "Deleted": true,
-    "Rank": 441,
+    "WebPanelId": 791,
+    "Name": "Kshlerin-Hackett",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "Rank": 284,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Lemke, Price and Zboncak",
+    "ShowInStatusBar": true,
+    "WindowName": "Quitzon Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "animi",
-    "Icon": 406,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "sit",
+    "Icon": 106,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldLength": 642
       }
     }
   }

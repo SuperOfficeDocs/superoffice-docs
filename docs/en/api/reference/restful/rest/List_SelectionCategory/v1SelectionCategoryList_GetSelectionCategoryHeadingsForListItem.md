@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Raynor-Dickinson",
-    "ToolTip": "Quia tempora atque expedita consequatur dicta cum ut.",
-    "Deleted": true,
-    "Rank": 185,
-    "Type": "corporis",
-    "ColorBlock": 869,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2002-11-23T16:32:48.9775807+01:00",
+    "Id": 35,
+    "Name": "O'Connell, Tillman and Kirlin",
+    "ToolTip": "Et harum dolores explicabo ut est esse minus.",
+    "Deleted": false,
+    "Rank": 902,
+    "Type": "harum",
+    "ColorBlock": 668,
+    "IconHint": "voluptates",
+    "Selected": false,
+    "LastChanged": "2010-04-25T17:54:09.1168029+02:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Lesch, Hagenes and Bogan",
-        "ToolTip": "Qui officiis.",
+        "Id": 798,
+        "Name": "Smitham Inc and Sons",
+        "ToolTip": "Dolorum ab.",
         "Deleted": false,
-        "Rank": 224,
-        "Type": "expedita",
-        "ColorBlock": 816,
-        "IconHint": "ratione",
+        "Rank": 606,
+        "Type": "dolore",
+        "ColorBlock": 817,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2002-01-28T16:32:48.9775807+01:00",
+        "LastChanged": "2020-09-18T17:54:09.1168029+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "dolor",
+        "ExtraInfo": "dolores",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Adolphus Kertzmann",
+        "FullName": "Mr. Elwyn Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 43
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mrs. Jonatan Kessler",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Mathilde Gerhold",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldLength": 353
       }
     }
   }

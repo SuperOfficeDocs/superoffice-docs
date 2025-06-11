@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 166,
-    "Name": "Harber LLC",
-    "Tooltip": "enim",
+    "HeadingId": 123,
+    "Name": "Jewess-Purdy",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 963,
-    "UdListDefinitionId": 474
+    "Rank": 396,
+    "UdListDefinitionId": 715
   },
   {
-    "HeadingId": 166,
-    "Name": "Harber LLC",
-    "Tooltip": "enim",
+    "HeadingId": 123,
+    "Name": "Jewess-Purdy",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 963,
-    "UdListDefinitionId": 474
+    "Rank": 396,
+    "UdListDefinitionId": 715
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 253,
-    "Name": "Smith Inc and Sons",
-    "Tooltip": "commodi",
+    "HeadingId": 850,
+    "Name": "Monahan Inc and Sons",
+    "Tooltip": "nostrum",
     "Deleted": true,
-    "Rank": 875,
-    "UdListDefinitionId": 916,
+    "Rank": 828,
+    "UdListDefinitionId": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 413
       }
     }
   }

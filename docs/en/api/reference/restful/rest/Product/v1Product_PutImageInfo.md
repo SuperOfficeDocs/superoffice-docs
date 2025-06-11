@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 719,
-  "BlobSize": 774,
-  "Description": "Customer-focused tangible local area network",
-  "ExtraInfo": "omnis",
+  "BlobId": 749,
+  "BlobSize": 376,
+  "Description": "Total next generation throughput",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quis",
-  "OriginalSize": 694,
-  "CreatedDate": "1998-06-08T16:32:48.3527308+02:00",
-  "UpdatedDate": "2019-03-01T16:32:48.3527308+01:00",
+  "IsZipped": true,
+  "MimeType": "omnis",
+  "OriginalSize": 925,
+  "CreatedDate": "2007-05-25T17:54:08.7105588+02:00",
+  "UpdatedDate": "2010-07-27T17:54:08.7105588+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatem"
+  "ConceptualType": "aut"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 858,
-  "BlobSize": 506,
-  "Description": "Multi-lateral global function",
-  "ExtraInfo": "aut",
+  "BlobId": 102,
+  "BlobSize": 886,
+  "Description": "Total bi-directional matrix",
+  "ExtraInfo": "placeat",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quas",
-  "OriginalSize": 672,
-  "CreatedDate": "2012-01-25T16:32:48.3527308+01:00",
-  "UpdatedDate": "2001-04-03T16:32:48.3527308+02:00",
+  "MimeType": "suscipit",
+  "OriginalSize": 98,
+  "CreatedDate": "2020-04-10T17:54:08.7105588+02:00",
+  "UpdatedDate": "2007-09-19T17:54:08.7105588+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "suscipit",
+  "ConceptualType": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldLength": 412
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=229
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=253
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 382,
-  "ColumnId": 100,
-  "FieldDefault": "voluptatem",
-  "FieldHeight": 768,
-  "FieldLabel": "mollitia",
-  "FieldLeft": 861,
-  "FieldTop": 184,
+  "UDefFieldId": 427,
+  "ColumnId": 986,
+  "FieldDefault": "sit",
+  "FieldHeight": 42,
+  "FieldLabel": "accusantium",
+  "FieldLeft": 309,
+  "FieldTop": 18,
   "FieldType": "Checkbox",
-  "FieldWidth": 522,
-  "FormatMask": "architecto",
+  "FieldWidth": 220,
+  "FormatMask": "aliquid",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 660,
-  "LabelLeft": 455,
-  "LabelTop": 148,
-  "LabelWidth": 791,
-  "LastVersionId": 239,
-  "ListTableId": 765,
-  "IsMandatory": true,
+  "LabelHeight": 755,
+  "LabelLeft": 349,
+  "LabelTop": 101,
+  "LabelWidth": 698,
+  "LastVersionId": 211,
+  "ListTableId": 598,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 383,
-  "ProgId": "animi",
+  "Page1LineNo": 699,
+  "ProgId": "odit",
   "IsReadOnly": false,
-  "ShortLabel": "ipsum",
-  "TabOrder": 183,
-  "TextLength": 611,
-  "Tooltip": "recusandae",
-  "UdefIdentity": 498,
-  "UDListDefinitionId": 420,
+  "ShortLabel": "et",
+  "TabOrder": 557,
+  "TextLength": 733,
+  "Tooltip": "iste",
+  "UdefIdentity": 752,
+  "UDListDefinitionId": 45,
   "Justification": "Center",
-  "Version": 627,
-  "TemplateVariableName": "Dooley, Schinner and Cruickshank",
+  "Version": 782,
+  "TemplateVariableName": "Osinski, Jacobs and Hamill",
   "HasBeenPublished": false,
-  "MdoListName": "Bartell-Kuphal",
+  "MdoListName": "Schulist, Nolan and Barrows",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 490
+      "FieldType": "System.Int32",
+      "FieldLength": 703
     }
   }
 }

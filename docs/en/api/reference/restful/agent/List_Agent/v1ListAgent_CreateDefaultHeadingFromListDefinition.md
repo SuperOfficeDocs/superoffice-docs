@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 547
+  "UdListDefinitionId": 102
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 494,
-  "Name": "Osinski, Wilderman and Kautzer",
-  "Tooltip": "fugiat",
+  "HeadingId": 865,
+  "Name": "Sawayn Group",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "Rank": 287,
-  "UdListDefinitionId": 7,
+  "Rank": 761,
+  "UdListDefinitionId": 521,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldType": "System.String",
+      "FieldLength": 394
     }
   }
 }

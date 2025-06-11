@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quos",
-  "Key": "tenetur",
+  "Section": "voluptatem",
+  "Key": "qui",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 483,
-  "Section": "aliquam",
-  "Key": "possimus",
-  "Name": "Hayes, Cartwright and Donnelly",
+  "PrefDescId": 874,
+  "Section": "neque",
+  "Key": "laudantium",
+  "Name": "Greenfelder Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Extended local emulation",
+  "Description": "Organized intermediate internet solution",
   "IsBuiltin": false,
-  "TableName": "Bode Group",
-  "UserDefinedListId": 369,
-  "Rank": 877,
-  "SubGroup": "ab",
-  "MinLevel": 967,
-  "MaxValue": 150,
-  "MinValue": 174,
-  "RequiredLicense": "nesciunt",
+  "TableName": "Schoen LLC",
+  "UserDefinedListId": 883,
+  "Rank": 95,
+  "SubGroup": "laboriosam",
+  "MinLevel": 348,
+  "MaxValue": 917,
+  "MinValue": 639,
+  "RequiredLicense": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldType": "System.String",
+      "FieldLength": 891
     }
   }
 }

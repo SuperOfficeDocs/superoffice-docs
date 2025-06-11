@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 314,
-  "ColumnId": 739,
-  "FieldDefault": "laboriosam",
-  "FieldHeight": 360,
-  "FieldLabel": "sit",
-  "FieldLeft": 178,
-  "FieldTop": 233,
+  "UDefFieldId": 209,
+  "ColumnId": 159,
+  "FieldDefault": "sint",
+  "FieldHeight": 828,
+  "FieldLabel": "repellendus",
+  "FieldLeft": 404,
+  "FieldTop": 936,
   "FieldType": "Checkbox",
-  "FieldWidth": 573,
-  "FormatMask": "consectetur",
-  "HideLabel": true,
+  "FieldWidth": 269,
+  "FormatMask": "et",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 675,
-  "LabelLeft": 270,
-  "LabelTop": 566,
-  "LabelWidth": 654,
-  "LastVersionId": 114,
-  "ListTableId": 702,
+  "LabelHeight": 30,
+  "LabelLeft": 329,
+  "LabelTop": 400,
+  "LabelWidth": 687,
+  "LastVersionId": 161,
+  "ListTableId": 561,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 566,
-  "ProgId": "necessitatibus",
+  "Page1LineNo": 153,
+  "ProgId": "distinctio",
   "IsReadOnly": false,
-  "ShortLabel": "exercitationem",
-  "TabOrder": 269,
-  "TextLength": 782,
-  "Tooltip": "et",
-  "UdefIdentity": 515,
-  "UDListDefinitionId": 195,
+  "ShortLabel": "est",
+  "TabOrder": 30,
+  "TextLength": 716,
+  "Tooltip": "ipsam",
+  "UdefIdentity": 593,
+  "UDListDefinitionId": 844,
   "Justification": "Center",
-  "Version": 701,
-  "TemplateVariableName": "Ullrich, Collier and Stanton",
-  "HasBeenPublished": false,
-  "MdoListName": "Gerlach-Hamill",
+  "Version": 356,
+  "TemplateVariableName": "Wyman LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Grant, Runte and Schultz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 448
     }
   }
 }

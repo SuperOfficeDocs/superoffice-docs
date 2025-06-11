@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Medhurst Inc and Sons",
-    "DisplayName": "Steuber, Auer and Murphy",
-    "Description": "Down-sized high-level architecture",
-    "ShortLabel": "enim",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": true,
+    "FieldName": "Mante LLC",
+    "DisplayName": "Fritsch, Thompson and Keebler",
+    "Description": "Synergized local groupware",
+    "ShortLabel": "porro",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 334,
-    "TemplateVariableName": "Wunsch, Johns and Cassin"
+    "Rank": 935,
+    "TemplateVariableName": "Senger-Johns"
   }
 ]
 ```

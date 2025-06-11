@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 954
+  "ReplyTemplateId": 777
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fahey, Adams and Tremblay",
-  "Description": "Triple-buffered scalable task-force",
-  "OwnedByFullName": "Trevor White",
-  "Updated": "2017-12-13T16:32:38.5865163+01:00",
-  "Body": "reiciendis",
+  "Name": "Kemmer-Vandervort",
+  "Description": "Balanced upward-trending Graphic Interface",
+  "OwnedByFullName": "Odie Schneider",
+  "Updated": "2015-10-11T17:54:02.9295831+02:00",
+  "Body": "earum",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 228
+      "FieldLength": 985
     }
   }
 }

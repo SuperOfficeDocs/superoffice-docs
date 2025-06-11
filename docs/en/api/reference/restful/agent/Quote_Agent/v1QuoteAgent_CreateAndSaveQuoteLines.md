@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 873,
+  "QuoteAlternativeId": 600,
   "ErpProductKeys": [
-    "tenetur",
-    "debitis"
+    "accusantium",
+    "qui"
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-87
+305
 ```

@@ -2,17 +2,16 @@
 uid: erpdeliveryterms
 title: erpdeliveryterms
 keywords: mdoprovider mdo provider erpdeliveryterms
-description: Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;. Consider using "QM_"+&lt;sale_id&gt;+&lt;list name&gt; instead if you can.
+description: 
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
 ---
 
 # "erpdeliveryterms" MDO List
-Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;.
-Consider using "QM_"+&lt;sale_id&gt;+&lt;list name&gt; instead if you can.
 
-See the remarks on <see cref="T:SuperOffice.CRM.Lists.QuoteListsByNameProvider" /> for an overview of Quote List dispatching, which is fairly complex.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.QuoteListsByIdProvider">QuoteListsByIdProvider</see> class.
 The name of the MDO list is 'erpdeliveryterms'.
@@ -42,7 +41,7 @@ Accept-Language: *
 
 ## Sample Code
 ```cs
-var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("erpdeliveryterms", forceFlatList: true);
+var listProvider = ClassFactory.CreateRequired<SuperOffice.CRM.Lists.ISoListProviderFactory>().Create("erpdeliveryterms", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
     Console.WriteLine("{0} {1} {2} {3}", 
          item.Id, ResourceManager.ParseInlineResources(item.Name), item.StyleHint, item.ExtraInfo);

@@ -14,14 +14,9 @@ Handled by the <see cref="T:SuperOffice.Services88.IFreeTextAgent">SuperOffice.S
 
 Download [WSDL file for Services88/FreeText](../Services88-FreeText.md) if you need to generate your own proxy code.
 
-* [AddWords](AddWords.md)
-* [DeleteStopWordsById](DeleteStopWordsById.md)
 * [FreetextIndexRows](FreetextIndexRows.md)
 * [GetStatus](GetStatus.md)
-* [GetStopWordList](GetStopWordList.md)
-* [GetSuggestedStopWords](GetSuggestedStopWords.md)
 * [RegenerateIndex](RegenerateIndex.md)
-* [SetAutoEnableTravelAreas](SetAutoEnableTravelAreas.md)
 * [SetEnabled](SetEnabled.md)
 * [SetMultiWordOperator](SetMultiWordOperator.md)
 * [SetSingleWordOperator](SetSingleWordOperator.md)

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 482,
-    "Name": "Feeney-Kautzer",
-    "ToolTip": "Nam voluptatem.",
-    "Deleted": false,
-    "Rank": 637,
-    "Type": "ratione",
-    "ColorBlock": 278,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2010-06-11T16:32:48.8682307+02:00",
+    "Id": 790,
+    "Name": "Kirlin, Bernhard and Block",
+    "ToolTip": "Vitae nulla id assumenda ut earum.",
+    "Deleted": true,
+    "Rank": 470,
+    "Type": "libero",
+    "ColorBlock": 529,
+    "IconHint": "voluptatum",
+    "Selected": true,
+    "LastChanged": "2007-01-18T17:54:09.0074197+01:00",
     "ChildItems": [
       {
-        "Id": 19,
-        "Name": "Jewess-Funk",
-        "ToolTip": "Dolor consequatur ipsa.",
+        "Id": 949,
+        "Name": "Hegmann Group",
+        "ToolTip": "Porro corporis quibusdam.",
         "Deleted": false,
-        "Rank": 636,
-        "Type": "eum",
-        "ColorBlock": 418,
-        "IconHint": "consequatur",
+        "Rank": 115,
+        "Type": "placeat",
+        "ColorBlock": 872,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "1998-05-04T16:32:48.8682307+02:00",
+        "LastChanged": "2017-02-20T17:54:09.0074197+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "sit",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Ms. Rhea Eulalia McCullough Jr.",
+        "FullName": "Verlie Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 466
+            "FieldLength": 660
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "laborum",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "dicta",
     "Hidden": true,
-    "FullName": "Hillard Pfannerstill",
+    "FullName": "Leola Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 930
       }
     }
   }

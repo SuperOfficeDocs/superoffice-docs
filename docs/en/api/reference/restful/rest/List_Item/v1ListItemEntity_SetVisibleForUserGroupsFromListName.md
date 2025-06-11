@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Marks-Armstrong",
-    "ToolTip": "Adipisci voluptas odit.",
-    "Deleted": true,
-    "Rank": 678,
-    "Type": "tempore",
-    "ColorBlock": 730,
-    "IconHint": "voluptas",
+    "Id": 612,
+    "Name": "Weber-Runolfsson",
+    "ToolTip": "Eos officia cum ratione.",
+    "Deleted": false,
+    "Rank": 267,
+    "Type": "explicabo",
+    "ColorBlock": 37,
+    "IconHint": "eum",
     "Selected": true,
-    "LastChanged": "2006-04-11T16:32:48.4933163+02:00",
+    "LastChanged": "2005-11-14T17:54:08.7730557+01:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Fadel LLC",
-        "ToolTip": "Eos pariatur saepe et sed laborum saepe.",
-        "Deleted": true,
-        "Rank": 818,
-        "Type": "debitis",
-        "ColorBlock": 898,
-        "IconHint": "fuga",
-        "Selected": false,
-        "LastChanged": "2023-07-15T16:32:48.4933163+02:00",
+        "Id": 64,
+        "Name": "Gottlieb-Swaniawski",
+        "ToolTip": "Ex non.",
+        "Deleted": false,
+        "Rank": 63,
+        "Type": "ducimus",
+        "ColorBlock": 650,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2018-06-10T17:54:08.7730557+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "earum",
+        "ExtraInfo": "nihil",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Laney Nolan"
+        "FullName": "Winfield Wilkinson"
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "aliquam",
-    "Hidden": true,
-    "FullName": "Mrs. Carmella Jonathan Witting DVM"
+    "ExtraInfo": "sunt",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Katheryn Hansen"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Casper-Hilll",
-    "ToolTip": "Earum quia quas.",
-    "Deleted": false,
-    "Rank": 942,
-    "Type": "ipsum",
-    "ColorBlock": 761,
-    "IconHint": "error",
+    "Id": 344,
+    "Name": "Wilderman LLC",
+    "ToolTip": "Consequatur dolores.",
+    "Deleted": true,
+    "Rank": 650,
+    "Type": "minima",
+    "ColorBlock": 965,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2016-06-19T16:32:48.4933163+02:00",
+    "LastChanged": "2021-02-23T17:54:08.7730557+01:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Simonis, Harris and Becker",
-        "ToolTip": "Dicta illo.",
+        "Id": 139,
+        "Name": "Braun LLC",
+        "ToolTip": "Autem aut cum voluptatum eos.",
         "Deleted": false,
-        "Rank": 906,
-        "Type": "aliquam",
-        "ColorBlock": 984,
-        "IconHint": "possimus",
+        "Rank": 292,
+        "Type": "qui",
+        "ColorBlock": 457,
+        "IconHint": "nobis",
         "Selected": true,
-        "LastChanged": "2017-05-21T16:32:48.4933163+02:00",
+        "LastChanged": "2021-03-08T17:54:08.7730557+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "ratione",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "adipisci",
         "Hidden": false,
-        "FullName": "Micheal Runolfsdottir Jr.",
+        "FullName": "Mr. Newton Schuyler Schowalter PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "inventore",
+    "ExtraInfo": "laborum",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Hermina Howe",
+    "FullName": "Vern Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 576
       }
     }
   }

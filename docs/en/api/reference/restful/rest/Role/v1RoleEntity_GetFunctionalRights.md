@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 962,
-    "Name": "Okuneva, Pfannerstill and Jones",
-    "ToolTip": "Facilis distinctio inventore atque iure.",
+    "Id": 60,
+    "Name": "Rempel, Abernathy and Jenkins",
+    "ToolTip": "Repellendus qui.",
     "Deleted": true,
-    "Rank": 534,
-    "Type": "non",
-    "ColorBlock": 659,
-    "IconHint": "ut",
+    "Rank": 748,
+    "Type": "quasi",
+    "ColorBlock": 627,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2012-11-09T16:32:47.7745258+01:00",
+    "LastChanged": "2014-07-03T17:54:08.4293225+02:00",
     "ChildItems": [
       {
-        "Id": 243,
-        "Name": "Schowalter Inc and Sons",
-        "ToolTip": "Quis eos doloremque fuga natus.",
+        "Id": 190,
+        "Name": "Hirthe, Fadel and Effertz",
+        "ToolTip": "Laboriosam hic tempora sunt.",
         "Deleted": false,
-        "Rank": 726,
-        "Type": "tempora",
-        "ColorBlock": 253,
-        "IconHint": "assumenda",
-        "Selected": false,
-        "LastChanged": "2021-08-24T16:32:47.7745258+02:00",
+        "Rank": 107,
+        "Type": "et",
+        "ColorBlock": 370,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2017-08-27T17:54:08.4293225+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "cum",
+        "ExtraInfo": "aut",
+        "StyleHint": "quasi",
         "Hidden": false,
-        "FullName": "Ariane McCullough",
+        "FullName": "Gilberto Diego Ortiz I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 980
+            "FieldLength": 164
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "modi",
+    "ExtraInfo": "alias",
+    "StyleHint": "quasi",
     "Hidden": true,
-    "FullName": "River Schneider",
+    "FullName": "Vesta Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 370
+        "FieldType": "System.Int32",
+        "FieldLength": 605
       }
     }
   }

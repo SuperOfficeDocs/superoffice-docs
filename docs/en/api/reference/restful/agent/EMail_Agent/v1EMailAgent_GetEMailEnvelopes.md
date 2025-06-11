@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    234,
-    58
+    5,
+    806
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 475,
-    "MessageId": "est",
-    "Subject": "maxime",
+    "ServerId": 790,
+    "MessageId": "iste",
+    "Subject": "non",
     "From": null,
     "To": [
       {
-        "ContactId": 567,
-        "ContactName": "Corkery Inc and Sons",
-        "PersonId": 456,
-        "PersonName": "Emmerich, Durgan and Rohan",
-        "AssociateId": 140,
-        "Address": "iusto",
-        "EmailId": 590,
+        "ContactId": 771,
+        "ContactName": "Lindgren Group",
+        "PersonId": 34,
+        "PersonName": "Connelly-Wolff",
+        "AssociateId": 805,
+        "Address": "minima",
+        "EmailId": 864,
         "DuplicatePersonIds": [
-          333,
-          146
+          113,
+          156
         ],
-        "Name": "Kihn-Streich",
+        "Name": "Shanahan Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 24
+            "FieldType": "System.String",
+            "FieldLength": 225
           }
         }
       }
     ],
-    "Sent": "2004-12-26T16:32:39.0551619+01:00",
+    "Sent": "2007-10-19T17:54:03.1170817+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 34,
+    "Size": 207,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldType": "System.String",
+        "FieldLength": 213
       }
     }
   }

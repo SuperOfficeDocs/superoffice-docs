@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 505
+  "WorkflowStepOptionId": 314
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 291,
-  "WorkflowStepId": 990,
-  "WorkflowId": 731,
-  "Name": "Monahan, Lubowitz and Hackett",
-  "Rank": 755,
+  "WorkflowStepOptionId": 794,
+  "WorkflowStepId": 12,
+  "WorkflowId": 597,
+  "Name": "Halvorson-Marks",
+  "Rank": 934,
   "Steps": [
     {
-      "WorkflowStepId": 937,
-      "WorkflowId": 142,
+      "WorkflowStepId": 848,
+      "WorkflowId": 47,
       "StepType": "AddToList",
-      "Rank": 54
+      "Rank": 161
     },
     {
-      "WorkflowStepId": 937,
-      "WorkflowId": 142,
+      "WorkflowStepId": 848,
+      "WorkflowId": 47,
       "StepType": "AddToList",
-      "Rank": 54
+      "Rank": 161
     }
   ]
 }

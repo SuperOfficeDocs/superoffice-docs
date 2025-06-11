@@ -79,15 +79,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 514,
+  "DashboardTileDefinitionId": 773,
   "Languages": [
     {
-      "LanguageCode": "asperiores",
-      "Html": "consequatur"
+      "LanguageCode": "possimus",
+      "Html": "tenetur"
     },
     {
-      "LanguageCode": "asperiores",
-      "Html": "consequatur"
+      "LanguageCode": "possimus",
+      "Html": "tenetur"
     }
   ]
 }
@@ -101,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "et",
-    "Html": "voluptas",
+    "LanguageCode": "quas",
+    "Html": "adipisci",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 407
       }
     }
   },
   {
-    "LanguageCode": "et",
-    "Html": "voluptas",
+    "LanguageCode": "quas",
+    "Html": "adipisci",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 407
       }
     }
   }

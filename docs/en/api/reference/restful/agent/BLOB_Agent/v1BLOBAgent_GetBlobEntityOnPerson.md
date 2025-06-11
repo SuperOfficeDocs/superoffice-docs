@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 738
+  "PersonId": 472
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 784,
-  "BlobSize": 324,
-  "Description": "Triple-buffered discrete standardization",
+  "BlobId": 583,
+  "BlobSize": 921,
+  "Description": "Innovative user-facing moratorium",
   "ExtraInfo": "aut",
-  "IsEncrypted": false,
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "omnis",
-  "OriginalSize": 89,
-  "CreatedDate": "2010-10-28T16:32:38.2116027+02:00",
-  "UpdatedDate": "2017-01-12T16:32:38.2116027+01:00",
+  "MimeType": "autem",
+  "OriginalSize": 355,
+  "CreatedDate": "2015-10-29T17:54:02.6796032+01:00",
+  "UpdatedDate": "2012-11-06T17:54:02.6796032+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quibusdam",
+  "ConceptualType": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldLength": 521
     }
   }
 }

@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "magni",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "magni",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 919,
-  "ERPPriceListKey": "consectetur",
-  "QuoteConnectionId": 565,
-  "Name": "Stoltenberg, Turcotte and Harvey",
-  "Description": "Stand-alone zero tolerance matrix",
-  "Currency": "non",
-  "CurrencyName": "Grimes, Wiza and Lesch",
-  "ValidFrom": "2010-06-12T16:32:48.7745027+02:00",
-  "ValidTo": "2006-07-09T16:32:48.7745027+02:00",
+  "PriceListId": 328,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 238,
+  "Name": "Bode-Trantow",
+  "Description": "Virtual dynamic middleware",
+  "Currency": "deserunt",
+  "CurrencyName": "Harris, Schowalter and Hamill",
+  "ValidFrom": "2009-05-10T17:54:08.9605465+02:00",
+  "ValidTo": "2008-02-27T17:54:08.9605465+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 74
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

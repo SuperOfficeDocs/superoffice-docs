@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 794,
-    "Name": "Flatley LLC",
-    "Tooltip": "rerum",
+    "Id": 614,
+    "Name": "Armstrong Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 980,
-    "Rank": 884
+    "UdListDefinitionId": 183,
+    "Rank": 485
   },
   {
-    "Id": 794,
-    "Name": "Flatley LLC",
-    "Tooltip": "rerum",
+    "Id": 614,
+    "Name": "Armstrong Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 980,
-    "Rank": 884
+    "UdListDefinitionId": 183,
+    "Rank": 485
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 483,
-    "Name": "Veum Group",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "UdListDefinitionId": 675,
-    "Rank": 180,
+    "Id": 231,
+    "Name": "Keebler-Romaguera",
+    "Tooltip": "adipisci",
+    "Deleted": true,
+    "UdListDefinitionId": 151,
+    "Rank": 861,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldType": "System.String",
+        "FieldLength": 632
       }
     }
   }

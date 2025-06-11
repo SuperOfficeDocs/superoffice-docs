@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 214
+  "MailItemId": 83
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 394,
-  "StartDate": "2014-03-24T16:32:38.9926739+01:00",
-  "EndDate": "2014-03-08T16:32:38.9926739+01:00",
-  "RecurrenceCounter": 305,
+  "RecurrenceId": 860,
+  "StartDate": "2009-04-24T17:54:03.0702097+02:00",
+  "EndDate": "2001-04-19T17:54:03.0702097+02:00",
+  "RecurrenceCounter": 786,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2008-10-04T16:32:38.9926739+02:00",
+      "Date": "2018-08-15T17:54:03.0702097+02:00",
       "IsConflict": false,
-      "Description": "Synergized explicit productivity",
-      "DescriptionStyleHint": "Programmable 4th generation infrastructure",
-      "Tooltip": "ab"
+      "Description": "Reduced 6th generation moderator",
+      "DescriptionStyleHint": "Networked intermediate alliance",
+      "Tooltip": "ut"
     },
     {
-      "Date": "2008-10-04T16:32:38.9926739+02:00",
+      "Date": "2018-08-15T17:54:03.0702097+02:00",
       "IsConflict": false,
-      "Description": "Synergized explicit productivity",
-      "DescriptionStyleHint": "Programmable 4th generation infrastructure",
-      "Tooltip": "ab"
+      "Description": "Reduced 6th generation moderator",
+      "DescriptionStyleHint": "Networked intermediate alliance",
+      "Tooltip": "ut"
     }
   ],
   "IsRecurrence": false

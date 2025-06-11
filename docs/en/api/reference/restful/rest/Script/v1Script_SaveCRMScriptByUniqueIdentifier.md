@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "iste",
-  "Name": "Skiles Group",
-  "Description": "Diverse discrete help-desk",
-  "IncludeId": "rerum",
-  "Source": "sunt",
-  "Registered": "2019-12-19T16:32:48.3995893+01:00",
-  "RegisteredBy": "est",
-  "Updated": "2006-12-28T16:32:48.3995893+01:00",
-  "UpdatedBy": "ut",
-  "Path": "sit"
+  "UniqueIdentifier": "fugit",
+  "Name": "Witting, Pagac and McLaughlin",
+  "Description": "Open-architected bottom-line synergy",
+  "IncludeId": "porro",
+  "Source": "hic",
+  "Registered": "2010-03-20T17:54:08.726183+01:00",
+  "RegisteredBy": "inventore",
+  "Updated": "2013-08-20T17:54:08.726183+02:00",
+  "UpdatedBy": "harum",
+  "Path": "non"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptatem",
-  "Name": "Huel Group",
-  "Description": "Re-contextualized hybrid analyzer",
-  "IncludeId": "labore",
-  "Source": "quo",
-  "Registered": "2016-05-13T16:32:48.3995893+02:00",
-  "RegisteredBy": "sed",
-  "Updated": "2010-04-20T16:32:48.3995893+02:00",
-  "UpdatedBy": "nostrum",
-  "Path": "accusantium",
+  "UniqueIdentifier": "in",
+  "Name": "Bashirian, Williamson and Runolfsson",
+  "Description": "Pre-emptive hybrid strategy",
+  "IncludeId": "dolorem",
+  "Source": "officia",
+  "Registered": "2019-01-21T17:54:08.726183+01:00",
+  "RegisteredBy": "aperiam",
+  "Updated": "2002-02-28T17:54:08.726183+01:00",
+  "UpdatedBy": "placeat",
+  "Path": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 999
     }
   }
 }

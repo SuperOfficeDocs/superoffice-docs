@@ -91,10 +91,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ratke, Hills and Metz",
+  "Name": "Roob, Waters and Sawayn",
   "ForceFlatList": false,
-  "AdditionalInfo": "soluta",
-  "OnlyHistory": true
+  "AdditionalInfo": "ratione",
+  "OnlyHistory": false
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 855,
-    "Name": "Harris, Mosciski and Kub",
-    "ToolTip": "Possimus provident.",
+    "Id": 203,
+    "Name": "Rau-Hahn",
+    "ToolTip": "Nam non dolorum quisquam sed similique repellendus sed.",
     "Deleted": false,
-    "Rank": 830,
-    "Type": "autem",
+    "Rank": 779,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Willms, Hagenes and Frami",
-        "ToolTip": "In esse consequatur modi nobis voluptatem voluptas omnis.",
+        "Id": 736,
+        "Name": "Nicolas-Murphy",
+        "ToolTip": "Autem qui nesciunt.",
         "Deleted": false,
-        "Rank": 236,
-        "Type": "aut",
+        "Rank": 762,
+        "Type": "alias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 650,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "qui",
-        "FullName": "Katherine Langworth",
+        "IconHint": "omnis",
+        "ColorBlock": 919,
+        "ExtraInfo": "qui",
+        "StyleHint": "magnam",
+        "FullName": "Mariela Anderson Hudson II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 28
+            "FieldType": "System.String",
+            "FieldLength": 695
           }
         }
       }
     ],
-    "IconHint": "dignissimos",
-    "ColorBlock": 171,
-    "ExtraInfo": "tenetur",
-    "StyleHint": "deserunt",
-    "FullName": "Mr. Jamar Beer DVM",
+    "IconHint": "perferendis",
+    "ColorBlock": 552,
+    "ExtraInfo": "illo",
+    "StyleHint": "quisquam",
+    "FullName": "Miss Trystan Amiya Keebler DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldType": "System.String",
+        "FieldLength": 541
       }
     }
   }

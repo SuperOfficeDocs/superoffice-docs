@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 705
+  "ChatSessionId": 629
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 613,
-  "TopicId": 236,
+  "ChatSessionId": 484,
+  "TopicId": 944,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ab",
-  "CustomerHost": "quas",
-  "CustomerName": "Hermiston, Beahan and Ratke",
-  "CustomerEmail": "yazmin@streich.co.uk",
-  "CustomerPhone": "104.973.2146 x35275",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "voluptas",
+  "CustomerName": "Cruickshank, Terry and Koch",
+  "CustomerEmail": "augustus@braun.us",
+  "CustomerPhone": "940-258-8961",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Considine Inc and Sons",
+  "CustomerCompanyName": "Kerluke, Bashirian and Rolfson",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "et",
-  "WhenRequested": "2016-11-10T16:32:38.3053306+01:00",
-  "WhenStarted": "2007-05-11T16:32:38.3053306+02:00",
-  "WhenEnded": "2011-08-26T16:32:38.3053306+02:00",
-  "WhenIdle": "2020-03-11T16:32:38.3053306+01:00",
-  "WhenFetched": "2013-11-27T16:32:38.3053306+01:00",
-  "SessionKey": "ratione",
-  "InitialQueuePos": 259,
-  "AlertLevel": 164,
-  "Rank": 879,
+  "FirstMessage": "dolorum",
+  "LastMessage": "qui",
+  "WhenRequested": "2019-06-04T17:54:02.7264757+02:00",
+  "WhenStarted": "2019-07-27T17:54:02.7264757+02:00",
+  "WhenEnded": "2016-05-26T17:54:02.7264757+02:00",
+  "WhenIdle": "2011-05-23T17:54:02.7264757+02:00",
+  "WhenFetched": "2008-07-03T17:54:02.7264757+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 154,
+  "AlertLevel": 278,
+  "Rank": 849,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 767,
+  "ChatbotIsActive": true,
+  "Rating": 817,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 626
+      "FieldLength": 133
     }
   }
 }

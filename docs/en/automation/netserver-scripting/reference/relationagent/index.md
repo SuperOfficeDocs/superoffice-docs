@@ -12,8 +12,8 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IRelationAgent'>RelationAgent</see> that can trigger server-side event scripts.
 
-* [CreateDefaultContactRelationEntity](createdefaultcontactrelationentity.md)
-* [DeleteContactRelation](deletecontactrelation.md)
-* [GetContactRelationEntity](getcontactrelationentity.md)
-* [SaveContactRelation](savecontactrelation.md)
+* [CreateDefaultContactRelationEntityAsync](createdefaultcontactrelationentityasync.md)
+* [DeleteContactRelationAsync](deletecontactrelationasync.md)
+* [GetContactRelationEntityAsync](getcontactrelationentityasync.md)
+* [SaveContactRelationAsync](savecontactrelationasync.md)
 

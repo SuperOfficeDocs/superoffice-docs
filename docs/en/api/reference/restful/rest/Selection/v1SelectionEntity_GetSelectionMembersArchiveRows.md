@@ -86,19 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "expedita",
+  "odata.nextLink": "enim",
   "value": [
     {
-      "PrimaryKey": 618,
-      "EntityName": "person",
-      "personId": 618,
-      "fullName": "Linwood Gusikowski"
+      "PrimaryKey": 3774,
+      "EntityName": "sale",
+      "saleId": 3774,
+      "contactId": 4172,
+      "name": "Berge-Nicolas"
     },
     {
-      "PrimaryKey": 4159,
-      "EntityName": "person",
-      "personId": 4159,
-      "fullName": "Ms. Aleen Kuhlman"
+      "PrimaryKey": 7450,
+      "EntityName": "sale",
+      "saleId": 7450,
+      "contactId": 8944,
+      "name": "Spencer, Ryan and Schoen"
     }
   ]
 }

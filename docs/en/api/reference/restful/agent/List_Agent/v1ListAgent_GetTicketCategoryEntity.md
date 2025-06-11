@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=8
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=322
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 881,
-  "ParentId": 783,
-  "Name": "Tremblay, Hoppe and Okuneva",
-  "Fullname": "eligendi",
-  "CategoryMaster": 767,
+  "TicketCategoryId": 801,
+  "ParentId": 981,
+  "Name": "Ward LLC",
+  "Fullname": "voluptas",
+  "CategoryMaster": 424,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "McCullough-Johns",
+  "ExternalName": "Pacocha, Mueller and Kulas",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 313,
-  "ReplyTemplate": 353,
-  "NotificationEmail": "octavia_klocko@corkery.uk",
+  "AssignmentLag": 829,
+  "ReplyTemplate": 406,
+  "NotificationEmail": "aniya@ratke.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 988,
+  "EffectiveReplyTemplateId": 717,
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "et",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "omnis"
+    "CustomFields1": "illum",
+    "CustomFields2": "ipsa"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 686
     }
   }
 }

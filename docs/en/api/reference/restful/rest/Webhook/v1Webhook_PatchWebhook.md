@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "veniam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "veniam",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 886,
-  "Name": "Wisoky-Wunsch",
+  "WebhookId": 386,
+  "Name": "Schinner, Huel and Block",
   "Events": [
-    "eum",
-    "adipisci"
+    "voluptates",
+    "eum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "suscipit",
+  "Secret": "libero",
   "State": "Active",
-  "Type": "velit",
+  "Type": "inventore",
   "Headers": {
-    "Headers1": "quis",
-    "Headers2": "atque"
+    "Headers1": "neque",
+    "Headers2": "ullam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-12-10T16:32:48.4776996+01:00",
+  "Registered": "2010-05-08T17:54:08.7730557+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-10-29T16:32:48.4776996+01:00",
+  "Updated": "2012-12-07T17:54:08.7730557+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "nyah@larkin.co.uk",
+  "ErrorsEmail": "nyasia.walter@howehyatt.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

@@ -20,9 +20,7 @@
 | ICalId | buid | Unique id made for iCal. SerialnoDappointmentIdDinvitedIdDupdated. Where D is a separator |
 | ICalPriority | bprt | The appointment's priority converted to iCal format our 1 = iCal 9, our 2 = iCal 5, our 3 = iCal 9 |
 | InvitationClickText | bdll | Not in use. Return empty string |
-| InvitationFormattedList | bate | Formatted list of invited ??, made for iCal |
 | InvitationUrl | bdlg | Not in use. Return empty string |
-| InvitedList | bafp | Formatted list of invited persons, humanly readable |
 | InviteeId | biid | Person ID for this row's invitee |
 | InviteeName | binv | The name of this rows invited person |
 | IsMilestone | bmil | Is the appointment a milestone appointment. Translated "Yes" or "No". |

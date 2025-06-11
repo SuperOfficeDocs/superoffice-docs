@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 777,
-  "ColumnId": 1000,
-  "FieldDefault": "quo",
-  "FieldHeight": 162,
-  "FieldLabel": "explicabo",
-  "FieldLeft": 151,
-  "FieldTop": 744,
+  "UDefFieldId": 375,
+  "ColumnId": 472,
+  "FieldDefault": "id",
+  "FieldHeight": 155,
+  "FieldLabel": "ex",
+  "FieldLeft": 703,
+  "FieldTop": 180,
   "FieldType": "Checkbox",
-  "FieldWidth": 334,
-  "FormatMask": "facilis",
-  "HideLabel": true,
+  "FieldWidth": 28,
+  "FormatMask": "omnis",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 948,
-  "LabelLeft": 130,
-  "LabelTop": 747,
-  "LabelWidth": 468,
-  "LastVersionId": 780,
-  "ListTableId": 849,
+  "LabelHeight": 3,
+  "LabelLeft": 964,
+  "LabelTop": 994,
+  "LabelWidth": 133,
+  "LastVersionId": 47,
+  "ListTableId": 785,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 619,
-  "ProgId": "est",
+  "Page1LineNo": 869,
+  "ProgId": "sint",
   "IsReadOnly": false,
-  "ShortLabel": "voluptate",
-  "TabOrder": 95,
-  "TextLength": 215,
-  "Tooltip": "dolores",
-  "UdefIdentity": 229,
-  "UDListDefinitionId": 791,
+  "ShortLabel": "minima",
+  "TabOrder": 485,
+  "TextLength": 816,
+  "Tooltip": "in",
+  "UdefIdentity": 593,
+  "UDListDefinitionId": 604,
   "Justification": "Center",
-  "Version": 459,
-  "TemplateVariableName": "O'Connell-Reinger",
+  "Version": 120,
+  "TemplateVariableName": "Vandervort LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Schmidt LLC",
+  "MdoListName": "Smitham-Hammes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 613
     }
   }
 }

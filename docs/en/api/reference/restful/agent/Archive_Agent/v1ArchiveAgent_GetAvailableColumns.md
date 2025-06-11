@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Dare Inc and Sons",
-  "Context": "at"
+  "ProviderName": "Torphy-Torp",
+  "Context": "aut"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Graham, Wehner and Hane",
-    "DisplayTooltip": "tempore",
-    "DisplayType": "rerum",
+    "DisplayName": "Batz, Smith and Stamm",
+    "DisplayTooltip": "vel",
+    "DisplayType": "aspernatur",
     "CanOrderBy": false,
-    "Name": "Lesch, Kertzmann and Mitchell",
+    "Name": "Ziemann-Ratke",
     "CanRestrictBy": false,
-    "RestrictionType": "ut",
-    "RestrictionListName": "Gulgowski Inc and Sons",
+    "RestrictionType": "architecto",
+    "RestrictionListName": "Lowe, Cole and Boyer",
     "IsVisible": false,
-    "ExtraInfo": "est",
-    "Width": "omnis",
-    "IconHint": "corrupti",
-    "HeadingIconHint": "iste"
+    "ExtraInfo": "officiis",
+    "Width": "delectus",
+    "IconHint": "sapiente",
+    "HeadingIconHint": "maiores"
   }
 ]
 ```

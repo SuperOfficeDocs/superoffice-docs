@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 811,
-  "Name": "Bruen Group"
+  "SelectionId": 502,
+  "Name": "Wiza LLC"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Down-sized 3rd generation capacity",
-  "Postit": "nihil",
+  "Description": "Optional didactic budgetary management",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 883,
-  "IncludePerson": 250,
+  "GroupIdx": 218,
+  "IncludePerson": 871,
   "MemberCount": 99.99,
-  "Name": "Barrows, Waters and Hoppe",
-  "PostitTextId": 310,
-  "CreatedDate": "2021-07-14T16:32:39.9302031+02:00",
-  "SelectionId": 931,
-  "SoundEx": "nihil",
-  "Source": 749,
-  "TextId": 182,
-  "UpdatedDate": "2025-01-12T16:32:39.9302031+01:00",
-  "UpdatedCount": 774,
-  "Visibility": 49,
+  "Name": "Batz-Lynch",
+  "PostitTextId": 967,
+  "CreatedDate": "2014-12-23T17:54:03.6326822+01:00",
+  "SelectionId": 913,
+  "SoundEx": "sit",
+  "Source": 656,
+  "TextId": 43,
+  "UpdatedDate": "2018-01-12T17:54:03.6326822+01:00",
+  "UpdatedCount": 745,
+  "Visibility": 493,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 199,
-  "TargetTableName": "Ryan, Haag and Welch",
+  "CompanyUnique": false,
+  "TargetTableNumber": 788,
+  "TargetTableName": "Emmerich Group",
   "Completed": false,
-  "LeftSelectionId": 339,
-  "RightSelectionId": 354,
+  "LeftSelectionId": 290,
+  "RightSelectionId": 336,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Romaguera-Kohler",
-  "ShadowProviderName": "Brown Group",
-  "ChartKey": "et",
-  "LastLoaded": "2020-04-15T16:32:39.9302031+02:00",
-  "LastLoadedBy": 748,
+  "MainProviderName": "Mayert, Hickle and Smitham",
+  "ShadowProviderName": "Powlowski-Rolfson",
+  "ChartKey": "vel",
+  "LastLoaded": "2009-08-27T17:54:03.6326822+02:00",
+  "LastLoadedBy": 572,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-10-04T16:32:39.9302031+02:00",
-  "LastMembershipChangeBy": 932,
+  "LastMembershipChange": "2016-12-12T17:54:03.6326822+01:00",
+  "LastMembershipChangeBy": 55,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eligendi",
-  "MemberTabHeading": "in",
-  "MailingsProviderName": "Schowalter Inc and Sons",
-  "DashboardTileDefinitionId": 793,
+  "MainHeading": "et",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Lesch, Cummerata and Mayer",
+  "DashboardTileDefinitionId": 61,
   "VisibleFor": [
     {
-      "VisibleId": 216,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldType": "System.String",
+          "FieldLength": 149
         }
       }
     },
     {
-      "VisibleId": 216,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldType": "System.String",
+          "FieldLength": 149
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldType": "System.String",
+      "FieldLength": 256
     }
   }
 }

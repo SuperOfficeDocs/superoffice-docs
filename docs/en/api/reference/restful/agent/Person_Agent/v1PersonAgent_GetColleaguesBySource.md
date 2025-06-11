@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 728
+  "Count": 614
 }
 ```
 
@@ -133,53 +133,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptates",
-    "PersonId": 617,
-    "Mrmrs": "quo",
-    "Firstname": "Janick",
-    "Lastname": "Reichert",
-    "MiddleName": "Shanahan, Hudson and Lebsack",
-    "Title": "voluptate",
-    "Description": "Fully-configurable dedicated knowledge user",
-    "Email": "edmond_rohan@bartonoconner.uk",
-    "FullName": "Mrs. Tracey Norwood Purdy",
-    "DirectPhone": "652.156.5574 x4770",
-    "FormalName": "Hettinger, Klocko and Dach",
-    "CountryId": 443,
-    "ContactId": 982,
-    "ContactName": "Blanda, Borer and O'Conner",
-    "Retired": 450,
-    "Rank": 59,
-    "ActiveInterests": 54,
+    "Position": "ducimus",
+    "PersonId": 559,
+    "Mrmrs": "optio",
+    "Firstname": "Icie",
+    "Lastname": "Lemke",
+    "MiddleName": "Cassin LLC",
+    "Title": "quia",
+    "Description": "User-friendly object-oriented concept",
+    "Email": "ephraim@hesselkilback.uk",
+    "FullName": "Kenny Renner",
+    "DirectPhone": "(974)813-3419 x703",
+    "FormalName": "Watsica-Auer",
+    "CountryId": 188,
+    "ContactId": 805,
+    "ContactName": "Reichert Inc and Sons",
+    "Retired": 980,
+    "Rank": 863,
+    "ActiveInterests": 538,
     "ContactDepartment": "",
-    "ContactCountryId": 113,
-    "ContactOrgNr": "1339193",
-    "FaxPhone": "1-556-111-2798 x70159",
-    "MobilePhone": "644-387-3650 x568",
-    "ContactPhone": "582.213.4097 x766",
-    "AssociateName": "Jakubowski-Douglas",
-    "AssociateId": 648,
+    "ContactCountryId": 603,
+    "ContactOrgNr": "234872",
+    "FaxPhone": "(889)784-9264 x64093",
+    "MobilePhone": "750-533-1596",
+    "ContactPhone": "596-213-2908 x094",
+    "AssociateName": "Heaney LLC",
+    "AssociateId": 56,
     "UsePersonAddress": false,
-    "ContactFax": "consequuntur",
-    "Kanafname": "voluptatem",
-    "Kanalname": "possimus",
-    "Post1": "eum",
-    "Post2": "sit",
-    "Post3": "et",
-    "EmailName": "ally_larkin@willerdman.uk",
-    "ContactFullName": "Mathew Reichert",
-    "ActiveErpLinks": 783,
-    "TicketPriorityId": 233,
-    "SupportLanguageId": 240,
-    "SupportAssociateId": 456,
+    "ContactFax": "voluptatem",
+    "Kanafname": "at",
+    "Kanalname": "voluptas",
+    "Post1": "voluptatum",
+    "Post2": "quia",
+    "Post3": "consequatur",
+    "EmailName": "kiley@mckenziekutch.name",
+    "ContactFullName": "Jazmin Jaskolski",
+    "ActiveErpLinks": 72,
+    "TicketPriorityId": 115,
+    "SupportLanguageId": 762,
+    "SupportAssociateId": 5,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "248002",
+    "PersonNumber": "540784",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldLength": 423
       }
     }
   }

@@ -12,12 +12,12 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IPhoneListAgent'>PhoneListAgent</see> that can trigger server-side event scripts.
 
-* [AddToFavorites](addtofavorites.md)
-* [GetContactPhones](getcontactphones.md)
-* [GetDepartmentPhones](getdepartmentphones.md)
-* [GetFavoritesPhones](getfavoritesphones.md)
-* [GetPreferences](getpreferences.md)
-* [Search](search.md)
-* [SearchWithPreferences](searchwithpreferences.md)
-* [SetPreferences](setpreferences.md)
+* [AddToFavoritesAsync](addtofavoritesasync.md)
+* [GetContactPhonesAsync](getcontactphonesasync.md)
+* [GetDepartmentPhonesAsync](getdepartmentphonesasync.md)
+* [GetFavoritesPhonesAsync](getfavoritesphonesasync.md)
+* [GetPreferencesAsync](getpreferencesasync.md)
+* [SearchAsync](searchasync.md)
+* [SearchWithPreferencesAsync](searchwithpreferencesasync.md)
+* [SetPreferencesAsync](setpreferencesasync.md)
 

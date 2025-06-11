@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 904,
-    "Name": "Smith, Mertz and Hane",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 136,
-    "UdListDefinitionId": 248,
+    "HeadingId": 171,
+    "Name": "Reichel Inc and Sons",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "Rank": 896,
+    "UdListDefinitionId": 777,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 297
       }
     }
   }

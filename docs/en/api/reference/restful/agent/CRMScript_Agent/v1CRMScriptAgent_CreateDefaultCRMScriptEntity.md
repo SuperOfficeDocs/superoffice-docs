@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 551,
-  "UniqueIdentifier": "error",
-  "Name": "Douglas LLC",
-  "Description": "De-engineered incremental extranet",
-  "IncludeId": "est",
-  "AccessKey": "commodi",
-  "HierarchyId": 816,
-  "Source": "et",
-  "SourceCode": "odio",
+  "EjscriptId": 567,
+  "UniqueIdentifier": "quia",
+  "Name": "Waters Inc and Sons",
+  "Description": "Persevering 5th generation instruction set",
+  "IncludeId": "quidem",
+  "AccessKey": "dolor",
+  "HierarchyId": 321,
+  "Source": "alias",
+  "SourceCode": "voluptatem",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 677,
+  "HtmlOutput": 86,
   "Includes": [
-    339,
-    654
+    845,
+    360
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 784,
-      "LineNumberTo": 42,
-      "Delta": 781,
-      "IncludeId": "recusandae",
+      "LineNumberFrom": 873,
+      "LineNumberTo": 293,
+      "Delta": 242,
+      "IncludeId": "tempore",
       "IncludedFrom": [
-        "voluptas",
-        "earum"
+        "sit",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 798
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2005-12-13T16:32:38.5552758+01:00",
-  "RegisteredAssociateId": 128,
-  "Updated": "2001-10-01T16:32:38.5552758+02:00",
-  "UpdatedAssociateId": 318,
+  "Registered": "2010-08-20T17:54:02.9139671+02:00",
+  "RegisteredAssociateId": 426,
+  "Updated": "2006-10-14T17:54:02.9139671+02:00",
+  "UpdatedAssociateId": 289,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 669
+      "FieldLength": 704
     }
   }
 }

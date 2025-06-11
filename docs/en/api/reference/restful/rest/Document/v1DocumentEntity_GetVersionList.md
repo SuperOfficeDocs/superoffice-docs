@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "sint",
-    "DocumentId": 143,
-    "VersionId": "in",
-    "CheckedInDate": "2022-07-12T16:32:47.5089608+02:00",
-    "CheckedInByName": "Hoppe-Koepp",
-    "CheckedInByAssociateId": 707,
-    "Description": "Stand-alone 5th generation support",
-    "DisplayText": "architecto",
+    "ExternalReference": "nihil",
+    "DocumentId": 465,
+    "VersionId": "qui",
+    "CheckedInDate": "2004-05-13T17:54:08.2418376+02:00",
+    "CheckedInByName": "McClure Group",
+    "CheckedInByAssociateId": 75,
+    "Description": "Automated client-driven attitude",
+    "DisplayText": "fuga",
     "ExtraFields": [
-      "quia",
-      "dignissimos"
+      "similique",
+      "qui"
     ]
   }
 ]

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 958,
-      "UniqueId": "rerum",
-      "Name": "Heidenreich-DuBuque",
-      "Description": "Multi-layered 4th generation analyzer",
-      "AssociateId": 858,
-      "Columns": 807,
+      "DashboardId": 333,
+      "UniqueId": "dolore",
+      "Name": "Dibbert-Adams",
+      "Description": "Up-sized tertiary approach",
+      "AssociateId": 417,
+      "Columns": 369,
       "Theme": null,
-      "VisibleForAll": 258,
+      "VisibleForAll": 606,
       "VisibleForAssociates": [
-        371,
-        495
+        246,
+        967
       ],
       "VisibleForGroups": [
-        967,
-        772
+        778,
+        391
       ],
-      "PinForAll": 150,
+      "PinForAll": 582,
       "PinForAssociates": [
-        469,
-        900
+        904,
+        920
       ],
       "PinForGroups": [
-        866,
-        612
+        964,
+        481
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 44
+          "FieldType": "System.Int32",
+          "FieldLength": 211
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 996,
-      "UniqueId": "possimus",
-      "Name": "Cronin, Walsh and Lubowitz",
-      "Description": "Multi-lateral needs-based parallelism",
-      "AssociateId": 738,
-      "Columns": 74,
+      "DashboardId": 457,
+      "UniqueId": "sint",
+      "Name": "Kovacek LLC",
+      "Description": "Compatible analyzing hub",
+      "AssociateId": 897,
+      "Columns": 597,
       "Theme": null,
-      "VisibleForAll": 645,
+      "VisibleForAll": 153,
       "VisibleForAssociates": [
-        552,
-        317
+        197,
+        845
       ],
       "VisibleForGroups": [
-        244,
-        690
+        912,
+        192
       ],
-      "PinForAll": 168,
+      "PinForAll": 107,
       "PinForAssociates": [
-        203,
-        567
+        864,
+        857
       ],
       "PinForGroups": [
-        123,
-        629
+        765,
+        26
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 668
+          "FieldType": "System.Int32",
+          "FieldLength": 732
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 487,
-      "UniqueId": "sit",
-      "Name": "Barrows, Hoeger and Schowalter",
-      "Description": "Multi-layered bifurcated paradigm",
-      "AssociateId": 957,
-      "Columns": 843,
+      "DashboardId": 61,
+      "UniqueId": "autem",
+      "Name": "Windler, Osinski and Schiller",
+      "Description": "Multi-layered 3rd generation migration",
+      "AssociateId": 648,
+      "Columns": 893,
       "Theme": null,
-      "VisibleForAll": 507,
+      "VisibleForAll": 628,
       "VisibleForAssociates": [
-        458,
-        446
+        210,
+        452
       ],
       "VisibleForGroups": [
-        964,
-        88
+        110,
+        951
       ],
-      "PinForAll": 160,
+      "PinForAll": 632,
       "PinForAssociates": [
-        267,
-        572
+        557,
+        498
       ],
       "PinForGroups": [
-        597,
-        690
+        736,
+        41
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldType": "System.Int32",
+          "FieldLength": 567
         }
       }
     }
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 902
     }
   }
 }

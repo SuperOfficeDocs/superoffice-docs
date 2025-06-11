@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 935,
-  "Name": "Hamill-Farrell",
+  "SelectionId": 109,
+  "Name": "Schiller-Schmidt",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered attitude-oriented success",
-  "Postit": "voluptatem",
+  "Description": "Total fault-tolerant pricing structure",
+  "Postit": "vitae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 678,
-  "IncludePerson": 82,
+  "GroupIdx": 194,
+  "IncludePerson": 298,
   "MemberCount": 99.99,
-  "Name": "Wolf-Pfeffer",
-  "PostitTextId": 774,
-  "CreatedDate": "2005-02-11T16:32:39.9302031+01:00",
-  "SelectionId": 520,
-  "SoundEx": "dolores",
-  "Source": 842,
-  "TextId": 459,
-  "UpdatedDate": "2006-10-12T16:32:39.9302031+02:00",
-  "UpdatedCount": 144,
-  "Visibility": 38,
+  "Name": "Kiehn LLC",
+  "PostitTextId": 739,
+  "CreatedDate": "2012-07-14T17:54:03.6170572+02:00",
+  "SelectionId": 299,
+  "SoundEx": "perferendis",
+  "Source": 65,
+  "TextId": 193,
+  "UpdatedDate": "2024-06-28T17:54:03.6170572+02:00",
+  "UpdatedCount": 875,
+  "Visibility": 395,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 136,
-  "TargetTableName": "Cassin LLC",
+  "TargetTableNumber": 691,
+  "TargetTableName": "Collins, Ondricka and Willms",
   "Completed": false,
-  "LeftSelectionId": 860,
-  "RightSelectionId": 240,
+  "LeftSelectionId": 119,
+  "RightSelectionId": 954,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Little Group",
-  "ShadowProviderName": "Hills-Dietrich",
-  "ChartKey": "quae",
-  "LastLoaded": "2021-07-25T16:32:39.9302031+02:00",
-  "LastLoadedBy": 44,
+  "MainProviderName": "Haley Group",
+  "ShadowProviderName": "Jewess, Dooley and Krajcik",
+  "ChartKey": "temporibus",
+  "LastLoaded": "2009-08-20T17:54:03.6170572+02:00",
+  "LastLoadedBy": 22,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-06-05T16:32:39.9302031+02:00",
-  "LastMembershipChangeBy": 586,
+  "LastMembershipChange": "2002-01-17T17:54:03.6170572+01:00",
+  "LastMembershipChangeBy": 8,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quis",
-  "MemberTabHeading": "error",
-  "MailingsProviderName": "West Group",
-  "DashboardTileDefinitionId": 32,
+  "MainHeading": "perspiciatis",
+  "MemberTabHeading": "suscipit",
+  "MailingsProviderName": "Hudson-Anderson",
+  "DashboardTileDefinitionId": 243,
   "VisibleFor": [
     {
-      "VisibleId": 236,
+      "VisibleId": 706,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 758
         }
       }
     },
     {
-      "VisibleId": 236,
+      "VisibleId": 706,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 758
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 447
     }
   }
 }

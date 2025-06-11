@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 191,
-  "Name": "Spencer Inc and Sons",
-  "Tooltip": "nisi",
-  "Deleted": true,
-  "Rank": 554,
-  "IsCustomList": false,
+  "Id": 240,
+  "Name": "Lesch, Aufderhar and Schowalter",
+  "Tooltip": "incidunt",
+  "Deleted": false,
+  "Rank": 135,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": false,
+  "ListType": "perspiciatis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 131
     }
   },
   "_Links": {

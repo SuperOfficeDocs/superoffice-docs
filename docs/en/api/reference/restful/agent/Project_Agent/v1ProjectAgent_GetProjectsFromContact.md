@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 53
+  "ContactId": 913
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 972,
-    "Name": "Jerde Inc and Sons",
-    "Description": "Function-based national secured line",
+    "ProjectId": 296,
+    "Name": "Collins Group",
+    "Description": "Advanced impactful monitoring",
     "URL": "http://www.example.com/",
-    "Type": "eum",
-    "AssociateId": 974,
-    "AssociateFullName": "Bruce Monahan",
-    "TypeId": 993,
-    "Updated": "2015-05-24T16:32:39.6490177+02:00",
-    "StatusId": 1000,
-    "Status": "praesentium",
-    "TextId": 166,
-    "PublishTo": "2024-10-24T16:32:39.6490177+02:00",
-    "PublishFrom": "1999-11-25T16:32:39.6490177+01:00",
-    "IsPublished": true,
+    "Type": "ut",
+    "AssociateId": 432,
+    "AssociateFullName": "Shanny Konopelski",
+    "TypeId": 966,
+    "Updated": "2005-04-12T17:54:03.4920634+02:00",
+    "StatusId": 99,
+    "Status": "mollitia",
+    "TextId": 63,
+    "PublishTo": "2012-01-04T17:54:03.4920634+01:00",
+    "PublishFrom": "2005-01-18T17:54:03.4920634+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "212728",
-    "ActiveErpLinks": 373,
+    "ProjectNumber": "955895",
+    "ActiveErpLinks": 16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 955
       }
     }
   }

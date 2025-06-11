@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 116,
-  "Name": "Jacobs Group",
-  "Description": "Enterprise-wide homogeneous encryption",
-  "DefaultHeight": 479,
-  "DefaultWidth": 706,
+  "DashboardTileDefinitionId": 669,
+  "Name": "O'Hara-Strosin",
+  "Description": "Up-sized transitional strategy",
+  "DefaultHeight": 506,
+  "DefaultWidth": 976,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kessler Inc and Sons",
-  "SelectionId": 332,
+  "EntityName": "Feil-Doyle",
+  "SelectionId": 813,
   "CurrencyMode": "Base",
-  "CurrencyCode": "saepe",
+  "CurrencyCode": "ipsam",
   "Measure": "Average",
-  "MeasureField": "quod",
-  "SortBy": "minima",
-  "LayoutConfig": "ut",
-  "SecondarySelectionId": 175,
-  "MeasureByField": "et",
+  "MeasureField": "molestiae",
+  "SortBy": "distinctio",
+  "LayoutConfig": "soluta",
+  "SecondarySelectionId": 506,
+  "MeasureByField": "ipsam",
   "Usage": "Dashboard",
-  "ProviderName": "Osinski LLC"
+  "ProviderName": "Spinka Inc and Sons"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 304,
-  "Name": "Feest-Hane",
-  "Description": "Universal directional challenge",
-  "DefaultHeight": 320,
-  "DefaultWidth": 654,
+  "DashboardTileDefinitionId": 770,
+  "Name": "Gottlieb, Douglas and Smitham",
+  "Description": "Cross-group national framework",
+  "DefaultHeight": 395,
+  "DefaultWidth": 912,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Boyle, Pfeffer and McKenzie",
-  "SelectionId": 533,
+  "EntityName": "Hoppe LLC",
+  "SelectionId": 18,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consectetur",
+  "CurrencyCode": "aut",
   "Measure": "Average",
-  "MeasureField": "ullam",
-  "SortBy": "molestias",
-  "LayoutConfig": "velit",
-  "SecondarySelectionId": 551,
-  "MeasureByField": "doloribus",
+  "MeasureField": "atque",
+  "SortBy": "laborum",
+  "LayoutConfig": "laboriosam",
+  "SecondarySelectionId": 96,
+  "MeasureByField": "maxime",
   "Usage": "Dashboard",
-  "ProviderName": "Howe Group",
+  "ProviderName": "Walker Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 251
     }
   }
 }

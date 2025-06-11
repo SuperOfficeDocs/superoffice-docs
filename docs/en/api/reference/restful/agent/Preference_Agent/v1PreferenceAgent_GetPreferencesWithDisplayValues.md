@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "et",
-      "Key": "ab"
+      "Section": "est",
+      "Key": "corrupti"
     },
     {
-      "Section": "et",
-      "Key": "ab"
+      "Section": "est",
+      "Key": "corrupti"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "animi",
+    "RawValue": "deserunt",
     "Specification": null,
-    "DisplayValue": "tempore",
-    "DisplayTooltip": "consequatur",
+    "DisplayValue": "velit",
+    "DisplayTooltip": "tempora",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 380,
-    "PrefDescId": 479,
-    "TableName": "Homenick-Heaney",
-    "UserPreferenceId": 952,
+    "TargetId": 613,
+    "PrefDescId": 676,
+    "TableName": "Kutch-Sawayn",
+    "UserPreferenceId": 361,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 585
+        "FieldType": "System.Int32",
+        "FieldLength": 657
       }
     }
   }

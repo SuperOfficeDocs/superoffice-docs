@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 346
+  "ErpConnectionId": 431
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 698,
-  "ErpConnectorId": 882,
-  "DisplayName": "Frami-Blanda",
-  "DisplayDescription": "Organized fresh-thinking artificial intelligence",
-  "Active": false,
-  "ConnectionId": "sint",
+  "ErpConnectionId": 842,
+  "ErpConnectorId": 678,
+  "DisplayName": "Williamson LLC",
+  "DisplayDescription": "User-friendly full-range knowledge user",
+  "Active": true,
+  "ConnectionId": "aut",
   "MostRecentTimestamp": "vero",
   "ConfigFields": {
-    "ConfigFields1": "corporis",
-    "ConfigFields2": "voluptatem"
+    "ConfigFields1": "soluta",
+    "ConfigFields2": "architecto"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    309,
-    79
+    502,
+    173
   ],
   "AssociateAccessIds": [
-    45,
-    178
+    583,
+    248
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 172
     }
   }
 }

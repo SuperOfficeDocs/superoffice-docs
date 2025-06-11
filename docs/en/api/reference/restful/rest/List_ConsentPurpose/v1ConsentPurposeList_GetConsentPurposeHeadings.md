@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 798,
-    "Name": "Walsh Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 526,
-    "UdListDefinitionId": 80,
+    "HeadingId": 752,
+    "Name": "Rutherford-Nitzsche",
+    "Tooltip": "reprehenderit",
+    "Deleted": false,
+    "Rank": 993,
+    "UdListDefinitionId": 481,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldType": "System.Int32",
+        "FieldLength": 70
       }
     }
   }

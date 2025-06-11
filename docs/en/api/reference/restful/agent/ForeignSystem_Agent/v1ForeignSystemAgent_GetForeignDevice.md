@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=935
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=698
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 701,
-  "Name": "Zboncak Inc and Sons",
-  "CreatedDate": "2004-10-26T16:32:39.1645096+02:00",
-  "UpdatedDate": "2011-09-04T16:32:39.1645096+02:00",
-  "AssociateFullName": "Dr. Josephine Hyatt Jr.",
-  "CreatedBy": "ab",
-  "UpdatedBy": "repudiandae",
-  "DeviceIdentifier": "omnis",
-  "ForeignAppId": 780,
+  "ForeignDeviceId": 237,
+  "Name": "Batz, Hahn and Sauer",
+  "CreatedDate": "2000-09-14T17:54:03.1795788+02:00",
+  "UpdatedDate": "2011-03-02T17:54:03.1795788+01:00",
+  "AssociateFullName": "Nayeli Graham Sr.",
+  "CreatedBy": "ullam",
+  "UpdatedBy": "accusamus",
+  "DeviceIdentifier": "voluptas",
+  "ForeignAppId": 418,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

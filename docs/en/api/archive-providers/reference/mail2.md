@@ -168,6 +168,7 @@ Provides populated mail envelope rows as an archive
 |person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -202,6 +203,7 @@ Provides populated mail envelope rows as an archive
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/personAssociate/contactCategory|listAny|Category: Category| x |
 |person/personAssociate/role|listAny|Role : Role| x |
@@ -223,12 +225,12 @@ Provides populated mail envelope rows as an archive
 |person/personAssociate/locationAddress|string|Location: Location| x |
 |person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
-|person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
@@ -238,6 +240,7 @@ Provides populated mail envelope rows as an archive
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |person/correspondingAssociate/role|listAny|Role : Role| x |
@@ -326,13 +329,13 @@ Provides populated mail envelope rows as an archive
 |contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
 |contact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
 |contact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
-|contact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|contact/streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
-|contact/streetAddress/zip|string|Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
+|contact/streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
+|contact/streetAddress/zip|string|Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/streetAddress/state|string|Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/streetAddress/wgs84latitude|decimal|Street address - Latitude: Latitude| x |
 |contact/streetAddress/wgs84longitude|decimal|Street address - Longitude: Longitude| x |
@@ -364,6 +367,7 @@ Provides populated mail envelope rows as an archive
 |contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contact/contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contact/contactAssociate/contactCategory|listAny|Category: Category| x |
 |contact/contactAssociate/role|listAny|Role : Role| x |
@@ -399,6 +403,7 @@ Provides populated mail envelope rows as an archive
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -428,15 +433,15 @@ Provides populated mail envelope rows as an archive
 |contact/LastSale|date|Date of last sale|  |
 |contact/LastCompletedSale|date|Date of last completed sale|  |
 |contact/LastDoBySale|date|Date of last non-completed sale|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/NumberOfTickets|int|Number of requests|  |
 |contact/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |contact/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |contact/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |contact/LastTicket|date|Date of last request|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/LastCompletedTicket|date|Date of last completed request|  |
 |contact/LastDoByTicket|date|Date of last non-completed request|  |
 |contact/SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
@@ -460,6 +465,7 @@ Provides populated mail envelope rows as an archive
 |accountAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |accountAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |accountAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|accountAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |accountAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |accountAssociate/contactCategory|listAny|Category: Category| x |
 |accountAssociate/role|listAny|Role : Role| x |
@@ -484,7 +490,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=person/personAddress/wgs84longitude,person/personAssociate/simultaneousEjUser,person/personExtra/x_person_boolean
+GET /api/v1/archive/Mail2?$select=person/personAssociate/ejDisplayName,person/correspondingAssociate/credentialDisplayValue,accountAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

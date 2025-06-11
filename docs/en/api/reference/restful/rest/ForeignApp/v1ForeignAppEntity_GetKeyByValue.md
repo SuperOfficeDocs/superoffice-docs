@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=consequatur
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=ad
 ```
 
 
@@ -87,23 +87,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 28 Mar 2004 16:32:47 G3T
+Last-Modified: Sun, 31 Aug 2008 17:54:08 G8T
 
 {
-  "Key": "rerum",
-  "Value": "voluptas",
-  "RecordId": 687,
-  "CreatedDate": "2017-08-07T16:32:47.5558268+02:00",
-  "UpdatedDate": "2004-03-28T16:32:47.5558268+02:00",
-  "UpdatedBy": "voluptatum",
-  "CreatedBy": "sed",
-  "TableName": "Conn-Block",
+  "Key": "dolores",
+  "Value": "ut",
+  "RecordId": 481,
+  "CreatedDate": "2015-08-02T17:54:08.2574567+02:00",
+  "UpdatedDate": "2008-08-31T17:54:08.2574567+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "illum",
+  "TableName": "Harvey, Kunde and Wilkinson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldLength": 958
     }
   }
 }

@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 966,
-  "ParentId": 250,
-  "Name": "McKenzie, Zboncak and Ryan",
-  "Fullname": "quo",
-  "CategoryMaster": 300,
+  "TicketCategoryId": 334,
+  "ParentId": 333,
+  "Name": "Hirthe, O'Keefe and Herzog",
+  "Fullname": "error",
+  "CategoryMaster": 74,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Eichmann, O'Keefe and Gutkowski",
+  "ExternalName": "Blick, Heller and Hintz",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 102,
-  "ReplyTemplate": 92,
-  "NotificationEmail": "alyce@white.us",
+  "AssignmentLag": 320,
+  "ReplyTemplate": 818,
+  "NotificationEmail": "dannie_simonis@barrowsdurgan.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 418,
+  "EffectiveReplyTemplateId": 654,
   "ExtraFields": {
-    "ExtraFields1": "quos",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "vel",
+    "CustomFields2": "temporibus"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 444,
-  "ParentId": 962,
-  "Name": "Jewess Group",
-  "Fullname": "quia",
-  "CategoryMaster": 953,
+  "TicketCategoryId": 541,
+  "ParentId": 249,
+  "Name": "Schumm-O'Conner",
+  "Fullname": "eum",
+  "CategoryMaster": 829,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Herzog-Hoeger",
+  "ExternalName": "Kshlerin Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 558,
-  "ReplyTemplate": 728,
-  "NotificationEmail": "rosalyn_kris@kuphalkovacek.ca",
+  "AssignmentLag": 269,
+  "ReplyTemplate": 476,
+  "NotificationEmail": "heath@streich.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 966,
+  "EffectiveReplyTemplateId": 853,
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "aliquid"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "neque"
+    "CustomFields1": "reprehenderit",
+    "CustomFields2": "nihil"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 356
+      "FieldType": "System.Int32",
+      "FieldLength": 202
     }
   }
 }

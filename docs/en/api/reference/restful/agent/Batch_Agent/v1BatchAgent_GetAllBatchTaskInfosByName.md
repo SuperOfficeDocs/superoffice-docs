@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Heaney, Gerlach and Considine"
+  "TaskName": "Yundt, Tromp and Becker"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Friesen LLC",
-    "AssociateId": 765,
-    "DetailsTable": 582,
-    "DetailsRecord": 108,
+    "Id": 278,
+    "Name": "Swaniawski, Kohler and Morar",
+    "AssociateId": 688,
+    "DetailsTable": 56,
+    "DetailsRecord": 184,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "eos",
-      "ParameterObject2": "temporibus"
+      "ParameterObject1": "autem",
+      "ParameterObject2": "repudiandae"
     },
-    "LastStarted": "2003-07-20T16:32:38.1959817+02:00",
-    "Created": "2001-09-04T16:32:38.1959817+02:00",
-    "StartCount": 169,
-    "DatabaseSerialNumber": "1373264",
-    "Context": "rerum",
-    "Result": "aut",
+    "LastStarted": "2010-05-25T17:54:02.6639794+02:00",
+    "Created": "2007-11-30T17:54:02.6639794+01:00",
+    "StartCount": 977,
+    "DatabaseSerialNumber": "927258",
+    "Context": "qui",
+    "Result": "similique",
     "State": "All",
-    "Description": "Adaptive static infrastructure",
-    "Response": "in",
-    "Request": "nemo",
-    "ProgressDescription": "Right-sized methodical concept",
-    "ProgressPercent": 934,
-    "FileName": "Wolff Group",
+    "Description": "Upgradable regional array",
+    "Response": "voluptas",
+    "Request": "deleniti",
+    "ProgressDescription": "Customer-focused solution-oriented forecast",
+    "ProgressPercent": 513,
+    "FileName": "Balistreri Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 248
+        "FieldType": "System.Int32",
+        "FieldLength": 10
       }
     }
   }

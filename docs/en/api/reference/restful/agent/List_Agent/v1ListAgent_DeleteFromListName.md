@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 71,
-  "UdListDefinitionName": "Rice Group"
+  "Id": 234,
+  "UdListDefinitionName": "Anderson Inc and Sons"
 }
 ```
 

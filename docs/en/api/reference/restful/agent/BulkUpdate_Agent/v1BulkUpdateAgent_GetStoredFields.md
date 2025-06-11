@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact",
-  "Context": "occaecati"
+  "Tablename": "project",
+  "Context": "reiciendis"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "dolorem",
-    "ValueType": "odit",
+    "IsActive": false,
+    "Key": "exercitationem",
+    "ValueType": "necessitatibus",
     "Mandatory": false,
-    "EncodedDisplayName": "Mraz, Swift and Harris",
-    "EncodedDisplayDescription": "Self-enabling heuristic hub",
-    "IconHint": "ut",
+    "EncodedDisplayName": "Schuppe LLC",
+    "EncodedDisplayDescription": "Distributed context-sensitive middleware",
+    "IconHint": "quis",
     "ControlInfos": [
       {
-        "Type": "facere",
-        "Label": "vero",
-        "Dimension": 220,
-        "ListProviderName": "O'Keefe, Kemmer and Runte",
-        "ListProviderExtraInfo": "magni",
-        "ListProviderPrimaryKeyName": "Welch-VonRueden",
-        "ListLeadText": "voluptates",
+        "Type": "velit",
+        "Label": "sit",
+        "Dimension": 221,
+        "ListProviderName": "Bayer Group",
+        "ListProviderExtraInfo": "voluptas",
+        "ListProviderPrimaryKeyName": "Heaney-Goldner",
+        "ListLeadText": "magnam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 173
+            "FieldType": "System.String",
+            "FieldLength": 845
           }
         }
       }
     ],
-    "EncodedDataCaption": "quibusdam",
-    "EncodedDataCaptionDescription": "Switchable user-facing forecast",
-    "CurrentOperationType": "doloribus",
+    "EncodedDataCaption": "pariatur",
+    "EncodedDataCaptionDescription": "Ergonomic upward-trending focus group",
+    "CurrentOperationType": "adipisci",
     "Values": [
-      "ea",
-      "non"
+      "nemo",
+      "enim"
     ],
     "DisplayValues": [
       "eaque",
-      "ab"
+      "molestiae"
     ],
     "OperationInfos": [
       {
-        "Key": "recusandae",
-        "EncodedDisplayName": "Dach-Waters",
+        "Key": "maiores",
+        "EncodedDisplayName": "Boyer-Botsford",
         "EncodedLeadTexts": [
-          "voluptatem",
-          "nihil"
+          "libero",
+          "voluptates"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldLength": 755
           }
         }
       },
       {
-        "Key": "recusandae",
-        "EncodedDisplayName": "Dach-Waters",
+        "Key": "maiores",
+        "EncodedDisplayName": "Boyer-Botsford",
         "EncodedLeadTexts": [
-          "voluptatem",
-          "nihil"
+          "libero",
+          "voluptates"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldLength": 755
           }
         }
       }

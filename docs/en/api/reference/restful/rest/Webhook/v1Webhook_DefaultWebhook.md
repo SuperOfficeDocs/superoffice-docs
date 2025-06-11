@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 11,
-  "Name": "Ullrich, Will and Cummings",
+  "WebhookId": 187,
+  "Name": "Prohaska-Schoen",
   "Events": [
-    "vitae",
-    "labore"
+    "ut",
+    "est"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nihil",
+  "Secret": "doloremque",
   "State": "Active",
-  "Type": "quidem",
+  "Type": "fuga",
   "Headers": {
-    "Headers1": "nisi",
-    "Headers2": "est"
+    "Headers1": "nihil",
+    "Headers2": "soluta"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-09-23T16:32:48.4620775+02:00",
+  "Registered": "2001-10-08T17:54:08.7730557+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-03-28T16:32:48.4620775+02:00",
+  "Updated": "2001-01-24T17:54:08.7730557+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "theodora.rogahn@turcotte.uk"
+  "ErrorsEmail": "sven_farrell@davis.com"
 }
 ```

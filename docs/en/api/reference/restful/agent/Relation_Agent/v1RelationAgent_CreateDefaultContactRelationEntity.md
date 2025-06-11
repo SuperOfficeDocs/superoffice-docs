@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 233,
-  "SourcePersonId": 498,
+  "SourceContactId": 938,
+  "SourcePersonId": 599,
   "DestinationContactId": 69,
-  "DestinationPersonId": 648,
-  "RelationId": 906,
-  "Comment": "sequi",
-  "RelationDefinitionId": 497,
-  "Reversed": 720,
-  "UpdatedDate": "2013-11-17T16:32:39.7583671+01:00",
-  "CreatedDate": "2004-05-15T16:32:39.7583671+02:00",
+  "DestinationPersonId": 934,
+  "RelationId": 782,
+  "Comment": "earum",
+  "RelationDefinitionId": 269,
+  "Reversed": 551,
+  "UpdatedDate": "2002-01-13T17:54:03.5389365+01:00",
+  "CreatedDate": "2005-05-07T17:54:03.5389365+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Brown, Thompson and Reynolds",
-  "SourcePersonName": "Bergnaum-Price",
-  "DestinationContactName": "Daugherty, Swift and McKenzie",
-  "DestinationPersonName": "Ondricka, Strosin and Bednar",
-  "ActiveText": "qui",
-  "PassiveText": "consequuntur",
+  "SourceContactName": "Dietrich Group",
+  "SourcePersonName": "Howe Group",
+  "DestinationContactName": "Weber Group",
+  "DestinationPersonName": "Klein-Halvorson",
+  "ActiveText": "quod",
+  "PassiveText": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 98
+      "FieldType": "System.Int32",
+      "FieldLength": 821
     }
   }
 }

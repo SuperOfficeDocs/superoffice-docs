@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Shanahan-Haag",
-    "ToolTip": "Dolores consequuntur et voluptates nihil.",
-    "Deleted": true,
-    "Rank": 86,
-    "Type": "qui",
-    "ColorBlock": 980,
-    "IconHint": "vel",
+    "Id": 65,
+    "Name": "McClure-Lebsack",
+    "ToolTip": "Aliquam voluptas.",
+    "Deleted": false,
+    "Rank": 362,
+    "Type": "rerum",
+    "ColorBlock": 772,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2010-04-11T16:32:48.6339153+02:00",
+    "LastChanged": "2021-07-09T17:54:08.8980498+02:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Cole-Deckow",
-        "ToolTip": "Repellat commodi.",
-        "Deleted": true,
-        "Rank": 88,
-        "Type": "cum",
-        "ColorBlock": 491,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2006-09-12T16:32:48.6339153+02:00",
+        "Id": 780,
+        "Name": "Borer Inc and Sons",
+        "ToolTip": "Consequatur libero.",
+        "Deleted": false,
+        "Rank": 134,
+        "Type": "optio",
+        "ColorBlock": 568,
+        "IconHint": "quos",
+        "Selected": false,
+        "LastChanged": "2023-02-18T17:54:08.8980498+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "et",
+        "ExtraInfo": "architecto",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Marianna Gerlach",
+        "FullName": "Audrey Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 740
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "id",
+    "ExtraInfo": "rerum",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Valerie Bartoletti II",
+    "FullName": "Grady Conn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 314
       }
     }
   }

@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 395,
-  "PlainMessage": "aut",
-  "HtmlMessage": "qui",
-  "SmsMessage": "earum",
-  "Description": "Automated coherent open system",
-  "Subject": "hic",
-  "FolderId": 546,
-  "HeaderField": "aut",
-  "Design": "velit",
+  "ShipmentMessageId": 715,
+  "PlainMessage": "velit",
+  "HtmlMessage": "velit",
+  "SmsMessage": "odit",
+  "Description": "Right-sized secondary benchmark",
+  "Subject": "vel",
+  "FolderId": 853,
+  "HeaderField": "voluptatum",
+  "Design": "molestiae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Enterprise-wide secondary core",
-  "AccessKey": "neque",
-  "DocumentMessage": 28,
-  "Registered": "1998-03-29T16:32:48.1025764+02:00",
-  "RegisteredAssociateId": 377,
-  "Updated": "2020-12-14T16:32:48.1025764+01:00",
-  "UpdatedAssociateId": 105,
-  "UpdatedCount": 835
+  "LongDescription": "Multi-channelled fresh-thinking secured line",
+  "AccessKey": "id",
+  "DocumentMessage": 88,
+  "Registered": "2022-08-30T17:54:08.5386928+02:00",
+  "RegisteredAssociateId": 140,
+  "Updated": "2017-09-13T17:54:08.5386928+02:00",
+  "UpdatedAssociateId": 831,
+  "UpdatedCount": 275
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 413,
-  "PlainMessage": "excepturi",
-  "HtmlMessage": "laboriosam",
-  "SmsMessage": "illum",
-  "Description": "Profound secondary hub",
-  "Subject": "tenetur",
-  "FolderId": 834,
-  "HeaderField": "architecto",
-  "Design": "asperiores",
+  "ShipmentMessageId": 862,
+  "PlainMessage": "nostrum",
+  "HtmlMessage": "nesciunt",
+  "SmsMessage": "vitae",
+  "Description": "Organic attitude-oriented emulation",
+  "Subject": "fuga",
+  "FolderId": 315,
+  "HeaderField": "repellendus",
+  "Design": "ipsam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "De-engineered object-oriented migration",
-  "AccessKey": "omnis",
-  "DocumentMessage": 745,
-  "Registered": "2017-06-22T16:32:48.1025764+02:00",
-  "RegisteredAssociateId": 907,
-  "Updated": "2013-06-08T16:32:48.1025764+02:00",
-  "UpdatedAssociateId": 323,
-  "UpdatedCount": 780,
+  "InlineImages": true,
+  "LongDescription": "Reactive system-worthy alliance",
+  "AccessKey": "fugiat",
+  "DocumentMessage": 610,
+  "Registered": "2016-08-16T17:54:08.5386928+02:00",
+  "RegisteredAssociateId": 76,
+  "Updated": "2011-06-22T17:54:08.5386928+02:00",
+  "UpdatedAssociateId": 243,
+  "UpdatedCount": 601,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldType": "System.String",
+      "FieldLength": 578
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

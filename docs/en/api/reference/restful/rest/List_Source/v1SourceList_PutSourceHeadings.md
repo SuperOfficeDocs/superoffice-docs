@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 687,
-    "Name": "Roberts, Carroll and Parker",
-    "Tooltip": "consequatur",
+    "HeadingId": 312,
+    "Name": "Schuster Inc and Sons",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 379,
-    "UdListDefinitionId": 296
+    "Rank": 341,
+    "UdListDefinitionId": 620
   },
   {
-    "HeadingId": 687,
-    "Name": "Roberts, Carroll and Parker",
-    "Tooltip": "consequatur",
+    "HeadingId": 312,
+    "Name": "Schuster Inc and Sons",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 379,
-    "UdListDefinitionId": 296
+    "Rank": 341,
+    "UdListDefinitionId": 620
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 223,
-    "Name": "O'Conner Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 961,
-    "UdListDefinitionId": 634,
+    "HeadingId": 625,
+    "Name": "Schultz-Corkery",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "Rank": 174,
+    "UdListDefinitionId": 101,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 503
       }
     }
   }

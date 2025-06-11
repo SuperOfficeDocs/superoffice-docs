@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 743,
-    "Name": "Kerluke-Reichel",
-    "Tooltip": "nostrum",
-    "Deleted": true,
-    "Rank": 295,
-    "UdListDefinitionId": 867,
+    "HeadingId": 28,
+    "Name": "Franecki Group",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 72,
+    "UdListDefinitionId": 987,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 239
+        "FieldType": "System.Int32",
+        "FieldLength": 903
       }
     }
   }

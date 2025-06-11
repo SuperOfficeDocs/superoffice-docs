@@ -332,36 +332,6 @@ items:
     href: Dash/v1Dash_PostDash.md
   - name: PUT Dash/{id}
     href: Dash/v1Dash_PutDash.md
-- name: Dashboard
-  href: Dashboard/index.md
-  items:
-  - name: DEL Dashboard/{id}
-    href: Dashboard/v1Dashboard_DeleteDashboard.md
-  - name: GET Dashboard/{id}
-    href: Dashboard/v1Dashboard_GetDashboard.md
-  - name: GET Dashboard/default
-    href: Dashboard/v1Dashboard_DefaultDashboard.md
-  - name: PATCH Dashboard/{id}
-    href: Dashboard/v1Dashboard_PatchDashboard.md
-  - name: POST Dashboard
-    href: Dashboard/v1Dashboard_PostDashboard.md
-  - name: PUT Dashboard/{id}
-    href: Dashboard/v1Dashboard_PutDashboard.md
-- name: DashboardTile
-  href: DashboardTile/index.md
-  items:
-  - name: DEL DashboardTile/{id}
-    href: DashboardTile/v1DashboardTile_DeleteDashboardTile.md
-  - name: GET DashboardTile/{id}
-    href: DashboardTile/v1DashboardTile_GetDashboardTile.md
-  - name: GET DashboardTile/default
-    href: DashboardTile/v1DashboardTile_DefaultDashboardTile.md
-  - name: PATCH DashboardTile/{id}
-    href: DashboardTile/v1DashboardTile_PatchDashboardTile.md
-  - name: POST DashboardTile
-    href: DashboardTile/v1DashboardTile_PostDashboardTile.md
-  - name: PUT DashboardTile/{id}
-    href: DashboardTile/v1DashboardTile_PutDashboardTile.md
 - name: DashTheme
   href: DashTheme/index.md
   items:
@@ -2847,7 +2817,7 @@ items:
   - name: GET User/{id}
     href: User/v1User_GetUser.md
   - name: GET User/{id}/CustomCommand
-    href: User/v1User_GetUserCommands.md
+    href: User/v1User_GetUserCommandsAsync.md
   - name: GET User/{id}/ForeignKey
     href: User/v1User_GetAllForeignKeysOnEntity.md
   - name: GET User/{id}/UserPresenceStatus
@@ -2875,7 +2845,7 @@ items:
   - name: POST User
     href: User/v1User_PostUser.md
   - name: POST User/{id}/CustomCommand/{commandName}
-    href: User/v1User_ExecuteUserCommand.md
+    href: User/v1User_ExecuteUserCommandAsync.md
   - name: POST User/Validate
     href: User/v1User_ValidateUser.md
   - name: PUT User/{id}

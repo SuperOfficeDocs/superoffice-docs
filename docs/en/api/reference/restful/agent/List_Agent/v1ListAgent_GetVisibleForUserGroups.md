@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 352,
-  "ListItemId": 944
+  "UdListDefinitionId": 19,
+  "ListItemId": 670
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Wyman, O'Hara and O'Conner",
-    "ToolTip": "Expedita et eius cumque vero natus.",
+    "Id": 678,
+    "Name": "Marvin-Hansen",
+    "ToolTip": "Assumenda est voluptatibus aut illum voluptas nam eum.",
     "Deleted": false,
-    "Rank": 781,
-    "Type": "nemo",
-    "ColorBlock": 407,
-    "IconHint": "unde",
+    "Rank": 184,
+    "Type": "temporibus",
+    "ColorBlock": 224,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2016-05-13T16:32:39.2426162+02:00",
+    "LastChanged": "2004-11-07T17:54:03.2108272+01:00",
     "ChildItems": [
       {
-        "Id": 329,
-        "Name": "Will LLC",
-        "ToolTip": "Doloremque ea earum est.",
+        "Id": 162,
+        "Name": "Schaden-Kuhn",
+        "ToolTip": "Cumque sint et blanditiis.",
         "Deleted": false,
-        "Rank": 648,
-        "Type": "quod",
-        "ColorBlock": 73,
-        "IconHint": "rerum",
+        "Rank": 429,
+        "Type": "architecto",
+        "ColorBlock": 39,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2018-03-10T16:32:39.2426162+01:00",
+        "LastChanged": "2000-01-29T17:54:03.2108272+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "velit",
+        "ExtraInfo": "sunt",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Ashton Sanford",
+        "FullName": "Miss Orlo Mayer PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 27
+            "FieldType": "System.String",
+            "FieldLength": 988
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Franz Johnston",
+    "ExtraInfo": "et",
+    "StyleHint": "ratione",
+    "Hidden": false,
+    "FullName": "Rosina Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldType": "System.String",
+        "FieldLength": 700
       }
     }
   }

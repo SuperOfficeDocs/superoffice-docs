@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Green, Reinger and Waelchi",
-    "ToolTip": "Aut perspiciatis necessitatibus consequatur quia nobis veritatis.",
-    "Deleted": false,
-    "Rank": 593,
-    "Type": "voluptatibus",
-    "ColorBlock": 797,
-    "IconHint": "repudiandae",
-    "Selected": true,
-    "LastChanged": "2016-02-06T16:32:48.9775807+01:00",
+    "Id": 973,
+    "Name": "Macejkovic, Connelly and Beer",
+    "ToolTip": "Esse labore nihil nisi.",
+    "Deleted": true,
+    "Rank": 207,
+    "Type": "enim",
+    "ColorBlock": 450,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2021-10-06T17:54:09.1168029+02:00",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Pfeffer Group",
-        "ToolTip": "Quia quis rem.",
-        "Deleted": true,
-        "Rank": 327,
-        "Type": "adipisci",
-        "ColorBlock": 113,
-        "IconHint": "incidunt",
+        "Id": 766,
+        "Name": "Hettinger, Schaden and Marvin",
+        "ToolTip": "Beatae sapiente numquam quia vero natus qui deserunt.",
+        "Deleted": false,
+        "Rank": 623,
+        "Type": "explicabo",
+        "ColorBlock": 655,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2018-08-04T16:32:48.9775807+02:00",
+        "LastChanged": "2005-04-01T17:54:09.1168029+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "odit",
+        "ExtraInfo": "omnis",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Nayeli Schowalter DDS",
+        "FullName": "Elmira Maiya Jacobi III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 295
+            "FieldType": "System.String",
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Wanda Kuphal",
+    "ExtraInfo": "quidem",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Cleve Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldType": "System.String",
+        "FieldLength": 266
       }
     }
   }

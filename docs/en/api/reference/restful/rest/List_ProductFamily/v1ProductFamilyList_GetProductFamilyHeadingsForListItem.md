@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "D'Amore-Schumm",
-    "ToolTip": "Reiciendis architecto enim inventore et.",
+    "Id": 298,
+    "Name": "Barrows LLC",
+    "ToolTip": "Asperiores esse voluptatem qui a ea sint.",
     "Deleted": true,
-    "Rank": 294,
-    "Type": "laborum",
-    "ColorBlock": 939,
-    "IconHint": "reiciendis",
-    "Selected": false,
-    "LastChanged": "2025-03-15T16:32:48.8057473+01:00",
+    "Rank": 797,
+    "Type": "amet",
+    "ColorBlock": 851,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2023-10-18T17:54:08.9761714+02:00",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Borer Inc and Sons",
-        "ToolTip": "Dolor tempore hic voluptates enim.",
+        "Id": 469,
+        "Name": "Ferry, Swift and Kuhlman",
+        "ToolTip": "Et dignissimos voluptates.",
         "Deleted": false,
-        "Rank": 515,
-        "Type": "nemo",
-        "ColorBlock": 280,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2025-03-13T16:32:48.8057473+01:00",
+        "Rank": 786,
+        "Type": "quasi",
+        "ColorBlock": 697,
+        "IconHint": "commodi",
+        "Selected": false,
+        "LastChanged": "2012-01-23T17:54:08.9761714+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "minima",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Mrs. Albina Winfield Swift",
+        "FullName": "Albert Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 326
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "ab",
+    "ExtraInfo": "numquam",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Mrs. Alanis Keebler V",
+    "FullName": "Prof. Clay Smitham V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 531
       }
     }
   }

@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 89,
-  "TopicId": 733,
+  "ChatSessionId": 974,
+  "TopicId": 471,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatum",
-  "CustomerHost": "aperiam",
-  "CustomerName": "Yost-Barton",
-  "CustomerEmail": "remington.lind@jacobi.uk",
-  "CustomerPhone": "1-517-619-2142 x4387",
+  "CustomerAlias": "dolor",
+  "CustomerHost": "ipsum",
+  "CustomerName": "Borer LLC",
+  "CustomerEmail": "maurice@ondrickabahringer.com",
+  "CustomerPhone": "550-187-6631 x0625",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Wolf, Carroll and Herzog",
+  "CustomerCompanyName": "Fadel-Jacobson",
   "Status": "Closed",
-  "FirstMessage": "voluptatem",
-  "LastMessage": "numquam",
-  "WhenRequested": "2009-11-20T16:32:47.2117662+01:00",
-  "WhenStarted": "1998-12-10T16:32:47.2117662+01:00",
-  "WhenEnded": "2024-04-27T16:32:47.2117662+02:00",
-  "WhenIdle": "2001-10-21T16:32:47.2117662+02:00",
-  "WhenFetched": "2023-05-11T16:32:47.2117662+02:00",
-  "SessionKey": "distinctio",
-  "InitialQueuePos": 745,
-  "AlertLevel": 665,
-  "Rank": 178,
+  "FirstMessage": "cupiditate",
+  "LastMessage": "illum",
+  "WhenRequested": "2022-08-04T17:54:08.038717+02:00",
+  "WhenStarted": "2013-05-26T17:54:08.038717+02:00",
+  "WhenEnded": "2019-07-31T17:54:08.038717+02:00",
+  "WhenIdle": "2017-09-16T17:54:08.038717+02:00",
+  "WhenFetched": "2001-06-16T17:54:08.038717+02:00",
+  "SessionKey": "saepe",
+  "InitialQueuePos": 590,
+  "AlertLevel": 393,
+  "Rank": 362,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 940,
+  "ChatbotIsActive": true,
+  "Rating": 552,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldType": "System.Int32",
+      "FieldLength": 733
     }
   }
 }

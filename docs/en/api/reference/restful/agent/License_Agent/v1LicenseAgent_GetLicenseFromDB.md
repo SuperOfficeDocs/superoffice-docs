@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Mann-Smitham"
+  "OwnerName": "Kub, Lubowitz and DuBuque"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 385,
-      "NumberOfLicensesFree": 547,
-      "NumberOfLicensesAdded": 733,
-      "NumberOfLicensesNewTotal": 749,
-      "NumberOfLicensesNewFree": 148,
-      "NumberOfLicensesTotal": 145
+      "NumberOfLicensesInUse": 538,
+      "NumberOfLicensesFree": 447,
+      "NumberOfLicensesAdded": 82,
+      "NumberOfLicensesNewTotal": 717,
+      "NumberOfLicensesNewFree": 958,
+      "NumberOfLicensesTotal": 157
     }
   ],
-  "AccumulatedNextCheckDate": "2017-08-21T16:32:39.180141+02:00"
+  "AccumulatedNextCheckDate": "2019-05-21T17:54:03.1795788+02:00"
 }
 ```

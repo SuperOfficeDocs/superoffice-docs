@@ -12,6 +12,6 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IDatabaseAgent'>DatabaseAgent</see> that can trigger server-side event scripts.
 
-* [GetStepsFromNetServerCode](getstepsfromnetservercode.md)
-* [GetStepsInDatabase](getstepsindatabase.md)
+* [GetStepsFromNetServerCodeAsync](getstepsfromnetservercodeasync.md)
+* [GetStepsInDatabaseAsync](getstepsindatabaseasync.md)
 

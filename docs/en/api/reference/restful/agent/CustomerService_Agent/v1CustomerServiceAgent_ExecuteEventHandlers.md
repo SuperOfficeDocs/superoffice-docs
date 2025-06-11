@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "nihil",
-    "InputValues2": "facere"
+    "InputValues1": "excepturi",
+    "InputValues2": "sed"
   },
-  "BlockExecution": true,
-  "NavigateTo": "ut",
-  "Message": "libero",
-  "ShowDialog": "est",
+  "BlockExecution": false,
+  "NavigateTo": "et",
+  "Message": "aliquid",
+  "ShowDialog": "accusamus",
   "OutputValues": {
-    "OutputValues1": "cupiditate",
-    "OutputValues2": "quo"
+    "OutputValues1": "voluptatum",
+    "OutputValues2": "et"
   },
   "StateValues": {
-    "StateValues1": "accusamus",
-    "StateValues2": "et"
+    "StateValues1": "quos",
+    "StateValues2": "quod"
   },
-  "Exception": "nam",
+  "Exception": "nihil",
   "ParserValues": {
-    "ParserValues1": "rerum",
-    "ParserValues2": "id"
+    "ParserValues1": "voluptatem",
+    "ParserValues2": "facere"
   },
   "CgiVariables": {
-    "CgiVariables1": "vel",
-    "CgiVariables2": "velit"
+    "CgiVariables1": "laborum",
+    "CgiVariables2": "dolor"
   },
-  "CgiContent": "ad",
+  "CgiContent": "fugit",
   "Headers": {
-    "Headers1": "velit",
-    "Headers2": "culpa"
+    "Headers1": "delectus",
+    "Headers2": "dignissimos"
   },
   "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

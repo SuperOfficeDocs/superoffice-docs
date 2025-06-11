@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 14,
-    "Name": "Bednar LLC",
-    "Tooltip": "ea",
-    "Rank": 379,
-    "Key": "eos",
-    "MailTemplateId": 436,
-    "Deleted": false,
+    "ConsentSourceId": 362,
+    "Name": "Larson, Ritchie and Durgan",
+    "Tooltip": "excepturi",
+    "Rank": 772,
+    "Key": "voluptates",
+    "MailTemplateId": 987,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldType": "System.String",
+        "FieldLength": 95
       }
     }
   }

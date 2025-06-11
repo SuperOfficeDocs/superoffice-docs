@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "ipsam",
-    "consequatur"
+    "et",
+    "nesciunt"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 471,
-    "ResourceId": 546,
-    "Text": "voluptates",
+    "LanguageId": 887,
+    "ResourceId": 938,
+    "Text": "adipisci",
     "Type": "Column",
-    "LocalizedTextId": 888,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 359,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 695
       }
     }
   }

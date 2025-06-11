@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 180,
-      "Id": 959,
-      "HistoryName": "Moore-Hauck",
-      "HistoryId": 89,
-      "AssociateId": 19,
-      "Name": "Hickle, Wiegand and Stoltenberg",
-      "ItemInfo": "alias"
+      "Rank": 825,
+      "Id": 196,
+      "HistoryName": "Schaden, Hirthe and Runolfsson",
+      "HistoryId": 473,
+      "AssociateId": 901,
+      "Name": "Renner Group",
+      "ItemInfo": "voluptatem"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 658,
-    "Id": 879,
-    "HistoryName": "Cremin-Cartwright",
-    "HistoryId": 200,
-    "AssociateId": 467,
-    "Name": "Roob LLC",
-    "ItemInfo": "cupiditate",
+    "Rank": 576,
+    "Id": 405,
+    "HistoryName": "Gerhold, Blick and Hilll",
+    "HistoryId": 373,
+    "AssociateId": 780,
+    "Name": "Towne Group",
+    "ItemInfo": "dolores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 281
+        "FieldLength": 859
       }
     }
   }

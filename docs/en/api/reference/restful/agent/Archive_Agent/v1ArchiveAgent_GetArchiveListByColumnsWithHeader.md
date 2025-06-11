@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Zieme Inc and Sons",
+  "ProviderName": "Howe Group",
   "Columns": [
-    "vero",
-    "dignissimos"
+    "optio",
+    "minus"
   ],
   "SortOrder": [
     {
-      "Name": "Lemke Group",
+      "Name": "Lindgren-Macejkovic",
       "Direction": "ASC"
     },
     {
-      "Name": "Lemke Group",
+      "Name": "Lindgren-Macejkovic",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Renner, Carroll and Grimes",
-      "Operator": "tempore",
+      "Name": "Blanda LLC",
+      "Operator": "dicta",
       "Values": [
-        "doloribus",
-        "aut"
+        "id",
+        "architecto"
       ],
       "DisplayValues": [
-        "similique",
-        "aut"
+        "impedit",
+        "fuga"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 107,
+      "InterParenthesis": 222,
       "InterOperator": "And",
-      "UniqueHash": 707
+      "UniqueHash": 666
     }
   ],
   "Entities": [
-    "voluptatem",
-    "minus"
+    "dolore",
+    "accusamus"
   ],
-  "Page": 87,
-  "PageSize": 596,
-  "Options": "et"
+  "Page": 345,
+  "PageSize": 430,
+  "Options": "commodi"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 588,
+  "RowCount": 638,
   "Rows": [
     {
-      "EntityName": "Russel, Waters and Sanford",
-      "PrimaryKey": 398,
+      "EntityName": "Ondricka, Herzog and Kovacek",
+      "PrimaryKey": 159,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolorem",
-          "TooltipHint": "nobis",
-          "LinkHint": "ratione"
+          "DisplayValue": "cum",
+          "TooltipHint": "blanditiis",
+          "LinkHint": "ipsum"
         }
       },
-      "LinkHint": "ducimus",
-      "StyleHint": "et",
+      "LinkHint": "hic",
+      "StyleHint": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 44
+          "FieldType": "System.Int32",
+          "FieldLength": 680
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldType": "System.Int32",
+      "FieldLength": 100
     }
   }
 }

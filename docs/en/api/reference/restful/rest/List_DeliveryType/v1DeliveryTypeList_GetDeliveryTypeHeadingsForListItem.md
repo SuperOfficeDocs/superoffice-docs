@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Mueller-Green",
-    "ToolTip": "Minus veritatis nihil magni assumenda aut odit.",
-    "Deleted": true,
-    "Rank": 243,
-    "Type": "porro",
-    "ColorBlock": 776,
-    "IconHint": "vero",
+    "Id": 36,
+    "Name": "Becker LLC",
+    "ToolTip": "Id magni sint corporis culpa ab.",
+    "Deleted": false,
+    "Rank": 358,
+    "Type": "quibusdam",
+    "ColorBlock": 468,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2006-05-30T16:32:48.6651528+02:00",
+    "LastChanged": "1998-11-05T17:54:08.9136741+01:00",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Homenick-Hartmann",
-        "ToolTip": "Saepe dolore dolorum magni corporis.",
-        "Deleted": true,
-        "Rank": 790,
-        "Type": "quidem",
-        "ColorBlock": 787,
-        "IconHint": "nam",
+        "Id": 161,
+        "Name": "Rodriguez Inc and Sons",
+        "ToolTip": "Quam consequatur fugiat deleniti eius est et.",
+        "Deleted": false,
+        "Rank": 372,
+        "Type": "iusto",
+        "ColorBlock": 228,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2012-04-23T16:32:48.6651528+02:00",
+        "LastChanged": "2004-09-05T17:54:08.9136741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quas",
+        "ExtraInfo": "delectus",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Aidan Cruickshank",
+        "FullName": "Shawn Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 642
+            "FieldLength": 86
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Ramon Kassulke",
+    "ExtraInfo": "et",
+    "StyleHint": "unde",
+    "Hidden": false,
+    "FullName": "Ms. Raymundo Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldType": "System.String",
+        "FieldLength": 499
       }
     }
   }

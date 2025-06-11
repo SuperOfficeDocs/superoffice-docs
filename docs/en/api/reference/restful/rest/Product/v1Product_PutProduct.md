@@ -148,51 +148,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 317,
-  "ERPProductKey": "saepe",
-  "ERPPriceListKey": "animi",
-  "Name": "Schiller-Schmeler",
-  "Description": "Automated bandwidth-monitored software",
-  "Code": "qui",
-  "PriceUnit": "vel",
-  "QuantityUnit": "tempore",
-  "IsSubscription": true,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 9699.73,
-  "ItemNumber": "735833",
+  "ProductId": 368,
+  "ERPProductKey": "sequi",
+  "ERPPriceListKey": "asperiores",
+  "Name": "McKenzie Group",
+  "Description": "Innovative bifurcated flexibility",
+  "Code": "non",
+  "PriceUnit": "vitae",
+  "QuantityUnit": "illum",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 5080.214,
+  "ItemNumber": "1614300",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "occaecati",
-  "ProductTypeKey": "tempore",
-  "VAT": 8088.8539999999994,
-  "VATInfo": "ullam",
-  "UnitCost": 19001.442,
-  "UnitMinimumPrice": 24507.879999999997,
-  "UnitListPrice": 1200.322,
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "totam",
+  "VAT": 8909.962,
+  "VATInfo": "in",
+  "UnitCost": 9558.6999999999989,
+  "UnitMinimumPrice": 4349.992,
+  "UnitListPrice": 21383.282,
   "InAssortment": false,
-  "Supplier": "dolor",
-  "SupplierCode": "earum",
-  "Rights": "odio",
-  "Rule": "accusamus",
+  "Supplier": "sint",
+  "SupplierCode": "recusandae",
+  "Rights": "cumque",
+  "Rule": "ut",
   "ExtraInfo": [
     {
-      "Name": "Funk Group",
-      "Value": "accusantium",
+      "Name": "Kovacek Inc and Sons",
+      "Value": "rerum",
       "Type": "Image"
     },
     {
-      "Name": "Funk Group",
-      "Value": "accusantium",
+      "Name": "Kovacek Inc and Sons",
+      "Value": "rerum",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "dolorem",
-  "ExtraField1": "eos",
-  "ExtraField2": "excepturi",
-  "ExtraField3": "hic",
-  "ExtraField4": "sint",
-  "ExtraField5": "numquam",
-  "InStock": 24213.284
+  "RawExtraInfo": "sunt",
+  "ExtraField1": "perspiciatis",
+  "ExtraField2": "repudiandae",
+  "ExtraField3": "quam",
+  "ExtraField4": "ut",
+  "ExtraField5": "ullam",
+  "InStock": 29406.322
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 484,
-  "ERPProductKey": "alias",
-  "ERPPriceListKey": "quo",
-  "Name": "Mayer, Welch and Huels",
-  "Description": "Cross-group impactful product",
-  "Code": "voluptates",
-  "PriceUnit": "adipisci",
-  "QuantityUnit": "at",
-  "IsSubscription": false,
-  "SubscriptionUnit": "cum",
-  "DefaultSubscriptionQuantity": 184.906,
-  "ItemNumber": "827093",
+  "ProductId": 283,
+  "ERPProductKey": "nesciunt",
+  "ERPPriceListKey": "iure",
+  "Name": "Feil Inc and Sons",
+  "Description": "Virtual heuristic product",
+  "Code": "et",
+  "PriceUnit": "et",
+  "QuantityUnit": "tempore",
+  "IsSubscription": true,
+  "SubscriptionUnit": "consequatur",
+  "DefaultSubscriptionQuantity": 22032.02,
+  "ItemNumber": "1088077",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nobis",
-  "ProductTypeKey": "eius",
-  "VAT": 8032.442,
-  "VATInfo": "sint",
-  "UnitCost": 16491.108,
-  "UnitMinimumPrice": 10799.764,
-  "UnitListPrice": 26557.516,
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "qui",
+  "VAT": 1927.4099999999999,
+  "VATInfo": "at",
+  "UnitCost": 11777.572,
+  "UnitMinimumPrice": 6609.606,
+  "UnitListPrice": 24915.3,
   "InAssortment": false,
-  "Supplier": "harum",
-  "SupplierCode": "consequuntur",
-  "Rights": "optio",
-  "Rule": "earum",
+  "Supplier": "omnis",
+  "SupplierCode": "sed",
+  "Rights": "eaque",
+  "Rule": "sint",
   "ExtraInfo": [
     {
-      "Name": "O'Keefe-Borer",
-      "Value": "asperiores",
+      "Name": "Moore LLC",
+      "Value": "animi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldLength": 595
         }
       }
     },
     {
-      "Name": "O'Keefe-Borer",
-      "Value": "asperiores",
+      "Name": "Moore LLC",
+      "Value": "animi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldLength": 595
         }
       }
     }
   ],
-  "RawExtraInfo": "laborum",
-  "ExtraField1": "ut",
-  "ExtraField2": "repellat",
-  "ExtraField3": "maxime",
-  "ExtraField4": "omnis",
-  "ExtraField5": "iusto",
-  "InStock": 10733.949999999999,
+  "RawExtraInfo": "numquam",
+  "ExtraField1": "omnis",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "aut",
+  "ExtraField4": "at",
+  "ExtraField5": "distinctio",
+  "InStock": 26657.804,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldLength": 387
     }
   }
 }

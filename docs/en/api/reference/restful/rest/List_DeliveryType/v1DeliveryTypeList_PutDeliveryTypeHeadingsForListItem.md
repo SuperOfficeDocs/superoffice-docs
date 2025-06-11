@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Frami, Kub and Hilll",
-    "ToolTip": "Dolorem voluptatem id earum.",
+    "Id": 212,
+    "Name": "Bashirian Inc and Sons",
+    "ToolTip": "Aliquid architecto voluptas dolor sed occaecati quo.",
     "Deleted": false,
-    "Rank": 968,
-    "Type": "sed",
-    "ColorBlock": 524,
-    "IconHint": "illum",
-    "Selected": false,
-    "LastChanged": "2020-06-27T16:32:48.6651528+02:00",
+    "Rank": 625,
+    "Type": "dolorem",
+    "ColorBlock": 886,
+    "IconHint": "tempore",
+    "Selected": true,
+    "LastChanged": "2016-06-10T17:54:08.9136741+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Bernhard LLC",
-        "ToolTip": "Odio vero facilis sed.",
-        "Deleted": false,
-        "Rank": 403,
-        "Type": "distinctio",
-        "ColorBlock": 97,
-        "IconHint": "quisquam",
+        "Id": 112,
+        "Name": "Kling-Lang",
+        "ToolTip": "Molestiae neque ad sunt qui vitae.",
+        "Deleted": true,
+        "Rank": 121,
+        "Type": "dolor",
+        "ColorBlock": 523,
+        "IconHint": "enim",
         "Selected": true,
-        "LastChanged": "2010-09-08T16:32:48.6651528+02:00",
+        "LastChanged": "2025-02-09T17:54:08.9136741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Miss Crystal Schowalter"
+        "ExtraInfo": "atque",
+        "StyleHint": "dicta",
+        "Hidden": false,
+        "FullName": "Liza Mohr"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "quae",
-    "Hidden": true,
-    "FullName": "Ethan Pouros"
+    "ExtraInfo": "aliquid",
+    "StyleHint": "nobis",
+    "Hidden": false,
+    "FullName": "Coleman Harvey"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Ziemann Inc and Sons",
-    "ToolTip": "Necessitatibus corporis quas ut.",
-    "Deleted": true,
-    "Rank": 833,
-    "Type": "sint",
-    "ColorBlock": 29,
-    "IconHint": "voluptate",
+    "Id": 472,
+    "Name": "Doyle-Halvorson",
+    "ToolTip": "Eos voluptas animi et.",
+    "Deleted": false,
+    "Rank": 857,
+    "Type": "earum",
+    "ColorBlock": 153,
+    "IconHint": "aliquid",
     "Selected": true,
-    "LastChanged": "2002-10-25T16:32:48.6651528+02:00",
+    "LastChanged": "2013-12-02T17:54:08.9136741+01:00",
     "ChildItems": [
       {
-        "Id": 118,
-        "Name": "Ratke-Keeling",
-        "ToolTip": "Suscipit esse sequi doloremque iste ipsam voluptate.",
-        "Deleted": true,
-        "Rank": 680,
-        "Type": "ab",
-        "ColorBlock": 21,
-        "IconHint": "fuga",
+        "Id": 563,
+        "Name": "Strosin, Conn and Bechtelar",
+        "ToolTip": "Expedita amet maxime consequatur in magni voluptate.",
+        "Deleted": false,
+        "Rank": 482,
+        "Type": "error",
+        "ColorBlock": 934,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "1999-01-26T16:32:48.6651528+01:00",
+        "LastChanged": "2006-10-01T17:54:08.9136741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Chesley Macejkovic",
+        "ExtraInfo": "ut",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Jeramy Reilly MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 985
+            "FieldLength": 190
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "cum",
-    "Hidden": true,
-    "FullName": "Maurice Sporer PhD",
+    "ExtraInfo": "sunt",
+    "StyleHint": "porro",
+    "Hidden": false,
+    "FullName": "Miles Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 595
+        "FieldType": "System.Int32",
+        "FieldLength": 800
       }
     }
   }

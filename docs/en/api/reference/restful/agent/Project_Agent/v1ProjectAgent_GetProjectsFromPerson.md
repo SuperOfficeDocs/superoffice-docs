@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 766
+  "PersonId": 431
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 146,
-    "Name": "Cummerata, Thompson and Bradtke",
-    "Description": "Compatible bifurcated support",
+    "ProjectId": 494,
+    "Name": "Adams LLC",
+    "Description": "Distributed heuristic groupware",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 971,
-    "AssociateFullName": "Korey Muller",
-    "TypeId": 896,
-    "Updated": "2000-06-22T16:32:39.6490177+02:00",
-    "StatusId": 658,
-    "Status": "dolores",
-    "TextId": 519,
-    "PublishTo": "2014-08-31T16:32:39.6490177+02:00",
-    "PublishFrom": "2023-09-08T16:32:39.6490177+02:00",
-    "IsPublished": false,
+    "Type": "omnis",
+    "AssociateId": 181,
+    "AssociateFullName": "Kennedy Hahn III",
+    "TypeId": 657,
+    "Updated": "2024-03-13T17:54:03.4920634+01:00",
+    "StatusId": 298,
+    "Status": "voluptatem",
+    "TextId": 305,
+    "PublishTo": "2019-03-21T17:54:03.4920634+01:00",
+    "PublishFrom": "2016-05-13T17:54:03.4920634+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1033767",
-    "ActiveErpLinks": 1001,
+    "ProjectNumber": "1343178",
+    "ActiveErpLinks": 870,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 764
+        "FieldLength": 797
       }
     }
   }

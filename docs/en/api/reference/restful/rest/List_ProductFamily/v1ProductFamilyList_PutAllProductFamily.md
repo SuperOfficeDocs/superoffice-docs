@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Kuhlman-Hodkiewicz",
-    "Tooltip": "mollitia",
+    "Id": 343,
+    "Name": "Veum, Fritsch and Little",
+    "Tooltip": "eos",
     "Deleted": false,
-    "UdListDefinitionId": 694,
-    "Rank": 627
+    "UdListDefinitionId": 91,
+    "Rank": 93
   },
   {
-    "Id": 119,
-    "Name": "Kuhlman-Hodkiewicz",
-    "Tooltip": "mollitia",
+    "Id": 343,
+    "Name": "Veum, Fritsch and Little",
+    "Tooltip": "eos",
     "Deleted": false,
-    "UdListDefinitionId": 694,
-    "Rank": 627
+    "UdListDefinitionId": 91,
+    "Rank": 93
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Lehner LLC",
-    "Tooltip": "aut",
+    "Id": 353,
+    "Name": "Reinger Inc and Sons",
+    "Tooltip": "quas",
     "Deleted": false,
-    "UdListDefinitionId": 234,
-    "Rank": 228,
+    "UdListDefinitionId": 227,
+    "Rank": 291,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldLength": 347
       }
     }
   }

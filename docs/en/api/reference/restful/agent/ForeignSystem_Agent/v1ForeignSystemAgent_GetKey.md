@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schmidt-Raynor",
-  "DeviceName": "Baumbach, Kuhic and Osinski",
-  "KeyName": "Bins, Dooley and Emard",
-  "TableName": "Hermann LLC",
-  "RecordId": 769
+  "ApplicationName": "Schamberger-Rau",
+  "DeviceName": "Toy, Stroman and Klein",
+  "KeyName": "Strosin-Flatley",
+  "TableName": "Kessler-Williamson",
+  "RecordId": 583
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "est",
-  "Value": "similique",
-  "RecordId": 207,
-  "CreatedDate": "2011-09-21T16:32:39.1645096+02:00",
-  "UpdatedDate": "2000-03-01T16:32:39.1645096+01:00",
-  "UpdatedBy": "ut",
-  "CreatedBy": "et",
-  "TableName": "Kuhic, Walsh and Flatley",
+  "Key": "odit",
+  "Value": "et",
+  "RecordId": 899,
+  "CreatedDate": "2023-11-30T17:54:03.1639551+01:00",
+  "UpdatedDate": "2022-05-15T17:54:03.1639551+02:00",
+  "UpdatedBy": "ipsam",
+  "CreatedBy": "eos",
+  "TableName": "Upton LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldLength": 630
     }
   }
 }

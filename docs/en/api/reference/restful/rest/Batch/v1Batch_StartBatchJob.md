@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Botsford-Dooley",
-  "AssociateId": 365,
-  "DetailsTable": 234,
-  "DetailsRecord": 528,
+  "Id": 664,
+  "Name": "White-Nader",
+  "AssociateId": 987,
+  "DetailsTable": 516,
+  "DetailsRecord": 653,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aut",
-    "ParameterObject2": "illo"
+    "ParameterObject1": "et",
+    "ParameterObject2": "reprehenderit"
   },
-  "LastStarted": "2017-04-26T16:32:48.2902385+02:00",
-  "Created": "1999-07-14T16:32:48.2902385+02:00",
-  "StartCount": 176,
-  "DatabaseSerialNumber": "1642714",
-  "Context": "magni",
-  "Result": "omnis",
+  "LastStarted": "2025-05-09T17:54:08.6793184+02:00",
+  "Created": "2004-08-06T17:54:08.6793184+02:00",
+  "StartCount": 57,
+  "DatabaseSerialNumber": "588904",
+  "Context": "sint",
+  "Result": "officiis",
   "State": "All",
-  "Description": "Synergized 4th generation hardware",
-  "Response": "nesciunt",
-  "Request": "sunt",
-  "ProgressDescription": "Devolved scalable algorithm",
-  "ProgressPercent": 630,
-  "FileName": "Conn, Christiansen and Satterfield",
+  "Description": "Synergistic dedicated open architecture",
+  "Response": "dolores",
+  "Request": "distinctio",
+  "ProgressDescription": "Mandatory incremental data-warehouse",
+  "ProgressPercent": 942,
+  "FileName": "Hammes Group",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-644
+997
 ```

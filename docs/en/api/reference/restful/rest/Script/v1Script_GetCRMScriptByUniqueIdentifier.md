@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "enim",
-  "Name": "Harber Group",
-  "Description": "Open-source 24 hour orchestration",
-  "IncludeId": "blanditiis",
-  "Source": "cum",
-  "Registered": "2003-08-26T16:32:48.3995893+02:00",
-  "RegisteredBy": "voluptatem",
-  "Updated": "2009-11-25T16:32:48.3995893+01:00",
-  "UpdatedBy": "tempore",
-  "Path": "voluptatem",
+  "UniqueIdentifier": "et",
+  "Name": "Roberts LLC",
+  "Description": "Synergized holistic parallelism",
+  "IncludeId": "eaque",
+  "Source": "sed",
+  "Registered": "2009-04-12T17:54:08.726183+02:00",
+  "RegisteredBy": "voluptas",
+  "Updated": "2008-09-04T17:54:08.726183+02:00",
+  "UpdatedBy": "ipsam",
+  "Path": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 587
     }
   }
 }

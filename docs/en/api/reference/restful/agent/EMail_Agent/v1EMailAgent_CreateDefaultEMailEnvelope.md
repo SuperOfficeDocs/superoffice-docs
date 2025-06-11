@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 280,
-  "MessageId": "non",
-  "Subject": "ducimus",
+  "ServerId": 249,
+  "MessageId": "minima",
+  "Subject": "similique",
   "From": null,
   "To": [
     {
-      "ContactId": 479,
-      "ContactName": "Kemmer, Schuster and Swaniawski",
-      "PersonId": 437,
-      "PersonName": "Williamson, Stark and Roberts",
-      "AssociateId": 699,
-      "Address": "atque",
-      "EmailId": 885,
+      "ContactId": 537,
+      "ContactName": "Von-Tremblay",
+      "PersonId": 44,
+      "PersonName": "Hilll, Pollich and Howell",
+      "AssociateId": 557,
+      "Address": "dolores",
+      "EmailId": 632,
       "DuplicatePersonIds": [
-        886,
-        209
+        208,
+        718
       ],
-      "Name": "Beer-Stanton",
+      "Name": "Hermann-Hyatt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 895
         }
       }
     }
   ],
-  "Sent": "2001-06-12T16:32:39.0082952+02:00",
+  "Sent": "2015-09-02T17:54:03.0858331+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 18,
+  "Size": 19,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldType": "System.String",
+      "FieldLength": 682
     }
   }
 }

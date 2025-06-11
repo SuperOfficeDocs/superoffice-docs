@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 88,
-  "EMailAddress": "voluptas",
-  "AssociateId": 545,
+  "EMailAccountId": 842,
+  "EMailAddress": "mollitia",
+  "AssociateId": 513,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 729,
-  "ErrorCount": 321,
+  "AccountStatus": 38,
+  "ErrorCount": 617,
   "ErrorReason": "",
-  "InboxFolder": "est",
-  "SentFolder": "error",
-  "SimpleMode": 150,
-  "LastFetch": "2019-02-24T16:32:39.0082952+01:00",
+  "InboxFolder": "molestiae",
+  "SentFolder": "tenetur",
+  "SimpleMode": 713,
+  "LastFetch": "2023-06-21T17:54:03.0858331+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldType": "System.String",
+      "FieldLength": 39
     }
   }
 }

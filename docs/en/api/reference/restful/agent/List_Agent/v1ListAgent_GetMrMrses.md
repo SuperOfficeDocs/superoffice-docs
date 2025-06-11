@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetMrMrses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Value": "voluptatem",
-    "Tooltip": "molestiae",
+    "Id": 548,
+    "Value": "et",
+    "Tooltip": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 411
       }
     }
   },
   {
-    "Id": 995,
-    "Value": "voluptatem",
-    "Tooltip": "molestiae",
+    "Id": 548,
+    "Value": "et",
+    "Tooltip": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 411
       }
     }
   }

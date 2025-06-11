@@ -78,7 +78,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 535
+  "AssociateId": 87
 }
 ```
 
@@ -90,6 +90,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "quibusdam"
+  "Message": "voluptatum"
 }
 ```

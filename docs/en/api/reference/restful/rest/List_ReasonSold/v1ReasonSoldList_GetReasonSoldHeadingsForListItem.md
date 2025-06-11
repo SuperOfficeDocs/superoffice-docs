@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Cruickshank Inc and Sons",
-    "ToolTip": "Aspernatur minima.",
+    "Id": 968,
+    "Name": "Morar LLC",
+    "ToolTip": "Quis impedit ut ipsam neque veniam aliquam temporibus.",
     "Deleted": false,
-    "Rank": 12,
-    "Type": "atque",
-    "ColorBlock": 401,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2018-12-22T16:32:48.9151006+01:00",
+    "Rank": 1000,
+    "Type": "autem",
+    "ColorBlock": 309,
+    "IconHint": "id",
+    "Selected": true,
+    "LastChanged": "2001-02-02T17:54:09.1011806+01:00",
     "ChildItems": [
       {
-        "Id": 862,
-        "Name": "Bechtelar, White and Hoppe",
-        "ToolTip": "Tenetur deleniti iusto voluptas nemo aliquid culpa dolorem.",
+        "Id": 649,
+        "Name": "Balistreri, Brekke and Johnson",
+        "ToolTip": "Labore enim rerum qui nemo est.",
         "Deleted": false,
-        "Rank": 554,
-        "Type": "ut",
-        "ColorBlock": 37,
-        "IconHint": "ad",
-        "Selected": true,
-        "LastChanged": "2016-04-12T16:32:48.9151006+02:00",
+        "Rank": 189,
+        "Type": "autem",
+        "ColorBlock": 494,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2011-03-27T17:54:09.1011806+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "itaque",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Thaddeus Hermiston",
+        "FullName": "Birdie Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldType": "System.String",
+            "FieldLength": 778
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "dolor",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Dr. Madisyn Dena Larson V",
+    "FullName": "Hailee Barbara Mertz V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldType": "System.String",
+        "FieldLength": 722
       }
     }
   }

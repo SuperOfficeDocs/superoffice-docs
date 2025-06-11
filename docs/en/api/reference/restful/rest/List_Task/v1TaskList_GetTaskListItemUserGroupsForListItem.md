@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Hayes LLC",
-    "ToolTip": "Qui sunt laborum delectus aut quas rerum ipsam.",
+    "Id": 807,
+    "Name": "Kling, Abshire and Kunde",
+    "ToolTip": "Quia accusamus magni autem in autem voluptatem similique.",
     "Deleted": false,
-    "Rank": 83,
-    "Type": "asperiores",
-    "ColorBlock": 377,
-    "IconHint": "consequuntur",
+    "Rank": 143,
+    "Type": "nostrum",
+    "ColorBlock": 318,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2013-04-18T16:32:48.9932021+02:00",
+    "LastChanged": "2004-07-20T17:54:09.1324271+02:00",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Grimes-Roberts",
-        "ToolTip": "Quas modi commodi ut quibusdam mollitia repellat aperiam.",
+        "Id": 615,
+        "Name": "Herman Group",
+        "ToolTip": "Debitis animi quia qui ducimus dolores.",
         "Deleted": true,
-        "Rank": 667,
-        "Type": "est",
-        "ColorBlock": 323,
-        "IconHint": "totam",
-        "Selected": false,
-        "LastChanged": "2010-05-21T16:32:48.9932021+02:00",
+        "Rank": 93,
+        "Type": "omnis",
+        "ColorBlock": 944,
+        "IconHint": "accusantium",
+        "Selected": true,
+        "LastChanged": "2012-09-16T17:54:09.1324271+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "suscipit",
-        "Hidden": false,
-        "FullName": "Abdul Bahringer",
+        "ExtraInfo": "fuga",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Brice Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 804
+            "FieldLength": 558
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "molestias",
+    "ExtraInfo": "amet",
+    "StyleHint": "sapiente",
     "Hidden": false,
-    "FullName": "Jarrod Eli Walsh I",
+    "FullName": "Rudy Lynch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 616
       }
     }
   }

@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "aut",
+  "RawValue": "animi",
   "Specification": null,
-  "DisplayValue": "aperiam",
-  "DisplayTooltip": "nihil",
+  "DisplayValue": "rem",
+  "DisplayTooltip": "sed",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 927,
-  "PrefDescId": 482,
-  "TableName": "Runte-Pollich",
-  "UserPreferenceId": 568,
+  "TargetId": 366,
+  "PrefDescId": 352,
+  "TableName": "Tromp-Lind",
+  "UserPreferenceId": 549,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 558
+      "FieldType": "System.Int32",
+      "FieldLength": 782
     }
   }
 }

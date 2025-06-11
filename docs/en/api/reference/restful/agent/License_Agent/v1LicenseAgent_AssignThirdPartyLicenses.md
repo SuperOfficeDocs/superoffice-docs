@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 952,
-  "ModuleOwner": "aut",
+  "AssociateId": 689,
+  "ModuleOwner": "quibusdam",
   "ModuleLicenseNames": [
-    "Hauck Inc and Sons",
-    "Price-Bernhard"
+    "Dare Inc and Sons",
+    "Wisoky, Volkman and McCullough"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 892,
-    "Tooltip": "animi",
-    "CanAssign": false,
-    "Free": 772,
-    "InUse": 690,
+    "Total": 657,
+    "Tooltip": "quidem",
+    "CanAssign": true,
+    "Free": 920,
+    "InUse": 196,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 144,
-    "Name": "Kerluke-Zboncak",
-    "Description": "Pre-emptive radical website",
-    "PrerequisiteModuleName": "Fahey, Lowe and Kassulke",
-    "SortOrder": 783,
-    "ExtraFlags": 586,
+    "ModuleLicenseId": 677,
+    "Name": "Gorczany Inc and Sons",
+    "Description": "Self-enabling mobile initiative",
+    "PrerequisiteModuleName": "Schimmel LLC",
+    "SortOrder": 98,
+    "ExtraFlags": 445,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 472
       }
     }
   }

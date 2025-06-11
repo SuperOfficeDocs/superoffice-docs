@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 357,
-  "Name": "Runte, Morissette and Miller",
-  "Tooltip": "accusantium",
-  "Rank": 217,
-  "Rate": 16118.162,
-  "Units": 10527.106,
-  "Deleted": false,
+  "CurrencyId": 144,
+  "Name": "Schmitt, Lemke and Pouros",
+  "Tooltip": "rem",
+  "Rank": 520,
+  "Rate": 26654.67,
+  "Units": 3641.708,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldType": "System.String",
+      "FieldLength": 989
     }
   }
 }

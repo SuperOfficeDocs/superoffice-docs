@@ -10,11 +10,9 @@
 | CountryCode | ccid | Country code |
 | CountryEnglish | cicn | Country name in English |
 | County | cnty | County (for UK addresses) |
-| CountyZip | czip | County and postcode (for UK addresses) |
 | Deparment | dept | Department |
 | EMail | mail | The company's primary e-mail address |
 | EMailId | maii | The company's primary e-mail address id |
-| Id | cuid | Company ID (hidden, unique ID) |
 | LineFeedAustraliaUK | cozn | Line feed for Australian and UK treatment of counties and postcodes |
 | LineFeedGermany | cozg | Line feed for internal post in Germany |
 | Name | name | The company's name |
@@ -29,13 +27,11 @@
 | PostalAddressLine1And3 | sams | First address line, including Mail Stop (for American addresses). |
 | PostalAddressLine2 | pad2 | The second line of the postal address |
 | PostalAddressLine3 | pad3 | The third line of the postal address |
-| PostalAddressPrefix | zino | Postcode prefix |
 | PostalAddressState | stat | State/province for postal address (for American, Canadian and Australian addresses) |
 | PostalAddressZip | zipc | Post/zip code |
 | PostalAddressZipCity | zici | Postcode and postal town (e.g. 0572 OSLO) |
 | PostalCity | city | Postal address city/town |
 | PostalCityFull | cszc | Postal town, state/province and zipcode (for American, Canadian and Australian addresses, e.g. Bedford, MA 01730) |
-| PostCode | cozi | Postcode including country prefix (e.g. N-0163 for a postcode in Norway) |
 | StreetAddressCity | scit | Postal town for street address (for German addresses) |
 | StreetAddressLine1 | sadr | Street address/office address, address line 1 |
 | StreetAddressLine2 | sad2 | Street address/office address, address line 2 |
@@ -44,7 +40,6 @@
 | StreetAddressZip | zipp | Postcode for street address |
 | StreetAddressZipGerman | szip | Postcode for street address (for German addresses) |
 | SupportPersonId | cspi | The company's primary support person ID |
-| SupportPersonName | cspn | The company's primary support person - full name |
 | Web | cwww | The company's primary web address |
 | WebId | cwwi | The company's primary web address id |
 | WebNoProtocol | cwnp | The company's primary web address |

@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 603,
+  "TicketId": 587,
   "MessageIds": [
-    691,
-    275
+    472,
+    767
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 252,
+    "EjMessageId": 232,
     "Ticket": null,
-    "CreatedAt": "2004-09-25T16:32:40.351984+02:00",
+    "CreatedAt": "1998-02-10T17:54:03.8201724+01:00",
     "CreatedBy": null,
-    "Author": "officia",
+    "Author": "possimus",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "et",
-    "TimeSpent": 292,
-    "Body": "accusamus",
-    "HtmlBody": "fuga",
-    "EmailHeader": "demarcus_kautzer@moen.name",
-    "DebugInfo": "qui",
-    "MailSorter": "officiis",
+    "MessageId": "eum",
+    "TimeSpent": 862,
+    "Body": "esse",
+    "HtmlBody": "sint",
+    "EmailHeader": "frederik@zboncak.uk",
+    "DebugInfo": "aliquid",
+    "MailSorter": "aut",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "omnis",
+    "SearchTitle": "vero",
     "MessageHeaders": [
       {
-        "Id": 492,
-        "Name": "Casper-Pollich",
-        "Value": "ipsam",
+        "Id": 312,
+        "Name": "Kunde-Schamberger",
+        "Value": "aut",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 4
+            "FieldType": "System.Int32",
+            "FieldLength": 26
           }
         }
       }
     ],
     "Important": true,
-    "Language": "accusamus",
-    "Sentiment": 670,
-    "SentimentConfidence": 765,
+    "Language": "neque",
+    "Sentiment": 665,
+    "SentimentConfidence": 587,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 751,
-        "Name": "Wyman-Muller",
-        "ContentType": "ut",
-        "AttSize": 292,
+        "AttachmentId": 926,
+        "Name": "Powlowski, Stiedemann and Ledner",
+        "ContentType": "aut",
+        "AttSize": 835,
         "InlineImage": false,
-        "ContentId": "eligendi",
-        "AuthKey": "reiciendis",
+        "ContentId": "et",
+        "AuthKey": "aperiam",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 23
+            "FieldType": "System.Int32",
+            "FieldLength": 769
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "aliquid",
-      "ExtraFields2": "vitae"
+      "ExtraFields1": "qui",
+      "ExtraFields2": "maxime"
     },
     "CustomFields": {
-      "CustomFields1": "omnis",
-      "CustomFields2": "ratione"
+      "CustomFields1": "vel",
+      "CustomFields2": "quis"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 690
       }
     }
   }

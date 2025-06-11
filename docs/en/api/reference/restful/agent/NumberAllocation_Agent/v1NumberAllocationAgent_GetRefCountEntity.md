@@ -26,7 +26,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=733
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=778
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,49 +87,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 989,
-  "Field": "molestiae",
-  "RecordId": 697,
+  "RefCountsId": 673,
+  "Field": "voluptas",
+  "RecordId": 668,
   "SuggestedRecords": [
     {
-      "Id": 847,
-      "Name": "Glover-Bosco",
-      "ToolTip": "Delectus sed sunt quia officiis.",
+      "Id": 251,
+      "Name": "Weimann Group",
+      "ToolTip": "Aut aliquid aliquid eos in porro id.",
       "Deleted": false,
-      "Rank": 441,
-      "Type": "veritatis",
+      "Rank": 667,
+      "Type": "inventore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 747,
-      "ExtraInfo": "molestiae",
-      "StyleHint": "dolore",
-      "FullName": "Clovis Towne",
+      "IconHint": "possimus",
+      "ColorBlock": 167,
+      "ExtraInfo": "similique",
+      "StyleHint": "dolorem",
+      "FullName": "Julian Barton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 980
+          "FieldLength": 598
         }
       }
     }
   ],
-  "CurrentValue": 601,
-  "TravelPrefix": 74,
-  "SatPrefix": 943,
+  "CurrentValue": 82,
+  "TravelPrefix": 733,
+  "SatPrefix": 809,
   "Allocate": false,
   "Unique": true,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 981
     }
   }
 }

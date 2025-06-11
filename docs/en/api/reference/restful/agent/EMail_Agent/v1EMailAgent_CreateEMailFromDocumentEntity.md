@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 221,
-      "ContactName": "Howe, Langosh and D'Amore",
-      "PersonId": 361,
-      "PersonName": "Blick Group",
-      "AssociateId": 871,
-      "Address": "necessitatibus",
-      "EmailId": 273,
+      "ContactId": 465,
+      "ContactName": "Bailey Group",
+      "PersonId": 314,
+      "PersonName": "Jacobi, Lockman and Wisozk",
+      "AssociateId": 146,
+      "Address": "nisi",
+      "EmailId": 143,
       "DuplicatePersonIds": [
-        624,
-        374
+        451,
+        344
       ],
-      "Name": "Parker, Armstrong and Fritsch",
+      "Name": "Goyette Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 280
+          "FieldLength": 127
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 148,
-      "ContactName": "Feil Group",
-      "PersonId": 320,
-      "PersonName": "Hegmann-Lakin",
-      "AssociateId": 797,
-      "Address": "et",
-      "EmailId": 500,
+      "ContactId": 597,
+      "ContactName": "Von Inc and Sons",
+      "PersonId": 149,
+      "PersonName": "Adams LLC",
+      "AssociateId": 304,
+      "Address": "ipsam",
+      "EmailId": 92,
       "DuplicatePersonIds": [
-        142,
-        942
+        540,
+        53
       ],
-      "Name": "Lemke-Hegmann",
+      "Name": "Aufderhar Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 714
+          "FieldLength": 735
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 591,
-      "ContactName": "Armstrong-Greenholt",
-      "PersonId": 213,
-      "PersonName": "Klein-Kessler",
-      "AssociateId": 186,
-      "Address": "et",
-      "EmailId": 846,
+      "ContactId": 33,
+      "ContactName": "Schumm, Konopelski and Morissette",
+      "PersonId": 593,
+      "PersonName": "Dietrich LLC",
+      "AssociateId": 251,
+      "Address": "aut",
+      "EmailId": 526,
       "DuplicatePersonIds": [
-        881,
-        572
+        585,
+        562
       ],
-      "Name": "Ferry-Greenholt",
+      "Name": "Hamill Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 495
+          "FieldType": "System.Int32",
+          "FieldLength": 355
         }
       }
     }
   ],
-  "Subject": "fugit",
-  "HTMLBody": "architecto",
+  "Subject": "voluptatum",
+  "HTMLBody": "possimus",
   "From": null,
-  "Sent": "2011-09-09T16:32:39.0551619+02:00",
-  "Size": 79,
+  "Sent": "2015-12-21T17:54:03.1170817+01:00",
+  "Size": 962,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "fugiat",
-  "PlainBody": "ipsa",
-  "IsSent": true,
+  "MessageID": "velit",
+  "PlainBody": "et",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 553,
+  "ServerId": 827,
   "Attachments": [
     {
-      "Description": "Multi-tiered even-keeled encryption",
-      "Filename": "quibusdam",
-      "Size": 253,
-      "Type": "quia",
-      "Encoding": "cupiditate",
-      "Id": "similique",
-      "Disposition": "optio",
-      "IsSafeFileExtension": false,
+      "Description": "Customizable multimedia throughput",
+      "Filename": "enim",
+      "Size": 943,
+      "Type": "modi",
+      "Encoding": "repellat",
+      "Id": "alias",
+      "Disposition": "illo",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 215
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hessel, Stroman and Kuphal",
+      "Name": "Abshire, White and Bernier",
       "Values": [
-        "dignissimos",
-        "consequatur"
+        "sequi",
+        "occaecati"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldType": "System.Int32",
+          "FieldLength": 658
         }
       }
     },
     {
-      "Name": "Hessel, Stroman and Kuphal",
+      "Name": "Abshire, White and Bernier",
       "Values": [
-        "dignissimos",
-        "consequatur"
+        "sequi",
+        "occaecati"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldType": "System.Int32",
+          "FieldLength": 658
         }
       }
     }
   ],
-  "FolderName": "Kutch-Zboncak",
-  "EmailItemId": 715,
-  "AccountId": 401,
-  "ReceivedAt": "2019-08-08T16:32:39.0551619+02:00",
+  "FolderName": "Runolfsson LLC",
+  "EmailItemId": 848,
+  "AccountId": 799,
+  "ReceivedAt": "2010-03-04T17:54:03.1170817+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-06-07T16:32:39.0551619+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2006-07-08T17:54:03.1170817+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 215
+      "FieldType": "System.String",
+      "FieldLength": 796
     }
   }
 }

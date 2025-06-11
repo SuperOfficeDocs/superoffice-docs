@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "numquam",
-  "ProviderName": "Rowe-Blick",
-  "StorageKey": "atque"
+  "StorageType": "rerum",
+  "ProviderName": "Willms, Cremin and Wuckert",
+  "StorageKey": "tempore"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "McGlynn-Lakin",
-    "DisplayTooltip": "quam",
-    "DisplayType": "repellat",
-    "CanOrderBy": true,
-    "Name": "Swift Group",
-    "CanRestrictBy": false,
-    "RestrictionType": "minima",
-    "RestrictionListName": "Okuneva Inc and Sons",
+    "DisplayName": "Steuber-Watsica",
+    "DisplayTooltip": "ea",
+    "DisplayType": "rerum",
+    "CanOrderBy": false,
+    "Name": "Rice LLC",
+    "CanRestrictBy": true,
+    "RestrictionType": "sed",
+    "RestrictionListName": "Reichel LLC",
     "IsVisible": false,
-    "ExtraInfo": "qui",
-    "Width": "rerum",
-    "IconHint": "ut",
-    "HeadingIconHint": "veritatis"
+    "ExtraInfo": "deleniti",
+    "Width": "est",
+    "IconHint": "quo",
+    "HeadingIconHint": "quas"
   }
 ]
 ```

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 221,
-  "Select": "omnis"
+  "SelectionId": 266,
+  "Select": "repudiandae"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rutherford, Bergstrom and Zboncak",
-    "PrimaryKey": 236,
+    "EntityName": "Hayes LLC",
+    "PrimaryKey": 961,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ab",
-        "TooltipHint": "tempore",
-        "LinkHint": "aut"
+        "DisplayValue": "quibusdam",
+        "TooltipHint": "distinctio",
+        "LinkHint": "sit"
       }
     },
-    "LinkHint": "voluptatum",
-    "StyleHint": "et",
+    "LinkHint": "aut",
+    "StyleHint": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldType": "System.String",
+        "FieldLength": 351
       }
     }
   }

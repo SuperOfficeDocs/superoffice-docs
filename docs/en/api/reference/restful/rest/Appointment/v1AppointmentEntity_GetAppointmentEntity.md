@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=False
+GET /api/v1/Appointment/{id}?fk=True
 ```
 
 
@@ -143,128 +143,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 29 Aug 2021 16:32:47 G8T
+Last-Modified: Tue, 25 Jul 2006 17:54:07 G7T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-04-16T16:32:47.0399289+02:00",
-  "AppointmentId": 15,
-  "Description": "Advanced assymetric project",
-  "Title": "veritatis",
-  "Agenda": "dolor",
-  "InternalNotes": "maxime",
-  "StartDate": "2009-10-06T16:32:47.0399289+02:00",
-  "EndDate": "2016-08-08T16:32:47.0399289+02:00",
+  "CreatedDate": "2021-06-26T17:54:07.9449711+02:00",
+  "AppointmentId": 856,
+  "Description": "Persistent attitude-oriented paradigm",
+  "Title": "quod",
+  "Agenda": "dolore",
+  "InternalNotes": "est",
+  "StartDate": "2004-04-28T17:54:07.9449711+02:00",
+  "EndDate": "2020-12-12T17:54:07.9449711+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 853,
+  "MotherId": 346,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-08-29T16:32:47.0399289+02:00",
+  "UpdatedDate": "2006-07-25T17:54:07.9449711+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 360,
+  "ActiveLinks": 736,
   "Links": [
     {
-      "EntityName": "Wuckert-Bins",
-      "Id": 408,
-      "Description": "Diverse didactic paradigm",
-      "ExtraInfo": "quam",
-      "LinkId": 412,
+      "EntityName": "Renner Inc and Sons",
+      "Id": 707,
+      "Description": "Function-based fresh-thinking forecast",
+      "ExtraInfo": "optio",
+      "LinkId": 761,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 269
         }
       }
     }
   ],
-  "AlarmLeadTime": "quasi",
+  "AlarmLeadTime": "consectetur",
   "HasAlarm": true,
-  "ColorIndex": 399,
-  "IsFree": false,
+  "ColorIndex": 692,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "ullam",
+  "LagTime": "ad",
   "LeadTime": "et",
-  "Location": "non",
-  "RejectCounter": 438,
+  "Location": "vel",
+  "RejectCounter": 369,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 24,
-      "PersonId": 50,
-      "ContactId": 109,
-      "EmailId": 655,
-      "SendEmail": false,
+      "AssociateId": 335,
+      "PersonId": 538,
+      "ContactId": 169,
+      "EmailId": 695,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "daniella@jakubowski.name",
-      "Description": "Re-engineered background application"
+      "EmailAddress": "aiden@bergstrom.info",
+      "Description": "Object-based full-range interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-08-11T16:32:47.0399289+02:00",
+  "ActiveDate": "2014-05-21T17:54:07.9449711+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 890,
+  "PreferredTZLocation": 214,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 425,
+  "SuggestedAppointmentId": 10,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "Allene Abigayle Hayes PhD",
-    "SuperOffice:2": "203999275"
+    "SuperOffice:1": "Prof. Dianna Shanahan IV",
+    "SuperOffice:2": "Saul Furman Aufderhar Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "repellendus",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "vero"
   },
   "CustomFields": {
-    "CustomFields1": "ipsa",
-    "CustomFields2": "tenetur"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "quasi"
   },
-  "PublishEventDate": "2017-05-20T16:32:47.0399289+02:00",
-  "PublishTo": "2013-02-14T16:32:47.0399289+01:00",
-  "PublishFrom": "2001-03-22T16:32:47.0399289+01:00",
+  "PublishEventDate": "2006-05-30T17:54:07.9449711+02:00",
+  "PublishTo": "2025-04-20T17:54:07.9449711+02:00",
+  "PublishFrom": "2015-03-22T17:54:07.9449711+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 252,
+      "VisibleId": 227,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 150
+          "FieldLength": 307
         }
       }
     },
     {
-      "VisibleId": 252,
+      "VisibleId": 227,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 150
+          "FieldLength": 307
         }
       }
     }
@@ -274,7 +274,7 @@ Last-Modified: Sun, 29 Aug 2021 16:32:47 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldLength": 197
     }
   },
   "_Links": {

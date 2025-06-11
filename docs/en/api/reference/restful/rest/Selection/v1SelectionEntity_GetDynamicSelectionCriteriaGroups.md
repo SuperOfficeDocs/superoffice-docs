@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,58 +73,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Franecki-Ortiz",
-    "Description": "Team-oriented value-added support",
-    "Rank": 349,
+    "Name": "Pacocha-Langworth",
+    "Description": "Team-oriented regional frame",
+    "Rank": 686,
     "Restrictions": [
       {
-        "Name": "Hirthe, Terry and Keebler",
-        "Operator": "atque",
+        "Name": "Wyman LLC",
+        "Operator": "aut",
         "Values": [
-          "assumenda",
-          "illo"
+          "rerum",
+          "et"
         ],
         "DisplayValues": [
-          "non",
-          "tempore"
+          "aut",
+          "aut"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 804,
+        "InterParenthesis": 802,
         "InterOperator": "And",
-        "UniqueHash": 27
+        "UniqueHash": 873
       }
     ]
   },
   {
-    "Name": "Franecki-Ortiz",
-    "Description": "Team-oriented value-added support",
-    "Rank": 349,
+    "Name": "Pacocha-Langworth",
+    "Description": "Team-oriented regional frame",
+    "Rank": 686,
     "Restrictions": [
       {
-        "Name": "Hirthe, Terry and Keebler",
-        "Operator": "atque",
+        "Name": "Wyman LLC",
+        "Operator": "aut",
         "Values": [
-          "assumenda",
-          "illo"
+          "rerum",
+          "et"
         ],
         "DisplayValues": [
-          "non",
-          "tempore"
+          "aut",
+          "aut"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 804,
+        "InterParenthesis": 802,
         "InterOperator": "And",
-        "UniqueHash": 27
+        "UniqueHash": 873
       }
     ]
   }

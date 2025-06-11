@@ -104,8 +104,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 815,
-  "Count": 164
+  "AmountLimit": 187,
+  "Count": 182
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ledner, Leffler and Harvey",
-    "SaleDate": "2011-12-20T16:32:39.8520956+01:00",
-    "SaleId": 358,
-    "Probability": 414,
-    "Title": "ut",
-    "Amount": 14764.274,
-    "Currency": "quia",
-    "ProjectName": "Thompson, Shanahan and Kunze",
-    "AssociateFullName": "Collin Ava Larson II",
-    "Description": "Profit-focused directional complexity",
+    "ContactName": "Dach, Kuhic and Sporer",
+    "SaleDate": "2009-08-09T17:54:03.5858088+02:00",
+    "SaleId": 422,
+    "Probability": 973,
+    "Title": "in",
+    "Amount": 6474.844,
+    "Currency": "cum",
+    "ProjectName": "Runte, Reilly and Baumbach",
+    "AssociateFullName": "Dr. Garnett Charlene Schaden",
+    "Description": "Decentralized foreground artificial intelligence",
     "Status": "Lost",
-    "WeightedAmount": 21934.865999999998,
-    "ProjectId": 269,
-    "EarningPercent": 15535.238,
-    "Earning": 11520.583999999999,
-    "ContactId": 151,
-    "AssociateId": 455,
-    "PersonId": 719,
-    "SaleTypeId": 720,
-    "SaleTypeName": "Conroy-Swift",
-    "PersonFullName": "Lura Kunze",
+    "WeightedAmount": 6929.2739999999994,
+    "ProjectId": 202,
+    "EarningPercent": 27547.86,
+    "Earning": 639.336,
+    "ContactId": 575,
+    "AssociateId": 247,
+    "PersonId": 540,
+    "SaleTypeId": 55,
+    "SaleTypeName": "Murphy, Kuvalis and Blick",
+    "PersonFullName": "Marian Wunsch",
     "Completed": "Completed",
-    "ActiveErpLinks": 74,
-    "NextDueDate": "2017-10-25T16:32:39.8520956+02:00",
-    "Number": "613971",
+    "ActiveErpLinks": 563,
+    "NextDueDate": "2002-04-01T17:54:03.5858088+02:00",
+    "Number": "703505",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 523
+        "FieldLength": 576
       }
     }
   }

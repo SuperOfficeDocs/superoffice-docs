@@ -88,7 +88,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "minus"
+  "CRMScriptIncludeId": "quam"
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "quasi",
-  "LineNumber": 782,
+  "Valid": true,
+  "ErrorMessage": "voluptatem",
+  "LineNumber": 475,
   "ErrorInformation": null,
-  "Transpiled": "tempora",
+  "Transpiled": "nostrum",
   "Includes": [
-    922,
-    392
+    590,
+    428
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 339,
-      "LineNumberTo": 643,
-      "Delta": 885,
-      "IncludeId": "velit",
+      "LineNumberFrom": 818,
+      "LineNumberTo": 628,
+      "Delta": 425,
+      "IncludeId": "quia",
       "IncludedFrom": [
-        "asperiores",
-        "quo"
+        "non",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldType": "System.Int32",
+          "FieldLength": 242
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldLength": 923
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 794,
-    "Name": "Reynolds, Kuphal and Bayer",
-    "Tooltip": "eum",
-    "Deleted": true,
-    "Rank": 594,
-    "UdListDefinitionId": 652,
+    "HeadingId": 819,
+    "Name": "Treutel-Wuckert",
+    "Tooltip": "dicta",
+    "Deleted": false,
+    "Rank": 928,
+    "UdListDefinitionId": 564,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 340
       }
     }
   }

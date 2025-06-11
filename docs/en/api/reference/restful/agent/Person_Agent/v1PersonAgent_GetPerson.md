@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=951
+POST /api/v1/Agents/Person/GetPerson?personId=883
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -117,53 +117,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "quis",
-  "PersonId": 822,
-  "Mrmrs": "laboriosam",
-  "Firstname": "Jermey",
-  "Lastname": "Romaguera",
-  "MiddleName": "Spencer Inc and Sons",
-  "Title": "iusto",
-  "Description": "Optional system-worthy service-desk",
-  "Email": "herman.grady@rogahnmetz.ca",
-  "FullName": "Ashlynn Jenkins",
-  "DirectPhone": "763-228-1890",
-  "FormalName": "Fadel Group",
-  "CountryId": 556,
-  "ContactId": 343,
-  "ContactName": "Klein-Heidenreich",
-  "Retired": 798,
-  "Rank": 379,
-  "ActiveInterests": 864,
+  "Position": "id",
+  "PersonId": 63,
+  "Mrmrs": "voluptatibus",
+  "Firstname": "Pasquale",
+  "Lastname": "Berge",
+  "MiddleName": "Marquardt Inc and Sons",
+  "Title": "praesentium",
+  "Description": "Enterprise-wide needs-based infrastructure",
+  "Email": "devan@brakus.us",
+  "FullName": "Marquis Jakubowski",
+  "DirectPhone": "240-796-6993",
+  "FormalName": "Parker Group",
+  "CountryId": 404,
+  "ContactId": 1002,
+  "ContactName": "Littel LLC",
+  "Retired": 375,
+  "Rank": 290,
+  "ActiveInterests": 923,
   "ContactDepartment": "",
-  "ContactCountryId": 738,
-  "ContactOrgNr": "784544",
-  "FaxPhone": "630.396.9022 x0519",
-  "MobilePhone": "(733)498-6158 x117",
-  "ContactPhone": "284-831-6653 x9558",
-  "AssociateName": "Bartoletti LLC",
-  "AssociateId": 410,
-  "UsePersonAddress": true,
-  "ContactFax": "sunt",
-  "Kanafname": "nostrum",
-  "Kanalname": "qui",
-  "Post1": "eos",
-  "Post2": "sed",
-  "Post3": "sint",
-  "EmailName": "elisa_raynor@wunschortiz.us",
-  "ContactFullName": "Abigayle Donnelly V",
-  "ActiveErpLinks": 920,
-  "TicketPriorityId": 155,
-  "SupportLanguageId": 690,
-  "SupportAssociateId": 853,
+  "ContactCountryId": 261,
+  "ContactOrgNr": "939381",
+  "FaxPhone": "1-586-213-2559 x8978",
+  "MobilePhone": "598.947.6161 x06239",
+  "ContactPhone": "479-946-6214",
+  "AssociateName": "Stehr, Bernhard and Schumm",
+  "AssociateId": 515,
+  "UsePersonAddress": false,
+  "ContactFax": "earum",
+  "Kanafname": "ut",
+  "Kanalname": "ipsa",
+  "Post1": "nisi",
+  "Post2": "id",
+  "Post3": "quos",
+  "EmailName": "ethel@eichmann.info",
+  "ContactFullName": "Mr. Vernice Tyler Hayes",
+  "ActiveErpLinks": 577,
+  "TicketPriorityId": 285,
+  "SupportLanguageId": 658,
+  "SupportAssociateId": 323,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1257292",
+  "PersonNumber": "1111304",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldType": "System.String",
+      "FieldLength": 392
     }
   }
 }

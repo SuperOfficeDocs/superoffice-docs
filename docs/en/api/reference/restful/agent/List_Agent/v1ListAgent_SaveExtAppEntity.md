@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 307,
-  "Name": "Wunsch Group",
-  "Tooltip": "tempore",
-  "Deleted": true,
-  "Rank": 430,
-  "Filename": "autem",
-  "Parameters": "eum",
-  "Workdir": "sed",
+  "ExtAppId": 624,
+  "Name": "Witting Inc and Sons",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 854,
+  "Filename": "ipsum",
+  "Parameters": "vel",
+  "Workdir": "nisi",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 990,
-  "WaitToFinish": false,
+  "Icon": 715,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ut"
+  "Path": "facere"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 87,
-  "Name": "Armstrong, Hilpert and Brakus",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 907,
-  "Filename": "delectus",
-  "Parameters": "quo",
-  "Workdir": "et",
+  "ExtAppId": 69,
+  "Name": "Olson Inc and Sons",
+  "Tooltip": "sequi",
+  "Deleted": false,
+  "Rank": 811,
+  "Filename": "repellendus",
+  "Parameters": "rem",
+  "Workdir": "cumque",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 217,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "Icon": 305,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "at",
+  "Path": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 715
     }
   }
 }

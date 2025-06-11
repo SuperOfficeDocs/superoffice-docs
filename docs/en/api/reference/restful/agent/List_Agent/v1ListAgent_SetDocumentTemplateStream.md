@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "molestias",
-  "PluginId": 386
+  "LanguageCode": "rerum",
+  "PluginId": 456
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 565,
-  "Name": "Kiehn LLC",
-  "Tooltip": "quod",
-  "SaveInDb": 327,
-  "Filename": "temporibus",
-  "DefaultOref": "accusantium",
+  "DocumentTemplateId": 70,
+  "Name": "Howe, Stiedemann and Beer",
+  "Tooltip": "inventore",
+  "SaveInDb": 461,
+  "Filename": "dolor",
+  "DefaultOref": "facere",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 341,
-  "IntentId": 74,
+  "AutoeventId": 97,
+  "IntentId": 979,
   "IsDefaultPublished": false,
-  "Rank": 986,
-  "LoadTemplateFromPlugin": 493,
-  "MimeType": "voluptatem",
+  "Rank": 226,
+  "LoadTemplateFromPlugin": 702,
+  "MimeType": "dicta",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 340,
+  "DocumentTypeKey": 378,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "wade.ohara@collins.com",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "mohammad@bartolettijacobi.biz",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "julian.predovic@labadie.ca",
+  "SenderEmailAddress": "dave@hills.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 219
+      "FieldType": "System.Int32",
+      "FieldLength": 49
     }
   }
 }

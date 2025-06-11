@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 577,
-  "Name": "Gerlach-Graham",
-  "Tooltip": "qui",
+  "RoleId": 135,
+  "Name": "Blanda Group",
+  "Tooltip": "eveniet",
   "RoleType": "Anonymous",
-  "Deleted": 759,
-  "Rank": 454,
-  "Created": "2008-04-14T16:32:40.4613345+02:00",
-  "UseCategories": 531,
+  "Deleted": 200,
+  "Rank": 764,
+  "Created": "2004-05-05T17:54:03.8826694+02:00",
+  "UseCategories": 249,
   "CreatedBy": null,
-  "Updated": "2022-01-27T16:32:40.4613345+01:00",
+  "Updated": "2022-11-12T17:54:03.8826694+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldType": "System.String",
+      "FieldLength": 307
     }
   }
 }

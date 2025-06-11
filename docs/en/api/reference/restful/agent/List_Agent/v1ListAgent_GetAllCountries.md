@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 219,
-    "Name": "Nolan-Wolff",
-    "CurrencyId": 954,
-    "EnglishName": "Kovacek-Feest",
+    "CountryId": 600,
+    "Name": "Prosacco Inc and Sons",
+    "CurrencyId": 347,
+    "EnglishName": "Kirlin Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Adaptive 4th generation algorithm",
-    "OrgNrText": "866337",
-    "InterAreaPrefix": "aperiam",
-    "DialInPrefix": "sunt",
-    "ZipPrefix": "ipsum",
-    "DomainName": "Rempel-Bogisich",
-    "AddressLayoutId": 557,
-    "DomesticAddressLayoutId": 875,
-    "ForeignAddressLayoutId": 236,
-    "Rank": 457,
-    "Tooltip": "voluptates",
+    "ImageDescription": "Public-key demand-driven Graphical User Interface",
+    "OrgNrText": "602374",
+    "InterAreaPrefix": "velit",
+    "DialInPrefix": "molestias",
+    "ZipPrefix": "odit",
+    "DomainName": "Volkman, Cruickshank and Corkery",
+    "AddressLayoutId": 648,
+    "DomesticAddressLayoutId": 551,
+    "ForeignAddressLayoutId": 356,
+    "Rank": 99,
+    "Tooltip": "dolore",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 258
+        "FieldType": "System.String",
+        "FieldLength": 998
       }
     }
   }

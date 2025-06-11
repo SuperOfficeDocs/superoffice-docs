@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "nisi",
-  "IsoLangCode": "commodi",
-  "UserPrompt": "ut",
-  "DisplayValue": "ipsa",
+  "ChatId": "enim",
+  "IsoLangCode": "ea",
+  "UserPrompt": "non",
+  "DisplayValue": "quidem",
   "PreviousTurns": [
     {
-      "Timestamp": "2003-10-11T16:32:37.5553077+02:00",
-      "UserPrompt": "aliquid",
-      "UserDisplayText": "aut",
-      "BotResponse": "debitis",
+      "Timestamp": "2017-03-05T17:54:02.3514942+01:00",
+      "UserPrompt": "porro",
+      "UserDisplayText": "quis",
+      "BotResponse": "et",
       "BotActions": {
-        "BotActions1": "ut",
-        "BotActions2": "a"
+        "BotActions1": "dolorum",
+        "BotActions2": "qui"
       },
       "Attachments": [
-        "ratione",
-        "reiciendis"
+        "aspernatur",
+        "explicabo"
       ]
     },
     {
-      "Timestamp": "2003-10-11T16:32:37.5553077+02:00",
-      "UserPrompt": "aliquid",
-      "UserDisplayText": "aut",
-      "BotResponse": "debitis",
+      "Timestamp": "2017-03-05T17:54:02.3514942+01:00",
+      "UserPrompt": "porro",
+      "UserDisplayText": "quis",
+      "BotResponse": "et",
       "BotActions": {
-        "BotActions1": "ut",
-        "BotActions2": "a"
+        "BotActions1": "dolorum",
+        "BotActions2": "qui"
       },
       "Attachments": [
-        "ratione",
-        "reiciendis"
+        "aspernatur",
+        "explicabo"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2023-05-11T16:32:37.5553077+02:00",
-  "UserPrompt": "aut",
-  "UserDisplayText": "ut",
-  "BotResponse": "et",
+  "Timestamp": "2010-04-26T17:54:02.3514942+02:00",
+  "UserPrompt": "est",
+  "UserDisplayText": "et",
+  "BotResponse": "rem",
   "BotActions": {
-    "BotActions1": "quam",
-    "BotActions2": "fugiat"
+    "BotActions1": "quos",
+    "BotActions2": "iste"
   },
   "Attachments": [
-    "quo",
-    "sequi"
+    "et",
+    "ipsum"
   ]
 }
 ```

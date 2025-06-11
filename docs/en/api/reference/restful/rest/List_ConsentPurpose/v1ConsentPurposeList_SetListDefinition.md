@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Cummerata, Gusikowski and Heidenreich",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "Rank": 782,
+  "Id": 571,
+  "Name": "Towne LLC",
+  "Tooltip": "quaerat",
+  "Deleted": false,
+  "Rank": 59,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "autem",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "maiores",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 876,
-  "Name": "Kozey Group",
-  "Tooltip": "repudiandae",
-  "Deleted": true,
-  "Rank": 721,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "Id": 787,
+  "Name": "Lubowitz LLC",
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
+  "Rank": 50,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "in",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 815
     }
   }
 }

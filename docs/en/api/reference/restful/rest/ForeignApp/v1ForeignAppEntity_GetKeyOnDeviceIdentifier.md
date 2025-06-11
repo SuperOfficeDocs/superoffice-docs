@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 03 Apr 2004 16:32:47 G4T
+Last-Modified: Wed, 12 Jun 2024 17:54:08 G6T
 
 {
-  "Key": "officia",
-  "Value": "velit",
-  "RecordId": 687,
-  "CreatedDate": "2016-07-03T16:32:47.5558268+02:00",
-  "UpdatedDate": "2004-04-03T16:32:47.5558268+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "omnis",
-  "TableName": "Hirthe, Cassin and Kozey",
+  "Key": "quam",
+  "Value": "in",
+  "RecordId": 672,
+  "CreatedDate": "2009-09-10T17:54:08.2574567+02:00",
+  "UpdatedDate": "2024-06-12T17:54:08.2574567+02:00",
+  "UpdatedBy": "temporibus",
+  "CreatedBy": "molestiae",
+  "TableName": "Ferry Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 202
     }
   }
 }

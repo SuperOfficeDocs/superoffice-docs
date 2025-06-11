@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 714,
-  "Name": "Keeling, Douglas and Lynch",
-  "Tooltip": "deleniti",
+  "WebPanelId": 586,
+  "Name": "Ward-Schiller",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 519,
+  "Rank": 884,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Wuckert-Windler",
+  "WindowName": "Yost Group",
   "Url": "http://www.example.com/",
-  "ProgId": "harum",
-  "Icon": 966,
+  "ProgId": "et",
+  "Icon": 823,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 136
+      "FieldType": "System.Int32",
+      "FieldLength": 105
     }
   }
 }

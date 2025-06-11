@@ -1625,6 +1625,21 @@ title: Services88.PersonAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="AttachmentEntity" nillable="true" type="tns:AttachmentEntity" />
+      <xs:element name="SendCustomerCentrePasswordEmail">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+            <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="To" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SendCustomerCentrePasswordEmailResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="SendEmail">
         <xs:complexType>
           <xs:sequence>
@@ -2694,6 +2709,23 @@ title: Services88.PersonAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SendCustomerCentrePasswordEmailRequest">
+    <wsdl:part name="parameters" element="tns:SendCustomerCentrePasswordEmail" />
+  </wsdl:message>
+  <wsdl:message name="SendCustomerCentrePasswordEmailRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SendCustomerCentrePasswordEmailResponse">
+    <wsdl:part name="parameters" element="tns:SendCustomerCentrePasswordEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendCustomerCentrePasswordEmailResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="SendEmailRequest">
     <wsdl:part name="parameters" element="tns:SendEmail" />
   </wsdl:message>
@@ -3103,6 +3135,10 @@ title: Services88.PersonAgent WSDL
     <wsdl:operation name="GetCustomerCentrePasswordReplyTemplate">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetCustomerCentrePasswordReplyTemplate" name="GetCustomerCentrePasswordReplyTemplateRequest" message="tns:GetCustomerCentrePasswordReplyTemplateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetCustomerCentrePasswordReplyTemplateResponse" name="GetCustomerCentrePasswordReplyTemplateResponse" message="tns:GetCustomerCentrePasswordReplyTemplateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SendCustomerCentrePasswordEmail">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendCustomerCentrePasswordEmail" name="SendCustomerCentrePasswordEmailRequest" message="tns:SendCustomerCentrePasswordEmailRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendCustomerCentrePasswordEmailResponse" name="SendCustomerCentrePasswordEmailResponse" message="tns:SendCustomerCentrePasswordEmailResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendEmail">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmail" name="SendEmailRequest" message="tns:SendEmailRequest" />
@@ -3908,6 +3944,22 @@ title: Services88.PersonAgent WSDL
         <soap:header message="tns:GetCustomerCentrePasswordReplyTemplateResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetCustomerCentrePasswordReplyTemplateResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetCustomerCentrePasswordReplyTemplateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendCustomerCentrePasswordEmail">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendCustomerCentrePasswordEmail" style="document" />
+      <wsdl:input name="SendCustomerCentrePasswordEmailRequest">
+        <soap:header message="tns:SendCustomerCentrePasswordEmailRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SendCustomerCentrePasswordEmailRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SendCustomerCentrePasswordEmailRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SendCustomerCentrePasswordEmailResponse">
+        <soap:header message="tns:SendCustomerCentrePasswordEmailResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SendCustomerCentrePasswordEmailResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SendCustomerCentrePasswordEmailResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SendCustomerCentrePasswordEmailResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

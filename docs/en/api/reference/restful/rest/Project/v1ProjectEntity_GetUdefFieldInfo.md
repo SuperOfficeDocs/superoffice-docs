@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 120,
-  "ColumnId": 114,
-  "FieldDefault": "iusto",
-  "FieldHeight": 932,
-  "FieldLabel": "id",
-  "FieldLeft": 615,
-  "FieldTop": 233,
+  "UDefFieldId": 432,
+  "ColumnId": 787,
+  "FieldDefault": "fugiat",
+  "FieldHeight": 293,
+  "FieldLabel": "velit",
+  "FieldLeft": 551,
+  "FieldTop": 884,
   "FieldType": "Checkbox",
-  "FieldWidth": 886,
-  "FormatMask": "voluptatem",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 625,
-  "LabelLeft": 132,
-  "LabelTop": 312,
-  "LabelWidth": 417,
-  "LastVersionId": 15,
-  "ListTableId": 487,
+  "FieldWidth": 156,
+  "FormatMask": "libero",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 699,
+  "LabelLeft": 795,
+  "LabelTop": 564,
+  "LabelWidth": 43,
+  "LastVersionId": 983,
+  "ListTableId": 442,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 464,
-  "ProgId": "ducimus",
-  "IsReadOnly": false,
-  "ShortLabel": "laudantium",
-  "TabOrder": 746,
-  "TextLength": 610,
-  "Tooltip": "et",
-  "UdefIdentity": 252,
-  "UDListDefinitionId": 221,
+  "Page1LineNo": 219,
+  "ProgId": "dignissimos",
+  "IsReadOnly": true,
+  "ShortLabel": "fuga",
+  "TabOrder": 762,
+  "TextLength": 521,
+  "Tooltip": "ut",
+  "UdefIdentity": 934,
+  "UDListDefinitionId": 291,
   "Justification": "Center",
-  "Version": 967,
-  "TemplateVariableName": "Welch-Rohan",
-  "HasBeenPublished": true,
-  "MdoListName": "Hermann, Marvin and Gusikowski",
+  "Version": 976,
+  "TemplateVariableName": "Thiel Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Grady-Hilll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldType": "System.String",
+      "FieldLength": 780
     }
   }
 }

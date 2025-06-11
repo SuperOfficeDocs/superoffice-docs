@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 578,
-    "Name": "Doyle, Hudson and Nitzsche",
-    "Tooltip": "hic",
+    "HeadingId": 921,
+    "Name": "Wehner, Rogahn and Ryan",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 902,
-    "UdListDefinitionId": 673
+    "Rank": 184,
+    "UdListDefinitionId": 775
   },
   {
-    "HeadingId": 578,
-    "Name": "Doyle, Hudson and Nitzsche",
-    "Tooltip": "hic",
+    "HeadingId": 921,
+    "Name": "Wehner, Rogahn and Ryan",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 902,
-    "UdListDefinitionId": 673
+    "Rank": 184,
+    "UdListDefinitionId": 775
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 420,
-    "Name": "Purdy Inc and Sons",
-    "Tooltip": "perferendis",
-    "Deleted": true,
-    "Rank": 17,
-    "UdListDefinitionId": 229,
+    "HeadingId": 288,
+    "Name": "Buckridge, Von and Blick",
+    "Tooltip": "incidunt",
+    "Deleted": false,
+    "Rank": 934,
+    "UdListDefinitionId": 659,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 27
+        "FieldLength": 99
       }
     }
   }

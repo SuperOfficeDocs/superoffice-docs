@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 223,
-    "Name": "Mante-Keeling",
-    "Tooltip": "reprehenderit",
-    "Rank": 627,
-    "Rate": 3243.69,
-    "Units": 5048.874,
+    "CurrencyId": 830,
+    "Name": "Huel Group",
+    "Tooltip": "in",
+    "Rank": 404,
+    "Rate": 1068.694,
+    "Units": 30537.696,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 751
+        "FieldLength": 126
       }
     }
   }

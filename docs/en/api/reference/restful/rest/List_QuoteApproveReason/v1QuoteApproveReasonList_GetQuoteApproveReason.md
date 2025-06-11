@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "Farrell, Toy and Green",
-  "Tooltip": "assumenda",
+  "Id": 120,
+  "Name": "Raynor-Nolan",
+  "Tooltip": "nihil",
   "Deleted": true,
-  "UdListDefinitionId": 201,
-  "Rank": 748,
+  "UdListDefinitionId": 694,
+  "Rank": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 127
     }
   }
 }

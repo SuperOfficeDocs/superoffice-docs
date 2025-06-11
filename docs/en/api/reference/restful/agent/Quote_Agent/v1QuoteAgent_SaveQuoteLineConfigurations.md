@@ -83,21 +83,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 914,
-      "FieldName": "Dickens Group",
-      "Label": "reiciendis",
-      "Tooltip": "quisquam",
-      "Editable": true,
-      "InUse": false,
-      "Mandatory": true,
-      "Rank": 653,
-      "RestrictEdit": false
+      "QuoteLineConfigurationId": 303,
+      "FieldName": "Armstrong, Jewess and Gulgowski",
+      "Label": "voluptates",
+      "Tooltip": "assumenda",
+      "Editable": false,
+      "InUse": true,
+      "Mandatory": false,
+      "Rank": 868,
+      "RestrictEdit": true
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 252,
-    "FieldName": "Wyman Group",
-    "Label": "saepe",
-    "Tooltip": "qui",
-    "Editable": true,
-    "InUse": false,
-    "Mandatory": false,
-    "Rank": 7,
-    "RestrictEdit": false,
+    "QuoteLineConfigurationId": 723,
+    "FieldName": "Shanahan-Runolfsson",
+    "Label": "natus",
+    "Tooltip": "ut",
+    "Editable": false,
+    "InUse": true,
+    "Mandatory": true,
+    "Rank": 932,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldType": "System.Int32",
+        "FieldLength": 948
       }
     }
   }

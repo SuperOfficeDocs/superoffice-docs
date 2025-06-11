@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,14 +75,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421,
-  "Name": "Rohan, Schuppe and Fadel",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 544,
-  "IsCustomList": false,
+  "Id": 234,
+  "Name": "Zboncak-Collier",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 215,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
+  "UseGroupsAndHeadings": false,
   "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
@@ -90,12 +90,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 742
+      "FieldLength": 1000
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

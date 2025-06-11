@@ -188,6 +188,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/associate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/associate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/associate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/associate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
 |alternative/version/quote/sale/associate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/associate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/associate/role|listAny|Sale - Role: Role| x |
@@ -222,11 +223,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/connection/erpName|int|ERP connection - ERP name: Name of ERP system| x |
 |alternative/version/quote/connection/displayName|string|ERP connection - Name: Localized display name| x |
 |alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
-|alternative/version/quote/connection/connectorName|string|ERP connection - Quote Connector name: Name of Quote Connector module. Defined by the developer of the module.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/connectorName|string|ERP connection - Quote Connector name: Name of Quote Connector module. Defined by the developer of the module.| x |
 |alternative/version/quote/connection/extraData|string|ERP connection - Extra data: XML encoded data.| x |
 |alternative/version/quote/connection/updatedBy|associate|ERP connection - Updated by: The user who last updated the data| x |
 |alternative/version/quote/connection/updatedDate|date|ERP connection - Updated: The date/time the data was last updated in UTC.| x |
@@ -255,7 +256,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=subscriptionQuantity,alternative/totalPrice,alternative/version/quote/sale/saleStatus,alternative/version/quote/sale/sale/description
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/quote/sale/amountInBaseCurrency,alternative/version/state,alternative/version/quote/sale/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

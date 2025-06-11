@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 948,
-    "Name": "Baumbach-Carter",
-    "ToolTip": "Facilis non veniam aut dolores quisquam eius et.",
-    "Deleted": false,
-    "Rank": 6,
-    "Type": "repellendus",
-    "ColorBlock": 162,
-    "IconHint": "ut",
+    "Id": 309,
+    "Name": "Hansen-Walker",
+    "ToolTip": "Ut dolore.",
+    "Deleted": true,
+    "Rank": 754,
+    "Type": "suscipit",
+    "ColorBlock": 993,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2009-08-16T16:32:48.7276378+02:00",
+    "LastChanged": "2001-04-26T17:54:08.9449229+02:00",
     "ChildItems": [
       {
-        "Id": 200,
-        "Name": "Windler, Quigley and Greenfelder",
-        "ToolTip": "Sed omnis id sed.",
+        "Id": 74,
+        "Name": "Kessler Group",
+        "ToolTip": "Non reiciendis similique et et.",
         "Deleted": false,
-        "Rank": 251,
-        "Type": "tenetur",
-        "ColorBlock": 342,
-        "IconHint": "enim",
+        "Rank": 394,
+        "Type": "et",
+        "ColorBlock": 217,
+        "IconHint": "nulla",
         "Selected": true,
-        "LastChanged": "2004-08-02T16:32:48.7276378+02:00",
+        "LastChanged": "2004-05-28T17:54:08.9449229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Karl Mante IV",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "occaecati",
+        "Hidden": false,
+        "FullName": "Kailey Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 466
+            "FieldLength": 602
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Constance Krajcik",
+    "ExtraInfo": "natus",
+    "StyleHint": "nobis",
+    "Hidden": true,
+    "FullName": "Anais Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldLength": 250
       }
     }
   }

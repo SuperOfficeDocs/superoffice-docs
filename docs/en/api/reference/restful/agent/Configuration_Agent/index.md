@@ -48,6 +48,10 @@ generated: true
 
 * [POST Agents/Configuration/GetRecipeAppliesToMappings](v1ConfigurationAgent_GetRecipeAppliesToMappings.md)
 
+* [POST Agents/Configuration/RebuildCustomObjectArchivePanelDeltas](v1ConfigurationAgent_RebuildCustomObjectArchivePanelDeltas.md)
+
+* [POST Agents/Configuration/RebuildTaskMenuDeltas](v1ConfigurationAgent_RebuildTaskMenuDeltas.md)
+
 * [POST Agents/Configuration/GetApplicationConfiguration](v1ConfigurationAgent_GetApplicationConfiguration.md)
 
 * [POST Agents/Configuration/GetPageConfiguration](v1ConfigurationAgent_GetPageConfiguration.md)

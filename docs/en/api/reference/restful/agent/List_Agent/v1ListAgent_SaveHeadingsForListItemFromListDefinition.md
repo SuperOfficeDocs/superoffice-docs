@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 143,
-  "ListItemId": 359,
+  "UdListDefinitionId": 625,
+  "ListItemId": 880,
   "Headings": [
     {
-      "Id": 268,
-      "Name": "Greenfelder LLC",
-      "ToolTip": "Sequi repudiandae et.",
-      "Deleted": true,
-      "Rank": 139,
-      "Type": "sint",
-      "ColorBlock": 974,
-      "IconHint": "libero",
+      "Id": 780,
+      "Name": "Conn-Kuphal",
+      "ToolTip": "Quia et modi earum inventore ea quidem aut.",
+      "Deleted": false,
+      "Rank": 611,
+      "Type": "ut",
+      "ColorBlock": 913,
+      "IconHint": "illum",
       "Selected": false,
-      "LastChanged": "2012-04-15T16:32:39.2582391+02:00",
+      "LastChanged": "2019-05-16T17:54:03.2108272+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quibusdam",
-      "StyleHint": "laudantium",
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "dolor",
       "Hidden": true,
-      "FullName": "Lamar Will"
+      "FullName": "Ruth Bergstrom"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Williamson-Bosco",
-    "ToolTip": "Et nostrum doloribus aut.",
+    "Id": 918,
+    "Name": "Thiel LLC",
+    "ToolTip": "Nobis nam ea corporis et id ut quia.",
     "Deleted": false,
-    "Rank": 593,
-    "Type": "ut",
-    "ColorBlock": 657,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2024-04-07T16:32:39.2582391+02:00",
+    "Rank": 881,
+    "Type": "quia",
+    "ColorBlock": 123,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2003-01-12T17:54:03.2264522+01:00",
     "ChildItems": [
       {
-        "Id": 210,
-        "Name": "Corkery-Keeling",
-        "ToolTip": "Perspiciatis debitis a aliquam eos.",
-        "Deleted": true,
-        "Rank": 597,
-        "Type": "omnis",
-        "ColorBlock": 692,
-        "IconHint": "saepe",
+        "Id": 665,
+        "Name": "Grimes-Lind",
+        "ToolTip": "Qui et consequuntur tempore natus commodi deserunt ipsa.",
+        "Deleted": false,
+        "Rank": 455,
+        "Type": "doloribus",
+        "ColorBlock": 651,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2010-10-03T16:32:39.2582391+02:00",
+        "LastChanged": "2010-01-02T17:54:03.2264522+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Prof. Dameon Theo Jewess V",
+        "ExtraInfo": "ea",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Bernard Kertzmann IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 716
+            "FieldLength": 892
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ad",
+    "ExtraInfo": "delectus",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Prof. Zella Rubie Schmidt",
+    "FullName": "Lori Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldType": "System.String",
+        "FieldLength": 193
       }
     }
   }

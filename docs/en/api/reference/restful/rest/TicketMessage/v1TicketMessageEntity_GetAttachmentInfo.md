@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 798,
-    "Name": "Hessel LLC",
-    "ContentType": "doloremque",
-    "AttSize": 974,
-    "InlineImage": false,
-    "ContentId": "aspernatur",
-    "AuthKey": "voluptatem",
+    "AttachmentId": 537,
+    "Name": "Wilderman Inc and Sons",
+    "ContentType": "aspernatur",
+    "AttSize": 583,
+    "InlineImage": true,
+    "ContentId": "provident",
+    "AuthKey": "sit",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 115
+        "FieldType": "System.String",
+        "FieldLength": 259
       }
     }
   }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 981
+  "SaleId": 62
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 18,
-    "Attention": "corporis",
-    "Header": "rerum",
-    "Name": "Balistreri Group",
-    "OurRef": "voluptates",
-    "YourRef": "qui",
-    "Description": "Re-engineered assymetric knowledge base",
-    "DocumentTemplate": "est",
+    "DocumentId": 1002,
+    "Attention": "perferendis",
+    "Header": "illum",
+    "Name": "Dibbert, Cummings and Bechtelar",
+    "OurRef": "earum",
+    "YourRef": "adipisci",
+    "Description": "Monitored neutral encryption",
+    "DocumentTemplate": "similique",
     "IsPublished": false,
-    "PersonId": 720,
-    "PersonFullName": "Alexie Bernhard",
-    "AssociateFullName": "Dr. Jaclyn Camren Kris",
-    "ContactId": 56,
-    "ContactName": "Lubowitz, Aufderhar and Herman",
-    "ProjectId": 284,
-    "ProjectName": "Douglas LLC",
-    "AssociateId": 759,
-    "Snum": 817,
-    "SaleId": 425,
-    "SaleName": "Waters-Stracke",
+    "PersonId": 376,
+    "PersonFullName": "Freeda Reynolds III",
+    "AssociateFullName": "Julia Kuhlman",
+    "ContactId": 367,
+    "ContactName": "Reichel Group",
+    "ProjectId": 293,
+    "ProjectName": "Tillman-Hyatt",
+    "AssociateId": 371,
+    "Snum": 90,
+    "SaleId": 784,
+    "SaleName": "Johnston LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 369
       }
     }
   }

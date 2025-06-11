@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "itaque",
-  "MinDate": "2009-04-19T16:32:39.5709105+02:00",
-  "MaxDate": "2006-02-23T16:32:39.5709105+01:00"
+  "LastHash": "consectetur",
+  "MinDate": "2023-06-25T17:54:03.445191+02:00",
+  "MaxDate": "2023-06-28T17:54:03.445191+02:00"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "fugiat",
+  "CallerIDHash": "possimus",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 164,
-      "PersonId": 935,
-      "PersonName": "Wilkinson-Sipes",
-      "Mrmrs": "voluptate",
-      "ContactId": 628,
-      "ContactName": "Wyman, Kilback and Hammes"
+      "DialInPrefix": 191,
+      "PersonId": 970,
+      "PersonName": "Jenkins-Ebert",
+      "Mrmrs": "consequuntur",
+      "ContactId": 371,
+      "ContactName": "Turner-Quigley"
     }
   ]
 }

@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    892,
-    244
+    883,
+    966
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 980,
-    "ColumnId": 315,
-    "FieldDefault": "accusamus",
-    "FieldHeight": 756,
-    "FieldLabel": "accusamus",
-    "FieldLeft": 921,
-    "FieldTop": 810,
+    "UDefFieldId": 711,
+    "ColumnId": 71,
+    "FieldDefault": "non",
+    "FieldHeight": 503,
+    "FieldLabel": "consequatur",
+    "FieldLeft": 364,
+    "FieldTop": 295,
     "FieldType": "Checkbox",
-    "FieldWidth": 240,
-    "FormatMask": "maiores",
-    "HideLabel": true,
+    "FieldWidth": 41,
+    "FormatMask": "ad",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 88,
-    "LabelLeft": 479,
-    "LabelTop": 703,
-    "LabelWidth": 270,
-    "LastVersionId": 319,
-    "ListTableId": 250,
-    "IsMandatory": false,
+    "LabelHeight": 302,
+    "LabelLeft": 780,
+    "LabelTop": 320,
+    "LabelWidth": 946,
+    "LastVersionId": 459,
+    "ListTableId": 337,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 268,
-    "ProgId": "sequi",
-    "IsReadOnly": true,
-    "ShortLabel": "delectus",
-    "TabOrder": 629,
-    "TextLength": 352,
-    "Tooltip": "tempora",
-    "UdefIdentity": 695,
-    "UDListDefinitionId": 334,
+    "Page1LineNo": 947,
+    "ProgId": "porro",
+    "IsReadOnly": false,
+    "ShortLabel": "earum",
+    "TabOrder": 188,
+    "TextLength": 557,
+    "Tooltip": "exercitationem",
+    "UdefIdentity": 46,
+    "UDListDefinitionId": 85,
     "Justification": "Center",
-    "Version": 211,
-    "TemplateVariableName": "Purdy Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Lakin-Smitham",
+    "Version": 416,
+    "TemplateVariableName": "Zboncak Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Kshlerin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 368
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   }

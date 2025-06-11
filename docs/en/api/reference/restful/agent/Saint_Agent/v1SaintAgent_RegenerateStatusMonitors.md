@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 982,
-  "Name": "Fahey Group",
-  "AssociateId": 951,
-  "DetailsTable": 318,
-  "DetailsRecord": 400,
+  "Id": 655,
+  "Name": "Kirlin LLC",
+  "AssociateId": 791,
+  "DetailsTable": 343,
+  "DetailsRecord": 12,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "architecto",
-    "ParameterObject2": "quis"
+    "ParameterObject1": "reprehenderit",
+    "ParameterObject2": "aliquam"
   },
-  "LastStarted": "2004-09-15T16:32:39.7896101+02:00",
-  "Created": "2015-06-15T16:32:39.7896101+02:00",
-  "StartCount": 23,
-  "DatabaseSerialNumber": "313422",
-  "Context": "eum",
-  "Result": "asperiores",
+  "LastStarted": "1998-07-18T17:54:03.5545604+02:00",
+  "Created": "2021-06-20T17:54:03.5545604+02:00",
+  "StartCount": 761,
+  "DatabaseSerialNumber": "721131",
+  "Context": "odio",
+  "Result": "totam",
   "State": "All",
-  "Description": "Virtual uniform emulation",
-  "Response": "enim",
-  "Request": "a",
-  "ProgressDescription": "Universal interactive policy",
-  "ProgressPercent": 222,
-  "FileName": "Parker, Kshlerin and O'Connell",
+  "Description": "Programmable mobile task-force",
+  "Response": "deleniti",
+  "Request": "non",
+  "ProgressDescription": "Horizontal hybrid product",
+  "ProgressPercent": 487,
+  "FileName": "Walter, Swift and Hartmann",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 185
     }
   }
 }

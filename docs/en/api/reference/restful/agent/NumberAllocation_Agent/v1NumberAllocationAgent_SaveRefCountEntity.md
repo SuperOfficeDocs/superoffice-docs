@@ -87,35 +87,35 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 613,
-  "Field": "qui",
-  "RecordId": 934,
+  "RefCountsId": 266,
+  "Field": "maxime",
+  "RecordId": 888,
   "SuggestedRecords": [
     {
-      "Id": 71,
-      "Name": "Moen, Haley and Ratke",
-      "ToolTip": "Doloremque repellat.",
-      "Deleted": false,
-      "Rank": 495,
-      "Type": "qui",
+      "Id": 148,
+      "Name": "Goyette, Keeling and Spencer",
+      "ToolTip": "Nisi porro.",
+      "Deleted": true,
+      "Rank": 510,
+      "Type": "veniam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "delectus",
-      "ColorBlock": 279,
-      "ExtraInfo": "sed",
-      "StyleHint": "qui",
-      "FullName": "Miss Colton Koss"
+      "IconHint": "qui",
+      "ColorBlock": 263,
+      "ExtraInfo": "dignissimos",
+      "StyleHint": "ea",
+      "FullName": "Nathaniel Purdy"
     }
   ],
-  "CurrentValue": 481,
-  "TravelPrefix": 482,
-  "SatPrefix": 570,
-  "Allocate": false,
-  "Unique": true,
-  "ReadOnly": true,
-  "AllowBlank": true
+  "CurrentValue": 465,
+  "TravelPrefix": 96,
+  "SatPrefix": 721,
+  "Allocate": true,
+  "Unique": false,
+  "ReadOnly": false,
+  "AllowBlank": false
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 621,
-  "Field": "nostrum",
-  "RecordId": 433,
+  "RefCountsId": 37,
+  "Field": "molestias",
+  "RecordId": 390,
   "SuggestedRecords": [
     {
-      "Id": 338,
-      "Name": "Murphy, Emmerich and Grimes",
-      "ToolTip": "Beatae quaerat aut velit veritatis mollitia molestiae.",
-      "Deleted": false,
-      "Rank": 259,
-      "Type": "maiores",
+      "Id": 748,
+      "Name": "Flatley-Hartmann",
+      "ToolTip": "Natus beatae dolor expedita et sit est dolorum.",
+      "Deleted": true,
+      "Rank": 591,
+      "Type": "ipsa",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "magni",
-      "ColorBlock": 565,
-      "ExtraInfo": "doloremque",
-      "StyleHint": "quo",
-      "FullName": "Kamille Audra Mann DVM",
+      "IconHint": "fugit",
+      "ColorBlock": 270,
+      "ExtraInfo": "culpa",
+      "StyleHint": "maiores",
+      "FullName": "Mrs. Della Theodora Baumbach MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 390
+          "FieldLength": 560
         }
       }
     }
   ],
-  "CurrentValue": 631,
-  "TravelPrefix": 497,
-  "SatPrefix": 75,
+  "CurrentValue": 822,
+  "TravelPrefix": 980,
+  "SatPrefix": 638,
   "Allocate": false,
-  "Unique": true,
+  "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

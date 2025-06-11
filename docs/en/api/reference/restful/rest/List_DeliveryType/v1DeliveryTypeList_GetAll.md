@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Kemmer, Cruickshank and Rosenbaum",
-    "Tooltip": "nisi",
-    "Deleted": true,
-    "UdListDefinitionId": 617,
-    "Rank": 732,
+    "Id": 930,
+    "Name": "Hayes Inc and Sons",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 720,
+    "Rank": 731,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 470
       }
     }
   }

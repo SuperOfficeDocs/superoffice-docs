@@ -113,7 +113,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 71,
+  "DocumentId": 673,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 398,
+  "DocumentId": 91,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "officia",
-  "Header": "laborum",
-  "Name": "Hahn Group",
-  "OurRef": "fugiat",
-  "YourRef": "ab",
-  "CreatedDate": "2006-05-01T16:32:38.9145698+02:00",
-  "UpdatedDate": "2000-06-02T16:32:38.9145698+02:00",
-  "Description": "Automated national infrastructure",
+  "Attention": "voluptatum",
+  "Header": "recusandae",
+  "Name": "Kilback-Leffler",
+  "OurRef": "voluptatem",
+  "YourRef": "quas",
+  "CreatedDate": "2004-02-29T17:54:03.0389604+01:00",
+  "UpdatedDate": "2008-03-25T17:54:03.0389604+01:00",
+  "Description": "Persevering bottom-line architecture",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-11-04T16:32:38.9145698+01:00",
-  "ExternalRef": "rerum",
+  "Date": "2010-12-06T17:54:03.0389604+01:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 128,
+  "ActiveLinks": 48,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Pfeffer Inc and Sons",
-      "Id": 73,
-      "Description": "Profound zero tolerance matrices",
-      "ExtraInfo": "natus",
-      "LinkId": 782,
+      "EntityName": "Cummerata LLC",
+      "Id": 92,
+      "Description": "Adaptive solution-oriented methodology",
+      "ExtraInfo": "et",
+      "LinkId": 307,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 797
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 995,
-  "Snum": 809,
+  "SuggestedDocumentId": 33,
+  "Snum": 265,
   "UserDefinedFields": {
-    "SuperOffice:1": "Neal O'Keefe",
-    "SuperOffice:2": "22127691"
+    "SuperOffice:1": "2101218087",
+    "SuperOffice:2": "Arnaldo Stracke PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "est"
+    "CustomFields1": "rem",
+    "CustomFields2": "veniam"
   },
-  "PublishEventDate": "2006-11-12T16:32:38.9145698+01:00",
-  "PublishTo": "2003-03-22T16:32:38.9145698+01:00",
-  "PublishFrom": "2019-10-01T16:32:38.9145698+02:00",
+  "PublishEventDate": "2008-11-30T17:54:03.0389604+01:00",
+  "PublishTo": "1998-04-04T17:54:03.0389604+02:00",
+  "PublishFrom": "2007-12-30T17:54:03.0389604+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 957,
+      "VisibleId": 936,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 88
         }
       }
     },
     {
-      "VisibleId": 957,
+      "VisibleId": 936,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 88
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldType": "System.Int32",
+      "FieldLength": 254
     }
   }
 }

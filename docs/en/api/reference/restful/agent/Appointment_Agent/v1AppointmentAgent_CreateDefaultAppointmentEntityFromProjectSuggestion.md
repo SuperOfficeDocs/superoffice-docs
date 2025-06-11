@@ -135,14 +135,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromProjectSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 935,
-  "ProjectId": 761,
-  "CreateNow": false,
-  "OwnerId": 785
+  "SuggestedAppointmentId": 625,
+  "ProjectId": 863,
+  "CreateNow": true,
+  "OwnerId": 372
 }
 ```
 
@@ -157,121 +157,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-12-11T16:32:38.0710096+01:00",
-  "AppointmentId": 151,
-  "Description": "Visionary 24/7 matrices",
-  "Title": "aliquid",
-  "Agenda": "ipsam",
-  "InternalNotes": "facere",
-  "StartDate": "2008-05-29T16:32:38.0710096+02:00",
-  "EndDate": "2003-04-19T16:32:38.0710096+02:00",
+  "CreatedDate": "1999-03-06T17:54:02.6014824+01:00",
+  "AppointmentId": 309,
+  "Description": "Digitized multi-tasking archive",
+  "Title": "facilis",
+  "Agenda": "blanditiis",
+  "InternalNotes": "eius",
+  "StartDate": "2023-07-11T17:54:02.6014824+02:00",
+  "EndDate": "2018-05-29T17:54:02.6014824+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 655,
+  "MotherId": 360,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-03-15T16:32:38.0710096+01:00",
+  "UpdatedDate": "2010-11-09T17:54:02.6014824+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 5,
+  "ActiveLinks": 936,
   "Links": [
     {
-      "EntityName": "Stroman-Ritchie",
-      "Id": 70,
-      "Description": "Cross-platform tertiary algorithm",
-      "ExtraInfo": "laudantium",
-      "LinkId": 119,
+      "EntityName": "O'Kon Group",
+      "Id": 281,
+      "Description": "Grass-roots reciprocal migration",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 241,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 681
         }
       }
     }
   ],
-  "AlarmLeadTime": "quis",
-  "HasAlarm": false,
-  "ColorIndex": 268,
+  "AlarmLeadTime": "vitae",
+  "HasAlarm": true,
+  "ColorIndex": 519,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "maiores",
-  "LeadTime": "incidunt",
-  "Location": "minima",
-  "RejectCounter": 287,
-  "RejectReason": "",
+  "IsAlldayEvent": true,
+  "LagTime": "saepe",
+  "LeadTime": "saepe",
+  "Location": "alias",
+  "RejectCounter": 60,
+  "RejectReason": "drive proactive schemas",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 970,
-      "PersonId": 384,
-      "ContactId": 627,
-      "EmailId": 165,
-      "SendEmail": true,
+      "AssociateId": 557,
+      "PersonId": 595,
+      "ContactId": 592,
+      "EmailId": 105,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "leila@jenkins.ca",
-      "Description": "Cloned 24/7 algorithm"
+      "EmailAddress": "loyal_graham@ferry.name",
+      "Description": "Sharable client-driven attitude"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-05-13T16:32:38.0710096+02:00",
+  "ActiveDate": "2010-08-01T17:54:02.6014824+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 269,
+  "PreferredTZLocation": 825,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 58,
+  "SuggestedAppointmentId": 536,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quisquam",
+  "CentralserviceVideomeetId": "sit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Sandrine Goodwin",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "1943769866",
+    "SuperOffice:2": "Jakob Metz"
   },
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "non"
+    "CustomFields1": "est",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2005-03-15T16:32:38.0710096+01:00",
-  "PublishTo": "2016-06-09T16:32:38.0710096+02:00",
-  "PublishFrom": "2007-01-09T16:32:38.0710096+01:00",
+  "PublishEventDate": "2024-01-21T17:54:02.6014824+01:00",
+  "PublishTo": "2018-07-21T17:54:02.6014824+02:00",
+  "PublishFrom": "2011-09-06T17:54:02.6014824+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 652,
+      "VisibleId": 78,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 322
+          "FieldType": "System.Int32",
+          "FieldLength": 490
         }
       }
     },
     {
-      "VisibleId": 652,
+      "VisibleId": 78,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 322
+          "FieldType": "System.Int32",
+          "FieldLength": 490
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 147
     }
   }
 }

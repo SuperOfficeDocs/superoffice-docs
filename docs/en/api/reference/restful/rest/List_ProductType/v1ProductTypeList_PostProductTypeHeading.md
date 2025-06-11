@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 584,
-  "Name": "Spencer LLC",
-  "Tooltip": "exercitationem",
+  "HeadingId": 999,
+  "Name": "Boyle-Beahan",
+  "Tooltip": "sed",
   "Deleted": true,
-  "Rank": 263,
-  "UdListDefinitionId": 69
+  "Rank": 382,
+  "UdListDefinitionId": 148
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 842,
-  "Name": "Ziemann Group",
-  "Tooltip": "enim",
+  "HeadingId": 4,
+  "Name": "Harvey, Smith and Schimmel",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "Rank": 260,
-  "UdListDefinitionId": 393,
+  "Rank": 688,
+  "UdListDefinitionId": 599,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 88
     }
   }
 }

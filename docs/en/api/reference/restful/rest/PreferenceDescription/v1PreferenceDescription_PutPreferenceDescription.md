@@ -117,24 +117,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 666,
-  "Section": "maxime",
-  "Key": "autem",
-  "Name": "Abernathy-Lang",
+  "PrefDescId": 941,
+  "Section": "blanditiis",
+  "Key": "libero",
+  "Name": "Terry, Ankunding and Harvey",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Advanced 5th generation hub",
-  "IsBuiltin": false,
-  "TableName": "Fritsch-Reynolds",
-  "UserDefinedListId": 565,
-  "Rank": 547,
-  "SubGroup": "tempora",
-  "MinLevel": 944,
-  "MaxValue": 516,
-  "MinValue": 839,
-  "RequiredLicense": "quisquam"
+  "Description": "Polarised disintermediate synergy",
+  "IsBuiltin": true,
+  "TableName": "Watsica-Carroll",
+  "UserDefinedListId": 66,
+  "Rank": 552,
+  "SubGroup": "voluptatem",
+  "MinLevel": 932,
+  "MaxValue": 580,
+  "MinValue": 252,
+  "RequiredLicense": "porro"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 225,
-  "Section": "laudantium",
-  "Key": "in",
-  "Name": "Collier-Crooks",
+  "PrefDescId": 738,
+  "Section": "alias",
+  "Key": "tenetur",
+  "Name": "Parker-Smith",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized regional architecture",
-  "IsBuiltin": false,
-  "TableName": "Leffler-Walsh",
-  "UserDefinedListId": 968,
-  "Rank": 3,
-  "SubGroup": "aut",
-  "MinLevel": 242,
-  "MaxValue": 54,
-  "MinValue": 757,
-  "RequiredLicense": "vel",
+  "Description": "Networked hybrid concept",
+  "IsBuiltin": true,
+  "TableName": "Kuvalis Group",
+  "UserDefinedListId": 991,
+  "Rank": 592,
+  "SubGroup": "iusto",
+  "MinLevel": 464,
+  "MaxValue": 204,
+  "MinValue": 605,
+  "RequiredLicense": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 803
     }
   },
   "_Links": {

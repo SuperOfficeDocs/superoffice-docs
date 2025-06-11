@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "D'Amore, Wilkinson and Franecki",
-    "Wiegand, Mayert and Wilderman"
+    "Gaylord Group",
+    "Weissnat, King and Schoen"
   ],
-  "Culture": "eius",
-  "ActiveOnly": false
+  "Culture": "eum",
+  "ActiveOnly": true
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Gutkowski-Eichmann",
-    "ResourceValue": "placeat",
-    "Culture": "est",
-    "IsActive": true,
+    "ResourceName": "Stokes Inc and Sons",
+    "ResourceValue": "ad",
+    "Culture": "recusandae",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 394
       }
     }
   },
   {
-    "ResourceName": "Gutkowski-Eichmann",
-    "ResourceValue": "placeat",
-    "Culture": "est",
-    "IsActive": true,
+    "ResourceName": "Stokes Inc and Sons",
+    "ResourceValue": "ad",
+    "Culture": "recusandae",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 394
       }
     }
   }

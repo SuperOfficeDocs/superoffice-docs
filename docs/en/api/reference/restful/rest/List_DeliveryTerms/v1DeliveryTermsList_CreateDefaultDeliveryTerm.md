@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 474,
-  "Name": "Goyette, Pagac and Bernhard",
-  "Tooltip": "eos",
+  "Id": 503,
+  "Name": "Waters, Ziemann and Murazik",
+  "Tooltip": "officia",
   "Deleted": false,
-  "UdListDefinitionId": 67,
-  "Rank": 751,
+  "UdListDefinitionId": 285,
+  "Rank": 570,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldLength": 240
     }
   }
 }

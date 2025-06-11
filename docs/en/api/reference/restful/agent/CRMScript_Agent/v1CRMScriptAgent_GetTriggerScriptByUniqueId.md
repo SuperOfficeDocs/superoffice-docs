@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "ullam"
+  "TriggerScriptUniqueId": "et"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 936,
-  "Name": "Senger, Mraz and Cruickshank",
+  "ScreenChooserId": 804,
+  "Name": "Ritchie, Gibson and Miller",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eveniet",
-  "Source": "quia",
-  "Registered": "2002-08-08T16:32:38.570895+02:00",
-  "RegisteredAssociateId": 638,
-  "Updated": "2014-09-09T16:32:38.570895+02:00",
-  "UpdatedAssociateId": 701,
+  "UniqueIdentifier": "officia",
+  "Source": "sed",
+  "Registered": "2004-10-30T17:54:02.9139671+02:00",
+  "RegisteredAssociateId": 877,
+  "Updated": "2020-11-03T17:54:02.9139671+01:00",
+  "UpdatedAssociateId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldType": "System.String",
+      "FieldLength": 198
     }
   }
 }

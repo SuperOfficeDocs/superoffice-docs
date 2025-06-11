@@ -44,6 +44,7 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 |contactName|string|Owning company: Name of the company the user belongs to| x |
 |contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |usergroup|userGroup|Primary group: The user's primary user group| x |
+|usergroupId|int|Group ID: The user's primary user group| x |
 |contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactCategory|listAny|Category: Category| x |
 |role|listAny|Role : Role| x |
@@ -69,7 +70,7 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 ## Sample
 
 ```http!
-GET /api/v1/archive/CategoryMembers?$select=personId,contactFullName
+GET /api/v1/archive/CategoryMembers?$select=middleName,locationAddress,mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

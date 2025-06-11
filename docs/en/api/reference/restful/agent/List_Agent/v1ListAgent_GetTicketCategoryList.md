@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 86,
-    "ParentId": 401,
-    "Name": "Brekke, Bernhard and Kuhlman",
-    "Fullname": "et",
-    "CategoryMaster": 756,
+    "TicketCategoryId": 805,
+    "ParentId": 821,
+    "Name": "Jast Inc and Sons",
+    "Fullname": "ullam",
+    "CategoryMaster": 894,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Gorczany Group",
+    "ExternalName": "Thompson, Jones and Mann",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 892,
-    "ReplyTemplate": 933,
-    "NotificationEmail": "joanne@mclaughlinmurphy.com",
+    "AssignmentLag": 317,
+    "ReplyTemplate": 14,
+    "NotificationEmail": "joanny.ortiz@rice.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 755,
+    "EffectiveReplyTemplateId": 29,
     "ExtraFields": {
-      "ExtraFields1": "officiis",
-      "ExtraFields2": "voluptas"
+      "ExtraFields1": "vitae",
+      "ExtraFields2": "accusamus"
     },
     "CustomFields": {
-      "CustomFields1": "ipsam",
-      "CustomFields2": "nisi"
+      "CustomFields1": "dolores",
+      "CustomFields2": "nemo"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldType": "System.Int32",
+        "FieldLength": 522
       }
     }
   }

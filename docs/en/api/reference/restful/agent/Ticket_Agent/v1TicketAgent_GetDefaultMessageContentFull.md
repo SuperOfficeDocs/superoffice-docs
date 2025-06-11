@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 1002,
+  "TicketId": 822,
   "MessageActionType": "Forward",
-  "TicketMessageId": 906,
-  "TicketTypeId": 242
+  "TicketMessageId": 647,
+  "TicketTypeId": 179
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "id",
+  "Body": "vitae",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 282,
-      "Name": "Turner-Fay",
-      "ContentType": "esse",
-      "AttSize": 390,
-      "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "odit",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 587,
+      "Name": "Greenholt-Erdman",
+      "ContentType": "facere",
+      "AttSize": 696,
+      "InlineImage": true,
+      "ContentId": "qui",
+      "AuthKey": "et",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldType": "System.String",
+          "FieldLength": 719
         }
       }
     }

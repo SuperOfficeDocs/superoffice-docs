@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 545,
-  "Name": "Effertz-Little",
-  "Tooltip": "corrupti",
+  "RoleId": 497,
+  "Name": "Miller Inc and Sons",
+  "Tooltip": "mollitia",
   "RoleType": "Anonymous",
-  "Deleted": 182,
-  "Rank": 984,
-  "Created": "2024-11-17T16:32:47.7589038+01:00",
-  "UseCategories": 475,
+  "Deleted": 531,
+  "Rank": 955,
+  "Created": "2021-01-10T17:54:08.4136991+01:00",
+  "UseCategories": 112,
   "CreatedBy": null,
-  "Updated": "2000-12-08T16:32:47.7589038+01:00",
+  "Updated": "2013-08-24T17:54:08.4136991+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldLength": 184
     }
   },
   "_Links": {

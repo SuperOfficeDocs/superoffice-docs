@@ -68,7 +68,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Williamson Group",
-    "DisplayName": "Strosin Group",
-    "Description": "Adaptive content-based application",
-    "ShortLabel": "voluptatibus",
+    "FieldName": "Mayert-Schoen",
+    "DisplayName": "Rath Inc and Sons",
+    "Description": "Mandatory hybrid functionalities",
+    "ShortLabel": "aut",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": false,
+    "HideField": true,
+    "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 113,
-    "TemplateVariableName": "Douglas, Bernhard and Crooks"
+    "Rank": 88,
+    "TemplateVariableName": "Balistreri-Cartwright"
   }
 ]
 ```

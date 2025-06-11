@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/ChangeOwnPassword
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OldPassword": "in",
-  "NewPassword": "qui"
+  "OldPassword": "ipsum",
+  "NewPassword": "sit"
 }
 ```
 

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 718,
-  "CurrencyId": 284
+  "QuoteConnectionId": 89,
+  "CurrencyId": 855
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 216,
-    "ERPPriceListKey": "aut",
-    "QuoteConnectionId": 899,
-    "Name": "Tillman, Cruickshank and Osinski",
-    "Description": "Front-line well-modulated contingency",
-    "Currency": "non",
-    "CurrencyName": "Hills, Price and Conn",
-    "ValidFrom": "2021-03-17T16:32:39.7271263+01:00",
-    "ValidTo": "2006-11-30T16:32:39.7271263+01:00",
+    "PriceListId": 916,
+    "ERPPriceListKey": "nihil",
+    "QuoteConnectionId": 475,
+    "Name": "Franecki, Ondricka and Williamson",
+    "Description": "Visionary even-keeled protocol",
+    "Currency": "molestias",
+    "CurrencyName": "Hauck Inc and Sons",
+    "ValidFrom": "2021-12-16T17:54:03.5233118+01:00",
+    "ValidTo": "2020-09-01T17:54:03.5233118+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldLength": 17
       }
     }
   }

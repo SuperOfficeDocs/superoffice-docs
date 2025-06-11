@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 99,
-  "Name": "Jakubowski LLC",
-  "Tooltip": "placeat",
-  "Rank": 929,
-  "Key": "quo",
+  "LegalBaseId": 238,
+  "Name": "Considine, O'Kon and Schinner",
+  "Tooltip": "dolores",
+  "Rank": 596,
+  "Key": "quod",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldType": "System.String",
+      "FieldLength": 250
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/Person/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kozey-Runte",
-  "DisplayName": "Hansen-Kirlin",
-  "Description": "Exclusive methodical approach",
-  "ShortLabel": "iure",
-  "HideLabel": true,
+  "FieldName": "Jones, Ziemann and Nader",
+  "DisplayName": "Erdman-Blanda",
+  "Description": "Synergized responsive open system",
+  "ShortLabel": "repellendus",
+  "HideLabel": false,
   "HideField": true,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": true,
   "IsDisplayField": false,
-  "Rank": 63,
-  "TemplateVariableName": "Bruen-Koepp"
+  "Rank": 933,
+  "TemplateVariableName": "Kulas LLC"
 }
 ```

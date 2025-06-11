@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 48,
-  "Type": 58
+  "GroupId": 544,
+  "Type": 980
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 846,
-    "Name": "Stamm, Jaskolski and Simonis",
-    "PersonId": 225,
-    "Rank": 16,
-    "Tooltip": "voluptate",
+    "AssociateId": 34,
+    "Name": "Muller Group",
+    "PersonId": 625,
+    "Rank": 794,
+    "Tooltip": "consequuntur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 226,
-    "FullName": "Jadyn Jacobi",
-    "FormalName": "Jacobson-Haag",
+    "GroupIdx": 417,
+    "FullName": "Mrs. Martine Jewess III",
+    "FormalName": "Cummerata, Klocko and Conroy",
     "Deleted": false,
-    "EjUserId": 498,
-    "UserName": "Braun Inc and Sons",
+    "EjUserId": 495,
+    "UserName": "Paucek, O'Keefe and Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldType": "System.String",
+        "FieldLength": 429
       }
     }
   }

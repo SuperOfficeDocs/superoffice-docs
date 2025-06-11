@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 44,
-  "Name": "Ullrich, Kreiger and Crist",
-  "Tooltip": "a",
-  "Deleted": true,
-  "UdListDefinitionId": 844,
-  "Rank": 555
+  "Id": 233,
+  "Name": "Cormier Inc and Sons",
+  "Tooltip": "quos",
+  "Deleted": false,
+  "UdListDefinitionId": 775,
+  "Rank": 301
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 78,
-  "Name": "Hagenes-Roberts",
-  "Tooltip": "similique",
-  "Deleted": false,
-  "UdListDefinitionId": 142,
-  "Rank": 270,
+  "Id": 223,
+  "Name": "Rowe LLC",
+  "Tooltip": "alias",
+  "Deleted": true,
+  "UdListDefinitionId": 882,
+  "Rank": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 98
+      "FieldType": "System.Int32",
+      "FieldLength": 607
     }
   }
 }

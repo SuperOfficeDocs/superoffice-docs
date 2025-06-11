@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 654,
-  "ERPProductKey": "nam",
-  "ERPPriceListKey": "ea",
-  "Name": "Hessel-Cassin",
-  "Description": "Open-source reciprocal intranet",
-  "Code": "expedita",
-  "PriceUnit": "alias",
-  "QuantityUnit": "natus",
-  "IsSubscription": false,
-  "SubscriptionUnit": "architecto",
-  "DefaultSubscriptionQuantity": 6828.986,
-  "ItemNumber": "1261933",
+  "ProductId": 110,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "eos",
+  "Name": "Runolfsdottir-Cremin",
+  "Description": "Customer-focused fault-tolerant internet solution",
+  "Code": "explicabo",
+  "PriceUnit": "repellat",
+  "QuantityUnit": "enim",
+  "IsSubscription": true,
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 3500.678,
+  "ItemNumber": "373749",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "harum",
-  "ProductTypeKey": "sit",
-  "VAT": 9449.01,
-  "VATInfo": "aut",
-  "UnitCost": 15080.807999999999,
-  "UnitMinimumPrice": 460.698,
-  "UnitListPrice": 21304.932,
+  "ProductFamilyKey": "enim",
+  "ProductTypeKey": "ut",
+  "VAT": 15250.044,
+  "VATInfo": "vero",
+  "UnitCost": 17487.72,
+  "UnitMinimumPrice": 26165.766,
+  "UnitListPrice": 27168.646,
   "InAssortment": false,
-  "Supplier": "amet",
-  "SupplierCode": "sit",
-  "Rights": "sunt",
-  "Rule": "quia",
+  "Supplier": "totam",
+  "SupplierCode": "sapiente",
+  "Rights": "qui",
+  "Rule": "qui",
   "ExtraInfo": [
     {
-      "Name": "Zemlak, Spencer and Zieme",
-      "Value": "corrupti",
+      "Name": "Kris-Murray",
+      "Value": "ducimus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 844
         }
       }
     },
     {
-      "Name": "Zemlak, Spencer and Zieme",
-      "Value": "corrupti",
+      "Name": "Kris-Murray",
+      "Value": "ducimus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 844
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "ipsa",
-  "ExtraField2": "odit",
-  "ExtraField3": "optio",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "aspernatur",
-  "InStock": 15494.496,
+  "RawExtraInfo": "molestiae",
+  "ExtraField1": "harum",
+  "ExtraField2": "dignissimos",
+  "ExtraField3": "consequatur",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "fuga",
+  "InStock": 16390.82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 987
     }
   }
 }

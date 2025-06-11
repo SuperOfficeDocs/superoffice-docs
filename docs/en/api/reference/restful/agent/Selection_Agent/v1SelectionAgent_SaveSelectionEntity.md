@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Face to face full-range extranet",
-  "Postit": "sunt",
+  "Description": "Quality-focused bandwidth-monitored ability",
+  "Postit": "doloribus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 497,
-  "IncludePerson": 870,
+  "GroupIdx": 127,
+  "IncludePerson": 956,
   "MemberCount": 99.99,
-  "Name": "Hessel LLC",
-  "PostitTextId": 945,
-  "CreatedDate": "2016-07-24T16:32:39.8833385+02:00",
-  "SelectionId": 841,
-  "SoundEx": "similique",
-  "Source": 480,
-  "TextId": 893,
-  "UpdatedDate": "2022-05-23T16:32:39.8833385+02:00",
-  "UpdatedCount": 729,
-  "Visibility": 877,
+  "Name": "Bogan LLC",
+  "PostitTextId": 855,
+  "CreatedDate": "2023-02-02T17:54:03.6014331+01:00",
+  "SelectionId": 929,
+  "SoundEx": "est",
+  "Source": 862,
+  "TextId": 473,
+  "UpdatedDate": "2013-06-25T17:54:03.6014331+02:00",
+  "UpdatedCount": 96,
+  "Visibility": 283,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 670,
-  "TargetTableName": "Farrell, Hessel and Reinger",
-  "Completed": false,
-  "LeftSelectionId": 39,
-  "RightSelectionId": 606,
+  "TargetTableNumber": 184,
+  "TargetTableName": "Wolf Group",
+  "Completed": true,
+  "LeftSelectionId": 801,
+  "RightSelectionId": 200,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stark-Rau",
-  "ShadowProviderName": "Kling-Dickinson",
-  "ChartKey": "eveniet",
-  "LastLoaded": "2002-07-06T16:32:39.8833385+02:00",
-  "LastLoadedBy": 83,
+  "MainProviderName": "Hilpert-Botsford",
+  "ShadowProviderName": "Hickle Group",
+  "ChartKey": "sed",
+  "LastLoaded": "2011-07-26T17:54:03.6014331+02:00",
+  "LastLoadedBy": 380,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-06-08T16:32:39.8833385+02:00",
-  "LastMembershipChangeBy": 663,
+  "LastMembershipChange": "2011-08-16T17:54:03.6014331+02:00",
+  "LastMembershipChangeBy": 439,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "id",
-  "MemberTabHeading": "dolorem",
-  "MailingsProviderName": "Gutmann-Kirlin",
-  "DashboardTileDefinitionId": 780,
+  "MainHeading": "sed",
+  "MemberTabHeading": "soluta",
+  "MailingsProviderName": "Littel, Considine and D'Amore",
+  "DashboardTileDefinitionId": 15,
   "VisibleFor": [
     {
-      "VisibleId": 955,
+      "VisibleId": 911,
       "Visibility": "All",
-      "DisplayValue": "unde"
+      "DisplayValue": "tenetur"
     },
     {
-      "VisibleId": 955,
+      "VisibleId": 911,
       "Visibility": "All",
-      "DisplayValue": "unde"
+      "DisplayValue": "tenetur"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-channelled intangible core",
-  "Postit": "animi",
+  "Description": "Programmable bandwidth-monitored monitoring",
+  "Postit": "ullam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 291,
-  "IncludePerson": 93,
+  "GroupIdx": 900,
+  "IncludePerson": 837,
   "MemberCount": 99.99,
-  "Name": "Crooks-Legros",
-  "PostitTextId": 598,
-  "CreatedDate": "2021-03-16T16:32:39.8833385+01:00",
-  "SelectionId": 953,
-  "SoundEx": "autem",
-  "Source": 281,
-  "TextId": 127,
-  "UpdatedDate": "1998-09-18T16:32:39.8833385+02:00",
-  "UpdatedCount": 901,
-  "Visibility": 8,
+  "Name": "Roberts LLC",
+  "PostitTextId": 18,
+  "CreatedDate": "2014-08-27T17:54:03.6014331+02:00",
+  "SelectionId": 719,
+  "SoundEx": "aut",
+  "Source": 903,
+  "TextId": 376,
+  "UpdatedDate": "2001-07-10T17:54:03.6014331+02:00",
+  "UpdatedCount": 995,
+  "Visibility": 341,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 152,
-  "TargetTableName": "Goyette Group",
+  "CompanyUnique": true,
+  "TargetTableNumber": 620,
+  "TargetTableName": "Rowe, Block and Streich",
   "Completed": false,
-  "LeftSelectionId": 614,
-  "RightSelectionId": 195,
+  "LeftSelectionId": 360,
+  "RightSelectionId": 114,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jewess, Nicolas and Davis",
-  "ShadowProviderName": "Bergnaum-Morar",
-  "ChartKey": "nisi",
-  "LastLoaded": "2017-08-13T16:32:39.8833385+02:00",
-  "LastLoadedBy": 459,
+  "MainProviderName": "Turcotte Group",
+  "ShadowProviderName": "Tillman-Herman",
+  "ChartKey": "vitae",
+  "LastLoaded": "2003-12-30T17:54:03.6014331+01:00",
+  "LastLoadedBy": 22,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-11-03T16:32:39.8833385+01:00",
-  "LastMembershipChangeBy": 223,
+  "LastMembershipChange": "2007-11-22T17:54:03.6014331+01:00",
+  "LastMembershipChangeBy": 465,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "tempore",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Leffler-Heidenreich",
-  "DashboardTileDefinitionId": 792,
+  "MainHeading": "commodi",
+  "MemberTabHeading": "eaque",
+  "MailingsProviderName": "Corwin Inc and Sons",
+  "DashboardTileDefinitionId": 496,
   "VisibleFor": [
     {
-      "VisibleId": 911,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldLength": 969
         }
       }
     },
     {
-      "VisibleId": 911,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldLength": 969
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   }
 }

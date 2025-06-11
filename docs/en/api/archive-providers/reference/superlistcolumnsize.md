@@ -49,6 +49,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associate/contactName|string|Associate - Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Associate - Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Associate - Primary group: The user's primary user group| x |
+|associate/usergroupId|int|Associate - Group ID: The user's primary user group| x |
 |associate/contactFullName|string|Associate - Owner: Name and department of the company the user belongs to| x |
 |associate/contactCategory|listAny|Associate - Category: Category| x |
 |associate/role|listAny|Associate - Role: Role| x |
@@ -73,7 +74,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SuperListColumnSize?$select=configurationName,associate/title
+GET /api/v1/archive/SuperListColumnSize?$select=configurationName,associate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

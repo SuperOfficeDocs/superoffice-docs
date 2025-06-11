@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Braun-Pfeffer",
-  "RecordId": 562,
-  "AssociateId": 722,
-  "ExtraInfo": "iste"
+  "TableName": "Mann, Kris and Dicki",
+  "RecordId": 286,
+  "AssociateId": 290,
+  "ExtraInfo": "earum"
 }
 ```
 

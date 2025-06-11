@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 975,
-    "Name": "Crona-Hills",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "Rank": 501,
-    "UdListDefinitionId": 5
+    "HeadingId": 83,
+    "Name": "Schneider-Hyatt",
+    "Tooltip": "minus",
+    "Deleted": true,
+    "Rank": 796,
+    "UdListDefinitionId": 715
   },
   {
-    "HeadingId": 975,
-    "Name": "Crona-Hills",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "Rank": 501,
-    "UdListDefinitionId": 5
+    "HeadingId": 83,
+    "Name": "Schneider-Hyatt",
+    "Tooltip": "minus",
+    "Deleted": true,
+    "Rank": 796,
+    "UdListDefinitionId": 715
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 802,
-    "Name": "Homenick Group",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 23,
-    "UdListDefinitionId": 494,
+    "HeadingId": 206,
+    "Name": "Schneider, Wintheiser and Mosciski",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "Rank": 834,
+    "UdListDefinitionId": 671,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldLength": 93
       }
     }
   }

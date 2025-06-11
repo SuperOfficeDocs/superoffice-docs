@@ -101,7 +101,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 466
+  "ContactId": 172
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Greenfelder-Stark",
-    "SaleDate": "2000-11-24T16:32:39.8520956+01:00",
-    "SaleId": 970,
-    "Probability": 308,
-    "Title": "ea",
-    "Amount": 26438.424,
-    "Currency": "ut",
-    "ProjectName": "Funk-Collins",
-    "AssociateFullName": "Dandre Farrell",
-    "Description": "Persevering object-oriented alliance",
+    "ContactName": "Hyatt Inc and Sons",
+    "SaleDate": "2005-11-02T17:54:03.5858088+01:00",
+    "SaleId": 16,
+    "Probability": 302,
+    "Title": "numquam",
+    "Amount": 13579.622,
+    "Currency": "aliquam",
+    "ProjectName": "Rogahn-Farrell",
+    "AssociateFullName": "Santino Hettinger",
+    "Description": "Expanded needs-based budgetary management",
     "Status": "Lost",
-    "WeightedAmount": 17199.392,
-    "ProjectId": 934,
-    "EarningPercent": 28619.688,
-    "Earning": 29578.692,
-    "ContactId": 873,
-    "AssociateId": 967,
-    "PersonId": 467,
-    "SaleTypeId": 33,
-    "SaleTypeName": "Fahey Inc and Sons",
-    "PersonFullName": "Jennie Heidenreich",
+    "WeightedAmount": 2174.996,
+    "ProjectId": 573,
+    "EarningPercent": 15381.671999999999,
+    "Earning": 10110.284,
+    "ContactId": 733,
+    "AssociateId": 638,
+    "PersonId": 676,
+    "SaleTypeId": 699,
+    "SaleTypeName": "Abernathy LLC",
+    "PersonFullName": "Twila Murazik IV",
     "Completed": "Completed",
-    "ActiveErpLinks": 735,
-    "NextDueDate": "2011-04-29T16:32:39.8520956+02:00",
-    "Number": "927751",
+    "ActiveErpLinks": 498,
+    "NextDueDate": "2003-01-11T17:54:03.5858088+01:00",
+    "Number": "1094646",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 741
+        "FieldType": "System.Int32",
+        "FieldLength": 774
       }
     }
   }

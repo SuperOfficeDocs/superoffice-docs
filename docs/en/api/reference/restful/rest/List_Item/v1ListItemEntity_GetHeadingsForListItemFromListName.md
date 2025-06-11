@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Schulist-Rice",
-    "ToolTip": "Qui nam qui.",
+    "Id": 140,
+    "Name": "Fritsch Group",
+    "ToolTip": "Et quia sed ea autem ut aut.",
     "Deleted": false,
-    "Rank": 37,
-    "Type": "voluptate",
-    "ColorBlock": 372,
-    "IconHint": "aut",
+    "Rank": 100,
+    "Type": "tenetur",
+    "ColorBlock": 824,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2015-04-16T16:32:48.5089404+02:00",
+    "LastChanged": "2022-10-25T17:54:08.7886801+02:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Stiedemann, Hettinger and Herzog",
-        "ToolTip": "Dolorem et voluptas.",
-        "Deleted": true,
-        "Rank": 825,
-        "Type": "a",
-        "ColorBlock": 433,
-        "IconHint": "et",
+        "Id": 626,
+        "Name": "Johnson-Johnson",
+        "ToolTip": "Est fugit veritatis velit fuga.",
+        "Deleted": false,
+        "Rank": 281,
+        "Type": "aut",
+        "ColorBlock": 39,
+        "IconHint": "fugit",
         "Selected": true,
-        "LastChanged": "2024-08-01T16:32:48.5089404+02:00",
+        "LastChanged": "2007-10-07T17:54:08.7886801+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "animi",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Miss Laney Maggio",
+        "FullName": "Tomasa Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 566
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "natus",
+    "ExtraInfo": "rerum",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Tess Stanton",
+    "FullName": "Stuart Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldType": "System.String",
+        "FieldLength": 81
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 640,
-  "Name": "Romaguera LLC",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "UdListDefinitionId": 119,
-  "Rank": 175,
+  "Id": 964,
+  "Name": "King, Wehner and Gottlieb",
+  "Tooltip": "aspernatur",
+  "Deleted": true,
+  "UdListDefinitionId": 496,
+  "Rank": 571,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 450
     }
   }
 }

@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=False
+POST /api/v1/TicketMessage?notify=True
 ```
 
 
@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 952,
+  "EjMessageId": 423,
   "Ticket": null,
-  "CreatedAt": "2020-05-04T16:32:48.2275494+02:00",
+  "CreatedAt": "2021-10-18T17:54:08.6639929+02:00",
   "CreatedBy": null,
-  "Author": "libero",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sapiente",
-  "TimeSpent": 919,
-  "Body": "explicabo",
-  "HtmlBody": "dolor",
-  "EmailHeader": "zita.grant@bahringerjohnson.ca",
-  "DebugInfo": "sunt",
-  "MailSorter": "mollitia",
+  "MessageId": "error",
+  "TimeSpent": 728,
+  "Body": "ducimus",
+  "HtmlBody": "molestiae",
+  "EmailHeader": "fern@blickwiza.co.uk",
+  "DebugInfo": "illo",
+  "MailSorter": "minima",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "consequuntur",
   "MessageHeaders": [
     {
-      "Id": 614,
-      "Name": "Stracke, Bahringer and O'Conner",
-      "Value": "animi",
+      "Id": 760,
+      "Name": "Goldner, Halvorson and Terry",
+      "Value": "natus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 614,
-      "Name": "Stracke, Bahringer and O'Conner",
-      "Value": "animi",
+      "Id": 760,
+      "Name": "Goldner, Halvorson and Terry",
+      "Value": "natus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "aut",
-  "Sentiment": 995,
-  "SentimentConfidence": 45,
+  "Language": "cum",
+  "Sentiment": 488,
+  "SentimentConfidence": 959,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 86,
-      "Name": "Klocko-Oberbrunner",
-      "ContentType": "earum",
-      "AttSize": 87,
-      "InlineImage": false,
-      "ContentId": "eius",
-      "AuthKey": "eum",
+      "AttachmentId": 682,
+      "Name": "Frami, Feeney and Klein",
+      "ContentType": "aut",
+      "AttSize": 755,
+      "InlineImage": true,
+      "ContentId": "ipsa",
+      "AuthKey": "voluptate",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "et",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "vel",
+    "CustomFields2": "occaecati"
   }
 }
 ```
@@ -195,28 +195,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 187,
+  "EjMessageId": 521,
   "Ticket": null,
-  "CreatedAt": "2023-12-27T16:32:48.2431691+01:00",
+  "CreatedAt": "1998-06-13T17:54:08.6639929+02:00",
   "CreatedBy": null,
-  "Author": "deleniti",
+  "Author": "quam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "incidunt",
-  "TimeSpent": 809,
-  "Body": "quo",
-  "HtmlBody": "sint",
-  "EmailHeader": "gia@auergreenholt.us",
-  "DebugInfo": "voluptas",
-  "MailSorter": "sed",
+  "MessageId": "eos",
+  "TimeSpent": 254,
+  "Body": "expedita",
+  "HtmlBody": "quae",
+  "EmailHeader": "preston@funk.biz",
+  "DebugInfo": "fugiat",
+  "MailSorter": "incidunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "sunt",
   "MessageHeaders": [
     {
-      "Id": 71,
-      "Name": "Carter-Heathcote",
-      "Value": "voluptate",
+      "Id": 55,
+      "Name": "Okuneva LLC",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -224,50 +224,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldLength": 587
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "et",
-  "Sentiment": 649,
-  "SentimentConfidence": 533,
+  "Important": true,
+  "Language": "fugit",
+  "Sentiment": 526,
+  "SentimentConfidence": 873,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 762,
-      "Name": "Kiehn Inc and Sons",
-      "ContentType": "quaerat",
-      "AttSize": 730,
+      "AttachmentId": 447,
+      "Name": "Mayer Group",
+      "ContentType": "corrupti",
+      "AttSize": 701,
       "InlineImage": false,
-      "ContentId": "quisquam",
-      "AuthKey": "quia",
-      "IsSafeFileExtension": false,
+      "ContentId": "incidunt",
+      "AuthKey": "est",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 175
+          "FieldLength": 743
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "fugit",
+    "ExtraFields2": "consequuntur"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "et"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "similique"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldType": "System.Int32",
+      "FieldLength": 535
     }
   }
 }

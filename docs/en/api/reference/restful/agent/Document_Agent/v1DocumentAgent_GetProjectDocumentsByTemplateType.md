@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 57,
-  "StartTime": "2024-08-27T16:32:38.7739758+02:00",
-  "EndTime": "2023-12-02T16:32:38.7739758+01:00",
-  "Count": 217,
-  "DocumentTemplateId": 414
+  "ProjectId": 433,
+  "StartTime": "2008-09-08T17:54:02.9608392+02:00",
+  "EndTime": "2001-12-31T17:54:02.9608392+01:00",
+  "Count": 988,
+  "DocumentTemplateId": 424
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 614,
-    "Attention": "doloribus",
-    "Header": "magnam",
-    "Name": "Waelchi-O'Connell",
-    "OurRef": "labore",
-    "YourRef": "odio",
-    "Description": "Secured zero tolerance conglomeration",
-    "DocumentTemplate": "optio",
-    "IsPublished": true,
-    "PersonId": 78,
-    "PersonFullName": "Cletus Haley",
-    "AssociateFullName": "Makenna Homenick",
-    "ContactId": 196,
-    "ContactName": "Pfeffer, Rippin and Metz",
-    "ProjectId": 521,
-    "ProjectName": "Rogahn Inc and Sons",
-    "AssociateId": 880,
-    "Snum": 757,
-    "SaleId": 366,
-    "SaleName": "McLaughlin-Terry",
+    "DocumentId": 458,
+    "Attention": "doloremque",
+    "Header": "sunt",
+    "Name": "Ratke Group",
+    "OurRef": "sunt",
+    "YourRef": "sint",
+    "Description": "Progressive coherent utilisation",
+    "DocumentTemplate": "corporis",
+    "IsPublished": false,
+    "PersonId": 461,
+    "PersonFullName": "Polly Thiel",
+    "AssociateFullName": "Prof. Rosemary Alivia Schowalter",
+    "ContactId": 932,
+    "ContactName": "Mante-Emmerich",
+    "ProjectId": 553,
+    "ProjectName": "Beatty, Bayer and Conn",
+    "AssociateId": 820,
+    "Snum": 5,
+    "SaleId": 822,
+    "SaleName": "Jacobson-Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 638
       }
     }
   }

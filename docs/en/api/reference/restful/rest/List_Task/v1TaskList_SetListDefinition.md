@@ -10,7 +10,7 @@ generated: true
 PUT /api/v1/List/Task
 ```
 
-Save the description of Task list
+Save the description of SoTask list
 
 
 
@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 513,
-  "Name": "Larkin LLC",
-  "Tooltip": "accusantium",
+  "Id": 327,
+  "Name": "Bernier-DuBuque",
+  "Tooltip": "asperiores",
   "Deleted": true,
-  "Rank": 643,
-  "IsCustomList": false,
+  "Rank": 165,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": false
+  "ListType": "impedit",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 977,
-  "Name": "Wunsch-Dicki",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "Rank": 137,
+  "Id": 45,
+  "Name": "Hintz LLC",
+  "Tooltip": "neque",
+  "Deleted": true,
+  "Rank": 343,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "sed",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

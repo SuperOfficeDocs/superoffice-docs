@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,28 +79,85 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2000-09-30T16:32:38.1334952+02:00",
-  "ToDate": "2022-03-05T16:32:38.1334952+01:00",
+  "FromDate": "2013-07-02T17:54:02.6483551+02:00",
+  "ToDate": "2005-08-09T17:54:02.6483551+02:00",
   "AssociateList": [
     {
-      "Id": 900,
-      "Name": "Koss-Botsford",
-      "ToolTip": "Occaecati repellendus nam autem at.",
-      "Deleted": false,
-      "Rank": 841,
-      "Type": "assumenda",
-      "ColorBlock": 558,
-      "IconHint": "inventore",
+      "Id": 905,
+      "Name": "Franecki-Walker",
+      "ToolTip": "Voluptatem omnis itaque doloremque.",
+      "Deleted": true,
+      "Rank": 801,
+      "Type": "eaque",
+      "ColorBlock": 303,
+      "IconHint": "maiores",
       "Selected": false,
-      "LastChanged": "2022-09-17T16:32:38.1334952+02:00",
+      "LastChanged": "2000-09-23T17:54:02.6483551+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "perferendis",
+      "ExtraInfo": "incidunt",
+      "StyleHint": "corrupti",
       "Hidden": false,
-      "FullName": "Miss Murl Grimes",
+      "FullName": "Sigurd Bechtelar",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 661
+        }
+      }
+    }
+  ],
+  "GroupList": [
+    {
+      "Id": 526,
+      "Name": "Sipes, Haley and Hodkiewicz",
+      "ToolTip": "Qui corrupti sapiente odit veritatis officiis.",
+      "Deleted": false,
+      "Rank": 97,
+      "Type": "facilis",
+      "ColorBlock": 11,
+      "IconHint": "sapiente",
+      "Selected": true,
+      "LastChanged": "2024-07-04T17:54:02.6483551+02:00",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "ExtraInfo": "possimus",
+      "StyleHint": "totam",
+      "Hidden": false,
+      "FullName": "Ms. Alfreda Volkman",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 579
+        }
+      }
+    }
+  ],
+  "FutureDateList": [
+    {
+      "Id": 775,
+      "Name": "Koelpin, Stamm and O'Keefe",
+      "ToolTip": "Voluptate dolor ea natus sed ab.",
+      "Deleted": true,
+      "Rank": 306,
+      "Type": "eos",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "harum",
+      "ColorBlock": 936,
+      "ExtraInfo": "quo",
+      "StyleHint": "consectetur",
+      "FullName": "Brigitte Crist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -111,69 +168,12 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "GroupList": [
-    {
-      "Id": 363,
-      "Name": "Champlin Inc and Sons",
-      "ToolTip": "Dicta officiis optio perferendis qui.",
-      "Deleted": false,
-      "Rank": 823,
-      "Type": "iste",
-      "ColorBlock": 350,
-      "IconHint": "mollitia",
-      "Selected": true,
-      "LastChanged": "2016-08-24T16:32:38.1334952+02:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "quia",
-      "StyleHint": "totam",
-      "Hidden": false,
-      "FullName": "Jarod O'Kon DVM",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 429
-        }
-      }
-    }
-  ],
-  "FutureDateList": [
-    {
-      "Id": 347,
-      "Name": "Olson-Christiansen",
-      "ToolTip": "Et ipsam aut minima ipsam cumque inventore.",
-      "Deleted": false,
-      "Rank": 473,
-      "Type": "ab",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "quasi",
-      "ColorBlock": 462,
-      "ExtraInfo": "sequi",
-      "StyleHint": "explicabo",
-      "FullName": "Sallie Paucek",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 701
-        }
-      }
-    }
-  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 589
     }
   }
 }

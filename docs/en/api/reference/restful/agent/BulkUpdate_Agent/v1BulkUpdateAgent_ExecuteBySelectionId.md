@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
-      "IsActive": false,
-      "Key": "soluta",
-      "ValueType": "est",
-      "Mandatory": false,
-      "EncodedDisplayName": "Paucek, Ward and Gutkowski",
-      "EncodedDisplayDescription": "Enhanced foreground approach",
-      "IconHint": "cum",
+      "IsActive": true,
+      "Key": "necessitatibus",
+      "ValueType": "accusamus",
+      "Mandatory": true,
+      "EncodedDisplayName": "Kuhn-Wisozk",
+      "EncodedDisplayDescription": "Cloned interactive superstructure",
+      "IconHint": "ipsam",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "sapiente",
-      "EncodedDataCaptionDescription": "Open-architected hybrid complexity",
-      "CurrentOperationType": "non",
+      "EncodedDataCaption": "fuga",
+      "EncodedDataCaptionDescription": "Enterprise-wide logistical knowledge base",
+      "CurrentOperationType": "fuga",
       "Values": [
-        "recusandae",
-        "blanditiis"
+        "ducimus",
+        "sint"
       ],
       "DisplayValues": [
-        "quia",
-        "asperiores"
+        "accusantium",
+        "tenetur"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Borer-Cruickshank",
-  "Context": "sapiente",
-  "SelectionId": 103,
+  "TableName": "Bednar Inc and Sons",
+  "Context": "laudantium",
+  "SelectionId": 269,
   "IsShadow": true
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-331
+916
 ```

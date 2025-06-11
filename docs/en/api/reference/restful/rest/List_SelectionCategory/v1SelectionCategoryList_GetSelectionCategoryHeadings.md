@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 161,
-    "Name": "Reynolds LLC",
-    "Tooltip": "ex",
+    "HeadingId": 87,
+    "Name": "Hoppe-O'Conner",
+    "Tooltip": "maiores",
     "Deleted": true,
-    "Rank": 220,
-    "UdListDefinitionId": 102,
+    "Rank": 542,
+    "UdListDefinitionId": 420,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldLength": 518
       }
     }
   }

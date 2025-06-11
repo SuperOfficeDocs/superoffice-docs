@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 519,
-  "Name": "Witting-Hills",
-  "ContentType": "dolorum",
-  "AttSize": 296,
-  "InlineImage": false,
-  "ContentId": "eius",
-  "AuthKey": "quibusdam",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 177,
+  "Name": "Walter-Ruecker",
+  "ContentType": "magnam",
+  "AttSize": 876,
+  "InlineImage": true,
+  "ContentId": "qui",
+  "AuthKey": "minima",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldLength": 66
     }
   }
 }

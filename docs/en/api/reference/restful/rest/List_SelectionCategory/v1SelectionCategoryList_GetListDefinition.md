@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 71,
-  "Name": "Williamson Group",
-  "Tooltip": "architecto",
+  "Id": 340,
+  "Name": "Roob LLC",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 111,
-  "IsCustomList": false,
+  "Rank": 382,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nostrum",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   },
   "_Links": {

@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 606,
-  "Name": "Schaden-Kunze",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 52,
-  "Rank": 345
+  "Id": 690,
+  "Name": "Schaden LLC",
+  "Tooltip": "dolore",
+  "Deleted": true,
+  "UdListDefinitionId": 226,
+  "Rank": 926
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 357,
-  "Name": "Mante-Weimann",
-  "Tooltip": "neque",
-  "Deleted": false,
-  "UdListDefinitionId": 6,
-  "Rank": 433,
+  "Id": 360,
+  "Name": "Robel-Bogan",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "UdListDefinitionId": 827,
+  "Rank": 457,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 415
+      "FieldType": "System.Int32",
+      "FieldLength": 727
     }
   }
 }

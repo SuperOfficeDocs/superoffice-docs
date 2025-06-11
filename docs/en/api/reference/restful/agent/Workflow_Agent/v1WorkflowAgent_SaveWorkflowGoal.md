@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 976,
-  "WorkflowId": 148,
+  "WorkflowGoalId": 305,
+  "WorkflowId": 246,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Bernhard, Kirlin and Roberts",
-      "Description": "Expanded optimizing system engine",
-      "Rank": 306,
+      "Name": "Frami Group",
+      "Description": "User-friendly coherent analyzer",
+      "Rank": 777,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bernhard, Kirlin and Roberts",
-      "Description": "Expanded optimizing system engine",
-      "Rank": 306,
+      "Name": "Frami Group",
+      "Description": "User-friendly coherent analyzer",
+      "Rank": 777,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 11,
-  "WorkflowId": 397,
+  "WorkflowGoalId": 488,
+  "WorkflowId": 89,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Hahn Inc and Sons",
-      "Description": "Assimilated didactic groupware",
-      "Rank": 599,
+      "Name": "Bashirian-Ernser",
+      "Description": "Reverse-engineered homogeneous parallelism",
+      "Rank": 392,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hahn Inc and Sons",
-      "Description": "Assimilated didactic groupware",
-      "Rank": 599,
+      "Name": "Bashirian-Ernser",
+      "Description": "Reverse-engineered homogeneous parallelism",
+      "Rank": 392,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldLength": 22
     }
   }
 }

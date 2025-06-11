@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "Schmidt-Bahringer",
-    "ToolTip": "Est ullam.",
-    "Deleted": true,
-    "Rank": 268,
-    "Type": "facilis",
-    "ColorBlock": 692,
-    "IconHint": "ab",
-    "Selected": false,
-    "LastChanged": "2009-06-27T16:32:48.5870472+02:00",
+    "Id": 9,
+    "Name": "Cartwright LLC",
+    "ToolTip": "Quisquam suscipit illo dicta est.",
+    "Deleted": false,
+    "Rank": 246,
+    "Type": "nemo",
+    "ColorBlock": 278,
+    "IconHint": "pariatur",
+    "Selected": true,
+    "LastChanged": "2024-09-30T17:54:08.8824262+02:00",
     "ChildItems": [
       {
-        "Id": 869,
-        "Name": "Cartwright, Stokes and Bahringer",
-        "ToolTip": "Quisquam assumenda unde.",
-        "Deleted": false,
-        "Rank": 880,
-        "Type": "aliquid",
-        "ColorBlock": 348,
-        "IconHint": "quasi",
-        "Selected": false,
-        "LastChanged": "2007-07-24T16:32:48.5870472+02:00",
+        "Id": 422,
+        "Name": "Konopelski-Emmerich",
+        "ToolTip": "Est officiis blanditiis laborum veniam.",
+        "Deleted": true,
+        "Rank": 207,
+        "Type": "velit",
+        "ColorBlock": 48,
+        "IconHint": "voluptate",
+        "Selected": true,
+        "LastChanged": "2001-01-30T17:54:08.8824262+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Jermey Quitzon",
+        "ExtraInfo": "et",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Claudia Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 727
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "sint",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "totam",
     "Hidden": true,
-    "FullName": "Jeremy King",
+    "FullName": "Antonetta Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 829
       }
     }
   }

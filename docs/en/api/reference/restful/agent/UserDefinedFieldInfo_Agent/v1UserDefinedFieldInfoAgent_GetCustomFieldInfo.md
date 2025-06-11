@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Metz-Batz",
-  "FieldName": "Yost Inc and Sons"
+  "TableName": "Pollich-Kautzer",
+  "FieldName": "Adams-Klocko"
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Upton, Kilback and Wilderman",
-  "DisplayName": "Casper-Blanda",
-  "Description": "Polarised assymetric frame",
-  "ShortLabel": "ullam",
-  "HideLabel": false,
+  "FieldName": "Champlin-Klocko",
+  "DisplayName": "Kuhn-Fritsch",
+  "Description": "Total grid-enabled circuit",
+  "ShortLabel": "suscipit",
+  "HideLabel": true,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": false,
+  "IsIndexed": true,
+  "IsMandatory": false,
+  "IsReadOnly": true,
   "IsExternal": true,
   "IsDisplayField": true,
-  "Rank": 829,
-  "TemplateVariableName": "Willms, Thompson and Lakin"
+  "Rank": 52,
+  "TemplateVariableName": "Ortiz, Rolfson and Dietrich"
 }
 ```

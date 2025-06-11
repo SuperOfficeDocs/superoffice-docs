@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 945
+  "QuoteLineId": 892
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 933,
-  "ERPQuoteLineKey": "id",
-  "QuoteAlternativeId": 950,
-  "ERPProductKey": "repellendus",
+  "QuoteLineId": 271,
+  "ERPQuoteLineKey": "illo",
+  "QuoteAlternativeId": 125,
+  "ERPProductKey": "quia",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 22846.86,
-  "DeliveredQuantity": 23395.309999999998,
-  "Rank": 608,
-  "Name": "Schaefer-Gibson",
-  "Description": "Balanced context-sensitive intranet",
-  "Code": "placeat",
-  "QuantityUnit": "ratione",
-  "PriceUnit": "et",
-  "ItemNumber": "541374",
+  "Reason": "integrate turn-key deliverables",
+  "Quantity": 24254.025999999998,
+  "DeliveredQuantity": 26570.052,
+  "Rank": 692,
+  "Name": "Ondricka LLC",
+  "Description": "Multi-tiered 5th generation artificial intelligence",
+  "Code": "cupiditate",
+  "QuantityUnit": "ea",
+  "PriceUnit": "eligendi",
+  "ItemNumber": "328458",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "fuga",
-  "ProductTypeKey": "doloremque",
-  "Supplier": "dicta",
-  "SupplierCode": "ea",
-  "Thumbnail": "quasi",
-  "VATInfo": "optio",
-  "VAT": 5540.912,
-  "UnitCost": 8552.686,
-  "UnitMinimumPrice": 30359.057999999997,
-  "UnitListPrice": 10671.27,
+  "ProductFamilyKey": "aliquam",
+  "ProductTypeKey": "quidem",
+  "Supplier": "eligendi",
+  "SupplierCode": "enim",
+  "Thumbnail": "ducimus",
+  "VATInfo": "ipsam",
+  "VAT": 10182.366,
+  "UnitCost": 22821.788,
+  "UnitMinimumPrice": 22602.408,
+  "UnitListPrice": 125.36,
   "ExtraInfo": [
     {
-      "Name": "Glover-Boehm",
-      "Value": "est",
+      "Name": "Simonis LLC",
+      "Value": "sit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 801
+          "FieldLength": 245
         }
       }
     },
     {
-      "Name": "Glover-Boehm",
-      "Value": "est",
+      "Name": "Simonis LLC",
+      "Value": "sit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 801
+          "FieldLength": 245
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ipsa",
-  "SubscriptionQuantity": 1203.456,
-  "SubscriptionStart": "2024-04-09T16:32:39.7583671+02:00",
-  "ERPDiscountPercent": 26852.111999999997,
-  "ERPDiscountAmount": 285.194,
-  "DiscountPercent": 24416.994,
-  "DiscountAmount": 27105.966,
+  "RawExtraInfo": "autem",
+  "IsSubscription": true,
+  "SubscriptionUnit": "sed",
+  "SubscriptionQuantity": 2930.29,
+  "SubscriptionStart": "2015-02-08T17:54:03.5389365+01:00",
+  "ERPDiscountPercent": 15883.112,
+  "ERPDiscountAmount": 23235.476,
+  "DiscountPercent": 16431.561999999998,
+  "DiscountAmount": 28077.505999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20728.275999999998,
-  "EarningAmount": 6173.98,
-  "SubTotal": 1034.22,
-  "TotalPrice": 14645.181999999999,
-  "Rights": "sapiente",
-  "Rule": "aut",
-  "ExtraField1": "velit",
-  "ExtraField2": "sequi",
-  "ExtraField3": "facere",
-  "ExtraField4": "laudantium",
-  "ExtraField5": "vel",
+  "EarningPercent": 7988.566,
+  "EarningAmount": 29729.124,
+  "SubTotal": 626.8,
+  "TotalPrice": 27225.058,
+  "Rights": "id",
+  "Rule": "architecto",
+  "ExtraField1": "provident",
+  "ExtraField2": "omnis",
+  "ExtraField3": "ut",
+  "ExtraField4": "fuga",
+  "ExtraField5": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldLength": 890
     }
   }
 }

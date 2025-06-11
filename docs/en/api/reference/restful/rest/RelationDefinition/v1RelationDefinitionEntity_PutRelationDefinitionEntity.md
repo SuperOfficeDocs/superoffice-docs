@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 941,
-  "Name": "Marvin, Hoppe and Huel",
-  "Tooltip": "dolorem",
-  "PassiveText": "occaecati",
+  "ReldefId": 330,
+  "Name": "Hermann Group",
+  "Tooltip": "alias",
+  "PassiveText": "distinctio",
   "Deleted": true,
-  "Rank": 953,
+  "Rank": 629,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,12 +115,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 386,
-  "Name": "Konopelski Inc and Sons",
-  "Tooltip": "esse",
-  "PassiveText": "quia",
-  "Deleted": true,
-  "Rank": 388,
+  "ReldefId": 421,
+  "Name": "Langworth, Gusikowski and Carroll",
+  "Tooltip": "sequi",
+  "PassiveText": "molestiae",
+  "Deleted": false,
+  "Rank": 738,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 711
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

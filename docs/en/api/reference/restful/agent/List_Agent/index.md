@@ -10,7 +10,7 @@ generated: true
 
 
 
-* [POST Agents/List/GetTask](v1ListAgent_GetTask.md)
+* [POST Agents/List/GetTask](v1ListAgent_GetSoTask.md)
 
 * [POST Agents/List/GetDocumentTemplateTask](v1ListAgent_GetDocumentTemplateTask.md)
 

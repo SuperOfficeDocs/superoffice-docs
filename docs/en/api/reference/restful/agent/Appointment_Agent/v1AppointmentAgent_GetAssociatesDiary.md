@@ -128,16 +128,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    350,
-    490
+    175,
+    339
   ],
-  "StartTime": "2011-10-25T16:32:37.6646595+02:00",
-  "EndTime": "2003-12-04T16:32:37.6646595+01:00"
+  "StartTime": "2006-04-04T17:54:02.3983677+02:00",
+  "EndTime": "2023-05-31T17:54:02.3983677+02:00"
 }
 ```
 
@@ -149,66 +149,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 903,
-    "StartDate": "2020-09-22T16:32:37.6646595+02:00",
-    "EndDate": "2021-08-09T16:32:37.6646595+02:00",
+    "AppointmentId": 439,
+    "StartDate": "2005-07-09T17:54:02.3983677+02:00",
+    "EndDate": "2016-08-28T17:54:02.3983677+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ad",
-    "AssociateFullName": "Josiane Wilderman",
-    "ContactName": "Kuphal, Kiehn and Glover",
-    "Description": "Multi-tiered intermediate middleware",
-    "PersonFullName": "Giuseppe Adams",
-    "PersonId": 937,
+    "Task": "dolore",
+    "AssociateFullName": "Hobart Goodwin",
+    "ContactName": "White Inc and Sons",
+    "Description": "Multi-channelled analyzing paradigm",
+    "PersonFullName": "Vince Prohaska",
+    "PersonId": 184,
     "ContactId": 100,
-    "ProjectId": 766,
-    "ProjectName": "Veum-Corwin",
+    "ProjectId": 407,
+    "ProjectName": "Runte Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 535,
-    "ColorIndex": 87,
+    "AssociateId": 969,
+    "ColorIndex": 945,
     "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 586,
-    "PriorityName": "Gusikowski LLC",
+    "PriorityId": 156,
+    "PriorityName": "Harber LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2002-12-01T16:32:37.6646595+01:00",
+    "ActiveDate": "2023-12-04T17:54:02.3983677+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-09-13T16:32:37.6646595+02:00",
-    "RecurringEndDate": "2001-06-17T16:32:37.6646595+02:00",
-    "MotherId": 683,
-    "AssignedBy": 173,
-    "AssignedByFullName": "Mr. Andre Aliza Murazik V",
+    "RecurringStartDate": "1999-10-22T17:54:02.3983677+02:00",
+    "RecurringEndDate": "2021-06-25T17:54:02.3983677+02:00",
+    "MotherId": 221,
+    "AssignedBy": 264,
+    "AssignedByFullName": "Kayley Okuneva",
     "RejectReason": "",
-    "Location": "distinctio",
-    "AlarmLeadTime": "eum",
-    "SaleId": 520,
-    "SaleName": "Berge, Ryan and Hoppe",
-    "AssociateName": "Schroeder-Nikolaus",
-    "CreatedDate": "2016-04-21T16:32:37.6646595+02:00",
-    "CreatedBy": "accusantium",
-    "CreatedByFullName": "Mr. Clifton Avery Balistreri Sr.",
-    "CreatedByAssociateId": 53,
+    "Location": "ad",
+    "AlarmLeadTime": "sequi",
+    "SaleId": 496,
+    "SaleName": "Jaskolski LLC",
+    "AssociateName": "Jacobi, Wolff and Schowalter",
+    "CreatedDate": "2010-04-02T17:54:02.3983677+02:00",
+    "CreatedBy": "asperiores",
+    "CreatedByFullName": "Elwin Fatima Nolan Jr.",
+    "CreatedByAssociateId": 705,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 398,
-    "Title": "omnis",
-    "Agenda": "veniam",
-    "InternalNotes": "dicta",
+    "PreferredTZLocation": 1001,
+    "Title": "perspiciatis",
+    "Agenda": "praesentium",
+    "InternalNotes": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

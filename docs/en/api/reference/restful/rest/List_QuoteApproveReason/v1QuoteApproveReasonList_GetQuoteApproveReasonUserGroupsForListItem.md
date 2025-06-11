@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Waters, Marvin and Moore",
-    "ToolTip": "Et animi ut aspernatur mollitia maiores rerum.",
+    "Id": 217,
+    "Name": "Schiller Inc and Sons",
+    "ToolTip": "Cum enim voluptatem ullam dolor.",
     "Deleted": false,
-    "Rank": 330,
-    "Type": "totam",
-    "ColorBlock": 918,
-    "IconHint": "id",
+    "Rank": 134,
+    "Type": "minus",
+    "ColorBlock": 344,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "1998-12-25T16:32:48.8526096+01:00",
+    "LastChanged": "2025-02-04T17:54:09.0074197+01:00",
     "ChildItems": [
       {
-        "Id": 838,
-        "Name": "Bogan LLC",
-        "ToolTip": "Incidunt quia nihil quasi.",
-        "Deleted": false,
-        "Rank": 516,
-        "Type": "fuga",
-        "ColorBlock": 91,
-        "IconHint": "a",
+        "Id": 453,
+        "Name": "Cole LLC",
+        "ToolTip": "Earum consequatur nihil voluptates reiciendis aut doloribus voluptatem.",
+        "Deleted": true,
+        "Rank": 162,
+        "Type": "omnis",
+        "ColorBlock": 569,
+        "IconHint": "magnam",
         "Selected": false,
-        "LastChanged": "2012-09-15T16:32:48.8526096+02:00",
+        "LastChanged": "2022-07-25T17:54:09.0074197+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "non",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Timothy Armstrong",
+        "FullName": "Frances DuBuque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 356
+            "FieldType": "System.String",
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "odio",
+    "ExtraInfo": "quo",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Mollie Bailey",
+    "FullName": "Mr. Deondre Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 957
+        "FieldLength": 54
       }
     }
   }

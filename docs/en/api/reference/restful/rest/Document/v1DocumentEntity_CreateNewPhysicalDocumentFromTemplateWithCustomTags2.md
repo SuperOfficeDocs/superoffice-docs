@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=281
-POST /api/v1/Document/{documentId}/Content?personId=743
-POST /api/v1/Document/{documentId}/Content?appointmentId=359
-POST /api/v1/Document/{documentId}/Content?saleId=124
-POST /api/v1/Document/{documentId}/Content?selectionId=968
-POST /api/v1/Document/{documentId}/Content?projectId=816
-POST /api/v1/Document/{documentId}/Content?uiCulture=consequatur
+POST /api/v1/Document/{documentId}/Content?contactId=813
+POST /api/v1/Document/{documentId}/Content?personId=279
+POST /api/v1/Document/{documentId}/Content?appointmentId=325
+POST /api/v1/Document/{documentId}/Content?saleId=481
+POST /api/v1/Document/{documentId}/Content?selectionId=439
+POST /api/v1/Document/{documentId}/Content?projectId=47
+POST /api/v1/Document/{documentId}/Content?uiCulture=facere
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 1001,
+  "DocumentId": 187,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "enim",
-  "Name": "Legros, Ferry and Welch",
-  "OurRef": "impedit",
-  "YourRef": "ut",
-  "CreatedDate": "2012-07-19T16:32:47.5089608+02:00",
-  "UpdatedDate": "2023-07-28T16:32:47.5089608+02:00",
-  "Description": "Distributed responsive forecast",
+  "Attention": "sed",
+  "Header": "et",
+  "Name": "Buckridge-Ward",
+  "OurRef": "eos",
+  "YourRef": "et",
+  "CreatedDate": "2009-08-22T17:54:08.2418376+02:00",
+  "UpdatedDate": "2023-09-03T17:54:08.2418376+02:00",
+  "Description": "Monitored even-keeled neural-net",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-06-03T16:32:47.5089608+02:00",
-  "ExternalRef": "quisquam",
+  "Date": "2014-04-25T17:54:08.2418376+02:00",
+  "ExternalRef": "sit",
   "Completed": "Completed",
-  "ActiveLinks": 568,
+  "ActiveLinks": 529,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Zieme, Herzog and Robel",
-      "Id": 139,
-      "Description": "Inverse holistic extranet",
-      "ExtraInfo": "sed",
-      "LinkId": 509,
+      "EntityName": "Skiles, Kreiger and Hamill",
+      "Id": 14,
+      "Description": "Switchable intangible projection",
+      "ExtraInfo": "quis",
+      "LinkId": 498,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 510
+          "FieldLength": 77
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 991,
-  "Snum": 392,
+  "SuggestedDocumentId": 284,
+  "Snum": 569,
   "UserDefinedFields": {
-    "SuperOffice:1": "1016237954",
-    "SuperOffice:2": "Shaniya Haley"
+    "SuperOffice:1": "Kennith Howe",
+    "SuperOffice:2": "Colby Carroll"
   },
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "omnis"
+    "CustomFields1": "similique",
+    "CustomFields2": "inventore"
   },
-  "PublishEventDate": "2012-11-13T16:32:47.5089608+01:00",
-  "PublishTo": "2010-03-12T16:32:47.5089608+01:00",
-  "PublishFrom": "2020-06-23T16:32:47.5089608+02:00",
+  "PublishEventDate": "2011-03-15T17:54:08.2418376+01:00",
+  "PublishTo": "2013-09-25T17:54:08.2418376+02:00",
+  "PublishFrom": "1999-04-13T17:54:08.2418376+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 24,
+      "VisibleId": 925,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 664
+          "FieldType": "System.String",
+          "FieldLength": 518
         }
       }
     },
     {
-      "VisibleId": 24,
+      "VisibleId": 925,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 664
+          "FieldType": "System.String",
+          "FieldLength": 518
         }
       }
     }
@@ -222,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldLength": 585
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 219,
-    "Name": "Marvin-Runolfsdottir",
-    "ContentType": "non",
-    "AttSize": 958,
+    "AttachmentId": 209,
+    "Name": "Klein-Wilkinson",
+    "ContentType": "quis",
+    "AttSize": 45,
     "InlineImage": false,
-    "ContentId": "est",
-    "AuthKey": "in",
+    "ContentId": "aperiam",
+    "AuthKey": "iste",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldType": "System.String",
+        "FieldLength": 602
       }
     }
   }

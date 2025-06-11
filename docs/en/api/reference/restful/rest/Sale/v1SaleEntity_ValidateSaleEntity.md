@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "neque",
+  "SaleText": "possimus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-12-28T16:32:48.0400922+01:00",
-  "Amount": 17418.772,
-  "SaleId": 843,
-  "Earning": 29008.304,
-  "EarningPercent": 8546.418,
-  "Heading": "eius",
-  "Number": "497367",
-  "Probability": 778,
-  "CreatedDate": "2009-12-12T16:32:48.0400922+01:00",
-  "UpdatedDate": "2004-04-10T16:32:48.0400922+02:00",
+  "Saledate": "2009-07-31T17:54:08.5230811+02:00",
+  "Amount": 1858.462,
+  "SaleId": 922,
+  "Earning": 9474.082,
+  "EarningPercent": 1002.88,
+  "Heading": "consequuntur",
+  "Number": "1213339",
+  "Probability": 63,
+  "CreatedDate": "2005-01-08T17:54:08.5230811+01:00",
+  "UpdatedDate": "2019-06-05T17:54:08.5230811+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 972,
+  "ActiveLinks": 750,
   "Links": [
     {
-      "EntityName": "Rutherford-Cummings",
-      "Id": 81,
-      "Description": "Enhanced neutral workforce",
-      "ExtraInfo": "eum",
-      "LinkId": 901
+      "EntityName": "Schowalter-Reichert",
+      "Id": 429,
+      "Description": "Universal 5th generation pricing structure",
+      "ExtraInfo": "et",
+      "LinkId": 572
     },
     {
-      "EntityName": "Rutherford-Cummings",
-      "Id": 81,
-      "Description": "Enhanced neutral workforce",
-      "ExtraInfo": "eum",
-      "LinkId": 901
+      "EntityName": "Schowalter-Reichert",
+      "Id": 429,
+      "Description": "Universal 5th generation pricing structure",
+      "ExtraInfo": "et",
+      "LinkId": 572
     }
   ],
-  "NextDueDate": "2017-02-06T16:32:48.0400922+01:00",
-  "Postit": "voluptas",
+  "NextDueDate": "2010-04-24T17:54:08.5230811+02:00",
+  "Postit": "nesciunt",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2010-05-09T16:32:48.0400922+02:00",
+  "ReopenDate": "2018-05-28T17:54:08.5230811+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Morar-Macejkovic",
-      "Comment": "nobis",
-      "StakeholderRoleId": 896,
-      "CountryId": 888,
-      "PersonId": 384,
-      "EmailDescription": "edna_kohler@ohara.info",
-      "EmailId": 697,
-      "EmailAddress": "mose@oberbrunner.info",
-      "PhoneId": 566,
-      "ContactName": "Beier-Kuphal",
-      "ContactId": 297,
-      "SaleId": 54,
-      "Mrmrs": "id",
-      "Firstname": "Darion",
-      "MiddleName": "Wolff, Kuhlman and Ebert",
-      "Lastname": "Fritsch",
-      "SaleStakeholderId": 101,
-      "Rank": 731,
-      "Phone": "(837)797-0820"
+      "StakeholderRoleName": "O'Connell-Schuster",
+      "Comment": "dolor",
+      "StakeholderRoleId": 371,
+      "CountryId": 965,
+      "PersonId": 158,
+      "EmailDescription": "dane.tillman@huelgreenholt.co.uk",
+      "EmailId": 11,
+      "EmailAddress": "ruben.lesch@klingward.ca",
+      "PhoneId": 338,
+      "ContactName": "Hudson, Ortiz and Beer",
+      "ContactId": 386,
+      "SaleId": 922,
+      "Mrmrs": "sint",
+      "Firstname": "Alba",
+      "MiddleName": "Renner, Flatley and Renner",
+      "Lastname": "Kerluke",
+      "SaleStakeholderId": 842,
+      "Rank": 527,
+      "Phone": "987-113-8484 x3506"
     }
   ],
-  "ActiveErpLinks": 200,
+  "ActiveErpLinks": 690,
   "UserDefinedFields": {
-    "SuperOffice:1": "Scot Purdy V",
-    "SuperOffice:2": "1648928777"
+    "SuperOffice:1": "Prof. Wilton Christine Bednar DDS",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "earum",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "maxime"
+    "CustomFields1": "deserunt",
+    "CustomFields2": "illo"
   },
-  "PublishEventDate": "2008-09-26T16:32:48.0557147+02:00",
-  "PublishTo": "2004-01-24T16:32:48.0557147+01:00",
-  "PublishFrom": "2004-08-08T16:32:48.0557147+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-04-04T17:54:08.5230811+02:00",
+  "PublishTo": "2008-04-15T17:54:08.5230811+02:00",
+  "PublishFrom": "2002-08-12T17:54:08.5230811+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 622,
+      "VisibleId": 813,
       "Visibility": "All",
-      "DisplayValue": "iusto"
+      "DisplayValue": "doloremque"
     },
     {
-      "VisibleId": 622,
+      "VisibleId": 813,
       "Visibility": "All",
-      "DisplayValue": "iusto"
+      "DisplayValue": "doloremque"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quia",
+  "1": "dolorem",
   "2": "nihil"
 }
 ```

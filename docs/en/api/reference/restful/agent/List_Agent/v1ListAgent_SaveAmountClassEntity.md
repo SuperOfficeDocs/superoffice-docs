@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 705,
-  "Name": "Connelly-Collier",
-  "Tooltip": "corrupti",
-  "Rank": 363,
-  "AmountFrom": 16378.284,
-  "AmountTo": 29161.87,
-  "Deleted": true,
-  "CurrencyId": 684
+  "AmountClassId": 163,
+  "Name": "Feil-Robel",
+  "Tooltip": "ea",
+  "Rank": 714,
+  "AmountFrom": 5004.998,
+  "AmountTo": 13720.652,
+  "Deleted": false,
+  "CurrencyId": 335
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 202,
-  "Name": "Donnelly LLC",
-  "Tooltip": "error",
-  "Rank": 349,
-  "AmountFrom": 27535.324,
-  "AmountTo": 20800.358,
-  "Deleted": true,
-  "CurrencyId": 613,
+  "AmountClassId": 270,
+  "Name": "Collins LLC",
+  "Tooltip": "et",
+  "Rank": 454,
+  "AmountFrom": 18738.185999999998,
+  "AmountTo": 3785.872,
+  "Deleted": false,
+  "CurrencyId": 561,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 281
+      "FieldType": "System.Int32",
+      "FieldLength": 429
     }
   }
 }

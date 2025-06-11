@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 27,
-  "Name": "Schmitt, Corkery and O'Kon",
-  "Tooltip": "voluptates",
-  "Deleted": true,
-  "Rank": 771,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 732,
+  "Name": "Schultz-Murazik",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "Rank": 68,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
+  "ListType": "iure",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 163
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 989,
-    "Name": "Conn, Langosh and Lesch",
-    "Tooltip": "voluptatem",
+    "HeadingId": 498,
+    "Name": "Kessler-Kilback",
+    "Tooltip": "aliquam",
     "Deleted": true,
-    "Rank": 221,
-    "UdListDefinitionId": 658
+    "Rank": 302,
+    "UdListDefinitionId": 801
   },
   {
-    "HeadingId": 989,
-    "Name": "Conn, Langosh and Lesch",
-    "Tooltip": "voluptatem",
+    "HeadingId": 498,
+    "Name": "Kessler-Kilback",
+    "Tooltip": "aliquam",
     "Deleted": true,
-    "Rank": 221,
-    "UdListDefinitionId": 658
+    "Rank": 302,
+    "UdListDefinitionId": 801
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 74,
-    "Name": "Homenick Inc and Sons",
-    "Tooltip": "velit",
+    "HeadingId": 464,
+    "Name": "Kohler-Glover",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 781,
-    "UdListDefinitionId": 278,
+    "Rank": 591,
+    "UdListDefinitionId": 1002,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 29
       }
     }
   }

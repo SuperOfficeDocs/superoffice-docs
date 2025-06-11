@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 930,
-  "Count": 578
+  "WeightedAmountLimit": 535,
+  "Count": 532
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hickle-Koss",
-    "SaleDate": "2016-04-23T16:32:39.8520956+02:00",
-    "SaleId": 178,
-    "Probability": 664,
-    "Title": "et",
-    "Amount": 31314.928,
-    "Currency": "labore",
-    "ProjectName": "Roob, Hyatt and Wisozk",
-    "AssociateFullName": "Jayden Blanda",
-    "Description": "Versatile interactive frame",
+    "ContactName": "Ritchie, Senger and Feeney",
+    "SaleDate": "2014-05-25T17:54:03.5858088+02:00",
+    "SaleId": 175,
+    "Probability": 138,
+    "Title": "id",
+    "Amount": 10771.557999999999,
+    "Currency": "voluptatem",
+    "ProjectName": "Hickle-Crist",
+    "AssociateFullName": "Ms. Arthur Mitchell",
+    "Description": "Function-based motivating budgetary management",
     "Status": "Lost",
-    "WeightedAmount": 454.43,
-    "ProjectId": 212,
-    "EarningPercent": 22683.892,
-    "Earning": 22270.203999999998,
-    "ContactId": 950,
-    "AssociateId": 315,
-    "PersonId": 792,
-    "SaleTypeId": 471,
-    "SaleTypeName": "Muller-Howe",
-    "PersonFullName": "Prof. Simone Schroeder MD",
+    "WeightedAmount": 10238.778,
+    "ProjectId": 19,
+    "EarningPercent": 2184.398,
+    "Earning": 20781.554,
+    "ContactId": 733,
+    "AssociateId": 667,
+    "PersonId": 773,
+    "SaleTypeId": 34,
+    "SaleTypeName": "Tremblay-Wehner",
+    "PersonFullName": "Filiberto Kertzmann",
     "Completed": "Completed",
-    "ActiveErpLinks": 616,
-    "NextDueDate": "2010-09-27T16:32:39.8520956+02:00",
-    "Number": "1670465",
+    "ActiveErpLinks": 936,
+    "NextDueDate": "2023-04-19T17:54:03.5858088+02:00",
+    "Number": "1148694",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldLength": 59
       }
     }
   }

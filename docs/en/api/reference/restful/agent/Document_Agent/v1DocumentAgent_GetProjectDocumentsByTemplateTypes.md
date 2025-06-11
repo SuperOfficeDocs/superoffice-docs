@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 819,
-  "StartTime": "2011-03-17T16:32:38.7739758+01:00",
-  "EndTime": "2022-02-10T16:32:38.7739758+01:00",
-  "Count": 740,
+  "ProjectId": 370,
+  "StartTime": "2002-05-15T17:54:02.9608392+02:00",
+  "EndTime": "2014-02-24T17:54:02.9608392+01:00",
+  "Count": 418,
   "DocumentTemplateIds": [
-    703,
-    547
+    938,
+    574
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 857,
-    "Attention": "quam",
-    "Header": "optio",
-    "Name": "Upton LLC",
-    "OurRef": "excepturi",
-    "YourRef": "officia",
-    "Description": "Customer-focused maximized internet solution",
-    "DocumentTemplate": "debitis",
+    "DocumentId": 899,
+    "Attention": "necessitatibus",
+    "Header": "et",
+    "Name": "Stanton-Johns",
+    "OurRef": "totam",
+    "YourRef": "excepturi",
+    "Description": "Team-oriented assymetric neural-net",
+    "DocumentTemplate": "odit",
     "IsPublished": false,
-    "PersonId": 711,
-    "PersonFullName": "Rupert Gleason MD",
-    "AssociateFullName": "Dr. Hildegard Ondricka I",
-    "ContactId": 139,
-    "ContactName": "Treutel Inc and Sons",
-    "ProjectId": 501,
-    "ProjectName": "Rowe-Reichert",
-    "AssociateId": 978,
-    "Snum": 716,
-    "SaleId": 356,
-    "SaleName": "Thompson Group",
+    "PersonId": 801,
+    "PersonFullName": "Mr. Violette Agustina Huels III",
+    "AssociateFullName": "Antonietta Lind",
+    "ContactId": 776,
+    "ContactName": "Stiedemann, Abshire and Wolf",
+    "ProjectId": 642,
+    "ProjectName": "Gottlieb, Anderson and Eichmann",
+    "AssociateId": 526,
+    "Snum": 760,
+    "SaleId": 28,
+    "SaleName": "Collins-Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldType": "System.String",
+        "FieldLength": 101
       }
     }
   }

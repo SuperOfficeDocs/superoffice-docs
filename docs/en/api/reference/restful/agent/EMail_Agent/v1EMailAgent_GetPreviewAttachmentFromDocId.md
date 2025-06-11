@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 361,
-  "AttachmentId": "architecto"
+  "DocId": 463,
+  "AttachmentId": "aut"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Intuitive encompassing local area network",
-  "Filename": "nobis",
-  "Size": 959,
-  "Type": "distinctio",
-  "Encoding": "blanditiis",
-  "Id": "soluta",
-  "Disposition": "perspiciatis",
+  "Description": "Advanced systemic data-warehouse",
+  "Filename": "laborum",
+  "Size": 245,
+  "Type": "accusantium",
+  "Encoding": "omnis",
+  "Id": "omnis",
+  "Disposition": "veritatis",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 642
+      "FieldLength": 400
     }
   }
 }

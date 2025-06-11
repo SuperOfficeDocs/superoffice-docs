@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=174
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=407
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 113,
-  "ContactId": 760,
-  "ProjectId": 621,
-  "ContactName": "Miller Group",
+  "ProjectmemberId": 666,
+  "ContactId": 637,
+  "ProjectId": 838,
+  "ContactName": "Feil Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Koelpin Inc and Sons",
-  "EmailId": 785,
-  "EmailAddress": "novella.brown@crist.info",
-  "CountryId": 388,
-  "Firstname": "Gage",
-  "MiddleName": "Walsh, Powlowski and Schulist",
-  "Lastname": "Balistreri",
-  "PersonId": 311,
-  "Mrmrs": "quas",
-  "ProjectMemberTypeName": "Jerde, Stokes and Kerluke",
-  "Phone": "734-507-9162 x49984",
-  "PhoneId": 176,
-  "ProjectMemberTypeId": 270,
-  "EmailAddressName": "gwen@beierschaefer.us",
-  "Comment": "totam",
-  "FullName": "Nick Hamill",
+  "ProjectName": "Walsh, Hirthe and Johns",
+  "EmailId": 862,
+  "EmailAddress": "karen.hammes@abernathy.us",
+  "CountryId": 302,
+  "Firstname": "George",
+  "MiddleName": "Douglas Inc and Sons",
+  "Lastname": "Schimmel",
+  "PersonId": 688,
+  "Mrmrs": "minus",
+  "ProjectMemberTypeName": "Kub-Jacobi",
+  "Phone": "1-190-632-1937 x564",
+  "PhoneId": 595,
+  "ProjectMemberTypeId": 370,
+  "EmailAddressName": "gerald_greenholt@krismcclure.ca",
+  "Comment": "blanditiis",
+  "FullName": "Mrs. Jerry Sporer MD",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 573
+      "FieldType": "System.Int32",
+      "FieldLength": 674
     }
   }
 }

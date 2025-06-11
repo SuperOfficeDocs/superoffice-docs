@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=exercitationem
-GET /api/v1/Script?$top=724
-GET /api/v1/Script?$skip=81
+GET /api/v1/Script?$entities=possimus
+GET /api/v1/Script?$top=338
+GET /api/v1/Script?$skip=139
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=corporis
+GET /api/v1/Script?$context=et
 GET /api/v1/Script?$format=JSON
 GET /api/v1/Script?$jsonSafe=True
 GET /api/v1/Script?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Script
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "dolor",
   "value": [
     {
-      "PrimaryKey": 2317,
-      "EntityName": "person",
-      "personId": 2317,
-      "fullName": "Dr. Eldred Grady Sr."
+      "PrimaryKey": 3239,
+      "EntityName": "sale",
+      "saleId": 3239,
+      "contactId": 9289,
+      "name": "Gerhold, Wiza and Greenholt"
     },
     {
-      "PrimaryKey": 2532,
-      "EntityName": "person",
-      "personId": 2532,
-      "fullName": "Cordie Schmitt DVM"
+      "PrimaryKey": 1332,
+      "EntityName": "sale",
+      "saleId": 1332,
+      "contactId": 127,
+      "name": "Sawayn Inc and Sons"
     }
   ]
 }

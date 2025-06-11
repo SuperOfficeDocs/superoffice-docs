@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 539,
-    "Name": "Heller Inc and Sons",
-    "Tooltip": "animi",
-    "SaveInDb": 389,
-    "Filename": "vero",
-    "DefaultOref": "voluptatem",
+    "DocumentTemplateId": 148,
+    "Name": "Cassin Group",
+    "Tooltip": "ut",
+    "SaveInDb": 539,
+    "Filename": "tempore",
+    "DefaultOref": "natus",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 530,
-    "IntentId": 452,
-    "IsDefaultPublished": true,
-    "Rank": 60,
-    "LoadTemplateFromPlugin": 745,
-    "MimeType": "nobis",
+    "AutoeventId": 464,
+    "IntentId": 617,
+    "IsDefaultPublished": false,
+    "Rank": 601,
+    "LoadTemplateFromPlugin": 585,
+    "MimeType": "est",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 122,
+    "DocumentTypeKey": 261,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "simone@boylegusikowski.ca",
+    "EmailSubject": "toy_waelchi@reynolds.us",
     "IncludeSignature": false,
-    "ShowCurrents": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "jordane_bradtke@kreigermayer.info",
+    "SenderEmailAddress": "edd_becker@hodkiewicz.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 245
+        "FieldLength": 804
       }
     }
   }

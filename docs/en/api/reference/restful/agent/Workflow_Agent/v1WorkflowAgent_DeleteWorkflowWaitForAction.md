@@ -25,7 +25,7 @@ Deletes the WorkflowWaitForAction
 | WorkflowWaitForActionId | int32 | **Required** The id of the WorkflowWaitForAction to be deleted. |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction?WorkflowWaitForActionId=171
+POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction?WorkflowWaitForActionId=698
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

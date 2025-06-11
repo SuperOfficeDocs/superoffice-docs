@@ -26,7 +26,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=537
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=677
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,94 +106,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "et",
-  "SignOffText": "voluptate",
-  "SignOnConfirmationText": "et",
-  "SignOnText": "excepturi",
-  "EventDate": "2010-12-24T16:32:39.6490177+01:00",
+  "SignOffConfirmationText": "tenetur",
+  "SignOffText": "tenetur",
+  "SignOnConfirmationText": "consequuntur",
+  "SignOnText": "illo",
+  "EventDate": "2010-12-29T17:54:03.47644+01:00",
   "Enabled": false,
-  "CreatedDate": "2010-08-20T16:32:39.6490177+02:00",
+  "CreatedDate": "2020-12-07T17:54:03.47644+01:00",
   "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 451,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 425,
+  "SignOffTriggersAssign": true,
   "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 596,
+  "SignOnTaskId": 53,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2020-02-03T16:32:39.6490177+01:00",
+  "UpdatedDate": "2001-01-17T17:54:03.47644+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 476,
-  "Id": 301,
-  "PublishFrom": "2010-03-13T16:32:39.6490177+01:00",
+  "ProjectId": 659,
+  "Id": 75,
+  "PublishFrom": "2001-10-20T17:54:03.47644+02:00",
   "PublishType": "External",
-  "PublishTo": "2023-12-17T16:32:39.6490177+01:00",
+  "PublishTo": "2008-12-23T17:54:03.47644+01:00",
   "VisibleForCategories": [
     {
-      "Id": 740,
-      "Name": "Kuphal-Roberts",
-      "ToolTip": "Iste eos consectetur id sequi est.",
-      "Deleted": true,
-      "Rank": 426,
-      "Type": "adipisci",
+      "Id": 167,
+      "Name": "West-Luettgen",
+      "ToolTip": "Veniam et est ipsum blanditiis corporis.",
+      "Deleted": false,
+      "Rank": 520,
+      "Type": "magnam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 122,
-      "ExtraInfo": "asperiores",
-      "StyleHint": "suscipit",
-      "FullName": "Mathias Aufderhar",
+      "IconHint": "molestiae",
+      "ColorBlock": 384,
+      "ExtraInfo": "et",
+      "StyleHint": "blanditiis",
+      "FullName": "Beau Spencer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 902
+          "FieldLength": 233
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 251,
-      "Name": "Rohan LLC",
-      "ToolTip": "Placeat et molestiae deserunt autem.",
+      "Id": 500,
+      "Name": "Wilderman LLC",
+      "ToolTip": "Velit vero dolores consectetur aut aut et.",
       "Deleted": false,
-      "Rank": 891,
-      "Type": "commodi",
+      "Rank": 33,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "magni",
-      "ColorBlock": 199,
-      "ExtraInfo": "fugit",
-      "StyleHint": "repellendus",
-      "FullName": "Lorenza Brown",
+      "IconHint": "delectus",
+      "ColorBlock": 828,
+      "ExtraInfo": "earum",
+      "StyleHint": "tempore",
+      "FullName": "Murphy Beahan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 514
+          "FieldLength": 631
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 146,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 509,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 498
     }
   }
 }

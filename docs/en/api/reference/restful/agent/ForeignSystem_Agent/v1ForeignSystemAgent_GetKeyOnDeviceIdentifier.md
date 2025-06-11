@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rosenbaum-Hamill",
-  "DeviceName": "Green Group",
-  "DeviceIdentifier": "et",
-  "KeyName": "Daniel-Walsh",
-  "TableName": "Walter, Haley and Breitenberg",
-  "RecordId": 189
+  "ApplicationName": "Kuvalis, Stanton and Cartwright",
+  "DeviceName": "Terry-Crooks",
+  "DeviceIdentifier": "reiciendis",
+  "KeyName": "Quigley-Schamberger",
+  "TableName": "Carroll-Cronin",
+  "RecordId": 790
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "delectus",
-  "Value": "itaque",
-  "RecordId": 230,
-  "CreatedDate": "2001-11-17T16:32:39.1645096+01:00",
-  "UpdatedDate": "2000-03-15T16:32:39.1645096+01:00",
-  "UpdatedBy": "eius",
-  "CreatedBy": "aspernatur",
-  "TableName": "Willms, Dietrich and McDermott",
+  "Key": "molestias",
+  "Value": "minus",
+  "RecordId": 803,
+  "CreatedDate": "1999-05-15T17:54:03.1639551+02:00",
+  "UpdatedDate": "2001-05-13T17:54:03.1639551+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "ab",
+  "TableName": "Schroeder, Ruecker and Hand",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldType": "System.Int32",
+      "FieldLength": 799
     }
   }
 }

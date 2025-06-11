@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    176,
-    95
+    729,
+    543
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Schuppe, Goyette and Stanton",
-    "ToolTip": "Aspernatur eum molestiae quo dolorum rem temporibus sunt.",
-    "Deleted": false,
-    "Rank": 354,
-    "Type": "quis",
+    "Id": 343,
+    "Name": "Welch Group",
+    "ToolTip": "Asperiores repudiandae.",
+    "Deleted": true,
+    "Rank": 292,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Ebert LLC",
-        "ToolTip": "Ut facilis impedit.",
+        "Id": 48,
+        "Name": "Bauch, Bogan and Zulauf",
+        "ToolTip": "Enim necessitatibus voluptatem iste voluptas aut totam.",
         "Deleted": false,
-        "Rank": 285,
-        "Type": "animi",
+        "Rank": 442,
+        "Type": "illum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 404,
-        "ExtraInfo": "saepe",
-        "StyleHint": "quas",
-        "FullName": "Anna Morissette",
+        "IconHint": "velit",
+        "ColorBlock": 457,
+        "ExtraInfo": "id",
+        "StyleHint": "iste",
+        "FullName": "Mr. Ollie Ziemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 726
+            "FieldLength": 856
           }
         }
       }
     ],
-    "IconHint": "dicta",
-    "ColorBlock": 70,
-    "ExtraInfo": "veniam",
-    "StyleHint": "quia",
-    "FullName": "Graciela Carroll Sr.",
+    "IconHint": "earum",
+    "ColorBlock": 651,
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "velit",
+    "FullName": "Greg Turner DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldLength": 510
       }
     }
   }

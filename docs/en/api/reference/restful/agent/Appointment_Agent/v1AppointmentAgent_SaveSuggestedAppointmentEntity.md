@@ -52,7 +52,7 @@ The SuggestedAppointmentEntity to be saved.
 | Text | String | The suggested text of the new appointment |
 | ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
 | SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
-| Type | Task | Type of the suggested appointment |
+| Type | SoTask | Type of the suggested appointment |
 
 ## Response:
 
@@ -79,7 +79,7 @@ OK
 | Text | string | The suggested text of the new appointment |
 | ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
 | SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
-| Type | Task | Type of the suggested appointment |
+| Type | SoTask | Type of the suggested appointment |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 521,
-  "Name": "Reilly Inc and Sons",
-  "Tooltip": "odio",
-  "Rank": 163,
-  "Deleted": true,
-  "DaysFuture": 37,
-  "Duration": "ad",
+  "SuggestedAppointmentId": 700,
+  "Name": "Price, Russel and Rau",
+  "Tooltip": "minima",
+  "Rank": 756,
+  "Deleted": false,
+  "DaysFuture": 526,
+  "Duration": "accusantium",
   "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "officia",
+  "Text": "similique",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 304,
-  "Name": "Batz, Parker and Lowe",
-  "Tooltip": "cumque",
-  "Rank": 488,
-  "Deleted": false,
-  "DaysFuture": 188,
-  "Duration": "sit",
-  "AutoSuggest": true,
-  "IsMilestone": false,
+  "SuggestedAppointmentId": 852,
+  "Name": "Considine LLC",
+  "Tooltip": "non",
+  "Rank": 566,
+  "Deleted": true,
+  "DaysFuture": 12,
+  "Duration": "ducimus",
+  "AutoSuggest": false,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "beatae",
+  "Text": "enim",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 713
     }
   }
 }

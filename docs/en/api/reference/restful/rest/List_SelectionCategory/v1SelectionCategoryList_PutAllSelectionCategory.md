@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Carroll Inc and Sons",
-    "Tooltip": "distinctio",
-    "Deleted": false,
-    "UdListDefinitionId": 764,
-    "Rank": 698
+    "Id": 624,
+    "Name": "Hahn-Little",
+    "Tooltip": "non",
+    "Deleted": true,
+    "UdListDefinitionId": 181,
+    "Rank": 436
   },
   {
-    "Id": 940,
-    "Name": "Carroll Inc and Sons",
-    "Tooltip": "distinctio",
-    "Deleted": false,
-    "UdListDefinitionId": 764,
-    "Rank": 698
+    "Id": 624,
+    "Name": "Hahn-Little",
+    "Tooltip": "non",
+    "Deleted": true,
+    "UdListDefinitionId": 181,
+    "Rank": 436
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Bogan, Goldner and West",
-    "Tooltip": "hic",
+    "Id": 780,
+    "Name": "Hermann-Hilll",
+    "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 109,
-    "Rank": 61,
+    "UdListDefinitionId": 39,
+    "Rank": 321,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 451
       }
     }
   }

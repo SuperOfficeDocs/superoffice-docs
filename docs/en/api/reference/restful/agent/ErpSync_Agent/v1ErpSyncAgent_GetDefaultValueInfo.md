@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 316
+  "ErpFieldId": 217
 }
 ```
 
@@ -99,15 +99,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 390,
-  "DefaultValue": "maxime",
+  "ErpFieldId": 23,
+  "DefaultValue": "neque",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "quo",
-  "PromptUser": true,
+  "FirstSyncDefaultValue": "laboriosam",
+  "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "numquam",
+  "ErpFieldKey": "est",
   "FieldType": "Checkbox",
-  "ListName": "Osinski LLC",
+  "ListName": "Towne, Nitzsche and Oberbrunner",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {

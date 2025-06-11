@@ -100,7 +100,7 @@ OK
 GET /api/v1/Contact/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,160 +108,160 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 25 Apr 2007 16:32:47 G4T
+Last-Modified: Sun, 07 Mar 2021 17:54:08 G3T
 
 {
-  "ContactId": 524,
-  "Name": "Emard, Mann and Kuphal",
+  "ContactId": 353,
+  "Name": "Considine Inc and Sons",
   "Department": "",
-  "OrgNr": "1249018",
-  "Number1": "151979",
-  "Number2": "666025",
-  "UpdatedDate": "2007-04-25T16:32:47.2902636+02:00",
-  "CreatedDate": "2006-07-10T16:32:47.2902636+02:00",
+  "OrgNr": "823038",
+  "Number1": "1247815",
+  "Number2": "1692224",
+  "UpdatedDate": "2021-03-07T17:54:08.0699594+01:00",
+  "CreatedDate": "2023-10-17T17:54:08.0699594+02:00",
   "Emails": [
     {
-      "Value": "fugit",
-      "StrippedValue": "occaecati",
-      "Description": "Mandatory dynamic framework",
+      "Value": "et",
+      "StrippedValue": "voluptatibus",
+      "Description": "Polarised analyzing orchestration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 279
         }
       }
     },
     {
-      "Value": "fugit",
-      "StrippedValue": "occaecati",
-      "Description": "Mandatory dynamic framework",
+      "Value": "et",
+      "StrippedValue": "voluptatibus",
+      "Description": "Polarised analyzing orchestration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 279
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 433,
-      "Name": "Braun Inc and Sons",
-      "ToolTip": "Amet consectetur et et dolorem.",
+      "Id": 218,
+      "Name": "Wisoky-Bailey",
+      "ToolTip": "Nam tempore ab et sapiente vel dolore molestias.",
       "Deleted": false,
-      "Rank": 610,
-      "Type": "sit",
-      "ColorBlock": 62,
-      "IconHint": "neque",
+      "Rank": 362,
+      "Type": "et",
+      "ColorBlock": 404,
+      "IconHint": "beatae",
       "Selected": false,
-      "LastChanged": "2018-02-13T16:32:47.2902636+01:00",
+      "LastChanged": "2022-02-14T17:54:08.0699594+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "commodi",
+      "ExtraInfo": "ea",
+      "StyleHint": "nihil",
       "Hidden": false,
-      "FullName": "Rosalyn Chelsea Bernhard DDS",
+      "FullName": "Abe Kihn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldType": "System.Int32",
+          "FieldLength": 810
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ab",
-      "StrippedValue": "officiis",
-      "Description": "Reverse-engineered homogeneous analyzer",
+      "Value": "repellat",
+      "StrippedValue": "debitis",
+      "Description": "Focused background Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 989
         }
       }
     },
     {
-      "Value": "ab",
-      "StrippedValue": "officiis",
-      "Description": "Reverse-engineered homogeneous analyzer",
+      "Value": "repellat",
+      "StrippedValue": "debitis",
+      "Description": "Focused background Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 989
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "saepe",
-      "StrippedValue": "hic",
-      "Description": "Synergistic non-volatile superstructure",
+      "Value": "cum",
+      "StrippedValue": "et",
+      "Description": "Object-based next generation paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldType": "System.String",
+          "FieldLength": 510
         }
       }
     },
     {
-      "Value": "saepe",
-      "StrippedValue": "hic",
-      "Description": "Synergistic non-volatile superstructure",
+      "Value": "cum",
+      "StrippedValue": "et",
+      "Description": "Object-based next generation paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldType": "System.String",
+          "FieldLength": 510
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "aliquid",
-      "StrippedValue": "ut",
-      "Description": "Centralized reciprocal internet solution",
+      "Value": "sit",
+      "StrippedValue": "id",
+      "Description": "Operative heuristic analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldLength": 958
         }
       }
     },
     {
-      "Value": "aliquid",
-      "StrippedValue": "ut",
-      "Description": "Centralized reciprocal internet solution",
+      "Value": "sit",
+      "StrippedValue": "id",
+      "Description": "Operative heuristic analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldLength": 958
         }
       }
     }
   ],
-  "Description": "Self-enabling holistic concept",
+  "Description": "Advanced tangible pricing structure",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -270,101 +270,101 @@ Last-Modified: Wed, 25 Apr 2007 16:32:47 G4T
   "Country": null,
   "Persons": [
     {
-      "Position": "facilis",
-      "PersonId": 671,
-      "Mrmrs": "nam",
-      "Firstname": "Paige",
-      "Lastname": "Friesen",
-      "MiddleName": "Pfeffer-Hodkiewicz",
-      "Title": "non",
-      "Description": "Upgradable empowering synergy",
-      "Email": "margarette.bernier@schamberger.uk",
-      "FullName": "Miss Willard Maryse Moore",
-      "DirectPhone": "1-320-703-6829 x86884",
-      "FormalName": "Blanda LLC",
-      "CountryId": 453,
-      "ContactId": 177,
-      "ContactName": "Wiegand-Gottlieb",
-      "Retired": 263,
-      "Rank": 46,
-      "ActiveInterests": 721,
+      "Position": "aut",
+      "PersonId": 88,
+      "Mrmrs": "perspiciatis",
+      "Firstname": "Delia",
+      "Lastname": "Dickinson",
+      "MiddleName": "Wolff, Schoen and Kohler",
+      "Title": "suscipit",
+      "Description": "User-centric 6th generation migration",
+      "Email": "kris_oconner@volkmangleason.co.uk",
+      "FullName": "Miss Javier Niko Nikolaus",
+      "DirectPhone": "(309)210-8244 x70676",
+      "FormalName": "Barrows Inc and Sons",
+      "CountryId": 19,
+      "ContactId": 619,
+      "ContactName": "Kihn Inc and Sons",
+      "Retired": 660,
+      "Rank": 636,
+      "ActiveInterests": 61,
       "ContactDepartment": "",
-      "ContactCountryId": 260,
-      "ContactOrgNr": "1053516",
-      "FaxPhone": "(534)438-9391",
-      "MobilePhone": "300-513-0684 x64352",
-      "ContactPhone": "995.961.3126",
-      "AssociateName": "Hudson Inc and Sons",
-      "AssociateId": 723,
-      "UsePersonAddress": true,
-      "ContactFax": "nulla",
-      "Kanafname": "laborum",
-      "Kanalname": "ut",
-      "Post1": "omnis",
-      "Post2": "quibusdam",
-      "Post3": "sequi",
-      "EmailName": "eriberto@kshleringusikowski.name",
-      "ContactFullName": "Dr. Valentine Kariane Larkin DDS",
-      "ActiveErpLinks": 93,
-      "TicketPriorityId": 822,
-      "SupportLanguageId": 684,
-      "SupportAssociateId": 659,
+      "ContactCountryId": 864,
+      "ContactOrgNr": "1271326",
+      "FaxPhone": "1-598-271-4998 x196",
+      "MobilePhone": "515.950.9569 x06467",
+      "ContactPhone": "335.590.0951 x8619",
+      "AssociateName": "Braun-Walter",
+      "AssociateId": 130,
+      "UsePersonAddress": false,
+      "ContactFax": "expedita",
+      "Kanafname": "illum",
+      "Kanalname": "reprehenderit",
+      "Post1": "vitae",
+      "Post2": "dolores",
+      "Post3": "non",
+      "EmailName": "stan@considine.uk",
+      "ContactFullName": "Henderson Adams",
+      "ActiveErpLinks": 230,
+      "TicketPriorityId": 264,
+      "SupportLanguageId": 88,
+      "SupportAssociateId": 951,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1266828",
+      "PersonNumber": "544541",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 569
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "nemo",
-  "Xstop": false,
-  "ActiveInterests": 682,
-  "GroupId": 992,
-  "ActiveStatusMonitorId": 203,
+  "Kananame": "provident",
+  "Xstop": true,
+  "ActiveInterests": 301,
+  "GroupId": 348,
+  "ActiveStatusMonitorId": 727,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 628,
-  "DbiAgentId": 723,
-  "DbiLastSyncronized": "2003-01-04T16:32:47.2902636+01:00",
-  "DbiKey": "odit",
-  "DbiLastModified": "2015-01-19T16:32:47.2902636+01:00",
+  "Deleted": 772,
+  "DbiAgentId": 296,
+  "DbiLastSyncronized": "2005-11-29T17:54:08.0699594+01:00",
+  "DbiKey": "iste",
+  "DbiLastModified": "2022-01-29T17:54:08.0699594+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 999,
-  "ActiveErpLinks": 996,
+  "Source": 865,
+  "ActiveErpLinks": 498,
   "BounceEmails": [
-    "keenan@framimueller.ca",
-    "antonio@rodriguez.ca"
+    "axel_green@trantow.info",
+    "christelle@graham.us"
   ],
   "Domains": [
-    "numquam",
-    "qui"
+    "dolore",
+    "molestiae"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Ansley Quigley",
-    "SuperOffice:2": "Ola Prohaska MD"
+    "SuperOffice:1": "Watson Jast",
+    "SuperOffice:2": "718411320"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "animi",
-    "CustomFields2": "fugit"
+    "CustomFields1": "expedita",
+    "CustomFields2": "quisquam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 385
     }
   }
 }

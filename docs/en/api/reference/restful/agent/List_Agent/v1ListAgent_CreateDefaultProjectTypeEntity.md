@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 357,
-  "Name": "Reilly Inc and Sons",
-  "Tooltip": "earum",
-  "Rank": 433,
+  "ProjTypeId": 682,
+  "Name": "Anderson LLC",
+  "Tooltip": "qui",
+  "Rank": 966,
   "DurationUnit": "Century",
-  "ProjectDuration": 436,
+  "ProjectDuration": 381,
   "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 737,
-      "Name": "O'Kon-Wilderman",
-      "ToolTip": "Necessitatibus culpa doloribus quam.",
-      "Deleted": false,
-      "Rank": 108,
-      "Type": "est",
-      "ColorBlock": 794,
-      "IconHint": "est",
+      "Id": 481,
+      "Name": "Schmitt LLC",
+      "ToolTip": "Consequatur ut saepe ea.",
+      "Deleted": true,
+      "Rank": 933,
+      "Type": "quam",
+      "ColorBlock": 211,
+      "IconHint": "rem",
       "Selected": false,
-      "LastChanged": "2011-01-27T16:32:39.3051024+01:00",
+      "LastChanged": "2025-02-11T17:54:03.3045907+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "sunt",
+      "ExtraInfo": "animi",
+      "StyleHint": "commodi",
       "Hidden": false,
-      "FullName": "Agustina Tillman",
+      "FullName": "Estell Mueller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 348
+          "FieldLength": 738
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 231
     }
   }
 }

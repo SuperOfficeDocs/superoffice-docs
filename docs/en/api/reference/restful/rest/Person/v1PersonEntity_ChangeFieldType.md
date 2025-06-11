@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 142,
-  "ColumnId": 560,
-  "FieldDefault": "perferendis",
-  "FieldHeight": 835,
-  "FieldLabel": "aut",
-  "FieldLeft": 900,
-  "FieldTop": 650,
+  "UDefFieldId": 368,
+  "ColumnId": 151,
+  "FieldDefault": "ut",
+  "FieldHeight": 128,
+  "FieldLabel": "aspernatur",
+  "FieldLeft": 793,
+  "FieldTop": 340,
   "FieldType": "Checkbox",
-  "FieldWidth": 573,
-  "FormatMask": "cupiditate",
+  "FieldWidth": 214,
+  "FormatMask": "saepe",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 184,
-  "LabelLeft": 864,
-  "LabelTop": 827,
-  "LabelWidth": 253,
-  "LastVersionId": 944,
-  "ListTableId": 977,
+  "LabelHeight": 332,
+  "LabelLeft": 218,
+  "LabelTop": 659,
+  "LabelWidth": 578,
+  "LastVersionId": 261,
+  "ListTableId": 668,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 362,
-  "ProgId": "repellendus",
+  "Page1LineNo": 508,
+  "ProgId": "consequatur",
   "IsReadOnly": false,
-  "ShortLabel": "illo",
-  "TabOrder": 244,
-  "TextLength": 684,
-  "Tooltip": "culpa",
-  "UdefIdentity": 154,
-  "UDListDefinitionId": 134,
+  "ShortLabel": "similique",
+  "TabOrder": 492,
+  "TextLength": 597,
+  "Tooltip": "qui",
+  "UdefIdentity": 425,
+  "UDListDefinitionId": 534,
   "Justification": "Center",
-  "Version": 879,
-  "TemplateVariableName": "Hartmann LLC",
+  "Version": 527,
+  "TemplateVariableName": "Beier-Graham",
   "HasBeenPublished": false,
-  "MdoListName": "Bahringer, Cronin and Moen",
+  "MdoListName": "Osinski-Conn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 253
     }
   }
 }

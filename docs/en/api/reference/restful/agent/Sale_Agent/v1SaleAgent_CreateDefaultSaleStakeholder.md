@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Heidenreich, Altenwerth and Toy",
-  "Comment": "est",
-  "StakeholderRoleId": 398,
-  "CountryId": 139,
-  "PersonId": 352,
-  "EmailDescription": "enoch.lueilwitz@windler.name",
-  "EmailId": 723,
-  "EmailAddress": "cedrick.medhurst@eichmann.biz",
-  "PhoneId": 490,
-  "ContactName": "Ryan, McGlynn and Bruen",
-  "ContactId": 791,
-  "SaleId": 129,
-  "Mrmrs": "quis",
-  "Firstname": "Elouise",
-  "MiddleName": "Marvin, Pfannerstill and Stiedemann",
-  "Lastname": "Wolff",
-  "SaleStakeholderId": 210,
-  "Rank": 457,
-  "Phone": "207-883-5777 x5554",
+  "StakeholderRoleName": "Crooks LLC",
+  "Comment": "et",
+  "StakeholderRoleId": 185,
+  "CountryId": 885,
+  "PersonId": 555,
+  "EmailDescription": "vivianne@bayerwill.info",
+  "EmailId": 832,
+  "EmailAddress": "everette.botsford@welch.com",
+  "PhoneId": 895,
+  "ContactName": "Labadie LLC",
+  "ContactId": 868,
+  "SaleId": 393,
+  "Mrmrs": "tempora",
+  "Firstname": "David",
+  "MiddleName": "Stanton, Spinka and Thompson",
+  "Lastname": "Legros",
+  "SaleStakeholderId": 148,
+  "Rank": 576,
+  "Phone": "160-061-9785",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

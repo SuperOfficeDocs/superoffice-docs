@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Mante, Bayer and Yost",
-    "ToolTip": "Praesentium aspernatur aliquam totam velit dignissimos ea.",
+    "Id": 66,
+    "Name": "Hintz Inc and Sons",
+    "ToolTip": "Aperiam minus cumque.",
     "Deleted": false,
-    "Rank": 57,
-    "Type": "et",
-    "ColorBlock": 497,
-    "IconHint": "eum",
+    "Rank": 909,
+    "Type": "rem",
+    "ColorBlock": 569,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2018-07-31T16:32:48.5401806+02:00",
+    "LastChanged": "2008-09-10T17:54:08.8043048+02:00",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Jewess, Hilll and Von",
-        "ToolTip": "Sed ipsa at eius.",
-        "Deleted": true,
-        "Rank": 202,
-        "Type": "qui",
-        "ColorBlock": 363,
-        "IconHint": "atque",
-        "Selected": false,
-        "LastChanged": "2025-01-19T16:32:48.5401806+01:00",
+        "Id": 842,
+        "Name": "O'Hara, Lebsack and Ratke",
+        "ToolTip": "Commodi animi.",
+        "Deleted": false,
+        "Rank": 756,
+        "Type": "et",
+        "ColorBlock": 540,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "2018-12-30T17:54:08.8043048+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
+        "ExtraInfo": "sint",
         "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Miss Rosario Nickolas Bernhard"
+        "FullName": "Bette Reynolds"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "qui",
+    "ExtraInfo": "quis",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Joanne Marvin"
+    "FullName": "Rupert Armani Schowalter III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Kuphal LLC",
-    "ToolTip": "Cupiditate vero hic ratione sint sit sint ea.",
+    "Id": 686,
+    "Name": "Windler, Stiedemann and Mohr",
+    "ToolTip": "Officia alias aut dolorum qui harum.",
     "Deleted": false,
-    "Rank": 763,
-    "Type": "doloremque",
-    "ColorBlock": 589,
-    "IconHint": "laboriosam",
+    "Rank": 49,
+    "Type": "commodi",
+    "ColorBlock": 398,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2012-01-03T16:32:48.5401806+01:00",
+    "LastChanged": "1998-08-20T17:54:08.8043048+02:00",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Feest Group",
-        "ToolTip": "In dolorem.",
+        "Id": 972,
+        "Name": "Schultz, Douglas and Kihn",
+        "ToolTip": "Repellat aspernatur.",
         "Deleted": false,
-        "Rank": 612,
-        "Type": "sequi",
-        "ColorBlock": 613,
-        "IconHint": "iusto",
+        "Rank": 292,
+        "Type": "et",
+        "ColorBlock": 855,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2004-06-02T16:32:48.5401806+02:00",
+        "LastChanged": "2008-04-01T17:54:08.8043048+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "et",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Abe Treutel PhD",
+        "FullName": "Herminia Wehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 440
+            "FieldLength": 938
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Saige Skiles",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Wyman Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 142
+        "FieldType": "System.Int32",
+        "FieldLength": 493
       }
     }
   }

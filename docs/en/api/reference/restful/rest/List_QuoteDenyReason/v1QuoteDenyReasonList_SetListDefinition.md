@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 517,
-  "Name": "Spencer LLC",
-  "Tooltip": "illo",
-  "Deleted": false,
-  "Rank": 129,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 439,
+  "Name": "Roberts, Welch and Huels",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "Rank": 83,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "ListType": "blanditiis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 505,
-  "Name": "Purdy, Haley and Kautzer",
-  "Tooltip": "autem",
+  "Id": 643,
+  "Name": "Volkman, Sauer and Hodkiewicz",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 685,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": false,
+  "Rank": 791,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "assumenda",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=voluptas
+GET /api/v1/List/Position/MDOItems?query=eius
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Crist, Hahn and Strosin",
-    "ToolTip": "A odit facilis voluptatem aut nulla qui quam.",
+    "Id": 618,
+    "Name": "Considine, Schuppe and Braun",
+    "ToolTip": "Incidunt iure et quod.",
     "Deleted": false,
-    "Rank": 827,
-    "Type": "consequatur",
+    "Rank": 628,
+    "Type": "hic",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Oberbrunner, Howe and Cummings",
-        "ToolTip": "Officia rerum et sed tempore ullam ipsam dolor.",
-        "Deleted": false,
-        "Rank": 878,
-        "Type": "voluptate",
+        "Id": 295,
+        "Name": "Gottlieb Group",
+        "ToolTip": "Optio a.",
+        "Deleted": true,
+        "Rank": 951,
+        "Type": "eligendi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorum",
-        "ColorBlock": 453,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "animi",
-        "FullName": "Rossie Roob",
+        "IconHint": "deleniti",
+        "ColorBlock": 285,
+        "ExtraInfo": "optio",
+        "StyleHint": "dolorum",
+        "FullName": "Clyde Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldLength": 338
           }
         }
       }
     ],
-    "IconHint": "iusto",
-    "ColorBlock": 882,
-    "ExtraInfo": "assumenda",
-    "StyleHint": "consequuntur",
-    "FullName": "Miss Dewayne Nienow MD",
+    "IconHint": "sequi",
+    "ColorBlock": 322,
+    "ExtraInfo": "et",
+    "StyleHint": "deserunt",
+    "FullName": "Durward Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldType": "System.String",
+        "FieldLength": 191
       }
     }
   }

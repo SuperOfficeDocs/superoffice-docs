@@ -12,14 +12,14 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IDocumentMigrationAgent'>DocumentMigrationAgent</see> that can trigger server-side event scripts.
 
-* [CreateDefaultDocumentMigrationItemList](createdefaultdocumentmigrationitemlist.md)
-* [CreateDefaultDocumentTemplateMigrationList](createdefaultdocumenttemplatemigrationlist.md)
-* [GetForAllDocuments](getforalldocuments.md)
-* [GetForDateRange](getfordaterange.md)
-* [GetForSelection](getforselection.md)
-* [GetForTemplates](getfortemplates.md)
-* [GetNumberOfConfidentialDocuments](getnumberofconfidentialdocuments.md)
-* [HasDocumentsToMigrate](hasdocumentstomigrate.md)
-* [MigrateDocumentToNewDocPlugin](migratedocumenttonewdocplugin.md)
-* [MigrateTemplateToNewDocPlugin](migratetemplatetonewdocplugin.md)
+* [CreateDefaultDocumentMigrationItemListAsync](createdefaultdocumentmigrationitemlistasync.md)
+* [CreateDefaultDocumentTemplateMigrationListAsync](createdefaultdocumenttemplatemigrationlistasync.md)
+* [GetForAllDocumentsAsync](getforalldocumentsasync.md)
+* [GetForDateRangeAsync](getfordaterangeasync.md)
+* [GetForSelectionAsync](getforselectionasync.md)
+* [GetForTemplatesAsync](getfortemplatesasync.md)
+* [GetNumberOfConfidentialDocumentsAsync](getnumberofconfidentialdocumentsasync.md)
+* [HasDocumentsToMigrateAsync](hasdocumentstomigrateasync.md)
+* [MigrateDocumentToNewDocPluginAsync](migratedocumenttonewdocpluginasync.md)
+* [MigrateTemplateToNewDocPluginAsync](migratetemplatetonewdocpluginasync.md)
 
