@@ -25,13 +25,17 @@ Check out our **Product release** overview for more details in our [Community][3
 
 ### SuperOffice CRM
 
-* 11.1 (06.09.2025):
+* 11.2 (17.06.2025):
+  * [Selection - Board view for sales][4] in Core CRM and Sales
+  * [Request - Reply tools in Request properties][5] in Service
+
+* 11.1 (09.06.2025):
   * [System design - Setting a field as read-only][1] in Settings and maintenance
   * [Request - Search will give same result as in navigator search][3] in Service
 
 ### Mobile CRM
 
-* [Version 11.1][15] (06.10.2025)
+* [Version 11.1][15] (10.06.2025)
 
 ## Product integrations - Details of new features
 
@@ -59,6 +63,8 @@ Check out the overview for of the [App Store][34] and all the [new or updated ap
 <!-- Referenced links -->
 [1]: admin/11.1-update.md
 [3]: service/11.1-update.md
+[4]: core-crm/11.2-update.md
+[5]: service/11.2-update.md
 [13]: ../integrations/index.md
 [15]: ../mobile/index.md
 [17]: ../index.md
