@@ -3,7 +3,7 @@ uid: help-nl-webtools
 title: WebTools
 description: Inleiding tot SuperOffice WebTools.
 author: SuperOffice RnD, Miriam Eirin Hiorth Johnson, Bergfrid Dias
-date: 12.04.2023
+date: 28.05.2025
 keywords: WebTools, document, email, Mail Link
 topic: concept
 language: nl
@@ -76,7 +76,7 @@ Dubbelklik op de SuperOffice-uil in uw werkbalk om WebTools te openen op een Mac
 
 ## Gerelateerde inhoud
 
-* [SuperOffice Inbox gebruiken][7] - FAQ
+* [SuperOffice Inbox gebruiken][7]
 * [E-mail, documenten en agenda verbinden][8]
 * [Een e-mail opslaan in SuperOffice CRM][4]
 * [Document maken in SuperOffice CRM][5]
@@ -88,7 +88,7 @@ Dubbelklik op de SuperOffice-uil in uw werkbalk om WebTools te openen op een Mac
 [3]: https://community.superoffice.com/no/support-faqs/faq/what-to-do-when-superoffice-archiving-button-has-disappeared-from-outlook/
 [4]: ../../email/learn/index.md
 [5]: ../../document/learn/create.md
-[7]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-the-superoffice-inbox/
+[7]: ../../email/inbox/learn/index.md
 [8]: ../../learn/getting-started/connect-email-doc/index.md
 [9]: https://community.superoffice.com/en/product-releases/nyheter/produkt/document-locking/
 [10]: ../../../en/ui/soprotocol/index.md

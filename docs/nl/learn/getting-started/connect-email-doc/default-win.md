@@ -4,8 +4,8 @@ title: SuperOffice als jouw oplossing (Windows)
 description: Hoe je je e-mailaccount, documenten en agenda verbindt met SuperOffice op Windows.
 keywords: e-mail, document, agenda, uitnodigingen, Windows
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -27,7 +27,7 @@ Kies een van de volgende opties:
 
 * [WebTools][2] (standaard).
 
-* [SuperOffice Inbox][1] - als je geen WebTools kunt gebruiken. [Bekijk deze video om aan de slag te gaan][10].
+* [SuperOffice Inbox][1] - als je geen WebTools kunt gebruiken.
 
 * [!include[SuperOffice voor Outlook](includes/why-superoffice-for-outlook.md)]
 
@@ -47,4 +47,3 @@ Kies een van de volgende opties:
 [1]: ../../../email/inbox/learn/setup.md
 [2]: ../../../webtools/learn/install.md
 [9]: default-mac.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A

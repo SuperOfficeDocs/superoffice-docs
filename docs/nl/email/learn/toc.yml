@@ -1,8 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: E-mail opstellen
-  href: compose.md
 - name: Standaard-e-mailclient wijzigen in SuperOffice
   href: change-default-mail-client.md
 - name: Postvak IN

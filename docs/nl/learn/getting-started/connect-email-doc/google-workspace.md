@@ -4,8 +4,8 @@ title: Google Workspace als jouw oplossing
 description: Hoe je je Google Workspace e-mailaccount, documenten en agenda verbindt met SuperOffice.
 keywords: Google Workspace, Gmail, e-mail, document, agenda, uitnodigingen
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -22,7 +22,7 @@ Met Google Workspace als jouw oplossing zijn er verschillende manieren om je e-m
 
 Kies een van de volgende opties:
 
-* [SuperOffice Inbox][1] (standaard). [Bekijk deze video om aan de slag te gaan][10].
+* [SuperOffice Inbox][1] (standaard).
 
 * [Gmail Link-integratie][2] - als je al Gmail gebruikt en toegang wilt krijgen tot belangrijke informatie en functies van SuperOffice direct in je e-mail en e-mails wilt archiveren in SuperOffice.
 
@@ -51,5 +51,4 @@ Kies een van de volgende opties:
 [1]: ../../../email/inbox/learn/setup.md
 [2]: ../../../email/gmail-link/learn/index.md
 [3]: ../../../../en/document/cloud/g-suite/index.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A
 [11]: http://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link
