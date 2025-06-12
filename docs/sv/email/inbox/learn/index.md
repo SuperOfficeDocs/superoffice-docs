@@ -56,7 +56,7 @@ Inkorgens skärmbild är uppdelad i två delar:
 * [Arkivera e-post och bilagor][4]
 * [Skapa händelser från e-post][5]
 
-<!-- Refererade länkar -->
+<!-- Referenced links -->
 [1]: setup.md
 [2]: preview.md
 [3]: compose.md
@@ -64,5 +64,5 @@ Inkorgens skärmbild är uppdelad i två delar:
 [5]: create-task.md
 [8]: ../../learn/index.md
 
-<!-- Refererade bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-preview-message.png

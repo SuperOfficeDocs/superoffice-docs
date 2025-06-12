@@ -74,13 +74,13 @@ Du kan också välja **Ladda ned** för att spara filen på din enhet.
 * [Skapa ärende][5]
 * [Hantera avsändare][2]
 
-<!-- Refererade länkar -->
+<!-- Referenced links -->
 [1]: ../../../document/learn/create.md#fields
 [2]: manage-senders.md
 [3]: preview.md
 [4]: create-task.md
 [5]: create-request.md
 
-<!-- Refererade bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-archive-button.png
 [img2]: ../../../../media/loc/en/email/document-dialog-somail.png

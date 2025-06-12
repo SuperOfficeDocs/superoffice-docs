@@ -42,6 +42,6 @@ Händelsen läggs till i din kalender och meddelandet tas bort från inkorgen.
 * [Arkivera e-post][1]
 * [Om förfrågningar][2]
 
-<!-- Refererade länkar -->
+<!-- Referenced links -->
 [1]: archive.md#attachment
 [2]: ../../../diary/learn/invitation/index.md

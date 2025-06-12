@@ -105,14 +105,14 @@ Du kan koppla bort det aktuella e-postkontot och valfritt ansluta ett nytt konto
 * [Så här skapar du ett applösenord i Google för tvåstegsverifiering med SuperOffice Inkorg][12] – FAQ
 * [Ändra standard e-postklient i SuperOffice][8]
 
-<!-- Refererade länkar -->
+<!-- Referenced links -->
 [1]: ../../../contact/learn/index.md
 [8]: ../../learn/change-default-mail-client.md
 [9]: ../../../webtools/learn/index.md
 [11]: https://learn.microsoft.com/en-au/exchange/troubleshoot/user-and-shared-mailboxes/pop3-imap-owa-activesync-office-365
 [12]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-generate-a-googleapp-password-to-use-2-step-verification-with-superoffice-inbox/
 
-<!-- Refererade bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-setup-dialog.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png
 [img6]: ../../../../media/loc/en/email/email-options-account.png

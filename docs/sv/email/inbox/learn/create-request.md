@@ -41,11 +41,11 @@ Du kan skapa ett nytt ärende i SuperOffice Service baserat på avsändaren och 
 * [Skapa uppgift][2]
 * [Om ärenden][3]
 
-<!-- Refererade länkar -->
+<!-- Referenced links -->
 [1]: archive.md
 [2]: create-task.md
 [3]: ../../../request/learn/index.md
 [4]: ../../../request/learn/create.md#fields
 
-<!-- Refererade bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-create-request.png

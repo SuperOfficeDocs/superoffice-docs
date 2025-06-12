@@ -50,10 +50,10 @@ När avsändaren inte känns igen visas en gul informationsruta ovanför förhan
 * [Arkivera e-post][2]
 * [Om personer][3]
 
-<!-- Refererade länkar -->
+<!-- Referenced links -->
 [2]: archive.md
 [3]: ../../../contact/learn/index.md
 
-<!-- Refererade bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-unknown-sender.png
 [img2]: ../../../../media/loc/en/email/inbox-add-contact.png

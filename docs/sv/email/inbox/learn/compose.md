@@ -144,7 +144,7 @@ Så här kommer du åt inställningarna:
 * [Arkivera e-postmeddelanden][1]
 * [Redigera e-postsignatur][3]
 
-<!-- Refererade länkar -->
+<!-- Referenced links -->
 [1]: archive.md
 [2]: create-request.md
 [3]: ../../../learn/getting-started/edit-email-signature.md
@@ -152,7 +152,7 @@ Så här kommer du åt inställningarna:
 [5]: ../../../request/reply-templates/learn/index.md
 [6]: ../../../admin/lists/learn/add-email-template.md
 
-<!-- Refererade bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-new-email.png
 [img2]: ../../../../media/loc/en/email/inbox-insert-options.png
 [img3]: ../../../../media/loc/en/email/add-quick-reply.png

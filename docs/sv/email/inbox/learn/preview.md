@@ -108,7 +108,7 @@ Mappstrukturen hämtas från din e-postleverantör (till exempel Outlook eller G
 * [Skapa uppgift][4]
 * [Skapa ärende][5]
 
-<!-- Refererade länkar -->
+<!-- Referenced links -->
 [1]: manage-senders.md
 [2]: archive.md#attachment
 [3]: invitations.md
@@ -116,7 +116,7 @@ Mappstrukturen hämtas från din e-postleverantör (till exempel Outlook eller G
 [5]: create-request.md
 [9]: ../../../contact/learn/index.md
 
-<!-- Refererade bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-preview-message.png
 [img2]: ../../../../media/loc/en/email/email-options-general.png
 [img3]: ../../../../media/loc/en/email/inbox-message-task-menu.png

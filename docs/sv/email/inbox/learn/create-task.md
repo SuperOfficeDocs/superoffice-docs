@@ -45,11 +45,11 @@ Du kan snabbt skapa en uppföljning (att göra) baserat på ett e-postmeddelande
 * [Skapa ärende][2]
 * [Om händelser][4]
 
-<!-- Refererade länkar -->
+<!-- Referenced links -->
 [1]: archive.md
 [2]: create-request.md
 [3]: ../../../diary/learn/create-follow-up.md#fields
 [4]: ../../../diary/learn/follow-ups.md
 
-<!-- Refererade bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-create-task.png
