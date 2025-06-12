@@ -23,7 +23,7 @@ Så här sparar du ett mottaget e-postmeddelande i SuperOffice:
 
 1. Markera ett meddelande i inkorgen.
 
-1. Klicka på knappen **Arkiv** (<i class="ph ph-archive" aria-hidden="true"></i>) och välj **Arkivera e-postmeddelande**.
+1. Klicka på knappen **Arkivera** (<i class="ph ph-archive" aria-hidden="true"></i>) och välj **Arkivera e-postmeddelande**.
 
    ![Arkivmeny i inkorgen med alternativen Arkivera e-post, Skapa uppgift och Skapa ärende -screenshot][img1]
 
@@ -59,7 +59,7 @@ Du kan även arkivera enskilda bilagor separat från själva e-postmeddelandet.
 1. Markera meddelandet i inkorgen.
 1. Under e-posthuvudet visas listan med bilagor.
 1. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> bredvid filnamnet.
-1. Välj **Arkiv** i menyn.
+1. Välj **Arkivera** i menyn.
 
     [Dialogrutan Dokument][1] öppnas med filen bifogad.
 

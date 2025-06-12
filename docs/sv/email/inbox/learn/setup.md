@@ -90,7 +90,7 @@ Du kan koppla bort det aktuella e-postkontot och valfritt ansluta ett nytt konto
 
 * Inkorgen i SuperOffice stöder **inte POP3**. Endast IMAP är tillåtet.
 
-* Om inkorgen inte uppdateras kan din e-postleverantör blockera anslutningen.
+* Om inkorgen inte uppdateras kan det bero på att din e-postleverantör blockerar anslutningen.
   * Kontrollera om du har fått ett meddelande om ett blockerat eller obehörigt inloggningsförsök.
   * Följ instruktionerna för att ge SuperOffice åtkomst till kontot.
 

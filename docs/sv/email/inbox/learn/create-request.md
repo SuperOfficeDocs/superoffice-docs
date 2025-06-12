@@ -21,7 +21,7 @@ Du kan skapa ett nytt ärende i SuperOffice Service baserat på avsändaren och 
 
 1. Markera ett meddelande i inkorgen.
 
-1. Klicka på knappen **Arkiv** (<i class="ph ph-archive" aria-hidden="true"></i>) och välj **Skapa ärende**.
+1. Klicka på knappen **Arkivera** (<i class="ph ph-archive" aria-hidden="true"></i>) och välj **Skapa ärende**.
 
 1. Dialogrutan **Skapa ärende** öppnas med fält som är förifyllda utifrån e-posten:
 

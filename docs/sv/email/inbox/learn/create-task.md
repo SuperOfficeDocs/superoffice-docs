@@ -21,7 +21,7 @@ Du kan snabbt skapa en uppföljning (att göra) baserat på ett e-postmeddelande
 
 1. Markera ett meddelande i inkorgen.
 
-1. Klicka på knappen **Arkiv** (<i class="ph ph-archive" aria-hidden="true"></i>) och välj **Skapa uppgift**.
+1. Klicka på knappen **Arkivera** (<i class="ph ph-archive" aria-hidden="true"></i>) och välj **Skapa uppgift**.
 
 1. Om avsändaren är okänd öppnas dialogrutan **Lägg till kontakt i SuperOffice**.
 

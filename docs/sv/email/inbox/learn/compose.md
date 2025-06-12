@@ -2,7 +2,7 @@
 uid: help-sv-email-inbox-compose
 title: Skriva e-post
 description: Läs om hur du skriver och skickar e-post med inkorgen i SuperOffice
-keywords: skriva e-post, ny e-post, e-postmeddelanden
+keywords: skriva e-post, ny e-post, nytt e-postmeddelande, e-postmeddelanden
 author: Bergfrid Dias
 date: 05.28.2025
 version: 10.5
@@ -19,17 +19,17 @@ Använd inkorgen i SuperOffice för att skriva nya meddelanden och svara på ink
 
 ## Skapa ett nytt e-postmeddelande
 
-1. Klicka på **Ny e-post** uppe till vänster i inkorgen.
+1. Klicka på **Nytt e-postmeddelande** uppe till vänster i inkorgen.
 
     * Du kan också klicka på **Nytt** i det toppraden och välja **E-post**.
 
-1. I dialogrutan **Ny e-post**:
+1. I dialogrutan **Nytt e-postmeddelande**:
 
     * Börja skriva ett namn eller en e-postadress i fältet **Till** och välj ett resultat från söklistan. Alternativt kan du klicka på <i class="ph ph-clock" aria-label="History list icon"></i> för att välja en kontakt från historiken.
     * Klicka på **Kopia/Hemlig kopia** för att lägga till fler mottagare.
     * Ange ett ämne.
 
-    ![Dialogrutan Ny e-post -screenshot][img1]
+    ![Dialogrutan Nytt e-postmeddelande -screenshot][img1]
 
 1. Skriv ditt meddelande i huvudfältet.
 
@@ -134,7 +134,7 @@ Så här kommer du åt inställningarna:
 | Alternativ | Beskrivning |
 |---|---|
 | **Använd signatur i ny e-post** | Infogar din [personliga signatur][3] automatiskt i nya meddelanden. |
-| **Använd signatur för Svara/Vidarebefordra** | Lägger till signaturen vid svar och vidarebefordran. |
+| **Använd signatur för svar/vidarebefordran** | Lägger till signaturen vid svar och vidarebefordran. |
 | **Teckensnitt/storlek/färg** | Ställer in standardformat för meddelanden. |
 | **Mall för utgående e-post** | Anger standardmall vid nya meddelanden. |
 | **Spara kopia av skickat e-postmeddelande** | Sparar skickade meddelanden i mappen **Skickat** (standard). |
