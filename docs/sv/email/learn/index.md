@@ -21,7 +21,7 @@ Inkorgsfunktionen i SuperOffice CRM ser olika ut beroende på vilken SuperOffice
 
 * [Inkorgen i SuperOffice][1]
 * [Gmail Link][2] – SuperOffice Gmail Link
-* [SuperOffice Mail Link][6] – SuperOffice Mail Link (Outlook- och Notes-integrering)
+* [SuperOffice Mail Link][6] – SuperOffice Mail Link (Outlook-integrering)
 
 ## Skicka ett e-postmeddelande
 
